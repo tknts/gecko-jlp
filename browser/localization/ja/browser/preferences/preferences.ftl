@@ -23,12 +23,12 @@ search-input-box2 =
     .style = width: 15.4em
     .placeholder = 設定を検索
 
-managed-notice = ご使用のブラウザはあなたの所属組織に管理されています。
+managed-notice = ご使用のブラウザーはあなたの所属組織に管理されています。
 
 category-list =
     .aria-label = カテゴリー
 
-pane-general-title = 全般
+pane-general-title = 一般
 category-general =
     .tooltiptext = { pane-general-title }
 
@@ -40,17 +40,17 @@ pane-search-title = 検索
 category-search =
     .tooltiptext = { pane-search-title }
 
-pane-privacy-title = プライバシとセキュリティ
+pane-privacy-title = プライバシーとセキュリティ
 category-privacy =
     .tooltiptext = { pane-privacy-title }
 
-pane-sync-title3 = Sync
+pane-sync-title3 = 同期
 category-sync3 =
     .tooltiptext = { pane-sync-title3 }
 
-pane-experimental-title = { -brand-short-name } Experiments
+pane-experimental-title = { -brand-short-name } の実験的機能
 category-experimental =
-    .tooltiptext = { -brand-short-name } Experiments
+    .tooltiptext = { -brand-short-name } の実験的機能
 pane-experimental-subtitle = Proceed with Caution
 pane-experimental-search-results-header = { -brand-short-name } Experiments: Proceed with Caution
 pane-experimental-description2 = Changing advanced configuration settings can impact { -brand-short-name } performance or security.
@@ -73,9 +73,9 @@ close-button =
 feature-enable-requires-restart = この機能を有効にするには { -brand-short-name } を再起動する必要があります。
 feature-disable-requires-restart = この機能を無効にするには { -brand-short-name } を再起動する必要があります。
 should-restart-title = { -brand-short-name } の再起動
-should-restart-ok = 今すぐ { -brand-short-name } を再起動
+should-restart-ok = { -brand-short-name } を今すぐ再起動
 cancel-no-restart-button = キャンセル
-restart-later = 後でで再起動
+restart-later = 後で再起動
 
 ## Extension Control Notifications
 ##
@@ -105,7 +105,7 @@ extension-controlling-websites-content-blocking-all-trackers = <img data-l10n-na
 
 # This string is shown to notify the user that their proxy configuration preferences
 # are being controlled by an extension.
-extension-controlling-proxy-config = <img data-l10n-name ="icon"/> <strong>{ $name }</strong> が { -brand-short-name } のインターネット接続方法の設定を制御しています。
+extension-controlling-proxy-config = <img data-l10n-name ="icon"/> <strong>{ $name }</strong> が { -brand-short-name } のインターネット接続方法を制御しています。
 
 # This string is shown after the user disables an extension to notify the user
 # how to enable an extension that they disabled.
@@ -132,7 +132,7 @@ always-check-default =
     .label = 起動時に { -brand-short-name } が既定のブラウザーか確認する
     .accesskey = y
 
-is-default = 既定のブラウザは { -brand-short-name } です
+is-default = 既定のブラウザーは { -brand-short-name } です
 is-not-default = { -brand-short-name } は既定のブラウザーに設定されていません
 
 set-as-my-default-browser =
@@ -160,7 +160,7 @@ open-new-link-as-tabs =
     .accesskey = w
 
 confirm-on-close-multiple-tabs =
-    .label = 複数のタブを閉じる前に確認する
+    .label = 同時に複数のタブを閉じる前に確認する
     .accesskey = m
 
 # This string is used for the confirm before quitting preference.
@@ -169,15 +169,15 @@ confirm-on-close-multiple-tabs =
 #                       in the same manner as it would appear,
 #                       for example, in the File menu.
 confirm-on-quit-with-key =
-    .label = { $quitKey } で終了する時は確認する
+    .label = { $quitKey } キーで終了する前に確認する
     .accesskey = b
 
 warn-on-open-many-tabs =
-    .label = 複数のタブを開く事で { -brand-short-name } が遅くなる可能性がある場合に警告する
+    .label = 同時に複数のタブを開く事で { -brand-short-name } の動作が遅くなるときは警告する
     .accesskey = d
 
 switch-to-new-tabs =
-    .label = 新しいタブでリンク、画像、またはメディアを開いたら、すぐに切り替える 
+    .label = 新しいタブでリンク、画像、メディアを開いたら、すぐにそのタブに切り替える 
     .accesskey = h
 
 show-tabs-in-taskbar =
@@ -227,7 +227,7 @@ language-and-appearance-header = 言語と外観
 
 preferences-web-appearance-header = ウェブサイトの外観
 
-preferences-web-appearance-description = 一部のウェブサイトでは設定に基づいて配色を調整します。 それらのサイトに使用する配色を選択してください。
+preferences-web-appearance-description = 一部のウェブサイトでは、あなたの設定をもとに配色を適用します。それらのサイトに使用する配色を選択してください。
 
 preferences-web-appearance-choice-browser = { -brand-short-name } のテーマ
 preferences-web-appearance-choice-system = システムの設定
@@ -558,7 +558,7 @@ performance-default-content-process-count =
 
 ## General Section - Browsing
 
-browsing-title = ブラウズ
+browsing-title = ブラウジング
 
 browsing-use-autoscroll =
     .label = 自動スクロール機能を使用する
@@ -569,7 +569,7 @@ browsing-use-smooth-scrolling =
     .accesskey = m
 
 browsing-gtk-use-non-overlay-scrollbars =
-    .label = 常にスクロールバーを表示する
+    .label = スクロールバーを常に表示する
     .accesskey = o
 
 browsing-use-onscreen-keyboard =
@@ -681,7 +681,7 @@ home-prefs-shortcuts-by-option-sponsored =
 
 home-prefs-recommended-by-header =
     .label = { $provider } からのおすすめ
-home-prefs-recommended-by-description-new = Exceptional content curated by { $provider }, part of the { -brand-product-name } family
+home-prefs-recommended-by-description-new = { -brand-product-name } ファミリーを構成する { $provider } が厳選した注目のコンテンツ
 
 ##
 
@@ -700,7 +700,7 @@ home-prefs-highlights-option-saved-to-pocket =
 
 home-prefs-recent-activity-header =
     .label = 最近のアクティビティ
-home-prefs-recent-activity-description = A selection of recent sites and content
+home-prefs-recent-activity-description = 最近のサイトとコンテンツの抜粋
 
 # For the "Snippets" feature traditionally on about:home.
 # Alternative translation options: "Small Note" or something that
@@ -753,9 +753,9 @@ search-show-suggestions-above-history-option =
     .label = アドレスバーの結果に検索候補を優先して表示する
 
 search-show-suggestions-private-windows =
-    .label = プライベート ウィンドウーで検索候補を表示する
+    .label = プライベート ウィンドウで検索候補を表示する
 
-suggestions-addressbar-settings-generic2 = Change settings for other address bar suggestions
+suggestions-addressbar-settings-generic2 = その他のアドレスバーの入力候補の設定を変更する
 
 search-suggestions-cant-show = { -brand-short-name } は履歴を保存しない設定になっているため、検索候補はロケーションバーに検索候補は表示されません。
 
@@ -799,7 +799,7 @@ containers-add-button =
     .accesskey = A
 
 containers-new-tab-check =
-    .label = 新しいタブごとにコンテナーを選択します
+    .label = 新しいタブごとにコンテナーを選択する
     .accesskey = S
 
 containers-settings-button =
@@ -825,7 +825,7 @@ sync-signedout-account-signin3 =
 #
 # They can be moved within the sentence as needed to adapt
 # to your language, but should not be changed or translated.
-sync-mobile-promo = Download Firefox for <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> or <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> to sync with your mobile device.
+sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> または <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> をダウンロードしてモバイル端末と同期しましょう。
 
 ## Firefox Account - Signed in
 
@@ -876,11 +876,11 @@ prefs-sync-now =
 sync-currently-syncing-heading = これらの項目を同期しています:
 
 sync-currently-syncing-bookmarks = ブックマーク
-sync-currently-syncing-history = 履歴
-sync-currently-syncing-tabs = 開いたタブ
-sync-currently-syncing-logins-passwords = ログインとパスワード
+sync-currently-syncing-history = 表示履歴
+sync-currently-syncing-tabs = 開いているタブ
+sync-currently-syncing-logins-passwords = ログイン情報とパスワード
 sync-currently-syncing-addresses = 住所
-sync-currently-syncing-creditcards = クレジットカード
+sync-currently-syncing-creditcards = クレジットカード情報
 sync-currently-syncing-addons = アドオン
 sync-currently-syncing-settings = 設定
 
@@ -907,12 +907,12 @@ sync-engine-history =
     .accesskey = r
 
 sync-engine-tabs =
-    .label = 開いたタブ
-    .tooltiptext = 同期中のすべての機器で開かれている物の一覧
+    .label = 開いているタブ
+    .tooltiptext = 同期中のすべての端末で開かれているタブの一覧
     .accesskey = t
 
 sync-engine-logins-passwords =
-    .label = ログインとパスワード
+    .label = ログイン情報とパスワード
     .tooltiptext = あなたが保存したユーザー名とパスワード
     .accesskey = L
 
@@ -1322,7 +1322,7 @@ collection-header = { -brand-short-name } によるデータの収集と使用
 collection-description = 私たちはあなたに選択肢を提供し { -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。常に私たちは個人情報を受け取る前にあなたの許可を求めます。
 collection-privacy-notice = プライバシーポリシー
 
-collection-health-report-telemetry-disabled = You’re no longer allowing { -vendor-short-name } to capture technical and interaction data. All past data will be deleted within 30 days.
+collection-health-report-telemetry-disabled = { -vendor-short-name } への技術的な対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
 collection-health-report-telemetry-disabled-link = さらに詳しく
 
 collection-health-report =
@@ -1387,7 +1387,7 @@ space-alert-over-5gb-settings-button =
     .label = 設定を開く
     .accesskey = O
 
-space-alert-over-5gb-message2 = <strong>{ -brand-short-name } is running out of disk space.</strong> Website contents may not display properly. You can clear stored data in Settings > Privacy & Security > Cookies and Site Data.
+space-alert-over-5gb-message2 = <strong>{ -brand-short-name } のディスク容量が不足しています。</strong> ウェブサイトのコンテンツが正しく表示されない場合があります。保存されたデータは [設定] > [プライバシーとセキュリティ] > [Cookies とサイトデータ] で消去できます。
 
 space-alert-under-5gb-message2 = <strong>{ -brand-short-name } を実行するためのディスク領域が足りません。</strong> ウェブサイトが正しく表示されない可能性があります。快適なブラウジングのために“さらに詳しく”を読み、ディスクの使用量を最適化してください。
 
