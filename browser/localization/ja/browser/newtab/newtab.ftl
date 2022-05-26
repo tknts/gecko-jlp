@@ -105,7 +105,7 @@ newtab-menu-topsites-placeholder-tooltip =
 newtab-menu-edit-topsites = 編集
 newtab-menu-open-new-window = 新しいウィンドウで開く
 newtab-menu-open-new-private-window = 新しいプライベート ウィンドウで開く
-newtab-menu-dismiss = Dismiss
+newtab-menu-dismiss = 削除
 newtab-menu-pin = 固定
 newtab-menu-unpin = 固定を解除
 newtab-menu-delete-history = 履歴から削除
@@ -190,7 +190,7 @@ newtab-section-menu-add-topsite = トップサイトを追加
 newtab-section-menu-add-search-engine = 検索エンジンを追加
 newtab-section-menu-move-up = 上へ移動
 newtab-section-menu-move-down = 下へ移動
-newtab-section-menu-privacy-notice = Privacy Notice
+newtab-section-menu-privacy-notice = プライバシー告知
 
 ## Section aria-labels
 
@@ -219,8 +219,8 @@ newtab-empty-section-topstories = You’ve caught up. Check back later for more 
 ## Empty Section (Content Discovery Experience). These show when there are no more stories or when some stories fail to load.
 
 newtab-discovery-empty-section-topstories-header = You are caught up!
-newtab-discovery-empty-section-topstories-content = Check back later for more stories.
-newtab-discovery-empty-section-topstories-try-again-button = Try Again
+newtab-discovery-empty-section-topstories-content = その他の記事については、後でもう一度確認してください。
+newtab-discovery-empty-section-topstories-try-again-button = もう一度
 newtab-discovery-empty-section-topstories-loading = 読み込み中…
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = Oops! We almost loaded this section, but not quite.
@@ -229,19 +229,19 @@ newtab-discovery-empty-section-topstories-timed-out = Oops! We almost loaded thi
 
 # This is shown at the bottom of the trending stories section and precedes a list of links to popular topics.
 newtab-pocket-read-more = 人気の話題:
-newtab-pocket-new-topics-title = Want even more stories? See these popular topics from { -pocket-brand-name }
+newtab-pocket-new-topics-title = さらに多くの記事を必要としていますか? { -pocket-brand-name } から人気のある話題を参照してください
 newtab-pocket-more-recommendations = その他のおすすめ
 newtab-pocket-learn-more = さらに詳しく
 newtab-pocket-cta-button = { -pocket-brand-name } を入手
 newtab-pocket-cta-text = お気に入りに記事を { -pocket-brand-name } に保存して、魅力的な読み物を思う存分楽しみましょう。
-newtab-pocket-pocket-firefox-family = { -pocket-brand-name } is part of the { -brand-product-name } family
+newtab-pocket-pocket-firefox-family = { -pocket-brand-name } は { -brand-product-name } ファミリーの一員です
 
 # A save to Pocket button that shows over the card thumbnail on hover.
 newtab-pocket-save-to-pocket = { -pocket-brand-name } に保存
-newtab-pocket-saved-to-pocket = Saved to { -pocket-brand-name } 
+newtab-pocket-saved-to-pocket = { -pocket-brand-name } に保存済み
 
 # This is a button shown at the bottom of the Pocket section that loads more stories when clicked.
-newtab-pocket-load-more-stories-button = Load more stories
+newtab-pocket-load-more-stories-button = その他の記事を読み込む
 
 ## Pocket Final Card Section.
 ## This is for the final card in the Pocket grid.
@@ -260,17 +260,17 @@ newtab-error-fallback-refresh-link = ページを再読み込みしてもう一�
 ## Customization Menu
 
 newtab-custom-shortcuts-title = ショートカット
-newtab-custom-shortcuts-subtitle = Sites you save or visit
+newtab-custom-shortcuts-subtitle = あなたが保存または訪問したサイト
 newtab-custom-row-selector =
         { $num ->
-            [one] { $num } row
-           *[other] { $num } rows
+            [one] { $num } 行
+           *[other] { $num } 行
         }
-newtab-custom-sponsored-sites = Sponsored shortcuts
-newtab-custom-pocket-title = Recommended by { -pocket-brand-name }
-newtab-custom-pocket-subtitle = Exceptional content curated by { -pocket-brand-name }, part of the { -brand-product-name } family
-newtab-custom-pocket-sponsored = Sponsored stories
+newtab-custom-sponsored-sites = スポンサー付きショートカット
+newtab-custom-pocket-title = { -pocket-brand-name } によるおすすめ
+newtab-custom-pocket-subtitle = { -brand-product-name } ファミリーの一員である { -pocket-brand-name } によって厳選された優良コンテンツ
+newtab-custom-pocket-sponsored = スポンサー記事
 newtab-custom-recent-title = 最近のアクティビティ
-newtab-custom-recent-subtitle = A selection of recent sites and content
+newtab-custom-recent-subtitle = 最近のサイトとコンテンツの選択
 newtab-custom-close-button = 閉じる
 newtab-custom-settings = その他の設定を管理

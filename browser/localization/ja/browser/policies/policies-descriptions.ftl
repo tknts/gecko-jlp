@@ -9,17 +9,17 @@
 ## These are short descriptions for individual policies, to be displayed
 ## in the documentation section in about:policies.
 
-policy-3rdparty = Set policies that WebExtensions can access via chrome.storage.managed.
+policy-3rdparty = WebExtensions が chrome.storage.managed を利用してアクセスできるポリシーを設定します。
 
-policy-AllowedDomainsForApps = Define domains allowed to access Google Workspace.
+policy-AllowedDomainsForApps = GoogleWorkspace へのアクセスを許可するドメインを定義します。
 
-policy-AppAutoUpdate = Enable or disable automatic application update.
+policy-AppAutoUpdate = アプリケーションの自動更新を有効または無効にします。
 
-policy-AppUpdatePin = Prevent { -brand-short-name } from being updated beyond the specified version.
+policy-AppUpdatePin = { -brand-short-name } が指定されたバージョンを以上に更新されないようにします。
 
-policy-AppUpdateURL = Set custom app update URL.
+policy-AppUpdateURL = カスタムアプリの更新 URL を設定します。
 
-policy-Authentication = Configure integrated authentication for websites that support it.
+policy-Authentication = それをサポートするウェブサイトの統合認証を構成します。
 
 policy-AutoLaunchProtocolsFromOrigins = Define a list of external protocols that can be used from listed origins without prompting the user.
 
@@ -197,6 +197,8 @@ policy-ShowHomeButton = ホームボタンをツールバーに表示する。
 policy-SSLVersionMax = 使用する SSL の最大バージョンを設定する。
 
 policy-SSLVersionMin = 使用する SSL の最低バージョンを設定する。
+
+policy-StartDownloadsInTempDirectory = デフォルトのダウンロードディレクトリではなく、ローカルの一時的な場所でダウンロードを強制的に開始します。
 
 policy-SupportMenu = ヘルプメニューにカスタムサポートメニューを追加します。
 
