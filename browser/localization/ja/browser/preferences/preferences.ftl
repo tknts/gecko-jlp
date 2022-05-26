@@ -709,7 +709,7 @@ home-prefs-recent-activity-description = 最近のサイトとコンテンツの
 home-prefs-snippets-header =
     .label = スニペット
 
-home-prefs-snippets-description-new = Tips and news from { -vendor-short-name } and { -brand-product-name }
+home-prefs-snippets-description-new = { -vendor-short-name } と { -brand-product-name } からのヒントとニュース
 
 home-prefs-sections-rows-option =
     .label =
@@ -981,10 +981,10 @@ forms-breach-alerts-learn-more-link = さらに詳しく
 
 # Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
 forms-fill-logins-and-passwords =
-    .label = ログインとパスワードの自動入力
+    .label = ログイン情報とパスワードの自動入力
     .accesskey = i
 forms-saved-logins =
-    .label = 保存されたログイン…
+    .label = 保存されたログイン情報…
     .accesskey = L
 forms-primary-pw-use =
     .label = プライマリーパスワードを使用する
@@ -1002,14 +1002,14 @@ forms-primary-pw-change =
 # Leave this message empty if the translation for "Primary Password" matches
 # "Master Password" in your language. If you're editing the FTL file directly,
 # use { "" } as the value.
-forms-primary-pw-former-name = Formerly known as Master Password
+forms-primary-pw-former-name = 以前はマスターパスワードと呼ばれていました
 
-forms-primary-pw-fips-title = You are currently in FIPS mode. FIPS requires a non-empty Primary Password.
+forms-primary-pw-fips-title = 現在 FIPS モードになっています。 FIPS には空でないプライマリパスワードが必要です。
 forms-master-pw-fips-desc = パスワードを変更できませんでした
 forms-windows-sso =
-    .label = Allow Windows single sign-on for Microsoft, work, and school accounts
+    .label = 職場または学校の Microsoft アカウントで Windows のシングルサインオン (SSO) を許可
 forms-windows-sso-learn-more-link = さらに詳しく
-forms-windows-sso-desc = Manage accounts in your device settings
+forms-windows-sso-desc = デバイスの設定でアカウントを管理する
 
 ## OS Authentication dialog
 
@@ -1110,7 +1110,7 @@ sitedata-option-block-cross-site-trackers =
 sitedata-option-block-cross-site-tracking-cookies =
     .label = クロスサイトトラッキング Cookie
 sitedata-option-block-cross-site-cookies =
-    .label = Cross-site tracking cookies, and isolate other cross-site cookies
+    .label = クロスサイトトラッキング Cookie 及び、その他のクロスサイト Cookie を分離
 sitedata-option-block-unvisited =
     .label = 未訪問のウェブサイトからの Cookie
 sitedata-option-block-all-third-party =
@@ -1166,7 +1166,7 @@ content-blocking-section-top-level-description = トラッカーはあなたの�
 
 content-blocking-learn-more = さらに詳しく
 
-content-blocking-fpi-incompatibility-warning = You are using First Party Isolation (FPI), which overrides some of { -brand-short-name }’s cookie settings.
+content-blocking-fpi-incompatibility-warning = { -brand-short-name } の Cookie 設定を一部上書きする First Party Isolation (FPI) を使用しています。
 
 ## These strings are used to define the different levels of
 ## Enhanced Tracking Protection.
@@ -1193,11 +1193,11 @@ content-blocking-private-windows = プライベート ウィンドウでのト�
 content-blocking-cross-site-cookies-in-all-windows = すべてのウィンドウでのクロスサイト Cookie (トラッキング Cookie を含みます)
 content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
 content-blocking-all-cross-site-cookies-private-windows = プライベート ウィンドウでのクロスサイト Cookie
-content-blocking-cross-site-tracking-cookies-plus-isolate = Cross-site tracking cookies, and isolate remaining cookies
+content-blocking-cross-site-tracking-cookies-plus-isolate = クロスサイトトラッキング Cookie と残りの Cookie を分離
 content-blocking-social-media-trackers = ソーシャルメディア トラッカー
 content-blocking-all-cookies = すべての Cookie
 content-blocking-unvisited-cookies = 未訪問のサイトからの Cookie
-content-blocking-all-windows-tracking-content = Tracking content in all windows
+content-blocking-all-windows-tracking-content = すべてのウィンドウでのトラッキングコンテンツ
 content-blocking-all-third-party-cookies = すべてのサードパーティの Cookie
 content-blocking-cryptominers = 仮想通貨採掘
 content-blocking-fingerprinters = デジタル指紋
@@ -1205,7 +1205,7 @@ content-blocking-fingerprinters = デジタル指紋
 # "Test pilot" is used as a verb. Possible alternatives:
 # "Be the first to try", "Join an early experiment".
 content-blocking-etp-standard-tcp-rollout-checkbox =
-  .label = Test pilot our most powerful privacy feature ever
+  .label = これまでで最も強力なプライバシー機能を試す
   .accesskey = T
 
 # "Contains" here means "isolates", "limits".
@@ -1216,9 +1216,9 @@ content-blocking-warning-title = 注意してください!
 content-blocking-and-isolating-etp-warning-description-2 = This setting may cause some websites to not display content or work correctly. If a site seems broken, you may want to turn off tracking protection for that site to load all content.
 content-blocking-warning-learn-how = さらに詳しく
 
-content-blocking-reload-description = You will need to reload your tabs to apply these changes.
+content-blocking-reload-description = これらの変更を適用するには、タブの再読み込みが必要です。
 content-blocking-reload-tabs-button =
-  .label = すべたのタブを再読み込み
+  .label = すべてのタブを再読み込み
   .accesskey = R
 
 content-blocking-tracking-content-label =
@@ -1265,7 +1265,7 @@ permissions-location-settings =
     .label = 設定…
     .accesskey = t
 
-permissions-xr = Virtual Reality
+permissions-xr = バーチャル・リアリティ
 permissions-xr-settings =
     .label = 設定…
     .accesskey = t
