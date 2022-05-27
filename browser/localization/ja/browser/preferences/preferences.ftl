@@ -1213,7 +1213,7 @@ content-blocking-etp-standard-tcp-rollout-description = Total Cookie Protection 
 content-blocking-etp-standard-tcp-rollout-learn-more = さらに詳しく
 
 content-blocking-warning-title = 注意してください!
-content-blocking-and-isolating-etp-warning-description-2 = This setting may cause some websites to not display content or work correctly. If a site seems broken, you may want to turn off tracking protection for that site to load all content.
+content-blocking-and-isolating-etp-warning-description-2 = この設定により、一部のウェブサイトでコンテンツが表示されない、または正しく動作しないことがあります。サイトが壊れているように見える場合は、そのサイトのトラッキング防止機能をオフにして、すべてのコンテンツを読み込むようにしてください。
 content-blocking-warning-learn-how = さらに詳しく
 
 content-blocking-reload-description = これらの変更を適用するには、タブの再読み込みが必要です。
