@@ -10,10 +10,10 @@
   },
   "name": "Japanese (JP) Language Pack",
   "description": "Unofficial Japanese Language pack for Firefox Nightly",
-  "version": "102.0a1buildid20220525.185636",
+  "version": "102.0a1buildid20220526.213638",
   "languages": {
     "ja": {
-      "version": "20220525185636",
+      "version": "20220526213638",
       "chrome_resources": {
         "branding": "browser/chrome/ja/locale/branding/",
         "browser": "browser/chrome/ja/locale/browser/",
