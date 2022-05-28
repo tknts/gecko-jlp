@@ -67,10 +67,10 @@ serviceworker-empty-suggestions-aboutdebugging2 = 他のドメインの Service 
 manifest-view-header = アプリマニフェスト
 
 # Header for the Manifest page when there's no manifest to inspect
-manifest-empty-intro2 = ウェブアプリのマニフェストは検出されませんでした
+manifest-empty-intro2 = ウェブアプリのマニフェストは検出されませんでした。マニフェストの追加方法について
 
 # The link will open https://developer.mozilla.org/en-US/docs/Web/Manifest
-manifest-empty-intro-link = マニフェストの追加方法について、さらに詳しく
+manifest-empty-intro-link = さらに詳しく
 
 # Header for the Errors and Warnings section of Manifest inspection displayed in the application panel.
 manifest-item-warnings = エラーと警告
@@ -112,7 +112,7 @@ manifest-icon-purpose = Purpose: <code>{$purpose}</code>
 # Text displayed as the alt attribute for <img> tags showing the icons in the
 # manifest.
 manifest-icon-img =
-  .alt = Icon
+  .alt = アイコン
 
 # Text displayed as the title attribute for <img> tags showing the icons in the
 # manifest. `$sizes` is a user-dependent string that has been parsed as a

@@ -61,11 +61,11 @@ perftools-request-to-get-profile-and-stop-profiler = Capturing profile
 
 ##
 
-perftools-button-start-recording = Start recording
+perftools-button-start-recording = 記録を開始
 perftools-button-capture-recording = Capture recording
-perftools-button-cancel-recording = Cancel recording
-perftools-button-save-settings = Save settings and go back
-perftools-button-restart = Restart
+perftools-button-cancel-recording = 記録をキャンセル
+perftools-button-save-settings = 設定を保存して戻る
+perftools-button-restart = 再開
 perftools-button-add-directory = ディレクトリを追加
 perftools-button-remove-directory = Remove selected
 perftools-button-edit-settings = 設定を編集…

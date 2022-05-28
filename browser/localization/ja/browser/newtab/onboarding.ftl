@@ -59,12 +59,12 @@ mr1-onboarding-reduce-motion-button-label = アニメーションをオフにす
 # Title used on welcome page when Firefox is not pinned
 mr1-onboarding-pin-header = { PLATFORM() ->
     [macos] Keep { -brand-short-name } in your Dock for easy access
-   *[other] Pin { -brand-short-name } to your taskbar for easy access
+   *[other] タスクバーに { -brand-short-name } をピン留めすると簡単にアクセスできます。
 }
 # Primary button string used on welcome page when Firefox is not pinned.
 mr1-onboarding-pin-primary-button-label = { PLATFORM() ->
     [macos] Keep in Dock
-   *[other] Pin to taskbar
+   *[other] タスクバーにピン留めする
 }
 
 ## Multistage MR1 onboarding strings (about:welcome pages)
@@ -89,28 +89,28 @@ mr1-onboarding-sign-in-button-label = サインイン
 ## when Firefox is not default browser
 
 mr1-onboarding-default-header =
-    Make { -brand-short-name } your default
+    { -brand-short-name } をデフォルトにする
 mr1-onboarding-default-subtitle = Put speed, safety, and privacy on autopilot.
-mr1-onboarding-default-primary-button-label = Make default browser
+mr1-onboarding-default-primary-button-label = デフォルトのブラウザーにする
 
 ## Multistage MR1 onboarding strings (about:welcome pages)
 
-mr1-onboarding-import-header = Bring it all with you
-mr1-onboarding-import-subtitle = Import your passwords, <br/>bookmarks, and more.
+mr1-onboarding-import-header = すべて持ってこれます
+mr1-onboarding-import-subtitle = パスワード、ブックマークなどを<br/>インポートします。
 
 # The primary import button label will depend on whether we can detect which browser was used to download Firefox.
 # Variables:
 #   $previous (Str) - Previous browser name, such as Edge, Chrome
-mr1-onboarding-import-primary-button-label-attribution = Import from { $previous }
+mr1-onboarding-import-primary-button-label-attribution = { $previous } からインポート
 
 # This string will be used in cases where we can't detect the previous browser name.
-mr1-onboarding-import-primary-button-label-no-attribution = Import from previous browser
-mr1-onboarding-import-secondary-button-label = Not now
+mr1-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーからインポート
+mr1-onboarding-import-secondary-button-label = 今はしない
 
 mr2-onboarding-colorway-header = Life in color
 mr2-onboarding-colorway-subtitle = Vibrant new colorways. Available for a limited time.
 mr2-onboarding-colorway-primary-button-label = Save colorway
-mr2-onboarding-colorway-secondary-button-label = Not now
+mr2-onboarding-colorway-secondary-button-label = 今はしない
 mr2-onboarding-colorway-label-soft = Soft
 mr2-onboarding-colorway-label-balanced = Balanced
 # "Bold" is used in the sense of bravery or courage, not in the sense of
@@ -123,18 +123,20 @@ mr2-onboarding-theme-label-auto = 自動
 # This string will be used for Default theme
 mr2-onboarding-theme-label-default = デフォルト
 
-mr1-onboarding-theme-header = Make it your own
-mr1-onboarding-theme-subtitle = Personalize { -brand-short-name } with a theme.
+mr1-onboarding-theme-header = 自分好みに仕上げてください
+mr1-onboarding-theme-subtitle = { -brand-short-name } にテーマを設定してパーソナライズします。
 mr1-onboarding-theme-primary-button-label = テーマを保存
 mr1-onboarding-theme-secondary-button-label = 今はしない
 
 # System theme uses operating system color settings
 mr1-onboarding-theme-label-system = システムのテーマ
 
-mr1-onboarding-theme-label-light = Light
-mr1-onboarding-theme-label-dark = Dark
+mr1-onboarding-theme-label-light = ライト
+mr1-onboarding-theme-label-dark = ダーク
 # "Alpenglow" here is the name of the theme, and should be kept in English.
-mr1-onboarding-theme-label-alpenglow = Alpenglow
+mr1-onboarding-theme-label-alpenglow = アルペングロー
+
+onboarding-theme-primary-button-label = 完了
 
 ## Please make sure to split the content of the title attribute into lines whose
 ## width corresponds to about 40 Latin characters, to ensure that the tooltip
