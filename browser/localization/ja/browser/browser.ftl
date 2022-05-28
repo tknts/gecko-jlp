@@ -462,7 +462,7 @@ urlbar-placeholder-search-mode-other-tabs =
 # Variables
 #  $name (String): the name of the user's default search engine
 urlbar-placeholder-with-name =
-  .placeholder = Search with { $name } or enter address
+  .placeholder = { $name } で検索するか URL を入力してください
 
 # Variables
 #  $component (String): the name of the component which forces remote control.
@@ -470,7 +470,7 @@ urlbar-placeholder-with-name =
 urlbar-remote-control-notification-anchor2 =
   .tooltiptext = ブラウザーはリモートからコントロールされています (理由: { $component })
 urlbar-permissions-granted =
-  .tooltiptext = このウェブサイトに追加の権限を付与しました。  
+  .tooltiptext = このウェブサイトに追加の権限を付与しました。
 urlbar-switch-to-tab =
   .value = タブを切り替え:
 
@@ -650,7 +650,7 @@ bookmarks-current-tab =
 library-bookmarks-menu =
   .label = ブックマーク
 library-recent-activity-title =
-  .value = Recent Activity
+  .value = 最近の活動
 
 ## Pocket toolbar button
 

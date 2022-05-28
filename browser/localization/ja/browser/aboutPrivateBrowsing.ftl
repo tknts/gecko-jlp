@@ -19,8 +19,8 @@ about-private-browsing-handoff-no-engine =
 about-private-browsing-handoff-text = { $engine } で検索するか URL を入力してください
 about-private-browsing-handoff-text-no-engine = 検索ワードか URL を入力してください
 about-private-browsing-not-private = これはプライベート ウィンドウではありません。
-about-private-browsing-info-description-private-window = Private window: { -brand-short-name } clears your search and browsing history when you close all private windows. This doesn’t make you anonymous.
-about-private-browsing-info-description-simplified = { -brand-short-name } は、すべてのプライベー トウィンドウを閉じると検索と閲覧の履歴を消去しますが匿名にはなりません。
+about-private-browsing-info-description-private-window = プライベートウィンドウ: { -brand-short-name } は、すべてのプライベートウィンドウが閉じられたときに、検索と閲覧の履歴を消去します。これで匿名になるわけではありません。
+about-private-browsing-info-description-simplified = { -brand-short-name } は、すべてのプライベートウィンドウを閉じると検索と閲覧の履歴を消去しますが匿名にはなりません。
 about-private-browsing-learn-more-link = さらに詳しく
 
 about-private-browsing-hide-activity = Hide your activity and location, everywhere you browse
