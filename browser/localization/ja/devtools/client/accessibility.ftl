@@ -19,7 +19,7 @@ accessibility-fail =
   .alt = エラー
 
 accessibility-best-practices =
-  .alt = 最善策
+  .alt = 改善方法の提案
 
 ## Text entries for a paragraph used in the accessibility panel sidebar's checks section
 ## that describe that currently selected accessible object has an accessibility issue

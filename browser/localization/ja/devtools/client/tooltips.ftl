@@ -55,7 +55,7 @@ inactive-css-not-grid-or-flex-container-fix = <strong>display:grid</strong> ま�
 
 inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>display:grid</strong>, <strong>display:flex</strong>, または <strong>columns:2</strong> のいずれかを追加してみてください。{ learn-more }
 
-inactive-css-not-grid-or-flex-item-fix-2 = <strong>display:grid</strong>、 <strong>display:flex</strong>、 <strong>display:inline-grid</strong> か <strong>display:inline-flex</strong> を追加してみてください。 { learn-more }
+inactive-css-not-grid-or-flex-item-fix-3 = <strong>display:grid</strong>、 <strong>display:flex</strong>、 <strong>display:inline-grid</strong> か <strong>display:inline-flex</strong> を追加してみてください。 { learn-more }
 
 inactive-css-not-grid-item-fix-2 = 親要素に <strong>display:grid</strong> か <strong>display:inline-grid</strong> を追加してみてください。 { learn-more }
 
