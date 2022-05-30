@@ -57,7 +57,7 @@ serviceworker-empty-intro-link = さらに詳しく
 # Text displayed when there are no Service Workers to display for the current page,
 # introducing hints to debug Service Worker issues.
 # <a> and <span> are links that will open the webconsole and the debugger, respectively.
-serviceworker-empty-suggestions2 = もし現在のページで Service Worker を使用している場合は <a>コンソール</a> でエラーを探すか、<span>デバッガ</ span>で Service Worker の登録を確認してください。
+serviceworker-empty-suggestions2 = もし現在のページで Service Worker を使用している場合は <a>コンソール</a> でエラーを探すか <span>デバッガ</span> で Service Worker の登録を確認してください。
 
 # Suggestion to go to about:debugging in order to see Service Workers for all domains.
 # Link will open about:debugging in a new tab.

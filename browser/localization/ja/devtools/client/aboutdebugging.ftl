@@ -77,7 +77,7 @@ about-debugging-sidebar-runtime-item-name-no-device =
   .title = { $displayName }
 
 # Text to show in the footer of the sidebar that links to a help page
-# (currently: https://developer.mozilla.org/docs/Tools/about:debugging)
+# (currently: https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/)
 about-debugging-sidebar-support = デバッグに関するサポート情報
 
 # Text to show as the ALT attribute of a help icon that accompanies the help about
@@ -138,7 +138,7 @@ about-debugging-setup-usb-step-enable-debug-firefox2 = Android 端末の Firefox
 about-debugging-setup-usb-step-plug-device = Android 端末をコンピューターに接続します。
 
 # Text shown in the USB section of the setup page with a link to troubleshoot connection errors.
-# The link goes to https://developer.mozilla.org/docs/Tools/Remote_Debugging/Debugging_over_USB
+# The link goes to https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/index.html#connecting-to-a-remote-device
 about-debugging-setup-usb-troubleshoot = USB デバイスの接続に問題がありますか？ <a>トラブルシューティング</a>
 
 # Network section of the Setup page
@@ -146,7 +146,7 @@ about-debugging-setup-network =
   .title = ネットワーク上の場所
 
 # Text shown in the Network section of the setup page with a link to troubleshoot connection errors.
-# The link goes to https://developer.mozilla.org/en-US/docs/Tools/Remote_Debugging/Debugging_over_a_network
+# The link goes to https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/index.html#connecting-over-the-network
 about-debugging-setup-network-troubleshoot = ネットワーク上の場所の接続に問題がありますか？ <a>トラブルシューティング</a>
 
 # Text of a button displayed after the network locations "Host" input.
@@ -206,12 +206,12 @@ about-debugging-runtime-processes =
 about-debugging-runtime-profile-button2 = プロファイルパフォーマンス
 
 # This string is displayed in the runtime page if the current configuration of the
-# target runtime is incompatible with service workers. "Learn more" points to MDN.
-# https://developer.mozilla.org/en-US/docs/Tools/about%3Adebugging#Service_workers_not_compatible
+# target runtime is incompatible with service workers. "Learn more" points to:
+# https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/index.html#service-workers-not-compatible
 about-debugging-runtime-service-workers-not-compatible = このブラウザの設定は Service Worker と互換性がありません。<a>詳細</a>
 
 # This string is displayed in the runtime page if the remote browser version is too old.
-# "Troubleshooting" link points to https://developer.mozilla.org/docs/Tools/about:debugging#Troubleshooting
+# "Troubleshooting" link points to https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/
 # { $runtimeVersion } is the version of the remote browser (for instance "67.0a1")
 # { $minVersion } is the minimum version that is compatible with the current Firefox instance (same format)
 about-debugging-browser-version-too-old = 接続したブラウザのバージョン ({ $runtimeVersion }) が古いです。サポートされている最低バージョンは ({ $minVersion }) です。この組み合わせはサポートされてないため、開発ツールでエラーが発生する可能性があります。接続ブラウザを更新してください。<a>トラブルシューティング</a>

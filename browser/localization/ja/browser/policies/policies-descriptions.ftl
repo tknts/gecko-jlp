@@ -204,6 +204,8 @@ policy-SupportMenu = ヘルプメニューにカスタムサポートメニュ�
 
 policy-UserMessaging = 特定のメッセージをユーザーに表示しない。
 
+policy-UseSystemPrintDialog = システムの印刷ダイアログを使用して印刷します。
+
 # “format” refers to the format used for the value of this policy.
 policy-WebsiteFilter = Block websites from being visited. See documentation for more details on the format.
 
