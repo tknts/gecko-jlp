@@ -4,16 +4,16 @@
   "applications": {
     "gecko": {
       "id": "{93C0FD8C-43E7-4217-B6D5-7DCEAD173C5A}",
-      "strict_min_version": "102.0a1",
-      "strict_max_version": "102.0a1"
+      "strict_min_version": "103.0a1",
+      "strict_max_version": "103.0a1"
     }
   },
   "name": "Japanese (JP) Language Pack",
   "description": "Unofficial Japanese Language pack for Firefox Nightly",
-  "version": "102.0a1buildid20220529.190847",
+  "version": "103.0a1buildid20220530.190626",
   "languages": {
     "ja": {
-      "version": "20220529190847",
+      "version": "20220530190626",
       "chrome_resources": {
         "branding": "browser/chrome/ja/locale/branding/",
         "browser": "browser/chrome/ja/locale/browser/",

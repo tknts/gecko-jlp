@@ -661,8 +661,8 @@ save-to-pocket-button =
 ## Repair text encoding toolbar button
 
 repair-text-encoding-button =
-  .label = Repair text encoding
-  .tooltiptext = Guess correct text encoding from page content
+  .label = テキストエンコーディングを修復する
+  .tooltiptext = ページコンテンツから正しいテキストエンコーディングを判断します
 
 ## Customize Toolbar Buttons
 
