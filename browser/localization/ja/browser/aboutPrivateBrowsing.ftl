@@ -11,13 +11,13 @@ about-private-browsing-search-btn =
 # Variables
 #  $engine (String): the name of the user's default search engine
 about-private-browsing-handoff =
-    .title = { $engine } で検索するか URL を入力
+    .title = { $engine } で検索するか URL を入力してください
 about-private-browsing-handoff-no-engine =
-    .title = 検索ワードか URL を入力
+    .title = 検索ワードか URL を入力してください
 # Variables
 #  $engine (String): the name of the user's default search engine
-about-private-browsing-handoff-text = { $engine } で検索するか URL を入力してください
-about-private-browsing-handoff-text-no-engine = 検索ワードか URL を入力してください
+about-private-browsing-handoff-text = { $engine } で検索または URL を入力
+about-private-browsing-handoff-text-no-engine = 検索ワードまたは URL を入力
 about-private-browsing-not-private = これはプライベート ウィンドウではありません。
 about-private-browsing-info-description-private-window = プライベートウィンドウ: { -brand-short-name } は、すべてのプライベートウィンドウが閉じられたときに、検索と閲覧の履歴を消去します。これで匿名になるわけではありません。
 about-private-browsing-info-description-simplified = { -brand-short-name } は、すべてのプライベートウィンドウを閉じると検索と閲覧の履歴を消去しますが匿名にはなりません。
@@ -25,7 +25,7 @@ about-private-browsing-learn-more-link = さらに詳しく
 
 about-private-browsing-hide-activity = Hide your activity and location, everywhere you browse
 about-private-browsing-get-privacy = Get privacy protections everywhere you browse
-about-private-browsing-hide-activity-1 = Hide browsing activity and location with { -mozilla-vpn-brand-name }. One click creates a secure connection, even on public Wi-Fi.
+about-private-browsing-hide-activity-1 = { -mozilla-vpn-brand-name } で閲覧履歴や位置情報を隠せます。フリー Wi-Fi でもワンクリックで安全な接続を作成します。
 about-private-browsing-prominent-cta = { -mozilla-vpn-brand-name } でプライベートを維持する
 
 about-private-browsing-focus-promo-cta = { -focus-brand-name } をダウンロード

@@ -13,15 +13,15 @@ colors-window =
 colors-close-key =
     .key = w
 
-colors-page-override = Override the colors specified by the page with your selections above
+colors-page-override = ページで指定された色を上記で選択した色で上書きします
     .accesskey = O
 
 colors-page-override-option-always =
-    .label = Always
+    .label = 常に上書き
 colors-page-override-option-auto =
-    .label = Only with High Contrast themes
+    .label = ハイコントラストテーマの使用時のみ
 colors-page-override-option-never =
-    .label = Never
+    .label = 上書きしない
 
 colors-text-and-background = 文字色と背景色
 
