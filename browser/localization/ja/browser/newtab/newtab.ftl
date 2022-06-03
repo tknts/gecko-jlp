@@ -22,18 +22,18 @@ newtab-search-box-search-button =
 
 # Variables
 #  $engine (String): the name of the user's default search engine
-newtab-search-box-handoff-text = Search with { $engine } or enter address
-newtab-search-box-handoff-text-no-engine = Search or enter address
+newtab-search-box-handoff-text = { $engine } で検索または URL を入力
+newtab-search-box-handoff-text-no-engine = 検索ワードまたは URL を入力
 # Variables
 #  $engine (String): the name of the user's default search engine
 newtab-search-box-handoff-input =
-    .placeholder = { $engine } で検索するか URL を入力してください
-    .title = { $engine } で検索するか URL を入力してください
-    .aria-label = { $engine } で検索するか URL を入力してください
+    .placeholder = { $engine } で検索または URL を入力
+    .title = { $engine } で検索または URL を入力してください
+    .aria-label = { $engine } で検索または URL を入力してください
 newtab-search-box-handoff-input-no-engine =
-    .placeholder = 検索ワードか URL を入力してください
-    .title = 検索ワードか URL を入力してください
-    .aria-label = 検索ワードか URL を入力してください
+    .placeholder = 検索ワードまたは URL を入力
+    .title = 検索ワードまたは URL を入力してください
+    .aria-label = 検索ワードまたは URL を入力してください
 
 newtab-search-box-text = ウェブを検索
 newtab-search-box-input =

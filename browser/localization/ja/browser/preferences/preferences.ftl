@@ -496,7 +496,7 @@ update-application-manual =
     .accesskey = N
 
 update-application-background-enabled =
-    .label = When { -brand-short-name } is not running
+    .label = { -brand-short-name } が起動していない時に実行
     .accesskey = W
 
 update-application-warning-cross-user-setting = この設定は、この { -brand-short-name } を使用するすべての Windows アカウントと { -brand-short-name } のプロファイルに適用されます。
