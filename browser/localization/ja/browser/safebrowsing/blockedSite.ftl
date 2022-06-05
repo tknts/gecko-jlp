@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-safeb-blocked-phishing-page-title = この先は詐欺サイトです
+safeb-blocked-phishing-page-title = この先はフィッシングサイトです
 safeb-blocked-malware-page-title = このウェブサイトを訪れるとあなたのコンピューターを損なう恐れがあります
 safeb-blocked-unwanted-page-title = この先のサイトには有害なプログラムが含まれている可能性があります
 safeb-blocked-harmful-page-title = マルウェアを含むサイトの可能性があります
@@ -26,5 +26,5 @@ safeb-blocked-harmful-page-error-desc-override = <span data-l10n-name='sitename'
 safeb-blocked-harmful-page-error-desc-no-override = <span data-l10n-name='sitename'>{ $sitename }</span> は、<a data-l10n-name='error_desc_link'>有害なアプリケーションが含まれる可能性のあるサイトとして報告されています</a>。
 safeb-blocked-harmful-page-learn-more = { -brand-short-name } のフィッシング詐欺とマルウェアからの保護機能についての詳細は、<a data-l10n-name='firefox_support'>support.mozilla.org</a> をご覧ください。
 safeb-palm-notdeceptive =
-    .label = 詐欺サイトの誤報告を指摘…
+    .label = フィッシングサイトの誤報告を指摘…
     .accesskey = d

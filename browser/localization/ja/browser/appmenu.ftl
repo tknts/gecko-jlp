@@ -267,18 +267,17 @@ appmenu-help-exit-troubleshoot-mode =
 ## are mutually exclusive, so it's possible to use the same accesskey for both.
 
 appmenu-help-report-deceptive-site =
-    .label = Report deceptive site…
+    .label = フィッシングサイトを報告…
     .accesskey = d
 appmenu-help-not-deceptive =
-    .label = This isn’t a deceptive site…
+    .label = フィッシングサイトではありません…
     .accesskey = d
 
 ## More Tools
 
 appmenu-customizetoolbar =
     .label = ツールバーをカスタマイズ…
-appmenu-taskmanager =
-    .label = タスク マネージャー
+
 appmenu-developer-tools-subheader = ブラウザー ツール
 appmenu-developer-tools-extensions =
     .label = 開発者向け拡張機能
