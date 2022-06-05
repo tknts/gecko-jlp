@@ -112,7 +112,7 @@ urlbar-tip-icon-description =
 ## Variables:
 ##  $engineName (String): The name of the user's default search engine. e.g. "Google" or "DuckDuckGo".
 
-urlbar-search-tips-onboard = Type less, find more: Search { $engineName } right from your address bar.
+urlbar-search-tips-onboard = 少ない入力で、多くを探す: アドレスバーから直接 { $engineName } を検索できます。
 urlbar-search-tips-redirect-2 = アドレスバーで検索を開始して { $engineName } からのサジェストと履歴を表示します。
 
 # Prompts users to use the Urlbar when they are typing in the domain of a
@@ -320,10 +320,10 @@ identity-description-active-loaded-insecure = Information you share with this si
 identity-learn-more =
     .value = さらに詳しく
 identity-disable-mixed-content-blocking =
-    .label = Disable protection for now
+    .label = 保護を今すぐ無効化
     .accesskey = D
 identity-enable-mixed-content-blocking =
-    .label = Enable protection
+    .label = 保護を有効化
     .accesskey = E
 identity-more-info-link-text =
     .label = その他の情報
@@ -342,13 +342,13 @@ browser-window-close-button =
 ## Tab actions
 
 # This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-playing2 = PLAYING
+browser-tab-audio-playing2 = 再生中
 # This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-muted2 = MUTED
+browser-tab-audio-muted2 = ミュート中
 # This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-blocked = AUTOPLAY BLOCKED
+browser-tab-audio-blocked = 自動再生をブロック
 # This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-pip = PICTURE-IN-PICTURE
+browser-tab-audio-pip =ピクチャー・イン・ピクチャー
 
 ## These labels should be written in all capital letters if your locale supports them.
 ## Variables:
@@ -376,7 +376,7 @@ browser-tab-unblock =
 
 browser-import-button2 =
     .label = ブックマークをインポート…
-    .tooltiptext = Import bookmarks from another browser to { -brand-short-name }.
+    .tooltiptext = その他のブラウザーから { -brand-short-name } へブックマークをインポートします。
 
 bookmarks-toolbar-empty-message = For quick access, place your bookmarks here on the bookmarks toolbar. <a data-l10n-name="manage-bookmarks">Manage bookmarks…</a>
 

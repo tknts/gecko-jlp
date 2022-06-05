@@ -55,10 +55,13 @@ detail-version =
 detail-last-updated =
     .label = 更新日
 
-detail-contributions-description = このアドオンの開発者が開発を継続するための少額の寄付によるサポートを求めています。
+addon-detail-description-expand = もっと表示
+addon-detail-description-collapse = 表示を減らす
+
+detail-contributions-description = このアドオンの開発者は少額の寄付による継続的な開発のサポートをお願いしています。
 
 detail-contributions-button = 貢献
-    .title = 寄付をする事でアドオンの開発に貢献する
+    .title = このアドオンの開発に貢献する
     .accesskey = C
 
 detail-update-type =
