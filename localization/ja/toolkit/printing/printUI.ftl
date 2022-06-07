@@ -80,7 +80,7 @@ printui-color-mode-color = カラー
 printui-color-mode-bw = 白黒
 
 printui-margins = Margins
-printui-margins-default = デフォルト
+printui-margins-default = 初期設定
 printui-margins-min = Minimum
 printui-margins-none = なし
 printui-margins-custom-inches = カスタム (インチ)

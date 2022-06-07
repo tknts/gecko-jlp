@@ -40,7 +40,7 @@ profile-prompt = 新しいプロファイルの名前を入力:
   .accesskey = E
 
 profile-default-name =
-  .value = デフォルトのユーザー
+  .value = 既定のユーザー
 
 profile-directory-explanation = あなたのユーザー設定やユーザーデータの保存先
 
@@ -49,5 +49,5 @@ create-profile-choose-folder =
   .accesskey = C
 
 create-profile-use-default =
-  .label = デフォルトのフォルダーを使用する
+  .label = 既定のフォルダーを使用する
   .accesskey = U

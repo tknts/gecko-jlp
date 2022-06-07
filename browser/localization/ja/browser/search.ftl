@@ -34,5 +34,5 @@ searchbar-icon =
 ## $oldEngine (String) - the search engine to be removed.
 ## $newEngine (String) - the search engine to replace the removed search engine.
 
-removed-search-engine-message = <strong>デフォルトの検索エンジンが変更されました。</strong> { -brand-short-name } のデフォルトの検索エンジンが { $oldEngine } から { $newEngine } に変更しました。デフォルトの検索エンジンを変更するには設定に移動します。<label data-l10n-name="remove-search-engine-article">さらに詳しく</label>
+removed-search-engine-message = <strong>既定の検索エンジンが変更されました。</strong> { -brand-short-name } の既定の検索エンジンが { $oldEngine } から { $newEngine } に変更しました。既定の検索エンジンを変更するには設定に移動します。<label data-l10n-name="remove-search-engine-article">さらに詳しく</label>
 remove-search-engine-button = OK

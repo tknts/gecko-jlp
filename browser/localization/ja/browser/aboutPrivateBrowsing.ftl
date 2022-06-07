@@ -43,7 +43,7 @@ about-private-browsing-focus-promo-text-c = { -focus-brand-name } clears your hi
 # in a private window.
 # Variables:
 #   $engineName (String) - The engine name that will currently be used for the private window.
-about-private-browsing-search-banner-title = { $engineName }はプライベート ウィンドウのデフォルトの検索エンジンです
+about-private-browsing-search-banner-title = { $engineName }はプライベート ウィンドウの既定の検索エンジンです
 about-private-browsing-search-banner-description = {
   PLATFORM() ->
      [windows] 検索エンジンを変更するには <a data-l10n-name="link-options">オプション</a> を表示してください

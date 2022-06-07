@@ -191,10 +191,10 @@ search-one-offs-context-open-new-tab =
     .label = 新しいタブで検索
     .accesskey = T
 search-one-offs-context-set-as-default =
-    .label = デフォルトの検索エンジンに設定
+    .label = 既定の検索エンジンに設定
     .accesskey = D
 search-one-offs-context-set-as-default-private =
-    .label = プライベート ウィンドウでのデフォルトの検索エンジンに設定
+    .label = プライベート ウィンドウでの既定の検索エンジンに設定
     .accesskey = P
 
 # Search engine one-off buttons with an @alias shortcut/keyword.
