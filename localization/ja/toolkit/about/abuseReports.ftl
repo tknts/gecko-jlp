@@ -72,7 +72,7 @@ abuse-report-spam-example = Example: Insert ads on webpages
 
 abuse-report-settings-reason-v2 = 確認なく検索エンジン、ホームページ、または新しいタブが変更された
 abuse-report-settings-suggestions = 拡張機能を報告する前に、設定を変更してみてください:
-abuse-report-settings-suggestions-search = デフォルトの検索エンジンを変更する
+abuse-report-settings-suggestions-search = 既定の検索エンジンを変更する
 abuse-report-settings-suggestions-homepage = ホームページと新しいタブを変更する
 
 abuse-report-deceptive-reason-v2 = It claims to be something it’s not

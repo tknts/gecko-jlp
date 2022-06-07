@@ -9,7 +9,7 @@ about-performance-title = タスクマネージャー
 
 column-name = 名前
 column-type = 種類
-column-energy-impact = エネルギー影響
+column-energy-impact = 電力消費
 column-memory = メモリ
 
 ## Special values for the Name column
@@ -22,10 +22,10 @@ preloaded-tab = Preloaded: { $title }
 ## Values for the Type column
 
 type-tab = タブ
-type-subframe = Subframe
-type-tracker = Tracker
+type-subframe = サブフレーム
+type-tracker = トラッカー
 type-addon = アドオン
-type-browser = Browser
+type-browser = ブラウザー
 type-worker = Worker
 type-other = その他
 
@@ -53,7 +53,7 @@ size-GB = { $value } GB
 close-tab =
     .title = タブを閉じる
 show-addon =
-    .title = Show in Add-ons Manager
+    .title = アドオンマネージャーで表示する
 
 # Tooltip when hovering an item of the about:performance table
 # Variables:
@@ -63,5 +63,5 @@ show-addon =
 #   $durationSincePrevious (Number) - how much CPU time was used in the last 2 seconds
 item =
     .title =
-        Dispatches since load: { $totalDispatches } ({ $totalDuration }ms)
-        Dispatches in the last seconds: { $dispatchesSincePrevious } ({ $durationSincePrevious }ms)
+        読み込み後のディスパッチ数: { $totalDispatches } ({ $totalDuration }ミリ秒)
+        直近数秒間のディスパッチ数: { $dispatchesSincePrevious } ({ $durationSincePrevious }ミリ秒)

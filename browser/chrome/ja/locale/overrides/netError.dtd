@@ -196,7 +196,7 @@ was trying to connect. -->
 
 <!ENTITY clockSkewError.longDesc "あなたのコンピューターは現在の日時を <span id='wrongSystemTime_systemDate1'/> だと誤解しており、&brandShortName; の安全な接続を妨げる原因になります。<span class='hostname'></span> にアクセスして、コンピュータの現在の日付と時刻、タイムゾーンを正しいものに更新して、<span class='hostname'></span> を再読み込みしてください。">
 
-<!ENTITY prefReset.longDesc "ネットワークセキュリティの設定が原因になっている可能性があります。デフォルトの設定に戻しますか?">
-<!ENTITY prefReset.label "デフォルトの設定を復元">
+<!ENTITY prefReset.longDesc "ネットワークのセキュリティ設定が原因になっている可能性があります。初期設定に戻しますか?">
+<!ENTITY prefReset.label "初期設定を復元">
 
 <!ENTITY networkProtocolError.longDesc "<p>表示しようとしているページでネットワークプロトコルにエラーが検出されたため表示できません。</p><ul><li>この問題をウェブサイトの所有者に連絡してください。</li></ul>">

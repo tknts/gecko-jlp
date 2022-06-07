@@ -50,7 +50,7 @@ permission-dialog =
     .buttonlabelaccept = キャンセル
     .buttonaccesskeyaccept = S
 
-permissions-autoplay-menu = すべてのウェブサイトのデフォルト:
+permissions-autoplay-menu = すべてのウェブサイトの既定:
 
 permissions-searchbox =
     .placeholder = ウェブサイトの検索
@@ -133,7 +133,7 @@ permissions-exceptions-addons-desc = アドオンをインストールできる�
 permissions-site-autoplay-window =
     .title = 設定 - 自動再生
     .style = { permissions-window.style }
-permissions-site-autoplay-desc = デフォルトの自動再生設定に従わないサイトを管理できます。
+permissions-site-autoplay-desc = 既定の自動再生設定に従わないサイトを管理できます。
 
 ## Site Permissions - Notifications
 

@@ -7,7 +7,7 @@
 about-config-intro-warning-title = 注意して続行してください
 about-config-intro-warning-text = 高度な構成設定を変更すると { -brand-short-name } のパフォーマンスまたはセキュリティに影響を与える可能性があります。
 about-config-intro-warning-checkbox = これらの設定にアクセスする時に警告を表示する
-about-config-intro-warning-button = リスクを理解して続行する
+about-config-intro-warning-button = 危険性を理解して続行する
 
 ##
 
@@ -25,13 +25,13 @@ about-config-show-only-modified = 変更された設定のみ表示
 about-config-pref-add-button =
     .title = 追加
 about-config-pref-toggle-button =
-    .title = Toggle
+    .title = 切り替え
 about-config-pref-edit-button =
     .title = 編集
 about-config-pref-save-button =
     .title = 保存
 about-config-pref-reset-button =
-    .title = 初期化
+    .title = 初期設定
 about-config-pref-delete-button =
     .title = 削除
 
@@ -49,6 +49,6 @@ about-config-pref-add-type-string = 文字列
 ##   $value (String): The full value of the preference.
 
 about-config-pref-accessible-value-default =
-    .aria-label = { $value } (初期値)
+    .aria-label = { $value } (初期設定値)
 about-config-pref-accessible-value-custom =
     .aria-label = { $value } (カスタム)

@@ -89,9 +89,9 @@ mr1-onboarding-sign-in-button-label = サインイン
 ## when Firefox is not default browser
 
 mr1-onboarding-default-header =
-    { -brand-short-name } をデフォルトにする
+    { -brand-short-name } を既定にする
 mr1-onboarding-default-subtitle = Put speed, safety, and privacy on autopilot.
-mr1-onboarding-default-primary-button-label = デフォルトのブラウザーにする
+mr1-onboarding-default-primary-button-label = 既定のブラウザーにする
 
 ## Multistage MR1 onboarding strings (about:welcome pages)
 

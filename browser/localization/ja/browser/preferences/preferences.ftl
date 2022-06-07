@@ -56,7 +56,7 @@ pane-experimental-search-results-header = { -brand-short-name } Experiments: Pro
 pane-experimental-description2 = Changing advanced configuration settings can impact { -brand-short-name } performance or security.
 
 pane-experimental-reset =
-  .label = デフォルトの設定に戻す
+  .label = 初期設定に戻す
   .accesskey = R
 
 help-button-label = { -brand-short-name } サポート
@@ -285,7 +285,7 @@ advanced-fonts =
 # Zoom is a noun, and the message is used as header for a group of options
 preferences-zoom-header = 拡大/縮小
 
-preferences-default-zoom = デフォルト
+preferences-default-zoom = 初期設定
     .accesskey = z
 
 preferences-default-zoom-value =
@@ -387,7 +387,7 @@ applications-use-app =
 # Variables:
 #   $app-name (String) - Name of an application (e.g Adobe Acrobat)
 applications-use-app-default =
-    .label = { $app-name } を使用 (デフォルト)
+    .label = { $app-name } を使用 (既定)
 
 applications-use-os-default =
     .label =
@@ -636,7 +636,7 @@ home-restore-defaults =
 # "Firefox" should be treated as a brand and kept in English,
 # while "Home" and "(Default)" can be localized.
 home-mode-choice-default =
-    .label = Firefox ホーム (デフォルト)
+    .label = Firefox ホーム (既定)
 
 home-mode-choice-custom =
     .label = ウェブページ…
@@ -726,9 +726,9 @@ search-bar-hidden =
 search-bar-shown =
     .label = 検索バーをツールバーに追加する
 
-search-engine-default-header = デフォルトの検索エンジン
-search-engine-default-desc-2 = これはアドレスバーと検索バーで使用されるデフォルトの検索エンジンです。いつでも切り替えることができます。
-search-engine-default-private-desc-2 = プライベート ウィンドウでのデフォルトの検索エンジンを選択する
+search-engine-default-header = 既定の検索エンジン
+search-engine-default-desc-2 = これはアドレスバーと検索バーで使用される既定の検索エンジンです。いつでも切り替えることができます。
+search-engine-default-private-desc-2 = プライベート ウィンドウでの既定の検索エンジンを選択する
 search-separate-default-engine =
     .label = プライベート ウィンドウでこの検索エンジンを使用する
     .accesskey = U
