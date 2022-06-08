@@ -417,7 +417,7 @@ pending-uninstall-description = <span data-l10n-name="addon-name">{ $addon }</sp
 pending-uninstall-undo-button = 元に戻す
 
 addon-detail-updates-label = 自動更新の許可
-addon-detail-updates-radio-default = デフォルト
+addon-detail-updates-radio-default = 初期設定
 addon-detail-updates-radio-on = オン
 addon-detail-updates-radio-off = オフ
 addon-detail-update-check-label = 更新の確認

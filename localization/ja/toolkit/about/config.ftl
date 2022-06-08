@@ -4,8 +4,8 @@
 
 ## These strings appear on the warning you see when first visiting about:config.
 
-about-config-intro-warning-title = 注意して続行してください
-about-config-intro-warning-text = 高度な構成設定を変更すると { -brand-short-name } のパフォーマンスまたはセキュリティに影響を与える可能性があります。
+about-config-intro-warning-title = 注意して進めてください
+about-config-intro-warning-text = 詳細な構成設定を変更すると { -brand-short-name } のパフォーマンスまたはセキュリティに影響を与える可能性があります。
 about-config-intro-warning-checkbox = これらの設定にアクセスする時に警告を表示する
 about-config-intro-warning-button = 危険性を理解して続行する
 
@@ -14,7 +14,7 @@ about-config-intro-warning-button = 危険性を理解して続行する
 # This is shown on the page before searching but after the warning is accepted.
 about-config-caution-text = これらの設定を変更すると { -brand-short-name } のパフォーマンスやセキュリティに影響を与える可能性があります。
 
-about-config-page-title = 高度な設定
+about-config-page-title = 詳細な設定
 
 about-config-search-input1 =
     .placeholder = 設定名で検索します
