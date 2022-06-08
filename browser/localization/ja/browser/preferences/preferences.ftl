@@ -51,9 +51,9 @@ category-sync3 =
 pane-experimental-title = { -brand-short-name } の実験的機能
 category-experimental =
     .tooltiptext = { -brand-short-name } の実験的機能
-pane-experimental-subtitle = Proceed with Caution
-pane-experimental-search-results-header = { -brand-short-name } Experiments: Proceed with Caution
-pane-experimental-description2 = Changing advanced configuration settings can impact { -brand-short-name } performance or security.
+pane-experimental-subtitle = 注意して進めてください
+pane-experimental-search-results-header = { -brand-short-name } の実験的機能: 注意して進めてください
+pane-experimental-description2 = 詳細な構成設定を変更すると { -brand-short-name } のパフォーマンスまたはセキュリティに影響を与える可能性があります。
 
 pane-experimental-reset =
   .label = 初期設定に戻す
@@ -636,7 +636,7 @@ home-restore-defaults =
 # "Firefox" should be treated as a brand and kept in English,
 # while "Home" and "(Default)" can be localized.
 home-mode-choice-default =
-    .label = Firefox ホーム (既定)
+    .label = Firefox ホーム (初期設定)
 
 home-mode-choice-custom =
     .label = ウェブページ…
