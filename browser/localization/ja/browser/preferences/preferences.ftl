@@ -506,7 +506,7 @@ update-application-use-service =
     .accesskey = b
 
 update-application-suppress-prompts =
-    .label = Show fewer update notification prompts
+    .label = 更新の通知回数を減らす
     .accesskey = n
 
 update-setting-write-failure-title2 = 更新設定の保存中にエラーが発生しました
@@ -516,7 +516,7 @@ update-setting-write-failure-title2 = 更新設定の保存中にエラーが発
 # The newlines between the main text and the line containing the path is
 # intentional so the path is easier to identify.
 update-setting-write-failure-message2 =
-    { -brand-short-name } encountered an error and didn’t save this change. Note that changing this update setting requires permission to write to the file below. You or a system administrator may be able resolve the error by granting the Users group full control to this file.
+    { -brand-short-name } でエラーが発生したため、この変更を保存しませんでした。 この更新設定を変更するには、以下のファイルに書き込むためのアクセス許可が必要であることに注意してください。 あなたかシステム管理者が、ユーザーグループにこのファイルへのフル コントロールを付与することでエラーを解決できる場合があります。
 
     ファイルへの書き込みができませんでした: { $path }
 

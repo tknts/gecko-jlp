@@ -24,10 +24,10 @@ abuse-report-learnmore =
 
 abuse-report-submit-description = 問題の説明 (任意)
 abuse-report-textarea =
-  .placeholder = It’s easier for us to address a problem if we have specifics. Please describe what you’re experiencing. Thank you for helping us keep the web healthy.
+  .placeholder = 詳細が解かれば、問題に対処するのは簡単です。 あなたが経験していることを説明してください。 ウェブの健全性を維持するためにご協力いただきありがとうございます。
 abuse-report-submit-note =
-  Note: Don’t include personal information (such as name, email address, phone number, physical address).
-  { -vendor-short-name } keeps a permanent record of these reports.
+  注意: 個人情報 (名前、メールアドレス、電話番号、住所など) は含めないでください。
+  { -vendor-short-name }は、これらのレポートの永続的な記録を保持します。
 
 ## Panel buttons.
 
@@ -41,24 +41,24 @@ abuse-report-submit-button = 送信
 ## Variables:
 ##   $addon-name (string) - Name of the add-on
 
-abuse-report-messagebar-aborted = Report for <span data-l10n-name="addon-name">{ $addon-name }</span> canceled.
-abuse-report-messagebar-submitting = Sending report for <span data-l10n-name="addon-name">{ $addon-name }</span>.
-abuse-report-messagebar-submitted = Thank you for submitting a report. Do you want to remove <span data-l10n-name="addon-name">{ $addon-name }</span>?
-abuse-report-messagebar-submitted-noremove = Thank you for submitting a report.
-abuse-report-messagebar-removed-extension = Thank you for submitting a report. You’ve removed the extension <span data-l10n-name="addon-name">{ $addon-name }</span>.
-abuse-report-messagebar-removed-sitepermission = Thank you for submitting a report. You’ve removed the Site Permissions add-on <span data-l10n-name="addon-name">{ $addon-name }</span>.
-abuse-report-messagebar-removed-theme = Thank you for submitting a report. You’ve removed the theme <span data-l10n-name="addon-name">{ $addon-name }</span>.
-abuse-report-messagebar-error = There was an error sending the report for <span data-l10n-name="addon-name">{ $addon-name }</span>.
-abuse-report-messagebar-error-recent-submit = The report for <span data-l10n-name="addon-name">{ $addon-name }</span> wasn’t sent because another report was submitted recently.
+abuse-report-messagebar-aborted = <span data-l10n-name="addon-name">{ $addon-name }</span> のレポートはキャンセルされました。
+abuse-report-messagebar-submitting = <span data-l10n-name="addon-name">{ $addon-name }</span> のレポートを送信しています。
+abuse-report-messagebar-submitted = レポートを提出していただきありがとうございます。<span data-l10n-name="addon-name">{ $addon-name }</span> を削除しますか?
+abuse-report-messagebar-submitted-noremove = レポートを提出していただきありがとうございます。
+abuse-report-messagebar-removed-extension = レポートを提出していただきありがとうございます。拡張機能 (<span data-l10n-name="addon-name">{ $addon-name }</span>) を削除しました。
+abuse-report-messagebar-removed-sitepermission = レポートを提出していただきありがとうございます。サイト権限アドオン (<span data-l10n-name="addon-name">{ $addon-name }</span>) を削除しました。
+abuse-report-messagebar-removed-theme = レポートを提出していただきありがとうございます。テーマ (<span data-l10n-name="addon-name">{ $addon-name }</span>) を削除しました。
+abuse-report-messagebar-error = <span data-l10n-name="addon-name">{ $addon-name }</span> のレポートの送信中にエラーが発生しました。
+abuse-report-messagebar-error-recent-submit = <span data-l10n-name="addon-name">{ $addon-name }</span> のレポートは、最近別のレポートが送信されたため送信されませんでした。
 
 ## Message bars actions.
 
 abuse-report-messagebar-action-remove-extension = はい、削除します
-abuse-report-messagebar-action-keep-extension = No, I’ll Keep It
-abuse-report-messagebar-action-remove-sitepermission = Yes, Remove It
-abuse-report-messagebar-action-keep-sitepermission = No, I’ll Keep It
+abuse-report-messagebar-action-keep-extension = いいえ、そのままにしておきます
+abuse-report-messagebar-action-remove-sitepermission = はい、削除します
+abuse-report-messagebar-action-keep-sitepermission = いいえ、そのままにしておきます
 abuse-report-messagebar-action-remove-theme = はい、削除します
-abuse-report-messagebar-action-keep-theme = No, I’ll Keep It
+abuse-report-messagebar-action-keep-theme = いいえ、そのままにしておきます
 abuse-report-messagebar-action-retry = もう一度
 abuse-report-messagebar-action-cancel = キャンセル
 
@@ -98,11 +98,11 @@ abuse-report-broken-suggestions-theme =
 
 abuse-report-policy-reason-v2 = 差別的、暴力的、または違法なコンテンツが含まれている
 abuse-report-policy-suggestions =
-  Note: Copyright and trademark issues must be reported in a separate process.
-  <a data-l10n-name="report-infringement-link">Use these instructions</a> to
-  report the problem.
+  注意: 著作権と商標の問題は、別の手順で報告する必要があります。
+  <a data-l10n-name="report-infringement-link">これらの手順を使用</a> して
+  問題を報告してください。
 
 abuse-report-unwanted-reason-v2 = インストールした記憶がない。または削除できない。
-abuse-report-unwanted-example = Example: An application installed it without my permission
+abuse-report-unwanted-example = 例: アプリケーションが許可なくインストールされた
 
 abuse-report-other-reason = その他

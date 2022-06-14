@@ -5,11 +5,11 @@
 label-disable = 無効化
 label-enable = 有効化
 label-interventions = Interventions
-label-more-information = More Information: Bug { $bug }
+label-more-information = 詳細: バグ { $bug }
 label-overrides = ユーザーエージェントの上書き
-text-disabled-in-about-config = This feature has been disabled in about:config
+text-disabled-in-about-config = この機能は about:config で無効にされています
 text-no-interventions = No interventions are being used
-text-no-overrides = No UA overrides are being used
+text-no-overrides = ユーザーエージェントの上書きは使用されていません
 text-title = about:compat
 
 ## Do not translate "SmartBlock". For reference, SmartBlock is a feature

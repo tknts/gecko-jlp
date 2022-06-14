@@ -2,24 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-crash-reports-title = クラッシュ レポート
-submit-all-button-label = すべて送信
+crash-reports-title = クラッシュレポート
+submit-all-button-label = すべて提出
 delete-button-label = すべて消去
-delete-confirm-title = Are you sure?
-delete-unsubmitted-description = This will delete all unsubmitted crash reports and cannot be undone.
-delete-submitted-description = This will remove the list of submitted crash reports but will not delete the submitted data. This cannot be undone.
+delete-confirm-title = 本当にいいですか?
+delete-unsubmitted-description = これにより、すべての未提出のクラッシュレポートが削除され、元に戻すことはできません。
+delete-submitted-description = これにより、送信されたクラッシュレポートのリストは削除されますが、送信されたデータは削除されません。これは元に戻すことはできません。
 
-crashes-unsubmitted-label = Unsubmitted Crash Reports
-id-heading = Report ID
-date-crashed-heading = Date Crashed
-submit-crash-button-label = Submit
+crashes-unsubmitted-label = 未提出のクラッシュレポート
+id-heading = レポート ID
+date-crashed-heading = クラッシュ日時
+submit-crash-button-label = 提出
 # This text is used to replace the label of the crash submit button
 # if the crash submission fails.
-submit-crash-button-failure-label = Failed
+submit-crash-button-failure-label = 失敗しました
 
-crashes-submitted-label = Submitted Crash Reports
-date-submitted-heading = Date Submitted
+crashes-submitted-label = 提出済みのクラッシュレポート
+date-submitted-heading = 提出日時
 view-crash-button-label = 表示
 
 no-reports-label = No crash reports have been submitted.
-no-config-label = This application has not been configured to display crash reports. The preference <code>breakpad.reportURL</code> must be set.
+no-config-label = このアプリケーションはクラッシュレポートを表示するように構成されていません。 about:config で <code>breakpad.reportURL</code> を設定する必要があります。

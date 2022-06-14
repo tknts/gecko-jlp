@@ -137,12 +137,12 @@ sandbox-sys-call-tid = TID
 sandbox-sys-call-proc-type = プロセスの種類
 sandbox-sys-call-number = Syscall
 sandbox-sys-call-args = 引数
-safe-mode-title = セーフモードを試す
-restart-in-safe-mode-label = アドオンを無効化して再起動…
+troubleshoot-mode-title = 問題を診断します
+restart-in-troubleshoot-mode-label = トラブルシューティングモード…
 clear-startup-cache-title = スタートアップキャッシュの消去を試してください
 clear-startup-cache-label = スタートアップキャッシュを消去…
 startup-cache-dialog-title2 = { -brand-short-name } を再起動してスタートアップキャッシュをクリアしますか?
-startup-cache-dialog-body2 = これによって、設定が変更されたり、拡張機能が削除されたりすることはありません。
+startup-cache-dialog-body2 = これによって設定が変更されたり、拡張機能が削除されたりすることはありません。
 restart-button-label = 再起動
 
 ## Media titles

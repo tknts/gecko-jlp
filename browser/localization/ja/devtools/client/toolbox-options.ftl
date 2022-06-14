@@ -123,7 +123,7 @@ options-enable-remote-tooltip2 =
     .title = このオプションをオンにすると、このブラウザのインスタンスをリモートでデバッグできます。
 
 # The label for checkbox that toggles custom formatters for objects
-options-enable-custom-formatters-label =  カスタム フォーマッタを有効
+options-enable-custom-formatters-label = カスタム フォーマッタを有効
 options-enable-custom-formatters-tooltip =
     .title = このオプションをオンにすると、サイトが DOM オブジェクトのカスタム フォーマッタを定義できるようになります。
 
