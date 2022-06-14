@@ -117,14 +117,14 @@ places-manage-bookmarks =
   .accesskey = M
 
 places-forget-about-this-site-confirmation-title =
-  Forgetting about this site
+  このサイトを忘れる
 
 # Variables:
 # $hostOrBaseDomain (string) - The base domain (or host in case there is no base domain) for which data is being removed
 places-forget-about-this-site-confirmation-message =
-  This action will remove all data related to { $hostOrBaseDomain } including history, passwords, cookies, cache and content preferences. Are you sure you want to proceed?
+ このアクションにより、履歴、パスワード、Cookie、キャッシュ、コンテンツ設定など { $hostOrBaseDomain } に関連するすべてのデータが削除されます。 続行してもよろしいですか？
 
-places-forget-about-this-site-forget = Forget
+places-forget-about-this-site-forget = 忘れる
 
 places-library =
   .title = ライブラリー
@@ -177,7 +177,7 @@ places-view-sort-descending =
 
 places-maintenance-button =
   .label = インポートとバックアップ
-  .tooltiptext = Import and backup your bookmarks
+  .tooltiptext = あなたのブックマークのインポートとバックアップを行います
   .accesskey = I
 
 places-maintenance-button-mac =
@@ -218,7 +218,7 @@ places-view-sort-col-url =
   .label = URL
 
 places-view-sort-col-most-recent-visit =
-  .label = Most Recent Visit
+  .label = 最近の訪問
 
 places-view-sort-col-visit-count =
   .label = 訪問回数
@@ -238,4 +238,4 @@ places-back-button =
 places-forward-button =
   .tooltiptext = 進む
 
-places-details-pane-select-an-item-description = Select an item to view and edit its properties
+places-details-pane-select-an-item-description = プロパティを表示および編集するアイテムを選択します
