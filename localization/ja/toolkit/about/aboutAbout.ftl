@@ -4,6 +4,6 @@
 
 about-about-title = About について
 about-about-note =
-    This is a list of “about” pages for your convenience.<br/>
-    Some of them might be confusing. Some are for diagnostic purposes only.<br/>
-    And some are omitted because they require query strings.
+    これは “about” ページの一覧です。<br/>
+    それらのいくつかはあなたを戸惑わせるかもしれません。<br/>
+    診断のみを目的としたものもあれば、クエリ文字列が必要なため省略されたものもあります。
