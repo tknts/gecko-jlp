@@ -19,3 +19,13 @@ pictureinpicture-unpip =
 
 pictureinpicture-close =
   .aria-label = 閉じる
+
+pictureinpicture-subtitles-label = Subtitles
+
+pictureinpicture-font-size-label = フォント サイズ
+
+pictureinpicture-font-size-small = 小さめ
+
+pictureinpicture-font-size-medium = 普通
+
+pictureinpicture-font-size-large = 大きめ
