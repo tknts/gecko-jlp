@@ -4,9 +4,7 @@
 
 <!ENTITY closeNotification.tooltip "このメッセージを閉じる">
 
-<!ENTITY checkForUpdates "更新を確認…">
-
-<!ENTITY learnMoreNoEllipsis "さらに詳しく…">
+<!ENTITY learnMoreNoEllipsis "さらに詳しく">
 
 <!ENTITY defaultButton.label "OK!">
 <!ENTITY defaultButton.accesskey "O">

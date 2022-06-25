@@ -108,7 +108,7 @@ cfr-doorhanger-milestone-close-button = 閉じる
 ## DOH Message
 
 cfr-doorhanger-doh-body = Your privacy matters. { -brand-short-name } now securely routes your DNS requests whenever possible to a partner service to protect you while you browse.
-cfr-doorhanger-doh-header = More secure, encrypted DNS lookups
+cfr-doorhanger-doh-header = より安全で暗号化された DNS ルックアップ
 cfr-doorhanger-doh-primary-button-2 = OK
   .accesskey = O
 cfr-doorhanger-doh-secondary-button = 無効化
@@ -153,24 +153,17 @@ spotlight-public-wifi-vpn-link = Not Now
 
 ## Total Cookie Protection Rollout
 
-# "Test pilot" is used as a verb. Possible alternatives: "Be the first to try",
-# "Join an early experiment". This header text can be explicitly wrapped.
-spotlight-total-cookie-protection-header =
-  Test pilot our most powerful
-  privacy experience ever
-spotlight-total-cookie-protection-body = Total Cookie Protection stops trackers from using cookies to stalk you around the web.
+cfr-total-cookie-protection-header = あなたのおかげで { -brand-short-name } はこれまで以上にプライバシーに配慮した安全なものになりました。
 # "Early access" for this feature rollout means it's a "feature preview" or
-# "soft launch" as not everybody will get it yet.
-spotlight-total-cookie-protection-expanded = { -brand-short-name } builds a fence around cookies, limiting them to the site you’re on so trackers can’t use them to follow you. With early access, you’ll help optimize this feature so we can keep building a better web for everyone.
-spotlight-total-cookie-protection-primary-button = Turn on Total Cookie Protection
-spotlight-total-cookie-protection-secondary-button = Not now
+# "soft launch". Only those who received it and accepted are shown this message.
+cfr-total-cookie-protection-body = Total Cookie Protection は、これまでで最も強力なプライバシー保護機能です。現在では世界中の { -brand-short-name } ユーザーのデフォルト設定となっています。これは、あなたのような早期アクセスユーザーの参加が無ければ実現できませんでした。よりプライバシーに配慮した、より良いインターネットを実現するための、ご協力にありがとうございました。
 
 ## Emotive Continuous Onboarding
 
-spotlight-better-internet-header = A better internet starts with you
-spotlight-better-internet-body = When you use { -brand-short-name}, you’re voting for an open and accessible internet that’s better for everyone.
-spotlight-peace-mind-header = We’ve got you covered
-spotlight-peace-mind-body = Every month, { -brand-short-name } blocks an average of over 3,000 trackers per user. Because nothing, especially privacy nuisances like trackers, should stand between you and the good internet.
+spotlight-better-internet-header = より良いインターネットは、あなたから始まります
+spotlight-better-internet-body =  { -brand-short-name} を使用する事は、すべての人にとって、より良いオープンでアクセスしやすいインターネットに投票することになります。
+spotlight-peace-mind-header = 私たちは、あなたを覆い隠す事ができます
+spotlight-peace-mind-body = { -brand-short-name } は 1 ユーザーあたり平均 3,000 以上のトラッカーを毎月ブロックしています。トラッカーのようなプライバシーを侵害するものは、あなたと快適なインターネットとの間に存在してはならないからです。
 spotlight-pin-primary-button = { PLATFORM() ->
     [macos] Keep in Dock
    *[other] タスクバーにピン留めする
