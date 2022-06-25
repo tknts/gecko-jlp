@@ -7,7 +7,7 @@ videocontrols-scrubber =
 # This label is used by screenreaders and other assistive technology to indicate
 # to users how much of the video has been loaded from the network. It will be
 # followed by the percentage of the video that has loaded (e.g. "Loading: 13%").
-videocontrols-buffer-bar-label = Loading:
+videocontrols-buffer-bar-label = 読み込み中:
 videocontrols-volume-control =
     .aria-label = 音量
 videocontrols-closed-caption-button =
@@ -36,12 +36,12 @@ videocontrols-picture-in-picture-label = ピクチャー・イン・ピクチャ
 
 # This string is used as the label for a variation of the Picture-in-Picture video
 # toggle button when the mouse is hovering over the video.
-videocontrols-picture-in-picture-toggle-label = ピクチャー・イン・ピクチャーで再生
+videocontrols-picture-in-picture-toggle-label2 = この動画をポップアウト
 
 # This string is used as part of a variation of the Picture-in-Picture video toggle
 # button. When using this variation, this string appears below the toggle when the
 # mouse hovers the toggle.
-videocontrols-picture-in-picture-explainer = Play videos in the foreground while you do other things in { -brand-short-name }
+videocontrols-picture-in-picture-explainer2 = More screens are more fun. Play this video in Picture-in-Picture while you browse.
 
 videocontrols-error-aborted = 動画の読み込みが停止しました。
 videocontrols-error-network = ネットワークエラーにより動画の再生が中止されました。
