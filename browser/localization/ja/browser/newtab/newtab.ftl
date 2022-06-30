@@ -270,6 +270,7 @@ newtab-custom-sponsored-sites = スポンサー付きショートカット
 newtab-custom-pocket-title = { -pocket-brand-name } によるおすすめ
 newtab-custom-pocket-subtitle = { -brand-product-name } ファミリーの一員である { -pocket-brand-name } によって厳選された優良コンテンツ
 newtab-custom-pocket-sponsored = スポンサー記事
+newtab-custom-pocket-show-recent-saves = 最近の保存を表示
 newtab-custom-recent-title = 最近のアクティビティ
 newtab-custom-recent-subtitle = 最近のサイトとコンテンツの選択
 newtab-custom-close-button = 閉じる

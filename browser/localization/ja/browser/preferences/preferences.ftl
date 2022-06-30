@@ -1212,6 +1212,8 @@ content-blocking-etp-standard-tcp-rollout-checkbox =
 content-blocking-etp-standard-tcp-rollout-description = Total Cookie Protection contains cookies to the site you’re on, so trackers can’t use them to follow you between sites.
 content-blocking-etp-standard-tcp-rollout-learn-more = さらに詳しく
 
+content-blocking-etp-standard-tcp-title = これまでで最も強力なプライバシー機能である Total Cookie Protection が含まれています
+
 content-blocking-warning-title = 注意してください!
 content-blocking-and-isolating-etp-warning-description-2 = この設定により、一部のウェブサイトでコンテンツが表示されない、または正しく動作しないことがあります。サイトが壊れているように見える場合は、そのサイトのトラッキング防止機能をオフにして、すべてのコンテンツを読み込むようにしてください。
 content-blocking-warning-learn-how = さらに詳しく

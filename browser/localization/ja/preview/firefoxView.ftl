@@ -29,7 +29,7 @@ firefoxview-tabpickup-progress-label = { $percentValue }% complete
 
 firefoxview-tabpickup-step-signin-header = Switch seamlessly between devices
 firefoxview-tabpickup-step-signin-description = To grab your phone tabs here, first sign in or create an account.
-firefoxview-tabpickup-step-signin-primarybutton = 続ける
+firefoxview-tabpickup-step-signin-primarybutton = Continue
 
 firefoxview-tabpickup-adddevice-header = Sync { -brand-product-name } on your phone or tablet
 firefoxview-tabpickup-adddevice-description = Download { -brand-product-name } for mobile and sign in there.
@@ -39,11 +39,11 @@ firefoxview-tabpickup-adddevice-primarybutton = Get { -brand-product-name } for 
 firefoxview-tabpickup-synctabs-header = Turn on tab syncing
 firefoxview-tabpickup-synctabs-description = Allow { -brand-short-name } to share tabs between devices.
 firefoxview-tabpickup-synctabs-learn-how = Learn how
-firefoxview-tabpickup-synctabs-primarybutton = 開いているタブを同期
+firefoxview-tabpickup-synctabs-primarybutton = Sync open tabs
 
 firefoxview-tabpickup-syncing = Sit tight while your tabs sync. It’ll be just a moment.
 
-firefoxview-closed-tabs-title = 最近閉じたタブ
+firefoxview-closed-tabs-title = Recently closed
 firefoxview-closed-tabs-collapse-button =
   .title = Show or hide recently closed tabs list
 
@@ -57,3 +57,12 @@ firefoxview-pickup-tabs-badge = Last active
 #   $targetURI (string) - URL that will be opened in the new tab
 firefoxview-tabs-list-tab-button =
   .title = Open { $targetURI } in a new tab
+
+firefoxview-try-colorways-button = Try colorways
+firefoxview-no-current-colorway-collection = New colorways are on the way
+firefoxview-change-colorway-button = Change colorway
+
+# Variables:
+#  $intensity (String): Colorway intensity
+#  $collection (String): Colorway Collection name
+firefoxview-colorway-description = { $intensity } · { $collection }
