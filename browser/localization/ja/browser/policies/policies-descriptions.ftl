@@ -119,6 +119,8 @@ policy-FirefoxHome = Firefox Home の構成。
 
 policy-FlashPlugin = Allow or deny usage of the Flash plugin.
 
+policy-GoToIntranetSiteForSingleWordEntryInAddressBar = Force direct intranet site navigation instead of searching when typing single word entries in the address bar.
+
 policy-Handlers = Configure default application handlers.
 
 policy-HardwareAcceleration = If false, turn off hardware acceleration.
