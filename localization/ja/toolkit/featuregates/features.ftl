@@ -5,8 +5,8 @@
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
 experimental-features-css-masonry2 =
-    .label = CSS: タイルレイアウト
-experimental-features-css-masonry-description = 実験的な CSS タイルレイアウト機能を有効にします。この機能の概要については、こちらの <a data-l10n-name="explainer">解説</a> をご覧ください。この機能に関するフィードバックは <a data-l10n-name="w3c-issue">GitHub Issue</a> または <a data-l10n-name="bug"> バグ</a> にコメントしてください。
+    .label = CSS: 組積レイアウト
+experimental-features-css-masonry-description = 実験的な CSS 組積レイアウト機能を有効にします。この機能の概要については、こちらの <a data-l10n-name="explainer">解説</a> をご覧ください。この機能に関するフィードバックは <a data-l10n-name="w3c-issue">GitHub Issue</a> または <a data-l10n-name="bug">バグ</a> としてコメントしてください。
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
@@ -29,22 +29,11 @@ experimental-features-cookie-samesite-lax-by-default2 =
     .label = Cookie: SameSite=Lax をデフォルトにする
 experimental-features-cookie-samesite-lax-by-default2-description = Cookie に “SameSite” が指定されていない場合、デフォルトで “SameSite=Lax” として扱います。開発者は “SameSite=None” を明示的に表明する事により無制限の使用をする際に許可を求める必要があります。
 
-# Do not translate 'SameSite', 'Lax' and 'None'.
-experimental-features-cookie-samesite-none-requires-secure2 =
-    .label = Cookie: SameSite=None の場合にセキュア属性を要求する
-experimental-features-cookie-samesite-none-requires-secure2-description =  “SameSite=None”  属性を持つ Cookie にセキュア属性を要求します。 この機能を使用するには SameSite 属性のデフォルトが Lax である必要があります。
-
 # about:home should be kept in English, as it refers to the the URI for
 # the internal default home page.
 experimental-features-abouthome-startup-cache =
     .label = about:home のキャッシュ
 experimental-features-abouthome-startup-cache-description = 起動時に読み込まれる about:home ドキュメントをキャッシュします。キャッシュの目的は起動時のパフォーマンスを向上させることです。
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
-experimental-features-cookie-samesite-schemeful =
-    .label = Cookies: Schemeful SameSite
-experimental-features-cookie-samesite-schemeful-description = 同じドメインからの Cookie を、異なるスキーム (例えば  http://example.com と https://example.com など) を使用して、異なるサイト (クロスサイト) として扱います。この機能によってセキュリティは向上しますが、サイトが正常に動作しなくなる可能性があります。
 
 # "Service Worker" is an API name and is usually not translated.
 experimental-features-devtools-serviceworker-debugger-support =
