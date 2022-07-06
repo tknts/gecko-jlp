@@ -99,8 +99,8 @@ security-view-identity-validity =
 security-view-privacy =
     .value = プライバシーと履歴
 
-security-view-privacy-history-value = Have I visited this website prior to today?
-security-view-privacy-sitedata-value = Is this website storing information on my computer?
+security-view-privacy-history-value = 今日より前にこのウェブサイトにアクセスしたことがありますか?
+security-view-privacy-sitedata-value = このウェブサイトは私のコンピューターに情報を保存していますか?
 
 security-view-privacy-clearsitedata =
     .label = Cookie とサイトデータを消去
