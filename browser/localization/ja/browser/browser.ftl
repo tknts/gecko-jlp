@@ -13,7 +13,7 @@
 # The last two are for use when there *is* a content title.
 # Variables:
 #  $content-title (String): the title of the web content.
-browser-main-window =
+browser-main-window-window-titles =
   .data-title-default = { -brand-full-name }
   .data-title-private = { -brand-full-name } (プライベート ブラウジング)
   .data-content-title-default = { $content-title } — { -brand-full-name }
@@ -33,7 +33,7 @@ browser-main-window =
 #
 # Variables:
 #  $content-title (String): the title of the web content.
-browser-main-window-mac =
+browser-main-window-mac-window-titles =
   .data-title-default = { -brand-full-name }
   .data-title-private = { -brand-full-name } — (プライベート ブラウジング)
   .data-content-title-default = { $content-title }
@@ -93,7 +93,7 @@ urlbar-web-rtc-share-devices-notification-anchor =
 # "Speakers" is used in a general sense that might include headphones or
 # another audio output connection.
 urlbar-web-rtc-share-speaker-notification-anchor =
-    .tooltiptext = Manage sharing other speakers with the site
+    .tooltiptext = サイトと他のスピーカーの共有を管理します
 urlbar-autoplay-notification-anchor =
     .tooltiptext = 自動再生パネルを開きます
 urlbar-persistent-storage-notification-anchor =
@@ -126,6 +126,7 @@ urlbar-tabtosearch-onboard = このショートカットを選択すると、必
 urlbar-search-mode-bookmarks = ブックマーク
 urlbar-search-mode-tabs = タブ
 urlbar-search-mode-history = 履歴
+urlbar-search-mode-actions = Actions
 
 ##
 
@@ -184,7 +185,7 @@ full-screen-exit =
 
 # This string prompts the user to use the list of search shortcuts in
 # the Urlbar and searchbar.
-search-one-offs-with-title = This time, search with:
+search-one-offs-with-title = 今回だけ次で検索:
 
 search-one-offs-change-settings-compact-button =
     .tooltiptext = 検索の設定を変更します
@@ -232,6 +233,21 @@ search-one-offs-tabs =
     .tooltiptext = タブ ({ $restrict })
 search-one-offs-history =
     .tooltiptext = 履歴 ({ $restrict })
+search-one-offs-actions =
+    .tooltiptext = Actions ({ $restrict })
+
+## QuickActions are shown in the urlbar as the user types a matching string
+
+quickactions-clear = 履歴を消去
+quickactions-print = 印刷
+quickactions-screenshot = スクリーンショットを撮影
+quickactions-settings = 設定を開く
+quickactions-downloads = ダウンロードを開く
+quickactions-viewsource = ソースコードを表示
+quickactions-inspector = インスペクタを開く
+quickactions-refresh = Refresh { -brand-short-name }
+quickactions-restart = { -brand-short-name } を再起動
+quickactions-update = { -brand-short-name } を更新
 
 ## Bookmark Panel
 
@@ -296,16 +312,16 @@ identity-https-only-info-turn-off2 = ページが壊れているように見え�
 identity-https-only-info-no-upgrade = HTTP から接続をアップグレードできません。
 
 identity-permissions-storage-access-header = クロスサイト Cookie
-identity-permissions-storage-access-hint = These parties can use cross-site cookies and site data while you are on this site.
+identity-permissions-storage-access-hint = これらの当事者は、あなたがこのサイトにいる間、クロスサイト Cookie とサイトデータを使用できます。
 identity-permissions-storage-access-learn-more = さらに詳しく
 
-identity-permissions-reload-hint = You may need to reload the page for changes to apply.
+identity-permissions-reload-hint = 変更を適用するにはページを再読み込みする必要がある場合があります。
 identity-clear-site-data =
     .label = Cookie とサイトデータを消去…
-identity-connection-not-secure-security-view = You are not securely connected to this site.
-identity-connection-verified = You are securely connected to this site.
-identity-ev-owner-label = Certificate issued to:
-identity-description-custom-root = Mozilla does not recognize this certificate issuer. It may have been added from your operating system or by an administrator. <label data-l10n-name="link">Learn More</label>
+identity-connection-not-secure-security-view = このサイトには安全に接続されていません。
+identity-connection-verified = このサイトには安全に接続されています。
+identity-ev-owner-label = 証明書の対象:
+identity-description-custom-root = Mozilla はこの証明書の発行者を認識しません。オペレーティングシステムまたは管理者によって追加された可能性があります。<label data-l10n-name="link">さらに詳しく</label>
 identity-remove-cert-exception =
     .label = 例外を削除
     .accesskey = R
@@ -460,6 +476,11 @@ urlbar-placeholder-search-mode-other-history =
 urlbar-placeholder-search-mode-other-tabs =
   .placeholder = 検索ワードを入力してください
   .aria-label = タブの検索
+
+# This placeholder is used when searching quick actions.
+urlbar-placeholder-search-mode-other-actions =
+  .placeholder = 検索ワードを入力してください
+  .aria-label = Search actions
 
 # Variables
 #  $name (String): the name of the user's default search engine
