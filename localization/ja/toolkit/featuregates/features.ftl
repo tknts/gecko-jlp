@@ -5,7 +5,7 @@
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
 experimental-features-css-masonry2 =
-    .label = CSS: 組積レイアウト
+    .label = CSS: Masonry Layout
 experimental-features-css-masonry-description = 実験的な CSS 組積レイアウト機能を有効にします。この機能の概要については、こちらの <a data-l10n-name="explainer">解説</a> をご覧ください。この機能に関するフィードバックは <a data-l10n-name="w3c-issue">GitHub Issue</a> または <a data-l10n-name="bug">バグ</a> としてコメントしてください。
 
 # The title of the experiment should be kept in English as it may be referenced
@@ -17,7 +17,7 @@ experimental-features-web-gpu-description2 = この新しい API はユーザー
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
 experimental-features-media-jxl =
-    .label = メディア: JPEG XL
+    .label = Media: JPEG XL
 experimental-features-media-jxl-description = この機能を有効化すると { -brand-short-name } で JPEG XL (JXL) 形式のファイルがサポートされます。これは従来の JPEG ファイルにロスレス圧縮をサポートする拡張画像ファイル形式です。詳しくは <a data-l10n-name="bugzilla">bug 1539075</a> をご覧ください。
 
 experimental-features-devtools-compatibility-panel =
@@ -26,18 +26,29 @@ experimental-features-devtools-compatibility-panel-description = A side panel fo
 
 # Do not translate 'SameSite', 'Lax' and 'None'.
 experimental-features-cookie-samesite-lax-by-default2 =
-    .label = Cookie: SameSite=Lax をデフォルトにする
+    .label = Cookies: SameSite=Lax by default
 experimental-features-cookie-samesite-lax-by-default2-description = Cookie に “SameSite” が指定されていない場合、デフォルトで “SameSite=Lax” として扱います。開発者は “SameSite=None” を明示的に表明する事により無制限の使用をする際に許可を求める必要があります。
+
+# Do not translate 'SameSite', 'Lax' and 'None'.
+experimental-features-cookie-samesite-none-requires-secure2 =
+    .label = Cookies: SameSite=None requires secure attribute
+experimental-features-cookie-samesite-none-requires-secure2-description =“SameSite=None” 属性を持つ Cookie には Secure 属性が必要です。 この機能には「Cookies：SameSite=Laxデフォルト」が必要です。この機能には “Cookie: SameSite=Lax をデフォルトにする” が必要です。
 
 # about:home should be kept in English, as it refers to the the URI for
 # the internal default home page.
 experimental-features-abouthome-startup-cache =
-    .label = about:home のキャッシュ
+    .label = about:home startup cache
 experimental-features-abouthome-startup-cache-description = 起動時に読み込まれる about:home ドキュメントをキャッシュします。キャッシュの目的は起動時のパフォーマンスを向上させることです。
+
+# The title of the experiment should be kept in English as it may be referenced
+# by various online articles and is technical in nature.
+experimental-features-cookie-samesite-schemeful =
+    .label = Cookies: Schemeful SameSite
+experimental-features-cookie-samesite-schemeful-description = スキームが異なる同じドメインの Cookie (例えば http://example.com と https://example.com) をクロスサイトとして扱います。セキュリティは向上しますが、サイトが正常に動作しなくなる可能性があります。
 
 # "Service Worker" is an API name and is usually not translated.
 experimental-features-devtools-serviceworker-debugger-support =
-    .label = 開発ツール: Service Worker のデバッグ
+    .label = Developer Tools: Service Worker debugging
 # "Service Worker" is an API name and is usually not translated.
 experimental-features-devtools-serviceworker-debugger-support-description = 開発ツールのデバッガパネルで Service Worker の実験的なサポートを有効にします。この機能により開発ツールの速度が低下したり、メモリの消費量が増加する場合があります。
 
