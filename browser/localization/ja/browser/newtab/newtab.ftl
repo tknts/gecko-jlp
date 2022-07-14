@@ -240,17 +240,6 @@ newtab-pocket-pocket-firefox-family = { -pocket-brand-name } は { -brand-produc
 newtab-pocket-save-to-pocket = { -pocket-brand-name } に保存
 newtab-pocket-saved-to-pocket = { -pocket-brand-name } に保存済み
 
-# This is a button shown at the bottom of the Pocket section that loads more stories when clicked.
-newtab-pocket-load-more-stories-button = その他の記事を読み込む
-
-## Pocket Final Card Section.
-## This is for the final card in the Pocket grid.
-
-newtab-pocket-last-card-title = You’re all caught up!
-newtab-pocket-last-card-desc = Check back later for more.
-newtab-pocket-last-card-image =
-    .alt = You’re all caught up
-
 ## Error Fallback Content.
 ## This message and suggested action link are shown in each section of UI that fails to render.
 

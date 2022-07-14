@@ -688,6 +688,8 @@ home-prefs-recommended-by-description-new = { -brand-product-name } ファミリ
 home-prefs-recommended-by-learn-more = 使い方
 home-prefs-recommended-by-option-sponsored-stories =
     .label = 広告記事
+home-prefs-recommended-by-option-recent-saves =
+    .label = 最近の保存を表示
 
 home-prefs-highlights-option-visited-pages =
     .label = 訪問したページ
