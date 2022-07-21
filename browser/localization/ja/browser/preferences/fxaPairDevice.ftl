@@ -2,17 +2,15 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-fxa-pair-device-dialog =
-    .title = 他のデバイスを接続する
-    .style = width: 26em; min-height: 35em;
+fxa-pair-device-dialog-sync =
+    .style = width: 32em;
 
-fxa-qrcode-heading-step1 = 1. まだお持ちでない場合は、<a data-l10n-name="connect-another-device">Firefox をモバイルデバイス</a> にインストールしてください。
+fxa-qrcode-pair-title = スマートフォンまたはタブレットで { -brand-product-name } を同期する
+fxa-qrcode-pair-step1 = 1. モバイルデバイスで { -brand-product-name } を開きます。
 
-fxa-qrcode-heading-step2 = 2. あなたのモバイルデバイスで Firefox を開きます。
+fxa-qrcode-pair-step2 = 2. <strong>メニュー</strong> (iOS の場合は <img data-l10n-name="ios-menu-icon"/> 、Android の場合は <imgdata-l10n-name="android-menu-icon"/>) を開き <strong>ログインして同期</strong> をタップします
 
-fxa-qrcode-heading-step3 = 3. <b>メニュー</b> を開き (<img data-l10n-name="ios-menu-icon"/> か <img data-l10n-name="android-menu-icon"/>)、<img data-l10n-name="settings-icon"/> <b>設定</b> の <b>同期をオンにする</b> をタップします。
-
-fxa-qrcode-heading-step4 = 4. このコードをスキャンしてください:
+fxa-qrcode-pair-step3 = 3. <strong>スキャンの準備ができました</strong> をタップして、このコードの上に携帯電話をかざします
 
 fxa-qrcode-error-title = ペアリングに失敗しました。
 

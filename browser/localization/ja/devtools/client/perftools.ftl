@@ -146,6 +146,10 @@ perftools-presets-media-description2 = { -brand-shorter-name } のオーディ�
 perftools-presets-networking-label = ネットワーク
 perftools-presets-networking-description = { -brand-shorter-name } でネットワークのバグを調査するためのプリセットです。
 
+# "Power" is used in the sense of energy (electricity used by the computer).
+perftools-presets-power-label = Power
+perftools-presets-power-description = Preset for investigating power use bugs in { -brand-shorter-name }, with low overhead.
+
 perftools-presets-custom-label = カスタマイズ
 
 ##

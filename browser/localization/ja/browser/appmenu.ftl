@@ -133,15 +133,15 @@ whatsnew-panel-footer-checkbox =
 
 profiler-popup-button-idle =
   .label = プロファイラ
-  .tooltiptext = Record a performance profile
+  .tooltiptext = パフォーマンスプロファイルを記録します
 
 profiler-popup-button-recording =
   .label = プロファイラ
-  .tooltiptext = The profiler is recording a profile
+  .tooltiptext = プロファイラーがプロファイルを記録しています
 
 profiler-popup-button-capturing =
   .label = プロファイラ
-  .tooltiptext = The profiler is capturing a profile
+  .tooltiptext = プロファイラーがプロファイルをキャプチャしています
 
 profiler-popup-title =
   .value = { -profiler-brand-name }
@@ -171,10 +171,10 @@ profiler-popup-start-recording-button =
   .label = 記録を開始
 
 profiler-popup-discard-button =
-  .label = Discard
+  .label = 破棄
 
 profiler-popup-capture-button =
-  .label = Capture
+  .label = キャプチャ
 
 profiler-popup-start-shortcut =
   { PLATFORM() ->
@@ -195,7 +195,7 @@ profiler-popup-capture-shortcut =
 # devtools/client/performance-new/popup/background.jsm.js
 # Please take care that the same values are also defined in devtools' perftools.ftl.
 
-profiler-popup-presets-web-developer-description = Recommended preset for most web app debugging, with low overhead.
+profiler-popup-presets-web-developer-description = オーバーヘッドが少なく、ほとんどのウェブアプリのデバッグに推奨されるプリセットです。
 profiler-popup-presets-web-developer-label =
   .label = ウェブ開発
 
@@ -203,17 +203,22 @@ profiler-popup-presets-firefox-description = Recommended preset for profiling { 
 profiler-popup-presets-firefox-label =
   .label = { -brand-shorter-name }
 
-profiler-popup-presets-graphics-description = Preset for investigating graphics bugs in { -brand-shorter-name }.
+profiler-popup-presets-graphics-description = { -brand-shorter-name } のグラフィックのバグを調査するためのプリセットです。
 profiler-popup-presets-graphics-label =
   .label = グラフィック
 
-profiler-popup-presets-media-description2 = Preset for investigating audio and video bugs in { -brand-shorter-name }.
+profiler-popup-presets-media-description2 = { -brand-shorter-name } のオーディオとビデオのバグを調査するためのプリセットです。
 profiler-popup-presets-media-label =
   .label = メディア
 
-profiler-popup-presets-networking-description = Preset for investigating networking bugs in { -brand-shorter-name }.
+profiler-popup-presets-networking-description = { -brand-shorter-name } のネットワークのバグを調査するためのプリセットです。
 profiler-popup-presets-networking-label =
-  .label = Networking
+  .label = ネットワーク
+
+profiler-popup-presets-power-description = { -brand-shorter-name } の電力使用バグを調査するためのプリセットで、オーバーヘッドが低くなっています。
+# "Power" is used in the sense of energy (electricity used by the computer).
+profiler-popup-presets-power-label =
+  .label = 電力消費
 
 profiler-popup-presets-custom-label =
   .label = カスタマイズ
