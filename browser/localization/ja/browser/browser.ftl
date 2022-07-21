@@ -238,16 +238,20 @@ search-one-offs-actions =
 
 ## QuickActions are shown in the urlbar as the user types a matching string
 
+quickactions-addons = アドオンを表示
+quickactions-bookmarks = ブックマークを表示
 quickactions-clear = 履歴を消去
-quickactions-print = 印刷
-quickactions-screenshot = スクリーンショットを撮影
-quickactions-settings = 設定を開く
 quickactions-downloads = ダウンロードを開く
-quickactions-viewsource = ソースコードを表示
 quickactions-inspector = インスペクタを開く
+quickactions-logins = ログイン情報を表示
+quickactions-print = 印刷
+quickactions-private = ライベートブラウジング ウィンドウで開く
 quickactions-refresh = Refresh { -brand-short-name }
 quickactions-restart = { -brand-short-name } を再起動
+quickactions-screenshot2 = スクリーンショットを撮影
+quickactions-settings = 設定を開く
 quickactions-update = { -brand-short-name } を更新
+quickactions-viewsource = ソースコードを表示
 
 ## Bookmark Panel
 
@@ -866,3 +870,9 @@ data-reporting-notification-button =
 
 # Label for the indicator shown in the private browsing window titlebar.
 private-browsing-indicator-label = プライベート ブラウジング
+
+## Unified extensions (toolbar) button
+
+unified-extensions-button =
+    .label = 拡張機能
+    .tooltiptext = 拡張機能
