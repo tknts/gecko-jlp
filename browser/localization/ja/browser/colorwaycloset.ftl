@@ -2,17 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-colorway-collection-expiry-date-span = 有効期限 { DATETIME($expiryDate, month: "long", day: "numeric") }
+# Variables:
+#   $expiryDate (string) - date on which the colorway collection expires. When formatting this, you may omit the year, only exposing the month and day, as colorway collections will always expire within a year.
+colorway-collection-expiry-label = 利用期限 { DATETIME($expiryDate, month: "long", day: "numeric") }
 
-colorway-intensity-selector-label = Intensity
-colorway-intensity-soft = Soft
-colorway-intensity-balanced = Balanced
+colorway-intensity-selector-label = 強度
+colorway-intensity-soft = 穏やかに
+colorway-intensity-balanced = バランスをとる
 # "Bold" is used in the sense of bravery or courage, not in the sense of
 # emphasized text.
-colorway-intensity-bold = Bold
+colorway-intensity-bold = 大胆に
 
 # Label for the button to keep using the selected colorway in the browser
-colorway-closet-set-colorway-button = Set colorway
+colorway-closet-set-colorway-button = Colorway をセット
 colorway-closet-cancel-button = キャンセル
 
 colorway-homepage-reset-prompt = Make { -brand-product-name } Home your colorful homepage

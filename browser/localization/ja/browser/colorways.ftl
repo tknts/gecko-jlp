@@ -4,30 +4,27 @@
 
 ## Colorway collections
 
-colorway-collection-life-in-color = Life In Color
-colorway-collection-true-colors = True Colors
 colorway-collection-independent-voices = Independent Voices
 colorway-collection-independent-voices-description = Color can change culture. The latest colorways celebrate voices making the world a better place.
-
-# Subheading for colorway collection card in about:addons
-colorway-collection-independent-voices-subheading2 = Colors that change culture.
+# Used as a subheading for the colorway collection card in about:addons
+colorway-collection-independent-voices-short-description = Colors that change culture.
 
 ## Colorway names and descriptions
 
-playmaker-colorway-name = Playmaker
+playmaker-colorway-name = 司令官
 playmaker-colorway-description = You create opportunities to win and help everyone around you elevate their game.
 
-expressionist-colorway-name = Expressionist
+expressionist-colorway-name = 表現者
 expressionist-colorway-description = You see the world differently and your creations stir the emotions of others.
 
-visionary-colorway-name = Visionary
+visionary-colorway-name = 空想家
 visionary-colorway-description = You question the status quo and move others to imagine a better future.
 
-activist-colorway-name = Activist
+activist-colorway-name = 活動家
 activist-colorway-description = You leave the world a better place than you found it and lead others to believe.
 
-dreamer-colorway-name = Dreamer
+dreamer-colorway-name = 夢想家
 dreamer-colorway-description = You believe that fortune favors the bold and inspire others to be brave.
 
-innovator-colorway-name = Innovator
+innovator-colorway-name = 革新者
 innovator-colorway-description = You see opportunities everywhere and make an impact on the lives of everyone around you.
