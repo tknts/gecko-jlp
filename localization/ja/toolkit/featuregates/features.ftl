@@ -40,12 +40,6 @@ experimental-features-abouthome-startup-cache =
     .label = about:home startup cache
 experimental-features-abouthome-startup-cache-description = 起動時に読み込まれる about:home ドキュメントをキャッシュします。キャッシュの目的は起動時のパフォーマンスを向上させることです。
 
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
-experimental-features-cookie-samesite-schemeful =
-    .label = Cookies: Schemeful SameSite
-experimental-features-cookie-samesite-schemeful-description = スキームが異なる同じドメインの Cookie (例えば http://example.com と https://example.com) をクロスサイトとして扱います。セキュリティは向上しますが、サイトが正常に動作しなくなる可能性があります。
-
 # "Service Worker" is an API name and is usually not translated.
 experimental-features-devtools-serviceworker-debugger-support =
     .label = Developer Tools: Service Worker debugging
