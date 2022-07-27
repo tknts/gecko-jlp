@@ -167,10 +167,12 @@ urlbar-star-add-bookmark =
 
 ## Page Action Context Menu
 
-page-action-manage-extension =
+page-action-manage-extension2 =
     .label = 拡張機能を管理…
-page-action-remove-extension =
+    .accesskey = E
+page-action-remove-extension2 =
     .label = 拡張機能を削除
+    .accesskey = v
 
 ## Auto-hide Context Menu
 
@@ -237,21 +239,64 @@ search-one-offs-actions =
     .tooltiptext = Actions ({ $restrict })
 
 ## QuickActions are shown in the urlbar as the user types a matching string
+## The -cmd- strings are comma separated list of keywords that will match
+## the action.
 
+# Opens the about:addons page
 quickactions-addons = アドオンを表示
+quickactions-cmd-addons = add-ons, extensions, themes
+
+# Opens the bookmarks library window
 quickactions-bookmarks = ブックマークを表示
-quickactions-clear = 履歴を消去
+quickactions-cmd-bookmarks = bookmarks
+
+# Opens a SUMO article explaining how to clear history
+quickactions-clearhistory = 履歴を消去
+quickactions-cmd-clearhistory = clear history
+
+# Opens about:downloads page
 quickactions-downloads = ダウンロードを開く
+quickactions-cmd-downloads = downloads
+
+# Opens the devtools web inspector
 quickactions-inspector = インスペクタを開く
+quickactions-cmd-inspector = inspector, devtools
+
+# Opens about:logins
 quickactions-logins = ログイン情報を表示
+quickactions-cmd-logins = logins, passwords
+
+# Opens the print dialog
 quickactions-print = 印刷
-quickactions-private = ライベートブラウジング ウィンドウで開く
+quickactions-cmd-print = print
+
+# Opens a new private browsing window
+quickactions-private = プライベートブラウジング ウィンドウで開く
+quickactions-cmd-private = private browsing
+
+# Opens a SUMO article explaining how to refresh
 quickactions-refresh = Refresh { -brand-short-name }
+quickactions-cmd-refresh = refresh
+
+# Restarts the browser
 quickactions-restart = { -brand-short-name } を再起動
+quickactions-cmd-restart = restart
+
+# Opens the screenshot tool
 quickactions-screenshot2 = スクリーンショットを撮影
+quickactions-cmd-screenshot = screenshot
+
+# Opens about:preferences
 quickactions-settings = 設定を開く
+quickactions-cmd-settings = settings, preferences, options
+
+# Opens a SUMO article explaining how to update the browser
 quickactions-update = { -brand-short-name } を更新
+quickactions-cmd-update = update
+
+# Opens the view-source UI with current pages source
 quickactions-viewsource = ソースコードを表示
+quickactions-cmd-viewsource = view source, source
 
 ## Bookmark Panel
 

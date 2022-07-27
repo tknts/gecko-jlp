@@ -633,10 +633,8 @@ home-restore-defaults =
     .label = 初期設定に戻す
     .accesskey = R
 
-# "Firefox" should be treated as a brand and kept in English,
-# while "Home" and "(Default)" can be localized.
-home-mode-choice-default =
-    .label = Firefox ホーム (初期設定)
+home-mode-choice-default-fx =
+    .label = { -firefox-home-brand-name } (初期設定)
 
 home-mode-choice-custom =
     .label = ウェブページ…
@@ -665,8 +663,8 @@ choose-bookmark =
 
 ## Home Section - Firefox Home Content Customization
 
-home-prefs-content-header = Firefox Home コンテンツ
-home-prefs-content-description = Firefox Home に表示するコンテンツを選びましょう。
+home-prefs-content-header2 = { -firefox-home-brand-name } コンテンツ
+home-prefs-content-description2 = { -firefox-home-brand-name } に表示するコンテンツを選びましょう。
 
 home-prefs-search-header =
     .label = ウェブ検索
@@ -1192,7 +1190,7 @@ content-blocking-etp-custom-desc = ブロックする項目を選択してくだ
 content-blocking-etp-blocking-desc = { -brand-short-name } は、以下をブロックします。
 
 content-blocking-private-windows = プライベート ウィンドウでのトラッキング コンテンツ
-content-blocking-cross-site-cookies-in-all-windows = すべてのウィンドウでのクロスサイト Cookie (トラッキング Cookie を含みます)
+content-blocking-cross-site-cookies-in-all-windows2 = すべてのウィンドウでのクロスサイト Cookie
 content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
 content-blocking-all-cross-site-cookies-private-windows = プライベート ウィンドウでのクロスサイト Cookie
 content-blocking-cross-site-tracking-cookies-plus-isolate = クロスサイトトラッキング Cookie と残りの Cookie を分離

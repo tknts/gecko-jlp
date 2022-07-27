@@ -115,7 +115,7 @@ policy-ExtensionSettings = Manage all aspects of extension installation.
 
 policy-ExtensionUpdate = Enable or disable automatic extension updates.
 
-policy-FirefoxHome = Firefox Home の構成。
+policy-FirefoxHome2 = { -firefox-home-brand-name } の構成。
 
 policy-FlashPlugin = Allow or deny usage of the Flash plugin.
 

@@ -19,8 +19,8 @@ about-private-browsing-handoff-no-engine =
 about-private-browsing-handoff-text = { $engine } で検索または URL を入力
 about-private-browsing-handoff-text-no-engine = 検索ワードまたは URL を入力
 about-private-browsing-not-private = これはプライベート ウィンドウではありません。
-about-private-browsing-info-description-private-window = プライベートウィンドウ: { -brand-short-name } は、すべてのプライベートウィンドウが閉じられたときに、検索と閲覧の履歴を消去します。これで匿名になるわけではありません。
-about-private-browsing-info-description-simplified = { -brand-short-name } は、すべてのプライベートウィンドウを閉じると検索と閲覧の履歴を消去しますが匿名にはなりません。
+about-private-browsing-info-description-private-window = プライベート ウィンドウ: { -brand-short-name } は、すべてのプライベート ウィンドウが閉じられたときに、検索と閲覧の履歴を消去します。これで匿名になるわけではありません。
+about-private-browsing-info-description-simplified = { -brand-short-name } は、すべてのプライベート ウィンドウを閉じると検索と閲覧の履歴を消去しますが匿名にはなりません。
 about-private-browsing-learn-more-link = さらに詳しく
 
 about-private-browsing-hide-activity = Hide your activity and location, everywhere you browse
@@ -29,8 +29,8 @@ about-private-browsing-hide-activity-1 = { -mozilla-vpn-brand-name } で閲覧�
 about-private-browsing-prominent-cta = { -mozilla-vpn-brand-name } でプライベートを維持する
 
 about-private-browsing-focus-promo-cta = { -focus-brand-name } をダウンロード
-about-private-browsing-focus-promo-header = { -focus-brand-name }: どこでもプライベートブラウジングを
-about-private-browsing-focus-promo-text = プライベートブラウジング専用のモバイルアプリは、毎回閲覧履歴と Cookie をクリアします。
+about-private-browsing-focus-promo-header = { -focus-brand-name }: どこでもプライベート ブラウジングを
+about-private-browsing-focus-promo-text = プライベート ブラウジング専用のモバイルアプリは、毎回閲覧履歴と Cookie をクリアします。
 
 ## The following strings will be used for experiments in Fx99 and Fx100
 

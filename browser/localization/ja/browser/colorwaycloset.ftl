@@ -17,7 +17,7 @@ colorway-intensity-bold = 大胆に
 colorway-closet-set-colorway-button = Colorway をセット
 colorway-closet-cancel-button = キャンセル
 
-colorway-homepage-reset-prompt = Make { -brand-product-name } Home your colorful homepage
-colorway-homepage-reset-success-message = { -brand-product-name } Home is now your homepage
+colorway-homepage-reset-prompt = Make { -firefox-home-brand-name } your colorful homepage
+colorway-homepage-reset-success-message = { -firefox-home-brand-name } is now your homepage
 colorway-homepage-reset-apply-button = 適用
 colorway-homepage-reset-undo-button = 元に戻す
