@@ -14,5 +14,16 @@ unified-extensions-manage-extensions =
 
 ## An extension in the main list
 
-unified-extensions-item-open-submenu =
-    .tooltiptext = この拡張機能のメニューを開きます
+unified-extensions-item-open-menu =
+    .tooltiptext = コンテキストメニューを開きます
+
+## Extension's context menu
+
+unified-extensions-context-menu-manage-extension =
+    .label = 拡張機能を管理
+
+unified-extensions-context-menu-remove-extension =
+    .label = 拡張機能を削除
+
+unified-extensions-context-menu-report-extension =
+    .label = 拡張機能を報告
