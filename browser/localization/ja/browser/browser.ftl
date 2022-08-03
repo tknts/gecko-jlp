@@ -609,6 +609,7 @@ urlbar-result-action-calculator-result = = { $result }
 urlbar-result-action-search-bookmarks = ブックマークを検索
 urlbar-result-action-search-history = 履歴を検索
 urlbar-result-action-search-tabs = タブを検索
+urlbar-result-action-search-actions = アクションを検索
 
 ## Labels shown above groups of urlbar results
 

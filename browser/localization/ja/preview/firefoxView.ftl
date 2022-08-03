@@ -14,6 +14,10 @@ menu-tools-firefox-view =
 
 firefoxview-page-title = { -firefoxview-brand-name }
 
+firefoxview-close-button =
+  .title = 閉じる
+  .aria-label = Close
+
 # Used instead of the localized relative time when a timestamp is within a minute or so of now
 firefoxview-just-now-timestamp = Just now
 

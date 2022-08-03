@@ -29,4 +29,17 @@ toolbox-meatball-menu-noautohide-label = ポップアップを自動的に隠さ
 toolbox-meatball-menu-pseudo-locale-accented = Enable “accented” locale
 toolbox-meatball-menu-pseudo-locale-bidi = Enable “bidi” locale
 
-##
+## These labels are shown in the top-toolbar in the Browser Toolbox and Browser Console
+
+toolbox-mode-browser-toolbox-label = ブラウザツールボックス モード
+toolbox-mode-browser-console-label = ブラウザコンソール モード
+
+toolbox-mode-everything-label = マルチプロセス
+toolbox-mode-everything-sub-label = (遅い)
+toolbox-mode-everything-container =
+  .title = すべてのプロセスで常にデバッグします
+
+toolbox-mode-parent-process-label = 親プロセスのみ
+toolbox-mode-parent-process-sub-label = (速い)
+toolbox-mode-parent-process-container =
+  .title = 親プロセスのリソースのみにフォーカスします。
