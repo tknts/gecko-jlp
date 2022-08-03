@@ -203,7 +203,7 @@ about-debugging-runtime-processes =
 
 # Label of the button opening the performance profiler panel in runtime pages for remote
 # runtimes.
-about-debugging-runtime-profile-button2 = プロファイルパフォーマンス
+about-debugging-runtime-profile-button2 = プロファイル パフォーマンス
 
 # This string is displayed in the runtime page if the current configuration of the
 # target runtime is incompatible with service workers. "Learn more" points to:
