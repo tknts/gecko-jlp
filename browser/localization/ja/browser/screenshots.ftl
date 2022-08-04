@@ -3,26 +3,26 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 screenshot-toolbarbutton =
-  .label = Screenshot
-  .tooltiptext = Take a screenshot
+  .label = スクリーンショット
+  .tooltiptext = スクリーンショットを撮影します
 
 screenshot-shortcut =
   .key = S
 
 screenshots-instructions = Drag or click on the page to select a region. Press ESC to cancel.
-screenshots-cancel-button = Cancel
-screenshots-save-visible-button = Save visible
-screenshots-save-page-button = Save full page
-screenshots-download-button = Download
-screenshots-download-button-tooltip = Download screenshot
-screenshots-copy-button = Copy
-screenshots-copy-button-tooltip = Copy screenshot to clipboard
+screenshots-cancel-button = キャンセル
+screenshots-save-visible-button = 表示部分のみ保存
+screenshots-save-page-button = ページ全体を保存
+screenshots-download-button = ダウンロード
+screenshots-download-button-tooltip = スクリーンショットをダウンロードします
+screenshots-copy-button = コピー
+screenshots-copy-button-tooltip = スクリーンショットをクリップボードにコピーします
 screenshots-download-button-title =
-  .title = Download screenshot
+  .title = スクリーンショットのダウンロード
 screenshots-copy-button-title =
-  .title = Copy screenshot to clipboard
+  .title = スクリーンショットをクリップボードにコピー
 screenshots-cancel-button-title =
-  .title = Cancel
+  .title = キャンセル
 screenshots-retry-button-title =
   .title = Retry screenshot
 

@@ -292,7 +292,7 @@ about-debugging-tmp-extension-terminate-bgscript-button = バックグラウン�
 about-debugging-tmp-extension-install-message = manifest.json ファイルか .xpi/.zip ファイルを選択してください
 
 # This string is displayed as a message about the add-on having a temporaryID.
-about-debugging-tmp-extension-temporary-id = この WebExtension は一時的な ID です。<a>詳細</a>
+about-debugging-tmp-extension-temporary-id = この WebExtension は一時的な ID です。<a>さらに詳しく</a>
 
 # Text displayed for extensions in "runtime" pages, before displaying a link the extension's
 # manifest URL.
