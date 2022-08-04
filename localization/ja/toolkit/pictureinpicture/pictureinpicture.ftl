@@ -4,21 +4,36 @@
 
 pictureinpicture-player-title = ピクチャーインピクチャー
 
-pictureinpicture-pause =
-  .aria-label = 停止
-pictureinpicture-play =
-  .aria-label = 再生
+## Variables:
+##   $shortcut (String) - Keyboard shortcut to execute the command.
 
-pictureinpicture-mute =
-  .aria-label = 消音
-pictureinpicture-unmute =
-  .aria-label = 消音を解除
+pictureinpicture-pause-cmd =
+  .aria-label = Pause
+  .title = 停止 (スペースバー)
+pictureinpicture-play-cmd =
+  .aria-label = Play
+  .title = 再生 (スペースバー)
 
-pictureinpicture-unpip =
-  .aria-label = タブに戻す
+pictureinpicture-mute-cmd =
+  .aria-label = ミュート
+  .title = Mute ({ $shortcut })
+pictureinpicture-unmute-cmd =
+  .aria-label = ミュートの解除
+  .title = ミュートの解除 ({ $shortcut })
 
-pictureinpicture-close =
-  .aria-label = 閉じる
+pictureinpicture-unpip-cmd =
+  .aria-label = Send back to tab
+  .title = タブに戻る
+
+pictureinpicture-close-cmd =
+  .aria-label = Close
+  .title = 閉じる ({ $shortcut })
+
+pictureinpicture-subtitles-cmd =
+  .aria-label = Subtitles
+  .title = 字幕
+
+##
 
 pictureinpicture-subtitles-label = Subtitles
 
