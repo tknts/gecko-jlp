@@ -17,13 +17,13 @@ firefoxview-close-button =
   .aria-label = Close
 
 # Used instead of the localized relative time when a timestamp is within a minute or so of now
-firefoxview-just-now-timestamp = Just now
+firefoxview-just-now-timestamp = たった今
 
 # This is a headline for an area in the product where users can resume and re-open tabs they have previously viewed on other devices.
-firefoxview-tabpickup-header = Tab pickup
-firefoxview-tabpickup-description = Open pages from other devices.
+firefoxview-tabpickup-header = タブのピックアップ
+firefoxview-tabpickup-description = その他のデバイスで開かれたページ
 
-firefoxview-tabpickup-recenttabs-description = Recent tabs list would go here
+firefoxview-tabpickup-recenttabs-description = 最近のタブの一覧はここにあります
 
 # Variables:
 #  $percentValue (Number): the percentage value for setup completion
@@ -46,13 +46,13 @@ firefoxview-tabpickup-synctabs-primarybutton = Sync open tabs
 firefoxview-tabpickup-fxa-admin-disabled-header = Your organization has disabled sync
 firefoxview-tabpickup-fxa-admin-disabled-description = { -brand-short-name } is not able to sync tabs between devices because your administrator has disabled syncing.
 
-firefoxview-tabpickup-network-offline-header = Check your internet connection
+firefoxview-tabpickup-network-offline-header = インターネット接続を確認してください
 firefoxview-tabpickup-network-offline-description = If you’re using a firewall or proxy, check that { -brand-short-name } has permission to access the web.
-firefoxview-tabpickup-network-offline-primarybutton = Try again
+firefoxview-tabpickup-network-offline-primarybutton = もう一度
 
-firefoxview-tabpickup-sync-error-header = We’re having trouble syncing
+firefoxview-tabpickup-sync-error-header = 同期に問題があります
 firefoxview-tabpickup-sync-error-description = { -brand-short-name } can’t reach the service right now. Try again in a few moments.
-firefoxview-tabpickup-sync-error-primarybutton = Try again
+firefoxview-tabpickup-sync-error-primarybutton = もう一度
 
 firefoxview-tabpickup-syncing = Sit tight while your tabs sync. It’ll be just a moment.
 
@@ -63,11 +63,11 @@ firefoxview-mobile-promo-primarybutton = Get { -brand-product-name } for mobile
 firefoxview-mobile-confirmation-header = 🎉 Good to go!
 firefoxview-mobile-confirmation-description = Now you can grab your { -brand-product-name } tabs from your tablet or phone.
 
-firefoxview-closed-tabs-title = Recently closed
+firefoxview-closed-tabs-title = 最近閉じたタブ
 firefoxview-closed-tabs-collapse-button =
-  .title = Show or hide recently closed tabs list
+  .title = 最近閉じたタブの一覧の表示と非表示を行います
 
-firefoxview-closed-tabs-description = Reopen pages you’ve closed on this device.
+firefoxview-closed-tabs-description = このデバイスで閉じたページを再度開きます。
 firefoxview-closed-tabs-placeholder = <strong>No recently closed pages</strong><br/>Never fear losing a closed tab again. You can always retrieve it here.
 
 # refers to the last tab that was used
