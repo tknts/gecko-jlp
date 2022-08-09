@@ -29,16 +29,15 @@ firefoxview-tabpickup-recenttabs-description = 最近のタブの一覧はここ
 #  $percentValue (Number): the percentage value for setup completion
 firefoxview-tabpickup-progress-label = { $percentValue }% complete
 
-firefoxview-tabpickup-step-signin-header = Switch seamlessly between devices
+firefoxview-tabpickup-step-signin-header = デバイス間でシームレスな切り替えが出来ます
 firefoxview-tabpickup-step-signin-description = To grab your phone tabs here, first sign in or create an account.
 firefoxview-tabpickup-step-signin-primarybutton = Continue
 
-firefoxview-tabpickup-adddevice-header = Sync { -brand-product-name } on your phone or tablet
-firefoxview-tabpickup-adddevice-description = Download { -brand-product-name } for mobile and sign in there.
+firefoxview-tabpickup-adddevice-header = スマートフォンやタブレットで { -brand-product-name } を同期する。
 firefoxview-tabpickup-adddevice-learn-how = Learn how
 firefoxview-tabpickup-adddevice-primarybutton = Get { -brand-product-name } for mobile
 
-firefoxview-tabpickup-synctabs-header = Turn on tab syncing
+firefoxview-tabpickup-synctabs-header = タブの同期をオンにする
 firefoxview-tabpickup-synctabs-description = Allow { -brand-short-name } to share tabs between devices.
 firefoxview-tabpickup-synctabs-learn-how = Learn how
 firefoxview-tabpickup-synctabs-primarybutton = Sync open tabs
@@ -56,9 +55,9 @@ firefoxview-tabpickup-sync-error-primarybutton = もう一度
 
 firefoxview-tabpickup-syncing = Sit tight while your tabs sync. It’ll be just a moment.
 
-firefoxview-mobile-promo-header = Grab tabs from your phone or tablet
-firefoxview-mobile-promo-description = To view your latest mobile tabs, sign in to { -brand-product-name } on iOS or Android.
-firefoxview-mobile-promo-primarybutton = Get { -brand-product-name } for mobile
+firefoxview-mobile-promo-header = スマートフォンやタブレットからタブを取得する
+firefoxview-mobile-promo-description = 最新のモバイルタブを表示するには iOS または Android で { -brand-product-name } にサインインしてください。
+firefoxview-mobile-promo-primarybutton = { -brand-product-name } for モバイルを入手する
 
 firefoxview-mobile-confirmation-header = 🎉 Good to go!
 firefoxview-mobile-confirmation-description = Now you can grab your { -brand-product-name } tabs from your tablet or phone.
@@ -71,16 +70,16 @@ firefoxview-closed-tabs-description = このデバイスで閉じたページを
 firefoxview-closed-tabs-placeholder = <strong>No recently closed pages</strong><br/>Never fear losing a closed tab again. You can always retrieve it here.
 
 # refers to the last tab that was used
-firefoxview-pickup-tabs-badge = Last active
+firefoxview-pickup-tabs-badge = 最終ログイン時
 
 # Variables:
 #   $targetURI (string) - URL that will be opened in the new tab
 firefoxview-tabs-list-tab-button =
   .title = Open { $targetURI } in a new tab
 
-firefoxview-try-colorways-button = Try colorways
-firefoxview-no-current-colorway-collection = New colorways are on the way
-firefoxview-change-colorway-button = Change colorway
+firefoxview-try-colorways-button = カラーリングを試す
+firefoxview-no-current-colorway-collection = 新しいカラーリングが登場
+firefoxview-change-colorway-button = カラーリングを変える
 
 # Variables:
 #  $intensity (String): Colorway intensity
