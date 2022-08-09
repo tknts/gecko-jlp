@@ -34,6 +34,10 @@ text-action-paste =
     .label = 貼り付け
     .accesskey = P
 
+text-action-paste-no-formatting =
+    .label = プレーンテキストとして貼り付ける
+    .accesskey = m
+
 text-action-paste-shortcut =
     .key = V
 

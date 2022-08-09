@@ -423,14 +423,14 @@ browser-tab-audio-pip =ピクチャー・イン・ピクチャー
 
 browser-tab-mute =
     { $count ->
-        [1] MUTE TAB
-       *[other] MUTE { $count } TABS
+        [1] タブをミュート
+       *[other] { $count } 個のタブをミュート
     }
 
 browser-tab-unmute =
     { $count ->
-        [1] UNMUTE TAB
-       *[other] UNMUTE { $count } TABS
+        [1] タブのミュートを解除
+       *[other] { $count } 個のタブのミュートを解除
     }
 
 browser-tab-unblock =
