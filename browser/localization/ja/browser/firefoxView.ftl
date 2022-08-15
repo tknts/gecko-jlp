@@ -40,20 +40,20 @@ firefoxview-tabpickup-adddevice-primarybutton = Get { -brand-product-name } for 
 firefoxview-tabpickup-synctabs-header = タブの同期をオンにする
 firefoxview-tabpickup-synctabs-description = Allow { -brand-short-name } to share tabs between devices.
 firefoxview-tabpickup-synctabs-learn-how = Learn how
-firefoxview-tabpickup-synctabs-primarybutton = Sync open tabs
+firefoxview-tabpickup-synctabs-primarybutton = 開いたタブを同期
 
-firefoxview-tabpickup-fxa-admin-disabled-header = Your organization has disabled sync
-firefoxview-tabpickup-fxa-admin-disabled-description = { -brand-short-name } is not able to sync tabs between devices because your administrator has disabled syncing.
+firefoxview-tabpickup-fxa-admin-disabled-header = 管理者によって同期が無効に設定されています
+firefoxview-tabpickup-fxa-admin-disabled-description = 管理者が同期を無効にしているため { -brand-short-name } はタブをデバイス間で同期することができません。
 
 firefoxview-tabpickup-network-offline-header = インターネット接続を確認してください
 firefoxview-tabpickup-network-offline-description = If you’re using a firewall or proxy, check that { -brand-short-name } has permission to access the web.
 firefoxview-tabpickup-network-offline-primarybutton = もう一度
 
 firefoxview-tabpickup-sync-error-header = 同期に問題があります
-firefoxview-tabpickup-sync-error-description = { -brand-short-name } can’t reach the service right now. Try again in a few moments.
+firefoxview-tabpickup-sync-error-description = { -brand-short-name }  は現在サービスにアクセスできません。しばらくしてからもう一度お試しください。
 firefoxview-tabpickup-sync-error-primarybutton = もう一度
 
-firefoxview-tabpickup-syncing = Sit tight while your tabs sync. It’ll be just a moment.
+firefoxview-tabpickup-syncing = タブが同期している間、座って待っていてください。 それはほんの一瞬で終わります。
 
 firefoxview-mobile-promo-header = スマートフォンやタブレットからタブを取得する
 firefoxview-mobile-promo-description = 最新のモバイルタブを表示するには iOS または Android で { -brand-product-name } にサインインしてください。
@@ -67,7 +67,7 @@ firefoxview-closed-tabs-collapse-button =
   .title = 最近閉じたタブの一覧の表示と非表示を行います
 
 firefoxview-closed-tabs-description = このデバイスで閉じたページを再度開きます。
-firefoxview-closed-tabs-placeholder = <strong>No recently closed pages</strong><br/>Never fear losing a closed tab again. You can always retrieve it here.
+firefoxview-closed-tabs-placeholder = <strong>最近閉じたページはありません</strong><br/>閉じたタブをなくす心配はもうありません。 いつでもここから取得できます。
 
 # refers to the last tab that was used
 firefoxview-pickup-tabs-badge = 最終ログイン時

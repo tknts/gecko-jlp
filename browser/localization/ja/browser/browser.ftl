@@ -701,7 +701,7 @@ bookmarks-search =
   .label = ブックマークを検索
 bookmarks-tools =
   .label = ブックマーク用のツール
-bookmarks-bookmark-edit-panel =
+bookmarks-subview-edit-bookmark =
   .label = このブックマークを編集
 
 # The aria-label is a spoken label that should not include the word "toolbar" or
@@ -719,7 +719,7 @@ bookmarks-toolbar-placeholder-button =
   .label = ブックマーク ツールバーの項目
 
 # "Bookmark" is a verb, as in "Add current tab to bookmarks".
-bookmarks-current-tab =
+bookmarks-subview-bookmark-tab =
   .label = 現在のタブをブックマーク
 
 ## Library Panel items
@@ -884,9 +884,6 @@ navbar-library =
 
 navbar-search =
     .title = 検索
-
-navbar-accessibility-indicator =
-    .tooltiptext = Accessibility Features Enabled
 
 # Name for the tabs toolbar as spoken by screen readers. The word
 # "toolbar" is appended automatically and should not be included in

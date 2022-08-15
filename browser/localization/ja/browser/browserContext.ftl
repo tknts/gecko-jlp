@@ -95,43 +95,43 @@ main-context-menu-page-save =
 
 ## Simple menu items
 
-main-context-menu-bookmark-add =
-    .aria-label = このページをブックマーク
+main-context-menu-bookmark-page =
+    .aria-label = ページをブックマーク…
     .accesskey = m
-    .tooltiptext = このページをブックマークします
+    .tooltiptext = ページをブックマークします
+ 
+# This menuitem is only visible on macOS
+# Cannot be shown at the same time as main-context-menu-edit-bookmark-mac,
+# so should probably have the same access key if possible.
+main-context-menu-bookmark-page-mac =
+    .label = Bookmark Page…
+    .accesskey = m
 
 # This menuitem is only visible on macOS
-# Cannot be shown at the same time as main-context-menu-bookmark-edit-mac,
+# Cannot be shown at the same time as main-context-menu-bookmark-page-mac,
 # so should probably have the same access key if possible.
-main-context-menu-bookmark-add-mac =
-    .label = Bookmark Page
-    .accesskey = m
-
-# This menuitem is only visible on macOS
-# Cannot be shown at the same time as main-context-menu-bookmark-add-mac,
-# so should probably have the same access key if possible.
-main-context-menu-bookmark-edit-mac =
-    .label = Edit Bookmark
+main-context-menu-edit-bookmark-mac =
+    .label = Edit Bookmark…
     .accesskey = m
 
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the add bookmark command.
-main-context-menu-bookmark-add-with-shortcut =
-    .aria-label = このページをブックマーク
+main-context-menu-bookmark-page-with-shortcut =
+    .aria-label = ページをブックマーク…
     .accesskey = m
     .tooltiptext = このページをブックマーク ({ $shortcut })
 
-main-context-menu-bookmark-change =
-    .aria-label = このブックマークを編集
+main-context-menu-edit-bookmark =
+    .aria-label = ブックマークを編集
     .accesskey = m
-    .tooltiptext = このブックマークを編集します
+    .tooltiptext = ブックマークを編集します
 
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the edit bookmark command.
-main-context-menu-bookmark-change-with-shortcut =
-    .aria-label = このブックマークを編集
+main-context-menu-edit-bookmark-with-shortcut =
+    .aria-label = ブックマークを編集…
     .accesskey = m
-    .tooltiptext = このブックマークを編集します ({ $shortcut })
+    .tooltiptext = ブックマークを編集します ({ $shortcut })
 
 main-context-menu-open-link =
     .label = リンクを開く
@@ -153,7 +153,7 @@ main-context-menu-open-link-new-private-window =
     .label = 新しいプライベート ウィンドウでリンクを開く
     .accesskey = P
 
-main-context-menu-bookmark-link =
+main-context-menu-bookmark-link-2 =
     .label = リンクをブックマーク
     .accesskey = B
 
@@ -295,6 +295,10 @@ main-context-menu-image-set-image-as-background =
     .label = 画像をデスクトップの背景に設定…
     .accesskey = S
 
+main-context-menu-image-copy-text =
+    .label = 画像から文字列をコピー
+    .accesskey = T
+
 main-context-menu-image-info =
     .label = 画像の情報を表示
     .accesskey = f
@@ -409,8 +413,8 @@ main-context-menu-frame-view-info =
     .label = フレームの情報を表示
     .accesskey = I
 
-main-context-menu-print-selection =
-    .label = 選択した範囲を印刷
+main-context-menu-print-selection-2 =
+    .label = 選択した範囲を印刷…
     .accesskey = r
 
 main-context-menu-view-selection-source =

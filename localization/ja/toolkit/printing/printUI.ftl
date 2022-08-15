@@ -15,6 +15,7 @@ printui-sheets-count =
     }
 
 printui-page-range-all = すべて
+printui-page-range-current = Current
 printui-page-range-odd = Odd
 printui-page-range-even = Even
 printui-page-range-custom = カスタム
