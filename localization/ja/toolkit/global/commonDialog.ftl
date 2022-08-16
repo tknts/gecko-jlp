@@ -11,3 +11,10 @@ common-dialog-username =
   .value = ユーザー名
 common-dialog-password =
   .value = パスワード
+
+common-dialog-copy-cmd =
+    .label = コピー
+    .accesskey = C
+common-dialog-select-all-cmd =
+    .label = すべて選択l
+    .accesskey = A
