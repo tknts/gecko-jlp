@@ -266,3 +266,14 @@ fx100-upgrade-thanks-header = 100回目のありがとう
 fx100-upgrade-thank-you-body = { -brand-short-name } の 100 回目のリリースです。より良い、より健全なインターネットの構築にご協力いただき <em>ありがとうございま</em>す。
 # Message shown with either a pin-to-taskbar or set-default button.
 fx100-upgrade-thanks-keep-body = 100 回目のリリースです! 私たちのコミュニティに参加していただきありがとうございます。Keep { -brand-short-name } one click away for the next 100.
+
+## MR2022 Upgrade Dialog screens
+## Pin private window screen shown only for users who don't have Firefox private pinned
+
+mr2022-onboarding-skip-step-button-label = こ個のステップをスキップ
+mr2022-upgrade-onboarding-pin-private-window-header = ワンクリックでプライベートブラウジングの自由を手に入れましょう
+mr2022-upgrade-onboarding-pin-private-window-subtitle = No saved cookies or history, right from your desktop. Browse like no one’s watching.
+mr2022-upgrade-onboarding-pin-private-window-primary-button-label = { PLATFORM() ->
+    [macos] Keep { -brand-short-name } private browsing in Dock
+   *[other] Pin { -brand-short-name } private browsing to taskbar
+}

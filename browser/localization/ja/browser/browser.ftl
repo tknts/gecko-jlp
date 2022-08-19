@@ -126,7 +126,7 @@ urlbar-tabtosearch-onboard = このショートカットを選択すると、必
 urlbar-search-mode-bookmarks = ブックマーク
 urlbar-search-mode-tabs = タブ
 urlbar-search-mode-history = 履歴
-urlbar-search-mode-actions = Actions
+urlbar-search-mode-actions = アクション
 
 ##
 
@@ -236,7 +236,7 @@ search-one-offs-tabs =
 search-one-offs-history =
     .tooltiptext = 履歴 ({ $restrict })
 search-one-offs-actions =
-    .tooltiptext = Actions ({ $restrict })
+    .tooltiptext = アクション ({ $restrict })
 
 ## QuickActions are shown in the urlbar as the user types a matching string
 ## The -cmd- strings are comma separated list of keywords that will match
