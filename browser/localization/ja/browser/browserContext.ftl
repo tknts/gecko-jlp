@@ -297,7 +297,7 @@ main-context-menu-image-set-image-as-background =
 
 main-context-menu-image-copy-text =
     .label = 画像から文字列をコピー
-    .accesskey = T
+    .accesskey = x
 
 main-context-menu-image-info =
     .label = 画像の情報を表示

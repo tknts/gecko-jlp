@@ -34,6 +34,7 @@ firefoxview-tabpickup-step-signin-description = To grab your phone tabs here, fi
 firefoxview-tabpickup-step-signin-primarybutton = Continue
 
 firefoxview-tabpickup-adddevice-header = スマートフォンやタブレットで { -brand-product-name } を同期する。
+firefoxview-tabpickup-adddevice-description = モバイル版の { -brand-product-name } をダウンロードして、そこでサインインします。
 firefoxview-tabpickup-adddevice-learn-how = Learn how
 firefoxview-tabpickup-adddevice-primarybutton = Get { -brand-product-name } for mobile
 
@@ -50,8 +51,12 @@ firefoxview-tabpickup-network-offline-description = If you’re using a firewall
 firefoxview-tabpickup-network-offline-primarybutton = もう一度
 
 firefoxview-tabpickup-sync-error-header = 同期に問題があります
-firefoxview-tabpickup-sync-error-description = { -brand-short-name }  は現在サービスにアクセスできません。しばらくしてからもう一度お試しください。
+firefoxview-tabpickup-generic-sync-error-description = { -brand-short-name } は現在サービスにアクセスできません。しばらくしてからもう一度お試しください。
 firefoxview-tabpickup-sync-error-primarybutton = もう一度
+
+firefoxview-tabpickup-sync-disconnected-header = 続行するには同期を有効にしてください
+firefoxview-tabpickup-sync-disconnected-description = タブを取得するには { -brand-short-name } での同期を許可する必要があります。
+firefoxview-tabpickup-sync-disconnected-primarybutton = 設定で同期を有効にする
 
 firefoxview-tabpickup-syncing = タブが同期している間、座って待っていてください。 それはほんの一瞬で終わります。
 
@@ -63,8 +68,6 @@ firefoxview-mobile-confirmation-header = 🎉 Good to go!
 firefoxview-mobile-confirmation-description = Now you can grab your { -brand-product-name } tabs from your tablet or phone.
 
 firefoxview-closed-tabs-title = 最近閉じたタブ
-firefoxview-closed-tabs-collapse-button =
-  .title = 最近閉じたタブの一覧の表示と非表示を行います
 
 firefoxview-closed-tabs-description = このデバイスで閉じたページを再度開きます。
 firefoxview-closed-tabs-placeholder = <strong>最近閉じたページはありません</strong><br/>閉じたタブをなくす心配はもうありません。 いつでもここから取得できます。
@@ -87,3 +90,9 @@ firefoxview-change-colorway-button = カラーリングを変える
 firefoxview-colorway-description = { $intensity } · { $collection }
 
 firefoxview-synced-tabs-placeholder = <strong>Nothing to see yet</strong><br/>The next time you open a page in { -brand-product-name } on another device, grab it here like magic.
+
+firefoxview-collapse-button-show =
+  .title = リストを表示
+
+firefoxview-collapse-button-hide =
+  .title = リストを隠す

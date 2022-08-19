@@ -1155,8 +1155,13 @@ addressbar-locbar-topsites-option =
 addressbar-locbar-engines-option =
     .label = 検索エンジン
     .accesskey = a
+addressbar-locbar-quickactions-option =
+    .label = クイックアクション
+    .accesskey = Q
 
-addressbar-suggestions-settings = 表示する検索候補の設定を変更します。
+addressbar-suggestions-settings = 検索エンジンの提案機能の設定を変更する
+
+addressbar-quickactions-learn-more = さらに詳しく
 
 ## Privacy Section - Content Blocking
 
