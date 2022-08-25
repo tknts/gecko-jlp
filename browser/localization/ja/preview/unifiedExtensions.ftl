@@ -19,8 +19,9 @@ unified-extensions-manage-extensions =
 # Variables:
 #   $extensionName (String) - Name of the extension
 unified-extensions-item-open-menu =
-    .tooltiptext = コンテキストメニューを開きます
     .aria-label = { $extensionName } のメニューを開きます
+
+unified-extensions-item-message-manage = 拡張機能を管理
 
 ## Extension's context menu
 

@@ -393,8 +393,8 @@ main-context-menu-frame-reload =
     .label = フレームを再読み込み
     .accesskey = R
 
-main-context-menu-frame-bookmark =
-    .label = このフレームをブックマーク
+main-context-menu-frame-add-bookmark =
+    .label = フレームをブックマーク
     .accesskey = m
 
 main-context-menu-frame-save-as =
