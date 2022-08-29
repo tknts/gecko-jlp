@@ -1352,6 +1352,16 @@ collection-health-report-disabled = このビルド構成ではデータレポ�
 collection-backlogged-crash-reports-with-link = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信するのを許可します <a data-l10n-name="crash-reports-link">さらに詳しく</a>
     .accesskey = c
 
+privacy-segmentation-section-header = ブラウジングを強化する新機能
+
+privacy-segmentation-section-description = あなたのデータを使用したパーソナライズされた新機能を追加する場合:
+
+privacy-segmentation-radio-off =
+    .label = { -brand-product-name } からのおすすめを使用する
+
+privacy-segmentation-radio-on =
+    .label = 詳細な情報を表示する
+
 ## Privacy Section - Security
 ##
 ## It is important that wording follows the guidelines outlined on this page:
