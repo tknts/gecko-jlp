@@ -3,13 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 history-title = 更新履歴
-history-intro = The following updates have been installed
+history-intro = 以下の更新がインストールされました
 
 close-button-label =
     .buttonlabelcancel = 閉じる
     .title = 更新履歴
     
-no-updates-label = No updates installed yet
+no-updates-label = アップデートはまだインストールされていません
 name-header = 更新名
 date-header = Install Date
 type-header = 種類
@@ -23,5 +23,5 @@ state-header = 状態
 update-full-build-name = { $name } ({ $buildID })
 
 update-details = 詳細
-update-installed-on = Installed on: { $date }
+update-installed-on = インストール日時: { $date }
 update-status = 状態: { $status }
