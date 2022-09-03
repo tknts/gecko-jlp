@@ -3,7 +3,28 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Page title
-about-performance-title = タスクマネージャー
+about-processes-title = プロセス マネージャー
+
+# The Actions column
+about-processes-column-action =
+    .title = Actions
+
+## Tooltips
+
+about-processes-shutdown-process =
+    .title = タブをアンロードしてプロセスを強制終了します
+about-processes-shutdown-tab =
+    .title = タブを閉じます
+
+# Profiler icons
+# Variables:
+#    $duration (Number) The time in seconds during which the profiler will be running.
+#                       The value will be an integer, typically less than 10.
+about-processes-profile-process =
+    .title = { $duration ->
+   [one] Profile all threads of this process for { $duration } second
+  *[other] Profile all threads of this process for { $duration } seconds
+}
 
 ## Column headers
 

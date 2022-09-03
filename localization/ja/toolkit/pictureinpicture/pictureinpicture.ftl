@@ -43,6 +43,14 @@ pictureinpicture-exit-fullscreen-cmd =
   .aria-label = 全画面表示を終了
   .title = 全画面表示の終了 (ダブルクリック)
 
+pictureinpicture-seekbackward-cmd =
+  .aria-label = 後ろへ
+  .title = 後ろへ (←)
+
+pictureinpicture-seekforward-cmd =
+  .aria-label = 先へ
+  .title = 先へ (→)
+
 pictureinpicture-subtitles-label = Subtitles
 
 pictureinpicture-font-size-label = フォント サイズ

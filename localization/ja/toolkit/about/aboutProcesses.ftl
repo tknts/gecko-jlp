@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Page title
-about-processes-title = プロセスマネージャ
+about-processes-title = プロセス マネージャー
 
 # The Actions column
 about-processes-column-action =
@@ -29,7 +29,7 @@ about-processes-profile-process =
 ## Column headers
 
 about-processes-column-name = 名前
-about-processes-column-memory-resident = メモリー
+about-processes-column-memory-resident = メモリ
 about-processes-column-cpu-total = CPU
 
 ## Process names
@@ -37,21 +37,21 @@ about-processes-column-cpu-total = CPU
 ##    $pid (String) The process id of this process, assigned by the OS.
 
 about-processes-browser-process = { -brand-short-name } ({ $pid })
-about-processes-web-process = Shared Web Process ({ $pid })
+about-processes-web-process = 共有ウェブ プロセス ({ $pid })
 about-processes-file-process = ファイル ({ $pid })
 about-processes-extension-process = 拡張機能 ({ $pid })
-about-processes-privilegedabout-process = About pages ({ $pid })
+about-processes-privilegedabout-process = About ページ ({ $pid })
 about-processes-plugin-process = プラグイン ({ $pid })
 about-processes-privilegedmozilla-process = { -vendor-short-name } sites ({ $pid })
 about-processes-gmp-plugin-process = Gecko Media Plugins ({ $pid })
 about-processes-gpu-process = GPU ({ $pid })
 about-processes-vr-process = VR ({ $pid })
 about-processes-rdd-process = Data Decoder ({ $pid })
-about-processes-socket-process = Network ({ $pid })
+about-processes-socket-process = ネットワーク ({ $pid })
 about-processes-remote-sandbox-broker-process = Remote Sandbox Broker ({ $pid })
 about-processes-fork-server-process = Fork Server ({ $pid })
-about-processes-preallocated-process = Preallocated ({ $pid })
-about-processes-utility-process = Utility ({ $pid })
+about-processes-preallocated-process = 事前割り当て済み ({ $pid })
+about-processes-utility-process = ユーティリティー ({ $pid })
 
 # Unknown process names
 # Variables:
@@ -94,8 +94,8 @@ about-processes-active-threads = { $active ->
 #                     than 5 threads.
 #                     The process is idle so all threads are inactive.
 about-processes-inactive-threads = { $number ->
-   [one] { $number } inactive thread
-  *[other] { $number } inactive threads
+   [one] ひとつの非アクティブなスレッド
+  *[other] { $number } 個の非アクティブなスレッド
 }
 
 # Thread details
@@ -122,9 +122,13 @@ about-processes-frame-name-one = サブフレーム: { $url }
 #   $shortUrl (String) The shared prefix for the subframes in the group.
 about-processes-frame-name-many = サブフレーム ({ $number }): { $shortUrl }
 
-# Utility process actor names
+## Utility process actor names
+
 about-processes-utility-actor-unknown = Unknown actor
-about-processes-utility-actor-audio-decoder = Audio Decoder
+about-processes-utility-actor-audio-decoder-generic = 汎用オーディオ デコーダー
+about-processes-utility-actor-audio-decoder-applemedia = Apple Media Audio Decoder
+about-processes-utility-actor-audio-decoder-wmf = Windows Media Framework Audio Decoder
+about-processes-utility-actor-mf-media-engine = Windows Media Foundation Media Engine CDM
 
 ## Displaying CPU (percentage and total)
 ## Variables:
@@ -137,19 +141,19 @@ about-processes-utility-actor-audio-decoder = Audio Decoder
 
 # Common case.
 about-processes-cpu = { NUMBER($percent, maximumSignificantDigits: 2, style: "percent") }
-    .title = Total CPU time: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
+    .title = CPU 時間: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
 
 # Special case: data is not available yet.
-about-processes-cpu-user-and-kernel-not-ready = (measuring)
+about-processes-cpu-user-and-kernel-not-ready = (計測中)
 
 # Special case: process or thread is almost idle (using less than 0.1% of a CPU core).
 # This case only occurs on Windows where the precision of the CPU times is low.
 about-processes-cpu-almost-idle = < 0.1%
-    .title = Total CPU time: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
+    .title = CPU 時間: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
 
 # Special case: process or thread is currently idle.
 about-processes-cpu-fully-idle = 待機
-    .title = Total CPU time: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
+    .title = TCPU 時間: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
 
 ## Displaying Memory (total and delta)
 ## Variables:
@@ -171,13 +175,13 @@ about-processes-total-memory-size-no-change = { NUMBER($total, maximumFractionDi
 
 ## Duration units
 
-duration-unit-ns = ns
-duration-unit-us = µs
-duration-unit-ms = ms
-duration-unit-s = s
-duration-unit-m = m
-duration-unit-h = h
-duration-unit-d = d
+duration-unit-ns = ナノ秒
+duration-unit-us = マイクロ秒
+duration-unit-ms = ミリ秒
+duration-unit-s = 秒
+duration-unit-m = 分
+duration-unit-h = 時
+duration-unit-d = 日
 
 ## Memory units
 
