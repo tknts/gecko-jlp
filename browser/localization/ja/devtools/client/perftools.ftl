@@ -13,29 +13,29 @@ perftools-intro-description =
 
 ## All of the headings for the various sections.
 
-perftools-heading-settings = Full Settings
-perftools-heading-buffer = Buffer Settings
-perftools-heading-features = Features
-perftools-heading-features-default = Features (Recommended on by default)
-perftools-heading-features-disabled = Disabled Features
-perftools-heading-features-experimental = Experimental
-perftools-heading-threads = Threads
-perftools-heading-threads-jvm = JVM Threads
-perftools-heading-local-build = Local build
+perftools-heading-settings = 設定
+perftools-heading-buffer = バッファ設定
+perftools-heading-features = 機能
+perftools-heading-features-default = 機能 (デフォルトで推奨)
+perftools-heading-features-disabled = 無効な機能
+perftools-heading-features-experimental = 実験的機能
+perftools-heading-threads = スレッド
+perftools-heading-threads-jvm = JVM スレッド
+perftools-heading-local-build = ローカルビルド
 
 ##
 
 perftools-description-intro =
-  Recordings launch <a>profiler.firefox.com</a> in a new tab. All data is stored
-  locally, but you can choose to upload it for sharing.
+  記録を行うと新しいタブで <a>profiler.firefox.com</a> を開きます。
+  すべてのデータはローカルに保存されますが、アップロードして共有することも可能です。
 perftools-description-local-build =
-  If you’re profiling a build that you have compiled yourself, on this
-  machine, please add your build’s objdir to the list below so that
-  it can be used to look up symbol information.
+  このマシンで自分でコンパイルしたビルドをプロファイリングする場合は、ビルドの objdir を以下のリストに追加して、シンボル情報の検索に使用できるようにしてください。
+
+
 
 ## The controls for the interval at which the profiler samples the code.
 
-perftools-range-interval-label = Sampling interval:
+perftools-range-interval-label = サンプリング間隔:
 perftools-range-interval-milliseconds = {NUMBER($interval, maxFractionalUnits: 2)} ms
 
 ##
@@ -43,7 +43,7 @@ perftools-range-interval-milliseconds = {NUMBER($interval, maxFractionalUnits: 2
 # The size of the memory buffer used to store things in the profiler.
 perftools-range-entries-label = バッファサイズ:
 
-perftools-custom-threads-label = Add custom threads by name:
+perftools-custom-threads-label = 追加するカスタムスレッドの名前:
 
 perftools-devtools-interval-label = Interval:
 perftools-devtools-threads-label = Threads:
@@ -67,7 +67,7 @@ perftools-button-cancel-recording = 記録をキャンセル
 perftools-button-save-settings = 設定を保存して戻る
 perftools-button-restart = 再開
 perftools-button-add-directory = ディレクトリを追加
-perftools-button-remove-directory = Remove selected
+perftools-button-remove-directory = 選択項目を削除
 perftools-button-edit-settings = 設定を編集…
 
 ## These messages are descriptions of the threads that can be enabled for the profiler.
@@ -120,7 +120,7 @@ perftools-tools-threads-input-label =
 ## Onboarding UI labels. These labels are displayed in the new performance panel UI, when
 ## devtools.performance.new-panel-onboarding preference is true.
 
-perftools-onboarding-message = <b>New</b>: { -profiler-brand-name } is now integrated into Developer Tools. <a>Learn more</a> about this powerful new tool.
+perftools-onboarding-message = <b>新機能</b>: { -profiler-brand-name } が開発ツールに統合されました。 この強力な新しいツールについは <a>詳細</a> をご覧ください。
 
 perftools-onboarding-close-button =
   .aria-label = オンボーディングメッセージを閉じる
@@ -147,8 +147,8 @@ perftools-presets-networking-label = ネットワーク
 perftools-presets-networking-description = { -brand-shorter-name } でネットワークのバグを調査するためのプリセットです。
 
 # "Power" is used in the sense of energy (electricity used by the computer).
-perftools-presets-power-label = Power
-perftools-presets-power-description = Preset for investigating power use bugs in { -brand-shorter-name }, with low overhead.
+perftools-presets-power-label = 電力消費
+perftools-presets-power-description =  { -brand-shorter-name } の電力使用バグを調査するためのプリセットで、オーバーヘッドが少なくなっています。
 
 perftools-presets-custom-label = カスタマイズ
 

@@ -9,3 +9,6 @@ notification-learnmore-default-label =
 # "infobar" (message shown when for example a popup is blocked).
 close-button-label =
   .aria-label = 閉じる
+
+close-notification-message =
+    .tooltiptext = このメッセージを閉じます

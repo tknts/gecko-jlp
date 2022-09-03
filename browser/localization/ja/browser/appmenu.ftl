@@ -147,13 +147,13 @@ profiler-popup-title =
   .value = { -profiler-brand-name }
 
 profiler-popup-reveal-description-button =
-  .aria-label = Reveal more information
+  .aria-label = 詳細な情報を表示
 
 profiler-popup-description-title =
-  .value = 記録、解析、共有
+  .value = 記録、分析、共有
 
 profiler-popup-description =
-  Collaborate on performance issues by publishing profiles to share with your team.
+  プロファイルを公開してパフォーマンスの問題をチームと共有できます。
 
 profiler-popup-learn-more-button =
   .label = さらに詳しく
@@ -199,7 +199,7 @@ profiler-popup-presets-web-developer-description = オーバーヘッドが少�
 profiler-popup-presets-web-developer-label =
   .label = ウェブ開発
 
-profiler-popup-presets-firefox-description = Recommended preset for profiling { -brand-shorter-name }.
+profiler-popup-presets-firefox-description = { -brand-shorter-name } のプロファイルに推奨されたプリセットです。
 profiler-popup-presets-firefox-label =
   .label = { -brand-shorter-name }
 
