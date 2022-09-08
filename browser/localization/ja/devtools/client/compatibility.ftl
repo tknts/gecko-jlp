@@ -4,7 +4,7 @@
 
 ## Messages used as headers in the main pane
 
-compatibility-selected-element-header = 選択された要素
+compatibility-selected-element-header = 選択した要素
 compatibility-all-elements-header = すべての問題
 
 ## Message used as labels for the type of issue
@@ -14,7 +14,7 @@ compatibility-issue-experimental = (実験的)
 compatibility-issue-prefixneeded = (接頭辞が必要)
 compatibility-issue-deprecated-experimental = (非推奨、実験的)
 compatibility-issue-deprecated-prefixneeded = (非推奨、接頭辞が必要)
-compatibility-issue-experimental-prefixneeded = (実験的、接頭辞が必要d)
+compatibility-issue-experimental-prefixneeded = (実験的、接頭辞が必要)
 compatibility-issue-deprecated-experimental-prefixneeded = (非推奨、実験的、接頭辞が必要)
 
 ## Messages used as labels and titles for buttons in the footer
@@ -26,7 +26,7 @@ compatibility-settings-button-title =
 ## Messages used as headers in settings pane
 
 compatibility-settings-header = 設定
-compatibility-target-browsers-header = ターゲットブラウザ
+compatibility-target-browsers-header = ターゲット ブラウザ
 
 ##
 
@@ -35,8 +35,8 @@ compatibility-target-browsers-header = ターゲットブラウザ
 #   $number (Number) - The number of nodes where the issue occurred
 compatibility-issue-occurrences =
     { $number ->
-        [one] { $number } occurrence
-       *[other] { $number } occurrences
+        [one] { $number } 件の非互換
+       *[other] { $number } 件の非互換
     }
 
 compatibility-no-issues-found = 互換性の問題は見つかりませんでした。

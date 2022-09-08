@@ -18,7 +18,7 @@ perftools-heading-buffer = バッファ設定
 perftools-heading-features = 機能
 perftools-heading-features-default = 機能 (デフォルトで推奨)
 perftools-heading-features-disabled = 無効な機能
-perftools-heading-features-experimental = 実験的機能
+perftools-heading-features-experimental = 実験的な機能
 perftools-heading-threads = スレッド
 perftools-heading-threads-jvm = JVM スレッド
 perftools-heading-local-build = ローカルビルド
@@ -45,24 +45,24 @@ perftools-range-entries-label = バッファサイズ:
 
 perftools-custom-threads-label = 追加するカスタムスレッドの名前:
 
-perftools-devtools-interval-label = Interval:
-perftools-devtools-threads-label = Threads:
-perftools-devtools-settings-label = Settings
+perftools-devtools-interval-label = 間隔:
+perftools-devtools-threads-label = スレッド:
+perftools-devtools-settings-label = 設定
 
 ## Various statuses that affect the current state of profiling, not typically displayed.
 
-perftools-status-recording-stopped-by-another-tool = The recording was stopped by another tool.
-perftools-status-restart-required = The browser must be restarted to enable this feature.
+perftools-status-recording-stopped-by-another-tool = 他のツールによって記録が停止されました。
+perftools-status-restart-required = この機能を有効にするには、ブラウザを再起動する必要があります。
 
 ## These are shown briefly when the user is waiting for the profiler to respond.
 
-perftools-request-to-stop-profiler = Stopping recording
-perftools-request-to-get-profile-and-stop-profiler = Capturing profile
+perftools-request-to-stop-profiler = 記録を停止中
+perftools-request-to-get-profile-and-stop-profiler = プロファイルをキャプチャ中
 
 ##
 
 perftools-button-start-recording = 記録を開始
-perftools-button-capture-recording = Capture recording
+perftools-button-capture-recording = 記録をキャプチャ
 perftools-button-cancel-recording = 記録をキャンセル
 perftools-button-save-settings = 設定を保存して戻る
 perftools-button-restart = 再開
@@ -73,15 +73,15 @@ perftools-button-edit-settings = 設定を編集…
 ## These messages are descriptions of the threads that can be enabled for the profiler.
 
 perftools-thread-gecko-main =
-  .title = The main processes for both the parent process, and content processes
+  .title = 親プロセスとコンテンツプロセス両方のメインプロセス
 perftools-thread-compositor =
-  .title = Composites together different painted elements on the page
+  .title = ページ上のさまざまな描画要素を合成します
 perftools-thread-dom-worker =
-  .title = This handles both web workers and service workers
+  .title = これは Web Worker と Service Worker の両方を処理します
 perftools-thread-renderer =
-  .title = When WebRender is enabled, the thread that executes OpenGL calls
+  .title = WebRender が有効な場合、OpenGL 呼び出しを実行するスレッドです
 perftools-thread-render-backend =
-  .title = The WebRender RenderBackend thread
+  .title = WebRender の RenderBackend スレッドです
 perftools-thread-timer =
   .title = The thread handling timers (setTimeout, setInterval, nsITimer)
 perftools-thread-style-thread =
@@ -93,21 +93,21 @@ perftools-thread-socket-thread =
 perftools-thread-img-decoder =
   .title = Image decoding threads
 perftools-thread-dns-resolver =
-  .title = DNS resolution happens on this thread
+  .title = DNS の名前解決が行われるスレッドです
 perftools-thread-task-controller =
   .title = TaskController thread pool threads
 perftools-thread-jvm-gecko =
-  .title = The main Gecko JVM thread
+  .title = メイン Gecko JVM スレッドです
 perftools-thread-jvm-nimbus =
-  .title = The main threads for the Nimbus experiments SDK
+  .title = Nimbus experiments SDK のメインスレッドです
 perftools-thread-jvm-default-dispatcher =
-  .title = The Default dispatcher for the Kotlin coroutines library
+  .title = Kotlin Coroutine ライブラリのデフォルト ディスパッチャです。
 perftools-thread-jvm-glean =
-  .title = The main threads for the Glean telemetry SDK
+  .title = Glean telemetry SDK のメインスレッドです
 perftools-thread-jvm-arch-disk-io =
-  .title = The IO dispatcher for the Kotlin coroutines library
+  .title = Kotlin Coroutine ライブラリの IO ディスパッチャです
 perftools-thread-jvm-pool =
-  .title = Threads created in an unnamed thread pool
+  .title = 無名スレッドプールで生成されたスレッドです
 
 ##
 
@@ -120,7 +120,7 @@ perftools-tools-threads-input-label =
 ## Onboarding UI labels. These labels are displayed in the new performance panel UI, when
 ## devtools.performance.new-panel-onboarding preference is true.
 
-perftools-onboarding-message = <b>新機能</b>: { -profiler-brand-name } が開発ツールに統合されました。 この強力な新しいツールについは <a>詳細</a> をご覧ください。
+perftools-onboarding-message = <b>新機能</b>: { -profiler-brand-name } が開発ツールに統合されました。この強力な新しいツールについては <a>詳細</a> をご覧ください。
 
 perftools-onboarding-close-button =
   .aria-label = オンボーディングメッセージを閉じる
@@ -132,7 +132,7 @@ perftools-onboarding-close-button =
 # The same labels and descriptions are also defined in appmenu.ftl.
 
 perftools-presets-web-developer-label = ウェブ開発者
-perftools-presets-web-developer-description = ほとんどのウェブ アプリのデバッグに対応し、オーバーヘッドが少ない推奨プリセットです。
+perftools-presets-web-developer-description = 一般的なウェブアプリのデバッグに対応した低負荷な推奨プリセットです。
 
 perftools-presets-firefox-label = { -brand-shorter-name }
 perftools-presets-firefox-description = { -brand-shorter-name } によるプロファイリングのための推奨プリセットです。
@@ -148,7 +148,7 @@ perftools-presets-networking-description = { -brand-shorter-name } でネット�
 
 # "Power" is used in the sense of energy (electricity used by the computer).
 perftools-presets-power-label = 電力消費
-perftools-presets-power-description =  { -brand-shorter-name } の電力使用バグを調査するためのプリセットで、オーバーヘッドが少なくなっています。
+perftools-presets-power-description = { -brand-shorter-name } の電力使用に関するバグを調査するための低負荷なプリセットです。
 
 perftools-presets-custom-label = カスタマイズ
 

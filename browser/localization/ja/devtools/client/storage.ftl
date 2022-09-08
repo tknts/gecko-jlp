@@ -104,12 +104,12 @@ storage-tree-labels-extension-storage = Extension Storage
 # Tooltip for the button that collapses the right panel in the
 # storage UI when the panel is closed.
 storage-expand-pane =
-  .title = Expand Pane
+  .title = ペインを展開します
 
 # Tooltip for the button that collapses the right panel in the
 # storage UI when the panel is open.
 storage-collapse-pane =
-  .title = Collapse Pane
+  .title = ペインを折りたたみます
 
 # String displayed in the expires column when the cookie is a Session Cookie
 storage-expires-session = セッション
@@ -118,14 +118,14 @@ storage-expires-session = セッション
 storage-data = データ
 
 # Heading displayed over the item parsed value in the sidebar
-storage-parsed-value = Parsed Value
+storage-parsed-value = パース済みの値
 
 # Warning notification when IndexedDB database could not be deleted immediately.
 # Variables:
 #   $dbName (String) - Name of the database
-storage-idb-delete-blocked = Database “{ $dbName }” will be deleted after all connections are closed.
+storage-idb-delete-blocked = データベース “{ $dbName }” はすべての接続が切断されてから削除されます。
 
 # Error notification when IndexedDB database could not be deleted.
 # Variables:
 #   $dbName (String) - Name of the database
-storage-idb-delete-error = Database “{ $dbName }” could not be deleted.
+storage-idb-delete-error = データベース “{ $dbName }” を削除できませんでした。

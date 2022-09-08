@@ -95,7 +95,7 @@ about-debugging-refresh-usb-devices-button = デバイスを再検索
 about-debugging-setup-title = セットアップ
 
 # Introduction text in the Setup page to explain how to configure remote debugging.
-about-debugging-setup-intro = リモートデバッグを行うデバイスの接続方法を設定します。
+about-debugging-setup-intro = リモートデバッグを行うデバイスの接続方式を設定します。
 
 # Explanatory text in the Setup page about what the 'This Firefox' page is for
 about-debugging-setup-this-firefox2 = このバージョンの { -brand-shorter-name } で拡張機能と Service Worker をデバッグするには <a>{ about-debugging-this-firefox-runtime-name }</a> を使用してください。
@@ -129,10 +129,10 @@ about-debugging-setup-usb-status-updating = 更新中…
 about-debugging-setup-usb-step-enable-dev-menu2 = Android 端末の開発者向けオプションを有効にします。
 
 # USB section step by step guide
-about-debugging-setup-usb-step-enable-debug2 = Android 端末の開発者向けオプションの USB デバッグを有効にします。
+about-debugging-setup-usb-step-enable-debug2 = Android 端末の開発者向けオプションで USB デバッグを有効にします。
 
 # USB section step by step guide
-about-debugging-setup-usb-step-enable-debug-firefox2 = Android 端末の Firefox の USB デバッグを有効にします。
+about-debugging-setup-usb-step-enable-debug-firefox2 = Android 端末上の Firefox で USB デバッグを有効にします。
 
 # USB section step by step guide
 about-debugging-setup-usb-step-plug-device = Android 端末をコンピューターに接続します。
@@ -218,7 +218,7 @@ about-debugging-browser-version-too-old = 接続したブラウザのバージ�
 
 # Dedicated message for a backward compatibility issue that occurs when connecting:
 # from Fx 70+ to the old Firefox for Android (aka Fennec) which uses Fx 68.
-about-debugging-browser-version-too-old-fennec = This version of Firefox cannot debug Firefox for Android (68). We recommend installing Firefox for Android Nightly on your phone for testing. <a>More details</a>
+about-debugging-browser-version-too-old-fennec = このバージョンの Firefox では Android 版 Firefox (68) をデバッグできません。テスト用に  Android 版 Firefox Nightly を携帯電話にインストールすることをお勧めします。<a>詳細</a>
 
 # This string is displayed in the runtime page if the remote browser version is too recent.
 # "Troubleshooting" link points to https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/
@@ -269,7 +269,7 @@ about-debugging-debug-target-inspect-button = 調査
 about-debugging-tmp-extension-install-button = アドオンを一時的に読み込む…
 
 # Text displayed when trying to install a temporary extension in the "This Firefox" page.
-about-debugging-tmp-extension-install-error = 一時的なアドオンのインストールでエラーがありました。
+about-debugging-tmp-extension-install-error = アドオンの一時的なインストール中にエラーがありました。
 
 # Text of a button displayed for a temporary extension loaded in the "This Firefox" page.
 # Clicking on the button will reload the extension.
@@ -283,7 +283,7 @@ about-debugging-tmp-extension-remove-button = 削除
 # Clicking on the button will forcefully terminate the extension background script (button
 # only visible in extensions that includes a non-persistent background script, either an
 # event page or a background service worker).
-about-debugging-tmp-extension-terminate-bgscript-button = バックグラウンドスクリプトを終了する
+about-debugging-tmp-extension-terminate-bgscript-button = バックグラウンドスクリプトを停止する
 
 # Message displayed in the file picker that opens to select a temporary extension to load
 # (triggered by the button using "about-debugging-tmp-extension-install-button")
@@ -331,24 +331,24 @@ about-debugging-extension-backgroundscript-status-stopped = 停止中
 # Note this relates to the "Push" API, which is normally not localized so it is
 # probably better to not localize it.
 about-debugging-worker-action-push2 = プッシュ通知
-  .disabledTitle = Service Worker プッシュ通知はマルチプロセス { -brand-shorter-name } のため、現在は無効です。
+  .disabledTitle = Service Worker のプッシュ通知は、現在のマルチプロセス { -brand-shorter-name } では無効化されています。
 
 # This string is displayed as a label of the button that starts a service worker.
 about-debugging-worker-action-start2 = 開始
-  .disabledTitle = Service Worker の開始はマルチプロセス { -brand-shorter-name } のため、現在は無効です。
+  .disabledTitle = Service Worker の開始は、現在のマルチプロセス { -brand-shorter-name } では無効化されています。
 
 # This string is displayed as a label of the button that unregisters a service worker.
 about-debugging-worker-action-unregister = 解除
 
 # Displayed for service workers in runtime pages that listen to Fetch events.
 about-debugging-worker-fetch-listening =
-  .label = フェッチ
-  .value = フェッチイベントの監視中
+  .label = Fetch
+  .value = Fetch イベントを監視中
 
 # Displayed for service workers in runtime pages that do not listen to Fetch events.
 about-debugging-worker-fetch-not-listening =
-  .label = フェッチ
-  .value = フェッチイベント監視の休止中
+  .label = Fetch
+  .value = Fetch イベントの監視を休止中
 
 # Displayed for service workers in runtime pages that are currently running (service
 # worker instance is active).
@@ -367,15 +367,15 @@ about-debugging-worker-scope =
 # Displayed for service workers in runtime pages, to label the push service endpoint (url)
 # of a worker
 about-debugging-worker-push-service =
-  .label = プッシュサービス
+  .label = Push サービス
 
 # Displayed as title of the inspect button when service worker debugging is disabled.
 about-debugging-worker-inspect-action-disabled =
-  .title = Service Worker の調査はマルチプロセス { -brand-shorter-name } のため、現在は無効です。
+  .title = Service Worker の調査は、現在のマルチプロセス { -brand-shorter-name } では無効化されています。
 
 # Displayed as title of the inspect button for zombie tabs (e.g. tabs loaded via a session restore).
 about-debugging-zombie-tab-inspect-action-disabled =
-  .title = Tab is not fully loaded and cannot be inspected
+  .title = タブの読み込みが完了してないため調査できません。
 
 # Displayed as name for the Main Process debug target in the Processes category. Only for
 # remote runtimes, if `devtools.aboutdebugging.process-debugging` is true.
@@ -383,14 +383,14 @@ about-debugging-main-process-name = メインプロセス
 
 # Displayed as description for the Main Process debug target in the Processes category.
 # Only for remote browsers, if `devtools.aboutdebugging.process-debugging` is true.
-about-debugging-main-process-description2 = ターゲットブラウザのメインプロセス
+about-debugging-main-process-description2 = ターゲット ブラウザのメインプロセス
 
 # Displayed instead of the Main Process debug target when the preference
 # `devtools.browsertoolbox.fission` is true.
 about-debugging-multiprocess-toolbox-name = マルチプロセス ツールボックス
 
 # Description for the Multiprocess Toolbox target.
-about-debugging-multiprocess-toolbox-description = 対象ブラウザのメインプロセスとコンテンツプロセス
+about-debugging-multiprocess-toolbox-description = ターゲット ブラウザのメインプロセスとコンテンツプロセス
 
 # Alt text used for the close icon of message component (warnings, errors and notifications).
 about-debugging-message-close-icon =
