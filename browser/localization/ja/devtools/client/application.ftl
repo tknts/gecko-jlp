@@ -49,7 +49,7 @@ serviceworker-worker-status-running = 実行中
 serviceworker-worker-status-stopped = 停止中
 
 # Text displayed when no service workers are visible for the current page.
-serviceworker-empty-intro2 = Service Worker が見つかりません
+serviceworker-empty-intro2 = Service Worker が見つかりませんでした。
 
 # Link will open https://developer.mozilla.org/docs/Web/API/Service_Worker_API/Using_Service_Workers
 serviceworker-empty-intro-link = さらに詳しく
@@ -57,17 +57,17 @@ serviceworker-empty-intro-link = さらに詳しく
 # Text displayed when there are no Service Workers to display for the current page,
 # introducing hints to debug Service Worker issues.
 # <a> and <span> are links that will open the webconsole and the debugger, respectively.
-serviceworker-empty-suggestions2 = もし現在のページで Service Worker を使用している場合は <a>コンソール</a> でエラーを探すか <span>デバッガ</span> で Service Worker の登録を確認してください。
+serviceworker-empty-suggestions2 = 現在のページに Service Worker が必要な場合は <a>Console</a> でエラーを探すか <span>Debugger</span> で Service Worker の登録をステップスルーできます。
 
 # Suggestion to go to about:debugging in order to see Service Workers for all domains.
 # Link will open about:debugging in a new tab.
-serviceworker-empty-suggestions-aboutdebugging2 = 他のドメインの Service Worker を表示する
+serviceworker-empty-suggestions-aboutdebugging2 = 他のドメインの Service Worker を確認する
 
 # Header for the Manifest page when we have an actual manifest
 manifest-view-header = アプリマニフェスト
 
 # Header for the Manifest page when there's no manifest to inspect
-manifest-empty-intro2 = ウェブアプリのマニフェストは検出されませんでした。マニフェストの追加方法について
+manifest-empty-intro2 = ウェブアプリ マニフェストは検出されませんでした。マニフェストの追加方法について
 
 # The link will open https://developer.mozilla.org/en-US/docs/Web/Manifest
 manifest-empty-intro-link = さらに詳しく
@@ -107,7 +107,7 @@ manifest-json-link-data-url = マニフェストはデータ URL に埋め込ま
 
 # Text displayed at manifest icons to label their purpose, as declared
 # in the manifest.
-manifest-icon-purpose = Purpose: <code>{$purpose}</code>
+manifest-icon-purpose = 目的: <code>{$purpose}</code>
 
 # Text displayed as the alt attribute for <img> tags showing the icons in the
 # manifest.
@@ -117,11 +117,11 @@ manifest-icon-img =
 # Text displayed as the title attribute for <img> tags showing the icons in the
 # manifest. `$sizes` is a user-dependent string that has been parsed as a
 # space-separated list of `<width>x<height>` sizes or the keyword `any`.
-manifest-icon-img-title = Icon with sizes: {$sizes}
+manifest-icon-img-title = アイコンのサイズ: {$sizes}
 
 # Text displayed as the title attribute for <img> tags showing the icons in the
 # manifest, in case there's no icon size specified by the user
-manifest-icon-img-title-no-sizes = Unspecified size icon
+manifest-icon-img-title-no-sizes = 未定義のサイズのアイコン
 
 # Sidebar navigation item for Manifest sidebar item section
 sidebar-item-manifest = Manifest
