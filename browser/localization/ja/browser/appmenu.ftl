@@ -110,7 +110,7 @@ appmenu-fxa-header2 = { -fxaccount-brand-name(capitalization: "sentence") }
 appmenu-fxa-last-sync = 最終同期: { $time }
     .label = 最終同期: { $time }
 appmenu-fxa-sync-and-save-data2 = データの保存と同期
-appmenu-fxa-signed-in-label = サインイン
+appmenu-fxa-signed-in-label = ログイン
 appmenu-fxa-setup-sync =
     .label = 同期をオンにする…
 

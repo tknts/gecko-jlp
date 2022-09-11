@@ -4,12 +4,12 @@
 
 label-disable = 無効化
 label-enable = 有効化
-label-interventions = Interventions
+label-interventions = ウェブ互換性への介入
 label-more-information = 詳細: バグ { $bug }
 label-overrides = ユーザーエージェントの上書き
-text-disabled-in-about-config = この機能は about:config で無効にされています
-text-no-interventions = No interventions are being used
-text-no-overrides = ユーザーエージェントの上書きは使用されていません
+text-disabled-in-about-config = この機能は about:config で無効化されています
+text-no-interventions = ウェブ互換性への介入はありません
+text-no-overrides = ユーザーエージェントの上書きはありません
 text-title = about:compat
 
 ## Do not translate "SmartBlock". For reference, SmartBlock is a feature
@@ -18,5 +18,5 @@ text-title = about:compat
 ## breakage. SmartBlock also contains special fixes for sites broken by
 ## Firefox's Total Cookie Protection feature.
 
-label-smartblock = SmartBlock Fixes
-text-no-smartblock = No SmartBlock fixes are being used
+label-smartblock = SmartBlock による修正
+text-no-smartblock = SmartBlock による修正はありません

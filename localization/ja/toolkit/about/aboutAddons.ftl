@@ -165,7 +165,7 @@ legacy-extensions-description =
 
 private-browsing-description2 =
     { -brand-short-name } がプライベートブラウジングでの拡張機能の動作を変更しています。
-    { -brand-short-name } に新たに追加された拡張機能は、プライベートウィンドウではデフォルトで実行されません。
+    { -brand-short-name } に新たに追加された拡張機能はプライベートウィンドウではデフォルトで実行されません。
     拡張機能の設定で許可しない限り、プライベートブラウジング中は拡張機能が動作せず、ユーザーのオンライン行動にもアクセスできません。
     この変更は、ユーザーのプライベートブラウジングの秘密を守るために行われました。
     <label data-l10n-name="private-browsing-learn-more">拡張機能の設定を管理する方法について学ぶ</label>
@@ -259,7 +259,7 @@ shortcuts-no-commands = 次の拡張機能にはショートカットがあり�
 shortcuts-input =
   .placeholder = ショートカットキーを入力してください
 
-shortcuts-browserAction2 = Activate toolbar button
+shortcuts-browserAction2 = ツールバーボタンを有効化
 shortcuts-pageAction = ページ操作を有効化
 shortcuts-sidebarAction = サイドバーの表示を切り替え
 
@@ -326,7 +326,7 @@ install-theme-button = テーマをインストール
 # the detailed add-on view is opened, from where the add-on can be managed.
 manage-addon-button = 管理
 find-more-addons = その他のアドオンを検索
-find-more-themes = テーマを検索
+find-more-themes = その他のテーマを検索
 
 # This is a label for the button to open the "more options" menu, it is only
 # used for screen readers.
@@ -338,13 +338,13 @@ addon-options-button =
 report-addon-button = 報告
 remove-addon-button = 削除
 # The link will always be shown after the other text.
-remove-addon-disabled-button = 削除できません <a data-l10n-name="link">何故ですか?</a>
+remove-addon-disabled-button = 削除できません。 <a data-l10n-name="link">何故ですか?</a>
 disable-addon-button = 無効化
 enable-addon-button = 有効化
 # This is used for the toggle on the extension card, it's a checkbox and this
 # is always its label.
 extension-enable-addon-button-label =
-    .aria-label = 有効化
+    .aria-label = 有効
 preferences-addon-button =
     { PLATFORM() ->
         [windows] オプション
@@ -358,14 +358,14 @@ extension-enabled-heading = 有効
 extension-disabled-heading = 無効
 
 theme-enabled-heading = 有効
-theme-disabled-heading2 = 保存済みのテーマ
-theme-monochromatic-heading = Colorways
-theme-monochromatic-subheading = { -brand-product-name } から鮮やかな新しい Colorways が登場。期間限定で利用可能。
+theme-disabled-heading2 = 保存されたテーマ
+theme-monochromatic-heading = カラーテーマ
+theme-monochromatic-subheading = { -brand-product-name } から鮮やかな新しいカラーテーマが登場。期間限定で利用できます。
 
 # Refers to the button label for the colorways card when a user does not have a colorway theme enabled.
-theme-colorways-button = Colorways を試す
+theme-colorways-button = カラーテーマを試す
 # Refers to the button label for the colorways card when a user has a colorway theme enabled.
-theme-colorways-button-colorway-enabled = Colorway を変更
+theme-colorways-button-colorway-enabled = カラーテーマを変更
 # Variables:
 #   $expiryDate (string) - date on which the colorway collection expires. When formatting this, you may omit the year, only exposing the month and day, as colorway collections will always expire within a year.
 colorway-collection-expiry-label = 利用期限 { DATETIME($expiryDate, month: "long", day: "numeric") }
@@ -426,7 +426,7 @@ addon-detail-updates-label = 自動更新の許可
 addon-detail-updates-radio-default = 初期設定
 addon-detail-updates-radio-on = オン
 addon-detail-updates-radio-off = オフ
-addon-detail-update-check-label = 更新の確認
+addon-detail-update-check-label = 更新を確認
 install-update-button = 更新
 
 # This is the tooltip text for the private browsing badge in about:addons. The
@@ -434,7 +434,7 @@ install-update-button = 更新
 addon-badge-private-browsing-allowed2 =
     .title = プライベートウィンドウでの実行
     .aria-label = { addon-badge-private-browsing-allowed2.title }
-addon-detail-private-browsing-help = 許可されている場合、拡張機能はプライベートブラウジング中でも、あなたのオンラインでの活動にアクセスできます。 <a data-l10n-name="learn-more">さらに詳しく</a>
+addon-detail-private-browsing-help = 許可されている場合、この拡張機能はプライベートブラウジング中でも、あなたのオンライン行動にアクセスできます。<a data-l10n-name="learn-more">さらに詳しく</a>
 addon-detail-private-browsing-allow = 許可する
 addon-detail-private-browsing-disallow = 拒否する
 
@@ -500,7 +500,7 @@ addon-page-options-button =
 
 # Variables:
 #   $version (String): application version.
-details-notification-incompatible = { $name } は { -brand-short-name } { $version } との互換性がありません。
+details-notification-incompatible = { $name } は { -brand-short-name } { $version } と互換性がありません。
 details-notification-incompatible-link = その他の情報
 
 details-notification-unsigned-and-disabled = { $name } は { -brand-short-name } での動作が検証されいないため無効化されています。

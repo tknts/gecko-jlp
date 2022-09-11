@@ -146,8 +146,8 @@ newtab-menu-remove-download = 履歴から削除
 
 newtab-menu-show-file =
     { PLATFORM() ->
-        [macos] Show in Finder
-       *[other] Open Containing Folder
+        [macos] Finder に表示
+       *[other] 保存フォルダーを開く
     }
 newtab-menu-open-file = ファイルを開く
 
@@ -165,25 +165,25 @@ newtab-label-download = ダウンロード済み
 # This string is used in the story cards to indicate sponsored content
 # Variables:
 #  $sponsorOrSource (String): This is the name of a company or their domain
-newtab-label-sponsored = { $sponsorOrSource } · スポンサー
+newtab-label-sponsored = スポンサー: { $sponsorOrSource }
 
 # This string is used at the bottom of story cards to indicate sponsored content
 # Variables:
 #  $sponsor (String): This is the name of a sponsor
-newtab-label-sponsored-by = スポンサー by { $sponsor }
+newtab-label-sponsored-by = スポンサー: { $sponsor }
 
 # This string is used under the image of story cards to indicate source and time to read
 # Variables:
 #  $source (String): This is the name of a company or their domain
 #  $timeToRead (Number): This is the estimated number of minutes to read this story
-newtab-label-source-read-time = { $source } · { $timeToRead } min
+newtab-label-source-read-time = { $source } · { $timeToRead } 分
 
 ## Section Menu: These strings are displayed in the section context menu and are
 ## meant as a call to action for the given section.
 
 newtab-section-menu-remove-section = セクションを削除
 newtab-section-menu-collapse-section = セクションを折りたたむ
-newtab-section-menu-expand-section = セクションを展開
+newtab-section-menu-expand-section = セクションを広げる
 newtab-section-menu-manage-section = セクションを管理
 newtab-section-menu-manage-webext = 拡張機能を管理
 newtab-section-menu-add-topsite = トップサイトを追加
@@ -197,7 +197,7 @@ newtab-section-menu-privacy-notice = プライバシー告知
 newtab-section-collapse-section-label =
     .aria-label = セクションを折りたたむ
 newtab-section-expand-section-label =
-    .aria-label = セクションを展開
+    .aria-label = セクションを広げる
 
 ## Section Headers.
 
@@ -237,8 +237,8 @@ newtab-pocket-cta-text = お気に入りに記事を { -pocket-brand-name } に�
 newtab-pocket-pocket-firefox-family = { -pocket-brand-name } は { -brand-product-name } ファミリーの一員です
 
 # A save to Pocket button that shows over the card thumbnail on hover.
-newtab-pocket-save-to-pocket = { -pocket-brand-name } に保存
-newtab-pocket-saved-to-pocket = { -pocket-brand-name } に保存済み
+newtab-pocket-save = 保存
+newtab-pocket-saved = 保存しました
 
 ## Error Fallback Content.
 ## This message and suggested action link are shown in each section of UI that fails to render.

@@ -12,10 +12,10 @@ certificate-viewer-error-title = 何か問題が発生しました。
 ## Certificate information labels
 
 certificate-viewer-algorithm = アルゴリズム
-certificate-viewer-certificate-authority = 発行者
-certificate-viewer-cipher-suite = Cipher Suite
-certificate-viewer-common-name = Common Name
-certificate-viewer-email-address = Email Address
+certificate-viewer-certificate-authority = 認証局
+certificate-viewer-cipher-suite = 暗号スイート
+certificate-viewer-common-name = 一般名
+certificate-viewer-email-address = メールアドレス
 # Variables:
 #   $firstCertName (String) - Common Name for the displayed certificate
 certificate-viewer-tab-title = Certificate for { $firstCertName }
@@ -26,7 +26,7 @@ certificate-viewer-curve = Curve
 certificate-viewer-distribution-point = Distribution Point
 certificate-viewer-dns-name = DNS Name
 certificate-viewer-ip-address = IP アドレス
-certificate-viewer-other-name = その他の名前
+certificate-viewer-other-name = 別名
 certificate-viewer-exponent = Exponent
 certificate-viewer-id = ID
 certificate-viewer-key-exchange-group = Key Exchange Group

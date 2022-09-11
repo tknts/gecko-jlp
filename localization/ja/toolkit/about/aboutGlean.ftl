@@ -5,10 +5,10 @@
 ### "Glean" and "Glean SDK" should remain in English.
 
 about-glean-page-title = Glean について
-about-glean-description = The <a data-l10n-name="glean-sdk-doc-link">Glean SDK</a> is a data collection library used in Mozilla products. This page is for developers and testers who need to <a data-l10n-name="fog-debug-doc-link">configure debugging and logging state in the Glean SDK</a>.
-about-glean-warning = Misusing this interface may crash { -brand-short-name }.
+about-glean-description = <a data-l10n-name="glean-sdk-doc-link">Glean SDK</a> は Mozilla 製品で利用されているデータ収集ライブラリーです。このページは <a data-l10n-name="fog-debug-doc-link">Glean SDK でデバッグとログの状態を構成</a> する必要がある開発者とテスターを対象としています。
+about-glean-warning = このインターフェースの使用を誤ると { -brand-short-name } がクラッシュする可能性があります。
+tag-pings-label = 送信したすべての Ping にこのタグを付ける
+log-pings-label = 送信前に Ping ペイロードを記録しますか？
+send-pings-label = 名前付き Ping を送信
+controls-button-label-verbose = 設定を適用して Ping を送信
 
-tag-pings-label = Tag all sent pings with this tag
-log-pings-label = Log ping payload before sending?
-send-pings-label = Send the named ping
-controls-button-label-verbose = Apply settings and submit ping

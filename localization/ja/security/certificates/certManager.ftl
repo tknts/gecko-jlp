@@ -3,10 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 certmgr-title =
-    .title = Certificate Manager
+    .title = 証明書マネージャー
 
 certmgr-tab-mine =
-    .label = Your Certificates
+    .label = あなたの証明書
 
 certmgr-tab-remembered =
     .label = Authentication Decisions
@@ -15,7 +15,7 @@ certmgr-tab-people =
     .label = People
 
 certmgr-tab-servers =
-    .label = Servers
+    .label = サーバー
 
 certmgr-tab-ca =
     .label = Authorities
@@ -39,7 +39,7 @@ certmgr-edit-cert-trust-email =
     .label = This certificate can identify mail users.
 
 certmgr-delete-cert =
-    .title = Delete Certificate
+    .title = 証明書の削除
     .style = width: 48em; height: 24em;
 
 certmgr-cert-host =
@@ -49,103 +49,103 @@ certmgr-cert-name =
     .label = Certificate Name
 
 certmgr-cert-server =
-    .label = Server
+    .label = サーバー
 
 certmgr-override-lifetime =
     .label = Lifetime
 
 certmgr-token-name =
-    .label = Security Device
+    .label = セキュリティ デバイス
 
 certmgr-begins-label =
-    .label = Begins On
+    .label = 発行日
 
 certmgr-expires-label =
-    .label = Expires On
+    .label = 有効期限
 
 certmgr-email =
-    .label = E-Mail Address
+    .label = メールアドレス
 
 certmgr-serial =
-    .label = Serial Number
+    .label = シリアル番号
 
 certmgr-view =
-    .label = View…
+    .label = 表示…
     .accesskey = V
 
 certmgr-edit =
-    .label = Edit Trust…
+    .label = 信頼性を編集…
     .accesskey = E
 
 certmgr-export =
-    .label = Export…
+    .label = エクスポート…
     .accesskey = x
 
 certmgr-delete =
-    .label = Delete…
+    .label = 削除…
     .accesskey = D
 
 certmgr-delete-builtin =
-    .label = Delete or Distrust…
+    .label = 削除または信頼しない…
     .accesskey = D
 
 certmgr-backup =
-    .label = Backup…
+    .label = バックアップ…
     .accesskey = B
 
 certmgr-backup-all =
-    .label = Backup All…
+    .label = すべてバックアップ…
     .accesskey = k
 
 certmgr-restore =
-    .label = Import…
+    .label = インポート…
     .accesskey = m
 
 certmgr-add-exception =
-    .label = Add Exception…
+    .label = 例外を追加…
     .accesskey = x
 
 exception-mgr =
-    .title = Add Security Exception
+    .title = セキュリティの例外を追加
 
 exception-mgr-extra-button =
     .label = Confirm Security Exception
     .accesskey = C
 
-exception-mgr-supplemental-warning = Legitimate banks, stores, and other public sites will not ask you to do this.
+exception-mgr-supplemental-warning = 本物の銀行やオンラインストア、およびその他の公開サイトでは、この操作を求められることはありません。
 
 exception-mgr-cert-location-url =
     .value = Location:
 
 exception-mgr-cert-location-download =
-    .label = Get Certificate
+    .label = 証明書を取得
     .accesskey = G
 
 exception-mgr-cert-status-view-cert =
-    .label = View…
+    .label = 表示…
     .accesskey = V
 
 exception-mgr-permanent =
     .label = Permanently store this exception
     .accesskey = P
 
-pk11-bad-password = The password entered was incorrect.
+pk11-bad-password = 入力されたパスワードは正しくありません。
 pkcs12-decode-err = Failed to decode the file. Either it is not in PKCS #12 format, has been corrupted, or the password you entered was incorrect.
 pkcs12-unknown-err-restore = Failed to restore the PKCS #12 file for unknown reasons.
 pkcs12-unknown-err-backup = Failed to create the PKCS #12 backup file for unknown reasons.
 pkcs12-unknown-err = The PKCS #12 operation failed for unknown reasons.
-pkcs12-info-no-smartcard-backup = It is not possible to back up certificates from a hardware security device such as a smart card.
-pkcs12-dup-data = The certificate and private key already exist on the security device.
+pkcs12-info-no-smartcard-backup = スマートカードなどのハードウェア セキュリティ デバイスから証明書をバックアップすることはできません。
+pkcs12-dup-data = 証明書と秘密鍵はセキュリティ デバイスにすでに存在ています。
 
 ## PKCS#12 file dialogs
 
-choose-p12-backup-file-dialog = File Name to Backup
-file-browse-pkcs12-spec = PKCS12 Files
-choose-p12-restore-file-dialog = Certificate File to Import
+choose-p12-backup-file-dialog = バックアップファイル名
+file-browse-pkcs12-spec = PKCS12 ファイル
+choose-p12-restore-file-dialog = インポートする証明書ファイル
 
 ## Import certificate(s) file dialog
 
-file-browse-certificate-spec = Certificate Files
+file-browse-certificate-spec = 証明書ファイル
 import-ca-certs-prompt = Select File containing CA certificate(s) to import
 import-email-cert-prompt = Select File containing somebody’s Email certificate to import
 
@@ -153,12 +153,12 @@ import-email-cert-prompt = Select File containing somebody’s Email certificate
 
 # Variables:
 #   $certName: the name of certificate
-edit-trust-ca = The certificate “{ $certName }” represents a Certificate Authority.
+edit-trust-ca = “{ $certName }” は認証局の証明書です
 
 ## For Deleting Certificates
 
 delete-user-cert-title =
-    .title = Delete your Certificates
+    .title = あなたの証明書を削除
 delete-user-cert-confirm = Are you sure you want to delete these certificates?
 delete-user-cert-impact = If you delete one of your own certificates, you can no longer use it to identify yourself.
 
@@ -175,7 +175,7 @@ delete-ca-cert-impact = If you delete or distrust a certificate authority (CA) c
 
 
 delete-email-cert-title =
-    .title = Delete E-Mail Certificates
+    .title = メールの証明書を削除
 delete-email-cert-confirm = Are you sure you want to delete these people’s e-mail certificates?
 delete-email-cert-impact = If you delete a person’s e-mail certificate, you will no longer be able to send encrypted e-mail to that person.
 
@@ -184,16 +184,16 @@ delete-email-cert-impact = If you delete a person’s e-mail certificate, you wi
 # Variables:
 #   $serialNumber : the serial number of the cert in AA:BB:CC hex format.
 cert-with-serial =
-    .value = Certificate with serial number: { $serialNumber }
+    .value = シリアル番号付きの証明書: { $serialNumber }
 
 # Used to indicate that the user chose not to send a client authentication certificate to a server that requested one in a TLS handshake.
-send-no-client-certificate = Send no client certificate
+send-no-client-certificate = 送信するクライアント証明書がありません。
 
 # Used when no cert is stored for an override
-no-cert-stored-for-override = (Not Stored)
+no-cert-stored-for-override = (保存されていません)
 
 # When a certificate is unavailable (for example, it has been deleted or the token it exists on has been removed).
-certificate-not-available = (Unavailable)
+certificate-not-available = (利用できません)
 
 ## Used to show whether an override is temporary or permanent
 
@@ -219,10 +219,10 @@ add-exception-no-cert-long = Unable to obtain identification status for this sit
 
 ## Certificate export "Save as" and error dialogs
 
-save-cert-as = Save Certificate To File
+save-cert-as = 証明書をファイルに保存
 cert-format-base64 = X.509 Certificate (PEM)
 cert-format-base64-chain = X.509 Certificate with chain (PEM)
 cert-format-der = X.509 Certificate (DER)
 cert-format-pkcs7 = X.509 Certificate (PKCS#7)
 cert-format-pkcs7-chain = X.509 Certificate with chain (PKCS#7)
-write-file-failure = File Error
+write-file-failure = ファイルエラー
