@@ -36,13 +36,13 @@ cfr-doorhanger-extension-author = 作成者: { $name }
 cfr-doorhanger-extension-notification = おすすめ
 cfr-doorhanger-extension-notification2 = おすすめ
   .tooltiptext = おすすめ拡張機能
-  .a11y-announcement = Extension recommendation available
+  .a11y-announcement = おすすめの拡張機能があります
 
 # This is a notification displayed in the address bar.
 # When clicked it opens a panel with a message for the user.
 cfr-doorhanger-feature-notification = おすすめ
   .tooltiptext = おすすめの機能
-  .a11y-announcement = Feature recommendation available
+  .a11y-announcement = おすすめの機能があります
 
 ## Add-on statistics
 ## These strings are used to display the total number of
@@ -76,7 +76,7 @@ cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
 ## Protections panel
 
 cfr-protections-panel-header = 行動追跡の除去
-cfr-protections-panel-body = あなたのデータはあなたが管理するべきです。  { -brand-short-name } は、オンライン上であなたの行動を追跡するトラッカーの多くをブロックします。
+cfr-protections-panel-body = あなたのデータはあなたが管理するべきです。 { -brand-short-name } は、オンライン上であなたの行動を追跡するトラッカーの多くをブロックします。
 cfr-protections-panel-link-text = さらに詳しく
 
 ## What's New toolbar button and panel
@@ -98,16 +98,16 @@ cfr-whatsnew-release-notes-link-text = リリースノートを読む
 #   $date (Datetime) - The date we began recording the count of blocked trackers
 cfr-doorhanger-milestone-heading2 =
   { $blockedCount ->
-    *[other] { -brand-short-name } blocked over <b>{ $blockedCount }</b> trackers since { DATETIME($date, month: "long", year: "numeric") }!
+    *[other] { -brand-short-name } は { DATETIME($date, month: "long", year: "numeric") } 以降に <b>{ $blockedCount } 個</b> 以上のトラッカーをブロックしました!
   }
-cfr-doorhanger-milestone-ok-button = すべて選択
+cfr-doorhanger-milestone-ok-button = すべて確認
   .accesskey = S
 cfr-doorhanger-milestone-close-button = 閉じる
   .accesskey = C
 
 ## DOH Message
 
-cfr-doorhanger-doh-body = Your privacy matters. { -brand-short-name } now securely routes your DNS requests whenever possible to a partner service to protect you while you browse.
+cfr-doorhanger-doh-body = あなたのプライバシーは重要です。{ -brand-short-name } はブラウジング中のユーザーを保護するパートナーサービスを利用して DNS リクエストを可能な限り安全にルーティングします。
 cfr-doorhanger-doh-header = より安全で暗号化された DNS ルックアップ
 cfr-doorhanger-doh-primary-button-2 = OK
   .accesskey = O
@@ -116,24 +116,24 @@ cfr-doorhanger-doh-secondary-button = 無効化
 
 ## Fission Experiment Message
 
-cfr-doorhanger-fission-body-approved = Your privacy matters. { -brand-short-name } now isolates, or sandboxes, websites from each other, which makes it harder for hackers to steal passwords, credit card numbers, and other sensitive information.
-cfr-doorhanger-fission-header = Site Isolation
-cfr-doorhanger-fission-primary-button = OK, Got it
+cfr-doorhanger-fission-body-approved = あなたのプライバシーは重要です。は、ウェブサイトを相互に分離 (サンドボックス化) するようになりました。これにより、ハッカーがパスワード、クレジットカード番号、およびその他の機密情報を盗むことが難しくなりました。
+cfr-doorhanger-fission-header = サイトの分離
+cfr-doorhanger-fission-primary-button = OK、有効にする
   .accesskey = O
 cfr-doorhanger-fission-secondary-button = さらに詳しく
   .accesskey = L
 
 ## Full Video Support CFR message
 
-cfr-doorhanger-video-support-body = Videos on this site may not play correctly on this version of { -brand-short-name }. For full video support, update { -brand-short-name } now.
-cfr-doorhanger-video-support-header = Update { -brand-short-name } to play video
+cfr-doorhanger-video-support-body = このバージョンの { -brand-short-name } では、このサイトの動画を正しく再生できない場合があります。動画を完全にサポートするには { -brand-short-name } を今すぐ更新してください。
+cfr-doorhanger-video-support-header = { -brand-short-name } を更新して動画を再生
 cfr-doorhanger-video-support-primary-button = 今すぐ更新
   .accesskey = U
 
 ## Spotlight modal shared strings
 
 spotlight-learn-more-collapsed = さらに詳しく
-  .title = Expand to learn more about the feature
+  .title = 展開してこの機能の詳細を見る
 spotlight-learn-more-expanded = さらに詳しく
   .title = 閉じる
 
@@ -144,11 +144,11 @@ spotlight-learn-more-expanded = さらに詳しく
 ## to the Mozilla VPN page and a link to dismiss the dialog.
 
 # This header text can be explicitly wrapped.
-spotlight-public-wifi-vpn-header = Looks like you’re using public Wi-Fi
-spotlight-public-wifi-vpn-body = To hide your location and browsing activity, consider a Virtual Private Network. It will help keep you protected when browsing in public places like airports and coffee shops.
-spotlight-public-wifi-vpn-primary-button = Stay private with { -mozilla-vpn-brand-name }
+spotlight-public-wifi-vpn-header = 公共 Wi-Fi を使うかのように
+spotlight-public-wifi-vpn-body = あなたの位置情報とブラウジングアクティビティを秘匿したいなら、仮想プライベートネットワーク (VPN) を検討してください。空港やコーヒーショップなど公共の場所でブラウジングする際に、あなたを保護するのに役立ちます。
+spotlight-public-wifi-vpn-primary-button = { -mozilla-vpn-brand-name } でプライバシーを確保
   .accesskey = S
-spotlight-public-wifi-vpn-link = Not Now
+spotlight-public-wifi-vpn-link = 後で
   .accesskey = N
 
 ## Total Cookie Protection Rollout
@@ -161,11 +161,11 @@ cfr-total-cookie-protection-body = Total Cookie Protection は、これまでで
 ## Emotive Continuous Onboarding
 
 spotlight-better-internet-header = より良いインターネットは、あなたから始まります
-spotlight-better-internet-body =  { -brand-short-name} を使用する事は、すべての人にとって、より良いオープンでアクセスしやすいインターネットに投票することになります。
+spotlight-better-internet-body = { -brand-short-name} を使用する事は、すべての人にとって、より良いオープンでアクセスしやすいインターネットに投票することになります。
 spotlight-peace-mind-header = 私たちは、あなたを覆い隠す事ができます
 spotlight-peace-mind-body = { -brand-short-name } は 1 ユーザーあたり平均 3,000 以上のトラッカーを毎月ブロックしています。トラッカーのようなプライバシーを侵害するものは、あなたと快適なインターネットとの間に存在してはならないからです。
 spotlight-pin-primary-button = { PLATFORM() ->
-    [macos] Keep in Dock
+    [macos] Dock に追加する
    *[other] タスクバーにピン留めする
 }
 spotlight-pin-secondary-button = 今はしない

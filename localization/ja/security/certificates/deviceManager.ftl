@@ -5,28 +5,28 @@
 ## Strings used for device manager
 
 devmgr =
-    .title = Device Manager
+    .title = デバイス マネージャー
     .style = width: 67em; height: 32em;
 
 devmgr-devlist =
-    .label = Security Modules and Devices
+    .label = セキュリティ モジュールとデバイス
 
 devmgr-header-details =
-    .label = Details
+    .label = 詳細
 
 devmgr-header-value =
-    .label = Value
+    .label = 値
 
 devmgr-button-login =
-    .label = Log In
+    .label = ログイン
     .accesskey = n
 
 devmgr-button-logout =
-    .label = Log Out
+    .label = ログアウト
     .accesskey = O
 
 devmgr-button-changepw =
-    .label = Change Password
+    .label = パスワードを変更
     .accesskey = P
 
 devmgr-button-load =
@@ -48,29 +48,29 @@ devmgr-button-disable-fips =
 ## Strings used for load device
 
 load-device =
-    .title = Load PKCS#11 Device Driver
+    .title = PKCS #11 デバイス ドライバーの読み込み
 
-load-device-info = Enter the information for the module you want to add.
+load-device-info = 追加するモジュールの情報を入力してください。
 
 load-device-modname =
-    .value = Module Name
+    .value = モジュール名
     .accesskey = M
 
 load-device-modname-default =
     .value = New PKCS#11 Module
 
 load-device-filename =
-    .value = Module filename
+    .value = モジュールのファイル名
     .accesskey = f
 
 load-device-browse =
-    .label = Browse…
+    .label = 参照…
     .accesskey = B
 
 ## Token Manager
 
 devinfo-status =
-    .label = Status
+    .label = 状態
 
 devinfo-status-disabled =
     .label = Disabled
@@ -82,10 +82,10 @@ devinfo-status-uninitialized =
     .label = Uninitialized
 
 devinfo-status-not-logged-in =
-    .label = Not Logged In
+    .label = ログインしていません
 
 devinfo-status-logged-in =
-    .label = Logged In
+    .label = ログイン済み
 
 devinfo-status-ready =
     .label = Ready
@@ -94,39 +94,39 @@ devinfo-desc =
     .label = Description
 
 devinfo-man-id =
-    .label = Manufacturer
+    .label = 製造元
 
 devinfo-hwversion =
-    .label = HW Version
+    .label = ハードウェアバージョン
 devinfo-fwversion =
-    .label = FW Version
+    .label = ファームウェアバージョン
 
 devinfo-modname =
-    .label = Module
+    .label = モジュール
 
 devinfo-modpath =
-    .label = Path
+    .label = パス
 
-login-failed = Failed to Login
+login-failed = ログインに失敗しました
 
 devinfo-label =
-    .label = Label
+    .label = ラベル
 
 devinfo-serialnum =
-    .label = Serial Number
+    .label = シリアル番号
 
 fips-nonempty-primary-password-required = FIPS mode requires that you have a Primary Password set for each security device. Please set the password before trying to enable FIPS mode.
 unable-to-toggle-fips = Unable to change the FIPS mode for the security device. It is recommended that you exit and restart this application.
-load-pk11-module-file-picker-title = Choose a PKCS#11 device driver to load
+load-pk11-module-file-picker-title = 読み込む PKCS#11 デバイス ドライバーの選択
 
 # Load Module Dialog
 load-module-help-empty-module-name =
-    .value = The module name cannot be empty.
+    .value = モジュールに名前がありません。
 
 # Do not translate 'Root Certs'
 load-module-help-root-certs-module-name =
-    .value = ‘Root Certs‘ is reserved and cannot be used as the module name.
+    .value = ‘Root Certs‘ は予約されているためモジュール名として使用できません。
 
-add-module-failure = Unable to add module
-del-module-warning = Are you sure you want to delete this security module?
-del-module-error = Unable to delete module
+add-module-failure = モジュールを追加できません
+del-module-warning = このセキュリティ モジュールを削除してもよろしいですか?
+del-module-error = モジュールを削除できません

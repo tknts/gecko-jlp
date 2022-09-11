@@ -229,25 +229,19 @@ preferences-web-appearance-header = ウェブサイトの外観
 
 preferences-web-appearance-description = 一部のウェブサイトでは、あなたの設定をもとに配色を適用します。それらのサイトに使用する配色を選択してください。
 
-preferences-web-appearance-choice-browser = { -brand-short-name } のテーマ
-preferences-web-appearance-choice-system = システムの設定
-preferences-web-appearance-choice-light = ライトモード
-preferences-web-appearance-choice-dark = ダークモード
+preferences-web-appearance-choice-auto = 自動
+preferences-web-appearance-choice-light = ライト
+preferences-web-appearance-choice-dark = ダーク
 
-preferences-web-appearance-choice-tooltip-browser =
-  .title = { -brand-short-name } のテーマ設定をウェブサイトの背景とコンテンツに適用します。
-preferences-web-appearance-choice-tooltip-system =
-  .title = システムの設定をウェブサイトの背景とコンテンツに適用します。
+preferences-web-appearance-choice-tooltip-auto =
+  .title = システムの設定と { -brand-short-name } のテーマに基づいて、ウェブサイトの背景とコンテンツを自動的に変更します。
 preferences-web-appearance-choice-tooltip-light =
   .title = ウェブサイトの背景とコンテンツにライトモードを使用します。
 preferences-web-appearance-choice-tooltip-dark =
   .title = ウェブサイトの背景とコンテンツにダークモードを使用します。
 
-preferences-web-appearance-choice-input-browser =
-  .aria-description = { preferences-web-appearance-choice-tooltip-browser.title }
-
-preferences-web-appearance-choice-input-system =
-  .aria-description = { preferences-web-appearance-choice-tooltip-system.title }
+preferences-web-appearance-choice-input-auto =
+  .aria-description = { preferences-web-appearance-choice-tooltip-auto.title }
 
 preferences-web-appearance-choice-input-light =
   .aria-description = { preferences-web-appearance-choice-tooltip-light.title }
@@ -851,7 +845,7 @@ sync-remove-account =
     .accesskey = R
 
 sync-sign-in =
-    .label = サインイン
+    .label = ログイン
     .accesskey = g
 
 ## Sync section - enabling or disabling sync.

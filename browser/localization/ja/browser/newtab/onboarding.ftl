@@ -84,7 +84,7 @@ mr1-onboarding-set-default-pin-primary-button-label =
 mr1-onboarding-set-default-only-primary-button-label =
   { -brand-short-name } をデフォルトのブラウザーにする
 mr1-onboarding-set-default-secondary-button-label = 今はしない
-mr1-onboarding-sign-in-button-label = サインイン
+mr1-onboarding-sign-in-button-label = ログイン
 
 ## Title, subtitle and primary button string used on set default onboarding screen
 ## when Firefox is not default browser

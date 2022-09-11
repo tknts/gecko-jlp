@@ -16,18 +16,17 @@ abuse-report-subtitle = どんな問題が発生しましたか?
 
 # Variables:
 #   $author-name (string) - Name of the add-on author
-abuse-report-addon-authored-by = by <a data-l10n-name="author-name">{ $author-name }</a>
+abuse-report-addon-authored-by = 作者: <a data-l10n-name="author-name">{ $author-name }</a>
 
 abuse-report-learnmore =
-  Unsure what issue to select?
-  <a data-l10n-name="learnmore-link">Learn more about reporting extensions and themes</a>
-
+  どの問題を選択すればよいかわからない場合は 
+  <a data-l10n-name="learnmore-link">拡張機能やテーマの報告について</a> をご覧ください。
 abuse-report-submit-description = 問題の説明 (任意)
 abuse-report-textarea =
-  .placeholder = 詳細が解かれば、問題に対処するのは簡単です。 あなたが経験していることを説明してください。 ウェブの健全性を維持するためにご協力いただきありがとうございます。
+  .placeholder = 詳細が解かれば、問題に対処するのは簡単です。 あなたが経験していることを説明してください。ウェブの健全性を維持するためにご協力いただきありがとうございます。
 abuse-report-submit-note =
-  注意: 個人情報 (名前、メールアドレス、電話番号、住所など) は含めないでください。
-  { -vendor-short-name }は、これらのレポートの永続的な記録を保持します。
+  注意: 個人情報 (氏名、メールアドレス、電話番号、住所など) は含めないでください。
+  { -vendor-short-name } は、これらの報告を永久に保管します。
 
 ## Panel buttons.
 
@@ -41,15 +40,15 @@ abuse-report-submit-button = 送信
 ## Variables:
 ##   $addon-name (string) - Name of the add-on
 
-abuse-report-messagebar-aborted = <span data-l10n-name="addon-name">{ $addon-name }</span> のレポートはキャンセルされました。
-abuse-report-messagebar-submitting = <span data-l10n-name="addon-name">{ $addon-name }</span> のレポートを送信しています。
-abuse-report-messagebar-submitted = レポートを提出していただきありがとうございます。<span data-l10n-name="addon-name">{ $addon-name }</span> を削除しますか?
-abuse-report-messagebar-submitted-noremove = レポートを提出していただきありがとうございます。
-abuse-report-messagebar-removed-extension = レポートを提出していただきありがとうございます。拡張機能 (<span data-l10n-name="addon-name">{ $addon-name }</span>) を削除しました。
-abuse-report-messagebar-removed-sitepermission = レポートを提出していただきありがとうございます。サイト権限アドオン (<span data-l10n-name="addon-name">{ $addon-name }</span>) を削除しました。
-abuse-report-messagebar-removed-theme = レポートを提出していただきありがとうございます。テーマ (<span data-l10n-name="addon-name">{ $addon-name }</span>) を削除しました。
-abuse-report-messagebar-error = <span data-l10n-name="addon-name">{ $addon-name }</span> のレポートの送信中にエラーが発生しました。
-abuse-report-messagebar-error-recent-submit = <span data-l10n-name="addon-name">{ $addon-name }</span> のレポートは、最近別のレポートが送信されたため送信されませんでした。
+abuse-report-messagebar-aborted = <span data-l10n-name="addon-name">{ $addon-name }</span> の報告はキャンセルされました。
+abuse-report-messagebar-submitting = <span data-l10n-name="addon-name">{ $addon-name }</span> の報告を送信しています。
+abuse-report-messagebar-submitted = 報告を提出していただきありがとうございます。<span data-l10n-name="addon-name">{ $addon-name }</span> を削除しますか?
+abuse-report-messagebar-submitted-noremove = 報告を提出していただきありがとうございます。
+abuse-report-messagebar-removed-extension = 報告を提出していただきありがとうございます。拡張機能 (<span data-l10n-name="addon-name">{ $addon-name }</span>) を削除しました。
+abuse-report-messagebar-removed-sitepermission = 報告を提出していただきありがとうございます。サイト権限アドオン (<span data-l10n-name="addon-name">{ $addon-name }</span>) を削除しました。
+abuse-report-messagebar-removed-theme = 報告を提出していただきありがとうございます。テーマ (<span data-l10n-name="addon-name">{ $addon-name }</span>) を削除しました。
+abuse-report-messagebar-error = <span data-l10n-name="addon-name">{ $addon-name }</span> の報告の送信中にエラーが発生しました。
+abuse-report-messagebar-error-recent-submit = <span data-l10n-name="addon-name">{ $addon-name }</span> の報告は、最近別のレポートが送信されたため送信されませんでした。
 
 ## Message bars actions.
 
@@ -64,25 +63,25 @@ abuse-report-messagebar-action-cancel = キャンセル
 
 ## Abuse report reasons (optionally paired with related examples and/or suggestions)
 
-abuse-report-damage-reason-v2 = コンピュータが破損した、またはデータが侵害された
-abuse-report-damage-example = 例: マルウェアをインストールされた。またはデータを盗まれた。
+abuse-report-damage-reason-v2 = コンピューターが不安定になったり、データを漏洩させた
+abuse-report-damage-example = 例: マルウェアをインストールされたり個人情報を漏洩された
 
-abuse-report-spam-reason-v2 = スパムが含まれている、または不要な広告が挿入されている
-abuse-report-spam-example = Example: Insert ads on webpages
+abuse-report-spam-reason-v2 = スパムが含まれている、または不要な広告が挿入される
+abuse-report-spam-example = 例: ウェブページに広告を挿入する
 
-abuse-report-settings-reason-v2 = 確認なく検索エンジン、ホームページ、または新しいタブが変更された
-abuse-report-settings-suggestions = 拡張機能を報告する前に、設定を変更してみてください:
-abuse-report-settings-suggestions-search = 既定の検索エンジンを変更する
-abuse-report-settings-suggestions-homepage = ホームページと新しいタブを変更する
+abuse-report-settings-reason-v2 = 確認せずに検索エンジンやホームページ、または新しいタブの設定が変更された
+abuse-report-settings-suggestions = 拡張機能を報告する前に設定を変更してみてください:
+abuse-report-settings-suggestions-search = 既定の検索エンジンの設定を変更する
+abuse-report-settings-suggestions-homepage = ホームページと新しいタブの設定を変更する
 
-abuse-report-deceptive-reason-v2 = It claims to be something it’s not
-abuse-report-deceptive-example = 例: 誤解を招く説明または画像
+abuse-report-deceptive-reason-v2 = 説明とは違うものだった
+abuse-report-deceptive-example = 例: 実際の動作とは違う説明や画像を使用している
 
-abuse-report-broken-reason-extension-v2 = 動作しない。ウェブサイトが壊れる。または { -brand-product-name } の速度が低下する。
-abuse-report-broken-reason-sitepermission-v2 = 動作しない。ウェブサイトが壊れる。または { -brand-product-name } の速度が低下する。
+abuse-report-broken-reason-extension-v2 = 動作しない。ウェブサイトが壊れる。または { -brand-product-name } の動作が遅くなる。
+abuse-report-broken-reason-sitepermission-v2 = 動作しない。ウェブサイトが壊れる。または { -brand-product-name } の動作が遅くなる。
 abuse-report-broken-reason-theme-v2 = 動作しない。またはブラウザーの表示が壊れる。
 abuse-report-broken-example =
-  Example: Features are slow, hard to use, or don’t work; parts of websites won’t load or look unusual
+  例: 機能の動作が遅い、使いにくい、または機能しない。 ウェブサイトの一部が読み込まれない、または表示がおかしくなる
 abuse-report-broken-suggestions-extension =
   It sounds like you’ve identified a bug. In addition to submitting a report here, the best way
   to get a functionality issue resolved is to contact the extension developer.
