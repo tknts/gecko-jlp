@@ -10,16 +10,16 @@
 
 onboarding-welcome-header = { -brand-short-name } にようこそ
 onboarding-start-browsing-button-label = ブラウジングを開始
-onboarding-not-now-button-label = 今は見ない
+onboarding-not-now-button-label = 後で
 
 ## Custom Return To AMO onboarding strings
 
-return-to-amo-subtitle = Great, you’ve got { -brand-short-name }
+return-to-amo-subtitle = { -brand-short-name } をインストールしました
 # <img data-l10n-name="icon"/> will be replaced with the icon belonging to the extension
 #
 # Variables:
 #   $addon-name (String) - Name of the add-on
-return-to-amo-addon-title = Now let’s get you <img data-l10n-name="icon"/> <b>{ $addon-name }</b>.
+return-to-amo-addon-title = <img data-l10n-name="icon"/> <b>{ $addon-name }</b> をインストールしてみましょう。
 return-to-amo-add-extension-label = 拡張機能を追加
 return-to-amo-add-theme-label = テーマを追加
 
@@ -31,7 +31,7 @@ return-to-amo-add-theme-label = テーマを追加
 #   $total (Int) - Total number of pages
 
 onboarding-welcome-steps-indicator2 =
-  .aria-valuetext = Progress: step { $current } of { $total }
+  .aria-valuetext = 進行状況: ステップ { $current } / { $total }
 
 # "Hero Text" displayed on left side of welcome screen.
 # The "Fire" in "Fire starts here" plays on the "Fire" in "Firefox".
@@ -48,7 +48,7 @@ mr1-welcome-screen-hero-text =
 # of the person and shouldn't be translated.
 # In case your language needs to adapt the nouns to a gender, Soraya is a female name (she/her).
 # You can see the picture in about:welcome in Nightly 90.
-mr1-onboarding-welcome-image-caption = Soraya Osorio — Furniture designer, Firefox fan
+mr1-onboarding-welcome-image-caption = Soraya Osorio — 家具デザイナー、Firefox ファン
 
 # This button will open system settings to turn on prefers-reduced-motion
 mr1-onboarding-reduce-motion-button-label = アニメーションをオフにする
@@ -59,12 +59,12 @@ mr1-onboarding-reduce-motion-button-label = アニメーションをオフにす
 
 # Title used on welcome page when Firefox is not pinned
 mr1-onboarding-pin-header = { PLATFORM() ->
-    [macos] Keep { -brand-short-name } in your Dock for easy access
+    [macos] Dock に { -brand-short-name }を追加すると簡単にアクセスできます。
    *[other] タスクバーに { -brand-short-name } をピン留めすると簡単にアクセスできます。
 }
 # Primary button string used on welcome page when Firefox is not pinned.
 mr1-onboarding-pin-primary-button-label = { PLATFORM() ->
-    [macos] Keep in Dock
+    [macos] Dock に追加する
    *[other] タスクバーにピン留めする
 }
 
@@ -83,7 +83,7 @@ mr1-onboarding-set-default-pin-primary-button-label =
 # when Firefox is not default but already pinned
 mr1-onboarding-set-default-only-primary-button-label =
   { -brand-short-name } をデフォルトのブラウザーにする
-mr1-onboarding-set-default-secondary-button-label = 今はしない
+mr1-onboarding-set-default-secondary-button-label = 後で
 mr1-onboarding-sign-in-button-label = ログイン
 
 ## Title, subtitle and primary button string used on set default onboarding screen
@@ -108,9 +108,9 @@ mr1-onboarding-import-primary-button-label-attribution = { $previous } からイ
 mr1-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーからインポート
 mr1-onboarding-import-secondary-button-label = 今はしない
 
-mr2-onboarding-colorway-header = Life in color
+mr2-onboarding-colorway-header = カラーテーマ
 mr2-onboarding-colorway-subtitle = Vibrant new colorways. Available for a limited time.
-mr2-onboarding-colorway-primary-button-label = Save colorway
+mr2-onboarding-colorway-primary-button-label = カラーテーマを保存
 mr2-onboarding-colorway-secondary-button-label = 今はしない
 mr2-onboarding-colorway-label-soft = Soft
 mr2-onboarding-colorway-label-balanced = Balanced

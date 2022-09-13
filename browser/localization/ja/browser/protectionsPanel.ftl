@@ -46,9 +46,9 @@ protections-panel-no-trackers-found = このページでは { -brand-short-name 
 
 protections-panel-content-blocking-tracking-protection = トラッキングコンテンツ
 
-protections-panel-content-blocking-socialblock = ソーシャルメディアトラッカー
-protections-panel-content-blocking-cryptominers-label = 暗号通貨採掘
-protections-panel-content-blocking-fingerprinters-label = デジタル指紋
+protections-panel-content-blocking-socialblock = ソーシャルメディア トラッカー
+protections-panel-content-blocking-cryptominers-label = クリプトマイナー (暗号通貨採掘)
+protections-panel-content-blocking-fingerprinters-label = フィンガープリント (デジタル指紋採取)
 
 ## In the protections panel, Content Blocking category items are in three sections:
 ##   "Blocked" for categories being blocked in the current page,
@@ -63,7 +63,7 @@ protections-panel-not-found-label = 検出されませんでした
 ##
 
 protections-panel-settings-label = 保護設定
-protections-panel-protectionsdashboard-label = プロテクションダッシュボード
+protections-panel-protectionsdashboard-label = プロテクション ダッシュボード
 
 ## In the Site Not Working? view, we suggest turning off protections if
 ## the user is experiencing issues with any of a variety of functionality.

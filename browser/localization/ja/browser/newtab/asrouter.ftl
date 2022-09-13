@@ -35,13 +35,13 @@ cfr-doorhanger-extension-author = 作成者: { $name }
 # When clicked it opens a panel with a message for the user.
 cfr-doorhanger-extension-notification = おすすめ
 cfr-doorhanger-extension-notification2 = おすすめ
-  .tooltiptext = おすすめ拡張機能
+  .tooltiptext = おすすめ拡張機能です
   .a11y-announcement = おすすめの拡張機能があります
 
 # This is a notification displayed in the address bar.
 # When clicked it opens a panel with a message for the user.
 cfr-doorhanger-feature-notification = おすすめ
-  .tooltiptext = おすすめの機能
+  .tooltiptext = おすすめの機能です
   .a11y-announcement = おすすめの機能があります
 
 ## Add-on statistics
@@ -53,7 +53,7 @@ cfr-doorhanger-feature-notification = おすすめ
 cfr-doorhanger-extension-rating =
   .tooltiptext =
     { $total ->
-        [one] { $total } つ星
+        [one] ひとつ星
        *[other] { $total } つ星
     }
 # Variables:
@@ -67,7 +67,7 @@ cfr-doorhanger-extension-total-users =
 ## Firefox Accounts Message
 
 cfr-doorhanger-bookmark-fxa-header = どこからでもブックマークを同期します。
-cfr-doorhanger-bookmark-fxa-body = 素晴らしい発見をしました! このブックマークを携帯端末に残さないで { -fxaccount-brand-name } で同期しましょう。
+cfr-doorhanger-bookmark-fxa-body = 素晴らしい発見をしました! このブックマークを、このデバイスにだけ残さないで { -fxaccount-brand-name } で同期しましょう。
 cfr-doorhanger-bookmark-fxa-link-text = ブックマークを今すぐ同期…
 cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
   .aria-label = 閉じるボタン
@@ -156,7 +156,7 @@ spotlight-public-wifi-vpn-link = 後で
 cfr-total-cookie-protection-header = あなたのおかげで { -brand-short-name } はこれまで以上にプライバシーに配慮した安全なものになりました。
 # "Early access" for this feature rollout means it's a "feature preview" or
 # "soft launch". Only those who received it and accepted are shown this message.
-cfr-total-cookie-protection-body = Total Cookie Protection は、これまでで最も強力なプライバシー保護機能です。現在では世界中の { -brand-short-name } ユーザーのデフォルト設定となっています。これは、あなたのような早期アクセスユーザーの参加が無ければ実現できませんでした。よりプライバシーに配慮した、より良いインターネットを実現するための、ご協力にありがとうございました。
+cfr-total-cookie-protection-body = 包括的 Cookie 保護は、これまでで最も強力なプライバシー保護機能です。現在では世界中の { -brand-short-name } ユーザーのデフォルト設定となっています。これは、あなたのような早期アクセスユーザーの参加が無ければ実現できませんでした。よりプライバシーに配慮した、より良いインターネットを実現するための、ご協力にありがとうございました。
 
 ## Emotive Continuous Onboarding
 
@@ -168,4 +168,4 @@ spotlight-pin-primary-button = { PLATFORM() ->
     [macos] Dock に追加する
    *[other] タスクバーにピン留めする
 }
-spotlight-pin-secondary-button = 今はしない
+spotlight-pin-secondary-button = 後で

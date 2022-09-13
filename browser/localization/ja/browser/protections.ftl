@@ -21,18 +21,18 @@ graph-total-tracker-summary =
   }
 
 # Text displayed instead of the graph when in Private Mode
-graph-private-window = { -brand-short-name } continues to  block trackers in Private Windows, but does not keep a record of what was blocked.
+graph-private-window = { -brand-short-name } はプライベート ウィンドウでもトラッカーをブロックしますが、何がブロックされたかは記録しません。
 # Weekly summary of the graph when the graph is empty in Private Mode
-graph-week-summary-private-window = Trackers { -brand-short-name } blocked this week
+graph-week-summary-private-window = { -brand-short-name } が今週ブロックしたトラッカー
 
-protection-report-webpage-title = プロテクションダッシュボード
-protection-report-page-content-title = プロテクションダッシュボード
+protection-report-webpage-title = プロテクション ダッシュボード
+protection-report-page-content-title = プロテクション ダッシュボード
 # This message shows when all privacy protections are turned off, which is why we use the word "can", Firefox is able to protect your privacy, but it is currently not.
 protection-report-page-summary = { -brand-short-name } can protect your privacy behind the scenes while you browse. This is a personalized summary of those protections, including tools to take control of your online security.
 # This message shows when at least some protections are turned on, we are more assertive compared to the message above, Firefox is actively protecting you.
 protection-report-page-summary-default = { -brand-short-name } protects your privacy behind the scenes while you browse. This is a personalized summary of those protections, including tools to take control of your online security.
 
-protection-report-settings-link = プライバシーとセキュリティーの設定を管理します
+protection-report-settings-link = プライバシーとセキュリティの設定を管理します
 
 etp-card-title-always = 強化型追跡防止機能: 常にオン
 etp-card-title-custom-not-blocking = 強化型追跡防止機能: オフ
@@ -99,12 +99,12 @@ lockwise-scanned-text-no-breached-logins =
   }
 lockwise-how-it-works-link = 仕組みについて
 
-monitor-title = データ流出に注意を
+monitor-title = データの漏洩に注意を
 monitor-link = 仕組みについて
 monitor-header-content-no-account = { -monitor-brand-name } で既知のデータ漏洩にあなたが含まれるか確認できます。新たな漏洩があったときも警告してくれます。
 monitor-header-content-signed-in = { -monitor-brand-name } は既知のデータ漏洩にあなたの情報を発見したときに警告します。
-monitor-sign-up-link = Sign Up for Breach Alerts
-  .title = Sign up for breach alerts on { -monitor-brand-name }
+monitor-sign-up-link = サインアップして漏洩の警告を受け取る
+  .title = サインアップして { -monitor-brand-name } から漏洩の警告を受け取ります
 auto-scan = 本日、自動的にスキャンしました
 
 monitor-emails-tooltip =
@@ -159,9 +159,9 @@ info-exposed-passwords-resolved =
     *[other] 未解決の脆弱性で漏洩したパスワードが複数あります
   }
 
-monitor-no-breaches-title = Good news!
+monitor-no-breaches-title = おしらせ!
 monitor-no-breaches-description = You have no known breaches. If that changes, we will let you know.
-monitor-view-report-link = View Report
+monitor-view-report-link = レポートを表示
   .title = Resolve breaches on { -monitor-brand-short-name }
 monitor-breaches-unresolved-title = Resolve your breaches
 monitor-breaches-unresolved-description = After reviewing breach details and taking steps to protect your info, you can mark breaches as resolved.
@@ -218,16 +218,16 @@ bar-tooltip-tracker =
       *[other] { $count } 個のトラッキング コンテンツ ({ $percentage }%)
     }
 bar-tooltip-fingerprinter =
-  .title = フィンガープリント採取
+  .title = フィンガープリント (デジタル指紋採取)
   .aria-label =
     { $count ->
-       [one] { $count } 個のフィンガープリント採取 ({ $percentage }%)
-      *[other] { $count } 個のフィンガープリント採取 ({ $percentage }%)
+       [one] { $count } 個のフィンガープリント ({ $percentage }%)
+      *[other] { $count } 個のフィンガープリント ({ $percentage }%)
     }
 bar-tooltip-cryptominer =
-  .title = 暗号通貨マイニング
+  .title = クリプトマイナー (暗号通貨採掘)
   .aria-label =
     { $count ->
-       [one] { $count } 個の暗号通貨マイニング ({ $percentage }%)
-      *[other] { $count } 個の暗号通貨マイニング ({ $percentage }%)
+       [one] { $count } 個のクリプトマイナー ({ $percentage }%)
+      *[other] { $count } 個のクリプトマイナー ({ $percentage }%)
     }

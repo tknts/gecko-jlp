@@ -23,31 +23,29 @@ firefoxview-just-now-timestamp = たった今
 firefoxview-tabpickup-header = タブのピックアップ
 firefoxview-tabpickup-description = その他のデバイスで開かれたページ
 
-firefoxview-tabpickup-recenttabs-description = 最近のタブの一覧はここにあります
-
 # Variables:
 #  $percentValue (Number): the percentage value for setup completion
-firefoxview-tabpickup-progress-label = { $percentValue }% complete
+firefoxview-tabpickup-progress-label = { $percentValue }% 完了
 
 firefoxview-tabpickup-step-signin-header = デバイス間でシームレスな切り替えが出来ます
-firefoxview-tabpickup-step-signin-description = To grab your phone tabs here, first sign in or create an account.
-firefoxview-tabpickup-step-signin-primarybutton = Continue
+firefoxview-tabpickup-step-signin-description = スマートフォンのタブを取得するには、ログインするかアカウントを作成してください。
+firefoxview-tabpickup-step-signin-primarybutton = 続行
 
-firefoxview-tabpickup-adddevice-header = スマートフォンやタブレットで { -brand-product-name } を同期する。
-firefoxview-tabpickup-adddevice-description = モバイル版の { -brand-product-name } をダウンロードして、そこでサインインします。
-firefoxview-tabpickup-adddevice-learn-how = Learn how
-firefoxview-tabpickup-adddevice-primarybutton = Get { -brand-product-name } for mobile
+firefoxview-tabpickup-adddevice-header = スマートフォンやタブレットで { -brand-product-name } と同期する。
+firefoxview-tabpickup-adddevice-description = モバイル版の { -brand-product-name } をダウンロードしてログインしてください。
+firefoxview-tabpickup-adddevice-learn-how = 仕組みについて
+firefoxview-tabpickup-adddevice-primarybutton = モバイル版 { -brand-product-name } を入手
 
-firefoxview-tabpickup-synctabs-header = タブの同期をオンにする
-firefoxview-tabpickup-synctabs-description = Allow { -brand-short-name } to share tabs between devices.
-firefoxview-tabpickup-synctabs-learn-how = Learn how
+firefoxview-tabpickup-synctabs-header = タブの同期を有効にする
+firefoxview-tabpickup-synctabs-description = { -brand-short-name } がデバイス間でタブを共有できるよう許可してください。
+firefoxview-tabpickup-synctabs-learn-how = 仕組みについて
 firefoxview-tabpickup-synctabs-primarybutton = 開いたタブを同期
 
 firefoxview-tabpickup-fxa-admin-disabled-header = 管理者によって同期が無効に設定されています
 firefoxview-tabpickup-fxa-admin-disabled-description = 管理者が同期を無効にしているため { -brand-short-name } はタブをデバイス間で同期することができません。
 
 firefoxview-tabpickup-network-offline-header = インターネット接続を確認してください
-firefoxview-tabpickup-network-offline-description = If you’re using a firewall or proxy, check that { -brand-short-name } has permission to access the web.
+firefoxview-tabpickup-network-offline-description = ファイアウォールやプロキシを利用している場合は { -brand-short-name } にウェブへのアクセスが許可されていることを確認してください。
 firefoxview-tabpickup-network-offline-primarybutton = もう一度
 
 firefoxview-tabpickup-sync-error-header = 同期に問題があります
@@ -62,14 +60,14 @@ firefoxview-tabpickup-syncing = タブが同期している間、座って待っ
 
 firefoxview-mobile-promo-header = スマートフォンやタブレットからタブを取得する
 firefoxview-mobile-promo-description = 最新のモバイルタブを表示するには iOS または Android で { -brand-product-name } にサインインしてください。
-firefoxview-mobile-promo-primarybutton = { -brand-product-name } for モバイルを入手する
+firefoxview-mobile-promo-primarybutton = モバイル版の { -brand-product-name } を入手する
 
-firefoxview-mobile-confirmation-header = 🎉 Good to go!
-firefoxview-mobile-confirmation-description = Now you can grab your { -brand-product-name } tabs from your tablet or phone.
+firefoxview-mobile-confirmation-header = 🎉 準備が完了しました!
+firefoxview-mobile-confirmation-description = スマートフォンやタブレットから { -brand-product-name } のタブを取得でるようになりました。
 
 firefoxview-closed-tabs-title = 最近閉じたタブ
 
-firefoxview-closed-tabs-description = このデバイスで閉じたページを再度開きます。
+firefoxview-closed-tabs-description-2 = このウィンドウで閉じたページを再度開きます。
 firefoxview-closed-tabs-placeholder = <strong>最近閉じたページはありません</strong><br/>閉じたタブをなくす心配はもうありません。 いつでもここから取得できます。
 
 # refers to the last tab that was used
@@ -78,7 +76,7 @@ firefoxview-pickup-tabs-badge = 最終ログイン時
 # Variables:
 #   $targetURI (string) - URL that will be opened in the new tab
 firefoxview-tabs-list-tab-button =
-  .title = Open { $targetURI } in a new tab
+  .title = { $targetURI } を新しいタブで開く
 
 firefoxview-try-colorways-button = カラーリングを試す
 firefoxview-no-current-colorway-collection = 新しいカラーリングが登場
@@ -89,7 +87,7 @@ firefoxview-change-colorway-button = カラーリングを変える
 #  $collection (String): Colorway Collection name
 firefoxview-colorway-description = { $intensity } · { $collection }
 
-firefoxview-synced-tabs-placeholder = <strong>Nothing to see yet</strong><br/>The next time you open a page in { -brand-product-name } on another device, grab it here like magic.
+firefoxview-synced-tabs-placeholder = <strong>まだ表示できるものがありません</strong><br/>他のデバイスで { -brand-product-name } のページを開くと、ここから魔法のように取り出せます。
 
 firefoxview-collapse-button-show =
   .title = リストを表示
