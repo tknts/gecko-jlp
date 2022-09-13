@@ -1198,8 +1198,8 @@ content-blocking-all-cookies = すべての Cookie
 content-blocking-unvisited-cookies = 未訪問のサイトからの Cookie
 content-blocking-all-windows-tracking-content = すべてのウィンドウでのトラッキングコンテンツ
 content-blocking-all-third-party-cookies = すべてのサードパーティの Cookie
-content-blocking-cryptominers = 仮想通貨採掘
-content-blocking-fingerprinters = デジタル指紋
+content-blocking-cryptominers = クリプトマイナー (暗号通貨採掘)
+content-blocking-fingerprinters = フィンガープリント (デジタル指紋採取)
 
 # "Test pilot" is used as a verb. Possible alternatives:
 # "Be the first to try", "Join an early experiment".

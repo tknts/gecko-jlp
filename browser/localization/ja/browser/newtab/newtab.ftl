@@ -53,7 +53,7 @@ newtab-topsites-title-input =
 newtab-topsites-url-label = URL
 newtab-topsites-url-input =
     .placeholder = URL を入力するか貼り付けてください
-newtab-topsites-url-validation = Valid URL required
+newtab-topsites-url-validation = 正しい URL を入力してください
 
 newtab-topsites-image-url-label = カスタム画像 URL
 newtab-topsites-use-image-link = カスタム画像を使用…
@@ -81,8 +81,8 @@ newtab-topsite-sponsored = スポンサー
 
 # General tooltip for context menus.
 newtab-menu-section-tooltip =
-    .title = メニューを開く
-    .aria-label = メニューを開く
+    .title = メニューを開きます
+    .aria-label = メニューを開きます
 
 # Tooltip for dismiss button
 newtab-dismiss-button-tooltip =
@@ -120,7 +120,8 @@ newtab-privacy-modal-button-done = 完了
 newtab-privacy-modal-button-manage = スポンサー付きコンテンツ設定の管理
 newtab-privacy-modal-header = あなたのプライバシーは重要です。
 newtab-privacy-modal-paragraph-2 =
-    In addition to dishing up captivating stories, we also show you relevant,
+    あなたの心をつかむ記事に加えて、選ばれたスポンサーからの関連性の高い厳選されたコンテンツを紹介します。
+    でも安心してください。<strong>あなたのブラウジングデータに { -brand-product-name } の個人情報のコピーが残ることはありません。</strong> — 私たちもスポンサーもその情報を見ることはできせん。
     highly-vetted content from select sponsors. Rest assured, <strong>your browsing
     data never leaves your personal copy of { -brand-product-name }</strong> — we don’t see it, and our
     sponsors don’t either.
@@ -136,7 +137,7 @@ newtab-menu-bookmark = ブックマーク
 ## Context Menu - Downloaded Menu. "Download" in these cases is not a verb,
 ## it is a noun. As in, "Copy the link that belongs to this downloaded item".
 
-newtab-menu-copy-download-link = ダウンロード元のリンクをコピー
+newtab-menu-copy-download-link = ダウンロード元の URL をコピー
 newtab-menu-go-to-download-page = ダウンロード元のページを開く
 newtab-menu-remove-download = 履歴から削除
 
@@ -190,7 +191,7 @@ newtab-section-menu-add-topsite = トップサイトを追加
 newtab-section-menu-add-search-engine = 検索エンジンを追加
 newtab-section-menu-move-up = 上へ移動
 newtab-section-menu-move-down = 下へ移動
-newtab-section-menu-privacy-notice = プライバシー告知
+newtab-section-menu-privacy-notice = プライバシー通知
 
 ## Section aria-labels
 
@@ -209,21 +210,21 @@ newtab-section-header-pocket = { $provider } によるおすすめ
 
 ## Empty Section States: These show when there are no more items in a section. Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 
-newtab-empty-section-highlights = Start browsing, and we’ll show some of the great articles, videos, and other pages you’ve recently visited or bookmarked here.
+newtab-empty-section-highlights = ブラウジングを開始すると、最近アクセスしたりブックマークしたりした、すばらしい記事、ビデオ、その他のページが表示されます。
 
 # Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 # Variables:
 #  $provider (String): Name of the content provider for this section, e.g "Pocket".
-newtab-empty-section-topstories = You’ve caught up. Check back later for more top stories from { $provider }. Can’t wait? Select a popular topic to find more great stories from around the web.
+newtab-empty-section-topstories = すべて既読です。{ $provider } からのおすすめ記事については、後でもう一度確認してください。待ちきれませんか？。人気のあるトピックを選択して、ウェブ上からさらに素晴らしい記事を見つけてください。
 
 ## Empty Section (Content Discovery Experience). These show when there are no more stories or when some stories fail to load.
 
-newtab-discovery-empty-section-topstories-header = You are caught up!
+newtab-discovery-empty-section-topstories-header = すべて既読です!
 newtab-discovery-empty-section-topstories-content = その他の記事については、後でもう一度確認してください。
 newtab-discovery-empty-section-topstories-try-again-button = もう一度
 newtab-discovery-empty-section-topstories-loading = 読み込み中…
 # Displays when a layout in a section took too long to fetch articles.
-newtab-discovery-empty-section-topstories-timed-out = Oops! We almost loaded this section, but not quite.
+newtab-discovery-empty-section-topstories-timed-out = しまった! このセクションをほぼ読み込みましたが、完全ではありませんでした。
 
 ## Pocket Content Section.
 

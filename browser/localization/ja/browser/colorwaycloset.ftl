@@ -4,7 +4,7 @@
 
 # Variables:
 #   $expiryDate (string) - date on which the colorway collection expires. When formatting this, you may omit the year, only exposing the month and day, as colorway collections will always expire within a year.
-colorway-collection-expiry-label = 利用期限 { DATETIME($expiryDate, month: "long", day: "numeric") }
+colorway-collection-expiry-label = 利用期限 { DATETIME($expiryDate, month: "long", day: "numeric") } まで
 
 colorway-intensity-selector-label = 強度
 colorway-intensity-soft = 穏やかに
@@ -14,7 +14,7 @@ colorway-intensity-balanced = バランスをとる
 colorway-intensity-bold = 大胆に
 
 # Label for the button to keep using the selected colorway in the browser
-colorway-closet-set-colorway-button = Colorway をセット
+colorway-closet-set-colorway-button = カラーテーマをセット
 colorway-closet-cancel-button = キャンセル
 
 colorway-homepage-reset-prompt = Make { -firefox-home-brand-name } your colorful homepage

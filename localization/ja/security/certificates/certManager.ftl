@@ -126,7 +126,7 @@ exception-mgr-cert-status-view-cert =
     .accesskey = V
 
 exception-mgr-permanent =
-    .label = Permanently store this exception
+    .label = 次回以降にもこの例外を有効にする
     .accesskey = P
 
 pk11-bad-password = 入力されたパスワードは正しくありません。
@@ -139,15 +139,15 @@ pkcs12-dup-data = 証明書と秘密鍵はセキュリティ デバイスにす�
 
 ## PKCS#12 file dialogs
 
-choose-p12-backup-file-dialog = バックアップファイル名
+choose-p12-backup-file-dialog = バックアップするファイルの名前
 file-browse-pkcs12-spec = PKCS12 ファイル
 choose-p12-restore-file-dialog = インポートする証明書ファイル
 
 ## Import certificate(s) file dialog
 
 file-browse-certificate-spec = 証明書ファイル
-import-ca-certs-prompt = Select File containing CA certificate(s) to import
-import-email-cert-prompt = Select File containing somebody’s Email certificate to import
+import-ca-certs-prompt = 認証局の証明書を含むファイルを選択してください
+import-email-cert-prompt = 電子メール証明書を含むファイルを選択してください
 
 ## For editing certificates trust
 
@@ -159,7 +159,7 @@ edit-trust-ca = “{ $certName }” は認証局の証明書です
 
 delete-user-cert-title =
     .title = あなたの証明書を削除
-delete-user-cert-confirm = Are you sure you want to delete these certificates?
+delete-user-cert-confirm = これらの証明書を削除してもよろしいですか?
 delete-user-cert-impact = If you delete one of your own certificates, you can no longer use it to identify yourself.
 
 
@@ -175,7 +175,7 @@ delete-ca-cert-impact = If you delete or distrust a certificate authority (CA) c
 
 
 delete-email-cert-title =
-    .title = メールの証明書を削除
+    .title = 電子メール証明書を削除
 delete-email-cert-confirm = Are you sure you want to delete these people’s e-mail certificates?
 delete-email-cert-impact = If you delete a person’s e-mail certificate, you will no longer be able to send encrypted e-mail to that person.
 
@@ -184,7 +184,7 @@ delete-email-cert-impact = If you delete a person’s e-mail certificate, you wi
 # Variables:
 #   $serialNumber : the serial number of the cert in AA:BB:CC hex format.
 cert-with-serial =
-    .value = シリアル番号付きの証明書: { $serialNumber }
+    .value = シリアル番号付き証明書: { $serialNumber }
 
 # Used to indicate that the user chose not to send a client authentication certificate to a server that requested one in a TLS handshake.
 send-no-client-certificate = 送信するクライアント証明書がありません。
@@ -220,9 +220,9 @@ add-exception-no-cert-long = Unable to obtain identification status for this sit
 ## Certificate export "Save as" and error dialogs
 
 save-cert-as = 証明書をファイルに保存
-cert-format-base64 = X.509 Certificate (PEM)
+cert-format-base64 = X.509 証明書 (PEM)
 cert-format-base64-chain = X.509 Certificate with chain (PEM)
 cert-format-der = X.509 Certificate (DER)
-cert-format-pkcs7 = X.509 Certificate (PKCS#7)
+cert-format-pkcs7 = X.509 証明書 (PKCS#7)
 cert-format-pkcs7-chain = X.509 Certificate with chain (PKCS#7)
 write-file-failure = ファイルエラー
