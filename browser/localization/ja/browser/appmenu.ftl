@@ -46,7 +46,7 @@ appmenuitem-help =
 appmenuitem-exit2 =
     .label =
         { PLATFORM() ->
-            [linux] Quit
+            [linux] 終了
            *[other] 終了
         }
 appmenu-menu-button-closed2 =
@@ -73,7 +73,7 @@ appmenuitem-fullscreen =
 ## Firefox Account toolbar button and Sync panel in App menu.
 
 appmenu-remote-tabs-sign-into-sync =
-  .label = 同期にサインイン…
+  .label = ログインして同期…
 appmenu-remote-tabs-turn-on-sync =
   .label = 同期を有効にする…
 
@@ -86,7 +86,7 @@ appmenu-remote-tabs-showmore =
 appmenu-remote-tabs-notabs = 開かれたタブがありません
 
 # This is shown when Sync is configured but syncing tabs is disabled.
-appmenu-remote-tabs-tabsnotsyncing = タブの同期機能をオンにして、他のデバイスのタブのリストを表示します。
+appmenu-remote-tabs-tabsnotsyncing = タブの同期機能を有効にして、他のデバイスのタブの一覧を表示します。
 
 appmenu-remote-tabs-opensettings =
   .label = 設定
@@ -96,12 +96,12 @@ appmenu-remote-tabs-opensettings =
 appmenu-remote-tabs-noclients = このデバイスで他のデバイスのタブを見たいですか?
 
 appmenu-remote-tabs-connectdevice =
-  .label = その他のデバイスに接続
+  .label = その他のデバイスを接続
 appmenu-remote-tabs-welcome = 他のデバイスのタブを一覧表示します。
 appmenu-remote-tabs-unverified = アカウントを確認する必要があります。
 
 appmenuitem-fxa-toolbar-sync-now2 = 今すぐ同期
-appmenuitem-fxa-sign-in = { -brand-product-name } にサインイン
+appmenuitem-fxa-sign-in = { -brand-product-name } にログイン
 appmenuitem-fxa-manage-account = アカウントを管理
 appmenu-fxa-header2 = { -fxaccount-brand-name(capitalization: "sentence") }
 # Variables
@@ -112,7 +112,7 @@ appmenu-fxa-last-sync = 最終同期: { $time }
 appmenu-fxa-sync-and-save-data2 = データの保存と同期
 appmenu-fxa-signed-in-label = ログイン
 appmenu-fxa-setup-sync =
-    .label = 同期をオンにする…
+    .label = 同期を有効にする…
 
 appmenuitem-save-page =
     .label = 名前を付けて保存…
@@ -132,16 +132,16 @@ whatsnew-panel-footer-checkbox =
 ## "Enable Profiler Menu Button".
 
 profiler-popup-button-idle =
-  .label = プロファイラ
+  .label = プロファイラー
   .tooltiptext = パフォーマンスプロファイルを記録します
 
 profiler-popup-button-recording =
-  .label = プロファイラ
+  .label = プロファイラー
   .tooltiptext = プロファイラーがプロファイルを記録しています
 
 profiler-popup-button-capturing =
-  .label = プロファイラ
-  .tooltiptext = プロファイラーがプロファイルをキャプチャしています
+  .label = プロファイラー
+  .tooltiptext = プロファイラーがプロファイルをキャプチャーしています
 
 profiler-popup-title =
   .value = { -profiler-brand-name }
@@ -174,7 +174,7 @@ profiler-popup-discard-button =
   .label = 破棄
 
 profiler-popup-capture-button =
-  .label = キャプチャ
+  .label = キャプチャー
 
 profiler-popup-start-shortcut =
   { PLATFORM() ->
@@ -195,7 +195,7 @@ profiler-popup-capture-shortcut =
 # devtools/client/performance-new/popup/background.jsm.js
 # Please take care that the same values are also defined in devtools' perftools.ftl.
 
-profiler-popup-presets-web-developer-description = オーバーヘッドが少なく、ほとんどのウェブアプリのデバッグに推奨されるプリセットです。
+profiler-popup-presets-web-developer-description = 一般的なウェブアプリのデバッグに推奨される低負荷なプリセットです。
 profiler-popup-presets-web-developer-label =
   .label = ウェブ開発
 
@@ -215,7 +215,7 @@ profiler-popup-presets-networking-description = { -brand-shorter-name } のネ�
 profiler-popup-presets-networking-label =
   .label = ネットワーク
 
-profiler-popup-presets-power-description = { -brand-shorter-name } の電力使用バグを調査するためのプリセットで、オーバーヘッドが低くなっています。
+profiler-popup-presets-power-description = { -brand-shorter-name } の電力使用バグを調査するための低負荷なプリセットです。
 # "Power" is used in the sense of energy (electricity used by the computer).
 profiler-popup-presets-power-label =
   .label = 電力消費
@@ -247,13 +247,13 @@ appmenu-about =
     .label = { -brand-shorter-name } について
     .accesskey = A
 appmenu-get-help =
-    .label = ヘルプを入手
+    .label = ヘルプを表示
     .accesskey = h
 appmenu-help-more-troubleshooting-info =
     .label = その他のトラブルシューティングに関する情報
     .accesskey = t
 appmenu-help-report-site-issue =
-    .label = 問題のあるサイトを報告…
+    .label = サイトの問題を報告…
 appmenu-help-share-ideas =
     .label = 意見とフィードバックを共有…
     .accesskey = S

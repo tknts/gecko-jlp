@@ -26,8 +26,8 @@ toolbox-meatball-menu-community-label = コミュニティ…
 # contributors.
 toolbox-meatball-menu-noautohide-label = ポップアップを自動的に隠さない
 
-toolbox-meatball-menu-pseudo-locale-accented = Enable “accented” locale
-toolbox-meatball-menu-pseudo-locale-bidi = Enable “bidi” locale
+toolbox-meatball-menu-pseudo-locale-accented = “accented” ロケールを有効化
+toolbox-meatball-menu-pseudo-locale-bidi = “bidi” ロケールを有効化
 
 ## These labels are shown in the top-toolbar in the Browser Toolbox and Browser Console
 
@@ -43,3 +43,8 @@ toolbox-mode-parent-process-label = 親プロセスのみ
 toolbox-mode-parent-process-sub-label = (速い)
 toolbox-mode-parent-process-container =
   .title = 親プロセスのリソースのみにフォーカスします。
+
+toolbox-always-on-top-enabled =
+  .title = 最前面での固定を解除する (開発者ツールが再起動します)
+toolbox-always-on-top-disabled =
+  .title = 最前面での固定する (開発者ツールが再起動します)

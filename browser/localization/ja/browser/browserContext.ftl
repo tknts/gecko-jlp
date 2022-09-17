@@ -19,7 +19,7 @@ main-context-menu-back-2 =
 
 # This menuitem is only visible on macOS
 main-context-menu-back-mac =
-    .label = Back
+    .label = 戻る
     .accesskey = B
 
 navbar-tooltip-back-2 =
@@ -39,7 +39,7 @@ main-context-menu-forward-2 =
 
 # This menuitem is only visible on macOS
 main-context-menu-forward-mac =
-    .label = Forward
+    .label = 進む
     .accesskey = F
 
 navbar-tooltip-forward-2 =
@@ -56,7 +56,7 @@ main-context-menu-reload =
 
 # This menuitem is only visible on macOS
 main-context-menu-reload-mac =
-    .label = Reload
+    .label = 更新
     .accesskey = R
 
 toolbar-button-reload =
@@ -70,7 +70,7 @@ main-context-menu-stop =
 
 # This menuitem is only visible on macOS
 main-context-menu-stop-mac =
-    .label = 停止
+    .label = 中止
     .accesskey = S
 
 toolbar-button-stop =
@@ -104,14 +104,14 @@ main-context-menu-bookmark-page =
 # Cannot be shown at the same time as main-context-menu-edit-bookmark-mac,
 # so should probably have the same access key if possible.
 main-context-menu-bookmark-page-mac =
-    .label = Bookmark Page…
+    .label = ページをブックマーク…
     .accesskey = m
 
 # This menuitem is only visible on macOS
 # Cannot be shown at the same time as main-context-menu-bookmark-page-mac,
 # so should probably have the same access key if possible.
 main-context-menu-edit-bookmark-mac =
-    .label = Edit Bookmark…
+    .label = ブックマークを編集…
     .accesskey = m
 
 # Variables
@@ -210,19 +210,19 @@ main-context-menu-media-play-speed-2 =
     .accesskey = d
 
 main-context-menu-media-play-speed-slow-2 =
-    .label = 0.5×
+    .label = 0.5 倍
 
 main-context-menu-media-play-speed-normal-2 =
-    .label = 1.0×
+    .label = 1.0 倍
 
 main-context-menu-media-play-speed-fast-2 =
-    .label = 1.25×
+    .label = 1.25 倍
 
 main-context-menu-media-play-speed-faster-2 =
-    .label = 1.5×
+    .label = 1.5 倍
 
 main-context-menu-media-play-speed-fastest-2 =
-    .label = 2×
+    .label = 2 倍
 
 main-context-menu-media-loop =
     .label = 繰り返す
@@ -340,7 +340,7 @@ main-context-menu-save-to-pocket =
     .accesskey = k
 
 main-context-menu-send-to-device =
-    .label = ページをデバイスに送る
+    .label = ページをデバイスへ送る
     .accesskey = n
 
 ## The access keys for "Use Saved Login" and "Use Saved Password"
@@ -358,7 +358,7 @@ main-context-menu-use-saved-password =
 ##
 
 main-context-menu-suggest-strong-password =
-    .label = 強力なパスワードの候補…
+    .label = 安全なパスワードを生成…
     .accesskey = S
 
 main-context-menu-manage-logins2 =
@@ -370,7 +370,7 @@ main-context-menu-keyword =
     .accesskey = K
 
 main-context-menu-link-send-to-device =
-    .label = リンクをデバイスに送る
+    .label = リンクをデバイスへ送る
     .accesskey = n
 
 main-context-menu-frame =
@@ -434,11 +434,11 @@ main-context-menu-view-page-source =
     .accesskey = V
 
 main-context-menu-bidi-switch-text =
-    .label = 文字の方向を切り替える
+    .label = 文字の進行方向を切り替える
     .accesskey = w
 
 main-context-menu-bidi-switch-page =
-    .label = ページの方向を切り替える
+    .label = ページの進行方向を切り替える
     .accesskey = D
 
 main-context-menu-inspect =

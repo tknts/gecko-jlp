@@ -6,6 +6,9 @@
 #   $expiryDate (string) - date on which the colorway collection expires. When formatting this, you may omit the year, only exposing the month and day, as colorway collections will always expire within a year.
 colorway-collection-expiry-label = 利用期限 { DATETIME($expiryDate, month: "long", day: "numeric") } まで
 
+# Document title, not shown in the UI but exposed through accessibility APIs
+colorways-modal-title = あなたのカラーテーマを選択
+
 colorway-intensity-selector-label = 強度
 colorway-intensity-soft = 穏やかに
 colorway-intensity-balanced = バランスをとる

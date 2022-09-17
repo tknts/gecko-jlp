@@ -9,206 +9,204 @@
 ## These are short descriptions for individual policies, to be displayed
 ## in the documentation section in about:policies.
 
-policy-3rdparty = WebExtensions が chrome.storage.managed を利用してアクセスできるポリシーを設定します。
+policy-3rdparty = WebExtension が chrome.storage.managed を利用してアクセスできるポリシーを設定します。
 
-policy-AllowedDomainsForApps = GoogleWorkspace へのアクセスを許可するドメインを定義します。
+policy-AllowedDomainsForApps = Google Workspace へのアクセスを許可するドメインを定義します。
 
 policy-AppAutoUpdate = アプリケーションの自動更新を有効または無効にします。
 
-policy-AppUpdatePin = { -brand-short-name } が指定されたバージョンを以上に更新されないようにします。
+policy-AppUpdatePin = { -brand-short-name } が指定されたバージョン以降に更新されないようにします。
 
-policy-AppUpdateURL = カスタムアプリの更新 URL を設定します。
+policy-AppUpdateURL = アプリケーションのカスタム更新URL を設定します。
 
-policy-Authentication = それをサポートするウェブサイトの統合認証を構成します。
+policy-Authentication = ウェブサイトが対応する統合認証を構成します。
 
 policy-AutoLaunchProtocolsFromOrigins = Define a list of external protocols that can be used from listed origins without prompting the user.
 
-policy-BackgroundAppUpdate2 = Enable or disable the background updater.
+policy-BackgroundAppUpdate2 = バックグラウンド更新を有効または無効にします。
 
-policy-BlockAboutAddons = Block access to the Add-ons Manager (about:addons).
+policy-BlockAboutAddons = アドオン マネージャー (about:addons) へのアクセスをブロックします。
 
-policy-BlockAboutConfig = Block access to the about:config page.
+policy-BlockAboutConfig = about:config ページへのアクセスをブロックします。
 
-policy-BlockAboutProfiles = Block access to the about:profiles page.
+policy-BlockAboutProfiles = about:profiles ページへのアクセスをブロックします。
 
-policy-BlockAboutSupport = Block access to the about:support page.
+policy-BlockAboutSupport = about:support ページへのアクセスをブロックします。
 
-policy-Bookmarks = Create bookmarks in the Bookmarks toolbar, Bookmarks menu, or a specified folder inside them.
+policy-Bookmarks = ブックマークツールバー、ブックマークメニュー、または指定のフォルダーの中にブックマークを作成します。
 
-policy-CaptivePortal = Enable or disable captive portal support.
+policy-CaptivePortal = キャプティブポータルのサポートを切り替えます。
 
-policy-CertificatesDescription = Add certificates or use built-in certificates.
+policy-CertificatesDescription =証明書を追加、または組み込みの証明書を利用します。
 
-policy-Cookies = Allow or deny websites to set cookies.
+policy-Cookies = ウェブサイトの Cookie の保存を切り替えます。
 
-policy-DisabledCiphers = Disable ciphers.
+policy-DisabledCiphers = 暗号を無効にします。
 
-policy-DefaultDownloadDirectory = Set the default download directory.
+policy-DefaultDownloadDirectory = デフォルトのダウンロード先を設定します。
 
-policy-DisableAppUpdate = Prevent the browser from updating.
+policy-DisableAppUpdate = ブラウザの更新を禁止します。
 
-policy-DisableBuiltinPDFViewer = Disable PDF.js, the built-in PDF viewer in { -brand-short-name }.
+policy-DisableBuiltinPDFViewer = { -brand-short-name } の組み込みの PDF ビューアーの PDF.js を無効にします。
 
-policy-DisableDefaultBrowserAgent = Prevent the default browser agent from taking any actions. Only applicable to Windows; other platforms don’t have the agent.
+policy-DisableDefaultBrowserAgent = Default Browser Agent がアクションを実行できないようにします。 Windows にのみ適用されます。 その他のプラットフォームにはエージェントがありません。
 
-policy-DisableDeveloperTools = Block access to the developer tools.
+policy-DisableDeveloperTools = 開発者ツールへのアクセスをブロックします。
 
-policy-DisableFeedbackCommands = Disable commands to send feedback from the Help menu (Submit Feedback and Report Deceptive Site).
+policy-DisableFeedbackCommands = [ヘルプ] メニューのフィードバックを送信 (フィードバックと不正なサイトの報告) を無効にします。
 
-policy-DisableFirefoxAccounts = Disable { -fxaccount-brand-name } based services, including Sync.
+policy-DisableFirefoxAccounts = 同期機能を含む { -fxaccount-brand-name } が必要なサービスを無効にします。
 
 # Firefox Screenshots is the name of the feature, and should not be translated.
-policy-DisableFirefoxScreenshots = Disable the Firefox Screenshots feature.
+policy-DisableFirefoxScreenshots = Firefox Screenshots 機能を無効にします。
 
 policy-DisableFirefoxStudies = Prevent { -brand-short-name } from running studies.
 
 policy-DisableForgetButton = Prevent access to the Forget button.
 
-policy-DisableFormHistory = Don’t remember search and form history.
+policy-DisableFormHistory = 検索とフォームの履歴を記憶しないようにします。
 
-policy-DisablePrimaryPasswordCreation = If true, a Primary Password can’t be created.
+policy-DisablePrimaryPasswordCreation = true にすると、プライマリ パスワードを作成できなくなります。
 
-policy-DisablePasswordReveal = Do not allow passwords to be revealed in saved logins.
+policy-DisablePasswordReveal = 保存されたログイン情報のパスワードの表示を禁止します
 
-policy-DisablePocket = Disable the feature to save webpages to Pocket.
+policy-DisablePocket = ウェブページを Pocket に保存する機能を無効にします。
 
-policy-DisablePrivateBrowsing = Disable Private Browsing.
+policy-DisablePrivateBrowsing = プライベート ブラウジングを無効にします。
 
-policy-DisableProfileImport = Disable the menu command to Import data from another browser.
+policy-DisableProfileImport = メニューコマンドの [他のブラウザーからデータをインポート] を無効にします。
 
-policy-DisableProfileRefresh = Disable the Refresh { -brand-short-name } button in the about:support page.
+policy-DisableProfileRefresh = about:support ページの [{ -brand-short-name } をリフレシュ] ボタンを無効にします。
 
-policy-DisableSafeMode = Disable the feature to restart in Safe Mode. Note: the Shift key to enter Safe Mode can only be disabled on Windows using Group Policy.
+policy-DisableSafeMode = セーフ モードで再起動する機能を無効にします。注意: Shift キーでセーフ モードを起動する機能は、Windows でグループ ポリシーを使用する場合のみ無効にできます。
 
-policy-DisableSecurityBypass = Prevent the user from bypassing certain security warnings.
+policy-DisableSecurityBypass = ユーザーが特定のセキュリティ警告を回避できないようにします。
 
-policy-DisableSetAsDesktopBackground = Disable the menu command Set as Desktop Background for images.
+policy-DisableSetAsDesktopBackground = メニューコマンドの [デスクトップの背景に設定] を無効にします。
 
-policy-DisableSystemAddonUpdate = Prevent the browser from installing and updating system add-ons.
+policy-DisableSystemAddonUpdate = ブラウザーがシステム アドオンのインストールと更新をできないようにします。
 
-policy-DisableTelemetry = Turn off Telemetry.
+policy-DisableTelemetry = テレメトリを無効にします。
 
-policy-DisplayBookmarksToolbar = Display the Bookmarks Toolbar by default.
+policy-DisplayBookmarksToolbar = ブックマーク ツールバーをデフォルトで表示します。
 
-policy-DisplayMenuBar = Display the Menu Bar by default.
+policy-DisplayMenuBar = メニューバーをデフォルトで表示します。
 
-policy-DNSOverHTTPS = DNS over HTTPS (DoH) の構成。
+policy-DNSOverHTTPS = DNS over HTTPS (DoH) の設定を構成します。
 
-policy-DontCheckDefaultBrowser = Disable check for default browser on startup.
+policy-DontCheckDefaultBrowser = 起動時にデフォルトのブラウザーか確認する機能を無効にします。
 
-policy-DownloadDirectory = Set and lock the download directory.
-
-# “lock” means that the user won’t be able to change this setting
-policy-EnableTrackingProtection = Enable or disable Content Blocking and optionally lock it.
+policy-DownloadDirectory = ダウンロードの保存先を設定しロックします。
 
 # “lock” means that the user won’t be able to change this setting
-policy-EncryptedMediaExtensions = Enable or disable Encrypted Media Extensions and optionally lock it.
+policy-EnableTrackingProtection = コンテンツ ブロッキングの使用を切り替えて、必要に応じてロックします。
 
-policy-ExemptDomainFileTypePairsFromFileTypeDownloadWarnings = Disable warnings based on file extension for specific file types on domains.
+# “lock” means that the user won’t be able to change this setting
+policy-EncryptedMediaExtensions = Encrypted Media Extensions の使用を切り替えて、必要に応じてロックします。
+
+policy-ExemptDomainFileTypePairsFromFileTypeDownloadWarnings = 指定のドメイン上で特定のファイル形式の拡張子に基づくダウンロードの警告を無効にします。
 
 # A “locked” extension can’t be disabled or removed by the user. This policy
 # takes 3 keys (“Install”, ”Uninstall”, ”Locked”), you can either keep them in
 # English or translate them as verbs.
-policy-Extensions = Install, uninstall or lock extensions. The Install option takes URLs or paths as parameters. The Uninstall and Locked options take extension IDs.
+policy-Extensions = 拡張機能をインストール、削除、またはロックします。インストールは URL とパスを指定します。削除とロックは拡張機能の ID を指定します。
 
-policy-ExtensionSettings = Manage all aspects of extension installation.
+policy-ExtensionSettings = 拡張機能のインストール全般を管理します。
 
-policy-ExtensionUpdate = Enable or disable automatic extension updates.
+policy-ExtensionUpdate = 拡張機能の自動更新の使用を切り替えます。
 
-policy-FirefoxHome2 = { -firefox-home-brand-name } の構成。
+policy-FirefoxHome2 = { -firefox-home-brand-name } の設定を行います。
 
-policy-FlashPlugin = Allow or deny usage of the Flash plugin.
+policy-FlashPlugin = Flash プラグインの使用を切り替えます。
 
-policy-GoToIntranetSiteForSingleWordEntryInAddressBar = Force direct intranet site navigation instead of searching when typing single word entries in the address bar.
+policy-GoToIntranetSiteForSingleWordEntryInAddressBar = アドレスバーに単語を入力すると、検索の代わりにイントラネットサイトへの案内を強制します。
 
-policy-Handlers = Configure default application handlers.
+policy-Handlers = デフォルトのアプリケーションハンドラーを設定します。
 
-policy-HardwareAcceleration = If false, turn off hardware acceleration.
+policy-HardwareAcceleration = false にするとハードウェア アクセラレーションを無効にします。
 
 # “lock” means that the user won’t be able to change this setting
-policy-Homepage = Set and optionally lock the homepage.
+policy-Homepage = ホームページを設定し、任意でロックします。
 
-policy-InstallAddonsPermission = Allow certain websites to install add-ons.
+policy-InstallAddonsPermission = 特定のウェブサイトにアドオンのインストールを許可します。
 
-policy-LegacyProfiles = Disable the feature enforcing a separate profile for each installation.
+policy-LegacyProfiles = インストールごとに個別のプロファイルを適用する機能を無効にします。
 
 ## Do not translate "SameSite", it's the name of a cookie attribute.
 
-policy-LegacySameSiteCookieBehaviorEnabled = Enable default legacy SameSite cookie behavior setting.
-
-policy-LegacySameSiteCookieBehaviorEnabledForDomainList = Revert to legacy SameSite behavior for cookies on specified sites.
+policy-LegacySameSiteCookieBehaviorEnabled = 旧来の SameSite Cookie の動作設定をデフォルトで有効にします。
+policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトで SameSite Cookie の動作を旧来の挙動に戻します。
 
 ##
 
-policy-LocalFileLinks = Allow specific websites to link to local files.
+policy-LocalFileLinks = 特定のウェブサイトにローカルファイルへのリンクを許可します。
 
-policy-ManagedBookmarks = Configures a list of bookmarks managed by an administrator that cannot be changed by the user.
+policy-ManagedBookmarks = システムの管理者により管理されたブックマークのリストを設定します。ユーザーがこのリストを変更することはできません。
 
-policy-ManualAppUpdateOnly = Allow manual updates only and do not notify the user about updates.
+policy-ManualAppUpdateOnly = 手動による更新のみを許可し、更新についてユーザーに通知しません。
 
-policy-PrimaryPassword = Require or prevent using a Primary Password.
+policy-PrimaryPassword = プライマリ パスワードの使用を切り替えます。
 
-policy-NetworkPrediction = Enable or disable network prediction (DNS prefetching).
+policy-NetworkPrediction = 先読み機能 (DNS プリフェッチ) の使用を切り替えます。
 
-policy-NewTabPage = Enable or disable the New Tab page.
+policy-NewTabPage = 新しいタブページの使用を切り替えます。
 
-policy-NoDefaultBookmarks = Disable creation of the default bookmarks bundled with { -brand-short-name }, and the Smart Bookmarks (Most Visited, Recent Tags). Note: this policy is only effective if used before the first run of the profile.
+policy-NoDefaultBookmarks = { -brand-short-name } にデフォルトで登録されているブックマークと、スマート ブックマーク (よく見るページ、最近付けたタグ) の作成を無効にします。 注意: このポリシーはプロファイルの初回起動より前に設定する必要があります。
 
-policy-OfferToSaveLogins = Enforce the setting to allow { -brand-short-name } to offer to remember saved logins and passwords. Both true and false values are accepted.
+policy-OfferToSaveLogins = { -brand-short-name } が保存されたログイン情報とパスワードを記憶できるように設定を強制します。 true か false で設定します。
 
-policy-OfferToSaveLoginsDefault = Set the default value for allowing { -brand-short-name } to offer to remember saved logins and passwords. Both true and false values are accepted.
+policy-OfferToSaveLoginsDefault = { -brand-short-name } が保存されたログイン情報とパスワードを記憶できるようにするためのデフォルト値を設定します。 true か false で設定します。
 
-policy-OverrideFirstRunPage = Override the first run page. Set this policy to blank if you want to disable the first run page.
+policy-OverrideFirstRunPage = 初回起動時に表示されるページを上書きします。初回起動時のページを無効にする場合は、このポリシーの設定を空白にしてください。
 
-policy-OverridePostUpdatePage = Override the post-update “What’s New” page. Set this policy to blank if you want to disable the post-update page.
+policy-OverridePostUpdatePage = 更新後に表示されるの “What’s New” ページを上書きします。 更新後のページを無効にする場合は、このポリシーの設定を空白にしてください。
 
-policy-PasswordManagerEnabled = パスワードマネージャーへのパスワードの保存を有効にします。
+policy-PasswordManagerEnabled = パスワード マネージャーへのパスワードの保存を有効にします。
 
-policy-PasswordManagerExceptions = { -brand-short-name } が特定のサイトのパスワードを保存しないようにします。
+policy-PasswordManagerExceptions = { -brand-short-name } が特定のサイトでパスワードを保存しないようにします。
 
 # PDF.js and PDF should not be translated
-policy-PDFjs = Disable or configure PDF.js, the built-in PDF viewer in { -brand-short-name }.
+policy-PDFjs = { -brand-short-name } の組み込み PDF ビューアー (PDF.js) を無効化し設定します。
 
 policy-Permissions2 = Configure permissions for camera, microphone, location, notifications, and autoplay.
 
-policy-PictureInPicture = Enable or disable Picture-in-Picture.
+policy-PictureInPicture = ピクチャー・イン・ピクチャーの使用を切り替えます。
 
-policy-PopupBlocking = 特定のウェブサイトがデフォルトでポップアップを表示できるようにします。
+policy-PopupBlocking = 特定のウェブサイトのポップアップ表示をデフォルトで許可します。
 
-policy-Preferences = Set and lock the value for a subset of preferences.
+policy-Preferences = 設定のサブセットに対する値を設定してロックします。
 
-policy-PromptForDownloadLocation = Ask where to save files when downloading.
+policy-PromptForDownloadLocation = ダウンロード時にファイルの保存先を確認します。
 
 policy-Proxy = プロキシ設定を構成します。
 
-policy-RequestedLocales = Set the list of requested locales for the application in order of preference.
+policy-RequestedLocales = アプリケーションに要求される言語リストと優先順位を設定します。
 
-policy-SanitizeOnShutdown2 = シャットダウン時にナビゲーションデータを消去する。
+policy-SanitizeOnShutdown2 = 終了時にナビゲーションデータを消去します。
 
 policy-SearchBar = 検索バーのデフォルトの位置を設定します。ユーザーがカスタマイズすることも可能です。
 
-policy-SearchEngines = 検索エンジンの設定を行います。このポリシーは、Extended Support Release (ESR) 版でのみ利用可能です。
+policy-SearchEngines = 検索エンジンの設定を行います。このポリシー延長サポート (ESR) 版でのみ利用可能です。
 
-policy-SearchSuggestEnabled = 検索候補の有効・無効を設定します。
+policy-SearchSuggestEnabled = 検索候補の表示機能の使用を切り替えます。
 
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Install PKCS #11 modules.
+policy-SecurityDevices = PKCS #11 モジュールをインストールします。
 
-policy-ShowHomeButton = ホームボタンをツールバーに表示する。
+policy-ShowHomeButton = ホームボタンをツールバーに表示します。
 
-policy-SSLVersionMax = 使用する SSL の最大バージョンを設定する。
+policy-SSLVersionMax = 使用する SSL の最高バージョンを設定します。
+policy-SSLVersionMin = 使用する SSL の最低バージョンを設定します。
 
-policy-SSLVersionMin = 使用する SSL の最低バージョンを設定する。
-
-policy-StartDownloadsInTempDirectory = デフォルトのダウンロードディレクトリではなく、ローカルの一時的な場所でダウンロードを強制的に開始します。
+policy-StartDownloadsInTempDirectory = デフォルトのダウンロード ディレクトリではなく、ローカルの一時的な場所でダウンロードを強制的に開始します。
 
 policy-SupportMenu = ヘルプメニューにカスタムサポートメニューを追加します。
 
-policy-UserMessaging = 特定のメッセージをユーザーに表示しない。
+policy-UserMessaging = 特定のメッセージをユーザーに表示させないようにします。
 
 policy-UseSystemPrintDialog = システムの印刷ダイアログを使用して印刷します。
 
 # “format” refers to the format used for the value of this policy.
-policy-WebsiteFilter = Block websites from being visited. See documentation for more details on the format.
+policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式の詳細についてはドキュメントを参照してください。
 
-policy-Windows10SSO = Microsoft、職場、および学校のアカウントで Windows のシングルサインオン (SSO) を許可します。
+policy-Windows10SSO = Microsoft、職場または学校のアカウントで Windows のシングルサインオン (SSO) を許可します。

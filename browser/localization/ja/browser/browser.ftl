@@ -310,6 +310,10 @@ quickactions-cmd-update = update, 更新, アップデート,
 quickactions-viewsource = ソースコードを表示
 quickactions-cmd-viewsource = view source, source, ソース,
 
+# Tooltip text for the help button shown in the result.
+quickactions-learn-more =
+    .title = クイック アクションの詳細
+
 ## Bookmark Panel
 
 bookmarks-add-bookmark = ブックマークを追加
@@ -396,7 +400,6 @@ identity-description-passive-loaded-insecure = このウェブサイトには、
 identity-description-passive-loaded-mixed = { -brand-short-name } は一部のコンテンツをブロックしましたが、ページには安全でないコンテンツ (画像など) が含まれています。<label data-l10n-name="link">さらに詳しく</label>
 identity-description-active-loaded = このウェブサイトには安全でないコンテンツ (スクリプトなど) が含まれており、このウェブサイトへの接続ではプライバシーが保護されません。
 identity-description-active-loaded-insecure = このサイトと共有したあなたの情報  (パスワード、メッセージ、クレジットカード情報など) は、第三者に盗み見られる可能性があります。
-
 identity-learn-more =
     .value = さらに詳しく
 identity-disable-mixed-content-blocking =
