@@ -51,7 +51,7 @@ mr1-welcome-screen-hero-text =
 mr1-onboarding-welcome-image-caption = Soraya Osorio — 家具デザイナー、Firefox ファン
 
 # This button will open system settings to turn on prefers-reduced-motion
-mr1-onboarding-reduce-motion-button-label = アニメーションをオフにする
+mr1-onboarding-reduce-motion-button-label = アニメーションを無効にする
 
 ## Title and primary button strings differ between platforms as they
 ## match the OS' application context menu item action where Windows uses "pin"
@@ -96,8 +96,8 @@ mr1-onboarding-default-primary-button-label = 既定のブラウザーにする
 
 ## Multistage MR1 onboarding strings (about:welcome pages)
 
-mr1-onboarding-import-header = すべて持ってこれます
-mr1-onboarding-import-subtitle = パスワード、ブックマークなどを<br/>インポートします。
+mr1-onboarding-import-header = すべて持ってこられます
+mr1-onboarding-import-subtitle = パスワードやブックマークなどを<br/>インポートします。
 
 # The primary import button label will depend on whether we can detect which browser was used to download Firefox.
 # Variables:
@@ -106,12 +106,12 @@ mr1-onboarding-import-primary-button-label-attribution = { $previous } からイ
 
 # This string will be used in cases where we can't detect the previous browser name.
 mr1-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーからインポート
-mr1-onboarding-import-secondary-button-label = 今はしない
+mr1-onboarding-import-secondary-button-label = 後で
 
 mr2-onboarding-colorway-header = カラーテーマ
 mr2-onboarding-colorway-subtitle = Vibrant new colorways. Available for a limited time.
 mr2-onboarding-colorway-primary-button-label = カラーテーマを保存
-mr2-onboarding-colorway-secondary-button-label = 今はしない
+mr2-onboarding-colorway-secondary-button-label = 後で
 mr2-onboarding-colorway-label-soft = Soft
 mr2-onboarding-colorway-label-balanced = Balanced
 # "Bold" is used in the sense of bravery or courage, not in the sense of
@@ -127,7 +127,7 @@ mr2-onboarding-theme-label-default = デフォルト
 mr1-onboarding-theme-header = 自分好みに仕上げてください
 mr1-onboarding-theme-subtitle = { -brand-short-name } にテーマを設定してパーソナライズします。
 mr1-onboarding-theme-primary-button-label = テーマを保存
-mr1-onboarding-theme-secondary-button-label = 今はしない
+mr1-onboarding-theme-secondary-button-label = 後で
 
 # System theme uses operating system color settings
 mr1-onboarding-theme-label-system = システムのテーマ
@@ -195,36 +195,36 @@ mr1-onboarding-theme-description-alpenglow =
 # Tooltip displayed on hover of non-default colorway theme
 # variations e.g. soft, balanced, bold
 mr2-onboarding-theme-tooltip =
-  .title = Use this colorway.
+  .title = このカラーテーマを使います。
 
 # Selector description for non-default colorway theme
 # variations e.g. soft, balanced, bold
 mr2-onboarding-theme-description =
-  .aria-description = Use this colorway.
+  .aria-description = このカラーテーマを使います。
 
 # Tooltip displayed on hover of colorway
 # Variables:
 #   $colorwayName (String) - Name of colorway
 mr2-onboarding-colorway-tooltip =
-  .title = Explore { $colorwayName } colorways.
+  .title = { $colorwayName } でカラーテーマを探してみましょう。
 
 # Selector description for colorway
 # Variables:
 #   $colorwayName (String) - Name of colorway
-mr2-onboarding-colorway-label = Explore { $colorwayName } colorways.
+mr2-onboarding-colorway-label = { $colorwayName } でカラーテーマを探してみましょう。
 
 # Tooltip displayed on hover of default themes
 mr2-onboarding-default-theme-tooltip =
-  .title = Explore default themes.
+  .title = デフォルトのテーマを探してみましょう。
 
 # Selector description for default themes
-mr2-onboarding-default-theme-label = Explore default themes.
+mr2-onboarding-default-theme-label = デフォルトのテーマを探してみましょう。
 
 ## Strings for Thank You page
 
-mr2-onboarding-thank-you-header = Thank you for choosing us
-mr2-onboarding-thank-you-text = { -brand-short-name } is an independent browser backed by a non-profit. Together, we’re making the web safer, healthier, and more private.
-mr2-onboarding-start-browsing-button-label = Start browsing
+mr2-onboarding-thank-you-header = ありがとうございます
+mr2-onboarding-thank-you-text = { -brand-short-name } は非営利団体によって支援されている独立したブラウザーです。 私たちはユーザーと協力して、ウェブをより安全に、より健全に、そしてあなたの個人情報を保護していきます。
+mr2-onboarding-start-browsing-button-label = ブラウジングを開始
 
 ## Multistage live language reloading onboarding strings (about:welcome pages)
 ##
@@ -261,7 +261,7 @@ onboarding-live-language-skip-button-label = スキップ
 # The English text would normally be "100 Thank-Yous" i.e., plural noun, but for
 # aesthetics of splitting it across multiple lines, the hyphen is omitted.
 fx100-thank-you-hero-text =
-  100回目の <span data-l10n-name="zap">ありがとう</span>
+  100 回目の <span data-l10n-name="zap">ありがとう</span>
 
 
 fx100-thank-you-subtitle = 100 回目のリリースです! より良い、より健全なインターネットの構築にご協力いただきありがとうございます。
@@ -275,7 +275,7 @@ fx100-upgrade-thanks-header = 100回目のありがとう
 # but "Thank" can be used instead if there's no "you" in the translation.
 fx100-upgrade-thank-you-body = { -brand-short-name } の 100 回目のリリースです。より良い、より健全なインターネットの構築にご協力いただき <em>ありがとうございま</em>す。
 # Message shown with either a pin-to-taskbar or set-default button.
-fx100-upgrade-thanks-keep-body = 100 回目のリリースです! 私たちのコミュニティに参加していただきありがとうございます。Keep { -brand-short-name } one click away for the next 100.
+fx100-upgrade-thanks-keep-body = 100 回目のリリースです! 私たちのコミュニティに参加していただきありがとうございます。次の 100 番目まで { -brand-short-name } を 1 クリックで使えるようにしましょう。
 
 mr2022-onboarding-secondary-skip-button-label = このステップをスキップ
 
@@ -285,7 +285,7 @@ mr2022-onboarding-secondary-skip-button-label = このステップをスキッ�
 # In this context, open up is synonymous with "Discover".
 # The metaphor is that when they open their Firefox browser, it helps them discover an amazing internet.
 # If this translation does not make sense in your language, feel free to use the word "discover."
-mr2022-onboarding-welcome-pin-header  
+mr2022-onboarding-welcome-pin-header = Open up an amazing internet
 # Subtitle is used on onboarding page for new users page when Firefox is not pinned
 mr2022-onboarding-welcome-pin-subtitle = Launch { -brand-short-name } from anywhere with a single click. Every time you do, you’re choosing a more open and independent web.
 # Primary button string used on welcome page for when Firefox is not pinned.
@@ -341,7 +341,7 @@ mr2022-onboarding-import-primary-button-label-no-attribution = Import from previ
 
 mr2022-onboarding-colorway-title = Choose the color that inspires you
 mr2022-onboarding-colorway-subtitle = Independent voices can change culture.
-mr2022-onboarding-colorway-primary-button-label = Set colorway
+mr2022-onboarding-colorway-primary-button-label-continue = Set and continue
 mr2022-onboarding-existing-colorway-checkbox-label = Make { -firefox-home-brand-name } your colorful homepage
 
 mr2022-onboarding-colorway-label-default = Default
@@ -389,7 +389,7 @@ mr2022-onboarding-no-mobile-download-cta-text = Scan the QR code to get { -brand
 ## MR2022 Upgrade Dialog screens
 ## Pin private window screen shown only for users who don't have Firefox private pinned
 
-mr2022-upgrade-onboarding-pin-private-window-header = ワンクリックでプライベートブラウジングの自由を手に入れましょう
+mr2022-upgrade-onboarding-pin-private-window-header = ワンクリックでプライベート ブラウジングの自由を手に入れましょう
 mr2022-upgrade-onboarding-pin-private-window-subtitle = No saved cookies or history, right from your desktop. Browse like no one’s watching.
 mr2022-upgrade-onboarding-pin-private-window-primary-button-label = { PLATFORM() ->
     [macos] Keep { -brand-short-name } private browsing in Dock
@@ -406,7 +406,7 @@ mr2022-onboarding-privacy-segmentation-secondary-button-secondary-label = 詳細
 
 ## MR2022 Multistage Gratitude screen strings
 
-mr2022-onboarding-gratitude-title = より良いウェブを作るために、あなたの力を貸してください。
+mr2022-onboarding-gratitude-title = より良いウェブを作るために、あなたの力を貸してください
 mr2022-onboarding-gratitude-subtitle = Mozilla Foundation が支援する { -brand-short-name } をご利用いただきありがとうございます。 皆様のご支援により、私たちはインターネットをよりオープンでアクセスしやすく、すべての人にとってより良いものにするために取り組めます。
 mr2022-onboarding-gratitude-primary-button-label = See what’s new
-mr2022-onboarding-gratitude-secondary-button-label = Start browsing
+mr2022-onboarding-gratitude-secondary-button-label = ブラウジングを開始

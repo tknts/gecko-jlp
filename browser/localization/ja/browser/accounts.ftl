@@ -8,7 +8,7 @@ account-finish-account-setup = アカウントのセットアップを完了
 
 # Used as the FxA toolbar menu item title when the user
 # needs to reconnect their account.
-account-disconnected2 = アカウントは切断されています
+account-disconnected2 = ログアウトしました
 
 # Menu item that sends a tab to all synced devices.
 account-send-to-all-devices = すべてのデバイスに送信

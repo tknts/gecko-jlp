@@ -6,16 +6,15 @@
 
 # "Auto" is short for automatic. It can be localized without limitations.
 extension-default-theme-name-auto=システムのテーマ — 自動
-extension-default-theme-description=オペレーティング システムのボタン、メニュー、およびウィンドウの設定に従います。 
+extension-default-theme-description=オペレーティング システムのボタン、メニュー、ウィンドウの設定に従います。 
 
 extension-firefox-compact-light-name=ライト
-extension-firefox-compact-light-description=A theme with a light color scheme.
+extension-firefox-compact-light-description=明るい配色のテーマです。
 
 extension-firefox-compact-dark-name=ダーク
-extension-firefox-compact-dark-description=A theme with a dark color scheme.
-
-extension-firefox-alpenglow-name=Firefox Alpenglow
-extension-firefox-alpenglow-description=Use a colorful appearance for buttons, menus, and windows.
+extension-firefox-compact-dark-description=暗い配色のテーマです。
+extension-firefox-alpenglow-name=Firefox アルペングロウ
+extension-firefox-alpenglow-description=カラフルな外観のボタン、メニュー、ウィンドウを使用します。
 
 ## Colorway Themes
 ## These themes are variants of a colorway. The colorway is specified in the

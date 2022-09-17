@@ -30,7 +30,7 @@ general-url =
 general-type =
     .value = 種類:
 general-mode =
-    .value = Render Mode:
+    .value = レンダリング モード:
 general-size =
     .value = 容量:
 general-referrer =
@@ -48,9 +48,9 @@ media-tab =
     .label = メディア
     .accesskey = M
 media-location =
-    .value = Location:
+    .value = アドレス (URL):
 media-text =
-    .value = Associated Text:
+    .value = 関連テキスト:
 media-alt-header =
     .label = 代替テキスト
 media-address =
@@ -62,9 +62,12 @@ media-size =
 media-count =
     .label = 回数
 media-dimension =
-    .value = Dimensions:
+    .value = 寸法:
 media-long-desc =
-    .value = Long Description:
+    .value = 詳細説明:
+media-select-all =
+    .label = すべて選択
+    .accesskey = e
 media-save-as =
     .label = 名前を付けて保存…
     .accesskey = A
@@ -76,7 +79,7 @@ perm-tab =
     .label = 許可
     .accesskey = P
 permissions-for =
-    .value = Permissions for:
+    .value = 対象サイト:
 
 security-tab =
     .label = セキュリティ
@@ -87,26 +90,26 @@ security-view =
 security-view-unknown = 不明
     .value = 不明
 security-view-identity =
-    .value = Website Identity
+    .value = ウェブサイトの識別情報
 security-view-identity-owner =
     .value = オーナー:
 security-view-identity-domain =
     .value = ウェブサイト:
 security-view-identity-verifier =
-    .value = Verified by:
+    .value = 認証局:
 security-view-identity-validity =
     .value = 有効期限:
 security-view-privacy =
     .value = プライバシーと履歴
 
-security-view-privacy-history-value = 今日より前にこのウェブサイトにアクセスしたことがありますか?
+security-view-privacy-history-value = 昨日までにこのウェブサイトにアクセスしたことがありますか?
 security-view-privacy-sitedata-value = このウェブサイトは私のコンピューターに情報を保存していますか?
 
 security-view-privacy-clearsitedata =
     .label = Cookie とサイトデータを消去
     .accesskey = C
 
-security-view-privacy-passwords-value = Have I saved any passwords for this website?
+security-view-privacy-passwords-value = このウェブサイトのパスワードを保存していますか?
 
 security-view-privacy-viewpasswords =
     .label = 保存されたパスワードを表示
@@ -123,47 +126,47 @@ help-button =
 ##   $value (number) - Amount of data being stored
 ##   $unit (string) - The unit of data being stored (Usually KB)
 
-security-site-data-cookies = Yes, cookies and { $value } { $unit } of site data
-security-site-data-only = Yes, { $value } { $unit } of site data
+security-site-data-cookies = はい。Cookie と { $value } { $unit } のサイトデータ
+security-site-data-only = はい。{ $value } { $unit } のサイトデータ
 
-security-site-data-cookies-only = Yes, cookies
+security-site-data-cookies-only = はい。Cookie のみです。
 security-site-data-no = いいえ
 
 ##
 
 image-size-unknown = 不明
 page-info-not-specified =
-    .value = Not specified
-not-set-alternative-text = Not specified
-not-set-date = Not specified
+    .value = 指定されていません
+not-set-alternative-text = 指定されていません
+not-set-date = 指定されていません
 media-img = 画像
-media-bg-img = Background
-media-border-img = Border
-media-list-img = Bullet
-media-cursor = Cursor
-media-object = Object
-media-embed = Embed
+media-bg-img = 背景画像
+media-border-img = ボーダーの画像
+media-list-img = リストのマーカー画像
+media-cursor = カーソル
+media-object = オブジェクト
+media-embed = 埋め込みオブジェクト
 media-link = アイコン
-media-input = Input
-media-video = Video
-media-audio = Audio
+media-input = 入力
+media-video = ビデオ
+media-audio = オーディオ
 saved-passwords-yes = はい
 saved-passwords-no = いいえ
 
 no-page-title =
-    .value = Untitled Page:
+    .value = ページタイトルなし:
 general-quirks-mode =
-    .value = Quirks mode
+    .value = Quirks (後方互換) モード
 general-strict-mode =
-    .value = Standards compliance mode
+    .value = Standards Compliant (標準準拠) モード
 page-info-security-no-owner =
-    .value = This website does not supply ownership information.
-media-select-folder = Select a Folder to Save the Images
+    .value = このウェブサイトはオーナー情報を提供していません。
+media-select-folder = 画像を保存するフォルダーを選択してください
 media-unknown-not-cached =
-    .value = Unknown (not cached)
+    .value = 不明 (キャッシュなし)
 permissions-use-default =
-    .label = 初期設定を使用
-security-no-visits = No
+    .label = デフォルトの設定を使用
+security-no-visits = いいえ
 
 # This string is used to display the number of meta tags
 # in the General Tab
@@ -172,8 +175,8 @@ security-no-visits = No
 general-meta-tags =
     .value =
         { $tags ->
-             [one] Meta (1 tag)
-            *[other] Meta ({ $tags } tags)
+             [one] Meta 要素一覧 (1 要素)
+            *[other] Meta 要素一覧 ({ $tags } 要素)
         }
 
 # This string is used to display the number of times
@@ -182,9 +185,9 @@ general-meta-tags =
 #   $visits (number) - The number of previous visits
 security-visits-number =
     { $visits ->
-         [0] No
-         [one] Yes, once
-        *[other] Yes, { $visits } times
+         [0] いいえ
+         [one] はい。1 回。
+        *[other] はい。{ $visits } 回
     }
 
 # This string is used to display the size of a media file
@@ -193,8 +196,8 @@ security-visits-number =
 #   $bytes (number) - The size of an image in Bytes
 properties-general-size =
     .value = { $bytes ->
-         [one] { $kb } KB ({ $bytes } byte)
-        *[other] { $kb } KB ({ $bytes } bytes)
+         [one] { $kb } KB ({ $bytes } バイト)
+        *[other] { $kb } KB ({ $bytes } バイト)
     }
 
 # This string is used to display the type and number
@@ -204,8 +207,8 @@ properties-general-size =
 #   $frames (number) - The number of frames in an animated image
 media-animated-image-type =
     .value = { $frames ->
-         [one] { $type } Image (animated, { $frames } frame)
-        *[other] { $type } Image (animated, { $frames } frames)
+         [one] { $type } 画像 (アニメーション, { $frames } フレーム)
+        *[other] { $type } 画像 (アニメーション, { $frames } フレーム)
     }
 
 # This string is used to display the type of
@@ -213,7 +216,7 @@ media-animated-image-type =
 # Variables:
 #   $type (string) - The type of an image
 media-image-type =
-    .value = { $type } Image
+    .value = { $type } 画像
 
 # This string is used to display the size of a scaled image
 # in both scaled and unscaled pixels
@@ -223,7 +226,7 @@ media-image-type =
 #   $scaledx (number) - The scaled horizontal size of an image
 #   $scaledy (number) - The scaled vertical size of an image
 media-dimensions-scaled =
-    .value = { $dimx }px × { $dimy }px (scaled to { $scaledx }px × { $scaledy }px)
+    .value = { $dimx }px × { $dimy }px ({ $scaledx }px × { $scaledy }px で表示)
 
 # This string is used to display the size of an image in pixels
 # Variables:
