@@ -47,4 +47,4 @@ toolbox-mode-parent-process-container =
 toolbox-always-on-top-enabled =
   .title = 最前面での固定を解除する (開発者ツールが再起動します)
 toolbox-always-on-top-disabled =
-  .title = 最前面での固定する (開発者ツールが再起動します)
+  .title = 最前面で固定する (開発者ツールが再起動します)
