@@ -4,27 +4,27 @@
 
 ## Colorway collections
 
-colorway-collection-independent-voices = Independent Voices
-colorway-collection-independent-voices-description = Color can change culture. The latest colorways celebrate voices making the world a better place.
+colorway-collection-independent-voices = インディペンデント・ボイス
+colorway-collection-independent-voices-description = カラーはカルチャーを変えることができます。最新のカラーテーマは、世界をより良い場所にする声を称えます。
 # Used as a subheading for the colorway collection card in about:addons
-colorway-collection-independent-voices-short-description = Colors that change culture.
+colorway-collection-independent-voices-short-description = カラーでカルチャーを変える
 
 ## Colorway names and descriptions
 
-playmaker-colorway-name = 司令官
-playmaker-colorway-description = You create opportunities to win and help everyone around you elevate their game.
+playmaker-colorway-name = プレーメーカー
+playmaker-colorway-description = あなたは勝つためのチャンスを作り、周りの人たちのレベルアップを助けます。
 
-expressionist-colorway-name = 表現者
-expressionist-colorway-description = You see the world differently and your creations stir the emotions of others.
+expressionist-colorway-name = エクスプレショニスト
+expressionist-colorway-description = あなたは世界を違った角度から見ていて、あなたの創造物は他人の感情をかき立てます。
 
-visionary-colorway-name = 空想家
-visionary-colorway-description = You question the status quo and move others to imagine a better future.
+visionary-colorway-name = ビジョナリー
+visionary-colorway-description = 現状に疑問を持ち、より良い未来を想像して周囲を動かすことができる人です。
 
-activist-colorway-name = 活動家
-activist-colorway-description = You leave the world a better place than you found it and lead others to believe.
+activist-colorway-name = アクティビスト
+activist-colorway-description = 世界をより良い場所にするために、他の人を信じるように導きます。
 
-dreamer-colorway-name = 夢想家
-dreamer-colorway-description = You believe that fortune favors the bold and inspire others to be brave.
+dreamer-colorway-name = ドリーマー
+dreamer-colorway-description = あなたは運命は大胆な人に味方すると信じており、他の人に勇気を与えます。
 
-innovator-colorway-name = 革新者
-innovator-colorway-description = You see opportunities everywhere and make an impact on the lives of everyone around you.
+innovator-colorway-name = イノベーター
+innovator-colorway-description = あなたはどこにでもチャンスを見出し 周囲の人々の生活に影響を与えることができます。
