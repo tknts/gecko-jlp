@@ -500,7 +500,7 @@ sharing-warning-disable-for-session =
 
 ## DevTools F12 popup
 
-enable-devtools-popup-description = F12 ショートカットを使用するには、まずウェブ開発メニューから開発ツールを開きます。
+enable-devtools-popup-description2 = F12 ショートカットを使用するには、まず [ブラウザー ツール] メニューから開発ツールを開きます。
 
 ## URL Bar
 
@@ -667,6 +667,7 @@ pointerlock-warning-no-domain = このドキュメントはポインターを制
 ## Subframe crash notification
 
 crashed-subframe-message = <strong>このページの一部がクラッシュしました。</strong> { -brand-product-name } にこの問題を知らせて、素早く修正するために、レポートを送信してください。
+
 # The string for crashed-subframe-title.title should match crashed-subframe-message,
 # but without any markup.
 crashed-subframe-title =

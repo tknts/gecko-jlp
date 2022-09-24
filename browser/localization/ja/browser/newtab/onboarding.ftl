@@ -345,19 +345,19 @@ mr2022-onboarding-colorway-primary-button-label-continue = 設定して続ける
 mr2022-onboarding-existing-colorway-checkbox-label = { -firefox-home-brand-name } のホームページをカラフルに
 
 mr2022-onboarding-colorway-label-default = デフォルト
-mr2022-onboarding-colorway-tooltip-default =
-  .title = デフォルト
+mr2022-onboarding-colorway-tooltip-default2 =
+  .title = 現在使用している { -brand-short-name } のカラーテーマ
 mr2022-onboarding-colorway-description-default = <b>現在使用している { -brand-short-name } のカラーテーマを使用する。</b>
 
 mr2022-onboarding-colorway-label-playmaker = プレーメーカー
 mr2022-onboarding-colorway-tooltip-playmaker2 =
   .title = プレーメーカー (レッド)
-mr2022-onboarding-colorway-description-playmaker = <b>あなたはプレイメーカーです。</b> 勝つためのチャンスを作り、周りの人たちのレベルアップを助けます。
+mr2022-onboarding-colorway-description-playmaker = <b>あなたはプレイメーカーです。</b> あなたは勝つためのチャンスを作り、周りの人たちのレベルアップを助けます。
 
 mr2022-onboarding-colorway-label-expressionist = エクスプレショニスト
 mr2022-onboarding-colorway-tooltip-expressionist2 =
   .title = エクスプレショニスト (イエロー)
-mr2022-onboarding-colorway-description-expressionist = <b>あなたはエクスプレショニストです。</b> あなたは世界を違った角度から見ていて、あなたの創造物は他人の感情をかき立てます。
+mr2022-onboarding-colorway-description-expressionist = <b> あなたはエクスプレショニストです。</b> あなたは世界を違った角度から見ていて、あなたの創造物は他人の感情をかき立てます。
 
 mr2022-onboarding-colorway-label-visionary = ビジョナリー
 mr2022-onboarding-colorway-tooltip-visionary2 =
