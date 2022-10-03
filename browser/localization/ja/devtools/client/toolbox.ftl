@@ -31,8 +31,8 @@ toolbox-meatball-menu-pseudo-locale-bidi = “bidi” ロケールを有効化
 
 ## These labels are shown in the top-toolbar in the Browser Toolbox and Browser Console
 
-toolbox-mode-browser-toolbox-label = ブラウザツールボックス モード
-toolbox-mode-browser-console-label = ブラウザコンソール モード
+toolbox-mode-browser-toolbox-label = ブラウザ ツールボックス モード
+toolbox-mode-browser-console-label = ブラウザ コンソール モード
 
 toolbox-mode-everything-label = マルチプロセス
 toolbox-mode-everything-sub-label = (遅い)

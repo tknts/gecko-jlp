@@ -2,17 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-webpage-languages-window =
-    .title = Webpage Language Settings
-    .style = width: 40em
+webpage-languages-window2 =
+    .title = ウェブページの言語設定
+    .style = min-width: 40em
 
 languages-close-key =
     .key = w
 
-languages-description = Web pages are sometimes offered in more than one language. Choose languages for displaying these web pages, in order of preference
+languages-description = ウェブページは複数の言語で提供される場合があります。これらのウェブページで優先して表示する言語の順番を選択します
 
 languages-customize-spoof-english =
-    .label = Request English versions of web pages for enhanced privacy
+    .label = プライバシーを強化するためにウェブページに英語版をリクエストする
 
 languages-customize-moveup =
     .label = 上に移動
@@ -49,9 +49,9 @@ languages-code-format =
 languages-active-code-format =
     .value = { languages-code-format.label }
 
-browser-languages-window =
+browser-languages-window2 =
     .title = { -brand-short-name } の言語設定
-    .style = width: 40em
+    .style = min-width: 40em
 
 browser-languages-description = { -brand-short-name } will display the first language as your default and will display alternate languages if necessary in the order they appear.
 
@@ -64,10 +64,10 @@ browser-languages-downloading =
     .label = ダウンロードしています…
 
 browser-languages-select-language =
-    .label = Select a language to add…
-    .placeholder = Select a language to add…
+    .label = 追加する言語を選択…
+    .placeholder = 追加する言語を選択してください…
 
-browser-languages-installed-label = Installed languages
-browser-languages-available-label = Available languages
+browser-languages-installed-label = インストールされている言語
+browser-languages-available-label = 利用可能な言語
 
-browser-languages-error = { -brand-short-name } can’t update your languages right now. Check that you are connected to the internet or try again.
+browser-languages-error = { -brand-short-name } は言語の更新ができませんでした。インターネットに接続されていることを確認して、もう一度やり直してください。

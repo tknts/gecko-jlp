@@ -884,9 +884,9 @@ sync-change-options =
 
 ## The "Choose what to sync" dialog.
 
-sync-choose-what-to-sync-dialog =
+sync-choose-what-to-sync-dialog2 =
     .title = 同期する項目を選択
-    .style = width: 36em; min-height: 35em;
+    .style = min-width: 36em; min-height: 35em;
     .buttonlabelaccept = 変更を保存
     .buttonaccesskeyaccept = S
     .buttonlabelextra2 = 切断…

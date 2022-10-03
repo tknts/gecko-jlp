@@ -86,18 +86,18 @@ storage-table-headers-cookies-value = 値
 storage-table-headers-cookies-expires = 有効期限
 storage-table-headers-cookies-size = 容量
 storage-table-headers-cookies-last-accessed = 最終アクセス日時
-storage-table-headers-cookies-creation-time = Created
+storage-table-headers-cookies-creation-time = 作成日時
 storage-table-headers-cache-status = 状態
-storage-table-headers-extension-storage-area = Storage Area
+storage-table-headers-extension-storage-area = ストレージ領域
 
 ## Labels for Storage type groups present in the Storage Tree, like cookies, local storage etc.
 
-storage-tree-labels-cookies = Cookies
-storage-tree-labels-local-storage = Local Storage
-storage-tree-labels-session-storage = Session Storage
+storage-tree-labels-cookies = Cookie
+storage-tree-labels-local-storage = ローカルストレージ
+storage-tree-labels-session-storage = セッションストレージ
 storage-tree-labels-indexed-db = Indexed DB
-storage-tree-labels-cache = Cache Storage
-storage-tree-labels-extension-storage = Extension Storage
+storage-tree-labels-cache = キャッシュストレージ
+storage-tree-labels-extension-storage = 拡張機能ストレージ
 
 ##
 

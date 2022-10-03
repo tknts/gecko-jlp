@@ -113,7 +113,7 @@ options-disable-javascript-tooltip =
     .title = このオプションをオンにすると、現在のタブの JavaScript が無効になります。タブまたはツールボックスを閉じると、この設定は失われます。
 
 # The label for checkbox that toggles chrome debugging, i.e. the devtools.chrome.enabled preference
-options-enable-chrome-label = ブラウザクロームとアドオンのデバッグツールボックスを有効
+options-enable-chrome-label = ブラウザとアドオンのデバッグを有効化
 options-enable-chrome-tooltip =
     .title = このオプションをオンにすると、ブラウザのコンテキストでさまざまな開発ツールを使用したり（ツール > ブラウザーツール > ブラウザ ツールボックス）、アドオンマネージャからアドオンをデバッグすることができます。
 
