@@ -64,7 +64,6 @@ whypaused-xhr = XMLHttpRequest で停止しました
 # currently paused on a promise rejection
 whypaused-promise-rejection = Promise の reject により停止しました
 
-
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused at a watchpoint on an object property
 whypaused-get-watchpoint = プロパティの取得で停止しました
