@@ -88,23 +88,23 @@ permissions-invalid-uri-label = 有効なホスト名を入力してください
 
 ## Exceptions - Tracking Protection
 
-permissions-exceptions-etp-window =
-    .title = 例外 - 強化型追跡防止機能
-    .style = { permissions-window.style }
+permissions-exceptions-etp-window2 =
+    .title = 強化型追跡防止機能の例外
+    .style = { permissions-window2.style }
 permissions-exceptions-etp-desc = これらのウェブサイトでの保護をオフにしました。
 
 ## Exceptions - Cookies
 
-permissions-exceptions-cookie-window =
+permissions-exceptions-cookie-window2 =
     .title = 例外 - Cookie とサイトデータ
-    .style = { permissions-window.style }
-permissions-exceptions-cookie-desc = You can specify which websites are always or never allowed to use cookies and site data.  Type the exact address of the site you want to manage and then click Block, Allow for Session, or Allow.
+    .style = { permissions-window2.style }
+permissions-exceptions-cookie-desc = Cookie やサイトデータの使用を常に許可するウェブサイト、または許可しないウェブサイトを指定することができます。 管理したいサイトの正確なアドレスを入力して、[ブロック]、[セッション中のみ許可]、[許可] のいずれかをクリックしてください。
 
 ## Exceptions - HTTPS-Only Mode
 
-permissions-exceptions-https-only-window =
+permissions-exceptions-https-only-window2 =
     .title = 例外 - HTTPS-Only モード
-    .style = { permissions-window.style }
+    .style = { permissions-window2.style }
 permissions-exceptions-https-only-desc = You can turn off HTTPS-Only Mode for specific websites. { -brand-short-name } won’t attempt to upgrade the connection to secure HTTPS for those sites. Exceptions do not apply to private windows.
 
 ## Exceptions - Pop-ups
