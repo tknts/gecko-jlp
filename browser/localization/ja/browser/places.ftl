@@ -72,13 +72,13 @@ places-sortby-name =
 # places-edit-bookmark and places-edit-generic will show one or the other and can have the same access key.
 places-edit-bookmark =
   .label = ブックマークを編集…
-  .accesskey = i
+  .accesskey = E
 places-edit-generic =
   .label = 編集…
-  .accesskey = i
+  .accesskey = E
 places-edit-folder2 =
   .label = フォルダーを編集…
-  .accesskey = i
+  .accesskey = E
 places-delete-folder =
   .label =
       { $count ->
@@ -117,18 +117,18 @@ places-manage-bookmarks =
   .accesskey = M
 
 places-forget-about-this-site-confirmation-title =
-  このサイトを忘れる
+  このサイトのデータの消去について
 
 # Variables:
 # $hostOrBaseDomain (string) - The base domain (or host in case there is no base domain) for which data is being removed
 places-forget-about-this-site-confirmation-message =
- このアクションにより、履歴、パスワード、Cookie、キャッシュ、コンテンツ設定など { $hostOrBaseDomain } に関連するすべてのデータが削除されます。 続行してもよろしいですか？
+  このアクションにより、履歴、パスワード、Cookie、キャッシュ、コンテンツ設定など { $hostOrBaseDomain } に関連するすべてのデータが削除されます。 続行してもよろしいですか？
 
 places-forget-about-this-site-forget = 忘れる
 
-places-library =
+places-library2 =
   .title = ライブラリー
-  .style = width:700px; height:500px;
+  .style = min-width:700px; min-height:500px;
 
 places-organize-button =
   .label = 管理
@@ -156,7 +156,7 @@ places-view-button-mac =
   .tooltiptext = Change your view
 
 places-view-menu-columns =
-  .label = 列を表示
+  .label = 表示する列
   .accesskey = C
 
 places-view-menu-sort =
@@ -164,15 +164,15 @@ places-view-menu-sort =
   .accesskey = S
 
 places-view-sort-unsorted =
-  .label = Unsorted
+  .label = 並べ替えない
   .accesskey = U
 
 places-view-sort-ascending =
-  .label = A > Z Sort Order
+  .label =  このサイトのデータの消去について
   .accesskey = A
 
 places-view-sort-descending =
-  .label = Z > A Sort Order
+  .label = 降順 (Z > A)
   .accesskey = Z
 
 places-maintenance-button =

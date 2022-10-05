@@ -2,16 +2,16 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-create-profile-window =
+create-profile-window2 =
   .title = プロファイルの作成ウィザード
-  .style = width: 45em; height: 32em;
+  .style = min-width: 45em; min-height: 32em;
 
 ## First wizard page
 
-create-profile-first-page-header =
+create-profile-first-page-header2 =
   { PLATFORM() ->
     [macos] Introduction
-   *[other] { create-profile-window.title } にようこそ
+   *[other] { create-profile-window2.title } にようこそ
   }
 
 profile-creation-explanation-1 = { -brand-short-name } はユーザー設定などの情報を個人プロファイルとして保存します。
@@ -28,10 +28,10 @@ profile-creation-explanation-4 =
 
 ## Second wizard page
 
-create-profile-last-page-header =
+create-profile-last-page-header2 =
   { PLATFORM() ->
     [macos] Conclusion
-   *[other] Completing the { create-profile-window.title }
+   *[other] Completing the { create-profile-window2.title }
   }
 
 profile-creation-intro = プロファイルを複数使用する場合は、それぞれに名前を付けて区別します。あらかじめ入力されている名前をそのまま使用するか、新しい名前を入力し直してください。
@@ -45,7 +45,7 @@ profile-default-name =
 profile-directory-explanation = あなたのユーザー設定やユーザーデータの保存先
 
 create-profile-choose-folder =
-  .label = フォルダを選択…
+  .label = フォルダーを選択…
   .accesskey = C
 
 create-profile-use-default =
