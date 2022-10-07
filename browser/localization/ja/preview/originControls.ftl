@@ -30,4 +30,13 @@ origin-controls-option-when-clicked =
 origin-controls-option-always-on =
     .label = { $domain } では常にオン
 
-##
+## These strings are used to map Origin Controls states to user-friendly
+## messages. They currently appear in the unified extensions panel.
+
+origin-controls-state-no-access = このサイトでデータの読み取りと変更はできません
+
+origin-controls-state-always-on = いつでもデータの読み取りと変更が可能です
+
+origin-controls-state-when-clicked = データの読み取りと変更には権限が必要です
+
+origin-controls-state-hover-run-visit-only = 今回の訪問のみ実行する

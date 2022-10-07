@@ -8,8 +8,7 @@
 
 perftools-intro-title = プロファイラの設定
 perftools-intro-description =
-  Recordings launch profiler.firefox.com in a new tab. All data is stored
-  locally, but you can choose to upload it for sharing.
+  記録したデータは新しいタブの profiler.firefox.com で開きます。 データはすべてローカルに保存されますが、アップロードして共有することもできます。
 
 ## All of the headings for the various sections.
 
@@ -83,19 +82,19 @@ perftools-thread-renderer =
 perftools-thread-render-backend =
   .title = WebRender の RenderBackend スレッドです
 perftools-thread-timer =
-  .title = The thread handling timers (setTimeout, setInterval, nsITimer)
+  .title = スレッド制御タイマー (setTimeout, setInterval, nsITimer) です
 perftools-thread-style-thread =
-  .title = Style computation is split into multiple threads
+  .title = 複数に分割されるスタイル計算のスレッドです
 pref-thread-stream-trans =
-  .title = Network stream transport
+  .title = ネットワークのストリーム転送です
 perftools-thread-socket-thread =
-  .title = The thread where networking code runs any blocking socket calls
+  .title = ソケット呼び出しをブロックするネットワークコードが実行されるスレッドです
 perftools-thread-img-decoder =
-  .title = Image decoding threads
+  .title = 画像のデコードスレッドです
 perftools-thread-dns-resolver =
   .title = DNS の名前解決が行われるスレッドです
 perftools-thread-task-controller =
-  .title = TaskController thread pool threads
+  .title = タスクコントローラのスレッドプールにあるスレッドです
 perftools-thread-jvm-gecko =
   .title = メイン Gecko JVM スレッドです
 perftools-thread-jvm-nimbus =
@@ -112,10 +111,10 @@ perftools-thread-jvm-pool =
 ##
 
 perftools-record-all-registered-threads =
-  Bypass selections above and record all registered threads
+  上記で選択したスレッドをバイパスし、登録されているすべてのスレッドを記録します
 
 perftools-tools-threads-input-label =
-  .title = These thread names are a comma separated list that is used to enable profiling of the threads in the profiler. The name needs to be only a partial match of the thread name to be included. It is whitespace sensitive.
+  .title = これらのスレッド名は、プロファイラでスレッドのプロファイリングを有効にするために使用されるカンマ区切りのリストです。名前はスレッド名が含まれ部分一致にする必要があります。空白は区別されます。
 
 ## Onboarding UI labels. These labels are displayed in the new performance panel UI, when
 ## devtools.performance.new-panel-onboarding preference is true.
