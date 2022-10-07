@@ -661,22 +661,8 @@ fullscreen-exit-mac-button = Exit Full Screen (esc)
 # Please ensure that the domain stays in the `<span data-l10n-name="domain">` markup.
 # Variables
 #  $domain (String): the domain that is using pointer-lock, e.g. "mozilla.org"
-pointerlock-warning-domain = <span data-l10n-name="domain">{ $domain }</span> がポインターを制御しています。 制御を取り戻すには [ESC] キーを押してください。
+pointerlock-warning-domain = <span data-l10n-name="domain">{ $domain }</span> がポインターを制御しています。制御を取り戻すには [ESC] キーを押してください。
 pointerlock-warning-no-domain = このドキュメントはポインターを制御します。制御を取り戻した時は [ESC] キーを押してください。
-
-## Subframe crash notification
-
-crashed-subframe-message = <strong>このページの一部がクラッシュしました。</strong> { -brand-product-name } にこの問題を知らせて、素早く修正するために、レポートを送信してください。
-
-# The string for crashed-subframe-title.title should match crashed-subframe-message,
-# but without any markup.
-crashed-subframe-title =
-  .title = このページの一部がクラッシュしました。 { -brand-product-name } にこの問題を知らせ、素早く修正するために、レポートを送信してください。
-crashed-subframe-learnmore-link =
-  .value = さらに詳しく
-crashed-subframe-submit =
-  .label = レポートを送信
-  .accesskey = S
 
 ## Bookmarks panels, menus and toolbar
 

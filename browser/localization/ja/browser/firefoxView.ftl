@@ -67,7 +67,7 @@ firefoxview-mobile-confirmation-description = スマートフォンやタブレ�
 
 firefoxview-closed-tabs-title = 最近閉じたタブ
 
-firefoxview-closed-tabs-description-2 = このウィンドウで閉じたページを再度開きます。
+firefoxview-closed-tabs-description2 = このウィンドウで閉じたページを再度開きます。
 firefoxview-closed-tabs-placeholder = <strong>最近閉じたページはありません</strong><br/>閉じたタブをなくす心配はもうありません。 いつでもここから取得できます。
 
 # refers to the last tab that was used
