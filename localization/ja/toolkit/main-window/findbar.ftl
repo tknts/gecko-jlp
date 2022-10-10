@@ -34,3 +34,41 @@ findbar-entire-word =
     .label = 単語単位
     .accesskey = W
     .tooltiptext = 指定文字列に一致する単語を検索します
+
+findbar-not-found = フレーズが見つかりません
+
+findbar-wrapped-to-top = ページの終わりに達しました。先頭から再開します
+findbar-wrapped-to-bottom = ページの先頭に達しました。終わりから再開します
+
+findbar-normal-find =
+    .placeholder = ページ内を検索
+findbar-fast-find =
+    .placeholder = クイック検索
+findbar-fast-find-links =
+    .placeholder = クイック検索 (リンクのみ)
+
+findbar-case-sensitive-status =
+    .value = (大文字と小文字を区別する)
+findbar-match-diacritics-status =
+    .value = (発音区別符号を区別しない)
+findbar-entire-word-status =
+    .value = (単語単位で一致する)
+
+# Variables:
+#   $current (Number): Index of the currently selected match
+#   $total (Number): Total count of matches
+findbar-found-matches =
+    .value =
+        { $total ->
+            [one] { $total } 件中 { $current } 件
+           *[other] { $total } 件中 { $current } 件
+        }
+
+# Variables:
+#   $limit (Number): Total count of matches allowed before counting stops
+findbar-found-matches-count-limit =
+    .value =
+        { $limit ->
+            [one] { $limit } 件以上の一致
+           *[other] { $limit } 件以上の一致
+        }
