@@ -477,17 +477,10 @@ popup-select-microphone-icon =
     .tooltiptext = マイク
 popup-select-speaker-icon =
     .tooltiptext = スピーカー
+popup-select-window-or-screen =
+    .label = ウィンドウまたスクリーン:
+    .accesskey = W
 popup-all-windows-shared = 画面に表示されているすべてのウィンドウを共有します。
-
-popup-screen-sharing-block =
-  .label = ブロック
-  .accesskey = B
-
-popup-screen-sharing-always-block =
-  .label = 常にブロック
-  .accesskey = w
-
-popup-mute-notifications-checkbox = 共有中はウェブサイトからの通知を無効にする
 
 ## WebRTC window or screen share tab switch warning
 
