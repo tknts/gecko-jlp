@@ -30,6 +30,8 @@ cert-error-trust-self-signed = この証明書は信頼されていません。�
 
 cert-error-trust-symantec = GeoTrust、RapidSSL、Symantec、Thawte、および VeriSign によって発行された証明書は、これらの認証局が過去に証明書発行ポリシーや慣行に従わなかったため安全とは見なされていません。
 
+cert-error-untrusted-default = 証明書が信頼できるソースからのものではありません。
+
 # Variables:
 # $hostname (String) - Hostname of the website with cert error.
 cert-error-domain-mismatch = ウェブサイトは証明書によってその身元を証明します。 { -brand-short-name } は { $hostname } に対して無効な証明書を使用しているため、このサイトを信頼しません。
@@ -59,8 +61,17 @@ cert-error-expired-now = ウェブサイトは証明書によってその身元�
 cert-error-not-yet-valid-now = ウェブサイトは設定された期間のみ有効な証明書によって身元を証明します。 { $hostname } の証明書は { $not-before-local-time } まで有効になりません。
 
 # Variables:
+# $error (string) - NSS error code string that specifies type of cert error. e.g. unknown issuer, invalid cert, etc.
+cert-error-code-prefix = エラーコード: { $error }
+
+# Variables:
 # $error (String) - NSS error code string that specifies type of cert error. e.g. unknown issuer, invalid cert, etc.
 cert-error-code-prefix-link = エラーコード: <a data-l10n-name="error-code-link">{ $error }</a>
+
+# Variables:
+# $hostname (String) - Hostname of the website with SSL error.
+# $errorMessage (String) - Error message corresponding to the type of error we are experiencing.
+cert-error-ssl-connection-error = { $hostname } への接続中にエラーが発生しました。 { $errorMessage }
 
 # Variables:
 # $hostname (String) - Hostname of the website with cert error.

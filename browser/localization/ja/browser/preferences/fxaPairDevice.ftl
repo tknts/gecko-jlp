@@ -8,7 +8,7 @@ fxa-pair-device-dialog-sync2 =
 fxa-qrcode-pair-title = スマートフォンまたはタブレットで { -brand-product-name } を同期する
 fxa-qrcode-pair-step1 = 1. モバイルデバイスで { -brand-product-name } を開きます。
 
-fxa-qrcode-pair-step2 = 2. <strong>メニュー</strong> (iOS の場合は <img data-l10n-name="ios-menu-icon"/> 、Android の場合は <imgdata-l10n-name="android-menu-icon"/>) を開き <strong>ログインして同期</strong> をタップします
+fxa-qrcode-pair-step2-signin = 2. メニュー> (iOS の場合は <img data-l10n-name="ios-menu-icon"/> 、Android の場合は <img data-l10n-name="android-menu-icon"/>) を開き <strong>ログインして同期</strong> をタップします
 
 fxa-qrcode-pair-step3 = 3. <strong>スキャンの準備ができました</strong> をタップして、このコードの上に携帯電話をかざします
 

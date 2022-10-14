@@ -41,7 +41,6 @@ videocontrols-picture-in-picture-toggle-label2 = この動画をポップアウ�
 # This string is used as part of a variation of the Picture-in-Picture video toggle
 # button. When using this variation, this string appears below the toggle when the
 # mouse hovers the toggle.
-videocontrols-picture-in-picture-explainer2 = 多くの画面でさらに楽しめます。ブラウジング中もこのビデオをピクチャー・イン・ピクチャーで再生します。
 videocontrols-picture-in-picture-explainer3 = 多くの画面でさらに楽しめます。他のことをしながらこのビデオを再生してください。
 
 videocontrols-error-aborted = ビデオの読み込みが停止しました。
@@ -49,7 +48,7 @@ videocontrols-error-network = ネットワークエラーによりビデオの�
 videocontrols-error-decode = ファイルが壊れているため動画を再生できません。
 videocontrols-error-src-not-supported = このビデオのファイル形式または MIME タイプに対応していません。
 videocontrols-error-no-source = 対応するファイル形式および MIME タイプのビデオが見つかりません。
-videocontrols-error-generic =  不明なエラーによりビデオの再生が中止されました。
+videocontrols-error-generic = 不明なエラーによりビデオの再生が中止されました。
 videocontrols-status-picture-in-picture = この動画はピクチャー・イン・ピクチャーモードで再生しています。
 
 # This message shows the current position and total video duration
