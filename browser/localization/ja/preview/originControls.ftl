@@ -35,7 +35,7 @@ origin-controls-option-always-on =
 
 origin-controls-state-no-access = このサイトでデータの読み取りと変更はできません
 
-origin-controls-state-always-on = いつでもデータの読み取りと変更が可能です
+origin-controls-state-always-on = このサイトのデータをいつでも読み取り変更できます
 
 origin-controls-state-when-clicked = データの読み取りと変更には権限が必要です
 

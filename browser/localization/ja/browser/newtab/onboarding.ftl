@@ -308,16 +308,16 @@ mr2022-onboarding-existing-pin-subtitle = Launch a healthier internet from anywh
 # Subtitle will be used on the welcome screen for existing users
 # when they already have Firefox pinned but not set as default
 mr2022-onboarding-existing-set-default-only-subtitle = Use a browser that defends your privacy while you zip around the web. Our latest update is packed with things that you adore.
-mr2022-onboarding-existing-pin-checkbox-label = Also add { -brand-short-name } private browsing
+mr2022-onboarding-existing-pin-checkbox-label = { -brand-short-name } のプライベート ブラウジングも追加
 
 ## MR2022 New User Set Default screen strings
 
 # This string is the title used when the user already has pinned the browser, but has not set default.
-mr2022-onboarding-set-default-title = Make { -brand-short-name } your go-to browser
-mr2022-onboarding-set-default-primary-button-label = Set { -brand-short-name } as default browser
+mr2022-onboarding-set-default-title = { -brand-short-name } をあなたの相棒にする
+mr2022-onboarding-set-default-primary-button-label = { -brand-short-name } を規定のブラウザーとして設定
 # When translating "zip", please feel free to pick a verb that signifies movement and/or exploration
 # and makes sense in the context of navigating the web.
-mr2022-onboarding-set-default-subtitle = Use a browser backed by a non-profit. We defend your privacy while you zip around the web.
+mr2022-onboarding-set-default-subtitle = 非営利団体が支援するブラウザーを使用してください。あなたがウェブを移動している間、私たちはあなたのプライバシーを守ります.
 
 ## MR2022 Get Started screen strings.
 ## These strings will be used on the welcome page
@@ -401,8 +401,8 @@ mr2022-upgrade-onboarding-pin-private-window-primary-button-label = { PLATFORM()
 mr2022-onboarding-privacy-segmentation-title = 私たちは常にあなたのプライバシーを尊重します
 mr2022-onboarding-privacy-segmentation-subtitle = 気の利いたサジェストから賢い検索機能にいたるまで、私たちは  { -brand-product-name } を、より優れた、よりあなたに寄り添ったものにするために常に取り組んでいます。
 mr2022-onboarding-privacy-segmentation-text-cta = あなたのデータを使用してブラウジングを強化する新機能を提供する場合、どのようなことを希望しますか?
-mr2022-onboarding-privacy-segmentation-primary-button-primary-label = { -brand-product-name } によるおすすめを使用
-mr2022-onboarding-privacy-segmentation-secondary-button-secondary-label = 詳細な情報を表示
+mr2022-onboarding-privacy-segmentation-button-primary-label = { -brand-product-name } によるおすすめを使用
+mr2022-onboarding-privacy-segmentation-button-secondary-label = 詳細な情報を表示
 
 ## MR2022 Multistage Gratitude screen strings
 
@@ -410,3 +410,9 @@ mr2022-onboarding-gratitude-title = より良いウェブを作るために、�
 mr2022-onboarding-gratitude-subtitle = Mozilla Foundation が支援する { -brand-short-name } をご利用いただきありがとうございます。 皆様のご支援により、私たちはインターネットをよりオープンでアクセスしやすく、すべての人にとってより良いものにするために取り組めます。
 mr2022-onboarding-gratitude-primary-button-label = 新機能を見る
 mr2022-onboarding-gratitude-secondary-button-label = ブラウジングを開始
+
+## Onboarding spotlight for infrequent users
+
+onboarding-infrequent-import-title = Make yourself at home
+onboarding-infrequent-import-subtitle = Whether you’re settling in or just stopping by, remember you can import your bookmarks, passwords, and more.
+onboarding-infrequent-import-primary-button = { -brand-short-name } からインポート
