@@ -6,13 +6,13 @@ about-reader-loading = 読み込み中…
 about-reader-load-error = ページから記事を読み込めませんでした
 
 about-reader-color-scheme-light = ライト
-    .title = Color Scheme Light
+    .title = 明るい配色を使用します
 about-reader-color-scheme-dark = ダーク
-    .title = Color Scheme Dark
+    .title = 暗い配色を使用します
 about-reader-color-scheme-sepia = セピア
-    .title = Color Scheme Sepia
+    .title = セピアカラーの配色を使用します
 about-reader-color-scheme-auto = 自動
-    .title = Color Scheme Auto
+    .title = 配色を自動的に設定します
 
 # An estimate for how long it takes to read an article,
 # expressed as a range covering both slow and fast readers.
@@ -48,5 +48,5 @@ about-reader-font-type-sans-serif = Sans-serif
 ## Reader View toolbar buttons
 
 about-reader-toolbar-close = リーダービューを閉じる
-about-reader-toolbar-type-controls = Type controls
+about-reader-toolbar-type-controls = 文字を制御
 about-reader-toolbar-savetopocket = { -pocket-brand-name } に保存

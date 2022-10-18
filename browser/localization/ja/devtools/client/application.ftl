@@ -64,10 +64,10 @@ serviceworker-empty-suggestions2 = 現在のページに Service Worker が必�
 serviceworker-empty-suggestions-aboutdebugging2 = 他のドメインの Service Worker を確認する
 
 # Header for the Manifest page when we have an actual manifest
-manifest-view-header = アプリマニフェスト
+manifest-view-header = アプリのマニフェスト
 
 # Header for the Manifest page when there's no manifest to inspect
-manifest-empty-intro2 = ウェブアプリ マニフェストは検出されませんでした。マニフェストの追加方法について
+manifest-empty-intro2 = ウェブアプリのマニフェストが検出されませんでした。マニフェストの追加方法について
 
 # The link will open https://developer.mozilla.org/en-US/docs/Web/Manifest
 manifest-empty-intro-link = さらに詳しく
