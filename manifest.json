@@ -10,10 +10,10 @@
   },
   "name": "Japanese (JP) Language Pack",
   "description": "Unofficial Language pack for Firefox Nightly for ja",
-  "version": "108.0a1buildid20221017.213658",
+  "version": "108.0a1buildid20221020.215126",
   "languages": {
     "ja": {
-      "version": "20221017213658",
+      "version": "20221020215126",
       "chrome_resources": {
         "app-marketplace-icons": "browser/chrome/browser/locale/ja/app-marketplace-icons/",
         "branding": "browser/chrome/ja/locale/branding/",
@@ -49,5 +49,5 @@
     }
   },
   "author": "tknts",
-	"homepage_url": "https://github.com/tknts/gecko-jlp"
+  "homepage_url": "https://github.com/tknts/gecko-jlp"
 }

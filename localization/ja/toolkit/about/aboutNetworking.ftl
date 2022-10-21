@@ -21,28 +21,19 @@ about-networking-active = 動作
 about-networking-idle = 待機
 about-networking-host = ホスト
 about-networking-type = 種類
-about-networking-sent = Sent
-about-networking-received = Received
-about-networking-family = Family
+about-networking-sent = 送信
+about-networking-received = 受信
+about-networking-family = 系統
 about-networking-trr = TRR
 about-networking-addresses = アドレス
 about-networking-expires = 期限 (秒)
-about-networking-originAttributesSuffix = Isolation Key
+about-networking-originAttributesSuffix = 隔離キー
 about-networking-flags = 追加フラグ
 about-networking-messages-sent = 送信メッセージ
 about-networking-messages-received = 受信メッセージ
 about-networking-bytes-sent = 送信バイト数
 about-networking-bytes-received = 受信バイト数
 about-networking-logging = ロギング
-about-networking-log-tutorial =このツールの使い方は <a data-l10n-name="logging">HTTP ロギング</a> を参照してください。
-
-
-about-networking-current-log-file = 現在のログファイル:
-about-networking-current-log-modules = 現在のログモジュール:
-about-networking-set-log-file = ログファイルを設定
-about-networking-set-log-modules = ログモジュールを設定
-about-networking-start-logging = ロギングを開始
-about-networking-stop-logging = ロギングを停止
 about-networking-dns-lookup = DNS ルックアップ
 about-networking-dns-lookup-button = 名前解決
 about-networking-dns-domain = ドメイン:
@@ -58,17 +49,19 @@ about-networking-rcwn-perf-open = 開く
 about-networking-rcwn-perf-read = 読み込み
 about-networking-rcwn-perf-write = 書き込み
 about-networking-rcwn-perf-entry-open = エントリーを開く
-about-networking-rcwn-avg-short = Short Average
-about-networking-rcwn-avg-long = Long Average
-about-networking-rcwn-std-dev-long = Long Standard Deviation
-about-networking-rcwn-cache-slow = Cache slow count
-about-networking-rcwn-cache-not-slow = Cache not slow count
+about-networking-rcwn-avg-short = 短期平均
+about-networking-rcwn-avg-long = 長期平均
+about-networking-rcwn-std-dev-long = 長期標準偏差
+about-networking-rcwn-cache-slow = キャッシュ遅滞回数
+about-networking-rcwn-cache-not-slow = キャッシュ非遅滞回数
 about-networking-networkid = ネットワーク ID
 about-networking-networkid-id = ネットワーク ID
+# Note: do not translate about:logging, as it is a URL.
+about-networking-moved-about-logging = このページは <a data-l10n-name="about-logging-url">about:logging</a> に移動しました。
 
 ## Link is intended as "network link"
 
 about-networking-networkid-is-up = リンクアップ
-about-networking-networkid-status-known = Link status is known
+about-networking-networkid-status-known = リンク状態が既知
 
 ##

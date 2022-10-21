@@ -5,17 +5,17 @@
 ## Colorway collections
 
 colorway-collection-independent-voices = インディペンデント・ボイス
-colorway-collection-independent-voices-description = カラーはカルチャーを変えることができます。最新のカラーテーマは、世界をより良い場所にする声を称えます。
+colorway-collection-independent-voices-description = 色彩で文化を変えることができます。世界をより良い場所にする声を最新のテーマカラーで称えます。
 # Used as a subheading for the colorway collection card in about:addons
-colorway-collection-independent-voices-short-description = カラーでカルチャーを変える
+colorway-collection-independent-voices-short-description = 色彩は文化を変える
 
 ## Colorway names and descriptions
 
-playmaker-colorway-name = プレーメーカー
+playmaker-colorway-name = プレイメーカー
 playmaker-colorway-description = あなたは勝つためのチャンスを作り、周りの人たちのレベルアップを助けます。
 
 expressionist-colorway-name = エクスプレショニスト
-expressionist-colorway-description = あなたは世界を違った角度から見ていて、あなたの創造物は他人の感情をかき立てます。
+expressionist-colorway-description = あなたは世界を違った角度から見ていて、あなたの創作物は他人の感情をかき立てます。
 
 visionary-colorway-name = ビジョナリー
 visionary-colorway-description = 現状に疑問を持ち、より良い未来を想像して周囲を動かすことができる人です。

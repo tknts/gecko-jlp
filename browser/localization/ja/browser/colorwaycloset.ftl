@@ -7,9 +7,9 @@
 colorway-collection-expiry-label = 利用期限 { DATETIME($expiryDate, month: "long", day: "numeric") } まで
 
 # Document title, not shown in the UI but exposed through accessibility APIs
-colorways-modal-title = あなたのカラーテーマを選択
+colorways-modal-title = あなたのテーマカラーを選択
 
-colorway-intensity-selector-label = 彩度
+colorway-intensity-selector-label = 強度
 colorway-intensity-soft = ソフト
 colorway-intensity-balanced = バランス
 # "Bold" is used in the sense of bravery or courage, not in the sense of
@@ -17,10 +17,10 @@ colorway-intensity-balanced = バランス
 colorway-intensity-bold = ボールド
 
 # Label for the button to keep using the selected colorway in the browser
-colorway-closet-set-colorway-button = カラーテーマを設定
+colorway-closet-set-colorway-button = テーマカラーを設定
 colorway-closet-cancel-button = キャンセル
 
-colorway-homepage-reset-prompt = Make { -firefox-home-brand-name } your colorful homepage
-colorway-homepage-reset-success-message = { -firefox-home-brand-name } is now your homepage
+colorway-homepage-reset-prompt = { -firefox-home-brand-name } をカラフルなホームページに
+colorway-homepage-reset-success-message = { -firefox-home-brand-name } があなたのホームページになりました
 colorway-homepage-reset-apply-button = 適用
 colorway-homepage-reset-undo-button = 元に戻す
