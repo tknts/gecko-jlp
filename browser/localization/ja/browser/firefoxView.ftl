@@ -78,9 +78,9 @@ firefoxview-pickup-tabs-badge = 最終ログイン時
 firefoxview-tabs-list-tab-button =
   .title = { $targetURI } を新しいタブで開く
 
-firefoxview-try-colorways-button = カラーリングを試す
-firefoxview-no-current-colorway-collection = 新しいカラーリングが登場
-firefoxview-change-colorway-button = カラーリングを変える
+firefoxview-try-colorways-button = テーマカラーを試す
+firefoxview-no-current-colorway-collection = 新しいテーマカラーが登場
+firefoxview-change-colorway-button = テーマカラーを変える
 
 # Variables:
 #  $intensity (String): Colorway intensity
