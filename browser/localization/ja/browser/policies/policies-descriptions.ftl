@@ -21,7 +21,7 @@ policy-AppUpdateURL = アプリケーションのカスタム更新URL を設定
 
 policy-Authentication = ウェブサイトが対応する統合認証を構成します。
 
-policy-AutoLaunchProtocolsFromOrigins = Define a list of external protocols that can be used from listed origins without prompting the user.
+policy-AutoLaunchProtocolsFromOrigins = ユーザーにプロンプトを表示せずに一覧化された Origin から使用できる外部プロトコルの一覧を定義します。
 
 policy-BackgroundAppUpdate2 = バックグラウンド更新を有効または無効にします。
 
@@ -60,9 +60,9 @@ policy-DisableFirefoxAccounts = 同期機能を含む { -fxaccount-brand-name } 
 # Firefox Screenshots is the name of the feature, and should not be translated.
 policy-DisableFirefoxScreenshots = Firefox Screenshots 機能を無効にします。
 
-policy-DisableFirefoxStudies = Prevent { -brand-short-name } from running studies.
+policy-DisableFirefoxStudies = { -brand-short-name } が Studies 調査に参加できないようにします。
 
-policy-DisableForgetButton = Prevent access to the Forget button.
+policy-DisableForgetButton = [忘れる] ボタンへのアクセスをブロックします。
 
 policy-DisableFormHistory = 検索とフォームの履歴を記憶しないようにします。
 
@@ -168,7 +168,7 @@ policy-PasswordManagerExceptions = { -brand-short-name } が特定のサイト�
 # PDF.js and PDF should not be translated
 policy-PDFjs = { -brand-short-name } の組み込み PDF ビューアー (PDF.js) を無効化し設定します。
 
-policy-Permissions2 = Configure permissions for camera, microphone, location, notifications, and autoplay.
+policy-Permissions2 = カメラ、マイク、場所、通知、および自動再生のアクセス許可を構成します。
 
 policy-PictureInPicture = ピクチャー・イン・ピクチャーの使用を切り替えます。
 
