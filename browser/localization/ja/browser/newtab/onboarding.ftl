@@ -285,9 +285,9 @@ mr2022-onboarding-secondary-skip-button-label = このステップをスキッ�
 # In this context, open up is synonymous with "Discover".
 # The metaphor is that when they open their Firefox browser, it helps them discover an amazing internet.
 # If this translation does not make sense in your language, feel free to use the word "discover."
-mr2022-onboarding-welcome-pin-header = Open up an amazing internet
+mr2022-onboarding-welcome-pin-header = すばらしいインターネットを開く
 # Subtitle is used on onboarding page for new users page when Firefox is not pinned
-mr2022-onboarding-welcome-pin-subtitle = Launch { -brand-short-name } from anywhere with a single click. Every time you do, you’re choosing a more open and independent web.
+mr2022-onboarding-welcome-pin-subtitle = ワンクリックでどこからでも { -brand-short-name } を起動できます。そのたびに、よりオープンで自立したウェブを選択していることになります。
 # Primary button string used on welcome page for when Firefox is not pinned.
 mr2022-onboarding-pin-primary-button-label = { PLATFORM() ->
     [macos] Keep { -brand-short-name } in Dock
