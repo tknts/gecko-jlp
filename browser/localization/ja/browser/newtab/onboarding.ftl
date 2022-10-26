@@ -416,3 +416,23 @@ mr2022-onboarding-gratitude-secondary-button-label = ブラウジングを開始
 onboarding-infrequent-import-title = Make yourself at home
 onboarding-infrequent-import-subtitle = Whether you’re settling in or just stopping by, remember you can import your bookmarks, passwords, and more.
 onboarding-infrequent-import-primary-button = { -brand-short-name } からインポート
+
+## MR2022 Illustration alt tags
+## Descriptive tags for illustrations used by screen readers and other assistive tech
+
+mr2022-onboarding-pin-image-alt =
+  .aria-label = 星と花に囲まれてラップトップで作業する人
+mr2022-onboarding-default-image-alt =
+  .aria-label = { -brand-product-name } のロゴを抱きしめる人
+mr2022-onboarding-import-image-alt =
+  .aria-label = ソフトウェア アイコンの入った箱を持ってスケートボードに乗っている人
+mr2022-onboarding-mobile-download-image-alt =
+  .aria-label = スイレンの葉の上をカエル達が飛んでいます。中央にモバイル用の { -brand-product-name } をダウンロードするための QR コードがあります。
+mr2022-onboarding-pin-private-image-alt =
+  .aria-label = 魔法の杖により { -brand-product-name } のプライベート ブラウジングのロゴが帽子の外に現れました
+mr2022-onboarding-privacy-segmentation-image-alt =
+  .aria-label = 異なる人種の人がハイタッチしています
+mr2022-onboarding-gratitude-image-alt =
+  .aria-label = 窓辺で眠るキツネと植物がある窓からの夕日の眺め
+mr2022-onboarding-colorways-image-alt =
+  .aria-label = 缶スプレーで、緑の目、オレンジ色の靴、赤いバスケットボール、紫のヘッドフォン、青いハート、黄色い王冠のコラージュをカラフルにペイントしています。

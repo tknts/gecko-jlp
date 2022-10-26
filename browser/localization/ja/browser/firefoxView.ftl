@@ -56,6 +56,11 @@ firefoxview-tabpickup-sync-disconnected-header = 続行するには同期を有�
 firefoxview-tabpickup-sync-disconnected-description = タブを取得するには { -brand-short-name } での同期を許可する必要があります。
 firefoxview-tabpickup-sync-disconnected-primarybutton = 設定で同期を有効にする
 
+firefoxview-tabpickup-password-locked-header = タブを表示するにはプライマリ パスワードを入力してください
+firefoxview-tabpickup-password-locked-description = タブを取得するには { -brand-short-name } のプライマリ パスワードを入力する必要があります。
+firefoxview-tabpickup-password-locked-link = さらに詳しく
+firefoxview-tabpickup-password-locked-primarybutton = プライマリ パスワードを入力
+
 firefoxview-tabpickup-syncing = タブが同期している間、座って待っていてください。 それはほんの一瞬で終わります。
 
 firefoxview-mobile-promo-header = スマートフォンやタブレットからタブを取得する

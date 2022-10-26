@@ -112,6 +112,10 @@ places-delete-bookmark =
       }
   .accesskey = D
 
+places-untag-bookmark =
+  .label = タグを削除
+  .accesskey = R
+
 places-manage-bookmarks =
   .label = ブックマークを管理
   .accesskey = M

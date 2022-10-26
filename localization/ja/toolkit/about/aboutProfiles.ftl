@@ -4,22 +4,22 @@
 
 
 profiles-title = プロファイルについて
-profiles-subtitle = This page helps you to manage your profiles. Each profile is a separate world which contains separate history, bookmarks, settings and add-ons.
+profiles-subtitle = このページはプロファイルを管理するのに役立ちます。 各プロファイルには、個別の履歴、ブックマーク、設定とアドオンを含む独立した世界です。
 profiles-create = 新しいプロファイルを作成
 profiles-restart-title = 再起動
-profiles-restart-in-safe-mode = Restart with Add-ons Disabled…
-profiles-restart-normal = Restart normally…
-profiles-conflict = Another copy of { -brand-product-name } has made changes to profiles. You must restart { -brand-short-name } before making more changes.
-profiles-flush-fail-title = Changes not saved
+profiles-restart-in-safe-mode = アドオンを無効化して再起動…
+profiles-restart-normal = 通常プロセスで再起動…
+profiles-conflict = { -brand-product-name } の別のコピーがプロファイルに変更を加えました。さらに変更を加える前に { -brand-short-name } を再起動する必要があります。
+profiles-flush-fail-title = 変更と保存
 profiles-flush-conflict = { profiles-conflict }
-profiles-flush-failed = An unexpected error has prevented your changes from being saved.
-profiles-flush-restart-button = Restart { -brand-short-name }
+profiles-flush-failed = 予期しないエラーにより、変更を保存できませんでした。
+profiles-flush-restart-button = { -brand-short-name } を再起動
 
 # Variables:
 #   $name (String) - Name of the profile
 profiles-name = プロファイル: { $name }
-profiles-is-default = Default Profile
-profiles-rootdir = Root Directory
+profiles-is-default = デフォルトのプロファイル
+profiles-rootdir = ルート ディレクトリ
 
 # localDir is used to show the directory corresponding to
 # the main profile directory that exists for the purpose of storing data on the
@@ -27,48 +27,48 @@ profiles-rootdir = Root Directory
 # represent critical user data. (e.g., this directory may not be included as
 # part of a backup scheme.)
 # In case localDir and rootDir are equal, localDir is not shown.
-profiles-localdir = Local Directory
-profiles-current-profile = This is the profile in use and it cannot be deleted.
-profiles-in-use-profile = This profile is in use in another application and it cannot be deleted.
+profiles-localdir = ローカル ディレクトリ
+profiles-current-profile = このプロファイルは使用中のため削除できません。
+profiles-in-use-profile = このプロファイルは別のアプリケーションで使用されているため削除できません。
 
-profiles-rename = Rename
-profiles-remove = Remove
-profiles-set-as-default = Set as default profile
-profiles-launch-profile = Launch profile in new browser
+profiles-rename = 名前の変更
+profiles-remove = 削除
+profiles-set-as-default = デフォルトのプロファイルに設定
+profiles-launch-profile = 新しいブラウザーでプロファイルを起動
 
-profiles-cannot-set-as-default-title = Unable to set default
-profiles-cannot-set-as-default-message = The default profile cannot be changed for { -brand-short-name }.
+profiles-cannot-set-as-default-title = デフォルトに設定できません
+profiles-cannot-set-as-default-message = { -brand-short-name } のデフォルト プロファイルを変更できませんでした。
 
-profiles-yes = yes
-profiles-no = no
+profiles-yes = はい
+profiles-no = いいえ
 
 profiles-rename-profile-title = プロファイルの名前を変更
 # Variables:
 #   $name (String) - Name of the profile
-profiles-rename-profile = Rename profile { $name }
+profiles-rename-profile = プロファイル ({ $name }) の名前を変更
 
-profiles-invalid-profile-name-title = Invalid profile name
+profiles-invalid-profile-name-title = プロフィール名が無効です
 # Variables:
 #   $name (String) - Name of the profile
-profiles-invalid-profile-name = The profile name “{ $name }” is not allowed.
+profiles-invalid-profile-name = プロファイルの名前に “{ $name }” を使用する事は許可されていません。
 
 profiles-delete-profile-title = プロファイルの削除
 # Variables:
 #   $dir (String) - Path to be displayed
 profiles-delete-profile-confirm =
-    Deleting a profile will remove the profile from the list of available profiles and cannot be undone.
-    You may also choose to delete the profile data files, including your settings, certificates and other user-related data. This option will delete the folder “{ $dir }” and cannot be undone.
-    Would you like to delete the profile data files?
+    プロファイルを削除すると、使用可能なプロファイルの一覧からプロファイルが削除され、元に戻すことはできません。
+		また、設定、証明書、その他のユーザー関連データを含むプロファイルのデータ ファイルを削除することもできます。このオプションはフォルダー “{ $dir }” を削除し、元に戻すことはできません。
+		プロファイルのデータ ファイルを削除しますか?
 profiles-delete-files = ファイルを削除
 profiles-dont-delete-files = ファイルを削除できません
 
 profiles-delete-profile-failed-title = エラー
-profiles-delete-profile-failed-message = There was an error while attempting to delete this profile.
+profiles-delete-profile-failed-message = このプロファイルの削除中にエラーが発生しました。
 
 
 profiles-opendir = 
     { PLATFORM() ->
         [macos] Show in Finder
         [windows] フォルダーを開く
-       *[other] Open Directory
+       *[other] ディレクトリを開く
     }
