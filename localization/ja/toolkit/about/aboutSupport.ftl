@@ -116,8 +116,17 @@ graphics-workarounds-title = 回避策
 # Windowing system in use on Linux (e.g. X11, Wayland).
 graphics-window-protocol = ウィンドウプロトコル
 # Desktop environment in use on Linux (e.g. GNOME, KDE, XFCE, etc).
-graphics-desktop-environment = Desktop Environment
+graphics-desktop-environment = デスクトップ環境
 place-database-title = Places データベース
+place-database-stats = 統計
+place-database-stats-show = 統計を表示
+place-database-stats-hide = 統計を非表示
+place-database-stats-entity = Entity
+place-database-stats-count = Count
+place-database-stats-size-kib = サイズ (KiB)
+place-database-stats-size-perc = サイズ (%)
+place-database-stats-efficiency-perc = Efficiency (%)
+place-database-stats-sequentiality-perc = Sequentiality (%)
 place-database-integrity = 完全性
 place-database-verify-integrity = 完全性を検証
 a11y-title = アクセシビリティ
@@ -292,7 +301,7 @@ webgl2-extensions = WebGL 2 拡張
 
 # Variables
 #   $bugNumber (string) - Bug number on Bugzilla
-support-blocklisted-bug = Blocklisted due to known issues: <a data-l10n-name="bug-link">bug { $bugNumber }</a>
+support-blocklisted-bug = 既知の問題によりブロックリストに登録済み: <a data-l10n-name="bug-link">bug { $bugNumber }</a>
 
 # Variables
 # $failureCode (string) - String that can be searched in the source tree.
@@ -323,17 +332,17 @@ can-sandbox-content = コンテンツプロセスのサンドボックス化
 can-sandbox-media = メディアプラグインのサンドボックス化
 content-sandbox-level = コンテンツプロセスのサンドボックスレベル
 effective-content-sandbox-level = 効果的なコンテンツプロセスのサンドボックスレベル
-content-win32k-lockdown-state = Win32k Lockdown State for Content Process
+content-win32k-lockdown-state = コンテンツプロセスの Win32k ロックダウン状態
 sandbox-proc-type-content = コンテンツ
 sandbox-proc-type-file = ファイルコンテンツ
 sandbox-proc-type-media-plugin = メディアプラグイン
 sandbox-proc-type-data-decoder = データデコーダー
 
-startup-cache-title = Startup Cache
-startup-cache-disk-cache-path = Disk Cache Path
-startup-cache-ignore-disk-cache = Ignore Disk Cache
-startup-cache-found-disk-cache-on-init = Found Disk Cache on Init
-startup-cache-wrote-to-disk-cache = Wrote to Disk Cache
+startup-cache-title = 起動時キャッシュ
+startup-cache-disk-cache-path = ディスク キャッシュのパス
+startup-cache-ignore-disk-cache = ディスク キャッシュ無視
+startup-cache-found-disk-cache-on-init =初期化時に見つけたディスク キャッシュ
+startup-cache-wrote-to-disk-cache = ディスク キャッシュへの書き込み
 
 launcher-process-status-0 = 有効
 launcher-process-status-1 = 失敗したため無効
@@ -348,17 +357,17 @@ multi-process-windows = { $remoteWindows }/{ $totalWindows }
 # $fissionWindows (integer) - Number of remote windows
 # $totalWindows (integer) - Number of total windows
 fission-windows = { $fissionWindows }/{ $totalWindows }
-fission-status-experiment-control = Disabled by experiment
-fission-status-experiment-treatment = Enabled by experiment
-fission-status-disabled-by-e10s-env = Disabled by environment
-fission-status-enabled-by-env = Enabled by environment
-fission-status-disabled-by-env = Disabled by environment
-fission-status-enabled-by-default = Enabled by default
-fission-status-disabled-by-default = Disabled by default
-fission-status-enabled-by-user-pref = Enabled by user
-fission-status-disabled-by-user-pref = Disabled by user
-fission-status-disabled-by-e10s-other = E10s disabled
-fission-status-enabled-by-rollout = Enabled by phased rollout
+fission-status-experiment-control = 実験中のため無効
+fission-status-experiment-treatment = 実験中のため有効
+fission-status-disabled-by-e10s-env = 動作環境により E10s は無効
+fission-status-enabled-by-env = 動作環境により有効
+fission-status-disabled-by-env = 動作環境により無効
+fission-status-enabled-by-default = デフォルトで有効
+fission-status-disabled-by-default = デフォルトで無効
+fission-status-enabled-by-user-pref = ユーザーにより有効
+fission-status-disabled-by-user-pref = ユーザーにより無効
+fission-status-disabled-by-e10s-other = E10s 無効
+fission-status-enabled-by-rollout = 段階的ロールアウトにより有効
 
 async-pan-zoom = 非同期パン / ズーム
 apz-none = なし
@@ -386,17 +395,17 @@ policies-error = エラー
 support-printing-title = 印刷
 support-printing-troubleshoot = トラブルシューティング
 support-printing-clear-settings-button = 保存されている印刷設定を消去
-support-printing-modified-settings = Modified print settings
+support-printing-modified-settings = 変更された印刷設定
 support-printing-prefs-name = 名前
 support-printing-prefs-value = 値
 
 ## Normandy sections
 
-support-remote-experiments-title = Remote Experiments
-support-remote-experiments-name = Name
-support-remote-experiments-branch = Experiment Branch
-support-remote-experiments-see-about-studies = See <a data-l10n-name="support-about-studies-link">about:studies</a> for more information, including how to disable individual experiments or to disable { -brand-short-name } from running this type of experiment in the future.
+support-remote-experiments-title = リモート機能の実験
+support-remote-experiments-name = 名前
+support-remote-experiments-branch = 実験ブランチ
+support-remote-experiments-see-about-studies = 個々の実験を無効にする方法や { -brand-short-name } で今後の実験を無効にする方法など、詳細については <a data-l10n-name="support-about-studies-link">about:studies</a> をご覧ください。
 
-support-remote-features-title = Remote Features
-support-remote-features-name = Name
-support-remote-features-status = Status
+support-remote-features-title = リモート機能
+support-remote-features-name = 名前
+support-remote-features-status = 状態

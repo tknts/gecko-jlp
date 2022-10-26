@@ -38,13 +38,13 @@ restore-page-close-button =
 
 welcome-back-tab-title = 成功!
 welcome-back-page-title = 成功!
-welcome-back-page-info = { -brand-short-name } is ready to go.
+welcome-back-page-info = { -brand-short-name } の準備が整いました。
 
 welcome-back-restore-button =
-    .label = Let’s go!
+    .label = さあ始めましょう!
     .accesskey = L
 
-welcome-back-restore-all-label = すべてのウィンドウとタブを復元
-welcome-back-restore-some-label = Restore only the ones you want
+welcome-back-restore-all-label = すべてのウィンドウとタブを復元する
+welcome-back-restore-some-label = 必要なものだけを復元する
 
-welcome-back-page-info-link = Your add-ons and customizations have been removed and your browser settings have been restored to their defaults. If this didn’t fix your issue, <a data-l10n-name="link-more">learn more about what you can do.</a>
+welcome-back-page-info-link = アドオンとカスタマイズが削除され、ブラウザーの設定がデフォルトに復元されました。これで問題が解決しない場合は <a data-l10n-name="link-more">解決方法の詳細</a> をご覧ください。
