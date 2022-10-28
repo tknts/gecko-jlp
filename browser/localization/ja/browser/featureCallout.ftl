@@ -37,6 +37,20 @@ callout-firefox-view-colorways-reminder-subtitle = Color your browser with these
 # Alternative: ”Improve your browsing experience with tab pickup”
 continuous-onboarding-firefox-view-tab-pickup-title = Boost your browsing with tab pickup
 
-continuous-onboarding-firefox-view-tab-pickup-subtitle = Access your open tabs from any device. Plus sync your bookmarks, passwords, and more.
+continuous-onboarding-firefox-view-tab-pickup-subtitle = どのデバイスからでも開いているタブにアクセスできます。 さらに、ブックマーク、パスワードなどを同期します。
 
 continuous-onboarding-firefox-view-tab-pickup-primary-button-label = 始めましょう
+
+## PDF.js Feature Tour Strings
+
+callout-pdfjs-edit-title = 新しいテキスト ツールで PDF を編集
+callout-pdfjs-edit-body-a = フォームに記入したり、コメントを追加したり { -brand-short-name } で直接メモを取れます。
+callout-pdfjs-edit-body-b = 無料のオンライン エディターの検索をスキップします。フォームに記入したり、コメントを追加したり { -brand-short-name } で直接メモを取れます。
+callout-pdfjs-edit-button = 次へ
+
+callout-pdfjs-draw-title = Sign documents with our new draw tool
+# “Mark up” refers to the process of “annotating” or adding free hand text or diagramming to the document.
+callout-pdfjs-draw-body-a = PDF をマークアップして変更を保存します。
+# “Mark up” refers to the process of “annotating” or adding free hand text or diagramming to the document.
+callout-pdfjs-draw-body-b = 印刷やスキャンはもう必要ありません。PDF をマークアップして変更を保存します。
+callout-pdfjs-draw-button = Got it!
