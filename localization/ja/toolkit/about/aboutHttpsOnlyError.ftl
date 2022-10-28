@@ -19,7 +19,7 @@ about-httpsonly-link-learn-more = さらに詳しく…
 
 ## Suggestion Box that only shows up if a secure connection to www can be established
 ## Variables:
-##   $websiteUrl (String) - Url of the website that can be securely loded with these alternatives. Example: example.com
+##   $websiteUrl (String) - Url of the website that can be securely loaded with these alternatives. Example: example.com
 
 about-httpsonly-suggestion-box-header = 利用可能な代替案
 about-httpsonly-suggestion-box-www-text = 安全なバージョンの <em>www.{ $websiteUrl }</em> があります。<em>{ $websiteUrl }</em> の代わりに、このページにアクセスできます。
