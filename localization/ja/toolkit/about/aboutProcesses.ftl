@@ -22,8 +22,8 @@ about-processes-shutdown-tab =
 #                       The value will be an integer, typically less than 10.
 about-processes-profile-process =
     .title = { $duration ->
-   [one] Profile all threads of this process for { $duration } second
-  *[other] Profile all threads of this process for { $duration } seconds
+   [one] このプロセスの全スレッドを { $duration } 秒間プロファイリングします
+  *[other] このプロセスの全スレッドを { $duration } 秒間プロファイリングします
 }
 
 ## Column headers
@@ -42,7 +42,7 @@ about-processes-file-process = ファイル ({ $pid })
 about-processes-extension-process = 拡張機能 ({ $pid })
 about-processes-privilegedabout-process = About ページ ({ $pid })
 about-processes-plugin-process = プラグイン ({ $pid })
-about-processes-privilegedmozilla-process = { -vendor-short-name } sites ({ $pid })
+about-processes-privilegedmozilla-process = { -vendor-short-name } サイト ({ $pid })
 about-processes-gmp-plugin-process = Gecko Media Plugins ({ $pid })
 about-processes-gpu-process = GPU ({ $pid })
 about-processes-vr-process = VR ({ $pid })
@@ -83,8 +83,8 @@ about-processes-with-coop-coep-process-private = { $origin } — Private ({ $pid
 #    $list (String) Comma separated list of active threads.
 #                   Can be an empty string if the process is idle.
 about-processes-active-threads = { $active ->
-   [one] { $active } active thread out of { $number }: { $list }
-  *[other] { $active } active threads out of { $number }: { $list }
+   [one] { $number } スレッド中 { $active } 個のアクティブなスレッド: { $list }
+  *[other] { $number } スレッド中 { $active } 個のアクティブなスレッド: { $list }
 }
 
 # Single-line summary of threads (idle process)
