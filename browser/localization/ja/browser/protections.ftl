@@ -28,9 +28,9 @@ graph-week-summary-private-window = { -brand-short-name } が今週ブロック�
 protection-report-webpage-title = プロテクション ダッシュボード
 protection-report-page-content-title = プロテクション ダッシュボード
 # This message shows when all privacy protections are turned off, which is why we use the word "can", Firefox is able to protect your privacy, but it is currently not.
-protection-report-page-summary = { -brand-short-name } can protect your privacy behind the scenes while you browse. This is a personalized summary of those protections, including tools to take control of your online security.
+protection-report-page-summary = { -brand-short-name } はブラウジングの舞台裏でプライバシーを保護します。 これはパーソナライズされた保護結果の概要であり、オンラインセキュリティを制御するツールを含みます。
 # This message shows when at least some protections are turned on, we are more assertive compared to the message above, Firefox is actively protecting you.
-protection-report-page-summary-default = { -brand-short-name } protects your privacy behind the scenes while you browse. This is a personalized summary of those protections, including tools to take control of your online security.
+protection-report-page-summary-default = { -brand-short-name } はブラウジングの舞台裏でプライバシーを保護します。 これはパーソナライズされた保護結果の概要であり、オンラインセキュリティを制御するツールを含みます。
 
 protection-report-settings-link = プライバシーとセキュリティの設定を管理します
 
@@ -66,11 +66,11 @@ protections-close-button2 =
   .aria-label = 閉じる
   .title = 閉じる
  
-mobile-app-title = Block ad trackers across more devices
-mobile-app-card-content = Use the mobile browser with built-in protection against ad tracking.
-mobile-app-links = { -brand-product-name } Browser for <a data-l10n-name="android-mobile-inline-link">Android</a> and <a data-l10n-name="ios-mobile-inline-link">iOS</a>
+mobile-app-title = より多くのデバイスで広告トラッカーをブロック
+mobile-app-card-content = モバイルブラウザーでも保護機能で広告トラッカーをブロックしましょう。
+mobile-app-links = <a data-l10n-name="android-mobile-inline-link">Android</a> および <a data-l10n-name="ios-mobile-inline-link">iOS</a> 用の { -brand-product-name } ブラウザー
 
-lockwise-title = もうパスワードを忘れない
+lockwise-title = 二度とパスワードを忘れないように
 passwords-title-logged-in = パスワードの管理
 passwords-header-content = { -brand-product-name } はあなたのパスワードを安全にブラウザーに保存します。
 lockwise-header-content-logged-in = パスワードを安全に保存して、あなたが使用するすべてのデバイスと共有しましょう。
@@ -84,8 +84,8 @@ protection-report-passwords-manage-passwords-button = パスワードを管理
 # $count (Number) - Number of passwords exposed in data breaches.
 lockwise-scanned-text-breached-logins =
   { $count ->
-      [one] ひとつのパスワードが漏洩している可能性があります。
-     *[other] { $count } 個のパスワードが漏洩している可能性があります。
+      [one] ひとつのパスワードが流出している可能性があります。
+     *[other] { $count } 個のパスワードが流出している可能性があります。
   }
 
 # While English doesn't use the number in the plural form, you can add $count to your language
@@ -101,26 +101,26 @@ lockwise-how-it-works-link = 仕組みについて
 
 monitor-title = データの漏洩に注意を
 monitor-link = 仕組みについて
-monitor-header-content-no-account = { -monitor-brand-name } で既知のデータ漏洩にあなたが含まれるか確認できます。新たな漏洩があったときも警告してくれます。
-monitor-header-content-signed-in = { -monitor-brand-name } は既知のデータ漏洩にあなたの情報を発見したときに警告します。
-monitor-sign-up-link = サインアップして漏洩の警告を受け取る
-  .title = サインアップして { -monitor-brand-name } から漏洩の警告を受け取ります
+monitor-header-content-no-account = { -monitor-brand-name } で既知の流出した情報に、あなたの情報が含まれるか確認できます。新たな漏洩があったときも警告してくれます。
+monitor-header-content-signed-in = { -monitor-brand-name } は既知の流出した情報から、あなたの情報を発見したときに警告します。
+monitor-sign-up-link = サインアップして情報流出の警告を受け取る
+  .title = サインアップして { -monitor-brand-name } から情報流出の警告を受け取ります
 auto-scan = 本日、自動的にスキャンしました
 
 monitor-emails-tooltip =
-  .title = View monitored email addresses on { -monitor-brand-short-name }
+  .title = 監視中のメールアドレスを { -monitor-brand-short-name } で確認する
 monitor-breaches-tooltip =
-  .title = View known data breaches on { -monitor-brand-short-name }
+  .title = 既知の情報の流出を { -monitor-brand-short-name } で確認する
 monitor-passwords-tooltip =
-  .title = View exposed passwords on { -monitor-brand-short-name }
+  .title = 流出したパスワードを { -monitor-brand-short-name } で確認する
 
 # This string is displayed after a large numeral that indicates the total number
 # of email addresses being monitored. Don’t add $count to
 # your localization, because it would result in the number showing twice.
 info-monitored-emails =
   { $count ->
-     [one] メールアドレスを監視しています
-    *[other] メールアドレスを監視しています
+     [one]  メールアドレスを監視しています
+    *[other]  メールアドレスを監視しています
   }
 
 # This string is displayed after a large numeral that indicates the total number
@@ -128,8 +128,8 @@ info-monitored-emails =
 # your localization, because it would result in the number showing twice.
 info-known-breaches-found =
   { $count ->
-     [one] 既知の漏洩データから、あなたの情報を発見しました
-    *[other] 既知の漏洩データから、あなたの情報を発見しました
+     [one] 既知の流出した情報から発見された、あなたの情報
+    *[other] 既知の流出した情報から発見された、あなたの情報
   }
 
 # This string is displayed after a large numeral that indicates the total number
@@ -137,8 +137,8 @@ info-known-breaches-found =
 # to your localization, because it would result in the number showing twice.
 info-known-breaches-resolved =
   { $count ->
-     [one] 既知のデータ侵害は解決済みとして記録されています
-    *[other] 既知のデータ侵害は解決済みとして記録されています
+     [one] 既知の情報流出は解決済みとして記録されています
+    *[other] 既知の情報流出は解決済みとして記録されています
   }
 
 # This string is displayed after a large numeral that indicates the total number
@@ -146,8 +146,8 @@ info-known-breaches-resolved =
 # your localization, because it would result in the number showing twice.
 info-exposed-passwords-found =
   { $count ->
-     [one] すべての漏洩したデータからパスワードを発見しました
-    *[other] すべての漏洩したデータからパスワードを発見しました
+     [one] すべての流出した情報から発見された、あなたのパスワード
+    *[other] すべての流出した情報から発見された、あなたのパスワード
   }
 
 # This string is displayed after a large numeral that indicates the total number
@@ -155,39 +155,39 @@ info-exposed-passwords-found =
 # to your localization, because it would result in the number showing twice.
 info-exposed-passwords-resolved =
   { $count ->
-     [one] 未解決の脆弱性で漏洩したパスワードがあります
-    *[other] 未解決の脆弱性で漏洩したパスワードが複数あります
+     [one] 未解決の脆弱性で流出したパスワードがあります
+    *[other] 未解決の脆弱性で流出したパスワードが複数あります
   }
 
-monitor-no-breaches-title = おしらせ!
-monitor-no-breaches-description = You have no known breaches. If that changes, we will let you know.
+monitor-no-breaches-title = お知らせ!
+monitor-no-breaches-description =情報の流出は発見できませんでした。状況が変わった場合は、お知らせします。
 monitor-view-report-link = レポートを表示
-  .title = Resolve breaches on { -monitor-brand-short-name }
-monitor-breaches-unresolved-title = Resolve your breaches
-monitor-breaches-unresolved-description = After reviewing breach details and taking steps to protect your info, you can mark breaches as resolved.
-monitor-manage-breaches-link = Manage Breaches
-  .title = Manage breaches on { -monitor-brand-short-name }
-monitor-breaches-resolved-title = Nice! You’ve resolved all known breaches.
-monitor-breaches-resolved-description = If your email appears in any new breaches, we will let you know.
+  .title = { -monitor-brand-short-name } で情報の流出を解決
+monitor-breaches-unresolved-title = 情報の流出を解決
+monitor-breaches-unresolved-description = 流出した情報の詳細を確認し、あなたの情報を保護するための措置を講じてください。違反を解決済みとしてマークできます。
+monitor-manage-breaches-link = データの漏洩を管理
+  .title = { -monitor-brand-short-name } でデータの漏洩を管理します
+monitor-breaches-resolved-title = すべての既知のデータの漏洩を解決できました。
+monitor-breaches-resolved-description = 新たな漏洩データから、あなたのメールアドレスを検出したときは、改めてお知らせします。
 
 # Variables:
 # $numBreachesResolved (Number) - Number of breaches marked as resolved by the user on Monitor.
 # $numBreaches (Number) - Number of breaches in which a user's data was involved, detected by Monitor.
 monitor-partial-breaches-title =
   { $numBreaches ->
-   *[other] { $numBreachesResolved } out of { $numBreaches } breaches marked as resolved
+   *[other] { $numBreaches } 件中 { $numBreachesResolved } 件の漏洩データを解決済みとしてマークしました。
   }
 
 # Variables:
 # $percentageResolved (Number) - Percentage of breaches marked as resolved by a user on Monitor.
-monitor-partial-breaches-percentage = { $percentageResolved }% complete
+monitor-partial-breaches-percentage = { $percentageResolved }% 完了
 
-monitor-partial-breaches-motivation-title-start = Great start!
-monitor-partial-breaches-motivation-title-middle = Keep it up!
-monitor-partial-breaches-motivation-title-end = Almost done! Keep it up.
-monitor-partial-breaches-motivation-description = Resolve the rest of your breaches on { -monitor-brand-short-name }.
-monitor-resolve-breaches-link = Resolve Breaches
-  .title = Resolve breaches on { -monitor-brand-short-name }
+monitor-partial-breaches-motivation-title-start = 開始しました!
+monitor-partial-breaches-motivation-title-middle = しばらくお待ちください!
+monitor-partial-breaches-motivation-title-end = ほぼ完了しました!。もうしばらく、お待ちください。
+monitor-partial-breaches-motivation-description = { -monitor-brand-short-name } で残りの漏洩データを解決しましょう。
+monitor-resolve-breaches-link = 漏洩データを解決
+  .title = { -monitor-brand-short-name } で漏洩データを解決します
 
 ## The title attribute is used to display the type of protection.
 ## The aria-label is spoken by screen readers to make the visual graph accessible to blind users.
