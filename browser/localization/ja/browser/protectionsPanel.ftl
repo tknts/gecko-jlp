@@ -37,7 +37,7 @@ protections-panel-site-not-working-view =
 ## a tooltip explaining why these items were not blocked in the page.
 
 protections-panel-not-blocking-why-label = なぜ?
-protections-panel-not-blocking-why-etp-on-tooltip = これらをブロックすると一部のウェブサイトの要素が壊れる可能性があります。またトラッカーがない場合、一部のボタン、フォーム、ログインフィールドが機能しない場合があります。
+protections-panel-not-blocking-why-etp-on-tooltip = これらをブロックすると一部のウェブサイトの要素が壊れる可能性があります。またトラッカーがない場合、一部のボタン、フォーム、ログインフォームが機能しない場合があります。
 protections-panel-not-blocking-why-etp-off-tooltip = 保護機能がオフになっているため、このサイトのすべてのトラッカーが読み込まれました。
 
 ##
@@ -48,7 +48,7 @@ protections-panel-content-blocking-tracking-protection = トラッキングコ�
 
 protections-panel-content-blocking-socialblock = ソーシャルメディア トラッカー
 protections-panel-content-blocking-cryptominers-label = クリプトマイナー (暗号通貨採掘)
-protections-panel-content-blocking-fingerprinters-label = フィンガープリント (デジタル指紋採取)
+protections-panel-content-blocking-fingerprinters-label = フィンガープリントの採取 (デジタル指紋採取)
 
 ## In the protections panel, Content Blocking category items are in three sections:
 ##   "Blocked" for categories being blocked in the current page,
@@ -82,13 +82,13 @@ protections-panel-site-not-working-view-send-report = 報告を送信
 
 ##
 
-protections-panel-cross-site-tracking-cookies = These cookies follow you from site to site to gather data about what you do online. They are set by third parties such as advertisers and analytics companies.
-protections-panel-cryptominers = Cryptominers use your system’s computing power to mine digital money. Cryptomining scripts drain your battery, slow down your computer, and can increase your energy bill.
-protections-panel-fingerprinters = Fingerprinters collect settings from your browser and computer to create a profile of you. Using this digital fingerprint, they can track you across different websites.
-protections-panel-tracking-content = Websites may load external ads, videos, and other content with tracking code. Blocking tracking content can help sites load faster, but some buttons, forms, and login fields might not work.
-protections-panel-social-media-trackers = Social networks place trackers on other websites to follow what you do, see, and watch online. This allows social media companies to learn more about you beyond what you share on your social media profiles.
+protections-panel-cross-site-tracking-cookies = これらの Cookie はサイトからサイトへとユーザーを追跡し、オンラインでの行動に関するデータを収集します。これは広告主や調査分析会社などの第三者によって設置されています。
+protections-panel-cryptominers = 暗号通貨マイニングは仮想通貨の採掘のために、あなたのシステムの計算リソースを利用します。暗号通貨マイニングスクリプトは端末のバッテリーを消費し、コンピューターを遅くさせ、電気代を高くする可能性があります。
+protections-panel-fingerprinters = フィンガープリントの採取はブラウザーとコンピューターから設定を集め、あなたのデジタル指紋を作成します。このデジタル指紋を使うと、様々なウェブサイトに渡ってあなたを追跡することができます。
+protections-panel-tracking-content = ウェブサイトはトラッキング コード付きの広告、ビデオ、およびその他のコンテンツを外部から読み込む場合があります。トラッキング コンテンツをブロックすると、サイトの読み込みが速くなる一方で、一部のボタン、フォーム、およびログインフォームが機能しなくなる場合があります。
+protections-panel-social-media-trackers = ソーシャル ネットワークはオンライン上でのあなたの行動を追跡、監視するために、他のウェブサイトにトラッカーを設置しています。これによりソーシャルメディア企業はあなたがプロフィールで共有している以上の情報を収集しています。
 
-protections-panel-description-shim-allowed = Some trackers marked below have been partially unblocked on this page because you interacted with them.
+protections-panel-description-shim-allowed = ユーザーの操作により、以下のマークされたトラッカーのブロックがこのページ上で部分的に解除されています。
 protections-panel-description-shim-allowed-learn-more = さらに詳しく
 protections-panel-shim-allowed-indicator =
   .tooltiptext = トラッカーのブロックが部分的に解除されました
@@ -99,7 +99,7 @@ protections-panel-content-blocking-manage-settings =
 
 protections-panel-content-blocking-breakage-report-view =
   .title = 壊れたサイトの報告
-protections-panel-content-blocking-breakage-report-view-description = Blocking certain trackers can cause problems with some websites. Reporting these problems helps make { -brand-short-name } better for everyone. Sending this report will send a URL and information about your browser settings to Mozilla. <label data-l10n-name="learn-more">Learn more</label>
+protections-panel-content-blocking-breakage-report-view-description = 特定のトラッカーをブロックすると、一部のウェブサイトで問題が起こる可能性があります。これらの問題を報告すると、{ -brand-short-name } を改善する手助けになります。報告とともに URL とあなたのブラウザーの設定に関する情報が Mozilla に送信されます。 <label data-l10n-name="learn-more">さらに詳しく</label>
 protections-panel-content-blocking-breakage-report-view-collection-url = URL
 protections-panel-content-blocking-breakage-report-view-collection-url-label =
   .aria-label = URL
