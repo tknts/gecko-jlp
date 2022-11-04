@@ -1199,7 +1199,7 @@ content-blocking-unvisited-cookies = 未訪問のサイトからの Cookie
 content-blocking-all-windows-tracking-content = すべてのウィンドウでのトラッキングコンテンツ
 content-blocking-all-third-party-cookies = すべてのサードパーティの Cookie
 content-blocking-cryptominers = クリプトマイナー (暗号通貨採掘)
-content-blocking-fingerprinters = フィンガープリント (デジタル指紋採取)
+content-blocking-fingerprinters = フィンガープリントの採取
 
 # "Test pilot" is used as a verb. Possible alternatives:
 # "Be the first to try", "Join an early experiment".
@@ -1248,7 +1248,7 @@ content-blocking-cryptominers-label =
 # Browser fingerprinting is a method of tracking users by the configuration and settings information (their "digital fingerprint")
 # that is visible to websites they browse, rather than traditional tracking methods such as IP addresses and unique cookies.
 content-blocking-fingerprinters-label =
-  .label = デジタル指紋
+  .label = フィンガープリントの採取
   .accesskey = F
 
 ## Privacy Section - Tracking

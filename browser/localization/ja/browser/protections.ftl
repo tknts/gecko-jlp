@@ -6,8 +6,8 @@
 #   $count (Number) - Number of tracking events blocked.
 graph-week-summary =
   { $count ->
-     [one] この 1 週間で { -brand-short-name } は { $count } 個のトラッカーをブロックしました
-    *[other] この 1 週間で { -brand-short-name } は { $count } 個のトラッカーをブロックしました
+     [one] { -brand-short-name } は、この 1 週間で { $count } 個のトラッカーをブロックしました
+    *[other] { -brand-short-name } は、この 1 週間で { $count } 個のトラッカーをブロックしました
   }
 
 # Variables:
@@ -56,8 +56,8 @@ cookie-tab-content = これらの Cookie はオンラインでのあなたの行
 tracker-tab-title = トラッキングコンテンツ
 tracker-tab-description = ウェブサイトはトラッキングコードが含まれる広告、動画、その他のコンテンツを外部から読み込む場合があります。トラッキングコンテンツをブロックするとサイトの読み込みが速くなる可能性がありますが、一部のボタン、フォーム、ログインフォームが動作しなくなる可能性もあります。<a data-l10n-name="learn-more-link">さらに詳しく</a>
 
-fingerprinter-tab-title = フィンガープリント採取
-fingerprinter-tab-content = フィンガープリント採取はブラウザーとコンピューターから設定を集め、あなたのデジタル指紋を作成します。このデジタル指紋を使うと、様々なウェブサイトにまたがってあなたを追跡することができます。<a data-l10n-name="learn-more-link">さらに詳しく</a>
+fingerprinter-tab-title = フィンガープリントの採取
+fingerprinter-tab-content = フィンガープリントの採取はブラウザーとコンピューターから設定を集め、あなたのデジタル指紋を作成します。このデジタル指紋を使うと、様々なウェブサイトにまたがってあなたを追跡することができます。<a data-l10n-name="learn-more-link">さらに詳しく</a>
 
 cryptominer-tab-title = 暗号通貨マイニング
 cryptominer-tab-content = 暗号通貨マイニングは仮想通貨の採掘のために、あなたのシステムの計算リソースを利用します。暗号通貨マイニングスクリプトはあなたのバッテリーを消費し、コンピューターを遅くさせ、電気代を増やさせる可能性があります。<a data-l10n-name="learn-more-link">さらに詳しく</a>
