@@ -9,6 +9,8 @@ about-logging-current-log-modules = 現在のログモジュール:
 about-logging-log-tutorial =
     このツールの使用方法については <a data-l10n-name="logging">HTTP ロギング</a> を参照してください。
     
+# This message is used as a button label, "Open" indicates an action.
+about-logging-open-log-file-dir = ディレクトリーを開く
 about-logging-set-log-file = ログファイルを設定
 about-logging-set-log-modules = ログモジュールを設定
 about-logging-start-logging = ログの記録を開始
