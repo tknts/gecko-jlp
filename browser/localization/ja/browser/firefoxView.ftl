@@ -73,7 +73,8 @@ firefoxview-mobile-confirmation-description = スマートフォンやタブレ�
 firefoxview-closed-tabs-title = 最近閉じたタブ
 
 firefoxview-closed-tabs-description2 = このウィンドウで閉じたページを再度開きます。
-firefoxview-closed-tabs-placeholder = <strong>最近閉じたページはありません</strong><br/>閉じたタブをなくす心配はもうありません。 いつでもここから取得できます。
+firefoxview-closed-tabs-placeholder-header = 最近閉じたページはありません
+firefoxview-closed-tabs-placeholder = 閉じたタブをなくす心配はもうありません。いつでもここから取得できます。
 
 # refers to the last tab that was used
 firefoxview-pickup-tabs-badge = 最終ログイン時
@@ -92,7 +93,8 @@ firefoxview-change-colorway-button = テーマカラーを変える
 #  $collection (String): Colorway Collection name
 firefoxview-colorway-description = { $intensity } · { $collection }
 
-firefoxview-synced-tabs-placeholder = <strong>まだ表示できるものがありません</strong><br/>他のデバイスで { -brand-product-name } のページを開くと、ここから魔法のように取り出せます。
+firefoxview-synced-tabs-placeholder-header =まだ表示できるものがありません
+firefoxview-synced-tabs-placeholder-body = 他のデバイスで { -brand-product-name } のページを開くと、ここから魔法のように取り出せます。
 
 firefoxview-collapse-button-show =
   .title = リストを表示

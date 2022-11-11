@@ -44,7 +44,7 @@ toolbox-mode-parent-process-sub-label = (速い)
 toolbox-mode-parent-process-container =
   .title = 親プロセスのリソースのみにフォーカスします。
 
-toolbox-always-on-top-enabled =
-  .title = 最前面での固定を解除する (開発者ツールが再起動します)
-toolbox-always-on-top-disabled =
-  .title = 最前面で固定する (開発者ツールが再起動します)
+toolbox-always-on-top-enabled2 = 最前面での固定を解除する
+  .title = 開発者ツールが再起動します
+toolbox-always-on-top-disabled2 = 最前面で固定する
+  .title = 開発者ツールが再起動します

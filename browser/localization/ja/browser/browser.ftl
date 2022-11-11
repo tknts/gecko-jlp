@@ -104,7 +104,8 @@ urlbar-addons-notification-anchor =
     .tooltiptext = アドオンのインストールのメッセージ パネルを開きます
 urlbar-tip-help-icon =
     .title = ヘルプを表示
-urlbar-search-tips-confirm = 了解しました
+urlbar-search-tips-confirm = 大丈夫です、了解しました
+urlbar-search-tips-confirm-short = 了解しました
 # Read out before Urlbar Tip text content so screenreader users know the
 # subsequent text is a tip offered by the browser. It should end in a colon or
 # localized equivalent.
@@ -118,6 +119,9 @@ urlbar-tip-icon-description =
 
 urlbar-search-tips-onboard = 少ない入力で多くを探す: アドレスバーから直接 { $engineName } を検索できます。
 urlbar-search-tips-redirect-2 = アドレスバーで検索を開始して { $engineName } からのサジェストと履歴を表示します。
+
+# Make sure to match the name of the Search panel in settings.
+urlbar-search-tips-persist = 検索がさらに簡単になりました。アドレスバーに連続して検索ワードを入力してみたください。アドレスバーで検索ワードの代わりに URL を表示するには、設定の [検索] にアクセスしてください。
 
 # Prompts users to use the Urlbar when they are typing in the domain of a
 # search engine, e.g. google.com or amazon.com.
