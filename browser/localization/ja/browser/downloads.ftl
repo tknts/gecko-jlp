@@ -200,8 +200,8 @@ downloads-files-not-downloaded = { $num ->
     [one] ファイルがダウンロードされていません。
    *[other] {$num} 個のファイルがダウンロードされていません。
 }
-downloads-blocked-from-url = Downloads blocked from { $url }.
-downloads-blocked-download-detailed-info = { $url } attempted to automatically download multiple files. The site could be broken or trying to store spam files on your device.
+downloads-blocked-from-url = { $url } からのダウンロードをブロックしました。
+downloads-blocked-download-detailed-info = { $url } が複数のファイルを自動的にダウンロードしようとしました。 サイトが破損しているか、デバイスに不必要なファイルを保存しようとしている可能性があります。
 
 ##
 
@@ -227,3 +227,17 @@ downloads-more-downloading =
         [one] { $count } more file downloading
        *[other] { $count } more files downloading
     }
+
+## Download errors
+
+downloads-error-alert-title = ダウンロードのエラー
+# Variables:
+#   $extension (String): the name of the blocking extension.
+downloads-error-blocked-by = { $extension } によってブロックされているため、ダウンロードを保存できません。
+# Used when the name of the blocking extension is unavailable.
+downloads-error-extension = 拡張機能によってブロックされているため、ダウンロードを保存できません。
+# Line breaks in this message are meaningful, and should be maintained.
+downloads-error-generic =
+    不明なエラーが発生したため、ダウンロードを保存できません。
+
+    もう一度やり直してください。
