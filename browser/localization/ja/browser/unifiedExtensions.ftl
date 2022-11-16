@@ -23,6 +23,9 @@ unified-extensions-item-message-manage = 拡張機能を管理
 
 ## Extension's context menu
 
+unified-extensions-context-menu-pin-to-toolbar =
+    .label = ツールバーにピン留めする
+
 unified-extensions-context-menu-manage-extension =
     .label = 拡張機能を管理
 
