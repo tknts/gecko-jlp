@@ -36,3 +36,7 @@ origin-controls-state-always-on = このサイトでデータの読み取りと�
 origin-controls-state-when-clicked = データの読み取りと変更に必要な権限
 
 origin-controls-state-hover-run-visit-only = 今回の訪問のみ実行
+
+origin-controls-state-runnable-hover-open = 拡張機能を開く
+
+origin-controls-state-runnable-hover-run = 拡張機能を実行

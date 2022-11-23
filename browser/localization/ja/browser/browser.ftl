@@ -112,6 +112,9 @@ urlbar-search-tips-confirm-short = 了解しました
 urlbar-tip-icon-description =
     .alt = ヒント:
 
+urlbar-result-menu-button =
+    .title = メニューを開きます
+
 ## Prompts users to use the Urlbar when they open a new tab or visit the
 ## homepage of their default search engine.
 ## Variables:
