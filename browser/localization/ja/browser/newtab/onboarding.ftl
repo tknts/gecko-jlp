@@ -14,14 +14,20 @@ onboarding-not-now-button-label = 後で
 
 ## Custom Return To AMO onboarding strings
 
-return-to-amo-subtitle = { -brand-short-name } をインストールしました
+return-to-amo-subtitle = { -brand-short-name } を利用できます
 # <img data-l10n-name="icon"/> will be replaced with the icon belonging to the extension
 #
 # Variables:
 #   $addon-name (String) - Name of the add-on
-return-to-amo-addon-title = <img data-l10n-name="icon"/> <b>{ $addon-name }</b> をインストールしてみましょう。
+return-to-amo-addon-title = <img data-l10n-name="icon"/> <b>{ $addon-name }</b> を入手してみましょう。
 return-to-amo-add-extension-label = 拡張機能を追加
 return-to-amo-add-theme-label = テーマを追加
+
+##  Variables: $addon-name (String) - Name of the add-on to be installed
+
+mr1-return-to-amo-subtitle = { -brand-short-name } によろしく
+mr1-return-to-amo-addon-title = あなたのための高速なブラウザーをすぐに利用できます。<b>{ $addon-name }</b> を追加すると { -brand-short-name } でさらに多くのことができるようになります。
+mr1-return-to-amo-add-extension-label = { $addon-name } を追加
 
 ## Multistage onboarding strings (about:welcome pages)
 
