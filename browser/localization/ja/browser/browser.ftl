@@ -932,3 +932,12 @@ private-browsing-indicator-label = プライベート ブラウジング
 unified-extensions-button =
     .label = 拡張機能
     .tooltiptext = 拡張機能
+
+## Autorefresh blocker
+
+refresh-blocked-refresh-label = このページが自動的に再読み込みするのを { -brand-short-name } はブロックしました。
+refresh-blocked-redirect-label = このページが別のページに自動的にリダイレクトされるのを { -brand-short-name } はブロックしました。
+
+refresh-blocked-allow =
+    .label = 許可
+    .accesskey = A
