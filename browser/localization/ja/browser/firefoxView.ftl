@@ -74,7 +74,7 @@ firefoxview-closed-tabs-title = 最近閉じたタブ
 
 firefoxview-closed-tabs-description2 = このウィンドウで閉じたページを再度開きます。
 firefoxview-closed-tabs-placeholder-header = 最近閉じたページはありません
-firefoxview-closed-tabs-placeholder = 閉じたタブをなくす心配はもうありません。いつでもここから取得できます。
+firefoxview-closed-tabs-placeholder-body = このウィンドウでタブを閉じると、ここから取得できます。
 
 # refers to the last tab that was used
 firefoxview-pickup-tabs-badge = 最終ログイン時

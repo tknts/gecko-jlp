@@ -933,6 +933,15 @@ unified-extensions-button =
     .label = 拡張機能
     .tooltiptext = 拡張機能
 
+## Unified extensions button when permission(s) are needed.
+## Note that the new line is intentionally part of the tooltip.
+
+unified-extensions-button-permissions-needed =
+    .label = 拡張機能
+    .tooltiptext =
+        拡張機能に必要な権限
+
+
 ## Autorefresh blocker
 
 refresh-blocked-refresh-label = このページが自動的に再読み込みするのを { -brand-short-name } はブロックしました。

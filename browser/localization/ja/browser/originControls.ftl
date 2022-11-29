@@ -40,3 +40,21 @@ origin-controls-state-hover-run-visit-only = 今回の訪問のみ実行
 origin-controls-state-runnable-hover-open = 拡張機能を開く
 
 origin-controls-state-runnable-hover-run = 拡張機能を実行
+
+origin-controls-state-temporary-access = 今回の訪問のデータの読み取りと変更ができます
+
+## Extension's toolbar button.
+## Variables:
+##   $extensionTitle (String) - Extension name or title message.
+
+origin-controls-toolbar-button =
+    .label = { $extensionTitle }
+    .tooltiptext = { $extensionTitle }
+
+# Extension's toolbar button when permission is needed.
+# Note that the new line is intentionally part of the tooltip.
+origin-controls-toolbar-button-permission-needed =
+    .label = { $extensionTitle }
+    .tooltiptext =
+        { $extensionTitle } に必要な権限です
+
