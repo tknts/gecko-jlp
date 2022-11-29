@@ -204,8 +204,8 @@ firefoxview-cfr-primarybutton = 今すぐ使う
   .accesskey = T
 firefoxview-cfr-secondarybutton = 後で
   .accesskey = N
-firefoxview-cfr-header = 最近閉じたタブを { -firefoxview-brand-name } で開き直せます。
-firefoxview-cfr-body = さらに他のデバイスとシームレスに連動して、あなたのブラウジングを彩ります。
+firefoxview-cfr-header-v2 = 中断したところからすばやく再開
+firefoxview-cfr-body-v2 = 最近閉じたタブを元に戻すだけでなく { -firefoxview-brand-name } を使用してデバイス間をシームレスに移動します。
 
 ## Firefox View Spotlight
 
