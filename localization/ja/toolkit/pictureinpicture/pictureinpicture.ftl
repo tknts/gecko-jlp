@@ -7,53 +7,53 @@ pictureinpicture-player-title = ピクチャーインピクチャー
 ## Variables:
 ##   $shortcut (String) - Keyboard shortcut to execute the command.
 
-pictureinpicture-pause-cmd =
-  .aria-label = Pause
-  .title = 停止 (スペースバー)
-pictureinpicture-play-cmd =
-  .aria-label = Play
-  .title = 再生 (スペースバー)
+pictureinpicture-pause-btn =
+  .aria-label = 停止
+  .tooltip = 停止 (スペースバー)
+pictureinpicture-play-btn =
+  .aria-label = 再生
+  .tooltip = 再生 (スペースバー)
 
-pictureinpicture-mute-cmd =
+pictureinpicture-mute-btn =
   .aria-label = ミュート
-  .title = Mute ({ $shortcut })
-pictureinpicture-unmute-cmd =
+  .tooltip = ミュート ({ $shortcut })
+pictureinpicture-unmute-btn =
   .aria-label = ミュートの解除
-  .title = ミュートの解除 ({ $shortcut })
+  .tooltip = ミュートの解除 ({ $shortcut })
 
-pictureinpicture-unpip-cmd =
-  .aria-label = Send back to tab
-  .title = タブに戻る
+pictureinpicture-unpip-btn =
+  .aria-label = タブに戻す
+  .tooltip = タブに戻す
 
-pictureinpicture-close-cmd =
+pictureinpicture-close-btn =
   .aria-label = Close
-  .title = 閉じる ({ $shortcut })
+  .tooltip = 閉じる ({ $shortcut })
 
-pictureinpicture-subtitles-cmd =
+pictureinpicture-subtitles-btn =
   .aria-label = Subtitles
-  .title = 字幕
+  .tooltip = 字幕
 
 ##
 
-pictureinpicture-fullscreen-cmd =
+pictureinpicture-fullscreen-btn =
   .aria-label = 全画面
-  .title = 全画面 (ダブルクリック)
+  .tooltip = 全画面 (ダブルクリック)
 
-pictureinpicture-exit-fullscreen-cmd =
+pictureinpicture-exit-fullscreen-btn =
   .aria-label = 全画面表示を終了
-  .title = 全画面表示の終了 (ダブルクリック)
+  .tooltip = 全画面表示の終了 (ダブルクリック)
 
-pictureinpicture-seekbackward-cmd =
+pictureinpicture-seekbackward-btn =
   .aria-label = 後ろへ
-  .title = 後ろへ (←)
+  .tooltip = 後ろへ (←)
 
-pictureinpicture-seekforward-cmd =
+pictureinpicture-seekforward-btn =
   .aria-label = 先へ
-  .title = 先へ (→)
+  .tooltip = 先へ (→)
 
-pictureinpicture-subtitles-label = Subtitles
+pictureinpicture-subtitles-label = 字幕
 
-pictureinpicture-font-size-label = フォント サイズ
+pictureinpicture-font-size-label = 文字の大きさ
 
 pictureinpicture-font-size-small = 小さめ
 
