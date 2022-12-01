@@ -11,7 +11,7 @@ login-filter =
 create-login-button = 新しいログインを作成
 
 fxaccounts-sign-in-text = 他のデバイスでもパスワードが使える
-fxaccounts-sign-in-sync-button = Sign in to sync
+fxaccounts-sign-in-sync-button = サインインして同期する
 fxaccounts-avatar-button =
   .title = アカウントの管理
 
@@ -72,10 +72,10 @@ about-logins-login-intro-heading-logged-out2 = 保存したログイン情報を
 about-logins-login-intro-heading-logged-in = 同期されたログイン情報は見つかりませんでした。
 login-intro-description = 別のデバイスの { -brand-product-name } に保存したログイン情報は、以下の手順で取得できます:
 login-intro-instructions-fxa = ログイン情報が保存されたデバイスで { -fxaccount-brand-name(capitalization: "sentence") } を作成、またはサインインしてください
-login-intro-instructions-fxa-settings = Go to Settings > Sync > Turn on syncing… Select the Logins and passwords checkbox.
+login-intro-instructions-fxa-settings = [設定] > [同期] > [同期を有効にする…] に移動して [ログイン情報とパスワード] のチェックボックスを選択します。
 login-intro-instructions-fxa-passwords-help =  <a data-l10n-name="passwords-help-link">パスワード サポート</a> の詳細なヘルプへ移動
 about-logins-intro-browser-only-import = ログイン情報が別のブラウザーに保存されている場合、<a data-l10n-name="import-link">ログイン情報を { -brand-product-name }</a> にインポートできます
-about-logins-intro-import2 = If your logins are saved outside of { -brand-product-name }, you can <a data-l10n-name="import-browser-link">import them from another browser</a> or <a data-l10n-name="import-file-link">from a file</a>
+about-logins-intro-import2 = ログイン情報が { -brand-product-name } 以外に保存されている場合は <a data-l10n-name="import-browser-link">別のブラウザからインポート</a> するか <a data-l10n- name="import-file-link">ファイルから直接インポート</a> できます。
 
 ## Login
 
@@ -83,7 +83,7 @@ login-item-new-login-title = 新しいログイン情報の作成
 login-item-edit-button = 編集
 about-logins-login-item-remove-button = 削除
 login-item-origin-label = ウェブサイトの URL
-login-item-tooltip-message = Make sure this matches the exact address of the website where you log in.
+login-item-tooltip-message = このアドレスがログインするウェブサイトの正確なアドレスと一致しているかを確認してください。
 login-item-origin =
   .placeholder = https://www.example.com
 login-item-username-label = ユーザー名
@@ -112,28 +112,28 @@ about-logins-os-auth-dialog-caption = { -brand-full-name }
 ## notes are only valid for English. Please test in your respected locale.
 
 # This message can be seen when attempting to edit a login in about:logins on Windows.
-about-logins-edit-login-os-auth-dialog-message-win = To edit your login, enter your Windows login credentials. This helps protect the security of your accounts.
+about-logins-edit-login-os-auth-dialog-message-win = ログイン情報を編集するには Windows のログイン資格情報を入力します。これはアカウントのセキュリティを保護するのに役立ちます。
 # This message can be seen when attempting to edit a login in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
-about-logins-edit-login-os-auth-dialog-message-macosx = edit the saved login
+about-logins-edit-login-os-auth-dialog-message-macosx = 保存されたログイン情報を編集する
 
 # This message can be seen when attempting to reveal a password in about:logins on Windows.
-about-logins-reveal-password-os-auth-dialog-message-win = To view your password, enter your Windows login credentials. This helps protect the security of your accounts.
+about-logins-reveal-password-os-auth-dialog-message-win = パスワードを表示するには Windows のログイン資格情報を入力します。これはアカウントのセキュリティを保護するのに役立ちます。
 # This message can be seen when attempting to reveal a password in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
-about-logins-reveal-password-os-auth-dialog-message-macosx = reveal the saved password
+about-logins-reveal-password-os-auth-dialog-message-macosx = 保存したパスワードを表示する
 
 # This message can be seen when attempting to copy a password in about:logins on Windows.
-about-logins-copy-password-os-auth-dialog-message-win = To copy your password, enter your Windows login credentials. This helps protect the security of your accounts.
+about-logins-copy-password-os-auth-dialog-message-win = パスワードをコピーするには Windows のログイン資格情報を入力します。これはアカウントのセキュリティを保護するのに役立ちます。
 # This message can be seen when attempting to copy a password in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
-about-logins-copy-password-os-auth-dialog-message-macosx = copy the saved password
+about-logins-copy-password-os-auth-dialog-message-macosx = 保存したパスワードをコピーする
 
 # This message can be seen when attempting to export a password in about:logins on Windows.
-about-logins-export-password-os-auth-dialog-message-win = To export your logins, enter your Windows login credentials. This helps protect the security of your accounts.
+about-logins-export-password-os-auth-dialog-message-win = ログイン情報をエクスポートするには Windows のログイン資格情報を入力します。 これはアカウントのセキュリティを保護するのに役立ちます。
 # This message can be seen when attempting to export a password in about:logins
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
-about-logins-export-password-os-auth-dialog-message-macosx = export saved logins and passwords
+about-logins-export-password-os-auth-dialog-message-macosx = 保存したログイン情報とパスワードをエクスポートする
 
 ## Primary Password notification
 
@@ -166,8 +166,8 @@ about-logins-confirm-remove-all-dialog-checkbox-label =
 
 about-logins-confirm-remove-all-dialog-title =
   { $count ->
-     [one] Remove { $count } login?
-    *[other] Remove all { $count } logins?
+     [one] ログイン情報を削除しますか?
+    *[other] { $count } 個のログイン情報を削除しますか?
   }
 about-logins-confirm-remove-all-dialog-message =
   { $count ->
