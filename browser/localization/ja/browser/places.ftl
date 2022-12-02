@@ -130,9 +130,8 @@ places-forget-about-this-site-confirmation-message =
 
 places-forget-about-this-site-forget = 忘れる
 
-places-library2 =
+places-library3 =
   .title = ライブラリー
-  .style = min-width:700px; min-height:500px;
 
 places-organize-button =
   .label = 管理
