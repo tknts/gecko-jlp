@@ -4,13 +4,22 @@
 
 ## Credential panel
 ##  $host (String): the hostname of the site that is being displayed.
+##  $provider (String): the hostname of another website you are using to log in to the site being displayed
 
-credential-header-providers = { $host } にログインします。
-credential-header-accounts = { $host } で使用するアカウントを選択します。
+identity-credential-header-providers = { $host } にログインします。
+identity-credential-header-accounts = { $host } で使用するアカウントを選択します。
 # Identity providers are websites you use to log into another website, for example: Google when you Log in with Google.
-credential-description-provider-explanation = これらはログインを支援する ID プロバイダーです。
-credential-description-account-explanation = ここでアカウントを選択すると、その ID が { $host } と共有されます。
-urlbar-identity-credential-anchor =
+identity-credential-description-provider-explanation = これらはログインを支援する ID プロバイダーです。
+identity-credential-description-account-explanation = ここでアカウントを選択すると、その ID が { $host } と共有されます。
+identity-credential-urlbar-anchor =
     .tooltiptext = 統合ログインパネルを開きます
-credential-cancel-label = キャンセル
-credential-cancel-accesskey = C
+identity-credential-cancel-button =
+    .label = キャンセル
+    .accesskey = C
+identity-credential-accept-button =
+    .label = OK
+    .accesskey = O
+identity-credential-policy-title = 法的告知
+identity-credential-policy-description = { $provider } のアカウントを使用して { $host } にログインすることは、これらの法的ポリシーのもとに行われます。この機能はオプションです。これをキャンセルして別の方法で再度ログインすることも可能です。
+identity-credential-privacy-policy = プライバシーに関する方針
+identity-credential-terms-of-service = 利用規約

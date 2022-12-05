@@ -151,13 +151,6 @@ spotlight-public-wifi-vpn-primary-button = { -mozilla-vpn-brand-name } でプラ
 spotlight-public-wifi-vpn-link = 後で
   .accesskey = N
 
-## Total Cookie Protection Rollout
-
-cfr-total-cookie-protection-header = あなたのおかげで { -brand-short-name } はこれまで以上にプライバシーに配慮した安全なものになりました。
-# "Early access" for this feature rollout means it's a "feature preview" or
-# "soft launch". Only those who received it and accepted are shown this message.
-cfr-total-cookie-protection-body = 包括的 Cookie 保護は、これまでで最も強力なプライバシー保護機能です。現在では世界中の { -brand-short-name } ユーザーのデフォルト設定となっています。これは、あなたのような早期アクセスユーザーの参加が無ければ実現できませんでした。よりプライバシーに配慮した、より良いインターネットを実現するための、ご協力にありがとうございました。
-
 ## Emotive Continuous Onboarding
 
 spotlight-better-internet-header = より良いインターネットは、あなたから始まります

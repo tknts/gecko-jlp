@@ -75,7 +75,11 @@ firefoxview-closed-tabs-title = 最近閉じたタブ
 firefoxview-closed-tabs-description2 = このウィンドウで閉じたページを再度開きます。
 firefoxview-closed-tabs-placeholder-header = 最近閉じたページはありません
 firefoxview-closed-tabs-placeholder-body = このウィンドウでタブを閉じると、ここから取得できます。
-firefoxview-closed-tabs-dismiss = キャンセル
+
+# Variables:
+#   $tabTitle (string) - Title of tab being dismissed
+firefoxview-closed-tabs-dismiss-tab =
+  .title = { $tabTitle } を閉じる
 
 # refers to the last tab that was used
 firefoxview-pickup-tabs-badge = 最終ログイン時
