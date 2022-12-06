@@ -16,6 +16,10 @@ permissions-block =
     .label = ブロック
     .accesskey = B
 
+permissions-disable-etp =
+    .label = 例外を追加
+    .accesskey = E
+
 permissions-session =
     .label = セッション中のみ許可
     .accesskey = S
@@ -89,9 +93,9 @@ permissions-invalid-uri-label = 有効なホスト名を入力してください
 ## Exceptions - Tracking Protection
 
 permissions-exceptions-etp-window2 =
-    .title = 強化型追跡防止機能の例外
+    .title = 強化型トラッキング防止機能の例外
     .style = { permissions-window2.style }
-permissions-exceptions-etp-desc = これらのウェブサイトでの保護をオフにしました。
+permissions-exceptions-manage-etp-desc = 強化型トラッキング防止機能は指定されたウェブサイトで無効にできます。無効にしたいサイトの正確なアドレスを入力し [例外の追加] をクリックしてください。
 
 ## Exceptions - Cookies
 
@@ -105,7 +109,7 @@ permissions-exceptions-cookie-desc = Cookie やサイトデータの使用を常
 permissions-exceptions-https-only-window2 =
     .title = 例外 - HTTPS-Only モード
     .style = { permissions-window2.style }
-permissions-exceptions-https-only-desc = You can turn off HTTPS-Only Mode for specific websites. { -brand-short-name } won’t attempt to upgrade the connection to secure HTTPS for those sites. Exceptions do not apply to private windows.
+permissions-exceptions-https-only-desc = 特定のウェブサイトで HTTPS-Only モードを無効にできます。{ -brand-short-name } は、それらのサイトのセキュアな HTTPS への接続のアップグレードを行いません。この例外はプライベート ウィンドウでは適用されません。
 
 ## Exceptions - Pop-ups
 
@@ -140,7 +144,7 @@ permissions-site-autoplay-desc = 既定の自動再生設定に従わないサ�
 permissions-site-notification-window2 =
     .title = 設定 - 通知許可
     .style = { permissions-window2.style }
-permissions-site-notification-desc = 以下のウェブサイトが通知の許可を要求しています。 通知を許可するウェブサイトを指定してください。 また以後の通知の許可をブロックできます。
+permissions-site-notification-desc = 以下のウェブサイトが通知の許可を要求しています。通知を許可するウェブサイトを指定してください。また以後の通知の許可をブロックできます。
 permissions-site-notification-disable-label =
     .label = 通知の使用許可の確認を表示しない
 permissions-site-notification-disable-desc = 上記のウェブサイト以外からの通知の許可は自動的にブロックされます。通知の許可をブロックすると、一部のウェブサイトで不具合が発生する可能性があります。
@@ -160,17 +164,17 @@ permissions-site-location-disable-desc = 上記のウェブサイト以外から
 permissions-site-xr-window2 =
     .title = 設定 - バーチャル・リアリティ (VR) の使用許可
     .style = { permissions-window2.style }
-permissions-site-xr-desc = 以下のウェブサイトが VR デバイスの使用許可を要求しています。 VR デバイスの使用を許可するウェブサイトを指定してください。また以後の VR デバイスの使用許可をブロックできます。
+permissions-site-xr-desc = 以下のウェブサイトが VR デバイスの使用許可を要求しています。VR デバイスの使用を許可するウェブサイトを指定してください。また以後の VR デバイスの使用許可をブロックできます。
 permissions-site-xr-disable-label =
     .label = VR デバイスの使用許可の確認を表示しない
-permissions-site-xr-disable-desc = 上記のウェブサイト以外からの VR デバイスの使用許可は自動的にブロックされます。 VR デバイスの使用許可をブロックすると、一部のウェブサイトで不具合が発生する可能性があります。
+permissions-site-xr-disable-desc = 上記のウェブサイト以外からの VR デバイスの使用許可は自動的にブロックされます。VR デバイスの使用許可をブロックすると、一部のウェブサイトで不具合が発生する可能性があります。
 
 ## Site Permissions - Camera
 
 permissions-site-camera-window2 =
     .title = 設定 - カメラの使用許可
     .style = { permissions-window2.style }
-permissions-site-camera-desc = 以下のウェブサイトがカメラの使用許可を要求しています。カメラの使用を許可するウェブサイトを指定してください。 また以後のカメラの使用許可をブロックできます。
+permissions-site-camera-desc = 以下のウェブサイトがカメラの使用許可を要求しています。カメラの使用を許可するウェブサイトを指定してください。また以後のカメラの使用許可をブロックできます。
 permissions-site-camera-disable-label =
     .label = カメラの使用許可の確認を表示しない
 permissions-site-camera-disable-desc = 上記のウェブサイト以外からのカメラの使用許可は自動的にブロックされます。カメラの使用許可をブロックすると、一部のウェブサイトで不具合が発生する可能性があります。
