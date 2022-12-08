@@ -61,7 +61,11 @@ firefoxview-tabpickup-password-locked-description = タブを取得するには 
 firefoxview-tabpickup-password-locked-link = さらに詳しく
 firefoxview-tabpickup-password-locked-primarybutton = プライマリ パスワードを入力
 
-firefoxview-tabpickup-syncing = タブが同期している間、座って待っていてください。 それはほんの一瞬で終わります。
+firefoxview-tabpickup-signed-out-header = サインインして再接続
+firefoxview-tabpickup-signed-out-description = 再接続してタブを取得するには { -fxaccount-brand-name } にサインインしてください。
+firefoxview-tabpickup-signed-out-primarybutton = サインイン
+
+firefoxview-tabpickup-syncing = 席を立たずにその場でお待ち下さい。タブの同期はほんの一瞬で終わります。
 
 firefoxview-mobile-promo-header = スマートフォンやタブレットからタブを取得する
 firefoxview-mobile-promo-description = 最新のモバイルタブを表示するには iOS または Android で { -brand-product-name } にサインインしてください。

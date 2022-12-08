@@ -26,6 +26,7 @@ update-failed-main =
 
 update-adminDisabled = システムの管理者により、更新が無効化されています
 update-noUpdatesFound = { -brand-short-name } は最新のバージョンです
+aboutdialog-update-checking-failed = アップデートの確認に失敗しました。
 update-otherInstanceHandlingUpdates = { -brand-short-name } は別のプロセスで更新中です
 
 update-manual = <label data-l10n-name="manual-link"/> に利用可能な更新があります
