@@ -114,25 +114,8 @@ mr1-onboarding-import-primary-button-label-attribution = { $previous } からイ
 mr1-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーからインポート
 mr1-onboarding-import-secondary-button-label = 後で
 
-mr2-onboarding-colorway-header = Colorway
-mr2-onboarding-colorway-subtitle = 鮮やかな新しいテーマカラーを期間限定でご利用いただけます。
-mr2-onboarding-colorway-primary-button-label = テーマカラーを保存
-mr2-onboarding-colorway-secondary-button-label = 後で
-mr2-onboarding-colorway-label-soft = ソフト
-mr2-onboarding-colorway-label-balanced = バランス
-# "Bold" is used in the sense of bravery or courage, not in the sense of
-# emphasized text.
-mr2-onboarding-colorway-label-bold = ボールド
-
-# Automatic theme uses operating system color settings
-mr2-onboarding-theme-label-auto = 自動
-
-# This string will be used for Default theme
-mr2-onboarding-theme-label-default = デフォルト
-
 mr1-onboarding-theme-header = 自分好みに仕上げてください
 mr1-onboarding-theme-subtitle = { -brand-short-name } にテーマを設定してパーソナライズします。
-mr1-onboarding-theme-primary-button-label = テーマを保存
 mr1-onboarding-theme-secondary-button-label = 後で
 
 # System theme uses operating system color settings
@@ -197,31 +180,6 @@ mr1-onboarding-theme-description-alpenglow =
   .aria-description =
     Use a dynamic, colorful theme for buttons,
     menus, and windows.
-
-# Tooltip displayed on hover of non-default colorway theme
-# variations e.g. soft, balanced, bold
-mr2-onboarding-theme-tooltip =
-  .title = このテーマカラーを使います。
-
-# Selector description for non-default colorway theme
-# variations e.g. soft, balanced, bold
-mr2-onboarding-theme-description =
-  .aria-description = このテーマカラーを使います。
-
-# Tooltip displayed on hover of colorway
-# Variables:
-#   $colorwayName (String) - Name of colorway
-mr2-onboarding-colorway-tooltip =
-  .title = { $colorwayName } でテーマカラーを探してみましょう。
-
-# Selector description for colorway
-# Variables:
-#   $colorwayName (String) - Name of colorway
-mr2-onboarding-colorway-label = { $colorwayName } でテーマカラーを探してみましょう。
-
-# Tooltip displayed on hover of default themes
-mr2-onboarding-default-theme-tooltip =
-  .title = デフォルトのテーマを探してみましょう。
 
 # Selector description for default themes
 mr2-onboarding-default-theme-label = デフォルトのテーマを探してみましょう。
