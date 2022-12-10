@@ -980,6 +980,9 @@ forms-breach-alerts =
     .label = 漏洩したウェブサイトのパスワードの警告を表示する
     .accesskey = b
 forms-breach-alerts-learn-more-link = さらに詳しく
+relay-integration =
+    .label = { -brand-short-name } のパスワード マネージャーで { -relay-brand-name } を有効にします
+relay-integration-learn-more-link = さらに詳しく
 
 # Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
 forms-fill-logins-and-passwords =

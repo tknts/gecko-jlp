@@ -950,3 +950,13 @@ refresh-blocked-redirect-label = このページが別のページに自動的�
 refresh-blocked-allow =
     .label = 許可
     .accesskey = A
+
+## Firefox Relay integration
+
+firefox-relay-offer-why-relay = { -relay-brand-name } は、あなたが実際に使用するメールアドレスを隠して、データの侵害やスパムから保護します。
+firefox-relay-offer-how-we-integrate = 続行すると { -relay-brand-short-name } は新しい非公開用のメールアドレスを { -brand-shorter-name } のパスワード マネージャーから直接生成できるようになります。
+
+# Variables:
+#  $sitename (String): name of the site where user enters their Relay mask
+#  $useremail (String): user email that will receive messages
+firefox-relay-offer-what-relay-does = <strong>{ $sitename }</strong> からのすべてのメールを <strong>{ $useremail }</strong> に転送します。
