@@ -36,8 +36,8 @@ mr1-return-to-amo-add-extension-label = { $addon-name } を追加
 #   $current (Int) - Number of the current page
 #   $total (Int) - Total number of pages
 
-onboarding-welcome-steps-indicator2 =
-  .aria-valuetext = 進行状況: ステップ { $current } / { $total }
+onboarding-welcome-steps-indicator-label =
+  .aria-label = 進捗状況: ステップ { $current } / { $total }
 
 # "Hero Text" displayed on left side of welcome screen.
 # The "Fire" in "Fire starts here" plays on the "Fire" in "Firefox".

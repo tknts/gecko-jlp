@@ -125,8 +125,8 @@ places-forget-about-this-site-confirmation-title =
 
 # Variables:
 # $hostOrBaseDomain (string) - The base domain (or host in case there is no base domain) for which data is being removed
-places-forget-about-this-site-confirmation-message =
-  このアクションにより、履歴、パスワード、Cookie、キャッシュ、コンテンツ設定など { $hostOrBaseDomain } に関連するすべてのデータが削除されます。 続行してもよろしいですか？
+places-forget-about-this-site-confirmation-msg =
+  このアクションにより、履歴、パスワード、Cookie、キャッシュ、コンテンツ設定など { $hostOrBaseDomain } に関連するデータ(ブックマークとパスワードを除く)が削除されます。 続行してもよろしいですか？
 
 places-forget-about-this-site-forget = 忘れる
 
