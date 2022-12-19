@@ -11,4 +11,4 @@ confirmation-hint-password-saved = パスワードを削除しました!
 confirmation-hint-pin-tab = ピン留めしました!
 confirmation-hint-pin-tab-description = タブを右クリックしてピン留めを外します。
 confirmation-hint-send-to-device = 送信!
-confirmation-hint-firefox-relay-mask-generated = { -relay-brand-short-name } は新しい非公開用のメールアドレスを作成しました!
+confirmation-hint-firefox-relay-mask-generated = { -relay-brand-short-name } は新しい非公開メールを作成しました!
