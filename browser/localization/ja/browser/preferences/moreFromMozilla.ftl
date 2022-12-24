@@ -31,3 +31,9 @@ more-from-moz-qr-code-firefox-mobile-img =
 more-from-moz-button-mozilla-vpn-2 = VPN を入手
 
 more-from-moz-learn-more-link = さらに詳しく
+
+## These strings are for the Firefox Relay card in about:preferences moreFromMozilla page
+
+more-from-moz-firefox-relay-title = { -relay-brand-name }
+more-from-moz-firefox-relay-description = 無料のマスキングされたメールアドレスで、あなたの受信トレイとログイン情報を保護します。
+more-from-moz-firefox-relay-button = { -relay-brand-short-name }　を使う

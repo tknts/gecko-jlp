@@ -23,6 +23,8 @@ neterror-pref-reset-button = デフォルトの設定を復元
 neterror-return-to-previous-page-button = 戻る
 neterror-return-to-previous-page-recommended-button = 戻る (推奨)
 neterror-try-again-button = もう一度
+neterror-add-exception-button = このサイトを常に続ける
+neterror-settings-button = DNS の設定を変更
 neterror-view-certificate-link = 証明書を表示
 
 ##
@@ -37,6 +39,7 @@ neterror-generic-error = { -brand-short-name } は何らかの理由でこのペ
 neterror-load-error-try-again = サイトが一時的に利用できないか、混雑している可能性があります。 しばらくしてからもう一度お試しください。
 neterror-load-error-connection = どのページも読み込めない場合は、コンピューターのネットワーク接続を確認してください。
 neterror-load-error-firewall = コンピューターまたはネットワークがファイアウォールまたはプロキシによって保護されている場合は { -brand-short-name } がウェブへのアクセスを許可されていることを確認してください。
+
 neterror-captive-portal = インターネットにアクセスする前に、このネットワークにログインする必要があります。
 
 # Variables:
@@ -46,6 +49,23 @@ neterror-dns-not-found-hint-header = <strong>正しいアドレスを入力し�
 neterror-dns-not-found-hint-try-again = あとでもう一度試してください
 neterror-dns-not-found-hint-check-network = ネットワーク接続を確認してください
 neterror-dns-not-found-hint-firewall ={ -brand-short-name } にウェブへのアクセス権限があることを確認してください (接続していてもファイアウォールの内側にいる可能性があります)。
+
+## TRR-only specific messages
+## Variables:
+##   $hostname (String) - Hostname of the website to which the user was trying to connect.
+##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
+
+neterror-dns-not-found-trr-only-reason = { -brand-short-name } は、信頼できる DNS リゾルバーを通じて、このサイトのアドレスのリクエストを保護できません。理由は次のとおりです:
+neterror-dns-not-found-trr-only-attackers = 続行すると第三者によってユーザーがアクセスしたウェブサイトを確認したり、信頼できないサイトに誘導したりする可能性があります。
+
+neterror-dns-not-found-trr-only-could-not-connect = { -brand-short-name } は { $trrDomain } に接続できませんでした。
+neterror-dns-not-found-trr-only-timeout = { $trrDomain } への接続に予想以上の時間がかかりました。
+neterror-dns-not-found-trr-offline = インターネットに接続していません。
+neterror-dns-not-found-trr-unknown-host = このウェブサイトのアドレスを { $trrDomain } は見つけられませんでした。
+neterror-dns-not-found-trr-server-problem = { $trrDomain } に問題がありました。
+neterror-dns-not-found-trr-unknown-problem = 予期しない問題が発生しました。
+
+##
 
 neterror-file-not-found-filename = ファイル名に大文字やその他の入力エラーがないか確認してください。
 neterror-file-not-found-moved = ファイルが移動、名前の変更、または削除されたかどうかを確認してください。

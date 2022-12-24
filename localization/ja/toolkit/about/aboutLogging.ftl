@@ -16,6 +16,8 @@
 
 -profiler-brand-name = Firefox プロファイラ
 
+##
+
 # This is the title of the page
 about-logging-title = ログの記録について
 about-logging-page-title =ログの管理
@@ -24,7 +26,7 @@ about-logging-new-log-file = 新しいログファイル:
 about-logging-currently-enabled-log-modules = 現在有効化されているログモジュール:
 about-logging-log-tutorial =
     このツールの使用方法については <a data-l10n-name="logging">HTTP ロギング</a> を参照してください。
-    
+
 # This message is used as a button label, "Open" indicates an action.
 about-logging-open-log-file-dir = ディレクトリーを開く
 about-logging-set-log-file = ログファイルを設定
@@ -62,7 +64,7 @@ about-logging-error = エラー:
 about-logging-invalid-output = キー“{ $k }“ に無効な値 “{ $v }“ が含まれています
 about-logging-unknown-logging-preset = “{ $v }“ は不明なロギングプリセット
 about-logging-unknown-profiler-preset = “{ $v }“ は不明なプロファイルプリセットです
-about-logging-unknown-option = “{ $k }“ は不明な about:logging のオプションです 
+about-logging-unknown-option = “{ $k }“ は不明な about:logging のオプションです
 about-logging-configuration-url-ignored = 構成 URL は無視されました
 about-logging-file-and-profiler-override = ファイル出力の強制とプロファイラー オプションの上書きを同時に行うことはできません
 

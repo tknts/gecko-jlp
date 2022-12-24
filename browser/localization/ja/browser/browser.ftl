@@ -114,6 +114,9 @@ urlbar-tip-icon-description =
 
 urlbar-result-menu-button =
     .title = メニューを開きます
+urlbar-result-menu-remove-from-history =
+    .label = 履歴から削除
+    .accesskey = R
 
 ## Prompts users to use the Urlbar when they open a new tab or visit the
 ## homepage of their default search engine.
