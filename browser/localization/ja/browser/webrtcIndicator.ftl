@@ -75,6 +75,7 @@ webrtc-indicator-sharing-window =
     .tooltiptext = ウィンドウが共有されています。 クリックして共有を制御します。
 webrtc-indicator-sharing-browser =
     .tooltiptext = タブが共有されています。 クリックして共有を制御します。
+
 ## These strings are only used on Mac for menus attached to icons
 ## near the clock on the mac menubar.
 ## Variables:
@@ -146,7 +147,7 @@ webrtc-indicator-menuitem-sharing-browser-with-n-tabs =
 ##   $origin (String): the website origin (e.g. www.mozilla.org).
 
 webrtc-allow-share-audio-capture = { $origin } がこのタブのオーディオを聞くことを許可しますか?
-webrtc-allow-share-camera ={  $origin } にカメラの使用を許可しますか?
+webrtc-allow-share-camera ={ $origin } にカメラの使用を許可しますか?
 webrtc-allow-share-microphone = { $origin } にマイクの使用を許可しますか?
 webrtc-allow-share-screen = { $origin } があなたの画面を見ることを許可しますか?
 # "Speakers" is used in a general sense that might include headphones or
@@ -163,7 +164,7 @@ webrtc-allow-share-screen-and-audio-capture = { $origin } がこのタブのオ�
 
 webrtc-allow-share-audio-capture-unsafe-delegation = Allow { $origin } to give { $thirdParty } permission to listen to this tab’s audio?
 webrtc-allow-share-camera-unsafe-delegation = Allow { $origin } to give { $thirdParty } access to your camera?
-webrtc-allow-share-microphone-unsafe-delegations = Allow { $origin } to give { $thirdParty } access to your microphone?
+webrtc-allow-share-microphone-unsafe-delegation = Allow { $origin } to give { $thirdParty } access to your microphone?
 webrtc-allow-share-screen-unsafe-delegation = Allow { $origin } to give { $thirdParty } permission to see your screen?
 # "Speakers" is used in a general sense that might include headphones or
 # another audio output connection.
