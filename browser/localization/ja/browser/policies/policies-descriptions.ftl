@@ -88,6 +88,8 @@ policy-DisableSystemAddonUpdate = ブラウザーがシステム アドオンの
 
 policy-DisableTelemetry = テレメトリを無効にします。
 
+policy-DisableThirdPartyModuleBlocking = { -brand-short-name } のプロセスに挿入されるサードパーティーのモジュールをユーザーがブロックできないようにします。
+
 policy-DisplayBookmarksToolbar = ブックマーク ツールバーをデフォルトで表示します。
 
 policy-DisplayMenuBar = メニューバーをデフォルトで表示します。
@@ -135,6 +137,7 @@ policy-LegacyProfiles = インストールごとに個別のプロファイル�
 ## Do not translate "SameSite", it's the name of a cookie attribute.
 
 policy-LegacySameSiteCookieBehaviorEnabled = 旧来の SameSite Cookie の動作設定をデフォルトで有効にします。
+
 policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトで SameSite Cookie の動作を旧来の挙動に戻します。
 
 ##
@@ -196,6 +199,7 @@ policy-SecurityDevices = PKCS #11 モジュールをインストールします�
 policy-ShowHomeButton = ホームボタンをツールバーに表示します。
 
 policy-SSLVersionMax = 使用する SSL の最高バージョンを設定します。
+
 policy-SSLVersionMin = 使用する SSL の最低バージョンを設定します。
 
 policy-StartDownloadsInTempDirectory = デフォルトのダウンロード ディレクトリではなく、ローカルの一時的な場所でダウンロードを強制的に開始します。
