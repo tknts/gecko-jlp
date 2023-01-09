@@ -7,34 +7,44 @@
 ##  $host - the hostname that is initiating the request
 ##  $scheme - the type of link that's being opened.
 ##  $appName - Name of the application that will be opened.
+##  $extension - Name of extension that initiated the request
 
 permission-dialog-description =
-  Allow this site to open the { $scheme } link?
+  このサイトが { $scheme } タイプのリンクを開くことを許可しますか?
 
 permission-dialog-description-file =
-  Allow this file to open the { $scheme } link?
+  このファイルが { $scheme } タイプのリンクを開くことを許可しますか?
 
 permission-dialog-description-host =
-  Allow { $host } to open the { $scheme } link?
+  { $host } が { $scheme } タイプのリンクを開くことを許可しますか?
+
+permission-dialog-description-extension =
+  拡張機能 { $extension } が { $scheme } タイプのリンクを開くことを許可しますか?
 
 permission-dialog-description-app =
-  Allow this site to open the { $scheme } link with { $appName }?
+  このサイトが { $scheme } タイプのリンクを { $appName } で開くことを許可しますか?
 
 permission-dialog-description-host-app =
-  Allow { $host } to open the { $scheme } link with { $appName }?
+  { $host } が { $scheme } タイプのリンクを { $appName } で開くことを許可しますか?
 
 permission-dialog-description-file-app =
-  Allow this file to open the { $scheme } link with { $appName }?
+  このファイルが { $scheme } タイプのリンクを { $appName } で開くことを許可しますか?
+
+permission-dialog-description-extension-app =
+  拡張機能 { $extension } が{ $scheme } タイプのリンクを { $appName } で開くことを許可しますか?
 
 ## Please keep the emphasis around the hostname and scheme (ie the
 ## `<strong>` HTML tags). Please also keep the hostname as close to the start
 ## of the sentence as your language's grammar allows.
 
 permission-dialog-remember =
-  Always allow <strong>{ $host }</strong> to open <strong>{ $scheme }</strong> links
+  <strong>{ $host }</strong> で <strong>{ $scheme }</strong> タイプのリンクを開くことを常に許可する
 
 permission-dialog-remember-file =
-  Always allow this file to open <strong>{ $scheme }</strong> links
+  このファイルが <strong>{ $scheme }</strong> タイプのリンクを開くことを常に許可する
+
+permission-dialog-remember-extension =
+  この拡張機能が <strong>{ $scheme }</strong> タイプのリンクを開くことを常に許可します
 
 ##
 
@@ -46,9 +56,9 @@ permission-dialog-btn-choose-app =
       .label = アプリケーションを選択
       .accessKey = A
 
-permission-dialog-unset-description = You’ll need to choose an application.
+permission-dialog-unset-description = アプリケーションを選択する必要があります。
 
-permission-dialog-set-change-app-link = Choose a different application.
+permission-dialog-set-change-app-link = 別のアプリケーションを選択してください。
 
 ## Chooser dialog
 ## Variables:
@@ -62,15 +72,15 @@ chooser-dialog =
       .buttonlabelaccept = リンクを開く
       .buttonaccesskeyaccept = O
 
-chooser-dialog-description = Choose an application to open the { $scheme } link.
+chooser-dialog-description = アプリケーションを選択して { $scheme } タイプのリンクを開きます。
 
 # Please keep the emphasis around the scheme (ie the `<strong>` HTML tags).
 chooser-dialog-remember =
-  Always use this application to open <strong>{ $scheme }</strong> links
+  常にこのアプリケーションを使用して <strong>{ $scheme }</strong> タイプのリンクを開く
 
 chooser-dialog-remember-extra = {
   PLATFORM() ->
-      [windows] This can be changed in { -brand-short-name }’s options.
+      [windows] これは { -brand-short-name } のオプションで変更できます。
      *[other] This can be changed in { -brand-short-name }’s preferences.
   }
 
@@ -81,4 +91,4 @@ choose-app-btn =
 choose-other-app-window-title = その他のアプリケーション…
 
 # Displayed under the name of a protocol handler in the Launch Application dialog.
-choose-dialog-privatebrowsing-disabled = Disabled in Private Windows
+choose-dialog-privatebrowsing-disabled = プライベート ウィンドウでは無効
