@@ -9,3 +9,4 @@ cookie-banner-reject-accept = { -brand-short-name } は Cookie 同意バナー�
 cookie-banner-learn-more = さらに詳しく
 forms-handle-cookie-banners =
     .label = Cookie 同意バナーの削減
+    
