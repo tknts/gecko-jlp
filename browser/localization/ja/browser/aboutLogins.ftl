@@ -99,9 +99,15 @@ login-item-copied-password-button-text = コピーしました!
 login-item-save-changes-button = 変更を保存
 login-item-save-new-button = 保存
 login-item-cancel-button = キャンセル
-login-item-time-changed = 最終更新日時: { DATETIME($timeChanged, year: "numeric", month: "numeric", day: "numeric") }
-login-item-time-created = 作成日時: { DATETIME($timeCreated, year: "numeric", month: "numeric", day: "numeric") }
-login-item-time-used = 最終利用日時: { DATETIME($timeUsed, year: "numeric", month: "numeric", day: "numeric") }
+
+## The date is displayed in a timeline showing the password evolution.
+## A label is displayed under the date to describe the type of change.
+## (e.g. updated, created, etc.)
+
+login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
+login-item-timeline-action-created = 作成日
+login-item-timeline-action-updated = 更新日
+login-item-timeline-action-used = 使用日
 
 ## OS Authentication dialog
 

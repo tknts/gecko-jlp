@@ -64,6 +64,31 @@ cfr-doorhanger-extension-total-users =
      *[other] { $total } ユーザー
   }
 
+## Cookie Banner Handling Onboarding
+
+# Simplified version of the headline if the original text doesn't work
+# in your language: `See fewer cookie requests`.
+cfr-cookie-banner-handling-header = Cookie 同意バナーを始めました!
+cfr-cookie-banner-handling-body = 可能な場合に { -brand-short-name } がすべての Cookie 同意バナーを自動的に拒否できるようにします。それ以外の場合は、すべてのCookieを受け入れ、さらにバナーを表示しません。
+cfr-cookie-banner-accept-button = リクエストを自動的に閉じる
+  .accesskey = D
+cfr-cookie-banner-reject-button = 今はしない
+  .accesskey = N
+
+cfr-cookie-banner-handling-header-variant-1 = Cookie のポップアップ表示を減らします
+cfr-cookie-banner-handling-body-variant-1 = { -brand-short-name } が Cookie のポップアップに自動的に応答するようにすれば、ブラウジング中に気を散らされることは無くなります。可能な場合に { -brand-short-name } は、すべてのリクエストを拒否し、そうでない場合はすべて受け入れます。
+cfr-cookie-banner-accept-button-variant-1 = ポップアップを自動的に閉じる
+  .accesskey = D
+cfr-cookie-banner-reject-button-variant-1 = 必要ありません
+  .accesskey = N
+
+cfr-cookie-banner-handling-header-variant-2 = Cookie 同意バナーを削減します
+cfr-cookie-banner-handling-body-variant-2 = 可能な場合に { -brand-short-name } がサイトの Cookie 同意リクエストを自動的に拒否することを許可しますか? また可能でない場合は Cookie を受け入れますか?
+cfr-cookie-banner-accept-button-variant-2 = 許可
+  .accesskey = A
+cfr-cookie-banner-reject-button-variant-2 = 今はしない
+  .accesskey = N
+
 ## Firefox Accounts Message
 
 cfr-doorhanger-bookmark-fxa-header = どこからでもブックマークを同期します。
