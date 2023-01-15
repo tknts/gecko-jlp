@@ -99,6 +99,9 @@ login-item-copied-password-button-text = コピーしました!
 login-item-save-changes-button = 変更を保存
 login-item-save-new-button = 保存
 login-item-cancel-button = キャンセル
+login-item-time-changed = 更新日時: { DATETIME($timeChanged, day: "numeric", month: "long", year: "numeric") }
+login-item-time-created = 作成日時: { DATETIME($timeCreated, day: "numeric", month: "long", year: "numeric") }
+login-item-time-used = 使用日時: { DATETIME($timeUsed, day: "numeric", month: "long", year: "numeric") }
 
 ## The date is displayed in a timeline showing the password evolution.
 ## A label is displayed under the date to describe the type of change.
