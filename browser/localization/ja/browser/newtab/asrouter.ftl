@@ -245,3 +245,9 @@ colorways-cfr-header-28days = Independent Voices colorways expire January 16
 colorways-cfr-header-14days = Independent Voices colorways expire in two weeks
 colorways-cfr-header-7days =  Independent Voices colorways expire this week
 colorways-cfr-header-today = Independent Voices colorways expire today
+
+## These strings are used in the Fox doodle Pin/set default spotlights
+
+july-jam-headline = 私たちはあなたをサポートしています
+july-jam-body = { -brand-short-name } はユーザーあたり平均で毎月 3,000 以上のトラッカーをブロックし、優れたインターネットへの安全で素早いアクセスを提供します。
+july-jam-set-default-primary = { -brand-short-name } でリンクを開く
