@@ -139,15 +139,6 @@ cfr-doorhanger-doh-primary-button-2 = OK
 cfr-doorhanger-doh-secondary-button = 無効化
   .accesskey = D
 
-## Fission Experiment Message
-
-cfr-doorhanger-fission-body-approved = あなたのプライバシーは重要です。は、ウェブサイトを相互に分離 (サンドボックス化) するようになりました。これにより、ハッカーがパスワード、クレジットカード番号、およびその他の機密情報を盗むことが難しくなりました。
-cfr-doorhanger-fission-header = サイトの分離
-cfr-doorhanger-fission-primary-button = OK、有効にする
-  .accesskey = O
-cfr-doorhanger-fission-secondary-button = さらに詳しく
-  .accesskey = L
-
 ## Full Video Support CFR message
 
 cfr-doorhanger-video-support-body = このバージョンの { -brand-short-name } では、このサイトの動画を正しく再生できない場合があります。動画を完全にサポートするには { -brand-short-name } を今すぐ更新してください。
