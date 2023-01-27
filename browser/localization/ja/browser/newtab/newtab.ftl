@@ -20,12 +20,12 @@ newtab-search-box-search-button =
     .title = 検索
     .aria-label = 検索
 
-# Variables
-#  $engine (String): the name of the user's default search engine
+# Variables:
+#   $engine (string) - The name of the user's default search engine
 newtab-search-box-handoff-text = { $engine } で検索または URL を入力
 newtab-search-box-handoff-text-no-engine = 検索ワードまたは URL を入力
-# Variables
-#  $engine (String): the name of the user's default search engine
+# Variables:
+#   $engine (string) - The name of the user's default search engine
 newtab-search-box-handoff-input =
     .placeholder = { $engine } で検索または URL を入力
     .title = { $engine } で検索または URL を入力してください
@@ -91,7 +91,7 @@ newtab-dismiss-button-tooltip =
 
 # This tooltip is for the context menu of Pocket cards or Topsites
 # Variables:
-#  $title (String): The label or hostname of the site. This is for screen readers when the context menu button is focused/active.
+#   $title (string) - The label or hostname of the site. This is for screen readers when the context menu button is focused/active.
 newtab-menu-content-tooltip =
     .title = メニューを開きます
     .aria-label = { $title } のコンテキストメニューを開く
@@ -120,11 +120,10 @@ newtab-privacy-modal-button-done = 完了
 newtab-privacy-modal-button-manage = スポンサー付きコンテンツ設定の管理
 newtab-privacy-modal-header = あなたのプライバシーは重要です。
 newtab-privacy-modal-paragraph-2 =
-    あなたの心をつかむ記事に加えて、選ばれたスポンサーからの関連性の高い厳選されたコンテンツを紹介します。
-    でも安心してください。<strong>あなたのブラウジングデータに { -brand-product-name } の個人情報のコピーが残ることはありません。</strong> — 私たちもスポンサーもその情報を見ることはできせん。
-    highly-vetted content from select sponsors. Rest assured, <strong>your browsing
-    data never leaves your personal copy of { -brand-product-name }</strong> — we don’t see it, and our
-    sponsors don’t either.
+    あなたの心をつかむ記事に加えて、選ばれたスポンサーからの関連性の高い厳選されたコンテンツを紹介します。でも安心してください。<strong>あなたのブラウジングデータは { -brand-product-name } 内でのみ使用されます。</strong> — 私たちもスポンサーもその情報を見ることはできせん。
+
+
+
 newtab-privacy-modal-link = 新しいタブでのプライバシーの仕組みをご覧ください
 
 ##
@@ -165,18 +164,18 @@ newtab-label-download = ダウンロード済み
 
 # This string is used in the story cards to indicate sponsored content
 # Variables:
-#  $sponsorOrSource (String): This is the name of a company or their domain
-newtab-label-sponsored = スポンサー: { $sponsorOrSource }
+#   $sponsorOrSource (string) - The name of a company or their domain
+newtab-label-sponsored = { $sponsorOrSource } · Sponsored
 
 # This string is used at the bottom of story cards to indicate sponsored content
 # Variables:
-#  $sponsor (String): This is the name of a sponsor
-newtab-label-sponsored-by = スポンサー: { $sponsor }
+#   $sponsor (string) - The name of a sponsor
+newtab-label-sponsored-by = Sponsored by { $sponsor }
 
 # This string is used under the image of story cards to indicate source and time to read
 # Variables:
-#  $source (String): This is the name of a company or their domain
-#  $timeToRead (Number): This is the estimated number of minutes to read this story
+#   $source (string) - The name of a company or their domain
+#   $timeToRead (number) - The estimated number of minutes to read this story
 newtab-label-source-read-time = { $source } · { $timeToRead } 分
 
 ## Section Menu: These strings are displayed in the section context menu and are
@@ -205,7 +204,7 @@ newtab-section-expand-section-label =
 newtab-section-header-topsites = トップサイト
 newtab-section-header-recent-activity = 最近のアクティビティ
 # Variables:
-#  $provider (String): Name of the corresponding content provider.
+#   $provider (string) - Name of the corresponding content provider.
 newtab-section-header-pocket = { $provider } によるおすすめ
 
 ## Empty Section States: These show when there are no more items in a section. Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
@@ -251,6 +250,8 @@ newtab-error-fallback-refresh-link = ページを再読み込みしてもう一�
 
 newtab-custom-shortcuts-title = ショートカット
 newtab-custom-shortcuts-subtitle = あなたが保存または訪問したサイト
+# Variables
+#   $num (number) - Number of rows to display
 newtab-custom-row-selector =
         { $num ->
             [one] { $num } 行

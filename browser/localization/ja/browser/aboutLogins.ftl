@@ -8,7 +8,8 @@ about-logins-page-title = ログインとパスワード
 login-filter =
   .placeholder = ログインを検索します
 
-create-login-button = 新しいログインを作成
+create-new-login-button =
+  .title = 新しいログインの作成
 
 fxaccounts-sign-in-text = 他のデバイスでもパスワードが使える
 fxaccounts-sign-in-sync-button = サインインして同期する
@@ -35,6 +36,8 @@ about-logins-menu-menuitem-help = ヘルプ
 
 login-list =
   .aria-label = 検索条件に一致するログイン情報
+# Variables
+#   $count (number) - Number of logins
 login-list-count =
   { $count ->
       [one] { $count } 件のログイン情報
@@ -75,7 +78,7 @@ login-intro-instructions-fxa = ログイン情報が保存されたデバイス�
 login-intro-instructions-fxa-settings = [設定] > [同期] > [同期を有効にする…] に移動して [ログイン情報とパスワード] のチェックボックスを選択します。
 login-intro-instructions-fxa-passwords-help =  <a data-l10n-name="passwords-help-link">パスワード サポート</a> の詳細なヘルプへ移動
 about-logins-intro-browser-only-import = ログイン情報が別のブラウザーに保存されている場合、<a data-l10n-name="import-link">ログイン情報を { -brand-product-name }</a> にインポートできます
-about-logins-intro-import2 = ログイン情報が { -brand-product-name } 以外に保存されている場合は <a data-l10n-name="import-browser-link">別のブラウザからインポート</a> するか <a data-l10n- name="import-file-link">ファイルから直接インポート</a> できます。
+about-logins-intro-import2 = ログイン情報が { -brand-product-name } 以外に保存されている場合は <a data-l10n-name="import-browser-link">別のブラウザからインポート</a> するか <a data-l10n-name="import-file-link">ファイルから直接インポート</a> できます。
 
 ## Login
 
@@ -99,14 +102,13 @@ login-item-copied-password-button-text = コピーしました!
 login-item-save-changes-button = 変更を保存
 login-item-save-new-button = 保存
 login-item-cancel-button = キャンセル
-login-item-time-changed = 更新日時: { DATETIME($timeChanged, day: "numeric", month: "long", year: "numeric") }
-login-item-time-created = 作成日時: { DATETIME($timeCreated, day: "numeric", month: "long", year: "numeric") }
-login-item-time-used = 使用日時: { DATETIME($timeUsed, day: "numeric", month: "long", year: "numeric") }
 
 ## The date is displayed in a timeline showing the password evolution.
 ## A label is displayed under the date to describe the type of change.
 ## (e.g. updated, created, etc.)
 
+# Variables
+#   $datetime (date) - Event date
 login-item-timeline-point-date = { DATETIME($datetime, day: "numeric", month: "short", year: "numeric") }
 login-item-timeline-action-created = 作成日
 login-item-timeline-action-updated = 更新日
@@ -161,6 +163,9 @@ about-logins-confirm-remove-dialog-title = このログイン情報を削除し�
 confirm-delete-dialog-message = この操作は元に戻せません。
 about-logins-confirm-remove-dialog-confirm-button = 削除
 
+## Variables
+##   $count (number) - Number of items
+
 about-logins-confirm-remove-all-dialog-confirm-button-label =
   { $count ->
      [1] 削除
@@ -186,14 +191,16 @@ about-logins-confirm-remove-all-dialog-message =
 
 about-logins-confirm-remove-all-sync-dialog-title =
   { $count ->
-     [one] Remove { $count } login from all devices?
-    *[other] Remove all { $count } logins from all devices?
+     [one] すべてのデバイスからログインを削除しますか?
+    *[other] すべてのデバイスから全部で { $count } 個のログインを削除しますか?
   }
 about-logins-confirm-remove-all-sync-dialog-message=
   { $count ->
      [1] This will remove the login you’ve saved to { -brand-short-name } on all devices synced to your { -fxaccount-brand-name }. This will also remove breach alerts that appear here. You won’t be able to undo this action.
     *[other] This will remove all logins you’ve saved to { -brand-short-name } on all devices synced to your { -fxaccount-brand-name }. This will also remove breach alerts that appear here. You won’t be able to undo this action.
   }
+
+##
 
 about-logins-confirm-export-dialog-title = ログイン情報とパスワードをエクスポート
 about-logins-confirm-export-dialog-message = Your passwords will be saved as readable text (e.g., BadP@ssw0rd) so anyone who can open the exported file can view them.
@@ -301,12 +308,12 @@ about-logins-import-dialog-error-title = インポートエラー
 about-logins-import-dialog-error-conflicting-values-title = Multiple Conflicting Values for One Login
 about-logins-import-dialog-error-conflicting-values-description = For example: multiple usernames, passwords, URLs, etc. for one login.
 about-logins-import-dialog-error-file-format-title = ファイル形式の問題
-about-logins-import-dialog-error-file-format-description = Incorrect or missing column headers. Make sure the file includes columns for username, password and URL.
-about-logins-import-dialog-error-file-permission-title = Unable to Read File
-about-logins-import-dialog-error-file-permission-description = { -brand-short-name } does not have permission to read the file. Try changing the file permissions.
-about-logins-import-dialog-error-unable-to-read-title = Unable to Parse File
-about-logins-import-dialog-error-unable-to-read-description = Make sure you selected a CSV or TSV file.
-about-logins-import-dialog-error-no-logins-imported = No logins have been imported
+about-logins-import-dialog-error-file-format-description = 列のヘッダーが正しくないか、欠落しています。ファイルにユーザー名、パスワード、および URL の列が含まれていることを確認してください。
+about-logins-import-dialog-error-file-permission-title = ファイルを読み取れません
+about-logins-import-dialog-error-file-permission-description = ファイルを読み取る権限が {-brand-short-name } にありません。ファイルのパーミッションを変更してください。
+about-logins-import-dialog-error-unable-to-read-title = ファイルを解析できません
+about-logins-import-dialog-error-unable-to-read-description = CSV または TSV ファイルが選択されていることを確認してください。
+about-logins-import-dialog-error-no-logins-imported = ログイン情報はインポートされませんでした
 about-logins-import-dialog-error-learn-more = 更に詳しく
 about-logins-import-dialog-error-try-import-again = もう一度インポート…
 about-logins-import-dialog-error-cancel = キャンセル
@@ -317,18 +324,18 @@ about-logins-import-report-description = ログイン情報をパスワードは
 #
 # Variables:
 #  $number (number) - The number of the row
-about-logins-import-report-row-index = Row { $number }
-about-logins-import-report-row-description-no-change = Duplicate: Exact match of existing login
-about-logins-import-report-row-description-modified = Existing login updated
+about-logins-import-report-row-index = { $number } 行
+about-logins-import-report-row-description-no-change = 重複: 既存のログイン情報と完全に一致しました
+about-logins-import-report-row-description-modified = 既存のログイン情報が更新されました
 about-logins-import-report-row-description-added = 追加された新しいログイン情報
-about-logins-import-report-row-description-error = Error: Missing field
+about-logins-import-report-row-description-error = エラー: フィールドがありません
 
 ##
 ## Variables:
 ##  $field (String) - The name of the field from the CSV file for example url, username or password
 
-about-logins-import-report-row-description-error-multiple-values = Error: Multiple values for { $field }
-about-logins-import-report-row-description-error-missing-field = Error: Missing { $field }
+about-logins-import-report-row-description-error-multiple-values = エラー: { $field } に複数の値があります
+about-logins-import-report-row-description-error-missing-field = エラー: { $field } がありません
 
 ##
 ## Variables:
@@ -336,19 +343,19 @@ about-logins-import-report-row-description-error-missing-field = Error: Missing 
 
 about-logins-import-report-added =
   { $count ->
-      *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">New logins added</div>
+      *[other] <div data-l10n-name="count">{ $count } 個の</div> <div data-l10n-name="details">新しいログイン情報が追加されました</div>
   }
 about-logins-import-report-modified =
   { $count ->
-      *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Existing logins updated</div>
+      *[other] <div data-l10n-name="count">{ $count} 個の</div> <div data-l10n-name="details">既存のログイン情報を更新しました</div>
   }
 about-logins-import-report-no-change =
   { $count ->
-      *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Duplicate logins</div> <div data-l10n-name="not-imported">(not imported)</div>
+      *[other] <div data-l10n-name="count">{ $count } 個の</div> <div data-l10n-name="details">重複したログイン情報</div> <div data-l10n-name="not-imported">(インポートされませんでした)</div>
   }
 about-logins-import-report-error =
   { $count ->
-      *[other] <div data-l10n-name="count">{ $count }</div> <div data-l10n-name="details">Errors</div> <div data-l10n-name="not-imported">(not imported)</div>
+      *[other] <div data-l10n-name="count">{ $count } 個の</div> <div data-l10n-name="details">エラー</div> <div data-l10n-name="not-imported">(インポートされませんでした)</div>
   }
 
 ## Logins import report page

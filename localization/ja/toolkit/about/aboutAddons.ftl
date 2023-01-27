@@ -11,6 +11,9 @@ search-header =
 search-header-shortcut =
     .key = f
 
+## Variables
+##   $domain - Domain name where add-ons are available (e.g. addons.mozilla.org)
+
 list-empty-get-extensions-message =
     拡張機能とテーマを <a data-l10n-name="get-extensions">{ $domain }</a> で入手する
 
@@ -19,6 +22,8 @@ list-empty-get-dictionaries-message =
 
 list-empty-get-language-packs-message =
     言語パック <a data-l10n-name="get-extensions">{ $domain }</a> で入手する
+
+##
 
 list-empty-installed =
     .value = この種類のアドオンはインストールされていません
@@ -286,6 +291,8 @@ shortcuts-duplicate-warning-message = { $shortcut } が他の場所でも使用�
 #   $addon (string) - Name of the add-on
 shortcuts-exists = すでに { $addon } が使用しています
 
+# Variables:
+#   $numberToShow (number) - Number of other elements available to show
 shortcuts-card-expand-button =
     { $numberToShow ->
         *[other] さらに { $numberToShow } 個表示
@@ -473,6 +480,8 @@ addon-permissions-learnmore = 権限の詳細についてさらに詳しく
 recommended-extensions-heading = おすすめの拡張機能
 recommended-themes-heading = おすすめのテーマ
 
+# Variables:
+#   $hostname (string) - Host where the permissions are granted
 addon-sitepermissions-required = <span data-l10n-name="hostname">{ $hostname }</span> に次の機能を追加します:
 
 # A recommendation for the Firefox Color theme shown at the bottom of the theme
@@ -500,10 +509,10 @@ addon-page-options-button =
 
 ## Detail notifications
 ## Variables:
-##   $name (String): name of the add-on.
+##   $name (string) - Name of the add-on.
 
 # Variables:
-#   $version (String): application version.
+#   $version (string) - Application version.
 details-notification-incompatible = { $name } は { -brand-short-name } { $version } と互換性がありません。
 details-notification-incompatible-link = その他の情報
 
