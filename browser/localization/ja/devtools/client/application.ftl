@@ -36,6 +36,8 @@ serviceworker-worker-start3 = 開始
 
 # Text displayed for the updated time of the service worker. The <time> element will
 # display the last update time of the service worker script.
+# Variables:
+#   $date (date) - Update date
 serviceworker-worker-updated = <time>{ DATETIME($date, year: "numeric", month: "long", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric") }</time>更新
 
 ## Service Worker status strings: all serviceworker-worker-status-* strings are also
@@ -107,6 +109,8 @@ manifest-json-link-data-url = マニフェストはデータ URL に埋め込ま
 
 # Text displayed at manifest icons to label their purpose, as declared
 # in the manifest.
+# Variables:
+#   $purpose (string) - Manifest purpose
 manifest-icon-purpose = 目的: <code>{$purpose}</code>
 
 # Text displayed as the alt attribute for <img> tags showing the icons in the
@@ -115,9 +119,12 @@ manifest-icon-img =
   .alt = アイコン
 
 # Text displayed as the title attribute for <img> tags showing the icons in the
-# manifest. `$sizes` is a user-dependent string that has been parsed as a
-# space-separated list of `<width>x<height>` sizes or the keyword `any`.
-manifest-icon-img-title = アイコンのサイズ: {$sizes}
+# manifest.
+# Variables:
+#   $sizes (string) - User-dependent string that has been parsed as a
+#                     space-separated list of `<width>x<height>` sizes or
+#                     the keyword `any`.
+manifest-icon-img-title = アイコンのサイズ: { $sizes }
 
 # Text displayed as the title attribute for <img> tags showing the icons in the
 # manifest, in case there's no icon size specified by the user

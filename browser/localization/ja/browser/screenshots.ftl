@@ -24,34 +24,37 @@ screenshots-copy-button-title =
 screenshots-cancel-button-title =
   .title = キャンセル
 screenshots-retry-button-title =
-  .title = Retry screenshot
+  .title = スクリーンショットを再試行
 
 screenshots-meta-key = {
   PLATFORM() ->
     [macos] ⌘
    *[other] Ctrl
 }
-screenshots-notification-link-copied-title = Link Copied
-screenshots-notification-link-copied-details = The link to your shot has been copied to the clipboard. Press {screenshots-meta-key}-V to paste.
+screenshots-notification-link-copied-title = リンクをコピーしました
+screenshots-notification-link-copied-details = スクリーンショットへのリンクがクリップボードにコピーされました。{screenshots-meta-key}-V を押して貼り付けることができます。
 
-screenshots-notification-image-copied-title = Shot Copied
-screenshots-notification-image-copied-details = Your shot has been copied to the clipboard. Press {screenshots-meta-key}-V to paste.
+screenshots-notification-image-copied-title = スクリーンショットをコピーしました
+screenshots-notification-image-copied-details = スクリーンショットがクリップボードにコピーされました。{screenshots-meta-key}-V を押して貼り付けることができます。
 
-screenshots-request-error-title = Out of order.
-screenshots-request-error-details = Sorry! We couldn’t save your shot. Please try again later.
+screenshots-request-error-title = 不具合が発生しました。
+screenshots-request-error-details = ごめんなさい! スクリーンショットを保存できませんでした。後でもう一度やり直してください。
 
-screenshots-connection-error-title = We can’t connect to your screenshots.
-screenshots-connection-error-details = Please check your Internet connection. If you are able to connect to the Internet, there may be a temporary problem with the { -screenshots-brand-name } service.
+screenshots-connection-error-title = スクリーンショットに接続できません。
+screenshots-connection-error-details = インターネットへの接続を確認してください。インターネットに接続できる場合は { -screenshots-brand-name } のサービスに一時的な問題が発生している可能性があります。
 
-screenshots-login-error-details = We couldn’t save your shot because there is a problem with the { -screenshots-brand-name } service. Please try again later.
+screenshots-login-error-details = { -screenshots-brand-name } のサービスに問題が発生したため、スクリーンショットを保存できませんでした。 後でもう一度やり直してください。
 
-screenshots-unshootable-page-error-title = We can’t screenshot this page.
-screenshots-unshootable-page-error-details = This isn’t a standard Web page, so you can’t take a screenshot of it.
+screenshots-unshootable-page-error-title = このページではスクリーンショットできません。
+screenshots-unshootable-page-error-details = 標準的なウェブページではないため、スクリーンショットを撮影できませんでした。
 
-screenshots-empty-selection-error-title = Your selection is too small
+screenshots-empty-selection-error-title = 選択範囲が小さすぎます
 
-screenshots-private-window-error-title = { -screenshots-brand-name } is disabled in Private Browsing Mode
-screenshots-private-window-error-details = Sorry for the inconvenience. We are working on this feature for future releases.
+screenshots-private-window-error-title = { -screenshots-brand-name } はプライベート ブラウジング モードで無効になっています
+screenshots-private-window-error-details = ご不便をおかけして申し訳ありません。 将来のリリースに向けて、この機能に取り組んでいます。
 
 screenshots-generic-error-title = Whoa! { -screenshots-brand-name } went haywire.
 screenshots-generic-error-details = We’re not sure what just happened. Care to try again or take a shot of a different page?
+
+screenshots-too-large-error-title = スクリーンショットが大きすぎるためトリミングされました
+screenshots-too-large-error-details = 長辺は最大で 32,700 ピクセルまで。または合計面積が 124,900,000 ピクセルより小さくなるよう選択してください。

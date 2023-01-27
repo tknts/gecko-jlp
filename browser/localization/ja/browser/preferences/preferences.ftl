@@ -195,6 +195,10 @@ browser-containers-settings =
     .accesskey = i
 
 containers-disable-alert-title = すべてのコンテナータブを閉じますか?
+
+## Variables:
+##   $tabCount (number) - Number of tabs
+
 containers-disable-alert-desc =
     { $tabCount ->
         [one] 今すぐコンテナータブを無効にすると、現在使用しているコンテナータブを閉じます。コンテナータブを無効にしてもよろしいですか?
@@ -206,12 +210,15 @@ containers-disable-alert-ok-button =
         [one] コンテナータブを閉じる
        *[other] { $tabCount } 個のコンテナータブを閉じる
     }
+
+##
+
 containers-disable-alert-cancel-button = 使用を続ける
 
 containers-remove-alert-title = このコンテナーを削除?
 
 # Variables:
-#   $count (Number) - Number of tabs that will be closed.
+#   $count (number) - Number of tabs that will be closed.
 containers-remove-alert-msg =
     { $count ->
         [one] このコンテナーを削除すると { $count } 個のコンテナータブが閉じられます。このコンテナーを削除してもよろしいですか?
@@ -282,6 +289,8 @@ preferences-zoom-header = 拡大/縮小
 preferences-default-zoom = 初期設定
     .accesskey = z
 
+# Variables:
+#   $percentage (number) - Zoom percentage value
 preferences-default-zoom-value =
     .label = { $percentage }%
 
@@ -469,6 +478,8 @@ update-application-title = { -brand-short-name } の更新
 
 update-application-description = 最高のパフォーマンスと安定性、およびセキュリティを提供するために { -brand-short-name } を最新の状態に保ちます。
 
+# Variables:
+# $version (string) - Firefox version
 update-application-version = バージョン: { $version } <a data-l10n-name="learn-more">最新情報</a>
 
 update-history =
@@ -506,7 +517,7 @@ update-application-suppress-prompts =
 update-setting-write-failure-title2 = 更新設定の保存中にエラーが発生しました
 
 # Variables:
-#   $path (String) - Path to the configuration file
+#   $path (string) - Path to the configuration file
 # The newlines between the main text and the line containing the path is
 # intentional so the path is easier to identify.
 update-setting-write-failure-message2 =
@@ -546,7 +557,7 @@ performance-limit-content-process-enabled-desc = コンテンツプロセスを�
 performance-limit-content-process-blocked-desc = コンテンツプロセスの数はマルチプロセスの { -brand-short-name } でしか変更できません。 <a data-l10n-name="learn-more">マルチプロセスが有効になっているか確認してください</a>
 
 # Variables:
-#   $num - default value of the `dom.ipc.processCount` pref.
+#   $num (number) - Default value of the `dom.ipc.processCount` pref.
 performance-default-content-process-count =
     .label = { $num } (初期設定)
 
@@ -669,7 +680,7 @@ home-prefs-shortcuts-by-option-sponsored =
     .label = スポンサー付きショートカット
 
 ## Variables:
-##  $provider (String): Name of the corresponding content provider, e.g "Pocket".
+##  $provider (string) - Name of the corresponding content provider, e.g "Pocket".
 
 home-prefs-recommended-by-header =
     .label = { $provider } からのおすすめ
@@ -705,6 +716,8 @@ home-prefs-snippets-header =
 
 home-prefs-snippets-description-new = { -vendor-short-name } と { -brand-product-name } からのヒントとニュース
 
+# Variables:
+#   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
     .label =
         { $num ->
@@ -787,7 +800,7 @@ search-find-more-link = その他の検索エンジンを探す
 # ('Duplicate' is an adjective)
 search-keyword-warning-title = キーワードの重複
 # Variables:
-#   $name (String) - Name of a search engine.
+#   $name (string) - Name of a search engine.
 search-keyword-warning-engine = “{ $name }”で使用されているキーワードを指定しました。他のものを指定してください。
 search-keyword-warning-bookmark = ブックマークで使用されているキーワードを指定しました。他のものを指定してください。
 
@@ -841,8 +854,13 @@ sync-sign-out =
 sync-manage-account = アカウントの管理
     .accesskey = o
 
+## Variables
+## $email (string) - Email used for Firefox account
+
 sync-signedin-unverified = { $email } はまだ検証されていません。
 sync-signedin-login-failure = サインインするには { $email } で再接続してください。
+
+##
 
 sync-resend-verification =
     .label = 認証メールを再送信
@@ -1085,8 +1103,8 @@ sitedata-header = Cookie とサイトデータ
 sitedata-total-size-calculating = サイトデータとキャッシュサイズを計算しています…
 
 # Variables:
-#   $value (Number) - Value of the unit (for example: 4.6, 500)
-#   $unit (String) - Name of the unit (for example: "bytes", "KB")
+#   $value (number) - Value of the unit (for example: 4.6, 500)
+#   $unit (string) - Name of the unit (for example: "bytes", "KB")
 sitedata-total-size = 保存された Cookie とサイトデータとキャッシュのディスク使用量は現在 { $value } { $unit } です。
 
 sitedata-learn-more = さらに詳しく
@@ -1118,8 +1136,8 @@ sitedata-option-block-cross-site-cookies =
     .label = クロスサイトトラッキング Cookie 及び、その他のクロスサイト Cookie を分離
 sitedata-option-block-unvisited =
     .label = 未訪問のウェブサイトからの Cookie
-sitedata-option-block-all-third-party =
-    .label = すべてのサードパーティの Cookie (ウェブサイトが正しく表示されない原因になります)
+sitedata-option-block-all-cross-site-cookies =
+    .label = すべてのクロスサイト Cookie (ウェブサイトが正しく表示されない原因になります)
 sitedata-option-block-all =
     .label = すべての Cookie (ウェブサイトが正しく表示されなくなります)
 
@@ -1208,7 +1226,7 @@ content-blocking-social-media-trackers = ソーシャルメディア トラッ�
 content-blocking-all-cookies = すべての Cookie
 content-blocking-unvisited-cookies = 未訪問のサイトからの Cookie
 content-blocking-all-windows-tracking-content = すべてのウィンドウでのトラッキングコンテンツ
-content-blocking-all-third-party-cookies = すべてのサードパーティの Cookie
+content-blocking-all-cross-site-cookies = すべてのクロスサイト Cookie
 content-blocking-cryptominers = クリプトマイナー (暗号通貨採掘)
 content-blocking-fingerprinters = フィンガープリントの採取
 

@@ -79,6 +79,8 @@ places-edit-generic =
 places-edit-folder2 =
   .label = フォルダーを編集…
   .accesskey = E
+# Variables
+#   $count (number) - Number of folders to delete
 places-delete-folder =
   .label =
       { $count ->

@@ -117,6 +117,9 @@ urlbar-result-menu-button =
 urlbar-result-menu-remove-from-history =
     .label = 履歴から削除
     .accesskey = R
+urlbar-result-menu-tip-get-help =
+    .label = ヘルプを入手する
+    .accesskey = h
 
 ## Prompts users to use the Urlbar when they open a new tab or visit the
 ## homepage of their default search engine.
@@ -693,6 +696,11 @@ bookmarks-other-bookmarks-menu =
   .label = その他のブックマーク
 bookmarks-mobile-bookmarks-menu =
   .label = モバイルのブックマーク
+
+## Variables:
+##   $isVisible (boolean): if the specific element (e.g. bookmarks sidebar,
+##                         bookmarks toolbar, etc.) is visible or not.
+
 bookmarks-tools-sidebar-visibility =
   .label = { $isVisible ->
      [true] ブックマーク サイドバーを閉じる
@@ -713,6 +721,9 @@ bookmarks-tools-menu-button-visibility =
      [true] ツールバーからブックマーク メニューを削除
     *[other] ツールバーにブックマーク メニューを追加
   }
+
+##
+
 bookmarks-search =
   .label = ブックマークを検索
 bookmarks-tools =
@@ -758,12 +769,6 @@ repair-text-encoding-button =
   .tooltiptext = ページコンテンツから正しいテキストエンコーディングを判断します
 
 ## Customize Toolbar Buttons
-
-# Variables:
-#  $shortcut (String): keyboard shortcut to open the add-ons manager
-toolbar-addons-themes-button =
-  .label = アドオンとテーマ
-  .tooltiptext = アドオンとテーマを管理します ({ $shortcut })
 
 # Variables:
 #  $shortcut (String): keyboard shortcut to open settings (only on macOS)
