@@ -5,7 +5,7 @@
 ## Privacy Section - Cookie Banner Handling
 
 cookie-banner-handling-header = Cookie 同意バナーの表示回数を減らす
-cookie-banner-reject-accept = { -brand-short-name } は Cookie 同意バナーに対して自動的に Cookie の受け入れを拒否します。拒否するオプションが提供されていない場合 { -brand-short-name } は全ての Cookie を受け入れてバナーを消します。
+cookie-banner-handling-description = { -brand-short-name } は、サポートされているサイトの Cookie  同意バナーで Cookie の受け入れを自動的に拒否します。
 cookie-banner-learn-more = さらに詳しく
 forms-handle-cookie-banners =
     .label = Cookie 同意バナーの削減
