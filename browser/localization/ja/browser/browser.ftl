@@ -114,6 +114,9 @@ urlbar-tip-icon-description =
 
 urlbar-result-menu-button =
     .title = メニューを開きます
+urlbar-result-menu-learn-more =
+    .label = さらに詳しく
+    .accesskey = L
 urlbar-result-menu-remove-from-history =
     .label = 履歴から削除
     .accesskey = R

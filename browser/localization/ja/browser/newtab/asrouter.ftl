@@ -121,13 +121,6 @@ cfr-doorhanger-video-support-header = { -brand-short-name } を更新して動�
 cfr-doorhanger-video-support-primary-button = 今すぐ更新
   .accesskey = U
 
-## Spotlight modal shared strings
-
-spotlight-learn-more-collapsed = さらに詳しく
-  .title = 展開してこの機能の詳細を見る
-spotlight-learn-more-expanded = さらに詳しく
-  .title = 閉じる
-
 ## VPN promotion dialog for public Wi-Fi users
 ##
 ## If a user is detected to be on a public Wi-Fi network, they are given a

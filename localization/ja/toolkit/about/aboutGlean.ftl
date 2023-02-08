@@ -28,7 +28,7 @@ about-glean-upload-fake-enabled =
   <a data-l10n-name="glean-debug-ping-viewer">{ glean-debug-ping-viewer-brand-name }</a> regardless of settings.
 
 # This message is followed by a bulleted list.
-about-glean-prefs-and-defines = Relevant <a data-l10n-name="fog-prefs-and-defines-doc-link">preferences and defines</a> include:
+about-glean-prefs-and-defines = 関連する <a data-l10n-name="fog-prefs-and-defines-doc-link">設定と定義</a> には以下が含まれています:
 # Variables:
 #   $data-upload-pref-value (String): the value of the datareporting.healthreport.uploadEnabled pref. Typically "true", sometimes "false"
 # Do not translate strings between <code> </code> tags.
@@ -62,7 +62,7 @@ about-glean-label-for-tag-pings =
 # An in-line drop down list precedes this string.
 # Do not translate strings between <code> </code> tags.
 about-glean-label-for-ping-names =
-  Select the ping from the preceding list that your instrumentation is in.
+  Select from the preceding list the ping your instrumentation is in.
   If it’s in a <a data-l10n-name="custom-ping-link">custom ping</a>, choose that one.
   Otherwise, the default for <code>event</code> metrics is
   the <code>events</code> ping
@@ -76,7 +76,7 @@ about-glean-label-for-log-pings =
 #   $debug-tag (String): The user-set value of the debug tag input on this page. Like "about-glean-kV"
 # An in-line button labeled "Apply settings and submit ping" precedes this string.
 about-glean-label-for-controls-submit =
-  Press the preceding button to tag all { -glean-brand-name } pings with your tag and submit the named ping.
+  Press the preceding button to tag all { -glean-brand-name } pings with your tag and submit the selected ping.
   (All pings submitted from then until you restart the application will be tagged with
   <code>{ $debug-tag }</code>.)
 about-glean-li-for-visit-gdpv =
