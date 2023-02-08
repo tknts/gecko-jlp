@@ -266,7 +266,7 @@ preferences-web-appearance-footer = { -brand-short-name } のテーマを <a dat
 
 preferences-colors-header = 配色
 
-preferences-colors-description = Override { -brand-short-name }’s default colors for text, website backgrounds, and links.
+preferences-colors-description = { -brand-short-name } のテキストやウェブサイトの背景色、およびリンクのデフォルトの色を上書きします。
 
 preferences-colors-manage-button =
     .label = 配色を管理…
@@ -410,17 +410,17 @@ applications-always-ask =
     .label = 毎回確認する
 
 # Variables:
-#   $type-description (String) - Description of the type (e.g "Portable Document Format")
-#   $type (String) - the MIME type (e.g application/binary)
+#   $type-description (string) - Description of the type (e.g "Portable Document Format")
+#   $type (string) - The MIME type (e.g application/binary)
 applications-type-description-with-type = { $type-description } ({ $type })
 
 # Variables:
-#   $extension (String) - file extension (e.g .TXT)
-#   $type (String) - the MIME type (e.g application/binary)
+#   $extension (string) - File extension (e.g .TXT)
+#   $type (string) - The MIME type (e.g application/binary)
 applications-file-ending-with-type = { applications-file-ending } ({ $type })
 
 # Variables:
-#   $plugin-name (String) - Name of a plugin (e.g Adobe Flash)
+#   $plugin-name (string) - Name of a plugin (e.g Adobe Flash)
 applications-use-plugin-in =
     .label = { $plugin-name } を使用 ({ -brand-short-name } 内で表示)
 applications-open-inapp =
@@ -910,8 +910,8 @@ sync-change-options =
 
 ## The "Choose what to sync" dialog.
 
-sync-choose-what-to-sync-dialog2 =
-    .title = 同期する項目を選択
+sync-choose-what-to-sync-dialog3 =
+    .title = 同期する内容を選択
     .style = min-width: 36em;
     .buttonlabelaccept = 変更を保存
     .buttonaccesskeyaccept = S

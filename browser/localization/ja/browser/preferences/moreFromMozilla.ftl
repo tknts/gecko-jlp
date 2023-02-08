@@ -19,12 +19,12 @@ more-from-moz-mozilla-vpn-description = 匿名でのブラウジングと保護�
 # This string is specific to the product Mozilla Rally which is US only.
 more-from-moz-mozilla-rally-title = { -rally-brand-name }
 # This string is specific to the product Mozilla Rally which is US only.
-more-from-moz-mozilla-rally-description = Put your data to work for a better internet for everyone.
+more-from-moz-mozilla-rally-description = すべての人にとってより良いインターネットを実現するために、データを活用しましょう。
 # This string is specific to the product Mozilla Rally which is US only.
-more-from-moz-button-mozilla-rally-2 = Join { -rally-short-name }
+more-from-moz-button-mozilla-rally-2 = { -rally-short-name } を使用する
 
-more-from-moz-qr-code-box-firefox-mobile-title = Download using your mobile device. Point your camera at the QR code. When a link appears, tap it.
-more-from-moz-qr-code-box-firefox-mobile-button = Send an email to your phone instead
+more-from-moz-qr-code-box-firefox-mobile-title = モバイル デバイスを使用してダウンロードできます。カメラを QR コードに向けてください。リンクが表示されたらタップします。
+more-from-moz-qr-code-box-firefox-mobile-button = QR コードを使用できない場合は携帯電話にメールを送信してください
 more-from-moz-qr-code-firefox-mobile-img =
   .alt = QR コードを使って { -brand-product-name } モバイルをダウンロード
 
@@ -36,4 +36,4 @@ more-from-moz-learn-more-link = さらに詳しく
 
 more-from-moz-firefox-relay-title = { -relay-brand-name }
 more-from-moz-firefox-relay-description = 無料のマスキングされたメールアドレスで、あなたの受信トレイとログイン情報を保護します。
-more-from-moz-firefox-relay-button = { -relay-brand-short-name }　を使う
+more-from-moz-firefox-relay-button = { -relay-brand-short-name } を使う
