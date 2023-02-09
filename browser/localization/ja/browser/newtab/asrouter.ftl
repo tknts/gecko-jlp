@@ -210,7 +210,7 @@ colorways-cfr-header-today = Independent Voices colorways expire today
 # Alternate headline for localization: "See fewer cookie requests"
 cfr-cookiebanner-header = Cookie 同意バナーを始めました!
 cfr-cookiebanner-body = 可能な場合に { -brand-short-name } がすべての Cookie 同意バナーを自動的に拒否できるようにします。それ以外の場合は、すべてのCookieを受け入れ、さらにバナーを表示しません。
-cfr-cookiebanner-accept-button = リクエストを自動的に閉じる
+cfr-cookiebanner-accept-button-v2 = リクエストを拒否
   .accesskey = D
 cfr-cookiebanner-reject-button = 今はしない
   .accesskey = N

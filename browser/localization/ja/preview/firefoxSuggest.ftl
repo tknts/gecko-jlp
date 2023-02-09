@@ -89,18 +89,21 @@ addressbar-best-match-learn-more = さらに詳しく
 
 # First Firefox Suggest toggle button main label and description. This toggle
 # controls non-sponsored suggestions related to the user's search string.
-addressbar-firefox-suggest-nonsponsored = Suggestions from the web
-addressbar-firefox-suggest-nonsponsored-description = Get suggestions from { -brand-product-name } related to your search.
+addressbar-firefox-suggest-nonsponsored =
+  .label = ウェブからの検索候補
+  .description = 検索に関連する { -brand-product-name } からの候補を表示します。
 
 # Second Firefox Suggest toggle button main label and description. This toggle
 # controls sponsored suggestions related to the user's search string.
-addressbar-firefox-suggest-sponsored = Suggestions from sponsors
-addressbar-firefox-suggest-sponsored-description = Support the development of { -brand-short-name } with occasional sponsored suggestions.
+addressbar-firefox-suggest-sponsored =
+  .label = スポンサーからの検索候補
+  .description = { -brand-short-name } の開発を支援するスポンサーからの候補を表示します。
 
 # Third Firefox Suggest toggle button main label and description. This toggle
 # controls data collection related to the user's search string.
-addressbar-firefox-suggest-data-collection = Improve the { -firefox-suggest-brand-name } experience
-addressbar-firefox-suggest-data-collection-description = Help create a richer search experience by allowing { -vendor-short-name } to process your search queries.
+addressbar-firefox-suggest-data-collection =
+  .label = { -firefox-suggest-brand-name } での体験を改善する
+  .description = あなたの検索クエリを { -vendor-short-name } で処理することで、より充実した検索での体験に繋がります。
 
 # The "Learn more" link shown in the Firefox Suggest preferences UI.
 addressbar-locbar-firefox-suggest-learn-more = さらに詳しく
