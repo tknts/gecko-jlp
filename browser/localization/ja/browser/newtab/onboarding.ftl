@@ -240,8 +240,16 @@ fx100-upgrade-thanks-header = 100回目のありがとう
 fx100-upgrade-thank-you-body = { -brand-short-name } の 100 回目のリリースです。より良い、より健全なインターネットの構築にご協力いただき <em>ありがとうございま</em>す。
 # Message shown with either a pin-to-taskbar or set-default button.
 fx100-upgrade-thanks-keep-body = 100 回目のリリースです! 私たちのコミュニティに参加していただきありがとうございます。次の 100 番目まで { -brand-short-name } を 1 クリックで使えるようにしましょう。
-
 mr2022-onboarding-secondary-skip-button-label = このステップをスキップ
+
+## MR2022 New User Easy Setup screen strings
+
+# Primary button string used on new user onboarding first screen showing multiple actions such as Set Default, Import from previous browser.
+mr2022-onboarding-easy-setup-primary-button-label = 保存して続ける
+# Set Default action checkbox label used on new user onboarding first screen
+mr2022-onboarding-easy-setup-set-default-checkbox-label = { -brand-short-name } を既定のブラウザーに設定する
+# Import action checkbox label used on new user onboarding first screen
+mr2022-onboarding-easy-setup-import-checkbox-label = 以前使用していたブラウザーからインポートする
 
 ## MR2022 New User Pin Firefox screen strings
 

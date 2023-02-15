@@ -10,6 +10,7 @@ perftools-intro-title = プロファイラの設定
 perftools-intro-description =
   記録したデータは新しいタブの profiler.firefox.com で開きます。 データはすべてローカルに保存されますが、アップロードして共有することもできます。
 
+
 ## All of the headings for the various sections.
 
 perftools-heading-settings = 設定
@@ -127,7 +128,7 @@ perftools-onboarding-close-button =
 ## Profiler presets
 
 # Presets and their l10n IDs are defined in the file
-# devtools/client/performance-new/popup/background.jsm.js
+# devtools/client/performance-new/shared/background.jsm.js
 # The same labels and descriptions are also defined in appmenu.ftl.
 
 perftools-presets-web-developer-label = ウェブ開発者

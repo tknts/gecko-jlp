@@ -7,6 +7,7 @@ about-logins-page-title = ログインとパスワード
 
 login-filter =
   .placeholder = ログインを検索します
+  .key = F
 
 create-new-login-button =
   .title = 新しいログインの作成
@@ -221,7 +222,6 @@ about-logins-breach-alert-date = This breach occurred on { DATETIME($date, day: 
 # Variables:
 #   $hostname (String) - The hostname of the website associated with the login, e.g. "example.com"
 about-logins-breach-alert-link = { $hostname } へ移動
-about-logins-breach-alert-learn-more-link = さらに詳しく
 
 ## Vulnerable Password notification
 
