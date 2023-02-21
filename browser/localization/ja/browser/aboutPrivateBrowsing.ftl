@@ -62,4 +62,12 @@ about-private-browsing-pin-promo-link-text = { PLATFORM() ->
     [macos] Keep in Dock
    *[other] Pin to taskbar
 }
-about-private-browsing-pin-promo-title =  Cookie や履歴を残さずにデスクトップから直接閲覧できます。誰に見られる事なくブラウズすることができます。
+about-private-browsing-pin-promo-title = Cookie や履歴を残さずにデスクトップから直接閲覧できます。誰に見られる事なくブラウズすることができます。
+
+## Strings used in a promotion message for cookie banner reduction
+
+# Simplified version of the headline if the original text doesn't work
+# in your language: `See fewer cookie requests`.
+about-private-browsing-cookie-banners-promo-header = Cookie 同意バナーはじめました!
+about-private-browsing-cookie-banners-promo-button = Cookie 同意バナーの表示回数を減らす
+about-private-browsing-cookie-banners-promo-message = Cookie の同意に { -brand-short-name } が自動的に応答するようにすると、気を散らされること無くブラウジングを続けることができます。{ -brand-short-name } は、可能であればすべてのリクエストをブロックします。
