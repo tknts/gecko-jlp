@@ -213,7 +213,7 @@ newtab-empty-section-highlights = ブラウジングを開始すると、最近�
 
 # Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 # Variables:
-#  $provider (String): Name of the content provider for this section, e.g "Pocket".
+#   $provider (string) - Name of the content provider for this section, e.g "Pocket".
 newtab-empty-section-topstories = すべて既読です。{ $provider } からのおすすめ記事については、後でもう一度確認してください。待ちきれませんか？。人気のあるトピックを選択して、ウェブ上からさらに素晴らしい記事を見つけてください。
 
 ## Empty Section (Content Discovery Experience). These show when there are no more stories or when some stories fail to load.

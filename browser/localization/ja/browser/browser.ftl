@@ -78,16 +78,12 @@ urlbar-xr-notification-anchor =
     .tooltiptext = VR の許可パネルを開きます
 urlbar-storage-access-anchor =
     .tooltiptext = 行動追跡の許可パネルを開きます
-urlbar-translate-notification-anchor =
-    .tooltiptext = このページを翻訳します
 urlbar-web-rtc-share-screen-notification-anchor =
     .tooltiptext = サイトでのウィンドウまたは画面の共有を管理します
 urlbar-indexed-db-notification-anchor =
     .tooltiptext = オフライン ストレージのメッセージパネルを開きます
 urlbar-password-notification-anchor =
     .tooltiptext = パスワードの保存のメッセージパネルを開きます
-urlbar-translated-notification-anchor =
-    .tooltiptext = ページ翻訳を管理します
 urlbar-plugins-notification-anchor =
     .tooltiptext = 使用するプラグインを管理します
 urlbar-web-rtc-share-devices-notification-anchor =
@@ -243,7 +239,7 @@ search-one-offs-add-engine-menu =
 ## Local search mode one-off buttons
 ## Variables:
 ##  $restrict (String): The restriction token corresponding to the search mode.
-##    Restriction tokens are special characters users can type in the urlbar to
+##    Restriction tokens are speciurlbar-translated-notification-anchoral characters users can type in the urlbar to
 ##    restrict their searches to certain sources (e.g., "*" to search only
 ##    bookmarks).
 
