@@ -11,6 +11,7 @@
 onboarding-welcome-header = { -brand-short-name } にようこそ
 onboarding-start-browsing-button-label = ブラウジングを開始
 onboarding-not-now-button-label = 後で
+mr1-onboarding-get-started-primary-button-label = さあ、始めましょう
 
 ## Custom Return To AMO onboarding strings
 
@@ -39,80 +40,16 @@ mr1-return-to-amo-add-extension-label = { $addon-name } を追加
 onboarding-welcome-steps-indicator-label =
   .aria-label = 進捗状況: ステップ { $current } / { $total }
 
-# "Hero Text" displayed on left side of welcome screen.
-# The "Fire" in "Fire starts here" plays on the "Fire" in "Firefox".
-# It also signals the passion users bring to Firefox, how they use
-# Firefox to pursue those passions, as well as the boldness in their
-# choice to use Firefox over a larger competitor browser.
-# An alternative title for localization is: "It starts here".
-# This text can be formatted to span multiple lines as needed.
-mr1-welcome-screen-hero-text =
-  Fire starts
-  here
-
-# Caption for background image in about:welcome. "Soraya Osorio" is the name
-# of the person and shouldn't be translated.
-# In case your language needs to adapt the nouns to a gender, Soraya is a female name (she/her).
-# You can see the picture in about:welcome in Nightly 90.
-mr1-onboarding-welcome-image-caption = Soraya Osorio — 家具デザイナー、Firefox ファン
-
 # This button will open system settings to turn on prefers-reduced-motion
 mr1-onboarding-reduce-motion-button-label = アニメーションを無効にする
 
-## Title and primary button strings differ between platforms as they
-## match the OS' application context menu item action where Windows uses "pin"
-## and "taskbar" while macOS "keep" and "Dock" (proper noun).
-
-# Title used on welcome page when Firefox is not pinned
-mr1-onboarding-pin-header = { PLATFORM() ->
-    [macos] Dock に { -brand-short-name }を追加すると簡単にアクセスできます。
-   *[other] タスクバーに { -brand-short-name } をピン留めすると簡単にアクセスできます。
-}
-# Primary button string used on welcome page when Firefox is not pinned.
-mr1-onboarding-pin-primary-button-label = { PLATFORM() ->
-    [macos] Dock に追加する
-   *[other] タスクバーにピン留めする
-}
-
-## Multistage MR1 onboarding strings (about:welcome pages)
-
-# This string will be used on welcome page primary button label
-# when Firefox is both pinned and default
-mr1-onboarding-get-started-primary-button-label = Get started
-
-mr1-onboarding-welcome-header = { -brand-short-name } へようこそ
-mr1-onboarding-set-default-pin-primary-button-label =
-  Make { -brand-short-name } my primary browser
-    .title = Sets { -brand-short-name } as default browser and pins to taskbar
-
-# This string will be used on welcome page primary button label
-# when Firefox is not default but already pinned
-mr1-onboarding-set-default-only-primary-button-label =
-  { -brand-short-name } をデフォルトのブラウザーにする
-mr1-onboarding-set-default-secondary-button-label = 後で
+# String for the Firefox Accounts button
 mr1-onboarding-sign-in-button-label = ログイン
-
-## Title, subtitle and primary button string used on set default onboarding screen
-## when Firefox is not default browser
-
-mr1-onboarding-default-header =
-    { -brand-short-name } を既定にする
-mr1-onboarding-default-subtitle = Put speed, safety, and privacy on autopilot.
-mr1-onboarding-default-primary-button-label = 既定のブラウザーにする
-
-## Multistage MR1 onboarding strings (about:welcome pages)
-
-mr1-onboarding-import-header = すべて持ってこられます
-mr1-onboarding-import-subtitle = パスワードやブックマークなどを<br/>インポートします。
 
 # The primary import button label will depend on whether we can detect which browser was used to download Firefox.
 # Variables:
 #   $previous (Str) - Previous browser name, such as Edge, Chrome
 mr1-onboarding-import-primary-button-label-attribution = { $previous } からインポート
-
-# This string will be used in cases where we can't detect the previous browser name.
-mr1-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーからインポート
-mr1-onboarding-import-secondary-button-label = 後で
 
 mr1-onboarding-theme-header = 自分好みに仕上げてください
 mr1-onboarding-theme-subtitle = { -brand-short-name } にテーマを設定してパーソナライズします。
@@ -239,7 +176,8 @@ fx100-upgrade-thanks-header = 100回目のありがとう
 # but "Thank" can be used instead if there's no "you" in the translation.
 fx100-upgrade-thank-you-body = { -brand-short-name } の 100 回目のリリースです。より良い、より健全なインターネットの構築にご協力いただき <em>ありがとうございま</em>す。
 # Message shown with either a pin-to-taskbar or set-default button.
-fx100-upgrade-thanks-keep-body = 100 回目のリリースです! 私たちのコミュニティに参加していただきありがとうございます。次の 100 番目まで { -brand-short-name } を 1 クリックで使えるようにしましょう。
+fx100-upgrade-thanks-keep-body = 100 回目のリリースです! 私たちのコミュニティに参加していただきありがとうございます。次の 100 番目まで { -brand-short-name } をワンクリックで使えるようにしましょう。
+
 mr2022-onboarding-secondary-skip-button-label = このステップをスキップ
 
 ## MR2022 New User Easy Setup screen strings
