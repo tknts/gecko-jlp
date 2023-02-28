@@ -129,6 +129,9 @@ about-processes-utility-actor-audio-decoder-generic = 汎用オーディオ デ�
 about-processes-utility-actor-audio-decoder-applemedia = Apple Media Audio Decoder
 about-processes-utility-actor-audio-decoder-wmf = Windows Media Framework Audio Decoder
 about-processes-utility-actor-mf-media-engine = Windows Media Foundation Media Engine CDM
+# "Oracle" refers to an internal Firefox process and should be kept in English
+about-processes-utility-actor-js-oracle = JavaScript Oracle
+about-processes-utility-actor-windows-utils = Windows Utils
 
 ## Displaying CPU (percentage and total)
 ## Variables:
@@ -141,7 +144,7 @@ about-processes-utility-actor-mf-media-engine = Windows Media Foundation Media E
 
 # Common case.
 about-processes-cpu = { NUMBER($percent, maximumSignificantDigits: 2, style: "percent") }
-    .title = CPU 時間: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
+    .title = 合計 CPU 時間: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
 
 # Special case: data is not available yet.
 about-processes-cpu-user-and-kernel-not-ready = (計測中)
@@ -149,11 +152,11 @@ about-processes-cpu-user-and-kernel-not-ready = (計測中)
 # Special case: process or thread is almost idle (using less than 0.1% of a CPU core).
 # This case only occurs on Windows where the precision of the CPU times is low.
 about-processes-cpu-almost-idle = < 0.1%
-    .title = CPU 時間: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
+    .title = 合計 CPU 時間: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
 
 # Special case: process or thread is currently idle.
 about-processes-cpu-fully-idle = 待機
-    .title = TCPU 時間: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
+    .title = 合計 CPU 時間: { NUMBER($total, maximumFractionDigits: 0) }{ $unit }
 
 ## Displaying Memory (total and delta)
 ## Variables:
