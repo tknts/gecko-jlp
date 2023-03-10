@@ -234,3 +234,8 @@ cfr-cookiebanner-reject-button-variant-2 = 今はしない
 july-jam-headline = 私たちはあなたをサポートしています
 july-jam-body = { -brand-short-name } はユーザーあたり平均で毎月 3,000 以上のトラッカーをブロックし、優れたインターネットへの安全で素早いアクセスを提供します。
 july-jam-set-default-primary = { -brand-short-name } でリンクを開く
+
+## These strings are used in the Set Firefox as Default PDF Handler for Existing Users experiment
+
+set-default-pdf-handler-headline = <strong>Your PDFs now open in { -brand-short-name }.</strong> Edit or sign forms directly in your browser. To change, search “PDF” in settings.
+set-default-pdf-handler-primary = Got it

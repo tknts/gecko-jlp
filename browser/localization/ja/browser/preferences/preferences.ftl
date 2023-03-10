@@ -85,7 +85,7 @@ restart-later = 後で再起動
 ## <img data-l10n-name="icon"/> is going to be replaced by the extension icon.
 ##
 ## Variables:
-##   $name (String): name of the extension
+##   $name (string) - Name of the extension
 
 # This string is shown to notify the user that the password manager setting
 # is being controlled by an extension
@@ -1152,6 +1152,14 @@ sitedata-settings =
 sitedata-cookies-exceptions =
     .label = 例外を管理…
     .accesskey = x
+
+## Privacy Section - Cookie Banner Handling
+
+cookie-banner-handling-header = Cookie 同意バナーの削減
+cookie-banner-handling-description = { -brand-short-name } は、サポートされているサイトの Cookie 同意バナーで Cookie の受け入れを自動的にブロックします。
+cookie-banner-learn-more = さらに詳しく
+forms-handle-cookie-banners =
+    .label = Cookie 同意バナーの表示を減らす
 
 ## Privacy Section - Address Bar
 

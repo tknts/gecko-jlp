@@ -299,6 +299,8 @@ webgl2-renderer = WebGL 2 ドライバーのレンダラー
 webgl2-version = WebGL 2 ドライバーのバージョン
 webgl2-driver-extensions = WebGL 2 ドライバーの拡張
 webgl2-extensions = WebGL 2 拡張
+webgpu-default-adapter = WebGPU デフォルト アダプター
+webgpu-fallback-adapter = WebGPU フォールバック アダプター
 
 # Variables
 #   $bugNumber (string) - Bug number on Bugzilla

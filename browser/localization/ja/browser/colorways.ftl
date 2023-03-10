@@ -2,13 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## Colorway collections
-
-colorway-collection-independent-voices = インディペンデント・ボイス
-colorway-collection-independent-voices-description = 色彩で文化を変えることができます。世界をより良い場所にする声を最新のテーマカラーで称えます。
-# Used as a subheading for the colorway collection card in about:addons
-colorway-collection-independent-voices-short-description = 色彩は文化を変える
-
 ## Colorway names and descriptions
 
 playmaker-colorway-name = プレイメーカー

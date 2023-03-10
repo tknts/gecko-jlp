@@ -44,6 +44,14 @@ login-list-count =
       [one] { $count } 件のログイン情報
      *[other] { $count } 件のログイン情報
   }
+# Variables
+#   $count (number) - Number of filtered logins
+#   $total (number) - Total number of logins
+login-list-filtered-count =
+  { $total ->
+      [one] ログイン情報: { $count } / { $total }
+     *[other] ログイン情報: { $count } / { $total }
+  }
 login-list-sort-label-text = 並べ替え:
 login-list-name-option = 名前 (昇順)
 login-list-name-reverse-option = 名前 (降順)

@@ -114,9 +114,9 @@ about-webrtc-raw-cand-show-msg = show raw candidates
 about-webrtc-raw-cand-hide-msg = hide raw candidates
     .title = click to collapse this section
 about-webrtc-priority = Priority
-about-webrtc-fold-show-msg = show details
+about-webrtc-fold-show-msg = 詳細を表示
     .title = click to expand this section
-about-webrtc-fold-hide-msg = hide details
+about-webrtc-fold-hide-msg = 詳細を隠す
     .title = click to collapse this section
 about-webrtc-dropped-frames-label = Dropped frames:
 about-webrtc-discarded-packets-label = Discarded packets:
@@ -139,6 +139,12 @@ about-webrtc-last-frame-timestamp = Last Frame Reception Timestamp
 about-webrtc-local-receive-ssrc = Local Receiving SSRC
 # This is an SSRC on the remote side of the connection that is sending RTP
 about-webrtc-remote-send-ssrc = Remote Sending SSRC
+
+## These are displayed on the button that shows or hides the
+## PeerConnection configuration disclosure
+
+about-webrtc-pc-configuration-show-msg = 構成を表示
+about-webrtc-pc-configuration-hide-msg = 構成を隠す
 
 ##
 
@@ -267,5 +273,10 @@ about-webrtc-sdp-set-at-timestamp-remote = Set Remote SDP at timestamp { NUMBER(
 #  $timestamp (Number) - The Unix Epoch time at which the SDP was set.
 #  $relative-timestamp (Number) - The timestamp relative to the timestamp of the earliest received SDP.
 about-webrtc-sdp-set-timestamp = Timestamp { NUMBER($timestamp, useGrouping: "false") } (+ { $relative-timestamp } ms)
+
+## These are displayed on the button that shows or hides the SDP information disclosure
+
+about-webrtc-show-msg-sdp = SDP 情報を表示
+about-webrtc-hide-msg-sdp = SDP 情報を隠す
 
 ##
