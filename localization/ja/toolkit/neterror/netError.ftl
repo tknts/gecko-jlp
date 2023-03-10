@@ -70,10 +70,9 @@ neterror-dns-not-found-trr-unknown-problem = 予期しない問題が発生し�
 ## Variables:
 ##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
 
-neterror-dns-not-found-native-fallback-reason ={ -brand-short-name } は、信頼できる DNS リゾルバを通じて、このサイトのアドレスのリクエストを保護できません。理由は次のとおりです。
+neterror-dns-not-found-native-fallback-reason = { -brand-short-name } は、信頼できる DNS リゾルバを通じて、このサイトのアドレスのリクエストを保護できません。理由は次のとおりです。
 neterror-dns-not-found-native-fallback-attackers = 安全でない DNS リゾルバを使用し続けることは可能です。しかし第三者があなたの訪問するウェブサイトをのぞき見たり、信頼できないサイトへあなたを転送する可能性があります。
-neterror-dns-not-found-native-fallback-heuristic = お使いのネットワークでDNS over HTTPsが無効になっています。
-neterror-dns-not-found-native-fallback-not-confirmed = { $trrDomain } への接続はまだ準備ができていません。
+neterror-dns-not-found-native-fallback-not-confirmed2 = { -brand-short-name } は { $trrDomain } に接続できませんでした。
 
 ##
 

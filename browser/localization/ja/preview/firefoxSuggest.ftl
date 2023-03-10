@@ -140,12 +140,18 @@ addressbar-firefox-suggest-info-sponsored-data = Based on your selection, you’
 # Non-sponsored suggestions: off
 # Sponsored suggestions: on
 # Data collection: off
-addressbar-firefox-suggest-info-sponsored = Based on your selection, you’ll receive sponsored suggestions. We won’t process your search query data.
+addressbar-firefox-suggest-info-sponsored = あなたの選択に基づいて、スポンサーから提案された候補を表示します。この処理に検索に関するデータが使用される事はありません。
 
 # Non-sponsored suggestions: off
 # Sponsored suggestions: off
 # Data collection: on
-addressbar-firefox-suggest-info-data = Based on your selection, you won’t receive suggestions from the web or sponsored sites. We will process your search query data to develop the { -firefox-suggest-brand-name } feature.
+addressbar-firefox-suggest-info-data = あなたの選択に基づいたウェブまたはスポンサー サイトからの候補を表示しませんが、あなたの検索クエリのデータを { -firefox-suggest-brand-name } の開発のために使用します。
+
+addressbar-dismissed-suggestions-label = 削除されたサジェスト
+addressbar-restore-dismissed-suggestions-description = 削除されたスポンサーとウェブからのサジェストを復元します。
+addressbar-restore-dismissed-suggestions-button =
+  .label = 復元
+addressbar-restore-dismissed-suggestions-learn-more = さらに詳しく
 
 ## Used as title on the introduction pane. The text can be formatted to span
 ## multiple lines as needed (line breaks are significant).

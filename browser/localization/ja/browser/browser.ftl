@@ -786,6 +786,10 @@ toolbar-button-email-link =
   .label = メールで送信
   .tooltiptext = このページのリンクをメールで送信します
 
+toolbar-button-logins =
+  .label = パスワード
+  .tooltiptext = 保存されたパスワードの表示と管理を行います
+
 # Variables:
 #  $shortcut (String): keyboard shortcut to save a copy of the page
 toolbar-button-save-page =
