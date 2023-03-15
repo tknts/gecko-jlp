@@ -37,7 +37,9 @@ update-restarting = 再起動しています…
 
 update-internal-error = 内部エラーのため更新を確認できませんでした。 <label data-l10n-name="manual-link"/> に利用可能な更新があります
 
-channel-description = 現在の更新チャンネルは  <label data-l10n-name="current-channel"></label> に設定されています。
+# Variables:
+#   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
+aboutdialog-channel-description = 現在の更新チャンネルは  <label data-l10n-name="current-channel">{ $channel }</label> に設定されています。
 
 warningDesc-version = { -brand-short-name } は実験的であり、不安定な可能性があります。
 
