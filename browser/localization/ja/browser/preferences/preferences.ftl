@@ -149,6 +149,12 @@ startup-restore-warn-on-quit =
 disable-extension =
     .label = 拡張機能を使用しない
 
+preferences-data-migration-header = ブラウザー データのインポート
+preferences-data-migration-description = { -brand-short-name }.ブックマーク、パスワード、履歴、自動入力データを別のブラウザーまたはパスワード マネージャーから { -brand-short-name } にインポートします。
+preferences-data-migration-button =
+    .label = データをインポート
+    .accesskey = m
+
 tabs-group-header = タブ
 
 ctrl-tab-recently-used-order =
