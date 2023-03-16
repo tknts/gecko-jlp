@@ -188,3 +188,12 @@ permissions-site-microphone-desc = 以下のウェブサイトがマイクの使
 permissions-site-microphone-disable-label =
     .label = マイクの使用許可の確認を表示しない
 permissions-site-microphone-disable-desc = 上記のウェブサイト以外からのマイクの使用許可は自動的にブロックされます。マイクの使用許可をブロックすると、一部のウェブサイトで不具合が発生する可能性があります。
+
+## Site Permissions - Speaker
+##
+## "Speaker" refers to an audio output device.
+
+permissions-site-speaker-window =
+    .title = 設定 - スピーカーの使用許可
+    .style = { permissions-window2.style }
+permissions-site-speaker-desc = 以下のウェブサイトがオーディオ出力デバイスの使用許可を要求しています。オーディオ出力デバイスの使用を許可するウェブサイトを指定できます。

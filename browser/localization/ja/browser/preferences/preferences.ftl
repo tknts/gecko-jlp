@@ -1320,6 +1320,12 @@ permissions-microphone-settings =
     .label = 設定…
     .accesskey = t
 
+# Short form for "the act of choosing sound output devices and redirecting audio to the chosen devices".
+permissions-speaker = スピーカー
+permissions-speaker-settings =
+    .label = 設定…
+    .accesskey = t
+
 permissions-notification = 通知
 permissions-notification-settings =
     .label = 設定…
