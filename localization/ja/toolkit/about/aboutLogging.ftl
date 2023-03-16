@@ -2,22 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## The following feature name must be treated as a brand.
-##
-## They cannot be:
-## - Transliterated.
-## - Translated.
-##
-## Declension should be avoided where possible, leaving the original
-## brand unaltered in prominent UI positions.
-##
-## For further details, consult:
-## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
-
--profiler-brand-name = Firefox プロファイラ
-
-##
-
 # This is the title of the page
 about-logging-title = ログの記録について
 about-logging-page-title =ログの管理
@@ -35,7 +19,7 @@ about-logging-start-logging = ログの記録を開始
 about-logging-stop-logging = ログの記録を停止
 about-logging-buttons-disabled = 環境変数によって構成されたロギングでは、動的構成は使用できません。
 about-logging-some-elements-disabled = URL 経由で構成されたロギングでは、一部の構成オプションは使用できません
-about-logging-info = 上方:
+about-logging-info = 情報:
 about-logging-log-modules-selection = ログモジュールの選択
 about-logging-new-log-modules = 新しいログ モジュール:
 about-logging-logging-output-selection = ロギングの出力先
