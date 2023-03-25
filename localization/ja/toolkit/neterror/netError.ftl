@@ -26,6 +26,7 @@ neterror-try-again-button = もう一度
 neterror-add-exception-button = このサイトを常に続ける
 neterror-settings-button = DNS の設定を変更
 neterror-view-certificate-link = 証明書を表示
+neterror-trr-continue-this-time = Continue this time
 neterror-disable-native-feedback-warning = 常に続ける
 
 ##
