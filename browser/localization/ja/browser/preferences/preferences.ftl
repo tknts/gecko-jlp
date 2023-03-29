@@ -899,7 +899,7 @@ prefs-sync-now =
 
 ## The list of things currently syncing.
 
-sync-currently-syncing-heading = これらの項目を同期しています:
+sync-syncing-across-devices-heading = 接続されているすべてのデバイスで、以下の項目を同期しています:
 
 sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 表示履歴
@@ -923,6 +923,8 @@ sync-choose-what-to-sync-dialog3 =
     .buttonaccesskeyaccept = S
     .buttonlabelextra2 = 切断…
     .buttonaccesskeyextra2 = D
+
+sync-choose-dialog-subtitle = 同期する項目の変更は、接続されているすべてのデバイスに反映されます。
 
 sync-engine-bookmarks =
     .label = ブックマーク

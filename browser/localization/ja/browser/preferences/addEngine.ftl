@@ -11,6 +11,7 @@ add-engine-button = カスタム検索エンジンを追加
 add-engine-name = 検索エンジンの名前
 
 add-engine-alias = 別名
+
 add-engine-url = 検索エンジンの URL を入力します。%s は検索ワードに置き換わります
 
 add-engine-dialog=
