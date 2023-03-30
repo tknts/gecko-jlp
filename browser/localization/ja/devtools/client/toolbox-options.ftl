@@ -40,9 +40,15 @@ options-collapse-attrs-tooltip =
     .title = インスペクタで長い属性を切り捨てる
 
 # The label for the checkbox option to enable the "drag to update" feature
-options-inspector-draggable-properties-label = Click and drag to edit size values
+options-inspector-draggable-properties-label = クリックとドラッグでサイズ値を編集
 options-inspector-draggable-properties-tooltip =
-    .title = Click and drag to edit size values in the inspector rules view.
+    .title = クリックとドラッグ、インスペクタのルール ビューでサイズの値を編集します。
+
+# The label for the checkbox option to enable simplified highlighting on page elements
+# within the inspector for users who enabled prefers-reduced-motion = reduce
+options-inspector-simplified-highlighters-label = preferred-reduced-motion でよりシンプルなハイライトを使用する
+options-inspector-simplified-highlighters-tooltip =
+    .title = prefers-reduced-motion が有効な場合、シンプルなハイライト表示を有効にします。ハイライト表示された要素の周辺に線を描画して、点滅効果を無効にします。
 
 ## "Default Color Unit" options for the Inspector
 
