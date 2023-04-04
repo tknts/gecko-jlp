@@ -77,6 +77,7 @@ protections-panel-site-not-working-view-issue-list-forms = フォーム
 protections-panel-site-not-working-view-issue-list-payments = 支払い
 protections-panel-site-not-working-view-issue-list-comments = コメント
 protections-panel-site-not-working-view-issue-list-videos = ビデオ
+protections-panel-site-not-working-view-issue-list-fonts = フォント
 
 protections-panel-site-not-working-view-send-report = 報告を送信
 

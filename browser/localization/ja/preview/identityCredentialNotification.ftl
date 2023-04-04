@@ -6,20 +6,19 @@
 ##  $host (String): the hostname of the site that is being displayed.
 ##  $provider (String): the hostname of another website you are using to log in to the site being displayed
 
-identity-credential-header-providers = { $host } にログインします。
-identity-credential-header-accounts = { $host } で使用するアカウントを選択します。
+identity-credential-header-providers = ログイン プロバイダーでサインインする
+identity-credential-header-accounts = { $provider } でサインインする
 # Identity providers are websites you use to log into another website, for example: Google when you Log in with Google.
-identity-credential-description-provider-explanation = これらはログインを支援する ID プロバイダーです。
-identity-credential-description-account-explanation = ここでアカウントを選択すると、その ID が { $host } と共有されます。
 identity-credential-urlbar-anchor =
-    .tooltiptext = 統合ログインパネルを開きます
+    .tooltiptext = ログイン パネルを開きます
 identity-credential-cancel-button =
     .label = キャンセル
-    .accesskey = C
+    .accesskey = n
 identity-credential-accept-button =
-    .label = OK
-    .accesskey = O
-identity-credential-policy-title = 法的告知
-identity-credential-policy-description = { $provider } のアカウントを使用して { $host } にログインすることは、これらの法的ポリシーのもとに行われます。この機能はオプションです。これをキャンセルして別の方法で再度ログインすることも可能です。
-identity-credential-privacy-policy = プライバシーに関する方針
-identity-credential-terms-of-service = 利用規約
+    .label = 続ける
+    .accesskey = C
+identity-credential-sign-in-button =
+    .label = サインイン
+    .accesskey = S
+identity-credential-policy-title = { $provider } をログイン プロバイダーとして使用する
+identity-credential-policy-description = { $provider } のアカウントで { $host } にログインすると { $provider } の <label data-l10n-name="privacy-url">プライバシー ポリシー</label> と <label data-l10n- name="tos-url">利用規約</label> が適用されます。

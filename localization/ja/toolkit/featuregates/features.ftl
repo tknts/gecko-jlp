@@ -12,7 +12,7 @@ experimental-features-css-masonry-description = 実験的な CSS 組積レイア
 # by various online articles and is technical in nature.
 experimental-features-web-gpu2 =
     .label = Web API: WebGPU
-experimental-features-web-gpu-description2 = この新しい API はユーザーのデバイスやコンピューターの <a data-l10n-name="wikipedia">グラフィックス プロセッシング ユニット (GPU)</a> を利用した計算やグラフィックスレンダリングを実行するための Low-level API を提供します。正式な <a data-l10n-name="spec">仕様</a> は現在開発中です。 詳細については <a data-l10n-name="bugzilla">Bug 1602129</a> を参照してください。
+experimental-features-web-gpu-description3 = <a data-l10n-name="wikipedia-webgpu">WebGPU API</a> は、ユーザーのデバイスまたはコンピューターの <a data-l10n-name="wikipedia-gpu">グラフィックス プロセッシング ユニット (GPU)</a> を使用して計算やグラフィックス レンダリングを行うための低レベルサポートを提供します。最初の <a data-l10n-name="spec">仕様</a> の確定が近づいています。詳細については <a data-l10n-name="bugzilla">bug 1616739</a> を参照してください。
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
