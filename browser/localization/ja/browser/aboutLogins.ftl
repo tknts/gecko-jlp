@@ -5,7 +5,7 @@
 
 about-logins-page-title = ログインとパスワード
 
-login-filter =
+about-logins-login-filter =
   .placeholder = ログインを検索します
   .key = F
 
@@ -212,7 +212,7 @@ about-logins-confirm-remove-all-sync-dialog-message=
 ##
 
 about-logins-confirm-export-dialog-title = ログイン情報とパスワードをエクスポート
-about-logins-confirm-export-dialog-message = Your passwords will be saved as readable text (e.g., BadP@ssw0rd) so anyone who can open the exported file can view them.
+about-logins-confirm-export-dialog-message = パスワードは読み取り可能なテキスト (BadP@ssw0rd など) として保存されるため、エクスポートされたファイルを開くことができる人は誰でもそれらを見ることができます。
 about-logins-confirm-export-dialog-confirm-button = エクスポート…
 
 about-logins-alert-import-title = インポートが完了しました
@@ -318,7 +318,7 @@ about-logins-import-dialog-error-conflicting-values-description = For example: m
 about-logins-import-dialog-error-file-format-title = ファイル形式の問題
 about-logins-import-dialog-error-file-format-description = 列のヘッダーが正しくないか、欠落しています。ファイルにユーザー名、パスワード、および URL の列が含まれていることを確認してください。
 about-logins-import-dialog-error-file-permission-title = ファイルを読み取れません
-about-logins-import-dialog-error-file-permission-description = ファイルを読み取る権限が {-brand-short-name } にありません。ファイルのパーミッションを変更してください。
+about-logins-import-dialog-error-file-permission-description = ファイルを読み取る権限が { -brand-short-name } にありません。ファイルのパーミッションを変更してください。
 about-logins-import-dialog-error-unable-to-read-title = ファイルを解析できません
 about-logins-import-dialog-error-unable-to-read-description = CSV または TSV ファイルが選択されていることを確認してください。
 about-logins-import-dialog-error-no-logins-imported = ログイン情報はインポートされませんでした

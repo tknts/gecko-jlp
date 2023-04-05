@@ -9,7 +9,7 @@ screenshot-toolbarbutton =
 screenshot-shortcut =
   .key = S
 
-screenshots-instructions = Drag or click on the page to select a region. Press ESC to cancel.
+screenshots-instructions = ページをドラッグまたはクリックして、撮影範囲を選択します。キャンセルしたい場合は [ESC] を押してください。
 screenshots-cancel-button = キャンセル
 screenshots-save-visible-button = 表示部分のみ保存
 screenshots-save-page-button = ページ全体を保存
@@ -53,8 +53,8 @@ screenshots-empty-selection-error-title = 選択範囲が小さすぎます
 screenshots-private-window-error-title = { -screenshots-brand-name } はプライベート ブラウジング モードで無効になっています
 screenshots-private-window-error-details = ご不便をおかけして申し訳ありません。 将来のリリースに向けて、この機能に取り組んでいます。
 
-screenshots-generic-error-title = Whoa! { -screenshots-brand-name } went haywire.
-screenshots-generic-error-details = We’re not sure what just happened. Care to try again or take a shot of a different page?
+screenshots-generic-error-title = やばい! { -screenshots-brand-name } が壊れています。
+screenshots-generic-error-details = 何が起こったのかわかりません。もう一度試すか、別のページを撮影しますか?
 
 screenshots-too-large-error-title = スクリーンショットが大きすぎるためトリミングされました
 screenshots-too-large-error-details = 長辺は最大で 32,700 ピクセルまで。または合計面積が 124,900,000 ピクセルより小さくなるよう選択してください。
