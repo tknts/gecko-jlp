@@ -1466,6 +1466,76 @@ httpsonly-radio-enabled-pbm =
 httpsonly-radio-disabled =
     .label = HTTPS-Only モードを使用しない
 
+## DoH Section
+
+preferences-doh-header = DNS over HTTPS
+
+preferences-doh-description = Domain Name System (DNS) over HTTPS は、暗号化された接続を介してドメイン名のリクエストを送信することで、安全な DNS を作成し、他の人がアクセスしようとしているウェブサイトを見ることを困難にします。
+
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = 状態: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = プロバイダー: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = 無効な URL
+preferences-doh-steering-status = ローカルプロバイダーを使用
+
+preferences-doh-status-active = 動作中
+preferences-doh-status-disabled = オフ
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = 動作していません ({ $reason })
+
+preferences-doh-group-message = 安全な DNS を有効にする:
+
+preferences-doh-expand-section =
+  .tooltiptext = その他の情報
+
+preferences-doh-setting-default =
+  .label = デフォルトの保護
+  .accesskey = D
+preferences-doh-default-desc = { -brand-short-name } は、プライバシーを保護するために安全な DNS をいつ使用するかを決定します。
+preferences-doh-default-detailed-desc-1 = 利用可能な地域で安全な DNS を使用します
+preferences-doh-default-detailed-desc-2 = 安全な DNS プロバイダーに問題がある場合は、デフォルトの DNS リゾルバーを使用します
+preferences-doh-default-detailed-desc-3 = 可能であればローカルのプロバイダーを使用します
+preferences-doh-default-detailed-desc-4 = VPN、ペアレンタル コントロール、またはエンタープライズ ポリシーがアクティブな場合はオフにします
+preferences-doh-default-detailed-desc-5 = ネットワークが { -brand-short-name } に安全な DNS を使用しないように指示した場合はオフにします
+
+preferences-doh-setting-enabled =
+  .label = 保護の強化
+  .accesskey = I
+preferences-doh-enabled-desc = 安全な DNS をいつ使用するかを制御し、プロバイダーを選択します。
+preferences-doh-enabled-detailed-desc-1 = 選択されたプロバイダーを使用します
+preferences-doh-enabled-detailed-desc-2 = 安全な DNS に問題がある場合にのみ、デフォルトの DNS リゾルバーを使用してください
+
+preferences-doh-setting-strict =
+  .label = 最大の保護
+  .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name } は常に安全な DNS を使用します。あなたのシステムの DNS を使用する前には、セキュリティ リスクの警告が表示されます。
+preferences-doh-strict-detailed-desc-1 = 選択されたプロバイダーのみを使用します
+preferences-doh-strict-detailed-desc-2 = 安全な DNS が利用できない場合は常に警告します
+preferences-doh-strict-detailed-desc-3 = 安全な DNS が利用できない場合、サイトは読み込まれないか、正しく機能しません
+
+preferences-doh-setting-off =
+  .label = オフ
+  .accesskey = O
+preferences-doh-off-desc = デフォルトの DNS リゾルバーが使用されます
+
+preferences-doh-checkbox-warn =
+    .label = 第三者によって安全な DNS の使用が妨害されている場合に警告する
+    .accesskey = W
+
+preferences-doh-select-resolver = プロパイダーの選択:
+
+preferences-doh-exceptions-description = { -brand-short-name } はこれらのサイトで安全な DNS を使用しません
+
+preferences-doh-manage-exceptions =
+    .label = 例外を管理…
+    .accesskey = x
+
 ## The following strings are used in the Download section of settings
 
 desktop-folder-name = デスクトップ

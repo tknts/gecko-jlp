@@ -58,12 +58,12 @@ neterror-dns-not-found-hint-firewall ={ -brand-short-name } にウェブへの�
 ##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
 
 neterror-dns-not-found-trr-only-reason = { -brand-short-name } は、信頼できる DNS リゾルバーを通じて、このサイトのアドレスのリクエストを保護できません。理由は次のとおりです:
-neterror-dns-not-found-trr-only-attackers = 続行すると第三者によってユーザーがアクセスしたウェブサイトを確認したり、信頼できないサイトに誘導したりする可能性があります。
+neterror-dns-not-found-trr-third-party-warning2 = デフォルトの DNS リゾルバーを使用して続行できますが、第三者によってあなたがアクセスしたウェブサイトを確認できる可能性があります。
 
 neterror-dns-not-found-trr-only-could-not-connect = { -brand-short-name } は { $trrDomain } に接続できませんでした。
 neterror-dns-not-found-trr-only-timeout = { $trrDomain } への接続に予想以上の時間がかかりました。
 neterror-dns-not-found-trr-offline = インターネットに接続していません。
-neterror-dns-not-found-trr-unknown-host = このウェブサイトのアドレスを { $trrDomain } は見つけられませんでした。
+neterror-dns-not-found-trr-unknown-host2 = このウェブサイトは { $trrDomain } によって見つけられませんでした。
 neterror-dns-not-found-trr-server-problem = { $trrDomain } に問題がありました。
 neterror-dns-not-found-trr-unknown-problem = 予期しない問題が発生しました。
 
@@ -72,7 +72,7 @@ neterror-dns-not-found-trr-unknown-problem = 予期しない問題が発生し�
 ##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
 
 neterror-dns-not-found-native-fallback-reason = { -brand-short-name } は、信頼できる DNS リゾルバを通じて、このサイトのアドレスのリクエストを保護できません。理由は次のとおりです。
-neterror-dns-not-found-native-fallback-attackers = 安全でない DNS リゾルバを使用し続けることは可能です。しかし第三者があなたの訪問するウェブサイトをのぞき見たり、信頼できないサイトへあなたを転送する可能性があります。
+neterror-dns-not-found-native-fallback-heuristic = ネットワーク上で DNS over HTTPS の使用が無効になっています。
 neterror-dns-not-found-native-fallback-not-confirmed2 = { -brand-short-name } は { $trrDomain } に接続できませんでした。
 
 ##

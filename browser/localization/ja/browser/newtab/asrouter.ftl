@@ -219,6 +219,13 @@ cfr-cbh-dismiss-button = 今はしない
 july-jam-headline = 私たちはあなたをサポートしています
 july-jam-body = { -brand-short-name } はユーザーあたり平均で毎月 3,000 以上のトラッカーをブロックし、優れたインターネットへの安全で素早いアクセスを提供します。
 july-jam-set-default-primary = { -brand-short-name } でリンクを開く
+fox-doodle-pin-headline = おかえりなさい
+
+# “indie” is short for the term “independent”.
+# In this instance, free from outside influence or control.
+fox-doodle-pin-body = Here’s a quick reminder that you can keep your favorite indie browser just one click away.
+fox-doodle-pin-primary = { -brand-short-name } でリンクを開く
+fox-doodle-pin-secondary = 今はしない
 
 ## These strings are used in the Set Firefox as Default PDF Handler for Existing Users experiment
 
