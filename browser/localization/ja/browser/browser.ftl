@@ -78,16 +78,12 @@ urlbar-xr-notification-anchor =
     .tooltiptext = VR の許可パネルを開きます
 urlbar-storage-access-anchor =
     .tooltiptext = 行動追跡の許可パネルを開きます
-urlbar-translate-notification-anchor =
-    .tooltiptext = このページを翻訳します
 urlbar-web-rtc-share-screen-notification-anchor =
     .tooltiptext = サイトでのウィンドウまたは画面の共有を管理します
 urlbar-indexed-db-notification-anchor =
     .tooltiptext = オフライン ストレージのメッセージパネルを開きます
 urlbar-password-notification-anchor =
     .tooltiptext = パスワードの保存のメッセージパネルを開きます
-urlbar-translated-notification-anchor =
-    .tooltiptext = ページの翻訳を管理します
 urlbar-plugins-notification-anchor =
     .tooltiptext = 使用するプラグインを管理します
 urlbar-web-rtc-share-devices-notification-anchor =
@@ -114,6 +110,9 @@ urlbar-tip-icon-description =
 
 urlbar-result-menu-button =
     .title = メニューを開きます
+urlbar-result-menu-learn-more =
+    .label = さらに詳しく
+    .accesskey = L
 urlbar-result-menu-remove-from-history =
     .label = 履歴から削除
     .accesskey = R
@@ -240,7 +239,7 @@ search-one-offs-add-engine-menu =
 ## Local search mode one-off buttons
 ## Variables:
 ##  $restrict (String): The restriction token corresponding to the search mode.
-##    Restriction tokens are speciurlbar-translated-notification-anchoral characters users can type in the urlbar to
+##    Restriction tokens are special characters users can type in the urlbar to
 ##    restrict their searches to certain sources (e.g., "*" to search only
 ##    bookmarks).
 
@@ -662,6 +661,16 @@ reader-view-enter-button =
 reader-view-close-button =
     .aria-label = リーダービューを閉じる
 
+## Picture-in-Picture urlbar button
+## Variables:
+##   $shortcut (String) - Keyboard shortcut to execute the command.
+
+picture-in-picture-urlbar-button-open =
+ .tooltiptext = ピクチャー・イン・ピクチャーを開く ({ $shortcut })
+
+picture-in-picture-urlbar-button-close =
+ .tooltiptext = ピクチャー・イン・ピクチャーを閉じる ({ $shortcut })
+
 ## Full Screen and Pointer Lock UI
 
 # Please ensure that the domain stays in the `<span data-l10n-name="domain">` markup.
@@ -786,6 +795,10 @@ toolbar-overflow-customize-button =
 toolbar-button-email-link =
   .label = メールで送信
   .tooltiptext = このページのリンクをメールで送信します
+
+toolbar-button-logins =
+  .label = パスワード
+  .tooltiptext = 保存されたパスワードの管理と表示を行います
 
 # Variables:
 #  $shortcut (String): keyboard shortcut to save a copy of the page
@@ -968,3 +981,7 @@ firefox-relay-offer-how-we-integrate = 続行すると { -relay-brand-short-name
 #  $sitename (String): name of the site where user enters their Relay mask
 #  $useremail (String): user email that will receive messages
 firefox-relay-offer-what-relay-does = <strong>{ $sitename }</strong> からのすべてのメールを <strong>{ $useremail }</strong> に転送します。
+
+## Popup Notification
+
+popup-notification-xpinstall-prompt-learn-more = アドオンを安全にインストールする方法について、さらに詳しく

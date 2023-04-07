@@ -367,16 +367,6 @@ extension-disabled-heading = 無効
 
 theme-enabled-heading = 有効
 theme-disabled-heading2 = 保存されたテーマ
-theme-monochromatic-heading = テーマカラー
-theme-monochromatic-subheading = { -brand-product-name } から鮮やかな新しいテーマカラーが登場。期間限定で利用できます。
-
-# Refers to the button label for the colorways card when a user does not have a colorway theme enabled.
-theme-colorways-button = テーマカラーを試す
-# Refers to the button label for the colorways card when a user has a colorway theme enabled.
-theme-colorways-button-colorway-enabled = テーマカラーを変更
-# Variables:
-#   $expiryDate (string) - date on which the colorway collection expires. When formatting this, you may omit the year, only exposing the month and day, as colorway collections will always expire within a year.
-colorway-collection-expiry-label = 利用期限 { DATETIME($expiryDate, month: "long", day: "numeric") }
 
 plugin-enabled-heading = 有効
 plugin-disabled-heading = 無効

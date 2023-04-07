@@ -80,13 +80,6 @@ connection-proxy-socks-remote-dns =
     .label = SOCKS v5 を使用するときは DNS もプロキシーを使用する
     .accesskey = D
 
-connection-dns-over-https =
-    .label = DNS over HTTPS を有効にする
-    .accesskey = b
-
-connection-dns-over-https-url-resolver = プロバイダーを使用
-    .accesskey = P
-
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
 connection-dns-over-https-url-item-default =

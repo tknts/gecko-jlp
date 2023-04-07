@@ -51,7 +51,7 @@ permissions-remove-all =
     .accesskey = e
 
 permission-dialog =
-    .buttonlabelaccept = キャンセル
+    .buttonlabelaccept = 変更を保存
     .buttonaccesskeyaccept = S
 
 permissions-autoplay-menu = すべてのウェブサイトの既定:
@@ -197,3 +197,26 @@ permissions-site-speaker-window =
     .title = 設定 - スピーカーの使用許可
     .style = { permissions-window2.style }
 permissions-site-speaker-desc = 以下のウェブサイトがオーディオ出力デバイスの使用許可を要求しています。オーディオ出力デバイスの使用を許可するウェブサイトを指定できます。
+
+permissions-exceptions-doh-window =
+    .title = DNS over HTTPS を適用しないウェブサイト
+    .style = { permissions-window2.style }
+permissions-exceptions-manage-doh-desc = { -brand-short-name } は、これらのサイトとそのサブドメインでセキュアな DNS を使用しません。
+
+permissions-doh-entry-field = ウェブサイトのドイメインを入力してください
+    .accesskey = d
+
+permissions-doh-add-exception =
+    .label = 追加
+    .accesskey = A
+
+permissions-doh-col =
+    .label = ドメイン
+
+permissions-doh-remove =
+    .label = 削除
+    .accesskey = R
+
+permissions-doh-remove-all =
+    .label = すべて削除
+    .accesskey = e
