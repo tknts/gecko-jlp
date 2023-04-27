@@ -121,8 +121,6 @@ protections-panel-cookie-banner-handling-undetected = Cookie 同意バナーが�
 
 protections-panel-cookie-banner-view-title =
   .title = Cookie 同意バナーの削減
-protections-panel-cookie-banner-view-go-back =
-  .aria-label = 戻る
 # Variables
 #  $host (String): the hostname of the site that is being displayed.
 protections-panel-cookie-banner-view-turn-off-for-site = { $host } で Cookie 同意バナーを表示しますか?
