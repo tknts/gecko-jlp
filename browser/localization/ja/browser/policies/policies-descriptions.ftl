@@ -73,7 +73,7 @@ policy-DisablePrimaryPasswordCreation = true にすると、プライマリ パ�
 
 policy-DisablePasswordReveal = 保存されたログイン情報のパスワードの表示を禁止します
 
-policy-DisablePocket = ウェブページを Pocket に保存する機能を無効にします。
+policy-DisablePocket2 = ウェブページを { -pocket-brand-name } に保存する機能を無効にします。
 
 policy-DisablePrivateBrowsing = プライベート ブラウジングを無効にします。
 
@@ -196,8 +196,8 @@ policy-SearchEngines = 検索エンジンの設定を行います。このポリ
 
 policy-SearchSuggestEnabled = 検索候補の表示機能の使用を切り替えます。
 
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = PKCS #11 モジュールをインストールします。
+# For more information, see https://wikipedia.org/wiki/PKCS_11
+policy-SecurityDevices2 = PKCS #11 モジュールの追加と削除。
 
 policy-ShowHomeButton = ホームボタンをツールバーに表示します。
 

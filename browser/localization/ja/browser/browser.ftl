@@ -110,6 +110,8 @@ urlbar-tip-icon-description =
 
 urlbar-result-menu-button =
     .title = メニューを開きます
+urlbar-result-menu-button-feedback = フィードバック
+    .title = メニューを開きます
 urlbar-result-menu-learn-more =
     .label = さらに詳しく
     .accesskey = L
@@ -400,7 +402,7 @@ identity-clear-site-data =
 identity-connection-not-secure-security-view = このサイトには安全に接続されていません。
 identity-connection-verified = このサイトには安全に接続されています。
 identity-ev-owner-label = 証明書の対象:
-identity-description-custom-root = Mozilla はこの証明書の発行者を認識しません。オペレーティングシステムまたは管理者によって追加された可能性があります。<label data-l10n-name="link">さらに詳しく</label>
+identity-description-custom-root2 = Mozilla はこの証明書の発行者を認識していません。オペレーティングシステムまたは管理者によって追加された可能性があります。
 identity-remove-cert-exception =
     .label = 例外を削除
     .accesskey = R
@@ -408,14 +410,12 @@ identity-description-insecure = このサイトへの接続ではプライバシ
 identity-description-insecure-login-forms = このページで入力されたログイン情報は安全に送信されません。第三者に盗み見られる可能性があります。
 identity-description-weak-cipher-intro = このウェブサイトへの接続には脆弱な暗号が使用されており、プライバシーが保護されません。
 identity-description-weak-cipher-risk = 第三者があなたの情報を盗み見たり、ウェブサイトの動作を改ざんする可能性があります。
-identity-description-active-blocked = { -brand-short-name } は、このページの安全でないコンテンツをブロックしました。 <label data-l10n-name="link">さらに詳しく</label>
+identity-description-active-blocked2 = { -brand-short-name } は、このページの安全でない部分をブロックしました。
 identity-description-passive-loaded = このの接続ではプライバシーが保護され無いため、サイトと共有するあなたの情報は第三者に盗み見られる可能性があります。
-identity-description-passive-loaded-insecure = このウェブサイトには、安全でないコンテンツ (画像など) が含まれています。<label data-l10n-name="link">さらに詳しく</label>
-identity-description-passive-loaded-mixed = { -brand-short-name } は一部のコンテンツをブロックしましたが、ページには安全でないコンテンツ (画像など) が含まれています。<label data-l10n-name="link">さらに詳しく</label>
+identity-description-passive-loaded-insecure2 = このウェブサイトには、安全でないコンテンツ (画像など) が含まれています。
+identity-description-passive-loaded-mixed2 = { -brand-short-name } は一部のコンテンツをブロックしましたが、ページには安全でないコンテンツ (画像など) が残っています。
 identity-description-active-loaded = このウェブサイトには安全でないコンテンツ (スクリプトなど) が含まれており、このウェブサイトへの接続ではプライバシーが保護されません。
 identity-description-active-loaded-insecure = このサイトと共有したあなたの情報  (パスワード、メッセージ、クレジットカード情報など) は、第三者に盗み見られる可能性があります。
-identity-learn-more =
-    .value = さらに詳しく
 identity-disable-mixed-content-blocking =
     .label = 保護を今すぐ無効化
     .accesskey = D

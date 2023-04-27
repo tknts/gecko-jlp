@@ -9,15 +9,15 @@ sanitize-prefs2 =
 sanitize-prefs-style =
     .style = width: 17em
 
-dialog-title =
-    .title = 最近の履歴を消去
-    .style = width: 34em
+sanitize-dialog-title =
+    .title = 最近の履歴を
+    .style = min-width: 34em
 
 # When "Time range to clear" is set to "Everything", this message is used for the
 # title instead of dialog-title.
-dialog-title-everything =
+sanitize-dialog-title-everything =
     .title = 履歴をすべて消去
-    .style = width: 34em
+    .style = min-width: 34em
 
 clear-data-settings-label = { -brand-short-name } の終了時に自動的に消去する
 

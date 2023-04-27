@@ -37,6 +37,7 @@ migration-wizard-migrator-display-name-chromium-edge = Microsoft Edge
 migration-wizard-migrator-display-name-chromium-edge-beta = Microsoft Edge Beta
 migration-wizard-migrator-display-name-edge-legacy = Microsoft Edge Legacy
 migration-wizard-migrator-display-name-firefox = Firefox
+migration-wizard-migrator-display-name-file-password-csv = CSV ファイルからのパスワード
 migration-wizard-migrator-display-name-ie = Microsoft Internet Explorer
 migration-wizard-migrator-display-name-opera = Opera
 migration-wizard-migrator-display-name-opera-gx = Opera GX
@@ -61,9 +62,57 @@ migration-favorites-option-label = お気に入り
 migration-logins-and-passwords-option-label = Saved logins and passwords
 migration-history-option-label = 閲覧履歴
 migration-form-autofill-option-label = フォームの自動入力データ
+
+migration-passwords-from-file-progress-header = ファイルからパスワードをインポート
+migration-passwords-from-file-success-header = パスワードが正常にインポートされました
+migration-passwords-from-file = ファイルのパスワードをチェックしています
+migration-passwords-new = 新しいパスワード
+migration-passwords-updated = 既存のパスワード
+
+migration-passwords-from-file-picker-title = パスワードファイルのインポート
+# A description for the .csv file format that may be shown as the file type
+# filter by the operating system.
+migration-passwords-from-file-csv-filter-title =
+  { PLATFORM() ->
+      [macos] CSV ドキュメント
+     *[other] CSV ファイル
+  }
+# A description for the .tsv file format that may be shown as the file type
+# filter by the operating system. TSV is short for 'tab separated values'.
+migration-passwords-from-file-tsv-filter-title =
+  { PLATFORM() ->
+      [macos] TSV ドキュメント
+     *[other] TSV ファイル
+  }
+
+# Shown in the migration wizard after importing passwords from a file
+# has completed, if new passwords were added.
+#
+# Variables:
+#  $newEntries (Number): the number of new successfully imported passwords
+migration-wizard-progress-success-new-passwords =
+    { $newEntries ->
+        [one] { $newEntries } 件を追加しました
+       *[other] { $newEntries } 件を追加しました
+    }
+
+# Shown in the migration wizard after importing passwords from a file
+# has completed, if existing passwords were updated.
+#
+# Variables:
+#  $updatedEntries (Number): the number of updated passwords
+migration-wizard-progress-success-updated-passwords =
+    { $updatedEntries ->
+        [one] { $updatedEntries } 件を更新しました
+       *[other] { $updatedEntries } 件を更新しました
+    }
+
 migration-import-button-label = インポート
+migration-choose-to-import-from-file-button-label = ファイルからインポート
+migration-import-from-file-button-label = ファイルを選択
 migration-cancel-button-label = キャンセル
 migration-done-button-label = 完了
+migration-continue-button-label = 続行
 
 migration-wizard-import-browser-no-browsers = { -brand-short-name } は、ブックマーク、履歴、またはパスワード データを含むプログラムを見つけることができませんでした。
 migration-wizard-import-browser-no-resources = エラーが発生しました。 { -brand-short-name } はインポート元のブラウザーのプロファイルからインポートするデータを見つけることができませんでした。
@@ -144,8 +193,8 @@ migration-wizard-progress-success-passwords =
 #  $maxAgeInDays (Number): the maximum number of days of history that might be imported.
 migration-wizard-progress-success-history =
     { $maxAgeInDays ->
-        [one] From the last day
-       *[other] From the last { $maxAgeInDays } days
+        [one] 最終日から
+       *[other] 過去 { $maxAgeInDays } 日間から
     }
 
 migration-wizard-progress-success-formdata = 入力履歴

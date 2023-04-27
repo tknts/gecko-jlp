@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-pictureinpicture-player-title = ピクチャーインピクチャー
+pictureinpicture-player-title = ピクチャー・イン・ピクチャー
 
 ## Variables:
 ##   $shortcut (String) - Keyboard shortcut to execute the command.
@@ -50,6 +50,11 @@ pictureinpicture-seekbackward-btn =
 pictureinpicture-seekforward-btn =
   .aria-label = 先へ
   .tooltip = 先へ (→)
+
+# This string is never displayed on the window. Is intended to be announced by
+# a screen reader whenever a user opens the subtitles settings panel
+# after selecting the subtitles button.
+pictureinpicture-subtitles-panel-accessible = 字幕設定
 
 pictureinpicture-subtitles-label = 字幕
 
