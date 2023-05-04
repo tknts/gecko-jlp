@@ -34,10 +34,16 @@ urlbar-result-menu-learn-more-about-firefox-suggest =
     .label = { -firefox-suggest-brand-name } についてさらに詳しく
     .accesskey = L
 
+# A message shown in a result when the user gives feedback on it.
+firefox-suggest-feedback-acknowledgment = フィードバックをいただきありがとうございます。
+
+# A message that replaces a result when the user dismisses it.
+firefox-suggest-dismissal-acknowledgment = フィードバックをいただきありがとうございます。この画面を閉じると以降は表示されません。 
+
 ## These strings are used for weather suggestions in the urlbar.
 
 # This string is displayed above the current temperature
-firefox-suggest-weather-currently = Currently
+firefox-suggest-weather-currently = 現在の気温
 
 # This string displays the current temperature value and unit
 # Variables:
