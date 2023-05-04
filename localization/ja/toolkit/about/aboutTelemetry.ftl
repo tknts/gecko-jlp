@@ -104,7 +104,7 @@ about-telemetry-current-data-sidebar = 現在のデータ
 # used in the “Ping Type” select
 about-telemetry-telemetry-ping-type-all = すべて
 # button label to copy the histogram
-about-telemetry-histogram-copy = Copy
+about-telemetry-histogram-copy = コピー
 # these strings are used in the “Slow SQL Statements” section
 about-telemetry-slow-sql-main = メインスレッドのスロークエリ
 about-telemetry-slow-sql-other = ヘルパースレッドのスロークエリ
@@ -131,12 +131,6 @@ about-telemetry-category-header = カテゴリ
 about-telemetry-method-header = メソッド
 about-telemetry-object-header = オブジェクト
 about-telemetry-extra-header = 追加情報
-about-telemetry-origin-section = Origin Telemetry
-about-telemetry-origin-origin = origin
-about-telemetry-origin-count = count
-# Variables:
-#   $telemetryServerOwner (string) - The value of the toolkit.telemetry.server_owner preference. Typically "Mozilla"
-about-telemetry-origins-explanation = <a data-l10n-name="origin-doc-link">Firefox Origin Telemetry</a> encodes data before it is sent so that { $telemetryServerOwner } can count things, but not know whether or not any given { -brand-product-name } contributed to that count. (<a data-l10n-name="prio-blog-link">learn more</a>)
 # Variables:
 #  $process (string) - Type of process in subsection headers ( e.g. "content", "parent" )
 about-telemetry-process = { $process } process

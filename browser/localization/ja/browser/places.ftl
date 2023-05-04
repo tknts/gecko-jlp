@@ -24,6 +24,9 @@ places-open-in-private-window =
   .label = 新しいプライベート ウィンドウで開く
   .accesskey = P
 
+places-empty-bookmarks-folder =
+  .label = (何もありません)
+
 places-add-bookmark =
   .label = ブックマークを追加…
   .accesskey = B
@@ -88,6 +91,15 @@ places-delete-folder =
          *[other] 複数のフォルダーを削除
       }
   .accesskey = D
+# Variables:
+#   $count (number) - The number of pages selected for removal.
+places-delete-page =
+  .label =
+      { $count ->
+          [1] ページを削除
+         *[other] 複数のページを削除
+      }
+  .accesskey = D
 
 # Managed bookmarks are created by an administrator and cannot be changed by the user.
 managed-bookmarks =
@@ -113,6 +125,16 @@ places-delete-bookmark =
          *[other] 複数のブックマークを削除
       }
   .accesskey = D
+
+# Variables:
+#   $count (number) - The number of bookmarks being added.
+places-create-bookmark =
+  .label =
+      { $count ->
+          [1] ページをブックマーク…
+         *[other] 複数のページをブックマーク…
+      }
+  .accesskey = B
 
 places-untag-bookmark =
   .label = タグを削除
@@ -234,6 +256,28 @@ places-view-sort-col-date-added =
 places-view-sort-col-last-modified =
   .label = 更新日時
 
+places-view-sortby-name =
+  .label = 名前で並べ替え
+  .accesskey = N
+places-view-sortby-url =
+  .label = URL で並べ替え
+  .accesskey = L
+places-view-sortby-date =
+  .label = 最近の訪問で並べ替え
+  .accesskey = V
+places-view-sortby-visit-count =
+  .label = 訪問回数で並び替え
+  .accesskey = C
+places-view-sortby-date-added =
+  .label = 追加日時で並び替え
+  .accesskey = e
+places-view-sortby-last-modified =
+  .label = 最終更新日で並び替え
+  .accesskey = M
+places-view-sortby-tags =
+  .label = タグで並び替え
+  .accesskey = T
+
 places-cmd-find-key =
   .key = f
 
@@ -243,4 +287,29 @@ places-back-button =
 places-forward-button =
   .tooltiptext = 進む
 
-places-details-pane-select-an-item-description = プロパティを表示および編集するアイテムを選択します
+places-details-pane-select-an-item-description = アイテムを選択してプロパティを表示および編集します。
+
+places-details-pane-no-items =
+  .value = アイテムがありません
+# Variables:
+#   $count (Number): number of items
+places-details-pane-items-count =
+  .value =
+      { $count ->
+          [one] ひとつのアイテム
+         *[other] { $count } 個のアイテム
+      }
+
+## Strings used as a placeholder in the Library search field. For example,
+## "Search History" stands for "Search through the browser's history".
+
+places-search-bookmarks =
+    .placeholder = ブックマークの検索
+places-search-history =
+    .placeholder = 履歴の検索
+places-search-downloads =
+    .placeholder = ダウンロードの検索
+
+##
+
+places-locked-prompt = { -brand-short-name } のファイルが、他のアプリケーションによって使用中のためブックマークと履歴のシステムが機能していません。この問題は一部のセキュリティソフトウェアによって引き起こされることがあります。
