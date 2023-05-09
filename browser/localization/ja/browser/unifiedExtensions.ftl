@@ -34,3 +34,9 @@ unified-extensions-context-menu-remove-extension =
 
 unified-extensions-context-menu-report-extension =
     .label = 拡張機能を報告
+
+unified-extensions-context-menu-move-widget-up =
+    .label = 上に移動
+
+unified-extensions-context-menu-move-widget-down =
+    .label = 下に移動
