@@ -223,11 +223,27 @@ fox-doodle-pin-headline = おかえりなさい
 
 # “indie” is short for the term “independent”.
 # In this instance, free from outside influence or control.
-fox-doodle-pin-body = Here’s a quick reminder that you can keep your favorite indie browser just one click away.
+fox-doodle-pin-body = クリックひとつでお気に入りのインディペンデント ブラウザーを利用できます。
 fox-doodle-pin-primary = { -brand-short-name } でリンクを開く
 fox-doodle-pin-secondary = 今はしない
 
 ## These strings are used in the Set Firefox as Default PDF Handler for Existing Users experiment
 
-set-default-pdf-handler-headline = <strong>Your PDFs now open in { -brand-short-name }.</strong> Edit or sign forms directly in your browser. To change, search “PDF” in settings.
-set-default-pdf-handler-primary = Got it
+set-default-pdf-handler-headline = <strong>PDF ファイルは { -brand-short-name } で開くようになりました。</strong> ブラウザーから直接フォームを編集したり署名できます。変更する場合は “設定” で“PDF” と検索してください。
+set-default-pdf-handler-primary = 了解しました
+
+## FxA sync CFR
+
+fxa-sync-cfr-header = 将来的に新しいデバイスを使う予定はありますか?
+fxa-sync-cfr-body = 新しい { -brand-product-name } ブラウザーを開くたびに、最新のブックマーク、パスワード、タブが同期されるようにしましょう。
+fxa-sync-cfr-primary = さらに詳しく
+  .accesskey = L
+fxa-sync-cfr-secondary = 後で知らせる
+  .accesskey = R
+
+## Device Migration FxA Spotlight
+
+device-migration-fxa-spotlight-header = 古いデバイスを使用していますか?
+device-migration-fxa-spotlight-body = ブックマークやパスワードなどの重要な情報を失わないためには、データをバックアップしておくことが重要です。特に新しいデバイスに切り替える場合はバックアップを行ってください。
+device-migration-fxa-spotlight-primary-button = データをバックアップする方法
+device-migration-fxa-spotlight-link = 後で知らせる
