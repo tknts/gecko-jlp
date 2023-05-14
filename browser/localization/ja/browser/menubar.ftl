@@ -219,8 +219,6 @@ menu-history-undo-menu =
     .label = 最近閉じたタブ
 menu-history-undo-window-menu =
     .label = 最近閉じたウィンドウ
-menu-history-reopen-all-tabs = すべてのタブを再び開く
-menu-history-reopen-all-windows = すべてのウィンドウを再び開く
 
 ## Bookmarks Menu
 

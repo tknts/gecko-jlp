@@ -974,13 +974,13 @@ refresh-blocked-allow =
 
 ## Firefox Relay integration
 
-firefox-relay-offer-why-relay = { -relay-brand-name } は、あなたが実際に使用するメールアドレスを隠して、データの侵害やスパムから保護します。
-firefox-relay-offer-how-we-integrate = 続行すると { -relay-brand-short-name } は新しい非公開用のメールアドレスを { -brand-shorter-name } のパスワード マネージャーから直接生成できるようになります。
+firefox-relay-offer-why-to-use-relay = 安全で使いやすいマスクは、メールアドレスを隠すことで個人情報を保護し、スパムを防ぎます。
 
 # Variables:
-#  $sitename (String): name of the site where user enters their Relay mask
 #  $useremail (String): user email that will receive messages
-firefox-relay-offer-what-relay-does = <strong>{ $sitename }</strong> からのすべてのメールを <strong>{ $useremail }</strong> に転送します。
+firefox-relay-offer-what-relay-provides = あなたのメールマスクに送信されたすべてのメールは (ブロックしない限り) <strong>{ $useremail }</strong> に転送されます。
+
+firefox-relay-offer-legal-notice = “メールマスクを使用する”をクリックすることで、<label data-l10n-name="tos-url">利用規約</label> および <label data-l10n-name="privacy-url">プライバシーの通知</label> に同意するものとします。
 
 ## Popup Notification
 

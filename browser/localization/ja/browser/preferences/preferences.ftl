@@ -982,6 +982,16 @@ sync-device-name-save =
 
 sync-connect-another-device = その他のデバイスを接続
 
+## These strings are shown in a desktop notification after the
+## user requests we resend a verification email.
+
+sync-verification-sent-title = 送信済みの確認メール
+# Variables:
+#   $email (String): Email address of user's Firefox account.
+sync-verification-sent-body = 確認のためのリンクが { $email } に送信されました。
+sync-verification-not-sent-title = 確認メールの送信に失敗しました
+sync-verification-not-sent-body = 現時点では確認メールを送信できません。後でもう一度お試しください。
+
 ## Privacy Section
 
 privacy-header = ブラウザのプライバシー

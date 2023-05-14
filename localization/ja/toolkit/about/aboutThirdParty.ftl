@@ -35,7 +35,7 @@ third-party-tag-shellex = シェル エクステンション
 third-party-tag-background = バックグラウンド
     .title =
         このモジュールはバックグラウンドで読み込まれたため、アプリケーションをブロックしませんでした。
-        
+
 third-party-icon-unsigned =
     .title = このモジュールは署名されていません
     .alt = このモジュールは署名されていません
@@ -63,14 +63,16 @@ third-party-button-to-unblock-disabled =
         { -brand-short-name } の今回の実行ではブロックリストが無効になっていますが、現在ブロック済みとしてマークされています。 クリックしてブロックを解除します。
     .aria-label =
         { -brand-short-name } の今回の実行ではブロックリストが無効になっていますが、現在ブロック済みとしてマークされています。 クリックしてブロックを解除します。
+
+
 third-party-button-expand =
     .title = 詳細な情報を表示
 third-party-button-collapse =
     .title = 詳細な情報を折りたたむ
-third-party-requires-restart =
+third-party-blocking-requires-restart =
     ブロックするサードパーティー モジュールを変更するには { -brand-short-name } を再起動する必要があります。
 third-party-should-restart-title = { -brand-short-name } を再起動
-third-party-should-restart-ok = 今すぐ { -brand-short-name } を再起動
+third-party-restart-now = 今すぐ再起動
 third-party-restart-later = 後で再起動
 
 third-party-blocked-by-builtin =
