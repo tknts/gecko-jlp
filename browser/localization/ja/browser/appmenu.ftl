@@ -226,8 +226,6 @@ profiler-popup-presets-custom-label =
 
 appmenu-manage-history =
     .label = 履歴を管理
-appmenu-reopen-all-tabs = すべてのタブを再び開く
-appmenu-reopen-all-windows = すべてのウィンドウを再び開く
 appmenu-restore-session =
     .label = 前回のセッションを復元
 appmenu-clear-history =

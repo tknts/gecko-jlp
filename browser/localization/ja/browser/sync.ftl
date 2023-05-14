@@ -5,7 +5,7 @@
 fxa-toolbar-sync-syncing2 = 同期しています…
 
 sync-disconnect-dialog-title2 = 切断しますか?
-sync-disconnect-dialog-body = { -brand-product-name } will stop syncing your account but won’t delete any of your browsing data on this device.
+sync-disconnect-dialog-body = { -brand-product-name } はアカウントの同期を停止しますが、このデバイス上の閲覧データは削除されません。
 sync-disconnect-dialog-button = 切断
 
 fxa-signout-dialog2-title = Sign out of { -fxaccount-brand-name(capitalization: "sentence") }?
@@ -21,13 +21,21 @@ fxa-menu-turn-on-sync-default = 同期をオンにする
 
 fxa-menu-connect-another-device =
     .label = その他のデバイスで接続…
+# Variables:
+#   $tabCount (Number): The number of tabs sent to the device.
+fxa-menu-send-tab-to-device =
+    .label =
+        { $tabCount ->
+            [1] タブをデバイスに送信
+           *[other] { $tabCount } 個のタブをデバイスに送信
+        }
 
 # This is shown dynamically within "Send tab to device" in fxa menu.
 fxa-menu-send-tab-to-device-syncnotready =
-    .label = Syncing Devices…
+    .label = デバイスを同期しています…
 
 # This is shown within "Send tab to device" in fxa menu if account is not configured.
-fxa-menu-send-tab-to-device-description = Send a tab instantly to any device you’re signed in on.
+fxa-menu-send-tab-to-device-description = タブを即座にサインインしているデバイスに送信します。
 
 fxa-menu-sign-out =
     .label = サインアウト…

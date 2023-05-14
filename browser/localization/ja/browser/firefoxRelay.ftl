@@ -16,13 +16,15 @@ firefox-relay-must-login-to-fxa = { -relay-brand-name } を使用するには { 
 firefox-relay-get-unlimited-masks =
     .label = 非公開用のメールアドレスを管理
     .accesskey = M
-firefox-relay-opt-in-title = あなたのメールアドレスを保護します
-firefox-relay-opt-in-subtitle = { -relay-brand-name } を追加
-firefox-relay-generate-mask-title = メールアドレスを保護します
-firefox-relay-generate-mask-subtitle = { -relay-brand-short-name } で非公開用のメールアドレスを作成する
-firefox-relay-opt-in-confirmation-enable =
-    .label = 続ける
-    .accesskey = C
+# This is followed, on a new line, by firefox-relay-opt-in-subtitle-1
+firefox-relay-opt-in-title-1 = メールアドレスを保護する:
+# This is preceded by firefox-relay-opt-in-title-1 (on a different line), which
+# ends with a colon. You might need to adapt the capitalization of this string.
+firefox-relay-opt-in-subtitle-1 = { -relay-brand-name } のメールマスクを使用する
+firefox-relay-use-mask-title = { -relay-brand-name } のメールマスクを使用する
+firefox-relay-opt-in-confirmation-enable-button =
+    .label = メールマスクを使用する
+    .accesskey = U
 firefox-relay-opt-in-confirmation-disable =
     .label = 次回から表示しない
     .accesskey = D
