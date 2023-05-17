@@ -982,6 +982,39 @@ firefox-relay-offer-what-relay-provides = あなたのメールマスクに送�
 
 firefox-relay-offer-legal-notice = “メールマスクを使用する”をクリックすることで、<label data-l10n-name="tos-url">利用規約</label> および <label data-l10n-name="privacy-url">プライバシーの通知</label> に同意するものとします。
 
-## Popup Notification
+## Pop-up Notification
 
 popup-notification-xpinstall-prompt-learn-more = アドオンを安全にインストールする方法について、さらに詳しく
+
+## Pop-up warning
+
+# Variables:
+#   $popupCount (Number): the number of pop-ups blocked.
+popup-warning-message =
+    { $popupCount ->
+        [1] { -brand-short-name } prevented this site from opening a pop-up window.
+       *[other] { -brand-short-name } prevented this site from opening { $popupCount } pop-up windows.
+    }
+# The singular form is left out for English, since the number of blocked pop-ups is always greater than 1.
+# Variables:
+#   $popupCount (Number): the number of pop-ups blocked.
+popup-warning-exceeded-message =
+    { $popupCount ->
+       *[other] { -brand-short-name } は、このサイトで { $popupCount } 個以上のポップアップ ウィンドウが開かれるのを防止しました。
+    }
+popup-warning-button =
+    .label =
+        { PLATFORM() ->
+            [windows] オプション
+           *[other] 設定
+        }
+    .accesskey =
+        { PLATFORM() ->
+            [windows] O
+           *[other] P
+        }
+
+# Variables:
+#   $popupURI (String): the URI for the pop-up window
+popup-show-popup-menuitem =
+    .label = “{ $popupURI }” を表示

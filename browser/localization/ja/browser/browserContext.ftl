@@ -327,14 +327,6 @@ main-context-menu-audio-email =
     .label = オーディオをメールで送信…
     .accesskey = a
 
-main-context-menu-plugin-play =
-    .label = このプラグインを実行する
-    .accesskey = c
-
-main-context-menu-plugin-hide =
-    .label = このプラグインを非表示にする
-    .accesskey = H
-
 main-context-menu-save-to-pocket =
     .label = ページを { -pocket-brand-name } に保存
     .accesskey = k
