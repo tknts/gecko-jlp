@@ -202,4 +202,3 @@ migration-wizard-progress-success-formdata = 入力履歴
 migration-wizard-safari-permissions-sub-header = Safari のブックマークと閲覧履歴をインポートするには:
 migration-wizard-safari-instructions-continue = “続行” を選択
 migration-wizard-safari-instructions-folder = リストから Safari のフォルダーを選んだ後 “開く” を選択します
-migration-wizard-safari-select-button = ファイルを選択

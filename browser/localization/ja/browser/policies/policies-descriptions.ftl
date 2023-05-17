@@ -122,11 +122,9 @@ policy-ExtensionUpdate = 拡張機能の自動更新の使用を切り替えま�
 
 policy-FirefoxHome2 = { -firefox-home-brand-name } の設定を行います。
 
-policy-FlashPlugin = Flash プラグインの使用を切り替えます。
-
 policy-GoToIntranetSiteForSingleWordEntryInAddressBar = アドレスバーに単語を入力すると、検索の代わりにイントラネットサイトへの案内を強制します。
 
-policy-Handlers = デフォルトのアプリケーションハンドラーを設定します。
+policy-Handlers = デフォルトのアプリケーションハンドラーを構成します。
 
 policy-HardwareAcceleration = false にするとハードウェア アクセラレーションを無効にします。
 
