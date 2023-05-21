@@ -11,7 +11,7 @@ import-from =
        *[other] 設定、ブックマーク、履歴、パスワードその他のデータをインポートする対象を選んでください:
     }
 
-import-from-bookmarks = Import Bookmarks from:
+import-from-bookmarks = ブックマークのインポート元:
 import-from-ie =
     .label = Microsoft Internet Explorer
     .accesskey = M
@@ -163,3 +163,8 @@ browser-data-session-checkbox =
   .label = ウィンドウとタブ
 browser-data-session-label =
   .value = ウィンドウとタブ
+
+browser-data-payment-methods-checkbox =
+  .label = お支払い方法
+browser-data-payment-methods-label =
+  .value = お支払い方法
