@@ -13,3 +13,4 @@ confirmation-hint-pin-tab-description = タブを右クリックしてピン留�
 confirmation-hint-send-to-device = 送信!
 confirmation-hint-firefox-relay-mask-created = 新しいマスクを作成しました!
 confirmation-hint-firefox-relay-mask-reused = 既にあるマスクを再利用!
+confirmation-hint-screenshot-copied = スクリーンショットをコピーしました!

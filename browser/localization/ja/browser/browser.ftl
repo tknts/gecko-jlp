@@ -835,13 +835,6 @@ eme-notifications-drm-content-playing-dismiss-accesskey = D
 panel-save-update-username = ユーザー名
 panel-save-update-password = パスワード
 
-## Add-on removal warning
-
-# Variables:
-#  $name (String): The name of the addon that will be removed.
-addon-removal-title = { $name } を削除しますか？
-addon-removal-abuse-report-checkbox = この拡張機能を { -vendor-short-name } に報告する
-
 ##
 
 # "More" item in macOS share menu
@@ -982,8 +975,10 @@ firefox-relay-offer-what-relay-provides = あなたのメールマスクに送�
 
 firefox-relay-offer-legal-notice = “メールマスクを使用する”をクリックすることで、<label data-l10n-name="tos-url">利用規約</label> および <label data-l10n-name="privacy-url">プライバシーの通知</label> に同意するものとします。
 
-## Pop-up Notification
+## Add-on Pop-up Notifications
 
+popup-notification-addon-install-unsigned =
+    .value = (未検証)
 popup-notification-xpinstall-prompt-learn-more = アドオンを安全にインストールする方法について、さらに詳しく
 
 ## Pop-up warning
@@ -992,8 +987,8 @@ popup-notification-xpinstall-prompt-learn-more = アドオンを安全にイン�
 #   $popupCount (Number): the number of pop-ups blocked.
 popup-warning-message =
     { $popupCount ->
-        [1] { -brand-short-name } prevented this site from opening a pop-up window.
-       *[other] { -brand-short-name } prevented this site from opening { $popupCount } pop-up windows.
+        [1] { -brand-short-name } により、このサイトはポップアップ ウィンドウを開くことができませんでした。
+       *[other] { -brand-short-name } により、このサイトは { $popupCount } 個のポップアップ ウィンドウを開くことができませんでした。
     }
 # The singular form is left out for English, since the number of blocked pop-ups is always greater than 1.
 # Variables:
