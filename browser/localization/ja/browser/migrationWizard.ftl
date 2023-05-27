@@ -62,6 +62,7 @@ migration-favorites-option-label = お気に入り
 migration-logins-and-passwords-option-label = Saved logins and passwords
 migration-history-option-label = 閲覧履歴
 migration-form-autofill-option-label = フォームの自動入力データ
+migration-payment-methods-option-label = 支払い方法
 
 migration-passwords-from-file-progress-header = ファイルからパスワードをインポート
 migration-passwords-from-file-success-header = パスワードが正常にインポートされました
@@ -131,6 +132,7 @@ migration-list-favorites-label = お気に入り
 migration-list-password-label = パスワード
 migration-list-history-label = 履歴
 migration-list-autofill-label = 自動入力データ
+migration-list-payment-methods-label = 支払い方法
 
 ##
 
@@ -198,6 +200,17 @@ migration-wizard-progress-success-history =
     }
 
 migration-wizard-progress-success-formdata = 入力履歴
+
+# Shown in the migration wizard after importing payment methods from another
+# browser has completed.
+#
+# Variables:
+#  $quantity (Number): the number of successfully imported payment methods
+migration-wizard-progress-success-payment-methods =
+    { $quantity ->
+        [one] ひとつの支払い方法
+       *[other] { $quantity } 個の支払い方法
+    }
 
 migration-wizard-safari-permissions-sub-header = Safari のブックマークと閲覧履歴をインポートするには:
 migration-wizard-safari-instructions-continue = “続行” を選択
