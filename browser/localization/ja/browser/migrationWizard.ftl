@@ -38,6 +38,7 @@ migration-wizard-migrator-display-name-chromium-edge-beta = Microsoft Edge Beta
 migration-wizard-migrator-display-name-edge-legacy = Microsoft Edge Legacy
 migration-wizard-migrator-display-name-firefox = Firefox
 migration-wizard-migrator-display-name-file-password-csv = CSV ファイルからのパスワード
+migration-wizard-migrator-display-name-file-bookmarks = HTML からのブックマーク
 migration-wizard-migrator-display-name-ie = Microsoft Internet Explorer
 migration-wizard-migrator-display-name-opera = Opera
 migration-wizard-migrator-display-name-opera-gx = Opera GX
@@ -106,6 +107,34 @@ migration-wizard-progress-success-updated-passwords =
     { $updatedEntries ->
         [one] { $updatedEntries } 件を更新しました
        *[other] { $updatedEntries } 件を更新しました
+    }
+
+migration-bookmarks-from-file-picker-title = ファイルからブックマークをインポート
+migration-bookmarks-from-file-progress-header = ブックマークをインポートしています
+migration-bookmarks-from-file = ブックマーク
+migration-bookmarks-from-file-success-header = ブックマークのインポートに成功しました
+
+# A description for the .html file format that may be shown as the file type
+# filter by the operating system.
+migration-bookmarks-from-file-html-filter-title =
+  { PLATFORM() ->
+      [macos] HTML Document
+     *[other] HTML ファイル
+  }
+
+# A description for the .json file format that may be shown as the file type
+# filter by the operating system.
+migration-bookmarks-from-file-json-filter-title = JSON ファイル
+
+# Shown in the migration wizard after importing bookmarks from a file
+# has completed.
+#
+# Variables:
+#  $newEntries (Number): the number of imported bookmarks.
+migration-wizard-progress-success-new-bookmarks =
+    { $newEntries ->
+        [one] ひとつのブックマーク
+       *[other] { $newEntries } 個のブックマーク
     }
 
 migration-import-button-label = インポート

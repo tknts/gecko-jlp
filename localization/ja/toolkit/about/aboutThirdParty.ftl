@@ -48,6 +48,9 @@ third-party-status-blocked = ブロック済み
 third-party-status-redirected = リダイレクト済み
 
 third-party-button-copy-to-clipboard = 生データをクリップボードにコピー
+third-party-loading-data =
+    .alt = システム情報を読み込んでいます…
+    .title = システム情報を読み込んでいます…
 third-party-button-reload = システム情報を再読み込み
     .title = システム情報を再読み込みします
 third-party-button-open =

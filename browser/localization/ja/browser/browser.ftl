@@ -671,6 +671,12 @@ picture-in-picture-urlbar-button-open =
 picture-in-picture-urlbar-button-close =
  .tooltiptext = ピクチャー・イン・ピクチャーを閉じる ({ $shortcut })
 
+picture-in-picture-panel-header = ピクチャー・イン・ピクチャー
+picture-in-picture-panel-headline = このウェブサイトはピクチャー・イン・ピクチャーを推奨しません
+picture-in-picture-panel-body = ピクチャー・イン・ピクチャーが有効になっていると、開発者の意図どおりにビデオが表示されない場合があります。
+picture-in-picture-enable-toggle =
+  .label = 常に有効にする
+
 ## Full Screen and Pointer Lock UI
 
 # Please ensure that the domain stays in the `<span data-l10n-name="domain">` markup.

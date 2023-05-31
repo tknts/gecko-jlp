@@ -29,6 +29,7 @@ update-noUpdatesFound = { -brand-short-name } は最新のバージョンです
 aboutdialog-update-checking-failed = アップデートの確認に失敗しました。
 update-otherInstanceHandlingUpdates = { -brand-short-name } は別のプロセスで更新中です
 
+update-manual = <label data-l10n-name="manual-link"/> に利用可能な更新があります
 aboutdialog-update-manual = <a data-l10n-name="manual-link"/> に利用可能な更新があります
 
 update-unsupported = このシステムには更新が用意されていません。 <label data-l10n-name="unsupported-link">さらに詳しく</label>
