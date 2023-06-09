@@ -15,6 +15,12 @@
 urlbar-group-best-match =
   .label = Top pick
 
+# Label shown above an extension suggestion in the urlbar results (an
+# alternative phrasing is "Extension for Firefox"). It's singular since only one
+# suggested extension is displayed.
+urlbar-group-addon =
+  .label = { -brand-product-name } extension
+
 # Tooltip text for the block button shown in top pick rows.
 firefox-suggest-urlbar-block =
   .title = Dismiss this suggestion
@@ -93,6 +99,9 @@ firefox-suggest-addons-reviews =
       [one] { $quantity } 件のレビュー
      *[other] { $quantity } 件のレビュー
   }
+
+# This string explaining that the add-on suggestion is a recommendation.
+firefox-suggest-addons-recommended = おすすめ
 
 ## These strings are used in the preferences UI (about:preferences). Their names
 ## follow the naming conventions of other strings used in the preferences UI.

@@ -40,3 +40,8 @@ unified-extensions-context-menu-move-widget-up =
 
 unified-extensions-context-menu-move-widget-down =
     .label = 下に移動
+
+## Notifications
+
+unified-extensions-mb-quarantined-domain-title = 一部の拡張子は許可されていません
+unified-extensions-mb-quarantined-domain-message = データを保護するために、このサイトでは { -vendor-short-name } によって監視されている一部の拡張機能のみが許可されています。

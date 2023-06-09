@@ -158,3 +158,12 @@ tabbrowser-ctrl-tab-list-all-tabs =
         { $tabCount ->
            *[other] すべたのタブ ({ $tabCount } 個) を一覧で表示
         }
+
+## Tab manager menu buttons
+
+tabbrowser-manager-mute-tab =
+  .tooltiptext = タブをミュートします
+tabbrowser-manager-unmute-tab =
+  .tooltiptext = タブのミュートを解除します
+tabbrowser-manager-close-tab =
+  .tooltiptext = タブを閉じます

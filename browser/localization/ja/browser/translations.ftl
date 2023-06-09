@@ -47,6 +47,8 @@ translations-panel-settings-never-translate-site =
 translations-panel-header = このページを翻訳しますか?
 translations-panel-translate-button =
   .label = 翻訳
+translations-panel-translate-button-loading =
+  .label = お待ちください…
 translations-panel-translate-cancel =
   .label = キャンセル
 
@@ -67,7 +69,7 @@ translations-panel-error-change-button =
 #
 # Variables:
 #   $language (string) - The language of the document.
-translations-panel-error-unsupported-hint-known = 申し訳ございません。{ $ language } はまだサポートされていません。
+translations-panel-error-unsupported-hint-known = 申し訳ございません。{ $language } はまだサポートされていません。
 translations-panel-error-unsupported-hint-unknown = 申し訳ございません。この言語はまだサポートされていません。
 
 ## Each label is followed, on a new line, by a dropdown list of language names.
@@ -102,8 +104,12 @@ translations-manage-settings-button =
     .accesskey = t
 translations-manage-description = オフライン翻訳のための言語をダウンロードします。
 translations-manage-all-language = すべての言語
-translations-manage-download-button = ダウンロード
-translations-manage-delete-button = 削除
+translations-manage-language-download-button =
+    .label = ダウンロード
+    .accesskey = D
+translations-manage-language-delete-button =
+    .label = 削除
+    .accesskey = e
 translations-manage-error-download = 言語ファイルのダウンロード中に問題が発生しました。もう一度試してください。
 translations-manage-error-delete = 言語ファイルの削除中に問題が発生しました。もう一度試してください。
 translations-manage-error-list = 利用可能な翻訳言語のリストの取得に失敗しました。もう一度試してください。

@@ -16,8 +16,15 @@ update-updateButton =
     .accesskey = R
 
 update-checkingForUpdates = 更新を確認しています…
-update-downloading = <img data-l10n-name="icon"/>更新をダウンロードしています — <label data-l10n-name="download-status"/>
-update-downloading-message = 更新をダウンロードしています — <label data-l10n-name="download-status"/>
+
+## Variables:
+##   $transfer (string) - Transfer progress.
+
+settings-update-downloading = <img data-l10n-name="icon"/>更新をダウンロードしています — <label data-l10n-name="download-status">{ $transfer }</label>
+aboutdialog-update-downloading = 更新をダウンロードしています — <label data-l10n-name="download-status">{ $transfer }</label>
+
+##
+
 update-applying = 更新を適用しています…
 
 update-failed = 更新に失敗しました。最新のバージョンを <label data-l10n-name="failed-link">ダウンロード</label> してください。
@@ -29,14 +36,19 @@ update-noUpdatesFound = { -brand-short-name } は最新のバージョンです
 aboutdialog-update-checking-failed = アップデートの確認に失敗しました。
 update-otherInstanceHandlingUpdates = { -brand-short-name } は別のプロセスで更新中です
 
-update-manual = <label data-l10n-name="manual-link"/> に利用可能な更新があります
-aboutdialog-update-manual = <a data-l10n-name="manual-link"/> に利用可能な更新があります
+## Variables:
+##   $displayUrl (String): URL to page with download instructions. Example: www.mozilla.org/firefox/nightly/
+
+aboutdialog-update-manual-with-link = 更新は <label data-l10n-name="manual-link">{ $displayUrl }</label> で入手可能です
+settings-update-manual-with-link = 更新は <label data-l10n-name="manual-link">{ $displayUrl }</label> で入手可能です
 
 update-unsupported = このシステムには更新が用意されていません。 <label data-l10n-name="unsupported-link">さらに詳しく</label>
 
 update-restarting = 再起動しています…
 
-update-internal-error = 内部エラーのため更新を確認できませんでした。 <label data-l10n-name="manual-link"/> に利用可能な更新があります
+update-internal-error2 = 内部でエラーが発生したため、更新を確認できませんでした。更新を <label data-l10n-name="manual-link">{ $displayUrl }</label> から入手してください
+
+##
 
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)

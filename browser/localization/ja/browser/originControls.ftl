@@ -10,8 +10,11 @@
 origin-controls-no-access =
     .label = 拡張機能はデータの読み取りと変更はできません
 
+origin-controls-quarantined =
+    .label = 拡張機能はデータの読み取りと変更を許可されていません
+
 origin-controls-options =
-    .label = 拡張機能にデータの読み取りと変更が許可されています:
+    .label = 拡張機能はデータの読み取りと変更が許可されています:
 
 origin-controls-option-all-domains =
     .label = すべてのサイト
@@ -30,6 +33,8 @@ origin-controls-option-always-on =
 ## messages. They currently appear in the unified extensions panel.
 
 origin-controls-state-no-access = このサイトでデータの読み取りと変更は行えません
+
+origin-controls-state-quarantined = このサイトは { -vendor-short-name } によって許可されていません
 
 origin-controls-state-always-on = このサイトでデータの読み取りと変更を常に行えます
 
@@ -57,4 +62,12 @@ origin-controls-toolbar-button-permission-needed =
     .label = { $extensionTitle }
     .tooltiptext =
         { $extensionTitle } に必要な権限です
+
+# Extension's toolbar button when quarantined.
+# Note that the new line is intentionally part of the tooltip.
+origin-controls-toolbar-button-quarantined =
+    .label = { $extensionTitle }
+    .tooltiptext =
+    	このサイトでの { $extensionTitle } の動作は { -vendor-short-name } によって許可されていません
+
 
