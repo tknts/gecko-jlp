@@ -100,7 +100,7 @@ protections-panel-content-blocking-manage-settings =
 
 protections-panel-content-blocking-breakage-report-view =
   .title = 壊れたサイトの報告
-protections-panel-content-blocking-breakage-report-view-description = 特定のトラッカーをブロックすると、一部のウェブサイトで問題が起こる可能性があります。これらの問題を報告すると、{ -brand-short-name } を改善する手助けになります。報告とともに URL とあなたのブラウザーの設定に関する情報が Mozilla に送信されます。 <label data-l10n-name="learn-more">さらに詳しく</label>
+protections-panel-content-blocking-breakage-report-view-description2 = 特定のトラッカーをブロックすると、一部のウェブサイトで問題が起こる可能性があります。これらの問題を報告すると、{ -brand-short-name } を改善する手助けになります。報告とともに URL とあなたのブラウザーの設定に関する情報が { -vendor-short-name } に送信されます。
 protections-panel-content-blocking-breakage-report-view-collection-url = URL
 protections-panel-content-blocking-breakage-report-view-collection-url-label =
   .aria-label = URL
@@ -125,7 +125,7 @@ protections-panel-cookie-banner-view-title =
 #  $host (String): the hostname of the site that is being displayed.
 protections-panel-cookie-banner-view-turn-off-for-site = { $host } で Cookie 同意バナーを表示しますか?
 protections-panel-cookie-banner-view-turn-on-for-site = Cookie 同意バナーを削減しますか?
-protections-panel-cookie-banner-view-cookie-clear-warning = { -brand-short-name } は、このサイトの Cookie を消去し、ページを更新します。 すべての Cookie を消去すると、サインアウトしたり、ショッピング カートが空になったりする場合があります。
+protections-panel-cookie-banner-view-cookie-clear-warning = { -brand-short-name } は、このサイトの Cookie を消去し、ページを更新します。すべての Cookie を消去すると、サインアウトしたり、ショッピング カートが空になったりする場合があります。
 protections-panel-cookie-banner-view-turn-on-description = { -brand-short-name } tries to automatically reject all cookie requests on supported sites.
 protections-panel-cookie-banner-view-cancel = キャンセル
 protections-panel-cookie-banner-view-turn-off = 使用しないf

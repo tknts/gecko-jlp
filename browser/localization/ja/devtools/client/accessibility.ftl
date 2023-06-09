@@ -10,6 +10,23 @@ accessibility-text-label-header = テキストラベルと名前
 
 accessibility-keyboard-header = キーボード
 
+## These strings are used in the overlay displayed when running an audit in the accessibility panel
+
+accessibility-progress-initializing = 初期化しています…
+  .aria-valuetext = 初期化しています…
+
+# This string is displayed in the audit progress bar in the accessibility panel.
+# Variables:
+#   $nodeCount (Integer) - The number of nodes for which the audit was run so far.
+accessibility-progress-progressbar =
+    { $nodeCount ->
+        [one] ノードを確認しています
+       *[other] { $nodeCount } 個のノードを確認しています
+    }
+
+accessibility-progress-finishing = Finishing up…
+  .aria-valuetext = Finishing up…
+
 ## Text entries that are used as text alternative for icons that depict accessibility issues.
 
 accessibility-warning =

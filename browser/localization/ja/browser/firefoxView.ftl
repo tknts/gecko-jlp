@@ -109,21 +109,35 @@ firefoxview-collapse-button-show =
 
 firefoxview-collapse-button-hide =
   .title = リストを隠す
-  
-firefoxview-overview-navigation = Recent browsing
+ 
+firefoxview-overview-nav = 最近のブラウジング
+  .title = 最近のブラウジング
 
 ## History in this context refers to browser history
 
-firefoxview-history-navigation = History
-firefoxview-history-header = History
+firefoxview-history-nav = 履歴
+  .title = 履歴
+firefoxview-history-header = 履歴
 
 ## Open Tabs in this context refers to all open tabs in the browser
 
-firefoxview-opentabs-navigation = Open tabs
+firefoxview-opentabs-nav = Open tabs
+  .title = Open tabs
 firefoxview-opentabs-header = Open tabs
+
+## Recently closed tabs in this context refers to recently closed tabs from all windows
+
+firefoxview-recently-closed-nav = 最近閉じたタブ
+  .title = 最近閉じたタブ
+firefoxview-recently-closed-header = 最近閉じたタブ
+
+## Tabs from other devices refers in this context refers to synced tabs from other devices
+
+firefoxview-synced-tabs-nav = その他のデバイスのタブ
+  .title = その他のデバイスのタブ
+firefoxview-synced-tabs-header = その他のデバイスのタブ
 
 ##
 
 # Used for a link in collapsible cards, in the 'Recent browsing' page of Firefox View
-firefoxview-view-all-link = View all
-
+firefoxview-view-all-link = すべて表示

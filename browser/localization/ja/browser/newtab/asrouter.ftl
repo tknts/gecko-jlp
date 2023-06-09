@@ -244,6 +244,6 @@ fxa-sync-cfr-secondary = 後で知らせる
 ## Device Migration FxA Spotlight
 
 device-migration-fxa-spotlight-header = 古いデバイスを使用していますか?
-device-migration-fxa-spotlight-body = ブックマークやパスワードなどの重要な情報を失わないためには、データをバックアップしておくことが重要です。特に新しいデバイスに切り替える場合はバックアップを行ってください。
+device-migration-fxa-spotlight-body = ブックマークやパスワードなどの重要な情報を失わないためには、データをバックアップしておくことが重要です — 特に新しいデバイスに切り替える場合はバックアップを行ってください。
 device-migration-fxa-spotlight-primary-button = データをバックアップする方法
 device-migration-fxa-spotlight-link = 後で知らせる
