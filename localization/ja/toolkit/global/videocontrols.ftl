@@ -25,6 +25,8 @@ videocontrols-exitfullscreen-button =
     .aria-label = 全画面表示を終了
 videocontrols-casting-button-label =
     .aria-label = テレビで再生
+# .offlabel is processed by the video control custom element to be used
+# as a text-track label
 videocontrols-closed-caption-off =
     .offlabel = オフ
 

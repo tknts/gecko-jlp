@@ -892,10 +892,12 @@ prefs-sync-turn-on-syncing =
 
 prefs-sync-offer-setup-label2 = ブックマーク、履歴、タブ、パスワード、アドオン、設定をすべてのデバイスで同期します。
 
-prefs-sync-now =
-    .labelnotsyncing = 今すぐ同期
-    .accesskeynotsyncing = N
-    .labelsyncing = 同期しています…
+prefs-sync-now-button =
+    .label = 今すぐ同期
+    .accesskey = N
+
+prefs-syncing-button =
+    .label = 同期しています…
 
 ## The list of things currently syncing.
 

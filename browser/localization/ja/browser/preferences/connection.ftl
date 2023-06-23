@@ -71,10 +71,10 @@ connection-proxy-reload =
     .label = 再読み込み
     .accesskey = e
 
-connection-proxy-autologin =
+connection-proxy-autologin-checkbox =
     .label = パスワードを保存してある場合は認証を確認しない
     .accesskey = i
-    .tooltip = このオプションは、プロキシーへのパスワードが保存してある場合、確認することなく認証を行います。認証に失敗した場合は確認を行います。
+    .tooltiptext = このオプションは、プロキシーへのパスワードが保存してある場合、確認することなく認証を行います。認証に失敗した場合は確認を行います。
 
 connection-proxy-socks-remote-dns =
     .label = SOCKS v5 を使用するときは DNS もプロキシーを使用する
