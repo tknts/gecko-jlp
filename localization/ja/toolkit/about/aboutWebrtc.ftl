@@ -29,6 +29,12 @@ about-webrtc-auto-refresh-label = 自動更新
 # and is used as a data label.
 about-webrtc-peerconnection-id-label = PeerConnection ID:
 
+# The number of DataChannels that a PeerConnection has opened
+about-webrtc-data-channels-opened-label = Data Channels Opened:
+
+# The number of once open DataChannels that a PeerConnection has closed
+about-webrtc-data-channels-closed-label = データチャンネルが閉じられています:
+
 ## "SDP" is an abbreviation for Session Description Protocol, an IETF standard.
 ## See http://wikipedia.org/wiki/Session_Description_Protocol
 
@@ -92,6 +98,7 @@ about-webrtc-log-show-msg = show log
 about-webrtc-log-hide-msg = hide log
     .title = click to collapse this section
 about-webrtc-copy-report-button = レポートをコピー
+about-webrtc-copy-report-history-button = レポートの履歴を消去
 
 ## These are used to display a header for a PeerConnection.
 ## Variables:
@@ -278,6 +285,14 @@ about-webrtc-sdp-set-timestamp = Timestamp { NUMBER($timestamp, useGrouping: "fa
 ## These are displayed on the button that shows or hides the SDP information disclosure
 
 about-webrtc-show-msg-sdp = SDP 情報を表示
-about-webrtc-hide-msg-sdp = SDP 情報を隠す
+about-webrtc-hide-msg-sdp = SDP 情報を閉じる
+
+## These are displayed on the button that shows or hides the Media Context information disclosure.
+## The Media Context is the set of preferences and detected capabilities that informs
+## the negotiated CODEC settings.
+
+about-webrtc-media-context-show-msg = メディアコンテキストを表示
+about-webrtc-media-context-hide-msg = メディアコンテキストを閉じる
+about-webrtc-media-context-heading = メディアコンテキスト
 
 ##

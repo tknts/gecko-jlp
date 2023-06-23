@@ -4,10 +4,19 @@
 
 # Variables:
 #  $retriesLeft (Number): number of tries left
-webauthn-pin-invalid-prompt =
+webauthn-pin-invalid-long-prompt =
     { $retriesLeft ->
-        [0] 間違った PIN コードです。デバイスの正しい PIN コードを入力してください。
-        [one] 間違った PIN コードです。デバイスの正しい PIN コードを入力してください。あと { $retriesLeft } 回入力できます。
-       *[other] 間違った PIN コードです。デバイスの正しい PIN コードを入力してください。あと { $retriesLeft } 回入力できます。
+        [one] PIN コードが正しくありません。あと { $retriesLeft } 回間違えると、このデバイス上の認証情報に完全にアクセスできなくなります。
+       *[other] PIN コードが正しくありません。あと { $retriesLeft } 回間違えると、このデバイス上の認証情報に完全にアクセスできなくなります。
     }
+webauthn-pin-invalid-short-prompt = PIN コードが間違っています。もう一度実行する。
 webauthn-pin-required-prompt = デバイスの PIN コードを入力してください。
+
+# Variables:
+#  $retriesLeft (Number): number of tries left
+webauthn-uv-invalid-long-prompt =
+    { $retriesLeft ->
+        [one] ユーザー認証に失敗しました。残りの入力回数は { $retriesLeft } 回です。もう一度実行する。
+       *[other] ユーザー認証に失敗しました。残りの入力回数は { $retriesLeft } 回です。もう一度実行する。
+    }
+webauthn-uv-invalid-short-prompt = ユーザー認証に失敗しました。もう一度実行する。

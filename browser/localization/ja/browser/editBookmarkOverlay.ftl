@@ -19,10 +19,11 @@ bookmark-overlay-location-2 =
 bookmark-overlay-choose =
   .label = 選択…
 
-bookmark-overlay-folders-expander =
-  .tooltiptext = すべてのブックマークのフォルダーを表示
-  .tooltiptextdown = { bookmark-overlay-folders-expander.tooltiptext }
-  .tooltiptextup = 非表示
+bookmark-overlay-folders-expander2 =
+  .tooltiptext = すべてのブックマークのフォルダーを表示する
+
+bookmark-overlay-folders-expander-hide =
+  .tooltiptext = 非表示にする
 
 bookmark-overlay-new-folder-button =
   .label = 新しいフォルダー
@@ -35,10 +36,11 @@ bookmark-overlay-tags-2 =
 bookmark-overlay-tags-empty-description =
   .placeholder = カンマでタグを区切れます
 
-bookmark-overlay-tags-expander =
-  .tooltiptext = すべてのタグを表示
-  .tooltiptextdown = { bookmark-overlay-tags-expander.tooltiptext }
-  .tooltiptextup = 非表示
+bookmark-overlay-tags-expander2 =
+  .tooltiptext = すべてのタグを表示する
+
+bookmark-overlay-tags-expander-hide =
+  .tooltiptext = 非表示にする
 
 bookmark-overlay-keyword-2 =
   .value = キーワード:

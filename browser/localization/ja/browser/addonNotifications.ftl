@@ -60,7 +60,12 @@ addon-install-full-screen-blocked = フルスクリーン モード中または�
 webext-perms-sideload-menu-item = { $addonName } が { -brand-short-name } に追加されました
 # Variables:
 #   $addonName (String): the localized name of the extension which has been updated.
-webext-perms-update-menu-item = $addonName } には新しい権限が必要です
+webext-perms-update-menu-item = { $addonName } には新しい権限が必要です
+
+# This message is shown when one or more extensions have been imported from a
+# different browser into Firefox, and the user needs to complete the import to
+# start these extensions. This message is shown in the appmenu.
+webext-imported-addons = { -brand-short-name } にインポートされた拡張機能のインストールを完了してください
 
 ## Add-on removal warning
 
