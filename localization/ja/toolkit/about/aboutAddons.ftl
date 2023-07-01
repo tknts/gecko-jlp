@@ -213,6 +213,8 @@ extensions-warning-check-compatibility-button = 有効化
 extensions-warning-update-security = 更新のセキュリティチェックが無効になっています。 更新によって危険にさらされる可能性があります。
 extensions-warning-update-security-button = 有効化
     .title = アドオンの更新のセキュリティチェックを有効にします
+extensions-warning-imported-addons = { -brand-short-name } にインポートされた拡張機能のインストールを完了してください。
+extensions-warning-imported-addons-button = 拡張機能をインストール
 
 ## Strings connected to add-on updates
 
@@ -393,12 +395,6 @@ addon-detail-rating-label = 評価
 install-postponed-message = この拡張機能を更新するには { -brand-short-name } の再起動が必要です。
 install-postponed-button = 今すぐ更新
 
-# The average rating that the add-on has received.
-# Variables:
-#   $rating (number) - A number between 0 and 5. The translation should show at most one digit after the comma.
-five-star-rating =
-  .title = 評価: { NUMBER($rating, maximumFractionDigits: 1) } / 5
-
 # This string is used to show that an add-on is disabled.
 # Variables:
 #   $name (string) - The name of the add-on
@@ -426,6 +422,10 @@ addon-detail-updates-radio-on = オン
 addon-detail-updates-radio-off = オフ
 addon-detail-update-check-label = 更新を確認
 install-update-button = 更新
+# aria-label associated to the updates row to help screen readers to announce the group
+# of input controls being entered.
+addon-detail-group-label-updates =
+    .aria-label = { addon-detail-updates-label }
 
 # This is the tooltip text for the private browsing badge in about:addons. The
 # badge is the private browsing icon included next to the extension's name.
@@ -435,6 +435,24 @@ addon-badge-private-browsing-allowed2 =
 addon-detail-private-browsing-help = 許可されている場合、この拡張機能はプライベートブラウジング中でも、あなたのオンライン行動にアクセスできます。<a data-l10n-name="learn-more">さらに詳しく</a>
 addon-detail-private-browsing-allow = 許可する
 addon-detail-private-browsing-disallow = 拒否する
+# aria-label associated to the private browsing row to help screen readers to announce the group
+# of input controls being entered.
+addon-detail-group-label-private-browsing =
+    .aria-label = { detail-private-browsing-label }
+
+## "sites with restrictions" (internally called "quarantined") are special domains
+## where add-ons are normally blocked for security reasons.
+
+# Used as a description for the option to allow or block an add-on on quarantined domains.
+addon-detail-quarantined-domains-label = 保護されたウェブサイトで実行する
+# Used as help text part of the quarantined domains UI controls row.
+addon-detail-quarantined-domains-help = 許可されている場合、拡張機能は { -vendor-short-name } で保護されているウェブサイトにアクセスできるようになります。この拡張機能を信頼する場合にのみ許可してください。
+# Used as label and tooltip text on the radio inputs associated to the quarantined domains UI controls.
+addon-detail-quarantined-domains-allow = 許可
+addon-detail-quarantined-domains-disallow = 拒否
+# aria-label associated to the quarantined domains exempt row to help screen readers to announce the group.
+addon-detail-group-label-quarantined-domains =
+    .aria-label = { addon-detail-quarantined-domains-label }
 
 ## This is the tooltip text for the recommended badges for an extension in about:addons. The
 ## badge is a small icon displayed next to an extension when it is recommended on AMO.

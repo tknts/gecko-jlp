@@ -112,6 +112,8 @@ firefoxview-collapse-button-hide =
  
 firefoxview-overview-nav = 最近のブラウジング
   .title = 最近のブラウジング
+firefoxview-overview-header = 最近のブラウジング
+  .title = 最近のブラウジング
 
 ## History in this context refers to browser history
 
@@ -153,7 +155,22 @@ firefoxview-opentabs-current-window-header =
   .title = Window { $winID } (Current)
 
 firefoxview-opentabs-focus-tab =
-  .title = Switch to this tab
+  .title = このタブに切り替え
 
 firefoxview-show-more = Show more
 firefoxview-show-less = Show less
+
+firefoxview-sort-history-by-date-label = 日付順で並び替え
+firefoxview-sort-history-by-site-label = サイト順で並び替え
+
+## Variables:
+##   $date (string) - Date to be formatted based on locale
+
+firefoxview-history-date-today = 今日 - { DATETIME($date, dateStyle: "full") }
+firefoxview-history-date-yesterday = 昨日 - { DATETIME($date, dateStyle: "full") }
+firefoxview-history-date-this-month = { DATETIME($date, dateStyle: "full") }
+firefoxview-history-date-prev-month = { DATETIME($date, month: "long", year: "numeric") }
+
+##
+
+firefoxview-show-all-history = すべての履歴を表示

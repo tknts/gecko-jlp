@@ -319,15 +319,7 @@ manage-browser-languages-button =
 confirm-browser-language-change-description = 変更を適用するには、{ -brand-short-name } の再起動が必要です
 confirm-browser-language-change-button = 適用して再起動
 
-translate-web-pages =
-    .label = ウェブコンテンツを翻訳する
-    .accesskey = T
-
 fx-translate-web-pages = { -translations-brand-name }
-
-# The <img> element is replaced by the logo of the provider
-# used to provide machine translations for web pages.
-translate-attribution = Translations by <img data-l10n-name="logo"/>
 
 translate-exceptions =
     .label = 例外サイト…

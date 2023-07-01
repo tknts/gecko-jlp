@@ -34,8 +34,16 @@ about-logging-with-profiler-stacks-checkbox = ログメッセージのスタッ�
 
 about-logging-preset-networking-label = ネットワーク接続
 about-logging-preset-networking-description = ネットワークの問題を診断するログ モジュール
+about-logging-preset-networking-cookie-label = Cookie
+about-logging-preset-networking-cookie-description = Cookie の問題を診断するためのログモジュール
+about-logging-preset-networking-websocket-label = WebSocket
+about-logging-preset-networking-websocket-description = WebSocket の問題を診断するためのログモジュール
+about-logging-preset-networking-http3-label = HTTP/3
+about-logging-preset-networking-http3-description = HTTP/3 および QUIC の問題を診断するためのログモジュール
 about-logging-preset-media-playback-label = メディア再生
 about-logging-preset-media-playback-description = メディア再生の問題を診断するためのログモジュール (ビデオ会議に関する問題では除く)
+about-logging-preset-webrtc-label = WebRTC
+about-logging-preset-webrtc-description = WebRTC の呼び出しを診断するためのログモジュール
 about-logging-preset-custom-label = カスタマイズ
 about-logging-preset-custom-description = 手動で選択されたログモジュール
 
