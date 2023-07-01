@@ -231,6 +231,9 @@ menu-bookmark-tab =
     .label = このタブをブックマーク…
 menu-edit-bookmark =
     .label = このブックマークを編集…
+# "Search" is a verb, as in "Search in bookmarks"
+menu-bookmarks-search =
+    .label = ブックマークを検索
 menu-bookmarks-all-tabs =
     .label = すべてのタブをブックマーク…
 menu-bookmarks-toolbar =
