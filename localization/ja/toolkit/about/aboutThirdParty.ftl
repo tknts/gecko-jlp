@@ -7,7 +7,7 @@ third-party-section-title = { -brand-short-name } のサードパーティーの
 
 third-party-intro =
     このページには { -brand-short-name } に挿入されたサードパーティーのモジュールが表示されます。
-    Microsoft または { -vendor-short-name } によって署名されていないモジュールは サードパーティーのモジュールと見なされます。
+    Microsoft または { -vendor-short-name } によって署名されていないモジュールは、サードパーティーのモジュールと見なされます。
 
 
 third-party-message-empty = サードパーティーのモジュールは検出されませんでした。
@@ -55,13 +55,13 @@ third-party-button-reload = システム情報を再読み込み
     .title = システム情報を再読み込みします
 third-party-button-open =
     .title = ファイルの場所を開く…
-third-party-button-to-block =
+third-party-button-to-block-module = このモジュールをブロック
     .title = このモジュールをブロック
     .aria-label = このモジュールをブロック
-third-party-button-to-unblock =
+third-party-button-to-unblock-module = このモジュールのブロックを解除
     .title = 現在ブロックされています。クリックしてブロックを解除します。
     .aria-label = 現在ブロックされています。クリックしてブロックを解除します。
-third-party-button-to-unblock-disabled =
+third-party-button-to-unblock-module-disabled = このモジュールのブロックを解除します (ブロックリストは現在無効になっています)
     .title =
         { -brand-short-name } の今回の実行ではブロックリストが無効になっていますが、現在ブロック済みとしてマークされています。 クリックしてブロックを解除します。
     .aria-label =
