@@ -21,6 +21,10 @@ urlbar-group-best-match =
 urlbar-group-addon =
   .label = { -brand-product-name } extension
 
+# Label shown above a Pocket suggestion in the urlbar results.
+urlbar-group-pocket =
+  .label = おすすめの記事
+
 # Tooltip text for the block button shown in top pick rows.
 firefox-suggest-urlbar-block =
   .title = Dismiss this suggestion
@@ -43,8 +47,12 @@ urlbar-result-menu-learn-more-about-firefox-suggest =
 # A message shown in a result when the user gives feedback on it.
 firefox-suggest-feedback-acknowledgment = フィードバックをいただきありがとうございます。
 
-# A message that replaces a result when the user dismisses it.
-firefox-suggest-dismissal-acknowledgment = フィードバックをいただきありがとうございます。この画面を閉じると以降は表示されません。 
+# A message that replaces a result when the user dismisses a single suggestion.
+firefox-suggest-dismissal-acknowledgment-one = ご意見ありがとうございます。このサジェストは今後表示されなくなります。
+
+# A message that replaces a result when the user dismisses all suggestions of a
+# particular type.
+firefox-suggest-dismissal-acknowledgment-all = ご意見ありがとうございます。これらのサジェストは今後表示されなくなります。
 
 ## These strings are used for weather suggestions in the urlbar.
 
@@ -80,6 +88,8 @@ firefox-suggest-weather-high-low = 最高気温: { $high }°{ $unit } · 最低�
 #   $provider (String) - The name of the weather provider
 firefox-suggest-weather-sponsored = { $provider } · Sponsored
 
+## These strings are used as labels of menu items in the result menu.
+
 firefox-suggest-command-show-less-frequently =
   .label = 表示頻度を減らす
 firefox-suggest-command-dont-show-this =
@@ -90,6 +100,8 @@ firefox-suggest-command-not-interested =
   .label = 興味がありません
 firefox-suggest-weather-command-inaccurate-location =
   .label = 不正確な位置を報告する
+
+## These strings are used for add-on suggestions in the urlbar.
 
 # This string displays the number of reviews in the add-ons suggestion
 # Variables:
@@ -102,6 +114,16 @@ firefox-suggest-addons-reviews =
 
 # This string explaining that the add-on suggestion is a recommendation.
 firefox-suggest-addons-recommended = おすすめ
+
+## These strings are used for Pocket suggestions in the urlbar.
+
+# This string is shown in Pocket suggestions and indicates the suggestion is
+# from Pocket and is related to a particular keyword that matches the user's
+# search string.
+# Variables:
+#   $keywordSubstringTyped (string) - The part of the suggestion keyword that the user typed
+#   $keywordSubstringNotTyped (string) - The part of the suggestion keyword that the user did not yet type
+firefox-suggest-pocket-bottom-text = { -pocket-brand-name } · Related to <strong>{ $keywordSubstringTyped }</strong>{ $keywordSubstringNotTyped }
 
 ## These strings are used in the preferences UI (about:preferences). Their names
 ## follow the naming conventions of other strings used in the preferences UI.

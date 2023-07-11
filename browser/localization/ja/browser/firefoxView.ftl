@@ -74,11 +74,8 @@ firefoxview-mobile-promo-primarybutton = モバイル版の { -brand-product-nam
 firefoxview-mobile-confirmation-header = 🎉 準備が完了しました!
 firefoxview-mobile-confirmation-description = スマートフォンやタブレットから { -brand-product-name } のタブを取得でるようになりました。
 
-firefoxview-closed-tabs-title = 最近閉じたタブ
-
-firefoxview-closed-tabs-description2 = このウィンドウで閉じたページを再度開きます。
-firefoxview-closed-tabs-placeholder-header = 最近閉じたページはありません
-firefoxview-closed-tabs-placeholder-body = このウィンドウでタブを閉じると、ここから取得できます。
+firefoxview-closed-tabs-placeholder-header = 最近閉じられたタブはありません
+firefoxview-closed-tabs-placeholder-body2 = ここから閉じたタブ取得できます。
 
 # Variables:
 #   $tabTitle (string) - Title of tab being dismissed

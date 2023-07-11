@@ -18,9 +18,9 @@ abuse-report-subtitle = どんな問題が発生しましたか?
 #   $author-name (string) - Name of the add-on author
 abuse-report-addon-authored-by = 作者: <a data-l10n-name="author-name">{ $author-name }</a>
 
-abuse-report-learnmore =
-  どの問題を選択すればよいかわからない場合は 
-  <a data-l10n-name="learnmore-link">拡張機能やテーマの報告について</a> をご覧ください。
+abuse-report-learnmore-intro = どの問題を選択すればよいかわかりませんか?
+abuse-report-learnmore-link = 拡張機能とテーマの報告の詳細については、こちらをご覧ください。
+
 abuse-report-submit-description = 問題の説明 (任意)
 abuse-report-textarea =
   .placeholder = 詳細が解かれば、問題に対処するのは簡単です。 あなたが経験していることを説明してください。ウェブの健全性を維持するためにご協力いただきありがとうございます。
@@ -83,9 +83,7 @@ abuse-report-broken-reason-theme-v2 = 動作しない。またはブラウザー
 abuse-report-broken-example =
   例: 機能の動作が遅い、使いにくい、または機能しない。 ウェブサイトの一部が読み込まれない、または表示がおかしくなる
 abuse-report-broken-suggestions-extension =
-  It sounds like you’ve identified a bug. In addition to submitting a report here, the best way
-  to get a functionality issue resolved is to contact the extension developer.
-  <a data-l10n-name="support-link">Visit the extension’s website</a> to get the developer information.
+  バグが特定されたようですね。ここでレポートを送信することに加えて、この機能の問題を解決する最善の方法は、拡張機能の開発者に連絡することです。 <a data-l10n-name="support-link">拡張機能のウェブサイト</a> から開発者の情報を入手してください。
 abuse-report-broken-suggestions-sitepermission =
   It sounds like you’ve identified a bug. In addition to submitting a report here, the best way
   to get a functionality issue resolved is to contact the website developer.
