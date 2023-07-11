@@ -101,17 +101,15 @@ about-webrtc-nominated = Nominated
 about-webrtc-selected = Selected
 
 about-webrtc-save-page-label = ページを保存
-about-webrtc-debug-mode-msg-label = デバッグモード
-about-webrtc-debug-mode-off-state-label = デバッグモードを開始
-about-webrtc-debug-mode-on-state-label = デバッグモードを停止
+about-webrtc-enable-logging-label = Enable WebRTC Log Preset
 about-webrtc-stats-heading = Session Statistics
 about-webrtc-stats-clear = 履歴を消去
-about-webrtc-log-heading = Connection Log
+about-webrtc-log-heading = 接続ログ
 about-webrtc-log-clear = ログを消去
-about-webrtc-log-show-msg = show log
-    .title = click to expand this section
-about-webrtc-log-hide-msg = hide log
-    .title = click to collapse this section
+about-webrtc-log-section-show-msg = ログを表示
+    .title = クリックしてこのセクションを展開する
+about-webrtc-log-section-hide-msg = ログを閉じる
+    .title = クリックしてこのセクションを折りたたむ
 about-webrtc-copy-report-button = レポートをコピー
 about-webrtc-copy-report-history-button = レポートの履歴を消去
 
@@ -218,16 +216,11 @@ about-webrtc-round-trip-time-ms = RTT ms
 #   $track-identifier (String) - The unique identifier for the MediaStreamTrack.
 about-webrtc-frame-stats-heading = Video Frame Statistics - MediaStreamTrack ID: { $track-identifier }
 
-## These are paths used for saving the about:webrtc page or log files so
-## they can be attached to bug reports.
-## Variables:
-##  $path (String) - The path to which the file is saved.
-
+# This path is used for saving the about:webrtc page so it can be attached to
+# bug reports.
+# Variables:
+#  $path (String) - The path to which the file is saved.
 about-webrtc-save-page-complete-msg = Page saved to: { $path }
-about-webrtc-debug-mode-toggled-off-state-msg = Trace log can be found at: { $path }
-about-webrtc-debug-mode-toggled-on-state-msg = Debug mode active, trace log at: { $path }
-
-##
 
 # This is the total number of frames encoded or decoded over an RTP stream.
 # Variables:
@@ -302,7 +295,7 @@ about-webrtc-sdp-set-at-timestamp-remote = Set Remote SDP at timestamp { NUMBER(
 # Variables:
 #  $timestamp (Number) - The Unix Epoch time at which the SDP was set.
 #  $relative-timestamp (Number) - The timestamp relative to the timestamp of the earliest received SDP.
-about-webrtc-sdp-set-timestamp = Timestamp { NUMBER($timestamp, useGrouping: "false") } (+ { $relative-timestamp } ms)
+about-webrtc-sdp-set-timestamp = タイムスタンプ { NUMBER($timestamp, useGrouping: "false") } (+ { $relative-timestamp } ms)
 
 ## These are displayed on the button that shows or hides the SDP information disclosure
 

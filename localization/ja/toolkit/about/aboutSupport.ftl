@@ -90,9 +90,9 @@ show-dir-label =
         [windows] フォルダーを開く
        *[other] ディレクトリーを開く
     }
-environment-variables-title = Environment Variables
-environment-variables-name = Name
-environment-variables-value = Value
+environment-variables-title = 環境変数
+environment-variables-name = 名前
+environment-variables-value = 値
 experimental-features-title = 実験的機能
 experimental-features-name = 名前
 experimental-features-value = 値
@@ -185,6 +185,7 @@ media-codec-support-hw-decoding = ハードウェア デコード
 media-codec-support-codec-name = コーデックの名前
 media-codec-support-supported = 対応
 media-codec-support-unsupported = 非対応
+media-codec-support-error = コーデックのサポート情報が利用できませんでした。メディア ファイルを再生した後に、もう一度試してください。
 
 ##
 
@@ -207,8 +208,8 @@ intl-regional-prefs = 地域設定
 ##
 ## See also https://firefox-source-docs.mozilla.org/remote/
 
-remote-debugging-title = Remote Debugging (Chromium Protocol)
-remote-debugging-accepting-connections = Accepting Connections
+remote-debugging-title = リモートデバッグ (Chromium プロトコル)
+remote-debugging-accepting-connections = 接続の受け入れ
 remote-debugging-url = URL
 
 ##
