@@ -181,6 +181,12 @@ main-context-menu-copy-link-simple =
     .label = リンクをコピー
     .accesskey = L
 
+# This command copies the link, removing additional
+# query parameters used to track users across sites.
+main-context-menu-strip-on-share-link =
+    .label = リンクをコピー (トラッキングパラメータを削除)
+    .accesskey = y
+
 ## Media (video/audio) controls
 ##
 ## The accesskey for "Play" and "Pause" are the
