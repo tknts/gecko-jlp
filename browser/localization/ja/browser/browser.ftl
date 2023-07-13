@@ -386,15 +386,15 @@ identity-weak-encryption = このページは脆弱な暗号を使用してい�
 identity-insecure-login-forms = このページで入力したログイン情報は危険にさらされる可能性があります。
 
 identity-https-only-connection-upgraded = (HTTPS にアップグレードされています)
-identity-https-only-label = HTTPS-Only モード
+identity-https-only-label2 = このサイトを安全な接続に自動的にアップグレードします
 identity-https-only-dropdown-on =
     .label = オン
 identity-https-only-dropdown-off =
     .label = オフ
 identity-https-only-dropdown-off-temporarily =
     .label = 一時的にオフ
-identity-https-only-info-turn-on2 = { -brand-short-name } で接続をアップグレードできる場合は、 このサイトで HTTPS-Only モードを有効にします。
-identity-https-only-info-turn-off2 = ページが壊れているように見える場合は、このサイトでの HTTPS-Only モードを無効にし、安全でない HTTP を使用して再読み込みすることをお勧めします。
+identity-https-only-info-turn-on3 = 可能な場合に { -brand-short-name } で接続をアップグレードする場合は、このサイトの HTTPS アップグレードをオンにします。
+identity-https-only-info-turn-off3 = ページが壊れていると思われる場合は、安全でない HTTP を使用して再読み込みするために、このサイトの HTTPS アップグレードをオフにすることをお勧めします。
 identity-https-only-info-no-upgrade = 接続を HTTP からアップグレードできません。
 
 identity-permissions-storage-access-header = クロスサイト Cookie
@@ -553,7 +553,7 @@ urlbar-placeholder-search-mode-other-tabs =
 # This placeholder is used when searching quick actions.
 urlbar-placeholder-search-mode-other-actions =
   .placeholder = 検索ワードを入力してください
-  .aria-label = Search actions
+  .aria-label = 検索アクション
 
 # Variables
 #  $name (String): the name of the user's default search engine
