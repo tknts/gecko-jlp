@@ -219,6 +219,9 @@ menu-history-undo-menu =
     .label = 最近閉じたタブ
 menu-history-undo-window-menu =
     .label = 最近閉じたウィンドウ
+# "Search" is a verb, as in "Search in History"
+menu-history-search =
+    .label = 検索の履歴
 
 ## Bookmarks Menu
 

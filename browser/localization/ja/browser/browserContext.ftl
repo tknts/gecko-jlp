@@ -184,7 +184,7 @@ main-context-menu-copy-link-simple =
 # This command copies the link, removing additional
 # query parameters used to track users across sites.
 main-context-menu-strip-on-share-link =
-    .label = リンクをコピー (トラッキングパラメータを削除)
+    .label = リンクをコピー (トラッキングを削除)
     .accesskey = y
 
 ## Media (video/audio) controls
