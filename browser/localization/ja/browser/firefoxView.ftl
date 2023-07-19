@@ -173,3 +173,34 @@ firefoxview-history-date-prev-month = { DATETIME($date, month: "long", year: "nu
 firefoxview-show-all-history = すべての履歴を表示
 
 firefoxview-view-more-browsing-history = 閲覧履歴をもっと見る
+
+## Message displayed in Firefox View when the user has no history data
+
+firefoxview-history-empty-header = 前の画面に戻る
+firefoxview-history-empty-description = ここにアクセスしたページが一覧で表示されます。
+firefoxview-history-empty-description-two = あなたのプライバシーを保護することが私たちの活動の中心です。 { -brand-product-name } に保存されたアクティビティが <a data-l10n-name="history-settings-url">履歴の設定</a> で管理できるのはこのためです。
+##
+
+# Button text for choosing a browser within the ’Import history from another browser’ banner
+firefoxview-choose-browser-button = ブラウザーを選択
+  .title = ブラウザーを選択
+
+## Message displayed in Firefox View when the user has chosen to never remember History
+
+firefoxview-dont-remember-history-empty-header = なにも表示できません
+firefoxview-dont-remember-history-empty-description = Protecting your privacy is at the heart of what we do. It’s why you can control the activity { -brand-product-name } remembers.
+firefoxview-dont-remember-history-empty-description-two = Based on your current settings, { -brand-product-name } doesn’t remember your activity as you browse. To change that, <a data-l10n-name="history-settings-url-two">change your history settings to remember your history</a>.
+
+##
+
+# This label is read by screen readers when focusing the close button for the "Import history from another browser" banner in Firefox View
+firefoxview-import-history-close-button =
+  .aria-label = 閉じる
+  .title = 閉じる
+
+## Text displayed in a dismissable banner to import bookmarks/history from another browser
+
+firefoxview-import-history-header = 別のブラウザーから履歴をインポートする
+firefoxview-import-history-description =閲覧履歴やブックマークなどをインポートして { -brand-product-name }  を頼りになるブラウザーにしましょう。
+
+##

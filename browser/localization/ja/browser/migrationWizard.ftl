@@ -173,7 +173,17 @@ migration-list-payment-methods-label = 支払い方法
 ##
 
 migration-wizard-progress-header = データのインポート
+
+# This header appears in the final page of the migration wizard only if
+# all resources were imported successfully.
 migration-wizard-progress-done-header = データが正常にインポートされました
+
+# This header appears in the final page of the migration wizard if only
+# some of the resources were imported successfully. This is meant to be
+# distinct from migration-wizard-progress-done-header, which is only shown
+# if all resources were imported successfully.
+migration-wizard-progress-done-with-warnings-header = データのインポートが完了しました
+
 migration-wizard-progress-icon-in-progress =
   .aria-label = インポートしています…
 migration-wizard-progress-icon-completed =

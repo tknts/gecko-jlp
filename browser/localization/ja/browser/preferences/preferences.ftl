@@ -583,6 +583,10 @@ browsing-use-cursor-navigation =
     .label = ページ中の移動にカーソルを使用する (キャレットブラウズモード)
     .accesskey = k
 
+browsing-use-full-keyboard-navigation =
+    .label = [Tab] キーを使用してフォームのコントロールとリンクの間でフォーカスを移動します。
+    .accesskey = t
+
 browsing-search-on-start-typing =
     .label = キー入力時に検索を開始する
     .accesskey = x
