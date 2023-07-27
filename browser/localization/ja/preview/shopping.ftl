@@ -30,6 +30,12 @@ shopping-letter-grade-description-df = Unreliable reviews
 shopping-letter-grade-tooltip =
   .title = { $letter } - { $description }
 
+## Strings for the shopping message-bar
+
+shopping-message-bar-warning-stale-analysis-title = 利用可能な更新
+shopping-message-bar-warning-stale-analysis-message = この製品のレビューを再分析して、最新の情報を入手します。
+shopping-message-bar-warning-stale-analysis-link = レビューを再分析する
+
 ## Strings for the product review snippets card
 
 shopping-highlights-label =
@@ -54,5 +60,39 @@ shopping-settings-opt-out-button = Turn off review quality check
 shopping-adjusted-rating-label =
   .label = Adjusted rating
 shopping-adjusted-rating-unreliable-reviews = Unreliable reviews removed
+
+## Strings for the review reliability component
+
+shopping-review-reliability-label =
+  .label = これらのレビューはどの程度信頼できますか?
+
+## Strings for the analysis explainer component
+
+shopping-analysis-explainer-label =
+  .label = レビューの品質を決定する方法
+
+shopping-analysis-explainer-intro =
+  { -brand-product-name } は { -fakespot-brand-name } の AI テクノロジーを使用して、製品レビューの品質と信頼性を分析します。
+  この機能はレビューの品質のみを評価しています。製品の品質を評価したものではありません。
+
+shopping-analysis-explainer-grades-intro =
+  各製品のレビューには A から F までの <strong>アルファベットによる成績</strong> が表示されます。
+shopping-analysis-explainer-higher-grade-description =
+  より高いグレードは、そのレビューが実際に製品を使用していて、正直で公平なレビューを投稿した可能性が高いと当社が評価していることを意味します。
+shopping-analysis-explainer-lower-grade-description =
+  グレードが低い場合は、そのレビューが有料のレビュー担当者または偏ったレビュー担当者によるものである可能性が高いと考えられることを意味します。
+
+shopping-analysis-explainer-adjusted-rating-description =
+  The <strong>adjusted rating</strong> is based on review quality, with unreliable reviews removed.
+shopping-analysis-explainer-highlights-description =
+  <strong>Highlights</strong> are pulled from recent Amazon reviews (from the last 80 days), that we believe to be reliable.
+
+shopping-analysis-explainer-learn-more =
+  Learn more about <a data-l10n-name="review-quality-url">how { -fakespot-brand-name } determines review quality</a>.
+
+shopping-analysis-explainer-review-grading-scale = Review grading scale:
+shopping-analysis-explainer-review-grading-scale-reliable = We believe the reviews to be reliable
+shopping-analysis-explainer-review-grading-scale-mixed = We believe there’s a mix of reliable and unreliable reviews
+shopping-analysis-explainer-review-grading-scale-unreliable = We believe the reviews are unreliable
 
 ##

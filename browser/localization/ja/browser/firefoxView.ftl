@@ -31,15 +31,27 @@ firefoxview-tabpickup-step-signin-header = デバイス間でシームレスな�
 firefoxview-tabpickup-step-signin-description = スマートフォンのタブを取得するには、ログインするかアカウントを作成してください。
 firefoxview-tabpickup-step-signin-primarybutton = 続行
 
+firefoxview-syncedtabs-signin-header = どこからでもタブを取得
+firefoxview-syncedtabs-signin-description = { -brand-product-name } を使用している場所からタブを表示するには、アカウントにサインインしてください。アカウントをまだ持っていない場合は、サインアップの手順をご覧ください。
+firefoxview-syncedtabs-signin-primarybutton = サインインまたはサインアップ
+
 firefoxview-tabpickup-adddevice-header = スマートフォンやタブレットで { -brand-product-name } と同期する。
 firefoxview-tabpickup-adddevice-description = モバイル版の { -brand-product-name } をダウンロードしてログインしてください。
 firefoxview-tabpickup-adddevice-learn-how = 仕組みについて
 firefoxview-tabpickup-adddevice-primarybutton = モバイル版 { -brand-product-name } を入手
 
+firefoxview-syncedtabs-adddevice-header = 他のデバイスで { -brand-product-name } にサインインします
+firefoxview-syncedtabs-adddevice-description = { -brand-product-name } を使用している場所からタブを表示するには、すべてのデバイスでサインインしてください。<a data-l10n-name="url">接続するデバイスの追加</a> 方法をご覧ください。
+firefoxview-syncedtabs-adddevice-primarybutton = { -brand-product-name } for mobile を試してみる
+
 firefoxview-tabpickup-synctabs-header = タブの同期を有効にする
 firefoxview-tabpickup-synctabs-description = { -brand-short-name } がデバイス間でタブを共有できるよう許可してください。
 firefoxview-tabpickup-synctabs-learn-how = 仕組みについて
 firefoxview-tabpickup-synctabs-primarybutton = 開いたタブを同期
+
+firefoxview-syncedtabs-synctabs-header = 同期の設定を更新する
+firefoxview-syncedtabs-synctabs-description = 他のデバイスのタブを表示するには、開いているタブを同期する必要があります。
+firefoxview-syncedtabs-synctabs-checkbox = 開いているタブの同期を許可する
 
 firefoxview-tabpickup-fxa-admin-disabled-header = 管理者によって同期が無効に設定されています
 firefoxview-tabpickup-fxa-admin-disabled-description = 管理者が同期を無効にしているため { -brand-short-name } はタブをデバイス間で同期することができません。
@@ -60,6 +72,7 @@ firefoxview-tabpickup-password-locked-header = タブを表示するにはプラ
 firefoxview-tabpickup-password-locked-description = タブを取得するには { -brand-short-name } のプライマリ パスワードを入力する必要があります。
 firefoxview-tabpickup-password-locked-link = さらに詳しく
 firefoxview-tabpickup-password-locked-primarybutton = プライマリ パスワードを入力
+firefoxview-syncedtab-password-locked-link = <a data-l10n-name="syncedtab-password-locked-link">さらに詳しく</a>
 
 firefoxview-tabpickup-signed-out-header = サインインして再接続
 firefoxview-tabpickup-signed-out-description = 再接続してタブを取得するには { -fxaccount-brand-name } にサインインしてください。
@@ -117,6 +130,8 @@ firefoxview-overview-header = 最近のブラウジング
 firefoxview-history-nav = 履歴
   .title = 履歴
 firefoxview-history-header = 履歴
+firefoxview-history-context-delete = 履歴から削除
+    .accesskey = D
 
 ## Open Tabs in this context refers to all open tabs in the browser
 
@@ -168,6 +183,11 @@ firefoxview-history-date-yesterday = 昨日 - { DATETIME($date, dateStyle: "full
 firefoxview-history-date-this-month = { DATETIME($date, dateStyle: "full") }
 firefoxview-history-date-prev-month = { DATETIME($date, month: "long", year: "numeric") }
 
+# When history is sorted by site, this heading is used in place of a domain, in
+# order to group sites that do not come from an outside host.
+# For example, this would be the heading for all file:/// URLs in history.
+firefoxview-history-site-localhost = (ローカル ファイル)
+
 ##
 
 firefoxview-show-all-history = すべての履歴を表示
@@ -179,6 +199,7 @@ firefoxview-view-more-browsing-history = 閲覧履歴をもっと見る
 firefoxview-history-empty-header = 前の画面に戻る
 firefoxview-history-empty-description = ここにアクセスしたページが一覧で表示されます。
 firefoxview-history-empty-description-two = あなたのプライバシーを保護することが私たちの活動の中心です。 { -brand-product-name } に保存されたアクティビティが <a data-l10n-name="history-settings-url">履歴の設定</a> で管理できるのはこのためです。
+
 ##
 
 # Button text for choosing a browser within the ’Import history from another browser’ banner
@@ -201,6 +222,12 @@ firefoxview-import-history-close-button =
 ## Text displayed in a dismissable banner to import bookmarks/history from another browser
 
 firefoxview-import-history-header = 別のブラウザーから履歴をインポートする
-firefoxview-import-history-description =閲覧履歴やブックマークなどをインポートして { -brand-product-name }  を頼りになるブラウザーにしましょう。
+firefoxview-import-history-description =閲覧履歴やブックマークなどをインポートして { -brand-short-name }  を頼りになるブラウザーにしましょう。
+
+## Message displayed in Firefox View when the user has no recently closed tabs data
+
+firefoxview-recentlyclosed-empty-header = タブを閉じるのが早すぎますか?
+firefoxview-recentlyclosed-empty-description = ここには最近閉じたタブが表示されるので、すぐに再度開くことができます。
+firefoxview-recentlyclosed-empty-description-two = 以前のタブを見つけるには、<a data-l10n-name="history-url">閲覧履歴</a>を表示します。
 
 ##

@@ -10,8 +10,11 @@
 origin-controls-no-access =
     .label = 拡張機能はデータの読み取りと変更はできません
 
-origin-controls-quarantined =
-    .label = 拡張機能はデータの読み取りと変更を許可されていません
+origin-controls-quarantined-status =
+    .label = 制限されたサイトでは拡張機能の使用はできません
+
+origin-controls-quarantined-allow =
+    .label = 制限付きサイトでの使用を許可する
 
 origin-controls-options =
     .label = 拡張機能はデータの読み取りと変更が許可されています:
@@ -69,7 +72,5 @@ origin-controls-toolbar-button-permission-needed =
 origin-controls-toolbar-button-quarantined =
     .label = { $extensionTitle }
     .tooltiptext =
-    	{ $extensionTitle }
+        { $extensionTitle }
     	このサイトでの動作は { -vendor-short-name } によって許可されていません
-
-
