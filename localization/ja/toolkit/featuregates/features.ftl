@@ -30,12 +30,6 @@ experimental-features-cookie-samesite-none-requires-secure2 =
     .label = Cookies: SameSite=None requires secure attribute
 experimental-features-cookie-samesite-none-requires-secure2-description =“SameSite=None” 属性を持つ Cookie には Secure 属性が必要です。 この機能には「Cookies：SameSite=Laxデフォルト」が必要です。この機能には “Cookie: SameSite=Lax をデフォルトにする” が必要です。
 
-# about:home should be kept in English, as it refers to the the URI for
-# the internal default home page.
-experimental-features-abouthome-startup-cache =
-    .label = about:home startup cache
-experimental-features-abouthome-startup-cache-description = 起動時に読み込まれる about:home ドキュメントをキャッシュします。キャッシュの目的は起動時のパフォーマンスを向上させることです。
-
 # "Service Worker" is an API name and is usually not translated.
 experimental-features-devtools-serviceworker-debugger-support =
     .label = Developer Tools: Service Worker debugging

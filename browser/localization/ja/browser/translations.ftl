@@ -2,9 +2,16 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# The button for "Firefox Translations" in the url bar.
-urlbar-translations-button =
-  .tooltiptext = このページを翻訳します
+# The button for "Firefox Translations" in the url bar. Note that here "Beta" should
+# not be translated, as it is a reflection of the un-localized BETA icon that is in the
+# panel.
+urlbar-translations-button2 =
+  .tooltiptext = このページを翻訳する - ベータ版
+
+# Note that here "Beta" should not be translated, as it is a reflection of the
+# un-localized BETA icon that is in the panel.
+urlbar-translations-button-intro =
+  .tooltiptext = { -brand-shorter-name } でプライベート翻訳を試せます - ベータ版
 
 # If your language requires declining the language name, a possible solution
 # is to adapt the structure of the phrase, or use a support noun, e.g.
@@ -22,17 +29,12 @@ urlbar-translations-button-loading =
 translations-panel-settings-button =
   .aria-label = 翻訳の設定を管理します
 
-# Text displayed on a language dropdown when the language is in beta
-# Variables:
-#   $language (string) - The localized display name of the detected language
-translations-panel-displayname-beta =
-  .label = { $language } BETA
-
 ## Options in the Firefox Translations settings.
 
 translations-panel-settings-manage-languages =
   .label = 言語を管理
-translations-panel-settings-about = { -brand-shorter-name } による翻訳について
+translations-panel-settings-about2 =
+  .label = { -brand-shorter-name } の翻訳について
 
 # Text displayed for the option to always translate a given language
 # Variables:
@@ -64,6 +66,10 @@ translations-panel-translate-button-loading =
   .label = お待ちください…
 translations-panel-translate-cancel =
   .label = キャンセル
+translations-panel-learn-more-link = さらに詳しく
+
+translations-panel-intro-header = { -brand-shorter-name } でプライベート翻訳を試してください
+translations-panel-intro-description = プライバシー保護のため、デバイス内で翻訳が完結します。新しい言語と改善は近日中に登場します!
 
 translations-panel-error-translating =翻訳中に問題が発生しました。もう一度試してください。
 translations-panel-error-load-languages = 言語を読み込めませんでした
@@ -115,13 +121,17 @@ translations-manage-header = 翻訳
 translations-manage-settings-button =
     .label = 設定…
     .accesskey = t
-translations-manage-description = オフライン翻訳のための言語をダウンロードします。
-translations-manage-all-language = すべての言語
-translations-manage-language-download-button =
-    .label = ダウンロード
-    .accesskey = D
-translations-manage-language-delete-button =
+translations-manage-intro = 言語とサイト翻訳の設定を行い、オフライン翻訳用にインストールされた言語を管理します。
+translations-manage-install-description = オフライン翻訳用の言語をインストールする
+translations-manage-language-install-button =
+    .label = インストール
+translations-manage-language-install-all-button =
+    .label = すべてインストール
+    .accesskey = I
+translations-manage-language-remove-button =
     .label = 削除
+translations-manage-language-remove-all-button =
+    .label = すべて削除
     .accesskey = e
 translations-manage-error-download = 言語ファイルのダウンロード中に問題が発生しました。もう一度試してください。
 translations-manage-error-delete = 言語ファイルの削除中に問題が発生しました。もう一度試してください。

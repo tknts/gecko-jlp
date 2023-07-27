@@ -426,3 +426,10 @@ support-remote-experiments-see-about-studies = 個々の実験を無効にする
 support-remote-features-title = リモート機能
 support-remote-features-name = 名前
 support-remote-features-status = 状態
+
+## Pointing devices
+
+pointing-device-mouse = マウス
+pointing-device-touchscreen = タッチスクリーン
+pointing-device-pen-digitizer = デジタイザーペン
+pointing-device-none = ポインティングデバイスがありません

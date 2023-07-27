@@ -109,7 +109,7 @@ permissions-exceptions-cookie-desc = Cookie やサイトデータの使用を常
 permissions-exceptions-https-only-window2 =
     .title = 例外 - HTTPS-Only モード
     .style = { permissions-window2.style }
-permissions-exceptions-https-only-desc = 特定のウェブサイトで HTTPS-Only モードを無効にできます。{ -brand-short-name } は、それらのサイトのセキュアな HTTPS への接続のアップグレードを行いません。この例外はプライベート ウィンドウでは適用されません。
+permissions-exceptions-https-only-desc2 = 特定のウェブサイトで HTTPS-Only モードを無効にできます。{ -brand-short-name } は、それらのサイトのセキュアな HTTPS への接続のアップグレードを行いません。
 
 ## Exceptions - Pop-ups
 
