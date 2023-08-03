@@ -9,9 +9,13 @@
 shopping-page-title = { -brand-product-name } Shopping
 # Title for page showing where a user can check the
 # review quality of online shopping product reviews
-shopping-main-container-title = Review quality check
+shopping-main-container-title = レビューの信頼性を確認
 shopping-close-button =
-  .title = Close
+  .title = 閉じる
+# This string is for notifying screen reader users that the
+# sidebar is still loading data.
+shopping-a11y-loading =
+  .aria-label = 読み込んでいます…
 
 ## Strings for the letter grade component.
 ## For now, we only support letter grades A, B, C, D and F.
@@ -34,7 +38,13 @@ shopping-letter-grade-tooltip =
 
 shopping-message-bar-warning-stale-analysis-title = 利用可能な更新
 shopping-message-bar-warning-stale-analysis-message = この製品のレビューを再分析して、最新の情報を入手します。
-shopping-message-bar-warning-stale-analysis-link = レビューを再分析する
+shopping-message-bar-warning-stale-analysis-link = レビューを再分析
+
+shopping-message-bar-generic-error-title = 問題が発生しました
+shopping-message-bar-generic-error-message = 情報を読み込めませんでした。後でもう一度試してください。
+
+shopping-message-bar-warning-not-enough-reviews-title = レビューが足りません
+shopping-message-bar-warning-not-enough-reviews-message = この製品のレビューを分析するには、さらに多くのレビューが必要です。
 
 ## Strings for the product review snippets card
 
@@ -95,4 +105,19 @@ shopping-analysis-explainer-review-grading-scale-reliable = We believe the revie
 shopping-analysis-explainer-review-grading-scale-mixed = We believe there’s a mix of reliable and unreliable reviews
 shopping-analysis-explainer-review-grading-scale-unreliable = We believe the reviews are unreliable
 
-##
+## Strings for UrlBar button
+
+shopping-sidebar-open-button =
+  .tooltiptext = ショッピングのサイドバーを開きます
+shopping-sidebar-close-button =
+  .tooltiptext = ショッピングのサイドバーを閉じます
+
+## Strings for the unanalyzed product card.
+
+shopping-unanalyzed-product-header = これらのレビューはまだ分析されていません
+shopping-unanalyzed-product-message = この製品のレビューが信頼できるかどうかは、約 60 秒でわかります。
+shopping-unanalyzed-product-analyze-link = レビューを分析する
+
+## Onboarding message strings.
+
+shopping-onboarding-headline = <b>実際に使用した</b> レビューに基づいて買い物をしましょう
