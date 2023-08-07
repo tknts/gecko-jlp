@@ -19,7 +19,11 @@ urlbar-group-best-match =
 # alternative phrasing is "Extension for Firefox"). It's singular since only one
 # suggested extension is displayed.
 urlbar-group-addon =
-  .label = { -brand-product-name } extension
+  .label = { -brand-product-name } 用の拡張機能
+
+# Label shown above a MDN suggestion in the urlbar results.
+urlbar-group-mdn =
+  .label = 推奨されたリソース
 
 # Label shown above a Pocket suggestion in the urlbar results.
 urlbar-group-pocket =
@@ -27,7 +31,7 @@ urlbar-group-pocket =
 
 # Tooltip text for the block button shown in top pick rows.
 firefox-suggest-urlbar-block =
-  .title = Dismiss this suggestion
+  .title = この提案をブロックする
 
 # Block menu item shown in the result menu of top pick and quick suggest
 # results.
@@ -37,7 +41,7 @@ urlbar-result-menu-dismiss-firefox-suggest =
 
 # Tooltip text for the help button shown in Firefox Suggest urlbar results.
 firefox-suggest-urlbar-learn-more =
-  .title = Learn more about { -firefox-suggest-brand-name }
+  .title = { -firefox-suggest-brand-name } についてさらに詳しく
 
 # Learn More menu item shown in the result menu of Firefox Suggest results.
 urlbar-result-menu-learn-more-about-firefox-suggest =
@@ -114,6 +118,17 @@ firefox-suggest-addons-reviews =
 
 # This string explaining that the add-on suggestion is a recommendation.
 firefox-suggest-addons-recommended = おすすめ
+
+## These strings are used for MDN suggestions in the urlbar.
+
+# The term is defined in this file because the feature is en-US only. It should
+# be moved to toolkit/branding/brandings.ftl if the feature is exposed for
+# localization.
+-mdn-brand-name = Mozilla Developer Network
+
+# This string is shown in MDN suggestions and indicates the suggestion is from
+# MDN.
+firefox-suggest-mdn-bottom-text = { -mdn-brand-name }
 
 ## These strings are used for Pocket suggestions in the urlbar.
 
