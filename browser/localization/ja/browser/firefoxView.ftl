@@ -230,4 +230,6 @@ firefoxview-recentlyclosed-empty-header = タブを閉じるのが早すぎま�
 firefoxview-recentlyclosed-empty-description = ここには最近閉じたタブが表示されるので、すぐに再度開くことができます。
 firefoxview-recentlyclosed-empty-description-two = 以前のタブを見つけるには、<a data-l10n-name="history-url">閲覧履歴</a>を表示します。
 
-##
+## This message is displayed below the name of another connected device when it doesn't have any open tabs.
+
+firefoxview-syncedtabs-device-notabs = このデバイスでは開いているタブがありません
