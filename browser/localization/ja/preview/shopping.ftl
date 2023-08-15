@@ -7,6 +7,7 @@
 ### and strings are likely to change often.
 
 shopping-page-title = { -brand-product-name } Shopping
+
 # Title for page showing where a user can check the
 # review quality of online shopping product reviews
 shopping-main-container-title = レビューの信頼性を確認
@@ -16,6 +17,9 @@ shopping-close-button =
 # sidebar is still loading data.
 shopping-a11y-loading =
   .aria-label = 読み込んでいます…
+
+more-to-consider-ad-label =
+  .label = さらに考慮すべき点
 
 ## Strings for the letter grade component.
 ## For now, we only support letter grades A, B, C, D and F.
@@ -44,12 +48,22 @@ shopping-message-bar-generic-error-title = 問題が発生しました
 shopping-message-bar-generic-error-message = 情報を読み込めませんでした。後でもう一度試してください。
 
 shopping-message-bar-warning-not-enough-reviews-title = レビューが足りません
-shopping-message-bar-warning-not-enough-reviews-message = この製品のレビューを分析するには、さらに多くのレビューが必要です。
+shopping-message-bar-warning-not-enough-reviews-message = この商品のレビューを分析するには、さらに多くのレビューが必要です。
+
+shopping-message-bar-warning-product-not-available-title = 商品が利用できません
+shopping-message-bar-warning-product-not-available-message = この商品の在庫が復活したことを確認した場合は、当社にご報告ください。分析の更新に取り組みます。
+shopping-message-bar-warning-product-not-available-button = この商品の再入荷を報告する
+
+shopping-message-bar-warning-offline-title = ネットワーク接続がありません
+shopping-message-bar-warning-offline-message = ネットワーク接続を確認した後、ページを再読み込みしてください。
+
+shopping-message-bar-analysis-in-progress-title = 分析は近日公開予定
+shopping-message-bar-analysis-in-progress-message = 完了すると、更新された情報がここに自動的に表示されます。
 
 ## Strings for the product review snippets card
 
 shopping-highlights-label =
-  .label = Snippets from recent reviews
+  .label = 最近のレビューの抜粋
 
 shopping-highlight-price = Price
 shopping-highlight-quality = Quality
@@ -121,3 +135,5 @@ shopping-unanalyzed-product-analyze-link = レビューを分析する
 ## Onboarding message strings.
 
 shopping-onboarding-headline = <b>実際に使用した</b> レビューに基づいて買い物をしましょう
+# Future localization note - "Yes, try it" will need to be directly referenced when the button is added to fluent so it maintains parity with this copy
+shopping-onboarding-opt-in-privacy-policy-and-terms-of-use =  “Yes, try it” を選択すると { -vendor-short-name } 社の { -fakespot-brand-name } の <a data-l10n-name="privacy_policy">プライバシー ポリシー</a> と <a data-l10n-name="terms_of_use">利用規約</a> に同意したことになります。

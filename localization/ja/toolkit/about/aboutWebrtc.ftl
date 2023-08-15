@@ -22,7 +22,8 @@ about-webrtc-closed-peerconnection-disclosure-hide-msg = 閉じられた PeerCon
 about-webrtc-aec-logging-msg-label = AEC ロギング
 about-webrtc-aec-logging-off-state-label = AEC ロギングを開始
 about-webrtc-aec-logging-on-state-label = AEC ロギングを停止
-about-webrtc-aec-logging-toggled-on-state-msg = AEC logging active (speak with the caller for a few minutes and then stop the capture)
+about-webrtc-aec-logging-toggled-on-state-msg = AEC ロギングが動作しています (発信者と数分間話し、その後キャプチャを停止します)
+about-webrtc-aec-logging-unavailable-sandbox = AEC のログをエクスポートするには、環境変数に MOZ_DISABLE_CONTENT_SANDBOX=1 を設定する必要があります。起こり得るリスクを理解している場合にのみ、この変数を設定してください。
 # Variables:
 #  $path (String) - The path to which the aec log file is saved.
 about-webrtc-aec-logging-toggled-off-state-msg = Captured log files can be found in: { $path }

@@ -13,19 +13,21 @@ learn-more = <span data-l10n-name="link">さらに詳しく</span>
 ##   $property (string) - A CSS property name e.g. "color".
 ##   $display (string) - A CSS display value e.g. "inline-block".
 
-inactive-css-not-grid-or-flex-container = この要素はフレックスコンテナでもグリッドコンテナでもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-or-flex-container = この要素はフレックス コンテナでもグリッド コンテナでもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
-inactive-css-not-grid-or-flex-container-or-multicol-container = この要素はフレックスコンテナでもグリッドコンテナーでも、段組みコンテナでもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-or-flex-container-or-multicol-container = この要素はフレックス コンテナでもグリッ ドコンテナでも、グリッド コンテナでもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
-inactive-css-not-grid-or-flex-item = この要素はグリッドアイテムでもフレックスアイテムでもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-multicol-container = <strong>{ $property }</strong> はマルチカラム コンテナではないため、この要素には影響しません。
 
-inactive-css-not-grid-item = この要素はグリッドアイテムではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-or-flex-item = この要素はグリッド アイテムでもフレックス アイテムでもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
-inactive-css-not-grid-container = この要素はグリッドコンテナではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-item = この要素はグリッ ドアイテムではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
-inactive-css-not-flex-item = この要素はフレックスアイテムではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-container = この要素はグリッド コンテナではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
-inactive-css-not-flex-container = この要素はフレックスコンテナではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-flex-item = この要素はフレックス アイテムではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+
+inactive-css-not-flex-container = この要素はフレックス コンテナではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
 inactive-css-not-inline-or-tablecell = この要素はインライン要素でもテーブルのセル要素でもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
@@ -35,15 +37,17 @@ inactive-css-not-display-block-on-floated = 要素が <strong>floated</strong> �
 
 inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</strong> の制限により <strong>{ $property }</strong> を上書きする事はできません。
 
-inactive-css-position-property-on-unpositioned-box = <strong>{ $property }</strong> has no effect on this element since it’s not a positioned element.
+inactive-css-position-property-on-unpositioned-box = <strong>{ $property }</strong> は位置指定要素ではないため、この要素には影響を与えません。
 
 inactive-text-overflow-when-no-overflow = <strong>overflow:hidde</strong> が設定されていないため <strong>{ $property }</strong> は、この要素に影響を与えません。
 
 inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> は内部テーブル要素に影響を与えません。
 
-inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> は、テーブルセル以外の内部テーブル要素には影響を与えません。
+inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> は、テーブル セル以外の内部テーブル要素には影響を与えません。
 
 inactive-css-not-table = <strong>{ $property }</strong> はテーブルではないため、この要素には影響を与えません。
+
+inactive-css-not-table-cell = <strong>{ $property }</strong> はテーブル セルではないため、この要素には影響を与えません。
 
 inactive-scroll-padding-when-not-scroll-container = <strong>{ $property }</strong> はスクロールしないため、この要素には影響を与えません。
 
@@ -60,6 +64,8 @@ inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</st
 inactive-css-not-grid-or-flex-container-fix = <strong>display:grid</strong> または <strong>display:flex</strong> を追加してみてください。{ learn-more }
 
 inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>display:grid</strong>, <strong>display:flex</strong>, または <strong>columns:2</strong> のいずれかを追加してみてください。{ learn-more }
+
+inactive-css-not-multicol-container-fix = <strong>column-count</strong> または <strong>column-width</strong> を追加してみてください。{ learn-more }
 
 inactive-css-not-grid-or-flex-item-fix-3 = <strong>display:grid</strong>、 <strong>display:flex</strong>、 <strong>display:inline-grid</strong> か <strong>display:inline-flex</strong> を追加してみてください。 { learn-more }
 
@@ -79,7 +85,7 @@ inactive-css-non-replaced-inline-or-table-column-or-column-group-fix = <strong>d
 
 inactive-css-not-display-block-on-floated-fix = <strong>float</strong> を削除するか <strong>display:block</strong> を追加してみてください。 { learn-more }
 
-inactive-css-position-property-on-unpositioned-box-fix = Try setting its <strong>position</strong> property to something other than <strong>static</strong>. { learn-more }
+inactive-css-position-property-on-unpositioned-box-fix = その  <strong>position</strong> プロパティを値を <strong>static</strong> 以外に変更してください。 { learn-more }
 
 inactive-text-overflow-when-no-overflow-fix = <strong>overflow:hidden</strong> を追加してみてください。 { learn-more }
 
@@ -88,6 +94,8 @@ inactive-css-not-for-internal-table-elements-fix = <strong>display</strong> プ�
 inactive-css-not-for-internal-table-elements-except-table-cells-fix = <strong>display</strong> プロパティを <strong>table-column</strong>、<strong>table-row</strong>、 <strong>table-column-group</strong>、 <strong>table-row-group</strong>、または <strong>table-footer-group</strong> 以外の値を設定してください。 { learn-more }
 
 inactive-css-not-table-fix = <strong>display:table</strong> か <strong>display:inline-table</strong> を追加してみてください。 { learn-more }
+
+inactive-css-not-table-cell-fix = <strong>display:table-cell</strong> を追加してみてください。{ learn-more }
 
 inactive-scroll-padding-when-not-scroll-container-fix = <strong>overflow:auto</strong> か <strong>overflow:scroll</strong> または <strong>overflow:hidden</strong> を追加してみてください。{ learn-more }
 
