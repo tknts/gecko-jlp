@@ -153,7 +153,7 @@ firefoxview-synced-tabs-header = その他のデバイスのタブ
 
 ##
 
-# Used for a link in collapsible cards, in the 'Recent browsing' page of Firefox View
+# Used for a link in collapsible cards, in the ’Recent browsing’ page of Firefox View
 firefoxview-view-all-link = すべて表示
 
 # Variables:
@@ -174,6 +174,11 @@ firefoxview-show-less = Show less
 
 firefoxview-sort-history-by-date-label = 日付順で並び替え
 firefoxview-sort-history-by-site-label = サイト順で並び替え
+
+# Variables:
+#   $url (string) - URL that will be opened in the new tab
+firefoxview-opentabs-tab-row =
+  .title = { $url } に切り替えます
 
 ## Variables:
 ##   $date (string) - Date to be formatted based on locale

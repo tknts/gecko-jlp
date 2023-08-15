@@ -9,6 +9,13 @@
 ### results, and an "{ $engine } Suggestions" label may be shown above search
 ### suggestion results.
 
+## These terms are defined in this file because the feature is en-US only.
+## They should be moved to toolkit/branding/brandings.ftl if the feature is
+## exposed for localization.
+
+-mdn-brand-name = MDN Web Docs
+-mdn-brand-short-name = MDN
+
 ## These strings are used in the urlbar panel.
 
 # A label shown above the top pick group in the urlbar results.
@@ -58,6 +65,14 @@ firefox-suggest-dismissal-acknowledgment-one = ご意見ありがとうござい
 # particular type.
 firefox-suggest-dismissal-acknowledgment-all = ご意見ありがとうございます。これらのサジェストは今後表示されなくなります。
 
+# A message that replaces a result when the user dismisses a single MDN
+# suggestion.
+firefox-suggest-dismissal-acknowledgment-one-mdn = ご意見ありがとうございます。この { -mdn-brand-short-name } に関するサジェストは今後表示されなくなります。
+
+# A message that replaces a result when the user dismisses all MDN suggestions of
+# a particular type.
+firefox-suggest-dismissal-acknowledgment-all-mdn = ご意見ありがとうございます。{ -mdn-brand-short-name } に関するサジェストは今後表示されなくなります。
+
 ## These strings are used for weather suggestions in the urlbar.
 
 # This string is displayed above the current temperature
@@ -98,6 +113,8 @@ firefox-suggest-command-show-less-frequently =
   .label = 表示頻度を減らす
 firefox-suggest-command-dont-show-this =
   .label = 今後表示しない
+firefox-suggest-command-dont-show-mdn =
+  .label = 今後 { -mdn-brand-short-name } に関するサジェストを表示しない
 firefox-suggest-command-not-relevant =
   .label = 関連性がありません
 firefox-suggest-command-not-interested =
@@ -120,11 +137,6 @@ firefox-suggest-addons-reviews =
 firefox-suggest-addons-recommended = おすすめ
 
 ## These strings are used for MDN suggestions in the urlbar.
-
-# The term is defined in this file because the feature is en-US only. It should
-# be moved to toolkit/branding/brandings.ftl if the feature is exposed for
-# localization.
--mdn-brand-name = Mozilla Developer Network
 
 # This string is shown in MDN suggestions and indicates the suggestion is from
 # MDN.
@@ -312,12 +324,12 @@ firefox-suggest-onboarding-main-accept-option-description-1 = Help improve the {
 firefox-suggest-onboarding-main-accept-option-description-2 = Recommended for people who support improving the { -firefox-suggest-brand-name } feature.  Your search queries will be processed.
 firefox-suggest-onboarding-main-accept-option-description-3 = Help improve the { -firefox-suggest-brand-name } experience. Your search queries will be processed.
 
-firefox-suggest-onboarding-main-reject-option-label = Don’t allow.
-firefox-suggest-onboarding-main-reject-option-label-2 = Keep disabled
+firefox-suggest-onboarding-main-reject-option-label = 許可しない。
+firefox-suggest-onboarding-main-reject-option-label-2 = 無効化したままにする。
 
-firefox-suggest-onboarding-main-reject-option-description-1 = Keep the default { -firefox-suggest-brand-name } experience with the strictest data-sharing controls.
-firefox-suggest-onboarding-main-reject-option-description-2 = Recommended for people who prefer the strictest data-sharing controls. Keep the default experience.
+firefox-suggest-onboarding-main-reject-option-description-1 = 最も厳格なデータ共有制御を使用して { -firefox-suggest-brand-name } におけるデフォルトのユーザー体験を維持します。
+firefox-suggest-onboarding-main-reject-option-description-2 = 最も厳格なデータ共有制御を好む人に推奨されます。デフォルトのユーザー体験を維持します。
 firefox-suggest-onboarding-main-reject-option-description-3 = Leave the default { -firefox-suggest-brand-name } experience with the strictest data-sharing controls.
 
 firefox-suggest-onboarding-main-submit-button = 設定を保存
-firefox-suggest-onboarding-main-skip-link = Not now
+firefox-suggest-onboarding-main-skip-link = 今はしない

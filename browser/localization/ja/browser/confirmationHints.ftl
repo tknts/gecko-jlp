@@ -7,7 +7,12 @@
 confirmation-hint-breakage-report-sent = レポートを送信しました。ご協力ありがとうございます!
 confirmation-hint-login-removed = ログイン情報を削除しました!
 confirmation-hint-page-bookmarked = ブックマークに保存しました
-confirmation-hint-password-saved = パスワードを削除しました!
+confirmation-hint-password-created = パスワードを保存しました
+confirmation-hint-password-updated = パスワードを更新しました
+confirmation-hint-address-created = アドレスを保存しました
+confirmation-hint-address-updated = アドレスを更新しました
+confirmation-hint-credit-card-created = カード情報を保存しました
+confirmation-hint-credit-card-updated = カード情報を更新しました
 confirmation-hint-pin-tab = ピン留めしました!
 confirmation-hint-pin-tab-description = タブを右クリックしてピン留めを外します。
 confirmation-hint-send-to-device = 送信!

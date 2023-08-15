@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-fxviewtabrow-open-menu-button =
-  .title = メニューを開きます
-
 # Variables:
 #   $date (string) - Date to be formatted based on locale
 fxviewtabrow-date = { DATETIME($date, dateStyle: "short") }
@@ -44,3 +41,10 @@ fxviewtabrow-save-to-pocket = { -pocket-brand-name } へ保存
     .accesskey = o
 fxviewtabrow-copy-link = リンクをコピー
     .accesskey = L
+fxviewtabrow-close-tab = タブを閉じる
+    .accesskey = C
+
+# Variables:
+#   $tabTitle (string) - Title of the tab to which the context menu is associated
+fxviewtabrow-options-menu-button =
+  .title = { $tabTitle } のオプション
