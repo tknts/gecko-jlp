@@ -40,9 +40,11 @@ translations-panel-settings-about2 =
 # Variables:
 #   $language (string) - The localized display name of the detected language
 translations-panel-settings-always-translate-language =
-  .label = 常に { $language } を翻訳する
+  .label = 毎回 { $language } を翻訳する
 translations-panel-settings-always-translate-unknown-language =
-  .label = 常にこの言語を翻訳する
+  .label = 毎回この言語を翻訳する
+translations-panel-settings-always-offer-translation =
+  .label = 毎回翻訳パネルを表示する
 
 # Text displayed for the option to never translate a given language
 # Variables:

@@ -3,11 +3,18 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 do-not-track-description = ウェブサイトに “Do Not Track” を送信し追跡されたくないことを知らせます
+do-not-track-description2 =
+    .label = ウェブサイトに “Do Not Track” のリクエストを送信します
+    .accesskey = d
 do-not-track-learn-more = さらに詳しく
 do-not-track-option-default-content-blocking-known =
     .label = 既知のトラッカーをブロックするよう { -brand-short-name } が設定されている場合のみ
 do-not-track-option-always =
     .label = 常に送信する
+
+global-privacy-control-description =
+    .label = 私のデータを販売または共有しないようウェブサイトに通知します
+    .accesskey = s
 
 settings-page-title = 設定
 
@@ -844,7 +851,7 @@ sync-signedout-account-signin3 =
 # to your language, but should not be changed or translated.
 sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> または <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> をダウンロードしてモバイル端末と同期しましょう。
 
-## Firefox Account - Signed in
+## Firefox account - Signed in
 
 sync-profile-picture =
     .tooltiptext = プロフィール画像を変更します
@@ -1296,10 +1303,18 @@ content-blocking-cryptominers-label =
 
 # Browser fingerprinting is a method of tracking users by the configuration and settings information (their "digital fingerprint")
 # that is visible to websites they browse, rather than traditional tracking methods such as IP addresses and unique cookies.
-content-blocking-fingerprinters-label =
-  .label = フィンガープリントの採取
-  .accesskey = F
+#
+# The known fingerprinters are those that are known for collecting browser fingerprints from user devices.
+content-blocking-known-fingerprinters-label =
+  .label = 既に知られているフィンガープリント
+  .accesskey = K
 
+# The suspected fingerprinters are those that we are uncertain about browser fingerprinting activities. But they could
+# possibly acquire browser fingerprints because of the behavior on accessing APIs that expose browser fingerprints.
+content-blocking-suspected-fingerprinters-label =
+  .label = フィンガープリントの疑いのあるサイト
+  .accesskey = S
+  
 ## Privacy Section - Tracking
 
 tracking-manage-exceptions =

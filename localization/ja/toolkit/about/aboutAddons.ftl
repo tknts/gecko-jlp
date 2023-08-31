@@ -201,19 +201,23 @@ addon-category-sitepermission-title =
     .title = サイトの許可
 # String displayed in about:addons in the Site Permissions section
 # Variables:
-#  $host (string): DNS host name for which the webextension enables permissions
+#  $host (string) - DNS host name for which the webextension enables permissions
 addon-sitepermission-host = { $host } のサイト権限
 
 ## These are global warnings
 
-extensions-warning-safe-mode = すべてのアドオンはセーフモードで無効にされています。
-extensions-warning-check-compatibility = アドオンの互換性チェックは無効になっています。 互換性のないアドオンがインストールされている可能性があります。
+extensions-warning-safe-mode2 =
+    .message = すべてのアドオンはセーフモードで無効にされています。
+extensions-warning-check-compatibility2 =
+    .message = アドオンの互換性チェックは無効になっています。 互換性のないアドオンがインストールされている可能性があります。
 extensions-warning-check-compatibility-button = 有効化
     .title = アドオンの互換性チェックを有効にします
-extensions-warning-update-security = 更新のセキュリティチェックが無効になっています。 更新によって危険にさらされる可能性があります。
+extensions-warning-update-security2 =
+    .message = 更新のセキュリティチェックが無効になっています。 更新によって危険にさらされる可能性があります。
 extensions-warning-update-security-button = 有効化
     .title = アドオンの更新のセキュリティチェックを有効にします
-extensions-warning-imported-addons = { -brand-short-name } にインポートされた拡張機能のインストールを完了してください。
+xtensions-warning-imported-addons2 =
+    .message = { -brand-short-name } にインポートされた拡張機能のインストールを完了してください。
 extensions-warning-imported-addons-button = 拡張機能をインストール
 
 ## Strings connected to add-on updates
@@ -283,7 +287,8 @@ shortcuts-duplicate = ショートカットが重複しています
 # String displayed when a keyboard shortcut is already assigned to more than one add-on
 # Variables:
 #   $shortcut (string) - Shortcut string for the add-on
-shortcuts-duplicate-warning-message = { $shortcut } が他の場所でも使用されています。ショートカットキーが重複していると予期しない動作の原因となることがあります。
+shortcuts-duplicate-warning-message2 =
+    .message = { $shortcut } が他の場所でも使用されています。ショートカットが重複していると予期しない動作の原因となることがあります。
 
 # String displayed when a keyboard shortcut is already used by another add-on
 # Variables:
@@ -315,7 +320,8 @@ discopane-intro =
 
 
 # Notice to make user aware that the recommendations are personalized.
-discopane-notice-recommendations =
+discopane-notice-recommendations2 =
+    .message =
     おすすめの一部はパーソナライズされています。
     これらは、あなたがインストールした拡張機能、プロファイル設定、および使用統計に基づいています。
 discopane-notice-learn-more = さらに詳しく
@@ -392,7 +398,8 @@ addon-detail-homepage-label = ホームページ
 addon-detail-rating-label = 評価
 
 # Message for add-ons with a staged pending update.
-install-postponed-message = この拡張機能を更新するには { -brand-short-name } の再起動が必要です。
+install-postponed-message2 =
+    .message = この拡張機能を更新するには { -brand-short-name } の再起動が必要です。
 install-postponed-button = 今すぐ更新
 
 # This string is used to show that an add-on is disabled.
@@ -518,19 +525,25 @@ addon-page-options-button =
 
 # Variables:
 #   $version (string) - Application version.
-details-notification-incompatible = { $name } は { -brand-short-name } { $version } と互換性がありません。
+details-notification-incompatible2 =
+    .message = { $name } は { -brand-short-name } { $version } と互換性がありません。
 details-notification-incompatible-link = その他の情報
 
-details-notification-unsigned-and-disabled = { $name } は { -brand-short-name } での動作が検証されいないため無効化されています。
+details-notification-unsigned-and-disabled2 =
+    .message = { $name } は { -brand-short-name } での動作が検証されいないため無効化されています。
 details-notification-unsigned-and-disabled-link = その他の情報
 
-details-notification-unsigned = { $name } は { -brand-short-name } での動作を検証されいません。注意して続行してください。
+details-notification-unsigned2 =
+    .message = { $name } は { -brand-short-name } での動作を検証されいません。注意して続行してください。
 details-notification-unsigned-link = その他の情報
 
-details-notification-blocked = { $name } は、セキュリティまたは安定性の問題により無効になっています。
+details-notification-blocked2 =
+    .message = { $name } は、セキュリティまたは安定性の問題により無効になっています。
 details-notification-blocked-link = その他の情報
 
-details-notification-softblocked = { $name } は、セキュリティまたは安定性の問題を引き起こすことが知られています。
+details-notification-softblocked2 =
+    .message = { $name } は、セキュリティまたは安定性の問題を引き起こすことが知られています。
 details-notification-softblocked-link = その他の情報
 
-details-notification-gmp-pending = { $name } はまもなくインストールされます。
+details-notification-gmp-pending2 =
+    .message = { $name } はまもなくインストールされます。
