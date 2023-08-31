@@ -54,10 +54,16 @@ shopping-message-bar-warning-product-not-available-title = 商品が利用でき
 shopping-message-bar-warning-product-not-available-message = この商品の在庫が復活したことを確認した場合は、当社にご報告ください。分析の更新に取り組みます。
 shopping-message-bar-warning-product-not-available-button = この商品の再入荷を報告する
 
+shopping-message-bar-thanks-for-reporting-title = 報告ありがとう!
+shopping-message-bar-thanks-for-reporting-message = 24 時間以内に最新の分析結果が得られるはずです。もう一度ご確認ください。
+
+shopping-message-bar-warning-product-not-available-reported-title = 分析は近日公開予定です
+shopping-message-bar-warning-product-not-available-reported-message = 最新の分析は 24 時間以内に完成する予定です。もう一度ご確認ください。
+
 shopping-message-bar-warning-offline-title = ネットワーク接続がありません
 shopping-message-bar-warning-offline-message = ネットワーク接続を確認した後、ページを再読み込みしてください。
 
-shopping-message-bar-analysis-in-progress-title = 分析は近日公開予定
+shopping-message-bar-analysis-in-progress-title = 分析結果は近日中に公開します
 shopping-message-bar-analysis-in-progress-message = 完了すると、更新された情報がここに自動的に表示されます。
 
 ## Strings for the product review snippets card
@@ -65,11 +71,16 @@ shopping-message-bar-analysis-in-progress-message = 完了すると、更新さ�
 shopping-highlights-label =
   .label = 最近のレビューの抜粋
 
-shopping-highlight-price = Price
+shopping-highlight-price = 価格
 shopping-highlight-quality = Quality
 shopping-highlight-shipping = Shipping
 shopping-highlight-competitiveness = Competitiveness
 shopping-highlight-packaging = Packaging
+
+## Strings for show more card
+
+shopping-show-more-button = 表示を増やす
+shopping-show-less-button = 表示を減らす
 
 ## Strings for the settings card
 
@@ -134,6 +145,13 @@ shopping-unanalyzed-product-analyze-link = レビューを分析する
 
 ## Onboarding message strings.
 
-shopping-onboarding-headline = <b>実際に使用した</b> レビューに基づいて買い物をしましょう
-# Future localization note - "Yes, try it" will need to be directly referenced when the button is added to fluent so it maintains parity with this copy
-shopping-onboarding-opt-in-privacy-policy-and-terms-of-use =  “Yes, try it” を選択すると { -vendor-short-name } 社の { -fakespot-brand-name } の <a data-l10n-name="privacy_policy">プライバシー ポリシー</a> と <a data-l10n-name="terms_of_use">利用規約</a> に同意したことになります。
+shopping-onboarding-headline = 製品レビューの信頼できるガイドをお試しください
+
+## The "by" in "Fakespot by Mozilla" presents localization challenges.
+## Once the term is updated in Bug 1847307, we can update its use
+## here. (filed under Bug 1850432)
+
+shopping-onboarding-body = { -vendor-short-name } が提供する { -fakespot-brand-name } の力を利用して、偏ったレビューや偽物のレビューを回避できるようにします。当社の AI モデルは、ショッピング中にお客様を保護するために常に改善されています。 <a data-l10n-name="learn-more-link">さらに詳しく</a>
+shopping-onboarding-opt-in-privacy-policy-and-terms-of-use = “{ shopping-onboarding-opt-in-button }“ を選択すると { -vendor-short-name } の { -fakespot-brand-name } に関する <a data-l10n-name="privacy_policy">プライバシー ポリシー</a> と <a data-l10n-name="terms_of_use">利用規約</a> に同意したことになります。
+shopping-onboarding-opt-in-button = 同意して利用する
+shopping-onboarding-not-now-button = 同意しない

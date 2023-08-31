@@ -2,15 +2,18 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-toolbar-button-firefox-view =
+toolbar-button-firefox-view-2 =
   .label = { -firefoxview-brand-name }
-  .tooltiptext = { -firefoxview-brand-name }
+  .tooltiptext = ウィンドウやデバイス間で最近のブラウジングを表示します
 
 menu-tools-firefox-view =
   .label = { -firefoxview-brand-name }
   .accesskey = F
 
 firefoxview-page-title = { -firefoxview-brand-name }
+
+firefoxview-page-label =
+  .label = { -firefoxview-brand-name }
 
 firefoxview-close-button =
   .title = 閉じる

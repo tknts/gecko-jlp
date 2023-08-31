@@ -126,7 +126,9 @@ policy-GoToIntranetSiteForSingleWordEntryInAddressBar = アドレスバーに単
 
 policy-Handlers = デフォルトのアプリケーションハンドラーを構成します。
 
-policy-HardwareAcceleration = false にするとハードウェア アクセラレーションを無効にします。
+policy-Handlers = デフォルトのアプリケーションハンドラーを構成します。
+
+policy-HardwareAcceleration = false にするとハードウェア アクセラレーションが無効になります。
 
 # “lock” means that the user won’t be able to change this setting
 policy-Homepage = ホームページを設定し、任意でロックします。
