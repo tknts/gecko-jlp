@@ -33,6 +33,8 @@ inactive-css-not-inline-or-tablecell = この要素はインライン要素で�
 
 inactive-css-first-line-pseudo-element-not-supported = <strong>{ $property }</strong> は ::first-line 擬似要素ではサポートされていません。
 
+inactive-css-placeholder-pseudo-element-not-supported = <strong>{ $property }</strong> は ::placeholder 疑似要素ではサポートされていません。
+
 inactive-css-property-because-of-display = この要素は <strong>{ $display }</strong> の display プロパティを持つため、<strong>{ $property }</strong> は、この要素には影響を与えません。
 
 inactive-css-not-display-block-on-floated = 要素が <strong>floated</strong> であるため、エンジンによって <strong>display</strong> の値が <strong>block</strong> に変更されました。

@@ -1196,6 +1196,9 @@ addressbar-locbar-history-option =
 addressbar-locbar-bookmarks-option =
     .label = ブックマーク
     .accesskey = k
+addressbar-locbar-clipboard-option =
+    .label = クリップボード
+    .accesskey = C
 addressbar-locbar-openpage-option =
     .label = 表示中のタブ
     .accesskey = O
@@ -1260,11 +1263,15 @@ content-blocking-all-windows-tracking-content = すべてのウィンドウで�
 content-blocking-all-cross-site-cookies = すべてのクロスサイト Cookie
 content-blocking-cryptominers = クリプトマイナー (暗号通貨採掘)
 content-blocking-fingerprinters = フィンガープリントの採取
+# The known fingerprinters are those that are known for collecting browser fingerprints from user devices. And
+# the suspected fingerprinters are those that we are uncertain about browser fingerprinting activities. But they could
+# possibly acquire browser fingerprints because of the behavior on accessing APIs that expose browser fingerprints.
+content-blocking-known-and-suspected-fingerprinters = 既知のフィンガープリントの採取者および疑わしいフィンガープリントの採取者
 
 # The tcp-rollout strings are no longer used for the rollout but for tcp-by-default in the standard section
 
 # "Contains" here means "isolates", "limits".
-content-blocking-etp-standard-tcp-rollout-description = Total Cookie Protection contains cookies to the site you’re on, so trackers can’t use them to follow you between sites.
+content-blocking-etp-standard-tcp-rollout-description = Total Cookie Protection には、現在アクセスしているサイトへの Cookie が含まれているため、トラッカーがサイト間の追跡に Cookie を使用することはできません。
 content-blocking-etp-standard-tcp-rollout-learn-more = さらに詳しく
 
 content-blocking-etp-standard-tcp-title = これまでで最も強力なプライバシー機能である Total Cookie Protection が含まれています
