@@ -56,6 +56,9 @@ firefoxview-syncedtabs-synctabs-header = 同期の設定を更新する
 firefoxview-syncedtabs-synctabs-description = 他のデバイスのタブを表示するには、開いているタブを同期する必要があります。
 firefoxview-syncedtabs-synctabs-checkbox = 開いているタブの同期を許可する
 
+firefoxview-syncedtabs-loading-header = 同期しています
+firefoxview-syncedtabs-loading-description = 完了すると、他のデバイスで開いているタブが表示されます。すぐにもう一度確認してください。
+
 firefoxview-tabpickup-fxa-admin-disabled-header = 管理者によって同期が無効に設定されています
 firefoxview-tabpickup-fxa-admin-disabled-description = 管理者が同期を無効にしているため { -brand-short-name } はタブをデバイス間で同期することができません。
 
@@ -217,8 +220,8 @@ firefoxview-choose-browser-button = ブラウザーを選択
 ## Message displayed in Firefox View when the user has chosen to never remember History
 
 firefoxview-dont-remember-history-empty-header = なにも表示できません
-firefoxview-dont-remember-history-empty-description = Protecting your privacy is at the heart of what we do. It’s why you can control the activity { -brand-product-name } remembers.
-firefoxview-dont-remember-history-empty-description-two = Based on your current settings, { -brand-product-name } doesn’t remember your activity as you browse. To change that, <a data-l10n-name="history-settings-url-two">change your history settings to remember your history</a>.
+firefoxview-dont-remember-history-empty-description = Protecting your privacy is at the heart of what we do. It’s why you can control the activity { -brand-short-name } remembers.
+firefoxview-dont-remember-history-empty-description-two = Based on your current settings, { -brand-short-name } doesn’t remember your activity as you browse. To change that, <a data-l10n-name="history-settings-url-two">change your history settings to remember your history</a>.
 
 ##
 
@@ -241,3 +244,5 @@ firefoxview-recentlyclosed-empty-description-two = 以前のタブを見つけ�
 ## This message is displayed below the name of another connected device when it doesn't have any open tabs.
 
 firefoxview-syncedtabs-device-notabs = このデバイスでは開いているタブがありません
+
+firefoxview-syncedtabs-connect-another-device = その他のデバイスを接続する
