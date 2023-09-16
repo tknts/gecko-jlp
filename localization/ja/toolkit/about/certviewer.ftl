@@ -103,7 +103,7 @@ certificate-viewer-download-pem-chain = PEM (チェーン)
 
 # The title attribute for Critical Extension icon
 certificate-viewer-critical-extension =
-  .title =  この拡張は信頼に疑義があると記録されています。クライアントが証明書を理解できない場合は証明書を拒否する必要があります。
+  .title = この拡張は信頼に疑義があると記録されています。クライアントが証明書を理解できない場合は証明書を拒否する必要があります。
 certificate-viewer-export = エクスポート
   .download = { $fileName }.pem
 

@@ -1,4 +1,3 @@
-
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -14,7 +13,7 @@ about-service-workers-warning-no-service-workers = No Service Workers registered
 #
 # Variables:
 #   $originTitle: original title
-origin-title = Origin: { $originTitle }
+origin-title = オリジナル: { $originTitle }
 
 ## These strings are for showing the information of workers.
 ##
@@ -31,10 +30,10 @@ push-end-point-waiting = <strong>Push Endpoint:</strong> { waiting }
 push-end-point-result = <strong>Push Endpoint:</strong> { $name }
 
 # This term is used as a button label (verb, not noun).
-update-button = Update
+update-button = 更新
 
-unregister-button = Unregister
+unregister-button = 登録を解除
 
-unregister-error = Failed to unregister this Service Worker.
+unregister-error = この Service Worker の登録を解除できませんでした。
 
-waiting = Waiting…
+waiting = 待機中…

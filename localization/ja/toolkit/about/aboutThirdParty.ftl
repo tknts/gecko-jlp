@@ -64,6 +64,7 @@ third-party-button-to-unblock-module = このモジュールのブロックを�
 third-party-button-to-unblock-module-disabled = このモジュールのブロックを解除します (ブロックリストは現在無効になっています)
     .title =
         { -brand-short-name } の今回の実行ではブロックリストが無効になっていますが、現在ブロック済みとしてマークされています。 クリックしてブロックを解除します。
+
     .aria-label =
         { -brand-short-name } の今回の実行ではブロックリストが無効になっていますが、現在ブロック済みとしてマークされています。 クリックしてブロックを解除します。
 

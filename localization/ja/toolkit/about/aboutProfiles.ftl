@@ -57,8 +57,8 @@ profiles-delete-profile-title = プロファイルの削除
 #   $dir (String) - Path to be displayed
 profiles-delete-profile-confirm =
     プロファイルを削除すると、使用可能なプロファイルの一覧からプロファイルが削除され、元に戻すことはできません。
-		また、設定、証明書、その他のユーザー関連データを含むプロファイルのデータ ファイルを削除することもできます。このオプションはフォルダー “{ $dir }” を削除し、元に戻すことはできません。
-		プロファイルのデータ ファイルを削除しますか?
+    また、設定、証明書、その他のユーザー関連データを含むプロファイルのデータ ファイルを削除することもできます。このオプションはフォルダー “{ $dir }” を削除し、元に戻すことはできません。
+    プロファイルのデータ ファイルを削除しますか?
 profiles-delete-files = ファイルを削除
 profiles-dont-delete-files = ファイルを削除できません
 
@@ -66,7 +66,7 @@ profiles-delete-profile-failed-title = エラー
 profiles-delete-profile-failed-message = このプロファイルの削除中にエラーが発生しました。
 
 
-profiles-opendir = 
+profiles-opendir =
     { PLATFORM() ->
         [macos] Show in Finder
         [windows] フォルダーを開く

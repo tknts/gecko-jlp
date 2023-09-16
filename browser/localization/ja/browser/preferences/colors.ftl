@@ -31,10 +31,6 @@ colors-use-system =
     .label = システムの色を使用
     .accesskey = s
 
-colors-underline-links =
-    .label = リンクの下線
-    .accesskey = U
-
 colors-links-header = リンクの色
 
 colors-unvisited-links = 未訪問のリンク

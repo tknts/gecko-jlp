@@ -40,15 +40,24 @@ abuse-report-submit-button = 送信
 ## Variables:
 ##   $addon-name (string) - Name of the add-on
 
-abuse-report-messagebar-aborted = <span data-l10n-name="addon-name">{ $addon-name }</span> の報告はキャンセルされました。
-abuse-report-messagebar-submitting = <span data-l10n-name="addon-name">{ $addon-name }</span> の報告を送信しています。
-abuse-report-messagebar-submitted = 報告を提出していただきありがとうございます。<span data-l10n-name="addon-name">{ $addon-name }</span> を削除しますか?
-abuse-report-messagebar-submitted-noremove = 報告を提出していただきありがとうございます。
-abuse-report-messagebar-removed-extension = 報告を提出していただきありがとうございます。拡張機能 (<span data-l10n-name="addon-name">{ $addon-name }</span>) を削除しました。
-abuse-report-messagebar-removed-sitepermission = 報告を提出していただきありがとうございます。サイト権限アドオン (<span data-l10n-name="addon-name">{ $addon-name }</span>) を削除しました。
-abuse-report-messagebar-removed-theme = 報告を提出していただきありがとうございます。テーマ (<span data-l10n-name="addon-name">{ $addon-name }</span>) を削除しました。
-abuse-report-messagebar-error = <span data-l10n-name="addon-name">{ $addon-name }</span> の報告の送信中にエラーが発生しました。
-abuse-report-messagebar-error-recent-submit = <span data-l10n-name="addon-name">{ $addon-name }</span> の報告は、最近別のレポートが送信されたため送信されませんでした。
+abuse-report-messagebar-aborted2 =
+  .message = { $addon-name } の報告はキャンセルされました。
+abuse-report-messagebar-submitting2 =
+  .message = { $addon-name } の報告を送信しています。
+abuse-report-messagebar-submitted2 =
+  .message = 報告を提出していただきありがとうございます。{ $addon-name } を削除しますか?
+abuse-report-messagebar-submitted-noremoveabuse-report-messagebar-submitted-noremove2 =
+  .message = 報告を提出していただきありがとうございます。
+abuse-report-messagebar-removed-extension2 =
+  .message = 報告を提出していただきありがとうございます。拡張機能 ({ $addon-name }) を削除しました。
+abuse-report-messagebar-removed-sitepermission2 =
+  .message = 報告を提出していただきありがとうございます。サイト権限アドオン ({ $addon-name }) を削除しました。
+abuse-report-messagebar-removed-theme2 =
+  .message = 報告を提出していただきありがとうございます。テーマ ({ $addon-name }) を削除しました。
+abuse-report-messagebar-error2 =
+  .message = { $addon-name } の報告の送信中にエラーが発生しました。
+abuse-report-messagebar-error-recent-submit2 =
+  .message = { $addon-name } の報告は、最近別のレポートが送信されたため送信されませんでした。
 
 ## Message bars actions.
 
@@ -84,6 +93,8 @@ abuse-report-broken-example =
   例: 機能の動作が遅い、使いにくい、または機能しない。 ウェブサイトの一部が読み込まれない、または表示がおかしくなる
 abuse-report-broken-suggestions-extension =
   バグが特定されたようですね。ここでレポートを送信することに加えて、この機能の問題を解決する最善の方法は、拡張機能の開発者に連絡することです。 <a data-l10n-name="support-link">拡張機能のウェブサイト</a> から開発者の情報を入手してください。
+
+
 abuse-report-broken-suggestions-sitepermission =
   It sounds like you’ve identified a bug. In addition to submitting a report here, the best way
   to get a functionality issue resolved is to contact the website developer.

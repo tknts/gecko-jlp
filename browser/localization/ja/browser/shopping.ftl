@@ -7,6 +7,12 @@ shopping-page-title = { -brand-product-name } ショッピング
 # Title for page showing where a user can check the
 # review quality of online shopping product reviews
 shopping-main-container-title = レビューの信頼性を確認
+shopping-beta-marker = ベータ
+# This string is for ensuring that screen reader technology
+# can read out the "Beta" part of the shopping sidebar header.
+# Any changes to shopping-beta-marker should also be reflected here.
+shopping-a11y-header =
+  .aria-label = レビューの信頼性を確認 - ベータ
 shopping-close-button =
   .title = 閉じる
 # This string is for notifying screen reader users that the
@@ -20,7 +26,7 @@ shopping-a11y-loading =
 ## Letters are hardcoded and cannot be localized.
 
 shopping-letter-grade-description-ab = Reliable reviews
-shopping-letter-grade-description-c = Only some reliable reviews
+shopping-letter-grade-description-c = Mix of reliable and unreliable reviews
 shopping-letter-grade-description-df = Unreliable reviews
 
 # This string is displayed in a tooltip that appears when the user hovers
@@ -35,6 +41,7 @@ shopping-letter-grade-tooltip =
 
 shopping-message-bar-warning-stale-analysis-title = 利用可能な更新
 shopping-message-bar-warning-stale-analysis-message = { -fakespot-brand-full-name } に分析を依頼して、約 60 秒以内に最新の情報を取得します。
+
 shopping-message-bar-generic-error-title = 問題が発生しました
 shopping-message-bar-generic-error-message = 情報を読み込めませんでした。後でもう一度試してください。
 
@@ -51,11 +58,11 @@ shopping-message-bar-thanks-for-reporting-message = 24 時間以内に最新の�
 shopping-message-bar-warning-product-not-available-reported-title = 分析は近日公開予定です
 shopping-message-bar-warning-product-not-available-reported-message = 最新の分析は 24 時間以内に完成する予定です。もう一度ご確認ください。
 
-shopping-message-bar-warning-offline-title = ネットワーク接続がありません
-shopping-message-bar-warning-offline-message = ネットワーク接続を確認した後、ページを再読み込みしてください。
-
 shopping-message-bar-analysis-in-progress-title = 分析結果は近日中に公開します
 shopping-message-bar-analysis-in-progress-message = 完了すると、更新された情報がここに自動的に表示されます。
+
+shopping-message-bar-page-not-supported-title = これらのレビューは確認できません
+shopping-message-bar-page-not-supported-message = 残念ながら、ギフトカードやストリーミングビデオ、音楽、ゲームなどの特定の種類の商品のレビューの品質を確認することはできません。 
 
 ## The word 'analyzer' when used here reflects what this tool is called on
 ## fakespot.com. If possible, a different word should be used for the Fakespot
@@ -150,3 +157,24 @@ shopping-unanalyzed-product-analyze-link = { -fakespot-website-name } で分析�
 more-to-consider-ad-label =
   .label = さらに考慮すべき点
 ad-by-fakespot = { -fakespot-brand-name } による広告
+
+## Shopping survey strings.
+
+shopping-survey-headline = { -brand-product-name } の改善にご協力ください
+shopping-survey-question-one = { -brand-product-name } でのレビュー チェッカーの使い勝手に、どの程度満足していますか?
+shopping-survey-q1-radio-1-label = 非常に満足
+shopping-survey-q1-radio-2-label = 満足
+shopping-survey-q1-radio-3-label = 普通
+shopping-survey-q1-radio-4-label = 不満
+shopping-survey-q1-radio-5-label = 非常に不満
+
+shopping-survey-question-two = レビュー チェッカーを使用することで、購入の決定がしやすくなりましたか?
+
+shopping-survey-q2-radio-1-label = はい
+shopping-survey-q2-radio-2-label = いいえ
+shopping-survey-q2-radio-3-label = わからない
+
+shopping-survey-next-button-label = 次へ
+shopping-survey-submit-button-label = 送信
+shopping-survey-terms-link = 利用規約
+shopping-survey-thanks-message = ご意見ありがとうございました！

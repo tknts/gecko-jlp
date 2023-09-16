@@ -44,6 +44,8 @@ policy-Cookies = ウェブサイトの Cookie の保存を切り替えます。
 # Containers in this context is referring to container tabs in Firefox.
 policy-Containers = コンテナー タブに関するポリシーを設定します。
 
+policy-DisableAccounts = 同期などのアカウントが必要なサービスを無効にします。
+
 policy-DisabledCiphers = 暗号を無効にします。
 
 policy-DefaultDownloadDirectory = デフォルトのダウンロード先を設定します。
@@ -56,7 +58,7 @@ policy-DisableDefaultBrowserAgent = Default Browser Agent がアクションを�
 
 policy-DisableDeveloperTools = 開発者ツールへのアクセスをブロックします。
 
-policy-DisableFeedbackCommands = [ヘルプ] メニューのフィードバックを送信 (フィードバックと不正なサイトの報告) を無効にします。
+policy-DisableFeedbackCommands = [ヘルプ] メニューからフィードバックを送信する機能 (フィードバックと不正なサイトの報告) を無効にします。
 
 policy-DisableFirefoxAccounts = 同期機能を含む { -fxaccount-brand-name } が必要なサービスを無効にします。
 
@@ -120,11 +122,11 @@ policy-ExtensionSettings = 拡張機能のインストール全般を管理し�
 
 policy-ExtensionUpdate = 拡張機能の自動更新の使用を切り替えます。
 
-policy-FirefoxHome2 = { -firefox-home-brand-name } の設定を行います。
+policy-FirefoxHome2 = { -firefox-home-brand-name } を設定します。
+
+policy-FirefoxSuggest = { -firefox-suggest-brand-name } を設定します。
 
 policy-GoToIntranetSiteForSingleWordEntryInAddressBar = アドレスバーに単語を入力すると、検索の代わりにイントラネットサイトへの案内を強制します。
-
-policy-Handlers = デフォルトのアプリケーションハンドラーを構成します。
 
 policy-Handlers = デフォルトのアプリケーションハンドラーを構成します。
 

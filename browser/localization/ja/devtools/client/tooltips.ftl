@@ -33,6 +33,8 @@ inactive-css-not-inline-or-tablecell = この要素はインライン要素で�
 
 inactive-css-first-line-pseudo-element-not-supported = <strong>{ $property }</strong> は ::first-line 擬似要素ではサポートされていません。
 
+inactive-css-first-letter-pseudo-element-not-supported = <strong>{ $property }</strong> は ::first-letter 擬似要素ではサポートされていません。
+
 inactive-css-placeholder-pseudo-element-not-supported = <strong>{ $property }</strong> は ::placeholder 疑似要素ではサポートされていません。
 
 inactive-css-property-because-of-display = この要素は <strong>{ $display }</strong> の display プロパティを持つため、<strong>{ $property }</strong> は、この要素には影響を与えません。
@@ -60,6 +62,8 @@ inactive-css-border-image = <strong>{ $property }</strong> は、この要素に
 inactive-css-ruby-element = <strong>{ $property }</strong> はルビ要素であるため、この要素には何の影響も与えません。その大きさはルビ文字のフォントサイズによって決まります。
 
 inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> は疑似要素の強調表示をサポートしていません。
+
+inactive-css-cue-pseudo-element-not-supported = <strong>{ $property }</strong> は ::cue 擬似要素ではサポートされていません。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how

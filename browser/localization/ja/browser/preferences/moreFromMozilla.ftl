@@ -16,13 +16,6 @@ more-from-moz-firefox-mobile-description = あなたのプライバシーを第�
 more-from-moz-mozilla-vpn-title = { -mozilla-vpn-brand-name }
 more-from-moz-mozilla-vpn-description = 匿名でのブラウジングと保護を強化します。
 
-# This string is specific to the product Mozilla Rally which is US only.
-more-from-moz-mozilla-rally-title = { -rally-brand-name }
-# This string is specific to the product Mozilla Rally which is US only.
-more-from-moz-mozilla-rally-description = すべての人にとってより良いインターネットを実現するために、データを活用しましょう。
-# This string is specific to the product Mozilla Rally which is US only.
-more-from-moz-button-mozilla-rally-2 = { -rally-short-name } を使用する
-
 more-from-moz-qr-code-box-firefox-mobile-title = モバイル デバイスを使用してダウンロードできます。カメラを QR コードに向けてください。リンクが表示されたらタップします。
 more-from-moz-qr-code-box-firefox-mobile-button = QR コードを使用できない場合は携帯電話にメールを送信してください
 more-from-moz-qr-code-firefox-mobile-img =

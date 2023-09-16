@@ -83,7 +83,7 @@ about-logins-list-section-week = 過去一週間
 about-logins-login-intro-heading-logged-out2 = 保存したログイン情報をお探しですか? 同期機能をオンにするか、インポートしましょう。
 about-logins-login-intro-heading-logged-in = 同期されたログイン情報は見つかりませんでした。
 login-intro-description = 別のデバイスの { -brand-product-name } に保存したログイン情報は、以下の手順で取得できます:
-login-intro-instructions-fxa = ログイン情報が保存されたデバイスで { -fxaccount-brand-name(capitalization: "sentence") } を作成、またはサインインしてください
+login-intro-instructions-fxa2 = ログインが保存されているデバイスでアカウントにサインインするか、アカウントを作成してください。
 login-intro-instructions-fxa-settings = [設定] > [同期] > [同期を有効にする…] に移動して [ログイン情報とパスワード] のチェックボックスを選択します。
 login-intro-instructions-fxa-passwords-help =  <a data-l10n-name="passwords-help-link">パスワード サポート</a> の詳細なヘルプへ移動
 about-logins-intro-browser-only-import = ログイン情報が別のブラウザーに保存されている場合、<a data-l10n-name="import-link">ログイン情報を { -brand-product-name }</a> にインポートできます
