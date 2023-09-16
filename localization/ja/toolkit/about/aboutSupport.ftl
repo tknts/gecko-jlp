@@ -82,6 +82,7 @@ app-basics-key-mozilla = Mozilla Location Service キー
 app-basics-safe-mode = セーフモード
 app-basics-memory-size = メモリー容量 (RAM)
 app-basics-disk-available = 利用可能なディスク容量
+app-basics-pointing-devices = ポインティングデバイス
 
 # Variables:
 #   $value (number) - Amount of data being stored

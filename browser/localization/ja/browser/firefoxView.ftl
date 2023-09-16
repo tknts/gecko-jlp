@@ -81,7 +81,7 @@ firefoxview-tabpickup-password-locked-primarybutton = プライマリ パスワ�
 firefoxview-syncedtab-password-locked-link = <a data-l10n-name="syncedtab-password-locked-link">さらに詳しく</a>
 
 firefoxview-tabpickup-signed-out-header = サインインして再接続
-firefoxview-tabpickup-signed-out-description = 再接続してタブを取得するには { -fxaccount-brand-name } にサインインしてください。
+firefoxview-tabpickup-signed-out-description2 = 再接続してタブを取得するには、アカウントにサインインしてください。
 firefoxview-tabpickup-signed-out-primarybutton = サインイン
 
 firefoxview-tabpickup-syncing = 席を立たずにその場でお待ち下さい。タブの同期はほんの一瞬で終わります。

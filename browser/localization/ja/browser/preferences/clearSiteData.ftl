@@ -6,7 +6,7 @@ clear-site-data-window2 =
     .title = データの消去
     .style = min-width: 35em
 
-clear-site-data-description = { -brand-short-name } に保存されたすべての Cookie とサイトデータを消去すると、ウェブサイトからログアウトし、オフラインのウェブコンテンツが削除されます。 キャッシュデータを消去してもログインには影響しません。
+clear-site-data-description = { -brand-short-name } によって保存されているすべての Cookie とサイトデータを消去すると、ウェブサイトからサインアウトされ、オフラインで利用可能なウェブ コンテンツが削除される可能性があります。キャッシュ データを消去してもログインには影響しません。
 
 clear-site-data-close-key =
     .key = w
@@ -29,7 +29,7 @@ clear-site-data-cookies-empty =
     .label = Cookie とサイトデータ
     .accesskey = S
 
-clear-site-data-cookies-info = 消去すると、ウェブサイトからログアウトされることがあります
+clear-site-data-cookies-info = 消去するとウェブサイトからサインアウトされる可能性があります
 
 # The parameters in parentheses in this string describe disk usage
 # in the format ($amount $unit), e.g. "Cached Web Content (24 KB)"
@@ -37,7 +37,7 @@ clear-site-data-cookies-info = 消去すると、ウェブサイトからログ�
 #   $amount (Number) - Amount of cache currently stored on disk
 #   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
 clear-site-data-cache-with-data =
-    .label = キャッシュされたウェブコンテンツ ({ $amount } { $unit })
+    .label = キャッシュされたウェブ コンテンツ ({ $amount } { $unit })
     .accesskey = W
 
 # This string is a placeholder for while the data used to fill
@@ -46,10 +46,10 @@ clear-site-data-cache-with-data =
 # or the same as clear-site-data-cache-with-data (except the amount and unit),
 # to avoid flickering.
 clear-site-data-cache-empty =
-    .label = キャッシュされたウェブコンテンツ
+    .label = キャッシュされたウェブ コンテンツ
     .accesskey = W
 
-clear-site-data-cache-info = ウェブサイトから画像やデータを再度読み込む必要があります
+clear-site-data-cache-info = Will require websites to reload images and data
 
 clear-site-data-dialog =
     .buttonlabelaccept = 消去

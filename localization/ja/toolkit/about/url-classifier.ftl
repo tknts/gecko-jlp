@@ -5,6 +5,8 @@
 url-classifier-title = URL クラシフィケーション情報
 url-classifier-search-title = 検索
 url-classifier-search-result-title = 結果
+# Variables:
+#   $uri (string) - URI of blocked page
 url-classifier-search-result-uri = URI: { $uri }
 # Variables:
 #   $list (string) - List of tables where the page is blocked

@@ -178,7 +178,7 @@ confirm-on-close-multiple-tabs =
 
 # This string is used for the confirm before quitting preference.
 # Variables:
-#   $quitKey (String) - the quit keyboard shortcut, and formatted
+#   $quitKey (string) - the quit keyboard shortcut, and formatted
 #                       in the same manner as it would appear,
 #                       for example, in the File menu.
 confirm-on-quit-with-key =
@@ -831,7 +831,7 @@ containers-settings-button =
 containers-remove-button =
     .label = 削除
 
-## Firefox Account - Signed out. Note that "Sync" and "Firefox Account" are now
+## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
 
 sync-signedout-caption = ウェブを持ち歩こう
@@ -1136,7 +1136,7 @@ sitedata-delete-on-close =
     .label ={ -brand-short-name } を閉じたときに Cookie とサイトデータを削除する
     .accesskey = c
 
-sitedata-delete-on-close-private-browsing = プライベートブラウジング モードを常時使用する場合 {-brand-short-name} が閉じられると Cookie とサイトデータは常に消去されます。
+sitedata-delete-on-close-private-browsing = プライベートブラウジング モードを常時使用する場合 { -brand-short-name } が閉じられると Cookie とサイトデータは常に消去されます。
 
 sitedata-allow-cookies-option =
     .label = Cookie とサイトデータを許可する
@@ -1228,7 +1228,12 @@ content-blocking-section-top-level-description = トラッカーはあなたの�
 
 content-blocking-learn-more = さらに詳しく
 
-content-blocking-fpi-incompatibility-warning = { -brand-short-name } の Cookie 設定を一部上書きする First Party Isolation (FPI) を使用しています。
+content-blocking-fpi-incompatibility-warning =  First Party Isolation (FPI) を使用しています。この機能によって { -brand-short-name } の Cookie 設定が一部上書きされます。
+
+# There is no need to translate "Resist Fingerprinting (RFP)". This is a
+# feature that can only be enabled via about:config, and it's not exposed to
+# standard users (e.g. via Settings).
+content-blocking-rfp-incompatibility-warning = フィンガープリント採取防止機能 (RFP) を使用しています。この機能によって { -brand-short-name } のフィンガープリント保護設定が一部上書きされます。また一部のサイトが正しく表示されない可能性があります。
 
 ## These strings are used to define the different levels of
 ## Enhanced Tracking Protection.
@@ -1321,7 +1326,7 @@ content-blocking-known-fingerprinters-label =
 content-blocking-suspected-fingerprinters-label =
   .label = フィンガープリントの疑いのあるサイト
   .accesskey = S
-  
+
 ## Privacy Section - Tracking
 
 tracking-manage-exceptions =
@@ -1353,7 +1358,7 @@ permissions-microphone-settings =
     .accesskey = t
 
 # Short form for "the act of choosing sound output devices and redirecting audio to the chosen devices".
-permissions-speaker = スピーカー
+permissions-speaker = スピーカーの選択
 permissions-speaker-settings =
     .label = 設定…
     .accesskey = t
@@ -1395,7 +1400,8 @@ permissions-addon-exceptions =
 
 ## Privacy Section - Data Collection
 
-collection-header = { -brand-short-name } によるデータの収集と使用
+collection-header2 = { -brand-short-name } によるデータの収集と使用
+    .searchkeywords = テレメトリ
 
 collection-description = 私たちはあなたに選択肢を提供し { -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。常に私たちは個人情報を受け取る前にあなたの許可を求めます。
 collection-privacy-notice = プライバシーポリシー
