@@ -17,7 +17,7 @@ firefoxview-page-label =
 
 firefoxview-close-button =
   .title = 閉じる
-  .aria-label = Close
+  .aria-label = 閉じる
 
 # Used instead of the localized relative time when a timestamp is within a minute or so of now
 firefoxview-just-now-timestamp = たった今
@@ -141,9 +141,9 @@ firefoxview-history-context-delete = 履歴から削除
 
 ## Open Tabs in this context refers to all open tabs in the browser
 
-firefoxview-opentabs-nav = Open tabs
-  .title = Open tabs
-firefoxview-opentabs-header = Open tabs
+firefoxview-opentabs-nav = 開いているタブ
+  .title = 開いているタブ
+firefoxview-opentabs-header = 開いているタブ
 
 ## Recently closed tabs in this context refers to recently closed tabs from all windows
 
@@ -165,18 +165,18 @@ firefoxview-view-all-link = すべて表示
 # Variables:
 #   $winID (Number) - The index of the owner window for this set of tabs
 firefoxview-opentabs-window-header =
-  .title = Window { $winID }
+  .title = ウィンドー { $winID }
 
 # Variables:
 #   $winID (Number) - The index of the owner window (which is currently focused) for this set of tabs
 firefoxview-opentabs-current-window-header =
-  .title = Window { $winID } (Current)
+  .title = ウィンドー { $winID } (現在)
 
 firefoxview-opentabs-focus-tab =
   .title = このタブに切り替え
 
-firefoxview-show-more = Show more
-firefoxview-show-less = Show less
+firefoxview-show-more = さらに表示
+firefoxview-show-less = 表示を減らす
 
 firefoxview-sort-history-by-date-label = 日付順で並び替え
 firefoxview-sort-history-by-site-label = サイト順で並び替え
@@ -220,8 +220,8 @@ firefoxview-choose-browser-button = ブラウザーを選択
 ## Message displayed in Firefox View when the user has chosen to never remember History
 
 firefoxview-dont-remember-history-empty-header = なにも表示できません
-firefoxview-dont-remember-history-empty-description = Protecting your privacy is at the heart of what we do. It’s why you can control the activity { -brand-short-name } remembers.
-firefoxview-dont-remember-history-empty-description-two = Based on your current settings, { -brand-short-name } doesn’t remember your activity as you browse. To change that, <a data-l10n-name="history-settings-url-two">change your history settings to remember your history</a>.
+firefoxview-dont-remember-history-empty-description = あなたのプライバシーを保護することが私たちの活動の中心です。{ -brand-short-name } が記憶するアクティビティをコントロールできるのはそのためです。
+firefoxview-dont-remember-history-empty-description-two = 現在、設定によって { -brand-short-name } は閲覧中のアクティビティを記憶しません。これを変更するには <a data-l10n-name="history-settings-url-two">履歴を記憶するように履歴の設定を変更します</a>。
 
 ##
 
