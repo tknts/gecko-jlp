@@ -7,12 +7,15 @@ shopping-page-title = { -brand-product-name } ショッピング
 # Title for page showing where a user can check the
 # review quality of online shopping product reviews
 shopping-main-container-title = レビューの信頼性を確認
-shopping-beta-marker = ベータ
+# The term "Beta" should not be localized.
+shopping-beta-marker = Beta
 # This string is for ensuring that screen reader technology
 # can read out the "Beta" part of the shopping sidebar header.
-# Any changes to shopping-beta-marker should also be reflected here.
+# Like shopping-beta-marker, the term "Beta" should not be localized.
+# Any changes to shopping-main-container-title and
+# shopping-beta-marker should also be reflected here.
 shopping-a11y-header =
-  .aria-label = レビューの信頼性を確認 - ベータ
+  .aria-label = レビューの信頼性を確認 - beta
 shopping-close-button =
   .title = 閉じる
 # This string is for notifying screen reader users that the
@@ -42,24 +45,24 @@ shopping-letter-grade-tooltip =
 shopping-message-bar-warning-stale-analysis-title = 利用可能な更新
 shopping-message-bar-warning-stale-analysis-message = { -fakespot-brand-full-name } に分析を依頼して、約 60 秒以内に最新の情報を取得します。
 
-shopping-message-bar-generic-error-title = 問題が発生しました
-shopping-message-bar-generic-error-message = 情報を読み込めませんでした。後でもう一度試してください。
+shopping-message-bar-generic-error-title2 = 現在入手可能な情報はありません
+shopping-message-bar-generic-error-message = 私たちは問題の解決に取り組んでいます。後でもう一度試してください。
 
 shopping-message-bar-warning-not-enough-reviews-title = レビューが足りません
-shopping-message-bar-warning-not-enough-reviews-message = この商品のレビューを分析するには、さらに多くのレビューが必要です。
+shopping-message-bar-warning-not-enough-reviews-message2 = この製品のレビューが増えると、その品質を確認できるようになります。
 
 shopping-message-bar-warning-product-not-available-title = 商品が利用できません
-shopping-message-bar-warning-product-not-available-message = この商品の在庫が復活したことを確認した場合は、当社にご報告ください。分析の更新に取り組みます。
+shopping-message-bar-warning-product-not-available-message = この商品が再入荷しているのを見つけた場合は、ご報告ください。レビューを確認します。
 shopping-message-bar-warning-product-not-available-button = この商品の再入荷を報告する
 
 shopping-message-bar-thanks-for-reporting-title = 報告ありがとう!
-shopping-message-bar-thanks-for-reporting-message = 24 時間以内に最新の分析結果が得られるはずです。もう一度ご確認ください。
+shopping-message-bar-thanks-for-reporting-message2 = この製品のレビューに関する情報は 24 時間以内に入手できるはずです。もう一度ご確認ください。
 
-shopping-message-bar-warning-product-not-available-reported-title = 分析は近日公開予定です
-shopping-message-bar-warning-product-not-available-reported-message = 最新の分析は 24 時間以内に完成する予定です。もう一度ご確認ください。
+shopping-message-bar-warning-product-not-available-reported-title2 = 情報は近日公開予定です
+shopping-message-bar-warning-product-not-available-reported-message2 = この製品のレビューに関する情報は 24 時間以内に入手できるはずです。 もう一度ご確認ください。
 
-shopping-message-bar-analysis-in-progress-title = 分析結果は近日中に公開します
-shopping-message-bar-analysis-in-progress-message = 完了すると、更新された情報がここに自動的に表示されます。
+shopping-message-bar-analysis-in-progress-title2 = レビューの品質をチェックしています
+shopping-message-bar-analysis-in-progress-message2 = これには約 60 秒かかる場合があります。
 
 shopping-message-bar-page-not-supported-title = これらのレビューは確認できません
 shopping-message-bar-page-not-supported-message = 残念ながら、ギフトカードやストリーミングビデオ、音楽、ゲームなどの特定の種類の商品のレビューの品質を確認することはできません。 
@@ -101,9 +104,11 @@ powered-by-fakespot = Review checker is powered by <a data-l10n-name="fakespot-l
 
 ## Strings for the adjusted rating component
 
+# "Adjusted rating" means a star rating that has been adjusted to include only
+# reliable reviews.
 shopping-adjusted-rating-label =
-  .label = Adjusted rating
-shopping-adjusted-rating-unreliable-reviews = Unreliable reviews removed
+  .label = 信頼できレビューに基づく評価
+shopping-adjusted-rating-unreliable-reviews = 信頼性の低いレビューは削除されました
 
 ## Strings for the review reliability component
 
@@ -114,9 +119,8 @@ shopping-review-reliability-label =
 
 shopping-analysis-explainer-label =
   .label = レビューの品質を決定する方法
-shopping-analysis-explainer-intro =
-  当社では、{ -fakespot-brand-full-name } の AI テクノロジーを使用して、商品レビューの信頼性を分析しています。
-  この分析は、製品の品質ではなく、レビューの品質だけを評価します。
+shopping-analysis-explainer-intro2 =
+  当社では { -fakespot-brand-full-name } の AI テクノロジーを使用して、商品レビューの信頼性をチェックしています。これは、製品の品質ではなく、レビューの品質を評価するのにのみ役立ちます。
 shopping-analysis-explainer-grades-intro =
   各製品のレビューには A から F までの <strong>アルファベットによる成績</strong> が表示されます。
 shopping-analysis-explainer-adjusted-rating-description =
@@ -162,6 +166,7 @@ ad-by-fakespot = { -fakespot-brand-name } による広告
 
 shopping-survey-headline = { -brand-product-name } の改善にご協力ください
 shopping-survey-question-one = { -brand-product-name } でのレビュー チェッカーの使い勝手に、どの程度満足していますか?
+
 shopping-survey-q1-radio-1-label = 非常に満足
 shopping-survey-q1-radio-2-label = 満足
 shopping-survey-q1-radio-3-label = 普通
