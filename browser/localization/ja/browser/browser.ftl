@@ -974,6 +974,24 @@ unified-extensions-button-quarantined =
         拡張機能
         一部の拡張機能は許可されいません
 
+## Private browsing reset button
+
+reset-pbm-toolbar-button =
+    .label = プライベートセッションを終了
+    .tooltiptext = プライベートセッションを終了します
+reset-pbm-panel-heading = プライベートセッションを終了しますか?
+reset-pbm-panel-description = すべてのプライベート タブを閉じ、履歴、Cookie、その他すべてのサイト データを削除します。
+reset-pbm-panel-always-ask-checkbox =
+     .label = 毎回確認する
+     .accesskey = A
+reset-pbm-panel-cancel-button =
+    .label = キャンセル
+    .accesskey = C
+reset-pbm-panel-confirm-button =
+    .label = セッションデータを削除
+    .accesskey = D
+reset-pbm-panel-complete = プライベートセッションのデータが削除されました
+
 ## Autorefresh blocker
 
 refresh-blocked-refresh-label = このページが自動的に再読み込みするのを { -brand-short-name } はブロックしました。

@@ -8,8 +8,8 @@ sync-disconnect-dialog-title2 = 切断しますか?
 sync-disconnect-dialog-body = { -brand-product-name } はアカウントの同期を停止しますが、このデバイス上の閲覧データは削除されません。
 sync-disconnect-dialog-button = 切断
 
-fxa-signout-dialog2-title = Sign out of { -fxaccount-brand-name(capitalization: "sentence") }?
-fxa-signout-dialog-body = Synced data will remain in your account.
+fxa-signout-dialog-title2 = アカウントからサインアウトしますか?
+fxa-signout-dialog-body = 同期されたデータはアカウントに残ります。
 fxa-signout-dialog2-button = サインアウト
 fxa-signout-dialog2-checkbox = このデバイスからデータ (パスワード、履歴、ブックマークなど) を削除
 

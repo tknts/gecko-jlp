@@ -42,12 +42,6 @@ tracking-protection-icon-no-trackers-detected-container =
 
 # Header of the Protections Panel.
 protections-header = { $host } での保護の状況
-# Text that gets spoken by a screen reader if the button will disable protections.
-protections-disable =
-    .aria-label = { $host } で保護を無効にします
-# Text that gets spoken by a screen reader if the button will enable protections.
-protections-enable =
-    .aria-label = { $host } で保護を有効にします
 
 ## Blocking and Not Blocking sub-views in the Protections Panel
 
@@ -95,10 +89,18 @@ protections-footer-blocked-tracker-counter =
        *[other] { $trackerCount } 回ブロック
     }
     .tooltiptext = { DATETIME($date, year: "numeric", month: "long", day: "numeric") } 以降
+# This text indicates the total number of trackers blocked on all sites.
+# It should be the same as protections-footer-blocked-tracker-counter;
+# this message is used to leave out the tooltip when the date is not available.
+protections-footer-blocked-tracker-counter-no-tooltip =
+    { $trackerCount ->
+        [one] トラッカーをブロックしました
+       *[other] { $trackerCount } 個のトラッカーをブロックしました
+    }
 
 # In English this looks like "Firefox blocked over 10,000 trackers since October 2019"
 protections-milestone =
     { $trackerCount ->
-        [one] { -brand-short-name } は { DATETIME($date, year: "numeric", month: "long") } 以降に { $trackerCount } 個のトラッカーをブロックしました
+        [one] { -brand-short-name } は { DATETIME($date, year: "numeric", month: "long") } 以降にトラッカーをブロックしました
        *[other] { -brand-short-name } は { DATETIME($date, year: "numeric", month: "long") } 以降に { $trackerCount } 個のトラッカーをブロックしました
     }

@@ -1477,6 +1477,10 @@ certs-devices =
     .label = セキュリティデバイス…
     .accesskey = D
 
+certs-thirdparty-toggle =
+    .label = { -brand-short-name } によってインストールされたサードパーティーのルート証明書を自動的に信頼する
+    .accesskey = t
+
 space-alert-over-5gb-settings-button =
     .label = 設定を開く
     .accesskey = O

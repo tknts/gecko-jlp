@@ -71,3 +71,9 @@ about-private-browsing-pin-promo-title = Cookie や履歴を残さずにデス�
 about-private-browsing-cookie-banners-promo-header = Cookie 同意バナーはじめました!
 about-private-browsing-cookie-banners-promo-button = Cookie 同意バナーの表示回数を減らす
 about-private-browsing-cookie-banners-promo-message = Cookie の同意に { -brand-short-name } が自動的に応答するようにすると、気を散らされること無くブラウジングを続けることができます。{ -brand-short-name } は、可能であればすべてのリクエストをブロックします。
+
+## Strings for Felt Privacy v1 experiments in 119
+
+about-private-browsing-felt-privacy-v1-info-header = このデバイスに痕跡を残しません
+about-private-browsing-felt-privacy-v1-info-body = すべてのプライベート ウィンドウを閉じると { -brand-short-name} は自動的に Cookie、履歴、サイト データを削除します。
+about-private-browsing-felt-privacy-v1-info-link = 誰かが私のアクティビティを見ることはできますか?

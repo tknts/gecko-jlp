@@ -253,8 +253,10 @@ newtab-error-fallback-refresh-link = ページを再読み込みしてもう一�
 
 ## Customization Menu
 
-newtab-custom-shortcuts-title = ショートカット
-newtab-custom-shortcuts-subtitle = あなたが保存または訪問したサイト
+newtab-custom-shortcuts-toggle =
+  .label = ショートカット
+  .description = あなたが保存または訪問したサイト
+
 # Variables
 #   $num (number) - Number of rows to display
 newtab-custom-row-selector =
@@ -263,11 +265,13 @@ newtab-custom-row-selector =
            *[other] { $num } 行
         }
 newtab-custom-sponsored-sites = スポンサー付きショートカット
-newtab-custom-pocket-title = { -pocket-brand-name } によるおすすめ
-newtab-custom-pocket-subtitle = { -brand-product-name } ファミリーの一員である { -pocket-brand-name } によって厳選された優良コンテンツ
+newtab-custom-pocket-toggle =
+  .label = { -pocket-brand-name } によるおすすめ
+  .description = { -brand-product-name } ファミリーの一員である { -pocket-brand-name } によって厳選された優良コンテンツ
 newtab-custom-pocket-sponsored = スポンサー記事
 newtab-custom-pocket-show-recent-saves = 最近の保存を表示
-newtab-custom-recent-title = 最近のアクティビティ
-newtab-custom-recent-subtitle = 最近のサイトとコンテンツの選択
+newtab-custom-recent-toggle =
+  .label = 最近のアクティビティ
+  .description = 最近のサイトとコンテンツの選択
 newtab-custom-close-button = 閉じる
 newtab-custom-settings = その他の設定を管理
