@@ -12,6 +12,8 @@ webauthn-pin-invalid-long-prompt =
 webauthn-pin-invalid-short-prompt = PIN コードが間違っています。もう一度実行する。
 webauthn-pin-required-prompt = デバイスの PIN コードを入力してください。
 
+webauthn-select-sign-result-unknown-account = 不明なアカウント
+
 # Variables:
 #  $retriesLeft (Number): number of tries left
 webauthn-uv-invalid-long-prompt =

@@ -7,11 +7,9 @@ shopping-page-title = { -brand-product-name } ショッピング
 # Title for page showing where a user can check the
 # review quality of online shopping product reviews
 shopping-main-container-title = レビューの信頼性を確認
-# The term "Beta" should not be localized.
 shopping-beta-marker = Beta
 # This string is for ensuring that screen reader technology
 # can read out the "Beta" part of the shopping sidebar header.
-# Like shopping-beta-marker, the term "Beta" should not be localized.
 # Any changes to shopping-main-container-title and
 # shopping-beta-marker should also be reflected here.
 shopping-a11y-header =
@@ -66,14 +64,6 @@ shopping-message-bar-analysis-in-progress-message2 = これには約 60 秒か�
 
 shopping-message-bar-page-not-supported-title = これらのレビューは確認できません
 shopping-message-bar-page-not-supported-message = 残念ながら、ギフトカードやストリーミングビデオ、音楽、ゲームなどの特定の種類の商品のレビューの品質を確認することはできません。 
-
-## The word 'analyzer' when used here reflects what this tool is called on
-## fakespot.com. If possible, a different word should be used for the Fakespot
-## tool (the Fakespot by Mozilla 'analyzer') other than 'checker', which is
-## used in the name of the Firefox feature ('Review checker'). If that is not
-## possible - if these terms are not meaningfully different - that is OK.
-
-shopping-message-bar-warning-stale-analysis-link = { -fakespot-website-name } による分析を起動します
 
 ## Strings for the product review snippets card
 
@@ -152,9 +142,9 @@ shopping-sidebar-close-button =
 ## used in the name of the Firefox feature ('Review checker'). If that is not
 ## possible - if these terms are not meaningfully different - that is OK.
 
-shopping-unanalyzed-product-header = これらのレビューはまだ分析されていません
-shopping-unanalyzed-product-message = { -fakespot-brand-full-name } に分析を依頼すると、この製品のレビューが信頼できるかどうかが約 60 秒でわかります。
-shopping-unanalyzed-product-analyze-link = { -fakespot-website-name } で分析を起動します
+shopping-unanalyzed-product-header-2 = これらのレビューに関する情報はまだありません
+shopping-unanalyzed-product-message-2 = この製品のレビューが信頼できるかどうかを調べるには [レビューの品質を確認] をクリックしてください。所要時間はわずか 60 秒ほどです。
+shopping-unanalyzed-product-analyze-button = レビューの品質を確認
 
 ## Strings for the advertisement
 
@@ -183,3 +173,41 @@ shopping-survey-next-button-label = 次へ
 shopping-survey-submit-button-label = 送信
 shopping-survey-terms-link = 利用規約
 shopping-survey-thanks-message = ご意見ありがとうございました！
+
+## Shopping Feature Callout strings.
+## "price tag" refers to the price tag icon displayed in the address bar to
+## access the feature.
+
+shopping-callout-closed-opted-in-subtitle = 値札を見つけたら必ず <strong>レビュー チェッカー</strong> で確認してください。
+
+shopping-callout-pdp-opted-in-title = これらのレビューは信頼できますか? 確認してみましょう。
+shopping-callout-pdp-opted-in-subtitle = レビュー チェッカーを開くと、信頼性の高いレビューに基づいた評価を確認できます。さらに最近行われた本物のレビューのハイライトも表示できます。
+
+shopping-callout-closed-not-opted-in-title = ワンクリックで信頼できるレビューが表示されます
+shopping-callout-closed-not-opted-in-subtitle = 値札を見つけたら、レビュー チェッカーを試してみてください。 購入する前に、実際の購入者の本音が確認できます。
+
+## Onboarding message strings.
+
+shopping-onboarding-headline = Try our trusted guide to product reviews
+
+# Dynamic subtitle. Sites are limited to Amazon, Walmart or Best Buy.
+# Variables:
+#   $currentSite (str) - The current shopping page name
+#   $secondSite (str) - A second shopping page name
+#   $thirdSite (str) - A third shopping page name
+shopping-onboarding-dynamic-subtitle = See how reliable product reviews are on <b>{ $currentSite }</b> before you buy. Review checker, an experimental feature from { -vendor-short-name }, is built right into { -brand-product-name } — and it works on <b>{ $secondSite }</b> and <b>{ $thirdSite }</b>, too.
+
+shopping-onboarding-body = Using the power of { -fakespot-brand-full-name }, we help you avoid biased and inauthentic reviews. Our AI model is always improving to protect you as you shop. <a data-l10n-name="learn_more">Learn more</a>
+shopping-onboarding-opt-in-privacy-policy-and-terms-of-use = By selecting “{ shopping-onboarding-opt-in-button }“ you agree to { -fakespot-brand-full-name }’s <a data-l10n-name="privacy_policy">privacy policy</a> and <a data-l10n-name="terms_of_use">terms of use.</a>
+shopping-onboarding-opt-in-button = 今すぐ試す
+shopping-onboarding-not-now-button = 今は使用しない
+shopping-onboarding-dialog-close-button =
+    .title = 閉じる
+    .aria-label = 閉じる
+
+# Aria-label to make the "steps" of the shopping onboarding container visible to screen readers.
+# Variables:
+#   $current (Int) - Number of the current page
+#   $total (Int) - Total number of pages
+shopping-onboarding-welcome-steps-indicator-label =
+    .aria-label = Progress: step { $current } of { $total }

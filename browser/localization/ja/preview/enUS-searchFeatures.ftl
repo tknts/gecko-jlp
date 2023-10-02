@@ -191,6 +191,12 @@ addressbar-firefox-suggest-sponsored =
   .label = スポンサーからのサジェスト
   .description = スポンサーからのサジェストを表示する事で { -brand-short-name } の開発をサポートします。
 
+# An additional toggle button in the Firefox Suggest settings that controls
+# whether userdata-based suggestions like history and bookmarks should be
+# shown in private windows
+addressbar-firefox-suggest-private =
+  .label = プライベート ウィンドウでサジェストを表示する
+
 # Third Firefox Suggest toggle button main label and description. This toggle
 # controls data collection related to the user's search string.
 # .description is transferred into a separate paragraph by the moz-toggle

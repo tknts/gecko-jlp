@@ -156,9 +156,11 @@ shopping-onboarding-headline = 製品レビューの信頼できるガイドを�
 #   $currentSite (str) - The current shopping page name
 #   $secondSite (str) - A second shopping page name
 #   $thirdSite (str) - A third shopping page name
-shopping-onboarding-dynamic-subtitle = 購入する前に <b>{ $currentSite }</b> で製品レビューの信頼性を確認してください。 レビュー チェッカーは { -brand-product-name } に直接組み込まれており、<b>{ $secondSite }</b> と <b>{ $thirdSite }</b> でも動作します。
-
-shopping-onboarding-body = { -vendor-short-name } が提供する { -fakespot-brand-name } の力を利用して、偏ったレビューや偽物のレビューを回避できるようにします。当社の AI モデルは、ショッピング中にお客様を保護するために常に改善されています。 <a data-l10n-name="learn-more-link">さらに詳しく</a>
-shopping-onboarding-opt-in-privacy-policy-and-terms-of-use = “{ shopping-onboarding-opt-in-button }“ を選択すると { -vendor-short-name } の { -fakespot-brand-name } に関する <a data-l10n-name="privacy_policy">プライバシー ポリシー</a> と <a data-l10n-name="terms_of_use">利用規約</a> に同意したことになります。
+shopping-onboarding-dynamic-subtitle-1 = 購入する前に <b>{ $currentSite }</b> で製品レビューの信頼性を確認してください。 { -brand-product-name } の実験的な機能であるレビュー チェッカーは、ブラウザーに直接組み込まれています。 <b>{ $secondSite }</b> と <b>{ $thirdSite }</b> でも機能します。
+shopping-onboarding-body = { -fakespot-brand-full-name } の力を利用して、偏ったレビューや偽物のレビューを回避できるようにします。当社の AI モデルは、ショッピング中にお客様を保護するために常に改善されています。 <a data-l10n-name="learn-more">さらに詳しく</a>
+shopping-onboarding-opt-in-privacy-policy-and-terms-of-use = “{ shopping-onboarding-opt-in-button }“ を選択すると { -fakespot-brand-full-name } に関する <a data-l10n-name="privacy_policy">プライバシー ポリシー</a> と <a data-l10n-name="terms_of_use">利用規約</a> に同意したことになります。
 shopping-onboarding-opt-in-button = 同意して利用する
 shopping-onboarding-not-now-button = 同意しない
+shopping-onboarding-dialog-close-button =
+    .title = 閉じる
+    .aria-label = 閉じる
