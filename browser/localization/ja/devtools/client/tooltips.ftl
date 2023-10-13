@@ -65,6 +65,16 @@ inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</st
 
 inactive-css-cue-pseudo-element-not-supported = <strong>{ $property }</strong> は ::cue 擬似要素ではサポートされていません。
 
+# Variables:
+#   $lineCount (integer) - The number of lines the element has.
+inactive-css-text-wrap-balance-lines-exceeded =
+    { $lineCount ->
+         [one] <strong>{ $property }</strong> は { $lineCount } 行を超えるため、この要素には影響しません。
+        *[other] <strong>{ $property }</strong> は { $lineCount } 行を超えるため、この要素には影響しません。
+     }
+
+inactive-css-text-wrap-balance-fragmented = <strong>{ $property }</strong> has no effect on this element because it is fragmented, i.e. its content is split across multiple columns or pages.
+
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
 ## the problem can be solved.
@@ -110,6 +120,10 @@ inactive-scroll-padding-when-not-scroll-container-fix = <strong>overflow:auto</s
 inactive-css-border-image-fix = On the parent table element, remove the property or change the value of <strong>border-collapse</strong> to a value other than <strong>collapse</strong>. { learn-more }
 
 inactive-css-ruby-element-fix = ルビの <strong>font-size</strong> を変更してみてください。 { learn-more }
+
+inactive-css-text-wrap-balance-lines-exceeded-fix = 行数を減らしてみてください。 { learn-more }
+
+inactive-css-text-wrap-balance-fragmented-fix = 要素のコンテンツを分割しないでください。例えば、列を削除するか <strong>page-break-inside:avoid</strong> を使用します。 { learn-more }
 
 ## In the Rule View when a CSS property may have compatibility issues with other browsers
 ## we display an icon. When this icon is hovered this message is displayed to explain why

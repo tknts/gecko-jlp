@@ -36,10 +36,6 @@ urlbar-group-mdn =
 urlbar-group-pocket =
   .label = おすすめの記事
 
-# A label shown above sponsored suggestions in the urlbar results if priority.
-urlbar-group-sponsored =
-  .label = Sponsored
-
 # Tooltip text for the block button shown in top pick rows.
 firefox-suggest-urlbar-block =
   .title = このサジェストを削除
@@ -71,7 +67,7 @@ firefox-suggest-dismissal-acknowledgment-all = フィードバックをありが
 
 # A message that replaces a result when the user dismisses a single MDN
 # suggestion.
-firefox-suggest-dismissal-acknowledgment-one-mdn = フィードバックをありがとうございます。 この { -mdn-brand-short-name } に関するサジェストは今後表示されなくなります。
+firefox-suggest-dismissal-acknowledgment-one-mdn = フィードバックをありがとうございます。この { -mdn-brand-short-name } に関するサジェストは今後表示されなくなります。
 
 # A message that replaces a result when the user dismisses all MDN suggestions of
 # a particular type.
@@ -114,31 +110,22 @@ firefox-suggest-weather-sponsored = { $provider } · Sponsored
 ## These strings are used as labels of menu items in the result menu.
 
 firefox-suggest-command-show-less-frequently =
-  .label = Show less frequently
+  .label = 表示頻度を下げる
 firefox-suggest-command-dont-show-this =
-  .label = Don’t show this
+  .label = これを表示しない
 firefox-suggest-command-dont-show-mdn =
-  .label = Don’t show { -mdn-brand-short-name } suggestions
+  .label = { -mdn-brand-short-name } からのサジェストを表示しない
 firefox-suggest-command-not-relevant =
-  .label = Not relevant
+  .label = 関係がありません
 firefox-suggest-command-not-interested =
-  .label = Not interested
+  .label = 関心がありません
 firefox-suggest-weather-command-inaccurate-location =
-  .label = Report inaccurate location
+  .label = 不正確な位置情報を報告する
 
 ## These strings are used for add-on suggestions in the urlbar.
 
-# This string displays the number of reviews in the add-ons suggestion
-# Variables:
-#   $quantity (number) - The number of reviews for the add-on.
-firefox-suggest-addons-reviews =
-  { $quantity ->
-      [one] { $quantity } review
-     *[other] { $quantity } reviews
-  }
-
 # This string explaining that the add-on suggestion is a recommendation.
-firefox-suggest-addons-recommended = Recommended
+firefox-suggest-addons-recommended = おすすめ
 
 ## These strings are used for MDN suggestions in the urlbar.
 
@@ -168,12 +155,6 @@ addressbar-header-firefox-suggest = Address Bar — { -firefox-suggest-brand-nam
 # the usual addressbar-suggest string and becomes the text of the description of
 # the address bar section in the preferences UI.
 addressbar-suggest-firefox-suggest = アドレス バーに表示されるサジェストの種類を選択します:
-
-# The best match checkbox label. This toggle controls best match suggestions
-# related to the user's search string.
-addressbar-firefox-suggest-best-match-option =
-  .label = Top pick
-addressbar-best-match-learn-more = Learn more
 
 # First Firefox Suggest toggle button main label and description. This toggle
 # controls non-sponsored suggestions related to the user's search string.
