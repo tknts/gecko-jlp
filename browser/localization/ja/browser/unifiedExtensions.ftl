@@ -43,5 +43,10 @@ unified-extensions-context-menu-move-widget-down =
 
 ## Notifications
 
-unified-extensions-mb-quarantined-domain-title = 一部の拡張子は許可されていません
-unified-extensions-mb-quarantined-domain-message-2 = データを保護するため、一部の拡張機能はこのサイト上のデータの読み取りや変更ができません。拡張機能の設定を使用して { -vendor-short-name } によって制限されているサイトを許可します。
+# .heading is processed by moz-message-bar to be used as a heading attribute
+unified-extensions-mb-quarantined-domain-message-3 =
+    .heading = 一部の拡張子は許可されていません
+    .message = データを保護するため、一部の拡張機能はこのサイト上でデータの読み取りや変更ができません。拡張機能の設定を使用して { -vendor-short-name } によって制限されているサイトを許可します。
+
+unified-extensions-mb-quarantined-domain-learn-more = さらに詳しく
+    .aria-label = 詳細: 一部の拡張子は許可されていません

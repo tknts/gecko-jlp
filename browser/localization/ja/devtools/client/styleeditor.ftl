@@ -47,3 +47,11 @@ styleeditor-stylesheet-rule-count =
         [one] ルールがあります。
        *[other] { $ruleCount } 個のルールがあります。
     }
+
+# Title for the pretty print button in the editor footer.
+styleeditor-pretty-print-button =
+    .title = スタイルシートの整形表示
+
+# Title for the pretty print button in the editor footer, when it's disabled
+styleeditor-pretty-print-button-disabled =
+    .title = CSS ファイルは整形表示でしか表示できません

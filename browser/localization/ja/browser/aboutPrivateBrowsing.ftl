@@ -34,10 +34,10 @@ about-private-browsing-focus-promo-text = プライベート ブラウジング�
 
 ## The following strings will be used for experiments in Fx99 and Fx100
 
-about-private-browsing-focus-promo-header-b = Take private browsing to your phone
-about-private-browsing-focus-promo-text-b = Use { -focus-brand-name } for those private searches you don’t want your main mobile browser to see.
-about-private-browsing-focus-promo-header-c = Next-level privacy on mobile
-about-private-browsing-focus-promo-text-c = { -focus-brand-name } clears your history every time while blocking ads and trackers.
+about-private-browsing-focus-promo-header-b = スマートフォンでプライベート ブラウジングを利用する
+about-private-browsing-focus-promo-text-b = メインのモバイル ブラウザに表示されたくないプライベートな検索には { -focus-brand-name } がおすすめです。
+about-private-browsing-focus-promo-header-c = スマートフォンで次世代のプライバシー
+about-private-browsing-focus-promo-text-c = { -focus-brand-name } は、広告やトラッカーをブロックするたびに履歴を消去します。
 
 # This string is the title for the banner for search engine selection
 # in a private window.
@@ -60,17 +60,16 @@ about-private-browsing-promo-close-button =
 about-private-browsing-pin-promo-header = ワンクリックで自由自在なプライベートブラウジング
 about-private-browsing-pin-promo-link-text = { PLATFORM() ->
     [macos] Keep in Dock
-   *[other] Pin to taskbar
+   *[other] タスクバーにピン留め
 }
 about-private-browsing-pin-promo-title = Cookie や履歴を残さずにデスクトップから直接閲覧できます。誰に見られる事なくブラウズすることができます。
 
 ## Strings used in a promotion message for cookie banner reduction
 
 # Simplified version of the headline if the original text doesn't work
-# in your language: `See fewer cookie requests`.
-about-private-browsing-cookie-banners-promo-header = Cookie 同意バナーはじめました!
-about-private-browsing-cookie-banners-promo-button = Cookie 同意バナーの表示回数を減らす
-about-private-browsing-cookie-banners-promo-message = Cookie の同意に { -brand-short-name } が自動的に応答するようにすると、気を散らされること無くブラウジングを続けることができます。{ -brand-short-name } は、可能であればすべてのリクエストをブロックします。
+# in your language: `{ -brand-short-name } will show fewer cookie requests`
+about-private-browsing-cookie-banners-promo-heading = { -brand-short-name } が Cookie バナーを処理します
+about-private-browsing-cookie-banners-promo-body = 多くの Cookie バナーで自動的に Cookie を拒否するようになりました。これにより、追跡されることが減り、気を散らすことのなくインターネットを楽しめます。
 
 ## Strings for Felt Privacy v1 experiments in 119
 

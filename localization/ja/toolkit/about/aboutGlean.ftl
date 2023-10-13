@@ -92,8 +92,13 @@ about-glean-adhoc-explanation =
   and using the <code>testGetValue()</code> API like
   <code>Glean.metricCategory.metricName.testGetValue()</code>.
 
+# Do not translate strings between <code> </code> tags.
+about-glean-adhoc-note =
+  開発ツールのコンソールを使用して Glean JS API を使用していることに注意してください。
+  これは、メトリック カテゴリとメトリック名が次のようにフォーマットされていることを意味します。
+  Rust や C++ API とは異なり <code>camelCase</code> です。
 
-controls-button-label-verbose = Apply settings and submit ping
+controls-button-label-verbose = 設定を適用して ping を送信する
 
 about-glean-about-data-header = データについて
 about-glean-about-data-explanation =

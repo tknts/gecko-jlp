@@ -40,30 +40,36 @@ shopping-letter-grade-tooltip =
 
 ## Strings for the shopping message-bar
 
-shopping-message-bar-warning-stale-analysis-title = 利用可能な更新
-shopping-message-bar-warning-stale-analysis-message = { -fakespot-brand-full-name } に分析を依頼して、約 60 秒以内に最新の情報を取得します。
+shopping-message-bar-warning-stale-analysis-message-2 = 新しい情報を確認
+shopping-message-bar-warning-stale-analysis-button = 今すぐ確認
 
-shopping-message-bar-generic-error-title2 = 現在入手可能な情報はありません
-shopping-message-bar-generic-error-message = 私たちは問題の解決に取り組んでいます。後でもう一度試してください。
+shopping-message-bar-generic-error =
+  .heading = 現在入手可能な情報はありません
+  .message = 私たちは問題の解決に取り組んでいます。後でもう一度試してください。
 
-shopping-message-bar-warning-not-enough-reviews-title = レビューが足りません
-shopping-message-bar-warning-not-enough-reviews-message2 = この製品のレビューが増えると、その品質を確認できるようになります。
+shopping-message-bar-warning-not-enough-reviews =
+  .heading = レビューが足りません
+  .message = この製品のレビューが増えると、その品質を確認できるようになります。
 
-shopping-message-bar-warning-product-not-available-title = 商品が利用できません
-shopping-message-bar-warning-product-not-available-message = この商品が再入荷しているのを見つけた場合は、ご報告ください。レビューを確認します。
-shopping-message-bar-warning-product-not-available-button = この商品の再入荷を報告する
+shopping-message-bar-warning-product-not-available =
+  .heading = 商品が利用できません
+  .message = この商品が再入荷しているのを見つけた場合は、ご報告ください。レビューを確認します。
+shopping-message-bar-warning-product-not-available-button2 = レポートの製品には在庫があります
 
-shopping-message-bar-thanks-for-reporting-title = 報告ありがとう!
-shopping-message-bar-thanks-for-reporting-message2 = この製品のレビューに関する情報は 24 時間以内に入手できるはずです。もう一度ご確認ください。
+shopping-message-bar-thanks-for-reporting =
+  .heading = 報告ありがとう!
+  .message = この製品のレビューに関する情報は 24 時間以内に入手できるはずです。もう一度ご確認ください。
 
-shopping-message-bar-warning-product-not-available-reported-title2 = 情報は近日公開予定です
-shopping-message-bar-warning-product-not-available-reported-message2 = この製品のレビューに関する情報は 24 時間以内に入手できるはずです。 もう一度ご確認ください。
+shopping-message-bar-warning-product-not-available-reported =
+  .heading = 情報は近日公開予定です
+  .message =この製品のレビューに関する情報は 24 時間以内に入手できるはずです。もう一度ご確認ください。
 
 shopping-message-bar-analysis-in-progress-title2 = レビューの品質をチェックしています
 shopping-message-bar-analysis-in-progress-message2 = これには約 60 秒かかる場合があります。
 
-shopping-message-bar-page-not-supported-title = これらのレビューは確認できません
-shopping-message-bar-page-not-supported-message = 残念ながら、ギフトカードやストリーミングビデオ、音楽、ゲームなどの特定の種類の商品のレビューの品質を確認することはできません。 
+shopping-message-bar-page-not-supported =
+  .heading = これらのレビューは確認できません
+  .message = 残念ながら、ギフトカードやストリーミングビデオ、音楽、ゲームなどの特定の種類の商品のレビューの品質を確認することはできません。 
 
 ## Strings for the product review snippets card
 
@@ -130,9 +136,9 @@ shopping-analysis-explainer-review-grading-scale-unreliable = 信頼性の低い
 
 ## Strings for UrlBar button
 
-shopping-sidebar-open-button =
+shopping-sidebar-open-button2 =
   .tooltiptext = ショッピングのサイドバーを開きます
-shopping-sidebar-close-button =
+shopping-sidebar-close-button2 =
   .tooltiptext = ショッピングのサイドバーを閉じます
 
 ## Strings for the unanalyzed product card.
@@ -172,7 +178,8 @@ shopping-survey-q2-radio-3-label = わからない
 shopping-survey-next-button-label = 次へ
 shopping-survey-submit-button-label = 送信
 shopping-survey-terms-link = 利用規約
-shopping-survey-thanks-message = ご意見ありがとうございました！
+shopping-survey-thanks =
+  .heading = ご意見ありがとうございました！
 
 ## Shopping Feature Callout strings.
 ## "price tag" refers to the price tag icon displayed in the address bar to
@@ -195,7 +202,7 @@ shopping-onboarding-headline = Try our trusted guide to product reviews
 #   $currentSite (str) - The current shopping page name
 #   $secondSite (str) - A second shopping page name
 #   $thirdSite (str) - A third shopping page name
-shopping-onboarding-dynamic-subtitle = See how reliable product reviews are on <b>{ $currentSite }</b> before you buy. Review checker, an experimental feature from { -vendor-short-name }, is built right into { -brand-product-name } — and it works on <b>{ $secondSite }</b> and <b>{ $thirdSite }</b>, too.
+shopping-onboarding-dynamic-subtitle-1 = 購入する前に <b>{ $currentSite }</b> で製品のレビューが信頼できるものか確認してください。{ -brand-product-name } の実験的な機能であるレビュー チェッカーは、ブラウザーに直接組み込まれています。<b>{ $secondSite }</b> と <b>{ $thirdSite }</b> でも機能します。
 
 shopping-onboarding-body = Using the power of { -fakespot-brand-full-name }, we help you avoid biased and inauthentic reviews. Our AI model is always improving to protect you as you shop. <a data-l10n-name="learn_more">Learn more</a>
 shopping-onboarding-opt-in-privacy-policy-and-terms-of-use = By selecting “{ shopping-onboarding-opt-in-button }“ you agree to { -fakespot-brand-full-name }’s <a data-l10n-name="privacy_policy">privacy policy</a> and <a data-l10n-name="terms_of_use">terms of use.</a>

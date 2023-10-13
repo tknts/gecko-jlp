@@ -16,6 +16,13 @@ global-privacy-control-description =
     .label = 私のデータを販売または共有しないようウェブサイトに通知します
     .accesskey = s
 
+non-technical-privacy-header = ウェブサイトのプライバシー設定
+
+# Do not translate.
+# "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
+# included to facilitate power-user search of the about:preferences page.
+global-privacy-control-search = Global Privacy Control (GPC)
+
 settings-page-title = 設定
 
 # This is used to determine the width of the search field in about:preferences,
@@ -149,6 +156,11 @@ set-as-my-default-browser =
 startup-restore-windows-and-tabs =
     .label = 前回開いていたウィンドウとタブを開く
     .accesskey = s
+
+windows-launch-on-login =
+    .label = コンピューターの起動時に { -brand-short-name } を自動的に開きます
+    .accesskey = O
+windows-launch-on-login-disabled = この設定は Windows では無効になっています。変更するには Windows の設定にある <a data-l10n-name="startup-link">スタートアップ アプリ</a> にアクセスしてください。
 
 startup-restore-warn-on-quit =
     .label = ブラウザを終了するときに警告する
