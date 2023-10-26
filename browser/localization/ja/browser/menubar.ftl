@@ -5,7 +5,7 @@
 # NOTE: For English locales, strings in this file should be in APA-style Title Case.
 # See https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case
 #
-# NOTE: For Engineers, please don't re-use these strings outside of the menubar.
+# NOTE: For Engineers, please don't reuse these strings outside of the menubar.
 
 ## Application Menu (macOS only)
 
@@ -149,7 +149,7 @@ menu-view-full-zoom-reduce =
     .label = 縮小
     .accesskey = O
 menu-view-full-zoom-actual-size =
-    .label = Actual Size
+    .label = 実際のサイズ
     .accesskey = A
 menu-view-full-zoom-toggle =
     .label = テキストのみ

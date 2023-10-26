@@ -420,7 +420,8 @@ addon-detail-reviews-link =
 
 # Variables:
 #   $addon (string) - Name of the add-on
-pending-uninstall-description = <span data-l10n-name="addon-name">{ $addon }</span> は削除されます。
+pending-uninstall-description2 =
+    .message = { $addon } は削除されました。
 pending-uninstall-undo-button = 元に戻す
 
 addon-detail-updates-label = 自動更新を許可
