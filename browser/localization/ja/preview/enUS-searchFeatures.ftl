@@ -36,19 +36,11 @@ urlbar-group-mdn =
 urlbar-group-pocket =
   .label = おすすめの記事
 
-# Tooltip text for the block button shown in top pick rows.
-firefox-suggest-urlbar-block =
-  .title = このサジェストを削除
-
 # Block menu item shown in the result menu of top pick and quick suggest
 # results.
 urlbar-result-menu-dismiss-firefox-suggest =
     .label = このサジェストを削除
     .accesskey = D
-
-# Tooltip text for the help button shown in Firefox Suggest urlbar results.
-firefox-suggest-urlbar-learn-more =
-  .title = { -firefox-suggest-brand-name } についてさらに詳しく
 
 # Learn More menu item shown in the result menu of Firefox Suggest results.
 urlbar-result-menu-learn-more-about-firefox-suggest =
@@ -149,12 +141,12 @@ firefox-suggest-pocket-bottom-text = { -pocket-brand-name } · Related to <stron
 # When the user is enrolled in a Firefox Suggest rollout, this text replaces
 # the usual addressbar-header string and becomes the text of the address bar
 # section in the preferences UI.
-addressbar-header-firefox-suggest = Address Bar — { -firefox-suggest-brand-name }
+addressbar-header-firefox-suggest = アドレスバー — { -firefox-suggest-brand-name }
 
 # When the user is enrolled in a Firefox Suggest rollout, this text replaces
 # the usual addressbar-suggest string and becomes the text of the description of
 # the address bar section in the preferences UI.
-addressbar-suggest-firefox-suggest = アドレス バーに表示されるサジェストの種類を選択します:
+addressbar-suggest-firefox-suggest = アドレスバーに表示されるサジェストの種類を選択します:
 
 # First Firefox Suggest toggle button main label and description. This toggle
 # controls non-sponsored suggestions related to the user's search string.

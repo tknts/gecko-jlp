@@ -1227,6 +1227,9 @@ addressbar-locbar-engines-option =
 addressbar-locbar-quickactions-option =
     .label = クイックアクション
     .accesskey = Q
+addressbar-locbar-showrecentsearches-option =
+    .label = 最近の検索を表示
+    .accesskey = r
 
 addressbar-suggestions-settings = 検索エンジンの提案機能の設定を変更する
 

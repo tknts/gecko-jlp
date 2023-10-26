@@ -6,3 +6,10 @@ screenshots-overlay-cancel-button = キャンセル
 screenshots-overlay-instructions = ページをドラッグまたはクリックして撮影する範囲を選択します。キャンセルしたい時は [ESC] キーを押します。
 screenshots-overlay-download-button = ダウンロード
 screenshots-overlay-copy-button = コピー
+
+# This string represents the selection size area
+# "x" here represents "by" (i.e 123 by 456)
+# Variables:
+#   $width (Number) - The width of the selection region in pixels
+#   $height (Number) - The height of the selection region in pixels
+screenshots-overlay-selection-region-size = { $width } x { $height }

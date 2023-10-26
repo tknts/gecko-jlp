@@ -103,8 +103,6 @@ urlbar-persistent-storage-notification-anchor =
     .tooltiptext = データを永続ストレージに格納します
 urlbar-addons-notification-anchor =
     .tooltiptext = アドオンのインストールのメッセージ パネルを開きます
-urlbar-tip-help-icon =
-    .title = ヘルプを表示
 urlbar-search-tips-confirm = 大丈夫です、了解しました
 urlbar-search-tips-confirm-short = 了解しました
 # Read out before Urlbar Tip text content so screenreader users know the
@@ -654,6 +652,12 @@ urlbar-group-search-suggestions =
 # A label shown above Quick Actions in the urlbar results.
 urlbar-group-quickactions =
   .label = クイックアクション
+
+# A label shown above the recent searches group in the urlbar results.
+# Variables
+#  $engine (String): the name of the search engine used to search.
+urlbar-group-recent-searches =
+  .label = 最近の検索
 
 ## Reader View toolbar buttons
 

@@ -209,12 +209,8 @@ colorways-cfr-header-today = Independent Voices colorways expire today
 
 ## Cookie Banner Handling CFR
 
-cfr-cbh-header = { -brand-short-name } が Cookie 同意バナーを表示しないようにしますか?
-cfr-cbh-body = { -brand-short-name } は、多くの Cookie 同意バナーのリクエストを自動的に拒否できます。
-cfr-cbh-confirm-button = Cookie 同意バナーを拒否する
-  .accesskey = R
-cfr-cbh-dismiss-button = 今はしない
-  .accesskey = N
+cookie-banner-blocker-cfr-header = { -brand-short-name } が Cookie 同意バナーを表示ブロックしました
+cookie-banner-blocker-cfr-body = サイトがユーザーを追跡しにくくするために、多くの Cookie 同意バナーを自動的に拒否します。
 
 ## These strings are used in the Fox doodle Pin/set default spotlights
 
