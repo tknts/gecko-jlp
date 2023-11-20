@@ -18,6 +18,12 @@
 
 ## These strings are used in the urlbar panel.
 
+# A label shown above the Shortcuts aka Top Sites group in the urlbar results
+# if there's another result before that group. This should be consistent with
+# addressbar-locbar-shortcuts-option.
+urlbar-group-shortcuts =
+  .label = ショートカット
+
 # A label shown above the top pick group in the urlbar results.
 urlbar-group-best-match =
   .label = おすすめ
@@ -148,21 +154,17 @@ addressbar-header-firefox-suggest = アドレスバー — { -firefox-suggest-br
 # the address bar section in the preferences UI.
 addressbar-suggest-firefox-suggest = アドレスバーに表示されるサジェストの種類を選択します:
 
-# First Firefox Suggest toggle button main label and description. This toggle
+# First Firefox Suggest checkbox main label and description. This checkbox
 # controls non-sponsored suggestions related to the user's search string.
-# .description is transferred into a separate paragraph by the moz-toggle
-# custom element code.
 addressbar-firefox-suggest-nonsponsored =
   .label = ウェブからのサジェスト
-  .description = 検索に関連するサジェストを { -brand-product-name } から取得します。
+addressbar-firefox-suggest-nonsponsored-desc = 検索に関連するサジェストを { -brand-product-name } から取得します。
 
-# Second Firefox Suggest toggle button main label and description. This toggle
+# Second Firefox Suggest checkbox main label and description. This checkbox
 # controls sponsored suggestions related to the user's search string.
-# .description is transferred into a separate paragraph by the moz-toggle
-# custom element code.
 addressbar-firefox-suggest-sponsored =
   .label = スポンサーからのサジェスト
-  .description = スポンサーからのサジェストを表示する事で { -brand-short-name } の開発をサポートします。
+addressbar-firefox-suggest-sponsored-desc = スポンサーからのサジェストを表示する事で { -brand-short-name } の開発をサポートします。
 
 # An additional toggle button in the Firefox Suggest settings that controls
 # whether userdata-based suggestions like history and bookmarks should be
@@ -176,14 +178,14 @@ addressbar-firefox-suggest-private =
 # custom element code.
 addressbar-firefox-suggest-data-collection =
   .label = { -firefox-suggest-brand-name } の改善に協力する
-  .description = あなたの検索クエリを { -vendor-short-name } が処理できるようにすることで、より充実した検索エクスペリエンスを実現できます。
+  .description = { -vendor-short-name } が処理できるようにすることで、より充実した検索エクスペリエンスを実現できます。
 
 # The "Learn more" link shown in the Firefox Suggest preferences UI.
 addressbar-locbar-firefox-suggest-learn-more = Learn more
 
 ## The following addressbar-firefox-suggest-info strings are shown in the
-## Firefox Suggest preferences UI in the info box underneath the toggle buttons.
-## Each string is shown when a particular toggle combination is active.
+## Firefox Suggest preferences UI in the info box underneath the toggle.
+## Each string is shown when a particular checkbox or toggle combination is active.
 
 # Non-sponsored suggestions: on
 # Sponsored suggestions: on
@@ -342,3 +344,16 @@ urlbar-result-menu-trending-why =
 # A message that replaces a result when the user dismisses all suggestions of a
 # particular type.
 urlbar-trending-dismissal-acknowledgment = フィードバックをありがとうございます。トレンド検索は表示されなくなります。
+
+urlbar-firefox-suggest-contextual-opt-in-title-1 =
+  Find the best of the web, faster
+urlbar-firefox-suggest-contextual-opt-in-title-2 =
+  Say hello to smarter suggestions
+urlbar-firefox-suggest-contextual-opt-in-description-1 =
+  We’re building a better search experience. When you allow { -vendor-short-name } to process your search queries, we can create more relevant search suggestions for you.
+  <a data-l10n-name="learn-more-link">Learn more</a>
+urlbar-firefox-suggest-contextual-opt-in-description-2 =
+  { -firefox-suggest-brand-name } uses your search keywords to make contextual suggestions from { -brand-short-name }.
+  <a data-l10n-name="learn-more-link">Learn more</a>
+urlbar-firefox-suggest-contextual-opt-in-allow = サジェストを許可
+urlbar-firefox-suggest-contextual-opt-in-dismiss = 許可しない

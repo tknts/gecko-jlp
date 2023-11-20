@@ -5,15 +5,15 @@
 ## Main toolbar buttons (tooltips and alt text for images)
 
 pdfjs-previous-button =
-    .title = Previous Page
-pdfjs-previous-button-label = Previous
+    .title = 前のページ
+pdfjs-previous-button-label = 前へ
 pdfjs-next-button =
-    .title = Next Page
-pdfjs-next-button-label = Next
+    .title = 次のページ
+pdfjs-next-button-label = 次へ
 
 # .title: Tooltip for the pageNumber input.
 pdfjs-page-input =
-    .title = Page
+    .title = ページ
 
 # Variables:
 #   $pagesCount (Number) - the total number of pages in the document
@@ -26,58 +26,58 @@ pdfjs-of-pages = of { $pagesCount }
 pdfjs-page-of-pages = ({ $pageNumber } of { $pagesCount })
 
 pdfjs-zoom-out-button =
-    .title = Zoom Out
-pdfjs-zoom-out-button-label = Zoom Out
+    .title = 縮小
+pdfjs-zoom-out-button-label = 縮小
 pdfjs-zoom-in-button =
-    .title = Zoom In
-pdfjs-zoom-in-button-label = Zoom In
+    .title = 拡大
+pdfjs-zoom-in-button-label = 拡大
 pdfjs-zoom-select =
-    .title = Zoom
+    .title = 拡大/縮小
 pdfjs-presentation-mode-button =
-    .title = Switch to Presentation Mode
-pdfjs-presentation-mode-button-label = Presentation Mode
+    .title = プレゼンテーションモードへ切り替え
+pdfjs-presentation-mode-button-label = プレゼンテーションモード
 pdfjs-open-file-button =
-    .title = Open File
-pdfjs-open-file-button-label = Open
+    .title = ファイルを開く
+pdfjs-open-file-button-label = 開く
 pdfjs-print-button =
-    .title = Print
-pdfjs-print-button-label = Print
+    .title = 印刷
+pdfjs-print-button-label = 印刷
 pdfjs-save-button =
-    .title = Save
-pdfjs-save-button-label = Save
+    .title = 保存
+pdfjs-save-button-label = 保存
 
 # Used in Firefox for Android as a tooltip for the download button (“download” is a verb).
 pdfjs-download-button =
-    .title = Download
+    .title = ダウンロード
 
 # Used in Firefox for Android as a label for the download button (“download” is a verb).
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
-pdfjs-download-button-label = Download
+pdfjs-download-button-label = ダウンロード
 
 pdfjs-bookmark-button =
     .title = Current Page (View URL from Current Page)
-pdfjs-bookmark-button-label = Current Page
+pdfjs-bookmark-button-label = 現在のページ
 
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
-    .title = Open in app
+    .title = アプリで開く
 
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
-pdfjs-open-in-app-button-label = Open in app
+pdfjs-open-in-app-button-label = アプリで開く
 
 ##  Secondary toolbar and context menu
 
 pdfjs-tools-button =
-    .title = Tools
+    .title = ツール
 
-pdfjs-tools-button-label = Tools
+pdfjs-tools-button-label = ツール
 pdfjs-first-page-button =
-    .title = Go to First Page
-pdfjs-first-page-button-label = Go to First Page
+    .title = 最初のページへ移動
+pdfjs-first-page-button-label = 最初のページへ移動
 pdfjs-last-page-button =
-    .title = Go to Last Page
-pdfjs-last-page-button-label = Go to Last Page
+    .title = 最後のページへ移動
+pdfjs-last-page-button-label = 最後のページへ移動
 pdfjs-page-rotate-cw-button =
     .title = Rotate Clockwise
 pdfjs-page-rotate-cw-button-label = Rotate Clockwise
@@ -142,10 +142,10 @@ pdfjs-document-properties-modification-date = Modification Date:
 #   $time (Time) - the creation/modification time of the PDF file
 pdfjs-document-properties-date-string = { $date }, { $time }
 
-pdfjs-document-properties-creator = Creator:
+pdfjs-document-properties-creator = 作成者:
 pdfjs-document-properties-producer = PDF Producer:
-pdfjs-document-properties-version = PDF Version:
-pdfjs-document-properties-page-count = Page Count:
+pdfjs-document-properties-version = PDF バージョン:
+pdfjs-document-properties-page-count = ページ数:
 pdfjs-document-properties-page-size = Page Size:
 pdfjs-document-properties-page-size-unit-inches = in
 pdfjs-document-properties-page-size-unit-millimeters = mm
@@ -171,9 +171,9 @@ pdfjs-document-properties-page-size-dimension-name-string = { $width } × { $hei
 # The linearization status of the document; usually called "Fast Web View" in
 # English locales of Adobe software.
 pdfjs-document-properties-linearized = Fast Web View:
-pdfjs-document-properties-linearized-yes = Yes
-pdfjs-document-properties-linearized-no = No
-pdfjs-document-properties-close-button = Close
+pdfjs-document-properties-linearized-yes = はい
+pdfjs-document-properties-linearized-no = いいえ
+pdfjs-document-properties-close-button = 閉じる
 
 ## Print
 
@@ -204,8 +204,8 @@ pdfjs-layers-button =
     .title = Show Layers (double-click to reset all layers to the default state)
 pdfjs-layers-button-label = Layers
 pdfjs-thumbs-button =
-    .title = Show Thumbnails
-pdfjs-thumbs-button-label = Thumbnails
+    .title = サムネイルを表示
+pdfjs-thumbs-button-label = サムネイル
 pdfjs-current-outline-item-button =
     .title = Find Current Outline Item
 pdfjs-current-outline-item-button-label = Current Outline Item
@@ -229,18 +229,18 @@ pdfjs-thumb-page-canvas =
 ## Find panel button title and messages
 
 pdfjs-find-input =
-    .title = Find
-    .placeholder = Find in document…
+    .title = 検索
+    .placeholder = ドキュメント内を検索…
 pdfjs-find-previous-button =
-    .title = Find the previous occurrence of the phrase
-pdfjs-find-previous-button-label = Previous
+    .title = 前に出現したフレーズを検索します
+pdfjs-find-previous-button-label = 前へ
 pdfjs-find-next-button =
-    .title = Find the next occurrence of the phrase
-pdfjs-find-next-button-label = Next
-pdfjs-find-highlight-checkbox = Highlight All
-pdfjs-find-match-case-checkbox-label = Match Case
-pdfjs-find-match-diacritics-checkbox-label = Match Diacritics
-pdfjs-find-entire-word-checkbox-label = Whole Words
+    .title = 次に出現したフレーズを検索します
+pdfjs-find-next-button-label = 次へ
+pdfjs-find-highlight-checkbox = すべて強調表示
+pdfjs-find-match-case-checkbox-label = 大文字と小文字を区別
+pdfjs-find-match-diacritics-checkbox-label = 発音記号を区別
+pdfjs-find-entire-word-checkbox-label = 単語単位
 pdfjs-find-reached-top = Reached top of document, continued from bottom
 pdfjs-find-reached-bottom = Reached end of document, continued from top
 
@@ -265,7 +265,7 @@ pdfjs-find-not-found = Phrase not found
 
 ## Predefined zoom values
 
-pdfjs-page-scale-width = Page Width
+pdfjs-page-scale-width = ページの横幅
 pdfjs-page-scale-fit = Page Fit
 pdfjs-page-scale-auto = Automatic Zoom
 pdfjs-page-scale-actual = Actual Size
@@ -309,7 +309,7 @@ pdfjs-text-annotation-type =
 pdfjs-password-label = Enter the password to open this PDF file.
 pdfjs-password-invalid = Invalid password. Please try again.
 pdfjs-password-ok-button = OK
-pdfjs-password-cancel-button = Cancel
+pdfjs-password-cancel-button = キャンセル
 pdfjs-web-fonts-disabled = Web fonts are disabled: unable to use embedded PDF fonts.
 
 ## Editing
@@ -348,14 +348,14 @@ pdfjs-ink-canvas =
 pdfjs-editor-alt-text-button-label = Alt text
 
 pdfjs-editor-alt-text-edit-button-label = Edit alt text
-pdfjs-editor-alt-text-dialog-label = Choose an option
+pdfjs-editor-alt-text-dialog-label = オプションを選択
 pdfjs-editor-alt-text-dialog-description = Alt text (alternative text) helps when people can’t see the image or when it doesn’t load.
-pdfjs-editor-alt-text-add-description-label = Add a description
+pdfjs-editor-alt-text-add-description-label = 説明を追加
 pdfjs-editor-alt-text-add-description-description = Aim for 1-2 sentences that describe the subject, setting, or actions.
 pdfjs-editor-alt-text-mark-decorative-label = Mark as decorative
 pdfjs-editor-alt-text-mark-decorative-description = This is used for ornamental images, like borders or watermarks.
-pdfjs-editor-alt-text-cancel-button = Cancel
-pdfjs-editor-alt-text-save-button = Save
+pdfjs-editor-alt-text-cancel-button = キャンセル
+pdfjs-editor-alt-text-save-button = 保存
 pdfjs-editor-alt-text-decorative-tooltip = Marked as decorative
 
 # .placeholder: This is a placeholder for the alt text input area

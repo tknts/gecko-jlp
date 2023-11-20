@@ -58,7 +58,6 @@ app-basics-profile-dir =
         [linux] プロファイルディレクトリー
        *[other] プロファイルフォルダー
     }
-app-basics-enabled-plugins = 有効なプラグイン
 app-basics-build-config = ビルド設定
 app-basics-user-agent = ユーザーエージェント
 app-basics-os = OS
@@ -191,6 +190,7 @@ media-codec-support-codec-name = コーデックの名前
 media-codec-support-supported = 対応
 media-codec-support-unsupported = 非対応
 media-codec-support-error = コーデックのサポート情報が利用できませんでした。メディア ファイルを再生した後に、もう一度試してください。
+media-codec-support-lack-of-extension = Install extension
 
 ##
 

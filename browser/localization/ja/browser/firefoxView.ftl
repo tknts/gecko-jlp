@@ -178,6 +178,30 @@ firefoxview-opentabs-focus-tab =
 firefoxview-show-more = さらに表示
 firefoxview-show-less = 表示を減らす
 
+firefoxview-search-text-box-clear-button =
+  .title = 消去
+
+# Placeholder for the input field to search in history ("search" is a verb).
+firefoxview-search-text-box-history =
+  .placeholder = 検索履歴
+
+# "Search" is a noun (as in "Results of the search for")
+# Variables:
+#   $query (String) - The search query used for searching through browser history.
+firefoxview-search-results-header = “{ $query }” の検索結果
+
+# Variables:
+#   $count (Number) - The number of visits matching the search query.
+firefoxview-search-results-count = { $count ->
+  [one] ひとつのサイト
+ *[other] { $count } 個のサイト
+}
+
+# Message displayed when a search is performed and no matching results were found.
+# Variables:
+#   $query (String) - The search query.
+firefoxview-search-results-empty = “{ $query }” の結果はありません
+
 firefoxview-sort-history-by-date-label = 日付順で並び替え
 firefoxview-sort-history-by-site-label = サイト順で並び替え
 

@@ -67,6 +67,10 @@ shopping-message-bar-warning-product-not-available-reported =
 shopping-message-bar-analysis-in-progress-title2 = レビューの品質をチェックしています
 shopping-message-bar-analysis-in-progress-message2 = これには約 60 秒かかる場合があります。
 
+# Variables:
+#  $percentage (Number) - The percentage complete that the analysis is, per our servers.
+shopping-message-bar-analysis-in-progress-with-amount = レビューの品質を確認しています ({ $percentage }%)
+
 shopping-message-bar-page-not-supported =
   .heading = これらのレビューは確認できません
   .message = 残念ながら、ギフトカードやストリーミングビデオ、音楽、ゲームなどの特定の種類の商品のレビューの品質を確認することはできません。 

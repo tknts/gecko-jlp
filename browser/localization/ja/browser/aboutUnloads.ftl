@@ -26,21 +26,21 @@ about-unloads-last-updated =
         year: "numeric", month: "numeric", day: "numeric",
         hour: "numeric", minute: "numeric", second: "numeric",
         hour12: "false") }
-about-unloads-button-unload = Unload
+about-unloads-button-unload = アンロード
   .title = Unload tab with the highest priority
 about-unloads-no-unloadable-tab = There are no unloadable tabs.
 
-about-unloads-column-priority = Priority
+about-unloads-column-priority = 優先度
 about-unloads-column-host = ホスト
 about-unloads-column-last-accessed = 最終アクセス
 about-unloads-column-weight = Base Weight
-  .title = Tabs are first sorted by this value, which derives from some special attributes such as playing a sound, WebRTC, etc.
+  .title = タブは最初にこの値によって並べ替えられます。この値は、サウンドの再生や WebRTC などの特別な属性から派生します。
 about-unloads-column-sortweight = Secondary Weight
   .title = If available, tabs are sorted by this value after being sorted by the base weight. The value derives from tab’s memory usage and the count of processes.
-about-unloads-column-memory = Memory
-  .title = Tab’s estimated memory usage
-about-unloads-column-processes = Process IDs
-  .title = IDs of the processes hosting tab’s content
+about-unloads-column-memory = メモリ
+  .title = タブの推定メモリ使用量
+about-unloads-column-processes = プロセス ID
+  .title = タブのコンテンツをホストしているプロセスの ID
 
 about-unloads-last-accessed = { DATETIME($date,
         year: "numeric", month: "numeric", day: "numeric",

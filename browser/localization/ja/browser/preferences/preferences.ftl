@@ -594,6 +594,10 @@ browsing-gtk-use-non-overlay-scrollbars =
     .label = スクロールバーを常に表示する
     .accesskey = o
 
+browsing-always-underline-links=
+    .label = リンクに下線を必ず表示する
+    .accesskey = u
+
 browsing-use-onscreen-keyboard =
     .label = 必要な時にタッチキーボードを表示する
     .accesskey = c
