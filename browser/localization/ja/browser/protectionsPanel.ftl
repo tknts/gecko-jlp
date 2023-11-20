@@ -51,8 +51,10 @@ protections-panel-site-not-working-view =
 ## a tooltip explaining why these items were not blocked in the page.
 
 protections-panel-not-blocking-why-label = なぜ?
-protections-panel-not-blocking-why-etp-on-tooltip = これらをブロックすると一部のウェブサイトの要素が壊れる可能性があります。またトラッカーがない場合、一部のボタン、フォーム、ログインフォームが機能しない場合があります。
-protections-panel-not-blocking-why-etp-off-tooltip = 保護機能がオフになっているため、このサイトのすべてのトラッカーが読み込まれました。
+protections-panel-not-blocking-why-etp-on-tooltip-label =
+  .label = これらをブロックすると一部のウェブサイトの要素が壊れる可能性があります。またトラッカーがない場合、一部のボタン、フォーム、ログインフォームが機能しない場合があります。
+protections-panel-not-blocking-why-etp-off-tooltip-label =
+  .label = 保護機能がオフになっているため、このサイトのすべてのトラッカーが読み込まれました。
 
 ##
 
@@ -141,6 +143,13 @@ protections-panel-cookie-banner-blocker-view-turn-off-for-site = { $host } で C
 protections-panel-cookie-banner-blocker-view-turn-on-for-site = このサイトで Cookie 同意バナーのブロックを有効にしますか?
 protections-panel-cookie-banner-view-cookie-clear-warning = { -brand-short-name } は、このサイトの Cookie を消去し、ページを更新します。すべての Cookie を消去すると、サインアウトしたり、ショッピング カートが空になったりする場合があります。
 protections-panel-cookie-banner-blocker-view-turn-on-description = 有効にすると { -brand-short-name } はこのサイトの Cookie 同意バナーを自動的にブロックします。
-protections-panel-cookie-banner-view-cancel = キャンセル
-protections-panel-cookie-banner-view-turn-off = 使用しないf
-protections-panel-cookie-banner-view-turn-on = 使用する
+protections-panel-cookie-banner-view-cancel-label =
+  .label = キャンセル
+protections-panel-cookie-banner-view-turn-off-label =
+  .label = 使用しないf
+protections-panel-cookie-banner-view-turn-on-label =
+  .label = 使用する
+
+protections-panel-report-broken-site =
+  .label = 壊れたサイトを報告
+  .title = 壊れたサイトの報告

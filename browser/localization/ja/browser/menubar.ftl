@@ -340,3 +340,5 @@ menu-help-report-deceptive-site =
 menu-help-not-deceptive =
     .label = フィッシングサイトではありません…
     .accesskey = D
+menu-report-broken-site =
+  .label = 壊れたサイトを報告

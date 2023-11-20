@@ -89,8 +89,6 @@ urlbar-indexed-db-notification-anchor =
     .tooltiptext = オフライン ストレージのメッセージパネルを開きます
 urlbar-password-notification-anchor =
     .tooltiptext = パスワードの保存のメッセージパネルを開きます
-urlbar-plugins-notification-anchor =
-    .tooltiptext = 使用するプラグインを管理します
 urlbar-web-rtc-share-devices-notification-anchor =
     .tooltiptext = カメラとマイクの共有を管理します
 # "Speakers" is used in a general sense that might include headphones or
