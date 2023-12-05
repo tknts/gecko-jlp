@@ -66,8 +66,8 @@ places-history =
 places-bookmarks-search =
   .placeholder = ブックマークを検索します
 
-places-delete-domain-data =
-  .label = このドメインを削除
+places-forget-domain-data =
+  .label = このドメインを削除…
   .accesskey = F
 places-sortby-name =
   .label = 名前順に並べる

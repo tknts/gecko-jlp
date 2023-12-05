@@ -52,6 +52,7 @@ about-webauthn-current-pin-label = 現在の PIN:
 about-webauthn-pin-required-label = PIN を入力してください:
 about-webauthn-credential-list-subsection-title = Credentials:
 about-webauthn-credential-list-empty = No credentials found on device.
+about-webauthn-confirm-deletion-label = 削除しようとしています:
 
 ## Buttons
 

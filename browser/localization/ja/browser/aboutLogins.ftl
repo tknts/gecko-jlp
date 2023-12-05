@@ -60,12 +60,15 @@ login-list-username-reverse-option = ユーザー名 (降順)
 about-logins-login-list-alerts-option = 警告
 login-list-last-changed-option = 最終更新日時
 login-list-last-used-option = 最終使用日時
-login-list-intro-title = ログイン情報はありません
+
+login-list-intro-title2 = 保存されたパスワードはありません
 login-list-intro-description = { -brand-product-name } にパスワードを保存すると、ここに表示されます。
-about-logins-login-list-empty-search-title = ログイン情報はありません
+
+about-logins-login-list-empty-search-title2 = パスワードが見つかりません
 about-logins-login-list-empty-search-description = 検索条件に一致するログイン情報はありません。
-login-list-item-title-new-login = 新しいログイン
-login-list-item-subtitle-new-login = ログイン情報を入力してください
+
+login-list-item-title-new-login2 = 新しいパスワード
+
 login-list-item-subtitle-missing-username = (ユーザー名なし)
 about-logins-list-item-breach-icon =
   .title = 漏洩したウェブサイト
@@ -95,7 +98,11 @@ login-item-new-login-title = 新しいログイン情報の作成
 login-item-edit-button = 編集
 about-logins-login-item-remove-button = 削除
 login-item-origin-label = ウェブサイトの URL
-login-item-tooltip-message = このアドレスがログインするウェブサイトの正確なアドレスと一致しているかを確認してください。
+about-logins-origin-tooltip = このアドレスがログインするウェブサイトのアドレスと正確に一致していることを確認してください。
+# Variables
+#   $webTitle (String) - Website title of the password being changed.
+about-logins-edit-password-tooltip = このサイトの現在のパスワードを必ず保存してください。ここでパスワードを変更しても { $webTitle } では変更されません。
+about-logins-add-password-tooltip = このサイトの現在のパスワードを必ず保存してください。
 login-item-origin =
   .placeholder = https://www.example.com
 login-item-username-label = ユーザー名

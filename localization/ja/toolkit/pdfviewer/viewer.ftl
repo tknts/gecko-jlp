@@ -316,13 +316,24 @@ pdfjs-web-fonts-disabled = Web fonts are disabled: unable to use embedded PDF fo
 
 pdfjs-editor-free-text-button =
     .title = Text
-pdfjs-editor-free-text-button-label = Text
+pdfjs-editor-free-text-button-label = テキスト
 pdfjs-editor-ink-button =
     .title = Draw
-pdfjs-editor-ink-button-label = Draw
+pdfjs-editor-ink-button-label = 図形
 pdfjs-editor-stamp-button =
     .title = Add or edit images
-pdfjs-editor-stamp-button-label = Add or edit images
+pdfjs-editor-stamp-button-label = 画像の追加と編集
+
+## Remove button for the various kind of editor.
+
+pdfjs-editor-remove-ink-button =
+    .title = 図形の削除
+pdfjs-editor-remove-freetext-button =
+    .title = テキストの削除
+pdfjs-editor-remove-stamp-button =
+    .title = 画像の削除
+
+##
 
 # Editor Parameters
 pdfjs-editor-free-text-color-input = Color

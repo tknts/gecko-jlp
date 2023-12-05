@@ -752,12 +752,6 @@ home-prefs-sections-rows-option =
 
 ## Search Section
 
-search-bar-header = 検索バー
-search-bar-hidden =
-    .label = 検索とナビゲーションをアドレスバーに統合する
-search-bar-shown =
-    .label = 検索バーをツールバーに追加する
-
 search-engine-default-header = 既定の検索エンジン
 search-engine-default-desc-2 = これはアドレスバーと検索バーで使用される既定の検索エンジンです。いつでも切り替えることができます。
 search-engine-default-private-desc-2 = プライベート ウィンドウでの既定の検索エンジンを選択する
@@ -925,9 +919,9 @@ sync-syncing-across-devices-heading = 接続されているすべてのデバイ
 sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 表示履歴
 sync-currently-syncing-tabs = 開いているタブ
-sync-currently-syncing-logins-passwords = ログイン情報とパスワード
+sync-currently-syncing-passwords = パスワード
 sync-currently-syncing-addresses = 住所
-sync-currently-syncing-creditcards = クレジットカード情報
+sync-currently-syncing-payment-methods = 決済方法
 sync-currently-syncing-addons = アドオン
 sync-currently-syncing-settings = 設定
 
@@ -960,18 +954,18 @@ sync-engine-tabs =
     .tooltiptext = 同期中のすべての端末で開かれているタブの一覧
     .accesskey = t
 
-sync-engine-logins-passwords =
-    .label = ログイン情報とパスワード
-    .tooltiptext = あなたが保存したユーザー名とパスワード
-    .accesskey = L
+sync-engine-passwords =
+    .label = パスワード
+    .tooltiptext = あなたが保存したパスワード
+    .accesskey = P
 
 sync-engine-addresses =
     .label = 住所
     .tooltiptext = 保存された郵便番号などの住所 (デスクトップ版のみ)
     .accesskey = e
 
-sync-engine-creditcards =
-    .label = クレジットカード
+sync-engine-payment-methods =
+    .label = 決済方法
     .tooltiptext = クレジットカードの名義と番号と有効期限です (デスクトップ版のみ)
     .accesskey = C
 
@@ -1002,16 +996,6 @@ sync-device-name-save =
     .accesskey = v
 
 sync-connect-another-device = その他のデバイスを接続
-
-## These strings are shown in a desktop notification after the
-## user requests we resend a verification email.
-
-sync-verification-sent-title = 送信済みの確認メール
-# Variables:
-#   $email (String): Email address of user's Firefox account.
-sync-verification-sent-body = 確認のためのリンクが { $email } に送信されました。
-sync-verification-not-sent-title = 確認メールの送信に失敗しました
-sync-verification-not-sent-body = 現時点では確認メールを送信できません。後でもう一度お試しください。
 
 ## Privacy Section
 
@@ -1529,7 +1513,7 @@ httpsonly-radio-disabled =
 
 preferences-doh-header = DNS over HTTPS
 
-preferences-doh-description = Domain Name System (DNS) over HTTPS は、暗号化された接続を介してドメイン名のリクエストを送信することで、安全な DNS を作成し、他の人がアクセスしようとしているウェブサイトを見ることを困難にします。
+preferences-doh-description = Domain Name System (DNS) over HTTPS は、暗号化された接続を介してドメイン名のリクエストを送信することで、安全な DNS を提供し、他の人がアクセスしようとしているウェブサイトを見ることを困難にします。
 
 # Variables:
 #   $status (string) - The status of the DoH connection
@@ -1548,7 +1532,7 @@ preferences-doh-status-disabled = オフ
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
 preferences-doh-status-not-active = 動作していません ({ $reason })
 
-preferences-doh-group-message = 安全な DNS を有効にする:
+preferences-doh-group-message2 = DNS over HTTPS を有効にする:
 
 preferences-doh-expand-section =
   .tooltiptext = その他の情報
