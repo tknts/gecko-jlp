@@ -195,18 +195,6 @@ firefoxview-spotlight-promo-subtitle = スマートフォンで開いている�
 firefoxview-spotlight-promo-primarybutton = 仕組みについて
 firefoxview-spotlight-promo-secondarybutton = スキップ
 
-## Colorways expiry reminder CFR
-
-colorways-cfr-primarybutton = テーマカラーを選択
-  .accesskey = C
-
-# "shades" refers to the different color options available to users in colorways.
-colorways-cfr-body = Color your browser with { -brand-short-name } exclusive shades inspired by voices that changed culture.
-colorways-cfr-header-28days = Independent Voices colorways expire January 16
-colorways-cfr-header-14days = Independent Voices colorways expire in two weeks
-colorways-cfr-header-7days =  Independent Voices colorways expire this week
-colorways-cfr-header-today = Independent Voices colorways expire today
-
 ## Cookie Banner Handling CFR
 
 cookie-banner-blocker-cfr-header = { -brand-short-name } が Cookie 同意バナーを表示ブロックしました
@@ -241,10 +229,17 @@ fxa-sync-cfr-secondary = 後で知らせる
 
 ## Device Migration FxA Spotlight
 
-device-migration-fxa-spotlight-header = 古いデバイスを使用していますか?
-device-migration-fxa-spotlight-body = ブックマークやパスワードなどの重要な情報を失わないためには、データをバックアップしておくことが重要です — 特に新しいデバイスに切り替える場合はバックアップを行ってください。
-device-migration-fxa-spotlight-primary-button = データをバックアップする方法
-device-migration-fxa-spotlight-link = 後で知らせる
+device-migration-fxa-spotlight-heavy-user-header = データのバックアップをお忘れなく
+device-migration-fxa-spotlight-heavy-user-body = ブックマークやパスワードなどの重要な情報がすべてのデバイスで更新され、保護されていることを確認してください。
+device-migration-fxa-spotlight-heavy-user-primary-button = 始めましょう
+
+device-migration-fxa-spotlight-older-device-header = { -brand-product-name } による安心
+device-migration-fxa-spotlight-older-device-body = アカウントにより接続された、あらゆるデバイス上で重要な情報が常に最新の状態に保たれ、保護されます。
+device-migration-fxa-spotlight-older-device-primary-button = アカウントを作成する
+
+device-migration-fxa-spotlight-getting-new-device-header = 近いうちに新しいデバイスを購入しますか?
+device-migration-fxa-spotlight-getting-new-device-body = 今すぐデータをバックアップして、デバイスが到着したときにすぐに使えるようにしましょう。
+device-migration-fxa-spotlight-getting-new-device-primary-button = データをバックアップする方法
 
 ## Set as Default PDF Reader Infobar
 

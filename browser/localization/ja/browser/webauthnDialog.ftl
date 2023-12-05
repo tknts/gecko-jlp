@@ -14,6 +14,13 @@ webauthn-pin-required-prompt = デバイスの PIN コードを入力してく�
 
 webauthn-select-sign-result-unknown-account = 不明なアカウント
 
+webauthn-a-passkey-label = パスキーを使用する
+webauthn-another-passkey-label = 他のパスキーを使用する
+
+# Variables:
+#   $domain (String): the domain of the site.
+webauthn-specific-passkey-label = { $domain } のパスキー
+
 # Variables:
 #  $retriesLeft (Number): number of tries left
 webauthn-uv-invalid-long-prompt =

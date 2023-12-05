@@ -84,7 +84,7 @@ migration-bookmarks-option-label = ブックマーク
 # Edge, as this is the terminology for bookmarks on those browsers.
 migration-favorites-option-label = お気に入り
 
-migration-logins-and-passwords-option-label = Saved logins and passwords
+migration-passwords-option-label = 保存されたパスワード
 migration-history-option-label = 閲覧履歴
 migration-extensions-option-label = 拡張機能
 migration-form-autofill-option-label = フォームの自動入力データ

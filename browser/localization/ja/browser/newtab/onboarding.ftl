@@ -244,51 +244,6 @@ mr2022-onboarding-import-header = 超高速セットアップ
 mr2022-onboarding-import-subtitle = { -brand-short-name } をあなた好みに設定してください。以前使用していたブラウザーからブックマークやパスワードなどを追加できます。
 mr2022-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーからインポート
 
-## If your language uses grammatical genders, in the description for the
-## colorway feel free to switch from "You are a X. You…" (e.g. "You are a
-## Playmaker. You create…") to "X: you…" ("Playmaker: You create…"). This might
-## help creating a more inclusive translation.
-
-mr2022-onboarding-colorway-title = あなたにインスピレーションを与える色彩を選択してください
-mr2022-onboarding-colorway-subtitle = インディペンデント・ボイスは文化を変えることができます。
-mr2022-onboarding-colorway-primary-button-label-continue = 設定して続ける
-mr2022-onboarding-existing-colorway-checkbox-label = { -firefox-home-brand-name } のホームページをカラフルに
-
-mr2022-onboarding-colorway-label-default = デフォルト
-mr2022-onboarding-colorway-tooltip-default2 =
-  .title = 現在使用している { -brand-short-name } のテーマカラー
-mr2022-onboarding-colorway-description-default = <b>現在使用している { -brand-short-name } のテーマカラーを使用する。</b>
-
-mr2022-onboarding-colorway-label-playmaker = プレイメーカー
-mr2022-onboarding-colorway-tooltip-playmaker2 =
-  .title = プレイメーカー (レッド)
-mr2022-onboarding-colorway-description-playmaker = <b>あなたはプレイメーカーです。</b> あなたは勝つためのチャンスを作り、周りの人たちのレベルアップを助けます。
-
-mr2022-onboarding-colorway-label-expressionist = エクスプレショニスト
-mr2022-onboarding-colorway-tooltip-expressionist2 =
-  .title = エクスプレショニスト (イエロー)
-mr2022-onboarding-colorway-description-expressionist = <b> あなたはエクスプレショニストです。</b> あなたは世界を違った角度から見ていて、あなたの創作物は他人の感情をかき立てます。
-
-mr2022-onboarding-colorway-label-visionary = ビジョナリー
-mr2022-onboarding-colorway-tooltip-visionary2 =
-  .title = ビジョナリー (グリーン)
-mr2022-onboarding-colorway-description-visionary = <b>あなたはビジョナリーです。</b> 現状に疑問を持ち、より良い未来を想像して周囲を動かすことができる人です。
-
-mr2022-onboarding-colorway-label-activist = アクティビスト
-mr2022-onboarding-colorway-tooltip-activist2 =
-  .title = アクティビスト (ブルー)
-mr2022-onboarding-colorway-description-activist = <b>あなたはアクティビストです。</b> 世界をより良い場所にするために、他の人を信じるように導きます。
-
-mr2022-onboarding-colorway-label-dreamer = ドリーマー
-mr2022-onboarding-colorway-tooltip-dreamer2 =
-  .title = ドリーマー (パープル)
-mr2022-onboarding-colorway-description-dreamer = <b>あなたはドリーマーです。</b> あなたは運命は大胆な人に味方すると信じており、他の人に勇気を与えます。
-
-mr2022-onboarding-colorway-label-innovator = イノベーター
-mr2022-onboarding-colorway-tooltip-innovator2 =
-  .title = イノベーター (オレンジ)
-mr2022-onboarding-colorway-description-innovator = <b>あなたはイノベーターです。</b> あなたはどこにでもチャンスを見出し 周囲の人々の生活に影響を与えることができます。
-
 ## MR2022 Multistage Mobile Download screen strings
 
 mr2022-onboarding-mobile-download-title = ノートパソコンとスマートフォンを行き来します
@@ -344,9 +299,7 @@ mr2022-onboarding-privacy-segmentation-image-alt =
   .aria-label = 異なる人種の人がハイタッチしています
 mr2022-onboarding-gratitude-image-alt =
   .aria-label = 窓辺で眠るキツネと植物がある窓からの夕日の眺め
-mr2022-onboarding-colorways-image-alt =
-  .aria-label = 缶スプレーで、緑の目、オレンジ色の靴、赤いバスケットボール、紫のヘッドフォン、青いハート、黄色い王冠のコラージュをカラフルにペイントしています。
- 
+
 ## Device migration onboarding
 
 onboarding-device-migration-image-alt =
@@ -354,3 +307,17 @@ onboarding-device-migration-image-alt =
 onboarding-device-migration-title = おかえりなさい!
 onboarding-device-migration-subtitle2 = アカウントにサインインして、ブックマーク、パスワード、履歴を新しいデバイスに移行してください。
 onboarding-device-migration-primary-button-label = サインイン
+
+## The following screens have been updated to use security and privacy focused strings:
+
+# Easy setup screen
+onboarding-easy-setup-security-and-privacy-title = 私たちはあなたの安全を守りたいと思っています
+onboarding-easy-setup-security-and-privacy-subtitle = 私たちの非営利団体が支援しているブラウザーは、企業がウェブ上で密かにあなたを追跡するのを阻止するのに役立ちます。
+
+# Mobile download screen
+onboarding-mobile-download-security-and-privacy-title = デバイス間を移動するときに暗号化された状態を維持する
+onboarding-mobile-download-security-and-privacy-subtitle = 同期すると { -brand-short-name } はパスワードやブックマークなどを暗号化します。さらに、他のデバイスからタブを取得することもできます。
+
+# Gratitude screen
+onboarding-gratitude-security-and-privacy-title = { -brand-short-name } はあなたの味方です
+onboarding-gratitude-security-and-privacy-subtitle = Mozilla Foundation が支援する { -brand-short-name } をご利用いただきありがとうございます。 皆様のご支援により、私たちはインターネットをより安全に、誰にとってもアクセスしやすくするために取り組んでいます。

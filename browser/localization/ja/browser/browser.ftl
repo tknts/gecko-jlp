@@ -261,39 +261,43 @@ search-one-offs-actions =
 
 # Opens the about:addons page in the home / recommendations section
 quickactions-addons = アドオンを表示
-quickactions-cmd-addons2 = add-ons, アドオン,
+quickactions-cmd-addons2 = add-ons, アドオン
 
 # Opens the bookmarks library window
 quickactions-bookmarks2 = ブックマークを管理
-quickactions-cmd-bookmarks = bookmarks, ブックマーク,
+quickactions-cmd-bookmarks = bookmarks, ブックマーク
 
 # Opens a SUMO article explaining how to clear history
 quickactions-clearhistory = 履歴を消去
-quickactions-cmd-clearhistory = clear history, 履歴,
+quickactions-cmd-clearhistory = clear history, 履歴
 
 # Opens about:downloads page
 quickactions-downloads2 = ダウンロードを表示
-quickactions-cmd-downloads = downloads, ダウンロード,
+quickactions-cmd-downloads = downloads, ダウンロード
 
 # Opens about:addons page in the extensions section
 quickactions-extensions = 拡張機能を管理
-quickactions-cmd-extensions = extensions, 拡張機能,
+quickactions-cmd-extensions = extensions, 拡張機能
 
 # Opens the devtools web inspector
 quickactions-inspector2 = 開発者ツールを開く
-quickactions-cmd-inspector = inspector, devtools, 開発, 調査, インスペクタ,
+quickactions-cmd-inspector = inspector, devtools, 開発, 調査, インスペクタ
 
 # Opens about:logins
 quickactions-logins2 = ログイン情報を管理
-quickactions-cmd-logins = logins, passwords, ログイン, パスワード,
+quickactions-cmd-logins = logins, passwords, ログイン, パスワード
 
 # Opens about:addons page in the plugins section
 quickactions-plugins = プラグインを管理
-quickactions-cmd-plugins = plugins, プラグイン,
+quickactions-cmd-plugins = plugins, プラグイン
 
 # Opens the print dialog
 quickactions-print2 = ページを印刷
-quickactions-cmd-print = print, 印刷, プリント,
+quickactions-cmd-print = print, 印刷, プリント
+
+# Opens the print dialog at the save to PDF option
+quickactions-savepdf = ページを PDF 形式で保存
+quickactions-cmd-savepdf = pdf
 
 # Opens a new private browsing window
 quickactions-private2 = プライベートウィンドウを開く
@@ -373,6 +377,7 @@ identity-connection-secure = 安全な接続
 identity-connection-failure = 接続失敗
 identity-connection-internal = このページは { -brand-short-name } の安全な内部ページです。
 identity-connection-file = このページはコンピューターに保存されています。
+identity-connection-associated = このページは別のページからロードされています。
 identity-extension-page = このページは拡張機能によって読み込まれました。
 identity-active-blocked = このページの安全でない部分を { -brand-short-name } はブロックしました。
 identity-custom-root = Mozilla によって承認されていない証明書の発行者によって接続が検証されました。 

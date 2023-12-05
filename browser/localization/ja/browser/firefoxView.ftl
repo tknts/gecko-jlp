@@ -19,6 +19,9 @@ firefoxview-close-button =
   .title = 閉じる
   .aria-label = 閉じる
 
+firefoxview-empty-state-icon =
+  .alt = 注意:
+
 # Used instead of the localized relative time when a timestamp is within a minute or so of now
 firefoxview-just-now-timestamp = たった今
 
@@ -184,6 +187,18 @@ firefoxview-search-text-box-clear-button =
 # Placeholder for the input field to search in history ("search" is a verb).
 firefoxview-search-text-box-history =
   .placeholder = 検索履歴
+
+# Placeholder for the input field to search in recently closed tabs ("search" is a verb).
+firefoxview-search-text-box-recentlyclosed =
+  .placeholder = 最近閉じたタブを検索する
+
+# Placeholder for the input field to search in tabs from other devices ("search" is a verb).
+firefoxview-search-text-box-syncedtabs =
+  .placeholder = 同期したタブを検索する
+
+# Placeholder for the input field to search in open tabs ("search" is a verb).
+firefoxview-search-text-box-opentabs =
+  .placeholder = 開いているタブを検索する
 
 # "Search" is a noun (as in "Results of the search for")
 # Variables:

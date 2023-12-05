@@ -11,7 +11,3 @@ all-tabs-menu-new-user-context =
 
 all-tabs-menu-hidden-tabs =
   .label = タブを隠す
-
-all-tabs-menu-manage-user-context =
-  .label = コンテナーを管理
-  .accesskey = o

@@ -6,8 +6,6 @@
 ## enumerate/look for window titles. It is not normally visible anywhere.
 
 webrtc-indicator-title = { -brand-short-name } — 共有インジケーター
-webrtc-indicator-window =
-    .title = { -brand-short-name } — 共有インジケーター
 
 ## Used as list items in sharing menu
 
@@ -58,23 +56,6 @@ webrtc-microphone-system-menu =
     .label = マイクを共有しています。クリックすると共有を制御します。
 webrtc-screen-system-menu =
     .label = ウィンドウまたは画面をを共有しています。クリックすると共有を制御します。
-
-## Tooltips used by the legacy global sharing indicator
-
-webrtc-indicator-sharing-camera-and-microphone =
-    .tooltiptext = カメラとマイクが共有されています。 クリックして共有を制御します。
-webrtc-indicator-sharing-camera =
-    .tooltiptext = カメラが共有されています。 クリックして共有を制御します。
-webrtc-indicator-sharing-microphone =
-    .tooltiptext = マイクが共有されています。 クリックして共有を制御します。
-webrtc-indicator-sharing-application =
-    .tooltiptext = アプリケーションが共有されています。 クリックして共有を制御します。
-webrtc-indicator-sharing-screen =
-    .tooltiptext = 画面が共有されています。 クリックして共有を制御します。
-webrtc-indicator-sharing-window =
-    .tooltiptext = ウィンドウが共有されています。 クリックして共有を制御します。
-webrtc-indicator-sharing-browser =
-    .tooltiptext = タブが共有されています。 クリックして共有を制御します。
 
 ## These strings are only used on Mac for menus attached to icons
 ## near the clock on the mac menubar.
