@@ -118,11 +118,12 @@ autofill-address-email = メールアドレス
 autofill-cancel-button = キャンセル
 autofill-save-button = 保存
 autofill-country-warning-message = Form Autofill is currently available only for certain countries.
+autofill-message-tooltip = 自動入力に関するメッセージを表示する
 
 # The dialog title for creating credit cards in browser preferences.
-autofill-add-new-card-title = 新しいクレジットカードの追加
+autofill-add-card-title = カードを追加
 # The dialog title for editing credit cards in browser preferences.
-autofill-edit-card-title = クレジットカードの編集
+autofill-edit-card-title2 = カードの編集
 
 # In macOS, this string is preceded by the operating system with "Firefox is trying to ",
 # and has a period added to its end. Make sure to test in your locale.

@@ -341,19 +341,10 @@ main-context-menu-send-to-device =
     .label = ページをデバイスへ送る
     .accesskey = n
 
-## The access keys for "Use Saved Login" and "Use Saved Password"
-## should be the same if possible; the two context menu items
-## are mutually exclusive.
-
-main-context-menu-use-saved-login =
-    .label = 保存されたログイン情報を使用
-    .accesskey = o
-
+# Displayed when there are saved passwords and the user clicks inside a username or password field
 main-context-menu-use-saved-password =
     .label = 保存されたパスワードを使用
     .accesskey = o
-
-##
 
 main-context-menu-use-relay-mask =
     .label = { -relay-brand-short-name } を使ってメールアドレスにマスクをかける

@@ -192,6 +192,20 @@ media-codec-support-unsupported = 非対応
 media-codec-support-error = コーデックのサポート情報が利用できませんでした。メディア ファイルを再生した後に、もう一度試してください。
 media-codec-support-lack-of-extension = Install extension
 
+## Media Content Decryption Modules (CDM)
+## See EME Spec for more explanation for following technical terms
+## https://w3c.github.io/encrypted-media/
+
+media-content-decryption-modules-title = コンテンツ復号化モジュールの情報
+media-key-system-name = Key System Name
+media-video-robustness = Video Robustness
+media-audio-robustness = Audio Robustness
+media-cdm-capabilities = Capabilities
+# Clear Lead isn't defined in the spec, which means the the first few seconds
+# are not encrypted. It allows playback to start without having to wait for
+# license response, improving video start time and user experience.
+media-cdm-clear-lead = Clear Lead
+
 ##
 
 intl-title = 国際化とローカライズ

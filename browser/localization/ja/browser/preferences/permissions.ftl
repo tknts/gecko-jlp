@@ -120,10 +120,10 @@ permissions-exceptions-popup-desc = ポップアップウィンドウが開く�
 
 ## Exceptions - Saved Logins
 
-permissions-exceptions-saved-logins-window2 =
-    .title = 例外 - 保存されたログイン
+permissions-exceptions-saved-passwords-window =
+    .title = 例外 - 保存されたパスワード
     .style = { permissions-window2.style }
-permissions-exceptions-saved-logins-desc = 以下のウェブサイトのログイン情報は保存しません
+permissions-exceptions-saved-passwords-desc = { -brand-short-name } では、ここにリストされているサイトのパスワードは保存されません。
 
 ## Exceptions - Add-ons
 

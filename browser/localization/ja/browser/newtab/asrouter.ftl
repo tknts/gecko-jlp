@@ -237,8 +237,8 @@ device-migration-fxa-spotlight-older-device-header = { -brand-product-name } に
 device-migration-fxa-spotlight-older-device-body = アカウントにより接続された、あらゆるデバイス上で重要な情報が常に最新の状態に保たれ、保護されます。
 device-migration-fxa-spotlight-older-device-primary-button = アカウントを作成する
 
-device-migration-fxa-spotlight-getting-new-device-header = 近いうちに新しいデバイスを購入しますか?
-device-migration-fxa-spotlight-getting-new-device-body = 今すぐデータをバックアップして、デバイスが到着したときにすぐに使えるようにしましょう。
+device-migration-fxa-spotlight-getting-new-device-header-2  = 将来的に新しいデバイスを購入しますか?
+device-migration-fxa-spotlight-getting-new-device-body-2 = 新しいデバイスを使い始めるときに、いくつかの簡単な手順に従ってブックマーク、履歴、パスワードを持ち歩きましょう。
 device-migration-fxa-spotlight-getting-new-device-primary-button = データをバックアップする方法
 
 ## Set as Default PDF Reader Infobar

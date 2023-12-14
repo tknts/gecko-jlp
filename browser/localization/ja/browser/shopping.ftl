@@ -2,18 +2,18 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-shopping-page-title = { -brand-product-name } ショッピング
+shopping-page-title = { -brand-product-name } Shopping
 
 # Title for page showing where a user can check the
 # review quality of online shopping product reviews
-shopping-main-container-title = レビューの信頼性を確認
+shopping-main-container-title = レビュー チェッカー
 shopping-beta-marker = Beta
 # This string is for ensuring that screen reader technology
 # can read out the "Beta" part of the shopping sidebar header.
 # Any changes to shopping-main-container-title and
 # shopping-beta-marker should also be reflected here.
 shopping-a11y-header =
-  .aria-label = レビューの信頼性を確認 - beta
+  .aria-label = レビュー チェッカー - beta
 shopping-close-button =
   .title = 閉じる
 # This string is for notifying screen reader users that the
@@ -40,40 +40,40 @@ shopping-letter-grade-tooltip =
 
 ## Strings for the shopping message-bar
 
-shopping-message-bar-warning-stale-analysis-message-2 = 新しい情報を確認
+shopping-message-bar-warning-stale-analysis-message-2 = 新しい情報の確認
 shopping-message-bar-warning-stale-analysis-button = 今すぐ確認
 
 shopping-message-bar-generic-error =
   .heading = 現在入手可能な情報はありません
-  .message = 私たちは問題の解決に取り組んでいます。後でもう一度試してください。
+  .message = 私たちは問題の解決に取り組んでいます。すぐに戻って確認してください。
 
 shopping-message-bar-warning-not-enough-reviews =
   .heading = レビューが足りません
-  .message = この製品のレビューが増えると、その品質を確認できるようになります。
+  .message = この商品のレビューを分析するには、さらに多くのレビューが必要です。
 
 shopping-message-bar-warning-product-not-available =
   .heading = 商品が利用できません
-  .message = この商品が再入荷しているのを見つけた場合は、ご報告ください。レビューを確認します。
-shopping-message-bar-warning-product-not-available-button2 = レポートの製品には在庫があります
+  .message = この商品の在庫が復活したことを確認した場合は、当社にご報告ください。分析の更新に取り組みます。
+shopping-message-bar-warning-product-not-available-button2 = この商品の再入荷を報告する
 
 shopping-message-bar-thanks-for-reporting =
-  .heading = 報告ありがとう!
-  .message = この製品のレビューに関する情報は 24 時間以内に入手できるはずです。もう一度ご確認ください。
+  .heading = T報告ありがとう!
+  .message = 24 時間以内に最新の分析結果が得られるはずです。もう一度ご確認ください。
 
 shopping-message-bar-warning-product-not-available-reported =
-  .heading = 情報は近日公開予定です
-  .message =この製品のレビューに関する情報は 24 時間以内に入手できるはずです。もう一度ご確認ください。
+  .heading = 分析は近日公開予定です
+  .message = 最新の分析は 24 時間以内に完成する予定です。もう一度ご確認ください。
 
 shopping-message-bar-analysis-in-progress-title2 = レビューの品質をチェックしています
 shopping-message-bar-analysis-in-progress-message2 = これには約 60 秒かかる場合があります。
 
 # Variables:
 #  $percentage (Number) - The percentage complete that the analysis is, per our servers.
-shopping-message-bar-analysis-in-progress-with-amount = レビューの品質を確認しています ({ $percentage }%)
+shopping-message-bar-analysis-in-progress-with-amount = レビューの品質をチェックしています ({ $percentage }%)
 
 shopping-message-bar-page-not-supported =
-  .heading = これらのレビューは確認できません
-  .message = 残念ながら、ギフトカードやストリーミングビデオ、音楽、ゲームなどの特定の種類の商品のレビューの品質を確認することはできません。 
+  .heading = これらのレビューはチェックできません
+  .message = ギフトカードやストリーミングビデオ、音楽、ゲームなどの、特定の種類の商品のレビューの品質をチェックすることはできません。 
 
 ## Strings for the product review snippets card
 
@@ -96,18 +96,18 @@ shopping-show-less-button = 表示を減らす
 shopping-settings-label =
   .label = 設定
 shopping-settings-recommendations-toggle =
-  .label = レビューチェッカーに広告を表示する
-shopping-settings-recommendations-learn-more =
-  You’ll see occasional ads for relevant products. All ads must meet our review quality standards. <a data-l10n-name="review-quality-url">Learn more</a>
-shopping-settings-opt-out-button = Turn off review checker
-powered-by-fakespot = Review checker is powered by <a data-l10n-name="fakespot-link">{ -fakespot-brand-full-name }</a>.
+  .label = レビュー チェッカーで広告を表示する
+shopping-settings-recommendations-learn-more2 =
+  信頼できるレビューのある製品の中から関連商品の広告を時折表示します。 <a data-l10n-name="review-quality-url">詳細</a>
+shopping-settings-opt-out-button = レビュー チェッカーをオフにする
+powered-by-fakespot = レビュー チェッカーは <a data-l10n-name="fakespot-link">{ -fakespot-brand-full-name }</a> によって提供されています。
 
 ## Strings for the adjusted rating component
 
 # "Adjusted rating" means a star rating that has been adjusted to include only
 # reliable reviews.
 shopping-adjusted-rating-label =
-  .label = 信頼できレビューに基づく評価
+  .label = 調整後の評価
 shopping-adjusted-rating-unreliable-reviews = 信頼性の低いレビューは削除されました
 
 ## Strings for the review reliability component
@@ -120,98 +120,104 @@ shopping-review-reliability-label =
 shopping-analysis-explainer-label =
   .label = レビューの品質を決定する方法
 shopping-analysis-explainer-intro2 =
-  当社では { -fakespot-brand-full-name } の AI テクノロジーを使用して、商品レビューの信頼性をチェックしています。これは、製品の品質ではなく、レビューの品質を評価するのにのみ役立ちます。
+  当社は { -fakespot-brand-full-name } の AI テクノロジーを使用して、製品レビューの品質と信頼性を分析します。この機能は製品の品質ではなく、レビューの品質を評価するのにのみ役立ちます。
+
 shopping-analysis-explainer-grades-intro =
   各製品のレビューには A から F までの <strong>アルファベットによる成績</strong> が表示されます。
 shopping-analysis-explainer-adjusted-rating-description =
-  信頼できると思われるレビューに基づいて <strong>調整後の評価</strong> を算出します。
-shopping-analysis-explainer-learn-more =
-  詳しくは <a data-l10n-name="review-quality-url">{ -fakespot-brand-full-name } がレビューの品質を決定する方法</a> をご覧ください。
+  The <strong>adjusted rating</strong> is based only on reviews we believe to be reliable.
+shopping-analysis-explainer-learn-more2 =
+  Learn more about <a data-l10n-name="review-quality-url">how { -fakespot-brand-name } determines review quality</a>.
 
 # This string includes the short brand name of one of the three supported
 # websites, which will be inserted without being translated.
 #  $retailer (String) - capitalized name of the shopping website, for example, "Amazon".
 shopping-analysis-explainer-highlights-description =
-  <strong>ハイライト</strong> は、過去 80 日以内に寄せられた信頼できると思われる { $retailer } のレビューです。
+  <strong>Highlights</strong> are from { $retailer } reviews within the last 80 days that we believe to be reliable.
 
-shopping-analysis-explainer-review-grading-scale-reliable = 信頼できるレビューです。私たちは、このレビューが実際の顧客によって書かれた正直で公平なレビューであると考えています。
-shopping-analysis-explainer-review-grading-scale-mixed = 信頼できるレビューと信頼できないレビューが混在していると考えられます。
-shopping-analysis-explainer-review-grading-scale-unreliable = 信頼性の低いレビューです。 私たちは、このレビューが偽物であるか、偏ったレビュー担当者によるものである可能性が高いと考えています。
+shopping-analysis-explainer-review-grading-scale-reliable = Reliable reviews. We believe the reviews are likely from real customers who left honest, unbiased reviews.
+shopping-analysis-explainer-review-grading-scale-mixed = We believe there’s a mix of reliable and unreliable reviews.
+shopping-analysis-explainer-review-grading-scale-unreliable = Unreliable reviews. We believe the reviews are likely fake or from biased reviewers.
 
 ## Strings for UrlBar button
 
 shopping-sidebar-open-button2 =
-  .tooltiptext = ショッピングのサイドバーを開きます
+  .tooltiptext = レビュー チェッカーを開きます
 shopping-sidebar-close-button2 =
-  .tooltiptext = ショッピングのサイドバーを閉じます
+  .tooltiptext = レビュー チェッカーを閉じます
 
 ## Strings for the unanalyzed product card.
 ## The word 'analyzer' when used here reflects what this tool is called on
 ## fakespot.com. If possible, a different word should be used for the Fakespot
 ## tool (the Fakespot by Mozilla 'analyzer') other than 'checker', which is
-## used in the name of the Firefox feature ('Review checker'). If that is not
+## used in the name of the Firefox feature ('Review Checker'). If that is not
 ## possible - if these terms are not meaningfully different - that is OK.
 
-shopping-unanalyzed-product-header-2 = これらのレビューに関する情報はまだありません
-shopping-unanalyzed-product-message-2 = この製品のレビューが信頼できるかどうかを調べるには [レビューの品質を確認] をクリックしてください。所要時間はわずか 60 秒ほどです。
-shopping-unanalyzed-product-analyze-button = レビューの品質を確認
+shopping-unanalyzed-product-header-2 = No info about these reviews yet
+shopping-unanalyzed-product-message-2 = To know whether this product’s reviews are reliable, check the review quality. It only takes about 60 seconds.
+shopping-unanalyzed-product-analyze-button = Check review quality
 
 ## Strings for the advertisement
 
 more-to-consider-ad-label =
-  .label = さらに考慮すべき点
-ad-by-fakespot = { -fakespot-brand-name } による広告
+  .label = More to consider
+ad-by-fakespot = Ad by { -fakespot-brand-name }
 
 ## Shopping survey strings.
 
-shopping-survey-headline = { -brand-product-name } の改善にご協力ください
-shopping-survey-question-one = { -brand-product-name } でのレビュー チェッカーの使い勝手に、どの程度満足していますか?
+shopping-survey-headline = Help improve { -brand-product-name }
+shopping-survey-question-one = How satisfied are you with the Review Checker experience in { -brand-product-name }?
 
-shopping-survey-q1-radio-1-label = 非常に満足
-shopping-survey-q1-radio-2-label = 満足
-shopping-survey-q1-radio-3-label = 普通
-shopping-survey-q1-radio-4-label = 不満
-shopping-survey-q1-radio-5-label = 非常に不満
+shopping-survey-q1-radio-1-label = Very satisfied
+shopping-survey-q1-radio-2-label = Satisfied
+shopping-survey-q1-radio-3-label = Neutral
+shopping-survey-q1-radio-4-label = Dissatisfied
+shopping-survey-q1-radio-5-label = Very dissatisfied
 
-shopping-survey-question-two = レビュー チェッカーを使用することで、購入の決定がしやすくなりましたか?
+shopping-survey-question-two = Does the Review Checker make it easier for you to make purchase decisions?
 
-shopping-survey-q2-radio-1-label = はい
-shopping-survey-q2-radio-2-label = いいえ
-shopping-survey-q2-radio-3-label = わからない
+shopping-survey-q2-radio-1-label = Yes
+shopping-survey-q2-radio-2-label = No
+shopping-survey-q2-radio-3-label = I don’t know
 
-shopping-survey-next-button-label = 次へ
-shopping-survey-submit-button-label = 送信
-shopping-survey-terms-link = 利用規約
+shopping-survey-next-button-label = Next
+shopping-survey-submit-button-label = Submit
+shopping-survey-terms-link = Terms of use
 shopping-survey-thanks =
-  .heading = ご意見ありがとうございました！
+  .heading = Thanks for your feedback!
 
 ## Shopping Feature Callout strings.
 ## "price tag" refers to the price tag icon displayed in the address bar to
 ## access the feature.
 
-shopping-callout-closed-opted-in-subtitle = 値札を見つけたら必ず <strong>レビュー チェッカー</strong> で確認してください。
+shopping-callout-closed-opted-in-subtitle = Get back to <strong>Review Checker</strong> whenever you see the price tag.
 
-shopping-callout-pdp-opted-in-title = これらのレビューは信頼できますか? 確認してみましょう。
-shopping-callout-pdp-opted-in-subtitle = レビュー チェッカーを開くと、信頼性の高いレビューに基づいた評価を確認できます。さらに最近行われた本物のレビューのハイライトも表示できます。
+shopping-callout-pdp-opted-in-title = Are these reviews reliable? Find out fast.
+shopping-callout-pdp-opted-in-subtitle = Open Review Checker to see an adjusted rating with unreliable reviews removed. Plus, see highlights from recent authentic reviews.
 
-shopping-callout-closed-not-opted-in-title = ワンクリックで信頼できるレビューが表示されます
-shopping-callout-closed-not-opted-in-subtitle = 値札を見つけたら、レビュー チェッカーを試してみてください。 購入する前に、実際の購入者の本音が確認できます。
+shopping-callout-closed-not-opted-in-title = One click to reliable reviews
+shopping-callout-closed-not-opted-in-subtitle = Give Review Checker a try whenever you see the price tag. Get insights from real shoppers quickly — before you buy.
 
 ## Onboarding message strings.
 
-shopping-onboarding-headline = Try our trusted guide to product reviews
+shopping-onboarding-headline = 製品レビューの信頼できるガイドをお試しください
 
 # Dynamic subtitle. Sites are limited to Amazon, Walmart or Best Buy.
 # Variables:
 #   $currentSite (str) - The current shopping page name
 #   $secondSite (str) - A second shopping page name
 #   $thirdSite (str) - A third shopping page name
-shopping-onboarding-dynamic-subtitle-1 = 購入する前に <b>{ $currentSite }</b> で製品のレビューが信頼できるものか確認してください。{ -brand-product-name } の実験的な機能であるレビュー チェッカーは、ブラウザーに直接組み込まれています。<b>{ $secondSite }</b> と <b>{ $thirdSite }</b> でも機能します。
+shopping-onboarding-dynamic-subtitle-1 = 購入する前に <b>{ $currentSite }</b> で製品レビューの信頼性を確認してください。 { -brand-product-name } の実験的な機能であるレビュー チェッカーは、ブラウザーに直接組み込まれています。 <b>{ $secondSite }</b> と <b>{ $thirdSite }</b> でも機能します。
+
+# Subtitle for countries where we only support one shopping website (e.g. currently used in FR/DE with Amazon)
+# Variables:
+#   $currentSite (str) - The current shopping page name
+shopping-onboarding-single-subtitle = See how reliable product reviews are on <b>{ $currentSite }</b> before you buy. Review Checker, an experimental feature from { -brand-product-name }, is built right into the browser.
 
 shopping-onboarding-body = Using the power of { -fakespot-brand-full-name }, we help you avoid biased and inauthentic reviews. Our AI model is always improving to protect you as you shop. <a data-l10n-name="learn_more">Learn more</a>
-shopping-onboarding-opt-in-privacy-policy-and-terms-of-use = By selecting “{ shopping-onboarding-opt-in-button }“ you agree to { -fakespot-brand-full-name }’s <a data-l10n-name="privacy_policy">privacy policy</a> and <a data-l10n-name="terms_of_use">terms of use.</a>
-shopping-onboarding-opt-in-button = 今すぐ試す
-shopping-onboarding-not-now-button = 今は使用しない
+shopping-onboarding-opt-in-privacy-policy-and-terms-of-use2 = By selecting “{ shopping-onboarding-opt-in-button }“ you agree to { -fakespot-brand-name }’s <a data-l10n-name="privacy_policy">privacy policy</a> and <a data-l10n-name="terms_of_use">terms of use.</a>
+shopping-onboarding-opt-in-button = はい。試します
+shopping-onboarding-not-now-button = いいえ
 shopping-onboarding-dialog-close-button =
     .title = 閉じる
     .aria-label = 閉じる
@@ -221,4 +227,4 @@ shopping-onboarding-dialog-close-button =
 #   $current (Int) - Number of the current page
 #   $total (Int) - Total number of pages
 shopping-onboarding-welcome-steps-indicator-label =
-    .aria-label = Progress: step { $current } of { $total }
+    .aria-label = 進行状況: ステップ { $current } / { $total }

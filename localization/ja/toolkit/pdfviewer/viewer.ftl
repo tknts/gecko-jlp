@@ -332,6 +332,8 @@ pdfjs-editor-remove-freetext-button =
     .title = テキストの削除
 pdfjs-editor-remove-stamp-button =
     .title = 画像の削除
+pdfjs-editor-remove-highlight-button =
+    .title = 強調表示を削除
 
 ##
 
@@ -356,9 +358,9 @@ pdfjs-ink-canvas =
 ## Alt-text dialog
 
 # Alternative text (alt text) helps when people can't see the image.
-pdfjs-editor-alt-text-button-label = Alt text
+pdfjs-editor-alt-text-button-label = 代替テキスト
 
-pdfjs-editor-alt-text-edit-button-label = Edit alt text
+pdfjs-editor-alt-text-edit-button-label = 代替テキストを編集
 pdfjs-editor-alt-text-dialog-label = オプションを選択
 pdfjs-editor-alt-text-dialog-description = Alt text (alternative text) helps when people can’t see the image or when it doesn’t load.
 pdfjs-editor-alt-text-add-description-label = 説明を追加
@@ -384,3 +386,23 @@ pdfjs-editor-resizer-label-bottom-right = Bottom right corner — resize
 pdfjs-editor-resizer-label-bottom-middle = Bottom middle — resize
 pdfjs-editor-resizer-label-bottom-left = Bottom left corner — resize
 pdfjs-editor-resizer-label-middle-left = Middle left — resize
+
+## Color picker
+
+# This means "Color used to highlight text"
+pdfjs-editor-highlight-colorpicker-label = 強調表示の色
+
+pdfjs-editor-colorpicker-button =
+    .title = 色の変更
+pdfjs-editor-colorpicker-dropdown =
+    .aria-label = 色の選択
+pdfjs-editor-colorpicker-yellow =
+    .title = イエロー
+pdfjs-editor-colorpicker-green =
+    .title = グリーン
+pdfjs-editor-colorpicker-blue =
+    .title = ブルー
+pdfjs-editor-colorpicker-pink =
+    .title = ピンク
+pdfjs-editor-colorpicker-red =
+    .title = レッド

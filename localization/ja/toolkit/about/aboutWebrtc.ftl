@@ -33,9 +33,6 @@ about-webrtc-aec-logging-toggled-off-state-msg = Captured log files can be found
 # The autorefresh checkbox causes a stats section to autorefresh its content when checked
 about-webrtc-auto-refresh-label = 自動更新
 
-# Determines the default state of the Auto Refresh check boxes
-about-webrtc-auto-refresh-default-label = デフォルトで自動更新
-
 # A button which forces a refresh of displayed statistics
 about-webrtc-force-refresh-button = 更新
 
@@ -103,7 +100,9 @@ about-webrtc-selected = Selected
 
 about-webrtc-save-page-label = ページを保存
 about-webrtc-enable-logging-label = Enable WebRTC Log Preset
-about-webrtc-stats-heading = Session Statistics
+about-webrtc-peerconnections-section-heading = RTCPeerConnection Statistics
+about-webrtc-peerconnections-section-show-msg = Show RTCPeerConnection Statistics
+about-webrtc-peerconnections-section-hide-msg = Hide RTCPeerConnection Statistics
 about-webrtc-stats-clear = 履歴を消去
 about-webrtc-log-heading = 接続ログ
 about-webrtc-log-clear = ログを消去
@@ -187,7 +186,15 @@ about-webrtc-configuration-element-provided = Provided
 about-webrtc-configuration-element-not-provided = Not Provided
 
 # The options set by the user in about:config that could impact a WebRTC call
-about-webrtc-custom-webrtc-configuration-heading = User Set WebRTC Preferences
+about-webrtc-user-modified-configuration-heading = User Modified WebRTC Configuration
+
+## These are displayed on the button that shows or hides the
+## user modified configuration disclosure
+
+about-webrtc-user-modified-configuration-show-msg = Show User Modified Configuration
+about-webrtc-user-modified-configuration-hide-msg = Hide User Modified Configuration
+
+##
 
 # Section header for estimated bandwidths of WebRTC media flows
 about-webrtc-bandwidth-stats-heading = Estimated Bandwidth
