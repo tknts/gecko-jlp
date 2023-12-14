@@ -7,6 +7,10 @@ common-dialog-title-system = { -brand-short-name }
 # Title displayed when the origin of a web dialog is unknown.
 common-dialog-title-unknown = 不明
 
+# An indicator showing that Firefox is waiting for an operation to finish
+common-dialog-spinner =
+  .alt = 応答がありません
+
 common-dialog-username =
   .value = ユーザー名
 common-dialog-password =

@@ -732,15 +732,6 @@ home-prefs-recent-activity-header =
     .label = 最近のアクティビティ
 home-prefs-recent-activity-description = 最近のサイトとコンテンツの抜粋
 
-# For the "Snippets" feature traditionally on about:home.
-# Alternative translation options: "Small Note" or something that
-# expresses the idea of "a small message, shortened from something else,
-# and non-essential but also not entirely trivial and useless.
-home-prefs-snippets-header =
-    .label = スニペット
-
-home-prefs-snippets-description-new = { -vendor-short-name } と { -brand-product-name } からのヒントとニュース
-
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
@@ -762,9 +753,9 @@ search-separate-default-engine =
 search-suggestions-header = 検索候補
 search-suggestions-desc = 検索エンジンからの検索候補の表示方法を選択してください。
 
-search-suggestions-option =
-    .label = 検索候補を使用する
-    .accesskey = s
+search-show-suggestions-option =
+    .label = 検索候補を表示する
+    .accesskey = S
 
 search-show-suggestions-url-bar-option =
     .label = アドレスバーに検索候補を表示する
@@ -964,10 +955,10 @@ sync-engine-addresses =
     .tooltiptext = 保存された郵便番号などの住所 (デスクトップ版のみ)
     .accesskey = e
 
-sync-engine-payment-methods =
+sync-engine-payment-methods2 =
     .label = 決済方法
-    .tooltiptext = クレジットカードの名義と番号と有効期限です (デスクトップ版のみ)
-    .accesskey = C
+    .tooltiptext = 氏名、カード番号、有効期限
+    .accesskey = n
 
 sync-engine-addons =
     .label = アドオン
@@ -1001,37 +992,39 @@ sync-connect-another-device = その他のデバイスを接続
 
 privacy-header = ブラウザのプライバシー
 
-## Privacy Section - Logins and Passwords
+## Privacy Section - Passwords
 
-# The search keyword isn't shown to users but is used to find relevant settings in about:preferences.
-pane-privacy-logins-and-passwords-header = ログインとパスワード
-    .searchkeywords = { -lockwise-brand-short-name }
+# "Logins" is the former term for "Passwords". Users should find password settings
+# by searching for the former term "logins". It's not displayed in the UI.
+pane-privacy-passwords-header = パスワード
+    .searchkeywords = ログイン
 
 # Checkbox to control whether UI is shown to users to save or fill logins/passwords.
-forms-ask-to-save-logins =
-    .label = ウェブサイトのログインとパスワードを保存するか確認する
-    .accesskey = r
+forms-ask-to-save-passwords =
+    .label = パスワードの保存を確認する
+    .accesskey = A
 forms-exceptions =
     .label = 例外…
     .accesskey = x
-forms-generate-passwords =
-    .label = 強力なパスワードを生成して提案する
-    .accesskey = u
+forms-suggest-passwords =
+    .label = 強力なパスワードを作成する
+    .accesskey = S
 forms-breach-alerts =
     .label = 漏洩したウェブサイトのパスワードの警告を表示する
     .accesskey = b
 forms-breach-alerts-learn-more-link = さらに詳しく
-preferences-relay-integration-checkbox =
-    .label = メールアドレスを保護するために { -relay-brand-name } によるメール マスクを使用する
+preferences-relay-integration-checkbox2 =
+    .label = メールアドレスを保護するために { -relay-brand-name } メールマスクを使用する
+    .accesskey = r
 relay-integration-learn-more-link = さらに詳しく
 
 # Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
-forms-fill-logins-and-passwords =
-    .label = ログイン情報とパスワードの自動入力
-    .accesskey = i
-forms-saved-logins =
-    .label = 保存されたログイン情報…
-    .accesskey = L
+forms-fill-usernames-and-passwords =
+    .label = ユーザー名とパスワードを自動的に入力します
+    .accesskey = F
+forms-saved-passwords =
+    .label = 保存されたパスワード
+    .accesskey = d
 forms-primary-pw-use =
     .label = プライマリーパスワードを使用する
     .accesskey = U
@@ -1057,6 +1050,8 @@ forms-windows-sso =
 forms-windows-sso-learn-more-link = さらに詳しく
 forms-windows-sso-desc = デバイスの設定でアカウントを管理する
 
+windows-passkey-settings-label = パスキーの管理をシステム設定で行う
+
 ## OS Authentication dialog
 
 # This message can be seen by trying to add a Primary Password.
@@ -1066,8 +1061,29 @@ primary-password-os-auth-dialog-message-win = プライマリーパスワード�
 # The macOS strings are preceded by the operating system with "Firefox is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
-primary-password-os-auth-dialog-message-macosx = create a Primary Password
+primary-password-os-auth-dialog-message-macosx = プライマリパスワードを作成する
 master-password-os-auth-dialog-caption = { -brand-full-name }
+
+## Privacy section - Autofill
+
+pane-privacy-autofill-header = 自動入力
+autofill-addresses-checkbox = 住所を入力して保存
+    .accesskey = a
+autofill-saved-addresses-button = 保存されたアドレス
+    .accesskey = S
+autofill-payment-methods-checkbox-message = 支払い方法を入力して保存
+    .accesskey = m
+autofill-payment-methods-checkbox-submessage = クレジットカードとデビットカードが含まれます
+    .accesskey = I
+autofill-saved-payment-methods-button = 決済方法を保存
+    .accesskey = v
+autofill-reauth-checkbox = { PLATFORM() ->
+            [macos] 決済方法の入力と編集には macOS 認証が必要です。
+            [windows] 決済方法の入力と編集には Windows 認証が必要です。
+            [linux] 決済方法の入力と編集には Linux 認証が必要です。
+           *[other] 決済方法の入力と編集には認証が必要です。
+        }
+    .accesskey = o
 
 ## Privacy Section - History
 
@@ -1176,13 +1192,13 @@ sitedata-cookies-exceptions =
     .label = 例外を管理…
     .accesskey = x
 
-## Privacy Section - Cookie Banner Handling
+## Privacy Section - Cookie Banner Blocking
 
-cookie-banner-handling-header = Cookie 同意バナーの削減
-cookie-banner-handling-description = { -brand-short-name } は、サポートされているサイトの Cookie 同意バナーで Cookie の受け入れを自動的にブロックします。
+cookie-banner-blocker-header = Cookie 同意バナー ブロッカー
+cookie-banner-blocker-description = プライベート ブラウジング中にサイトが Cookie 同意バナーを表示しようとすると、{ -brand-short-name } は自動的に拒否します。これはサポートされているサイトでのみ動作します。
 cookie-banner-learn-more = さらに詳しく
-forms-handle-cookie-banners =
-    .label = Cookie 同意バナーの表示を減らす
+cookie-banner-blocker-checkbox-label =
+    .label = Cookie 同意バナー を自動的にブロックする
 
 ## Privacy Section - Address Bar
 
@@ -1231,7 +1247,7 @@ content-blocking-section-top-level-description = トラッカーはあなたの�
 
 content-blocking-learn-more = さらに詳しく
 
-content-blocking-fpi-incompatibility-warning =  First Party Isolation (FPI) を使用しています。この機能によって { -brand-short-name } の Cookie 設定が一部上書きされます。
+content-blocking-fpi-incompatibility-warning = First Party Isolation (FPI) を使用しています。この機能によって { -brand-short-name } の Cookie 設定が一部上書きされます。
 
 # There is no need to translate "Resist Fingerprinting (RFP)". This is a
 # feature that can only be enabled via about:config, and it's not exposed to

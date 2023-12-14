@@ -48,3 +48,6 @@ report-broken-site-panel-report-sent-header =
   .label = レポートが送信されました
   .title = レポートが送信されました
 report-broken-site-panel-report-sent-text = { -brand-product-name } がウェブをよりオープンでアクセスしやすく、すべての人にとってより良いものになるために、ご協力いただきありがとうございます。
+
+report-broken-site-panel-invalid-url-label = 有効なURLを入力してください
+report-broken-site-panel-missing-reason-label = 理由を選択してください
