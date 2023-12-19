@@ -9,6 +9,10 @@ sanitize-prefs2 =
 sanitize-prefs-style =
     .style = width: 17em
 
+sanitize-dialog-title2 =
+    .title = 閲覧データと Cookie の消去
+    .style = min-width: 34em
+
 sanitize-dialog-title =
     .title = 最近の履歴を
     .style = min-width: 34em
@@ -32,6 +36,10 @@ clear-data-settings-label = { -brand-short-name } の終了時に自動的に消
 clear-time-duration-prefix =
     .value = 消去する履歴の期間:{ " " }
     .accesskey = T
+
+clear-time-duration-prefix2 =
+    .value = When:
+    .accesskey = W
 
 clear-time-duration-value-last-hour =
     .label = 1 時間以内
@@ -60,9 +68,19 @@ item-history-and-downloads =
     .label = ページの表示履歴とファイルのダウンロード履歴
     .accesskey = B
 
+item-browsing-and-search =
+    .label = Visited sites, saved form info and searches
+    .accesskey = V
+
 item-cookies =
     .label = Cookie
     .accesskey = C
+
+item-cookies-site-data =
+    .label = Cookie とサイトのデータ
+    .accesskey = e
+
+item-cookies-site-data-description = サイトからサインアウトしたり、ショッピング カートが空になる可能性があります
 
 item-active-logins =
     .label = ログイン情報
@@ -72,13 +90,29 @@ item-cache =
     .label = キャッシュ
     .accesskey = a
 
+item-cached-content =
+    .label = 一時的にキャッシュされたファイルとページ
+    .accesskey = f
+
+item-cached-content-description = サイトの読み込みを高速化するために保存されたデータを消去します
+
 item-form-search-history =
     .label = 検索やフォームの入力履歴
     .accesskey = F
 
+item-site-prefs =
+    .label = サイトの設定
+    .accesskey = i
+
+item-site-prefs-description = 権限とサイトの設定を初期化します
+
+item-download-history =
+    .label = ダウンロードされたファイルのリスト
+    .accesskey = D
+
 data-section-label = データ
 
-item-site-preferences =
+item-site-settings =
     .label = サイトの設定
     .accesskey = S
 
@@ -93,6 +127,9 @@ window-close =
 
 sanitize-button-ok =
     .label = 今すぐ消去
+
+sanitize-button-ok2 =
+    .label = 消去
 
 # The label for the default button between the user clicking it and the window
 # closing.  Indicates the items are being cleared.
