@@ -125,21 +125,13 @@ autofill-add-card-title = カードを追加
 # The dialog title for editing credit cards in browser preferences.
 autofill-edit-card-title2 = カードの編集
 
-# In macOS, this string is preceded by the operating system with "Firefox is trying to ",
-# and has a period added to its end. Make sure to test in your locale.
-autofill-edit-card-password-prompt = { PLATFORM() ->
-    [macos] show credit card information
-    [windows] { -brand-short-name } でクレジットカード情報を表示しようとしています。続けるには Windows アカウントによる確認が必要です。
-   *[other] { -brand-short-name } is trying to show credit card information.
-}
-
 autofill-card-number = カード番号
-autofill-card-invalid-number = Please enter a valid card number
-autofill-card-name-on-card = Name on Card
+autofill-card-invalid-number = 有効なカード番号を入力してください
+autofill-card-name-on-card = カードの名義
 autofill-card-expires-month = Exp. Month
 autofill-card-expires-year = Exp. Year
-autofill-card-billing-address = Billing Address
-autofill-card-network = Card Type
+autofill-card-billing-address = 請求先住所
+autofill-card-network = カードの種類
 
 ## These are brand names and should only be translated when a locale-specific name for that brand is in common use
 
