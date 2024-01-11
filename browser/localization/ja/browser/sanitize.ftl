@@ -25,6 +25,8 @@ sanitize-dialog-title-everything =
 
 clear-data-settings-label = { -brand-short-name } の終了時に自動的に消去する
 
+sanitize-on-shutdown-description = { -brand-short-name } を閉じると、チェックされた項目がすべて自動的に消去されます。
+
 ## clear-time-duration-prefix is followed by a dropdown list, with
 ## values localized using clear-time-duration-value-* messages.
 ## clear-time-duration-suffix is left empty in English, but can be
@@ -76,6 +78,13 @@ item-cookies =
     .label = Cookie
     .accesskey = C
 
+# Variables:
+#   $amount (Number) - Amount of site data currently stored on disk
+#   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
+item-cookies-site-data-with-size =
+    .label = Cookie とサイトのデータ ({ $amount } { $unit })
+    .accesskey = e
+
 item-cookies-site-data =
     .label = Cookie とサイトのデータ
     .accesskey = e
@@ -89,6 +98,13 @@ item-active-logins =
 item-cache =
     .label = キャッシュ
     .accesskey = a
+
+# Variables:
+#   $amount (Number) - Amount of cached data
+#   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
+item-cached-content-with-size =
+    .label = 一時的にキャッシュされたファイルとページ ({ $amount } { $unit })
+    .accesskey = f
 
 item-cached-content =
     .label = 一時的にキャッシュされたファイルとページ
@@ -105,6 +121,15 @@ item-site-prefs =
     .accesskey = i
 
 item-site-prefs-description = 権限とサイトの設定を初期化します
+
+# Variables:
+#   $count (Number) - Number of downloads recorded
+item-download-history-with-size =
+    .label = { $count ->
+        [one] ダウンロードされたファイルのリスト (ひとつのファイル)
+       *[other] ダウンロードされたファイルのリスト ({ $count } 個のファイル)
+    }
+    .accesskey = D
 
 item-download-history =
     .label = ダウンロードされたファイルのリスト
@@ -130,6 +155,9 @@ sanitize-button-ok =
 
 sanitize-button-ok2 =
     .label = 消去
+
+sanitize-button-ok-on-shutdown =
+    .label = 変更を保存
 
 # The label for the default button between the user clicking it and the window
 # closing.  Indicates the items are being cleared.

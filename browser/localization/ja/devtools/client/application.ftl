@@ -132,7 +132,7 @@ manifest-icon-img-title-no-sizes = 未定義のサイズのアイコン
 
 # Sidebar navigation item for Manifest sidebar item section
 sidebar-item-manifest = Manifest
-  .alt = マニフェストアイコン
+  .alt = マニフェスト アイコン
   .title = マニフェスト
 
 # Sidebar navigation item for Service Workers sidebar item section
@@ -147,5 +147,5 @@ icon-warning =
 
 # Text for the ALT and TITLE attributes of the error icon
 icon-error =
-  .alt = エラーアイコン
+  .alt = エラー アイコン
   .title = エラー

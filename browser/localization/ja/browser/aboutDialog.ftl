@@ -40,7 +40,7 @@ update-otherInstanceHandlingUpdates = { -brand-short-name } は別のプロセ�
 ##   $displayUrl (String): URL to page with download instructions. Example: www.mozilla.org/firefox/nightly/
 
 aboutdialog-update-manual-with-link = 更新は <label data-l10n-name="manual-link">{ $displayUrl }</label> で入手可能です
-settings-update-manual-with-link = 更新は <label data-l10n-name="manual-link">{ $displayUrl }</label> で入手可能です
+settings-update-manual-with-link = 更新は <a data-l10n-name="manual-link">{ $displayUrl }</a> で入手可能です
 
 update-unsupported = このシステムには更新が用意されていません。 <label data-l10n-name="unsupported-link">さらに詳しく</label>
 

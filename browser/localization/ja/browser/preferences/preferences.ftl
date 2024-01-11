@@ -523,10 +523,6 @@ update-application-background-enabled =
 
 update-application-warning-cross-user-setting = この設定は、この { -brand-short-name } を使用するすべての Windows アカウントと { -brand-short-name } のプロファイルに適用されます。
 
-update-application-use-service =
-    .label = 更新のインストールにバックグラウンドサービスを使用する
-    .accesskey = b
-
 update-application-suppress-prompts =
     .label = 更新の通知回数を減らす
     .accesskey = n
@@ -780,8 +776,6 @@ search-show-suggestions-above-history-option =
 search-show-suggestions-private-windows =
     .label = プライベート ウィンドウで検索候補を表示する
 
-suggestions-addressbar-settings-generic2 = その他のアドレスバーの入力候補の設定を変更する
-
 search-suggestions-cant-show = { -brand-short-name } は履歴を保存しない設定になっているため、検索候補はロケーションバーに検索候補は表示されません。
 
 search-one-click-header2 = ショートカット検索
@@ -872,9 +866,9 @@ sync-signedin-login-failure = サインインするには { $email } で再接�
 
 ##
 
-sync-resend-verification =
-    .label = 認証メールを再送信
-    .accesskey = d
+sync-verify-account =
+    .label = アカウントを確認
+    .accesskey = V
 
 sync-remove-account =
     .label = アカウントを削除
@@ -1529,7 +1523,7 @@ httpsonly-radio-disabled =
 
 preferences-doh-header = DNS over HTTPS
 
-preferences-doh-description = Domain Name System (DNS) over HTTPS は、暗号化された接続を介してドメイン名のリクエストを送信することで、安全な DNS を提供し、他の人がアクセスしようとしているウェブサイトを見ることを困難にします。
+preferences-doh-description2 = Domain Name System (DNS) over HTTPS は、暗号化された接続を介してドメイン名のリクエストを送信することで、安全な DNS を提供し、他の人がアクセスしようとしているウェブサイトを見ることを困難にします。
 
 # Variables:
 #   $status (string) - The status of the DoH connection

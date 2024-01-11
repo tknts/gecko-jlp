@@ -323,6 +323,9 @@ pdfjs-editor-ink-button-label = 図形
 pdfjs-editor-stamp-button =
     .title = Add or edit images
 pdfjs-editor-stamp-button-label = 画像の追加と編集
+pdfjs-editor-highlight-button =
+    .title = 強調表示
+pdfjs-editor-highlight-button-label = 強調表示
 
 ## Remove button for the various kind of editor.
 

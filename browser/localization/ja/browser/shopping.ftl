@@ -121,7 +121,6 @@ shopping-analysis-explainer-label =
   .label = レビューの品質を決定する方法
 shopping-analysis-explainer-intro2 =
   当社は { -fakespot-brand-full-name } の AI テクノロジーを使用して、製品レビューの品質と信頼性を分析します。この機能は製品の品質ではなく、レビューの品質を評価するのにのみ役立ちます。
-
 shopping-analysis-explainer-grades-intro =
   各製品のレビューには A から F までの <strong>アルファベットによる成績</strong> が表示されます。
 shopping-analysis-explainer-adjusted-rating-description =
@@ -215,9 +214,9 @@ shopping-onboarding-dynamic-subtitle-1 = 購入する前に <b>{ $currentSite }<
 shopping-onboarding-single-subtitle = See how reliable product reviews are on <b>{ $currentSite }</b> before you buy. Review Checker, an experimental feature from { -brand-product-name }, is built right into the browser.
 
 shopping-onboarding-body = Using the power of { -fakespot-brand-full-name }, we help you avoid biased and inauthentic reviews. Our AI model is always improving to protect you as you shop. <a data-l10n-name="learn_more">Learn more</a>
-shopping-onboarding-opt-in-privacy-policy-and-terms-of-use2 = By selecting “{ shopping-onboarding-opt-in-button }“ you agree to { -fakespot-brand-name }’s <a data-l10n-name="privacy_policy">privacy policy</a> and <a data-l10n-name="terms_of_use">terms of use.</a>
-shopping-onboarding-opt-in-button = はい。試します
-shopping-onboarding-not-now-button = いいえ
+shopping-onboarding-opt-in-privacy-policy-and-terms-of-use3 = “{ shopping-onboarding-opt-in-button }“ を選択すると { -brand-product-name } の <a data-l10n-name="privacy_policy">プライバシー ポリシー</a> と  { -fakespot-brand-name } の <a data-l10n-name="terms_of_use">利用規約</a> に同意したことになります。
+shopping-onboarding-opt-in-button = Yes, try it
+shopping-onboarding-not-now-button = Not now
 shopping-onboarding-dialog-close-button =
     .title = 閉じる
     .aria-label = 閉じる
