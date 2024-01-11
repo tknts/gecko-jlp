@@ -81,11 +81,11 @@ toolbar-button-stop =
 toolbar-button-stop-reload =
     .title = { main-context-menu-reload.aria-label }
 
-## Firefox Account Button
+## Account toolbar Button
 
-toolbar-button-fxaccount =
-    .label = { -fxaccount-brand-name(capitalization: "sentence") }
-    .tooltiptext = { -fxaccount-brand-name(capitalization: "sentence") }
+toolbar-button-account =
+    .label = アカウント
+    .tooltiptext = アカウント
 
 ## Save Page
 
@@ -99,7 +99,7 @@ main-context-menu-bookmark-page =
     .aria-label = ページをブックマーク…
     .accesskey = m
     .tooltiptext = ページをブックマークします
- 
+
 # This menuitem is only visible on macOS
 # Cannot be shown at the same time as main-context-menu-edit-bookmark-mac,
 # so should probably have the same access key if possible.
@@ -354,8 +354,8 @@ main-context-menu-suggest-strong-password =
     .label = 安全なパスワードを生成…
     .accesskey = S
 
-main-context-menu-manage-logins2 =
-    .label = ログイン情報を管理…
+main-context-menu-manage-passwords =
+    .label = パスワードを管理
     .accesskey = M
 
 main-context-menu-keyword =

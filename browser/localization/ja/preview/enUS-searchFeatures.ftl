@@ -158,7 +158,7 @@ addressbar-suggest-firefox-suggest = アドレスバーに表示されるサジ�
 # controls non-sponsored suggestions related to the user's search string.
 addressbar-firefox-suggest-nonsponsored =
   .label = ウェブからのサジェスト
-addressbar-firefox-suggest-nonsponsored-desc = 検索に関連するサジェストを { -brand-product-name } から取得します。
+addressbar-firefox-suggest-nonsponsored-desc = 検索に関連するサジェストをウェブから取得します。
 
 # Second Firefox Suggest checkbox main label and description. This checkbox
 # controls sponsored suggestions related to the user's search string.

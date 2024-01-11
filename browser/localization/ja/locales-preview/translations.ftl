@@ -47,22 +47,6 @@ translations-panel-error-translating = 翻訳中に問題が発生しました�
 translations-panel-error-load-languages = 言語を読み込めませんでした
 translations-panel-error-load-languages-hint = インターネットへの接続を確認して、もう一度試してください。
 
-# Text displayed for the option to always translate a given language
-# Variables:
-#   $language (string) - The localized display name of the detected language
-translations-panel-settings-always-translate-language =
-  .label = 常に { $language } を翻訳する
-
-# Text displayed for the option to never translate a given language
-# Variables:
-#   $language (string) - The localized display name of the detected language
-translations-panel-settings-never-translate-language =
-  .label = 今後 { $language } を翻訳しない
-
-# Text displayed for the option to never translate this website
-translations-panel-settings-never-translate-site =
-  .label = このサイトでは翻訳しない
-
 ## The translation panel appears from the url bar, and this view is the "dual" translate
 ## view that lets you choose a source language and target language for translation
 
@@ -98,9 +82,6 @@ translations-panel-revisit-translate-button = 翻訳
 ## Firefox Translations language management in about:preferences.
 
 translations-manage-header = 翻訳
-translations-manage-settings-button =
-    .label = 設定…
-    .accesskey = t
 translations-manage-description = オフライン翻訳のための言語をダウンロードします。
 translations-manage-all-language = すべての言語
 translations-manage-download-button = ダウンロード
@@ -108,31 +89,3 @@ translations-manage-delete-button = 削除
 translations-manage-error-download = 言語ファイルのダウンロード中に問題が発生しました。もう一度試してください。
 translations-manage-error-delete = 言語ファイルの削除中に問題が発生しました。もう一度試してください。
 translations-manage-error-list = 利用可能な翻訳言語のリストの取得に失敗しました。もう一度試してください。
-
-translations-settings-title =
-    .title = 翻訳の設定
-    .style = min-width: 36em
-translations-settings-close-key =
-    .key = w
-translations-settings-always-translate-langs-description = 以下の言語は自動的に翻訳されます
-translations-settings-never-translate-langs-description = 以下の言語は翻訳されません
-translations-settings-never-translate-sites-description = 以下のサイトでは翻訳されません
-translations-settings-languages-column =
-    .label = 言語
-translations-settings-remove-language-button =
-    .label = 言語を削除
-    .accesskey = R
-translations-settings-remove-all-languages-button =
-    .label = すべての言語を削除
-    .accesskey = e
-translations-settings-sites-column =
-    .label = ウェブサイト
-translations-settings-remove-site-button =
-    .label = サイトを削除
-    .accesskey = S
-translations-settings-remove-all-sites-button =
-    .label = すべてのサイトを削除
-    .accesskey = m
-translations-settings-close-dialog =
-    .buttonlabelaccept = 閉じる
-    .buttonaccesskeyaccept = C

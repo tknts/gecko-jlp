@@ -16,7 +16,7 @@ storage-table-type-cookies-hint = ホストを選択して Cookie の表示と�
 
 # Hint shown when the local storage type is selected. Clicking the link will open
 # https://firefox-source-docs.mozilla.org/devtools-user/storage_inspector/local_storage_session_storage/
-storage-table-type-localstorage-hint = ホストを選択してローカルストレージの表示と編集をします。 <a data-l10n-name="learn-more-link">さらに詳しくe</a>
+storage-table-type-localstorage-hint = ホストを選択してローカルストレージの表示と編集をします。 <a data-l10n-name="learn-more-link">さらに詳しく</a>
 
 # Hint shown when the session storage type is selected. Clicking the link will open
 # https://firefox-source-docs.mozilla.org/devtools-user/storage_inspector/local_storage_session_storage/
@@ -37,7 +37,7 @@ storage-table-type-extensionstorage-hint = ホストを選択して拡張機能�
 # Placeholder for the searchbox that allows you to filter the table items
 storage-search-box =
   .placeholder = アイテムの絞り込み
-  
+
 # Placeholder text in the sidebar search box
 storage-variable-view-search-box =
   .placeholder = 値の絞り込み

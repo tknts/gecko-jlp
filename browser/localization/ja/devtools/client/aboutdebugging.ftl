@@ -223,7 +223,7 @@ about-debugging-runtime-profile-button2 = プロファイル パフォーマン�
 # This string is displayed in the runtime page if the current configuration of the
 # target runtime is incompatible with service workers. "Learn more" points to:
 # https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/index.html#service-workers-not-compatible
-about-debugging-runtime-service-workers-not-compatible = このブラウザの設定は Service Worker と互換性がありません。<a>詳細</a>
+about-debugging-runtime-service-workers-not-compatible = このブラウザの設定は Service Worker と互換性がありません。<a>さらに詳しく</a>
 
 # This string is displayed in the runtime page if the remote browser version is too old.
 # "Troubleshooting" link points to https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/
@@ -384,7 +384,7 @@ about-debugging-worker-scope =
 # Displayed for service workers in runtime pages, to label the push service endpoint (url)
 # of a worker
 about-debugging-worker-push-service =
-  .label = Push サービス
+  .label = プッシュ通知サービス
 
 # Displayed as title of the inspect button when service worker debugging is disabled.
 about-debugging-worker-inspect-action-disabled =

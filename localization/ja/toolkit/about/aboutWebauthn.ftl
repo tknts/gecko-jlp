@@ -16,6 +16,9 @@ about-webauthn-options-subsection-title = 認証オプション
 about-webauthn-pin-section-title = PIN の管理
 about-webauthn-credential-management-section-title = 認証情報の管理
 about-webauthn-pin-required-section-title = PIN が必要です
+about-webauthn-confirm-deletion-section-title = 削除の確認
+# Registered biometric features for authentication. Mostly, but not exclusively, fingerprints.
+about-webauthn-bio-enrollment-section-title = 生体認証の登録
 
 ## Info field texts
 
@@ -25,11 +28,13 @@ about-webauthn-text-select-device = Please select your desired security token by
 # CTAP2 refers to Client to Authenticator Protocol version 2
 about-webauthn-text-non-ctap2-device = Unable to manage options because your security token does not support CTAP2.
 about-webauthn-text-not-available = Not available on this platform.
+about-webauthn-bio-enrollment-list-subsection-title = 登録数:
+about-webauthn-add-bio-enrollment-section-title = 新規登録の追加
 
 ## Results label
 
-about-webauthn-results-success = Success!
-about-webauthn-results-general-error = Error!
+about-webauthn-results-success = 成功!
+about-webauthn-results-general-error = エラー!
 # Variables:
 #  $retriesLeft (Number): number of tries left
 about-webauthn-results-pin-invalid-error =
@@ -39,6 +44,7 @@ about-webauthn-results-pin-invalid-error =
        *[other] エラー: PIN が正しくありません。もう一度やり直してください。後 { $retriesLeft } 回入力できます。
     }
 about-webauthn-results-pin-blocked-error = エラー: 間違った PIN が何度も入力されたためデバイスはロックされました。デバイスをリセットする必要があります。
+about-webauthn-results-pin-not-set-error = エラー: PIN が設定されていません。この操作には PIN による保護が必要です。
 about-webauthn-results-pin-too-short-error = エラー: 指定された PIN は短すぎます。
 about-webauthn-results-pin-too-long-error = エラー: 指定された PIN は長すぎます。
 about-webauthn-results-pin-auth-blocked-error = エラー: 連続して失敗した試行が多すぎるため、PIN 認証が一時的にブロックされました。デバイスの電源を入れ直す必要があります (一旦電源コードを抜いて再度挿し直します)。
@@ -50,8 +56,10 @@ about-webauthn-new-pin-label = 新しい PIN:
 about-webauthn-repeat-pin-label = PIN を確認:
 about-webauthn-current-pin-label = 現在の PIN:
 about-webauthn-pin-required-label = PIN を入力してください:
-about-webauthn-credential-list-subsection-title = Credentials:
-about-webauthn-credential-list-empty = No credentials found on device.
+about-webauthn-credential-list-subsection-title = 資格情報:
+about-webauthn-enrollment-name-label = 登録名 (任意):
+about-webauthn-enrollment-list-empty = デバイス上に登録が見つかりません。
+about-webauthn-credential-list-empty = デバイス上に資格情報が見つかりません。
 about-webauthn-confirm-deletion-label = 削除しようとしています:
 
 ## Buttons
@@ -59,10 +67,15 @@ about-webauthn-confirm-deletion-label = 削除しようとしています:
 about-webauthn-current-set-pin-button = PIN を設定
 about-webauthn-current-change-pin-button = PIN を変更
 # List is a verb, as in "Show list of credentials"
-about-webauthn-list-credentials-button = List credentials
+about-webauthn-list-credentials-button = 資格情報の一覧
+# List is a verb, as in "Show list of all enrollments"
+about-webauthn-list-bio-enrollments-button =登録の一覧
+about-webauthn-add-bio-enrollment-button = 登録を追加
 about-webauthn-cancel-button = キャンセル
 about-webauthn-send-pin-button = OK
 about-webauthn-delete-button = 削除
+about-webauthn-start-enrollment-button = 登録を開始
+about-webauthn-update-button = 更新
 
 ## Authenticator options fields
 ## Option fields correspond to the CTAP2 option IDs and definitions found in https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-20210615.html#option-id
@@ -126,3 +139,43 @@ about-webauthn-auth-info-true = True
 # Shows when boolean value for an info field is False. False should not be translated.
 about-webauthn-auth-info-false = False
 about-webauthn-auth-info-null = 対応していません
+
+## Bio enrollment sample feedbacks
+
+# To register a new enrollment (e.g. fingerprint) usually
+# multiple scans of the same finger have to be sampled.
+# This shows how many the user still has to do.
+# Variables:
+#  $repeatCount (Number): number of tries left
+about-webauthn-samples-still-needed =
+    { $repeatCount ->
+        [one] { $repeatCount } sample still needed.
+       *[other] { $repeatCount } samples still needed.
+    }
+
+# Scan (e.g. of fingerprint) was successful.
+about-webauthn-ctap2-enroll-feedback-good = Sample was good.
+
+## Scan (e.g. of fingerprint) was off-center (e.g. too high, too left, etc.).
+
+about-webauthn-ctap2-enroll-feedback-too-high = Sample was too high.
+about-webauthn-ctap2-enroll-feedback-too-low = Sample was too low.
+about-webauthn-ctap2-enroll-feedback-too-left = Sample was too left.
+about-webauthn-ctap2-enroll-feedback-too-right = Sample was too right.
+
+##
+
+about-webauthn-ctap2-enroll-feedback-too-fast = Sample was too fast.
+about-webauthn-ctap2-enroll-feedback-too-slow = Sample was too slow.
+about-webauthn-ctap2-enroll-feedback-poor-quality = Sample had poor quality.
+# Skewed in the sense of fingerprint/iris scan was too distorted
+about-webauthn-ctap2-enroll-feedback-too-skewed = Sample was too skewed.
+about-webauthn-ctap2-enroll-feedback-too-short = Sample was too short.
+# Scan (e.g. of fingerprint) couldn't be merged with previous samples.
+about-webauthn-ctap2-enroll-feedback-merge-failure = Sample merge failure.
+# Scan (e.g. of fingerprint) is somehow identical to an existing sample.
+about-webauthn-ctap2-enroll-feedback-exists = Sample already exists.
+about-webauthn-ctap2-enroll-feedback-no-user-activity = No activity from user.
+about-webauthn-ctap2-enroll-feedback-no-user-presence-transition = User did not complete the sampling as expected.
+about-webauthn-ctap2-enroll-feedback-other = Sample error.
+

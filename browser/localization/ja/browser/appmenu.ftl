@@ -292,3 +292,4 @@ appmenu-developer-tools-extensions =
     .label = 開発者向け拡張機能
 appmenuitem-report-broken-site =
   .label = 壊れたサイトを報告
+  
