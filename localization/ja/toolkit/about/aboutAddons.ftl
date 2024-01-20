@@ -270,6 +270,9 @@ shortcuts-no-addons = 有効な拡張機能がありません。
 shortcuts-no-commands = 次の拡張機能にはショートカットがありません:
 shortcuts-input =
   .placeholder = ショートカットキーを入力してください
+# Accessible name for a trashcan icon button that removes an existent shortcut
+shortcuts-remove-button =
+  .aria-label = ショートカットを削除
 
 shortcuts-browserAction2 = ツールバーボタンを有効化
 shortcuts-pageAction = ページ操作を有効化

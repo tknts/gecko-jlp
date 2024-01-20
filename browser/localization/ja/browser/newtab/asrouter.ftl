@@ -75,12 +75,6 @@ cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
   .aria-label = 閉じるボタン
   .title = 閉じる
 
-## Protections panel
-
-cfr-protections-panel-header = 行動追跡の除去
-cfr-protections-panel-body = あなたのデータはあなたが管理するべきです。 { -brand-short-name } は、オンライン上であなたの行動を追跡するトラッカーの多くをブロックします。
-cfr-protections-panel-link-text = さらに詳しく
-
 ## What's New toolbar button and panel
 
 # This string is used by screen readers to offer a text based alternative for
@@ -197,8 +191,9 @@ firefoxview-spotlight-promo-secondarybutton = スキップ
 
 ## Cookie Banner Handling CFR
 
-cookie-banner-blocker-cfr-header = { -brand-short-name } が Cookie 同意バナーを表示ブロックしました
-cookie-banner-blocker-cfr-body = サイトがユーザーを追跡しにくくするために、多くの Cookie 同意バナーを自動的に拒否します。
+cookie-banner-blocker-onboarding-header = { -brand-short-name } が Cookie 同意バナーの表示ブロックしました
+cookie-banner-blocker-onboarding-body = このサイトでは気が散る要素が減り、Cookie があなたを追跡することも減ります。
+cookie-banner-blocker-onboarding-learn-more = さらに詳しく
 
 ## These strings are used in the Fox doodle Pin/set default spotlights
 
