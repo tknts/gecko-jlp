@@ -191,23 +191,11 @@ mr2022-onboarding-easy-setup-import-checkbox-label = 以前使用していたブ
 
 ## MR2022 New User Pin Firefox screen strings
 
-# Title used on about:welcome for new users when Firefox is not pinned.
-# In this context, open up is synonymous with "Discover".
-# The metaphor is that when they open their Firefox browser, it helps them discover an amazing internet.
-# If this translation does not make sense in your language, feel free to use the word "discover."
-mr2022-onboarding-welcome-pin-header = すばらしいインターネットを開く
-# Subtitle is used on onboarding page for new users page when Firefox is not pinned
-mr2022-onboarding-welcome-pin-subtitle = ワンクリックでどこからでも { -brand-short-name } を起動できます。そのたびに、よりオープンで自立したウェブを選択していることになります。
 # Primary button string used on welcome page for when Firefox is not pinned.
 mr2022-onboarding-pin-primary-button-label = { PLATFORM() ->
     [macos] Keep { -brand-short-name } in Dock
    *[other] { -brand-short-name } をタスクバーにピン留めする
 }
-# Subtitle will be used when user already has Firefox pinned, but
-# has not set it as their default browser.
-# When translating "zip", please feel free to pick a verb that signifies movement and/or exploration
-# and makes sense in the context of navigating the web.
-mr2022-onboarding-set-default-only-subtitle = Start with a browser backed by a non-profit. We defend your privacy while you zip around the web.
 
 ## MR2022 Existing User Pin Firefox Screen Strings
 
@@ -238,17 +226,11 @@ mr2022-onboarding-set-default-subtitle = 非営利団体が支援するブラウ
 mr2022-onboarding-get-started-primary-subtitle = 私たちの最新バージョンはあなたのために作られました。これまで以上に簡単にウェブを閲覧できます。気に入っていただける機能が満載です。
 mr2022-onboarding-get-started-primary-button-label = 数秒でセットアップできます
 
-## MR2022 Import Settings screen strings
-
-mr2022-onboarding-import-header = 超高速セットアップ
-mr2022-onboarding-import-subtitle = { -brand-short-name } をあなた好みに設定してください。以前使用していたブラウザーからブックマークやパスワードなどを追加できます。
 mr2022-onboarding-import-primary-button-label-no-attribution = 以前のブラウザーからインポート
 
 ## MR2022 Multistage Mobile Download screen strings
 
-mr2022-onboarding-mobile-download-title = ノートパソコンとスマートフォンを行き来します
 mr2022-onboarding-mobile-download-subtitle = あるデバイスでタブを開き、別のデバイスで中断したところから再開します。それに加えて { -brand-product-name } を使用しているデバイスならどこでも、ブックマークとパスワードを同期できます。
-mr2022-onboarding-mobile-download-cta-text = QR コードをスキャンして、モバイル用の { -brand-product-name } を入手するか <a data-l10n-name="download-label">ダウンロード リンクを自分宛に送信</a> してください。
 mr2022-onboarding-no-mobile-download-cta-text = QR コードをスキャンして、モバイル用の { -brand-product-name } を入手します。
 
 ## MR2022 Upgrade Dialog screens

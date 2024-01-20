@@ -70,9 +70,11 @@ item-history-and-downloads =
     .label = ページの表示履歴とファイルのダウンロード履歴
     .accesskey = B
 
-item-browsing-and-search =
-    .label = Visited sites, saved form info and searches
-    .accesskey = V
+item-history-form-data-downloads =
+    .label = 履歴
+    .accesskey = H
+
+item-history-form-data-downloads-description = サイトとダウンロードの履歴、保存されたフォーム情報、検索を消去します
 
 item-cookies =
     .label = Cookie
@@ -121,19 +123,6 @@ item-site-prefs =
     .accesskey = i
 
 item-site-prefs-description = 権限とサイトの設定を初期化します
-
-# Variables:
-#   $count (Number) - Number of downloads recorded
-item-download-history-with-size =
-    .label = { $count ->
-        [one] ダウンロードされたファイルのリスト (ひとつのファイル)
-       *[other] ダウンロードされたファイルのリスト ({ $count } 個のファイル)
-    }
-    .accesskey = D
-
-item-download-history =
-    .label = ダウンロードされたファイルのリスト
-    .accesskey = D
 
 data-section-label = データ
 

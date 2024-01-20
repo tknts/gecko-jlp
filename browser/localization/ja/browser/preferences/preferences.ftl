@@ -253,6 +253,10 @@ containers-remove-alert-msg =
 containers-remove-ok-button = このコンテナーを削除する
 containers-remove-cancel-button = このコンテナーを残す
 
+settings-tabs-show-image-in-preview =
+    .label = タブ上にマウスを置くと画像でプレビューを表示します
+    .accessKey = h
+
 ## General Section - Language & Appearance
 
 language-and-appearance-header = 言語と外観
