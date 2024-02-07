@@ -603,8 +603,13 @@ urlbar-result-action-search-w-engine = { $engine } で検索
 urlbar-result-action-sponsored = スポンサー記事
 urlbar-result-action-switch-tab = タブを切り替える
 urlbar-result-action-visit = 訪問
+# "Switch to tab with container" is used when the target tab is located in a
+# different container.
+# Variables
+# $container (String): the name of the target container
+urlbar-result-action-switch-tab-with-container =  <span>{ $container }</span> タブに切り替える
 # Allows the user to visit a URL that was previously copied to the clipboard.
-urlbar-result-action-visit-from-your-clipboard = クリップボードからのアクセス
+urlbar-result-action-visit-from-clipboard = クリップボードからのアクセス
 # Directs a user to press the Tab key to perform a search with the specified
 # engine.
 # Variables

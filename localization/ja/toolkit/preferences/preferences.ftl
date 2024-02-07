@@ -9,9 +9,8 @@ failed-pp-change = プライマリパスワードを変更できません。
 incorrect-pp = 入力されたプライマリパスワードは間違っています。もう一度やり直してください。
 pp-change-ok = プライマリパスワードが正常に変更されました。
 
-pp-empty-warning = 保存されたパスワードと秘密鍵は保護されません。
-pp-erased-ok = プライマリパスワードを削除しました。 { pp-empty-warning }
-pp-not-wanted =警告! プライマリパスワードは無効にされました。 { pp-empty-warning }
+pp-erased-ok = プライマリパスワードを削除しました。 { -brand-short-name } によって管理される、保存されたパスワードと証明書の秘密キーは保護されません。
+pp-not-wanted =警告! プライマリパスワードの使用を中止しました。 { -brand-short-name } によって管理される、保存されたパスワードと証明書の秘密キーは保護されません。
 
 pp-change2empty-in-fips-mode = 現在 FIPS モードで動作しています。FIPS では必ずプライマリーパスワードを設定してください。
 pw-change-success-title = パスワードの変更に成功しました

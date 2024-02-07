@@ -58,3 +58,13 @@ fxviewtabrow-send-tab = タブをデバイスに送信
 #   $tabTitle (string) - Title of the tab to which the context menu is associated
 fxviewtabrow-options-menu-button =
   .title = { $tabTitle } のオプション
+
+# Variables:
+#   $tabTitle (string) - Title of tab being muted
+fxviewtabrow-mute-tab-button =
+  .title = { $tabTitle } をミュート
+
+# Variables:
+#   $tabTitle (string) - Title of tab being unmuted
+fxviewtabrow-unmute-tab-button =
+  .title = { $tabTitle } のミュートを解除

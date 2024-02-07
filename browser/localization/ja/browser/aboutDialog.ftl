@@ -31,7 +31,7 @@ update-failed = 更新に失敗しました。最新のバージョンを <label
 update-failed-main =
     更新に失敗しました。最新のバージョンを <a data-l10n-name="failed-link-main">ダウンロード</a> してください。
 
-update-adminDisabled = システムの管理者により、更新が無効化されています
+update-policy-disabled = あなたの所属する組織により更新が無効化されいます
 update-noUpdatesFound = { -brand-short-name } は最新のバージョンです
 aboutdialog-update-checking-failed = アップデートの確認に失敗しました。
 update-otherInstanceHandlingUpdates = { -brand-short-name } は別のプロセスで更新中です

@@ -62,8 +62,8 @@ firefoxview-syncedtabs-synctabs-checkbox = 開いているタブの同期を許�
 firefoxview-syncedtabs-loading-header = 同期しています
 firefoxview-syncedtabs-loading-description = 完了すると、他のデバイスで開いているタブが表示されます。すぐにもう一度確認してください。
 
-firefoxview-tabpickup-fxa-admin-disabled-header = 管理者によって同期が無効に設定されています
-firefoxview-tabpickup-fxa-admin-disabled-description = 管理者が同期を無効にしているため { -brand-short-name } はタブをデバイス間で同期することができません。
+firefoxview-tabpickup-fxa-admin-disabled-header = あなたの所属する組織によって同期が無効化されています
+firefoxview-tabpickup-fxa-disabled-by-policy-description = あなたの所属する組織によって同期が無効化されているため { -brand-short-name } はタブをデバイス間で同期することができません。
 
 firefoxview-tabpickup-network-offline-header = インターネット接続を確認してください
 firefoxview-tabpickup-network-offline-description = ファイアウォールやプロキシを利用している場合は { -brand-short-name } にウェブへのアクセスが許可されていることを確認してください。

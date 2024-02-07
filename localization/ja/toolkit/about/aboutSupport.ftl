@@ -291,6 +291,7 @@ try-newer-driver = グラフィックドライバーのバージョンが対応�
 clear-type-parameters = ClearType パラメーター
 
 compositing = 画像処理
+support-font-determination = Font Visibility Debug Info
 hardware-h264 = ハードウェア H264 デコード
 main-thread-no-omtc = メインスレッド、OMTC なし
 yes = はい
