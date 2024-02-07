@@ -6,161 +6,49 @@
 ### being translated as the feature is still in heavy development
 ### and strings are likely to change often.
 
-shopping-page-title = { -brand-product-name } Shopping
+shopping-settings-auto-open-toggle =
+  .label = レビューチェッカーを自動的に開く
 
-# Title for page showing where a user can check the
-# review quality of online shopping product reviews
-shopping-main-container-title = レビューの信頼性を確認
-shopping-close-button =
-  .title = 閉じる
-# This string is for notifying screen reader users that the
-# sidebar is still loading data.
-shopping-a11y-loading =
-  .aria-label = 読み込んでいます…
-
-more-to-consider-ad-label =
-  .label = さらに考慮すべき点
-
-## Strings for the letter grade component.
-## For now, we only support letter grades A, B, C, D and F.
-## Letter A indicates the highest grade, and F indicates the lowest grade.
-## Letters are hardcoded and cannot be localized.
-
-shopping-letter-grade-description-ab = Reliable reviews
-shopping-letter-grade-description-c = Only some reliable reviews
-shopping-letter-grade-description-df = Unreliable reviews
-
-# This string is displayed in a tooltip that appears when the user hovers
-# over the letter grade component without a visible description.
-# It is also used for screen readers.
-#  $letter (String) - The letter grade as A, B, C, D or F (hardcoded).
-#  $description (String) - The localized letter grade description. See shopping-letter-grade-description-* strings above.
-shopping-letter-grade-tooltip =
-  .title = { $letter } - { $description }
-
-## Strings for the shopping message-bar
-
-shopping-message-bar-warning-stale-analysis-title = 利用可能な更新
-shopping-message-bar-warning-stale-analysis-message = この製品のレビューを再分析して、最新の情報を入手します。
-shopping-message-bar-warning-stale-analysis-link = レビューを再分析
-
-shopping-message-bar-generic-error-title = 問題が発生しました
-shopping-message-bar-generic-error-message = 情報を読み込めませんでした。後でもう一度試してください。
-
-shopping-message-bar-warning-not-enough-reviews-title = レビューが足りません
-shopping-message-bar-warning-not-enough-reviews-message = この商品のレビューを分析するには、さらに多くのレビューが必要です。
-
-shopping-message-bar-warning-product-not-available-title = 商品が利用できません
-shopping-message-bar-warning-product-not-available-message = この商品の在庫が復活したことを確認した場合は、当社にご報告ください。分析の更新に取り組みます。
-shopping-message-bar-warning-product-not-available-button = この商品の再入荷を報告する
-
-shopping-message-bar-thanks-for-reporting-title = 報告ありがとう!
-shopping-message-bar-thanks-for-reporting-message = 24 時間以内に最新の分析結果が得られるはずです。もう一度ご確認ください。
-
-shopping-message-bar-warning-product-not-available-reported-title = 分析は近日公開予定です
-shopping-message-bar-warning-product-not-available-reported-message = 最新の分析は 24 時間以内に完成する予定です。もう一度ご確認ください。
-
-shopping-message-bar-warning-offline-title = ネットワーク接続がありません
-shopping-message-bar-warning-offline-message = ネットワーク接続を確認した後、ページを再読み込みしてください。
-
-shopping-message-bar-analysis-in-progress-title = 分析結果は近日中に公開します
-shopping-message-bar-analysis-in-progress-message = 完了すると、更新された情報がここに自動的に表示されます。
-
-## Strings for the product review snippets card
-
-shopping-highlights-label =
-  .label = 最近のレビューの抜粋
-
-shopping-highlight-price = 価格
-shopping-highlight-quality = Quality
-shopping-highlight-shipping = Shipping
-shopping-highlight-competitiveness = Competitiveness
-shopping-highlight-packaging = Packaging
-
-## Strings for show more card
-
-shopping-show-more-button = 表示を増やす
-shopping-show-less-button = 表示を減らす
-
-## Strings for the settings card
-
-shopping-settings-label =
-  .label = 設定
-shopping-settings-recommendations-toggle =
-  .label = Show products recommended by { -brand-product-name }
-shopping-settings-opt-out-button = Turn off review quality check
-
-## Strings for the adjusted rating component
-
-shopping-adjusted-rating-label =
-  .label = Adjusted rating
-shopping-adjusted-rating-unreliable-reviews = Unreliable reviews removed
-
-## Strings for the review reliability component
-
-shopping-review-reliability-label =
-  .label = これらのレビューはどの程度信頼できますか?
-
-## Strings for the analysis explainer component
-
-shopping-analysis-explainer-label =
-  .label = レビューの品質を決定する方法
-
-shopping-analysis-explainer-intro =
-  { -brand-product-name } は { -fakespot-brand-name } の AI テクノロジーを使用して、製品レビューの品質と信頼性を分析します。
-  この機能はレビューの品質のみを評価しています。製品の品質を評価したものではありません。
-
-shopping-analysis-explainer-grades-intro =
-  各製品のレビューには A から F までの <strong>アルファベットによる成績</strong> が表示されます。
-shopping-analysis-explainer-higher-grade-description =
-  より高いグレードは、そのレビューが実際に製品を使用していて、正直で公平なレビューを投稿した可能性が高いと当社が評価していることを意味します。
-shopping-analysis-explainer-lower-grade-description =
-  グレードが低い場合は、そのレビューが有料のレビュー担当者または偏ったレビュー担当者によるものである可能性が高いと考えられることを意味します。
-
-shopping-analysis-explainer-adjusted-rating-description =
-  The <strong>adjusted rating</strong> is based on review quality, with unreliable reviews removed.
-shopping-analysis-explainer-highlights-description =
-  <strong>Highlights</strong> are pulled from recent Amazon reviews (from the last 80 days), that we believe to be reliable.
-
-shopping-analysis-explainer-learn-more =
-  Learn more about <a data-l10n-name="review-quality-url">how { -fakespot-brand-name } determines review quality</a>.
-
-shopping-analysis-explainer-review-grading-scale = Review grading scale:
-shopping-analysis-explainer-review-grading-scale-reliable = We believe the reviews to be reliable
-shopping-analysis-explainer-review-grading-scale-mixed = We believe there’s a mix of reliable and unreliable reviews
-shopping-analysis-explainer-review-grading-scale-unreliable = We believe the reviews are unreliable
-
-## Strings for UrlBar button
-
-shopping-sidebar-open-button =
-  .tooltiptext = ショッピングのサイドバーを開きます
-shopping-sidebar-close-button =
-  .tooltiptext = ショッピングのサイドバーを閉じます
-
-## Strings for the unanalyzed product card.
-
-shopping-unanalyzed-product-header = これらのレビューはまだ分析されていません
-shopping-unanalyzed-product-message = この製品のレビューが信頼できるかどうかは、約 60 秒でわかります。
-shopping-unanalyzed-product-analyze-link = レビューを分析する
-
-## Onboarding message strings.
-
-shopping-onboarding-headline = 製品レビューの信頼できるガイドをお試しください
-
-## The "by" in "Fakespot by Mozilla" presents localization challenges.
-## Once the term is updated in Bug 1847307, we can update its use
-## here. (filed under Bug 1850432)
-
-# Dynamic subtitle. Sites are limited to Amazon, Walmart or Best Buy.
+# Description text for regions where we support three sites. Sites are limited to Amazon, Walmart and Best Buy.
 # Variables:
-#   $currentSite (str) - The current shopping page name
-#   $secondSite (str) - A second shopping page name
-#   $thirdSite (str) - A third shopping page name
-shopping-onboarding-dynamic-subtitle-1 = 購入する前に <b>{ $currentSite }</b> で製品レビューの信頼性を確認してください。 { -brand-product-name } の実験的な機能であるレビュー チェッカーは、ブラウザーに直接組み込まれています。 <b>{ $secondSite }</b> と <b>{ $thirdSite }</b> でも機能します。
-shopping-onboarding-body = { -fakespot-brand-full-name } の力を利用して、偏ったレビューや偽物のレビューを回避できるようにします。当社の AI モデルは、ショッピング中にお客様を保護するために常に改善されています。 <a data-l10n-name="learn-more">さらに詳しく</a>
-shopping-onboarding-opt-in-privacy-policy-and-terms-of-use = “{ shopping-onboarding-opt-in-button }“ を選択すると { -fakespot-brand-full-name } に関する <a data-l10n-name="privacy_policy">プライバシー ポリシー</a> と <a data-l10n-name="terms_of_use">利用規約</a> に同意したことになります。
-shopping-onboarding-opt-in-button = 同意して利用する
-shopping-onboarding-not-now-button = 同意しない
-shopping-onboarding-dialog-close-button =
-    .title = 閉じる
-    .aria-label = 閉じる
+#   $firstSite (String) - The first shopping page name
+#   $secondSite (String) - The second shopping page name
+#   $thirdSite (String) - The third shopping page name
+shopping-settings-auto-open-description-three-sites = { $firstSite }、{ $secondSite } と { $thirdSite } で商品を表示するとき
+
+# Description text for regions where we support only one site (e.g. currently used in FR/DE with Amazon).
+# Variables:
+#   $currentSite (String) - The current shopping page name
+shopping-settings-auto-open-description-single-site = { $currentSite } で商品を表示するとき
+
+shopping-settings-sidebar-enabled-state = レビュー チェッカーは<strong>オン</strong>になっています
+
+shopping-message-bar-keep-closed-header =
+  .heading = 使用するのを止めますか?
+  .message = レビュー チェッカーを使用しない設定に変更にすることができます。現在は自動的に使用します。
+shopping-message-bar-keep-closed-dismiss-button = 自動的に使用します
+shopping-message-bar-keep-closed-accept-button = はい。使用しません
+
+## Shopping Feature Callout strings.
+## "price tag" refers to the price tag icon displayed in the address bar to
+## access the feature.
+
+shopping-callout-closed-not-opted-in-revised-title = 信頼できるレビューをワンクリックで表示します
+shopping-callout-closed-not-opted-in-revised-subtitle = レビュー チェッカー表示するにはアドレスバーに表示される値札アイコンをクリックしてください。
+shopping-callout-closed-not-opted-in-revised-button = わかりました
+
+shopping-callout-not-opted-in-reminder-title = 安心なお買い物
+shopping-callout-not-opted-in-reminder-subtitle = Not sure if a product’s reviews are real or fake? Review Checker from { -brand-product-name } can help.
+shopping-callout-not-opted-in-reminder-open-button = Open Review Checker
+shopping-callout-not-opted-in-reminder-close-button = Dismiss
+shopping-callout-not-opted-in-reminder-ignore-checkbox = Don’t show again
+shopping-callout-not-opted-in-reminder-img-alt =
+  .aria-label = Abstract illustration of three product reviews. One has a warning symbol indicating it may not be trustworthy.
+
+shopping-callout-disabled-auto-open-title = レビュー チェッカーをデフォルトで閉じられるようになりました
+shopping-callout-disabled-auto-open-subtitle = Click the price tag icon in the address bar whenever you want to see if you can trust a product’s reviews.
+shopping-callout-disabled-auto-open-button = Got it
+
+shopping-callout-opted-out-title = Review Checker is off
+shopping-callout-opted-out-subtitle = To turn it back on, click the price tag icon in the address bar and follow the prompts.
+shopping-callout-opted-out-button = Got it

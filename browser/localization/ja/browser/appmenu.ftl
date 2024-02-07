@@ -84,6 +84,17 @@ appmenu-remote-tabs-showmore =
   .label = その他のタブを表示
   .tooltiptext = このデバイスのタブをさらに表示する
 
+# This is shown when there are inactive tabs which are not being shown.
+# Variables
+# $count (Number) - The number of inactive tabs which are not being shown (at least 1)
+appmenu-remote-tabs-showinactive =
+  .label =
+    { $count ->
+        [one] 非アクティブなタブを表示
+       *[other] { $count } の非アクティブなタブを表示
+    }
+  .tooltiptext = このデバイス上の非アクティブなタブを表示します
+
 # This is shown beneath the name of a device when that device has no open tabs
 appmenu-remote-tabs-notabs = 開かれたタブがありません
 
@@ -193,7 +204,7 @@ profiler-popup-capture-shortcut =
 ## They are shown in the popup's select box.
 
 # Presets and their l10n IDs are defined in the file
-# devtools/client/performance-new/shared/background.jsm.js
+# devtools/client/performance-new/shared/background.sys.mjs
 # Please take care that the same values are also defined in devtools' perftools.ftl.
 
 profiler-popup-presets-web-developer-description = 一般的なウェブアプリのデバッグに推奨される低負荷なプリセットです。
@@ -292,4 +303,3 @@ appmenu-developer-tools-extensions =
     .label = 開発者向け拡張機能
 appmenuitem-report-broken-site =
   .label = 壊れたサイトを報告
-  

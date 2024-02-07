@@ -260,3 +260,14 @@ launch-on-login-infobar-reject-button = 今はしない
 launch-on-login-infobar-final-message = <strong>コンピューターを再起動するたびに { -brand-short-name } を開きますか?</strong> スタートアップの設定を管理するには、設定で[スタートアップ]を検索してください。
 launch-on-login-infobar-final-reject-button = 必要ありません
   .accesskey = N
+
+## Tail Fox Set Default Spotlight
+
+# This title is displayed together with the picture of a running fox with a long tail.
+# In English, this is a figure of speech meaning 'stop something from following you'.
+# If the localization of this message is challenging, consider using a simplified
+# alternative as a reference for translation: 'Keep unwanted trackers away'.
+tail-fox-spotlight-title = Keep pesky trackers off your tail
+tail-fox-spotlight-subtitle = Say goodbye to annoying ad trackers and settle into a safer, speedy internet experience.
+tail-fox-spotlight-primary-button = { -brand-short-name } でリンクを開きます
+tail-fox-spotlight-secondary-button = 今はしない

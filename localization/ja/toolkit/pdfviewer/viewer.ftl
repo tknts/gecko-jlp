@@ -341,18 +341,22 @@ pdfjs-editor-remove-highlight-button =
 ##
 
 # Editor Parameters
-pdfjs-editor-free-text-color-input = Color
-pdfjs-editor-free-text-size-input = Size
-pdfjs-editor-ink-color-input = Color
-pdfjs-editor-ink-thickness-input = Thickness
-pdfjs-editor-ink-opacity-input = Opacity
+pdfjs-editor-free-text-color-input = 色
+pdfjs-editor-free-text-size-input = 大きさ
+pdfjs-editor-ink-color-input = 色
+pdfjs-editor-ink-thickness-input = 線の太さ
+pdfjs-editor-ink-opacity-input = 透明度
 pdfjs-editor-stamp-add-image-button =
-    .title = Add image
-pdfjs-editor-stamp-add-image-button-label = Add image
+    .title = 画像の追加
+pdfjs-editor-stamp-add-image-button-label = 画像を追加
+# This refers to the thickness of the line used for free highlighting (not bound to text)
+pdfjs-editor-free-highlight-thickness-input = 線の太さ
+pdfjs-editor-free-highlight-thickness-title =
+    .title = 文字以外の項目を強調表示するさいの太さを変更します
 
 pdfjs-free-text =
     .aria-label = Text Editor
-pdfjs-free-text-default-content = Start typing…
+pdfjs-free-text-default-content = 文字の入力を開始します…
 pdfjs-ink =
     .aria-label = Draw Editor
 pdfjs-ink-canvas =
