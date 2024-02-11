@@ -203,18 +203,14 @@ newtab-section-expand-section-label =
 
 newtab-section-header-topsites = トップサイト
 newtab-section-header-recent-activity = 最近のアクティビティ
-# Variables:
-#   $provider (string) - Name of the corresponding content provider.
-newtab-section-header-pocket = { $provider } によるおすすめ
+newtab-section-header-stories = Thought-provoking stories
 
 ## Empty Section States: These show when there are no more items in a section. Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 
 newtab-empty-section-highlights = ブラウジングを開始すると、最近アクセスしたりブックマークしたりした、すばらしい記事、ビデオ、その他のページが表示されます。
 
-# Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
-# Variables:
-#   $provider (string) - Name of the content provider for this section, e.g "Pocket".
-newtab-empty-section-topstories = すべて既読です。{ $provider } からのおすすめ記事については、後でもう一度確認してください。待ちきれませんか？。人気のあるトピックを選択して、ウェブ上からさらに素晴らしい記事を見つけてください。
+# Ex. When there are no more story recommendations, in the space where there would have been stories, this is shown instead.
+newtab-empty-section-topstories-generic = You’ve caught up. Check back later for more stories. Can’t wait? Select a popular topic to find more great stories from around the web.
 
 ## Empty Section (Content Discovery Experience). These show when there are no more stories or when some stories fail to load.
 

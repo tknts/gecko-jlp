@@ -224,6 +224,8 @@ firefoxview-search-results-empty = “{ $query }” の結果はありません
 
 firefoxview-sort-history-by-date-label = 日付順で並び替え
 firefoxview-sort-history-by-site-label = サイト順で並び替え
+firefoxview-sort-open-tabs-by-recency-label = 最近のアクティビティで並べ替える
+firefoxview-sort-open-tabs-by-order-label = タブの順番で並べ替える
 
 # Variables:
 #   $url (string) - URL that will be opened in the new tab

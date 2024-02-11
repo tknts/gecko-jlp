@@ -324,8 +324,11 @@ preferences-default-zoom-value =
     .label = { $percentage }%
 
 preferences-zoom-text-only =
-    .label = 文字のみ
+    .label = 文字のみズーム
     .accesskey = t
+
+preferences-text-zoom-override-warning =
+    .message = 警告: “文字のみズーム”を選択し、デフォルトのズームが 100% に設定されていない場合、一部のサイトまたはコンテンツで正しく表示されなくなる可能性があります。
 
 language-header = 言語
 
@@ -704,12 +707,9 @@ home-prefs-shortcuts-description = 保存またはアクセスできるサイト
 home-prefs-shortcuts-by-option-sponsored =
     .label = スポンサー付きショートカット
 
-## Variables:
-##  $provider (string) - Name of the corresponding content provider, e.g "Pocket".
-
-home-prefs-recommended-by-header =
-    .label = { $provider } からのおすすめ
-home-prefs-recommended-by-description-new = { -brand-product-name } ファミリーを構成する { $provider } が厳選した注目のコンテンツ
+home-prefs-recommended-by-header-generic =
+    .label = おすすめのストーリー
+home-prefs-recommended-by-description-generic = { -brand-product-name } によって厳選された優れたコンテンツ
 
 ##
 
@@ -1232,8 +1232,6 @@ addressbar-locbar-quickactions-option =
 addressbar-locbar-showrecentsearches-option =
     .label = 最近の検索を表示
     .accesskey = r
-
-addressbar-suggestions-settings = 検索エンジンの提案機能の設定を変更する
 
 addressbar-quickactions-learn-more = さらに詳しく
 
