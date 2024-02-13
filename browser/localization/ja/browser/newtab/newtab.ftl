@@ -261,8 +261,8 @@ newtab-custom-row-selector =
            *[other] { $num } 行
         }
 newtab-custom-sponsored-sites = スポンサー付きショートカット
-newtab-custom-pocket-toggle =
-  .label = { -pocket-brand-name } によるおすすめ
+newtab-custom-stories-toggle =
+  .label = おすすめのストーリー
   .description = { -brand-product-name } ファミリーの一員である { -pocket-brand-name } によって厳選された優良コンテンツ
 newtab-custom-pocket-sponsored = スポンサー記事
 newtab-custom-pocket-show-recent-saves = 最近の保存を表示
