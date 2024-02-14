@@ -303,3 +303,14 @@ appmenu-developer-tools-extensions =
     .label = 開発者向け拡張機能
 appmenuitem-report-broken-site =
   .label = 壊れたサイトを報告
+
+## Panel for privacy and security products
+
+appmenuitem-sign-in-account = アカウントにサインインする
+
+appmenuitem-monitor-title = { -monitor-brand-short-name }
+appmenuitem-monitor-description = データの漏洩に関する警告を通知する
+appmenuitem-relay-title = { -relay-brand-short-name }
+appmenuitem-relay-description = 実際のメールアドレスと電話番号をマスクする
+appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
+appmenuitem-vpn-description = あなたのオンラインでの行動を保護します

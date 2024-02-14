@@ -1150,7 +1150,7 @@ sitedata-delete-on-close =
     .label ={ -brand-short-name } を閉じたときに Cookie とサイトデータを削除する
     .accesskey = c
 
-sitedata-delete-on-close-private-browsing = プライベートブラウジング モードを常時使用する場合 { -brand-short-name } が閉じられると Cookie とサイトデータは常に消去されます。
+sitedata-delete-on-close-private-browsing2 = 履歴の設定に基づいて、 { -brand-short-name } はブラウザーを閉じたときにセッション中の Cookie とサイトデータを削除します。。
 
 sitedata-allow-cookies-option =
     .label = Cookie とサイトデータを許可する
