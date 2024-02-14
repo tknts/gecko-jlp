@@ -15,6 +15,7 @@
 
 -mdn-brand-name = MDN Web Docs
 -mdn-brand-short-name = MDN
+-yelp-brand-name = Yelp
 
 ## These strings are used in the urlbar panel.
 
@@ -42,6 +43,12 @@ urlbar-group-mdn =
 urlbar-group-pocket =
   .label = おすすめの記事
 
+# A label shown above urlbar suggestions for businesses and other locations
+# in the user's city or a city they included in their search string (e.g., Yelp
+# suggestions).
+urlbar-group-local =
+  .label = 地域のおすすめ情報
+
 # Block menu item shown in the result menu of top pick and quick suggest
 # results.
 urlbar-result-menu-dismiss-firefox-suggest =
@@ -67,9 +74,15 @@ firefox-suggest-dismissal-acknowledgment-all = フィードバックをありが
 # suggestion.
 firefox-suggest-dismissal-acknowledgment-one-mdn = フィードバックをありがとうございます。この { -mdn-brand-short-name } に関するサジェストは今後表示されなくなります。
 
-# A message that replaces a result when the user dismisses all MDN suggestions of
-# a particular type.
+# A message that replaces a result when the user dismisses all MDN suggestions.
 firefox-suggest-dismissal-acknowledgment-all-mdn = フィードバックをありがとうございます。 { -mdn-brand-short-name } に関するサジェストは今後表示されなくなります。
+
+# A message that replaces a result when the user dismisses a single Yelp
+# suggestion.
+firefox-suggest-dismissal-acknowledgment-one-yelp = フィードバックをありがとうございます。 この { -yelp-brand-name } からのサジェストは今後表示されなくなります。
+
+# A message that replaces a result when the user dismisses all Yelp suggestions.
+firefox-suggest-dismissal-acknowledgment-all-yelp = フィードバックをありがとうございます。 { -yelp-brand-name } からのサジェストは表示されなくなります。
 
 ## These strings are used for weather suggestions in the urlbar.
 

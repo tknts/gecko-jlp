@@ -39,3 +39,7 @@ fxa-menu-send-tab-to-device-description = タブを即座にサインインし�
 
 fxa-menu-sign-out =
     .label = サインアウト…
+
+
+fxa-menu-sync-title = Sync
+fxa-menu-sync-description = どこからでも、あなたのウェブにアクセス
