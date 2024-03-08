@@ -2,11 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-protections-panel-sendreportview-error = 報告の送信中にエラーが発生しました。 後でもう一度やり直してください。
-
-# A link shown when ETP is disabled for a site. Opens the breakage report subview when clicked.
-protections-panel-sitefixedsendreport-label = サイトは修正されましたか? 報告を送信する
-
 ## These strings are used to define the different levels of
 ## Enhanced Tracking Protection.
 
@@ -39,13 +34,6 @@ protections-panel-etp-toggle-off =
   .label = 強化されたトラッキング保護
   .description = このサイトでは無効にする
   .aria-label = { $host } での保護は有効になっています
-
-# The link to be clicked to open the sub-panel view
-protections-panel-site-not-working = サイトが機能していませんか?
-
-# The heading/title of the sub-panel view
-protections-panel-site-not-working-view =
-  .title = サイトが機能していませんか?
 
 ## The "Allowed" header also includes a "Why?" link that, when hovered, shows
 ## a tooltip explaining why these items were not blocked in the page.
@@ -81,24 +69,6 @@ protections-panel-not-found-label = 検出されませんでした
 protections-panel-settings-label = 保護設定
 protections-panel-protectionsdashboard-label = プロテクション ダッシュボード
 
-## In the Site Not Working? view, we suggest turning off protections if
-## the user is experiencing issues with any of a variety of functionality.
-
-# The header of the list
-protections-panel-site-not-working-view-header = 次の問題が発生している場合は、保護機能をオフにしてください:
-
-# The list items, shown in a <ul>
-protections-panel-site-not-working-view-issue-list-login-fields = ログイン情報入力
-protections-panel-site-not-working-view-issue-list-forms = フォーム
-protections-panel-site-not-working-view-issue-list-payments = 支払い
-protections-panel-site-not-working-view-issue-list-comments = コメント
-protections-panel-site-not-working-view-issue-list-videos = ビデオ
-protections-panel-site-not-working-view-issue-list-fonts = フォント
-
-protections-panel-site-not-working-view-send-report = 報告を送信
-
-##
-
 protections-panel-cross-site-tracking-cookies = これらの Cookie はサイトからサイトへとユーザーを追跡し、オンラインでの行動に関するデータを収集します。これは広告主や調査分析会社などの第三者によって設置されています。
 protections-panel-cryptominers = 暗号通貨マイニングは仮想通貨の採掘のために、あなたのシステムの計算リソースを利用します。暗号通貨マイニングスクリプトは端末のバッテリーを消費し、コンピューターを遅くさせ、電気代を高くする可能性があります。
 protections-panel-fingerprinters = フィンガープリントの採取はブラウザーとコンピューターから設定を集め、あなたのデジタル指紋を作成します。このデジタル指紋を使うと、様々なウェブサイトに渡ってあなたを追跡することができます。
@@ -113,20 +83,6 @@ protections-panel-shim-allowed-indicator =
 protections-panel-content-blocking-manage-settings =
   .label = 保護設定を管理
   .accesskey = M
-
-protections-panel-content-blocking-breakage-report-view =
-  .title = 壊れたサイトの報告
-protections-panel-content-blocking-breakage-report-view-description2 = 特定のトラッカーをブロックすると、一部のウェブサイトで問題が起こる可能性があります。これらの問題を報告すると、{ -brand-short-name } を改善する手助けになります。報告とともに URL とあなたのブラウザーの設定に関する情報が { -vendor-short-name } に送信されます。
-protections-panel-content-blocking-breakage-report-view-collection-url = URL
-protections-panel-content-blocking-breakage-report-view-collection-url-label =
-  .aria-label = URL
-protections-panel-content-blocking-breakage-report-view-collection-comments = 任意: 問題を説明してください
-protections-panel-content-blocking-breakage-report-view-collection-comments-label =
-  .aria-label = 任意: 問題を説明してください
-protections-panel-content-blocking-breakage-report-view-cancel =
-  .label = キャンセル
-protections-panel-content-blocking-breakage-report-view-send-report =
-  .label = 報告を送信
 
 # Cookie Banner Handling
 
@@ -159,4 +115,3 @@ protections-panel-report-broken-site =
 cfr-protections-panel-header = フォローされずにブラウジングする
 cfr-protections-panel-body = あなたのデータは、あなたが管理しましょう。 { -brand-short-name } は、オンラインでの行動を追跡する最も一般的なトラッカーの多くからあなたを守ります。
 cfr-protections-panel-link-text = さらに詳しく
-

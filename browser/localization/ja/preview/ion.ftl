@@ -22,7 +22,7 @@ ion-ended-study = Study Ended
 ion-accept-participate = Accept and Participate
 ion-accept-leave = Accept and Leave
 ion-cancel = キャンセル
-ion-consent-notice = { -ion-brand-short-name } Privacy Notice
+ion-consent-notice = { -ion-brand-short-name } のプライバシーノーティス (パーソナルデータの取り扱い) 
 ion-consent-study-notice = { -ion-brand-short-name } Study Privacy Consent Notice
 
 leave-ion-consent-title = やめますか?

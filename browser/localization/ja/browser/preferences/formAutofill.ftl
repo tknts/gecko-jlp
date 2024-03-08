@@ -7,8 +7,8 @@
 autofill-manage-addresses-title = 保存されている住所
 autofill-manage-addresses-list-header = 住所
 
-autofill-manage-credit-cards-title = 保存されているクレジットカード
-autofill-manage-credit-cards-list-header = クレジットカード
+autofill-manage-payment-methods-title = 保存されている決済方法
+autofill-manage-cards-list-header = カード
 
 autofill-manage-dialog =
     .style = min-width: 560px
@@ -46,7 +46,7 @@ address-capture-edit-address-button =
 
 
 # The dialog title for creating addresses in browser preferences.
-autofill-add-new-address-title = 新しい住所の追加
+autofill-add-address-title = 住所の追加
 # The dialog title for editing addresses in browser preferences.
 autofill-edit-address-title = 住所の編集
 
@@ -132,15 +132,3 @@ autofill-card-expires-month = Exp. Month
 autofill-card-expires-year = Exp. Year
 autofill-card-billing-address = 請求先住所
 autofill-card-network = カードの種類
-
-## These are brand names and should only be translated when a locale-specific name for that brand is in common use
-
-autofill-card-network-amex = アメリカン・エキスプレス
-autofill-card-network-cartebancaire = Carte Bancaire
-autofill-card-network-diners = ダイナースクラブ
-autofill-card-network-discover = Discover
-autofill-card-network-jcb = JCB
-autofill-card-network-mastercard = MasterCard
-autofill-card-network-mir = MIR
-autofill-card-network-unionpay = 銀聯 (Union Pay)
-autofill-card-network-visa = Visa

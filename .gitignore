@@ -2,3 +2,5 @@
 *.old
 *.toml
 /tools/
+.gitignore
+/browser/locales/

@@ -58,14 +58,6 @@ pdfjs-bookmark-button =
     .title = Current Page (View URL from Current Page)
 pdfjs-bookmark-button-label = 現在のページ
 
-# Used in Firefox for Android.
-pdfjs-open-in-app-button =
-    .title = アプリで開く
-
-# Used in Firefox for Android.
-# Length of the translation matters since we are in a mobile context, with limited screen estate.
-pdfjs-open-in-app-button-label = アプリで開く
-
 ##  Secondary toolbar and context menu
 
 pdfjs-tools-button =
@@ -183,9 +175,9 @@ pdfjs-print-progress-message = Preparing document for printing…
 #   $progress (Number) - percent value
 pdfjs-print-progress-percent = { $progress }%
 
-pdfjs-print-progress-close-button = Cancel
-pdfjs-printing-not-supported = Warning: Printing is not fully supported by this browser.
-pdfjs-printing-not-ready = Warning: The PDF is not fully loaded for printing.
+pdfjs-print-progress-close-button = キャンセル
+pdfjs-printing-not-supported = 警告: このブラウザーでは印刷が完全にはサポートされていません。
+pdfjs-printing-not-ready = 警告: PDF は印刷用に完全にロードされていません。
 
 ## Tooltips and alt text for side panel toolbar buttons
 
