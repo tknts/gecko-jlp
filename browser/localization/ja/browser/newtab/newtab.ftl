@@ -46,6 +46,7 @@ newtab-topsites-add-search-engine-header = 検索エンジンを追加
 newtab-topsites-add-shortcut-header = 新しいショートカット
 newtab-topsites-edit-topsites-header = トップサイトを編集
 newtab-topsites-edit-shortcut-header = ショートカットを編集
+newtab-topsites-add-shortcut-label = ショートカットを追加
 newtab-topsites-title-label = タイトル
 newtab-topsites-title-input =
     .placeholder = タイトルを入力してください
@@ -190,7 +191,7 @@ newtab-section-menu-add-topsite = トップサイトを追加
 newtab-section-menu-add-search-engine = 検索エンジンを追加
 newtab-section-menu-move-up = 上へ移動
 newtab-section-menu-move-down = 下へ移動
-newtab-section-menu-privacy-notice = プライバシー通知
+newtab-section-menu-privacy-notice = プライバシーノーティス (パーソナルデータの取り扱い) 
 
 ## Section aria-labels
 
@@ -263,7 +264,7 @@ newtab-custom-row-selector =
 newtab-custom-sponsored-sites = スポンサー付きショートカット
 newtab-custom-stories-toggle =
   .label = おすすめのストーリー
-  .description = { -brand-product-name } ファミリーの一員である { -pocket-brand-name } によって厳選された優良コンテンツ
+  .description = { -brand-product-name } ファミリーによって厳選された優良コンテンツ
 newtab-custom-pocket-sponsored = スポンサー記事
 newtab-custom-pocket-show-recent-saves = 最近の保存を表示
 newtab-custom-recent-toggle =

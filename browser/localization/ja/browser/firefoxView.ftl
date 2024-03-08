@@ -12,6 +12,9 @@ menu-tools-firefox-view =
 
 firefoxview-page-title = { -firefoxview-brand-name }
 
+firefoxview-page-heading =
+  .heading = { -firefoxview-brand-name }
+
 firefoxview-page-label =
   .label = { -firefoxview-brand-name }
 
@@ -292,3 +295,27 @@ firefoxview-recentlyclosed-empty-description-two = 以前のタブを見つけ�
 firefoxview-syncedtabs-device-notabs = このデバイスでは開いているタブがありません
 
 firefoxview-syncedtabs-connect-another-device = その他のデバイスを接続する
+
+firefoxview-pinned-tabs =
+  .title = 固定されたタブ
+
+firefoxview-tabs =
+  .title = タブ
+
+## These tooltips will be displayed when hovering over a pinned tab on the Open Tabs page
+## Variables:
+##  $tabTitle (string) - Title of pinned tab that will be opened when selected
+
+firefoxview-opentabs-pinned-tab =
+  .title = { $tabTitle } に切り替えます
+
+# This tooltip will be shown for a pinned tab whose URL is currently bookmarked.
+firefoxview-opentabs-bookmarked-pinned-tab =
+  .title = { $tabTitle } (ブックマーク済み) に切り替える
+## These tooltips will be displayed when hovering over an unpinned Open Tab
+## Variables:
+##   $url (string) - URL of tab that will be opened when selected
+
+# This tooltip will be shown for an unpinned tab whose URL is currently bookmarked.
+firefoxview-opentabs-bookmarked-tab =
+  .title = { $url } (ブックマーク済み) 

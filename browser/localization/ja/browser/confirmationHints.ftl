@@ -4,7 +4,6 @@
 
 ## Confirmation hints
 
-confirmation-hint-breakage-report-sent = レポートを送信しました。ご協力ありがとうございます!
 confirmation-hint-password-removed = パスワードを削除しました!
 confirmation-hint-page-bookmarked = ブックマークに保存しました
 confirmation-hint-password-created = パスワードを保存しました

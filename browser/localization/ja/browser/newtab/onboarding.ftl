@@ -310,6 +310,11 @@ onboarding-new-user-time-based-survey-title = { -brand-short-name } を使用し
 onboarding-new-user-familiarity-based-survey-title = { -brand-short-name } についてどの程度ご存知ですか?
 
 onboarding-new-user-survey-subtitle = あなたからのフィードバックが { -brand-short-name } をさらに良くするのに役立ちます。
+
+# When translating "next" it means the next screen in onboarding.
+onboarding-new-user-survey-next-button-label = 次へ
+onboarding-new-user-survey-legal-link-label = “{ onboarding-new-user-survey-next-button-label }” を選択すると { -brand-product-name } の <a data-l10n-name="privacy_notice">プライバシーノーティス</a> (パーソナルデータの取り扱い) に同意したことになります。
+
 # When translating "brand new" it means completely new.
 onboarding-new-user-survey-time-based-option-1 = 初めて使います
 onboarding-new-user-survey-time-based-option-2 = 使い始めて 1ヶ月未満です

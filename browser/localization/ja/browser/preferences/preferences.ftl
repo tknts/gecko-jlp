@@ -287,7 +287,8 @@ preferences-web-appearance-choice-input-dark =
 
 # This can appear when using windows HCM or "Override colors: always" without
 # system colors.
-preferences-web-appearance-override-warning = あなたが選択した配色はウェブサイトの外観を上書きします。 <a data-l10n-name="colors-link">配色を管理</a> する。
+preferences-web-appearance-override-warning2 =
+    .message = 選択された配色によってウェブサイトの外観を上書きします。
 
 # This message contains one link. It can be moved within the sentence as needed
 # to adapt to your language, but should not be changed.
@@ -1419,7 +1420,7 @@ collection-header2 = { -brand-short-name } によるデータの収集と使用
     .searchkeywords = テレメトリ
 
 collection-description = 私たちはあなたに選択肢を提供し { -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。常に私たちは個人情報を受け取る前にあなたの許可を求めます。
-collection-privacy-notice = プライバシーポリシー
+collection-privacy-notice = プライバシーノーティス (パーソナルデータの取り扱い) 
 
 collection-health-report-telemetry-disabled = { -vendor-short-name } への技術的な対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
 collection-health-report-telemetry-disabled-link = さらに詳しく
