@@ -39,6 +39,14 @@ policy-CaptivePortal = キャプティブポータルのサポートを切り替
 
 policy-CertificatesDescription =証明書を追加、または組み込みの証明書を利用します。
 
+policy-Bookmarks = ブックマークは、ブックマーク ツールバー、ブックマーク メニュー、またはその中の指定したフォルダに作成します。
+
+policy-CaptivePortal = キャプティブ ポータルのサポートを切り替えます。
+
+policy-CertificatesDescription = 証明書の追加または、組み込みの証明書を使用します。
+
+policy-ContentAnalysis = データ損失防止エージェントへの接続を切り替えます。
+
 policy-Cookies = ウェブサイトの Cookie の保存を切り替えます。
 
 # Containers in this context is referring to container tabs in Firefox.
@@ -168,6 +176,8 @@ policy-OfferToSaveLoginsDefault = { -brand-short-name } が保存されたログ
 policy-OverrideFirstRunPage = 初回起動時に表示されるページを上書きします。初回起動時のページを無効にする場合は、このポリシーの設定を空白にしてください。
 
 policy-OverridePostUpdatePage = 更新後に表示されるの “What’s New” ページを上書きします。 更新後のページを無効にする場合は、このポリシーの設定を空白にしてください。
+
+policy-PasswordManagerEnabled = パスワード マネージャーへのパスワードの保存を有効にします。
 
 policy-PasswordManagerEnabled = パスワード マネージャーへのパスワードの保存を有効にします。
 

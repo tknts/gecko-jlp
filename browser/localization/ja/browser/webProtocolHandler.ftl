@@ -12,6 +12,8 @@ protocolhandler-mailto-os-handler-no-button = 今はしない
 
 protocolhandler-mailto-handler-notificationbox-always = 常に { $url } を使用して電子メールのリンクを開きますか?
 protocolhandler-mailto-handler-yes-confirm = 電子メールを送信するリンクを開くためのデフォルトのサイトが { $url } になりました。
+protocolhandler-mailto-handler-set-message = 電子メールを開くリンクをクリックするたびに { -brand-short-name } の <strong>{ $url }</strong> を使用しますか?
+protocolhandler-mailto-handler-confirm-message = { -brand-short-name } の <strong>{ $url }</strong> がコンピューターのデフォルトの電子メール ハンドラーになりました。
 
 ##
 
