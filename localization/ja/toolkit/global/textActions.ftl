@@ -66,15 +66,15 @@ text-action-spell-add-to-dictionary =
     .accesskey = o
 
 text-action-spell-undo-add-to-dictionary =
-    .label = Undo Add To Dictionary
+    .label = 追加した単語を元に戻す
     .accesskey = n
 
 text-action-spell-check-toggle =
-    .label = Check Spelling
+    .label = スペルを確認
     .accesskey = g
 
 text-action-spell-add-dictionaries =
-    .label = Add Dictionaries…
+    .label = 辞書に追加…
     .accesskey = A
 
 text-action-spell-dictionaries =
@@ -83,3 +83,6 @@ text-action-spell-dictionaries =
 
 text-action-search-text-box-clear =
     .title = 消去
+
+text-action-highlight-selection =
+    .label = 選択範囲を強調表示

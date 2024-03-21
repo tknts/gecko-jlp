@@ -19,3 +19,8 @@ amo-picker-subtitle = 拡張機能はブラウザー用のアプリのような�
 amo-picker-install-button-label = { -brand-short-name } に追加
 amo-picker-install-complete-label = インストール済み
 amo-picker-collection-link = その他のアドオンを探す
+
+# Button label for the experimental return to about:welcome toolbar button
+browser-aboutwelcome-button =
+    .label = 設定を完了する
+    .tooltiptext = { -brand-short-name } の設定を完了します。

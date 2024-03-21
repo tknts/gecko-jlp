@@ -1442,7 +1442,7 @@ addon-recommendations-link = さらに詳しく
 # or builds with no Telemetry support available.
 collection-health-report-disabled = このビルド構成ではデータレポートは無効化されています
 
-collection-backlogged-crash-reports-with-link = { -brand-short-name } があなたに代わって未送信のクラッシュレポートを送信するのを許可します <a data-l10n-name="crash-reports-link">さらに詳しく</a>
+collection-backlogged-crash-reports = あなたに代わって { -brand-short-name } が未処理のクラッシュ レポートを送信できるようにします
     .accesskey = c
 
 privacy-segmentation-section-header = ブラウジングを強化する新機能
