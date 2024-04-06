@@ -21,13 +21,16 @@ process-type-extension = 拡張機能
 # process used to open file:// URLs
 process-type-file = ローカルファイル
 
+# process used to instantiate new child processes
+process-type-forkserver = Fork Server
+
 # process used to isolate a webpage from other web pages
 # to improve security
-process-type-webisolated = Isolated Web Content
+process-type-webisolated = 分離されたウェブコンテンツ
 
 # process used to isolate a ServiceWorker to improve
 # performance
-process-type-webserviceworker = Isolated Service Worker
+process-type-webserviceworker = 分離された Service Worker
 
 # process preallocated; may change to other types
 process-type-prealloc = Preallocated

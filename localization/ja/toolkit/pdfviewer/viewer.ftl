@@ -318,8 +318,10 @@ pdfjs-editor-stamp-button-label = 画像の追加と編集
 pdfjs-editor-highlight-button =
     .title = 強調表示
 pdfjs-editor-highlight-button-label = 強調表示
-pdfjs-highlight-floating-button =
+pdfjs-highlight-floating-button1 =
     .title = 強調表示
+    .aria-label = 強調表示
+pdfjs-highlight-floating-button-label = 強調表示
 
 ## Remove button for the various kind of editor.
 
@@ -414,4 +416,3 @@ pdfjs-editor-colorpicker-red =
 pdfjs-editor-highlight-show-all-button-label = すべて表示
 pdfjs-editor-highlight-show-all-button =
     .title = すべて表示
-
