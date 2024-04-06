@@ -23,8 +23,6 @@ screenshots-copy-button-title =
   .title = スクリーンショットをクリップボードにコピー
 screenshots-cancel-button-title =
   .title = キャンセル
-screenshots-retry-button-title =
-  .title = スクリーンショットを再試行
 
 screenshots-meta-key = {
   PLATFORM() ->
@@ -58,3 +56,46 @@ screenshots-generic-error-details = 何が起こったのかわかりません�
 
 screenshots-too-large-error-title = スクリーンショットが大きすぎるためトリミングされました
 screenshots-too-large-error-details = 長辺は最大で 32,700 ピクセルまで。または合計面積が 124,900,000 ピクセルより小さくなるよう選択してください。
+
+screenshots-component-retry-button =
+  .title = スクリーンショットの再撮影
+  .aria-label = スクリーンショットの再撮影
+
+screenshots-component-cancel-button =
+  .title =
+    { PLATFORM() ->
+      [macos] キャンセル (esc)
+     *[other] キャンセル (Esc)
+    }
+  .aria-label = キャンセル
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for copying the screenshot.
+screenshots-component-copy-button =
+  .title = コピー ({ $shortcut })
+  .aria-label = コピー
+
+screenshots-component-copy-button-label = Copy
+
+# Variables
+#   $shortcut (String) - A keyboard shortcut for saving/downloading the screenshot.
+screenshots-component-download-button =
+  .title = ダウンロード ({ $shortcut })
+  .aria-label = ダウンロード
+
+screenshots-component-download-button-label = ダウンロード
+
+## The below strings are used to capture keydown events so the strings should
+## not be changed unless the keyboard layout in the locale requires it.
+
+screenshots-component-download-key = S
+screenshots-component-copy-key = C
+
+##
+
+# This string represents the selection size area
+# "x" here represents "by" (i.e 123 by 456)
+# Variables:
+#   $width (Number) - The width of the selection region in pixels
+#   $height (Number) - The height of the selection region in pixels
+screenshots-overlay-selection-region-size-2 = { $width } x { $height }

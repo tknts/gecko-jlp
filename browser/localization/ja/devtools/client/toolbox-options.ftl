@@ -66,6 +66,16 @@ options-default-color-unit-rgb = RGB(A)
 options-default-color-unit-hwb = HWB
 options-default-color-unit-name = 色の名前
 
+## Web Console section
+
+# The heading
+options-webconsole-label = ウェブ コンソール
+
+# The label for the checkbox that toggle whether the Split console is enabled
+options-webconsole-split-console-label = コンソールを分離
+options-webconsole-split-console-tooltip =
+    .title = [Esc] キーを押すと分離したコンソールが開きます
+
 ## Style Editor section
 
 # The heading

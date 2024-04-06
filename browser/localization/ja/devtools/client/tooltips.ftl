@@ -110,6 +110,8 @@ inactive-text-overflow-when-no-overflow-fix = <strong>overflow:hidden</strong> �
 
 inactive-css-not-for-internal-table-elements-fix = <strong>display</strong> プロパティを <strong>table-cell</strong>、<strong>table-column</strong>、<strong>table-row</strong>、<strong>table-column-group</strong>、<strong>table-row-group</strong>、または<strong>table-footer-group</strong> 以外の値に設定してみてください。 { learn-more }
 
+inactive-css-not-for-internal-table-elements-fix = その <strong>display</strong> プロパティを <strong>table-cell</strong>、<strong>table-column</strong>、<strong>table-row</strong>、<strong>table-column-group</strong>、<strong>table-row-group</strong>、または <strong>table-footer-group</strong> 以外に設定してみてください。 { learn-more }
+
 inactive-css-not-for-internal-table-elements-except-table-cells-fix = <strong>display</strong> プロパティを <strong>table-column</strong>、<strong>table-row</strong>、 <strong>table-column-group</strong>、 <strong>table-row-group</strong>、または <strong>table-footer-group</strong> 以外の値を設定してください。 { learn-more }
 
 inactive-css-not-table-fix = <strong>display:table</strong> か <strong>display:inline-table</strong> を追加してみてください。 { learn-more }

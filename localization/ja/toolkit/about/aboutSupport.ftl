@@ -452,3 +452,15 @@ pointing-device-mouse = マウス
 pointing-device-touchscreen = タッチスクリーン
 pointing-device-pen-digitizer = デジタイザーペン
 pointing-device-none = ポインティングデバイスがありません
+
+## Content Analysis (DLP)
+
+# DLP stands for Data Loss Prevention, an industry term for external software
+# that enterprises can set up to prevent sensitive data from being transferred
+# to external websites.
+content-analysis-title = コンテンツ分析 (DLP)
+content-analysis-active = 有効
+content-analysis-connected-to-agent = エージェントに接続しました
+content-analysis-agent-path = エージェントのパス
+content-analysis-agent-failed-signature-verification = エージェントによる署名の検証に失敗しました
+content-analysis-request-count = リクエスト回数

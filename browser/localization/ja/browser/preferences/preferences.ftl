@@ -38,6 +38,8 @@ search-input-box2 =
     .placeholder = 設定を検索
 
 managed-notice = ご使用のブラウザーはあなたの所属組織に管理されています。
+managed-notice-info-icon =
+    .alt = 情報
 
 category-list =
     .aria-label = カテゴリー
@@ -853,8 +855,15 @@ sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10
 
 ## Firefox account - Signed in
 
-sync-profile-picture =
-    .tooltiptext = プロフィール画像を変更します
+sync-profile-picture-with-alt =
+    .tooltiptext = プロフィールの画像を変更します
+    .alt = プロフィールの画像を変更します
+
+sync-profile-picture-account-problem =
+    .alt = アカウントのプロフィール画像
+
+fxa-login-rejected-warning =
+    .alt = 警告
 
 sync-sign-out =
     .label = 切断…

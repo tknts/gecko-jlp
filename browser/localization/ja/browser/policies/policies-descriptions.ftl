@@ -221,6 +221,8 @@ policy-StartDownloadsInTempDirectory = デフォルトのダウンロード デ�
 
 policy-SupportMenu = ヘルプメニューにカスタムサポートメニューを追加します。
 
+policy-TranslateEnabled = ウェブページの翻訳を有効または無効にします。
+
 policy-UserMessaging = 特定のメッセージをユーザーに表示させないようにします。
 
 policy-UseSystemPrintDialog = システムの印刷ダイアログを使用して印刷します。
