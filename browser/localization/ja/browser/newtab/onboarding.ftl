@@ -55,6 +55,10 @@ mr1-onboarding-theme-header = 自分好みに仕上げてください
 mr1-onboarding-theme-subtitle = { -brand-short-name } にテーマを設定してパーソナライズします。
 mr1-onboarding-theme-secondary-button-label = 後で
 
+newtab-wallpaper-onboarding-title = Try a splash of color
+newtab-wallpaper-onboarding-subtitle = 新しいタブに新鮮な外観を与える壁紙を選択してください。
+newtab-wallpaper-onboarding-primary-button-label = 壁紙を設定
+
 # System theme uses operating system color settings
 mr1-onboarding-theme-label-system = システムのテーマ
 

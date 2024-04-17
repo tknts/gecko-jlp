@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-report-broken-site-mainview-title = Report broken site
+report-broken-site-mainview-title = 正常に動作しないサイトの報告
 report-broken-site-panel-header =
   .label = 壊れたサイトを報告
   .title = 壊れたサイトの報告
@@ -29,7 +29,7 @@ report-broken-site-panel-reason-other =
 
 report-broken-site-panel-description-label = 問題を説明してください
 
-report-broken-site-panel-description-optional-label =  問題を説明してください (任意回答)
+report-broken-site-panel-description-optional-label = 問題を説明してください (任意回答)
 
 report-broken-site-panel-send-more-info-link = さらに情報を送信する
 

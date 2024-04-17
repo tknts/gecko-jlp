@@ -20,8 +20,12 @@ contentanalysis-slow-agent-dialog-body-clipboard = あなたの所属する組�
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
 contentanalysis-slow-agent-dialog-body-dropped-text = あなたの所属する組織のデータ ポリシーに照らして { $agent } は、あなたがドラッグ アンド ドロップしたテキストをレビューしています。これには少し時間がかかる場合があります。
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+contentanalysis-slow-agent-dialog-body-print = { $agent } は、印刷した内容を組織のデータ ポリシーに照らして審査しています。これには少し時間がかかる場合があります。
 contentanalysis-operationtype-clipboard = クリップボード
 contentanalysis-operationtype-dropped-text = ドラッグ アンド ドロップされたテキスト
+contentanalysis-operationtype-print = 印刷
 #   $filename - The filename associated with the request, such as "aFile.txt"
 contentanalysis-customdisplaystring-description = “{ $filename }” のアップロード
 
@@ -40,10 +44,30 @@ contentanalysis-notification-title = コンテンツの分析
 contentanalysis-genericresponse-message = Content Analysis responded with { $response } for resource: { $content }
 # Variables:
 #   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
-contentanalysis-block-message = Your organization uses data-loss prevention software that has blocked this content: { $content }.
+contentanalysis-block-message = あなたが所属する組織では、このコンテンツをブロックしたデータ損失防止ソフト使用しています:  { $content }。
 # Variables:
+#   $agent - The name of the DLP agent doing the analysis
 #   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
-contentanalysis-error-message = An error occurred in communicating with the data-loss prevention software. Transfer denied for resource: { $content }.
+contentanalysis-unspecified-error-message = { $agent } との通信中にエラーが発生しました。リソース: { $content } の転送が拒否されました。
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+#   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
+contentanalysis-no-agent-connected-message = { $agent } に接続できません。リソース: { $content } の転送が拒否されました。
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+#   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
+contentanalysis-invalid-agent-signature-message = { $agent } の署名の検証に失敗しました。リソース: { $content } の転送が拒否されました。
+
+contentanalysis-block-dialog-title-upload-file = このファイルのアップロードは許可されていません
+# Variables:
+#   $filename - Name of the file that was blocked, such as "aFile.txt"
+contentanalysis-block-dialog-body-upload-file = 所属する組織のデータ保護ポリシーに基づいて、ファイル “{ $filename }”をアップロードすることは許可されていません。詳細については、管理者にお問い合わせください。
+contentanalysis-block-dialog-title-clipboard = このコンテンツを貼り付けることは許可されていません
+contentanalysis-block-dialog-body-clipboard = 所属する組織のデータ保護ポリシーに基づいて、このコンテンツを貼り付けることは許可されていません。詳細については、管理者にお問い合わせください。
+contentanalysis-block-dialog-title-dropped-text = このコンテンツをドロップすることは許可されていません
+contentanalysis-block-dialog-body-dropped-text = 所属する組織のデータ保護ポリシーに基づいて、このコンテンツをドラッグ アンド ドロップすることは許可されていません。詳細については、管理者にお問い合わせください。
+contentanalysis-block-dialog-title-print = このドキュメントの印刷は許可されていません
+contentanalysis-block-dialog-body-print = 所属する組織のデータ保護ポリシーにより、このドキュメントを印刷することは許可されていません。詳細については、管理者にお問い合わせください。
 
 contentanalysis-inprogress-quit-title = { -brand-shorter-name } を終了しますか?
 contentanalysis-inprogress-quit-message = いくつかの作業が進行中です。 { -brand-shorter-name } を終了すると、これらの作業は完了しません。

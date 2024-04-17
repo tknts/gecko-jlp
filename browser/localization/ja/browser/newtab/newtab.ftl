@@ -272,3 +272,20 @@ newtab-custom-recent-toggle =
   .description = 最近のサイトとコンテンツの選択
 newtab-custom-close-button = 閉じる
 newtab-custom-settings = その他の設定を管理
+
+## New Tab Wallpapers
+
+newtab-wallpaper-title = 壁紙
+newtab-wallpaper-reset = デフォルトに戻す
+newtab-wallpaper-light-red-panda = Red panda
+newtab-wallpaper-light-mountain = White mountain
+newtab-wallpaper-light-sky = Sky with purple and pink clouds
+newtab-wallpaper-light-color = Blue, pink and yellow shapes
+newtab-wallpaper-light-landscape = Blue mist mountain landscape
+newtab-wallpaper-light-beach = Beach with palm tree
+newtab-wallpaper-dark-aurora = Aurora Borealis
+newtab-wallpaper-dark-color = Red and blue shapes
+newtab-wallpaper-dark-panda = Red panda hidden in forest
+newtab-wallpaper-dark-sky = City landscape with a night sky
+newtab-wallpaper-dark-mountain = Landscape mountain
+newtab-wallpaper-dark-city = Purple city landscape
