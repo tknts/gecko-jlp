@@ -956,6 +956,10 @@ tabs-toolbar-list-all-tabs =
 restore-session-startup-suggestion-message = <strong>前回のタブを開きますか?</strong> { -brand-short-name } アプリケーション メニュー <img data-l10n-name="icon"/> の [履歴] から前回のセッションを復元できます。
 restore-session-startup-suggestion-button = 方法を確認
 
+## Infobar shown when the user tries to open a file picker and file pickers are blocked by enterprise policy
+
+filepicker-blocked-infobar = あなたが所属している組織によって、このコンピューター上のローカル ファイルへのアクセスはブロックされています
+
 ## Mozilla data reporting notification (Telemetry, Firefox Health Report, etc)
 
 data-reporting-notification-message = { -brand-short-name } は、ユーザー体験の向上のため、自動的にいくつかのデータを { -vendor-short-name } に送信します。
@@ -965,6 +969,16 @@ data-reporting-notification-button =
 
 # Label for the indicator shown in the private browsing window titlebar.
 private-browsing-indicator-label = プライベート ブラウジング
+
+# Tooltip for the indicator shown in the window titlebar when content analysis is active.
+# Variables:
+#   $agentName (String): The name of the DLP agent that is connected
+content-analysis-indicator-tooltip =
+    .tooltiptext = データ損失防止 (DLP) by { $agentName }。詳細については、クリックしてください。
+content-analysis-panel-title = Data protection
+# Variables:
+#   $agentName (String): The name of the DLP agent that is connected
+content-analysis-panel-text = あなたが所属する組織は、データ損失を防ぐために { $agentName } を使用しています。<a data-l10n-name="info">さらに詳しく</a>
 
 ## Unified extensions (toolbar) button
 
