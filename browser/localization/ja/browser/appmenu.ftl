@@ -84,16 +84,10 @@ appmenu-remote-tabs-showmore =
   .label = その他のタブを表示
   .tooltiptext = このデバイスのタブをさらに表示する
 
-# This is shown when there are inactive tabs which are not being shown.
-# Variables
-# $count (Number) - The number of inactive tabs which are not being shown (at least 1)
-appmenu-remote-tabs-showinactive =
-  .label =
-    { $count ->
-        [one] 非アクティブなタブを表示
-       *[other] { $count } の非アクティブなタブを表示
-    }
-  .tooltiptext = このデバイス上の非アクティブなタブを表示します
+# This is shown as the label for an element to show inactive tabs from this device.
+appmenu-remote-tabs-show-inactive-tabs =
+  .label = 非アクティブなタブ
+  .tooltiptext = このデバイスの非アクティブなタブを表示
 
 # This is shown beneath the name of a device when that device has no open tabs
 appmenu-remote-tabs-notabs = 開かれたタブがありません

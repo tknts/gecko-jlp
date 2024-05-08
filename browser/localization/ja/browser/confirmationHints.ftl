@@ -18,3 +18,10 @@ confirmation-hint-send-to-device = 送信!
 confirmation-hint-firefox-relay-mask-created = 新しいマスクを作成しました!
 confirmation-hint-firefox-relay-mask-reused = 既にあるマスクを再利用!
 confirmation-hint-screenshot-copied = スクリーンショットをコピーしました!
+# Variables:
+#   $tabCount (Number): The number of duplicate tabs closed, at least 1.
+confirmation-hint-duplicate-tabs-closed =
+  { $tabCount ->
+      [one] 重複したタブを閉じました
+      *[other] { $tabCount } 個の重複したタブを閉じました
+  }

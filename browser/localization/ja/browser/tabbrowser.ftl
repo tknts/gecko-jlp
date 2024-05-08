@@ -120,6 +120,11 @@ tabbrowser-confirm-caretbrowsing-title = キャレットブラウズモード
 tabbrowser-confirm-caretbrowsing-message = F7 キーを押すとキャレットブラウズモードのオンとオフが切り替わります。このモードをオンにするとウェブページ中を移動可能なカーソル (キャレット) が表示され、キーボードでテキストを選択できるようになります。キャレットブラウズモードをオンにしますか？
 tabbrowser-confirm-caretbrowsing-checkbox = 次回からこのダイアログ ボックスを表示しない
 
+## Confirmation dialog for closing all duplicate tabs
+
+tabbrowser-confirm-close-duplicate-tabs-title = 注意
+tabbrowser-confirm-close-duplicate-tabs-text = 最後にアクティブだったタブを開いたままにします
+
 ##
 
 # Variables:

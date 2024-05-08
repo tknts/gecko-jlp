@@ -11,3 +11,6 @@ all-tabs-menu-new-user-context =
 
 all-tabs-menu-hidden-tabs =
   .label = タブを隠す
+
+all-tabs-menu-close-duplicate-tabs =
+  .label = 複製したタブを閉じる
