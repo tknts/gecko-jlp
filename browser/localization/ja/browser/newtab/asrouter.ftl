@@ -69,7 +69,7 @@ cfr-doorhanger-extension-total-users =
 ## Firefox Accounts Message
 
 cfr-doorhanger-bookmark-fxa-header = どこからでもブックマークを同期します。
-cfr-doorhanger-bookmark-fxa-body = 素晴らしい発見をしました! このブックマークを、このデバイスにだけ残さないで { -fxaccount-brand-name } で同期しましょう。
+cfr-doorhanger-bookmark-fxa-body-2 = 素晴らしい発見ですね！今すぐアカウントを作成して、このブックマークをモバイルデバイスに入れておきましょう。
 cfr-doorhanger-bookmark-fxa-link-text = ブックマークを今すぐ同期…
 cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
   .aria-label = 閉じるボタン

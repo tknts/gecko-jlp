@@ -1072,6 +1072,13 @@ primary-password-os-auth-dialog-message-win = プライマリーパスワード�
 primary-password-os-auth-dialog-message-macosx = プライマリパスワードを作成する
 master-password-os-auth-dialog-caption = { -brand-full-name }
 
+# The macOS string is preceded by the operating system with "Firefox is trying to ".
+autofill-creditcard-os-dialog-message = { PLATFORM () ->
+    [macos] change the settings for payment methods
+    *[other] { -brand-short-name } が決済方法の設定を変更しようとしています。これを許可するには、デバイスのサインインを使用してください。
+}
+autofill-creditcard-os-auth-dialog-caption = { -brand-full-name }
+
 ## Privacy section - Autofill
 
 pane-privacy-autofill-header = 自動入力
@@ -1085,12 +1092,9 @@ autofill-payment-methods-checkbox-submessage = クレジットカードとデビ
     .accesskey = I
 autofill-saved-payment-methods-button = 決済方法を保存
     .accesskey = v
-autofill-reauth-checkbox = { PLATFORM() ->
-            [macos] 決済方法の入力と編集には macOS 認証が必要です。
-            [windows] 決済方法の入力と編集には Windows 認証が必要です。
-            [linux] 決済方法の入力と編集には Linux 認証が必要です。
-           *[other] 決済方法の入力と編集には認証が必要です。
-        }
+
+# This operation requires the user to authenticate with the operating system (device sign-in)
+autofill-reauth-payment-methods-checkbox = 決済方法の入力と管理にはデバイスのサインインが必要です
     .accesskey = o
 
 ## Privacy Section - History

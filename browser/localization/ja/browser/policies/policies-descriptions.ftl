@@ -66,9 +66,12 @@ policy-DisableDefaultBrowserAgent = Default Browser Agent がアクションを�
 
 policy-DisableDeveloperTools = 開発者ツールへのアクセスをブロックします。
 
+policy-DisableEncryptedClientHello = TLS の拡張機能である暗号化された Client Hello (ECH) の使用を無効にします。
+
 policy-DisableFeedbackCommands = [ヘルプ] メニューからフィードバックを送信する機能 (フィードバックと不正なサイトの報告) を無効にします。
 
-policy-DisableFirefoxAccounts = 同期機能を含む { -fxaccount-brand-name } が必要なサービスを無効にします。
+# This string is in the process of being deprecated in favor of policy-DisableAccounts.
+policy-DisableFirefoxAccounts1 = 同期などのアカウントを必要とするサービスを無効にします。
 
 # Firefox Screenshots is the name of the feature, and should not be translated.
 policy-DisableFirefoxScreenshots = Firefox Screenshots 機能を無効にします。
@@ -182,6 +185,10 @@ policy-PasswordManagerEnabled = パスワード マネージャーへのパス�
 policy-PasswordManagerEnabled = パスワード マネージャーへのパスワードの保存を有効にします。
 
 policy-PasswordManagerExceptions = { -brand-short-name } が特定のサイトでパスワードを保存しないようにします。
+
+# Post-quantum refers to cryptography that is safe from attacks by quantum
+# computers. See https://en.wikipedia.org/wiki/Post-quantum_cryptography
+policy-PostQuantumKeyAgreementEnabled = TLS で量子耐性鍵合意を有効にします。
 
 # PDF.js and PDF should not be translated
 policy-PDFjs = { -brand-short-name } の組み込み PDF ビューアー (PDF.js) を無効化し設定します。
