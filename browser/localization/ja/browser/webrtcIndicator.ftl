@@ -199,7 +199,7 @@ webrtc-action-block =
     .label = ブロック
     .accesskey = B
 webrtc-action-always-block =
-    .label = Always block
+    .label = 毎回ブロック
     .accesskey = w
 webrtc-action-not-now =
     .label = Not now
@@ -207,8 +207,11 @@ webrtc-action-not-now =
 
 ##
 
-webrtc-remember-allow-checkbox = Remember this decision
-webrtc-mute-notifications-checkbox = Mute website notifications while sharing
+webrtc-remember-allow-checkbox = 設定を記憶する
+webrtc-remember-allow-checkbox-camera = すべてのカメラで記憶する
+webrtc-remember-allow-checkbox-microphone = すべてのマイクで記憶する
+webrtc-remember-allow-checkbox-camera-and-microphone = すべてのカメラとマイクで記憶する
+webrtc-mute-notifications-checkbox = 共有中はウェブサイトの通知を停止する
 
 webrtc-reason-for-no-permanent-allow-screen = { -brand-short-name } can not allow permanent access to your screen.
 webrtc-reason-for-no-permanent-allow-audio = { -brand-short-name } can not allow permanent access to your tab’s audio without asking which tab to share.

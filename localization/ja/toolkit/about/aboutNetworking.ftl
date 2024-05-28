@@ -4,6 +4,7 @@
 
 about-networking-title = 接続について
 about-networking-http = HTTP
+about-networking-http-clear-cache-button = HTTP キャッシュを消去
 about-networking-sockets = ソケット
 about-networking-dns = DNS
 about-networking-dns-clear-cache-button = DNS キャッシュを消去

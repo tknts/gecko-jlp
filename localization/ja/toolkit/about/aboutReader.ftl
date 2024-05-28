@@ -5,20 +5,18 @@
 about-reader-loading = 読み込み中…
 about-reader-load-error = ページから記事を読み込めませんでした
 
-about-reader-color-theme-light = ライト
-    .title = 明るい色のテーマを使用します
-about-reader-color-theme-dark = ダーク
-    .title = 暗い色のテーマを使用します
-about-reader-color-theme-sepia = セピア
-    .title = セピアカラーのテーマを使用します
-about-reader-color-theme-auto = 自動
-    .title = 配色を自動的に設定します
-about-reader-color-theme-gray = グレー
-    .title = グレーのテーマを使用します
-about-reader-color-theme-contrast = コンストラクト
-    .title = コンストラクトの強いテーマを使用します
-about-reader-color-theme-custom = カスタム カラー
-    .title = カスタマイズされた色のテーマを使用します
+about-reader-color-light-theme = ライト
+    .title = 明るい色のテーマ
+about-reader-color-dark-theme = ダーク
+    .title = 暗い色のテーマ
+about-reader-color-sepia-theme = セピア
+    .title = セピアカラーのテーマ
+about-reader-color-auto-theme = 自動
+    .title = システムのテーマ
+about-reader-color-gray-theme = グレー
+    .title = グレーのテーマ
+about-reader-color-contrast-theme = コンストラクト
+    .title = コンストラクトの強いテーマ
 
 # An estimate for how long it takes to read an article,
 # expressed as a range covering both slow and fast readers.
@@ -50,20 +48,22 @@ about-reader-toolbar-lineheightplus =
 
 about-reader-font-type-serif = Serif
 about-reader-font-type-sans-serif = Sans-serif
+about-reader-font-type-monospace = Monospace
 
 ## Reader View toolbar buttons
 
 about-reader-toolbar-close = リーダービューを閉じる
 about-reader-toolbar-type-controls = 文字を制御
-about-reader-toolbar-color-controls = 配色
-about-reader-toolbar-savetopocket = { -pocket-brand-name } に保存
+about-reader-toolbar-text-layout-controls = 文字とレイアウト
+about-reader-toolbar-theme-controls = テーマ
+about-reader-toolbar-savetopocket = { -pocket-brand-name } へ保存
 
 ## Reader View colors menu
 
-about-reader-colors-menu-header = Theme
+about-reader-colors-menu-header = テーマ
 
-about-reader-fxtheme-tab = Default
-about-reader-customtheme-tab = Custom
+about-reader-fxtheme-tab = デフォルト
+about-reader-customtheme-tab = カスタム
 
 ## These are used as labels for the custom theme color pickers.
 ## The .title element is used to make the editing functionality
@@ -82,4 +82,40 @@ about-reader-custom-colors-visited-links = 訪問済みリンク
 about-reader-custom-colors-selection-highlight = 読み上げ用の強調表示
     .title = 色の編集
 
-about-reader-custom-colors-reset-button = デフォルトの戻す
+about-reader-reset-button = デフォルトに戻す
+
+## Reader View improved text and layout menu
+
+about-reader-text-header = 文字
+
+about-reader-text-size-label = 文字の大きさ
+about-reader-font-type-selector-label = フォント
+about-reader-font-weight-selector-label = フォントの太さ
+
+about-reader-font-weight-light = 細い
+about-reader-font-weight-regular = 通常
+about-reader-font-weight-bold = 太い
+
+about-reader-layout-header = レイアウト
+
+about-reader-slider-label-spacing-standard = 標準
+about-reader-slider-label-spacing-wide = ワイド
+
+about-reader-content-width-label =
+  .label = Content width
+about-reader-line-spacing-label =
+  .label = 行の間隔
+
+about-reader-advanced-layout-header = 詳細
+
+about-reader-character-spacing-label =
+  .label = 文字の間隔
+about-reader-word-spacing-label =
+  .label = 単語の間隔
+about-reader-text-alignment-label = 文字の配置
+about-reader-text-alignment-left =
+    .title = 文字を左で揃えます
+about-reader-text-alignment-center =
+    .title = 文字を中央で揃えます
+about-reader-text-alignment-right =
+    .title = 文字を右で揃えます

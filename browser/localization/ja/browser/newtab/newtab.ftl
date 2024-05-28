@@ -270,6 +270,9 @@ newtab-custom-pocket-show-recent-saves = 最近の保存を表示
 newtab-custom-recent-toggle =
   .label = 最近のアクティビティ
   .description = 最近のサイトとコンテンツの選択
+newtab-custom-weather-toggle =
+  .label = 天気
+  .description = 今日の天気予報が一目でわかる
 newtab-custom-close-button = 閉じる
 newtab-custom-settings = その他の設定を管理
 
@@ -289,3 +292,37 @@ newtab-wallpaper-dark-panda = Red panda hidden in forest
 newtab-wallpaper-dark-sky = City landscape with a night sky
 newtab-wallpaper-dark-mountain = Landscape mountain
 newtab-wallpaper-dark-city = Purple city landscape
+
+# Variables
+#   $author_string (String) - The name of the creator of the photo.
+#   $webpage_string (String) - The name of the webpage where the photo is located.
+newtab-wallpaper-attribution = Photo by <a data-l10n-name="name-link">{ $author_string }</a> on <a data-l10n-name="webpage-link">{ $webpage_string }</a>
+
+## New Tab Weather
+
+# Variables:
+#   $provider (string) - Service provider for weather data
+newtab-weather-see-forecast =
+    .title = See forecast in { $provider }
+# Variables:
+#   $provider (string) - Service provider for weather data
+newtab-weather-sponsored = { $provider } ∙ Sponsored
+newtab-weather-menu-change-location = 地域を変更
+newtab-weather-change-location-search-input = 地域を検索
+newtab-weather-menu-weather-display = Weather display
+# Display options are:
+# - Simple: Displays a current weather condition icon and the current temperature
+# - Detailed: Include simple information plus a short text summary: e.g. "Mostly cloudy"
+newtab-weather-menu-weather-display-option-simple = シンプル
+newtab-weather-menu-change-weather-display-simple = シンプル表示に切り替え
+newtab-weather-menu-weather-display-option-detailed = 詳細
+newtab-weather-menu-change-weather-display-detailed = 詳細表示に切り替える
+newtab-weather-menu-temperature-units = 温度の単位
+newtab-weather-menu-temperature-option-fahrenheit = 華氏(℉)
+newtab-weather-menu-temperature-option-celsius = 摂氏(℃)
+newtab-weather-menu-change-temperature-units-fahrenheit = 華氏(℉)に切り替える
+newtab-weather-menu-change-temperature-units-celsius = 摂氏(℃)に切り替える
+newtab-weather-menu-hide-weather = 新しいタブで天気予報を表示しない
+newtab-weather-menu-learn-more = さらに詳しく
+# This message is shown if user is working offline
+newtab-weather-error-not-available = 現在、気象データは利用できません。
