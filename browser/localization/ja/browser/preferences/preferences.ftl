@@ -734,6 +734,10 @@ home-prefs-highlights-option-saved-to-pocket =
 home-prefs-recent-activity-header =
     .label = 最近のアクティビティ
 home-prefs-recent-activity-description = 最近のサイトとコンテンツの抜粋
+home-prefs-weather-header =
+  .label = 天気
+home-prefs-weather-description = 今日の天気予報が一目でわかる
+home-prefs-weather-learn-more-link = さらに詳しく
 
 # Variables:
 #   $num (number) - Number of rows displayed
@@ -1036,6 +1040,9 @@ forms-saved-passwords =
 forms-primary-pw-use =
     .label = プライマリーパスワードを使用する
     .accesskey = U
+# This operation requires the user to authenticate with the operating system (device sign-in)
+forms-os-reauth =
+    .label = パスワードの入力と管理にデバイスのサインインを要求する
 forms-primary-pw-learn-more-link = さらに詳しく
 # This string uses the former name of the Primary Password feature
 # ("Master Password" in English) so that the preferences can be found
@@ -1598,8 +1605,6 @@ preferences-doh-checkbox-warn =
     .accesskey = W
 
 preferences-doh-select-resolver = プロパイダーの選択:
-
-preferences-doh-exceptions-description = { -brand-short-name } はこれらのサイトで安全な DNS を使用しません
 
 preferences-doh-manage-exceptions =
     .label = 例外を管理…
