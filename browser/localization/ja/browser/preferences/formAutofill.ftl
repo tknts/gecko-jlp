@@ -51,13 +51,10 @@ autofill-add-address-title = 住所の追加
 autofill-edit-address-title = 住所の編集
 
 autofill-address-name = 名前
-autofill-address-given-name = First Name
-autofill-address-additional-name = Middle Name
-autofill-address-family-name = Last Name
-autofill-address-organization = Organization
-autofill-address-street-address = Street Address
+autofill-address-organization = 所属先
+autofill-address-street-address = 住所
 
-autofill-address-street = Street Address
+autofill-address-street = 住所
 
 ## address-level-3 (Sublocality) names
 

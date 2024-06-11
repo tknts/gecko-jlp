@@ -58,7 +58,7 @@ connection-proxy-socks4 =
 connection-proxy-socks5 =
     .label = SOCKS v5
     .accesskey = v
-connection-proxy-noproxy = プロキシーなしで接続
+connection-proxy-noproxy = プロキシなしで接続
     .accesskey = N
 
 connection-proxy-noproxy-desc = 例: .mozilla.org, .net.nz, 192.168.1.0/24
@@ -79,8 +79,11 @@ connection-proxy-autologin-checkbox =
     .accesskey = i
     .tooltiptext = このオプションは、プロキシーへのパスワードが保存してある場合、確認することなく認証を行います。認証に失敗した場合は確認を行います。
 
+connection-proxy-socks4-remote-dns =
+    .label = SOCKS v4 使用時に DNS プロキシーを使用する
+    .accesskey = 4
 connection-proxy-socks-remote-dns =
-    .label = SOCKS v5 を使用するときは DNS もプロキシーを使用する
+    .label = SOCKS v5 使用時に DNS プロキシーを使用する
     .accesskey = D
 
 # Variables:
