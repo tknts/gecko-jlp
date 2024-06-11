@@ -25,13 +25,8 @@ sidebar-history-date-prev-month =
 sidebar-search-results-header =
   .heading = “{ $query }” の検索結果
 
-sidebar-menu-customize =
-  .title = サイドバーのカスタマイズ
-sidebar-customize-header = サイドバーのカスタマイズ
 sidebar-customize-firefox-tools = { -brand-product-name } ツール
-sidebar-customize-history = 履歴
-sidebar-customize-synced-tabs = その他のデバイスのタブ
-sidebar-customize-bookmarks = ブックマーク
+sidebar-customize-firefox-settings = { -brand-short-name } の設定を管理
 
 ## Labels for sidebar context menu items
 
@@ -44,3 +39,21 @@ sidebar-context-menu-report-extension =
 
 # A header for a list of sidebar-specific extensions in the sidebar
 sidebar-customize-extensions = サイドバー拡張機能
+
+## Labels for sidebar menu items.
+
+sidebar-menu-history-label = 履歴
+sidebar-menu-synced-tabs-label = その他のデバイスのタブ
+sidebar-menu-bookmarks-label = ブックマーク
+sidebar-menu-customize-label = サイドバーのカスタマイズ
+
+## Tooltips for sidebar menu items.
+
+sidebar-menu-history-item = {""}
+  .title = { sidebar-menu-history-label }
+sidebar-menu-synced-tabs-item = {""}
+  .title = { sidebar-menu-synced-tabs-label }
+sidebar-menu-bookmarks-item = {""}
+  .title = { sidebar-menu-bookmarks-label }
+sidebar-menu-customize-item = {""}
+  .title = { sidebar-menu-customize-label }

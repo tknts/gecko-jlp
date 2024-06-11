@@ -280,8 +280,8 @@ newtab-custom-settings = その他の設定を管理
 
 newtab-wallpaper-title = 壁紙
 newtab-wallpaper-reset = デフォルトに戻す
-newtab-wallpaper-light-red-panda = Red panda
-newtab-wallpaper-light-mountain = White mountain
+newtab-wallpaper-light-red-panda = レッサーパンダ
+newtab-wallpaper-light-mountain = 雪山
 newtab-wallpaper-light-sky = Sky with purple and pink clouds
 newtab-wallpaper-light-color = Blue, pink and yellow shapes
 newtab-wallpaper-light-landscape = Blue mist mountain landscape
@@ -293,10 +293,59 @@ newtab-wallpaper-dark-sky = City landscape with a night sky
 newtab-wallpaper-dark-mountain = Landscape mountain
 newtab-wallpaper-dark-city = Purple city landscape
 
+## Solid Colors
+
+newtab-wallpaper-category-title-colors = Solid colors
+newtab-wallpaper-blue = ブルー
+newtab-wallpaper-light-blue = ライトブルー
+newtab-wallpaper-light-purple = ライトパープル
+newtab-wallpaper-light-green = ライトグリーン
+newtab-wallpaper-green = グリーン
+newtab-wallpaper-beige = ベージュ
+newtab-wallpaper-yellow = イエロー
+newtab-wallpaper-orange = オレンジ
+newtab-wallpaper-pink = ピンク
+newtab-wallpaper-light-pink = ライトピンク
+newtab-wallpaper-red = レッド
+newtab-wallpaper-dark-blue = ダークブルー
+newtab-wallpaper-dark-purple = ダークパープル
+newtab-wallpaper-dark-green = ダークグリーン
+newtab-wallpaper-brown = ブラウン
+
+## Abstract
+
+newtab-wallpaper-category-title-abstract = Abstract
+newtab-wallpaper-abstract-green = Green shapes
+newtab-wallpaper-abstract-blue = Blue shapes
+newtab-wallpaper-abstract-purple = Purple shapes
+newtab-wallpaper-abstract-orange = Orange shapes
+newtab-wallpaper-gradient-orange = Gradient orange and pink
+newtab-wallpaper-abstract-blue-purple = Blue and purple shapes
+
+## Photographs
+
+newtab-wallpaper-category-title-photographs = Photographs
+newtab-wallpaper-beach-at-sunrise = サンライズビーチ
+newtab-wallpaper-beach-at-sunset = サンセットビーチ
+newtab-wallpaper-storm-sky = ストームスカイ
+newtab-wallpaper-sky-with-pink-clouds = Sky with pink clouds
+newtab-wallpaper-red-panda-yawns-in-a-tree = 木の上であくびをするレッサーパンダ
+newtab-wallpaper-white-mountains = White mountains
+
 # Variables
 #   $author_string (String) - The name of the creator of the photo.
 #   $webpage_string (String) - The name of the webpage where the photo is located.
 newtab-wallpaper-attribution = Photo by <a data-l10n-name="name-link">{ $author_string }</a> on <a data-l10n-name="webpage-link">{ $webpage_string }</a>
+newtab-wallpaper-feature-highlight-header = カラフルにしてみませんか?
+newtab-wallpaper-feature-highlight-content = 新しいタブに壁紙を設定してフレッシュな見た目にしましょう。
+newtab-wallpaper-feature-highlight-button = Got it
+# Tooltip for dismiss button
+feature-highlight-dismiss-button =
+    .title = Dismiss
+    .aria-label = ポップアップを閉じます
+feature-highlight-wallpaper =
+    .title = { -newtab-wallpaper-feature-highlight-header }
+    .aria-label = { -newtab-wallpaper-feature-highlight-content }
 
 ## New Tab Weather
 

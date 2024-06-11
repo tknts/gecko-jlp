@@ -1475,6 +1475,16 @@ privacy-segmentation-radio-off =
 privacy-segmentation-radio-on =
     .label = 詳細な情報を表示する
 
+## Privacy Section - Website Advertising Preferences
+
+website-advertising-header = ウェブサイト広告の設定
+
+website-advertising-private-attribution =
+    .label = ウェブサイトがプライバシーを保護した広告を実行できるようにする measurement
+    .accesskey = a
+
+website-advertising-private-attribution-description = これにより、サイトはユーザーに関するデータを収集することなく、広告効果を測定できるようになります。
+
 ## Privacy Section - Security
 ##
 ## It is important that wording follows the guidelines outlined on this page:

@@ -19,6 +19,8 @@ inactive-css-not-grid-or-flex-container-or-multicol-container = この要素は�
 
 inactive-css-not-multicol-container = <strong>{ $property }</strong> はマルチカラム コンテナではないため、この要素には影響しません。
 
+inactive-css-column-span = <strong>{ $property }</strong> は複数列コンテナ内にないため、この要素にスパンは影響しません。
+
 inactive-css-not-grid-or-flex-item = この要素はグリッド アイテムでもフレックス アイテムでもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
 
 inactive-css-not-grid-item = この要素はグリッ ドアイテムではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
@@ -44,6 +46,8 @@ inactive-css-not-display-block-on-floated = 要素が <strong>floated</strong> �
 inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</strong> の制限により <strong>{ $property }</strong> を上書きする事はできません。
 
 inactive-css-position-property-on-unpositioned-box = <strong>{ $property }</strong> は位置指定要素ではないため、この要素には影響を与えません。
+
+inactive-css-only-replaced-elements = <strong>{ $property }</strong> は置換された要素にのみ適用できるため、この要素には影響しません。
 
 inactive-text-overflow-when-no-overflow = <strong>overflow:hidde</strong> が設定されていないため <strong>{ $property }</strong> は、この要素に影響を与えません。
 
@@ -84,7 +88,11 @@ inactive-css-not-grid-or-flex-container-fix = <strong>display:grid</strong> ま�
 
 inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>display:grid</strong>, <strong>display:flex</strong>, または <strong>columns:2</strong> のいずれかを追加してみてください。{ learn-more }
 
+inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>display:grid</strong>、<strong>display:flex</strong>、または <strong>columns:2</strong> のいずれかを追加してみてください。{ learn-more }
+
 inactive-css-not-multicol-container-fix = <strong>column-count</strong> または <strong>column-width</strong> を追加してみてください。{ learn-more }
+
+inactive-css-column-span-fix = 親要素の 1 つに <strong>column-count</strong> または <strong>column-width</strong> を追加してみてください。 { learn-more }
 
 inactive-css-not-grid-or-flex-item-fix-3 = <strong>display:grid</strong>、 <strong>display:flex</strong>、 <strong>display:inline-grid</strong> か <strong>display:inline-flex</strong> を追加してみてください。 { learn-more }
 
@@ -106,9 +114,9 @@ inactive-css-not-display-block-on-floated-fix = <strong>float</strong> を削除
 
 inactive-css-position-property-on-unpositioned-box-fix = その  <strong>position</strong> プロパティを値を <strong>static</strong> 以外に変更してください。 { learn-more }
 
-inactive-text-overflow-when-no-overflow-fix = <strong>overflow:hidden</strong> を追加してみてください。 { learn-more }
+inactive-css-only-replaced-elements-fix = 置換された要素にプロパティが追加されていることを確認してください。 { learn-more }
 
-inactive-css-not-for-internal-table-elements-fix = <strong>display</strong> プロパティを <strong>table-cell</strong>、<strong>table-column</strong>、<strong>table-row</strong>、<strong>table-column-group</strong>、<strong>table-row-group</strong>、または<strong>table-footer-group</strong> 以外の値に設定してみてください。 { learn-more }
+inactive-text-overflow-when-no-overflow-fix = <strong>overflow:hidden</strong> を追加してみてください。 { learn-more }
 
 inactive-css-not-for-internal-table-elements-fix = その <strong>display</strong> プロパティを <strong>table-cell</strong>、<strong>table-column</strong>、<strong>table-row</strong>、<strong>table-column-group</strong>、<strong>table-row-group</strong>、または <strong>table-footer-group</strong> 以外に設定してみてください。 { learn-more }
 
