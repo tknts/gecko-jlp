@@ -9,6 +9,8 @@ learn-more = <span data-l10n-name="link">さらに詳しく</span>
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain why
 ## the property is not applied.
+## The variables are all passed from the same place, in `InactiveCssTooltipHelper#getTemplate`
+## (devtools/client/shared/widgets/tooltip/inactive-css-tooltip-helper.js#95)
 ## Variables:
 ##   $property (string) - A CSS property name e.g. "color".
 ##   $display (string) - A CSS display value e.g. "inline-block".
@@ -43,6 +45,12 @@ inactive-css-property-because-of-display = この要素は <strong>{ $display }<
 
 inactive-css-not-display-block-on-floated = 要素が <strong>floated</strong> であるため、エンジンによって <strong>display</strong> の値が <strong>block</strong> に変更されました。
 
+inactive-css-only-non-grid-or-flex-item = <strong>{ $property }</strong> は、グリッド アイテムやフレックス アイテムでは使用できないため、効果がありません。
+
+inactive-css-not-block = <strong>{ $property }</strong> はブロックレベル要素にのみ適用されるため、この要素には影響しません。
+
+inactive-css-not-floated = <strong>{ $property }</strong> はフロート要素にのみ適用されるため、効果はありません。
+
 inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</strong> の制限により <strong>{ $property }</strong> を上書きする事はできません。
 
 inactive-css-position-property-on-unpositioned-box = <strong>{ $property }</strong> は位置指定要素ではないため、この要素には影響を与えません。
@@ -57,11 +65,15 @@ inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $pro
 
 inactive-css-not-table = <strong>{ $property }</strong> はテーブルではないため、この要素には影響を与えません。
 
+inactive-css-collapsed-table-borders = この要素は境界線が折りたたまれたテーブルなので、<strong>{ $property }</strong> は影響を与えません。
+
 inactive-css-not-table-cell = <strong>{ $property }</strong> はテーブル セルではないため、この要素には影響を与えません。
 
 inactive-scroll-padding-when-not-scroll-container = <strong>{ $property }</strong> はスクロールしないため、この要素には影響を与えません。
 
 inactive-css-border-image = <strong>{ $property }</strong> は、この要素には影響を与えません。なぜなら親テーブル要素の <strong>border-collapse</strong> が <strong>collapse</strong> に設定されている内部テーブル要素には適用できないからです。
+
+inactive-css-resize = <strong>{ $property }</strong> は、visible 以外のオーバーフロー値を持つ要素、およびテキストエリアなどの特定の置換された要素にのみ適用されるため、この要素には影響しません。
 
 inactive-css-ruby-element = <strong>{ $property }</strong> はルビ要素であるため、この要素には何の影響も与えません。その大きさはルビ文字のフォントサイズによって決まります。
 
@@ -77,7 +89,9 @@ inactive-css-text-wrap-balance-lines-exceeded =
         *[other] <strong>{ $property }</strong> は { $lineCount } 行を超えるため、この要素には影響しません。
      }
 
-inactive-css-text-wrap-balance-fragmented = <strong>{ $property }</strong> has no effect on this element because it is fragmented, i.e. its content is split across multiple columns or pages.
+inactive-css-text-wrap-balance-fragmented = この要素が断片化されているため <strong>{ $property }</strong> は効果がありません。コンテンツが複数の列にまたがっているか、ページに分割されています。
+
+inactive-css-no-width-height = この要素の幅と高さは設定できないため <strong>{ $property }</strong> はこの要素には影響しません。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
@@ -112,6 +126,12 @@ inactive-css-non-replaced-inline-or-table-column-or-column-group-fix = <strong>d
 
 inactive-css-not-display-block-on-floated-fix = <strong>float</strong> を削除するか <strong>display:block</strong> を追加してみてください。 { learn-more }
 
+inactive-css-only-non-grid-or-flex-item-fix = 要素のコンテナの <strong>display</strong> の値を <strong>flex</strong>、<strong>grid</strong>、<strong>inline-flex</strong>、<strong>inline-grid</strong> 以外の値に変更するか、<strong>float</strong> を削除してみてください。{ learn-more }
+
+inactive-css-not-block-fix = <strong>display:block</strong> や <strong>float:left</strong> などのプロパティを追加してみてください。{ learn-more }
+
+inactive-css-not-floated-fix = <strong>float</strong> プロパティに <strong>none</strong> 以外の値を追加してみてください。{ learn-more }
+
 inactive-css-position-property-on-unpositioned-box-fix = その  <strong>position</strong> プロパティを値を <strong>static</strong> 以外に変更してください。 { learn-more }
 
 inactive-css-only-replaced-elements-fix = 置換された要素にプロパティが追加されていることを確認してください。 { learn-more }
@@ -124,11 +144,15 @@ inactive-css-not-for-internal-table-elements-except-table-cells-fix = <strong>di
 
 inactive-css-not-table-fix = <strong>display:table</strong> か <strong>display:inline-table</strong> を追加してみてください。 { learn-more }
 
+inactive-css-collapsed-table-borders-fix = <strong>border-collapse:separate</strong> を追加してみてください。 { learn-more }
+
 inactive-css-not-table-cell-fix = <strong>display:table-cell</strong> を追加してみてください。{ learn-more }
 
 inactive-scroll-padding-when-not-scroll-container-fix = <strong>overflow:auto</strong> か <strong>overflow:scroll</strong> または <strong>overflow:hidden</strong> を追加してみてください。{ learn-more }
 
-inactive-css-border-image-fix = On the parent table element, remove the property or change the value of <strong>border-collapse</strong> to a value other than <strong>collapse</strong>. { learn-more }
+inactive-css-border-image-fix = 親テーブル要素で、プロパティを削除するか <strong>border-collapse</strong> の値を <strong>collapse</strong> 以外の値に変更します。{ learn-more }
+
+inactive-css-resize-fix = <strong>overflow</strong> を <strong>visible</strong> 以外の値に設定するか、それをサポートする要素に置き換えてみてください。 { learn-more }
 
 inactive-css-ruby-element-fix = ルビの <strong>font-size</strong> を変更してみてください。 { learn-more }
 

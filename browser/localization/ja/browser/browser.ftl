@@ -131,9 +131,6 @@ urlbar-result-menu-tip-get-help =
 urlbar-search-tips-onboard = 少ない入力で多くを探す: アドレスバーから直接 { $engineName } を検索できます。
 urlbar-search-tips-redirect-2 = アドレスバーで検索を開始して { $engineName } からのサジェストと履歴を表示します。
 
-# Make sure to match the name of the Search panel in settings.
-urlbar-search-tips-persist = 検索がさらに簡単になりました。アドレスバーに連続して検索ワードを入力してみたください。アドレスバーで検索ワードの代わりに URL を表示するには、設定の [検索] にアクセスしてください。
-
 # Prompts users to use the Urlbar when they are typing in the domain of a
 # search engine, e.g. google.com or amazon.com.
 urlbar-tabtosearch-onboard = このショートカットを選択すると、必要なものをすばやく見つけることができます。
@@ -677,6 +674,24 @@ urlbar-group-quickactions =
 urlbar-group-recent-searches =
   .label = 最近の検索
 
+# The header shown above trending results.
+# Variables:
+#  $engine (String): the name of the search engine providing the trending suggestions
+urlbar-group-trending =
+  .label = { $engine } でトレンド検索
+
+# The result menu labels shown next to trending results.
+urlbar-result-menu-trending-dont-show =
+    .label = トレンド検索を表示しない
+    .accesskey = D
+urlbar-result-menu-trending-why =
+    .label = なぜ表示されるのですか?
+    .accesskey = W
+
+# A message that replaces a result when the user dismisses all suggestions of a
+# particular type.
+urlbar-trending-dismissal-acknowledgment = フィードバックありがとうございます。今後はトレンド検索は表示されなくなります。
+
 ## Reader View toolbar buttons
 
 # This should match menu-view-enter-readerview in menubar.ftl
@@ -1052,6 +1067,11 @@ firefox-relay-offer-legal-notice = “メールマスクを使用する”をク
 popup-notification-addon-install-unsigned =
     .value = (未検証)
 popup-notification-xpinstall-prompt-learn-more = アドオンを安全にインストールする方法について、さらに詳しく
+
+# Note: Access key is set to P to match "Private" in the corresponding localized label.
+popup-notification-addon-privatebrowsing-checkbox =
+    .label = プライベートウィンドウで実行
+    .accesskey = P
 
 ## Pop-up warning
 

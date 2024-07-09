@@ -150,6 +150,9 @@ perftools-presets-networking-description = { -brand-shorter-name } でネット�
 perftools-presets-power-label = 電力消費
 perftools-presets-power-description = { -brand-shorter-name } の電力使用に関するバグを調査するための低負荷なプリセットです。
 
+perftools-presets-debug-label = デバッグ
+perftools-presets-debug-description = { -brand-shorter-name } でのデバッグ用のプリセットです。オーバーヘッドが高いため、パフォーマンスを必要とする作業には使用せず、ブラウザの動作を理解することに重点を置きます。
+
 perftools-presets-custom-label = カスタマイズ
 
 ##

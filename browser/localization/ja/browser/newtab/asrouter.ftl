@@ -171,24 +171,6 @@ mr2022-background-update-toast-primary-button-label = { -brand-shorter-name } �
 # exceeding characters will be truncated.
 mr2022-background-update-toast-secondary-button-label = 後で通知する
 
-## Firefox View CFR
-
-firefoxview-cfr-primarybutton = 今すぐ使う
-  .accesskey = T
-firefoxview-cfr-secondarybutton = 後で
-  .accesskey = N
-firefoxview-cfr-header-v2 = 中断したところからすばやく再開
-firefoxview-cfr-body-v2 = 最近閉じたタブを元に戻すだけでなく { -firefoxview-brand-name } を使用してデバイス間をシームレスに移動します。
-
-## Firefox View Spotlight
-
-firefoxview-spotlight-promo-title = { -firefoxview-brand-name } をよろしく
-
-# “Poof” refers to the expression to convey when something or someone suddenly disappears, or in this case, reappears. For example, “Poof, it’s gone.”
-firefoxview-spotlight-promo-subtitle = スマートフォンで開いているタブを見たいですか?。今アクセスしたサイトが必要ですか?。{ -firefoxview-brand-name } であっという間に開き直せます。
-firefoxview-spotlight-promo-primarybutton = 仕組みについて
-firefoxview-spotlight-promo-secondarybutton = スキップ
-
 ## Cookie Banner Handling CFR
 
 cookie-banner-blocker-onboarding-header = { -brand-short-name } が Cookie 同意バナーの表示ブロックしました
