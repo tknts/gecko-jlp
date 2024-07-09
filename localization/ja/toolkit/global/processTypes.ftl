@@ -52,6 +52,9 @@ process-type-socket = ソケット
 # process used to decode media
 process-type-rdd = RDD
 
+# process used to run inference
+process-type-inference = インターフェイス
+
 # process used to run some IPC actor in their own sandbox
 process-type-utility = Sandboxed IPC Actor
 process-type-utility-actor-audio-decoder-generic = Utility Generic Audio Decoder

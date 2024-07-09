@@ -122,8 +122,10 @@ tabbrowser-confirm-caretbrowsing-checkbox = 次回からこのダイアログ �
 
 ## Confirmation dialog for closing all duplicate tabs
 
-tabbrowser-confirm-close-duplicate-tabs-title = 注意
-tabbrowser-confirm-close-duplicate-tabs-text = 最後にアクティブだったタブを開いたままにします
+tabbrowser-confirm-close-all-duplicate-tabs-title = 重複したタブを閉じますか?
+tabbrowser-confirm-close-all-duplicate-tabs-text = このウィンドウ内の重複したタブは閉じられます。最後にアクティブだったタブは開いたままになります。
+
+tabbrowser-confirm-close-all-duplicate-tabs-button-closetabs = タブを閉じる
 
 ##
 

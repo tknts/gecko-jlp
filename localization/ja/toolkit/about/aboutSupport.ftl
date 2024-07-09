@@ -363,6 +363,10 @@ has-seccomp-bpf = Seccomp-BPF (システムコールフィルタリング)
 has-seccomp-tsync = Seccomp スレッド同期
 has-user-namespaces = ユーザー名前空間
 has-privileged-user-namespaces = 特権プロセス用のユーザー名前空間
+# Variables
+# $status (string) - Boolean value of hasUserNamespaces (should only be false when support-user-namespaces-unavailable is used)
+support-user-namespaces-unavailable =
+    { $status } — この機能はシステムによって許可されていません。これにより、{ -brand-short-name } のセキュリティ機能が制限される可能性があります。
 can-sandbox-content = コンテンツプロセスのサンドボックス化
 can-sandbox-media = メディアプラグインのサンドボックス化
 content-sandbox-level = コンテンツプロセスのサンドボックスレベル

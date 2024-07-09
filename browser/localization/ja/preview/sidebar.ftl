@@ -2,8 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-sidebar-main-insights =
-    .title = Insights
+menu-view-genai-chat =
+  .label = AI チャットボット
 
 ## Variables:
 ##   $date (string) - Date to be formatted based on locale
@@ -25,8 +25,15 @@ sidebar-history-date-prev-month =
 sidebar-search-results-header =
   .heading = “{ $query }” の検索結果
 
-sidebar-customize-firefox-tools = { -brand-product-name } ツール
+## Labels for sidebar customize panel
+
+sidebar-customize-firefox-tools =
+  .label = { -brand-product-name } ツール
 sidebar-customize-firefox-settings = { -brand-short-name } の設定を管理
+sidebar-position-left =
+  .label = 左側に表示
+sidebar-position-right =
+  .label = 右側に表示
 
 ## Labels for sidebar context menu items
 
@@ -42,18 +49,41 @@ sidebar-customize-extensions = サイドバー拡張機能
 
 ## Labels for sidebar menu items.
 
-sidebar-menu-history-label = 履歴
-sidebar-menu-synced-tabs-label = その他のデバイスのタブ
-sidebar-menu-bookmarks-label = ブックマーク
+sidebar-menu-genai-chat-label =
+  .label = AI チャットボット
+sidebar-menu-history-label =
+  .label = 履歴
+sidebar-menu-synced-tabs-label =
+  .label = その他のデバイスのタブ
+sidebar-menu-bookmarks-label =
+  .label = ブックマーク
 sidebar-menu-customize-label = サイドバーのカスタマイズ
 
 ## Tooltips for sidebar menu items.
 
+sidebar-menu-genai-chat-item = {""}
+  .title = AI チャットボット
 sidebar-menu-history-item = {""}
-  .title = { sidebar-menu-history-label }
+  .title = 履歴
 sidebar-menu-synced-tabs-item = {""}
-  .title = { sidebar-menu-synced-tabs-label }
+  .title = その他のデバイスのタブ
 sidebar-menu-bookmarks-item = {""}
-  .title = { sidebar-menu-bookmarks-label }
+  .title = ブックマーク
 sidebar-menu-customize-item = {""}
   .title = { sidebar-menu-customize-label }
+
+## Headings for sidebar menu panels.
+
+sidebar-menu-customize-header =
+  .heading = サイドバーのカスタマイズ
+sidebar-menu-history-header =
+  .heading = 履歴
+sidebar-menu-syncedtabs-header =
+  .heading = その他のデバイスからのタブ
+
+sidebar-customize-settings =
+  .label = サイドバーの設定
+sidebar-visibility-always-show =
+  .label = 常に表示する
+sidebar-visibility-hide-sidebar =
+  .label = サイドバーを隠す

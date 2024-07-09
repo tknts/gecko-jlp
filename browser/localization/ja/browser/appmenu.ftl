@@ -226,6 +226,10 @@ profiler-popup-presets-power-description = { -brand-shorter-name } の電力使�
 profiler-popup-presets-power-label =
   .label = 電力消費
 
+profiler-popup-presets-debug-description = Preset for debugging in { -brand-shorter-name }. High overhead, do not use for performance work but use for focusing on understanding browser behavior.
+profiler-popup-presets-debug-label =
+  .label = デバッグ
+
 profiler-popup-presets-custom-label =
   .label = カスタマイズ
 

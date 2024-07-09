@@ -131,7 +131,7 @@ shopping-settings-sidebar-enabled-state = レビュー チェッカーは<strong
 # reliable reviews.
 shopping-adjusted-rating-label =
   .label = 調整後の評価
-shopping-adjusted-rating-unreliable-reviews = 信頼性の低いレビューは削除されました
+shopping-adjusted-rating-based-reliable-reviews = 信頼できるレビューに基づく
 
 ## Strings for the review reliability component
 
@@ -147,16 +147,16 @@ shopping-analysis-explainer-intro2 =
 shopping-analysis-explainer-grades-intro =
   各製品のレビューには A から F までの <strong>アルファベットによる成績</strong> が表示されます。
 shopping-analysis-explainer-adjusted-rating-description =
-  The <strong>adjusted rating</strong> is based only on reviews we believe to be reliable.
+  <strong>調整された評価</strong>は、信頼できると思われるレビューのみに基づいています。
 shopping-analysis-explainer-learn-more2 =
-  Learn more about <a data-l10n-name="review-quality-url">how { -fakespot-brand-name } determines review quality</a>.
+  <a data-l10n-name="review-quality-url">{ -fakespot-brand-name } がレビューの品質を決定する方法</a>について。
 
 # This string includes the short brand name of one of the three supported
 # websites, which will be inserted without being translated.
 #  $retailer (String) - capitalized name of the shopping website, for example, "Amazon".
 shopping-analysis-explainer-highlights-description =
-  <strong>Highlights</strong> are from { $retailer } reviews within the last 80 days that we believe to be reliable.
-
+  <strong>ハイライト</strong>は、過去 80 日間に信頼できると思われる { $retailer } のレビューからのものです。
+  
 shopping-analysis-explainer-review-grading-scale-reliable = Reliable reviews. We believe the reviews are likely from real customers who left honest, unbiased reviews.
 shopping-analysis-explainer-review-grading-scale-mixed = We believe there’s a mix of reliable and unreliable reviews.
 shopping-analysis-explainer-review-grading-scale-unreliable = Unreliable reviews. We believe the reviews are likely fake or from biased reviewers.
@@ -175,20 +175,20 @@ shopping-sidebar-close-button2 =
 ## used in the name of the Firefox feature ('Review Checker'). If that is not
 ## possible - if these terms are not meaningfully different - that is OK.
 
-shopping-unanalyzed-product-header-2 = No info about these reviews yet
-shopping-unanalyzed-product-message-2 = To know whether this product’s reviews are reliable, check the review quality. It only takes about 60 seconds.
-shopping-unanalyzed-product-analyze-button = Check review quality
+shopping-unanalyzed-product-header-2 = これらのレビューに関する情報はまだありません
+shopping-unanalyzed-product-message-2 = この商品のレビューが信頼できるかどうかを知るには、レビューの品質を確認してください。所要時間はわずか 60 秒です。
+shopping-unanalyzed-product-analyze-button = レビューの品質を確認する
 
 ## Strings for the advertisement
 
 more-to-consider-ad-label =
-  .label = More to consider
-ad-by-fakespot = Ad by { -fakespot-brand-name }
+  .label = さらに考慮すべきこと
+ad-by-fakespot = { -fakespot-brand-name } による広告
 
 ## Shopping survey strings.
 
-shopping-survey-headline = Help improve { -brand-product-name }
-shopping-survey-question-one = How satisfied are you with the Review Checker experience in { -brand-product-name }?
+shopping-survey-headline = { -brand-product-name } の改善にご協力ください
+shopping-survey-question-one = { -brand-product-name } のレビュー チェッカーの使用感にどの程度満足していますか?
 
 shopping-survey-q1-radio-1-label = Very satisfied
 shopping-survey-q1-radio-2-label = Satisfied
@@ -196,17 +196,17 @@ shopping-survey-q1-radio-3-label = Neutral
 shopping-survey-q1-radio-4-label = Dissatisfied
 shopping-survey-q1-radio-5-label = Very dissatisfied
 
-shopping-survey-question-two = Does the Review Checker make it easier for you to make purchase decisions?
+shopping-survey-question-two = レビュー チェッカーを使用すると、購入の決定が容易になりますか?
 
-shopping-survey-q2-radio-1-label = Yes
-shopping-survey-q2-radio-2-label = No
+shopping-survey-q2-radio-1-label = はい
+shopping-survey-q2-radio-2-label = いいえ
 shopping-survey-q2-radio-3-label = I don’t know
 
-shopping-survey-next-button-label = Next
-shopping-survey-submit-button-label = Submit
-shopping-survey-terms-link = Terms of use
+shopping-survey-next-button-label = 次へ
+shopping-survey-submit-button-label = 送信
+shopping-survey-terms-link = 利用規約
 shopping-survey-thanks =
-  .heading = Thanks for your feedback!
+  .heading = ご意見ありがとうございます！
 
 ## Shopping Feature Callout strings.
 ## "price tag" refers to the price tag icon displayed in the address bar to

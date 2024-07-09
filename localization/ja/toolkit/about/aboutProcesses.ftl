@@ -52,6 +52,7 @@ about-processes-remote-sandbox-broker-process = Remote Sandbox Broker ({ $pid })
 about-processes-fork-server-process = Fork Server ({ $pid })
 about-processes-preallocated-process = 事前割り当て済み ({ $pid })
 about-processes-utility-process = ユーティリティー ({ $pid })
+about-processes-inference-process = インターフェイス ({ $pid })
 
 # Unknown process names
 # Variables:

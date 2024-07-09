@@ -60,6 +60,11 @@ urlbar-result-menu-learn-more-about-firefox-suggest =
     .label = { -firefox-suggest-brand-name } についてさらに詳しく
     .accesskey = L
 
+# Manage menu item shown in the result menu of Firefox Suggest results.
+urlbar-result-menu-manage-firefox-suggest =
+    .label = { -firefox-suggest-brand-name } を管理
+    .accesskey = M
+
 # A message shown in a result when the user gives feedback on it.
 firefox-suggest-feedback-acknowledgment = フィードバックをありがとうございます
 
@@ -338,32 +343,6 @@ firefox-suggest-onboarding-main-reject-option-description-3 = Leave the default 
 firefox-suggest-onboarding-main-submit-button = 設定を保存
 firefox-suggest-onboarding-main-skip-link = 今はしない
 
-## Strings for trending suggestions that are currently only used in
-## en-US based experiments.
-
-# Shown in preferences to enabled and disable trending suggestions.
-search-show-trending-suggestions =
-    .label = トレンドの検索候補を表示する
-    .accesskey = t
-
-# The header shown above trending results.
-# Variables:
-#  $engine (String): the name of the search engine providing the trending suggestions
-urlbar-group-trending =
-  .label = { $engine } のトレンド
-
-# The result menu labels shown next to trending results.
-urlbar-result-menu-trending-dont-show =
-    .label = トレンド検索を表示しない
-    .accesskey = D
-urlbar-result-menu-trending-why =
-    .label = これが表示される理由
-    .accesskey = W
-
-# A message that replaces a result when the user dismisses all suggestions of a
-# particular type.
-urlbar-trending-dismissal-acknowledgment = フィードバックをありがとうございます。トレンド検索は表示されなくなります。
-
 urlbar-firefox-suggest-contextual-opt-in-title-1 =
   Find the best of the web, faster
 urlbar-firefox-suggest-contextual-opt-in-title-2 =
@@ -376,3 +355,26 @@ urlbar-firefox-suggest-contextual-opt-in-description-2 =
   <a data-l10n-name="learn-more-link">Learn more</a>
 urlbar-firefox-suggest-contextual-opt-in-allow = サジェストを許可
 urlbar-firefox-suggest-contextual-opt-in-dismiss = 許可しない
+
+## Searchmode Switcher button
+
+urlbar-searchmode-button =
+    .label = 検索エンジンを選ぶ
+    .tooltiptext = 検索エンジンを選びます
+urlbar-searchmode-dropmarker =
+    .tooltiptext = 検索エンジンを選びます
+# Variables:
+#   $restrict (Character): the character used to filter results of type.
+urlbar-searchmode-bookmarks =
+    .label = ブックマーク ({ $restrict })
+# Variables:
+#   $restrict (Character): the character used to filter results of type.
+urlbar-searchmode-tabs =
+    .label = タブ ({ $restrict })
+# Variables:
+#   $restrict (Character): the character used to filter results of type.
+urlbar-searchmode-history =
+    .label = 履歴 ({ $restrict })
+
+urlbar-searchmode-popup-description = 検索エンジン:
+urlbar-searchmode-popup-search-settings = 検索の設定
