@@ -89,6 +89,13 @@ firefox-suggest-dismissal-acknowledgment-one-yelp = フィードバックをあ�
 # A message that replaces a result when the user dismisses all Yelp suggestions.
 firefox-suggest-dismissal-acknowledgment-all-yelp = フィードバックをありがとうございます。 { -yelp-brand-name } からのサジェストは表示されなくなります。
 
+# A message that replaces a result when the user dismisses a single Fakespot
+# suggestion.
+firefox-suggest-dismissal-acknowledgment-one-fakespot = フィードバックありがとうございます。この { -fakespot-brand-name } からのサジェストは今後表示されなくなります。
+
+# A message that replaces a result when the user dismisses all Fakespot suggestions.
+firefox-suggest-dismissal-acknowledgment-all-fakespot = フィードバックありがとうございます。今後は { -fakespot-brand-name } からのサジェストは表示されなくなります。
+
 ## These strings are used for weather suggestions in the urlbar.
 
 # This string is displayed above the current temperature
@@ -137,6 +144,12 @@ firefox-suggest-command-not-interested =
   .label = 関心がありません
 firefox-suggest-weather-command-inaccurate-location =
   .label = 不正確な位置情報を報告する
+firefox-suggest-command-manage-fakespot =
+  .label = { -fakespot-brand-name } からのサジェストを管理
+firefox-suggest-command-dont-show-this-suggestion =
+  .label = このサジェストを表示しない
+firefox-suggest-command-dont-show-any-suggestions =
+  .label = サジェストを表示しない
 
 ## These strings are used for add-on suggestions in the urlbar.
 
@@ -164,6 +177,33 @@ firefox-suggest-pocket-bottom-text = { -pocket-brand-name } · Related to <stron
 # This string is shown in Yelp suggestions and indicates the suggestion is for
 # Yelp.
 firefox-suggest-yelp-bottom-text = Yelp · スポンサー
+
+## These strings are used for Fakespot suggestions in the urlbar.
+
+# This string displays inside of the badge in Fakespot suggestion.
+firefox-suggest-fakespot-badge = 信頼できるレビュー
+
+## This string displays rating and total reviews as a label.
+## Variables:
+##  $rating (number) - The number of rating for the suggestion.
+##  $totalReviews (number) - The number of total reviews for the suggestion.
+
+# Show the exact number of reviews.
+firefox-suggest-fakespot-rating-and-total-reviews =
+  { $totalReviews ->
+     [one] { $rating } · ({ $totalReviews } review)
+    *[other] { $rating } · ({ $totalReviews } reviews)
+  }
+# Show an approximate number of reviews (e.g. 100,000+ reviews).
+firefox-suggest-fakespot-rating-and-total-reviews-overflow =
+  { $totalReviews ->
+     [one] { $rating } · ({ $totalReviews }+ review)
+    *[other] { $rating } · ({ $totalReviews }+ reviews)
+  }
+
+# This string is shown in Fakespot suggestion and indicates the suggestion is
+# sponsored.
+firefox-suggest-fakespot-sponsored = { -fakespot-brand-name } · スポンサー
 
 ## These strings are used in the preferences UI (about:preferences). Their names
 ## follow the naming conventions of other strings used in the preferences UI.

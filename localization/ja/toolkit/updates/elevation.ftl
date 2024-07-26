@@ -10,13 +10,19 @@ elevation-details-link-label =
 elevation-error-manual =
  { -brand-short-name } を手動で更新するには、次のリンクにアクセスして最新バージョンをダウンロードします:
 
-elevation-finished-page = Update Ready to Install
+elevation-finished-page = 更新のインストール準備が完了しました
 elevation-finished-background-page =
-  A security and stability update for { -brand-short-name } has been
-  downloaded and is ready to be installed.
-elevation-finished-background = Update:
+  { -brand-short-name } のセキュリティと安定性のアップデートがダウンロードされ、インストールする準備ができました。
+  
+elevation-finished-background = 更新:
 elevation-more-elevated =
-  This update requires administrator privileges. The update will be
-  installed the next time { -brand-short-name } starts. You can restart
-  { -brand-short-name } now, continue working and restart later, or decline this
-  update.
+  この更新には管理者権限が必要です。更新は、{ -brand-short-name } の次回起動時にインストールされます。今すぐ { -brand-short-name } を再起動するか、作業を続行して後で再起動するか、この更新を拒否することができます。
+
+
+
+
+sandbox-missing-unprivileged-namespaces = 現在使用中のオペレーティング システムでは { -brand-short-name } の一部のセキュリティ機能の保護性能が低下する可能性があります。
+sandbox-unprivileged-namespaces-dismiss-button =
+  .label = 次回から表示しない
+  .accesskey = D
+sandbox-unprivileged-namespaces-howtofix = この問題を解決するには

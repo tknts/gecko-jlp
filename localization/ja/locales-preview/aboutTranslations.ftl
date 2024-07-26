@@ -6,6 +6,7 @@
 about-translations-title = 翻訳
 about-translations-header = { -translations-brand-name }
 about-translations-results-placeholder = 翻訳
+about-translations-translating-message = 翻訳しています…
 # Text displayed on from-language dropdown when no language is selected
 about-translations-detect = 言語の自動検出
 # Text displayed on from-language dropdown when a language is detected

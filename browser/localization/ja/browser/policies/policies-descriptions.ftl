@@ -146,6 +146,10 @@ policy-HardwareAcceleration = false にするとハードウェア アクセラ�
 # “lock” means that the user won’t be able to change this setting
 policy-Homepage = ホームページを設定し、任意でロックします。
 
+policy-HttpAllowlist = オリジンは HTTPS にアップグレードされません。
+
+policy-HttpsOnlyMode = HTTPS-Only モードを有効にします。
+
 policy-InstallAddonsPermission = 特定のウェブサイトにアドオンのインストールを許可します。
 
 policy-LegacyProfiles = インストールごとに個別のプロファイルを適用する機能を無効にします。
@@ -212,6 +216,8 @@ policy-SanitizeOnShutdown2 = 終了時にナビゲーションデータを消去
 policy-SearchBar = 検索バーのデフォルトの位置を設定します。ユーザーがカスタマイズすることも可能です。
 
 policy-SearchEngines = 検索エンジンの設定を行います。このポリシー延長サポート (ESR) 版でのみ利用可能です。
+
+policy-SearchEngines = 検索エンジンの設定を構成します。このポリシーは、拡張サポート リリース (ESR) バージョンでのみ使用できます。
 
 policy-SearchSuggestEnabled = 検索候補の表示機能の使用を切り替えます。
 
