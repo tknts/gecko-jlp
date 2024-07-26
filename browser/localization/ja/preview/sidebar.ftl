@@ -5,9 +5,10 @@
 menu-view-genai-chat =
   .label = AI チャットボット
 
-## Variables:
-##   $date (string) - Date to be formatted based on locale
+## Labels for sidebar history panel
 
+# Variables:
+#   $date (string) - Date to be formatted based on locale
 sidebar-history-date-today =
   .heading = 今日 - { DATETIME($date, dateStyle: "full") }
 sidebar-history-date-yesterday =
@@ -27,13 +28,25 @@ sidebar-search-results-header =
 
 ## Labels for sidebar customize panel
 
-sidebar-customize-firefox-tools =
+sidebar-customize-firefox-tools-header =
   .label = { -brand-product-name } ツール
 sidebar-customize-firefox-settings = { -brand-short-name } の設定を管理
 sidebar-position-left =
   .label = 左側に表示
 sidebar-position-right =
   .label = 右側に表示
+sidebar-vertical-tabs =
+  .label = Vertical tabs
+sidebar-horizontal-tabs =
+  .label = Horizontal tabs
+sidebar-customize-tabs-header =
+  .label = タブの設定
+sidebar-customize-settings-header =
+  .label = サイドバーの設定
+sidebar-visibility-always-show =
+  .label = 常に表示する
+sidebar-visibility-hide-sidebar =
+  .label = サイドバーを閉じる
 
 ## Labels for sidebar context menu items
 
@@ -43,9 +56,6 @@ sidebar-context-menu-remove-extension =
   .label = 拡張機能を削除
 sidebar-context-menu-report-extension =
   .label = 拡張機能を報告
-
-# A header for a list of sidebar-specific extensions in the sidebar
-sidebar-customize-extensions = サイドバー拡張機能
 
 ## Labels for sidebar menu items.
 
@@ -80,10 +90,3 @@ sidebar-menu-history-header =
   .heading = 履歴
 sidebar-menu-syncedtabs-header =
   .heading = その他のデバイスからのタブ
-
-sidebar-customize-settings =
-  .label = サイドバーの設定
-sidebar-visibility-always-show =
-  .label = 常に表示する
-sidebar-visibility-hide-sidebar =
-  .label = サイドバーを隠す

@@ -14,6 +14,7 @@ default-browser-notification-button =
 
 default-browser-prompt-title-pin = { -brand-short-name } をメインのブラウザーにしますか?
 default-browser-prompt-message-pin = { -brand-short-name } をすぐに使用できます — 既定のブラウザーに設定し、タスクバーにピン留めします。
+default-browser-prompt-message-pin-msix = { -brand-short-name } をいつでも使えるようにしておきましょう。これをデフォルトのブラウザに設定し、タスクバーやスタート メニューにピン留めします。
 default-browser-prompt-message-pin-mac = Keep { -brand-short-name } at your fingertips — make it your default browser and keep it in your Dock.
 default-browser-prompt-button-primary-pin = メインのブラウザーにする
 default-browser-prompt-title-alt = { -brand-short-name } を既定のブラウザーにしますか?

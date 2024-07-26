@@ -1,3 +1,4 @@
+
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -23,10 +24,30 @@ backup-file-name = { -brand-product-name } のバックアップ
 
 settings-data-backup-header = バックアップ
 settings-data-backup-toggle = バックアップの管理
+settings-data-backup-scheduled-backups-on = バックアップ: オン
+settings-data-backup-scheduled-backups-off = バックアップ: オフ
+settings-data-backup-scheduled-backups-description = ブックマーク、履歴、その他のデータを自動的に保護します。 <a data-l10n-name="support-link">さらに詳しく</a>
+settings-data-backup-last-backup-date = 最終バックアップ日時: { DATETIME($date, timeStyle: "short") }, { DATETIME($date, dateStyle: "short") }
+# "Location" refers to the folder where backups are being written to.
+settings-data-backup-last-backup-location = 保管場所
+settings-data-backup-last-backup-location-show-in-folder = Show in folder
+settings-data-backup-last-backup-location-edit = 編集…
+
+# Variables:
+#   $fileName (String) - The file name of the last backup that was created.
+settings-data-backup-last-backup-filename = ファイルの名前: { $fileName }
 
 settings-data-backup-restore-header = あなたのデータを復元
-settings-data-backup-restore-description = 別のデバイスから { -brand-short-name } のバックアップを使用してデータを復元します。
-settings-data-backup-restore-choose = ファイルから選択…
+
+## These strings are shown under the header if scheduled backups are disabled.
+
+settings-data-backup-scheduled-backups-off-restore-description = 別のデバイスからの { -brand-product-name } バックアップを使用してデータを復元します。
+settings-data-backup-scheduled-backups-off-restore-choose = バックアップファイルを選択...
+
+## These strings are shown under the header if scheduled backups are enabled.
+
+settings-data-backup-scheduled-backups-on-restore-description = { -brand-product-name } のデータを前回バックアップした時点から復元します。
+settings-data-backup-scheduled-backups-on-restore-choose = 復元…
 
 settings-data-toggle-encryption-label = 機密データをバックアップする
 settings-data-toggle-encryption-description = パスワード、支払い方法、Cookie を暗号化してバックアップします。
@@ -90,6 +111,7 @@ restore-from-backup-password-description = これにより、暗号化された�
 
 restore-from-backup-cancel-button = キャンセル
 restore-from-backup-confirm-button = 復元して再起動
+restore-from-backup-restoring-button = 復元しています…
 
 ## These strings are displayed in a modal when users want to enable encryption or change the password for an existing backup.
 

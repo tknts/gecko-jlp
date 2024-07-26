@@ -9,12 +9,6 @@
 default-bookmarks-title = ブックマーク
 default-bookmarks-heading = ブックマーク
 
-default-bookmarks-toolbarfolder = Bookmarks Toolbar Folder
-default-bookmarks-toolbarfolder-description = Add bookmarks to this folder to see them displayed on the Bookmarks Toolbar
-
-# link title for https://www.mozilla.org/firefox/central/
-default-bookmarks-getting-started = Getting Started
-
 # Firefox links folder name
 default-bookmarks-firefox-heading = Mozilla Firefox
 

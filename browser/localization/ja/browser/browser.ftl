@@ -1105,3 +1105,25 @@ popup-warning-button =
 #   $popupURI (String): the URI for the pop-up window
 popup-show-popup-menuitem =
     .label = “{ $popupURI }” を表示
+
+## File-picker crash notification ("FilePickerCrashed.sys.mjs")
+
+file-picker-failed-open = Windows のファイル ダイアログを開けませんでした。ファイルまたはフォルダーを選択できませんでした。
+#   $path (string): The full path to which the file will be saved (e.g., 'C:\Users\Default User\Downloads\readme.txt').
+file-picker-failed-save-somewhere = Windows のファイル ダイアログを開けませんでした。ファイルは { $path } に保存されます。
+file-picker-failed-save-nowhere = Windows のファイル ダイアログを開けませんでした。既定のフォルダーが見つからないため、ファイルは保存されません。
+
+file-picker-crashed-open = Windows のファイル ダイアログがクラッシュしました。ファイルまたはフォルダーを選択できませんでした。
+#   $path (string): The full path to which the file will be saved (e.g., 'C:\Users\Default User\Downloads\readme.txt').
+file-picker-crashed-save-somewhere = Windows のファイル ダイアログがクラッシュしました。ファイルは { $path } に保存されます。
+file-picker-crashed-save-nowhere = Windows のファイル ダイアログがクラッシュしました。既定のフォルダーが見つからないため、ファイルは保存されません。
+
+# Button used with file-picker-crashed-save-default. Opens the folder in Windows
+# Explorer, with the saved file selected and in focus.
+#
+# The wording here should be consistent with the Windows variant of
+# `downloads-cmd-show-menuitem-2` and similar messages.
+
+file-picker-crashed-show-in-folder =
+    .label = フォルダーを表示
+    .accessKey = F

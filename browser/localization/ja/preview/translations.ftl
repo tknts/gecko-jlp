@@ -22,3 +22,13 @@ translations-settings-download-languages = 言語をダウンロード
 translations-settings-download-all-languages = すべての言語
 translations-settings-download-languages-link = 言語のダウンロードについてさらに詳しく
 translations-settings-language-header = 言語
+# Variables:
+#   $size (number) - The size of the download in megabites
+translations-settings-download-size = ({ $size })
+translations-settings-language-header = 言語
+translations-settings-language-download-error =
+    .heading = ダウンロードのエラー
+    .message = 言語のダウンロードに失敗しました。もう一度お試しください。
+translations-settings-language-remove-error =
+    .heading = 削除に失敗しました
+    .message = 言語の削除に失敗しました。もう一度お試しください。
