@@ -140,10 +140,13 @@ about-debugging-setup-usb-step-enable-dev-menu2 = Android 端末の開発者向�
 about-debugging-setup-usb-step-enable-debug2 = Android 端末の開発者向けオプションで USB デバッグを有効にします。
 
 # USB section step by step guide
+about-debugging-setup-usb-step-enable-file-transfer = ファイル転送を有効にし、デバイスが充電専用モードになっていないことを確認します。
+
+# USB section step by step guide
 about-debugging-setup-usb-step-enable-debug-firefox2 = Android 端末上の Firefox で USB デバッグを有効にします。
 
 # USB section step by step guide
-about-debugging-setup-usb-step-plug-device = Android 端末をコンピューターに接続します。
+about-debugging-setup-usb-step-plug-device = Android デバイスをコンピュータに接続します。
 
 # Text shown in the USB section of the setup page with a link to troubleshoot connection errors.
 # The link goes to https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/index.html#connecting-to-a-remote-device

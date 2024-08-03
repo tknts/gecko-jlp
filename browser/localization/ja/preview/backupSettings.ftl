@@ -126,7 +126,22 @@ enable-backup-encryption-repeat-password-label = パスワードをもう一度�
 enable-backup-encryption-cancel-button = キャンセル
 enable-backup-encryption-confirm-button = 保存
 
-change-backup-encryption-header = バックアップ パスワードの変更
+change-backup-encryption-header = バックアップパスワードの変更
+
+## These strings are displayed in a tooltip showing what requirements are met while creating a password.
+
+password-rules-header = パスワード要件
+password-rules-length-description = 8文字以上
+password-rules-email-description = あなたのメールアドレスではありません
+password-rules-common-description = 一般的に使用されるパスワードではありません
+password-rules-disclaimer = 安全を確保するため — パスワードを使い回さないでください。<a data-l10n-name="password-support-link">強力なパスワード</a>を作成するためのヒントをご覧ください。
+
+## These strings are only used for assistive technologies, like screen readers, in the password requirements tooltip.
+
+password-rules-a11y-success =
+    .alt = 成功
+password-rules-a11y-warning =
+    .alt = 警告
 
 ## These strings are displayed in a modal when users want to disable encryption for an existing backup.
 

@@ -18,7 +18,10 @@ sidebar-history-date-this-month =
 sidebar-history-date-prev-month =
   .heading = { DATETIME($date, month: "long", year: "numeric") }
 
-##
+sidebar-history-delete =
+  .title = 履歴から削除
+
+## Labels for sidebar search
 
 # "Search" is a noun (as in "Results of the search for")
 # Variables:
@@ -28,6 +31,7 @@ sidebar-search-results-header =
 
 ## Labels for sidebar customize panel
 
+sidebar-customize-extensions-header = サイドバー拡張機能
 sidebar-customize-firefox-tools-header =
   .label = { -brand-product-name } ツール
 sidebar-customize-firefox-settings = { -brand-short-name } の設定を管理
@@ -67,20 +71,8 @@ sidebar-menu-synced-tabs-label =
   .label = その他のデバイスのタブ
 sidebar-menu-bookmarks-label =
   .label = ブックマーク
-sidebar-menu-customize-label = サイドバーのカスタマイズ
-
-## Tooltips for sidebar menu items.
-
-sidebar-menu-genai-chat-item = {""}
-  .title = AI チャットボット
-sidebar-menu-history-item = {""}
-  .title = 履歴
-sidebar-menu-synced-tabs-item = {""}
-  .title = その他のデバイスのタブ
-sidebar-menu-bookmarks-item = {""}
-  .title = ブックマーク
-sidebar-menu-customize-item = {""}
-  .title = { sidebar-menu-customize-label }
+sidebar-menu-customize-label =
+  .label = サイドバーのカスタマイズ
 
 ## Headings for sidebar menu panels.
 

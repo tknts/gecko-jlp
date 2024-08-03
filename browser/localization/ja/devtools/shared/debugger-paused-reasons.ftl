@@ -80,6 +80,7 @@ whypaused-assert = アサーションで停止しました
 # currently paused on a debugger statement
 whypaused-debug-command = デバッグされた関数で停止しました
 
-# The text that is displayed in a info block explaining how the debugger is
-# currently paused on an event listener breakpoint set
+# The text that is displayed in a info block saying that the debugger is currently paused
+# without other precision. This is also used in the overlay we show in the page when
+# the page is paused.
 whypaused-other = デバッガが停止しました

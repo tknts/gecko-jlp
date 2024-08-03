@@ -297,6 +297,14 @@ onboarding-device-migration-title = おかえりなさい!
 onboarding-device-migration-subtitle2 = アカウントにサインインして、ブックマーク、パスワード、履歴を新しいデバイスに移行してください。
 onboarding-device-migration-primary-button-label = サインイン
 
+## Add-ons Picker screen
+
+amo-picker-title = { -brand-short-name } のカスタマイズ
+amo-picker-subtitle = 拡張機能はブラウザ用のアプリのようなもので、パスワードを保護したり、ビデオをダウンロードしたり、お得な情報を探したり、迷惑な広告をブロックしたり、ブラウザの外観を変更したり、その他さまざまなことができます。
+amo-picker-install-button-label = { -brand-short-name } へ追加
+amo-picker-install-complete-label = インストール済み
+amo-picker-collection-link = その他のアドオンを見る
+
 ## The following screens have been updated to use security and privacy focused strings:
 
 # Easy setup screen
