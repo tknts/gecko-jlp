@@ -204,14 +204,16 @@ newtab-section-expand-section-label =
 
 newtab-section-header-topsites = トップサイト
 newtab-section-header-recent-activity = 最近のアクティビティ
-newtab-section-header-stories = Thought-provoking stories
+newtab-section-header-stories = 興味を引くストーリー
+# "picks" refers to recommended articles
+newtab-section-header-todays-picks = 今日のおすすめ
 
 ## Empty Section States: These show when there are no more items in a section. Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 
 newtab-empty-section-highlights = ブラウジングを開始すると、最近アクセスしたりブックマークしたりした、すばらしい記事、ビデオ、その他のページが表示されます。
 
 # Ex. When there are no more story recommendations, in the space where there would have been stories, this is shown instead.
-newtab-empty-section-topstories-generic = You’ve caught up. Check back later for more stories. Can’t wait? Select a popular topic to find more great stories from around the web.
+newtab-empty-section-topstories-generic = 現在おすすめのストーリーはありません。後ほどまたチェックして、他の記事もご覧ください。待ちきれませんか? 人気のトピックを選択して、ウェブ上の他のすばらしい記事を見つけてください。
 
 ## Empty Section (Content Discovery Experience). These show when there are no more stories or when some stories fail to load.
 
@@ -388,3 +390,42 @@ newtab-weather-menu-hide-weather = 新しいタブで天気予報を表示しな
 newtab-weather-menu-learn-more = さらに詳しく
 # This message is shown if user is working offline
 newtab-weather-error-not-available = 現在、気象データは利用できません。
+
+## Topic Labels
+
+newtab-topic-label-business = ビジネス
+newtab-topic-label-career = 転職
+newtab-topic-label-education = 教育
+newtab-topic-label-arts = エンターテイメント
+newtab-topic-label-food = フード
+newtab-topic-label-health = 健康
+newtab-topic-label-hobbies = ゲーム
+# ”Money” = “Personal Finance”, refers to articles and stories that help readers better manage
+# and understand their personal finances – from saving money to buying a home. See the
+# “Curated by our editors“ section at the top of https://getpocket.com/explore/personal-finance for more context
+newtab-topic-label-finance = 経済
+newtab-topic-label-society-parenting = 育児
+newtab-topic-label-government = 政治
+newtab-topic-label-education-science = 科学
+# ”Life Hacks” = “Self Improvement”, refers to articles and stories aimed at helping readers improve various
+# aspects of their lives – from mental health to  productivity. See the “Curated by our editors“ section
+# at the top of https://getpocket.com/explore/self-improvement for more context.
+newtab-topic-label-society = ライフハック
+newtab-topic-label-sports = スポーツ
+newtab-topic-label-tech = テクノロジー
+newtab-topic-label-travel = 旅行
+
+## Topic Selection Modal
+
+# “fine-tune” refers to the process of making small adjustments to something to get
+# the best or desired experience or performance.
+newtab-topic-selection-title = Select topics to fine-tune your feed
+# “tailored” refers to process of (a tailor) making (clothes) to fit individual customers.
+# In other words, “Our expert curators prioritize stories to fit your selected interests”
+newtab-topic-selection-subtitle = ふたつ以上の話題を選択してください。当社の専門キュレーターが、あなたの関心合わせたストーリーを優先します。いつでも更新できます。
+newtab-topic-selection-save-button = 保存
+newtab-topic-selection-cancel-button = キャンセル
+newtab-topic-selection-button-maybe-later = 後で確認
+newtab-topic-selection-privacy-link = 当社がお客様のデータとプライバシーを保護する方法をご覧ください
+newtab-topic-selection-button-update-interests = 関心のある話題を更新する
+newtab-topic-selection-button-pick-interests = 関心のある話題を選択してください
