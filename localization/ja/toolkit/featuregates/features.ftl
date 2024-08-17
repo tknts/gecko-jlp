@@ -51,10 +51,21 @@ experimental-features-auto-pip =
     .label = ピクチャー イン ピクチャー: タブ切り替え時に自動的に有効にする
 experimental-features-auto-pip-description = ビデオの再生中にタブを切り替えるとピクチャー イン ピクチャー機能を自動的に有効にして再生を継続します。
 
+genai-settings-chat-title =
+    .label = AI チャットボット
 
-experimental-features-group-browsing =
-  .label = ブラウジング
+# Updated sidebar settings
+sidebar-title =
+    .label = サイドバー
+sidebar-description = Easily access your history, tabs from other devices, sidebar extensions, and more as you browse. <a data-l10n-name="connect">Share feedback</a>
+vertical-tabs-title =
+    .label = タブの垂直表示
+vertical-tabs-description = Move your tabs from the top of the browser to the side. Requires you also try the sidebar. <a data-l10n-name="connect">Share feedback</a>
+
 experimental-features-group-developer-tools =
   .label = 開発ツール
 experimental-features-group-webpage-display =
   .label = ウェブページの表示
+experimental-features-group-customize-browsing =
+  .label = ブラウジングをカスタマイズする
+experimental-features-group-customize-browsing-description = If you try these features, <a data-l10n-name="connect">share your thoughts on Connect</a>

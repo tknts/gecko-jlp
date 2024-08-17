@@ -1540,7 +1540,7 @@ space-alert-under-5gb-message2 = <strong>{ -brand-short-name } を実行する�
 
 httpsonly-header = HTTPS-Only モード
 
-httpsonly-description = HTTPS は { -brand-short-name } とウェブサイトの間を暗号化された安全な接続でアクセスします。現在ほとんどのウェブサイトが HTTPS に対応しており HTTPS-Only モードがが有効な場合 { -brand-short-name } はすべての接続を HTTPS にアップグレードします。
+httpsonly-description2 = { -brand-short-name } は、アクセスしたサイトへの安全で暗号化された接続を作成します。HTTPS-Only が有効になっていて、安全でない接続を行おうとした場合は { -brand-short-name } から警告が表示されます。
 
 httpsonly-learn-more = さらに詳しく
 
