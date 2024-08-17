@@ -194,7 +194,7 @@ pdfjs-attachments-button =
 pdfjs-attachments-button-label = Attachments
 pdfjs-layers-button =
     .title = Show Layers (double-click to reset all layers to the default state)
-pdfjs-layers-button-label = Layers
+pdfjs-layers-button-label = レイヤー
 pdfjs-thumbs-button =
     .title = サムネイルを表示
 pdfjs-thumbs-button-label = サムネイル
@@ -203,7 +203,7 @@ pdfjs-current-outline-item-button =
 pdfjs-current-outline-item-button-label = Current Outline Item
 pdfjs-findbar-button =
     .title = Find in Document
-pdfjs-findbar-button-label = Find
+pdfjs-findbar-button-label = 検索
 pdfjs-additional-layers = Additional Layers
 
 ## Thumbnails panel item (tooltip and alt text for images)
@@ -416,3 +416,74 @@ pdfjs-editor-colorpicker-red =
 pdfjs-editor-highlight-show-all-button-label = すべて表示
 pdfjs-editor-highlight-show-all-button =
     .title = すべて表示
+
+## New alt-text dialog
+## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
+
+# Modal header positioned above a text box where users can edit the alt text.
+pdfjs-editor-new-alt-text-dialog-edit-label = 代替テキスト (画像の説明) を編集する
+
+# Modal header positioned above a text box where users can add the alt text.
+pdfjs-editor-new-alt-text-dialog-add-label = 代替テキスト（画像の説明）を追加する
+
+pdfjs-editor-new-alt-text-textarea =
+    .placeholder = ここに説明を書いてください…
+
+# This text refers to the alt text box above this description. It offers a definition of alt text.
+pdfjs-editor-new-alt-text-description = 画像が表示されない場合、または画像が読み込まれない場合の簡単な説明。
+
+# This is a required legal disclaimer that refers to the automatically created text inside the alt text box above this text. It disappears if the text is edited by a human.
+pdfjs-editor-new-alt-text-disclaimer1 = この代替テキストは自動的に作成されたため、不正確な可能性があります。
+pdfjs-editor-new-alt-text-disclaimer-learn-more-url = さらに詳しく
+
+pdfjs-editor-new-alt-text-create-automatically-button-label = 代替テキストを自動的に作成する
+pdfjs-editor-new-alt-text-not-now-button = 今はしない
+pdfjs-editor-new-alt-text-error-title = 代替テキストを自動的に作成できませんでした
+pdfjs-editor-new-alt-text-error-description = 独自の代替テキストを作成するか、後でもう一度試してください。
+pdfjs-editor-new-alt-text-error-close-button = 閉じる
+
+# Variables:
+#   $totalSize (Number) - the total size (in MB) of the AI model.
+#   $downloadedSize (Number) - the downloaded size (in MB) of the AI model.
+#   $percent (Number) - the percentage of the downloaded size.
+pdfjs-editor-new-alt-text-ai-model-downloading-progress = 代替テキスト生成用 AI モデルをダウンロードしています ({ $downloadedSize } of { $totalSize } MB)
+    .aria-valuetext = 代替テキスト生成用 AI モデルをダウンロードしています ({ $downloadedSize } of { $totalSize } MB)
+
+# This is a button that users can click to edit the alt text they have already added.
+pdfjs-editor-new-alt-text-added-button-label = 代替テキストが追加されました
+
+# This is a button that users can click to open the alt text editor and add alt text when it is not present.
+pdfjs-editor-new-alt-text-missing-button-label = 代替テキストがありません
+
+# This is a button that opens up the alt text modal where users should review the alt text that was automatically generated.
+pdfjs-editor-new-alt-text-to-review-button-label = 代替テキストを確認する
+
+# "Created automatically" is a prefix that will be added to the beginning of any alt text that has been automatically generated. After the colon, the user will see/hear the actual alt text description. If the alt text has been edited by a human, this prefix will not appear.
+# Variables:
+#   $generatedAltText (String) - the generated alt-text.
+pdfjs-editor-new-alt-text-generated-alt-text-with-disclaimer = Created automatically: { $generatedAltText }
+
+## Image alt-text settings
+
+pdfjs-image-alt-text-settings-button =
+    .title = 画像の代替テキストの設定
+pdfjs-image-alt-text-settings-button-label = 画像の代替テキストの設定
+
+pdfjs-editor-alt-text-settings-dialog-label = 画像の代替テキストの設定
+pdfjs-editor-alt-text-settings-automatic-title = 代替テキストの自動設定
+pdfjs-editor-alt-text-settings-create-model-button-label = 代替テキストを自動的に生成成する
+pdfjs-editor-alt-text-settings-create-model-description = 画像が表示されない場合、または画像が読み込まれない場合に役立つ説明を提案します。
+
+# Variables:
+#   $totalSize (Number) - the total size (in MB) of the AI model.
+pdfjs-editor-alt-text-settings-download-model-label = Alt text AI model ({ $totalSize } MB)
+
+pdfjs-editor-alt-text-settings-ai-model-description = Runs locally on your device so your data stays private. Required for automatic alt text.
+pdfjs-editor-alt-text-settings-delete-model-button = 削除
+pdfjs-editor-alt-text-settings-download-model-button = ダウンロード
+pdfjs-editor-alt-text-settings-downloading-model-button = ダウンロードしています…
+
+pdfjs-editor-alt-text-settings-editor-title = 代替テキストエディター
+pdfjs-editor-alt-text-settings-show-dialog-button-label = 画像を追加するときにすぐに代替テキストエディタを表示します
+pdfjs-editor-alt-text-settings-show-dialog-description = すべての画像に代替テキストが含まれていることを確認するのに役立ちます。
+pdfjs-editor-alt-text-settings-close-button = 閉じる

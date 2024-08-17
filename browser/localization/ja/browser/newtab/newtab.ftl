@@ -414,6 +414,7 @@ newtab-topic-label-society = ライフハック
 newtab-topic-label-sports = スポーツ
 newtab-topic-label-tech = テクノロジー
 newtab-topic-label-travel = 旅行
+newtab-topic-label-home = ホーム & ガーデン
 
 ## Topic Selection Modal
 

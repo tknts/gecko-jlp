@@ -398,21 +398,17 @@ urlbar-firefox-suggest-contextual-opt-in-dismiss = 許可しない
 
 ## Searchmode Switcher button
 
+# Variables:
+#   $engine (String): the current default search engine.
 urlbar-searchmode-button =
     .label = 検索エンジンを選ぶ
     .tooltiptext = 検索エンジンを選びます
 urlbar-searchmode-dropmarker =
     .tooltiptext = 検索エンジンを選びます
-# Variables:
-#   $restrict (Character): the character used to filter results of type.
 urlbar-searchmode-bookmarks =
     .label = ブックマーク ({ $restrict })
-# Variables:
-#   $restrict (Character): the character used to filter results of type.
 urlbar-searchmode-tabs =
     .label = タブ ({ $restrict })
-# Variables:
-#   $restrict (Character): the character used to filter results of type.
 urlbar-searchmode-history =
     .label = 履歴 ({ $restrict })
 

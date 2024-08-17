@@ -125,6 +125,7 @@ contentEncodingError-title = コンテンツのエンコード エラー
 unsafeContentType-title = 安全でないファイルの種類
 netReset-title = 接続がリセットされました
 netTimeout-title = 接続がタイムアウトしました
+serverError-title = このサイトに問題があるようです
 unknownProtocolFound-title = アドレスがわかりませんでした
 proxyConnectFailure-title = プロキシ サーバーが接続を拒否しています
 proxyResolveFailure-title = プロキシ サーバーが見つかりません
