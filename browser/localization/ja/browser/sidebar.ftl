@@ -21,6 +21,13 @@ sidebar-history-date-prev-month =
 sidebar-history-delete =
   .title = 履歴から削除
 
+sidebar-history-sort-by-date =
+  .label = 表示日時で並び替え
+sidebar-history-sort-by-site =
+  .label = サイトで並び替え
+sidebar-history-clear =
+  .label = 履歴を消去
+
 ## Labels for sidebar search
 
 # "Search" is a noun (as in "Results of the search for")
@@ -60,6 +67,19 @@ sidebar-context-menu-remove-extension =
   .label = 拡張機能を削除
 sidebar-context-menu-report-extension =
   .label = 拡張機能を報告
+sidebar-context-menu-open-in-window =
+  .label = 新しいウィンドウで開く
+sidebar-context-menu-open-in-private-window =
+  .label = 新しいプレイベートウィンドウで開く
+sidebar-context-menu-bookmark-tab =
+  .label = タブをブックマーク…
+sidebar-context-menu-copy-link =
+  .label = リンクをコピー
+
+## Labels for sidebar history context menu items
+
+sidebar-history-context-menu-delete-page =
+  .label = 履歴から削除
 
 ## Labels for sidebar menu items.
 

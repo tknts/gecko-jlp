@@ -13,6 +13,8 @@ about-processes-column-action =
 
 about-processes-shutdown-process =
     .title = タブを破棄してプロセスを強制終了します
+about-processes-kill-process =
+    .title = プロセスの強制終了
 about-processes-shutdown-tab =
     .title = タブを閉じる
 
