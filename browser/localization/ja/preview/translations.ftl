@@ -21,7 +21,6 @@ translations-settings-never-sites-description = To add to this list, visit a sit
 translations-settings-download-languages = 言語をダウンロード
 translations-settings-download-all-languages = すべての言語
 translations-settings-download-languages-link = 言語のダウンロードについてさらに詳しく
-translations-settings-language-header = 言語
 # Variables:
 #   $size (number) - The size of the download in megabites
 translations-settings-download-size = ({ $size })
@@ -32,3 +31,29 @@ translations-settings-language-download-error =
 translations-settings-language-remove-error =
     .heading = 削除に失敗しました
     .message = 言語の削除に失敗しました。もう一度お試しください。
+# Variables:
+#   $name (string) - The display name of the language that is to be downloaded
+translations-settings-download-button =
+  .aria-label = { $name } をダウンロード
+# Variables:
+#   $name (string) - The display name of the language that is to be removed
+translations-settings-remove-button =
+  .aria-label = { $name } を削除
+# Variables:
+#   $name (string) - The display name of the language that is loading
+translations-settings-loading-button =
+  .aria-label = { $name } を読み込んでいます
+translations-settings-download-all-button =
+  .aria-label = すべての言語をダウンロードしています
+translations-settings-remove-all-button =
+  .aria-label = すべての言語を削除します
+translations-settings-loading-all-button =
+  .aria-label = すべての言語を読み込んでいます
+# Variables:
+#   $name (string) - The display name of the language that is Always/Never translated
+translations-settings-remove-language-button-2 =
+  .aria-label = { $name } を削除します
+# Variables:
+#   $name (string) - The site address that is Never to be translated
+translations-settings-remove-site-button-2 =
+  .aria-label = { $name } を削除します

@@ -49,6 +49,10 @@ urlbar-group-pocket =
 urlbar-group-local =
   .label = 地域のおすすめ情報
 
+# Label shown above sponsored suggestions in the urlbar results.
+urlbar-group-sponsored =
+  .label = スポンサード
+
 # Block menu item shown in the result menu of top pick and quick suggest
 # results.
 urlbar-result-menu-dismiss-firefox-suggest =
@@ -401,8 +405,8 @@ urlbar-firefox-suggest-contextual-opt-in-dismiss = 許可しない
 # Variables:
 #   $engine (String): the current default search engine.
 urlbar-searchmode-button =
-    .label = 検索エンジンを選ぶ
-    .tooltiptext = 検索エンジンを選びます
+    .label = 検索エンジンを選ぶ (現在: { $engine })
+    .tooltiptext = 検索エンジンを選びます (現在: { $engine })
 urlbar-searchmode-dropmarker =
     .tooltiptext = 検索エンジンを選びます
 urlbar-searchmode-bookmarks =
@@ -411,6 +415,8 @@ urlbar-searchmode-tabs =
     .label = タブ ({ $restrict })
 urlbar-searchmode-history =
     .label = 履歴 ({ $restrict })
+urlbar-searchmode-actions =
+    .label = アクション ({ $restrict })
 
 urlbar-searchmode-popup-description = 検索エンジン:
 urlbar-searchmode-popup-search-settings = 検索の設定

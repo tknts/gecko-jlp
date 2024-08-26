@@ -310,7 +310,7 @@ newtab-wallpaper-dark-city = Purple city landscape
 
 ## Solid Colors
 
-newtab-wallpaper-category-title-colors = Solid colors
+newtab-wallpaper-category-title-colors = 単色
 newtab-wallpaper-blue = ブルー
 newtab-wallpaper-light-blue = ライトブルー
 newtab-wallpaper-light-purple = ライトパープル
@@ -329,7 +329,7 @@ newtab-wallpaper-brown = ブラウン
 
 ## Abstract
 
-newtab-wallpaper-category-title-abstract = Abstract
+newtab-wallpaper-category-title-abstract = アブストラクト
 newtab-wallpaper-abstract-green = Green shapes
 newtab-wallpaper-abstract-blue = Blue shapes
 newtab-wallpaper-abstract-purple = Purple shapes
@@ -339,7 +339,7 @@ newtab-wallpaper-abstract-blue-purple = Blue and purple shapes
 
 ## Photographs
 
-newtab-wallpaper-category-title-photographs = Photographs
+newtab-wallpaper-category-title-photographs = 写真
 newtab-wallpaper-beach-at-sunrise = サンライズビーチ
 newtab-wallpaper-beach-at-sunset = サンセットビーチ
 newtab-wallpaper-storm-sky = ストームスカイ
@@ -420,7 +420,7 @@ newtab-topic-label-home = ホーム & ガーデン
 
 # “fine-tune” refers to the process of making small adjustments to something to get
 # the best or desired experience or performance.
-newtab-topic-selection-title = Select topics to fine-tune your feed
+newtab-topic-selection-title = 話題を選択してフィードを調整します
 # “tailored” refers to process of (a tailor) making (clothes) to fit individual customers.
 # In other words, “Our expert curators prioritize stories to fit your selected interests”
 newtab-topic-selection-subtitle = ふたつ以上の話題を選択してください。当社の専門キュレーターが、あなたの関心合わせたストーリーを優先します。いつでも更新できます。
