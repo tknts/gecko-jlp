@@ -410,13 +410,15 @@ urlbar-searchmode-button =
 urlbar-searchmode-dropmarker =
     .tooltiptext = 検索エンジンを選びます
 urlbar-searchmode-bookmarks =
-    .label = ブックマーク ({ $restrict })
+    .label = ブックマーク 
 urlbar-searchmode-tabs =
-    .label = タブ ({ $restrict })
+    .label = タブ
 urlbar-searchmode-history =
-    .label = 履歴 ({ $restrict })
+    .label = 履歴
 urlbar-searchmode-actions =
-    .label = アクション ({ $restrict })
-
+    .label = アクション
+urlbar-searchmode-exit-button =
+    .tooltiptext = 閉じる
+    
 urlbar-searchmode-popup-description = 検索エンジン:
 urlbar-searchmode-popup-search-settings = 検索の設定

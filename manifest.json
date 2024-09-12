@@ -4,16 +4,16 @@
   "applications": {
     "gecko": {
       "id": "{93C0FD8C-43E7-4217-B6D5-7DCEAD173C5A}",
-      "strict_min_version": "131.0a1",
-      "strict_max_version": "131.0a1"
+      "strict_min_version": "132.0a1",
+      "strict_max_version": "132.0a1"
     }
   },
   "name": "Language: Japanese (JP)",
   "description": "Unofficial Nightly Language pack for Japanese (JP) (ja)",
-  "version": "131.0.20240826.094418",
+  "version": "132.0.20240911.214006",
   "languages": {
     "ja": {
-      "version": "20240826094418",
+      "version": "20240911214006",
       "chrome_resources": {
         "app-marketplace-icons": "browser/chrome/browser/locale/ja/app-marketplace-icons/",
         "branding": "browser/chrome/ja/locale/branding/",
@@ -35,7 +35,6 @@
         "mozapps": "chrome/ja/locale/ja/mozapps/",
         "necko": "chrome/ja/locale/ja/necko/",
         "passwordmgr": "chrome/ja/locale/ja/passwordmgr/",
-        "pdf.js": "chrome/ja/locale/pdfviewer/",
         "pipnss": "chrome/ja/locale/ja/pipnss/",
         "pippki": "chrome/ja/locale/ja/pippki/",
         "places": "chrome/ja/locale/ja/places/"
