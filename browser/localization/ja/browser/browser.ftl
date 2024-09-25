@@ -582,8 +582,6 @@ urlbar-page-action-button =
   .tooltiptext = ページ アクション
 urlbar-revert-button =
   .tooltiptext = ロケーションバーにアドレスを表示します
-urlbar-show-page-actions-button =
-  .tooltiptext = すべてのページアクションを表示します
 
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".

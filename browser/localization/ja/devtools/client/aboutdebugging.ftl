@@ -389,6 +389,10 @@ about-debugging-worker-scope =
 about-debugging-worker-push-service =
   .label = プッシュ通知サービス
 
+# Displayed for service workers in runtime pages, to label the origin of a worker.
+about-debugging-worker-origin =
+  .label = Origin
+
 # Displayed as title of the inspect button when service worker debugging is disabled.
 about-debugging-worker-inspect-action-disabled =
   .title = Service Worker の調査は、現在のマルチプロセス { -brand-shorter-name } では無効化されています。

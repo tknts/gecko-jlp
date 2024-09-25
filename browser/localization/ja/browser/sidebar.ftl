@@ -5,6 +5,9 @@
 menu-view-genai-chat =
   .label = AI チャットボット
 
+menu-view-review-checker =
+  .label = レビュー チェッカー
+
 ## Labels for sidebar history panel
 
 # Variables:
@@ -75,6 +78,10 @@ sidebar-context-menu-bookmark-tab =
   .label = タブをブックマーク…
 sidebar-context-menu-copy-link =
   .label = リンクをコピー
+# Variables:
+#   $deviceName (String) - The name of the device the user is closing a tab for
+sidebar-context-menu-close-remote-tab =
+  .label = { $deviceName } のタブを閉じる
 
 ## Labels for sidebar history context menu items
 
@@ -93,6 +100,8 @@ sidebar-menu-bookmarks-label =
   .label = ブックマーク
 sidebar-menu-customize-label =
   .label = サイドバーのカスタマイズ
+sidebar-menu-review-checker-label =
+  .label = レビュー チェッカー
 
 ## Headings for sidebar menu panels.
 
@@ -102,3 +111,18 @@ sidebar-menu-history-header =
   .heading = 履歴
 sidebar-menu-syncedtabs-header =
   .heading = その他のデバイスからのタブ
+
+## Titles for sidebar menu panels.
+
+sidebar-customize-title = サイドバーのカスタマイズ
+sidebar-history-title = 履歴
+sidebar-syncedtabs-title = その他のデバイスのタブ
+
+## Context for closing synced tabs when hovering over the items
+
+# Context for hovering over the close tab button that will
+# send a push to the device to close said tab
+# Variables:
+#   $deviceName (String) - the name of the device the user is closing a tab for
+synced-tabs-context-close-tab-title =
+    .title = { $deviceName } のタブを閉じる
