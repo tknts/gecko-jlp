@@ -170,6 +170,8 @@ policy-ManualAppUpdateOnly = 手動による更新のみを許可し、更新に
 
 policy-PrimaryPassword = プライマリ パスワードの使用を切り替えます。
 
+policy-PrintingEnabled = 印刷を有効または無効にします。
+
 policy-NetworkPrediction = 先読み機能 (DNS プリフェッチ) の使用を切り替えます。
 
 policy-NewTabPage = 新しいタブページの使用を切り替えます。
@@ -183,8 +185,6 @@ policy-OfferToSaveLoginsDefault = { -brand-short-name } が保存されたログ
 policy-OverrideFirstRunPage = 初回起動時に表示されるページを上書きします。初回起動時のページを無効にする場合は、このポリシーの設定を空白にしてください。
 
 policy-OverridePostUpdatePage = 更新後に表示されるの “What’s New” ページを上書きします。 更新後のページを無効にする場合は、このポリシーの設定を空白にしてください。
-
-policy-PasswordManagerEnabled = パスワード マネージャーへのパスワードの保存を有効にします。
 
 policy-PasswordManagerEnabled = パスワード マネージャーへのパスワードの保存を有効にします。
 
@@ -204,6 +204,8 @@ policy-PictureInPicture = ピクチャー・イン・ピクチャーの使用を
 policy-PopupBlocking = 特定のウェブサイトのポップアップ表示をデフォルトで許可します。
 
 policy-Preferences = 設定のサブセットに対する値を設定してロックします。
+
+policy-PrivateBrowsingModeAvailability = Set availability of private browsing mode.
 
 policy-PromptForDownloadLocation = ダウンロード時にファイルの保存先を確認します。
 
@@ -244,3 +246,5 @@ policy-UseSystemPrintDialog = システムの印刷ダイアログを使用し�
 policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式の詳細についてはドキュメントを参照してください。
 
 policy-Windows10SSO = Microsoft、職場または学校のアカウントで Windows のシングルサインオン (SSO) を許可します。
+
+policy-MicrosoftEntraSSO = Microsoft Entra アカウントのシングル サインオンを許可します。

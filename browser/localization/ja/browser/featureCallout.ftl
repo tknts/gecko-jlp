@@ -35,7 +35,7 @@ callout-firefox-view-colorways-reminder-subtitle = Color your browser with these
 # “Boost your browsing” refers to the added benefit the user receives from having
 # access to the same browsing experience when moving from one browser to another.
 # Alternative: ”Improve your browsing experience with tab pickup”
-continuous-onboarding-firefox-view-tab-pickup-title = Boost your browsing with tab pickup
+continuous-onboarding-firefox-view-tab-pickup-title = タブピックアップでブラウジングを効率化
 
 continuous-onboarding-firefox-view-tab-pickup-subtitle = どのデバイスからでも開いているタブにアクセスできます。 さらに、ブックマーク、パスワードなどを同期します。
 
@@ -43,7 +43,7 @@ continuous-onboarding-firefox-view-tab-pickup-primary-button-label = 始めま�
 
 ## PDF.js Feature Tour Strings
 
-callout-pdfjs-edit-title = 新しいテキスト ツールで PDF を編集
+callout-pdfjs-edit-title = 新しいテキストツールで PDF を編集します
 callout-pdfjs-edit-body-a = フォームに記入したり、コメントを追加したり { -brand-short-name } で直接メモを取れます。
 callout-pdfjs-edit-body-b = 無料のオンライン エディターの検索をスキップします。フォームに記入したり、コメントを追加したり { -brand-short-name } で直接メモを取れます。
 callout-pdfjs-edit-button = 次へ
@@ -54,3 +54,19 @@ callout-pdfjs-draw-body-a = PDF をマークアップして変更を保存しま
 # “Mark up” refers to the process of “annotating” or adding free hand text or diagramming to the document.
 callout-pdfjs-draw-body-b = 印刷やスキャンはもう必要ありません。PDF をマークアップして変更を保存します。
 callout-pdfjs-draw-button = Got it!
+
+## Firefox View Discoverability Strings
+
+fx-view-discoverability-title = そのタブを閉じるつもりはありませんでたしたか?
+fx-view-discoverability-subtitle = ここですぐに見つけて再度開きます。最近閉じたタブの履歴が保存されます。
+fx-view-discoverability-primary-button-label = { -firefoxview-brand-name } を開く
+fx-view-discoverability-secondary-button-label = 表示しない
+
+## Split Dismiss Button Labels
+
+# Blocks the message from showing again
+split-dismiss-button-dont-show-option-label = このおすすめを再度表示しない
+# Dismisses message and reduces frequency of message
+split-dismiss-button-show-fewer-option-label = おすすめの表示を少なくする
+# Opens about:preferences#general-cfrfeatures
+split-dismiss-button-manage-settings-option-label = 設定を管理する
