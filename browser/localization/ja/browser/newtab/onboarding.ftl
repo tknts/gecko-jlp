@@ -328,7 +328,7 @@ onboarding-new-user-survey-subtitle = あなたからのフィードバックが
 
 # When translating "next" it means the next screen in onboarding.
 onboarding-new-user-survey-next-button-label = 次へ
-onboarding-new-user-survey-legal-link-label = “{ onboarding-new-user-survey-next-button-label }” を選択すると { -brand-product-name } の <a data-l10n-name="privacy_notice">プライバシーノーティス</a> (パーソナルデータの取り扱い) に同意したことになります。
+onboarding-new-user-survey-legal-link-label = “{ onboarding-new-user-survey-next-button-label }” を選択すると { -brand-product-name } の <a data-l10n-name="privacy_notice">プライバシー ノーティス</a> (パーソナルデータの取り扱い) に同意したことになります。
 
 # When translating "brand new" it means completely new.
 onboarding-new-user-survey-time-based-option-1 = 初めて使います
@@ -340,3 +340,65 @@ onboarding-new-user-survey-familiarity-based-option-1 = 初めて使います
 onboarding-new-user-survey-familiarity-based-option-2 = ある程度使ってみました
 onboarding-new-user-survey-familiarity-based-option-3 = とてもよく知っています
 onboarding-new-user-survey-familiarity-based-option-4 = 昔使っていました
+
+## UI strings for the sidebar and vertical tabs
+
+# New users
+
+# Setup screen for vertical tabs
+onboarding-new-tabs-title = タブを配置したい場所を教えてください
+
+# Setup screen for vertical tabs - "Switch it up" refers to switching between horizontal and vertical tabs.
+onboarding-new-tabs-subtitle = サイドバーの設定でいつでも切り替えることができます。
+
+# Text underneath an image used for selecting browser tabs to appear on the side of the browser.
+onboarding-new-vertical-tabs-label = タブをサイドに配置します
+
+# Text underneath an image used for selecting browser tabs to appear at the top of the browser.
+onboarding-new-horizontal-tabs-label = タブを上部に配置します
+
+# Existing users
+
+# Setup screen for vertical tabs for existing users
+onboarding-existing-tabs-title = Vertical tabs are here
+
+# Setup screen for vertical tabs for existing users
+onboarding-existing-tabs-title2 = Introducing vertical tabs
+
+# Setup screen for vertical tabs for existing users - "Switch it up" refers to switching between horizontal and vertical tabs.
+onboarding-existing-tabs-subtitle = Try your tabs on the side. Switch it up whenever you want in the sidebar settings.
+
+# Text underneath an image used for selecting browser tabs to appear on the side of the browser.
+onboarding-existing-vertical-tabs-label = Try vertical tabs
+onboarding-flair-text = New!
+
+# Text underneath an image used for selecting browser tabs to appear at the top of the browser.
+onboarding-existing-horizontal-tabs-label = Keep horizontal tabs
+
+# All users - Initial setup card
+
+# Tooltip displayed on hover for vertical tabs image
+onboarding-vertical-tabs-tooltip =
+    .title = A browser window displaying tabs along the side of the screen as a part of the { -brand-shorter-name } sidebar.
+
+# Description for vertical tabs image
+onboarding-vertical-tabs-description =
+    .aria-description = A browser window displaying tabs along the side of the screen as a part of the { -brand-shorter-name } sidebar.
+
+# Tooltip displayed on hover for horizontal tabs image
+onboarding-horizontal-tabs-tooltip =
+    .title = A browser window displaying tabs along the top.
+
+# Description for horizontal tabs image
+onboarding-horizontal-tabs-description =
+    .aria-description = A browser window displaying tabs along the top.
+
+# Existing users - additional setup card
+
+# Additional setup card for setting up aichatbot in the sidebar
+onboarding-genai-sidebar-title = サイドバーで AI チャットボットを試す
+
+# Setup card for setting up AI chatbot in the sidebar; "Providers" refers to AI chatbot providers (e.g. OpenAI, etc). "Switch anytime" refers to allowing the user to switch to a different chatbot.
+onboarding-genai-sidebar-subtitle = ブラウジングしながらウェブコンテンツを要約したり、アイデアをブレインストーミングしたり、メッセージの下書きを行えます。複数のプロバイダーから選択でき、いつでも切り替えることができます。<a data-l10n-name="learn-more">さらに詳しく</a>
+onboarding-genai-sidebar-primary-button = チャットボットを選択
+onboarding-genai-sidebar-secondary-button = ブラウジングをスタート

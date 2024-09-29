@@ -5,11 +5,11 @@
 ### Speech Dispatches is the name of a speech synthesis tool and shouldn’t be
 ### localized (https://freebsoft.org/speechd).
 
-speech-dispatcher-lib-missing = You can’t use speech synthesis because the Speech Dispatcher library is missing.
-speech-dispatcher-lib-too-old = You can’t use speech synthesis because Speech Dispatcher needs to be updated.
-speech-dispatcher-missing-symbol = You can’t use speech synthesis because the Speech Dispatcher library is broken.
-speech-dispatcher-open-fail = You can’t use speech synthesis because Speech Dispatcher won’t open.
-speech-dispatcher-no-voices = You can’t use speech synthesis because voices aren’t available in Speech Dispatcher.
+speech-dispatcher-lib-missing = Speech Dispatcher ライブラリがないため、音声合成は使用できません。
+speech-dispatcher-lib-too-old = Speech Dispatcher を更新する必要があるため、音声合成は使用できません。
+speech-dispatcher-missing-symbol = Speech Dispatcher ライブラリが壊れているため、音声合成は使用できません。
+speech-dispatcher-open-fail = Speech Dispatcher を開けないため、音声合成は使用できません。
+speech-dispatcher-no-voices = Speech Dispatcher では音声が利用できないため、音声合成は使用できません。
 speech-dispatcher-dismiss-button =
-  .label = Don’t show again
+  .label = 次回から表示しない
   .accesskey = D

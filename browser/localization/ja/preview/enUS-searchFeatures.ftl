@@ -419,6 +419,6 @@ urlbar-searchmode-actions =
     .label = アクション
 urlbar-searchmode-exit-button =
     .tooltiptext = 閉じる
-    
+
 urlbar-searchmode-popup-description = 検索エンジン:
 urlbar-searchmode-popup-search-settings = 検索の設定

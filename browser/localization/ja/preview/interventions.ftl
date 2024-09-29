@@ -29,7 +29,7 @@ intervention-update-refresh-confirm = { -brand-short-name } をリフレッシ�
 ## Shown when an update is downloaded and Firefox is ready to install it.
 
 intervention-update-restart = The latest { -brand-short-name } is downloaded and ready to install.
-intervention-update-restart-confirm = Restart to Update
+intervention-update-restart-confirm = 再起動して更新する
 
 ## Shown when Firefox cannot update itself. The button will open the download
 ## page on the Firefox website.

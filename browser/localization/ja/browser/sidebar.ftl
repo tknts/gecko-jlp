@@ -55,8 +55,10 @@ sidebar-horizontal-tabs =
   .label = Horizontal tabs
 sidebar-customize-tabs-header =
   .label = タブの設定
-sidebar-customize-settings-header =
-  .label = サイドバーの設定
+sidebar-customize-button-header =
+  .label = サイドバーのボタン
+sidebar-customize-position-header =
+  .label = サイドバーの位置
 sidebar-visibility-always-show =
   .label = 常に表示する
 sidebar-visibility-hide-sidebar =
@@ -105,6 +107,8 @@ sidebar-menu-review-checker-label =
 
 ## Headings for sidebar menu panels.
 
+sidebar-panel-header-close-button =
+  .tooltiptext = 閉じる
 sidebar-menu-customize-header =
   .heading = サイドバーのカスタマイズ
 sidebar-menu-history-header =
@@ -126,3 +130,14 @@ sidebar-syncedtabs-title = その他のデバイスのタブ
 #   $deviceName (String) - the name of the device the user is closing a tab for
 synced-tabs-context-close-tab-title =
     .title = { $deviceName } のタブを閉じる
+
+## Tooltips for the sidebar toolbar button.
+
+sidebar-toolbar-expand-sidebar =
+  .tooltiptext = サイドバーを展開します
+sidebar-toolbar-collapse-sidebar =
+  .tooltiptext = サイドバーを折りたたみます
+sidebar-toolbar-show-sidebar =
+  .tooltiptext = サイドバーを表示します
+sidebar-toolbar-hide-sidebar =
+  .tooltiptext = サイドバーを隠します

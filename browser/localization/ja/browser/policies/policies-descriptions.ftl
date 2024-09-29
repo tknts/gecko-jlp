@@ -13,6 +13,8 @@ policy-3rdparty = WebExtension が chrome.storage.managed を利用してアク�
 
 policy-AllowedDomainsForApps = Google Workspace へのアクセスを許可するドメインを定義します。
 
+policy-AllowFileSelectionDialogs = ファイルの選択ダイアログを許可します。
+
 policy-AppAutoUpdate = アプリケーションの自動更新を有効または無効にします。
 
 policy-AppUpdatePin = { -brand-short-name } が指定されたバージョン以降に更新されないようにします。
@@ -20,6 +22,10 @@ policy-AppUpdatePin = { -brand-short-name } が指定されたバージョン以
 policy-AppUpdateURL = アプリケーションのカスタム更新URL を設定します。
 
 policy-Authentication = ウェブサイトが対応する統合認証を構成します。
+
+policy-AutofillAddressEnabled = 住所の自動入力を有効にします。
+
+policy-AutofillCreditCardEnabled = 決済方法の自動入力を有効にします。
 
 policy-AutoLaunchProtocolsFromOrigins = ユーザーにプロンプトを表示せずに一覧化された Origin から使用できる外部プロトコルの一覧を定義します。
 
@@ -38,12 +44,6 @@ policy-Bookmarks = ブックマークツールバー、ブックマークメニ�
 policy-CaptivePortal = キャプティブポータルのサポートを切り替えます。
 
 policy-CertificatesDescription =証明書を追加、または組み込みの証明書を利用します。
-
-policy-Bookmarks = ブックマークは、ブックマーク ツールバー、ブックマーク メニュー、またはその中の指定したフォルダに作成します。
-
-policy-CaptivePortal = キャプティブ ポータルのサポートを切り替えます。
-
-policy-CertificatesDescription = 証明書の追加または、組み込みの証明書を使用します。
 
 policy-ContentAnalysis = データ損失防止エージェントへの接続を切り替えます。
 
@@ -219,8 +219,6 @@ policy-SearchBar = 検索バーのデフォルトの位置を設定します。�
 
 policy-SearchEngines = 検索エンジンの設定を行います。このポリシー延長サポート (ESR) 版でのみ利用可能です。
 
-policy-SearchEngines = 検索エンジンの設定を構成します。このポリシーは、拡張サポート リリース (ESR) バージョンでのみ使用できます。
-
 policy-SearchSuggestEnabled = 検索候補の表示機能の使用を切り替えます。
 
 # For more information, see https://wikipedia.org/wiki/PKCS_11
@@ -247,4 +245,5 @@ policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式
 
 policy-Windows10SSO = Microsoft、職場または学校のアカウントで Windows のシングルサインオン (SSO) を許可します。
 
+# Entra is the name of a Microsoft product.
 policy-MicrosoftEntraSSO = Microsoft Entra アカウントのシングル サインオンを許可します。
