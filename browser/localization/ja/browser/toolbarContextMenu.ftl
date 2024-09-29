@@ -48,7 +48,7 @@ toolbar-context-menu-report-extension =
 # ("Menu Bar") and personalbarCmd ("Bookmarks Toolbar"), so they should
 # have different access keys.
 toolbar-context-menu-pin-to-overflow-menu =
-    .label = オーバーフローメニューに移動
+    .label = オーバーフロー メニューに移動
     .accesskey = P
 toolbar-context-menu-auto-hide-downloads-button-2 =
     .label = ツールバーを自動的に隠す
@@ -86,5 +86,5 @@ toolbar-context-menu-bookmarks-show-other-bookmarks =
     .accesskey = h
 
 toolbar-context-menu-menu-bar-cmd =
-    .toolbarname = メニューバー
+    .toolbarname = メニュー バー
     .accesskey = M

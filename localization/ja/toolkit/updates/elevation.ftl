@@ -21,7 +21,7 @@ elevation-more-elevated =
 
 
 
-sandbox-missing-unprivileged-namespaces = 現在使用中のオペレーティング システムでは { -brand-short-name } の一部のセキュリティ機能の保護性能が低下する可能性があります。
+sandbox-missing-unprivileged-namespaces = 現在使用中のオペレーティングシステムでは { -brand-short-name } の一部のセキュリティ機能の保護性能が低下する可能性があります。
 sandbox-unprivileged-namespaces-dismiss-button =
   .label = 次回から表示しない
   .accesskey = D

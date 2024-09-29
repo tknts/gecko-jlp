@@ -25,12 +25,19 @@ translations-settings-download-languages-link = 言語のダウンロードに�
 #   $size (number) - The size of the download in megabites
 translations-settings-download-size = ({ $size })
 translations-settings-language-header = 言語
+
+# Variables:
+#   $name (string) - The language to be downloaded
 translations-settings-language-download-error =
     .heading = ダウンロードのエラー
     .message = 言語のダウンロードに失敗しました。もう一度お試しください。
+
+# Variables:
+#   $name (string) - The language to be downloaded
 translations-settings-language-remove-error =
     .heading = 削除に失敗しました
     .message = 言語の削除に失敗しました。もう一度お試しください。
+
 # Variables:
 #   $name (string) - The display name of the language that is to be downloaded
 translations-settings-download-button =

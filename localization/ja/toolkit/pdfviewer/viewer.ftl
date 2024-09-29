@@ -18,12 +18,12 @@ pdfjs-page-input =
 # Variables:
 #   $pagesCount (Number) - the total number of pages in the document
 # This string follows an input field with the number of the page currently displayed.
-pdfjs-of-pages = of { $pagesCount }
+pdfjs-of-pages = / { $pagesCount }
 
 # Variables:
 #   $pageNumber (Number) - the currently visible page
 #   $pagesCount (Number) - the total number of pages in the document
-pdfjs-page-of-pages = ({ $pageNumber } of { $pagesCount })
+pdfjs-page-of-pages = ({ $pageNumber } / { $pagesCount })
 
 pdfjs-zoom-out-button =
     .title = 縮小
@@ -107,32 +107,31 @@ pdfjs-spread-even-button-label = Even Spreads
 ## Document properties dialog
 
 pdfjs-document-properties-button =
-    .title = Document Properties…
-pdfjs-document-properties-button-label = Document Properties…
-pdfjs-document-properties-file-name = File name:
-pdfjs-document-properties-file-size = File size:
+    .title = ドキュメントのプロパティ…
+pdfjs-document-properties-button-label = ドキュメントのプロパティ…
+pdfjs-document-properties-file-name = ファイルの名前:
+pdfjs-document-properties-file-size = ファイルの容量:
 
 # Variables:
-#   $size_kb (Number) - the PDF file size in kilobytes
-#   $size_b (Number) - the PDF file size in bytes
-pdfjs-document-properties-kb = { $size_kb } KB ({ $size_b } bytes)
+#   $kb (Number) - the PDF file size in kilobytes
+#   $b (Number) - the PDF file size in bytes
+pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } bytes)
 
 # Variables:
-#   $size_mb (Number) - the PDF file size in megabytes
-#   $size_b (Number) - the PDF file size in bytes
-pdfjs-document-properties-mb = { $size_mb } MB ({ $size_b } bytes)
+#   $mb (Number) - the PDF file size in megabytes
+#   $b (Number) - the PDF file size in bytes
+pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bytes)
 
-pdfjs-document-properties-title = Title:
+pdfjs-document-properties-title = タイトル:
 pdfjs-document-properties-author = Author:
 pdfjs-document-properties-subject = Subject:
-pdfjs-document-properties-keywords = Keywords:
-pdfjs-document-properties-creation-date = Creation Date:
-pdfjs-document-properties-modification-date = Modification Date:
+pdfjs-document-properties-keywords = キーワード:
+pdfjs-document-properties-creation-date = 作成日時:
+pdfjs-document-properties-modification-date = 変更日時:
 
 # Variables:
-#   $date (Date) - the creation/modification date of the PDF file
-#   $time (Time) - the creation/modification time of the PDF file
-pdfjs-document-properties-date-string = { $date }, { $time }
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
 
 pdfjs-document-properties-creator = 作成者:
 pdfjs-document-properties-producer = PDF Producer:
@@ -248,7 +247,7 @@ pdfjs-find-match-count =
 # Variables:
 #   $limit (Number) - the maximum number of matches
 pdfjs-find-match-count-limit =
-    { $limit ->
+    { NUMBER($limit) ->
         [one] More than { $limit } match
        *[other] More than { $limit } matches
     }
@@ -284,9 +283,8 @@ pdfjs-rendering-error = An error occurred while rendering the page.
 ## Annotations
 
 # Variables:
-#   $date (Date) - the modification date of the annotation
-#   $time (Time) - the modification time of the annotation
-pdfjs-annotation-date-string = { $date }, { $time }
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
 
 # .alt: This is used as a tooltip.
 # Variables:
@@ -381,14 +379,22 @@ pdfjs-editor-alt-text-textarea =
 ## Editor resizers
 ## This is used in an aria label to help to understand the role of the resizer.
 
-pdfjs-editor-resizer-label-top-left = Top left corner — resize
-pdfjs-editor-resizer-label-top-middle = Top middle — resize
-pdfjs-editor-resizer-label-top-right = Top right corner — resize
-pdfjs-editor-resizer-label-middle-right = Middle right — resize
-pdfjs-editor-resizer-label-bottom-right = Bottom right corner — resize
-pdfjs-editor-resizer-label-bottom-middle = Bottom middle — resize
-pdfjs-editor-resizer-label-bottom-left = Bottom left corner — resize
-pdfjs-editor-resizer-label-middle-left = Middle left — resize
+pdfjs-editor-resizer-top-left =
+    .aria-label = Top left corner — resize
+pdfjs-editor-resizer-top-middle =
+    .aria-label = Top middle — resize
+pdfjs-editor-resizer-top-right =
+    .aria-label = Top right corner — resize
+pdfjs-editor-resizer-middle-right =
+    .aria-label = Middle right — resize
+pdfjs-editor-resizer-bottom-right =
+    .aria-label = Bottom right corner — resize
+pdfjs-editor-resizer-bottom-middle =
+    .aria-label = Bottom middle — resize
+pdfjs-editor-resizer-bottom-left =
+    .aria-label = Bottom left corner — resize
+pdfjs-editor-resizer-middle-left =
+    .aria-label = Middle left — resize
 
 ## Color picker
 

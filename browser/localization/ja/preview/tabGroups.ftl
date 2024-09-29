@@ -8,7 +8,7 @@
 tab-context-add-tab-to-new-group =
     .label =
         { $tabCount ->
-            [1] 新しいグループにタブを追加
-           *[other] 新しいグループに複数のタブを追加
+            [1] 譁ｰ縺励＞繧ｰ繝ｫ繝ｼ繝励↓繧ｿ繝悶ｒ霑ｽ蜉
+           *[other] 譁ｰ縺励＞繧ｰ繝ｫ繝ｼ繝励↓隍�謨ｰ縺ｮ繧ｿ繝悶ｒ霑ｽ蜉
         }
     .accesskey = G

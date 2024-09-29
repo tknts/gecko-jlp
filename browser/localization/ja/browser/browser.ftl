@@ -62,7 +62,7 @@ urlbar-identity-button =
 ## Tooltips for images appearing in the address bar
 
 urlbar-services-notification-anchor =
-    .tooltiptext = インストール メッセージパネルを開きます
+    .tooltiptext = インストールメッセージパネルを開きます
 urlbar-web-notification-anchor =
     .tooltiptext = サイトからの通知の設定を変更します
 urlbar-midi-notification-anchor =
@@ -86,7 +86,7 @@ urlbar-storage-access-anchor =
 urlbar-web-rtc-share-screen-notification-anchor =
     .tooltiptext = サイトでのウィンドウまたは画面の共有を管理します
 urlbar-indexed-db-notification-anchor =
-    .tooltiptext = オフライン ストレージのメッセージパネルを開きます
+    .tooltiptext = オフラインストレージのメッセージパネルを開きます
 urlbar-password-notification-anchor =
     .tooltiptext = パスワードの保存のメッセージパネルを開きます
 urlbar-web-rtc-share-devices-notification-anchor =
@@ -228,9 +228,9 @@ search-one-offs-engine-with-alias =
 # Variables:
 #  $engineName (String): The name of the engine.
 search-one-offs-add-engine =
-    .label = “{ $engineName }”を追加
-    .tooltiptext = “{ $engineName }”を検索エンジンとして追加します
-    .aria-label = “{ $engineName }”を検索エンジンとして追加します
+    .label = “{ $engineName }” を追加
+    .tooltiptext = “{ $engineName }” を検索エンジンとして追加します
+    .aria-label = “{ $engineName }” を検索エンジンとして追加します
 # When more than 5 engines are offered by a web page, they are grouped in a
 # submenu using this as its label.
 search-one-offs-add-engine-menu =
@@ -330,7 +330,7 @@ quickactions-cmd-viewsource = view source, source, ソース,
 
 # Tooltip text for the help button shown in the result.
 quickactions-learn-more =
-    .title = クイック アクションの詳細
+    .title = クイックアクションの詳細
 
 ## Bookmark Panel
 
@@ -991,7 +991,7 @@ data-reporting-notification-button =
     .accesskey = C
 
 # Label for the indicator shown in the private browsing window titlebar.
-private-browsing-indicator-label = プライベート ブラウジング
+private-browsing-indicator-label = プライベートブラウジング
 
 # Tooltip for the indicator shown in the window titlebar when content analysis is active.
 # Variables:

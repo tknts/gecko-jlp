@@ -6,7 +6,7 @@
 ### being translated as the feature is still in heavy development
 ### and strings are likely to change often.
 
--secure-proxy-brand-name = Firefox プライベートネットワーク
+-secure-proxy-brand-name = Firefox プライベート ネットワーク
 
 proxy-title = フリー Wi-Fi で安全を確保
 proxy-header-content = { -secure-proxy-brand-name } は Wi-Fi ホットスポットをより安全にしハッカーからあなたを守ります。

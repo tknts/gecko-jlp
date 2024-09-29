@@ -61,3 +61,77 @@ genai-input-ask-generic =
 # $provider (string) - name of the provider
 genai-input-ask-provider =
     .placeholder = { $provider } に問い合わせる…
+
+genai-shortcuts-hide =
+    .label = チャットボットのショートカットを非表示にする
+
+## Chatbot header
+
+genai-chatbot-title = AI チャットボット
+genai-header-provider-menu =
+    .title = チャットボットの選択
+genai-header-options-button =
+    .title = メニューを開く
+genai-header-close-button =
+    .title = 閉じる
+
+genai-provider-view-details =
+    .label = チャットボットの詳細を表示
+genai-provider-about-chatbots =
+    .label = これらのチャットボットについて
+genai-options-reload-generic =
+    .label = AI チャットボットの再読み込み
+# $provider (string) - name of the provider
+genai-options-reload-provider =
+    .label = { $provider } を再読み込み
+genai-options-show-shortcut =
+    .label = テキスト選択時にショートカットを表示する
+genai-options-hide-shortcut =
+    .label = テキスト選択時にショートカットを非表示にする
+genai-options-about-chatbot =
+    .label = { -brand-short-name } の AI チャットボットについて
+
+## Chatbot onboarding
+
+genai-onboarding-header = ブラウジングしながらページの要約やブレインストーミングなどが行えます
+# "Switch anytime" refers to allowing the user to switch to a different chatbot.
+genai-onboarding-description = Choose an AI chatbot to use in the { -brand-short-name } sidebar. We’ll show details about each chatbot when you select it. Switch anytime. <a data-l10n-name="learn-more">Learn more</a>
+genai-onboarding-primary = 続ける
+genai-onboarding-secondary = 閉じる
+genai-onboarding-claude-tooltip =
+    .title = Anthropic Claude
+genai-onboarding-claude-learn = Claude について、さらに詳しく
+genai-onboarding-chatgpt-tooltip =
+    .title = ChatGPT
+genai-onboarding-chatgpt-learn = ChatGPT について、さらに詳しく
+genai-onboarding-gemini-tooltip =
+    .title = Google Gemini
+genai-onboarding-gemini-learn = Geminiについて、さらに詳しく
+genai-onboarding-huggingchat-tooltip =
+    .title = HuggingChat
+genai-onboarding-huggingchat-learn = HuggingChat について、さらに詳しく
+genai-onboarding-lechat-tooltip =
+    .title = Le Chat Mistral
+genai-onboarding-lechat-learn = Le Chat について、さらに詳しく
+
+genai-onboarding-select-header = テキストを選択して候補を表示します
+genai-onboarding-select-description = When you select text, we’ll suggest prompts you can send to the chatbot. You can also write in your own prompts.
+genai-onboarding-select-primary = チャットを開始
+
+## Chatbot onboarding choices
+## These describe features/capabilities of chatbot providers. These are not buttons/actions.
+
+genai-onboarding-claude-generate = Generate text and code
+genai-onboarding-claude-analyze = Analyze documents and images
+genai-onboarding-claude-price = Free and paid options; account required
+genai-onboarding-chatgpt-generate = Generate text, images, and code
+genai-onboarding-chatgpt-analyze = Analyze documents and images
+genai-onboarding-chatgpt-price = Free and paid options; account required for some countries and tasks
+genai-onboarding-gemini-generate = Generate text, images, and code
+genai-onboarding-gemini-analyze = Analyze images (free) and documents (paid)
+genai-onboarding-gemini-price = Free and paid options; account required
+genai-onboarding-huggingchat-generate = Generate text and code
+genai-onboarding-huggingchat-switch = Switch between a diverse set of open models
+genai-onboarding-huggingchat-price = Free; account required for some tasks
+genai-onboarding-lechat-generate = Generate text and code
+genai-onboarding-lechat-price = Free; account required
