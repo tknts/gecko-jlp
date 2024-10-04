@@ -531,23 +531,26 @@ addon-page-options-button =
 #   $version (string) - Application version.
 details-notification-incompatible2 =
     .message = { $name } は { -brand-short-name } { $version } と互換性がありません。
-details-notification-incompatible-link = その他の情報
 
 details-notification-unsigned-and-disabled2 =
     .message = { $name } は { -brand-short-name } での動作が検証されいないため無効化されています。
-details-notification-unsigned-and-disabled-link = その他の情報
 
 details-notification-unsigned2 =
     .message = { $name } は { -brand-short-name } での動作を検証されいません。注意して続行してください。
-details-notification-unsigned-link = その他の情報
 
 details-notification-blocked2 =
     .message = { $name } は、セキュリティまたは安定性の問題により無効になっています。
-details-notification-blocked-link = その他の情報
+details-notification-blocked-link2 = 詳細を表示する
 
-details-notification-softblocked2 =
-    .message = { $name } は、セキュリティまたは安定性の問題を引き起こすことが知られています。
-details-notification-softblocked-link = その他の情報
+details-notification-softblocked-extension-disabled =
+    .message = この拡張機能は Mozilla のポリシーに違反しているため無効になっています。有効にすることはできますが、リスクを伴う可能性があります。
+details-notification-softblocked-extension-enabled =
+    .message = この拡張機能は Mozilla のポリシーに違反しています。使用すると危険な場合があります。
+details-notification-softblocked-other-disabled =
+    .message = このアドオンは Mozilla のポリシーに違反しているため無効になっています。有効にすることはできますが、リスクを伴う可能性があります。
+details-notification-softblocked-other-enabled =
+    .message = このアドオンは Mozilla のポリシーに違反しています。使用すると危険な場合があります。
+details-notification-softblocked-link2 = 詳細を表示する
 
 details-notification-gmp-pending2 =
     .message = { $name } はまもなくインストールされます。
@@ -558,7 +561,7 @@ plugins-gmp-license-info = ライセンス情報
 plugins-gmp-privacy-info = プライバシー情報
 
 plugins-openh264-name = OpenH264 Video Codec provided by Cisco Systems, Inc.
-plugins-openh264-description = This plugin is automatically installed by Mozilla to comply with the WebRTC specification and to enable WebRTC calls with devices that require the H.264 video codec. Visit https://www.openh264.org/ to view the codec source code and learn more about the implementation.
+plugins-openh264-description = このプラグインは、WebRTC 仕様に準拠し、H.264 ビデオコーデックを必要とするデバイスとの WebRTC 通話を可能にするために、Mozilla によって自動的にインストールされます。コーデックのソースコードを表示し、実装について詳しく知るには、https://www.openh264.org/ にアクセスしてください。
 
 plugins-widevine-name = Widevine Content Decryption Module provided by Google Inc.
-plugins-widevine-description = This plugin enables playback of encrypted media in compliance with the Encrypted Media Extensions specification. Encrypted media is typically used by sites to protect against copying of premium media content. Visit https://www.w3.org/TR/encrypted-media/ for more information on Encrypted Media Extensions.
+plugins-widevine-description = このプラグインを使用すると、Encrypted Media Extensions 仕様に準拠した暗号化されたメディアの再生が可能になります。暗号化されたメディアは通常、プレミアムメディアコンテンツのコピーを防ぐためにサイトで使用されます。Encrypted Media Extensions の詳細については、https://www.w3.org/TR/encrypted-media/ をご覧ください。

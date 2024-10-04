@@ -5,10 +5,20 @@
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.
 
-tab-context-add-tab-to-new-group =
+tab-context-unnamed-group =
+    .label = 新しいグループ
+
+tab-context-move-tab-to-new-group =
     .label =
         { $tabCount ->
             [1] 新しいグループにタブを追加
            *[other] 新しいグループに複数のタブを追加
+        }
+    .accesskey = G
+tab-context-move-tab-to-group =
+    .label =
+        { $tabCount ->
+            [1] グループにタブを追加
+           *[other] グループに複数のタブを追加
         }
     .accesskey = G

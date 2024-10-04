@@ -133,11 +133,15 @@ synced-tabs-context-close-tab-title =
 
 ## Tooltips for the sidebar toolbar button.
 
-sidebar-toolbar-expand-sidebar =
+sidebar-widget-expand-sidebar =
   .tooltiptext = サイドバーを展開します
-sidebar-toolbar-collapse-sidebar =
+  .label = サイドバー
+sidebar-widget-collapse-sidebar =
   .tooltiptext = サイドバーを折りたたみます
-sidebar-toolbar-show-sidebar =
+  .label = サイドバー
+sidebar-widget-show-sidebar =
   .tooltiptext = サイドバーを表示します
-sidebar-toolbar-hide-sidebar =
+  .label = サイドバー
+sidebar-widget-hide-sidebar =
   .tooltiptext = サイドバーを隠します
+  .label = サイドバー

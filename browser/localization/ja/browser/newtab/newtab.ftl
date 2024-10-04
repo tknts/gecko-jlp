@@ -12,6 +12,8 @@ newtab-personalize-icon-label =
     .aria-label = 新しいタブのパーソナライズ
 newtab-personalize-dialog-label =
     .aria-label = パーソナライズ
+newtab-logo-and-wordmark =
+    .aria-label = { -brand-full-name }
 
 ## Search box component.
 
@@ -236,6 +238,8 @@ newtab-pocket-cta-text = お気に入りに記事を { -pocket-brand-name } に�
 newtab-pocket-pocket-firefox-family = { -pocket-brand-name } は { -brand-product-name } ファミリーの一員です
 
 # A save to Pocket button that shows over the card thumbnail on hover.
+newtab-pocket-image =
+    .aria-label = { -pocket-brand-name }
 newtab-pocket-save = 保存
 newtab-pocket-saved = 保存しました
 

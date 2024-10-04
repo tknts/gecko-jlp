@@ -90,7 +90,6 @@ login-intro-description2 = { -brand-product-name } に保存されたパスワ�
 login-intro-instructions-fxa2 = ログインが保存されているデバイスでアカウントにサインインするか、アカウントを作成してください。
 login-intro-instructions-fxa-settings = [設定] > [同期] > [同期を有効にする…] に移動して [ログイン情報とパスワード] のチェックボックスを選択します。
 login-intro-instructions-fxa-passwords-help = <a data-l10n-name="passwords-help-link">パスワード サポート</a> の詳細なヘルプへ移動
-about-logins-intro-browser-only-import = ログイン情報が別のブラウザーに保存されている場合、<a data-l10n-name="import-link">ログイン情報を { -brand-product-name }</a> にインポートできます
 about-logins-intro-import3 = 上のプラス記号ボタンを押すとパスワードを追加できます。詳しくは <a data-l10n-name="import-browser-link">別のブラウザからパスワードをインポートする</a> または <a data-l10n-name="import-file-link">ファイルから直接インポートする</a> をご覧ください。
 
 ## Login
