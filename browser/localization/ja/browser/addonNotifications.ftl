@@ -133,5 +133,6 @@ addon-local-install-error-not-signed = このアドオンは検証されてい�
 #   $appVersion (String): the application version.
 addon-install-error-incompatible = { $addonName } は { -brand-short-name } { $appVersion } と互換性がないため、インストールできません。
 addon-install-error-blocklisted = { $addonName } は、安定性やセキュリティ上の問題を引き起こすリスクが高いため、インストールが禁止されています。
+addon-install-error-soft-blocked = { $addonName } は Mozilla のポリシーに違反しているため、{ -brand-short-name } にインストールできません。
 # Enterprise policies is a feature aimed at system administrators who want to deploy custom settings for Firefox.
 addon-install-error-admin-install-only = エンド ユーザーが { $addonName } をインストールすることはできません。エンタープライズ ポリシーを使用する組織によってのみインストールできます。

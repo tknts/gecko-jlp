@@ -14,3 +14,6 @@ all-tabs-menu-hidden-tabs =
 
 all-tabs-menu-close-all-duplicate-tabs =
   .label = 複製したタブをすべて閉じる
+
+all-tabs-menu-synced-tabs =
+  .label = 他のデバイスのタブ

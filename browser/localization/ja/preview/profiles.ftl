@@ -25,6 +25,8 @@ edit-profile-page-delete-button =
 edit-profile-page-no-name = 後で見つけやすいように、このプロファイルに名前を付けてください。いつでも名前を変更できます。
 edit-profile-page-duplicate-name = このプロファイルの名前は既に使用されています。他の名前で試してください。
 
+edit-profile-page-profile-saved = 保存しました
+
 # Variables
 #   $profilename (String) - The name of the profile.
 delete-profile-page-title = { $profilename } のプロファイルを削除
