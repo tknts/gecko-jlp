@@ -247,7 +247,7 @@ pdfjs-find-match-count =
 # Variables:
 #   $limit (Number) - the maximum number of matches
 pdfjs-find-match-count-limit =
-    { NUMBER($limit) ->
+    { $limit ->
         [one] More than { $limit } match
        *[other] More than { $limit } matches
     }

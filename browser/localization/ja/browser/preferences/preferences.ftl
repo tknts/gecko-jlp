@@ -161,9 +161,10 @@ windows-launch-on-login =
     .label = コンピューターの起動時に { -brand-short-name } を自動的に開きます
     .accesskey = O
 windows-launch-on-login-disabled = この設定は Windows では無効になっています。変更するには Windows の設定にある <a data-l10n-name="startup-link">スタートアップ アプリ</a> にアクセスしてください。
+windows-launch-on-login-profile-disabled = “ユーザー プロファイルの選択” ウィンドウで “{ profile-manager-use-selected.label }” にチェックを入れて、この設定を有効にします。
 
 startup-restore-warn-on-quit =
-    .label = ブラウザを終了するときに警告する
+    .label = ブラウザーを終了するときに警告する
 
 disable-extension =
     .label = 拡張機能を使用しない
@@ -768,10 +769,9 @@ search-show-suggestions-url-bar-option =
 
 
 # With this option enabled, on the search results page
-# the URL will be replaced by the search terms in the address bar
-# when using the current default search engine.
-search-show-search-term-option =
-    .label = デフォルトの検索エンジンの結果ページに URL の代わりに検索ワードを表示する
+# the URL will be replaced by the search terms in the address bar.
+search-show-search-term-option-2 =
+    .label = 検索結果ページでアドレスバーに検索語句を表示する
 
 
 # This string describes what the user will observe when the system

@@ -22,3 +22,12 @@ tab-context-move-tab-to-group =
            *[other] グループに複数のタブを追加
         }
     .accesskey = G
+
+tab-group-editor-action-add-new = グループにタブを追加
+tab-group-editor-action-new-window = グループを新しいウィンドウに移動する
+tab-group-editor-action-save = グループを保存して閉じる
+tab-group-editor-action-ungroup = タブをグループから外す
+tab-group-editor-action-delete = グループを削除
+tab-group-editor-done =
+  .label = 完了
+  .accessKey = D
