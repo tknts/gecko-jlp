@@ -12,6 +12,7 @@ about-httpsonly-explanation-question = 原因はなんですか?
 about-httpsonly-explanation-nosupport = ほとんどの場合、ウェブサイトが HTTPS をサポートしていないのが原因です。
 about-httpsonly-explanation-risk = あるいは攻撃者が関与している可能性もあります。このウェブサイトにアクセスする場合は、パスワード、メールアドレス、クレジットカード情報などの機密情報は入力しないでください。
 about-httpsonly-explanation-continue = 続行すると、このサイトでの HTTPS-Only モードの使用が一時的にオフになります。
+about-httpsonly-explanation-iframe = 混合コンテンツのブロックにより、このフレームの読み込みを手動で許可することはできません。
 
 about-httpsonly-button-continue-to-site = HTTP サイトで続ける
 about-httpsonly-button-go-back = 戻る

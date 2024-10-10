@@ -101,6 +101,12 @@ about-glean-adhoc-note =
 
 controls-button-label-verbose = 設定を適用して ping を送信する
 
+about-glean-feedback-settings-only =
+  .message = 設定が適用されました!
+
+about-glean-feedback-settings-and-ping =
+  .message = 設定が適用されて、ping が送信されました。
+
 about-glean-about-data-header = データについて
 about-glean-about-data-explanation =
   To browse the list of collected data, please consult the

@@ -18,7 +18,7 @@ genai-settings-chat-lechat-links = By choosing Le Chat Mistral, you agree to the
 genai-settings-chat-localhost-links = Bring your own private local chatbot such as <a data-l10n-name="link1">llamafile</a> from { -vendor-short-name }’s Innovation group.
 genai-settings-chat-shortcuts =
     .description = テキストを選択すると、プロンプトへのショートカットが表示されます。{ -brand-short-name } は、テキスト、ページ タイトル、プロンプトをチャットボットに送信します。
-    .label = テキスト選択時にプロンプ??トを表示する
+    .label = テキスト選択時にプロンプトを表示する
 
 ## Chatbot prompts
 ## Prompts are plain language ‘instructions’ sent to a chatbot.
