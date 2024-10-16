@@ -333,6 +333,7 @@ mozilla-pkix-error-invalid-integer-encoding = サーバーが提示した証明�
 mozilla-pkix-error-empty-issuer-name = サーバーから発行者の識別名が無い証明書が提示されました。
 mozilla-pkix-error-additional-policy-constraint-failed = この証明書を検証するときに、追加のポリシー制約が失敗しました。
 mozilla-pkix-error-self-signed-cert = 自己署名された証明書のため信頼できません。
+mozilla-pkix-error-issuer-no-longer-trusted = この証明書を発行した証明機関は、証明書が発行された時点で、既に信頼されていません。
 
 xp-java-remove-principal-error = プリンシパルを削除できませんでした
 xp-java-delete-privilege-error = 権限を削除できませんでした

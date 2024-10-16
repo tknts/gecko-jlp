@@ -30,6 +30,10 @@ cert-error-trust-self-signed = この証明書は信頼されていません。�
 
 cert-error-trust-symantec = GeoTrust、RapidSSL、Symantec、Thawte、および VeriSign によって発行された証明書は、これらの認証局が過去に証明書発行ポリシーや慣行に従わなかったため安全とは見なされていません。
 
+# Variables:
+#   $hostname (string) - Hostname of the website with cert error.
+cert-error-trust-certificate-transparency = { -brand-short-name } は、公開証明書の透明性の要件を満たしていることを証明できなかったため、{ $hostname } を信頼しません。
+
 cert-error-untrusted-default = 証明書が信頼できるソースからのものではありません。
 
 # Variables:
@@ -127,8 +131,8 @@ netReset-title = 接続がリセットされました
 netTimeout-title = 接続がタイムアウトしました
 serverError-title = このサイトに問題があるようです
 unknownProtocolFound-title = アドレスがわかりませんでした
-proxyConnectFailure-title = プロキシ サーバーが接続を拒否しています
-proxyResolveFailure-title = プロキシ サーバーが見つかりません
+proxyConnectFailure-title = プロキシサーバーが接続を拒否しています
+proxyResolveFailure-title = プロキシサーバーが見つかりません
 redirectLoop-title = ページが正しくリダイレクトされません
 unknownSocketType-title = サーバーから予期しない応答がありました
 nssFailure2-title = 安全な接続に失敗しました
