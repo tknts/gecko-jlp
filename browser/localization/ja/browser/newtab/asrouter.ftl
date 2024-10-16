@@ -265,3 +265,9 @@ root-certificate-succession-infobar-primary-button =
 root-certificate-succession-infobar-secondary-button =
   .label = 後で
   .accesskey = L
+
+## FxA Menu Message variants
+
+fxa-menu-message-close-button =
+    .title = 閉じる
+    .aria-label = メッセージを閉じる

@@ -488,7 +488,7 @@ recent-updates-heading = 最近の更新
 release-notes-loading = 読み込んでいます…
 release-notes-error = リリースノートの読み込み中にエラーが発生しました。
 
-addon-permissions-empty = この拡張機能は許可設定を必要としません
+addon-permissions-empty2 = この拡張機能には追加の権限は必要ありません。
 addon-permissions-required = 動作に必要な権限:
 addon-permissions-optional = 追加機能の権限:
 addon-permissions-learnmore = 権限の詳細についてさらに詳しく
@@ -538,17 +538,19 @@ details-notification-unsigned-and-disabled2 =
 details-notification-unsigned2 =
     .message = { $name } は { -brand-short-name } での動作を検証されいません。注意して続行してください。
 
-details-notification-blocked2 =
-    .message = { $name } は、セキュリティまたは安定性の問題により無効になっています。
+details-notification-hard-blocked-extension =
+    .message = この拡張機能は Mozilla のポリシーに違反しているためブロックされ、無効になっています。
+details-notification-hard-blocked-other =
+    .message = このアドオンは Mozilla のポリシーに違反しているためブロックされ、無効になっています。
 details-notification-blocked-link2 = 詳細を表示する
 
-details-notification-softblocked-extension-disabled =
+details-notification-soft-blocked-extension-disabled =
     .message = この拡張機能は Mozilla のポリシーに違反しているため無効になっています。有効にすることはできますが、リスクを伴う可能性があります。
-details-notification-softblocked-extension-enabled =
+details-notification-soft-blocked-extension-enabled =
     .message = この拡張機能は Mozilla のポリシーに違反しています。使用すると危険な場合があります。
-details-notification-softblocked-other-disabled =
+details-notification-soft-blocked-other-disabled =
     .message = このアドオンは Mozilla のポリシーに違反しているため無効になっています。有効にすることはできますが、リスクを伴う可能性があります。
-details-notification-softblocked-other-enabled =
+details-notification-soft-blocked-other-enabled =
     .message = このアドオンは Mozilla のポリシーに違反しています。使用すると危険な場合があります。
 details-notification-softblocked-link2 = 詳細を表示する
 
