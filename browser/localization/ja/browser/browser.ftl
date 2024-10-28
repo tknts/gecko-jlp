@@ -639,6 +639,31 @@ urlbar-result-action-calculator-result = = { $result }
 
 ## Strings used for buttons in the urlbar
 
+# Searchmode Switcher button
+# Variables:
+#   $engine (String): the current default search engine.
+urlbar-searchmode-button2 =
+    .label = 検索エンジンを選択してください。現在: { $engine }
+    .tooltiptext = 検索エンジンを選択してください。現在: { $engine }
+urlbar-searchmode-button-no-engine =
+    .label = ショートカットが選択されていません。ショートカットを選択してください
+    .tooltiptext =ショートカットが選択されていません。ショートカットを選択してください
+urlbar-searchmode-dropmarker =
+    .tooltiptext = 検索エンジンを選ぶ
+urlbar-searchmode-bookmarks =
+    .label = ブックマーク
+urlbar-searchmode-tabs =
+    .label = タブ
+urlbar-searchmode-history =
+    .label = 履歴
+urlbar-searchmode-actions =
+    .label = アクション
+urlbar-searchmode-exit-button =
+    .tooltiptext = 閉じる
+
+urlbar-searchmode-popup-description = 次で検索:
+urlbar-searchmode-popup-search-settings = 検索の設定
+
 # Label prompting user to search with a particular search engine.
 #  $engine (String): the name of a search engine that searches a specific site
 urlbar-result-search-with = { $engine } による検索結果
@@ -1003,6 +1028,10 @@ data-reporting-notification-button =
 
 # Label for the indicator shown in the private browsing window titlebar.
 private-browsing-indicator-label = プライベートブラウジング
+
+# Tooltip for the indicator shown in the private browsing window titlebar.
+private-browsing-indicator-tooltip =
+    .tooltiptext = プライベートブラウジング
 
 # Tooltip for the indicator shown in the window titlebar when content analysis is active.
 # Variables:

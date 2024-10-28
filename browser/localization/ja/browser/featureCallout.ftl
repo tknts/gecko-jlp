@@ -70,3 +70,8 @@ split-dismiss-button-dont-show-option-label = このおすすめを再度表示�
 split-dismiss-button-show-fewer-option-label = おすすめの表示を少なくする
 # Opens about:preferences#general-cfrfeatures
 split-dismiss-button-manage-settings-option-label = 設定を管理する
+
+## Sidebar Strings
+
+sidebar-button-callout-title = サイドバーにタブのタイトルを表示する
+sidebar-button-callout-subtitle = サイドバーボタンを使用してサイドバーを展開し、タブのタイトルを表示します。

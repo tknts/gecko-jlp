@@ -348,9 +348,10 @@ pdfjs-editor-free-highlight-thickness-input = 線の太さ
 pdfjs-editor-free-highlight-thickness-title =
     .title = 文字以外の項目を強調表示するさいの太さを変更します
 
-pdfjs-free-text =
+# .default-content is used as a placeholder in an empty text editor.
+pdfjs-free-text2 =
     .aria-label = Text Editor
-pdfjs-free-text-default-content = 文字の入力を開始します…
+    .default-content = 文字の入力を開始します…
 pdfjs-ink =
     .aria-label = Draw Editor
 pdfjs-ink-canvas =

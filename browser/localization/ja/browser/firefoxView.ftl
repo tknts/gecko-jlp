@@ -40,17 +40,17 @@ firefoxview-tabpickup-step-signin-header = デバイス間でシームレスな�
 firefoxview-tabpickup-step-signin-description = スマートフォンのタブを取得するには、ログインするかアカウントを作成してください。
 firefoxview-tabpickup-step-signin-primarybutton = 続行
 
-firefoxview-syncedtabs-signin-header = どこからでもタブを取得
-firefoxview-syncedtabs-signin-description = { -brand-product-name } を使用している場所からタブを表示するには、アカウントにサインインしてください。アカウントをまだ持っていない場合は、サインアップの手順をご覧ください。
-firefoxview-syncedtabs-signin-primarybutton = サインインまたはサインアップ
+firefoxview-syncedtabs-signin-header-2 = すべてのデバイスで { -brand-product-name } を
+firefoxview-syncedtabs-signin-description-2 = 携帯電話やその他のデバイスで開いているタブを表示するには、サインインするか、アカウントを登録してください。アカウントがあれば、パスワードや履歴などを同期することもできます。
+firefoxview-syncedtabs-signin-primarybutton-2 = サインイン
 
 firefoxview-tabpickup-adddevice-header = スマートフォンやタブレットで { -brand-product-name } と同期する。
 firefoxview-tabpickup-adddevice-description = モバイル版の { -brand-product-name } をダウンロードしてログインしてください。
 firefoxview-tabpickup-adddevice-learn-how = 仕組みについて
 firefoxview-tabpickup-adddevice-primarybutton = モバイル版 { -brand-product-name } を入手
 
-firefoxview-syncedtabs-adddevice-header = 他のデバイスで { -brand-product-name } にサインインします
-firefoxview-syncedtabs-adddevice-description = { -brand-product-name } を使用している場所からタブを表示するには、すべてのデバイスでサインインしてください。<a data-l10n-name="url">接続するデバイスの追加</a> 方法をご覧ください。
+firefoxview-syncedtabs-adddevice-header-2 = どこからでもタブを取り寄せます
+firefoxview-syncedtabs-adddevice-description-2 = ここでタブを表示するには、携帯電話または別のコンピューターで { -brand-product-name } にサインインしてください。<a data-l10n-name="url">接続するデバイスを追加する</a> 方法については、こちらをご覧ください。
 firefoxview-syncedtabs-adddevice-primarybutton = { -brand-product-name } for mobile を試してみる
 
 firefoxview-tabpickup-synctabs-header = タブの同期を有効にする
@@ -268,9 +268,8 @@ firefoxview-choose-browser-button = ブラウザーを選択
 
 ## Message displayed in Firefox View when the user has chosen to never remember History
 
-firefoxview-dont-remember-history-empty-header = なにも表示できません
-firefoxview-dont-remember-history-empty-description = あなたのプライバシーを保護することが私たちの活動の中心です。{ -brand-short-name } が記憶するアクティビティをコントロールできるのはそのためです。
-firefoxview-dont-remember-history-empty-description-two = 現在、設定によって { -brand-short-name } は閲覧中のアクティビティを記憶しません。これを変更するには <a data-l10n-name="history-settings-url-two">履歴を記憶するように履歴の設定を変更します</a>。
+firefoxview-dont-remember-history-empty-header-2 = { -brand-short-name } が何を記憶するかは、あなたが決めます。
+firefoxview-dont-remember-history-empty-description-one = 現在、{ -brand-short-name } はあなたの閲覧に関するアクティビティを記憶していません。これを変更するには、<a data-l10n-name="history-settings-url-two">履歴設定を更新</a>してください。
 
 ##
 
@@ -312,6 +311,7 @@ firefoxview-opentabs-pinned-tab =
 # This tooltip will be shown for a pinned tab whose URL is currently bookmarked.
 firefoxview-opentabs-bookmarked-pinned-tab =
   .title = { $tabTitle } (ブックマーク済み) に切り替える
+
 ## These tooltips will be displayed when hovering over an unpinned Open Tab
 ## Variables:
 ##   $url (string) - URL of tab that will be opened when selected
