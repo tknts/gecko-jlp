@@ -116,6 +116,7 @@ newtab-menu-save-to-pocket = { -pocket-brand-name } に保存
 newtab-menu-delete-pocket = { -pocket-brand-name } から削除
 newtab-menu-archive-pocket = { -pocket-brand-name } にアーカイブ
 newtab-menu-show-privacy-info = スポンサーとあなたのプライバシー
+newtab-menu-about-fakespot = { -fakespot-brand-name } について
 
 ## Message displayed in a modal window to explain privacy and provide context for sponsored content.
 
@@ -311,6 +312,8 @@ newtab-wallpaper-dark-panda = Red panda hidden in forest
 newtab-wallpaper-dark-sky = City landscape with a night sky
 newtab-wallpaper-dark-mountain = Landscape mountain
 newtab-wallpaper-dark-city = Purple city landscape
+newtab-wallpaper-dark-fox-anniversary =  A fox on the pavement near a forest
+newtab-wallpaper-light-fox-anniversary = A fox in a grassy field with a misty mountain landscape
 
 ## Solid Colors
 

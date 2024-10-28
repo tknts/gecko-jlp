@@ -27,6 +27,15 @@ edit-profile-page-duplicate-name = このプロファイルの名前は既に使
 
 edit-profile-page-profile-saved = 保存しました
 
+new-profile-page-title = 新しいプロファイル
+new-profile-page-header = 新しいプロファイルのカスタマイズ
+new-profile-page-header-description = 各プロファイルは、独自の閲覧履歴と設定を他のプロファイルとは別に保持します。さらに、{ -brand-short-name } の強力なプライバシー保護はデフォルトでオンになっています。
+new-profile-page-learn-more = さらに詳しく
+new-profile-page-input-placeholder =
+    .placeholder = “仕事用”  や “個人用” などの名前を選びます
+new-profile-page-done-button =
+    .label = 編集を完了
+
 # Variables
 #   $profilename (String) - The name of the profile.
 delete-profile-page-title = { $profilename } のプロファイルを削除
@@ -46,15 +55,12 @@ delete-profile-logins = パスワード
 delete-profile-cancel = キャンセル
 delete-profile-confirm = 削除
 
+appmenu-other-profiles = その他のプロファイル
 appmenu-manage-profiles =
     .label = プロファイルを管理
 appmenu-create-profile =
     .label = 新しいプロファイルを作成
+appmenu-edit-profile =
+    .aria-label =プロファイルを編集します
 
-## Variables
-##   $profilename (String) - The name of the profile.
-
-appmenuitem-profiles =
-    .label = プロファイル | { $profilename }
-appmenu-close-profile =
-    .label = { $profilename } プロファイルを閉じる
+appmenu-profiles = プロファイル

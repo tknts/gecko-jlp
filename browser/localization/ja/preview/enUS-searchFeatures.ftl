@@ -399,26 +399,3 @@ urlbar-firefox-suggest-contextual-opt-in-description-2 =
   <a data-l10n-name="learn-more-link">Learn more</a>
 urlbar-firefox-suggest-contextual-opt-in-allow = サジェストを許可
 urlbar-firefox-suggest-contextual-opt-in-dismiss = 許可しない
-
-## Searchmode Switcher button
-
-# Variables:
-#   $engine (String): the current default search engine.
-urlbar-searchmode-button =
-    .label = 検索エンジンを選ぶ (現在: { $engine })
-    .tooltiptext = 検索エンジンを選びます (現在: { $engine })
-urlbar-searchmode-dropmarker =
-    .tooltiptext = 検索エンジンを選びます
-urlbar-searchmode-bookmarks =
-    .label = ブックマーク 
-urlbar-searchmode-tabs =
-    .label = タブ
-urlbar-searchmode-history =
-    .label = 履歴
-urlbar-searchmode-actions =
-    .label = アクション
-urlbar-searchmode-exit-button =
-    .tooltiptext = 閉じる
-
-urlbar-searchmode-popup-description = 検索エンジン:
-urlbar-searchmode-popup-search-settings = 検索の設定

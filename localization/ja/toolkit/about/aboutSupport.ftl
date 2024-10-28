@@ -397,8 +397,6 @@ multi-process-windows = { $remoteWindows }/{ $totalWindows }
 # $fissionWindows (integer) - Number of remote windows
 # $totalWindows (integer) - Number of total windows
 fission-windows = { $fissionWindows }/{ $totalWindows }
-fission-status-experiment-control = 実験中のため無効
-fission-status-experiment-treatment = 実験中のため有効
 fission-status-disabled-by-e10s-env = 動作環境により E10s は無効
 fission-status-enabled-by-env = 動作環境により有効
 fission-status-disabled-by-env = 動作環境により無効
@@ -407,7 +405,6 @@ fission-status-disabled-by-default = デフォルトで無効
 fission-status-enabled-by-user-pref = ユーザーにより有効
 fission-status-disabled-by-user-pref = ユーザーにより無効
 fission-status-disabled-by-e10s-other = E10s 無効
-fission-status-enabled-by-rollout = 段階的ロールアウトにより有効
 
 async-pan-zoom = 非同期パン / ズーム
 apz-none = なし

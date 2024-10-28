@@ -8,6 +8,9 @@ menu-view-genai-chat =
 menu-view-review-checker =
   .label = レビュー チェッカー
 
+sidebar-options-menu-button =
+  .title = メニューを開く
+
 ## Labels for sidebar history panel
 
 # Variables:

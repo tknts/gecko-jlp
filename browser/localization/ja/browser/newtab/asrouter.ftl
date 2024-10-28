@@ -218,6 +218,10 @@ device-migration-fxa-spotlight-getting-new-device-header-2  = 将来的に新し
 device-migration-fxa-spotlight-getting-new-device-body-2 = 新しいデバイスを使い始めるときに、いくつかの簡単な手順に従ってブックマーク、履歴、パスワードを持ち歩きましょう。
 device-migration-fxa-spotlight-getting-new-device-primary-button = データをバックアップする方法
 
+device-migration-fxa-spotlight-sync-header = 見逃すことなくブラウジング
+device-migration-fxa-spotlight-sync-body = ブックマークやパスワードなどの重要な情報はすべて暗号化されて同期されます。{ -brand-product-name } を使用すれば、どこからでもすべてを引き出すことができます。
+device-migration-fxa-spotlight-sync-primary-button = 今すぐ始める
+
 ## Set as Default PDF Reader Infobar
 
 # The question portion of the following message should have the <strong> and </strong> tags surrounding it.
@@ -231,7 +235,7 @@ pdf-default-notification-decline-button =
 
 launch-on-login-infobar-message = <strong>コンピューターを再起動するたびに { -brand-short-name } を開きますか?</strong> デバイスを再起動するときに { -brand-short-name } が自動的に開くように設定できるようになりました。
 launch-on-login-learnmore = さらに詳しく
-launch-on-login-infobar-confirm-button = はい。{ -brand-short-name } を開きます
+launch-on-login-infobar-confirm-button = 自動的に { -brand-short-name } を開きます
   .accesskey = Y
 launch-on-login-infobar-reject-button = 今はしない
   .accesskey = N
@@ -239,7 +243,7 @@ launch-on-login-infobar-reject-button = 今はしない
 ## These string variants are used when the “launch on login” infobar
 ## notification is displayed for a second time.
 
-launch-on-login-infobar-final-message = <strong>コンピューターを再起動するたびに { -brand-short-name } を開きますか?</strong> スタートアップの設定を管理するには、設定で[スタートアップ]を検索してください。
+launch-on-login-infobar-final-message = <strong>コンピューターを再起動するたびに { -brand-short-name } を開きますか?</strong> スタートアップの設定を管理するには、設定で “スタートアップ” を検索してください。
 launch-on-login-infobar-final-reject-button = 必要ありません
   .accesskey = N
 
@@ -271,3 +275,21 @@ root-certificate-succession-infobar-secondary-button =
 fxa-menu-message-close-button =
     .title = 閉じる
     .aria-label = メッセージを閉じる
+
+fxa-menu-message-sign-up-button = サインアップ
+
+fxa-menu-message-sync-devices-primary-text = すべてのデバイスと同期
+fxa-menu-message-sync-devices-secondary-text = { -brand-short-name } を使用するすべての場所で、ブックマークやパスワードなどの情報を即座に取得できます。
+fxa-menu-message-sync-devices-collapsed-text = すべてのデバイスと同期
+
+fxa-menu-message-backup-data-primary-text = ブラウザーのデータをバックアップする
+fxa-menu-message-backup-data-secondary-text = すべてのデバイス上のブックマーク、パスワード、その他の情報を自動的に保護します。
+fxa-menu-message-backup-data-collapsed-text = ブラウザーのデータをバックアップする
+
+fxa-menu-message-backup-sync-primary-text = データを安全に同期します
+fxa-menu-message-backup-sync-secondary-text = Sync はほとんどのデータをバックアップするため、{ -brand-short-name } を使用するすべての場所からデータにアクセスできます。
+fxa-menu-message-backup-sync-collapsed-text = データの同期とバックアップ
+
+fxa-menu-message-mobile-primary-text = タブを携帯電話に送信する
+fxa-menu-message-mobile-secondary-text = タブをモバイル デバイスと同期すると、中断したところからすぐに再開できます。
+fxa-menu-message-mobile-collapsed-text = 携帯電話と同期
