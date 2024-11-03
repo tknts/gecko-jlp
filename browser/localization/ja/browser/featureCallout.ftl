@@ -75,3 +75,36 @@ split-dismiss-button-manage-settings-option-label = 設定を管理する
 
 sidebar-button-callout-title = サイドバーにタブのタイトルを表示する
 sidebar-button-callout-subtitle = サイドバーボタンを使用してサイドバーを展開し、タブのタイトルを表示します。
+
+## Sidebar Callout Survey Strings
+
+sidebar-callout-survey-title = { -brand-short-name } の改善にご協力ください
+sidebar-callout-survey-satisfaction-question = { -brand-short-name } のサイドバーの使い勝手にどの程度満足していますか?
+sidebar-callout-survey-privacy-notice-link = プライバシーに関する通知
+sidebar-callout-survey-very-satisfied = とても満足
+sidebar-callout-survey-satisfied = 満足
+sidebar-callout-survey-neutral = 普通
+sidebar-callout-survey-dissatisfied = 不満
+sidebar-callout-survey-very-dissatisfied = とても不満
+sidebar-callout-survey-dont-use-it = 使わない
+sidebar-callout-survey-productive-question =
+    次の意見にどの程度同意しますか、または同意しませんか:<br/>
+    “{ -brand-short-name } サイドバーは生産性の向上に役立ちます。”?
+sidebar-callout-survey-strongly-agree = 強く同意する
+sidebar-callout-survey-agree = 同意する
+sidebar-callout-survey-disagree = 同意しない
+sidebar-callout-survey-strongly-disagree = 強く同意しない
+sidebar-callout-survey-features-question = The following are potential sidebar features. Which would improve your productivity in { -brand-short-name } the most?
+sidebar-callout-survey-split-view = ふたつのウェブサイトを並べて分割表示し、同時に表示します
+sidebar-callout-survey-keep-website-open = ブラウジング中にメールやカレンダーなどのウェブサイトをサイドバーに開いたままにしておく
+sidebar-callout-survey-saved-websites = 保存したすべてのウェブサイトに素早くアクセス
+sidebar-callout-survey-none-of-above = 上記のどれでもない
+sidebar-callout-survey-submit = 送信
+sidebar-callout-survey-thank-you = Tフィードバックありがとうございます!
+
+# Sidebar GenAI Survey Strings
+
+sidebar-genai-survey-satisfaction-question = サイドバーから AI チャットボットを使用できることに、どの程度満足していますか?
+sidebar-genai-survey-productive-question =
+    あなたはこの意見にどの程度同意しますか、あるいは反対しますか:<br/>
+    “サイドバー上で AI チャットボットを使用すると生産性が上がります”?

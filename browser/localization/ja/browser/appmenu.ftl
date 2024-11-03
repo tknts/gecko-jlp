@@ -120,9 +120,12 @@ appmenu-fxa-sync-and-save-data2 = データの保存と同期
 appmenu-fxa-signed-in-label = ログイン
 appmenu-fxa-setup-sync =
     .label = 同期を有効にする…
-
+appmenu-fxa-setup-sync-new = オンにする
 appmenuitem-save-page =
     .label = 名前を付けて保存…
+
+appmenuitem-fxa-sync-off-title = 同期をオフにする
+appmenuitem-fxa-sync-off-description = ブックマーク、パスワードなどをどこからでも保護し、アクセスできます。
 
 ## What's New panel in App menu.
 
@@ -312,3 +315,14 @@ appmenuitem-relay-title = { -relay-brand-short-name }
 appmenuitem-relay-description = 実際のメールアドレスと電話番号をマスクする
 appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
 appmenuitem-vpn-description = あなたのオンラインでの行動を保護します
+
+## Profiles panel
+
+appmenu-profiles = プロファイル
+appmenu-other-profiles = その他のプロファイル
+appmenu-manage-profiles =
+    .label = プロファイルを管理
+appmenu-create-profile =
+    .label = 新しいプロファイルを作成
+appmenu-edit-profile =
+    .aria-label =プロファイルを編集します

@@ -54,13 +54,3 @@ delete-profile-logins = パスワード
 # Button labels
 delete-profile-cancel = キャンセル
 delete-profile-confirm = 削除
-
-appmenu-other-profiles = その他のプロファイル
-appmenu-manage-profiles =
-    .label = プロファイルを管理
-appmenu-create-profile =
-    .label = 新しいプロファイルを作成
-appmenu-edit-profile =
-    .aria-label =プロファイルを編集します
-
-appmenu-profiles = プロファイル
