@@ -7,11 +7,11 @@
 newtab-page-title = 新しいタブ
 newtab-settings-button =
     .title = 新しいタブのカスタマイズ
-newtab-personalize-icon-label =
+newtab-personalize-settings-icon-label =
     .title = 新しいタブのパーソナライズ
-    .aria-label = 新しいタブのパーソナライズ
-newtab-personalize-dialog-label =
-    .aria-label = パーソナライズ
+    .aria-label = 設定
+newtab-settings-dialog-label =
+    .aria-label = 設定
 newtab-logo-and-wordmark =
     .aria-label = { -brand-full-name }
 
@@ -228,15 +228,6 @@ newtab-discovery-empty-section-topstories-loading = 読み込み中…
 newtab-discovery-empty-section-topstories-timed-out = しまった! このセクションをほぼ読み込みましたが、完全ではありませんでした。
 
 ## Pocket Content Section.
-
-# This is shown at the bottom of the trending stories section and precedes a list of links to popular topics.
-newtab-pocket-read-more = 人気の話題:
-newtab-pocket-new-topics-title = さらに多くの記事を必要としていますか? { -pocket-brand-name } から人気のある話題を参照してください
-newtab-pocket-more-recommendations = その他のおすすめ
-newtab-pocket-learn-more = さらに詳しく
-newtab-pocket-cta-button = { -pocket-brand-name } を入手
-newtab-pocket-cta-text = お気に入りに記事を { -pocket-brand-name } に保存して、魅力的な読み物を思う存分楽しみましょう。
-newtab-pocket-pocket-firefox-family = { -pocket-brand-name } は { -brand-product-name } ファミリーの一員です
 
 # A save to Pocket button that shows over the card thumbnail on hover.
 newtab-pocket-image =

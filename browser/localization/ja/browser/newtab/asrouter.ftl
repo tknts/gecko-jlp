@@ -293,3 +293,23 @@ fxa-menu-message-backup-sync-collapsed-text = データの同期とバックア�
 fxa-menu-message-mobile-primary-text = タブを携帯電話に送信する
 fxa-menu-message-mobile-secondary-text = タブをモバイル デバイスと同期すると、中断したところからすぐに再開できます。
 fxa-menu-message-mobile-collapsed-text = 携帯電話と同期
+
+## Multi-CTA Fox Doodle Spotlight
+
+multi-cta-fox-doodle-title = おかえりなさい
+
+multi-cta-fox-doodle-set-default-checkbox = { -brand-short-name } を既定のブラウザーに設定する
+multi-cta-fox-doodle-pin-startmenu-checkbox = { -brand-short-name } をスタートメニューにピン留めする
+multi-cta-fox-doodle-pin-checkbox  = { PLATFORM() ->
+    [macos] Keep { -brand-short-name } in Dock
+   *[other] { -brand-short-name } をタスクバーにピン留めする
+   
+multi-cta-fox-doodle-start-browsing-primary-button-label = ブラウジングを始める
+multi-cta-fox-doodle-main-browser-primary-button-label = { -brand-short-name } をメインのブラウザーにする
+
+multi-cta-fox-doodle-quick-reminder-subtitle = Here’s a quick reminder that you can keep your favorite privacy-focused browser just one click away.
+multi-cta-fox-doodle-privacy-focused-subtitle  = { PLATFORM() ->
+    [macos] Keep your favorite privacy-focused browser just one click away. Set { -brand-short-name } as your default browser for opening links and keep it in your Dock.
+   *[other] Keep your favorite privacy-focused browser just one click away. Set { -brand-short-name } as your default browser for opening links and pin it to your taskbar.
+}
+multi-cta-fox-doodle-msix-privacy-focused-subtitle = お気に入りのプライバシー重視のブラウザをワンクリックで利用できます。リンクを開くための既定のブラウザとして { -brand-short-name } を設定し、タスクバーとスタートメニューにピン留めします。

@@ -926,21 +926,19 @@ sync-currently-syncing-payment-methods = 決済方法
 sync-currently-syncing-addons = アドオン
 sync-currently-syncing-settings = 設定
 
-sync-change-options =
-    .label = 変更…
-    .accesskey = C
+sync-manage-options =
+    .label = 同期を管理…
+    .accesskey = M
 
 ## The "Choose what to sync" dialog.
 
-sync-choose-what-to-sync-dialog3 =
-    .title = 同期する内容を選択
+sync-choose-what-to-sync-dialog4 =
+    .title = 接続されているすべてのデバイスでの同期を管理します
     .style = min-width: 36em;
-    .buttonlabelaccept = 変更を保存
+    .buttonlabelaccept = 保存
     .buttonaccesskeyaccept = S
     .buttonlabelextra2 = 切断…
     .buttonaccesskeyextra2 = D
-
-sync-choose-dialog-subtitle = 同期する項目の変更は、接続されているすべてのデバイスに反映されます。
 
 sync-engine-bookmarks =
     .label = ブックマーク

@@ -50,3 +50,41 @@ unified-extensions-mb-quarantined-domain-message-3 =
 
 unified-extensions-mb-quarantined-domain-learn-more = さらに詳しく
     .aria-label = 詳細: 一部の拡張子は許可されていません
+
+unified-extensions-mb-about-addons-link = 拡張機能の設定に移動
+
+# Variables:
+#   $extensionName (String) - Name of the extension disabled through a soft-block.
+unified-extensions-mb-blocklist-warning-single =
+    .heading = { $extensionName } が無効になっています
+    .message =
+        この拡張機能は Mozilla のポリシーに違反しているため無効になっています。
+		設定で有効にすることはできますが、リスクがある可能性があります。
+
+# Variables:
+#   $extensionName (String) - Name of the extension disabled through a hard-block.
+unified-extensions-mb-blocklist-error-single =
+    .heading = { $extensionName } が無効になっています
+    .message =
+        この拡張機能は Mozilla のポリシーに違反しているため無効になっています。
+
+# Variables:
+#   $extensionsCount (Number) - Number of extensions disabled through both soft and hard-blocks (always going to be greater than 1)
+unified-extensions-mb-blocklist-warning-multiple =
+    .heading =
+        { $extensionsCount ->
+            *[other] { $extensionsCount } 個の拡張機能が無効になっています
+        }
+    .message =
+        一部の拡張機能は、Mozilla のポリシーに違反しているため無効になっています。
+		設定で有効にすることはできますが、リスクがある可能性があります。
+
+# Variables:
+#   $extensionsCount (Number) - Number of extensions disabled through hard-blocks.
+unified-extensions-mb-blocklist-error-multiple =
+    .heading =
+        { $extensionsCount ->
+            *[other] { $extensionsCount } 個の拡張機能が無効になっています
+        }
+    .message =
+        一部の拡張機能は Mozilla のポリシーに違反しているため無効になっています。

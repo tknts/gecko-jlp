@@ -314,13 +314,8 @@ header-back-button =
 
 # Explanatory introduction to the list of recommended add-ons. The action word
 # ("recommends") in the final sentence is a link to external documentation.
-discopane-intro =
-    拡張機能とテーマはブラウザーのアプリのようなもので、パスワードの保護、ビデオのダウンロード、商品の検索、迷惑な広告のブロック、ブラウザの外観の変更などを行います。これらの小さなソフトウェアプログラムの多くは Mozilla 以外の第三者により開発されています。ここでは、{ -brand-product-name } が選ぶセキュリティ、パフォーマンス、機能性に優れた <a data-l10n-name="learn-more-trigger">おすすめのアドオン</a> を紹介します。
-
-
-
-
-
+discopane-intro2 =
+    拡張機能とテーマを使用すると、{ -brand-product-name } をカスタマイズできます。プライバシーの強化、生産性の向上、メディアの改善、{ -brand-product-name } の外観の変更など、さまざまなことができます。これらの小さなソフトウェアプログラムは、多くの場合、サードパーティーによって開発されています。ここでは、{ -brand-product-name } が優れたセキュリティ、パフォーマンス、機能性のために <a data-l10n-name="learn-more-trigger">推奨</a> するプログラムをいくつか紹介します。
 
 # Notice to make user aware that the recommendations are personalized.
 discopane-notice-recommendations2 =
