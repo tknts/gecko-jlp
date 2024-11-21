@@ -23,7 +23,7 @@ tab-context-move-tab-to-group =
         }
     .accesskey = G
 
-tab-group-editor-action-add-new = グループにタブを追加
+tab-group-editor-action-new-tab = グループに新しいタブを追加
 tab-group-editor-action-new-window = グループを新しいウィンドウに移動する
 tab-group-editor-action-save = グループを保存して閉じる
 tab-group-editor-action-ungroup = タブをグループから外す

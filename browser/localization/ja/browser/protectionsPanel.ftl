@@ -64,6 +64,20 @@ protections-panel-blocking-label = ブロック
 protections-panel-not-blocking-label = 許可
 protections-panel-not-found-label = 検出されませんでした
 
+## Smartblock strings
+
+protections-panel-smartblock-desc-label = { -brand-short-name } は、許可しない限り、このサイトにアクセスしている間、コンテンツによる追跡をブロックします。
+# Variables
+#  $trackername (String): the name of the tracker that is currently being blocked.
+protections-panel-smartblock-blocking-toggle =
+  .label = { $trackername } を許可する
+
+#  $trackername (String): the name of the tracker that is currently being blocked.
+smartblock-placeholder-title = { $trackername } による追跡とコンテンツがブロックされました
+smartblock-placeholder-desc = { -brand-short-name } の設定により、このコンテンツを基にサイト間で追跡されたり、広告に使用されたりすることがブロックされました。
+#  $websitehost (String): host of website with blocked content.
+smartblock-placeholder-button-text = { $websitehost } で許可する
+
 ##
 
 protections-panel-settings-label = 保護設定

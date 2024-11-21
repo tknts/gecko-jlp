@@ -1067,6 +1067,15 @@ unified-extensions-button-quarantined =
         拡張機能
         一部の拡張機能は許可されいません
 
+## Unified extensions button when some extensions are disabled (e.g. through add-ons blocklist).
+## Note that the new line is intentionally part of the tooltip.
+
+unified-extensions-button-blocklisted =
+    .label = 拡張機能
+    .tooltiptext =
+        拡張機能
+        一部の拡張機能は無効になっています
+
 ## Private browsing reset button
 
 reset-pbm-toolbar-button =

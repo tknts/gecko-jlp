@@ -319,6 +319,12 @@ onboarding-mobile-download-security-and-privacy-subtitle = 同期すると { -br
 onboarding-gratitude-security-and-privacy-title = { -brand-short-name } はあなたの味方です
 onboarding-gratitude-security-and-privacy-subtitle = Mozilla Foundation が支援する { -brand-short-name } をご利用いただきありがとうございます。 皆様のご支援により、私たちはインターネットをより安全に、誰にとってもアクセスしやすくするために取り組んでいます。
 
+# Sign up or Sign in screen
+onboarding-sign-up-title = デバイス間でデータを同期する
+onboarding-sign-up-description = アカウントにサインアップすると、パスワード、ブックマークなどの重要な情報がすべて安全に保存され、どのデバイスにサインインしても利用できるようになります。
+onboarding-sign-up-button = サインアップまたはサインイン
+onboarding-sign-up-secondary-button = ブラウジングを開始する
+
 ## New user time and familiarity survey strings
 
 onboarding-new-user-time-based-survey-title = { -brand-short-name } を使用してどれくらいですか?
@@ -360,10 +366,10 @@ onboarding-new-horizontal-tabs-label = タブを上部に配置します
 # Existing users
 
 # Setup screen for vertical tabs for existing users
-onboarding-existing-tabs-title = Vertical tabs are here
+onboarding-existing-tabs-title = 垂直タブはここにあります
 
 # Setup screen for vertical tabs for existing users
-onboarding-existing-tabs-title2 = Introducing vertical tabs
+onboarding-existing-tabs-title2 = タブを垂直に配置するには
 
 # Setup screen for vertical tabs for existing users - "Switch it up" refers to switching between horizontal and vertical tabs.
 onboarding-existing-tabs-subtitle = Try your tabs on the side. Switch it up whenever you want in the sidebar settings.
@@ -402,3 +408,13 @@ onboarding-genai-sidebar-title = サイドバーで AI チャットボットを�
 onboarding-genai-sidebar-subtitle = ブラウジングしながらウェブコンテンツを要約したり、アイデアをブレインストーミングしたり、メッセージの下書きを行えます。複数のプロバイダーから選択でき、いつでも切り替えることができます。<a data-l10n-name="learn-more">さらに詳しく</a>
 onboarding-genai-sidebar-primary-button = チャットボットを選択
 onboarding-genai-sidebar-secondary-button = ブラウジングをスタート
+
+## New user onboarding checklist
+
+onboarding-checklist-title = { -brand-short-name } の設定を完了します
+onboarding-checklist-subtitle = ブラウジング体験を最大限に活用するには、次の手順を完了してください。
+onboarding-checklist-set-default = { -brand-short-name } をデフォルトのブラウザーとして設定する
+onboarding-checklist-pin = { -brand-short-name } をタスクバーにピン留めする
+onboarding-checklist-import = 以前のブラウザーからインポート
+onboarding-checklist-extension = 拡張機能を追加する
+onboarding-checklist-sign-up = サインアップまたはアカウントにログイン

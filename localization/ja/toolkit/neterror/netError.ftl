@@ -41,6 +41,8 @@ neterror-generic-error = { -brand-short-name } は何らかの理由でこのペ
 neterror-load-error-try-again = サイトが一時的に利用できないか、混雑している可能性があります。 しばらくしてからもう一度お試しください。
 neterror-load-error-connection = どのページも読み込めない場合は、コンピューターのネットワーク接続を確認してください。
 neterror-load-error-firewall = コンピューターまたはネットワークがファイアウォールまたはプロキシによって保護されている場合は { -brand-short-name } がウェブへのアクセスを許可されていることを確認してください。
+# This warning is only shown on macOS Sequoia and later (see bug 1929377)
+neterror-load-osx-permission = ローカルネットワークのページを読み込もうとしている場合は、macOS のプライバシーとセキュリティ設定で { -brand-short-name } にローカル ネットワークの権限が付与されていることを確認してください。
 
 neterror-captive-portal = インターネットにアクセスする前に、このネットワークにログインする必要があります。
 
