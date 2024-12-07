@@ -3,9 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 do-not-track-description = ウェブサイトに “Do Not Track” を送信し追跡されたくないことを知らせます
-do-not-track-description2 =
-    .label = ウェブサイトに “Do Not Track” のリクエストを送信します
-    .accesskey = d
+do-not-track-removal = “Do Not Track” の送信はサポートされなくなりました
 do-not-track-learn-more = さらに詳しく
 do-not-track-option-default-content-blocking-known =
     .label = 既知のトラッカーをブロックするよう { -brand-short-name } が設定されている場合のみ
@@ -185,7 +183,7 @@ open-new-link-as-tabs =
     .label = リンクを新しいウィンドウではなく新しいタブで開く
     .accesskey = w
 
-confirm-on-close-multiple-tabs =
+ask-on-close-multiple-tabs =
     .label = 同時に複数のタブを閉じる前に確認する
     .accesskey = m
 
@@ -194,7 +192,7 @@ confirm-on-close-multiple-tabs =
 #   $quitKey (string) - the quit keyboard shortcut, and formatted
 #                       in the same manner as it would appear,
 #                       for example, in the File menu.
-confirm-on-quit-with-key =
+ask-on-quit-with-key =
     .label = { $quitKey } キーで終了する前に確認する
     .accesskey = b
 

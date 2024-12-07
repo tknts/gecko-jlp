@@ -370,7 +370,9 @@ newtab-weather-see-forecast =
 #   $provider (string) - Service provider for weather data
 newtab-weather-sponsored = { $provider } ∙ Sponsored
 newtab-weather-menu-change-location = 地域を変更
-newtab-weather-change-location-search-input = 地域を検索
+newtab-weather-change-location-search-input-placeholder =
+    .placeholder = 地域を検索
+    .aria-label = 地域を検索
 newtab-weather-menu-weather-display = Weather display
 # Display options are:
 # - Simple: Displays a current weather condition icon and the current temperature

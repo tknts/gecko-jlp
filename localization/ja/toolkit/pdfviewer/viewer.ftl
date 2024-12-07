@@ -503,3 +503,24 @@ pdfjs-editor-alt-text-settings-editor-title = 代替テキストエディター
 pdfjs-editor-alt-text-settings-show-dialog-button-label = 画像を追加するときにすぐに代替テキストエディタを表示します
 pdfjs-editor-alt-text-settings-show-dialog-description = すべての画像に代替テキストが含まれていることを確認するのに役立ちます。
 pdfjs-editor-alt-text-settings-close-button = 閉じる
+
+## "Annotations removed" bar
+
+pdfjs-editor-undo-bar-message-highlight = Highlight removed
+pdfjs-editor-undo-bar-message-freetext = Text removed
+pdfjs-editor-undo-bar-message-ink = Drawing removed
+pdfjs-editor-undo-bar-message-stamp = Image removed
+# Variables:
+#   $count (Number) - the number of removed annotations.
+pdfjs-editor-undo-bar-message-multiple =
+    { $count ->
+        [one] { $count } annotation removed
+       *[other] { $count } annotations removed
+    }
+
+pdfjs-editor-undo-bar-undo-button =
+    .title = 元に戻す
+pdfjs-editor-undo-bar-undo-button-label = 元に戻す
+pdfjs-editor-undo-bar-close-button =
+    .title = 閉じる
+pdfjs-editor-undo-bar-close-button-label = 閉じる

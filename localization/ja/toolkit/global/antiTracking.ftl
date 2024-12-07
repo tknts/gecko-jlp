@@ -11,3 +11,10 @@ btp-warning-tracker-classified =
     { $gracePeriodSeconds ->
         *[other] “{ $siteHost }” はバウンストラッカー（リダイレクトベースのトラッキング）として分類されました。 { $gracePeriodSeconds } 秒以内にユーザーによるアクティベーションが行われない場合、その状態は消去されます。
     }
+
+# Message which is shown when visiting a site which Bounce Tracking Protection
+# has purged state of recently. Purging means clearing a sites data such as
+# cookies, storage and caches. Do not translate "bounce tracker".
+# Variables:
+#   $siteHost (string): The host portion of the site which has been purged.
+btp-warning-tracker-purged = “{ $siteHost }” は追跡防止技術を回避する bounce tracker と判定されたため、最近消去されました
