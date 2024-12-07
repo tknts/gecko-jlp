@@ -79,6 +79,7 @@ tabbrowser-confirm-close-tabs-title =
     }
 tabbrowser-confirm-close-tabs-button = 複数のタブを閉じる
 tabbrowser-confirm-close-tabs-checkbox = 複数のタブを閉じる時は確認する
+tabbrowser-ask-close-tabs-checkbox = 同時に複数のタブを閉じる前に確認する
 
 ## Confirmation dialog when quitting using the menu and multiple windows are open.
 
@@ -104,6 +105,18 @@ tabbrowser-confirm-close-tabs-with-key-button = { -brand-short-name } を終了
 # Variables:
 #   $quitKey (String): the text of the keyboard shortcut for quitting.
 tabbrowser-confirm-close-tabs-with-key-checkbox = { $quitKey } を使って終了する前に確認する
+tabbrowser-ask-close-tabs-with-key-checkbox = { $quitKey } で終了する前に確認する
+
+## Confirmation dialog when quitting using the keyboard shortcut (Ctrl/Cmd+Q)
+## and browser.warnOnQuitShortcut is true.
+
+tabbrowser-confirm-close-warn-shortcut-title = { -brand-short-name } を終了しますか、それとも現在のタブを閉じますか?
+tabbrowser-confirm-close-windows-warn-shortcut-button =
+    { PLATFORM() ->
+        [windows] { -brand-short-name } を終了
+       *[other] { -brand-short-name } を終了
+    }
+tabbrowser-confirm-close-tab-only-button = 現在のタブを閉じる
 
 ## Confirmation dialog when opening multiple tabs simultaneously
 

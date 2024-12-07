@@ -79,6 +79,8 @@ inactive-css-ruby-element = <strong>{ $property }</strong> はルビ要素であ
 
 inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> は疑似要素の強調表示をサポートしていません。
 
+inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> はハイライト疑似要素ではサポートされていません。
+
 inactive-css-cue-pseudo-element-not-supported = <strong>{ $property }</strong> は ::cue 擬似要素ではサポートされていません。
 
 # Variables:

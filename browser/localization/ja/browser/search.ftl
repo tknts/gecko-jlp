@@ -36,3 +36,12 @@ searchbar-icon =
 
 removed-search-engine-message2 = <strong>既定の検索エンジンが変更されました。</strong> { $oldEngine } は、{ -brand-short-name } の規定の検索エンジンとして使用できなくなりました。 { $newEngine } が規定の検索エンジンになりました。 別の規定の検索エンジンに変更するには、設定に移動します。
 remove-search-engine-button = OK
+
+## Infobar shown when user is prompted to install search engine.
+## Variables
+## $engineName (String) - the name of the search engine to install.
+
+install-search-engine = { $engineName } を検索エンジンとして追加しますか?
+install-search-engine-add = 追加
+install-search-engine-no = キャンセル
+

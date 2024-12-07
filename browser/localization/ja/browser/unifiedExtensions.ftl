@@ -21,6 +21,10 @@ unified-extensions-item-open-menu =
 
 unified-extensions-item-message-manage = 拡張機能を管理
 
+# Variables:
+#   $extensionName (String) - Name of the user-enabled soft-blocked extension.
+unified-extensions-item-messagebar-softblocked = { $extensionName } は Mozilla のポリシーに違反しています。使用にはリスクが伴う可能性があります。
+
 ## Extension's context menu
 
 unified-extensions-context-menu-pin-to-toolbar =

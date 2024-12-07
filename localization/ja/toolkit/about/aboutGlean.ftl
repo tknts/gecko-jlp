@@ -14,9 +14,15 @@ about-glean-header = { -glean-brand-name } について
 about-glean-interface-description =
   <a data-l10n-name="glean-sdk-doc-link">{ glean-sdk-brand-name }</a> は { -vendor-short-name } のプロジェクトで使用されるデータ収集ライブリです。 
   このインターフェイスは、開発者とテスターが <a data-l10n-name="fog-link">テスト機器</a> を使用して手動でテストするように設計されています
-  
-  
-  
+
+
+
+about-glean-category-about-glean = { -glean-brand-name } について
+about-glean-category-manual-testing = 手動テスト
+about-glean-category-adhoc-testing =アドホックテスト
+about-glean-category-profiler = プロファイラの使用
+about-glean-category-about-data = データについて
+
 about-glean-upload-enabled = データのアップロードは有効です。
 about-glean-upload-disabled = データのアップロードは無効です。
 about-glean-upload-enabled-local = データのアップロードはローカルにあるサーバーへに対してのみ送信できます。
@@ -46,7 +52,10 @@ about-glean-glean-android = <code>MOZ_GLEAN_ANDROID</code>: { $glean-android-def
 # Do not translate strings between <code> </code> tags.
 about-glean-moz-official =<code>MOZILLA_OFFICIAL</code>: { $moz-official-define-value }
 
-about-glean-about-testing-header = About Testing
+about-glean-additional-links =
+  データの記録と検索のさまざまな方法については、<strong>データについて</strong> タブをご覧ください。
+
+
 # This message is followed by a numbered list.
 about-glean-manual-testing =
   Full instructions are documented in the
@@ -99,6 +108,16 @@ about-glean-adhoc-note =
   これは、メトリック カテゴリとメトリック名が次のようにフォーマットされていることを意味します。
   Rust や C++ API とは異なり <code>camelCase</code> です。
 
+about-glean-profiler-explanation =
+  To see a full view of all recorded metrics, you can use the { -profiler-brand-name }.
+  First you must <a data-l10n-name="firefox-profiler-link">capture a performance profile</a>.
+  Once you capture the profile, select <q>Marker Chart</q> and look at the markers under <q>Telemetry</q>.
+
+about-glean-profiler-explanation-profiler =
+  In the performance profile you can see all the metrics collected, when they were
+  collected, and exactly what values were collected. By hovering on individual markers,
+  you can verify that the correct value was collected and that collection happened at the right time.
+
 controls-button-label-verbose = 設定を適用して ping を送信する
 
 about-glean-feedback-settings-only =
@@ -107,7 +126,24 @@ about-glean-feedback-settings-only =
 about-glean-feedback-settings-and-ping =
   .message = 設定が適用されて、ping が送信されました。
 
-about-glean-about-data-header = データについて
-about-glean-about-data-explanation =
-  To browse the list of collected data, please consult the
+about-glean-about-data-header = About Data
+about-glean-about-data-description =
+  There are a few different tools you can use to see your data, depending on
+  what you are looking for.
+about-glean-about-data-description-list-intro =
+  Please reference the list below for specific use
+  cases for each tool:
+
+about-glean-about-data-list-item-dictionary =
+  To browse the list of data collected by { -glean-brand-name } per application, please consult the
   <a data-l10n-name="glean-dictionary-link">{ -glean-brand-name } Dictionary</a>.
+about-glean-about-data-list-item-about-telemetry =
+  To browse the data being collected by legacy telemetry, please consult
+  <a data-l10n-name="about-telemetry-link">about:telemetry</a>.
+about-glean-about-data-list-item-debug-ping-viewer =
+  To browse debug tags, see full pings, see a live event stream, or view metric
+  visualizations, please consult the
+  <a data-l10n-name="glean-debug-ping-viewer">{ glean-debug-ping-viewer-brand-name }</a>.
+about-glean-about-data-list-item-firefox-profiler =
+  To record a performance profile and see all recorded metrics, please use the
+  <a data-l10n-name="about-glean-firefox-profiler">{ -profiler-brand-name }</a>.
