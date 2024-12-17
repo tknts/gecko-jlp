@@ -418,3 +418,8 @@ onboarding-checklist-pin = { -brand-short-name } をタスクバーにピン留�
 onboarding-checklist-import = 以前のブラウザーからインポート
 onboarding-checklist-extension = 拡張機能を追加する
 onboarding-checklist-sign-up = サインアップまたはアカウントにログイン
+
+## Tab Groups feature onboarding strings
+
+tab-groups-onboarding-feature-callout-title = タブグループを使用して、タブを整理して、集中力を高めましょう
+tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグして最初のグループを作成し、整理します。

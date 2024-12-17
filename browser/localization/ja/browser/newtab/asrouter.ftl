@@ -307,15 +307,15 @@ multi-cta-fox-doodle-title = おかえりなさい
 
 multi-cta-fox-doodle-set-default-checkbox = { -brand-short-name } を既定のブラウザーに設定する
 multi-cta-fox-doodle-pin-startmenu-checkbox = { -brand-short-name } をスタートメニューにピン留めする
-multi-cta-fox-doodle-pin-checkbox  = { PLATFORM() ->
+multi-cta-fox-doodle-pin-checkbox = { PLATFORM() ->
     [macos] Keep { -brand-short-name } in Dock
    *[other] { -brand-short-name } をタスクバーにピン留めする
-   
+}
 multi-cta-fox-doodle-start-browsing-primary-button-label = ブラウジングを始める
 multi-cta-fox-doodle-main-browser-primary-button-label = { -brand-short-name } をメインのブラウザーにする
 
 multi-cta-fox-doodle-quick-reminder-subtitle = Here’s a quick reminder that you can keep your favorite privacy-focused browser just one click away.
-multi-cta-fox-doodle-privacy-focused-subtitle  = { PLATFORM() ->
+multi-cta-fox-doodle-privacy-focused-subtitle = { PLATFORM() ->
     [macos] Keep your favorite privacy-focused browser just one click away. Set { -brand-short-name } as your default browser for opening links and keep it in your Dock.
    *[other] Keep your favorite privacy-focused browser just one click away. Set { -brand-short-name } as your default browser for opening links and pin it to your taskbar.
 }

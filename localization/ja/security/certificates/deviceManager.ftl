@@ -4,9 +4,9 @@
 
 ## Strings used for device manager
 
-devmgr =
+devmgr-window =
     .title = デバイス マネージャー
-    .style = width: 67em; height: 32em;
+    .style = min-width: 67em; min-height: 32em;
 
 devmgr-devlist =
     .label = セキュリティ モジュールとデバイス
@@ -128,5 +128,5 @@ load-module-help-root-certs-module-name =
     .value = ‘Root Certs‘ は予約されているためモジュール名として使用できません。
 
 add-module-failure = モジュールを追加できません
-del-module-warning = このセキュリティ モジュールを削除してもよろしいですか?
+del-module-warning = このセキュリティモジュールを削除してもよろしいですか?
 del-module-error = モジュールを削除できません

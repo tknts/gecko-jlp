@@ -52,6 +52,10 @@ text-action-delete =
     .label = 削除
     .accesskey = D
 
+text-action-reveal-password =
+    .label = パスワードを表示
+    .accesskey = v
+
 text-action-select-all =
     .label = すべて選択
     .accesskey = A

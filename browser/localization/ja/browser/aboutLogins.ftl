@@ -76,9 +76,9 @@ about-logins-list-item-breach-icon =
   .title = 漏洩したウェブサイト
 about-logins-list-item-vulnerable-password-icon =
   .title = 脆弱なパスワード
-about-logins-list-section-breach = Breached websites
-about-logins-list-section-vulnerable = Vulnerable passwords
-about-logins-list-section-nothing = No alert
+about-logins-list-section-breach = 流出が確認されたウェブサイト
+about-logins-list-section-vulnerable = 脆弱なパスワード
+about-logins-list-section-nothing = 警告はありません
 about-logins-list-section-today = 今日
 about-logins-list-section-yesterday = 昨日
 about-logins-list-section-week = 過去一週間
@@ -238,8 +238,8 @@ about-logins-confirm-remove-all-sync-dialog-message3 =
 ##
 
 about-logins-confirm-export-dialog-title2 = パスワードのエクスポートに関する注意事項
-about-logins-confirm-export-dialog-message2 = エクスポートすると、パスワードは読み取り可能なテキストファイルとして保存されます。
-	ファイルを使い終わったなら、このデバイスを使用する他の人があなたのパスワードを見られないように、ファイルを削除することをお勧めします。
+about-logins-confirm-export-dialog-message2 = エクスポートすると、パスワードは読み取り可能なテキストファイルとして保存されます。ファイルを使い終わったなら、このデバイスを使用する他の人があなたのパスワードを見られないように、ファイルを削除することをお勧めします。
+
 about-logins-confirm-export-dialog-confirm-button2 = エクスポートを続行する
 
 about-logins-alert-import-title = インポートが完了しました

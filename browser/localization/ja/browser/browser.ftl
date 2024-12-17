@@ -688,6 +688,10 @@ urlbar-result-action-search-history = 履歴を検索
 urlbar-result-action-search-tabs = タブを検索
 urlbar-result-action-search-actions = アクションを検索
 
+# Label for a quickaction result used to switch to an open tab group.
+#  $group (String): the name of the tab group to switch to
+urlbar-result-action-switch-to-tabgroup = { $group } に切り替える
+
 ## Labels shown above groups of urlbar results
 
 # A label shown above the "Firefox Suggest" (bookmarks/history) group in the

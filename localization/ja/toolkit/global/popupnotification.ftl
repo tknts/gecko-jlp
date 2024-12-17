@@ -5,6 +5,6 @@
 popup-notification-learn-more = さらに詳しく
 popup-notification-more-actions-button =
     .aria-label = その他の動作
-popup-notification-default-button =
-    .label = OK!
+popup-notification-default-button2 =
+    .label = OK
     .accesskey = O

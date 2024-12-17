@@ -2,12 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-profile-window-title = { -brand-short-name } - ユーザーのプロファイルを選択
+profile-window-title-2 = { -brand-short-name } - プロファイルの選択
 profile-window-heading = { -brand-short-name } のプロファイルを選択してください
 profile-window-body = パスワードやブックマークなど、仕事用と個人用のブラウジングを完全に分離できます。また、このデバイスを使用するすべてのユーザー用のプロファイルを作成します。
 # This checkbox appears in the Choose profile window that appears when the browser is opened. "Show this" refers to this window, which is displayed when the checkbox is enabled.
-profile-window-checkbox-label =
-    .label = { -brand-short-name } が開いたときにこれを表示します
+profile-window-checkbox-label-2 =
+    .label = { -brand-short-name } が開いた時にプロファイルを選択します
 profile-window-create-profile = プロファイルを作成
 profile-card-edit-button =
     .title = プロファイルの編集

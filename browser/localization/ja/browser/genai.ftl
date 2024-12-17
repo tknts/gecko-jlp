@@ -33,20 +33,24 @@ genai-prompt-prefix-selection = “{ $tabTitle }”ページで “{ $selection 
 
 # Prompt purpose: help users understand what a selection covers at a glance
 genai-prompts-summarize =
-    .label = Summarize
-    .value = Please summarize the selection using precise and concise language. Use headers and bulleted lists in the summary, to make it scannable. Maintain the meaning and factual accuracy.
+    .label = 要約して
+    .value = 正確で簡潔な言葉を使って、選択した内容を要約してください。要約では、読みやすいように、見出しと箇条書きを使用してください。意味と事実の正確さを維持してください。
 # Prompt purpose: make a selection easier to read
 genai-prompts-simplify =
-    .label = Simplify language
-    .value = Please rewrite the selection using short sentences and simple words. Maintain the meaning and factual accuracy.
+    .label = わかりやすくして
+    .value = 短い文章と簡単な言葉を使用して、選択した部分を書き直してください。意味と事実の正確さを維持してください。
 # Prompt purpose: test understanding of selection in an interactive way
 genai-prompts-quiz =
-    .label = Quiz me
-    .value = Please quiz me on this selection. Ask me a variety of types of questions, for example multiple choice, true or false, and short answer. Wait for my response before moving on to the next question.
+    .label = クイズを出して
+    .value = 選択された範囲からクイズを出してください。多肢選択、正誤、短い回答など、さまざまなタイプの質問をしてください。次の質問に進む前に、私の応答を待ってください。
 # Prompt purpose: helps users understand words, phrases, concepts
 genai-prompts-explain =
-    .label = Explain this
-    .value = Please explain the key concepts in this selection, using simple words. Also, use examples.
+    .label = これを説明して
+    .value = 選択された範囲の重要な概念を簡単な言葉で説明してください。また、例も使用してください。
+# Prompt purpose: writing tool that helps users with spelling and grammar mistakes and produce a response that identifies errors and rewrites the inputted text correctly
+genai-prompts-proofread =
+    .label = 校正して
+    .value = つづり(スペル)や文法の誤りがないか、選択した部分を校正してください。間違いがあれば特定し、修正したテキストを提供してください。意味と事実の正確さを維持し、最初に修正案のリストを出力し、次に最終的な修正後のテキストを出力してください。
 
 ## Chatbot menu shortcuts
 
@@ -62,6 +66,21 @@ genai-input-ask-generic =
 genai-input-ask-provider =
     .placeholder = { $provider } に問い合わせる…
 
+# $selectionLength (number) - selected text length
+# $maxLength (number) - max length of what can be selected
+genai-shortcuts-selected-warning-generic =
+    .heading = AI チャットボットは選択された範囲すべてを処理できません
+    .message = { $selectionLength ->
+        *[other] 約 { $selectionLength } 文字を選択しました。AI  チャットボットに送信できる文字数は最大で約 { $maxLength } 文字です。
+    }
+# $provider (string) - name of the provider
+# $selectionLength (number) - selected text length
+# $maxLength (number) - max length of what can be selected
+genai-shortcuts-selected-warning =
+    .heading = { $provider } は選択された範囲すべてを処理できません
+    .message = { $selectionLength ->
+        *[other] 約 { $selectionLength } 文字を選択しました。{ $provider } が処理できる文字数は最大で約 { $maxLength } 文字です。
+    }
 genai-shortcuts-hide =
     .label = チャットボットのショートカットを非表示にする
 
