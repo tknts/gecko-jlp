@@ -201,3 +201,52 @@ tab-group-editor-name-field =
 tab-group-editor-cancel =
   .label = キャンセル
   .accesskey = C
+
+tab-context-unnamed-group =
+    .label = 無名のグループ
+
+## Variables:
+##  $tabCount (Number): the number of tabs that are affected by the action.
+
+tab-context-move-tab-to-new-group =
+    .label =
+        { $tabCount ->
+            [1] 新しいグループにタブを追加
+           *[other] 新しいグループに複数のタブを追加
+        }
+    .accesskey = G
+tab-context-move-tab-to-group =
+    .label =
+        { $tabCount ->
+            [1] Add Tab to Group
+           *[other] Add Tabs to Group
+        }
+    .accesskey = G
+
+tab-group-editor-action-new-tab =
+    .label = New tab in group
+tab-group-editor-action-new-window =
+    .label = Move group to new window
+tab-group-editor-action-save =
+    .label = Save and close group
+tab-group-editor-action-ungroup =
+    .label = Ungroup tabs
+tab-group-editor-action-delete =
+    .label = グループを削除
+tab-group-editor-done =
+    .label = 実行
+    .accessKey = D
+
+tab-context-reopen-tab-group =
+    .label = Reopen tab group
+
+# Variables:
+#  $groupCount (Number): the number of tab groups that are affected by the action.
+tab-context-ungroup-tab =
+    .label =
+        { $groupCount ->
+            [1] Remove from Group
+           *[other] Remove from Groups
+        }
+    .accesskey = R
+

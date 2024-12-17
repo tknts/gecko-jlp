@@ -56,3 +56,48 @@ sync-setup-verify-heading = 同期するためにサインインしてもよろ�
 # Variables:
 #   $email - Email address of a user previously signed into sync.
 sync-setup-verify-description = 以前、別のユーザーがこのパソコンで同期するためにサインインしていました。サインインすると、このブラウザーのブックマーク、パスワード、その他の設定が { $email } のアカウントと統合されます。
+
+## Sync warning strings that support the browser profiles feature, these will be shown when the user might be merging data
+
+# Dialog 1 - different account signing in without option to merge
+sync-profile-different-account-title = このプロファイルのアカウント制限に達しました
+sync-profile-different-account-header = このプロファイルは、既に別のアカウントに同期されています
+
+# Variables:
+#   $acctEmail (String) - Email of the account signing into sync.
+sync-profile-different-account-description = データを整理して安全に保つため、各 { -brand-product-name } のプロファイルは 1 つのアカウントにのみ同期できます。{ $acctEmail } を使用してサインインするには、新しいプロファイルを作成してください。
+
+# Dialog 1 - different account signing in with merge option
+sync-profile-different-account-title-merge = Profile synced to different account
+
+# Variables:
+#   $acctEmail (String) - Email of the account signing into sync.
+#   $profileName (String) - Name of the current profile
+sync-profile-different-account-description-merge = データを整理して安全に保つために、{ $acctEmail } を使用してサインインするための新しいプロファイルを作成することをお勧めします。このプロファイルで引き続き同期することを選択した場合、両方のアカウントのデータは “{ $profileName }” に永続的に統合されます。
+
+# Dialog 2 - account signed in on another profile without option to merge
+sync-account-in-use-header = アカウントは既にに使用されています
+
+# Variables:
+#   $acctEmail (String) - Email of the account signing into sync.
+#   $otherProfile (String) - Name of the other profile that is associated with the account
+sync-account-in-use-header-merge = { $acctEmail } は既に “{ $otherProfile }”プロファイルにサインインしています
+sync-account-in-use-description = このアカウントはこのコンピュータ上の 1 つのプロファイルにのみ関連付けることができます。
+
+# Dialog 2 - account signed in on another profile with merge option
+sync-account-already-signed-in-header = このアカウントは別のプロファイルにサインインしています。両方のプロファイルを同期しますか?
+
+# Variables:
+#   $acctEmail (String) - Email of the account signing into sync.
+#   $currentProfile (String): Name of the current profile signing in
+#   $otherProfile (String): Name of the profile that is already signed in
+sync-account-in-use-description-merge = { $acctEmail } はこのコンピュータの “{ $otherProfile }”プロファイルにサインインしています。 “{ $currentProfile }” プロファイルを同期すると、パスワードやブックマークなど、両方のプロファイルのデータが永続的に結合されます。
+
+# Variables:
+#   $profileName (String) - Name of the profile to switch to
+sync-button-switch-profile = “{ $profileName }” に切り替える
+sync-button-create-profile = 新しいプロファイルを作成
+sync-button-sync-and-merge = データの同期と結合
+# Variables:
+#   $profileName (String) - Name of the profile to switch to
+sync-button-sync-profile = “{ $profileName }”で同期

@@ -30,16 +30,7 @@ appmenu-update-restart2 =
     .secondarybuttonlabel = 今は行わない
     .secondarybuttonaccesskey = m
 appmenu-update-restart-message2 = { -brand-shorter-name } の最新バージョンを入手してください。 開いているタブとウィンドウは復元されます。
-appmenu-update-other-instance =
-    .label = 最新のバージョンの { -brand-shorter-name } に自動更新できません。
-    .buttonlabel = 今すぐ { -brand-shorter-name } を更新
-    .buttonaccesskey = U
-    .secondarybuttonlabel = 後で
-    .secondarybuttonaccesskey = N
-appmenu-update-other-instance-message = 新しい { -brand-shorter-name } の更新が利用可能ですが、異なるプロファイルの { -brand-shorter-name } が実行されているため、インストールできません。 そちらを閉じて更新を続行するか、とにかく更新するかを選択してください (他のプロファイルは、再起動するまで正常に動作しない場合があります)。
-appmenu-addon-private-browsing-installed2 =
-    .buttonlabel = OK
-    .buttonaccesskey = O
+
 appmenu-addon-post-install-message3 = アプリケーションのメニューからアドオンとテーマを管理します。
 appmenu-addon-post-install-incognito-checkbox =
     .label = この拡張機能がプライベート ウィンドウで動作するのを許可する
