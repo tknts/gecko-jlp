@@ -11,24 +11,33 @@ webext-perms-description-browserSettings = ブラウザーの設定の読み込�
 webext-perms-description-browsingData = 最近の閲覧履歴、Cookie、関連データを消去する
 webext-perms-description-clipboardRead = クリップボードからデータを取得する
 webext-perms-description-clipboardWrite = クリップボードにデータを入力する
-webext-perms-description-declarativeNetRequest = Block content on any page
-webext-perms-description-declarativeNetRequestFeedback = Read your browsing history
-webext-perms-description-devtools = Extend developer tools to access your data in open tabs
-webext-perms-description-downloads = Download files and read and modify the browser’s download history
-webext-perms-description-downloads-open = Open files downloaded to your computer
-webext-perms-description-find = Read the text of all open tabs
-webext-perms-description-geolocation = Access your location
-webext-perms-description-history = Access browsing history
-webext-perms-description-management = Monitor extension usage and manage themes
-webext-perms-description-nativeMessaging = Exchange messages with programs other than { -brand-short-name }
-webext-perms-description-notifications = Display notifications to you
-webext-perms-description-pkcs11 = Provide cryptographic authentication services
-webext-perms-description-privacy = Read and modify privacy settings
-webext-perms-description-proxy = Control browser proxy settings
-webext-perms-description-sessions = Access recently closed tabs
-webext-perms-description-tabs = Access browser tabs
-webext-perms-description-tabHide = Hide and show browser tabs
-webext-perms-description-topSites = Access browsing history
+webext-perms-description-declarativeNetRequest = ページのコンテンツをブロックします
+webext-perms-description-declarativeNetRequestFeedback = ブラウザーの閲覧履歴を使用します
+webext-perms-description-devtools = 開発者ツールを拡張して、開いているタブのデータにアクセスします
+webext-perms-description-downloads = ファイルをダウンロードや、ブラウザのダウンロード履歴を使用します
+webext-perms-description-downloads-open = コンピュータにダウンロードしたファイルを開きます
+webext-perms-description-find = 開いているすべてのタブのテキストを読み取ります
+webext-perms-description-geolocation = あなたの位置情報を使用します
+webext-perms-description-history = あなたの閲覧履歴を使用します
+webext-perms-description-management = 拡張機能の使用状況を監視し、テーマを管理します
+webext-perms-description-nativeMessaging = { -brand-short-name } 以外のプログラムと通信します
+webext-perms-description-notifications = 通知を表示します
+webext-perms-description-pkcs11 = 暗号化認証サービスを提供します
+webext-perms-description-privacy = プライバシー設定を変更します
+webext-perms-description-proxy = ブラウザーのプロキシ設定を制御します
+webext-perms-description-sessions = 最近閉じたタブを使用します
+webext-perms-description-tabs = ブラウザーのタブを使用します
+webext-perms-description-tabHide = ブラウザーのタブの表示を変更します
+webext-perms-description-topSites = ブラウザーの履歴を使用します
 webext-perms-description-trialML = デバイスに AI モデルをダウンロードして実行する
 webext-perms-description-userScripts = 未検証のサードパーティスクリプトによるデータへのアクセスを許可する
-webext-perms-description-webNavigation = Access browser activity during navigation
+webext-perms-description-webNavigation = ナビゲーション中にブラウザーのアクティビティにアクセスする
+
+## The userScripts permission includes an additional explanation that is
+## displayed prominently near the usual permission description.
+
+webext-perms-extra-warning-userScripts-long = 検証されていないスクリプトは、有害なコードの実行やウェブサイトのアクティビティの追跡など、セキュリティとプライバシーのリスクをもたらす可能性があります。信頼できる拡張機能またはソースからのスクリプトのみを実行してください。
+# A shorter warning is displayed in UI surfaces with little room, such as a permission prompt.
+webext-perms-extra-warning-userScripts-short = 検証されていないスクリプトは、セキュリティとプライバシーのリスクをもたらす可能性があります。信頼できる拡張機能またはソースからのスクリプトのみを実行してください。
+
+##

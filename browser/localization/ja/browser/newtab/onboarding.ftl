@@ -357,6 +357,18 @@ onboarding-new-tabs-title = タブを配置したい場所を教えてくださ�
 # Setup screen for vertical tabs - "Switch it up" refers to switching between horizontal and vertical tabs.
 onboarding-new-tabs-subtitle = サイドバーの設定でいつでも切り替えることができます。
 
+# Setup screen for vertical tabs - too many tabs variation
+onboarding-many-tabs-title = Your tabs, your way
+
+# Setup screen for vertical tabs - subtitle for too many tabs variation
+onboarding-many-tabs-subtitle = たくさんのタブを開いたままにしていませんか? より合理化された表示のために、タブをサイドに配置してみませんか? タブを上に配置してクラシックなスタイルを維持することもできます。いつでも切り替えることができます。
+
+# Setup screen for vertical tabs - focused variation
+onboarding-focused-tabs-title = Choose your tab layout
+
+# Setup screen for vertical tabs - subtitle for focused variation
+onboarding-focused-tabs-subtitle = 集中力を維持できる合理化された表示を実現するには、タブをサイドに配置してみてください。または、タブを上部に配置したクラシックな表示を維持することもできます。いつでも切り替えることができます。
+
 # Text underneath an image used for selecting browser tabs to appear on the side of the browser.
 onboarding-new-vertical-tabs-label = タブをサイドに配置します
 
@@ -372,11 +384,11 @@ onboarding-existing-tabs-title = 垂直タブはここにあります
 onboarding-existing-tabs-title2 = タブを垂直に配置するには
 
 # Setup screen for vertical tabs for existing users - "Switch it up" refers to switching between horizontal and vertical tabs.
-onboarding-existing-tabs-subtitle = Try your tabs on the side. Switch it up whenever you want in the sidebar settings.
+onboarding-existing-tabs-subtitle = サイドにタブを表示してみてください。サイドバーの設定でいつでも切り替えることができます。
 
 # Text underneath an image used for selecting browser tabs to appear on the side of the browser.
-onboarding-existing-vertical-tabs-label = Try vertical tabs
-onboarding-flair-text = New!
+onboarding-existing-vertical-tabs-label = タブの垂直表示を試す
+onboarding-flair-text = 新機能!
 
 # Text underneath an image used for selecting browser tabs to appear at the top of the browser.
 onboarding-existing-horizontal-tabs-label = Keep horizontal tabs
@@ -423,3 +435,13 @@ onboarding-checklist-sign-up = サインアップまたはアカウントにロ�
 
 tab-groups-onboarding-feature-callout-title = タブグループを使用して、タブを整理して、集中力を高めましょう
 tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグして最初のグループを作成し、整理します。
+
+## Multi Profiles feature onboarding messages
+
+multi-profile-spotlight-title = { -brand-product-name } プロファイルにようこそ
+multi-profile-spotlight-body = 仕事用と娯楽用のブラウジングを簡単に切り替えられます。プロファイルにより、検索履歴やパスワードなどのブラウジング情報が完全に分離されるため、整理された状態を保つことができます。
+multi-profile-spotlight-cta = プロファイルを作成する
+
+multi-profile-callout-title = 仕事用と趣味用の異なるプロファイルを作成する
+multi-profile-callout-subtitle = プロファイルを使用すると、検索履歴やパスワードなどの閲覧情報を完全に分離して保存できます。
+multi-profile-callout-cta = プロファイルを作成する
