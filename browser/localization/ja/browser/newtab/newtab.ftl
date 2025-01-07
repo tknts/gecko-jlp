@@ -444,3 +444,10 @@ newtab-topic-selection-button-pick-interests = 関心のある話題を選択し
 newtab-section-follow-button = フォロー
 newtab-section-following-button = フォロー中
 newtab-section-unfollow-button = フォローを解除
+
+## Confirmation modal for blocking a section
+
+newtab-section-confirm-block-section-p1 = このセクションをブロックしてもよろしいですか?
+newtab-section-confirm-block-section-p2 = ブロックされたセクションはフィードに表示されなくなります。
+newtab-section-block-section-button = このセクションをブロック
+newtab-section-cancel-button = キャンセル

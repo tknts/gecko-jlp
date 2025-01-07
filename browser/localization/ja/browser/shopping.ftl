@@ -123,8 +123,6 @@ shopping-settings-auto-open-description-three-sites = { $firstSite }、{ $second
 #   $currentSite (String) - The current shopping page name
 shopping-settings-auto-open-description-single-site = { $currentSite } で商品を表示するとき
 
-shopping-settings-sidebar-enabled-state = レビュー チェッカーは<strong>オン</strong>になっています
-
 ## Strings for the adjusted rating component
 
 # "Adjusted rating" means a star rating that has been adjusted to include only
@@ -156,7 +154,11 @@ shopping-analysis-explainer-learn-more2 =
 #  $retailer (String) - capitalized name of the shopping website, for example, "Amazon".
 shopping-analysis-explainer-highlights-description =
   <strong>ハイライト</strong>は、過去 80 日間に信頼できると思われる { $retailer } のレビューからのものです。
-  
+
+# Fallback for analysis highlights explainer if the retailer is ever unknown
+shopping-analysis-explainer-highlights-description-unknown-retailer =
+  <strong>ハイライト</strong>は、信頼できると思われる過去 80 日間のレビューです。
+
 shopping-analysis-explainer-review-grading-scale-reliable = Reliable reviews. We believe the reviews are likely from real customers who left honest, unbiased reviews.
 shopping-analysis-explainer-review-grading-scale-mixed = We believe there’s a mix of reliable and unreliable reviews.
 shopping-analysis-explainer-review-grading-scale-unreliable = Unreliable reviews. We believe the reviews are likely fake or from biased reviewers.
@@ -207,6 +209,19 @@ shopping-survey-submit-button-label = 送信
 shopping-survey-terms-link = 利用規約
 shopping-survey-thanks =
   .heading = ご意見ありがとうございます！
+
+## Shopping opted-out survey strings
+## Opt-out survey options are displayed as checkboxes and the user can select one or many.
+
+shopping-survey-opted-out-multiselect-label = レビュー チェッカーをオフにした理由をお知らせください。必要に応じて複数選択してください。
+shopping-survey-thanks-title = フィードバックをありがとう。
+
+shopping-survey-opted-out-hard-to-understand = 使い方がわからない
+shopping-survey-opted-out-too-slow = 動作が遅すぎる
+shopping-survey-opted-out-not-accurate = 正確ではない
+shopping-survey-opted-out-not-helpful = 私にとって役に立たない
+shopping-survey-opted-out-check-myself = 自分でレビューを確認したい
+shopping-survey-opted-out-other = その他
 
 ## Shopping Feature Callout strings.
 ## "price tag" refers to the price tag icon displayed in the address bar to

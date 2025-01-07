@@ -29,21 +29,6 @@ about-reader-estimated-read-time =
        *[other] { $range } minutes
     }
 
-## These are used as tooltips in Type Control
-
-about-reader-toolbar-minus =
-    .title = 文字を小さく
-about-reader-toolbar-plus =
-    .title = 文字を大きく
-about-reader-toolbar-contentwidthminus =
-    .title = コンテンツの幅を狭める
-about-reader-toolbar-contentwidthplus =
-    .title = コンテンツの幅を広げる
-about-reader-toolbar-lineheightminus =
-    .title = 行の高さ狭める
-about-reader-toolbar-lineheightplus =
-    .title = 行の高さ広げる
-
 ## These are the styles of typeface that are options in the reader view controls.
 
 about-reader-font-type-serif = Serif
@@ -53,10 +38,9 @@ about-reader-font-type-monospace = Monospace
 ## Reader View toolbar buttons
 
 about-reader-toolbar-close = リーダービューを閉じる
-about-reader-toolbar-type-controls = 文字を制御
 about-reader-toolbar-text-layout-controls = 文字とレイアウト
 about-reader-toolbar-theme-controls = テーマ
-about-reader-toolbar-savetopocket = { -pocket-brand-name } へ保存
+about-reader-toolbar-savetopocket = { -pocket-brand-name } に保存
 
 ## Reader View colors menu
 
@@ -89,6 +73,11 @@ about-reader-reset-button = デフォルトに戻す
 about-reader-text-header = 文字
 
 about-reader-text-size-label = 文字の大きさ
+about-reader-toolbar-minus =
+    .title = 文字を小さくする
+about-reader-toolbar-plus =
+    .title = 文字を大きくする
+
 about-reader-font-type-selector-label = フォント
 about-reader-font-weight-selector-label = フォントの太さ
 

@@ -178,3 +178,8 @@ certerror-mitm-what-can-you-do-about-it-attack-sts = あなたが <b>{ $mitm }</
 certerror-what-should-i-do-bad-sts-cert-explanation = <b>{ $hostname }</b> には HTTP Strict Transport Security (HSTS) と呼ばれるセキュリティ ポリシーが設定されいます。この設定により { -brand-short-name } へは安全な接続しか使用できません。このサイトにアクセスするための例外を追加することはできません。
 
 cert-error-trust-certificate-transparency-what-can-you-do-about-it = サイト自体に問題がある可能性が高いので、おそらく何もないでしょう。
+
+# Variables:
+#   $responsestatus (string) - HTTP response status code (e.g., 500).
+#   $responsestatustext (string) - HTTP response status text (e.g., "Internal Server Error").
+neterror-response-status-code = エラーコード: { $responsestatus } { $responsestatustext }

@@ -13,13 +13,21 @@
 #
 # .data-content-title-default and .data-content-title-private are for use when
 # there *is* a content title.
+#
+# .*-with-profile are for use when there a SelectableProfileService.current profile exists.
+#
 # Variables:
 #  $content-title (String): the title of the web content.
-browser-main-window-window-titles =
+#  $profile-name (String): the name of the current profile.
+browser-main-window-titles =
   .data-title-default = { -brand-full-name }
   .data-title-private = { -brand-full-name } (プライベート ブラウジング)
+  .data-title-default-with-profile = { $profile-name } — { -brand-full-name }
+  .data-title-private-with-profile = { $profile-name } — { -brand-full-name } (プライベート ブラウジング)
   .data-content-title-default = { $content-title } — { -brand-full-name }
   .data-content-title-private = { $content-title } — { -brand-full-name } (プライベート ブラウジング)
+  .data-content-title-default-with-profile = { $content-title } — { $profile-name } — { -brand-full-name }
+  .data-content-title-private-with-profile = { $content-title } — { $profile-name } — { -brand-full-name } (プライベート ブラウジング)
 
 # These are the default window titles on macOS.
 # .data-title-default and .data-title-private are used when the web content
@@ -691,6 +699,9 @@ urlbar-result-action-search-actions = アクションを検索
 # Label for a quickaction result used to switch to an open tab group.
 #  $group (String): the name of the tab group to switch to
 urlbar-result-action-switch-to-tabgroup = { $group } に切り替える
+# Label for a quickaction result used to re-opan a saved tab group.
+#  $group (String): the name of the tab group to re-open
+urlbar-result-action-open-saved-tabgroup = { $group } を開く
 
 ## Labels shown above groups of urlbar results
 

@@ -78,7 +78,6 @@ tabbrowser-confirm-close-tabs-title =
        *[other] { $tabCount } 個のタブを閉じますか?
     }
 tabbrowser-confirm-close-tabs-button = 複数のタブを閉じる
-tabbrowser-confirm-close-tabs-checkbox = 複数のタブを閉じる時は確認する
 tabbrowser-ask-close-tabs-checkbox = 同時に複数のタブを閉じる前に確認する
 
 ## Confirmation dialog when quitting using the menu and multiple windows are open.
@@ -104,7 +103,6 @@ tabbrowser-confirm-close-tabs-with-key-title = ウィンドウを閉じて { -br
 tabbrowser-confirm-close-tabs-with-key-button = { -brand-short-name } を終了
 # Variables:
 #   $quitKey (String): the text of the keyboard shortcut for quitting.
-tabbrowser-confirm-close-tabs-with-key-checkbox = { $quitKey } を使って終了する前に確認する
 tabbrowser-ask-close-tabs-with-key-checkbox = { $quitKey } で終了する前に確認する
 
 ## Confirmation dialog when quitting using the keyboard shortcut (Ctrl/Cmd+Q)
@@ -193,6 +191,7 @@ tabbrowser-manager-close-tab =
 
 ## Tab Groups
 
+tab-group-name-default = 新しいグループ
 tab-group-editor-title-create = タブグループの作成
 tab-group-editor-title-edit = タブグループの編集
 tab-group-editor-name-label = 名前
@@ -202,8 +201,10 @@ tab-group-editor-cancel =
   .label = キャンセル
   .accesskey = C
 
+tab-group-menu-header = タブグループ
+
 tab-context-unnamed-group =
-    .label = 無名のグループ
+    .label =  新しいグループ
 
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.
@@ -238,15 +239,14 @@ tab-group-editor-done =
     .accessKey = D
 
 tab-context-reopen-tab-group =
-    .label = Reopen tab group
+    .label =タブグループを開き直す
 
 # Variables:
 #  $groupCount (Number): the number of tab groups that are affected by the action.
 tab-context-ungroup-tab =
     .label =
         { $groupCount ->
-            [1] Remove from Group
-           *[other] Remove from Groups
+            [1] グループから削除
+           *[other] グループから削除
         }
     .accesskey = R
-

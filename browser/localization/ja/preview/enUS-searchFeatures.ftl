@@ -400,3 +400,10 @@ urlbar-firefox-suggest-contextual-opt-in-description-2 =
   <a data-l10n-name="learn-more-link">Learn more</a>
 urlbar-firefox-suggest-contextual-opt-in-allow = サジェストを許可
 urlbar-firefox-suggest-contextual-opt-in-dismiss = 許可しない
+
+## Local search mode indicator labels in the urlbar
+
+urlbar-search-mode-bookmarks-en = ブックマーク
+urlbar-search-mode-tabs-en = タブ
+urlbar-search-mode-history-en = 履歴
+urlbar-search-mode-actions-en = アクション
