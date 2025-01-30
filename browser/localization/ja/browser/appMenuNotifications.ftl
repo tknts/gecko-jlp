@@ -31,6 +31,9 @@ appmenu-update-restart2 =
     .secondarybuttonaccesskey = m
 appmenu-update-restart-message2 = { -brand-shorter-name } の最新バージョンを入手してください。 開いているタブとウィンドウは復元されます。
 
+appmenu-theme-installed =
+    .secondarybuttonlabel = 元に戻す
+    .secondarybuttonaccesskey = U
 appmenu-addon-post-install-message3 = アプリケーションのメニューからアドオンとテーマを管理します。
 appmenu-addon-post-install-incognito-checkbox =
     .label = この拡張機能がプライベート ウィンドウで動作するのを許可する

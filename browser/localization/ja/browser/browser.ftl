@@ -41,22 +41,29 @@ browser-main-window-titles =
 # there *is* a content title.
 # Do not use the brand name in these, as we do on non-macOS.
 #
+# .*-with-profile are for use when there a SelectableProfileService.current profile exists.
+#
 # Also note the other subtle difference here: we use a `-` to separate the
 # brand name from `(Private Browsing)`, which does not happen on other OSes.
 #
 # Variables:
 #  $content-title (String): the title of the web content.
-browser-main-window-mac-window-titles =
+#  $profile-name (String): the name of the current profile.
+browser-main-window-titles-mac =
   .data-title-default = { -brand-full-name }
   .data-title-private = { -brand-full-name } — (プライベート ブラウジング)
+  .data-title-default-with-profile = { $profile-name } — { -brand-full-name }
+  .data-title-private-with-profile = { $profile-name } — { -brand-full-name } Private Browsing
   .data-content-title-default = { $content-title }
   .data-content-title-private = { $content-title } — (プライベート ブラウジング)
+  .data-content-title-default-with-profile = { $content-title } — { $profile-name }
+  .data-content-title-private-with-profile = { $content-title } — { $profile-name } — Private Browsing
 
 # This gets set as the initial title, and is overridden as soon as we start
 # updating the titlebar based on loaded tabs or private browsing state.
 # This should match the `data-title-default` attribute in both
 # `browser-main-window` and `browser-main-window-mac`.
-browser-main-window-title = { -brand-full-name }
+browser-main-window-default { -brand-full-name }
 
 # The non-variable portion of this MUST match the translation of
 # "PRIVATE_BROWSING_SHORTCUT_TITLE" in custom.properties
@@ -339,6 +346,11 @@ quickactions-cmd-viewsource = view source, source, ソース,
 # Tooltip text for the help button shown in the result.
 quickactions-learn-more =
     .title = クイックアクションの詳細
+
+# Will be shown to users the first configurable number of times
+# they experience actions giving them instructions on how to
+# select the action shown by pressing the tab key.
+press-tab-label = [タブ] キーを押して選択します
 
 ## Bookmark Panel
 

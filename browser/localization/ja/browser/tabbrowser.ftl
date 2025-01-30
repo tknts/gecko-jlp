@@ -67,6 +67,16 @@ tabbrowser-unblock-tab-audio-tooltip =
            *[other] { $tabCount } 個のタブで再生しています
         }
 
+## Tooltips for tab audio control
+
+tabbrowser-unmute-tab-audio-aria-label =
+    .aria-label = タブの消音を解除
+tabbrowser-mute-tab-audio-aria-label =
+    .aria-label = タブを消音
+# Used to unblock a tab with audio from autoplaying
+tabbrowser-unblock-tab-audio-aria-label =
+    .aria-label = 再生中のタブ
+
 ## Confirmation dialog when closing a window with more than one tab open,
 ## or when quitting when only one window is open.
 
@@ -181,6 +191,9 @@ tabbrowser-ctrl-tab-list-all-tabs =
         }
 
 ## Tab manager menu buttons
+## Variables:
+##  $tabGroupName (String): The name of the tab group. See also tab-group-name-default, which will be
+##                          used when the group's name is empty.
 
 tabbrowser-manager-mute-tab =
   .tooltiptext = タブをミュートします
@@ -188,8 +201,22 @@ tabbrowser-manager-unmute-tab =
   .tooltiptext = タブのミュートを解除します
 tabbrowser-manager-close-tab =
   .tooltiptext = タブを閉じます
+# This is for tab groups that have been "saved and closed" (see tab-group-editor-action-save). It does
+# not include "deleted" tab groups (see tab-group-editor-action-delete).
+tabbrowser-manager-closed-tab-group =
+  .label = { $tabGroupName }
+  .tooltiptext = { $tabGroupName } — Closed
+tabbrowser-manager-current-window-tab-group =
+  .label = { $tabGroupName }
+  .tooltiptext = { $tabGroupName } — 現在のウィンドウ
+# "Show more" is for showing all open groups from other windows, as well as saved groups. Initially,
+# we only show up to six of these groups.
+tabbrowser-manager-tab-groups-show-more =
+  .label = さらに表示
 
 ## Tab Groups
+
+tab-group-menu-header = タブグループ
 
 tab-group-name-default = 新しいグループ
 tab-group-editor-title-create = タブグループの作成
@@ -201,7 +228,31 @@ tab-group-editor-cancel =
   .label = キャンセル
   .accesskey = C
 
-tab-group-menu-header = タブグループ
+tab-group-editor-color-selector =
+  .aria-label = タブグループの配色
+tab-group-editor-color-selector2-blue = ブルー
+  .title = ブルー
+tab-group-editor-color-selector2-purple = パープル
+  .title = パープル
+tab-group-editor-color-selector2-cyan = シアン
+  .title = シアン
+tab-group-editor-color-selector2-orange = オレンジ
+  .title = オレンジ
+tab-group-editor-color-selector2-yellow = イエロー
+  .title = イエロー
+tab-group-editor-color-selector2-pink = ピンク
+  .title = ピンク
+tab-group-editor-color-selector2-green = グリーン
+  .title = グリーン
+tab-group-editor-color-selector2-gray = グレー
+  .title = グレー
+tab-group-editor-color-selector2-red = レッド
+  .title = レッド
+
+# Variables:
+#  $tabGroupName (String): The name of the tab group. Defaults to the value
+#                          of tab-group-name-default.
+tab-group-description = { $tabGroupName } — タブ グループ
 
 tab-context-unnamed-group =
     .label =  新しいグループ
@@ -219,8 +270,8 @@ tab-context-move-tab-to-new-group =
 tab-context-move-tab-to-group =
     .label =
         { $tabCount ->
-            [1] Add Tab to Group
-           *[other] Add Tabs to Group
+            [1] タブをグループに追加
+           *[other] 複数のタブをグループに追加
         }
     .accesskey = G
 
@@ -229,9 +280,9 @@ tab-group-editor-action-new-tab =
 tab-group-editor-action-new-window =
     .label = Move group to new window
 tab-group-editor-action-save =
-    .label = Save and close group
+    .label = グループを保存して閉じる
 tab-group-editor-action-ungroup =
-    .label = Ungroup tabs
+    .label = タブのグループ化を解除
 tab-group-editor-action-delete =
     .label = グループを削除
 tab-group-editor-done =
@@ -250,3 +301,36 @@ tab-context-ungroup-tab =
            *[other] グループから削除
         }
     .accesskey = R
+
+## Open/saved tab group context menu
+
+# For right-click context menu use in the "all tabs"/"tab overflow menu" when
+# right-clicking on a tab group that is currently open in one of the user's
+# windows.
+
+# For a tab group open in any window, clicking this will create a new
+# window and move this tab group to that new window.
+tab-group-context-move-to-new-window =
+    .label = グループを新しいウィンドウに移動する
+
+# For a tab group open in a different window from the one that the
+# user is using to access the tab group menu, move that tab group into the
+# user's current window.
+tab-group-context-move-to-this-window =
+    .label = グループをこのウィンドウに移動
+
+# For a tab group that is open in any window, close the tab group and
+# do not save it. For a tab group that is closed but saved by the user, clicking
+# this will forget the saved tab group.
+tab-group-context-delete =
+    .label = グループを削除
+
+# For a saved tab group that is not open in any window, open the tab group
+# in the user's current window.
+tab-group-context-open-saved-group-in-this-window =
+    .label = このウィンドウでグループを開く
+
+# For a saved tab group that is not open in any window, create a new window and
+# open the tab group in that window.
+tab-group-context-open-saved-group-in-new-window =
+    .label = 新しいウィンドウでグループを開く

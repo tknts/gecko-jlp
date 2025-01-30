@@ -108,3 +108,24 @@ sidebar-genai-survey-satisfaction-question = サイドバーから AI チャッ�
 sidebar-genai-survey-productive-question =
     あなたはこの意見にどの程度同意しますか、あるいは反対しますか:<br/>
     “サイドバー上で AI チャットボットを使用すると生産性が上がります”?
+
+# Unified Search Button callout strings
+
+unified-search-callout-title = 検索エンジンを切り替える
+unified-search-callout-subtitle = 特定の検索に最適なものを選択してください。
+unified-search-callout-primary-label = 次へ
+unified-search-callout-secondary-label = Dismiss
+
+unified-search-engines-callout-title = ショートカットで検索
+unified-search-engines-callout-subtitle =  “@” に続けてキーワードを入力すると、履歴、ブックマーク、タブ、または別の検索エンジンで検索できます。
+unified-search-engines-callout-primary-label = Got it
+
+actions-callout-title = 一般的なタスクを完了するか、基本設定にアクセスします
+# The user can type "print" and "clear" and a button will appear in the
+# search bar (e.g. Print page) the user can click to initiate the action.
+# These example text inputs correlate to the the following strings
+# (either matching the whole string, or the first word of the string).
+# "print" - quickactions-cmd-print
+# "clear" - quickactions-cmd-clearhistory
+# When localizing, ensure the translations match to ensure the action button appears as expected.
+actions-callout-subtitle = ページを印刷するには “print”、履歴を消去するには “clear” などのアクションを入力してみてください。

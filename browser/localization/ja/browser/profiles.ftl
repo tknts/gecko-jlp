@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 profile-window-title-2 = { -brand-short-name } - プロファイルの選択
+profile-window-logo =
+    .alt = { -brand-short-name } のロゴ
 profile-window-heading = { -brand-short-name } のプロファイルを選択してください
 profile-window-body = パスワードやブックマークなど、仕事用と個人用のブラウジングを完全に分離できます。また、このデバイスを使用するすべてのユーザー用のプロファイルを作成します。
 # This checkbox appears in the Choose profile window that appears when the browser is opened. "Show this" refers to this window, which is displayed when the checkbox is enabled.
@@ -109,3 +111,18 @@ profiles-dark-theme = ダーク
 
 # The default system theme
 profiles-system-theme = システム
+
+## Alternative text for default profile icons
+
+book-avatar-alt =
+    .alt = 本
+briefcase-avatar-alt =
+    .alt = ブリーフケース
+flower-avatar-alt =
+    .alt = 花
+heart-avatar-alt =
+    .alt = ハート
+shopping-avatar-alt =
+    .alt = ショッピングカート
+star-avatar-alt =
+    .alt = 星

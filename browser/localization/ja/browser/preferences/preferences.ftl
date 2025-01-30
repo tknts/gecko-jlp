@@ -2,13 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-do-not-track-description = ウェブサイトに “Do Not Track” を送信し追跡されたくないことを知らせます
 do-not-track-removal = “Do Not Track” の送信はサポートされなくなりました
 do-not-track-learn-more = さらに詳しく
-do-not-track-option-default-content-blocking-known =
-    .label = 既知のトラッカーをブロックするよう { -brand-short-name } が設定されている場合のみ
-do-not-track-option-always =
-    .label = 常に送信する
 
 global-privacy-control-description =
     .label = 私のデータを販売または共有しないようウェブサイトに通知します
@@ -255,6 +250,21 @@ containers-remove-cancel-button = このコンテナーを残す
 settings-tabs-show-image-in-preview =
     .label = タブ上にマウスを置くと画像でプレビューを表示します
     .accessKey = h
+
+
+browser-layout-header = ブラウザーのレイアウト
+
+browser-layout-horizontal-tabs =
+    .label = タブを水平に表示
+browser-layout-horizontal-tabs-desc = ブラウザーの上部に表示します
+
+browser-layout-vertical-tabs =
+    .label = タブを垂直に表示
+browser-layout-vertical-tabs-desc = サイドバーの横に表示します
+
+browser-layout-show-sidebar =
+    .label = サイドバーを表示
+browser-layout-show-sidebar-desc = メインビューを離れることなく、ブックマーク、スマートフォンのタブ、AI チャットボットなどに素早くアクセスできます。
 
 ## General Section - Language & Appearance
 
@@ -1442,6 +1452,11 @@ collection-privacy-notice = プライバシーノーティス (パーソナル�
 collection-health-report-telemetry-disabled = { -vendor-short-name } への技術的な対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
 collection-health-report-telemetry-disabled-link = さらに詳しく
 
+collection-usage-ping =
+    .label = 毎日の使用状況の ping を { -vendor-short-name } に送信します
+    .accesskey = u
+collection-usage-ping-description = これは { -vendor-short-name } がアクティブ ユーザーを推定するのに役立ちます。
+
 collection-health-report =
     .label = { -brand-short-name } が技術的な対話データを { -vendor-short-name } に送信するのを許可する
     .accesskey = r
@@ -1459,8 +1474,10 @@ addon-recommendations-link = さらに詳しく
 # or builds with no Telemetry support available.
 collection-health-report-disabled = このビルド構成ではデータレポートは無効化されています
 
-collection-backlogged-crash-reports = あなたに代わって { -brand-short-name } が未処理のクラッシュ レポートを送信できるようにします
+collection-backlogged-crash-reports2 =
+    .label = クラッシュレポートを自動的に送信する
     .accesskey = c
+collection-backlogged-crash-reports-description = これは、{ -vendor-short-name } がブラウザーの問題を診断して修正するのに役立ちます。レポートには、個人情報や機密データが含まれる場合があります。
 
 privacy-segmentation-section-header = ブラウジングを強化する新機能
 

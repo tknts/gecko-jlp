@@ -6,7 +6,7 @@
 
 # Variables
 #   $host (String) - Hostname for which the password is saved for.
-password-manager-save-password-message = { $host } のパスワードを保存しますか??
+password-manager-save-password-message = { $host } のパスワードを保存しますか?
 password-manager-save-password-button-deny =
     .label = 今はしない
     .accesskey = N
@@ -33,8 +33,5 @@ password-manager-update-password-button-deny =
 
 # This is displayed in place of the username when it is missing.
 password-manager-no-username-placeholder = ユーザー名がありません
-password-manager-toggle-password =
-    .label = パスワードを表示
-    .accesskey = h
 password-manager-confirm-password-change = パスワードの変更を確認
 password-manager-select-username = 更新するログイン情報を選択してください:

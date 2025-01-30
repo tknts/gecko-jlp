@@ -463,17 +463,14 @@ addon-detail-group-label-quarantined-domains =
 ## This is the tooltip text for the recommended badges for an extension in about:addons. The
 ## badge is a small icon displayed next to an extension when it is recommended on AMO.
 
-addon-badge-recommended2 =
-  .title = { -brand-product-name } は Mozilla が定めた安全性とパフォーマンスの基準に適合する拡張機能のみをおすすめします
-  .aria-label = { addon-badge-recommended2.title }
+addon-badge-recommended3 =
+  .title = { -brand-product-name } は、セキュリティとパフォーマンスの基準を満たす拡張機能のみを推奨します
 # We hard code "Mozilla" in the string below because the extensions are built
 # by Mozilla and we don't want forks to display "by Fork".
-addon-badge-line3 =
-  .title = Mozilla によって作成された公式の拡張機能です。セキュリティとパフォーマンスの基準を満たしています。
-  .aria-label = { addon-badge-line3.title }
-addon-badge-verified2 =
-  .title = この拡張機能はセキュリティとパフォーマンスの基準を満たしているとレビューされています
-  .aria-label = { addon-badge-verified2.title }
+addon-badge-line4 =
+  .title = Mozilla によってビルドされた公式拡張機能です。セキュリティとパフォーマンスの基準を満たしています
+addon-badge-verified3 =
+  .title = この拡張機能は、セキュリティとパフォーマンスの基準を満たすように審査されています
 
 ##
 

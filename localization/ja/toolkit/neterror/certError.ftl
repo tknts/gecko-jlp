@@ -96,8 +96,6 @@ cert-error-details-key-pinning-label = HTTP 公開鍵ピンニング: { $hasHPKP
 
 cert-error-details-cert-chain-label = 証明書チェーン:
 
-open-in-new-window-for-csp-or-xfo-error = 新しいウィンドウでサイトを開く
-
 # Variables:
 #   $hostname (string) - Hostname of the website blocked by csp or xfo error.
 csp-xfo-blocked-long-desc = セキュリティを保護のため { $hostname } は、別のサイトがページを埋め込んでいる場合 { -brand-short-name } がそのページを表示することを許可しません。このページを表示するには、新しいウィンドウで開く必要があります。
@@ -129,6 +127,7 @@ contentEncodingError-title = コンテンツのエンコード エラー
 unsafeContentType-title = 安全でないファイルの種類
 netReset-title = 接続がリセットされました
 netTimeout-title = 接続がタイムアウトしました
+httpErrorPage-title = このサイトに問題があるようです
 serverError-title = このサイトに問題があるようです
 unknownProtocolFound-title = アドレスがわかりませんでした
 proxyConnectFailure-title = プロキシサーバーが接続を拒否しています
