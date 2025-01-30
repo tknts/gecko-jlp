@@ -143,6 +143,8 @@ sidebar-menu-history-header =
   .heading = 履歴
 sidebar-menu-syncedtabs-header =
   .heading = その他のデバイスからのタブ
+sidebar-menu-bookmarks-header =
+  .heading = ブックマーク
 
 ## Titles for sidebar menu panels.
 

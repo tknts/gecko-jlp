@@ -20,12 +20,6 @@ experimental-features-media-jxl =
     .label = Media: JPEG XL
 experimental-features-media-jxl-description = この機能を有効化すると { -brand-short-name } で JPEG XL (JXL) 形式のファイルがサポートされます。これは従来の JPEG ファイルにロスレス圧縮をサポートする拡張画像ファイル形式です。詳しくは <a data-l10n-name="bugzilla">bug 1539075</a> をご覧ください。
 
-# "Service Worker" is an API name and is usually not translated.
-experimental-features-devtools-serviceworker-debugger-support =
-    .label = Developer Tools: Service Worker debugging
-# "Service Worker" is an API name and is usually not translated.
-experimental-features-devtools-serviceworker-debugger-support-description = 開発ツールのデバッガパネルで Service Worker の実験的なサポートを有効にします。この機能により開発ツールの速度が低下したり、メモリの消費量が増加する場合があります。
-
 # WebRTC global mute toggle controls
 experimental-features-webrtc-global-mute-toggles =
     .label = WebRTC Global Mute Toggles
@@ -48,14 +42,6 @@ experimental-features-auto-pip-description = ビデオの再生中にタブを�
 
 genai-settings-chat-title =
     .label = AI チャットボット
-
-# Updated sidebar settings
-sidebar-title =
-    .label = サイドバー
-sidebar-description = Easily access your history, tabs from other devices, sidebar extensions, and more as you browse. <a data-l10n-name="connect">Share feedback</a>
-vertical-tabs-title =
-    .label = タブの垂直表示
-vertical-tabs-description = Move your tabs from the top of the browser to the side. Requires you also try the sidebar. <a data-l10n-name="connect">Share feedback</a>
 
 experimental-features-group-developer-tools =
   .label = 開発ツール

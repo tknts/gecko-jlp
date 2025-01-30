@@ -11,6 +11,7 @@ neterror-blocked-by-policy-page-title = ブロックされたページ
 neterror-captive-portal-page-title = ネットワークにログイン
 neterror-dns-not-found-title = サーバーが見つかりません
 neterror-malformed-uri-page-title = 無効な URL
+general-body-title = 気をつけてください。何かおかしいようです。
 
 ## Error page actions
 
@@ -32,7 +33,6 @@ neterror-disable-native-feedback-warning = 常に続ける
 ##
 
 neterror-pref-reset = ネットワークのセキュリティ設定が原因である可能性があります。デフォルトの設定を復元しますか?
-neterror-error-reporting-automatic = エラーを報告して { -vendor-short-name } が悪意のあるサイトを特定してブロックするのに協力してください
 
 ## Specific error messages
 
@@ -43,6 +43,8 @@ neterror-load-error-connection = どのページも読み込めない場合は�
 neterror-load-error-firewall = コンピューターまたはネットワークがファイアウォールまたはプロキシによって保護されている場合は { -brand-short-name } がウェブへのアクセスを許可されていることを確認してください。
 # This warning is only shown on macOS Sequoia and later (see bug 1929377)
 neterror-load-osx-permission = ローカルネットワークのページを読み込もうとしている場合は、macOS のプライバシーとセキュリティ設定で { -brand-short-name } にローカル ネットワークの権限が付与されていることを確認してください。
+
+neterror-http-error-page = ウェブサイトのアドレスが正しく入力されていることを確認してください。
 
 neterror-captive-portal = インターネットにアクセスする前に、このネットワークにログインする必要があります。
 
@@ -109,6 +111,10 @@ neterror-proxy-connect-failure-contact-admin = ネットワーク管理者に連
 neterror-content-encoding-error = ウェブサイトの所有者に連絡して、この問題について知らせてください。
 
 neterror-unsafe-content-type = ウェブサイトの所有者に連絡して、この問題について知らせてください。
+
+# Variables:
+# $hostname (String) - Hostname of the website to which the user was trying to connect.
+neterror-basic-http-auth = 接続が安全でないため、{ -brand-short-name } は { $hostname } を信頼しません。URL を HTTPS に変更してください。
 
 neterror-nss-failure-not-verified = 受信したデータの正当性が確認できなかったためページを表示できません。
 neterror-nss-failure-contact-website = ウェブサイトの所有者に連絡して、この問題について知らせてください。
@@ -178,6 +184,10 @@ certerror-mitm-what-can-you-do-about-it-attack-sts = あなたが <b>{ $mitm }</
 certerror-what-should-i-do-bad-sts-cert-explanation = <b>{ $hostname }</b> には HTTP Strict Transport Security (HSTS) と呼ばれるセキュリティ ポリシーが設定されいます。この設定により { -brand-short-name } へは安全な接続しか使用できません。このサイトにアクセスするための例外を追加することはできません。
 
 cert-error-trust-certificate-transparency-what-can-you-do-about-it = サイト自体に問題がある可能性が高いので、おそらく何もないでしょう。
+
+certerror-blocked-by-corp-headers-description = ウェブサイトによっては、他のサイトとの望ましくないやり取りから、ウェブサイト自身やあなたを保護するための保護策が講じられている場合があります。
+certerror-coop-learn-more = クロス オリジン オープナー ポリシー (COOP) の詳細
+certerror-coep-learn-more = クロス オリジン エンベッダー ポリシー (COEP) の詳細
 
 # Variables:
 #   $responsestatus (string) - HTTP response status code (e.g., 500).

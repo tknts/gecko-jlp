@@ -5,6 +5,8 @@
 sidebar-menu-bookmarks =
   .label = ブックマーク
 
+sidebar-menu-bookmarks-2 = ブックマーク
+
 sidebar-menu-history =
   .label = 履歴
 

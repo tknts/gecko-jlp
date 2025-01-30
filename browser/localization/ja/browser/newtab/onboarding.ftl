@@ -195,6 +195,13 @@ mr2022-onboarding-easy-setup-import-checkbox-label = 以前使用していたブ
 
 ## MR2022 New User Pin Firefox screen strings
 
+# Title used on about:welcome for new users when Firefox is not pinned.
+# In this context, open up is synonymous with "Discover".
+# The metaphor is that when they open their Firefox browser, it helps them discover an amazing internet.
+# If this translation does not make sense in your language, feel free to use the word "discover."
+mr2022-onboarding-welcome-pin-header = 素晴らしいインターネットを開きましょう
+# Subtitle is used on onboarding page for new users page when Firefox is not pinned
+mr2022-onboarding-welcome-pin-subtitle = ワンクリックでどこからでも { -brand-short-name } を起動できます。起動するたびに、よりオープンで独立したウェブを選択することになります。
 # Primary button string used on welcome page for when Firefox is not pinned.
 mr2022-onboarding-pin-primary-button-label = { PLATFORM() ->
     [macos] Keep { -brand-short-name } in Dock

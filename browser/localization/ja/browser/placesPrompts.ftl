@@ -18,3 +18,6 @@ places-bookmarks-restore-parse-error = Unable to process the backup file.
 
 places-bookmarks-import = ブックマーク ファイルをインポート
 places-bookmarks-export = ブックマーク ファイルをエクスポート
+
+places-bookmarks-paste-error-title = 無効な URL が見つかりました
+places-bookmarks-paste-error-message-header = 次の URL をブックマークに追加できませんでした。書式を確認して、もう一度追加してみてください。

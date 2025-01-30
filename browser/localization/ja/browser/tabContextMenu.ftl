@@ -91,6 +91,10 @@ tab-context-close-duplicate-tabs =
 tab-context-share-url =
     .label = 共有
     .accesskey = h
+tab-context-enable-vertical-tabs =
+    .label = タブの垂直表示をオンにする
+tab-context-disable-vertical-tabs =
+    .label = タブの垂直表示をオフにする
 
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.

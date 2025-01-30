@@ -248,8 +248,10 @@ newtab-pocket-thumbs-up-tooltip =
     .title = More like this
 # Clicking the thumbs down button for this story informs us that the user does not feel like the story is interesting for them
 newtab-pocket-thumbs-down-tooltip =
-    .title = Not for me
-newtab-toast-thumbs-up-or-down = Thanks. Your feedback will help us improve your feed.
+    .title = 必要ありません
+# Used to show the user a message upon clicking the thumbs up or down buttons
+newtab-toast-thumbs-up-or-down2 =
+    .message = ありがとうございます。あなたのフィードバックはフィードの改善に役立ちます。
 newtab-toast-dismiss-button =
     .title = Dismiss
     .aria-label = Dismiss
@@ -445,9 +447,27 @@ newtab-section-follow-button = フォロー
 newtab-section-following-button = フォロー中
 newtab-section-unfollow-button = フォローを解除
 
+## Button to block/unblock listed topics
+## "Block", "unblocked", and "blocked" are social media terms that refer to hiding a section of stories.
+## e.g. Blocked the politics section of stories.
+
+newtab-section-block-button = ブロック
+newtab-section-blocked-button = ブロック済み
+newtab-section-unblock-button = ブロックを解除
+
 ## Confirmation modal for blocking a section
 
 newtab-section-confirm-block-section-p1 = このセクションをブロックしてもよろしいですか?
 newtab-section-confirm-block-section-p2 = ブロックされたセクションはフィードに表示されなくなります。
 newtab-section-block-section-button = このセクションをブロック
 newtab-section-cancel-button = キャンセル
+
+## Panel in the Customize menu section to manage followed and blocked topics
+
+newtab-section-mangage-topics-title = 話題
+newtab-section-mangage-topics-button =
+    .label = フォローおよびブロックされた話題
+newtab-section-mangage-topics-followed-topics-subtitle = フォロー済みの話題
+newtab-section-mangage-topics-followed-topics-empty-state = まだ話題をフォローしていません。
+newtab-section-mangage-topics-blocked-topics-subtitle = ブロックされた話題
+newtab-section-mangage-topics-blocked-topics-empty-state = まだ話題をブロックしていません。
