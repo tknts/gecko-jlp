@@ -53,22 +53,26 @@ about-reader-customtheme-tab = カスタム
 ## The .title element is used to make the editing functionality
 ## clear and give context for screen reader users.
 
-about-reader-custom-colors-foreground = 文字
+about-reader-custom-colors-foreground2 =
+    .label = 文字
     .title = 色の編集
-about-reader-custom-colors-background = 背景
-    .title = 色の編集
-
-about-reader-custom-colors-unvisited-links = 未訪問リンク
-    .title = 色の編集
-about-reader-custom-colors-visited-links = 訪問済みリンク
+about-reader-custom-colors-background2 =
+    .label = 背景
     .title = 色の編集
 
-about-reader-custom-colors-selection-highlight = 読み上げ用の強調表示
+about-reader-custom-colors-unvisited-links2 =
+    .label = 未訪問リンク
+    .title = 色の編集
+about-reader-custom-colors-visited-links2 =
+    .label = 訪問済みリンク
+    .title = 色の編集
+about-reader-custom-colors-selection-highlight2 =
+    .label = 読み上げ用の強調表示
     .title = 色の編集
 
 about-reader-reset-button = デフォルトに戻す
 
-## Reader View improved text and layout menu
+## Reader View text and layout menu
 
 about-reader-text-header = 文字
 
@@ -91,7 +95,7 @@ about-reader-slider-label-spacing-standard = 標準
 about-reader-slider-label-spacing-wide = ワイド
 
 about-reader-content-width-label =
-  .label = Content width
+  .label = コンテンツの横幅
 about-reader-line-spacing-label =
   .label = 行の間隔
 

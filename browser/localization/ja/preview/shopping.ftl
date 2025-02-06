@@ -24,4 +24,9 @@ shopping-empty-state-supported-site = 製品を表示すると { -brand-product-
 # This string will be displayed above the list of sites. The list will be hardcoded and does not require localization.
 shopping-empty-state-non-supported-site = レビュー チェッカーは、以下のサイトで買い物をするときに機能します:
 
+## Callout for where to find Review Checker when the sidebar closes
+
+shopping-integrated-callout-sidebar-closed-title = レビュー チェッカーに戻る
+shopping-integrated-callout-sidebar-closed-subtitle = サイドバーの価格を選択して、商品のレビューが信頼できるかどうかを確認します。
+
 ##

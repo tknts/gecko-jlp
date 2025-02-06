@@ -75,6 +75,7 @@ split-dismiss-button-manage-settings-option-label = 設定を管理する
 
 sidebar-button-callout-title = サイドバーにタブのタイトルを表示する
 sidebar-button-callout-subtitle = サイドバーボタンを使用してサイドバーを展開し、タブのタイトルを表示します。
+sidebar-button-callout-vertical-tabs = タブを表示するには、ツールバーのサイドバーボタンをクリックします。
 
 ## Sidebar Callout Survey Strings
 

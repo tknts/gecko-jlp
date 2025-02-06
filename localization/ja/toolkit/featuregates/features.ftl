@@ -10,12 +10,6 @@ experimental-features-css-masonry-description = 実験的な CSS 組積レイア
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
-experimental-features-web-gpu2 =
-    .label = Web API: WebGPU
-experimental-features-web-gpu-description3 = <a data-l10n-name="wikipedia-webgpu">WebGPU API</a> は、ユーザーのデバイスまたはコンピューターの <a data-l10n-name="wikipedia-gpu">グラフィックス プロセッシング ユニット (GPU)</a> を使用して計算やグラフィックス レンダリングを行うための低レベルサポートを提供します。最初の <a data-l10n-name="spec">仕様</a> の確定が近づいています。詳細については <a data-l10n-name="bugzilla">bug 1616739</a> を参照してください。
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
 experimental-features-media-jxl =
     .label = Media: JPEG XL
 experimental-features-media-jxl-description = この機能を有効化すると { -brand-short-name } で JPEG XL (JXL) 形式のファイルがサポートされます。これは従来の JPEG ファイルにロスレス圧縮をサポートする拡張画像ファイル形式です。詳しくは <a data-l10n-name="bugzilla">bug 1539075</a> をご覧ください。
@@ -40,13 +34,9 @@ experimental-features-auto-pip =
     .label = ピクチャー イン ピクチャー: タブ切り替え時に自動的に有効にする
 experimental-features-auto-pip-description = ビデオの再生中にタブを切り替えるとピクチャー イン ピクチャー機能を自動的に有効にして再生を継続します。
 
-genai-settings-chat-title =
-    .label = AI チャットボット
-
 experimental-features-group-developer-tools =
   .label = 開発ツール
 experimental-features-group-webpage-display =
   .label = ウェブページの表示
 experimental-features-group-customize-browsing =
   .label = ブラウジングをカスタマイズする
-experimental-features-group-customize-browsing-description = If you try these features, <a data-l10n-name="connect">share your thoughts on Connect</a>

@@ -12,6 +12,7 @@ more-from-moz-subtitle = 健全なインターネットをサポートするた�
 
 more-from-moz-firefox-mobile-title = { -brand-product-name } モバイル
 more-from-moz-firefox-mobile-description = あなたのプライバシーを第一に考えるモバイル ブラウザー。
+more-from-moz-firefox-mobile-title-1 = { -brand-product-name } for Mobile
 
 more-from-moz-mozilla-vpn-title = { -mozilla-vpn-brand-name }
 more-from-moz-mozilla-vpn-description = 匿名でのブラウジングと保護を強化します。
@@ -37,3 +38,9 @@ more-from-moz-mozilla-monitor-title = { -mozmonitor-brand-name }
 more-from-moz-mozilla-monitor-us-description = 漏洩した個人情報を自動的に取り戻します。
 more-from-moz-mozilla-monitor-global-description = データが侵害されたときに警告を受け取ります。
 more-from-moz-mozilla-monitor-button = { -monitor-brand-short-name } を入手
+
+## These strings are for the Solo card in about:preferences moreFromMozilla page
+
+more-from-moz-solo-title = { -solo-ai-brand-name } AI
+more-from-moz-solo-description = Create your website instantly and connect your own custom domain for free.
+more-from-moz-solo-button = Try { -solo-ai-brand-name }

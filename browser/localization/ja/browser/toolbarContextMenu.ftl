@@ -30,6 +30,13 @@ toolbar-context-menu-reopen-closed-tabs =
         }
     .accesskey = o
 
+toolbar-context-turn-on-vertical-tabs =
+    .label = タブの垂直表示をオン
+toolbar-context-turn-off-vertical-tabs =
+    .label = タブの垂直表示をオフ
+toolbar-context-customize-sidebar =
+    .label = サイドバーのカスタマイズ
+
 toolbar-context-menu-manage-extension =
     .label = 拡張機能を管理
     .accesskey = E

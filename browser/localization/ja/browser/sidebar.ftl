@@ -48,24 +48,20 @@ sidebar-customize-extensions-header = サイドバー拡張機能
 sidebar-customize-firefox-tools-header =
   .label = { -brand-product-name } ツール
 sidebar-customize-firefox-settings = { -brand-short-name } の設定を管理
-sidebar-position-left =
-  .label = 左側に表示
-sidebar-position-right =
-  .label = 右側に表示
 sidebar-vertical-tabs =
-  .label = Vertical tabs
-sidebar-horizontal-tabs =
-  .label = Horizontal tabs
-sidebar-customize-tabs-header =
-  .label = タブの設定
-sidebar-customize-button-header =
-  .label = サイドバーのボタン
-sidebar-customize-position-header =
-  .label = サイドバーの位置
-sidebar-visibility-always-show =
-  .label = 常に表示する
-sidebar-visibility-hide-sidebar =
-  .label = サイドバーを閉じる
+  .label = タブの垂直表示
+sidebar-settings =
+  .label = サイドバーの設定
+sidebar-hide-tabs-and-sidebar =
+  .label = タブとサイドバーを閉じる
+sidebar-show-on-the-right =
+  .label = サイドバーを右に移動
+sidebar-show-on-the-left =
+  .label = サイドバーを左に移動
+# Option to automatically expand the collapsed sidebar when the mouse pointer
+# hovers over it.
+expand-sidebar-on-hover =
+  .label = サイドバーを自動的に表示
 
 ## Labels for sidebar context menu items
 
@@ -130,8 +126,16 @@ sidebar-menu-open-bookmarks-tooltip = ブックマークを開きます ({ $shor
 #   $shortcut (String) - The OS specific keyboard shortcut.
 sidebar-menu-close-bookmarks-tooltip = ブックマークを閉じます ({ $shortcut })
 
-sidebar-menu-open-ai-chatbot-tooltip = AI チャットボットを開きます
-sidebar-menu-close-ai-chatbot-tooltip = AI チャットボットを閉じます
+## Tooltips displayed over the AI chatbot icon.
+## Variables:
+##   $shortcut (String) - The OS specific keyboard shortcut.
+##   $provider (String) - The name of the AI chatbot provider (if available).
+
+sidebar-menu-open-ai-chatbot-tooltip-generic = AI チャットボットを開く ({ $shortcut })
+sidebar-menu-open-ai-chatbot-provider-tooltip = { $provider } を開きます ({ $shortcut })
+
+sidebar-menu-close-ai-chatbot-tooltip-generic = AI チャットボットを閉じる ({ $shortcut })
+sidebar-menu-close-ai-chatbot-provider-tooltip = { $provider } を閉じます ({ $shortcut })
 
 ## Headings for sidebar menu panels.
 
