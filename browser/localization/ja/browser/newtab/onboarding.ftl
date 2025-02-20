@@ -55,10 +55,6 @@ mr1-onboarding-theme-header = 自分好みに仕上げてください
 mr1-onboarding-theme-subtitle = { -brand-short-name } にテーマを設定してパーソナライズします。
 mr1-onboarding-theme-secondary-button-label = 後で
 
-newtab-wallpaper-onboarding-title = Try a splash of color
-newtab-wallpaper-onboarding-subtitle = 新しいタブに新鮮な外観を与える壁紙を選択してください。
-newtab-wallpaper-onboarding-primary-button-label = 壁紙を設定
-
 # System theme uses operating system color settings
 mr1-onboarding-theme-label-system = システムのテーマ
 
@@ -442,6 +438,10 @@ onboarding-checklist-sign-up = サインアップまたはアカウントにロ�
 
 tab-groups-onboarding-feature-callout-title = タブグループを使用して、タブを整理して、集中力を高めましょう
 tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグして最初のグループを作成し、整理します。
+tab-groups-onboarding-create-group-title = 開いているグループはタブバーで探すか、アドレスバーで検索してください。
+tab-groups-onboarding-saved-groups-title = タブグループを閉じた場合は、ここからいつでも開き直せます。
+tab-groups-onboarding-saved-groups-no-alltabs-button-title = 開いているタブグループや閉じたタブグループは、アドレスバーで検索すればいつでも見つけることができます。
+tab-groups-onboarding-dismiss = OK
 
 ## Multi Profiles feature onboarding messages
 
@@ -452,3 +452,16 @@ multi-profile-spotlight-cta = プロファイルを作成する
 multi-profile-callout-title = 仕事用と趣味用の異なるプロファイルを作成する
 multi-profile-callout-subtitle = プロファイルを使用すると、検索履歴やパスワードなどの閲覧情報を完全に分離して保存できます。
 multi-profile-callout-cta = プロファイルを作成する
+
+## Desktop to Mobile Adoption feature callout strings
+
+# If translating the headline is challenging, consider using a simplified alternative as a reference: 'Sync your browsing with Firefox for mobile.'
+desktop-to-mobile-headline = ダウンロードして同期しましょう!
+
+# The phrase, 'on the go', is used to describe when people are very busy and are traveling from place to place.
+desktop-to-mobile-subtitle = QR コードをスキャンして、モバイル用の { -brand-product-name } をダウンロードしてください。インストールしたら “モバイルに同期” を選択して、外出先でもパスワードやブックマークなどにアクセスできます。
+
+dismiss-button-label = 閉じる
+sync-to-mobile-button-label = モバイルに同期
+desktop-to-mobile-qr-code-alt =
+  .aria-label = QR コードから { -brand-product-name } for mobile をダウンロード

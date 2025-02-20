@@ -35,9 +35,6 @@ appmenu-theme-installed =
     .secondarybuttonlabel = 元に戻す
     .secondarybuttonaccesskey = U
 appmenu-addon-post-install-message3 = アプリケーションのメニューからアドオンとテーマを管理します。
-appmenu-addon-post-install-incognito-checkbox =
-    .label = この拡張機能がプライベート ウィンドウで動作するのを許可する
-    .accesskey = A
 
 appmenu-new-tab-controlled-changes =
     .label = 新しいタブの設定が変更されました。

@@ -662,6 +662,8 @@ urlbar-result-action-copy-to-clipboard = コピー
 # Variables
 #  $result (String): the string representation for a formula result
 urlbar-result-action-calculator-result = = { $result }
+# The string returned for an undefined calculator result such as when dividing by 0
+urlbar-result-action-undefined-calculator-result = 未定義
 
 ## Strings used for buttons in the urlbar
 
@@ -687,8 +689,11 @@ urlbar-searchmode-actions =
 urlbar-searchmode-exit-button =
     .tooltiptext = 閉じる
 
+# Label shown on the top of Searchmode Switcher popup. After this label, the
+# available search engines will be listed.
 urlbar-searchmode-popup-description = 次で検索:
-urlbar-searchmode-popup-search-settings = 検索の設定
+urlbar-searchmode-popup-search-settings-menuitem =
+    .label = 検索の設定
 
 # Label prompting user to search with a particular search engine.
 #  $engine (String): the name of a search engine that searches a specific site

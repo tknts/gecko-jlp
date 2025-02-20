@@ -1559,18 +1559,13 @@ httpsonly-learn-more = さらに詳しく
 
 httpsonly-radio-enabled =
     .label = すべてのウィンドウで HTTPS-Only モードを有効にする
-httpsonly-radio-enabled2 =
-    .label = すべてのウィンドウで HTTPS のみを使用します
 
 httpsonly-radio-enabled-pbm =
     .label = プライベート ウィンドウでのみ HTTPS-Only モードを有効にする
-httpsonly-radio-enabled-pbm2 =
-    .label = プライベート ウィンドウでのみ HTTPS を使用します
 
-httpsonly-radio-disabled =
-    .label = HTTPS-Only モードを使用しない
-httpsonly-radio-disabled2 =
-    .label = 最初に HTTPS を試し、使用できない場合に安全でない接続も許可します
+httpsonly-radio-disabled3 =
+    .label = HTTPS のみのモードを有効にしない
+    .description = { -brand-short-name } は、一部の接続をアップグレードする可能性があります
 
 ## DoH Section
 
@@ -1629,10 +1624,6 @@ preferences-doh-setting-off =
   .label = オフ
   .accesskey = O
 preferences-doh-off-desc = デフォルトの DNS リゾルバーが使用されます
-
-preferences-doh-checkbox-warn =
-    .label = 第三者によって安全な DNS の使用が妨害されている場合に警告する
-    .accesskey = W
 
 preferences-doh-select-resolver = プロパイダーの選択:
 

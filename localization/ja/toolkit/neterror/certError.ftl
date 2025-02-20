@@ -108,11 +108,6 @@ deniedPortAccess-title = このアドレスは制限されています
 # You don't have to include it in your translation if your language does not have a written word like this.
 dnsNotFound-title = うーん?。そのサイトが見つかりません。
 
-dns-not-found-trr-only-title2 =
-  このドメインを検索すると、セキュリティ上のリスクが生じる可能性があります
-dns-not-found-native-fallback-title2 =
-  このドメインを検索すると、セキュリティ上のリスクが生じる可能性があります
-
 fileNotFound-title = ファイルが見つかりません
 fileAccessDenied-title = ファイルへのアクセスが拒否されました
 generic-title = しまった!

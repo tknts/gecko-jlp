@@ -8,6 +8,9 @@ menu-view-genai-chat =
 menu-view-review-checker =
   .label = レビュー チェッカー
 
+menu-view-contextual-password-manager =
+  .label = パスワード
+
 sidebar-options-menu-button =
   .title = メニューを開く
 
@@ -79,6 +82,12 @@ sidebar-context-menu-bookmark-tab =
   .label = タブをブックマーク…
 sidebar-context-menu-copy-link =
   .label = リンクをコピー
+sidebar-context-menu-hide-sidebar =
+  .label = サイドバーを閉じる
+sidebar-context-menu-enable-vertical-tabs =
+  .label = タブの垂直表示を有効
+sidebar-context-menu-customize-sidebar =
+  .label = サイドバーをカスタマイズ
 # Variables:
 #   $deviceName (String) - The name of the device the user is closing a tab for
 sidebar-context-menu-close-remote-tab =
@@ -103,6 +112,8 @@ sidebar-menu-customize-label =
   .label = サイドバーのカスタマイズ
 sidebar-menu-review-checker-label =
   .label = レビュー チェッカー
+sidebar-menu-contextual-password-manager-label =
+  .label = パスワード
 
 ## Tooltips for sidebar menu items.
 
@@ -149,6 +160,8 @@ sidebar-menu-syncedtabs-header =
   .heading = その他のデバイスからのタブ
 sidebar-menu-bookmarks-header =
   .heading = ブックマーク
+sidebar-menu-cpm-header =
+  .heading = パスワード
 
 ## Titles for sidebar menu panels.
 
