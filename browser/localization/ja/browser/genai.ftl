@@ -51,6 +51,11 @@ genai-menu-ask-generic =
 # $provider (string) - name of the provider
 genai-menu-ask-provider =
     .label = { $provider } に問い合わせる
+genai-menu-remove-generic =
+    .label = AI チャットボットを削除
+# $provider (string) - name of the provider
+genai-menu-remove-provider =
+    .label = { $provider } を削除
 
 genai-input-ask-generic =
     .placeholder = AI に質問する…

@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 aboutDialog-title =
-    .title = { -brand-full-name } について (ja)
+    .title = { -brand-full-name } について
 
 releaseNotes-link = 最新情報
 
@@ -12,7 +12,7 @@ update-checkForUpdatesButton =
     .accesskey = C
 
 update-updateButton =
-    .label = { -brand-shorter-name } を再起動して更新
+    .label =  { -brand-shorter-name } を再起動して更新
     .accesskey = R
 
 update-checkingForUpdates = 更新を確認しています…
@@ -27,60 +27,60 @@ aboutdialog-update-downloading = 更新をダウンロードしています — 
 
 update-applying = 更新を適用しています…
 
-update-failed = 更新に失敗しました。最新のバージョンを <label data-l10n-name="failed-link">ダウンロード</label> してください。
+update-failed = 更新に失敗しました。 <label data-l10n-name="failed-link">最新のバージョンをダウンロード</label>
 update-failed-main =
-    更新に失敗しました。最新のバージョンを <a data-l10n-name="failed-link-main">ダウンロード</a> してください。
+    更新に失敗しました。 <a data-l10n-name="failed-link-main">最新のバージョンをダウンロー</a>
 
-update-policy-disabled = あなたの所属する組織により更新が無効化されいます
-update-noUpdatesFound = { -brand-short-name } は最新のバージョンです
-aboutdialog-update-checking-failed = アップデートの確認に失敗しました。
-update-otherInstanceHandlingUpdates = { -brand-short-name } は別のプロセスで更新中です
+update-policy-disabled = 更新は所属している組織によって無効化されています。
+update-noUpdatesFound = { -brand-short-name } は最新の状態です
+aboutdialog-update-checking-failed = 更新の確認に失敗しました。
+update-otherInstanceHandlingUpdates = { -brand-short-name } is being updated by another instance
 
 ## Variables:
 ##   $displayUrl (String): URL to page with download instructions. Example: www.mozilla.org/firefox/nightly/
 
-aboutdialog-update-manual-with-link = 更新は <label data-l10n-name="manual-link">{ $displayUrl }</label> で入手可能です
-settings-update-manual-with-link = 更新は <a data-l10n-name="manual-link">{ $displayUrl }</a> で入手可能です
+aboutdialog-update-manual-with-link = Updates available at <label data-l10n-name="manual-link">{ $displayUrl }</label>
+settings-update-manual-with-link = Updates available at <a data-l10n-name="manual-link">{ $displayUrl }</a>
 
-update-unsupported = このシステムには更新が用意されていません。 <label data-l10n-name="unsupported-link">さらに詳しく</label>
+update-unsupported = このシステムではこれ以上の更新は実行できません。 <label data-l10n-name="unsupported-link">さらに詳しく</label>
 
 update-restarting = 再起動しています…
 
-update-internal-error2 = 内部でエラーが発生したため、更新を確認できませんでした。更新を <label data-l10n-name="manual-link">{ $displayUrl }</label> から入手してください
+update-internal-error2 = 内部にエラーが発生しているため、更新を確認できません。 <label data-l10n-name="manual-link">{ $displayUrl }</label> から入手してください。
 
 ##
 
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
-aboutdialog-channel-description = 現在の更新チャンネルは  <label data-l10n-name="current-channel">{ $channel }</label> に設定されています。
+aboutdialog-channel-description = 現在の更新チャンネルは <label data-l10n-name="current-channel">{ $channel }</label> です。
 
-warningDesc-version = { -brand-short-name } は実験的であり、不安定な可能性があります。
+warningDesc-version = { -brand-short-name } は実験段階であり、不安定な可能性があります。
 
-aboutdialog-help-user = { -brand-product-name } のヘルプ
+aboutdialog-help-user = { -brand-product-name } Help
 aboutdialog-submit-feedback = フィードバックを送信
 
-community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> はウェブの公開性、公衆性、制限のないアクセス性を保つために共に活動している <label data-l10n-name="community-exp-creditsLink">グローバルなコミュニティ</label> です。
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> is a <label data-l10n-name="community-exp-creditsLink">global community</label> working together to keep the Web open, public and accessible to all.
 
-community-2 = { -brand-short-name } をデザインしている <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label> は、ウェブの公開性、公衆性、制限のないアクセス性を保つために共に活動している <label data-l10n-name="community-creditsLink">グローバルなコミュニティ</label> です。
+community-2 = { -brand-short-name } is designed by <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label>, a <label data-l10n-name="community-creditsLink">global community</label> working together to keep the Web open, public and accessible to all.
 
-helpus = 参加しませんか? <label data-l10n-name="helpus-donateLink">寄付</label> または <label data-l10n-name="helpus-getInvolvedLink">コミュニティへ参加してください!</label>
+helpus = 手伝ってみませんか? <label data-l10n-name="helpus-donateLink">寄付</label> するか、<label data-l10n-name="helpus-getInvolvedLink">参加</label>してください!
 
 bottomLinks-license = ライセンス情報
-bottomLinks-rights = あなたの権利について
-bottomLinks-privacy = プライバシーポリシー
+bottom-links-terms = 利用規約
+bottom-links-privacy = プライバシー通知
 
 # Example of resulting string: 66.0.1 (64-bit)
 # Variables:
 #   $version (String): version of Firefox, e.g. 66.0.1
 #   $bits (Number): bits of the architecture (32 or 64)
-aboutDialog-version = { $version } ({ $bits } ビット)
+aboutDialog-version = { $version } ({ $bits }-bit)
 
 # Example of resulting string: 66.0a1 (2019-01-16) (64-bit)
 # Variables:
 #   $version (String): version of Firefox for Nightly builds, e.g. 66.0a1
 #   $isodate (String): date in ISO format, e.g. 2019-01-16
 #   $bits (Number): bits of the architecture (32 or 64)
-aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits } ビット)
+aboutDialog-version-nightly = { $version } ({ $isodate }) ({ $bits }-bit)
 
 # Example of resulting string: 131.0a1 (aarch64)
 # Variables:

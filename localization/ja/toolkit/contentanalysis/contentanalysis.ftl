@@ -51,8 +51,19 @@ contentanalysis-block-message = あなたが所属する組織では、このコ
 contentanalysis-unspecified-error-message = { $agent } との通信中にエラーが発生しました。リソース: { $content } の転送が拒否されました。
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
-#   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
-contentanalysis-no-agent-connected-message = { $agent } に接続できません。リソース: { $content } の転送が拒否されました。
+#   $content - Localized text describing the content being blocked, such as "Paste denied."
+contentanalysis-no-agent-connected-message-content = { $agent } に接続できません。理由: { $content }
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+#   $content - Localized text describing the content being blocked, such as "Paste denied."
+contentanalysis-invalid-agent-signature-message-content = { $agent } の署名検証に失敗しました。理由: { $content }
+# Variables:
+#   $filename - Name of the file that was blocked, such as "aFile.txt"
+contentanalysis-error-message-upload-file = “{ $filename }” のアップロードが拒否されました。
+contentanalysis-error-message-dropped-text = ドラッグアンドドロップは拒否されました。
+contentanalysis-error-message-clipboard = 貼り付けが拒否されました。
+contentanalysis-error-message-print = 印刷が拒否されました。
+
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
 #   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"

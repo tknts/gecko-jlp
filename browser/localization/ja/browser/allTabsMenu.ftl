@@ -17,3 +17,5 @@ all-tabs-menu-close-all-duplicate-tabs =
 
 all-tabs-menu-synced-tabs =
   .label = 他のデバイスのタブ
+
+all-tabs-menu-current-window-header = 現在のウィンドウ

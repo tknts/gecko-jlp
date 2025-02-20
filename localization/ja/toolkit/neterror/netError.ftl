@@ -27,8 +27,6 @@ neterror-try-again-button = もう一度
 neterror-add-exception-button = このサイトを常に続ける
 neterror-settings-button = DNS の設定を変更
 neterror-view-certificate-link = 証明書を表示
-neterror-trr-continue-this-time = Continue this time
-neterror-disable-native-feedback-warning = 常に続ける
 
 ##
 
@@ -71,15 +69,7 @@ neterror-dns-not-found-trr-unknown-host2 = このウェブサイトは { $trrDom
 neterror-dns-not-found-trr-server-problem = { $trrDomain } に問題がありました。
 neterror-dns-not-found-bad-trr-url = URL が無効です。
 neterror-dns-not-found-system-sleep = システムはスリープ モードです。
-neterror-dns-not-found-trr-unknown-problem = 予期しない問題が発生しました。
-
-## Native fallback specific messages
-## Variables:
-##   $trrDomain (String) - Hostname of the DNS over HTTPS server that is currently in use.
-
-neterror-dns-not-found-native-fallback-reason2 = { -brand-short-name } は、安全な DNS リゾルバを通じて、このサイトのアドレスのリクエストを保護できません。理由は次のとおりです。
-neterror-dns-not-found-native-fallback-heuristic = ネットワーク上で DNS over HTTPS の使用が無効になっています。
-neterror-dns-not-found-native-fallback-not-confirmed2 = { -brand-short-name } は { $trrDomain } に接続できませんでした。
+neterror-dns-not-found-trr-unknown-problem = 予期しない問題。
 
 ##
 

@@ -402,16 +402,11 @@ firefox-suggest-onboarding-main-skip-link = 今はしない
 
 urlbar-firefox-suggest-contextual-opt-in-title-1 =
   Find the best of the web, faster
-urlbar-firefox-suggest-contextual-opt-in-title-2 =
-  Say hello to smarter suggestions
-urlbar-firefox-suggest-contextual-opt-in-description-1 =
-  We’re building a better search experience. When you allow { -vendor-short-name } to process your search queries, we can create more relevant suggestions from { -brand-short-name } and our partners. Privacy-first, always.
-  <a data-l10n-name="learn-more-link">Learn more</a>
-urlbar-firefox-suggest-contextual-opt-in-description-2 =
-  { -firefox-suggest-brand-name } uses your search keywords to make contextual suggestions from { -brand-short-name } and our partners while keeping your privacy in mind.
-  <a data-l10n-name="learn-more-link">Learn more</a>
+urlbar-firefox-suggest-contextual-opt-in-description-3 =
+  私たちは、より優れた検索体験を構築しています。検索クエリのデータを { -vendor-short-name } と共有すると、{ -brand-short-name } とパートナーからより関連性の高いサジェストを作成できます。常にプライバシーを第一に考えます。
+  <a data-l10n-name="learn-more-link">さらに詳しく</a>
 urlbar-firefox-suggest-contextual-opt-in-allow = サジェストを許可
-urlbar-firefox-suggest-contextual-opt-in-dismiss = 許可しない
+urlbar-firefox-suggest-contextual-opt-in-dismiss = 使用しない
 
 ## Local search mode indicator labels in the urlbar
 

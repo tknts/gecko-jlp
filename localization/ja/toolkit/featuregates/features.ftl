@@ -4,20 +4,9 @@
 
 # The title of the experiment should be kept in English as it may be referenced
 # by various online articles and is technical in nature.
-experimental-features-css-masonry2 =
-    .label = CSS: Masonry Layout
-experimental-features-css-masonry-description = 実験的な CSS 組積レイアウト機能を有効にします。この機能の概要については、こちらの <a data-l10n-name="explainer">解説</a> をご覧ください。この機能に関するフィードバックは <a data-l10n-name="w3c-issue">GitHub Issue</a> または <a data-l10n-name="bug">バグ</a> としてコメントしてください。
-
-# The title of the experiment should be kept in English as it may be referenced
-# by various online articles and is technical in nature.
 experimental-features-media-jxl =
     .label = Media: JPEG XL
 experimental-features-media-jxl-description = この機能を有効化すると { -brand-short-name } で JPEG XL (JXL) 形式のファイルがサポートされます。これは従来の JPEG ファイルにロスレス圧縮をサポートする拡張画像ファイル形式です。詳しくは <a data-l10n-name="bugzilla">bug 1539075</a> をご覧ください。
-
-# WebRTC global mute toggle controls
-experimental-features-webrtc-global-mute-toggles =
-    .label = WebRTC Global Mute Toggles
-experimental-features-webrtc-global-mute-toggles-description = Add controls to the WebRTC global sharing indicator that allow users to globally mute their microphone and camera feeds.
 
 # JS JIT Warp project
 experimental-features-js-warp =
