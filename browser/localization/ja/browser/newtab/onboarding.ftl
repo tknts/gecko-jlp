@@ -438,10 +438,12 @@ onboarding-checklist-sign-up = サインアップまたはアカウントにロ�
 
 tab-groups-onboarding-feature-callout-title = タブグループを使用して、タブを整理して、集中力を高めましょう
 tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグして最初のグループを作成し、整理します。
-tab-groups-onboarding-create-group-title = 開いているグループはタブバーで探すか、アドレスバーで検索してください。
-tab-groups-onboarding-saved-groups-title = タブグループを閉じた場合は、ここからいつでも開き直せます。
-tab-groups-onboarding-saved-groups-no-alltabs-button-title = 開いているタブグループや閉じたタブグループは、アドレスバーで検索すればいつでも見つけることができます。
-tab-groups-onboarding-dismiss = OK
+tab-groups-onboarding-create-group-title-2 = いつでもここからタブグループを探せます。
+tab-groups-onboarding-create-group-no-alltabs-button-title = アドレスバーで検索してグループを探せます。
+tab-groups-onboarding-saved-groups-title-2 = タブグループを閉じた場合は、いつでもここから開き直せます。
+tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 =アドレスバーで検索して閉じたグループを探せます。
+tab-groups-onboarding-session-restore-title = いつでもここからタブグループを開き直せます。
+groups here anytime.tab-groups-onboarding-dismiss = OK
 
 ## Multi Profiles feature onboarding messages
 

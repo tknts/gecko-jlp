@@ -65,6 +65,9 @@ sidebar-show-on-the-left =
 # hovers over it.
 expand-sidebar-on-hover =
   .label = サイドバーを自動的に表示
+expand-on-hover-message =
+  .heading = マウスオーバー時に表示する機能は近日中に搭載されます
+  .message = 今後のアップデートで、マウスカーソルを重ねた時にサイドバーを表示できるようになります。
 
 ## Labels for sidebar context menu items
 

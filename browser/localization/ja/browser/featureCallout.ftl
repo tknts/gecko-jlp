@@ -62,20 +62,36 @@ fx-view-discoverability-subtitle = ここですぐに見つけて再度開きま
 fx-view-discoverability-primary-button-label = { -firefoxview-brand-name } を開く
 fx-view-discoverability-secondary-button-label = 表示しない
 
-## Split Dismiss Button Labels
-
-# Blocks the message from showing again
-split-dismiss-button-dont-show-option-label = このおすすめを再度表示しない
-# Dismisses message and reduces frequency of message
-split-dismiss-button-show-fewer-option-label = おすすめの表示を少なくする
-# Opens about:preferences#general-cfrfeatures
-split-dismiss-button-manage-settings-option-label = 設定を管理する
-
 ## Sidebar Strings
 
 sidebar-button-callout-title = サイドバーにタブのタイトルを表示する
 sidebar-button-callout-subtitle = サイドバーボタンを使用してサイドバーを展開し、タブのタイトルを表示します。
 sidebar-button-callout-vertical-tabs = タブを表示するには、ツールバーのサイドバーボタンをクリックします。
+
+## Sidebar Vertical Tabs Strings
+
+vertical-tabs-callout-1-title = タブが多すぎて圧倒されていませんか?
+vertical-tabs-callout-1-subtitle = 新しい垂直タブレイアウトを試して、タブのリストをすばやくスキャンしてください。早期テスターからは、このレイアウトの方が整理されているように感じるとの報告があります。いつでも切り替えることができます。
+vertical-tabs-callout-1-cta-button = 垂直タブを使ってみる
+vertical-tabs-callout-2-cta-button = 今すぐ使う
+vertical-tabs-callout-2-title = たくさんのタブを開いたままにしていますか? 垂直タブをお試しください。
+vertical-tabs-callout-2-subtitle = このレイアウトにより、タブの一覧をすばやく簡単に見つけられます。さらに、幅を調整してタブのタイトル表示を増やしたり減らしたりできます。
+
+## Sidebar Vertical Tabs Pinning Strings
+
+sidebar-pins-callout-title = 重要なタブを見失っていませんか?
+sidebar-pins-callout-subtitle = タブをピン留めすると、タブリストの一番上に表示する事ができます。ピン留めしたいタブを右クリックして [タブをピン留め] を選択してください。
+sidebar-pins-callout-cta-button = タブをピン留め
+
+## Sidebar Onboarding Strings
+
+# The "=" here stands for "equals" to convey the meaning "Sidebar is your spot for tools and tabs"
+sidebar-customization-callout-1-title = サイドバー = ツールとタブを配置する場所
+sidebar-customization-callout-1-subtitle = { -brand-product-name } のサイドバーを使用すると、メインビューを離れることなく、閲覧履歴、他のデバイスのタブ、AI チャットボットにすばやくアクセスできます。
+sidebar-customization-callout-callout-button = サイドバーをカスタマイズ
+sidebar-customization-callout-dismiss-button = サイドバーを非表示
+sidebar-customization-callout-2-title = { -brand-product-name } サイドバーを自分好みにカスタマイズ
+sidebar-customization-callout-2-subtitle = ツールを追加および削除します。サイドバーにタブを配置します。AI チャットボットをお試しください。サイドバーをどのようにカスタマイズするかはあなた次第です。
 
 ## Sidebar Callout Survey Strings
 
@@ -130,3 +146,15 @@ actions-callout-title = 一般的なタスクを完了するか、基本設定�
 # "clear" - quickactions-cmd-clearhistory
 # When localizing, ensure the translations match to ensure the action button appears as expected.
 actions-callout-subtitle = ページを印刷するには “print”、履歴を消去するには “clear” などのアクションを入力してみてください。
+
+## Split Dismiss Button Labels
+
+# Blocks the message from showing again
+split-dismiss-button-dont-show-option =
+    .label = このおすすめを再度表示しない
+# Dismisses message and reduces frequency of message
+split-dismiss-button-show-fewer-option =
+    .label = おすすめの表示を減らす
+# Opens about:preferences#general-cfrfeatures
+split-dismiss-button-manage-settings-option =
+    .label = 設定を管理する
