@@ -53,22 +53,6 @@ urlbar-group-local =
 urlbar-group-sponsored =
   .label = スポンサード
 
-# Block menu item shown in the result menu of top pick and quick suggest
-# results.
-urlbar-result-menu-dismiss-firefox-suggest =
-    .label = このサジェストを削除
-    .accesskey = D
-
-# Learn More menu item shown in the result menu of Firefox Suggest results.
-urlbar-result-menu-learn-more-about-firefox-suggest =
-    .label = { -firefox-suggest-brand-name } についてさらに詳しく
-    .accesskey = L
-
-# Manage menu item shown in the result menu of Firefox Suggest results.
-urlbar-result-menu-manage-firefox-suggest =
-    .label = { -firefox-suggest-brand-name } を管理
-    .accesskey = M
-
 # A message shown in a result when the user gives feedback on it.
 firefox-suggest-feedback-acknowledgment = フィードバックをありがとうございます
 
@@ -222,92 +206,12 @@ firefox-suggest-fakespot-rating-and-total-reviews-overflow =
 # sponsored.
 firefox-suggest-fakespot-sponsored = { -fakespot-brand-name } · スポンサー
 
-## These strings are used in the preferences UI (about:preferences). Their names
-## follow the naming conventions of other strings used in the preferences UI.
-
-# When the user is enrolled in a Firefox Suggest rollout, this text replaces
-# the usual addressbar-header string and becomes the text of the address bar
-# section in the preferences UI.
-addressbar-header-firefox-suggest = アドレスバー — { -firefox-suggest-brand-name }
-
-# When the user is enrolled in a Firefox Suggest rollout, this text replaces
-# the usual addressbar-suggest string and becomes the text of the description of
-# the address bar section in the preferences UI.
-addressbar-suggest-firefox-suggest = アドレスバーに表示されるサジェストの種類を選択します:
-
-# First Firefox Suggest checkbox main label and description. This checkbox
-# controls non-sponsored suggestions related to the user's search string.
-addressbar-firefox-suggest-nonsponsored =
-  .label = ウェブからのサジェスト
-addressbar-firefox-suggest-nonsponsored-desc = 検索に関連するサジェストをウェブから取得します。
-
-# Second Firefox Suggest checkbox main label and description. This checkbox
-# controls sponsored suggestions related to the user's search string.
-addressbar-firefox-suggest-sponsored =
-  .label = スポンサーからのサジェスト
-addressbar-firefox-suggest-sponsored-desc = スポンサーからのサジェストを表示する事で { -brand-short-name } の開発をサポートします。
-
-# An additional toggle button in the Firefox Suggest settings that controls
-# whether userdata-based suggestions like history and bookmarks should be
-# shown in private windows
-addressbar-firefox-suggest-private =
-  .label = プライベート ウィンドウでサジェストを表示する
-
-# Third Firefox Suggest toggle button main label and description. This toggle
-# controls data collection related to the user's search string.
-# .description is transferred into a separate paragraph by the moz-toggle
-# custom element code.
+# These strings are used for a toggle switch in the settings UI that opts the
+# user into "online" Firefox Suggest, allowing them to receive suggestions from
+# Mozilla's Merino server.
 addressbar-firefox-suggest-data-collection =
   .label = { -firefox-suggest-brand-name } の改善に協力する
   .description = { -vendor-short-name } が処理できるようにすることで、より充実した検索エクスペリエンスを実現できます。
-
-# The "Learn more" link shown in the Firefox Suggest preferences UI.
-addressbar-locbar-firefox-suggest-learn-more = Learn more
-
-## The following addressbar-firefox-suggest-info strings are shown in the
-## Firefox Suggest preferences UI in the info box underneath the toggle.
-## Each string is shown when a particular checkbox or toggle combination is active.
-
-# Non-sponsored suggestions: on
-# Sponsored suggestions: on
-# Data collection: on
-addressbar-firefox-suggest-info-all = 選択に基づいてスポンサー サイトなどウェブからのサジェストが表示されます。私たちは検索クエリ データを処理する事で { -firefox-suggest-brand-name } 機能を開発します。
-
-# Non-sponsored suggestions: on
-# Sponsored suggestions: on
-# Data collection: off
-addressbar-firefox-suggest-info-nonsponsored-sponsored = 選択に基づいてスポンサー サイトなどウェブからのサジェストが表示されます。検索クエリ データは処理されません。
-
-# Non-sponsored suggestions: on
-# Sponsored suggestions: off
-# Data collection: on
-addressbar-firefox-suggest-info-nonsponsored-data = Based on your selection, you’ll receive suggestions from the web, but no sponsored sites. We will process your search query data to develop the { -firefox-suggest-brand-name } feature.
-
-# Non-sponsored suggestions: on
-# Sponsored suggestions: off
-# Data collection: off
-addressbar-firefox-suggest-info-nonsponsored = Based on your selection, you’ll receive suggestions from the web, but no sponsored sites. We won’t process your search query data.
-
-# Non-sponsored suggestions: off
-# Sponsored suggestions: on
-# Data collection: on
-addressbar-firefox-suggest-info-sponsored-data = Based on your selection, you’ll receive sponsored suggestions. We will process your search query data to develop the { -firefox-suggest-brand-name } feature.
-
-# Non-sponsored suggestions: off
-# Sponsored suggestions: on
-# Data collection: off
-addressbar-firefox-suggest-info-sponsored = Based on your selection, you’ll receive sponsored suggestions. We won’t process your search query data.
-
-# Non-sponsored suggestions: off
-# Sponsored suggestions: off
-# Data collection: on
-addressbar-firefox-suggest-info-data = Based on your selection, you won’t receive suggestions from the web or sponsored sites. We will process your search query data to develop the { -firefox-suggest-brand-name } feature.
-
-addressbar-dismissed-suggestions-label = 削除されたサジェスト
-addressbar-restore-dismissed-suggestions-description = スポンサーやウェブから削除されたサジェストを復元します。
-addressbar-restore-dismissed-suggestions-button =
-  .label = 復元
-addressbar-restore-dismissed-suggestions-learn-more = さらに詳しく
 
 ## Used as title on the introduction pane. The text can be formatted to span
 ## multiple lines as needed (line breaks are significant).
@@ -403,7 +307,7 @@ firefox-suggest-onboarding-main-skip-link = 今はしない
 urlbar-firefox-suggest-contextual-opt-in-title-1 =
   Find the best of the web, faster
 urlbar-firefox-suggest-contextual-opt-in-description-3 =
-  私たちは、より優れた検索体験を構築しています。検索クエリのデータを { -vendor-short-name } と共有すると、{ -brand-short-name } とパートナーからより関連性の高いサジェストを作成できます。常にプライバシーを第一に考えます。
+  私たちは、より優れた検索体験を構築しています。検索クエリのデータを { -vendor-short-name } と共有すると、{ -brand-short-name } とパートナーからより関連性の高いサジェストを作成できます。
   <a data-l10n-name="learn-more-link">さらに詳しく</a>
 urlbar-firefox-suggest-contextual-opt-in-allow = サジェストを許可
 urlbar-firefox-suggest-contextual-opt-in-dismiss = 使用しない

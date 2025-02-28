@@ -168,6 +168,12 @@ preferences-data-migration-button =
     .label = データをインポート
     .accesskey = m
 
+preferences-profiles-header = プロファイル
+preferences-manage-profiles-description = 各プロファイルには、履歴、パスワードなど、個別の閲覧データと設定が含まれます。。
+preferences-manage-profiles-learn-more = さらに詳しく
+preferences-manage-profiles-button =
+  .label = プロファイルを管理
+
 tabs-group-header = タブ
 
 ctrl-tab-recently-used-order =
@@ -1229,6 +1235,16 @@ addressbar-header = アドレスバー
 
 addressbar-suggest = アドレスバーに表示する候補
 
+# When Firefox Suggest is enabled, this replaces `addressbar-header`.
+addressbar-header-firefox-suggest = アドレスバー — { -firefox-suggest-brand-name }
+
+# When Firefox Suggest is enabled, this replaces `addressbar-suggest`.
+addressbar-suggest-firefox-suggest = アドレスバーに表示されるサジェストの種類を選択します:
+
+# When Firefox Suggest is enabled, a "Learn more" link appears at the end of
+# `addressbar-suggest-firefox-suggest`.
+addressbar-locbar-firefox-suggest-learn-more = さらに詳しく
+
 addressbar-locbar-history-option =
     .label = 閲覧履歴
     .accesskey = h
@@ -1261,7 +1277,21 @@ addressbar-locbar-showtrendingsuggestions-option =
     .label = トレンド検索の候補を表示する
     .accesskey = t
 
+# Nonsponsored suggestions refers to Firefox Suggest suggestions like Wikipedia.
+addressbar-locbar-suggest-nonsponsored-option =
+  .label = { -brand-short-name } からのサジェスト
+addressbar-locbar-suggest-nonsponsored-desc = 検索に関連するウェブからのサジェストを取得します。
+
+addressbar-locbar-suggest-sponsored-option =
+  .label = スポンサーからのサジェスト
+addressbar-locbar-suggest-sponsored-desc = 時折表示されるスポンサー付きのサジェストを通じて { -brand-short-name } をサポートしてください。
+
 addressbar-quickactions-learn-more = さらに詳しく
+
+addressbar-dismissed-suggestions-label = サジェストを削除
+addressbar-restore-dismissed-suggestions-description = 削除されたスポンサーと { -brand-short-name } からのサジェストを復元します。
+addressbar-restore-dismissed-suggestions-button =
+  .label = 復元
 
 ## Privacy Section - Content Blocking
 

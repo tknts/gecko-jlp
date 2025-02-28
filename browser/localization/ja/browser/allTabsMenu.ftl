@@ -18,4 +18,16 @@ all-tabs-menu-close-all-duplicate-tabs =
 all-tabs-menu-synced-tabs =
   .label = 他のデバイスのタブ
 
+# "Recent" refers to tab groups being sorted in recently used order. We show up
+# to five of these in this section.
+all-tabs-menu-recent-tab-groups-header = 最近使用したタブグループ
+
+# This opens the sub view listing _all_ open and saved tab groups.
+all-tabs-menu-tab-groups-show-all =
+  .label = すべて表示
+
+# This is header for the sub view listing _all_ open and saved tab groups.
+all-tabs-menu-tab-groups-sub-view =
+  .title = タブグループ
+  
 all-tabs-menu-current-window-header = 現在のウィンドウ

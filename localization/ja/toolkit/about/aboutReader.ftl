@@ -112,3 +112,5 @@ about-reader-text-alignment-center =
     .title = 文字を中央で揃えます
 about-reader-text-alignment-right =
     .title = 文字を右で揃えます
+about-reader-text-alignment-justify =
+    .title = 両端で揃えます
