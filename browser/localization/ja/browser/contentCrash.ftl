@@ -25,9 +25,22 @@ pending-crash-reports-message =
         [one] 未送信のクラッシュ レポートがあります
        *[other] 未送信のクラッシュ レポートが { $reportCount } 個あります
     }
+
 pending-crash-reports-view-all =
     .label = 表示
 pending-crash-reports-send =
     .label = 送信
 pending-crash-reports-always-send =
     .label = 自動的に送信
+
+# Variables:
+#   $reportCount (Number): the number of pending crash reports
+requested-crash-reports-message =
+    { $reportCount ->
+        [one] You have an unsent crash report that matches crashes being investigated, sending it will help us improve { -brand-product-name }. Closing this notification will ignore this report.
+       *[other] You have { $reportCount } unsent crash reports that matches crashes being investigated, sending it will help us improve { -brand-product-name }. Closing this notification will ignore these reports.
+    }
+
+requested-crash-reports-dont-show-again =
+    .label = Don’t show again
+    .accesskey = D

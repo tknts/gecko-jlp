@@ -56,25 +56,8 @@ webext-perms-host-description-all-urls = すべてのウェブサイトのデー
 webext-perms-host-description-wildcard = ドメイン ({ $domain } ) 内のサイトのデータにアクセスする
 
 # Variables:
-#   $domainCount (Number): Integer indicating the number of additional
-#     hosts for which this webextension is requesting permission.
-webext-perms-host-description-too-many-wildcards =
-    { $domainCount ->
-        [one] Access your data in { $domainCount } other domain
-       *[other] Access your data in { $domainCount } other domains
-    }
-# Variables:
 #   $domain (String): will be replaced by the DNS host name for which a webextension is requesting access (e.g., www.mozilla.org)
 webext-perms-host-description-one-site = { $domain } のデータにアクセスする
-
-# Variables:
-#   $domainCount (Number): Integer indicating the number of additional
-#     hosts for which this webextension is requesting permission.
-webext-perms-host-description-too-many-sites =
-    { $domainCount ->
-        [one] Access your data on { $domainCount } other site
-       *[other] Access your data on { $domainCount } other sites
-    }
 
 # Variables:
 #   $domain (String): will be replaced by the DNS host name for which a webextension is requesting access (e.g., mozilla.org),

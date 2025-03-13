@@ -309,9 +309,21 @@ preferences-web-appearance-override-warning2 =
 # to adapt to your language, but should not be changed.
 preferences-web-appearance-footer = { -brand-short-name } のテーマを <a data-l10n-name="themes-link">拡張機能とテーマ</a> で管理する
 
-preferences-colors-header = 配色
+preferences-contrast-control-header = コントラスト コントロール
 
-preferences-colors-description = { -brand-short-name } のテキストやウェブサイトの背景色、およびリンクのデフォルトの色を上書きします。
+preferences-contrast-control-description = ウェブサイトにはさまざまな文字の色 (前景色) と背景色があります。読みやすさを向上させるために、ウェブサイト全体で同じ色を使用するように { -brand-short-name } を設定します。
+
+preferences-contrast-control-use-platform-settings =
+    .label = 自動 (システムの設定に従います)
+    .accesskey = A
+
+preferences-contrast-control-off =
+    .label = オフ
+    .accesskey = O
+
+preferences-contrast-control-custom =
+    .label = カスタム
+    .accesskey = C
 
 preferences-colors-manage-button =
     .label = 配色を管理…
@@ -1487,22 +1499,24 @@ collection-usage-ping =
     .accesskey = u
 collection-usage-ping-description = これは { -vendor-short-name } がアクティブ ユーザーを推定するのに役立ちます。
 
-collection-health-report =
-    .label = { -brand-short-name } が技術的な対話データを { -vendor-short-name } に送信するのを許可する
+collection-health-report2 =
+    .label = { -brand-short-name } が技術データなインタラクションデータを { -vendor-short-name } に送信します
     .accesskey = r
 collection-health-report-link = さらに詳しく
+collection-health-report-description = これにより { -brand-product-name } の機能、パフォーマンス、安定性を向上させるのに役立ちます。
 
-collection-studies =
-    .label = { -brand-short-name } への Studies 調査のインストールと実行を許可する
+collection-studies2 =
+    .label = Studies をインストールして実行する
+collection-studies-description = 機能やアイデアを、一般公開される前に試してみましょう。
 collection-studies-link = { -brand-short-name } Studies 調査を表示する
 
-addon-recommendations =
-    .label = あなたにあった拡張機能を { -brand-short-name } がおすすめすることを許可する
-addon-recommendations-link = さらに詳しく
+addon-recommendations2 =
+    .label = 拡張機能のおすすめにパーソナライズされたデータの使用を許可する
+addon-recommendations-description = ブラウジング体験を向上させるおすすめの拡張機能を取得します。
 
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
-collection-health-report-disabled = このビルド構成ではデータレポートは無効化されています
+collection-health-report-disabled2 = このビルドの構成ではデータレポートは無効になっています。
 
 collection-backlogged-crash-reports2 =
     .label = クラッシュレポートを自動的に送信する
@@ -1585,7 +1599,7 @@ httpsonly-header = HTTPS-Only モード
 
 httpsonly-description2 = { -brand-short-name } は、アクセスしたサイトへの安全で暗号化された接続を作成します。HTTPS-Only が有効になっていて、安全でない接続を行おうとした場合は { -brand-short-name } から警告が表示されます。
 
-httpsonly-learn-more = さらに詳しく
+httpsonly-learn-more2 = HTTPS-Only モードとは？
 
 httpsonly-radio-enabled =
     .label = すべてのウィンドウで HTTPS-Only モードを有効にする

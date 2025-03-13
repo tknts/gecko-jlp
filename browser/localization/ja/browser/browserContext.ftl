@@ -363,6 +363,10 @@ main-context-menu-keyword =
     .label = この検索にキーワードを設定…
     .accesskey = K
 
+main-context-menu-add-engine =
+    .label = 検索エンジンを追加
+    .accesskey = S
+
 main-context-menu-link-send-to-device =
     .label = リンクをデバイスへ送る
     .accesskey = n

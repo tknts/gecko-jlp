@@ -19,6 +19,10 @@ support-addons-type = 種類
 support-addons-enabled = 有効
 support-addons-version = バージョン
 support-addons-id = ID
+# In the add-on world, locations are where the addon files are stored. Each
+# location has name. For instance: app-system-addons, app-builtin,
+# app-temporary, etc.
+support-addons-location-name = 保存先
 legacy-user-stylesheets-title = 従来のユーザー スタイルシート
 legacy-user-stylesheets-enabled = 動作中
 legacy-user-stylesheets-stylesheet-types = スタイルシート
@@ -29,10 +33,6 @@ security-software-name = 名前
 security-software-antivirus = アンチウイルス
 security-software-antispyware = アンチスパイウェア
 security-software-firewall = ファイアウォール
-features-title = { -brand-short-name } の機能
-features-name = 名前
-features-version = バージョン
-features-id = ID
 processes-title = リモートプロセス
 processes-type = 種類
 processes-count = プロセス数
@@ -97,9 +97,6 @@ show-dir-label =
 environment-variables-title = 環境変数
 environment-variables-name = 名前
 environment-variables-value = 値
-experimental-features-title = 実験的機能
-experimental-features-name = 名前
-experimental-features-value = 値
 modified-key-prefs-title = 変更された重要な設定
 modified-prefs-name = 名前
 modified-prefs-value = 値

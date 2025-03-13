@@ -124,6 +124,11 @@ newtab-menu-section-block = ブロック
 # e.g. Following the travel section of stories.
 newtab-menu-section-unfollow = 話題のフォローを解除
 
+## Context menu options for sponsored stories and new ad formats on New Tab.
+
+newtab-menu-manage-sponsored-content = スポンサードコンテンツの管理
+newtab-menu-our-sponsors-and-your-privacy = スポンサーとあなたのプライバシー
+
 ## Message displayed in a modal window to explain privacy and provide context for sponsored content.
 
 newtab-privacy-modal-button-done = 完了
@@ -299,6 +304,12 @@ newtab-custom-settings = その他の設定を管理
 
 newtab-wallpaper-title = 壁紙
 newtab-wallpaper-reset = デフォルトに戻す
+newtab-wallpaper-upload-image = 画像をアップロード
+newtab-wallpaper-custom-color = 色の選択
+# Variables
+#   $file_size (number) - The number of the maximum image file size (in MB) that may be uploaded
+newtab-wallpaper-error-max-file-size = 画像がファイルサイズ制限の {$file_size} MB を超えています。より小さいファイルをアップロードしてください。
+newtab-wallpaper-error-file-type = ファイルをアップロードできませんでした。別のファイル形式で再試行してください
 newtab-wallpaper-light-red-panda = レッサーパンダ
 newtab-wallpaper-light-mountain = 雪山
 newtab-wallpaper-light-sky = Sky with purple and pink clouds
@@ -311,7 +322,7 @@ newtab-wallpaper-dark-panda = Red panda hidden in forest
 newtab-wallpaper-dark-sky = City landscape with a night sky
 newtab-wallpaper-dark-mountain = Landscape mountain
 newtab-wallpaper-dark-city = Purple city landscape
-newtab-wallpaper-dark-fox-anniversary =  A fox on the pavement near a forest
+newtab-wallpaper-dark-fox-anniversary = A fox on the pavement near a forest
 newtab-wallpaper-light-fox-anniversary = A fox in a grassy field with a misty mountain landscape
 
 ## Solid Colors
@@ -335,13 +346,17 @@ newtab-wallpaper-brown = ブラウン
 
 ## Abstract
 
-newtab-wallpaper-category-title-abstract = アブストラクト
+newtab-wallpaper-category-title-abstract = Abstract
 newtab-wallpaper-abstract-green = Green shapes
 newtab-wallpaper-abstract-blue = Blue shapes
 newtab-wallpaper-abstract-purple = Purple shapes
 newtab-wallpaper-abstract-orange = Orange shapes
 newtab-wallpaper-gradient-orange = Gradient orange and pink
 newtab-wallpaper-abstract-blue-purple = Blue and purple shapes
+newtab-wallpaper-abstract-white-curves = White with shaded curves
+newtab-wallpaper-abstract-purple-green = Purple and green light gradient
+newtab-wallpaper-abstract-blue-purple-waves = Blue and purple wavy shapes
+newtab-wallpaper-abstract-black-waves = Black wavy shapes
 
 ## Photographs
 
@@ -352,6 +367,26 @@ newtab-wallpaper-storm-sky = ストームスカイ
 newtab-wallpaper-sky-with-pink-clouds = Sky with pink clouds
 newtab-wallpaper-red-panda-yawns-in-a-tree = 木の上であくびをするレッサーパンダ
 newtab-wallpaper-white-mountains = White mountains
+newtab-wallpaper-hot-air-balloons = Assorted color of hot air balloons during daytime
+newtab-wallpaper-starry-canyon = Blue starry night
+newtab-wallpaper-suspension-bridge = Grey full-suspension bridge photography during daytime
+newtab-wallpaper-sand-dunes = White sand dunes
+newtab-wallpaper-palm-trees = Silhouette of coconut palm trees during golden hour
+newtab-wallpaper-forest-trees = Trees covered with fog
+
+## Celestial
+
+# “Celestial” referring to astronomy; positioned in or relating to the sky,
+# or outer space as observed in astronomy.
+# Not to be confused with religious definition of the word.
+newtab-wallpaper-category-title-celestial = Celestial
+newtab-wallpaper-celestial-lunar-eclipse = Lunar eclipse
+newtab-wallpaper-celestial-earth-night = Night photo from low Earth orbit
+newtab-wallpaper-celestial-starry-sky = Starry sky
+newtab-wallpaper-celestial-eclipse-time-lapse = Lunar eclipse time lapse
+newtab-wallpaper-celestial-black-hole = Black hole galaxy illustration
+newtab-wallpaper-celestial-river = Satellite image of river
+
 
 # Variables
 #   $author_string (String) - The name of the creator of the photo.
@@ -457,16 +492,19 @@ newtab-section-unblock-button = ブロックを解除
 
 ## Confirmation modal for blocking a section
 
-newtab-section-confirm-block-section-p1 = このセクションをブロックしてもよろしいですか?
-newtab-section-confirm-block-section-p2 = ブロックされたセクションはフィードに表示されなくなります。
-newtab-section-block-section-button = このセクションをブロック
-newtab-section-cancel-button = キャンセル
+newtab-section-confirm-block-topic-p1 = この話題をブロックしてもよろしいですか?
+newtab-section-confirm-block-topic-p2 = ブロックされた話題はフィードに表示されなくなります。
+
+# Variables:
+#   $topic (string) - Name of topic that user is blocking
+newtab-section-block-topic-button = { $topic } をブロック
+newtab-section-cancel-button = 後で
 
 ## Panel in the Customize menu section to manage followed and blocked topics
 
 newtab-section-mangage-topics-title = 話題
-newtab-section-mangage-topics-button =
-    .label = フォローおよびブロックされた話題
+newtab-section-manage-topics-button-v2 =
+    .label = 話題の管理
 newtab-section-mangage-topics-followed-topics-subtitle = フォロー済みの話題
 newtab-section-mangage-topics-followed-topics-empty-state = まだ話題をフォローしていません。
 newtab-section-mangage-topics-blocked-topics-subtitle = ブロックされた話題
