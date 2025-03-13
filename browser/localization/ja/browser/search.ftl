@@ -45,3 +45,24 @@ install-search-engine = { $engineName } を検索エンジンとして追加し�
 install-search-engine-add = 追加
 install-search-engine-no = キャンセル
 
+## These strings are used for the add engine dialog when adding a custom search engine
+## in settings or when adding an HTML form as a search engine.
+
+add-engine-window =
+    .title = 検索エンジンの追加
+    .style = min-width: 32em;
+
+add-engine-button =カスタムエンジンを追加
+
+add-engine-name = 検索エンジンの名前
+
+add-engine-keyword = キーワード
+
+add-engine-url = エンジン URL、検索語の代わりに %s を使用します
+
+add-engine-dialog =
+    .buttonlabelaccept = エンジンを追加
+    .buttonaccesskeyaccept = A
+
+engine-name-exists = その名前のエンジンはすでに存在します
+engine-keyword-exists = そのキーワードを持つエンジンは既に存在します

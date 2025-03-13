@@ -66,8 +66,8 @@ contentanalysis-error-message-print = 印刷が拒否されました。
 
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
-#   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
-contentanalysis-invalid-agent-signature-message = { $agent } の署名の検証に失敗しました。リソース: { $content } の転送が拒否されました。
+#   $contentName - Description of the content, such as "clipboard" or "aFile.txt"
+contentanalysis-timeout-block-error-message-content = { $agent } への接続がタイムアウトしました。{ $contentName } はブロックされました。
 
 contentanalysis-block-dialog-title-upload-file = このファイルのアップロードは許可されていません
 # Variables:

@@ -9,16 +9,6 @@ colors-dialog2 =
 colors-close-key =
     .key = w
 
-colors-page-override = ページで指定された色を上記で選択した色で上書きします
-    .accesskey = O
-
-colors-page-override-option-always =
-    .label = 常に上書き
-colors-page-override-option-auto =
-    .label = ハイコントラストテーマの使用時のみ
-colors-page-override-option-never =
-    .label = 上書きしない
-
 colors-text-and-background = 文字色と背景色
 
 colors-text-header = 文字色
@@ -26,10 +16,6 @@ colors-text-header = 文字色
 
 colors-background = 背景色
     .accesskey = B
-
-colors-use-system =
-    .label = システムの色を使用
-    .accesskey = s
 
 colors-links-header = リンクの色
 

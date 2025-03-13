@@ -318,3 +318,7 @@ urlbar-search-mode-bookmarks-en = ブックマーク
 urlbar-search-mode-tabs-en = タブ
 urlbar-search-mode-history-en = 履歴
 urlbar-search-mode-actions-en = アクション
+
+## Add search engine dialog
+
+add-engine-suggest-url = Search suggestion URL, use %s in place of the search term

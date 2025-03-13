@@ -34,6 +34,10 @@ cert-error-trust-symantec = GeoTrust、RapidSSL、Symantec、Thawte、および 
 #   $hostname (string) - Hostname of the website with cert error.
 cert-error-trust-certificate-transparency = { -brand-short-name } は、公開証明書の透明性の要件を満たしていることを証明できなかったため、{ $hostname } を信頼しません。
 
+# Variables:
+#   $hostname (string) - Hostname of the website with cert error.
+cert-error-revoked = Websites prove their identity via certificates. { -brand-short-name } doesn’t trust { $hostname } because it uses a certificate that has been revoked.
+
 cert-error-untrusted-default = 証明書が信頼できるソースからのものではありません。
 
 # Variables:

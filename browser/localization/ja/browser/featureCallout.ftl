@@ -85,8 +85,7 @@ sidebar-pins-callout-cta-button = タブをピン留め
 
 ## Sidebar Onboarding Strings
 
-# The "=" here stands for "equals" to convey the meaning "Sidebar is your spot for tools and tabs"
-sidebar-customization-callout-1-title = サイドバー = ツールとタブを配置する場所
+sidebar-customization-callout-1-title = サイドバー: ツールとタブを配置する場所
 sidebar-customization-callout-1-subtitle = { -brand-product-name } のサイドバーを使用すると、メインビューを離れることなく、閲覧履歴、他のデバイスのタブ、AI チャットボットにすばやくアクセスできます。
 sidebar-customization-callout-callout-button = サイドバーをカスタマイズ
 sidebar-customization-callout-dismiss-button = サイドバーを非表示

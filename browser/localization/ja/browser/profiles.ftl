@@ -34,9 +34,11 @@ original-profile-name = オリジナルのプロファイル
 edit-profile-page-title = プロファイルの編集
 edit-profile-page-header = プロファイルを編集します
 edit-profile-page-profile-name-label = プロファイルの名前
-edit-profile-page-theme-header = テーマ
+edit-profile-page-theme-header-2 =
+    .label = テーマ
 edit-profile-page-explore-themes = その他のテーマを探す
-edit-profile-page-avatar-header = アバター
+edit-profile-page-avatar-header-2 =
+    .label = アバター
 edit-profile-page-delete-button =
     .label = 削除
 
@@ -47,6 +49,7 @@ edit-profile-page-profile-saved = 保存しました
 
 new-profile-page-title = 新しいプロファイル
 new-profile-page-header = 新しいプロファイルのカスタマイズ
+
 new-profile-page-header-description = 各プロファイルは、独自の閲覧履歴と設定を他のプロファイルとは別に保持します。さらに、{ -brand-short-name } の強力なプライバシー保護はデフォルトでオンになっています。
 new-profile-page-learn-more = さらに詳しく
 new-profile-page-input-placeholder =
@@ -126,3 +129,12 @@ shopping-avatar-alt =
     .alt = ショッピングカート
 star-avatar-alt =
     .alt = 星
+
+## Labels for default avatar icons
+
+book-avatar = 本
+briefcase-avatar = ブリーフケース
+flower-avatar = 花
+heart-avatar = ハート
+shopping-avatar = ショッピングカート
+star-avatar = 星

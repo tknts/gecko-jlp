@@ -29,3 +29,13 @@ experimental-features-group-webpage-display =
   .label = ウェブページの表示
 experimental-features-group-customize-browsing =
   .label = ブラウジングをカスタマイズする
+
+# Contextual Password Manager in sidebar
+experimental-features-contextual-password-manager =
+    .label = サイドバーのパスワード
+experimental-features-contextual-password-manager-description = サイドバーから直接パスワードにアクセスできます。サインインするときにパスワードを探したりリセットしたりする必要はもうありません。この機能を使用するには、サイドバーでパスワードを選択します。次に、ブラウザーの [設定] に移動して [ブラウザー レイアウト］で［サイドバーを表示］を選択します。次に、パスワードを選択してサイドバーをカスタマイズします。試してみたら <a data-l10n-name="connect">ご意見をお聞かせください</a>。
+
+# New Tab Custom Wallpapers
+experimental-features-custom-wallpaper =
+    .label = 新しいタブのカスタム壁紙または色を選択します
+experimental-features-custom-wallpaper-description = 独自の壁紙をアップロードするか、新しいタブの背景にカスタムカラーを選択します。
