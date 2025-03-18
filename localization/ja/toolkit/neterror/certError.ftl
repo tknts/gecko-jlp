@@ -36,7 +36,7 @@ cert-error-trust-certificate-transparency = { -brand-short-name } は、公開�
 
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
-cert-error-revoked = Websites prove their identity via certificates. { -brand-short-name } doesn’t trust { $hostname } because it uses a certificate that has been revoked.
+cert-error-revoked = ウェブサイトは証明書によって身元を証明します。失効した証明書を使用しているため、{ -brand-short-name } は { $hostname } を信頼しません。
 
 cert-error-untrusted-default = 証明書が信頼できるソースからのものではありません。
 
@@ -162,8 +162,8 @@ fp-certerror-hide-advanced-button = 終了
 ##   $hostname (String) - Hostname of the website to which the user was trying to connect.
 
 fp-certerror-override-exception-button = { $hostname } に進みます (危険)
-fp-certerror-intro = { -brand-short-name } spotted a potentially serious security issue with <strong>{ $hostname }</strong>. Someone pretending to be the site could try to steal things like credit card info, passwords, or emails.
-fp-certerror-expired-into = { -brand-short-name } spotted a security issue with <strong>{ $hostname }</strong>. Either the site isn’t set up right or your device’s clock is set to the wrong date/time.
+fp-certerror-intro = { -brand-short-name } は、<strong>{ $hostname }</strong> に関する潜在的に深刻なセキュリティ問題を検出しました。誰かがそのサイトになりすまして、クレジットカード情報、パスワード、メールなどを盗もうとしている可能性があります。
+fp-certerror-expired-into = { -brand-short-name } は、<strong>{ $hostname }</strong> に関するセキュリティ問題を検出しました。サイトが正しく設定されていないか、デバイスの時計が間違った日付/時刻に設定されています。
 
 ##
 
@@ -174,35 +174,35 @@ fp-certerror-return-to-previous-page-recommended-button = 戻る (推奨)
 # Variables:
 #   $hostname (String) - Hostname of the website to which the user was trying to connect.
 #   $validHosts (String) - Valid hostnames.
-fp-certerror-bad-domain-why-dangerous-body = The site is set up to allow only secure connections, but there’s a problem with the site’s certificate. It’s possible that a bad actor is trying to impersonate the site. Sites use certificates issued by a certificate authority to prove they’re really who they say they are. { -brand-short-name } doesn’t trust this site because its certificate isn’t valid for { $hostname }. The certificate is only valid for: { $validHosts }.
+fp-certerror-bad-domain-why-dangerous-body = このサイトは安全な接続のみを許可するように設定されていますが、サイトの証明書に問題があります。悪意のある人がサイトになりすましている可能性があります。サイトは、証明書機関によって発行された証明書を使って自分自身が本物であることを証明します。しかし、この証明書は { $hostname } 用には有効ではないため、{ -brand-short-name } はこのサイトを信頼できません。この証明書が有効なのは次のホスト名のみです: { $validHosts }。
 # This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
-fp-certerror-bad-domain-what-can-you-do-body = Probably nothing, since it’s likely there’s a problem with the site itself. Sites use certificates issued by a certificate authority to prove they’re really who they say they are. But if you’re on a corporate network, your support team may have more info. If you’re using antivirus software, try searching for potential conflicts or known issues.
+fp-certerror-bad-domain-what-can-you-do-body = サイト自体に問題があるため、あなたにできることはありません。この問題はサイト自体にある可能性が高いからです。サイトは、証明機関が発行した証明書を使用して、そのサイトが本当にそのサイトであることを証明しています。ただし、企業ネットワークを使用している場合は、サポートチームがさらに詳しい情報を持っている可能性があります。ウイルス対策ソフトウェアを使用している場合は、競合や既知の問題について検索してみてください。
 
 # This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
-fp-certerror-unknown-issuer-why-dangerous-body = There’s an issue with the site’s certificate. It’s possible that a bad actor is trying to impersonate the site. Sites use certificates issued by a certificate authority to prove they’re really who they say they are. { -brand-short-name } doesn’t trust this site because we can’t tell who issued the certificate, it’s self-signed, or the site isn’t sending intermediate certificates we trust.
+fp-certerror-unknown-issuer-why-dangerous-body = サイトの証明書に問題があります。悪意のある人物がサイトになりすましている可能性があります。サイトは、証明機関が発行した証明書を使用して、そのサイトが本当にそのサイトであることを証明していますが、証明書の発行者が不明であるか、自己署名されているか、サイトが信頼できる中間証明書を送信していないため、{ -brand-short-name } は、このサイトを信頼しません。
 # This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
-fp-certerror-unknown-issuer-what-can-you-do-body = Probably nothing, since it’s likely there’s a problem with the site itself. But if you’re on a corporate network, your support team may have more info. If you’re using antivirus software, it may need to be configured to work with { -brand-short-name }.
+fp-certerror-unknown-issuer-what-can-you-do-body = できることはありません。問題はサイト自体にある可能性が高いからです。ただし、企業ネットワークを使用している場合は、サポートチームが解決策を知っている可能性があります。またウイルス対策ソフトウェアを使用している場合は、{ -brand-short-name } で動作するように設定することで解決する可能性があります。
 
 # This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
-fp-certerror-self-signed-why-dangerous-body = Because there’s an issue with the site’s certificate. Sites use certificates issued by a certificate authority to prove they’re really who they say they are. This site’s certificate is self-signed. It wasn’t issued by a recognized certificate authority – so we don’t trust it by default.
+fp-certerror-self-signed-why-dangerous-body = サイトの証明書に問題があります。サイトは、証明機関が発行した証明書を使用して、そのサイトが本当にそのサイトであることを証明する必要があります。このサイトの証明書は自己署名されたものです。これは、公認の証明機関によって発行されたものではないため、デフォルトでは信頼されません。
 # This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
-fp-certerror-self-signed-what-can-you-do-body = Not much. It’s likely there’s a problem with the site itself.
-fp-certerror-self-signed-important-note = IMPORTANT NOTE: If you are trying to visit this site on a corporate intranet, your IT staff may use self-signed certificates. They can help you check their authenticity.
+fp-certerror-self-signed-what-can-you-do-body = サイト自体に問題があるため、できることはありません。
+fp-certerror-self-signed-important-note = 重要な注意: 企業のイントラネットでこのサイトにアクセスしようとしている場合、IT スタッフが自己署名証明書を使用している可能性があります。その証明書の信頼性を確認するのに役立ちます。
 
 # This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
 # Variables:
 #   $date (Date) - Certificate expiration date.
-fp-certerror-expired-why-dangerous-body = Sites use certificates issued by a certificate authority to prove they’re really who they say they are. { -brand-short-name } doesn’t trust this site because it looks like the certificate expired on { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") }.
+fp-certerror-expired-why-dangerous-body = サイトは、証明機関が発行した証明書を使用して、そのサイトが本当にそのサイトであることを証明しています。しかし、証明書の有効期限が { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") } に切れているため { -brand-short-name } は、このサイトを信頼しません。
 
 # This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
 # Variables:
 #   $date (Date) - Certificate start date.
-fp-certerror-not-yet-valid-why-dangerous-body = Sites use certificates issued by a certificate authority to prove they’re really who they say they are. { -brand-short-name } doesn’t trust this site because it looks like the certificate will not be valid until { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") }.
+fp-certerror-not-yet-valid-why-dangerous-body = サイトは、証明機関が発行した証明書を使用して、そのサイトが本当にそのサイトであることを証明しています。しかし、証明書の使用開始日時が { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") } のため、{ -brand-short-name } は、このサイトを信頼しません。
 
 # This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
 # Variables:
 #   $date (Date) - Clock date.
-fp-certerror-expired-what-can-you-do-body = Your device’s clock is set to { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") }. If this is correct, the security issue is probably with the site itself. If it’s wrong, you can change it in your device’s system settings.
+fp-certerror-expired-what-can-you-do-body = デバイスの時計は { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") } に設定されています。この日時が正しいければ、セキュリティの問題はおそらくサイト自体にあります。これが間違っている場合は、デバイスのシステム設定で正しい日時に設定してください。
 
 # Variables:
 #   $error (string) - NSS error code string that specifies type of cert error. e.g. unknown issuer, invalid cert, etc.
@@ -212,6 +212,6 @@ fp-cert-error-code = Error Code: { $error }
 #   $datetime (Date) - Current datetime.
 fp-datetime = { DATETIME($datetime, month: "short", year: "numeric", day: "numeric") } { DATETIME($datetime, timeStyle: "long") }
 
-fp-learn-more-about-secure-connection-failures = Learn more about secure connection failures
-fp-learn-more-about-cert-issues = Learn more about these kinds of certificate issues
-fp-learn-more-about-time-related-errors = Learn more about troubleshooting time-related errors
+fp-learn-more-about-secure-connection-failures = 安全な接続の失敗について、さらに詳しく
+fp-learn-more-about-cert-issues = こうした証明書の問題について、さらに詳しく
+fp-learn-more-about-time-related-errors = 時間関連のエラーのトラブルシューティングについて、さらに詳しく

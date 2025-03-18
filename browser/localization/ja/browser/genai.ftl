@@ -157,3 +157,15 @@ genai-onboarding-huggingchat-switch = Switch between a diverse set of open model
 genai-onboarding-huggingchat-price-2 = 無料。一部のタスクにはアカウントが必要です。
 genai-onboarding-lechat-generate = テキスト、コードを生成する
 genai-onboarding-lechat-price = 無料。一部のタスクにはアカウントが必要です。
+
+## Model Optin Component
+
+genai-model-optin-continue =
+  .label = 続ける
+
+genai-model-optin-optout =
+  .label = オプトアウト
+
+genai-model-optin-cancel =
+  .label = キャンセル
+

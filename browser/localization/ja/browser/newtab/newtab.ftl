@@ -372,7 +372,7 @@ newtab-wallpaper-starry-canyon = Blue starry night
 newtab-wallpaper-suspension-bridge = Grey full-suspension bridge photography during daytime
 newtab-wallpaper-sand-dunes = White sand dunes
 newtab-wallpaper-palm-trees = Silhouette of coconut palm trees during golden hour
-newtab-wallpaper-forest-trees = Trees covered with fog
+newtab-wallpaper-blue-flowers = Closeup photography of blue-petaled flowers in bloom
 
 ## Celestial
 
@@ -505,7 +505,7 @@ newtab-section-cancel-button = 後で
 newtab-section-mangage-topics-title = 話題
 newtab-section-manage-topics-button-v2 =
     .label = 話題の管理
-newtab-section-mangage-topics-followed-topics-subtitle = フォロー済みの話題
+newtab-section-mangage-topics-followed-topics = フォロー済み
 newtab-section-mangage-topics-followed-topics-empty-state = まだ話題をフォローしていません。
-newtab-section-mangage-topics-blocked-topics-subtitle = ブロックされた話題
+newtab-section-mangage-topics-blocked-topics = ブロック済み
 newtab-section-mangage-topics-blocked-topics-empty-state = まだ話題をブロックしていません。
