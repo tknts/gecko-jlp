@@ -171,7 +171,7 @@ firefox-suggest-mdn-bottom-text = { -mdn-brand-name }
 # Variables:
 #   $keywordSubstringTyped (string) - The part of the suggestion keyword that the user typed
 #   $keywordSubstringNotTyped (string) - The part of the suggestion keyword that the user did not yet type
-firefox-suggest-pocket-bottom-text = { -pocket-brand-name } · Related to <strong>{ $keywordSubstringTyped }</strong>{ $keywordSubstringNotTyped }
+firefox-suggest-pocket-bottom-text =  { -pocket-brand-name } · <strong>{ $keywordSubstringTyped }</strong>{ $keywordSubstringNotTyped } に関連する内容
 
 ## These strings are used for Yelp suggestions in the urlbar.
 
@@ -220,21 +220,21 @@ firefox-suggest-onboarding-introduction-title-1 =
   最新の検索エクスペリエンスをご利用ください
   
 firefox-suggest-onboarding-introduction-title-2 =
-  We’re building a better search experience —
-  one you can trust
+  信頼できる、より良い検索体験を構築中です
+
 firefox-suggest-onboarding-introduction-title-3 =
-  We’re building a better way to find what
-  you’re looking for on the web
+  ウェブ上で探しているものを見つける、より良い方法を構築中です
+
 firefox-suggest-onboarding-introduction-title-4 =
-  A faster search experience is in the works
+  より高速な検索体験を開発中です
 firefox-suggest-onboarding-introduction-title-5 =
-  Together, we can create the kind of search
-  experience the Internet deserves
+  インターネットにふさわしい検索体験を一緒に作りましょう
+
 firefox-suggest-onboarding-introduction-title-6 =
-  Meet { -firefox-suggest-brand-name }, the next
-  evolution in search
+  { -firefox-suggest-brand-name } に出会おう、検索の次なる進化
+
 firefox-suggest-onboarding-introduction-title-7 =
-  Find the best of the web, faster.
+  ウェブ上のベストを、より早く見つけよう。
 
 ##
 
@@ -242,8 +242,8 @@ firefox-suggest-onboarding-introduction-close-button =
   .title = 閉じる
 
 firefox-suggest-onboarding-introduction-next-button-1 = 使い方
-firefox-suggest-onboarding-introduction-next-button-2 = Find out more
-firefox-suggest-onboarding-introduction-next-button-3 = Show me how
+firefox-suggest-onboarding-introduction-next-button-2 = 詳しく知る
+firefox-suggest-onboarding-introduction-next-button-3 = 使い方を見る
 
 ## Used as title on the main pane. The text can be formatted to span
 ## multiple lines as needed (line breaks are significant).
@@ -251,44 +251,44 @@ firefox-suggest-onboarding-introduction-next-button-3 = Show me how
 firefox-suggest-onboarding-main-title-1 =
   より充実した検索エクスペリエンスを構築しています
 firefox-suggest-onboarding-main-title-2 =
-  Help us guide the way to the
-  best of the Internet
+  インターネットのベストな体験へ導くお手伝いを
+
 firefox-suggest-onboarding-main-title-3 =
-  A richer, smarter search experience
+  より豊かで賢い検索エクスペリエンス
 firefox-suggest-onboarding-main-title-4 =
-  Finding the best of the web, faster
+  ウェブ上の最良を、より速く見つける
 firefox-suggest-onboarding-main-title-5 =
-  We’re building a better search experience —
-  you can help
+  私たちはより良い検索体験を構築しています —
+  あなたの協力が必要です
 firefox-suggest-onboarding-main-title-6 =
-  It’s time to think outside the search engine
+   従来の検索エンジンを超えた発想を
 firefox-suggest-onboarding-main-title-7 =
-  We’re building a smarter search experience —
-  one you can trust
+  信頼できる、よりスマートな検索体験を構築しています
+
 firefox-suggest-onboarding-main-title-8 =
-  Finding the best of the web should be
-  simpler and more secure.
+  ウェブの最良を見つけることは、もっとシンプルで安全であるべきです。
+
 firefox-suggest-onboarding-main-title-9 =
-  Find the best of the web, faster
+  ウェブの最良を、より速く見つけよう
 
 ##
 
 firefox-suggest-onboarding-main-description-1 = 検索クエリを { -vendor-short-name } が処理することによって、よりスマートで関連性の高い検索候補の作成に役立つことを意味します。そして、私たちは常にあなたのプライバシーを最優先に考えています。
-firefox-suggest-onboarding-main-description-2 = When you allow { -vendor-short-name } to process your search queries, you’re helping build a better { -firefox-suggest-brand-name } for everyone. And, as always, we’ll keep your privacy top of mind.
-firefox-suggest-onboarding-main-description-3 = What if your browser helped you zero in on what you’re actually looking for? Allowing { -vendor-short-name } to process your search queries helps us create more relevant search suggestions that still keep your privacy top of mind.
-firefox-suggest-onboarding-main-description-4 = You’re trying to get where you’re going on the web and get on with it. When you allow { -vendor-short-name } to process your search queries, we can help you get there faster—while keeping your privacy top of mind.
-firefox-suggest-onboarding-main-description-5 = Allowing { -vendor-short-name } to process your search queries will help us create more relevant suggestions for everyone. And, as always, we’ll keep your privacy top of mind.
-firefox-suggest-onboarding-main-description-6 = Allowing { -vendor-short-name } to process your search queries will help us create more relevant search suggestions. We’re building { -firefox-suggest-brand-name } to help you get where you’re going on the Internet while keeping your privacy in mind.
-firefox-suggest-onboarding-main-description-7 = Allowing { -vendor-short-name } to process your search queries helps us create more relevant search suggestions.
-firefox-suggest-onboarding-main-description-8 = Allowing { -vendor-short-name } to process your search queries helps us provide more relevant search suggestions. We don’t use this data to profile you on the web.
+firefox-suggest-onboarding-main-description-2 = { -vendor-short-name } があなたの検索クエリを処理することを許可することで、すべての人にとってより良い { -firefox-suggest-brand-name } を構築する手助けになります。もちろん、常にプライバシーを最優先に考慮します。
+firefox-suggest-onboarding-main-description-3 = ブラウザーが本当に探しているものにピンポイントでたどり着く手助けをしてくれるとしたらどうでしょう？{ -vendor-short-name } が検索クエリを処理することを許可することで、プライバシーを重視しながら、より関連性の高い検索の提案を作成できます。
+firefox-suggest-onboarding-main-description-4 = ウェブで探している場所にすばやくたどり着き、次へ進みたいですよね。{ -vendor-short-name } が検索クエリを処理することを許可することで、プライバシーを重視しながら、目的地へより早く到達する手助けができます。
+firefox-suggest-onboarding-main-description-5 =  { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索提案を提供できます。私たちは、プライバシーを考慮しながらインターネットでの目的地に到達する手助けをする { -firefox-suggest-brand-name } を構築しています。
+firefox-suggest-onboarding-main-description-6 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索提案を提供できます。私たちは、プライバシーを考慮しながらインターネットでの目的地に到達する手助けをする { -firefox-suggest-brand-name } を構築しています。
+firefox-suggest-onboarding-main-description-7 =  { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索の提案を作成することができます。
+firefox-suggest-onboarding-main-description-8 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索の提案を提供できます。このデータをウェブ上でのプロファイリングには使用しません。
 firefox-suggest-onboarding-main-description-9 =
-  We’re building a better search experience. When you allow { -vendor-short-name } to process your search queries, we can create more relevant search suggestions for you.
-  <a data-l10n-name="learn-more-link">Learn more</a>
+  私たちは、より良い検索体験を構築しています。{ -vendor-short-name } が検索クエリを処理することを許可することで、あなたにとってより関連性の高い検索提案を提供できます。
+  <a data-l10n-name="learn-more-link">さらに詳しく</a>
 
-firefox-suggest-onboarding-main-privacy-first = No user profiling. Privacy-first, always.
+firefox-suggest-onboarding-main-privacy-first = ユーザーのプロファイリングを行わず。常にあなたのプライバシーを最優先に。
 
 firefox-suggest-onboarding-main-accept-option-label = 許可します。 <a data-l10n-name="learn-more-link">さらに詳しく</a>
-firefox-suggest-onboarding-main-accept-option-label-2 = Enable
+firefox-suggest-onboarding-main-accept-option-label-2 = 許可
 
 firefox-suggest-onboarding-main-accept-option-description-1 = より関連性の高いサジェストを提供するために { -firefox-suggest-brand-name } の改善にご協力ください。あなたの検索クエリが処理されます。
 firefox-suggest-onboarding-main-accept-option-description-2 = Recommended for people who support improving the { -firefox-suggest-brand-name } feature.  Your search queries will be processed.
@@ -322,3 +322,7 @@ urlbar-search-mode-actions-en = アクション
 ## Add search engine dialog
 
 add-engine-suggest-url = Search suggestion URL, use %s in place of the search term
+
+# Variables:
+#   $name (string) - Name of a search engine.
+edit-engine-name-warning-duplicate =  “{ $name }” という名前の検索エンジンはすでに存在します。別の名前を選択してください。

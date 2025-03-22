@@ -168,4 +168,3 @@ genai-model-optin-optout =
 
 genai-model-optin-cancel =
   .label = キャンセル
-

@@ -1488,8 +1488,10 @@ permissions-addon-exceptions =
 collection-header2 = { -brand-short-name } によるデータの収集と使用
     .searchkeywords = テレメトリ
 
-collection-description = 私たちはあなたに選択肢を提供し { -brand-short-name } をすべての人に提供し改善するために必要なものだけを収集するよう努力しています。常に私たちは個人情報を受け取る前にあなたの許可を求めます。
-collection-privacy-notice = プライバシーノーティス (パーソナルデータの取り扱い) 
+preferences-collection-description = 私たちは、すべてのユーザーに選択肢を提供し { -brand-product-name } をすべての人にとってより良いものにするために必要最低限のデータのみを収集するよう努めています。
+preferences-collection-privacy-notice = プライバシー通知を表示
+preferences-across-profiles = これらの設定は、このデバイス上のすべての { -brand-product-name } プロファイルに適用されます。
+preferences-view-profiles = すべてのプロファイルを表示
 
 collection-health-report-telemetry-disabled = { -vendor-short-name } への技術的な対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
 collection-health-report-telemetry-disabled-link = さらに詳しく

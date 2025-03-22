@@ -122,13 +122,8 @@ urlbar-persistent-storage-notification-anchor =
     .tooltiptext = データを永続ストレージに格納します
 urlbar-addons-notification-anchor =
     .tooltiptext = アドオンのインストールのメッセージ パネルを開きます
-urlbar-search-tips-confirm = 大丈夫です、了解しました
-urlbar-search-tips-confirm-short = 了解しました
-# Read out before Urlbar Tip text content so screenreader users know the
-# subsequent text is a tip offered by the browser. It should end in a colon or
-# localized equivalent.
-urlbar-tip-icon-description =
-    .alt = ヒント:
+urlbar-search-tips-confirm = 了解しました
+urlbar-search-tips-confirm-short = 了解
 
 urlbar-result-menu-button =
     .title = メニューを開きます
@@ -673,17 +668,23 @@ urlbar-result-action-copy-to-clipboard = コピー
 urlbar-result-action-calculator-result = = { $result }
 # The string returned for an undefined calculator result such as when dividing by 0
 urlbar-result-action-undefined-calculator-result = 未定義
-# Shows the result of a formula expression being calculated, to a maximum of 9 significant
-# digits. The last = sign will be shown as part of the result (e.g. "= 2").
-# Variables
-#  $result (String): the string representation for a formula result
-urlbar-result-action-calculator-result-2 = = { NUMBER($result, maximumSignificantDigits: 9)}
 # Shows the result of a formula expression being calculated, in scientific notation.
 # The last = sign will be shown as part of the result (e.g. "= 1.0e17").
 # Variables
 #  $result (String): the string representation for a result in scientific notation
 #  (e.g. "1.0e17").
 urlbar-result-action-calculator-result-scientific-notation = = { $result }
+# Shows the result of a formula expression being calculated, this is used for numbers >= 1.
+# The last = sign will be shown as part of the result (e.g. "= 2").
+# Variables
+#  $result (String): the string representation for a formula result
+urlbar-result-action-calculator-result-3 = = { NUMBER($result, useGrouping: "false", maximumFractionDigits: 8)}
+# Shows the result of a formula expression being calculated, to a maximum of 9 significant
+# digits. This is used for numbers < 1.
+# The last = sign will be shown as part of the result (e.g. "= 0.333333333").
+# Variables
+#  $result (String): the string representation for a formula result
+urlbar-result-action-calculator-result-decimal = = { NUMBER($result, maximumSignificantDigits: 9)}
 
 ## Strings used for buttons in the urlbar
 
@@ -982,6 +983,9 @@ panel-save-update-password = パスワード
 # "More" item in macOS share menu
 menu-share-more =
     .label = その他…
+menu-share-copy-link =
+    .label = Copy Link
+    .accesskey = L
 ui-tour-info-panel-close =
     .tooltiptext = 閉じます
 
@@ -1099,7 +1103,7 @@ content-analysis-indicator-tooltip =
 content-analysis-panel-title = Data protection
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
-content-analysis-panel-text = あなたが所属する組織は、データ損失を防ぐために { $agentName } を使用しています。<a data-l10n-name="info">さらに詳しく</a>
+content-analysis-panel-text-styled = あなたが所属する組織は、データ損失を防ぐために { $agentName } を使用しています。<a data-l10n-name="info">さらに詳しく</a>
 
 ## Unified extensions (toolbar) button
 
