@@ -4,6 +4,9 @@
 
 about-policies-title = エンタープライズポリシー
 
+aboutpolicies-page-heading =
+  .heading = ポリシーについて
+
 # 'Active' is used to describe the policies that are currently active
 active-policies-tab = 動作中
 errors-tab = エラー

@@ -8,11 +8,9 @@ label-interventions = ウェブ互換性への介入
 # Variables:
 #   $bug (string) - Bug number
 label-more-information = 詳細: バグ { $bug }
-label-overrides = ユーザーエージェントの上書き
 text-disabled-in-about-config = この機能は about:config で無効化されています
-text-no-interventions = ウェブ互換性への介入はありません
-text-no-overrides = ユーザーエージェントの上書きはありません
-text-title = about:compat
+text-no-interventions = ウェブの互換性への介入はありません
+text-page-title = ウェブの互換性
 
 ## Do not translate "SmartBlock". For reference, SmartBlock is a feature
 ## of Firefox anti-tracking which fixes website breakage caused when

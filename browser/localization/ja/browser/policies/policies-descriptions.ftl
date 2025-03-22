@@ -205,7 +205,7 @@ policy-PopupBlocking = 特定のウェブサイトのポップアップ表示を
 
 policy-Preferences = 設定のサブセットに対する値を設定してロックします。
 
-policy-PrivateBrowsingModeAvailability = Set availability of private browsing mode.
+policy-PrivateBrowsingModeAvailability = プライベートブラウジングモードを利用するか設定します。
 
 policy-PromptForDownloadLocation = ダウンロード時にファイルの保存先を確認します。
 
@@ -225,6 +225,8 @@ policy-SearchSuggestEnabled = 検索候補の表示機能の使用を切り替�
 policy-SecurityDevices2 = PKCS #11 モジュールの追加と削除。
 
 policy-ShowHomeButton = ホームボタンをツールバーに表示します。
+
+policy-SkipTermsOfUse = 起動時に利用規約とプライバシー通知を表示しません。
 
 policy-SSLVersionMax = 使用する SSL の最高バージョンを設定します。
 
