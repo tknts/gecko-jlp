@@ -127,16 +127,6 @@ appmenuitem-save-page =
 appmenuitem-fxa-sync-off-title = 同期をオフにする
 appmenuitem-fxa-sync-off-description = ブックマーク、パスワードなどをどこからでも保護し、アクセスできます。
 
-## What's New panel in App menu.
-
-whatsnew-panel-header = 最新情報
-
-# Checkbox displayed at the bottom of the What's New panel, allowing users to
-# enable/disable What's New notifications.
-whatsnew-panel-footer-checkbox =
-  .label = 新機能について通知する
-  .accesskey = f
-
 ## The Firefox Profiler – The popup is the UI to turn on the profiler, and record
 ## performance profiles. To enable it go to profiler.firefox.com and click
 ## "Enable Profiler Menu Button".

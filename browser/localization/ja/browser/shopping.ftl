@@ -64,7 +64,6 @@ shopping-message-bar-warning-product-not-available-reported =
   .heading = 分析は近日公開予定です
   .message = 最新の分析は 24 時間以内に完成する予定です。もう一度ご確認ください。
 
-shopping-message-bar-analysis-in-progress-title2 = レビューの品質をチェックしています
 shopping-message-bar-analysis-in-progress-message2 = これには約 60 秒かかる場合があります。
 
 # Variables:
@@ -192,11 +191,11 @@ ad-by-fakespot = { -fakespot-brand-name } による広告
 shopping-survey-headline = { -brand-product-name } の改善にご協力ください
 shopping-survey-question-one = { -brand-product-name } のレビュー チェッカーの使用感にどの程度満足していますか?
 
-shopping-survey-q1-radio-1-label = Very satisfied
-shopping-survey-q1-radio-2-label = Satisfied
-shopping-survey-q1-radio-3-label = Neutral
-shopping-survey-q1-radio-4-label = Dissatisfied
-shopping-survey-q1-radio-5-label = Very dissatisfied
+shopping-survey-q1-radio-1-label = 非常に満足
+shopping-survey-q1-radio-2-label = 満足
+shopping-survey-q1-radio-3-label = 普通
+shopping-survey-q1-radio-4-label = 不満
+shopping-survey-q1-radio-5-label = 非常に不満
 
 shopping-survey-question-two = レビュー チェッカーを使用すると、購入の決定が容易になりますか?
 
@@ -227,33 +226,33 @@ shopping-survey-opted-out-other = その他
 ## "price tag" refers to the price tag icon displayed in the address bar to
 ## access the feature.
 
-shopping-callout-closed-opted-in-subtitle = Get back to <strong>Review Checker</strong> whenever you see the price tag.
+shopping-callout-closed-opted-in-subtitle =  価格タグを見かけたら、いつでも<strong>レビュー チェッカー</strong>に戻れます。
 
-shopping-callout-pdp-opted-in-title = Are these reviews reliable? Find out fast.
-shopping-callout-pdp-opted-in-subtitle = Open Review Checker to see an adjusted rating with unreliable reviews removed. Plus, see highlights from recent authentic reviews.
+shopping-callout-pdp-opted-in-title = このレビューは信頼できますか？すぐに確認できます。
+shopping-callout-pdp-opted-in-subtitle = レビュー チェッカーを開いて、信頼できないレビューを除外した調整済み評価を確認しましょう。また、最近の本物のレビューのハイライトも確認できます。
 
-shopping-callout-closed-not-opted-in-title = One click to reliable reviews
-shopping-callout-closed-not-opted-in-subtitle = Give Review Checker a try whenever you see the price tag. Get insights from real shoppers quickly — before you buy.
+shopping-callout-closed-not-opted-in-title = 信頼できるレビューへワン クリック
+shopping-callout-closed-not-opted-in-subtitle = 価格タグを見かけたらレビュー チェッカーを試してみてください。本物の購入者からのインサイトを素早く確認でき、安心して購入できます。
 
 shopping-callout-closed-not-opted-in-revised-title = 信頼できるレビューをワンクリックで表示します
 shopping-callout-closed-not-opted-in-revised-subtitle = レビュー チェッカー表示するにはアドレスバーに表示される値札アイコンをクリックしてください。
 shopping-callout-closed-not-opted-in-revised-button = わかりました
 
 shopping-callout-not-opted-in-reminder-title = 安心なお買い物
-shopping-callout-not-opted-in-reminder-subtitle = Not sure if a product’s reviews are real or fake? Review Checker from { -brand-product-name } can help.
-shopping-callout-not-opted-in-reminder-open-button = Open Review Checker
-shopping-callout-not-opted-in-reminder-close-button = Dismiss
-shopping-callout-not-opted-in-reminder-ignore-checkbox = Don’t show again
+shopping-callout-not-opted-in-reminder-subtitle = 製品のレビューが本物か偽物か分からないですか？{ -brand-product-name } のレビュー チェッカーがお手伝いします。
+shopping-callout-not-opted-in-reminder-open-button = レビュー チェッカーを開く
+shopping-callout-not-opted-in-reminder-close-button = 閉じる
+shopping-callout-not-opted-in-reminder-ignore-checkbox = 今後表示しない
 shopping-callout-not-opted-in-reminder-img-alt =
-  .aria-label = Abstract illustration of three product reviews. One has a warning symbol indicating it may not be trustworthy.
+  .aria-label = 製品レビュー 3 件の抽象的なイラスト。1 つには信頼できない可能性があることを示す警告シンボルが付いている。
 
 shopping-callout-disabled-auto-open-title = レビュー チェッカーをデフォルトで閉じられるようになりました
-shopping-callout-disabled-auto-open-subtitle = Click the price tag icon in the address bar whenever you want to see if you can trust a product’s reviews.
-shopping-callout-disabled-auto-open-button = Got it
+shopping-callout-disabled-auto-open-subtitle = 製品のレビューが信頼できるかどうか確認したいときは、アドレスバーの価格タグアイコンをクリックしてください。
+shopping-callout-disabled-auto-open-button = わかりました
 
-shopping-callout-opted-out-title = Review Checker is off
-shopping-callout-opted-out-subtitle = To turn it back on, click the price tag icon in the address bar and follow the prompts.
-shopping-callout-opted-out-button = Got it
+shopping-callout-opted-out-title = レビュー チェッカーはオフになっています
+shopping-callout-opted-out-subtitle = 再び有効にするには、アドレスバーの価格タグアイコンをクリックし、指示に従ってください。
+shopping-callout-opted-out-button = わかりました
 
 ## Onboarding message strings.
 
@@ -269,9 +268,9 @@ shopping-onboarding-dynamic-subtitle-1 = 購入する前に <b>{ $currentSite }<
 # Subtitle for countries where we only support one shopping website (e.g. currently used in FR/DE with Amazon)
 # Variables:
 #   $currentSite (str) - The current shopping page name
-shopping-onboarding-single-subtitle = See how reliable product reviews are on <b>{ $currentSite }</b> before you buy. Review Checker, an experimental feature from { -brand-product-name }, is built right into the browser.
+shopping-onboarding-single-subtitle = <b>{ $currentSite }</b> の信頼できる製品レビューを購入前に確認しましょう。{ -brand-product-name } の実験的機能である「レビュー チェッカー」は、ブラウザーに組み込まれています。
 
-shopping-onboarding-body = Using the power of { -fakespot-brand-full-name }, we help you avoid biased and inauthentic reviews. Our AI model is always improving to protect you as you shop. <a data-l10n-name="learn_more">Learn more</a>
+shopping-onboarding-body = { -fakespot-brand-full-name } のパワーを活用して、偏ったレビューや不正なレビューを回避するお手伝いをします。私たちの AI モデルは常に進化しており、安全なショッピング体験を提供します。<a data-l10n-name="learn_more">さらに詳しく</a>
 shopping-onboarding-opt-in-privacy-policy-and-terms-of-use3 = “{ shopping-onboarding-opt-in-button }“ を選択すると { -brand-product-name } の <a data-l10n-name="privacy_policy">プライバシー ポリシー</a> と  { -fakespot-brand-name } の <a data-l10n-name="terms_of_use">利用規約</a> に同意したことになります。
 shopping-onboarding-opt-in-button = Yes, try it
 shopping-onboarding-not-now-button = Not now

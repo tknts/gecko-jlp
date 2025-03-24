@@ -171,7 +171,7 @@ firefox-suggest-mdn-bottom-text = { -mdn-brand-name }
 # Variables:
 #   $keywordSubstringTyped (string) - The part of the suggestion keyword that the user typed
 #   $keywordSubstringNotTyped (string) - The part of the suggestion keyword that the user did not yet type
-firefox-suggest-pocket-bottom-text =  { -pocket-brand-name } · <strong>{ $keywordSubstringTyped }</strong>{ $keywordSubstringNotTyped } に関連する内容
+firefox-suggest-pocket-bottom-text = { -pocket-brand-name } · <strong>{ $keywordSubstringTyped }</strong>{ $keywordSubstringNotTyped } に関連する内容
 
 ## These strings are used for Yelp suggestions in the urlbar.
 

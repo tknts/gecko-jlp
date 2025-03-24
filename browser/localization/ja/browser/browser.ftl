@@ -411,7 +411,6 @@ identity-custom-root = Mozilla によって承認されていない証明書の�
 identity-passive-loaded = このページの一部 (画像など) は安全ではありません。
 identity-active-loaded = このページでの保護は無効化されています。
 identity-weak-encryption = このページは脆弱な暗号を使用しています。
-identity-insecure-login-forms = このページで入力したログイン情報は危険にさらされる可能性があります。
 
 identity-https-only-connection-upgraded = (HTTPS にアップグレードされています)
 identity-https-only-label2 = このサイトを安全な接続に自動的にアップグレードします
@@ -440,7 +439,6 @@ identity-remove-cert-exception =
     .label = 例外を削除
     .accesskey = R
 identity-description-insecure = このサイトへの接続ではプライバシーが保護されません。あなたが送信した情報は、第三者に盗み見られる可能性があります (パスワード、メッセージ、クレジットカード情報など)。
-identity-description-insecure-login-forms = このページで入力されたログイン情報は安全に送信されません。第三者に盗み見られる可能性があります。
 identity-description-weak-cipher-intro = このウェブサイトへの接続には脆弱な暗号が使用されており、プライバシーが保護されません。
 identity-description-weak-cipher-risk = 第三者があなたの情報を盗み見たり、ウェブサイトの動作を改ざんする可能性があります。
 identity-description-active-blocked2 = { -brand-short-name } は、このページの安全でない部分をブロックしました。
@@ -472,35 +470,7 @@ browser-window-close-button =
 ## Tab actions
 
 # This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-playing2 = 再生中
-# This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-muted2 = ミュート中
-# This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-blocked = 自動再生をブロック
-# This label should be written in all capital letters if your locale supports them.
 browser-tab-audio-pip =ピクチャー・イン・ピクチャー
-
-## These labels should be written in all capital letters if your locale supports them.
-## Variables:
-##  $count (number): number of affected tabs
-
-browser-tab-mute =
-    { $count ->
-        [1] タブをミュート
-       *[other] { $count } 個のタブをミュート
-    }
-
-browser-tab-unmute =
-    { $count ->
-        [1] タブのミュートを解除
-       *[other] { $count } 個のタブのミュートを解除
-    }
-
-browser-tab-unblock =
-    { $count ->
-        [1] PLAY TAB
-       *[other] PLAY { $count } TABS
-    }
 
 ## Bookmarks toolbar items
 
@@ -868,11 +838,6 @@ bookmarks-tools-toolbar-visibility-panel =
      [true] ブックマーク ツールバーを閉じる
     *[other] ブックマーク ツールバーを表示
   }
-bookmarks-tools-menu-button-visibility =
-  .label = { $isVisible ->
-     [true] ツールバーからブックマーク メニューを削除
-    *[other] ツールバーにブックマーク メニューを追加
-  }
 
 ##
 
@@ -905,8 +870,6 @@ bookmarks-subview-bookmark-tab =
 
 library-bookmarks-menu =
   .label = ブックマーク
-library-recent-activity-title =
-  .value = 最近の活動
 
 ## Pocket toolbar button
 

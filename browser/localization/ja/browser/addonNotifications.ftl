@@ -72,9 +72,6 @@ webext-imported-addons = { -brand-short-name } にインポートされた拡張
 # Variables:
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-title = { $name } を削除しますか?
-# Variables:
-#   $name (String): the name of the extension which is about to be removed.
-addon-removal-message = { $name } を { -brand-shorter-name } から削除しますか?
 addon-removal-button = 削除
 addon-removal-abuse-report-checkbox = この拡張機能を { -vendor-short-name } に報告する
 

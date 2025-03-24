@@ -82,6 +82,7 @@ connection-proxy-autologin-checkbox =
 connection-proxy-socks4-remote-dns =
     .label = SOCKS v4 使用時に DNS プロキシーを使用する
     .accesskey = 4
+
 connection-proxy-socks-remote-dns =
     .label = SOCKS v5 使用時に DNS プロキシーを使用する
     .accesskey = D
@@ -96,5 +97,3 @@ connection-dns-over-https-url-custom =
     .label = カスタム
     .accesskey = C
     .tooltiptext = DNS over HTTPS の解決に使用する URL を入力します
-
-connection-dns-over-https-custom-label = カスタム

@@ -93,8 +93,6 @@ genai-header-close-button =
 
 genai-provider-view-details =
     .label = チャットボットの詳細を表示
-genai-provider-about-chatbots =
-    .label = これらのチャットボットについて
 genai-options-reload-generic =
     .label = AI チャットボットの再読み込み
 # $provider (string) - name of the provider
