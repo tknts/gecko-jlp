@@ -42,7 +42,6 @@ report-broken-site-panel-button-okay =
 report-broken-site-panel-button-send =
   .label = 送信
 
-report-broken-site-panel-unspecified = 無記入
 report-broken-site-panel-report-sent-label = レポートが送信されました
 report-broken-site-panel-report-sent-header =
   .label = レポートが送信されました

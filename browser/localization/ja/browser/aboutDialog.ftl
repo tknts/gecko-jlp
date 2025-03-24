@@ -12,7 +12,7 @@ update-checkForUpdatesButton =
     .accesskey = C
 
 update-updateButton =
-    .label =  { -brand-shorter-name } を再起動して更新
+    .label = { -brand-shorter-name } を再起動して更新
     .accesskey = R
 
 update-checkingForUpdates = 更新を確認しています…

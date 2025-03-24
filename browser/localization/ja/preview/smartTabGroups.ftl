@@ -24,12 +24,8 @@ tab-group-editor-select-suggestions =
 
 tab-group-editor-no-tabs-found =
     .label = 類似のタブを開くと、{ -brand-short-name } はこのグループにタブを提案します。
-   
-tab-group-suggestions-disclaimer = { -brand-short-name } は AI を使用して <a data-l10n-name="support">タブとグループの名前を提案します</a>。一部の提案は不正確な場合があります。
 
-# This is the label for the User setting for turning on/off Smart Tab Grouping. The label belongs in preferences/preferences.ftl
-settings-tabs-show-group-and-tab-suggestions =
-    .label = タブとグループ名の提案を有効にする
+tab-group-suggestions-disclaimer = { -brand-short-name } は AI を使用して <a data-l10n-name="support">タブとグループの名前を提案します</a>。一部の提案は不正確な場合があります。
 
 # Title appears when user is shown the optin flow to use smart tab grouping
 tab-group-suggestions-optin-title = タブの提案をさらに表示する
@@ -40,3 +36,7 @@ tab-group-suggestions-optin-message = { -brand-short-name } は、開いてい�
 tab-group-suggestions-optin-title-download = 提案を検索中
 
 tab-group-suggestions-optin-message-download = しばらくお待ちください。
+
+# This is the label for the User setting for turning on/off Smart Tab Grouping. The label belongs in preferences/preferences.ftl
+settings-tabs-show-group-and-tab-suggestions =
+    .label = タブとタブグループの名前を提案するために AI を使用する

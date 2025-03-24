@@ -42,23 +42,23 @@ downloads-cmd-show-menuitem-2 =
 ##   Example: "Notepad", "Acrobat Reader DC", "7-Zip File Manager"
 
 downloads-cmd-use-system-default =
-  .label = Open In System Viewer
+  .label = システムのビューアーで開く
   .accesskey = I
 # This version is shown when the download's mime type has a valid file handler.
 downloads-cmd-use-system-default-named =
-  .label = Open In { $handler }
+  .label = { $handler } で開く
   .accesskey = I
 
 # We can use the same accesskey as downloads-cmd-always-open-similar-files.
 # Both should not be visible in the downloads context menu at the same time.
 downloads-cmd-always-use-system-default =
-  .label = Always Open In System Viewer
+  .label = 毎回システムのビューアーで開く
   .accesskey = w
 # We can use the same accesskey as downloads-cmd-always-open-similar-files.
 # Both should not be visible in the downloads context menu at the same time.
 # This version is shown when the download's mime type has a valid file handler.
 downloads-cmd-always-use-system-default-named =
-  .label = Always Open In { $handler }
+  .label = 毎回 { $handler } で開く
   .accesskey = w
 
 ##
@@ -86,8 +86,6 @@ downloads-cmd-show-description-2 =
      *[other] フォルダーで表示
   }
 
-downloads-cmd-show-downloads =
-    .label = ダウンロードフォルダーを表示
 downloads-cmd-retry =
     .tooltiptext = もう一度ダウンロードします
 downloads-cmd-retry-panel =

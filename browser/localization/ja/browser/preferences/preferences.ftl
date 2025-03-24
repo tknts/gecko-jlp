@@ -3,7 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 do-not-track-removal = “Do Not Track” の送信はサポートされなくなりました
-do-not-track-learn-more = さらに詳しく
 
 global-privacy-control-description =
     .label = 私のデータを販売または共有しないようウェブサイトに通知します
@@ -155,9 +154,6 @@ windows-launch-on-login =
     .accesskey = O
 windows-launch-on-login-disabled = この設定は Windows では無効になっています。変更するには Windows の設定にある <a data-l10n-name="startup-link">スタートアップ アプリ</a> にアクセスしてください。
 windows-launch-on-login-profile-disabled = “ユーザー プロファイルの選択” ウィンドウで “{ profile-manager-use-selected.label }” にチェックを入れて、この設定を有効にします。
-
-startup-restore-warn-on-quit =
-    .label = ブラウザーを終了するときに警告する
 
 disable-extension =
     .label = 拡張機能を使用しない
@@ -548,10 +544,6 @@ update-application-check-choose =
     .label = 更新の確認後インストールするか選択する
     .accesskey = C
 
-update-application-manual =
-    .label = 更新の確認を行わない (非推奨)
-    .accesskey = N
-
 update-application-background-enabled =
     .label = { -brand-short-name } が起動していない時に実行
     .accesskey = W
@@ -649,13 +641,9 @@ browsing-picture-in-picture-toggle-enabled =
     .label = ピクチャー・イン・ピクチャー動画の操作を有効にする
     .accesskey = E
 
-browsing-picture-in-picture-learn-more = さらに詳しく
-
 browsing-media-control =
     .label = キーボード、ヘッドセット、または VR デバイスを使用してメディアを制御する
     .accesskey = v
-
-browsing-media-control-learn-more = さらに詳しく
 
 browsing-cfr-recommendations =
     .label = おすすめの拡張機能を紹介する
@@ -663,8 +651,6 @@ browsing-cfr-recommendations =
 browsing-cfr-features =
     .label = おすすめの機能を紹介する
     .accesskey = f
-
-browsing-cfr-recommendations-learn-more = さらに詳しく
 
 ## General Section - Proxy
 
@@ -1195,19 +1181,6 @@ sitedata-delete-on-close =
 
 sitedata-delete-on-close-private-browsing2 = 履歴の設定に基づいて、 { -brand-short-name } はブラウザーを閉じたときにセッション中の Cookie とサイトデータを削除します。。
 
-sitedata-allow-cookies-option =
-    .label = Cookie とサイトデータを許可する
-    .accesskey = A
-
-sitedata-disallow-cookies-option =
-    .label = Cookie とサイトデータをブロックする
-    .accesskey = B
-
-# This label means 'type of content that is blocked', and is followed by a drop-down list with content types below.
-# The list items are the strings named sitedata-block-*-option*.
-sitedata-block-desc = ブロックするコンテンツ:
-    .accesskey = T
-
 sitedata-option-block-cross-site-trackers =
     .label = クロスサイトトラッカー
 sitedata-option-block-cross-site-tracking-cookies =
@@ -1248,7 +1221,7 @@ addressbar-header = アドレスバー
 addressbar-suggest = アドレスバーに表示する候補
 
 # When Firefox Suggest is enabled, this replaces `addressbar-header`.
-addressbar-header-firefox-suggest = アドレスバー — { -firefox-suggest-brand-name }
+addressbar-header-firefox-suggest = アドレス バー — { -firefox-suggest-brand-name }
 
 # When Firefox Suggest is enabled, this replaces `addressbar-suggest`.
 addressbar-suggest-firefox-suggest = アドレスバーに表示されるサジェストの種類を選択します:

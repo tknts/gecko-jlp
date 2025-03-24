@@ -52,31 +52,31 @@ shopping-integrated-callout-disabled-auto-open-title = レビュー チェッカ
 shopping-integrated-callout-disabled-auto-open-subtitle = サイドバーの値札アイコンを選択して、商品のレビューが信頼できるかどうかを確認します。
 shopping-integrated-callout-no-logo-disabled-auto-open-subtitle = サイドバーのボタンを選択して、商品のレビューが信頼できるかどうかを確認します。
 
-## Auto-close toggle in settings
-
-shopping-settings-auto-close-toggle =
-    .label = レビュー チェッカーを自動的に閉じる
-    
-# Description text for regions where we support three sites. Sites are limited to Amazon, Walmart and Best Buy.
-# Variables:
-#   $firstSite (String) - The first shopping page name
-#   $secondSite (String) - The second shopping page name
-#   $thirdSite (String) - The third shopping page name
-shopping-settings-auto-close-description-three-sites = { $firstSite }、{ $secondSite }、{ $thirdSite } から離れる時
-
-# Description text for regions where we support only one site (e.g. currently used in FR/DE with Amazon).
-# Variables:
-#   $currentSite (String) - The current shopping page name
-shopping-settings-auto-close-description-single-site = { $currentSite } から離れる時
-
 ## Strings for a notification card about Review Checker's new position in the sidebar.
 ## The card will only appear for users that have the default sidebar position, which is on the left side for non RTL locales.
 ## Review Checker in the sidebar is only available to en-US users at this time, so we can assume that the default position is on the left side.
 
 shopping-integrated-new-position-notification-title = いつものレビュー チェッカーを新しい場所から
-shopping-integrated-new-position-notification-subtitle = Keep Review Checker and the rest of the { -brand-product-name } sidebar here — or move them to the right. Switch now or anytime in <a data-l10n-name="sidebar_settings">sidebar settings</a>.
+shopping-integrated-new-position-notification-subtitle = レビュー チェッカーと { -brand-product-name } サイドバーの他の機能をここに保持するか、右側に移動することもできます。今すぐまたはいつでも <a data-l10n-name="sidebar_settings">サイドバー設定</a> で切り替え可能です。
 shopping-integrated-new-position-notification-move-right-button = 右に移動
 shopping-integrated-new-position-notification-move-left-button = 左に移動
 shopping-integrated-new-position-notification-dismiss-button = 了解
+
+## Combined setting for auto-open and auto-close.
+
+shopping-settings-auto-open-and-close-toggle =
+  .label = レビュー チェッカーを自動的に開いたり閉じたりする
+
+# Description text for regions where we support three sites. Sites are limited to Amazon, Walmart and Best Buy.
+# Variables:
+#   $firstSite (String) - The first shopping page name
+#   $secondSite (String) - The second shopping page name
+#   $thirdSite (String) - The third shopping page name
+shopping-settings-auto-open-and-close-description-three-sites = { $firstSite }、{ $secondSite }、および { $thirdSite } で商品を閲覧すると開き、離れると閉じます。
+
+# Description text for regions where we support only one site (e.g. currently used in FR/DE with Amazon).
+# Variables:
+#   $currentSite (String) - The current shopping page name
+shopping-settings-auto-open-and-close-description-single-site = { $currentSite } で商品を閲覧すると開き、離れると閉じます。
 
 ##

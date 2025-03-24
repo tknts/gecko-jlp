@@ -247,7 +247,6 @@ about-logins-alert-import-message = インポートの詳細な概要を表示
 
 confirm-discard-changes-dialog-title = 未保存の変更を破棄しますか?
 confirm-discard-changes-dialog-message = 変更内容はすべて失われます。
-confirm-discard-changes-dialog-confirm-button = 破棄
 
 ## Breach Alert notification
 
