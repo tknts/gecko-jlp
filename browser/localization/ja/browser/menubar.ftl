@@ -139,8 +139,6 @@ menu-view-history-button =
     .label = 履歴
 menu-view-synced-tabs-sidebar =
     .label = 同期されたタブ
-menu-view-megalist-sidebar =
-    .label = パスワード
 menu-view-full-zoom =
     .label = 拡大と縮小
     .accesskey = Z
@@ -308,7 +306,7 @@ menu-tools-layout-debugger =
 menu-window-menu =
     .label = ウィンドウ
 menu-window-bring-all-to-front =
-    .label = Bring All to Front
+    .label = すべてを前面に表示
 
 ## Help Menu
 
@@ -329,8 +327,6 @@ menu-get-help =
 menu-help-more-troubleshooting-info =
     .label = その他のトラブルシューティング情報
     .accesskey = T
-menu-help-report-site-issue =
-    .label = サイトの不具合を報告…
 menu-help-share-ideas =
     .label = アイデアとフィードバックを共有…
     .accesskey = S

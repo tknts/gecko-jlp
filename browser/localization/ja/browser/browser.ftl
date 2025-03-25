@@ -301,6 +301,17 @@ quickactions-cmd-downloads = downloads, ダウンロード
 quickactions-extensions = 拡張機能を管理
 quickactions-cmd-extensions = extensions, 拡張機能
 
+# Opens Firefox View
+quickactions-firefoxview = { -firefoxview-brand-name } を開く
+# English is using "view" and "open view", since the feature name is
+# "Firefox View". If you have translated the name in your language, you
+# should use a word related to the existing translation.
+quickactions-cmd-firefoxview = { -firefoxview-brand-name } を開く, { -firefoxview-brand-name }, ビューを開く, ビュー
+
+# Opens SUMO home page
+quickactions-help = { -brand-product-name } ヘルプ
+quickactions-cmd-help = ヘルプとサポート
+
 # Opens the devtools web inspector
 quickactions-inspector2 = 開発者ツールを開く
 quickactions-cmd-inspector = inspector, devtools, 開発, 調査, インスペクタ
