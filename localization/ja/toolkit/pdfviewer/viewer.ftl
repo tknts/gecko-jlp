@@ -71,38 +71,38 @@ pdfjs-last-page-button =
     .title = 最後のページへ移動
 pdfjs-last-page-button-label = 最後のページへ移動
 pdfjs-page-rotate-cw-button =
-    .title = Rotate Clockwise
-pdfjs-page-rotate-cw-button-label = Rotate Clockwise
+    .title = 時計回りに 90℃回転します
+pdfjs-page-rotate-cw-button-label = 時計回りに回転
 pdfjs-page-rotate-ccw-button =
-    .title = Rotate Counterclockwise
-pdfjs-page-rotate-ccw-button-label = Rotate Counterclockwise
+    .title = 反時計回りに 90℃回転します
+pdfjs-page-rotate-ccw-button-label = 反時計回りに回転
 pdfjs-cursor-text-select-tool-button =
-    .title = Enable Text Selection Tool
-pdfjs-cursor-text-select-tool-button-label = Text Selection Tool
+    .title = テキスト選択ツールを有効にします
+pdfjs-cursor-text-select-tool-button-label = テキスト選択ツール
 pdfjs-cursor-hand-tool-button =
-    .title = Enable Hand Tool
-pdfjs-cursor-hand-tool-button-label = Hand Tool
+    .title = ハンドツールを有効にします
+pdfjs-cursor-hand-tool-button-label = ハンドツール
 pdfjs-scroll-page-button =
     .title = Use Page Scrolling
-pdfjs-scroll-page-button-label = Page Scrolling
+pdfjs-scroll-page-button-label = ページ単位のスクロール
 pdfjs-scroll-vertical-button =
-    .title = Use Vertical Scrolling
-pdfjs-scroll-vertical-button-label = Vertical Scrolling
+    .title = ページ単位のスクロールを使用します
+pdfjs-scroll-vertical-button-label = 縦スクロール
 pdfjs-scroll-horizontal-button =
     .title = Use Horizontal Scrolling
-pdfjs-scroll-horizontal-button-label = Horizontal Scrolling
+pdfjs-scroll-horizontal-button-label = 横スクロール
 pdfjs-scroll-wrapped-button =
     .title = Use Wrapped Scrolling
-pdfjs-scroll-wrapped-button-label = Wrapped Scrolling
+pdfjs-scroll-wrapped-button-label = 折り返しスクロール
 pdfjs-spread-none-button =
     .title = Do not join page spreads
-pdfjs-spread-none-button-label = No Spreads
+pdfjs-spread-none-button-label = 見開きなし
 pdfjs-spread-odd-button =
     .title = Join page spreads starting with odd-numbered pages
-pdfjs-spread-odd-button-label = Odd Spreads
+pdfjs-spread-odd-button-label = 奇数ページ開始の見開き
 pdfjs-spread-even-button =
     .title = Join page spreads starting with even-numbered pages
-pdfjs-spread-even-button-label = Even Spreads
+pdfjs-spread-even-button-label = 偶数ページ開始の見開き
 
 ## Document properties dialog
 
@@ -137,15 +137,15 @@ pdfjs-document-properties-creator = 作成者:
 pdfjs-document-properties-producer = PDF Producer:
 pdfjs-document-properties-version = PDF バージョン:
 pdfjs-document-properties-page-count = ページ数:
-pdfjs-document-properties-page-size = Page Size:
-pdfjs-document-properties-page-size-unit-inches = in
-pdfjs-document-properties-page-size-unit-millimeters = mm
-pdfjs-document-properties-page-size-orientation-portrait = portrait
-pdfjs-document-properties-page-size-orientation-landscape = landscape
+pdfjs-document-properties-page-size = ページサイズ:
+pdfjs-document-properties-page-size-unit-inches = インチ
+pdfjs-document-properties-page-size-unit-millimeters = ミリメートル
+pdfjs-document-properties-page-size-orientation-portrait = 縦 (ポートレイト)
+pdfjs-document-properties-page-size-orientation-landscape = 横 (ランドスケープ)
 pdfjs-document-properties-page-size-name-a-three = A3
 pdfjs-document-properties-page-size-name-a-four = A4
-pdfjs-document-properties-page-size-name-letter = Letter
-pdfjs-document-properties-page-size-name-legal = Legal
+pdfjs-document-properties-page-size-name-letter = レター
+pdfjs-document-properties-page-size-name-legal = リーガル
 
 ## Variables:
 ##   $width (Number) - the width of the (current) page
@@ -181,41 +181,41 @@ pdfjs-printing-not-ready = 警告: PDF は印刷用に完全にロードされ�
 ## Tooltips and alt text for side panel toolbar buttons
 
 pdfjs-toggle-sidebar-button =
-    .title = Toggle Sidebar
+    .title = サイドバーの切り替え
 pdfjs-toggle-sidebar-notification-button =
-    .title = Toggle Sidebar (document contains outline/attachments/layers)
-pdfjs-toggle-sidebar-button-label = Toggle Sidebar
+    .title = サイドバーの切り替え (ドキュメントにアウトライン / 添付ファイル / レイヤーが含まれています)
+pdfjs-toggle-sidebar-button-label = サイドバーの切り替え
 pdfjs-document-outline-button =
-    .title = Show Document Outline (double-click to expand/collapse all items)
-pdfjs-document-outline-button-label = Document Outline
+    .title = ドキュメントのアウトラインを表示（ダブルクリックですべての項目を展開／折りたたみ）
+pdfjs-document-outline-button-label = ドキュメントのアウトライン
 pdfjs-attachments-button =
-    .title = Show Attachments
-pdfjs-attachments-button-label = Attachments
+    .title = 添付ファイルを表示
+pdfjs-attachments-button-label = 添付ファイル
 pdfjs-layers-button =
-    .title = Show Layers (double-click to reset all layers to the default state)
+    .title = レイヤーを表示 (ダブルクリックで全レイヤーをデフォルト状態にリセット)
 pdfjs-layers-button-label = レイヤー
 pdfjs-thumbs-button =
     .title = サムネイルを表示
 pdfjs-thumbs-button-label = サムネイル
 pdfjs-current-outline-item-button =
-    .title = Find Current Outline Item
-pdfjs-current-outline-item-button-label = Current Outline Item
+    .title = 現在のアウトライン項目を探す
+pdfjs-current-outline-item-button-label = 現在のアウトライン項目
 pdfjs-findbar-button =
-    .title = Find in Document
+    .title = ドキュメント内を検索
 pdfjs-findbar-button-label = 検索
-pdfjs-additional-layers = Additional Layers
+pdfjs-additional-layers = 追加のレイヤー
 
 ## Thumbnails panel item (tooltip and alt text for images)
 
 # Variables:
 #   $page (Number) - the page number
 pdfjs-thumb-page-title =
-    .title = Page { $page }
+    .title = { $page } ページ
 
 # Variables:
 #   $page (Number) - the page number
 pdfjs-thumb-page-canvas =
-    .aria-label = Thumbnail of Page { $page }
+    .aria-label = { $page } ページのサムネイル
 
 ## Find panel button title and messages
 
@@ -232,8 +232,8 @@ pdfjs-find-highlight-checkbox = すべて強調表示
 pdfjs-find-match-case-checkbox-label = 大文字と小文字を区別
 pdfjs-find-match-diacritics-checkbox-label = 発音記号を区別
 pdfjs-find-entire-word-checkbox-label = 単語単位
-pdfjs-find-reached-top = Reached top of document, continued from bottom
-pdfjs-find-reached-bottom = Reached end of document, continued from top
+pdfjs-find-reached-top = ドキュメントの先頭に達しました。下から続けます
+pdfjs-find-reached-bottom = ドキュメントの最後に達しました。上から続けます
 
 # Variables:
 #   $current (Number) - the index of the currently active find result
@@ -252,14 +252,14 @@ pdfjs-find-match-count-limit =
        *[other] More than { $limit } matches
     }
 
-pdfjs-find-not-found = Phrase not found
+pdfjs-find-not-found = フレーズが見つかりませんでした
 
 ## Predefined zoom values
 
 pdfjs-page-scale-width = ページの横幅
-pdfjs-page-scale-fit = Page Fit
-pdfjs-page-scale-auto = Automatic Zoom
-pdfjs-page-scale-actual = Actual Size
+pdfjs-page-scale-fit = ページに合わせる
+pdfjs-page-scale-auto = 自動ズーム
+pdfjs-page-scale-actual = 実際のサイズ
 
 # Variables:
 #   $scale (Number) - percent value for page scale
@@ -270,15 +270,15 @@ pdfjs-page-scale-percent = { $scale }%
 # Variables:
 #   $page (Number) - the page number
 pdfjs-page-landmark =
-    .aria-label = Page { $page }
+    .aria-label = ページ { $page }
 
 ## Loading indicator messages
 
-pdfjs-loading-error = An error occurred while loading the PDF.
-pdfjs-invalid-file-error = Invalid or corrupted PDF file.
-pdfjs-missing-file-error = Missing PDF file.
-pdfjs-unexpected-response-error = Unexpected server response.
-pdfjs-rendering-error = An error occurred while rendering the page.
+pdfjs-loading-error = PDF の読み込み中にエラーが発生しました。
+pdfjs-invalid-file-error = 無効または破損した PDF ファイルです。
+pdfjs-missing-file-error = PDF ファイルが見つかりません。
+pdfjs-unexpected-response-error = 予期しないサーバーの応答です。
+pdfjs-rendering-error = ページの描画中にエラーが発生しました。
 
 ## Annotations
 
@@ -296,22 +296,22 @@ pdfjs-text-annotation-type =
 
 ## Password
 
-pdfjs-password-label = Enter the password to open this PDF file.
-pdfjs-password-invalid = Invalid password. Please try again.
+pdfjs-password-label = この PDF ファイルを開くためのパスワードを入力してください。
+pdfjs-password-invalid = 無効なパスワードです。もう一度正しいパスワードを入力してください。
 pdfjs-password-ok-button = OK
 pdfjs-password-cancel-button = キャンセル
-pdfjs-web-fonts-disabled = Web fonts are disabled: unable to use embedded PDF fonts.
+pdfjs-web-fonts-disabled = Web フォントは無効です: 埋め込まれた PDF フォントを使用できません。
 
 ## Editing
 
 pdfjs-editor-free-text-button =
-    .title = Text
+    .title = テキスト
 pdfjs-editor-free-text-button-label = テキスト
 pdfjs-editor-ink-button =
-    .title = Draw
+    .title = 図形
 pdfjs-editor-ink-button-label = 図形
 pdfjs-editor-stamp-button =
-    .title = Add or edit images
+    .title = 画像の追加と編集
 pdfjs-editor-stamp-button-label = 画像の追加と編集
 pdfjs-editor-highlight-button =
     .title = 強調表示
@@ -320,6 +320,22 @@ pdfjs-highlight-floating-button1 =
     .title = 強調表示
     .aria-label = 強調表示
 pdfjs-highlight-floating-button-label = 強調表示
+pdfjs-editor-signature-button =
+    .title = 署名の追加
+pdfjs-editor-signature-button-label = 署名を追加
+
+## Default editor aria labels
+
+# “Highlight” is a noun, the string is used on the editor for highlights.
+pdfjs-editor-highlight-editor =
+    .aria-label = ハイライト編集ツール
+# “Drawing” is a noun, the string is used on the editor for drawings.
+pdfjs-editor-ink-editor =
+    .aria-label = 図形編集ツール
+pdfjs-editor-signature-editor =
+    .aria-label = 署名編集ツール
+pdfjs-editor-stamp-editor =
+    .aria-label = 画像編集ツール
 
 ## Remove button for the various kind of editor.
 
@@ -331,6 +347,8 @@ pdfjs-editor-remove-stamp-button =
     .title = 画像の削除
 pdfjs-editor-remove-highlight-button =
     .title = 強調表示を削除
+pdfjs-editor-remove-signature-button =
+    .title = 署名を削除
 
 ##
 
@@ -347,15 +365,22 @@ pdfjs-editor-stamp-add-image-button-label = 画像を追加
 pdfjs-editor-free-highlight-thickness-input = 線の太さ
 pdfjs-editor-free-highlight-thickness-title =
     .title = 文字以外の項目を強調表示するさいの太さを変更します
+pdfjs-editor-add-signature-container =
+    .aria-label = 署名のコントロールと保存された署名
+pdfjs-editor-signature-add-signature-button =
+    .title = 新しい署名の追加
+pdfjs-editor-signature-add-signature-button-label = 新しい署名を追加
+
+# Used on the button to use an already saved signature.
+# Variables:
+#   $description (String) - a string describing/labeling the signature.
+pdfjs-editor-add-saved-signature-button =
+    .title = 保存された署名: { $description }
 
 # .default-content is used as a placeholder in an empty text editor.
 pdfjs-free-text2 =
     .aria-label = Text Editor
     .default-content = 文字の入力を開始します…
-pdfjs-ink =
-    .aria-label = Draw Editor
-pdfjs-ink-canvas =
-    .aria-label = User-created image
 
 ## Alt-text dialog
 
@@ -367,38 +392,38 @@ pdfjs-editor-alt-text-button-label = 代替テキスト
 pdfjs-editor-alt-text-edit-button =
     .aria-label = 代替テキストを編集
 pdfjs-editor-alt-text-dialog-label = オプションを選択
-pdfjs-editor-alt-text-dialog-description = Alt text (alternative text) helps when people can’t see the image or when it doesn’t load.
+pdfjs-editor-alt-text-dialog-description = Alt テキスト (代替テキスト) は、画像が見えない場合や画像が読み込まれない場合に役立ちます。
 pdfjs-editor-alt-text-add-description-label = 説明を追加
-pdfjs-editor-alt-text-add-description-description = Aim for 1-2 sentences that describe the subject, setting, or actions.
-pdfjs-editor-alt-text-mark-decorative-label = Mark as decorative
-pdfjs-editor-alt-text-mark-decorative-description = This is used for ornamental images, like borders or watermarks.
+pdfjs-editor-alt-text-add-description-description = 対象、設定、またはアクションを説明する一言二言の短い文章を目指してください。
+pdfjs-editor-alt-text-mark-decorative-label = 装飾的なものとしてマーク
+pdfjs-editor-alt-text-mark-decorative-description = これは、境界線や透かしなどの装飾的な画像に使用されます。
 pdfjs-editor-alt-text-cancel-button = キャンセル
 pdfjs-editor-alt-text-save-button = 保存
-pdfjs-editor-alt-text-decorative-tooltip = Marked as decorative
+pdfjs-editor-alt-text-decorative-tooltip = 装飾的としてマーク
 
 # .placeholder: This is a placeholder for the alt text input area
 pdfjs-editor-alt-text-textarea =
-    .placeholder = For example, “A young man sits down at a table to eat a meal”
+    .placeholder = 例: “若い男性がテーブルに座って食事を始める”
 
 ## Editor resizers
 ## This is used in an aria label to help to understand the role of the resizer.
 
 pdfjs-editor-resizer-top-left =
-    .aria-label = Top left corner — resize
+    .aria-label = 左上隅 — サイズ変更
 pdfjs-editor-resizer-top-middle =
-    .aria-label = Top middle — resize
+    .aria-label = 上中央 — サイズ変更
 pdfjs-editor-resizer-top-right =
-    .aria-label = Top right corner — resize
+    .aria-label = 右上隅 — サイズ変更
 pdfjs-editor-resizer-middle-right =
-    .aria-label = Middle right — resize
+    .aria-label = 右中央 — サイズ変更
 pdfjs-editor-resizer-bottom-right =
-    .aria-label = Bottom right corner — resize
+    .aria-label = 右下隅 — サイズ変更
 pdfjs-editor-resizer-bottom-middle =
-    .aria-label = Bottom middle — resize
+    .aria-label = 下中央 — サイズ変更
 pdfjs-editor-resizer-bottom-left =
-    .aria-label = Bottom left corner — resize
+    .aria-label = 左下隅 — サイズ変更
 pdfjs-editor-resizer-middle-left =
-    .aria-label = Middle left — resize
+    .aria-label = 左中央 — サイズ変更
 
 ## Color picker
 
@@ -455,7 +480,6 @@ pdfjs-editor-new-alt-text-error-close-button = 閉じる
 # Variables:
 #   $totalSize (Number) - the total size (in MB) of the AI model.
 #   $downloadedSize (Number) - the downloaded size (in MB) of the AI model.
-#   $percent (Number) - the percentage of the downloaded size.
 pdfjs-editor-new-alt-text-ai-model-downloading-progress = 代替テキスト生成用 AI モデルをダウンロードしています ({ $downloadedSize } of { $totalSize } MB)
     .aria-valuetext = 代替テキスト生成用 AI モデルをダウンロードしています ({ $downloadedSize } of { $totalSize } MB)
 
@@ -506,16 +530,17 @@ pdfjs-editor-alt-text-settings-close-button = 閉じる
 
 ## "Annotations removed" bar
 
-pdfjs-editor-undo-bar-message-highlight = Highlight removed
-pdfjs-editor-undo-bar-message-freetext = Text removed
-pdfjs-editor-undo-bar-message-ink = Drawing removed
-pdfjs-editor-undo-bar-message-stamp = Image removed
+pdfjs-editor-undo-bar-message-highlight = 強調表示が削除されました
+pdfjs-editor-undo-bar-message-freetext = テキストが削除されました
+pdfjs-editor-undo-bar-message-ink = 図形が削除されました
+pdfjs-editor-undo-bar-message-stamp = 画像が削除されました
+pdfjs-editor-undo-bar-message-signature = 署名が削除されました
 # Variables:
 #   $count (Number) - the number of removed annotations.
 pdfjs-editor-undo-bar-message-multiple =
     { $count ->
-        [one] { $count } annotation removed
-       *[other] { $count } annotations removed
+        [one] 注釈が削除されました
+       *[other] { $count } 件の注釈が削除されました
     }
 
 pdfjs-editor-undo-bar-undo-button =
@@ -524,3 +549,79 @@ pdfjs-editor-undo-bar-undo-button-label = 元に戻す
 pdfjs-editor-undo-bar-close-button =
     .title = 閉じる
 pdfjs-editor-undo-bar-close-button-label = 閉じる
+
+## Add a signature dialog
+
+pdfjs-editor-add-signature-dialog-label = このダイアログでは、ユーザーが PDF 文書に追加する署名を作成できます。ユーザーは名前を編集でき (これが代替テキストにもなります) 署名を保存して再利用することもできます。
+pdfjs-editor-add-signature-dialog-title = 署名の追加
+
+## Tab names
+
+# Type is a verb (you can type your name as signature)
+pdfjs-editor-add-signature-type-button = 種類
+    .title = 種類
+# Draw is a verb (you can draw your signature)
+pdfjs-editor-add-signature-draw-button = 図形
+    .title = 図形
+pdfjs-editor-add-signature-image-button = 画像
+    .title = 画像
+
+## Tab panels
+
+pdfjs-editor-add-signature-type-input =
+    .aria-label = 署名を入力
+    .placeholder = 署名を入力
+pdfjs-editor-add-signature-draw-placeholder = 署名を描画
+pdfjs-editor-add-signature-draw-thickness-range-label = 太さ
+
+# Variables:
+#   $thickness (Number) - the thickness (in pixels) of the line used to draw a signature.
+pdfjs-editor-add-signature-draw-thickness-range =
+    .title = 描画の太さ: { $thickness }
+
+pdfjs-editor-add-signature-image-placeholder = ファイルをここにドラッグしてアップロード
+pdfjs-editor-add-signature-image-browse-link =
+    { PLATFORM() ->
+        [macos] 画像ファイルを選択
+       *[other] 画像ファイルを参照
+    }
+
+## Controls
+
+pdfjs-editor-add-signature-description-label = 説明 (代替テキスト)
+pdfjs-editor-add-signature-description-input =
+    .title = 説明 (代替テキスト)
+pdfjs-editor-add-signature-description-default-when-drawing = 保存
+
+
+pdfjs-editor-add-signature-clear-button-label = 署名を消去
+pdfjs-editor-add-signature-clear-button =
+    .title = 署名の消去
+pdfjs-editor-add-signature-save-checkbox = 署名を保存する
+pdfjs-editor-add-signature-save-warning-message = 保存できる署名の最大数 (5つ) に達しました。さらに保存するには、ひとつ削除してください。
+pdfjs-editor-add-signature-image-upload-error-title = 画像のアップロードに失敗しました
+pdfjs-editor-add-signature-image-upload-error-description = ネットワーク接続を確認するか、別の画像を試してください。
+pdfjs-editor-add-signature-error-close-button = 閉じる
+
+## Dialog buttons
+
+pdfjs-editor-add-signature-cancel-button = キャンセル
+pdfjs-editor-add-signature-add-button = 追加
+
+## Main menu for adding/removing signatures
+
+pdfjs-editor-delete-signature-button1 =
+    .title = 保存された署名の削除
+pdfjs-editor-delete-signature-button-label1 = 保存された署名を削除
+
+## Editor toolbar
+
+pdfjs-editor-add-signature-edit-button-label = 説明を編集
+
+## Edit signature description dialog
+
+pdfjs-editor-edit-signature-dialog-title = 説明の編集
+
+## Dialog buttons
+
+pdfjs-editor-edit-signature-update-button = 更新
