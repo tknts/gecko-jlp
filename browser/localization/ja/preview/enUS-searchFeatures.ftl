@@ -279,7 +279,7 @@ firefox-suggest-onboarding-main-description-3 = ブラウザーが本当に探�
 firefox-suggest-onboarding-main-description-4 = ウェブで探している場所にすばやくたどり着き、次へ進みたいですよね。{ -vendor-short-name } が検索クエリを処理することを許可することで、プライバシーを重視しながら、目的地へより早く到達する手助けができます。
 firefox-suggest-onboarding-main-description-5 =  { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索提案を提供できます。私たちは、プライバシーを考慮しながらインターネットでの目的地に到達する手助けをする { -firefox-suggest-brand-name } を構築しています。
 firefox-suggest-onboarding-main-description-6 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索提案を提供できます。私たちは、プライバシーを考慮しながらインターネットでの目的地に到達する手助けをする { -firefox-suggest-brand-name } を構築しています。
-firefox-suggest-onboarding-main-description-7 =  { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索の提案を作成することができます。
+firefox-suggest-onboarding-main-description-7 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索の提案を作成することができます。
 firefox-suggest-onboarding-main-description-8 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索の提案を提供できます。このデータをウェブ上でのプロファイリングには使用しません。
 firefox-suggest-onboarding-main-description-9 =
   私たちは、より良い検索体験を構築しています。{ -vendor-short-name } が検索クエリを処理することを許可することで、あなたにとってより関連性の高い検索提案を提供できます。
@@ -291,15 +291,15 @@ firefox-suggest-onboarding-main-accept-option-label = 許可します。 <a data
 firefox-suggest-onboarding-main-accept-option-label-2 = 許可
 
 firefox-suggest-onboarding-main-accept-option-description-1 = より関連性の高いサジェストを提供するために { -firefox-suggest-brand-name } の改善にご協力ください。あなたの検索クエリが処理されます。
-firefox-suggest-onboarding-main-accept-option-description-2 = Recommended for people who support improving the { -firefox-suggest-brand-name } feature.  Your search queries will be processed.
+firefox-suggest-onboarding-main-accept-option-description-2 = Recommended for people who support improving the { -firefox-suggest-brand-name } feature. Your search queries will be processed.
 firefox-suggest-onboarding-main-accept-option-description-3 = Help improve the { -firefox-suggest-brand-name } experience. Your search queries will be processed.
 
 firefox-suggest-onboarding-main-reject-option-label = 拒否します。
 firefox-suggest-onboarding-main-reject-option-label-2 = Keep disabled
 
-firefox-suggest-onboarding-main-reject-option-description-1 = 最も厳格なデータ共有制御を使用して、デフォルトの { -firefox-suggest-brand-name } による検索体験を維持します。 
-firefox-suggest-onboarding-main-reject-option-description-2 = Recommended for people who prefer the strictest data-sharing controls. Keep the default experience.
-firefox-suggest-onboarding-main-reject-option-description-3 = Leave the default { -firefox-suggest-brand-name } experience with the strictest data-sharing controls.
+firefox-suggest-onboarding-main-reject-option-description-1 = 最も厳格なデータ共有の制限を使用して、デフォルトの { -firefox-suggest-brand-name } による検索体験を維持します。 
+firefox-suggest-onboarding-main-reject-option-description-2 = データ共有の制限を最も厳しくしたい方におすすめです。デフォルトの検索体験を維持します。
+firefox-suggest-onboarding-main-reject-option-description-3 = デフォルトの { -firefox-suggest-brand-name } での検索体験を維持し、最も厳しいデータ共有の制限を適用します。
 
 firefox-suggest-onboarding-main-submit-button = 設定を保存
 firefox-suggest-onboarding-main-skip-link = 今はしない
@@ -320,9 +320,20 @@ urlbar-search-mode-history-en = 履歴
 urlbar-search-mode-actions-en = アクション
 
 ## Add search engine dialog
+## These strings will be moved to search.ftl once the dialog is finished.
 
 add-engine-suggest-url = Search suggestion URL, use %s in place of the search term
 
 # Variables:
 #   $name (string) - Name of a search engine.
-edit-engine-name-warning-duplicate =  “{ $name }” という名前の検索エンジンはすでに存在します。別の名前を選択してください。
+edit-engine-name-warning-duplicate = “{ $name }” という名前の検索エンジンはすでに存在します。別の名前を選択してください。
+
+edit-engine-dialog =
+    .buttonlabelaccept = 検索エンジンを保存
+    .buttonaccesskeyaccept = S
+
+edit-engine-window =
+    .title = 検索エンジンの編集
+    .style = min-width: 32em;
+
+add-engine-post-data = Post data

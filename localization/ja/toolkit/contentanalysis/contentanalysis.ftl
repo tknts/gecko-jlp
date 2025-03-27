@@ -15,6 +15,15 @@ contentanalysis-slow-agent-dialog-header = スキャンしています
 contentanalysis-slow-agent-dialog-body-file = あなたの所属する組織のデータ ポリシーに照らして { $agent } は “{ $filename }” をレビューしています。これには少し時間がかかる場合があります。
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
+#   $filename - Name of a file being analyzed, such as "aFile.txt"
+#   $count (number) - The number of additional items in the request for analysis
+contentanalysis-slow-agent-dialog-body-file-and-more =
+    { $count ->
+        [one] { $agent } が “{ $filename }” および追加アイテムを、組織のデータポリシーに照らして確認しています。しばらくお待ちください。
+       *[other] { $agent } が “{ $filename }” および { $count } 件の追加アイテムを、組織のデータポリシーに照らして確認しています。しばらくお待ちください。
+    }
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
 contentanalysis-slow-agent-dialog-body-clipboard = あなたの所属する組織のデータ ポリシーに照らして { $agent } は、あなたが貼り付けた内容をレビューしています。これには少し時間がかかる場合があります。
 # Note that this is shown when the user drag and drops text into the browser.
 # Variables:

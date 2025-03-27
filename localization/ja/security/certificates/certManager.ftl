@@ -26,9 +26,9 @@ certmgr-people = You have certificates on file that identify these people
 certmgr-server = These entries identify server certificate error exceptions
 certmgr-ca = You have certificates on file that identify these certificate authorities
 
-certmgr-edit-ca-cert =
+certmgr-edit-ca-cert2 =
     .title = Edit CA certificate trust settings
-    .style = width: 48em;
+    .style = min-width: 48em;
 
 certmgr-edit-cert-edit-trust = Edit trust settings:
 
@@ -38,9 +38,9 @@ certmgr-edit-cert-trust-ssl =
 certmgr-edit-cert-trust-email =
     .label = This certificate can identify mail users.
 
-certmgr-delete-cert =
+certmgr-delete-cert2 =
     .title = 証明書の削除
-    .style = width: 48em; height: 24em;
+    .style = min-width: 48em; min-height: 24em;
 
 certmgr-cert-host =
     .label = Host
@@ -50,9 +50,6 @@ certmgr-cert-name =
 
 certmgr-cert-server =
     .label = サーバー
-
-certmgr-override-lifetime =
-    .label = Lifetime
 
 certmgr-token-name =
     .label = セキュリティ デバイス
@@ -68,6 +65,9 @@ certmgr-email =
 
 certmgr-serial =
     .label = シリアル番号
+
+certmgr-fingerprint-sha-256 =
+    .label = SHA-256 フィンガープリント
 
 certmgr-view =
     .label = 表示…
@@ -160,18 +160,18 @@ edit-trust-ca = “{ $certName }” は認証局の証明書です
 delete-user-cert-title =
     .title = あなたの証明書を削除
 delete-user-cert-confirm = これらの証明書を削除してもよろしいですか?
-delete-user-cert-impact = If you delete one of your own certificates, you can no longer use it to identify yourself.
+delete-user-cert-impact = 自分の証明書を削除すると、それを使用して本人確認ができなくなります。
 
 
 delete-ssl-override-title =
-    .title = Delete Server Certificate Exception
-delete-ssl-override-confirm = Are you sure you want to delete this server exception?
-delete-ssl-override-impact = If you delete a server exception, you restore the usual security checks for that server and require it uses a valid certificate.
+    .title = サーバー証明書の例外を削除
+delete-ssl-override-confirm = このサーバー例外を削除してもよろしいですか？
+delete-ssl-override-impact = サーバー例外を削除すると、通常のセキュリティチェックが復元され、そのサーバーには有効な証明書が必要になります。
 
 delete-ca-cert-title =
-    .title = Delete or Distrust CA Certificates
-delete-ca-cert-confirm = You have requested to delete these CA certificates. For built-in certificates all trust will be removed, which has the same effect. Are you sure you want to delete or distrust?
-delete-ca-cert-impact = If you delete or distrust a certificate authority (CA) certificate, this application will no longer trust any certificates issued by that CA.
+    .title = 認証局 (CA) 証明書の削除または信頼解除
+delete-ca-cert-confirm = これらの認証局 (CA) 証明書を削除するようリクエストしました。組み込みの証明書に関しては、すべての信頼が削除され、同じ効果を持ちます。本当に削除または信頼を解除してもよろしいですか？
+delete-ca-cert-impact = 認証局 (CA) の証明書を削除または信頼解除すると、その認証局 (CA) によって発行された証明書は、このアプリケーションで信頼されなくなります。
 
 
 delete-email-cert-title =
@@ -197,25 +197,25 @@ certificate-not-available = (利用できません)
 
 ## Used to show whether an override is temporary or permanent
 
-permanent-override = Permanent
-temporary-override = Temporary
+permanent-override = 永続的
+temporary-override = 一時的
 
 ## Add Security Exception dialog
 
-add-exception-branded-warning = You are about to override how { -brand-short-name } identifies this site.
-add-exception-invalid-header = This site attempts to identify itself with invalid information.
-add-exception-domain-mismatch-short = Wrong Site
-add-exception-domain-mismatch-long = The certificate belongs to a different site, which could mean that someone is trying to impersonate this site.
-add-exception-expired-short = Outdated Information
-add-exception-expired-long = The certificate is not currently valid. It may have been stolen or lost, and could be used by someone to impersonate this site.
-add-exception-unverified-or-bad-signature-short = Unknown Identity
-add-exception-unverified-or-bad-signature-long = The certificate is not trusted because it hasn’t been verified as issued by a trusted authority using a secure signature.
-add-exception-valid-short = Valid Certificate
-add-exception-valid-long = This site provides valid, verified identification.  There is no need to add an exception.
-add-exception-checking-short = Checking Information
-add-exception-checking-long = Attempting to identify this site…
-add-exception-no-cert-short = No Information Available
-add-exception-no-cert-long = Unable to obtain identification status for this site.
+add-exception-branded-warning = { -brand-short-name } のサイト識別方法を上書きしようとしています。
+add-exception-invalid-header = このサイトは無効な情報で自身を識別しようとしています。
+add-exception-domain-mismatch-short = 間違ったサイトです
+add-exception-domain-mismatch-long = 証明書が別のサイトに属しており、誰かがこのサイトになりすまそうとしている可能性があります。
+add-exception-expired-short = 古い情報です
+add-exception-expired-long = 証明書が現在有効ではありません。盗まれたり紛失したりしている可能性があり、なりすましに使用される可能性があります。
+add-exception-unverified-or-bad-signature-short = 不明な識別情報です
+add-exception-unverified-or-bad-signature-long = 証明書が信頼できる機関によって安全な署名で発行されたことが確認されていないため、信頼されていません。
+add-exception-valid-short = 有効な証明書です
+add-exception-valid-long = このサイトは有効で検証済みの識別情報を提供しています。例外を追加する必要はありません。
+add-exception-checking-short = 情報を確認しています
+add-exception-checking-long = このサイトの識別情報を確認しています…
+add-exception-no-cert-short = 情報が利用不可です
+add-exception-no-cert-long = このサイトの識別情報を取得できませんでした。
 
 ## Certificate export "Save as" and error dialogs
 

@@ -1475,7 +1475,7 @@ collection-usage-ping =
 collection-usage-ping-description = これは { -vendor-short-name } がアクティブ ユーザーを推定するのに役立ちます。
 
 collection-health-report2 =
-    .label = { -brand-short-name } が技術データなインタラクションデータを { -vendor-short-name } に送信します
+    .label = 技術データとインタラクションデータを { -vendor-short-name } に送信します
     .accesskey = r
 collection-health-report-link = さらに詳しく
 collection-health-report-description = これにより { -brand-product-name } の機能、パフォーマンス、安定性を向上させるのに役立ちます。
@@ -1572,7 +1572,7 @@ space-alert-under-5gb-message2 = <strong>{ -brand-short-name } を実行する�
 
 httpsonly-header = HTTPS-Only モード
 
-httpsonly-description2 = { -brand-short-name } は、アクセスしたサイトへの安全で暗号化された接続を作成します。HTTPS-Only が有効になっていて、安全でない接続を行おうとした場合は { -brand-short-name } から警告が表示されます。
+httpsonly-description3 = ウェブサイトへの安全な接続のみを許可します。{ -brand-short-name } は安全でない接続を行う前に確認を求めます。
 
 httpsonly-learn-more2 = HTTPS-Only モードとは？
 

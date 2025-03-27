@@ -75,11 +75,7 @@ item-history-and-downloads =
     .label = ページの表示履歴とファイルのダウンロード履歴
     .accesskey = B
 
-item-history-form-data-downloads =
-    .label = 履歴
-    .accesskey = H
-
-item-history-form-data-downloads-description = サイトとダウンロードの履歴、保存されたフォーム情報、検索を消去します
+item-history-and-downloads-description = 検索履歴、サイト履歴、およびダウンロード履歴を消去します
 
 item-cookies =
     .label = Cookie
@@ -126,6 +122,12 @@ item-form-search-history =
 item-site-prefs =
     .label = サイトの設定
     .accesskey = i
+
+item-formdata-prefs =
+    .label = 保存されたフォーム情報
+    .accesskey = o
+
+item-formdata-description = 名前、メールアドレス、フォームに入力したその他の項目などを消去します
 
 item-site-prefs-description = 権限とサイトの設定を初期化します
 
