@@ -46,7 +46,6 @@ newtab-search-box-input =
 
 newtab-topsites-add-search-engine-header = 検索エンジンを追加
 newtab-topsites-add-shortcut-header = 新しいショートカット
-newtab-topsites-edit-topsites-header = トップサイトを編集
 newtab-topsites-edit-shortcut-header = ショートカットを編集
 newtab-topsites-add-shortcut-label = ショートカットを追加
 newtab-topsites-title-label = タイトル
@@ -98,10 +97,6 @@ newtab-dismiss-button-tooltip =
 newtab-menu-content-tooltip =
     .title = メニューを開きます
     .aria-label = { $title } のコンテキストメニューを開く
-# Tooltip on an empty topsite box to open the New Top Site dialog.
-newtab-menu-topsites-placeholder-tooltip =
-    .title = このサイトを編集します
-    .aria-label = このサイトを編集します
 
 ## Context Menu: These strings are displayed in a context menu and are meant as a call to action for a given page.
 
@@ -196,23 +191,7 @@ newtab-label-source-read-time = { $source } · { $timeToRead } 分
 ## Section Menu: These strings are displayed in the section context menu and are
 ## meant as a call to action for the given section.
 
-newtab-section-menu-remove-section = セクションを削除
-newtab-section-menu-collapse-section = セクションを折りたたむ
-newtab-section-menu-expand-section = セクションを広げる
-newtab-section-menu-manage-section = セクションを管理
-newtab-section-menu-manage-webext = 拡張機能を管理
-newtab-section-menu-add-topsite = トップサイトを追加
-newtab-section-menu-add-search-engine = 検索エンジンを追加
-newtab-section-menu-move-up = 上へ移動
-newtab-section-menu-move-down = 下へ移動
 newtab-section-menu-privacy-notice = プライバシーノーティス (パーソナルデータの取り扱い) 
-
-## Section aria-labels
-
-newtab-section-collapse-section-label =
-    .aria-label = セクションを折りたたむ
-newtab-section-expand-section-label =
-    .aria-label = セクションを広げる
 
 ## Section Headers.
 
@@ -238,19 +217,11 @@ newtab-discovery-empty-section-topstories-loading = 読み込み中…
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = しまった! このセクションをほぼ読み込みましたが、完全ではありませんでした。
 
-## Pocket Content Section.
-
-# A save to Pocket button that shows over the card thumbnail on hover.
-newtab-pocket-image =
-    .aria-label = { -pocket-brand-name }
-newtab-pocket-save = 保存
-newtab-pocket-saved = 保存しました
-
 ## Thumbs up and down buttons that shows over a newtab stories card thumbnail on hover.
 
 # Clicking the thumbs up button for this story will result in more stories like this one being recommended
 newtab-pocket-thumbs-up-tooltip =
-    .title = More like this
+    .title = これに似た記事をもっと表示します
 # Clicking the thumbs down button for this story informs us that the user does not feel like the story is interesting for them
 newtab-pocket-thumbs-down-tooltip =
     .title = 必要ありません
@@ -258,13 +229,13 @@ newtab-pocket-thumbs-down-tooltip =
 newtab-toast-thumbs-up-or-down2 =
     .message = ありがとうございます。あなたのフィードバックはフィードの改善に役立ちます。
 newtab-toast-dismiss-button =
-    .title = Dismiss
-    .aria-label = Dismiss
+    .title = 閉じる
+    .aria-label = 閉じる
 
 ## Pocket content onboarding experience dialog and modal for new users seeing the Pocket section for the first time, shown as the first item in the Pocket section.
 
 newtab-pocket-onboarding-discover = 最高のウェブを発見しましょう
-newtab-pocket-onboarding-cta = { -pocket-brand-name } explores a diverse range of publications to bring the most informative, inspirational, and trustworthy content right to your { -brand-product-name } browser.
+newtab-pocket-onboarding-cta = { -pocket-brand-name } は、多様な出版物を探索し、最も有益で刺激的で信頼できるコンテンツを { -brand-product-name } ブラウザーに直接お届けします。
 
 ## Error Fallback Content.
 ## This message and suggested action link are shown in each section of UI that fails to render.
@@ -285,15 +256,10 @@ newtab-custom-row-selector =
             [one] { $num } 行
            *[other] { $num } 行
         }
-newtab-custom-sponsored-sites = スポンサー付きショートカット
 newtab-custom-stories-toggle =
   .label = おすすめのストーリー
   .description = { -brand-product-name } ファミリーによって厳選された優良コンテンツ
-newtab-custom-pocket-sponsored = スポンサー記事
 newtab-custom-pocket-show-recent-saves = 最近の保存を表示
-newtab-custom-recent-toggle =
-  .label = 最近のアクティビティ
-  .description = 最近のサイトとコンテンツの選択
 newtab-custom-weather-toggle =
   .label = 天気
   .description = 今日の天気予報が一目でわかる
@@ -379,13 +345,13 @@ newtab-wallpaper-blue-flowers = Closeup photography of blue-petaled flowers in b
 # “Celestial” referring to astronomy; positioned in or relating to the sky,
 # or outer space as observed in astronomy.
 # Not to be confused with religious definition of the word.
-newtab-wallpaper-category-title-celestial = Celestial
-newtab-wallpaper-celestial-lunar-eclipse = Lunar eclipse
-newtab-wallpaper-celestial-earth-night = Night photo from low Earth orbit
-newtab-wallpaper-celestial-starry-sky = Starry sky
-newtab-wallpaper-celestial-eclipse-time-lapse = Lunar eclipse time lapse
-newtab-wallpaper-celestial-black-hole = Black hole galaxy illustration
-newtab-wallpaper-celestial-river = Satellite image of river
+newtab-wallpaper-category-title-celestial = 天体
+newtab-wallpaper-celestial-lunar-eclipse = 月食
+newtab-wallpaper-celestial-earth-night = 低軌道から撮影された夜の地球
+newtab-wallpaper-celestial-starry-sky = 星空
+newtab-wallpaper-celestial-eclipse-time-lapse = 月食のタイムラプス
+newtab-wallpaper-celestial-black-hole = ブラックホールの銀河イラスト
+newtab-wallpaper-celestial-river = 人工衛星が撮影した川の画像
 
 
 # Variables
@@ -397,7 +363,7 @@ newtab-wallpaper-feature-highlight-content = 新しいタブに壁紙を設定�
 newtab-wallpaper-feature-highlight-button = Got it
 # Tooltip for dismiss button
 feature-highlight-dismiss-button =
-    .title = Dismiss
+    .title = 閉じる
     .aria-label = ポップアップを閉じます
 feature-highlight-wallpaper =
     .title = { -newtab-wallpaper-feature-highlight-header }
@@ -425,10 +391,10 @@ newtab-weather-menu-change-weather-display-simple = シンプル表示に切り�
 newtab-weather-menu-weather-display-option-detailed = 詳細
 newtab-weather-menu-change-weather-display-detailed = 詳細表示に切り替える
 newtab-weather-menu-temperature-units = 温度の単位
-newtab-weather-menu-temperature-option-fahrenheit = 華氏(℉)
-newtab-weather-menu-temperature-option-celsius = 摂氏(℃)
-newtab-weather-menu-change-temperature-units-fahrenheit = 華氏(℉)に切り替える
-newtab-weather-menu-change-temperature-units-celsius = 摂氏(℃)に切り替える
+newtab-weather-menu-temperature-option-fahrenheit = 華氏
+newtab-weather-menu-temperature-option-celsius = 摂氏
+newtab-weather-menu-change-temperature-units-fahrenheit = 華氏に切り替える
+newtab-weather-menu-change-temperature-units-celsius = 摂に切り替える
 newtab-weather-menu-hide-weather = 新しいタブで天気予報を表示しない
 newtab-weather-menu-learn-more = さらに詳しく
 # This message is shown if user is working offline
@@ -509,3 +475,10 @@ newtab-section-mangage-topics-followed-topics = フォロー済み
 newtab-section-mangage-topics-followed-topics-empty-state = まだ話題をフォローしていません。
 newtab-section-mangage-topics-blocked-topics = ブロック済み
 newtab-section-mangage-topics-blocked-topics-empty-state = まだ話題をブロックしていません。
+
+# Strings for custom wallpaper highlight
+
+newtab-custom-wallpaper-title = 壁紙をカスタマイズ出来るようになりました。
+# 'Make firefox yours" means to customize or personalize
+newtab-custom-wallpaper-subtitle = 自分の壁紙をアップロードするか、カスタムカラーを選んで { -brand-product-name } を自分好みにカスタマイズしましょう。
+newtab-custom-wallpaper-cta = 試してみる

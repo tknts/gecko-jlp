@@ -34,7 +34,7 @@ update-failed-main =
 update-policy-disabled = 更新は所属している組織によって無効化されています。
 update-noUpdatesFound = { -brand-short-name } は最新の状態です
 aboutdialog-update-checking-failed = 更新の確認に失敗しました。
-update-otherInstanceHandlingUpdates = { -brand-short-name } is being updated by another instance
+update-otherInstanceHandlingUpdates = 別のインスタンスが { -brand-short-name } を更新しています
 
 ## Variables:
 ##   $displayUrl (String): URL to page with download instructions. Example: www.mozilla.org/firefox/nightly/

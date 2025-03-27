@@ -164,9 +164,6 @@ about-debugging-setup-network-troubleshoot = ネットワーク上の場所の�
 # Clicking on it will add the new network location to the list.
 about-debugging-network-locations-add-button = 追加
 
-# Text to display when there are no locations to show.
-about-debugging-network-locations-empty-text = ネットワーク上の場所はまだ追加されていません。
-
 # Text of the label for the text input that allows users to add new network locations in
 # the Connect page. A host is a hostname and a port separated by a colon, as suggested by
 # the input's placeholder "localhost:6080".

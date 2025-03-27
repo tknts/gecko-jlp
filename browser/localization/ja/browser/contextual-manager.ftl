@@ -113,61 +113,44 @@ contextual-manager-passwords-export-file-picker-csv-filter-title =
      *[other] CSV ファイル
   }
 
-# Variables
-#   $count (number) - Number of passwords
-contextual-manager-passwords-count =
-  { $count ->
-      [one] { $count } password
-     *[other] { $count } passwords
-  }
-
-# Variables
-#   $count (number) - Number of filtered passwords
-#   $total (number) - Total number of passwords
-contextual-manager-passwords-filtered-count =
-  { $total ->
-      [one] { $count } of { $total } password
-     *[other] { $count } of { $total } passwords
-  }
-
 # Confirm the removal of all saved passwords
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-title =
   { $total ->
-     [1] Remove password?
-    *[other] Remove all { $total } passwords?
+     [1] パスワードを削除しますか?
+    *[other] { $total } 個のパスワードをすべて削除しますか?
   }
 
 # Checkbox label to confirm the removal of saved passwords
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-confirm =
   { $total ->
-     [1] Yes, remove password
-    *[other] Yes, remove passwords
+     [1] はい。パスワードを削除します
+    *[other] はい。複数のパスワードを削除します
   }
 
 # Button label to confirm removal of saved passwords
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-confirm-button =
   { $total ->
-     [1] Remove
-    *[other] Remove all
+     [1] 削除
+    *[other] すべて削除
   }
 
 # Message to confirm the removal of all saved passwords when user DOES NOT HAVE SYNC
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-message =
   { $total ->
-     [1] This will remove your password saved to { -brand-short-name } and any breach alerts. You cannot undo this action.
-    *[other] This will remove the passwords saved to { -brand-short-name } and any breach alerts. You cannot undo this action.
+     [1] これにより、{ -brand-short-name } に保存されたパスワードと漏洩警告が削除されます。この操作は元に戻せません。
+    *[other] これにより、{ -brand-short-name } に保存されたすべてのパスワードと漏洩警告が削除されます。この操作は元に戻せません。
   }
 
 # Message for modal to confirm the removal of all saved passwords when user HAS SYNC
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-message-sync =
   { $total ->
-     [1] This will remove the password saved to { -brand-short-name } on all your synced devices and remove any breach alerts. You cannot undo this action.
-    *[other] This will remove all passwords saved to { -brand-short-name } on all your synced devices and remove any breach alerts. You cannot undo this action.
+     [1] これにより、すべての同期デバイス上の { -brand-short-name } に保存されたパスワードと漏洩警告が削除されます。この操作は元に戻せません。
+    *[other] これにより、すべての同期デバイス上の { -brand-short-name } に保存されたすべてのパスワードと漏洩警告が削除されます。この操作は元に戻せません。
   }
 
 contextual-manager-passwords-origin-label = Website
@@ -270,7 +253,9 @@ contextual-manager-website-icon =
   .alt = ウェブサイトのアイコン
 contextual-manager-copy-icon =
   .alt = コピーします
-contextual-manager-check-icon =
+contextual-manager-check-icon-username =
+  .alt = コピーしました
+contextual-manager-check-icon-password =
   .alt = コピーしました
 contextual-manager-alert-icon =
   .alt = 警告
@@ -278,38 +263,38 @@ contextual-manager-alert-icon =
 # Variables
 #   $url (string) - The url associated with the login
 contextual-manager-origin-login-line =
-  .aria-label = Visit { $url }
-  .title = Visit { $url }
+  .aria-label = { $url } を訪問
+  .title = { $url } を訪問
 # "(Warning)" indicates that a login's origin field has an alert icon.
 # Variables
 #   $url (string) - The url associated with the login
 contextual-manager-origin-login-line-with-alert =
-  .aria-label = Visit { $url } (Warning)
-  .title = Visit { $url } (Warning)
+  .aria-label = { $url } を訪問 (警告)
+  .title = { $url } を訪問 (警告)
 # Variables
 #   $username (string) - The username associated with the login
 contextual-manager-username-login-line =
-  .aria-label = Copy Username { $username }
+  .aria-label = ユーザー名をコピーします { $username }
   .title = ユーザー名のコピー { $username }
 # "(Warning)" indicates that a login's username field has an alert icon.
 # Variables
 #   $username (string) - The username associated with the login
 contextual-manager-username-login-line-with-alert =
-  .aria-label = Copy Username { $username } (Warning)
-  .title = Copy Username { $username } (Warning)
+  .aria-label = ユーザー名をコピーします { $username } (警告)
+  .title = ユーザー名のコピー { $username } (警告)
 contextual-manager-password-login-line =
-  .aria-label = Copy Password
+  .aria-label = パスワードのコピー
   .title = パスワードのコピー
 # "(Warning)" indicates that a login's password field has an alert icon.
 contextual-manager-password-login-line-with-alert =
-  .aria-label = Copy Password (Warning)
-  .title = パスワードのコピー (Warning)
+  .aria-label = パスワードのコピー (警告)
+  .title = パスワードのコピー (警告)
 contextual-manager-edit-login-button = 編集
   .tooltiptext = パスワードを編集します
 contextual-manager-view-alert-heading =
   .heading = 警告の表示
 contextual-manager-view-alert-button =
-  .tooltiptext = Review alert
+  .tooltiptext = 警告の表示
 
 contextual-manager-show-password-button =
   .aria-label = パスワードの表示します
