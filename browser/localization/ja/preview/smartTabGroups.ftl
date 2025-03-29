@@ -22,10 +22,13 @@ tab-group-editor-deselect-suggestions =
 tab-group-editor-select-suggestions =
   .label = すべて選択
 
-tab-group-editor-no-tabs-found =
-    .label = 類似のタブを開くと、{ -brand-short-name } はこのグループにタブを提案します。
+tab-group-editor-no-tabs-found-title =
+    .label = 候補が見つかりませんでした
 
-tab-group-suggestions-disclaimer = { -brand-short-name } は AI を使用して <a data-l10n-name="support">タブとグループの名前を提案します</a>。一部の提案は不正確な場合があります。
+tab-group-editor-no-tabs-found-message = 類似のタブを開くと、AI が名前を提案し、このウィンドウのタブとグループ化します。
+
+# Message is shown to the user whenever there are smart tags suggest
+tab-group-editor-information-message = AI が、このウィンドウの類似タブを分析し、適切な名前とグループを提案します。
 
 # Title appears when user is shown the optin flow to use smart tab grouping
 tab-group-suggestions-optin-title = タブの提案をさらに表示する
@@ -36,6 +39,8 @@ tab-group-suggestions-optin-message = { -brand-short-name } は、開いてい�
 tab-group-suggestions-optin-title-download = 提案を検索中
 
 tab-group-suggestions-optin-message-download = しばらくお待ちください。
+
+tab-group-suggestions-optin-message-footer = AI は<a data-l10n-name="settings">設定</a>でカスタマイズできます。
 
 # This is the label for the User setting for turning on/off Smart Tab Grouping. The label belongs in preferences/preferences.ftl
 settings-tabs-show-group-and-tab-suggestions =
