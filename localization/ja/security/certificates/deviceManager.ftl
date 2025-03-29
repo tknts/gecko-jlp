@@ -30,19 +30,19 @@ devmgr-button-changepw =
     .accesskey = P
 
 devmgr-button-load =
-    .label = Load
+    .label = 読み込み
     .accesskey = L
 
 devmgr-button-unload =
-    .label = Unload
+    .label = アンロード
     .accesskey = U
 
 devmgr-button-enable-fips =
-    .label = Enable FIPS
+    .label = FIPS を有効化
     .accesskey = F
 
 devmgr-button-disable-fips =
-    .label = Disable FIPS
+    .label = FIPS を無効化
     .accesskey = F
 
 ## Strings used for load device
@@ -57,7 +57,7 @@ load-device-modname =
     .accesskey = M
 
 load-device-modname-default =
-    .value = New PKCS#11 Module
+    .value = 新しい PKCS#11 モジュール
 
 load-device-filename =
     .value = モジュールのファイル名
@@ -73,13 +73,13 @@ devinfo-status =
     .label = 状態
 
 devinfo-status-disabled =
-    .label = Disabled
+    .label = 無効
 
 devinfo-status-not-present =
-    .label = Not Present
+    .label = 未接続
 
 devinfo-status-uninitialized =
-    .label = Uninitialized
+    .label = 未初期化
 
 devinfo-status-not-logged-in =
     .label = ログインしていません
@@ -88,10 +88,10 @@ devinfo-status-logged-in =
     .label = ログイン済み
 
 devinfo-status-ready =
-    .label = Ready
+    .label = 利用できます
 
 devinfo-desc =
-    .label = Description
+    .label = 説明
 
 devinfo-man-id =
     .label = 製造元

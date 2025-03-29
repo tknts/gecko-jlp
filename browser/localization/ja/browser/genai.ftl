@@ -108,8 +108,11 @@ genai-options-about-chatbot =
 ## Chatbot onboarding
 
 genai-onboarding-header = ブラウジングしながらページの要約やブレインストーミングなどが行えます
+genai-onboarding-choose-header = { -brand-short-name } のサイドバーで使用する AI チャットボットを選択してください
 # "Switch anytime" refers to allowing the user to switch to a different chatbot.
-genai-onboarding-description = Choose an AI chatbot to use in the { -brand-short-name } sidebar. We’ll show details about each chatbot when you select it. Switch anytime. <a data-l10n-name="learn-more">Learn more</a>
+genai-onboarding-description = お好みの AI チャットボットを { -brand-short-name } のサイドバーで利用できます。選択すると、それぞれの詳細が表示されます。いつでも切り替え可能です。<a data-l10n-name="learn-more">さらに詳しく</a>
+# "Switch anytime" refers to allowing the user to switch to a different chatbot.
+genai-onboarding-choose-description = いつでも切り替え可能です。各チャットボットの特徴や違いについては<a data-l10n-name="learn-more">詳細</a>をご覧ください。
 genai-onboarding-primary = 続ける
 genai-onboarding-secondary = 閉じる
 genai-onboarding-claude-tooltip =

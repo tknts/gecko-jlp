@@ -9,44 +9,44 @@ certmgr-tab-mine =
     .label = あなたの証明書
 
 certmgr-tab-remembered =
-    .label = Authentication Decisions
+    .label = 認証の決定
 
 certmgr-tab-people =
-    .label = People
+    .label = 証明書所有者
 
 certmgr-tab-servers =
     .label = サーバー
 
 certmgr-tab-ca =
-    .label = Authorities
+    .label = 認証局
 
-certmgr-mine = You have certificates from these organizations that identify you
-certmgr-remembered = These certificates are used to identify you to websites
-certmgr-people = You have certificates on file that identify these people
-certmgr-server = These entries identify server certificate error exceptions
-certmgr-ca = You have certificates on file that identify these certificate authorities
+certmgr-mine = あなたを識別するために、これらの組織から発行された証明書を所有しています
+certmgr-remembered = これらの証明書は、ウェブサイトに対してあなたを識別するために使用されます
+certmgr-people = これらの証明書は、特定の個人を識別するために保存されています
+certmgr-server = これらのエントリは、サーバー証明書のエラー例外を識別します
+certmgr-ca = これらの証明書は、認証局 (CA) を識別するために保存されています
 
 certmgr-edit-ca-cert2 =
-    .title = Edit CA certificate trust settings
+    .title = 認証局 (CA) 証明書の信頼設定を編集
     .style = min-width: 48em;
 
-certmgr-edit-cert-edit-trust = Edit trust settings:
+certmgr-edit-cert-edit-trust = 信頼設定を編集:
 
 certmgr-edit-cert-trust-ssl =
-    .label = This certificate can identify websites.
+    .label = この証明書はウェブサイトを識別できます。
 
 certmgr-edit-cert-trust-email =
-    .label = This certificate can identify mail users.
+    .label = この証明書はメールユーザーを識別できます。
 
 certmgr-delete-cert2 =
     .title = 証明書の削除
     .style = min-width: 48em; min-height: 24em;
 
 certmgr-cert-host =
-    .label = Host
+    .label = ホスト
 
 certmgr-cert-name =
-    .label = Certificate Name
+    .label = 証明書の名前
 
 certmgr-cert-server =
     .label = サーバー
@@ -109,13 +109,13 @@ exception-mgr =
     .title = セキュリティの例外を追加
 
 exception-mgr-extra-button =
-    .label = Confirm Security Exception
+    .label = セキュリティ例外を確認
     .accesskey = C
 
 exception-mgr-supplemental-warning = 本物の銀行やオンラインストア、およびその他の公開サイトでは、この操作を求められることはありません。
 
 exception-mgr-cert-location-url =
-    .value = Location:
+    .value = ロケーション:
 
 exception-mgr-cert-location-download =
     .label = 証明書を取得
@@ -130,10 +130,10 @@ exception-mgr-permanent =
     .accesskey = P
 
 pk11-bad-password = 入力されたパスワードは正しくありません。
-pkcs12-decode-err = Failed to decode the file. Either it is not in PKCS #12 format, has been corrupted, or the password you entered was incorrect.
-pkcs12-unknown-err-restore = Failed to restore the PKCS #12 file for unknown reasons.
-pkcs12-unknown-err-backup = Failed to create the PKCS #12 backup file for unknown reasons.
-pkcs12-unknown-err = The PKCS #12 operation failed for unknown reasons.
+pkcs12-decode-err = ファイルのデコードに失敗しました。PKCS #12 形式ではないか、破損しているか、入力したパスワードが間違っている可能性があります。
+pkcs12-unknown-err-restore = PKCS #12 ファイルの復元に失敗しました。原因は不明です。
+pkcs12-unknown-err-backup = PKCS #12 バックアップファイルの作成に失敗しました。原因は不明です。
+pkcs12-unknown-err = PKCS #12 操作が不明な理由で失敗しました。
 pkcs12-info-no-smartcard-backup = スマートカードなどのハードウェア セキュリティ デバイスから証明書をバックアップすることはできません。
 pkcs12-dup-data = 証明書と秘密鍵はセキュリティ デバイスにすでに存在ています。
 
@@ -176,8 +176,8 @@ delete-ca-cert-impact = 認証局 (CA) の証明書を削除または信頼解�
 
 delete-email-cert-title =
     .title = 電子メール証明書を削除
-delete-email-cert-confirm = Are you sure you want to delete these people’s e-mail certificates?
-delete-email-cert-impact = If you delete a person’s e-mail certificate, you will no longer be able to send encrypted e-mail to that person.
+delete-email-cert-confirm = これらの電子メール証明書を削除してもよろしいですか？
+delete-email-cert-impact = 人の電子メール証明書を削除すると、その人に暗号化された電子メールを送信できなくなります。
 
 # Used for semi-uniquely representing a cert.
 #
@@ -221,8 +221,8 @@ add-exception-no-cert-long = このサイトの識別情報を取得できませ
 
 save-cert-as = 証明書をファイルに保存
 cert-format-base64 = X.509 証明書 (PEM)
-cert-format-base64-chain = X.509 Certificate with chain (PEM)
-cert-format-der = X.509 Certificate (DER)
+cert-format-base64-chain = X.509 証明書チェーン (PEM)
+cert-format-der = X.509 証明書 (DER)
 cert-format-pkcs7 = X.509 証明書 (PKCS#7)
-cert-format-pkcs7-chain = X.509 Certificate with chain (PKCS#7)
+cert-format-pkcs7-chain = X.509 証明書チェーン (PKCS#7)
 write-file-failure = ファイルエラー

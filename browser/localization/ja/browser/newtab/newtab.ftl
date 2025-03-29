@@ -112,6 +112,7 @@ newtab-menu-delete-pocket = { -pocket-brand-name } から削除
 newtab-menu-archive-pocket = { -pocket-brand-name } にアーカイブ
 newtab-menu-show-privacy-info = スポンサーとあなたのプライバシー
 newtab-menu-about-fakespot = { -fakespot-brand-name } について
+newtab-menu-report-content = このコンテンツを報告
 # Context menu option to personalize New Tab recommended stories by blocking a section of stories,
 # e.g. "Sports". "Block" is a verb here.
 newtab-menu-section-block = ブロック
@@ -123,6 +124,7 @@ newtab-menu-section-unfollow = 話題のフォローを解除
 
 newtab-menu-manage-sponsored-content = スポンサードコンテンツの管理
 newtab-menu-our-sponsors-and-your-privacy = スポンサーとあなたのプライバシー
+newtab-menu-report-this-ad = この広告を報告
 
 ## Message displayed in a modal window to explain privacy and provide context for sponsored content.
 
@@ -274,7 +276,7 @@ newtab-wallpaper-upload-image = 画像をアップロード
 newtab-wallpaper-custom-color = 色の選択
 # Variables
 #   $file_size (number) - The number of the maximum image file size (in MB) that may be uploaded
-newtab-wallpaper-error-max-file-size = 画像がファイルサイズ制限の {$file_size} MB を超えています。より小さいファイルをアップロードしてください。
+newtab-wallpaper-error-max-file-size = 画像がファイルサイズ制限の { $file_size }MB を超えています。より小さいファイルをアップロードしてください。
 newtab-wallpaper-error-file-type = ファイルをアップロードできませんでした。別のファイル形式で再試行してください
 newtab-wallpaper-light-red-panda = レッサーパンダ
 newtab-wallpaper-light-mountain = 雪山

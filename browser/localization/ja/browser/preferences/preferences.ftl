@@ -739,8 +739,6 @@ home-prefs-highlights-options-bookmarks =
     .label = ブックマーク
 home-prefs-highlights-option-most-recent-download =
     .label = 最近のダウンロード
-home-prefs-highlights-option-saved-to-pocket =
-    .label = { -pocket-brand-name } に保存されたページ
 
 home-prefs-recent-activity-header =
     .label = 最近のアクティビティ
