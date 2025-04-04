@@ -105,7 +105,7 @@ manifest-json-link-data-url = マニフェストはデータ URL に埋め込ま
 # in the manifest.
 # Variables:
 #   $purpose (string) - Manifest purpose
-manifest-icon-purpose = 目的: <code>{$purpose}</code>
+manifest-icon-purpose = 目的: <code>{ $purpose }</code>
 
 # Text displayed as the alt attribute for <img> tags showing the icons in the
 # manifest.

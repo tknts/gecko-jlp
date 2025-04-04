@@ -13,9 +13,6 @@ sidebar-menu-history =
 sidebar-menu-synced-tabs =
   .label = 同期されたタブ
 
-sidebar-menu-megalist =
-  .label = パスワード
-
 sidebar-menu-close =
   .label = サイドバーを閉じる
 

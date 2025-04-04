@@ -10,7 +10,7 @@
 webconsole-commands-usage-block =
   :block URL_STRING
 
-  Start blocking network requests
+  ネットワークリクエストのブロックを開始
 
     It accepts only one URL_STRING argument, an unquoted string which will be used to block all requests whose URL includes this string.
     Use :unblock or the Network Monitor request blocking sidebar to undo this.
@@ -19,18 +19,6 @@ webconsole-commands-usage-block =
 webconsole-commands-usage-unblock =
   :unblock URL_STRING
 
-  Stop blocking network requests
+  ネットワークリクエストのブロックを解除
 
-    It accepts only one argument, the exact same string previously passed to :block.
-
-# Usage string for :trace command
-webconsole-commands-usage-trace2 =
-  :trace
-
-  Toggles the JavaScript tracer
-
-    It supports the following arguments:
-      --logMethod to be set to ‘console’ for logging to the web console (the default), or ‘stdout’ for logging to the standard output,
-      --values Optional flag to be passed to log function call arguments as well as returned values (when returned frames are enabled).
-      --prefix Optional string which will be logged in front of all the trace logs,
-      --help or --usage to show this message.
+    受け入れる引数は 1 つだけで、これは :block に以前渡されたのとまったく同じ文字列です。

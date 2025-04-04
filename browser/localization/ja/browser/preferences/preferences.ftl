@@ -467,19 +467,12 @@ applications-type-description-with-type = { $type-description } ({ $type })
 #   $type (string) - The MIME type (e.g application/binary)
 applications-file-ending-with-type = { applications-file-ending } ({ $type })
 
-# Variables:
-#   $plugin-name (string) - Name of a plugin (e.g Adobe Flash)
-applications-use-plugin-in =
-    .label = { $plugin-name } を使用 ({ -brand-short-name } 内で表示)
 applications-open-inapp =
     .label = { -brand-short-name } で開く
 
 ## The strings in this group are used to populate
 ## selected label element based on the string from
 ## the selected menu item.
-
-applications-use-plugin-in-label =
-    .value = { applications-use-plugin-in.label }
 
 applications-action-save-label =
     .value = { applications-action-save.label }

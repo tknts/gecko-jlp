@@ -184,7 +184,7 @@ shopping-unanalyzed-product-analyze-button = レビューの品質を確認す�
 
 more-to-consider-ad-label =
   .label = さらに考慮すべきこと
-ad-by-fakespot = { -fakespot-brand-name } による広告
+shopping-sponsored-label = スポンサー
 
 ## Shopping survey strings.
 
@@ -271,7 +271,7 @@ shopping-onboarding-dynamic-subtitle-1 = 購入する前に <b>{ $currentSite }<
 shopping-onboarding-single-subtitle = <b>{ $currentSite }</b> の信頼できる製品レビューを購入前に確認しましょう。{ -brand-product-name } の実験的機能である「レビュー チェッカー」は、ブラウザーに組み込まれています。
 
 shopping-onboarding-body = { -fakespot-brand-full-name } のパワーを活用して、偏ったレビューや不正なレビューを回避するお手伝いをします。私たちの AI モデルは常に進化しており、安全なショッピング体験を提供します。<a data-l10n-name="learn_more">さらに詳しく</a>
-shopping-onboarding-opt-in-privacy-policy-and-terms-of-use3 = “{ shopping-onboarding-opt-in-button }“ を選択すると { -brand-product-name } の <a data-l10n-name="privacy_policy">プライバシー ポリシー</a> と  { -fakespot-brand-name } の <a data-l10n-name="terms_of_use">利用規約</a> に同意したことになります。
+shopping-onboarding-opt-in-privacy-policy-and-terms-of-use3 = “{ shopping-onboarding-opt-in-button }” を選択すると { -brand-product-name } の <a data-l10n-name="privacy_policy">プライバシー ポリシー</a> と  { -fakespot-brand-name } の <a data-l10n-name="terms_of_use">利用規約</a> に同意したことになります。
 shopping-onboarding-opt-in-button = Yes, try it
 shopping-onboarding-not-now-button = Not now
 shopping-onboarding-dialog-close-button =
@@ -345,7 +345,7 @@ shopping-integrated-callout-no-logo-sidebar-closed-subtitle = サイドバーの
 ## Review Checker in the sidebar is only available to US users at this time, so we can assume that the default position is on the left side.
 
 shopping-integrated-new-position-notification-title = いつものレビュー チェッカーを新しい場所から
-shopping-integrated-new-position-notification-subtitle = レビュー チェッカーと { -brand-product-name } の他の機能をここに表示したままにするか、右に移動できます。<a data-l10n-name="sidebar_settings">サイドバー設定</a>でいつでも切り替え可能です。
+shopping-integrated-new-position-notification-move-right-subtitle = レビュー チェッカーと { -brand-product-name } の他の機能をここに表示したままにするか、右に移動できます。<a data-l10n-name="sidebar_settings">サイドバー設定</a>でいつでも切り替え可能です。
 shopping-integrated-new-position-notification-move-left-subtitle = レビュー チェッカーと { -brand-product-name } の他の機能をここに表示したままにするか、左に移動できます。<a data-l10n-name="sidebar_settings">サイドバー設定</a>でいつでも切り替え可能です。
 shopping-integrated-new-position-notification-move-right-button = 右に移動
 shopping-integrated-new-position-notification-move-left-button = 左に移動

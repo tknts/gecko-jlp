@@ -38,24 +38,24 @@ firefoxview-syncedtabs-loading-header = 同期しています
 firefoxview-syncedtabs-loading-description = 同期が完了すると、他のデバイスで開いているタブが表示されます。しばらくしてからもう一度確認してください。
 
 firefoxview-tabpickup-fxa-admin-disabled-header = あなたが所属する組織によって同期が無効化されています
-firefoxview-tabpickup-fxa-disabled-by-policy-description =  { -brand-short-name } は、所属する組織によって同期機能が無効化されているため、デバイス間でタブを同期できません。
+firefoxview-tabpickup-fxa-disabled-by-policy-description = { -brand-short-name } は、所属する組織によって同期機能が無効化されているため、デバイス間でタブを同期できません。
 
 firefoxview-tabpickup-network-offline-header = インターネット接続を確認してください
 firefoxview-tabpickup-network-offline-description = ファイアウォールやプロキシを使用している場合は、{ -brand-short-name } がインターネットへアクセスできるように許可されているか確認してください。
 firefoxview-tabpickup-network-offline-primarybutton = 再試行
 
 firefoxview-tabpickup-sync-error-header = 同期に問題が発生しています
-firefoxview-tabpickup-generic-sync-error-description =  { -brand-short-name } は現在、同期サービスに接続できません。しばらくしてからもう一度お試しください。
+firefoxview-tabpickup-generic-sync-error-description = { -brand-short-name } は現在、同期サービスに接続できません。しばらくしてからもう一度お試しください。
 firefoxview-tabpickup-sync-error-primarybutton = 再試行
 
 firefoxview-tabpickup-sync-disconnected-header = 同期を有効にしてください
-firefoxview-tabpickup-sync-disconnected-description =  タブを取り出すには、{ -brand-short-name } の設定で同期を許可する必要があります。
+firefoxview-tabpickup-sync-disconnected-description = タブを取り出すには、{ -brand-short-name } の設定で同期を許可する必要があります。
 firefoxview-tabpickup-sync-disconnected-primarybutton = 設定で同期を有効にする
 
 firefoxview-tabpickup-password-locked-header = タブを表示するにはプライマリー パスワードを入力してください
-firefoxview-tabpickup-password-locked-description =タブを取り出すには、{ -brand-short-name } のプライマリー パスワードを入力する必要があります。
+firefoxview-tabpickup-password-locked-description = タブを取り出すには、{ -brand-short-name } のプライマリー パスワードを入力する必要があります。
 firefoxview-tabpickup-password-locked-link = さらに詳しく
-firefoxview-tabpickup-password-locked-primarybutton =プライマリー パスワードを入力する
+firefoxview-tabpickup-password-locked-primarybutton = プライマリー パスワードを入力する
 firefoxview-syncedtab-password-locked-link = <a data-l10n-name="syncedtab-password-locked-link">さらに詳しく</a>
 
 firefoxview-tabpickup-signed-out-header = 再接続するにはサインインしてください
@@ -77,7 +77,7 @@ firefoxview-collapse-button-show =
 
 firefoxview-collapse-button-hide =
   .title = リストを隠す
- 
+
 firefoxview-overview-nav = 最近のブラウジング
   .title = 最近のブラウジング
 firefoxview-overview-header = 最近のブラウジング
@@ -217,7 +217,7 @@ firefoxview-import-history-close-button =
 ## Text displayed in a dismissable banner to import bookmarks/history from another browser
 
 firefoxview-import-history-header = 別のブラウザーから履歴をインポートする
-firefoxview-import-history-description =閲覧履歴やブックマークなどをインポートして { -brand-short-name }  を頼りになるブラウザーにしましょう。
+firefoxview-import-history-description = 閲覧履歴やブックマークなどをインポートして { -brand-short-name } を頼りになるブラウザーにしましょう。
 
 ## Message displayed in Firefox View when the user has no recently closed tabs data
 

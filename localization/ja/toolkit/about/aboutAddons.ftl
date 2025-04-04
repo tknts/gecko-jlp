@@ -255,6 +255,10 @@ addon-updates-manual-updates-found = 更新可能なアドオンを表示
 
 addon-install-from-file = ファイルからアドオンをインストール…
     .accesskey = I
+# Like `addon-install-from-file` but used when the `extensions.webextensions.prefer-update-over-install-for-existing-addon`
+# pref is set.
+addon-install-or-update-from-file = ファイルからアドオンをインストールまたは更新…
+    .accesskey = I
 addon-install-from-file-dialog-title = インストールするアドオンを選択してください
 addon-install-from-file-filter-name = アドオン
 addon-open-about-debugging = アドオンをデバッグ
@@ -317,11 +321,15 @@ header-back-button =
 discopane-intro2 =
     拡張機能とテーマを使用すると、{ -brand-product-name } をカスタマイズできます。プライバシーの強化、生産性の向上、メディアの改善、{ -brand-product-name } の外観の変更など、さまざまなことができます。これらの小さなソフトウェアプログラムは、多くの場合、サードパーティーによって開発されています。ここでは、{ -brand-product-name } が優れたセキュリティ、パフォーマンス、機能性のために <a data-l10n-name="learn-more-trigger">推奨</a> するプログラムをいくつか紹介します。
 
+
+
+
+
 # Notice to make user aware that the recommendations are personalized.
 discopane-notice-recommendations2 =
     .message =
-    おすすめの一部はパーソナライズされています。
-    これらは、あなたがインストールした拡張機能、プロファイル設定、および使用統計に基づいています。
+        おすすめの一部はパーソナライズされています。
+        これらは、あなたがインストールした拡張機能、プロファイル設定、および使用統計に基づいています。
 discopane-notice-learn-more = さらに詳しく
 
 privacy-policy = プライバシーポリシー
@@ -435,9 +443,8 @@ addon-detail-group-label-updates =
 
 # This is the tooltip text for the private browsing badge in about:addons. The
 # badge is the private browsing icon included next to the extension's name.
-addon-badge-private-browsing-allowed2 =
-    .title = プライベートウィンドウでの実行
-    .aria-label = { addon-badge-private-browsing-allowed2.title }
+addon-badge-private-browsing-allowed3 =
+    .title = ライベートウィンドウでの使用を許可
 addon-detail-private-browsing-help = 許可されている場合、この拡張機能はプライベートブラウジング中でも、あなたのオンライン行動にアクセスできます。<a data-l10n-name="learn-more">さらに詳しく</a>
 addon-detail-private-browsing-allow = 許可する
 addon-detail-private-browsing-disallow = 拒否する
