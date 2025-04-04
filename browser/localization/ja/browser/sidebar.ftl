@@ -158,8 +158,6 @@ sidebar-menu-history-header =
   .heading = 履歴
 sidebar-menu-syncedtabs-header =
   .heading = その他のデバイスからのタブ
-sidebar-menu-bookmarks-header =
-  .heading = ブックマーク
 sidebar-menu-cpm-header =
   .heading = パスワード
 

@@ -62,8 +62,8 @@ unified-extensions-mb-about-addons-link = 拡張機能の設定に移動
 unified-extensions-mb-blocklist-warning-single =
     .heading = { $extensionName } が無効になっています
     .message =
-        この拡張機能は Mozilla のポリシーに違反しているため無効になっています。
-		設定で有効にすることはできますが、リスクがある可能性があります。
+        この拡張機能は Mozilla のポリシーに違反しているため、無効化されました。設定で有効にすることはできますが、リスクを伴う可能性があります。
+
 
 # Variables:
 #   $extensionName (String) - Name of the extension disabled through a hard-block.
@@ -80,8 +80,8 @@ unified-extensions-mb-blocklist-warning-multiple =
             *[other] { $extensionsCount } 個の拡張機能が無効になっています
         }
     .message =
-        一部の拡張機能は、Mozilla のポリシーに違反しているため無効になっています。
-		設定で有効にすることはできますが、リスクがある可能性があります。
+        一部の拡張機能が Mozilla のポリシー違反により無効化されました。設定で有効にすることはできますが、リスクを伴う可能性があります。
+
 
 # Variables:
 #   $extensionsCount (Number) - Number of extensions disabled through hard-blocks.

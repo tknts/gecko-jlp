@@ -39,3 +39,12 @@ experimental-features-contextual-password-manager-description = サイドバー�
 experimental-features-custom-wallpaper =
     .label = 新しいタブにカスタム壁紙または色を設定
 experimental-features-custom-wallpaper-description = 自分の好きな壁紙をアップロードするか、カスタムカラーを選択して、新しいタブの背景を自由にカスタマイズできます。
+
+# Link Previews with AI
+experimental-features-link-previews =
+    .label = リンクのプレビュー
+experimental-features-link-previews-description =
+    { PLATFORM() ->
+        [macos] To learn more about a webpage before you click, hover over a link and press Shift (⇧) plus Option (⌥) or Alt. Previews can include details like title and reading time. For some webpages, AI can also read the page text and generate key points. The AI is optimized to read and generate English text. To prioritize your privacy, the AI runs locally on your computer. <a data-l10n-name="connect">Share feedback</a>
+       *[other] クリックする前にウェブページの情報を確認できます。リンクにカーソルを合わせ、Shift + Alt を押してください。プレビューにはタイトルや読了時間などの詳細が表示されます。一部のページでは、AI がページの内容を読み取り、要点を生成します。この AI は英語のテキストを読み取り、生成するよう最適化されています。プライバシーを重視し、AI はお使いのコンピューター上でローカルに動作します。<a data-l10n-name="connect">フィードバックを共有</a>
+    }

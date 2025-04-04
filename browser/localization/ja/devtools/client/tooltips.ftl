@@ -43,7 +43,7 @@ inactive-css-placeholder-pseudo-element-not-supported = <strong>{ $property }</s
 
 inactive-css-property-because-of-display = この要素は <strong>{ $display }</strong> の display プロパティを持つため、<strong>{ $property }</strong> は、この要素には影響を与えません。
 
-inactive-css-not-display-block-on-floated = 要素が <strong>floated</strong> であるため、エンジンによって <strong>display</strong> の値が <strong>block</strong> に変更されました。
+inactive-css-not-display-block-on-floated-2 = 要素に <strong>float</strong> が使用されているため、 <strong>display</strong> の値はエンジンによって <strong>{ $display }</strong> に変更されました。
 
 inactive-css-only-non-grid-or-flex-item = <strong>{ $property }</strong> は、グリッド アイテムやフレックス アイテムでは使用できないため、効果がありません。
 
@@ -59,7 +59,9 @@ inactive-css-only-replaced-elements = <strong>{ $property }</strong> は置換�
 
 inactive-text-overflow-when-no-overflow = <strong>overflow:hidde</strong> が設定されていないため <strong>{ $property }</strong> は、この要素に影響を与えません。
 
-inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> は内部テーブル要素に影響を与えません。
+inactive-css-no-size-containment = <strong>{ $property }</strong> は、この要素にサイズの包含がないため効果がありません。
+
+inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> は、内部テーブル要素には効果がありません。
 
 inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> は、テーブル セル以外の内部テーブル要素には影響を与えません。
 
@@ -78,8 +80,6 @@ inactive-css-resize = <strong>{ $property }</strong> は、visible 以外のオ�
 inactive-css-ruby-element = <strong>{ $property }</strong> はルビ要素であるため、この要素には何の影響も与えません。その大きさはルビ文字のフォントサイズによって決まります。
 
 inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> は疑似要素の強調表示をサポートしていません。
-
-inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> はハイライト疑似要素ではサポートされていません。
 
 inactive-css-cue-pseudo-element-not-supported = <strong>{ $property }</strong> は ::cue 擬似要素ではサポートされていません。
 
@@ -102,7 +102,7 @@ inactive-css-no-width-height = この要素の幅と高さは設定できない�
 
 inactive-css-not-grid-or-flex-container-fix = <strong>display:grid</strong> または <strong>display:flex</strong> を追加してみてください。{ learn-more }
 
-inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>display:grid</strong>, <strong>display:flex</strong>, または <strong>columns:2</strong> のいずれかを追加してみてください。{ learn-more }
+inactive-css-not-grid-or-flex-or-block-container-fix = <strong>display:grid</strong>、<strong>display:flex</strong>、または <strong>display:block</strong> を追加してみてください。{ learn-more }
 
 inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>display:grid</strong>、<strong>display:flex</strong>、または <strong>columns:2</strong> のいずれかを追加してみてください。{ learn-more }
 
@@ -139,6 +139,8 @@ inactive-css-position-property-on-unpositioned-box-fix = その  <strong>positio
 inactive-css-only-replaced-elements-fix = 置換された要素にプロパティが追加されていることを確認してください。 { learn-more }
 
 inactive-text-overflow-when-no-overflow-fix = <strong>overflow:hidden</strong> を追加してみてください。 { learn-more }
+
+inactive-css-no-size-containment-fix = <strong>display</strong> プロパティを <strong>none</strong>、<strong>contents</strong>、<strong>table</strong>、<strong>inline-table</strong> 以外の値に設定し、テーブルやルビーセグメント内にないことを確認してください。{ learn-more }
 
 inactive-css-not-for-internal-table-elements-fix = その <strong>display</strong> プロパティを <strong>table-cell</strong>、<strong>table-column</strong>、<strong>table-row</strong>、<strong>table-column-group</strong>、<strong>table-row-group</strong>、または <strong>table-footer-group</strong> 以外に設定してみてください。 { learn-more }
 

@@ -24,7 +24,7 @@ storage-table-type-sessionstorage-hint = ホストを選択してセッション
 
 # Hint shown when the IndexedDB storage type is selected. Clicking the link will open
 # https://firefox-source-docs.mozilla.org/devtools-user/storage_inspector/indexeddb/
-storage-table-type-indexeddb-hint = データベースを選択して IndexedDB のストレージの表示と削除をします。  <a data-l10n-name="learn-more-link">さらに詳しく</a>
+storage-table-type-indexeddb-hint = データベースを選択して IndexedDB のストレージの表示と削除をします。<a data-l10n-name="learn-more-link">さらに詳しく</a>
 
 # Hint shown when the cache storage type is selected. Clicking the link will open
 # https://firefox-source-docs.mozilla.org/devtools-user/storage_inspector/cache_storage/

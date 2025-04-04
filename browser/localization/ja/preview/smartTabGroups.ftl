@@ -5,12 +5,12 @@
 tab-group-editor-title-suggest = 提案されたタブ
 
 tab-group-editor-smart-suggest-button-edit=
-  .label = グループに追加するタブをさらに提案する
+  .label = グループに追加するタブを提案する
 
 # Button appearing during creation of new tab group.
 # Clicking will suggest tabs to group together in the tab group.
 tab-group-editor-smart-suggest-button-create=
-  .label = グループに追加するタブの提案
+  .label = 他のタブを提案する
 
 tab-group-editor-suggestions-header = 提案されたタブ
 
@@ -30,10 +30,10 @@ tab-group-editor-no-tabs-found-message = 類似のタブを開くと、AI が名
 # Message is shown to the user whenever there are smart tags suggest
 tab-group-editor-information-message = AI が、このウィンドウの類似タブを分析し、適切な名前とグループを提案します。
 
-# Title appears when user is shown the optin flow to use smart tab grouping
+# Title appears when user is shown the opt-in flow to use smart tab grouping
 tab-group-suggestions-optin-title = タブの提案をさらに表示する
 
-# Message appears when user is shown the optin flow to use smart tab grouping
+# Message appears when user is shown the opt-in flow to use smart tab grouping
 tab-group-suggestions-optin-message = { -brand-short-name } は、開いているタブのタイトルと説明を AI で読み取り、さらに多くのタブやグループ名を提案します。この処理はデバイス上で行われます。
 
 tab-group-suggestions-optin-title-download = 提案を検索中

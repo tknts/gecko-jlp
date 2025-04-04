@@ -69,7 +69,7 @@ browser-main-window-titles-mac =
 # updating the titlebar based on loaded tabs or private browsing state.
 # This should match the `data-title-default` attribute in both
 # `browser-main-window` and `browser-main-window-mac`.
-browser-main-window-default { -brand-full-name }
+browser-main-window-default-title = { -brand-full-name }
 
 # The non-variable portion of this MUST match the translation of
 # "PRIVATE_BROWSING_SHORTCUT_TITLE" in custom.properties
@@ -320,10 +320,6 @@ quickactions-cmd-inspector = inspector, devtools, 開発, 調査, インスペ�
 quickactions-logins2 = ログイン情報を管理
 quickactions-cmd-logins = logins, passwords, ログイン, パスワード
 
-# Opens about:addons page in the plugins section
-quickactions-plugins = プラグインを管理
-quickactions-cmd-plugins = plugins, プラグイン
-
 # Opens the print dialog
 quickactions-print2 = ページを印刷
 quickactions-cmd-print = print, 印刷, プリント
@@ -346,7 +342,7 @@ quickactions-cmd-restart = restart, 再起動,
 
 # Opens the screenshot tool
 quickactions-screenshot3 = スクリーンショットを撮影
-quickactions-cmd-screenshot = screenshot, スクリーンショット, 撮影,
+quickactions-cmd-screenshot2 = screenshot, take a screenshot, スクリーンショット, 撮影,
 
 # Opens about:preferences
 quickactions-settings2 = 設定を管理
@@ -362,7 +358,7 @@ quickactions-cmd-update = update, 更新, アップデート,
 
 # Opens the view-source UI with current pages source
 quickactions-viewsource2 = ページのソースを表示
-quickactions-cmd-viewsource = view source, source, ソース,
+quickactions-cmd-viewsource2 = view source, source, page source, ソース
 
 # Tooltip text for the help button shown in the result.
 quickactions-learn-more =
