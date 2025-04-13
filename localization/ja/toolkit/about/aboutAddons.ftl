@@ -470,14 +470,24 @@ addon-detail-group-label-quarantined-domains =
 ## This is the tooltip text for the recommended badges for an extension in about:addons. The
 ## badge is a small icon displayed next to an extension when it is recommended on AMO.
 
-addon-badge-recommended3 =
-  .title = { -brand-product-name } は、セキュリティとパフォーマンスの基準を満たす拡張機能のみを推奨します
+# This string needs to work in the context of other forks that are not Firefox
+# or built by Mozilla. In particular, we do not want to imply that an
+# organisation other than Mozilla or the Firefox team are making the
+# recommendation. As such, we hard code "Firefox" and avoid personalising
+# language like the words "our" or "we".
+addon-badge-recommended4 =
+  .title = Firefox は、セキュリティとパフォーマンスの基準を満たした拡張機能のみを推奨します
 # We hard code "Mozilla" in the string below because the extensions are built
 # by Mozilla and we don't want forks to display "by Fork".
 addon-badge-line4 =
   .title = Mozilla によってビルドされた公式拡張機能です。セキュリティとパフォーマンスの基準を満たしています
-addon-badge-verified3 =
-  .title = この拡張機能は、セキュリティとパフォーマンスの基準を満たすように審査されています
+# This string needs to work in the context of other forks that are not Firefox
+# or built by Mozilla. In particular, we do not want to imply that an
+# organisation other than Mozilla or the Firefox team are performing the
+# security or performance reviews. As such, we avoid personalising language
+# like the words "our" or "we".
+addon-badge-verified4 =
+  .title = この拡張機能は、セキュリティとパフォーマンスの基準を満たしているか審査されています
 
 ##
 

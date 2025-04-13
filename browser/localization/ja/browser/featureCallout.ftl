@@ -148,6 +148,9 @@ actions-callout-subtitle = ページを印刷するには “print”、履歴�
 
 ## Split Dismiss Button Labels
 
+# Accessibility label for dropdown menu button
+split-dismiss-button-default-label =
+    .title = その他のオプション
 # Blocks the message from showing again
 split-dismiss-button-dont-show-option =
     .label = このおすすめを再度表示しない

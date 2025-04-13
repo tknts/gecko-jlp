@@ -10,6 +10,8 @@ profile-window-body = パスワードやブックマークなど、仕事用と�
 # This checkbox appears in the Choose profile window that appears when the browser is opened. "Show this" refers to this window, which is displayed when the checkbox is enabled.
 profile-window-checkbox-label-2 =
     .label = { -brand-short-name } が開いた時にプロファイルを選択します
+# This subcopy appears below the checkbox when it is unchecked
+profile-window-checkbox-subcopy = { -brand-short-name } は、最後に使用したプロファイルで起動します。
 profile-window-create-profile = プロファイルを作成
 profile-card-edit-button =
     .title = プロファイルの編集

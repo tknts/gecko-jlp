@@ -23,6 +23,8 @@ return-to-amo-subtitle = { -brand-short-name } を利用できます
 return-to-amo-addon-title = <img data-l10n-name="icon"/> <b>{ $addon-name }</b> を入手してみましょう。
 return-to-amo-add-extension-label = 拡張機能を追加
 return-to-amo-add-theme-label = テーマを追加
+return-to-amo-theme-install-complete-label = テーマがインストールされました
+return-to-amo-extension-install-complete-label = 拡張機能がインストールされました
 
 ##  Variables: $addon-name (String) - Name of the add-on to be installed
 

@@ -21,5 +21,11 @@ about-translations-detect-lang = 言語の自動検出 ({ $language })
 about-translations-select = 言語の選択
 about-translations-textarea =
   .placeholder = 翻訳するテキストを追加
-about-translations-no-support = お使いのデバイスは、この機能を使用するための最小要件を満たしていません。別のデバイスで試してください。
-about-translations-engine-error = 翻訳エンジンを読み込めませんでした。
+about-translations-no-support =
+  .message = お使いのデバイスは、この機能を使用するための最小要件を満たしていません。別のデバイスで試してください。
+about-translations-engine-error =
+  .message = 翻訳エンジンを読み込めませんでした。
+
+# Error message displayed when the language list fails to load.
+about-translations-language-load-error =
+  .message = 言語リストの読み込みに失敗しました。インターネット接続を確認して、ページを再読み込みしてください。

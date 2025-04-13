@@ -37,6 +37,13 @@ searchbar-icon =
 removed-search-engine-message2 = <strong>既定の検索エンジンが変更されました。</strong> { $oldEngine } は、{ -brand-short-name } の規定の検索エンジンとして使用できなくなりました。 { $newEngine } が規定の検索エンジンになりました。 別の規定の検索エンジンに変更するには、設定に移動します。
 remove-search-engine-button = OK
 
+## Infobar shown when default search engine is reset due to an issue reading the settings file.
+## Variables
+## $newEngine (String) - the name of the new default search engine.
+
+reset-search-settings-message = 技術的な問題により、デフォルトの検索エンジンが { $newEngine } にリセットされました。デフォルトの検索エンジンを変更するには、設定をご確認ください。
+reset-search-settings-button = OK
+
 ## Infobar shown when user is prompted to install search engine.
 ## Variables
 ## $engineName (String) - the name of the search engine to install.

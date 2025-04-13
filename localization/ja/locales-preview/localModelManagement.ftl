@@ -15,3 +15,4 @@ mlmodel-description =
 
   デバイス上でクエリを処理するため、オンライン AI プロバイダーよりもプライバシーが保護されますが、デバイスの性能によっては遅くなる場合があります。<a data-l10n-name="learn-more">さらに詳しく</a>
 
+addon-detail-file-size-label = ファイルのサイズ
