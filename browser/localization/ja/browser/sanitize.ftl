@@ -75,7 +75,7 @@ item-history-and-downloads =
     .label = ページの表示履歴とファイルのダウンロード履歴
     .accesskey = B
 
-item-history-and-downloads-description = 検索履歴、サイト履歴、およびダウンロード履歴を消去します
+item-history-and-downloads-description2 = サイト履歴とダウンロード履歴を消去します
 
 item-cookies =
     .label = Cookie

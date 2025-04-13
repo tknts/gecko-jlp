@@ -17,3 +17,5 @@ newtab-report-ads-reason-seen-it-too-many-times =
 newtab-report-ads-reason-not-interested =
   .label = 興味がない
 newtab-report-submit = 送信
+newtab-toast-thanks-for-feedback =
+    .message = フィードバックありがとうございます。

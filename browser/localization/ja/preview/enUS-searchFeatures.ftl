@@ -53,9 +53,6 @@ urlbar-group-local =
 urlbar-group-sponsored =
   .label = スポンサード
 
-# A message shown in a result when the user gives feedback on it.
-firefox-suggest-feedback-acknowledgment = フィードバックをありがとうございます
-
 # A message that replaces a result when the user dismisses a single suggestion.
 firefox-suggest-dismissal-acknowledgment-one = フィードバックをありがとうございます。 このサジェストは今後表示されなくなります。
 
@@ -133,8 +130,6 @@ firefox-suggest-weather-sponsored = { $provider } · Sponsored
 
 ## These strings are used as labels of menu items in the result menu.
 
-firefox-suggest-command-show-less-frequently =
-  .label = 表示頻度を下げる
 firefox-suggest-command-dont-show-this =
   .label = これを表示しない
 firefox-suggest-command-dont-show-mdn =
@@ -143,8 +138,6 @@ firefox-suggest-command-not-relevant =
   .label = 関係がありません
 firefox-suggest-command-not-interested =
   .label = 関心がありません
-firefox-suggest-weather-command-inaccurate-location =
-  .label = 不正確な位置情報を報告する
 firefox-suggest-command-manage-fakespot =
   .label = { -fakespot-brand-name } からのサジェストを管理
 firefox-suggest-command-dont-show-this-suggestion =
@@ -291,11 +284,11 @@ firefox-suggest-onboarding-main-accept-option-label = 許可します。 <a data
 firefox-suggest-onboarding-main-accept-option-label-2 = 許可
 
 firefox-suggest-onboarding-main-accept-option-description-1 = より関連性の高いサジェストを提供するために { -firefox-suggest-brand-name } の改善にご協力ください。あなたの検索クエリが処理されます。
-firefox-suggest-onboarding-main-accept-option-description-2 = Recommended for people who support improving the { -firefox-suggest-brand-name } feature. Your search queries will be processed.
-firefox-suggest-onboarding-main-accept-option-description-3 = Help improve the { -firefox-suggest-brand-name } experience. Your search queries will be processed.
+firefox-suggest-onboarding-main-accept-option-description-2 = { -firefox-suggest-brand-name } の改善を支援したい方におすすめです。検索クエリが処理されます。
+firefox-suggest-onboarding-main-accept-option-description-3 = { -firefox-suggest-brand-name } の体験向上にご協力ください。検索クエリが処理されます。
 
 firefox-suggest-onboarding-main-reject-option-label = 拒否します。
-firefox-suggest-onboarding-main-reject-option-label-2 = Keep disabled
+firefox-suggest-onboarding-main-reject-option-label-2 = 無効のままにする
 
 firefox-suggest-onboarding-main-reject-option-description-1 = 最も厳格なデータ共有の制限を使用して、デフォルトの { -firefox-suggest-brand-name } による検索体験を維持します。 
 firefox-suggest-onboarding-main-reject-option-description-2 = データ共有の制限を最も厳しくしたい方におすすめです。デフォルトの検索体験を維持します。

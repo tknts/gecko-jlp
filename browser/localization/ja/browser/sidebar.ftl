@@ -30,12 +30,18 @@ sidebar-history-date-prev-month =
 sidebar-history-delete =
   .title = 履歴から削除
 
-sidebar-history-sort-by-date =
-  .label = 表示日時で並び替え
-sidebar-history-sort-by-site =
-  .label = サイトで並び替え
 sidebar-history-clear =
   .label = 履歴を消去
+
+sidebar-history-sort-by-heading = 並び替え：
+sidebar-history-sort-option-date =
+  .label = 日付
+sidebar-history-sort-option-site =
+  .label = サイト
+sidebar-history-sort-option-date-and-site =
+  .label = 日付とサイト
+sidebar-history-sort-option-last-visited =
+  .label = 最終訪問日時
 
 ## Labels for sidebar search
 
