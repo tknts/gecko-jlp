@@ -80,10 +80,16 @@ sidebar-context-menu-remove-extension =
   .label = 拡張機能を削除
 sidebar-context-menu-report-extension =
   .label = 拡張機能を報告
+sidebar-context-menu-open-in-tab =
+  .label = 新しいタブで開く
+sidebar-context-menu-open-in-container-tab =
+  .label = 新しいタブ コンテナで開く
 sidebar-context-menu-open-in-window =
   .label = 新しいウィンドウで開く
 sidebar-context-menu-open-in-private-window =
   .label = 新しいプレイベートウィンドウで開く
+sidebar-context-menu-forget-site =
+  .label = ウェブサイトのすべてのデータを消去…
 sidebar-context-menu-bookmark-tab =
   .label = タブをブックマーク…
 sidebar-context-menu-copy-link =
@@ -101,8 +107,10 @@ sidebar-context-menu-close-remote-tab =
 
 ## Labels for sidebar history context menu items
 
-sidebar-history-context-menu-delete-page =
-  .label = 履歴から削除
+sidebar-history-context-menu-delete-page-2 =
+  .label = ページを履歴から削除
+sidebar-history-context-menu-bookmark-page =
+  .label = ページをブックマーク…
 
 ## Labels for sidebar menu items.
 

@@ -1166,10 +1166,10 @@ popup-notification-xpinstall-prompt-learn-more = アドオンを安全にイン�
 
 popup-notification-xpinstall-prompt-block-url = 詳細を見る
 
-# Note: Access key is set to P to match "Private" in the corresponding localized label.
-popup-notification-addon-privatebrowsing-checkbox =
-    .label = プライベートウィンドウで実行
-    .accesskey = P
+# Note: Access key is set to p to match "private" in the corresponding localized label.
+popup-notification-addon-privatebrowsing-checkbox2 =
+    .label = プライベートウィンドウでの拡張機能の実行を許可する
+    .accesskey = p
 
 ## Pop-up warning
 

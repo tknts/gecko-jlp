@@ -313,9 +313,6 @@ shopping-callout-not-opted-in-integrated-paragraph1 = { -brand-product-name } �
 shopping-callout-not-opted-in-integrated-paragraph2 = “{ shopping-opt-in-integrated-button }” を選択すると、{ -brand-product-name } の<a data-l10n-name="privacy_policy">プライバシー通知</a>および { -fakespot-brand-full-name } の<a data-l10n-name="terms_of_use">利用規約</a>に同意したことになります。
 shopping-callout-not-opted-in-integrated-reminder-dismiss-button = 同意しない
 shopping-callout-not-opted-in-integrated-reminder-accept-button = レビュー チェッカーをオンにする
-shopping-callout-not-opted-in-integrated-reminder-do-not-show = このおすすめを再度表示しない
-shopping-callout-not-opted-in-integrated-reminder-show-fewer = おすすめの表示を減らす
-shopping-callout-not-opted-in-integrated-reminder-manage-settings = 設定を管理する
 
 shopping-opt-in-integrated-privacy-policy-and-terms-of-use = レビュー チェッカーは { -fakespot-brand-full-name } によって提供されています。“{ shopping-opt-in-integrated-button }“ を選択すると、{ -brand-product-name } の <a data-l10n-name="privacy_policy">プライバシー ポリシー</a> と { -fakespot-brand-name } の <a data-l10n-name="terms_of_use">利用規約</a> に同意したことになります。
 shopping-opt-in-integrated-button = レビュー チェッカーを試す

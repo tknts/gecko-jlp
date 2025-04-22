@@ -279,19 +279,19 @@ newtab-wallpaper-custom-color = 色の選択
 newtab-wallpaper-error-max-file-size = 画像がファイルサイズ制限の { $file_size }MB を超えています。より小さいファイルをアップロードしてください。
 newtab-wallpaper-error-file-type = ファイルをアップロードできませんでした。別のファイル形式で再試行してください
 newtab-wallpaper-light-red-panda = レッサーパンダ
-newtab-wallpaper-light-mountain = 雪山
-newtab-wallpaper-light-sky = Sky with purple and pink clouds
-newtab-wallpaper-light-color = Blue, pink and yellow shapes
-newtab-wallpaper-light-landscape = Blue mist mountain landscape
-newtab-wallpaper-light-beach = Beach with palm tree
-newtab-wallpaper-dark-aurora = Aurora Borealis
-newtab-wallpaper-dark-color = Red and blue shapes
-newtab-wallpaper-dark-panda = Red panda hidden in forest
-newtab-wallpaper-dark-sky = City landscape with a night sky
-newtab-wallpaper-dark-mountain = Landscape mountain
-newtab-wallpaper-dark-city = Purple city landscape
-newtab-wallpaper-dark-fox-anniversary = A fox on the pavement near a forest
-newtab-wallpaper-light-fox-anniversary = A fox in a grassy field with a misty mountain landscape
+newtab-wallpaper-light-mountain = 白い山
+newtab-wallpaper-light-sky = 紫とピンクの雲の空
+newtab-wallpaper-light-color = 青・ピンク・黄色の形状
+newtab-wallpaper-light-landscape = 青い霧の山の風景
+newtab-wallpaper-light-beach = ヤシの木のあるビーチ
+newtab-wallpaper-dark-aurora = オーロラ
+newtab-wallpaper-dark-color = 赤と青の形状
+newtab-wallpaper-dark-panda = 森の中に隠れるレッサーパンダ
+newtab-wallpaper-dark-sky = 夜空のある都市の風景
+newtab-wallpaper-dark-mountain = 山の風景
+newtab-wallpaper-dark-city = 紫の都市風景
+newtab-wallpaper-dark-fox-anniversary = 森の近くの舗道にいるキツネ
+newtab-wallpaper-light-fox-anniversary = 霧の山を背景に草原にいるキツネ
 
 ## Solid Colors
 
@@ -314,33 +314,33 @@ newtab-wallpaper-brown = ブラウン
 
 ## Abstract
 
-newtab-wallpaper-category-title-abstract = Abstract
-newtab-wallpaper-abstract-green = Green shapes
-newtab-wallpaper-abstract-blue = Blue shapes
-newtab-wallpaper-abstract-purple = Purple shapes
-newtab-wallpaper-abstract-orange = Orange shapes
-newtab-wallpaper-gradient-orange = Gradient orange and pink
-newtab-wallpaper-abstract-blue-purple = Blue and purple shapes
-newtab-wallpaper-abstract-white-curves = White with shaded curves
-newtab-wallpaper-abstract-purple-green = Purple and green light gradient
-newtab-wallpaper-abstract-blue-purple-waves = Blue and purple wavy shapes
-newtab-wallpaper-abstract-black-waves = Black wavy shapes
+newtab-wallpaper-category-title-abstract = 抽象
+newtab-wallpaper-abstract-green = 緑の形状
+newtab-wallpaper-abstract-blue = 青の形状
+newtab-wallpaper-abstract-purple = 紫の形状
+newtab-wallpaper-abstract-orange = オレンジの形状
+newtab-wallpaper-gradient-orange = オレンジとピンクのグラデーション
+newtab-wallpaper-abstract-blue-purple = 青と紫の形状
+newtab-wallpaper-abstract-white-curves = 陰影のある白いカーブ
+newtab-wallpaper-abstract-purple-green = 紫と緑の光のグラデーション
+newtab-wallpaper-abstract-blue-purple-waves = 青と紫の波形
+newtab-wallpaper-abstract-black-waves = 黒の波形
 
 ## Photographs
 
 newtab-wallpaper-category-title-photographs = 写真
-newtab-wallpaper-beach-at-sunrise = サンライズビーチ
-newtab-wallpaper-beach-at-sunset = サンセットビーチ
-newtab-wallpaper-storm-sky = ストームスカイ
-newtab-wallpaper-sky-with-pink-clouds = Sky with pink clouds
+newtab-wallpaper-beach-at-sunrise = 朝日のビーチ
+newtab-wallpaper-beach-at-sunset = 夕日のビーチ
+newtab-wallpaper-storm-sky = 嵐の空
+newtab-wallpaper-sky-with-pink-clouds = ピンクの雲が浮かぶ空
 newtab-wallpaper-red-panda-yawns-in-a-tree = 木の上であくびをするレッサーパンダ
-newtab-wallpaper-white-mountains = White mountains
-newtab-wallpaper-hot-air-balloons = Assorted color of hot air balloons during daytime
-newtab-wallpaper-starry-canyon = Blue starry night
-newtab-wallpaper-suspension-bridge = Grey full-suspension bridge photography during daytime
-newtab-wallpaper-sand-dunes = White sand dunes
-newtab-wallpaper-palm-trees = Silhouette of coconut palm trees during golden hour
-newtab-wallpaper-blue-flowers = Closeup photography of blue-petaled flowers in bloom
+newtab-wallpaper-white-mountains = 白い山々
+newtab-wallpaper-hot-air-balloons = 昼間にさまざまな色の熱気球
+newtab-wallpaper-starry-canyon = 青く星のきらめく夜空の渓谷
+newtab-wallpaper-suspension-bridge = 昼間に撮影されたグレーの吊り橋
+newtab-wallpaper-sand-dunes = 白い砂丘
+newtab-wallpaper-palm-trees = ゴールデンアワーに映るヤシの木のシルエット
+newtab-wallpaper-blue-flowers = 青い花びらの花のクローズアップ写真
 
 ## Celestial
 
@@ -484,3 +484,36 @@ newtab-custom-wallpaper-title = 壁紙をカスタマイズ出来るようにな
 # 'Make firefox yours" means to customize or personalize
 newtab-custom-wallpaper-subtitle = 自分の壁紙をアップロードするか、カスタムカラーを選んで { -brand-product-name } を自分好みにカスタマイズしましょう。
 newtab-custom-wallpaper-cta = 試してみる
+
+## Strings for download mobile highlight
+
+newtab-download-mobile-highlight-title = モバイル版 { -brand-product-name } をダウンロード
+# "Scan the code" refers to scanning the QR code that appears above the body text that leads to Firefox for mobile download.
+newtab-download-mobile-highlight-body-variant-a = コードをスキャンして、安全に外出先でもブラウジング。
+newtab-download-mobile-highlight-body-variant-b = タブやパスワードなどを同期して、どこからでも再開できます。
+newtab-download-mobile-highlight-body-variant-c = { -brand-product-name } を持ち運べることをご存じですか？。同じブラウザーをポケットに。
+newtab-download-mobile-highlight-image =
+    .aria-label = モバイル版 { -brand-product-name } をダウンロードするためのQRコード
+
+## Strings for reporting ads and content
+
+newtab-report-content-why-reporting-this =
+  .label = このコンテンツを報告する理由は何ですか?
+newtab-report-ads-reason-not-interested =
+  .label = 興味がない
+newtab-report-ads-reason-inappropriate =
+  .label = 不適切である
+newtab-report-ads-reason-seen-it-too-many-times =
+  .label = 繰り返し表示される
+newtab-report-content-wrong-category =
+  .label = カテゴリーが間違っている
+newtab-report-content-outdated =
+  .label = 情報が古い
+newtab-report-content-inappropriate-offensive =
+  .label = 不適切または不快な内容
+newtab-report-content-spam-misleading =
+  .label = スパムまたは誤解を招く内容
+newtab-report-cancel = キャンセル
+newtab-report-submit = 送信
+newtab-toast-thanks-for-feedback =
+    .message = ご意見ありがとうございました。

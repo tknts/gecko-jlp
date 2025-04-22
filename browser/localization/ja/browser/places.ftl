@@ -144,16 +144,6 @@ places-manage-bookmarks =
   .label = ブックマークを管理
   .accesskey = M
 
-places-forget-about-this-site-confirmation-title =
-  このサイトのデータの消去について
-
-# Variables:
-# $hostOrBaseDomain (string) - The base domain (or host in case there is no base domain) for which data is being removed
-places-forget-about-this-site-confirmation-msg =
-  このアクションにより、履歴、パスワード、Cookie、キャッシュ、コンテンツ設定など { $hostOrBaseDomain } に関連するデータ(ブックマークとパスワードを除く)が削除されます。 続行してもよろしいですか？
-
-places-forget-about-this-site-forget = 忘れる
-
 places-library3 =
   .title = ライブラリー
 
