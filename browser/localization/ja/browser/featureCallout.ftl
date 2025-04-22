@@ -160,3 +160,29 @@ split-dismiss-button-show-fewer-option =
 # Opens about:preferences#general-cfrfeatures
 split-dismiss-button-manage-settings-option =
     .label = 設定を管理する
+
+## Login Status Advisory Callout (points to the account icon)
+
+# The 'account icon' is the toolbar button with a 'profile' icon of a human
+# head/shoulders. It's for dealing with your Mozilla account. When hovering the
+# icon, the tooltip says 'Account'.
+login-status-advisory-title =  サインアウトしています。サインインするにはアカウントのアイコンをクリックしてください。
+
+## Bookmarks toolbar callout strings
+
+bookmarks-toolbar-callout-1-title = このサイトをブックマークツールバーに追加しますか?
+bookmarks-toolbar-callout-1-subtitle = ブックマークはアドレスバーのすぐ下に保存され、すぐにアクセスできます。
+bookmarks-toolbar-callout-1-primary-button-label = ブックマークを追加
+bookmarks-toolbar-callout-1-secondary-button-label = 結構です
+# Visible if user adds a bookmark in callout 1, bookmarks toolbar is set to always show when this message renders
+bookmarks-toolbar-callout-2a-title = ブックマークをさらに簡単に追加
+bookmarks-toolbar-callout-2a-subtitle = タブをここにドラッグ & ドロップすれば、お気に入りのサイトをすぐにアクセスできる場所に保存できます。
+bookmarks-toolbar-callout-2a-primary-button-label = わかりました
+# Reverts the bookmarks toolbar to the default setting
+bookmarks-toolbar-callout-2a-secondary-button-label = ツールバーを非表示にする
+# Visible if user declines to add a bookmark in callout 1, bookmarks toolbar is set to always show when this message renders
+bookmarks-toolbar-callout-2b-title = ブックマークツールバーを表示したままにしますか?
+bookmarks-toolbar-callout-2b-subtitle = よく使うサイトを追加できます。タブをここにドラッグ & ドロップするだけで、お気に入りのウェブサイトにすぐアクセスできます。
+bookmarks-toolbar-callout-2b-primary-button-label = 表示を続ける
+# Reverts the bookmarks toolbar to the default setting
+bookmarks-toolbar-callout-2b-secondary-button-label = 表示を消す

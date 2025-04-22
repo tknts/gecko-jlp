@@ -329,3 +329,10 @@ contextual-manager-passwords-discard-changes-heading-and-message =
   .message = 変更は保存されません。
 contextual-manager-passwords-discard-changes-close-button = 閉じる
 contextual-manager-passwords-discard-changes-go-back-button = Go back
+
+#   $total (number) - Total number of passwords
+contextual-manager-passwords-remove-all-passwords-checkbox =
+  { $total ->
+     [1] はい。パスワードを削除します
+    *[other] はい。すべてのパスワードを削除します
+  }

@@ -27,11 +27,11 @@ protections-panel-etp-off-header = このサイトでは強化型追跡防止機
 ##   $host (String): the hostname of the site that is being displayed.
 
 protections-panel-etp-toggle-on =
-  .label = 強化されたトラッキング保護
+  .label = 強化型トラッキング防止
   .description = このサイトでは有効にする
   .aria-label = { $host } での保護は無効になっています
 protections-panel-etp-toggle-off =
-  .label = 強化されたトラッキング保護
+  .label = 強化型トラッキング防止
   .description = このサイトでは無効にする
   .aria-label = { $host } での保護は有効になっています
 

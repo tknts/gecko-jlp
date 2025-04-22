@@ -157,7 +157,7 @@ spotlight-pin-secondary-button = 後で
 ## Windows and therefore must be as narrow as possible.
 
 mr2022-background-update-toast-title = 新しい { -brand-short-name }。わずかなトラッカーで、よりプライベートに。妥協はありません。
-mr2022-background-update-toast-text = 最新の { -brand-short-name } を今すぐお試しください。これまでで最も強力なアンチトラッキング保護機能にアップグレードされました。
+mr2022-background-update-toast-text = 最新の { -brand-short-name } を今すぐお試しください。これまでで最も強力なトラッキング防止機能にアップグレードされました。
 
 # This button label will be fitted into a narrow fixed-width button by
 # Windows. Try to not exceed the width of the English text (compare it
