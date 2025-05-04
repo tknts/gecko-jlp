@@ -5,14 +5,18 @@
 # TODO: move these to appropriate places in aboutAddons.ftl when ready
 
 # AI Model will be downloaded on the users device and used locally
-addon-category-mlmodel =  デバイス上の AI
+addon-category-mlmodel = デバイス上の AI
 addon-category-mlmodel-title =
   .title = On-device AI
-  
+
 mlmodel-heading = ローカル AI モデルの管理
 mlmodel-description =
   プレースホルダー テキスト。デバイス上の AI モデルは、使用する機能または拡張機能で初めて必要になったときに { -brand-short-name } に追加されるオプションのコンポーネントです。
 
   デバイス上でクエリを処理するため、オンライン AI プロバイダーよりもプライバシーが保護されますが、デバイスの性能によっては遅くなる場合があります。<a data-l10n-name="learn-more">さらに詳しく</a>
 
-addon-detail-file-size-label = ファイルのサイズ
+# Label for button that when clicked removed local model
+mlmodel-remove-addon-button =
+  .aria-label = 削除
+# Label for the aggregated value of all files for a model
+mlmodel-addon-detail-totalsize-label = ファイルのサイズ

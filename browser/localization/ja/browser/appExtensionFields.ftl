@@ -13,17 +13,6 @@ extension-firefox-compact-light-description=明るい配色のテーマです。
 
 extension-firefox-compact-dark-name=ダーク
 extension-firefox-compact-dark-description=暗い配色のテーマです。
+
 extension-firefox-alpenglow-name=Firefox アルペングロウ
 extension-firefox-alpenglow-description=カラフルな外観のボタン、メニュー、ウィンドウを使用します。
-
-## Colorway Themes
-## These themes are variants of a colorway. The colorway is specified in the
-## $colorway-name variable.
-## Variables
-##   $colorway-name (String) The name of a colorway (e.g. Graffiti, Elemental).
-
-extension-colorways-soft-name={ $colorway-name } — ソフト
-extension-colorways-balanced-name={ $colorway-name } — バランス
-# "Bold" is used in the sense of bravery or courage, not in the sense of
-# emphasized text.
-extension-colorways-bold-name={ $colorway-name } — ボールド

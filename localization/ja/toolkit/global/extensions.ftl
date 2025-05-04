@@ -108,3 +108,8 @@ webext-site-perms-header-unsigned-with-perms = { $extension } を追加します
 
 webext-site-perms-midi = MIDI デバイスへのアクセス
 webext-site-perms-midi-sysex = SysEx をサポートする MIDI デバイスへのアクセス
+
+## Colorway theme migration
+
+webext-colorway-theme-migration-notification-message = <b>カラーウェイテーマが削除されました。</b> { -brand-shorter-name } がカラーウェイコレクションを更新しました。最新バージョンはアドオンサイトでご覧いただけます。
+webext-colorway-theme-migration-notification-button = 最新のカラーウェイを入手

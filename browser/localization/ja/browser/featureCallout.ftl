@@ -186,3 +186,18 @@ bookmarks-toolbar-callout-2b-subtitle = よく使うサイトを追加できま�
 bookmarks-toolbar-callout-2b-primary-button-label = 表示を続ける
 # Reverts the bookmarks toolbar to the default setting
 bookmarks-toolbar-callout-2b-secondary-button-label = 表示を消す
+
+## Perplexity callout strings
+
+perplexity-callout-theme-1-title = すぐに正確な答えが欲しいですか？
+perplexity-callout-theme-2-title = 新しい検索体験 Perplexity を試してみよう
+
+perplexity-callout-theme-1-subtitle-1 = Perplexity を使ってみましょう。検索ボタンから選ぶと、出典付きの完全な回答が得られます。
+perplexity-callout-theme-1-subtitle-2 = 質問するだけで、出典付きの正確な答えが返ってきます。Perplexity を使うには検索ボタンから選んでください。
+
+perplexity-callout-theme-2-subtitle-1 = Perplexity に聞いてみましょう。出典付きの詳しい回答が得られます。
+perplexity-callout-theme-2-subtitle-2 = 質問すれば、出典付きのしっかりした答えが返ってきます。
+
+perplexity-callout-primary-label = Perplexity に聞く
+perplexity-callout-secondary-label-1 = 非表示にする
+perplexity-callout-secondary-label-2 = わかりました
