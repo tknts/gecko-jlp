@@ -54,6 +54,10 @@ neterror-dns-not-found-hint-header = <strong>正しいアドレスを入力し�
 neterror-dns-not-found-hint-try-again = あとでもう一度試してください
 neterror-dns-not-found-hint-check-network = ネットワーク接続を確認してください
 neterror-dns-not-found-hint-firewall ={ -brand-short-name } にウェブへのアクセス権限があることを確認してください (接続していてもファイアウォールの内側にいる可能性があります)。
+neterror-dns-not-found-offline-hint-header = <strong>対処方法</strong>
+neterror-dns-not-found-offline-hint-different-device = 別のデバイスで接続を試してみてください。
+neterror-dns-not-found-offline-hint-modem = モデムまたはルーターを確認してください。
+neterror-dns-not-found-offline-hint-reconnect = Wi-Fi をいったん切断して再接続してください。
 
 ## TRR-only specific messages
 ## Variables:
@@ -70,7 +74,6 @@ neterror-dns-not-found-trr-unknown-host2 = このウェブサイトは { $trrDom
 neterror-dns-not-found-trr-server-problem = { $trrDomain } に問題がありました。
 neterror-dns-not-found-bad-trr-url = URL が無効です。
 neterror-dns-not-found-system-sleep = システムはスリープ モードです。
-neterror-dns-not-found-trr-unknown-problem = 予期しない問題。
 
 ##
 

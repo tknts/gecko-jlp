@@ -4,16 +4,16 @@
   "applications": {
     "gecko": {
       "id": "{93C0FD8C-43E7-4217-B6D5-7DCEAD173C5A}",
-      "strict_min_version": "139.0a1",
-      "strict_max_version": "139.0a1"
+      "strict_min_version": "140.0a1",
+      "strict_max_version": "140.0a1"
     }
   },
   "name": "Language: Japanese (JP)",
   "description": "Unofficial Nightly Language Pack for Japanese (JP) (ja)",
-  "version": "139.0.20250422.091455",
+  "version": "140.0.20250502.094430",
   "languages": {
     "ja": {
-      "version": "20250422091455",
+      "version": "20250502094430",
       "chrome_resources": {
         "app-marketplace-icons": "browser/chrome/browser/locale/ja/app-marketplace-icons/",
         "branding": "browser/chrome/ja/locale/branding/",
@@ -21,8 +21,6 @@
         "browser-region": "browser/chrome/ja/locale/browser-region/",
         "devtools": "browser/chrome/ja/locale/ja/devtools/client/",
         "devtools-shared": "browser/chrome/ja/locale/ja/devtools/shared/",
-        "formautofill": "browser/features/formautofill@mozilla.org/ja/locale/ja/",
-        "report-site-issue": "browser/features/webcompat-reporter@mozilla.org/ja/locale/ja/",
         "alerts": "chrome/ja/locale/ja/alerts/",
         "autoconfig": "chrome/ja/locale/ja/autoconfig/",
         "global": "chrome/ja/locale/ja/global/",

@@ -515,5 +515,5 @@ newtab-report-content-spam-misleading =
   .label = スパムまたは誤解を招く内容
 newtab-report-cancel = キャンセル
 newtab-report-submit = 送信
-newtab-toast-thanks-for-feedback =
-    .message = ご意見ありがとうございました。
+newtab-toast-thanks-for-reporting =
+    .message = ご報告ありがとうございました。

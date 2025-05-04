@@ -8,8 +8,9 @@ preonboarding-title = { -brand-product-name } にようこそ
 preonboarding-subtitle = 続行すると { -brand-product-name } の利用規約とプライバシー通知に同意したことになります。ブラウザーの改善を支援するために { -brand-product-name } は診断データとインタラクションデータ (操作情報) を { -vendor-short-name }  に送信します。
 preonboarding-primary-cta = 確認して続行する
 
-# Label for header style button that toggles showing the terms of use, privacy notice, and data preferences checklist
+# Labels for header style button that toggles showing the terms of use, privacy notice, and data preferences checklist
 preonboarding-manage-and-read-header = データ収集設定を管理し、利用規約およびプライバシー通知をお読みください。
+preonboarding-manage-and-read-header-v2 = 利用規約とプライバシーに関するお知らせをお読みください。追加設定を管理します。
 
 # Label for header style button that toggles showing the Terms of Use
 preonboarding-terms-of-use-header-button-title = 利用規約をお読みください
@@ -18,10 +19,12 @@ preonboarding-privacy-notice-header-button-title = プライバシー通知を�
 # Label for header style button that toggles showing the data preference checklist
 preonboarding-manage-data-header-button-title = 診断データおよびインタラクションデータ (操作情報) を管理する
 
-# Label for header style button that toggles showing the Terms of Use (Variant B)
+# Labels for header style button that toggles showing the Terms of Use (Variant B)
 preonboarding-terms-of-use-header-button-title-b = { -brand-product-name } の利用規約
-# Label for header style button that toggles showing the Privacy Notice (Variant B)
+preonboarding-terms-of-use-header-button-title-b-v2 = 利用規約
+# Labels for header style button that toggles showing the Privacy Notice (Variant B)
 preonboarding-privacy-notice-header-button-title-b = { -brand-product-name } のプライバシー通知
+preonboarding-privacy-notice-header-button-title-b-v2 = プライバシー通知
 # Description under label for header style buttons
 preonboarding-header-button-description = Read More
 

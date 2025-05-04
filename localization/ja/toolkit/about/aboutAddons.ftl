@@ -318,8 +318,10 @@ header-back-button =
 
 # Explanatory introduction to the list of recommended add-ons. The action word
 # ("recommends") in the final sentence is a link to external documentation.
-discopane-intro2 =
-    拡張機能とテーマを使用すると、{ -brand-product-name } をカスタマイズできます。プライバシーの強化、生産性の向上、メディアの改善、{ -brand-product-name } の外観の変更など、さまざまなことができます。これらの小さなソフトウェアプログラムは、多くの場合、サードパーティーによって開発されています。ここでは、{ -brand-product-name } が優れたセキュリティ、パフォーマンス、機能性のために <a data-l10n-name="learn-more-trigger">推奨</a> するプログラムをいくつか紹介します。
+# We hard code "Firefox" because we do not want to imply that a Firefox fork is
+# making this recommendation.
+discopane-intro3 =
+    拡張機能とテーマを使うと、{ -brand-product-name } をカスタマイズできます。プライバシーの強化、生産性の向上、メディアの画質向上、{ -brand-product-name } の外観の変更など、様々なメリットがあります。これらの小さなソフトウェアプログラムは、多くの場合サードパーティによって開発されています。ここでは、優れたセキュリティ、パフォーマンス、機能性を備えた Firefox の<a data-l10n-name="learn-more-trigger">推奨</a>プログラムをご紹介します。
 
 
 
@@ -331,6 +333,16 @@ discopane-notice-recommendations2 =
         おすすめの一部はパーソナライズされています。
         これらは、あなたがインストールした拡張機能、プロファイル設定、および使用統計に基づいています。
 discopane-notice-learn-more = さらに詳しく
+
+# Notice for the colorway theme removal
+colorway-removal-notice-message =
+    .heading = カラーウェイテーマが削除されました。
+    .message =
+        { -brand-product-name } のカラーコレクションが更新されました。“保存済みテーマ” リストから古いバージョンを削除しました。新しいバージョンはアドオンサイトから入手できます。
+
+
+colorway-removal-notice-learn-more = さらに詳しく
+colorway-removal-notice-button = 最新のカラーウェイテーマを入手する
 
 privacy-policy = プライバシーポリシー
 

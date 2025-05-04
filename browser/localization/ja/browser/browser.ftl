@@ -302,7 +302,10 @@ search-one-offs-actions =
 
 # Opens the about:addons page in the home / recommendations section
 quickactions-addons = アドオンを表示
-quickactions-cmd-addons2 = add-ons, アドオン
+# In English we provide multiple spellings for "add-ons". If that's not
+# applicable to your language, only use the correct spelling (don't repeat the
+# same word).
+quickactions-cmd-addons3 = extensions, themes, addons, add-ons, アドオン, テーマ, 拡張機能
 
 # Opens the bookmarks library window
 quickactions-bookmarks2 = ブックマークを管理
@@ -365,7 +368,8 @@ quickactions-cmd-screenshot2 = screenshot, take a screenshot, スクリーンシ
 
 # Opens about:preferences
 quickactions-settings2 = 設定を管理
-quickactions-cmd-settings = settings, preferences, options, 設定, オプション,
+# "manage" should match the corresponding command, which is “Manage settings” in English.
+quickactions-cmd-settings2 = settings, preferences, options, 設定, オプション, 管理
 
 # Opens about:addons page in the themes section
 quickactions-themes = テーマを管理
@@ -1225,3 +1229,7 @@ file-picker-crashed-save-nowhere = Windows のファイル ダイアログがク
 file-picker-crashed-show-in-folder =
     .label = フォルダーを表示
     .accessKey = F
+
+## Onboarding Finish Setup checklist
+
+onboarding-checklist-button-label = セットアップを完了
