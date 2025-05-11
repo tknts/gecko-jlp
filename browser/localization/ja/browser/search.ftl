@@ -62,14 +62,3 @@ add-engine-window =
 add-engine-button =カスタムエンジンを追加
 
 add-engine-name = 検索エンジンの名前
-
-add-engine-keyword = キーワード
-
-add-engine-url = エンジン URL、検索語の代わりに %s を使用します
-
-add-engine-dialog =
-    .buttonlabelaccept = エンジンを追加
-    .buttonaccesskeyaccept = A
-
-engine-name-exists = その名前のエンジンはすでに存在します
-engine-keyword-exists = そのキーワードを持つエンジンは既に存在します

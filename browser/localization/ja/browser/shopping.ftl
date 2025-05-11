@@ -285,69 +285,6 @@ shopping-onboarding-dialog-close-button =
 shopping-onboarding-welcome-steps-indicator-label =
     .aria-label = 進行状況: ステップ { $current } / { $total }
 
-## Review Checker in Integrated sidebar
-
-# Opt-in message strings for Review Checker when it is integrated into the global sidebar.
-shopping-opt-in-integrated-headline = これらのレビューは信頼できますか?
-
-# Description text for regions where we support three sites. Sites are limited to Amazon, Walmart and Best Buy.
-# Variables:
-#   $firstSite (String) - The first shopping page name
-#   $secondSite (String) - The second shopping page name
-#   $thirdSite (String) - The third shopping page name
-shopping-opt-in-integrated-subtitle = { -brand-product-name } のレビュー チェッカーをオンにすると、購入前に製品レビューの信頼性を確認できます。AI技術を活用してレビューを分析し、{ $firstSite }、{ $secondSite }、{ $thirdSite } でショッピング時に機能します。<a data-l10n-name="learn_more">さらに詳しく</a>
-
-# Description text for regions where we support three sites. Sites are limited to Amazon, Walmart and Best Buy.
-# Variables:
-#   $firstSite (String) - The first shopping page name
-#   $secondSite (String) - The second shopping page name
-#   $thirdSite (String) - The third shopping page name
-shopping-opt-in-integrated-subtitle-unsupported-site = { -brand-product-name } のレビュー チェッカーは、購入前に製品レビューの信頼性を確認するのに役立ちます。AI 技術を活用してレビューを分析し、{ $firstSite }、{ $secondSite }、{ $thirdSite } でのショッピング時に機能します。<a data-l10n-name="learn_more">さらに詳しく</a>
-
-## Messages for callout for users not opted into the sidebar integrated version of Review Checker.
-
-shopping-callout-opt-in-integrated-headline = Can you trust these reviews?
-
-# Appears underneath shopping-opt-in-integrated-headline to answer the question 'Can you trust these reviews?'
-shopping-callout-not-opted-in-integrated-paragraph1 = { -brand-product-name } のレビュー チェッカーをオンにして確認してください。これは { -fakespot-brand-full-name } を搭載しており、AI テクノロジーを使用してレビューを分析します。
-shopping-callout-not-opted-in-integrated-paragraph2 = “{ shopping-opt-in-integrated-button }” を選択すると、{ -brand-product-name } の<a data-l10n-name="privacy_policy">プライバシー通知</a>および { -fakespot-brand-full-name } の<a data-l10n-name="terms_of_use">利用規約</a>に同意したことになります。
-shopping-callout-not-opted-in-integrated-reminder-dismiss-button = 同意しない
-shopping-callout-not-opted-in-integrated-reminder-accept-button = レビュー チェッカーをオンにする
-
-shopping-opt-in-integrated-privacy-policy-and-terms-of-use = レビュー チェッカーは { -fakespot-brand-full-name } によって提供されています。“{ shopping-opt-in-integrated-button }“ を選択すると、{ -brand-product-name } の <a data-l10n-name="privacy_policy">プライバシー ポリシー</a> と { -fakespot-brand-name } の <a data-l10n-name="terms_of_use">利用規約</a> に同意したことになります。
-shopping-opt-in-integrated-button = レビュー チェッカーを試す
-
-## Message strings for Review Checker's empty states.
-
-shopping-empty-state-header = レビューを確認する準備ができました
-shopping-empty-state-supported-site = 製品を表示すると { -brand-product-name } がレビューが信頼できるかどうかを確認します。
-
-# We show a list of sites supported by Review Checker whenever a user opens the feature in an unsupported site.
-# This string will be displayed above the list of sites. The list will be hardcoded and does not require localization.
-shopping-empty-state-non-supported-site = レビュー チェッカーは、以下のサイトで買い物をするときに機能します:
-
-## Confirm disabling Review Checker for newly opted out users
-
-shopping-integrated-callout-opted-out-title = レビュー チェッカーはオフになっています
-shopping-integrated-callout-opted-out-subtitle = レビュー チェッカーを再度オンにするには、サイドバーで値札アイコンを選択してください。
-
-## Callout for where to find Review Checker when the sidebar closes
-
-shopping-integrated-callout-sidebar-closed-title = レビュー チェッカーに戻る
-shopping-integrated-callout-sidebar-closed-subtitle = サイドバーの価格を選択して、商品のレビューが信頼できるかどうかを確認します。
-shopping-integrated-callout-no-logo-sidebar-closed-subtitle = サイドバーのボタンを選択して、製品のレビューが信頼できるかどうかを確認してください。
-
-## Strings for a notification card about Review Checker's new position in the sidebar.
-## The card will only appear for users that have the default sidebar position, which is on the left side for non RTL locales.
-## Review Checker in the sidebar is only available to US users at this time, so we can assume that the default position is on the left side.
-
-shopping-integrated-new-position-notification-title = いつものレビュー チェッカーを新しい場所から
-shopping-integrated-new-position-notification-move-right-subtitle = レビュー チェッカーと { -brand-product-name } の他の機能をここに表示したままにするか、右に移動できます。<a data-l10n-name="sidebar_settings">サイドバー設定</a>でいつでも切り替え可能です。
-shopping-integrated-new-position-notification-move-left-subtitle = レビュー チェッカーと { -brand-product-name } の他の機能をここに表示したままにするか、左に移動できます。<a data-l10n-name="sidebar_settings">サイドバー設定</a>でいつでも切り替え可能です。
-shopping-integrated-new-position-notification-move-right-button = 右に移動
-shopping-integrated-new-position-notification-move-left-button = 左に移動
-shopping-integrated-new-position-notification-dismiss-button = 了解
-
 ## Combined setting for auto-open and auto-close.
 
 shopping-settings-auto-open-and-close-toggle =

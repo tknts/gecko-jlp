@@ -7,6 +7,7 @@
 preonboarding-title = { -brand-product-name } にようこそ
 preonboarding-subtitle = 続行すると { -brand-product-name } の利用規約とプライバシー通知に同意したことになります。ブラウザーの改善を支援するために { -brand-product-name } は診断データとインタラクションデータ (操作情報) を { -vendor-short-name }  に送信します。
 preonboarding-primary-cta = 確認して続行する
+preonboarding-primary-cta-v2 = 続行
 
 # Labels for header style button that toggles showing the terms of use, privacy notice, and data preferences checklist
 preonboarding-manage-and-read-header = データ収集設定を管理し、利用規約およびプライバシー通知をお読みください。

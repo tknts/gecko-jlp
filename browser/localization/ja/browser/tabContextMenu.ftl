@@ -49,6 +49,17 @@ close-tabs-to-the-end-vertical =
 close-other-tabs =
     .label = 他のタブをすべて閉じる
     .accesskey = o
+
+## Variables:
+##  $tabCount (Number): the number of tabs that are affected by the action.
+
+tab-context-unload-n-tabs =
+    .label =
+        { $tabCount ->
+            [1] タブをアンロード
+           *[other] { $tabCount } 個のタブをアンロード
+        }
+    .accesskey = U
 reload-tabs =
     .label = 複数のタブを再読み込み
     .accesskey = R
@@ -91,10 +102,6 @@ tab-context-close-duplicate-tabs =
 tab-context-share-url =
     .label = 共有
     .accesskey = h
-tab-context-enable-vertical-tabs =
-    .label = タブの垂直表示をオンにする
-tab-context-disable-vertical-tabs =
-    .label = タブの垂直表示をオフにする
 
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.

@@ -47,44 +47,44 @@ urlbar-group-pocket =
 # in the user's city or a city they included in their search string (e.g., Yelp
 # suggestions).
 urlbar-group-local =
-  .label = 地域のおすすめ情報
+  .label = 地域のおすすめ
 
 # Label shown above sponsored suggestions in the urlbar results.
 urlbar-group-sponsored =
-  .label = スポンサード
+  .label = スポンサー
 
 # A message that replaces a result when the user dismisses a single suggestion.
-firefox-suggest-dismissal-acknowledgment-one = フィードバックをありがとうございます。 このサジェストは今後表示されなくなります。
+firefox-suggest-dismissal-acknowledgment-one = フィードバックをありがとうございます。 このサジェストは今後表示されません。
 
 # A message that replaces a result when the user dismisses all suggestions of a
 # particular type.
-firefox-suggest-dismissal-acknowledgment-all = フィードバックをありがとうございます。 これらのサジェストは今後表示されなくなります。
+firefox-suggest-dismissal-acknowledgment-all = フィードバックをありがとうございます。 これらのサジェストは今後表示されません。
 
 # A message that replaces a result when the user dismisses a single MDN
 # suggestion.
-firefox-suggest-dismissal-acknowledgment-one-mdn = フィードバックをありがとうございます。この { -mdn-brand-short-name } に関するサジェストは今後表示されなくなります。
+firefox-suggest-dismissal-acknowledgment-one-mdn = フィードバックをありがとうございます。この { -mdn-brand-short-name } に関するサジェストは今後表示されません。
 
 # A message that replaces a result when the user dismisses all MDN suggestions.
-firefox-suggest-dismissal-acknowledgment-all-mdn = フィードバックをありがとうございます。 { -mdn-brand-short-name } に関するサジェストは今後表示されなくなります。
+firefox-suggest-dismissal-acknowledgment-all-mdn = フィードバックをありがとうございます。 { -mdn-brand-short-name } に関するサジェストは今後表示されません。
 
 # A message that replaces a result when the user dismisses a single Yelp
 # suggestion.
-firefox-suggest-dismissal-acknowledgment-one-yelp = フィードバックをありがとうございます。 この { -yelp-brand-name } からのサジェストは今後表示されなくなります。
+firefox-suggest-dismissal-acknowledgment-one-yelp = フィードバックをありがとうございます。この { -yelp-brand-name } からのサジェストは今後表示されません。
 
 # A message that replaces a result when the user dismisses all Yelp suggestions.
-firefox-suggest-dismissal-acknowledgment-all-yelp = フィードバックをありがとうございます。 { -yelp-brand-name } からのサジェストは表示されなくなります。
+firefox-suggest-dismissal-acknowledgment-all-yelp = フィードバックをありがとうございます。 { -yelp-brand-name } からのサジェストは今後表示されません。
 
 # A message that replaces a result when the user dismisses a single Fakespot
 # suggestion.
-firefox-suggest-dismissal-acknowledgment-one-fakespot = フィードバックありがとうございます。この { -fakespot-brand-name } からのサジェストは今後表示されなくなります。
+firefox-suggest-dismissal-acknowledgment-one-fakespot = フィードバックありがとうございます。この { -fakespot-brand-name } からのサジェストは今後表示されません。
 
 # A message that replaces a result when the user dismisses all Fakespot suggestions.
-firefox-suggest-dismissal-acknowledgment-all-fakespot = フィードバックありがとうございます。今後は { -fakespot-brand-name } からのサジェストは表示されなくなります。
+firefox-suggest-dismissal-acknowledgment-all-fakespot = フィードバックありがとうございます。{ -fakespot-brand-name } からのサジェストは今後表示されません。
 
 ## These strings are used for weather suggestions in the urlbar.
 
 # This string is displayed above the current temperature
-firefox-suggest-weather-currently = 現在
+firefox-suggest-weather-currently = 現在の天気
 
 # This string displays the current temperature value and unit
 # Variables:
@@ -101,14 +101,14 @@ firefox-suggest-weather-temperature = { $value }°{ $unit }
 #   $unit (String) - The unit for the temperature
 #   $city (String) - The name of the city the weather data is for
 #   $region (String) - The name of the region (e.g., U.S. state)
-firefox-suggest-weather-title-simplest = <strong>{ $temperature }°{ $unit }</strong> in { $city }, { $region }
+firefox-suggest-weather-title-simplest = { $city } ({ $region }) の天気 <strong>{ $temperature }°{ $unit }</strong>
 
 # This string is the title of the weather summary used for the "full" and
 # "simpler" UI treatments.
 # Variables:
 #   $city (String) - The name of the city the weather data is for
 #   $region (String) - The name of the region (e.g., U.S. state)
-firefox-suggest-weather-title = { $region }、{ $city } の天気
+firefox-suggest-weather-title = { $city } ({ $region }) の天気
 
 # This string displays the weather summary
 # Variables:
@@ -135,15 +135,15 @@ firefox-suggest-command-dont-show-this =
 firefox-suggest-command-dont-show-mdn =
   .label = { -mdn-brand-short-name } からのサジェストを表示しない
 firefox-suggest-command-not-relevant =
-  .label = 関係がありません
+  .label = 関連性がありません
 firefox-suggest-command-not-interested =
-  .label = 関心がありません
+  .label = 興味がありません
 firefox-suggest-command-manage-fakespot =
   .label = { -fakespot-brand-name } からのサジェストを管理
 firefox-suggest-command-dont-show-this-suggestion =
   .label = このサジェストを表示しない
 firefox-suggest-command-dont-show-any-suggestions =
-  .label = サジェストを表示しない
+  .label = すべてのサジェストを表示しない
 
 ## These strings are used for add-on suggestions in the urlbar.
 
@@ -185,14 +185,14 @@ firefox-suggest-fakespot-badge = 信頼できるレビュー
 # Show the exact number of reviews.
 firefox-suggest-fakespot-rating-and-total-reviews =
   { $totalReviews ->
-     [one] { $rating } · ({ $totalReviews } review)
-    *[other] { $rating } · ({ $totalReviews } reviews)
+     [one] { $rating } · ({ $totalReviews } 件のレビュー)
+    *[other] { $rating } · ({ $totalReviews } 件のレビュー)
   }
 # Show an approximate number of reviews (e.g. 100,000+ reviews).
 firefox-suggest-fakespot-rating-and-total-reviews-overflow =
   { $totalReviews ->
-     [one] { $rating } · ({ $totalReviews }+ review)
-    *[other] { $rating } · ({ $totalReviews }+ reviews)
+     [one] { $rating } · ({ $totalReviews } 件以上のレビュー)
+    *[other] { $rating } · ({ $totalReviews } 件以上のレビュー)
   }
 
 # This string is shown in Fakespot suggestion and indicates the suggestion is
@@ -204,14 +204,14 @@ firefox-suggest-fakespot-sponsored = { -fakespot-brand-name } · スポンサー
 # Mozilla's Merino server.
 addressbar-firefox-suggest-data-collection =
   .label = { -firefox-suggest-brand-name } の改善に協力する
-  .description = { -vendor-short-name } が処理できるようにすることで、より充実した検索エクスペリエンスを実現できます。
+  .description = 検索クエリデータを { -vendor-short-name } と共有することで、より豊かな検索体験が実現できます。
 
 ## Used as title on the introduction pane. The text can be formatted to span
 ## multiple lines as needed (line breaks are significant).
 
 firefox-suggest-onboarding-introduction-title-1 =
-  最新の検索エクスペリエンスをご利用ください
-  
+  最新の検索体験を
+  ご確認ください
 firefox-suggest-onboarding-introduction-title-2 =
   信頼できる、より良い検索体験を構築中です
 
@@ -224,8 +224,8 @@ firefox-suggest-onboarding-introduction-title-5 =
   インターネットにふさわしい検索体験を一緒に作りましょう
 
 firefox-suggest-onboarding-introduction-title-6 =
-  { -firefox-suggest-brand-name } に出会おう、検索の次なる進化
-
+  検索の次なる進化、
+  { -firefox-suggest-brand-name } をご紹介します
 firefox-suggest-onboarding-introduction-title-7 =
   ウェブ上のベストを、より早く見つけよう。
 
@@ -270,7 +270,7 @@ firefox-suggest-onboarding-main-description-1 = 検索クエリを { -vendor-sho
 firefox-suggest-onboarding-main-description-2 = { -vendor-short-name } があなたの検索クエリを処理することを許可することで、すべての人にとってより良い { -firefox-suggest-brand-name } を構築する手助けになります。もちろん、常にプライバシーを最優先に考慮します。
 firefox-suggest-onboarding-main-description-3 = ブラウザーが本当に探しているものにピンポイントでたどり着く手助けをしてくれるとしたらどうでしょう？{ -vendor-short-name } が検索クエリを処理することを許可することで、プライバシーを重視しながら、より関連性の高い検索の提案を作成できます。
 firefox-suggest-onboarding-main-description-4 = ウェブで探している場所にすばやくたどり着き、次へ進みたいですよね。{ -vendor-short-name } が検索クエリを処理することを許可することで、プライバシーを重視しながら、目的地へより早く到達する手助けができます。
-firefox-suggest-onboarding-main-description-5 =  { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索提案を提供できます。私たちは、プライバシーを考慮しながらインターネットでの目的地に到達する手助けをする { -firefox-suggest-brand-name } を構築しています。
+firefox-suggest-onboarding-main-description-5 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索提案を提供できます。私たちは、プライバシーを考慮しながらインターネットでの目的地に到達する手助けをする { -firefox-suggest-brand-name } を構築しています。
 firefox-suggest-onboarding-main-description-6 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索提案を提供できます。私たちは、プライバシーを考慮しながらインターネットでの目的地に到達する手助けをする { -firefox-suggest-brand-name } を構築しています。
 firefox-suggest-onboarding-main-description-7 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索の提案を作成することができます。
 firefox-suggest-onboarding-main-description-8 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索の提案を提供できます。このデータをウェブ上でのプロファイリングには使用しません。
@@ -315,18 +315,55 @@ urlbar-search-mode-actions-en = アクション
 ## Add search engine dialog
 ## These strings will be moved to search.ftl once the dialog is finished.
 
-add-engine-suggest-url = Search suggestion URL, use %s in place of the search term
+add-engine-url2 = 検索ワードの代わりに %s を含む URL
+
+add-engine-keyword2 = 検索キーワード (任意)
+
+# POST and GET refer to the HTTP methods.
+add-engine-post-data = 検索ワードの代わりに %s を含む POST データ
+
+add-engine-suggest-url = 検索ワードの代わりに %s を含む候補 URL (任意)
 
 # Variables:
 #   $name (string) - Name of a search engine.
 edit-engine-name-warning-duplicate = “{ $name }” という名前の検索エンジンはすでに存在します。別の名前を選択してください。
 
+# buttonlabelextra1 is the label of a button to open the advanced section
+# of the dialog.
+add-engine-dialog2 =
+    .buttonlabelaccept = エンジンを追加
+    .buttonaccesskeyaccept = A
+    .buttonlabelextra1 = 詳細
+
+# buttonlabelextra1 is the label of a button to open the advanced section
+# of the dialog.
 edit-engine-dialog =
     .buttonlabelaccept = 検索エンジンを保存
     .buttonaccesskeyaccept = S
+    .buttonlabelextra1 = 詳細
 
 edit-engine-window =
     .title = 検索エンジンの編集
     .style = min-width: 32em;
 
-add-engine-post-data = Post data
+## The following placeholders are shown when adding a new engine.
+
+add-engine-name-placeholder =
+    .placeholder = 例: Mozilla Developer Network
+
+add-engine-url-placeholder =
+    .placeholder = 例: https://developer.mozilla.com/search?q=%s
+
+add-engine-keyword-placeholder =
+    .placeholder = 例: @mdn
+
+## The following strings are used as error labels.
+
+add-engine-keyword-exists = そのキーワードは既に使用されています。別のものを試してください。
+add-engine-name-exists = その名前は既に使用されています。別の名前を選択してください。
+add-engine-no-name = 名前を追加してください。
+add-engine-no-url = URL を入力してください。
+add-engine-invalid-url = その URL は正しくないようです。確認してもう一度試してください。
+add-engine-invalid-protocol = その URL は正しくないようです。http または https で始まる URL を使用してください。
+add-engine-missing-terms-url =  検索ワードの代わりに %s を含めてみてください。
+add-engine-missing-terms-post-data = 検索ワードの代わりに %s を含めてみてください。

@@ -43,6 +43,10 @@ appmenu-theme-installed =
     .secondarybuttonaccesskey = U
 appmenu-addon-post-install-message3 = アプリケーションのメニューからアドオンとテーマを管理します。
 
+# This string is used in the confirmation popup displayed after an extension
+# has been installed, when the data collection feature is enabled.
+appmenu-addon-post-install-message-with-data-collection = <a data-l10n-name="settings-link">拡張機能の設定</a>で、いつでも権限とデータ設定を更新できます。
+
 appmenu-new-tab-controlled-changes =
     .label = 新しいタブの設定が変更されました。
     .buttonlabel = 変更を維持

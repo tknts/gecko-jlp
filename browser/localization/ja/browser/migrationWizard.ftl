@@ -49,7 +49,7 @@ migration-source-name-ie = Internet Explorer
 migration-source-name-edge = Microsoft Edge
 migration-source-name-chrome = Google Chrome
 
-migration-imported-safari-reading-list = リーディングリスト (Safari から)
+migration-imported-safari-reading-list = リーディング リスト (Safari から)
 migration-imported-edge-reading-list = リーディング リスト (Edge から)
 
 ## These strings are shown if the selected browser data directory is unreadable.
@@ -58,7 +58,7 @@ migration-imported-edge-reading-list = リーディング リスト (Edge から
 
 migration-no-permissions-message = { -brand-short-name } は、このデバイスにインストールされている他のブラウザーのプロファイルにアクセスできません。
 
-migration-no-permissions-instructions = 別のブラウザーからデータのインポートを続けるには、そのプロファイル フォルダへのアクセスを { -brand-short-name } に許可する必要があります。
+migration-no-permissions-instructions = 他のブラウザーからデータをインポートするには、そのプロファイル フォルダーへのアクセスを { -brand-short-name } に許可する必要があります。
 
 migration-no-permissions-instructions-step1 = “続行” を選択します
 
@@ -72,7 +72,7 @@ migration-no-permissions-instructions-step2 = ファイルの選択ダイアロ�
 ## These strings will be displayed based on how many resources are selected to import
 
 migration-all-available-data-label = 利用可能なすべてのデータをインポートする
-migration-no-selected-data-label =インポートするデータが選択されていません
+migration-no-selected-data-label = インポートするデータが選択されていません
 migration-selected-data-label = 選択したデータをインポート
 
 ##
@@ -84,7 +84,7 @@ migration-bookmarks-option-label = ブックマーク
 # Edge, as this is the terminology for bookmarks on those browsers.
 migration-favorites-option-label = お気に入り
 
-migration-passwords-option-label = 保存されたパスワード
+migration-passwords-option-label = 保存されているパスワード
 migration-history-option-label = 閲覧履歴
 migration-extensions-option-label = 拡張機能
 migration-form-autofill-option-label = フォームの自動入力データ
@@ -164,7 +164,7 @@ migration-bookmarks-from-file-json-filter-title = JSON ファイル
 migration-wizard-progress-success-new-bookmarks =
     { $newEntries ->
         [one] ひとつのブックマーク
-       *[other] { $newEntries } 個のブックマーク
+       *[other] { $newEntries } 件のブックマーク
     }
 
 migration-import-button-label = インポート
@@ -174,7 +174,7 @@ migration-cancel-button-label = キャンセル
 migration-done-button-label = 完了
 migration-continue-button-label = 続行
 
-migration-wizard-import-browser-no-browsers = { -brand-short-name } は、ブックマーク、履歴、またはパスワード データを含むプログラムを見つけることができませんでした。
+migration-wizard-import-browser-no-browsers = { -brand-short-name } は、ブックマーク、履歴、またはパスワード データを含むプログラムを見つけられませんでした。
 migration-wizard-import-browser-no-resources = エラーが発生しました。 { -brand-short-name } はインポート元のブラウザーのプロファイルからインポートするデータを見つけることができませんでした。
 
 ## These strings will be used to create a dynamic list of items that can be
@@ -196,11 +196,11 @@ migration-list-payment-methods-label = 支払い方法
 
 ##
 
-migration-wizard-progress-header = データのインポート
+migration-wizard-progress-header = データをインポートしています
 
 # This header appears in the final page of the migration wizard only if
 # all resources were imported successfully.
-migration-wizard-progress-done-header = データが正常にインポートされました
+migration-wizard-progress-done-header =  データのインポートが正常に完了しました
 
 # This header appears in the final page of the migration wizard if only
 # some of the resources were imported successfully. This is meant to be
@@ -214,14 +214,21 @@ migration-wizard-progress-icon-completed =
   .aria-label = 完了しました
 
 migration-safari-password-import-header = Safari からパスワードをインポートする
-migration-safari-password-import-steps-header = Safari からパスワードをインポートするには:
-migration-safari-password-import-step1 = In Safari, open “Safari” menu and go to Preferences > Passwords
-migration-safari-password-import-step2 = Select the <img data-l10n-name="safari-icon-3dots"/> button and choose “Export All Passwords”
-migration-safari-password-import-step3 = パスワード ファイルを保存
-migration-safari-password-import-step4 = Use “Select File” below to choose the passwords file you saved
-migration-safari-password-import-skip-button = スキップ
-migration-safari-password-import-select-button = ファイルを選択
+migration-safari-password-import-steps-header = Safari のパスワードをインポートする手順:
+migration-safari-password-import-step1 = Safari で “Safari” メニューを開き、[環境設定] > [パスワード] に移動します。
+migration-safari-password-import-step2 = Select the <img data-l10n-name="safari-icon-3dots"/> ボタンを選択し、“すべてのパスワードを書き出す” を選びます。
+migration-safari-password-import-step3 = パスワード ファイルを保存します。
+migration-safari-password-import-step4 = 下の “ファイルを選択” を使用して、保存したパスワードファイルを選びます。
 
+migration-chrome-windows-password-import-header = Chrome からパスワードをインポートする方法
+migration-chrome-windows-password-import-steps-header = Chrome での手順:
+migration-chrome-windows-password-import-step1 = メインメニュー <img data-l10n-name="chrome-icon-3dots"/> を開き、[パスワードと自動入力] > [Google パスワード マネージャー]に移動します。
+migration-chrome-windows-password-import-step2 = メニューから “設定” を選択します。
+migration-chrome-windows-password-import-step3 = “ファイルをダウンロード” を選び、デバイスに保存します。
+migration-chrome-windows-password-import-step4 = Return here and “Select File” to finish import.
+
+migration-manual-password-import-skip-button = Skip
+migration-manual-password-import-select-button = Select File
 
 # Shown in the migration wizard after importing bookmarks from another
 # browser has completed.
@@ -275,7 +282,7 @@ migration-wizard-progress-extensions-support-link = { -brand-product-name } が�
 # on import from supported browsers.
 migration-wizard-progress-no-matched-extensions = 一致する拡張機能はありません
 
-migration-wizard-progress-extensions-addons-link = { -brand-short-name } 用の拡張機能を見る
+migration-wizard-progress-extensions-addons-link = { -brand-short-name } の拡張機能を探す
 
 ##
 
@@ -297,11 +304,11 @@ migration-wizard-progress-success-passwords =
 #  $maxAgeInDays (Number): the maximum number of days of history that might be imported.
 migration-wizard-progress-success-history =
     { $maxAgeInDays ->
-        [one] 最終日から
-       *[other] 過去 { $maxAgeInDays } 日間から
+        [one] 直近 1 日分
+       *[other] 直近 { $maxAgeInDays } 日分
     }
 
-migration-wizard-progress-success-formdata = 入力履歴
+migration-wizard-progress-success-formdata = フォームの入力履歴
 
 # Shown in the migration wizard after importing payment methods from another
 # browser has completed.
@@ -310,10 +317,10 @@ migration-wizard-progress-success-formdata = 入力履歴
 #  $quantity (Number): the number of successfully imported payment methods
 migration-wizard-progress-success-payment-methods =
     { $quantity ->
-        [one] ひとつの支払い方法
-       *[other] { $quantity } 個の支払い方法
+        [one] { $quantity } 件の支払い方法
+       *[other] { $quantity } 件の支払い方法
     }
 
 migration-wizard-safari-permissions-sub-header = Safari のブックマークと閲覧履歴をインポートするには:
 migration-wizard-safari-instructions-continue = “続行” を選択
-migration-wizard-safari-instructions-folder = リストから Safari のフォルダーを選んだ後 “開く” を選択します
+migration-wizard-safari-instructions-folder = リストで Safari のフォルダーを選んだ後 “開く” を選択します

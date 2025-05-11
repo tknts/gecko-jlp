@@ -24,8 +24,8 @@ newtab-search-box-search-button =
 
 # Variables:
 #   $engine (string) - The name of the user's default search engine
-newtab-search-box-handoff-text = { $engine } で検索または URL を入力
-newtab-search-box-handoff-text-no-engine = 検索ワードまたは URL を入力
+newtab-search-box-handoff-text = { $engine } で検索、または URL を入力
+newtab-search-box-handoff-text-no-engine = 検索ワード、または URL を入力
 # Variables:
 #   $engine (string) - The name of the user's default search engine
 newtab-search-box-handoff-input =
@@ -71,9 +71,9 @@ newtab-topsites-add-button = 追加
 
 ## Top Sites - Delete history confirmation dialog.
 
-newtab-confirm-delete-history-p1 = 本当にこのページに関して保存されているあらゆる情報を履歴から削除しますか?
+newtab-confirm-delete-history-p1 = このページに関する、すべての履歴を削除してもよろしいですか?
 # "This action" refers to deleting a page from history.
-newtab-confirm-delete-history-p2 = この操作は取り消せません。
+newtab-confirm-delete-history-p2 = この操作は元に戻せません。
 
 ## Top Sites - Sponsored label
 
@@ -88,8 +88,8 @@ newtab-menu-section-tooltip =
 
 # Tooltip for dismiss button
 newtab-dismiss-button-tooltip =
-    .title = 削除
-    .aria-label = 削除
+    .title = 削除します
+    .aria-label = 削除します
 
 # This tooltip is for the context menu of Pocket cards or Topsites
 # Variables:
@@ -104,26 +104,27 @@ newtab-menu-edit-topsites = 編集
 newtab-menu-open-new-window = 新しいウィンドウで開く
 newtab-menu-open-new-private-window = 新しいプライベート ウィンドウで開く
 newtab-menu-dismiss = 削除
-newtab-menu-pin = 固定
-newtab-menu-unpin = 固定を解除
+newtab-menu-pin = ピン留めする
+newtab-menu-unpin = ピン留めを外す
 newtab-menu-delete-history = 履歴から削除
 newtab-menu-save-to-pocket = { -pocket-brand-name } に保存
 newtab-menu-delete-pocket = { -pocket-brand-name } から削除
 newtab-menu-archive-pocket = { -pocket-brand-name } にアーカイブ
 newtab-menu-show-privacy-info = スポンサーとあなたのプライバシー
 newtab-menu-about-fakespot = { -fakespot-brand-name } について
-newtab-menu-report-content = このコンテンツを報告
+# Report is a verb (i.e. report issue with the content).
+newtab-menu-report = 報告
 # Context menu option to personalize New Tab recommended stories by blocking a section of stories,
 # e.g. "Sports". "Block" is a verb here.
 newtab-menu-section-block = ブロック
 # "Follow", "unfollow", and "following" are social media terms that refer to subscribing to or unsubscribing from a section of stories.
 # e.g. Following the travel section of stories.
-newtab-menu-section-unfollow = 話題のフォローを解除
+newtab-menu-section-unfollow = トピックのフォローを解除
 
 ## Context menu options for sponsored stories and new ad formats on New Tab.
 
 newtab-menu-manage-sponsored-content = スポンサードコンテンツの管理
-newtab-menu-our-sponsors-and-your-privacy = スポンサーとあなたのプライバシー
+newtab-menu-our-sponsors-and-your-privacy = スポンサーとあなたのプライバシーについて
 newtab-menu-report-this-ad = この広告を報告
 
 ## Message displayed in a modal window to explain privacy and provide context for sponsored content.
@@ -213,11 +214,11 @@ newtab-empty-section-topstories-generic = 現在おすすめのストーリー�
 ## Empty Section (Content Discovery Experience). These show when there are no more stories or when some stories fail to load.
 
 newtab-discovery-empty-section-topstories-header = すべて既読です!
-newtab-discovery-empty-section-topstories-content = その他の記事については、後でもう一度確認してください。
+newtab-discovery-empty-section-topstories-content =  後でもう一度確認して、新しい記事をご覧ください。
 newtab-discovery-empty-section-topstories-try-again-button = もう一度
 newtab-discovery-empty-section-topstories-loading = 読み込み中…
 # Displays when a layout in a section took too long to fetch articles.
-newtab-discovery-empty-section-topstories-timed-out = しまった! このセクションをほぼ読み込みましたが、完全ではありませんでした。
+newtab-discovery-empty-section-topstories-timed-out = 問題が発生しました。このセクションをほぼ読み込みましたが、完了できませんでした。
 
 ## Thumbs up and down buttons that shows over a newtab stories card thumbnail on hover.
 
@@ -226,10 +227,10 @@ newtab-pocket-thumbs-up-tooltip =
     .title = これに似た記事をもっと表示します
 # Clicking the thumbs down button for this story informs us that the user does not feel like the story is interesting for them
 newtab-pocket-thumbs-down-tooltip =
-    .title = 必要ありません
+    .title = 興味がありません
 # Used to show the user a message upon clicking the thumbs up or down buttons
 newtab-toast-thumbs-up-or-down2 =
-    .message = ありがとうございます。あなたのフィードバックはフィードの改善に役立ちます。
+    .message = ありがとうございます。あなたのフィードバックはフィードの改善に役立てさせていただきます。
 newtab-toast-dismiss-button =
     .title = 閉じる
     .aria-label = 閉じる
@@ -478,7 +479,7 @@ newtab-section-mangage-topics-followed-topics-empty-state = まだ話題をフ�
 newtab-section-mangage-topics-blocked-topics = ブロック済み
 newtab-section-mangage-topics-blocked-topics-empty-state = まだ話題をブロックしていません。
 
-# Strings for custom wallpaper highlight
+## Strings for custom wallpaper highlight
 
 newtab-custom-wallpaper-title = 壁紙をカスタマイズ出来るようになりました。
 # 'Make firefox yours" means to customize or personalize

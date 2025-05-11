@@ -9,12 +9,30 @@
 ## Variables:
 ##   $extension (String): replaced with the localized name of the extension.
 
-webext-perms-header = { $extension } を追加しますか?
-webext-perms-header-with-perms = { $extension } を追加しますか? この拡張機能には次の権限が与えられます:
-webext-perms-header-unsigned = { $extension } を追加しますか? この拡張機能は未検証です。悪意のある拡張機能は、個人情報を盗んだり、コンピューターを危険にさらしたりする恐れがあります。ソースを信頼する場合のみ追加してください。
-webext-perms-header-unsigned-with-perms = { $extension } を追加しますか? この拡張機能は未検証です。悪意のある拡張機能は、個人情報を盗んだり、コンピューターを危険にさらしたりする恐れがあります。ソースを信頼する場合のみ追加してください。この拡張機能には次の権限が与えられます:
-webext-perms-sideload-header = { $extension } を追加しました
-webext-perms-optional-perms-header = { $extension } は追加の権限を要求します。
+webext-perms-header2 = { $extension } を追加
+webext-perms-list-intro-unsigned = この未確認の拡張機能は、プライバシーやデバイスの安全性にリスクをもたらす可能性があります。信頼できる提供元から入手した場合のみ追加してください。
+webext-perms-sideload-header = { $extension } が追加されました
+webext-perms-optional-perms-header2 = { $extension } が追加の権限を要求しています
+
+## Headers used in the webextension permissions dialog, inside the content.
+
+webext-perms-header-required-perms = 必須の権限:
+webext-perms-header-optional-settings = オプション設定:
+
+webext-perms-header-update-required-perms = 新たに必要となる権限:
+
+webext-perms-header-optional-required-perms = 新しい権限:
+
+webext-perms-header-data-collection-perms = 必須のデータ収集:
+webext-perms-header-data-collection-is-none = データ収集:
+
+# This is a header used in the add-ons "update" prompt, shown when the new
+# version requires new data collection permissions.
+webext-perms-header-update-data-collection-perms = 新たに必要となるデータ収集:
+
+# This is a header used in the add-ons "optional" prompt, shown when the
+# extension requests new data collection permissions programmatically.
+webext-perms-header-optional-data-collection-perms =新たなデータ収集:
 
 ##
 
@@ -72,8 +90,38 @@ webext-perms-host-description-one-domain = ドメイン ({ $domain }) のサイ�
 #     (the list of domains will follow this string).
 webext-perms-host-description-multiple-domains =
     { $domainCount ->
-       *[other] Access your data for sites in { $domainCount } domains
+       *[other] { $domainCount } 個のサイトのデータへアクセスします
     }
+
+## Strings for data collection permissions in the permission prompt.
+
+webext-perms-description-data-none = この拡張機能はデータ収集を必要としないと開発者が述べています。
+
+# Variables:
+#    $permissions (String): a list of data collection permissions formatted with `Intl.ListFormat` using the "narrow" style.
+webext-perms-description-data-some = この拡張機能は次のデータを収集すると開発者が述べています: { $permissions }
+
+# Variables:
+#    $permissions (String): a list of data collection permissions formatted with `Intl.ListFormat` using the "narrow" style.
+webext-perms-description-data-some-update = この拡張機能は次のデータを収集するようになると開発者が述べています: { $permissions }
+
+# Variables:
+#    $permissions (String): a list of data collection permissions formatted with `Intl.ListFormat` using the "narrow" style.
+webext-perms-description-data-some-optional = この拡張機能は次のデータの収集を希望していると開発者が述べています: { $permissions }
+
+# Variables:
+#   $extension (String): replaced with the localized name of the extension.
+webext-perms-update-text-with-data-collection = { $extension } を更新するには新しい設定が必要です
+
+webext-perms-update-list-intro-with-data-collection = 現在のバージョンと設定を維持するにはキャンセルしてください。新しいバージョンを取得し、変更を承認するには更新してください。
+
+# Variables:
+#   $extension (String): replaced with the localized name of the extension.
+webext-perms-optional-text-with-data-collection = { $extension } requests additional settings
+
+# Variables:
+#   $extension (String): replaced with the localized name of the extension.
+webext-perms-optional-text-with-data-collection-only = { $extension } は追加のデータ収集を要求しています
 
 ## Headers used in the webextension permissions dialog for synthetic add-ons.
 ## The part of the string describing what privileges the extension gives should be consistent
@@ -82,7 +130,7 @@ webext-perms-host-description-multiple-domains =
 ## Variables:
 ##   $hostname (String): the hostname of the site the add-on is being installed from.
 
-webext-site-perms-header-with-gated-perms-midi = This add-on gives { $hostname } access to your MIDI devices.
+webext-site-perms-header-with-gated-perms-midi = このアドオンは { $hostname } に MIDI デバイスへのアクセスを許可します。
 webext-site-perms-header-with-gated-perms-midi-sysex = このアドオンにより、{ $hostname } は MIDI デバイス (SysEx サポート付き) にアクセスできるようになります。
 
 ##
@@ -111,5 +159,5 @@ webext-site-perms-midi-sysex = SysEx をサポートする MIDI デバイスへ�
 
 ## Colorway theme migration
 
-webext-colorway-theme-migration-notification-message = <b>カラーウェイテーマが削除されました。</b> { -brand-shorter-name } がカラーウェイコレクションを更新しました。最新バージョンはアドオンサイトでご覧いただけます。
+webext-colorway-theme-migration-notification-message = <b>カラーウェイテーマが削除されました。</b> { -brand-shorter-name } が  Colorways コレクションを更新しました。最新バージョンはアドオンサイトでご覧いただけます。
 webext-colorway-theme-migration-notification-button = 最新のカラーウェイを入手
