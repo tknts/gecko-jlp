@@ -312,8 +312,8 @@ quickactions-bookmarks2 = ブックマークを管理
 quickactions-cmd-bookmarks = bookmarks, ブックマーク
 
 # Opens a SUMO article explaining how to clear history
-quickactions-clearhistory = 履歴を消去
-quickactions-cmd-clearhistory = clear history, 履歴
+quickactions-clearrecenthistory = 最近の履歴を消去
+quickactions-cmd-clearrecenthistory = clear recent history, history, 最近の履歴を消去, 履歴
 
 # Opens about:downloads page
 quickactions-downloads2 = ダウンロードを表示
@@ -1174,6 +1174,12 @@ popup-notification-xpinstall-prompt-block-url = 詳細を見る
 popup-notification-addon-privatebrowsing-checkbox2 =
     .label = プライベートウィンドウでの拡張機能の実行を許可する
     .accesskey = p
+
+# This string is similar to `webext-perms-description-data-long-technicalAndInteraction`
+# but it is used in the install prompt, and it needs an access key.
+popup-notification-addon-technical-and-interaction-checkbox =
+    .label = 拡張機能の開発者と技術データやインタラクションデータを共有する
+    .accesskey = S
 
 ## Pop-up warning
 

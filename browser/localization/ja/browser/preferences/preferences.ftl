@@ -820,6 +820,10 @@ search-keyword-warning-title = キーワードの重複
 search-keyword-warning-engine = “{ $name }”で使用されているキーワードを指定しました。他のものを指定してください。
 search-keyword-warning-bookmark = ブックマークで使用されているキーワードを指定しました。他のものを指定してください。
 
+remove-engine-confirmation = この検索エンジンを削除してもよろしいですか?
+remove-engine-remove = 削除
+remove-addon-engine-alert = この検索エンジンを削除するには、関連するアドオンを削除してください。
+
 ## Containers Section
 
 containers-back-button2 =

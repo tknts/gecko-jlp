@@ -40,4 +40,35 @@ webext-perms-extra-warning-userScripts-long = 検証されていないスクリ�
 # A shorter warning is displayed in UI surfaces with little room, such as a permission prompt.
 webext-perms-extra-warning-userScripts-short = 検証されていないスクリプトは、セキュリティとプライバシーのリスクをもたらす可能性があります。信頼できる拡張機能またはソースからのスクリプトのみを実行してください。
 
+## Short form to be used in lists or in a string (`webext-perms-description-data-some`)
+## that formats some of the data collection permissions below using `Intl.ListFormat`.
 ##
+## This is used when the data collection permissions are required.
+
+webext-perms-description-data-short-authenticationInfo = 認証情報
+webext-perms-description-data-short-bookmarksInfo = ブックマーク
+webext-perms-description-data-short-browsingActivity = 閲覧アクティビティ
+webext-perms-description-data-short-financialAndPaymentInfo = 財務および支払い情報
+webext-perms-description-data-short-healthInfo = 健康情報
+webext-perms-description-data-short-locationInfo = 位置情報
+webext-perms-description-data-short-personalCommunications = 個人間通信
+webext-perms-description-data-short-personallyIdentifyingInfo = 個人を特定できる情報
+webext-perms-description-data-short-searchTerms = 検索ワード
+webext-perms-description-data-short-technicalAndInteraction = 技術および操作データ
+webext-perms-description-data-short-websiteActivity = ウェブサイトの利用状況
+webext-perms-description-data-short-websiteContent = ウェブサイトの内容
+
+## Long form to be used in `about:addons` when these data collection permissions are optional.
+
+webext-perms-description-data-long-authenticationInfo = 認証情報を拡張機能の開発者と共有
+webext-perms-description-data-long-bookmarksInfo = ブックマーク情報を拡張機能の開発者と共有
+webext-perms-description-data-long-browsingActivity = 閲覧アクティビティを拡張機能の開発者と共有
+webext-perms-description-data-long-financialAndPaymentInfo = 財務および支払い情報を拡張機能の開発者と共有
+webext-perms-description-data-long-healthInfo = 健康情報を拡張機能の開発者と共有
+webext-perms-description-data-long-locationInfo = 位置情報を拡張機能の開発者と共有
+webext-perms-description-data-long-personalCommunications = 個人間通信を拡張機能の開発者と共有
+webext-perms-description-data-long-personallyIdentifyingInfo = 個人を特定できる情報を拡張機能の開発者と共有
+webext-perms-description-data-long-searchTerms = 検索ワードを拡張機能の開発者と共有
+webext-perms-description-data-long-technicalAndInteraction = 技術および操作データを拡張機能の開発者と共有
+webext-perms-description-data-long-websiteActivity = ウェブサイトの利用状況を拡張機能の開発者と共有
+webext-perms-description-data-long-websiteContent = ウェブサイトの内容を拡張機能の開発者と共有

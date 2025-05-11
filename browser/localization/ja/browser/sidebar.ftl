@@ -5,9 +5,6 @@
 menu-view-genai-chat =
   .label = AI チャットボット
 
-menu-view-review-checker =
-  .label = レビュー チェッカー
-
 menu-view-contextual-password-manager =
   .label = パスワード
 
@@ -124,8 +121,6 @@ sidebar-menu-bookmarks-label =
   .label = ブックマーク
 sidebar-menu-customize-label =
   .label = サイドバーのカスタマイズ
-sidebar-menu-review-checker-label =
-  .label = レビュー チェッカー
 sidebar-menu-contextual-password-manager-label =
   .label = パスワード
 

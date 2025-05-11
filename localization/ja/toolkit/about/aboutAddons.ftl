@@ -146,7 +146,7 @@ disabled-unsigned-heading =
 
 disabled-unsigned-description =
     次のアドオンは { -brand-short-name } での使用が検証されていません。
-    <label data-l10n-name="find-addons">代わりのアドオンを見つける</label> か、検証されたアドオンを入手できるように開発者に依頼してください。
+    <label data-l10n-name="find-addons">代わりのアドオンを探す</label> か、検証されたアドオンを入手できるように開発者に依頼してください。
 
 disabled-unsigned-learn-more = ユーザーのオンライン上の安全を保つ私たちの活動について学んでください。
 
@@ -207,16 +207,16 @@ addon-sitepermission-host = { $host } のサイト権限
 ## These are global warnings
 
 extensions-warning-safe-mode2 =
-    .message = すべてのアドオンはセーフモードで無効にされています。
+    .message = セーフモードによりすべてのアドオンが無効化されています。
 extensions-warning-check-compatibility2 =
-    .message = アドオンの互換性チェックは無効になっています。 互換性のないアドオンがインストールされている可能性があります。
-extensions-warning-check-compatibility-button = 有効化
-    .title = アドオンの互換性チェックを有効にします
+    .message = アドオンの互換性チェックが無効になっています。 互換性のないアドオンがインストールされている可能性があります。
+extensions-warning-check-compatibility-button = 有効にする
+    .title = アドオンの互換性チェックの有効化
 extensions-warning-update-security2 =
-    .message = 更新のセキュリティチェックが無効になっています。 更新によって危険にさらされる可能性があります。
-extensions-warning-update-security-button = 有効化
-    .title = アドオンの更新のセキュリティチェックを有効にします
-xtensions-warning-imported-addons2 =
+    .message = アドオンの更新時のセキュリティ確認が無効になっています。 更新によって危険にさらされる可能性があります。
+extensions-warning-update-security-button = 有効にする
+    .title = アドオンの更新のセキュリティチェックの有効化
+extensions-warning-imported-addons2 =
     .message = { -brand-short-name } にインポートされた拡張機能のインストールを完了してください。
 extensions-warning-imported-addons-button = 拡張機能をインストール
 
@@ -279,7 +279,7 @@ shortcuts-remove-button =
   .aria-label = ショートカットを削除
 
 shortcuts-browserAction2 = ツールバーボタンを有効化
-shortcuts-pageAction = ページ操作を有効化
+shortcuts-pageAction = ページアクションを有効化
 shortcuts-sidebarAction = サイドバーの表示を切り替え
 
 shortcuts-modifier-mac = Ctrl, Alt または ⌘ を含む
@@ -295,7 +295,7 @@ shortcuts-duplicate = ショートカットが重複しています
 # Variables:
 #   $shortcut (string) - Shortcut string for the add-on
 shortcuts-duplicate-warning-message2 =
-    .message = { $shortcut } が他の場所でも使用されています。ショートカットが重複していると予期しない動作の原因となることがあります。
+    .message = { $shortcut } が他の場所でも使用されています。ショートカットが重複していると、予期しない動作の原因となることがあります。
 
 # String displayed when a keyboard shortcut is already used by another add-on
 # Variables:
@@ -321,7 +321,7 @@ header-back-button =
 # We hard code "Firefox" because we do not want to imply that a Firefox fork is
 # making this recommendation.
 discopane-intro3 =
-    拡張機能とテーマを使うと、{ -brand-product-name } をカスタマイズできます。プライバシーの強化、生産性の向上、メディアの画質向上、{ -brand-product-name } の外観の変更など、様々なメリットがあります。これらの小さなソフトウェアプログラムは、多くの場合サードパーティによって開発されています。ここでは、優れたセキュリティ、パフォーマンス、機能性を備えた Firefox の<a data-l10n-name="learn-more-trigger">推奨</a>プログラムをご紹介します。
+    拡張機能とテーマで { -brand-product-name } をカスタマイズできます。プライバシーの強化、生産性の向上、メディアの画質向上、{ -brand-product-name } の外観の変更など、様々なメリットがあります。これらの小さなソフトウェアプログラムは、多くの場合サードパーティによって開発されています。ここでは、優れたセキュリティ、パフォーマンス、機能性を備えた Firefox の<a data-l10n-name="learn-more-trigger">推奨</a>プログラムをご紹介します。
 
 
 
@@ -331,18 +331,16 @@ discopane-intro3 =
 discopane-notice-recommendations2 =
     .message =
         おすすめの一部はパーソナライズされています。
-        これらは、あなたがインストールした拡張機能、プロファイル設定、および使用統計に基づいています。
+        これらは、あなたがインストールした拡張機能、プロファイル設定、および利用統計に基づいて表示されます。
 discopane-notice-learn-more = さらに詳しく
 
 # Notice for the colorway theme removal
 colorway-removal-notice-message =
     .heading = カラーウェイテーマが削除されました。
     .message =
-        { -brand-product-name } のカラーコレクションが更新されました。“保存済みテーマ” リストから古いバージョンを削除しました。新しいバージョンはアドオンサイトから入手できます。
-
-
+        { -brand-product-name } は Colorway を更新しました。“保存済みテーマ” リストから古いバージョンを削除しました。新しいバージョンはアドオンサイトから入手できます。
 colorway-removal-notice-learn-more = さらに詳しく
-colorway-removal-notice-button = 最新のカラーウェイテーマを入手する
+colorway-removal-notice-button = 更新された Colorway テーマを入手
 
 privacy-policy = プライバシーポリシー
 
@@ -583,8 +581,17 @@ details-notification-gmp-pending2 =
 plugins-gmp-license-info = ライセンス情報
 plugins-gmp-privacy-info = プライバシー情報
 
-plugins-openh264-name = OpenH264 Video Codec provided by Cisco Systems, Inc.
-plugins-openh264-description = このプラグインは、WebRTC 仕様に準拠し、H.264 ビデオコーデックを必要とするデバイスとの WebRTC 通話を可能にするために、Mozilla によって自動的にインストールされます。コーデックのソースコードを表示し、実装について詳しく知るには、https://www.openh264.org/ にアクセスしてください。
+plugins-openh264-name = OpenH264 Video Codec (provided by Cisco Systems, Inc.)
+plugins-openh264-description = このプラグインは、WebRTC 仕様に準拠し、H.264 ビデオコーデックを必要とするデバイスとの WebRTC 通話を可能にするために、Mozilla によって自動的にインストールされます。コーデックのソースコードを表示し、実装の詳細については https://www.openh264.org/ をご覧ください。
 
-plugins-widevine-name = Widevine Content Decryption Module provided by Google Inc.
-plugins-widevine-description = このプラグインを使用すると、Encrypted Media Extensions 仕様に準拠した暗号化されたメディアの再生が可能になります。暗号化されたメディアは通常、プレミアムメディアコンテンツのコピーを防ぐためにサイトで使用されます。Encrypted Media Extensions の詳細については、https://www.w3.org/TR/encrypted-media/ をご覧ください。
+plugins-widevine-name = Widevine Content Decryption Module (provided by Google Inc.)
+plugins-widevine-description = このプラグインを使用すると、Encrypted Media Extensions 仕様に準拠した暗号化されたメディアの再生が可能になります。暗号化されたメディアは通常、プレミアムメディアコンテンツのコピーを防ぐためにサイトで使用されます。Encrypted Media Extensions の詳細については https://www.w3.org/TR/encrypted-media/ をご覧ください。
+
+## Headings for the Permissions tab in `about:addons` when the data collection
+## feature is enabled.
+
+addon-permissions-required-data-collection = 必須のデータ収集:
+addon-permissions-optional-data-collection = オプションのデータ収集:
+
+# Name of the Permissions tab in `about:addons` when the data collection feature is enabled.
+permissions-data-addon-button = 権限とデータ
