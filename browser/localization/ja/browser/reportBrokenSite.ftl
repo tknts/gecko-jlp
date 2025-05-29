@@ -14,16 +14,23 @@ report-broken-site-panel-reason-optional-label = 何が壊れていますか? (�
 
 report-broken-site-panel-reason-choose =
   .label = 理由を選択してください
-report-broken-site-panel-reason-slow =
-  .label = サイトの動作が遅い、または機能しない
-report-broken-site-panel-reason-media =
-  .label = 画像またはビデオ
-report-broken-site-panel-reason-content =
-  .label = ボタン、リンク、その他のコンテンツ
-report-broken-site-panel-reason-account =
-  .label = サインインまたはサインアウト
-report-broken-site-panel-reason-adblockers =
-  .label = 広告ブロッカー
+report-broken-site-panel-reason-load =
+  .label = サイトが読み込まれない
+# These terms are referring to ecommerce websites
+report-broken-site-panel-reason-checkout =
+  .label = 支払い、チェックアウト、ショッピングができません
+report-broken-site-panel-reason-slow2 =
+  .label = サイトの動作が遅いです
+report-broken-site-panel-reason-media2 =
+  .label = 動画が再生または読み込まれません
+report-broken-site-panel-reason-content2 =
+  .label = コンテンツがありません
+report-broken-site-panel-reason-account2 =
+  .label = ログインまたは登録できません
+report-broken-site-panel-reason-adblocker2 =
+  .label = サイトから広告ブロッカーをオフにするように求められました
+report-broken-site-panel-reason-notsupported =
+  .label = ブラウザーがサポートされていないかブロックされています
 report-broken-site-panel-reason-other =
   .label = その他
 

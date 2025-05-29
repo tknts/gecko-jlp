@@ -59,6 +59,55 @@ add-engine-window =
     .title = 検索エンジンの追加
     .style = min-width: 32em;
 
+edit-engine-window =
+    .title = 検索エンジンの編集
+    .style = min-width: 32em;
+
 add-engine-button =カスタムエンジンを追加
 
+## The following strings are used as input labels.
+
 add-engine-name = 検索エンジンの名前
+add-engine-url2 = 検索ワードの代わりに %s を付加した URL
+add-engine-keyword2 = キーワード (任意)
+# POST and GET refer to the HTTP methods.
+add-engine-post-data = POST data with %s in place of search term (leave empty for GET)
+add-engine-suggest-url = Suggestions URL with %s in place of search term (optional)
+
+## The following placeholders are shown in the inputs when adding a new engine.
+
+add-engine-name-placeholder =
+    .placeholder = 例: Mozilla Developer Network
+add-engine-url-placeholder =
+    .placeholder = 例: https://developer.mozilla.com/search?q=%s
+add-engine-keyword-placeholder =
+    .placeholder = 例: @mdn
+
+## The following strings are used as error messages.
+
+add-engine-keyword-exists = そのキーワードは既に使用されています。別のキーワードを試してください。
+add-engine-name-exists = その名前は既に使用されています。別の名前を選択してください。
+add-engine-no-name = 名前を追加してください。
+add-engine-no-url = URL を入力してください。
+add-engine-invalid-url = その UR Lは正しくないようです。確認してもう一度お試しください。
+add-engine-invalid-protocol = その URL は正しくないようです。http または https で始まる URL を使用してください。
+# This error is shown when the user typed URL is missing %s.
+add-engine-missing-terms-url = Try including %s in place of the search term.
+# This error is shown when the user typed post data is missing %s.
+add-engine-missing-terms-post-data = 検索ワードの代わりに %s を含めてみてください。
+
+## The following strings are used as labels for the dialog's buttons.
+
+# buttonlabelextra1 is the label of a button to open the advanced section
+# of the dialog.
+add-engine-dialog2 =
+    .buttonlabelaccept = 検索エンジンを追加
+    .buttonaccesskeyaccept = A
+    .buttonlabelextra1 = 詳細設定
+
+# buttonlabelextra1 is the label of a button to open the advanced section
+# of the dialog.
+edit-engine-dialog =
+    .buttonlabelaccept = 検索エンジンを保存
+    .buttonaccesskeyaccept = S
+    .buttonlabelextra1 = 詳細設定

@@ -89,7 +89,7 @@ about-logins-login-intro-heading-message = 安全な場所でパスワードを�
 login-intro-description2 = { -brand-product-name } に保存されたパスワードはすべて暗号化されます。さらに、侵害を監視し、影響を受けた場合には警告します。 <a data-l10n-name="breach-alert-link">さらに詳しく</a>
 login-intro-instructions-fxa2 = ログインが保存されているデバイスでアカウントにサインインするか、アカウントを作成してください。
 login-intro-instructions-fxa-settings = [設定] > [同期] > [同期を有効にする…] に移動して [ログイン情報とパスワード] のチェックボックスを選択します。
-login-intro-instructions-fxa-passwords-help = <a data-l10n-name="passwords-help-link">パスワード サポート</a> の詳細なヘルプへ移動
+login-intro-instructions-fxa-passwords-help = <a data-l10n-name="passwords-help-link">パスワードサポート</a> の詳細なヘルプへ移動
 about-logins-intro-import3 = 上のプラス記号ボタンを押すとパスワードを追加できます。詳しくは <a data-l10n-name="import-browser-link">別のブラウザからパスワードをインポートする</a> または <a data-l10n-name="import-file-link">ファイルから直接インポートする</a> をご覧ください。
 
 ## Login
@@ -242,11 +242,11 @@ about-logins-confirm-export-dialog-message2 = エクスポートすると、パ�
 
 about-logins-confirm-export-dialog-confirm-button2 = エクスポートを続行する
 
-about-logins-alert-import-title = インポートが完了しました
 about-logins-alert-import-message = インポートの詳細な概要を表示
 
 confirm-discard-changes-dialog-title = 未保存の変更を破棄しますか?
 confirm-discard-changes-dialog-message = 変更内容はすべて失われます。
+confirm-discard-changes-dialog-confirm-button = 変更しないで終了
 
 ## Breach Alert notification
 

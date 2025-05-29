@@ -39,19 +39,11 @@ urlbar-group-addon =
 urlbar-group-mdn =
   .label = おすすめのリソース
 
-# Label shown above a Pocket suggestion in the urlbar results.
-urlbar-group-pocket =
-  .label = おすすめの記事
-
 # A label shown above urlbar suggestions for businesses and other locations
 # in the user's city or a city they included in their search string (e.g., Yelp
 # suggestions).
 urlbar-group-local =
   .label = 地域のおすすめ
-
-# Label shown above sponsored suggestions in the urlbar results.
-urlbar-group-sponsored =
-  .label = スポンサー
 
 # A message that replaces a result when the user dismisses a single suggestion.
 firefox-suggest-dismissal-acknowledgment-one = フィードバックをありがとうございます。 このサジェストは今後表示されません。
@@ -156,17 +148,13 @@ firefox-suggest-addons-recommended = おすすめ
 # MDN.
 firefox-suggest-mdn-bottom-text = { -mdn-brand-name }
 
-## These strings are used for Pocket suggestions in the urlbar.
-
-# This string is shown in Pocket suggestions and indicates the suggestion is
-# from Pocket and is related to a particular keyword that matches the user's
-# search string.
-# Variables:
-#   $keywordSubstringTyped (string) - The part of the suggestion keyword that the user typed
-#   $keywordSubstringNotTyped (string) - The part of the suggestion keyword that the user did not yet type
-firefox-suggest-pocket-bottom-text = { -pocket-brand-name } · <strong>{ $keywordSubstringTyped }</strong>{ $keywordSubstringNotTyped } に関連する内容
-
 ## These strings are used for Yelp suggestions in the urlbar.
+
+# This string is shown as the title in Yelp suggestions when the suggestion
+# subject is a general service instead of a business name.
+# Variables:
+#   $service (string) - The title of the service, e.g., "coffee shops".
+firefox-suggest-yelp-service-title = { $service } の上位の検索結果
 
 # This string is shown in Yelp suggestions and indicates the suggestion is for
 # Yelp.
@@ -311,59 +299,3 @@ urlbar-search-mode-bookmarks-en = ブックマーク
 urlbar-search-mode-tabs-en = タブ
 urlbar-search-mode-history-en = 履歴
 urlbar-search-mode-actions-en = アクション
-
-## Add search engine dialog
-## These strings will be moved to search.ftl once the dialog is finished.
-
-add-engine-url2 = 検索ワードの代わりに %s を含む URL
-
-add-engine-keyword2 = 検索キーワード (任意)
-
-# POST and GET refer to the HTTP methods.
-add-engine-post-data = 検索ワードの代わりに %s を含む POST データ
-
-add-engine-suggest-url = 検索ワードの代わりに %s を含む候補 URL (任意)
-
-# Variables:
-#   $name (string) - Name of a search engine.
-edit-engine-name-warning-duplicate = “{ $name }” という名前の検索エンジンはすでに存在します。別の名前を選択してください。
-
-# buttonlabelextra1 is the label of a button to open the advanced section
-# of the dialog.
-add-engine-dialog2 =
-    .buttonlabelaccept = エンジンを追加
-    .buttonaccesskeyaccept = A
-    .buttonlabelextra1 = 詳細
-
-# buttonlabelextra1 is the label of a button to open the advanced section
-# of the dialog.
-edit-engine-dialog =
-    .buttonlabelaccept = 検索エンジンを保存
-    .buttonaccesskeyaccept = S
-    .buttonlabelextra1 = 詳細
-
-edit-engine-window =
-    .title = 検索エンジンの編集
-    .style = min-width: 32em;
-
-## The following placeholders are shown when adding a new engine.
-
-add-engine-name-placeholder =
-    .placeholder = 例: Mozilla Developer Network
-
-add-engine-url-placeholder =
-    .placeholder = 例: https://developer.mozilla.com/search?q=%s
-
-add-engine-keyword-placeholder =
-    .placeholder = 例: @mdn
-
-## The following strings are used as error labels.
-
-add-engine-keyword-exists = そのキーワードは既に使用されています。別のものを試してください。
-add-engine-name-exists = その名前は既に使用されています。別の名前を選択してください。
-add-engine-no-name = 名前を追加してください。
-add-engine-no-url = URL を入力してください。
-add-engine-invalid-url = その URL は正しくないようです。確認してもう一度試してください。
-add-engine-invalid-protocol = その URL は正しくないようです。http または https で始まる URL を使用してください。
-add-engine-missing-terms-url =  検索ワードの代わりに %s を含めてみてください。
-add-engine-missing-terms-post-data = 検索ワードの代わりに %s を含めてみてください。

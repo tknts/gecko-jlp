@@ -4,6 +4,8 @@
 
 ## Confirmation hints
 
+# Subtle notification shown when Extensions button moves into the application menu.
+confirmation-hint-extensions-button-hidden = メニューに移動しました
 confirmation-hint-password-removed = パスワードを削除しました!
 confirmation-hint-page-bookmarked = ブックマークに保存しました
 confirmation-hint-password-created = パスワードを保存しました

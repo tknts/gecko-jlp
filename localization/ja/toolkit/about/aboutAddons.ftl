@@ -55,15 +55,15 @@ detail-version =
     .label = バージョン
 
 detail-last-updated =
-    .label = 更新日
+    .label = 最終更新
 
 addon-detail-description-expand = もっと表示
 addon-detail-description-collapse = 表示を減らす
 
-detail-contributions-description = このアドオンの開発者は少額の寄付による継続的な開発のサポートをお願いしています。
+detail-contributions-description = このアドオンの開発者は少額の寄付による継続的な開発の支援をお願いしています。
 
-detail-contributions-button = 貢献
-    .title = このアドオンの開発に貢献する
+detail-contributions-button = 寄付
+    .title = このアドオン開発への寄付
     .accesskey = C
 
 detail-update-type =
@@ -71,7 +71,7 @@ detail-update-type =
 
 detail-update-default =
     .label = 既定
-    .tooltiptext = 既定の場合のみ更新を自動的にインストールします
+    .tooltiptext = 自動更新が既定の場合のみ、自動的にインストールします
 
 detail-update-automatic =
     .label = オン
@@ -87,11 +87,11 @@ detail-private-browsing-label = プライベートウィンドウでの実行
 # Some add-ons may elect to not run in private windows by setting incognito: not_allowed in the manifest.  This
 # cannot be overridden by the user.
 detail-private-disallowed-label = プライベートウィンドウでは許可されていません
-detail-private-disallowed-description2 = この拡張機能はプライベートブラウジング中は動作しません。 <a data-l10n-name="learn-more">さらに詳しく</a>
+detail-private-disallowed-description2 = この拡張機能はプライベートブラウジング中は実行されません。 <a data-l10n-name="learn-more">さらに詳しく</a>
 
 # Some special add-ons are privileged, run in private windows automatically, and this permission can't be revoked
 detail-private-required-label = プライベートウィンドウへのアクセスが必要です
-detail-private-required-description2 = この拡張機能はプライベートブラウジング中にユーザーのオンライン行動にアクセスします。<a data-l10n-name="learn-more">さらに詳しく</a>
+detail-private-required-description2 = この拡張機能はプライベートブラウジング中にユーザーのオンラインアクティビティにアクセスできます。<a data-l10n-name="learn-more">さらに詳しく</a>
 
 detail-private-browsing-on =
     .label = 許可する
@@ -155,7 +155,7 @@ disabled-unsigned-devinfo =
 
 
 plugin-deprecation-description =
-    { -brand-short-name } によるサポートが終了したプラグインは表示されません。 <label data-l10n-name="learn-more">さらに詳しく</label>
+    { -brand-short-name } によるサポートが終了したプラグインは表示されません。<label data-l10n-name="learn-more">さらに詳しく</label>
 
 legacy-warning-show-legacy = 古い形式の拡張機能を表示
 
@@ -163,7 +163,7 @@ legacy-extensions =
     .value = 古い形式の拡張機能
 
 legacy-extensions-description =
-    これらの拡張機能は、現在の { -brand-short-name } 標準に適さないため無効化されています。 <label data-l10n-name="legacy-learn-more">アドオンシステムの変更についてさらに詳しく</label>
+    これらの拡張機能は現在の { -brand-short-name } の基準を満たさないため、無効化されています。 <label data-l10n-name="legacy-learn-more">アドオンシステムの変更についてさらに詳しく</label>
 
 private-browsing-description2 =
     { -brand-short-name } がプライベートブラウジングでの拡張機能の動作を変更しています。
@@ -339,6 +339,8 @@ colorway-removal-notice-message =
     .heading = カラーウェイテーマが削除されました。
     .message =
         { -brand-product-name } は Colorway を更新しました。“保存済みテーマ” リストから古いバージョンを削除しました。新しいバージョンはアドオンサイトから入手できます。
+
+
 colorway-removal-notice-learn-more = さらに詳しく
 colorway-removal-notice-button = 更新された Colorway テーマを入手
 
@@ -595,3 +597,38 @@ addon-permissions-optional-data-collection = オプションのデータ収集:
 
 # Name of the Permissions tab in `about:addons` when the data collection feature is enabled.
 permissions-data-addon-button = 権限とデータ
+
+# This is a description for extension that use this AI model
+# Variables:
+#   $extensionName (String) - Name of the extension
+mlmodel-extension-label = 拡張機能 { $extensionName } によって使用されます
+
+## Mapping Engine IDs from AI models to how that feature represented by the engine Id is described in the used by section in local model management
+
+mlmodel-about-inference = { -brand-short-name } は about:inference でこれを使用します
+mlmodel-link-preview = { -brand-short-name } はリンクをプレビューする際に、重要な点を生成するためにこれを使用します
+mlmodel-pdfjs = { -brand-short-name } は PDF に追加した画像の代替テキストを作成するためにこれを使用します
+mlmodel-smart-tab-topic-engine = { -brand-short-name } はタブグループの名前を提案するためにこれを使用します
+mlmodel-smart-tab-embedding-engine = { -brand-short-name } はタブグループのタブを提案するためにこれを使用します
+
+# AI Model will be downloaded on the users device and used locally
+addon-category-mlmodel = オンデバイス AI
+addon-category-mlmodel-title =
+  .title = オンデバイス AI
+
+mlmodel-heading = オンデバイス AI モデルの管理
+mlmodel-description =
+  { -brand-short-name } の一部の機能や拡張機能は、デバイス上でローカルに動作する AI モデルによって強化されています。このアプローチにより、プライバシーが保護され、多くの場合、パフォーマンスが向上します。<a data-l10n-name="learn-more">詳しくはこちら</a>をご覧ください。
+
+# Label for button that when clicked removed local model
+mlmodel-remove-addon-button =
+  .aria-label = 削除
+# Label for the aggregated value of all files for a model
+mlmodel-addon-detail-totalsize-label = ファイル容量
+mlmodel-addon-detail-last-used-label = 最終使用日時
+# This is a section label to describe what extensions or features use a specific local AI model
+mlmodel-addon-detail-used-by-label = 使用元
+# This is a section label to describe the link to the model card on the Hugging Face website
+mlmodel-addon-detail-model-card = モデルカード
+# This is a label for the Model Card link to Hugging face
+mlmodel-addon-detail-model-card-link-label = Hugging Face で表示

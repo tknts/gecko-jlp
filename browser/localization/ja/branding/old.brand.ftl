@@ -18,10 +18,10 @@
 
 -brand-shorter-name = Nightly
 -brand-short-name = Nightly
--brand-shortcut-name = Firefox Nightly
--brand-full-name = Firefox Nightly
+-brand-shortcut-name = Nightly
+-brand-full-name = Nightly
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Nightly, Beta, etc.).
 -brand-product-name = Firefox
 -vendor-short-name = Mozilla
-trademarkInfo = { " " }
+trademarkInfo = Firefox、Firefox のロゴは、米国およびその他の国々で登録された、米国 Mozilla Foundation の商標です。

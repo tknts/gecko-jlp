@@ -597,6 +597,8 @@ performance-default-content-process-count =
 ## General Section - Browsing
 
 browsing-title = ブラウジング
+browsing-group-label =
+    .aria-label = ブラウジング
 
 browsing-use-autoscroll =
     .label = 自動スクロール機能を使用する
@@ -741,6 +743,13 @@ home-prefs-weather-header =
 home-prefs-weather-description = 今日の天気予報が一目でわかる
 home-prefs-weather-learn-more-link = さらに詳しく
 
+# "Support" here means to help sustain or contribute to something, especially through funding or sponsorship.
+home-prefs-support-firefox-header =
+    .label = { -brand-product-name } をサポートする
+
+home-prefs-mission-message = り良いウェブを構築するという私たちの使命を、スポンサーの皆様がサポートしてくださっています
+home-prefs-mission-message-learn-more-link = 詳細はこちら
+
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
@@ -809,6 +818,9 @@ search-remove-engine =
 search-add-engine =
     .label = 追加
     .accesskey = A
+search-edit-engine =
+    .label = 編集
+    .accesskey = E
 
 search-find-more-link = その他の検索エンジンを探す
 
@@ -819,6 +831,11 @@ search-keyword-warning-title = キーワードの重複
 #   $name (string) - Name of a search engine.
 search-keyword-warning-engine = “{ $name }”で使用されているキーワードを指定しました。他のものを指定してください。
 search-keyword-warning-bookmark = ブックマークで使用されているキーワードを指定しました。他のものを指定してください。
+
+# This warning is displayed when the chosen name is already in use.
+# Variables:
+#   $name (string) - Name of a search engine.
+edit-engine-name-warning-duplicate = “{ $name }” という名前の検索エンジンは既に存在します。別の名前を選択してください。
 
 remove-engine-confirmation = この検索エンジンを削除してもよろしいですか?
 remove-engine-remove = 削除
