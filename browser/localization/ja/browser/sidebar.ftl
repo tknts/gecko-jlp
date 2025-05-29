@@ -108,6 +108,8 @@ sidebar-history-context-menu-delete-page-2 =
   .label = ページを履歴から削除
 sidebar-history-context-menu-bookmark-page =
   .label = ページをブックマーク…
+sidebar-history-context-menu-delete-pages =
+  .label = 複数のページを履歴から削除
 
 ## Labels for sidebar menu items.
 

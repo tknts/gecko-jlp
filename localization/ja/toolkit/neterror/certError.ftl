@@ -36,9 +36,25 @@ cert-error-trust-certificate-transparency = { -brand-short-name } は、公開�
 
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
-cert-error-revoked = ウェブサイトは証明書によって身元を証明します。失効した証明書を使用しているため、{ -brand-short-name } は { $hostname } を信頼しません。
 
-cert-error-untrusted-default = 証明書が信頼できるソースからのものではありません。
+cert-error-revoked-certificate = { $hostname } に対して提供された証明書は失効し、もはや信頼されないため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-bad-signature = { $hostname } に対して提供された証明書の署名が無効であるため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-key-pinning-failure = { $hostname } に対して提供された証明書が予期されたものとは異なる公開鍵を使用しているため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-bad-der = { $hostname } に対して提供された証明書が適切にエンコードされていないため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-cert-not-in-name-space = { $hostname } に対して提供された証明書が、発行元の証明書の名前制約に従っていないため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-inadequate-cert-type = { $hostname } に対して提供された証明書がウェブサーバーで使用することを許可されていないため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-path-len-constraint-invalid = ルート証明書へのパスに中間証明書が多すぎるため、{ $hostname } に対して提供された証明書について { -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-invalid-key = { $hostname } に対して提供された証明書に無効な鍵が含まれているため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。最も可能性が高いのは、セキュリティを確保するには小さすぎるということです。
+cert-error-unknown-critical-extension = { $hostname } に対して提供された証明書にサポートされていないクリティカル拡張が含まれているため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-extension-value-invalid = { $hostname } に対して提供された証明書に無効な拡張が含まれているため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-untrusted-issuer = { $hostname } に対して提供された証明書は、もはや信頼されていない証明機関によって発行されたため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-untrusted-cert = { $hostname } に対して提供された証明書は信頼できないとしてマークされているため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-invalid-integer-encoding = { $hostname } に対して提供された証明書に整数の無効なエンコードが含まれているため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。一般的な原因としては、負のシリアル番号、負の RSA 係数、必要以上に長いエンコードなどがあります。
+cert-error-unsupported-keyalg = { $hostname } に対して提供された証明書にサポートされていない鍵タイプが含まれているため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-issuer-no-longer-trusted = { $hostname } に対して提供された証明書を発行した証明機関がもはや信頼されていないため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+cert-error-signature-algorithm-mismatch = { $hostname } に対して提供された証明書の署名アルゴリズムが、その署名アルゴリズムフィールドと一致しないため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
+
+cert-error-untrusted-default = 証明書は信頼できるソースから発行されていません。
 
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
@@ -47,7 +63,7 @@ cert-error-domain-mismatch = ウェブサイトは証明書によってその身
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
 #   $alt-name (string) - Alternate domain name for which the cert is valid.
-cert-error-domain-mismatch-single = ウェブサイトは証明書によってその身元を証明します。 { -brand-short-name } は { $hostname } に対して無効な証明書を使用しているため、このサイトを信頼しません。 証明書は <a data-l10n-name="domain-mismatch-link">{ $alt-name }</a> に対してのみ有効です。
+cert-error-domain-mismatch-single = ウェブサイトは証明書によってその身元を証明します。 { -brand-short-name } は { $hostname } に対して無効な証明書を使用しているため、このサイトを信頼しません。証明書は <a data-l10n-name="domain-mismatch-link">{ $alt-name }</a> に対してのみ有効です。
 
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
@@ -62,12 +78,12 @@ cert-error-domain-mismatch-multiple = ウェブサイトは証明書によって
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
 #   $not-after-local-time (Date) - Certificate is not valid after this time.
-cert-error-expired-now = ウェブサイトは証明書によってその身元を証明します。 { $hostname } の証明書は { $not-after-local-time } に有効期限が切れました。
+cert-error-expired-now = ウェブサイトは、証明書によってその身元を証明します。{ $hostname } の証明書は { $not-after-local-time } に有効期限が切れました。
 
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
 #   $not-before-local-time (Date) - Certificate is not valid before this time.
-cert-error-not-yet-valid-now = ウェブサイトは設定された期間のみ有効な証明書によって身元を証明します。 { $hostname } の証明書は { $not-before-local-time } まで有効になりません。
+cert-error-not-yet-valid-now = ウェブサイトは、設定された期間のみ有効な証明書によって身元を証明します。 { $hostname } の証明書は { $not-before-local-time } まで有効になりません。
 
 # Variables:
 #   $error (string) - NSS error code string that specifies type of cert error. e.g. unknown issuer, invalid cert, etc.
@@ -80,7 +96,7 @@ cert-error-code-prefix-link = エラーコード: <a data-l10n-name="error-code-
 # Variables:
 #   $hostname (string) - Hostname of the website with SSL error.
 #   $errorMessage (string) - Error message corresponding to the type of error we are experiencing.
-cert-error-ssl-connection-error = { $hostname } への接続中にエラーが発生しました。 { $errorMessage }
+cert-error-ssl-connection-error = { $hostname } への接続中にエラーが発生しました。{ $errorMessage }
 
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
@@ -102,28 +118,28 @@ cert-error-details-cert-chain-label = 証明書チェーン:
 
 # Variables:
 #   $hostname (string) - Hostname of the website blocked by csp or xfo error.
-csp-xfo-blocked-long-desc = セキュリティを保護のため { $hostname } は、別のサイトがページを埋め込んでいる場合 { -brand-short-name } がそのページを表示することを許可しません。このページを表示するには、新しいウィンドウで開く必要があります。
+csp-xfo-blocked-long-desc = セキュリティを保護するため、別のサイトが埋め込んでいる場合、{ $hostname } は { -brand-short-name } にこのページを表示させません。このページを表示するには、新しいウィンドウで開く必要があります。
 
 ## Messages used for certificate error titles
 
-connectionFailure-title = つなげられない
+connectionFailure-title = 接続できませんでした
 deniedPortAccess-title = このアドレスは制限されています
 # "Hmm" is a sound made when considering or puzzling over something.
 # You don't have to include it in your translation if your language does not have a written word like this.
-dnsNotFound-title = うーん?。そのサイトが見つかりません。
+dnsNotFound-title = うーん。そのサイトが見つかりません。
 internet-connection-offline-title = インターネット接続に問題があるようです。
 
 fileNotFound-title = ファイルが見つかりません
 fileAccessDenied-title = ファイルへのアクセスが拒否されました
-generic-title = しまった!
+generic-title = おっと。
 captivePortal-title = ネットワークにログイン
 # "Hmm" is a sound made when considering or puzzling over something.
 # You don't have to include it in your translation if your language does not have a written word like this.
-malformedURI-title = うーん?。そのアドレスは正しくないようです。
+malformedURI-title = うーん。そのアドレスは正しくないようです。
 netInterrupt-title = 接続が中断されました
 notCached-title = ドキュメントの有効期限が切れています
 netOffline-title = オフラインモード
-contentEncodingError-title = コンテンツのエンコード エラー
+contentEncodingError-title = コンテンツのエンコーディング エラー
 unsafeContentType-title = 安全でないファイルの種類
 netReset-title = 接続がリセットされました
 netTimeout-title = 接続がタイムアウトしました
@@ -133,23 +149,23 @@ unknownProtocolFound-title = アドレスがわかりませんでした
 proxyConnectFailure-title = プロキシサーバーが接続を拒否しています
 proxyResolveFailure-title = プロキシサーバーが見つかりません
 redirectLoop-title = ページが正しくリダイレクトされません
-unknownSocketType-title = サーバーから予期しない応答がありました
+unknownSocketType-title = サーバーからの予期しない応答
 nssFailure2-title = 安全な接続に失敗しました
-csp-xfo-error-title = このページを { -brand-short-name } で開けません
+csp-xfo-error-title = { -brand-short-name }はこのページを開けません
 corruptedContentError-title = 破損したコンテンツによるエラー
-sslv3Used-title = 安全に接続できません
+sslv3Used-title = 安全に接続できませんでした
 inadequateSecurityError-title = 接続は安全ではありません
 blockedByPolicy-title = ブロックされたページ
-clockSkewError-title = あなたのコンピュータの時計は間違っています
+clockSkewError-title = コンピューターの時刻が間違っていますます
 networkProtocolError-title = ネットワーク プロトコル エラー
-nssBadCert-title = 警告: 今後の潜在的なセキュリティ リスクがあります
+nssBadCert-title = 警告: 潜在的なセキュリティ リスクがあります
 nssBadCert-sts-title = 接続できませんでした: 潜在的なセキュリティの問題があります
 certerror-mitm-title = ソフトウェアが { -brand-short-name } によるこのサイトへの安全な接続を妨げています
 
 ## Felt Privacy V1 Strings
 
 fp-certerror-page-title = 警告: セキュリティ リスク
-fp-certerror-body-title = 気をつけてください。何かおかしいようです。
+fp-certerror-body-title = ご注意ください。何かおかしいようです。
 
 fp-certerror-why-site-dangerous = このサイトが危険に思える理由は何ですか?
 fp-certerror-what-can-you-do = それに対して何ができるでますか?
@@ -163,7 +179,7 @@ fp-certerror-hide-advanced-button = 終了
 ##   $hostname (String) - Hostname of the website to which the user was trying to connect.
 
 fp-certerror-override-exception-button = { $hostname } に進みます (危険)
-fp-certerror-intro = { -brand-short-name } は、<strong>{ $hostname }</strong> に関する潜在的に深刻なセキュリティ問題を検出しました。誰かがそのサイトになりすまして、クレジットカード情報、パスワード、メールなどを盗もうとしている可能性があります。
+fp-certerror-intro = { -brand-short-name } は、<strong>{ $hostname }</strong> に関する潜在的に深刻なセキュリティ問題を検出しました。誰かがそのサイトになりすまして、クレジットカード情報、パスワード、メールアドレスなどを盗もうとしている可能性があります。
 fp-certerror-expired-into = { -brand-short-name } は、<strong>{ $hostname }</strong> に関するセキュリティ問題を検出しました。サイトが正しく設定されていないか、デバイスの時計が間違った日付/時刻に設定されています。
 
 ##

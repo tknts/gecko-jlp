@@ -307,7 +307,7 @@ multi-cta-fox-doodle-title = おかえりなさい
 
 multi-cta-fox-doodle-set-default-checkbox = { -brand-short-name } を既定のブラウザーに設定する
 multi-cta-fox-doodle-pin-startmenu-checkbox = { -brand-short-name } をスタートメニューにピン留めする
-multi-cta-fox-doodle-pin-checkbox = { PLATFORM() ->
+multi-cta-fox-doodle-pin-checkbox  = { PLATFORM() ->
     [macos] Keep { -brand-short-name } in Dock
    *[other] { -brand-short-name } をタスクバーにピン留めする
 }

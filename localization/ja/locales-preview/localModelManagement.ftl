@@ -9,14 +9,19 @@ addon-category-mlmodel = デバイス上の AI
 addon-category-mlmodel-title =
   .title = On-device AI
 
-mlmodel-heading = ローカル AI モデルの管理
+mlmodel-heading = デバイス上の AI モデルの管理
 mlmodel-description =
-  プレースホルダー テキスト。デバイス上の AI モデルは、使用する機能または拡張機能で初めて必要になったときに { -brand-short-name } に追加されるオプションのコンポーネントです。
-
-  デバイス上でクエリを処理するため、オンライン AI プロバイダーよりもプライバシーが保護されますが、デバイスの性能によっては遅くなる場合があります。<a data-l10n-name="learn-more">さらに詳しく</a>
+  { -brand-short-name } の一部の機能と拡張機能は、デバイス上でに動作する AI モデルによって実現されています。このアプローチにより、プライバシーが保護され、多くの場合、パフォーマンスが向上します。<a data-l10n-name="learn-more">さらに詳しく</a>
 
 # Label for button that when clicked removed local model
 mlmodel-remove-addon-button =
   .aria-label = 削除
 # Label for the aggregated value of all files for a model
 mlmodel-addon-detail-totalsize-label = ファイルのサイズ
+mlmodel-addon-detail-last-used-label = 最終使用日時
+# This is a section label to describe what extensions or features use a specific local AI model
+mlmodel-addon-detail-used-by-label = 使用中の機能
+# This is a section label to describe the link to the model card on the Hugging Face website
+mlmodel-addon-detail-model-card = モデルカード
+# This is a label for the Model Card link to Hugging face
+mlmodel-addon-detail-model-card-link-label = Hugging Face で表示
