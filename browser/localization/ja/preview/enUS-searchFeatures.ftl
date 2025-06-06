@@ -73,7 +73,8 @@ firefox-suggest-dismissal-acknowledgment-one-fakespot = フィードバックあ
 # A message that replaces a result when the user dismisses all Fakespot suggestions.
 firefox-suggest-dismissal-acknowledgment-all-fakespot = フィードバックありがとうございます。{ -fakespot-brand-name } からのサジェストは今後表示されません。
 
-## These strings are used for weather suggestions in the urlbar.
+## These strings are used for urlbar weather suggestions in the "simpler" and
+## "full" weather UIs.
 
 # This string is displayed above the current temperature
 firefox-suggest-weather-currently = 現在の天気
@@ -83,17 +84,6 @@ firefox-suggest-weather-currently = 現在の天気
 #   $value (number) - The temperature value
 #   $unit (String) - The unit for the temperature
 firefox-suggest-weather-temperature = { $value }°{ $unit }
-
-# This string is the title of the weather summary used for the "simplest" UI
-# treatment. The temperature and unit substring should be in a <strong> tag. If
-# the temperature and unit are not adjacent in the string, then it's OK to
-# include only the temperature in the tag.
-# Variables:
-#   $temperature (number) - The temperature value
-#   $unit (String) - The unit for the temperature
-#   $city (String) - The name of the city the weather data is for
-#   $region (String) - The name of the region (e.g., U.S. state)
-firefox-suggest-weather-title-simplest = { $city } ({ $region }) の天気 <strong>{ $temperature }°{ $unit }</strong>
 
 # This string is the title of the weather summary used for the "full" and
 # "simpler" UI treatments.
@@ -114,11 +104,6 @@ firefox-suggest-weather-summary-text = { $currentConditions }; { $forecast }
 #   $unit (String) - The unit for the temperature
 #   $low (number) - The number for the low temperature
 firefox-suggest-weather-high-low = 最高: { $high }°{ $unit } · 最低: { $low }°{ $unit }
-
-# This string displays the name of the weather provider
-# Variables:
-#   $provider (String) - The name of the weather provider
-firefox-suggest-weather-sponsored = { $provider } · Sponsored
 
 ## These strings are used as labels of menu items in the result menu.
 

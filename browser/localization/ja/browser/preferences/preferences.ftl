@@ -408,6 +408,9 @@ download-choose-folder =
 download-always-ask-where =
     .label = ファイルの保存先を毎回確認する
     .accesskey = A
+download-private-browsing-delete =
+    .label = すべてのプライベートウィンドウが閉じられたときにプライベートブラウジングでダウンロードしたファイルを削除する
+    .accesskey = D
 
 applications-header = アプリケーション
 
@@ -742,6 +745,10 @@ home-prefs-weather-header =
   .label = 天気
 home-prefs-weather-description = 今日の天気予報が一目でわかる
 home-prefs-weather-learn-more-link = さらに詳しく
+
+home-prefs-trending-search-header =
+    .label = トレンド検索
+home-prefs-trending-search-description = 人気があり頻繁に検索されるトピック
 
 # "Support" here means to help sustain or contribute to something, especially through funding or sponsorship.
 home-prefs-support-firefox-header =

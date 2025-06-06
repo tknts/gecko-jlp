@@ -86,8 +86,6 @@ policy-DisablePrimaryPasswordCreation = true にすると、プライマリ パ�
 
 policy-DisablePasswordReveal = 保存されたログイン情報のパスワードの表示を禁止します
 
-policy-DisablePocket2 = ウェブページを { -pocket-brand-name } に保存する機能を無効にします。
-
 policy-DisablePrivateBrowsing = プライベート ブラウジングを無効にします。
 
 policy-DisableProfileImport = メニューコマンドの [他のブラウザーからデータをインポート] を無効にします。
