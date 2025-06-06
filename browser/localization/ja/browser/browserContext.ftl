@@ -429,10 +429,6 @@ main-context-menu-take-screenshot =
     .label = スクリーンショットを撮影
     .accesskey = T
 
-main-context-menu-take-frame-screenshot =
-    .label = スクリーンショットを撮影
-    .accesskey = o
-
 main-context-menu-view-page-source =
     .label = ページのソースコードを表示
     .accesskey = V

@@ -269,6 +269,9 @@ newtab-custom-pocket-show-recent-saves = 最近の保存を表示
 newtab-custom-weather-toggle =
   .label = 天気
   .description = 今日の天気予報が一目でわかる
+newtab-custom-trending-search-toggle =
+  .label = トレンド検索
+  .description = 人気があり頻繁に検索されるトピック
 newtab-custom-close-button = 閉じる
 newtab-custom-settings = その他の設定を管理
 
@@ -521,3 +524,12 @@ newtab-report-cancel = キャンセル
 newtab-report-submit = 送信
 newtab-toast-thanks-for-reporting =
     .message = ご報告ありがとうございました。
+
+## Strings for trending searches
+
+# "Trending on Google" refers to the trending topics coming from Google Search, usually seen when a user is focused on the search bar
+newtab-trending-searches-trending-on-google = Trending on Google
+newtab-trending-searches-show-trending =
+    .title = トレンド検索を表示する
+newtab-trending-searches-hide-trending =
+    .title = トレンド検索を閉じる

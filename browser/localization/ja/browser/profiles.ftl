@@ -44,6 +44,10 @@ edit-profile-page-avatar-header-2 =
 edit-profile-page-delete-button =
     .label = 削除
 
+edit-profile-page-avatar-selector-opener-link = 編集
+avatar-selector-icon-tab = アイコン
+avatar-selector-custom-tab = カスタマイズ
+
 edit-profile-page-no-name = 後で見つけやすいように、このプロファイルに名前を付けてください。いつでも名前を変更できます。
 edit-profile-page-duplicate-name = このプロファイルの名前は既に使用されています。他の名前で試してください。
 

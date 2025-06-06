@@ -48,3 +48,15 @@ experimental-features-link-previews-description =
         [macos] To learn more about a webpage before you click, hover over a link and press Shift (⇧) plus Option (⌥) or Alt. Previews can include details like title and reading time. For some webpages, AI can also read the page text and generate key points. The AI is optimized to read and generate English text. To prioritize your privacy, the AI runs locally on your computer. <a data-l10n-name="connect">Share feedback</a>
        *[other] クリックする前にウェブページの情報を確認できます。リンクにカーソルを合わせ、Shift + Alt を押してください。プレビューにはタイトルや読了時間などの詳細が表示されます。一部のページでは、AI がページの内容を読み取り、要点を生成します。この AI は英語のテキストを読み取り、生成するよう最適化されています。プライバシーを重視し、AI はお使いのコンピューター上でローカルに動作します。<a data-l10n-name="connect">フィードバックを共有</a>
     }
+
+# This version of the link previews description does not mention AI.
+experimental-features-link-previews-description-no-ai =
+    { PLATFORM() ->
+        [macos] クリックする前にウェブページの詳細を確認するには、リンクにカーソルを合わせて Shift (⇧) と Option (⌥) または Alt を押します。プレビューにはタイトルや読了時間などの情報が含まれることがあります。<a data-l10n-name="connect">フィードバックを送信</a>
+       *[other] クリックする前にウェブページの詳細を確認するには、リンクにカーソルを合わせて Shift + Alt を押します。プレビューにはタイトルや読了時間などの情報が含まれることがあります。<a data-l10n-name="connect">フィードバックを送信</a>
+    }
+
+# New Tab Sections with follow and block
+experimental-features-newtab-sections-follow-block =
+    .label = 新しいタブの記事のトピック別セクションとフォロー/ブロック機能
+experimental-features-newtab-sections-follow-block-description = 新しいタブのページに表示される記事をスポーツ、グルメ、エンタメなどのトピック別に整理して、より見やすく構成された表示にできます。フォローとブロックの新しいコントロールで、表示されるコンテンツをカスタマイズしましょう。<a data-l10n-name="connect">フィードバックを送信</a>

@@ -49,13 +49,19 @@ link-preview-optin-title-download = リンクのプレビューを設定して�
 link-preview-optin-message-download = 少し時間がかかる場合があります。
 
 # Onboarding card title
-link-preview-onboarding-title = 新機能: Shift (⇧) キーを押しながらリンクにカーソルを合わせるとプレビュー表示
+link-preview-onboarding-title-shift = 新機能：Shiftキーを押しながらリンクにカーソルを合わせてプレビュー
+
+# Onboarding card title for long press
+link-preview-onboarding-title-long-press = 新機能：リンクを長押ししてプレビューを表示
 
 # Onboarding card description
-link-preview-onboarding-description = 短い説明、読了時間などを確認して、リンクを開く価値があるか判断できます。右クリックメニューからも利用可能です。
+link-preview-onboarding-description-shift = 短い説明、読了時間などを確認して、そのリンクを開く価値があるか判断できます。右クリックでも利用可能です。
 
-# Onboarding card Try button
-link-preview-onboarding-button = 今すぐ試す
+# Onboarding card description for long press
+link-preview-onboarding-description-long-press = 短い説明、読了時間などを確認して、そのリンクを開く価値があるか判断できます。右クリックでも利用可能です。
+
+# Onboarding card See a preview button
+link-preview-onboarding-button = プレビューを見る
 
 # Onboarding card Close button
 link-preview-onboarding-close = 閉じる
