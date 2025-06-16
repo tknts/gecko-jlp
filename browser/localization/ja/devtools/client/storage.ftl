@@ -129,3 +129,14 @@ storage-idb-delete-blocked = データベース “{ $dbName }” はすべて�
 # Variables:
 #   $dbName (String) - Name of the database
 storage-idb-delete-error = データベース “{ $dbName }” を削除できませんでした。
+
+# Error notification when cookie could not be created (e.g. because it's invalid).
+# Variables:
+#   $errorString (String) - Platform error message
+storage-cookie-create-error = Cookie を作成できませんでした: “{ $errorString }”.
+
+# Error notification when cookie could not be edited (e.g. because it's invalid).
+# Variables:
+#   $errorString (String) - Platform error message
+storage-cookie-edit-error = Cookie を更新できませんでした: “{ $errorString }”.
+

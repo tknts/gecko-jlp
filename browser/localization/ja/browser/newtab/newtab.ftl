@@ -107,9 +107,6 @@ newtab-menu-dismiss = 削除
 newtab-menu-pin = ピン留めする
 newtab-menu-unpin = ピン留めを外す
 newtab-menu-delete-history = 履歴から削除
-newtab-menu-save-to-pocket = { -pocket-brand-name } に保存
-newtab-menu-delete-pocket = { -pocket-brand-name } から削除
-newtab-menu-archive-pocket = { -pocket-brand-name } にアーカイブ
 newtab-menu-show-privacy-info = スポンサーとあなたのプライバシー
 newtab-menu-about-fakespot = { -fakespot-brand-name } について
 # Report is a verb (i.e. report issue with the content).
@@ -533,3 +530,5 @@ newtab-trending-searches-show-trending =
     .title = トレンド検索を表示する
 newtab-trending-searches-hide-trending =
     .title = トレンド検索を閉じる
+newtab-trending-searches-learn-more = さらに詳しく
+newtab-trending-searches-dismiss = トレンド検索を閉じる
