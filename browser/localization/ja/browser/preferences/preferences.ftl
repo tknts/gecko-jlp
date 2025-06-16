@@ -1368,15 +1368,14 @@ content-blocking-reload-tabs-button =
   .accesskey = R
 
 content-blocking-tracking-content-label =
-  .label = トラッキング コンテンツ
+  .label = トラッキングコンテンツ
   .accesskey = T
 content-blocking-tracking-protection-option-all-windows =
   .label = すべてのウィンドウ
   .accesskey = A
 content-blocking-option-private =
-  .label = プライベート ウィンドウでのみ
+  .label = プライベートウィンドウでのみ
   .accesskey = p
-content-blocking-tracking-protection-change-block-list = ブロックリストの変更
 
 content-blocking-cookies-label =
   .label = Cookie
