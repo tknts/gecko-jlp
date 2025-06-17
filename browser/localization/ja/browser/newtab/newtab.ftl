@@ -5,11 +5,9 @@
 ### Firefox Home / New Tab strings for about:home / about:newtab.
 
 newtab-page-title = 新しいタブ
-newtab-settings-button =
-    .title = 新しいタブのカスタマイズ
-newtab-personalize-settings-icon-label =
-    .title = 新しいタブのパーソナライズ
-    .aria-label = 設定
+newtab-customize-panel-icon-button =
+    .title = このページのカスタマイズ
+newtab-customize-panel-icon-button-label = カスタマイズ
 newtab-settings-dialog-label =
     .aria-label = 設定
 newtab-logo-and-wordmark =
