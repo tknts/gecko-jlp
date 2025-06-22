@@ -185,7 +185,7 @@ places-view-sort-unsorted =
   .accesskey = U
 
 places-view-sort-ascending =
-  .label =  このサイトのデータの消去について
+  .label = 昇順 (A > Z)
   .accesskey = A
 
 places-view-sort-descending =
