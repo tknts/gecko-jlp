@@ -46,16 +46,30 @@ genai-prompts-proofread =
 
 ## Chatbot menu shortcuts
 
+genai-menu-no-provider =
+    .label = AI チャットボットに質問する
+genai-menu-choose-chatbot =
+    .label = AI チャットボットを選択する
 genai-menu-ask-generic =
     .label = AI に質問する
 # $provider (string) - name of the provider
 genai-menu-ask-provider =
     .label = { $provider } に問い合わせる
+genai-menu-open-generic =
+    .label = AI チャットボットを開く
+# $provider (string) - name of the provider
+genai-menu-open-provider =
+    .label = { $provider } を開く
 genai-menu-remove-generic =
     .label = AI チャットボットを削除
 # $provider (string) - name of the provider
 genai-menu-remove-provider =
     .label = { $provider } を削除
+genai-menu-remove-sidebar =
+    .label = サイドバーから削除
+
+genai-menu-new-badge = 新規
+genai-menu-summarize-page = ページを要約
 
 genai-input-ask-generic =
     .placeholder = AI に質問する…
@@ -105,7 +119,23 @@ genai-options-hide-shortcut =
 genai-options-about-chatbot =
     .label = { -brand-short-name } の AI チャットボットについて
 
+## Chatbot footer
+
+genai-page-button-summarize = ページを要約
+
 ## Chatbot onboarding
+
+genai-chatbot-summarize-title = 新機能! ワンクリックでページを要約
+genai-chatbot-summarize-button = ページを要約
+
+# “Summarize Page” should be consistent with the translation for the string genai-menu-summarize-page
+genai-chatbot-summarize-sidebar-provider-subtitle = サイドバーでAIチャットボットを右クリックして、“ページを要約”を選択してください。
+# “Summarize Page” should be consistent with the translation for the string genai-menu-summarize-page
+genai-chatbot-summarize-sidebar-generic-subtitle = サイドバーのスパークルボタンを右クリックして、“ページを要約”を選んでください。初回は、AIチャットボットの選択も行います。
+
+# “Summarize page” should be consistent with the translation for the string genai-page-button-summarize
+genai-chatbot-summarize-footer-provider-subtitle = サイドバーでAIチャットボットを開き、下部の「ページを要約」を選択してください。
+genai-chatbot-summarize-footer-generic-subtitle = AIチャットボットを { -brand-short-name } のサイドバーに追加して、ページをすばやく要約しましょう。
 
 genai-chatbot-contextual-title = タブを切り替えずに AI チャットボットを使う
 genai-chatbot-contextual-subtitle = { -brand-short-name } のサイドバーに AI チャットボットを追加すると、チャットしながら同時にブラウジングできます。

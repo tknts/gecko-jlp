@@ -74,13 +74,12 @@ sidebar-show-on-the-left =
 # hovers over it.
 expand-sidebar-on-hover =
   .label = サイドバーを自動的に表示
+sidebar-manage-extensions = 拡張機能を管理
 
 ## Labels for sidebar context menu items
 
 sidebar-context-menu-manage-extension =
   .label = 拡張機能を管理
-sidebar-context-menu-remove-extension =
-  .label = 拡張機能を削除
 sidebar-context-menu-report-extension =
   .label = 拡張機能を報告
 sidebar-context-menu-open-in-tab =
@@ -106,7 +105,11 @@ sidebar-context-menu-customize-sidebar =
 # Variables:
 #   $deviceName (String) - The name of the device the user is closing a tab for
 sidebar-context-menu-close-remote-tab =
-  .label = { $deviceName } のタブを閉じる
+  .label ={ $deviceName } のタブを閉じる
+sidebar-context-menu-remove-extension2 =
+  .label = { -brand-short-name } から削除
+sidebar-context-menu-unpin-extension =
+  .label = サイドバーから削除
 
 ## Labels for sidebar history context menu items
 

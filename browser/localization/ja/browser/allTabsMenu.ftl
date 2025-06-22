@@ -29,5 +29,5 @@ all-tabs-menu-tab-groups-show-all =
 # This is header for the sub view listing _all_ open and saved tab groups.
 all-tabs-menu-tab-groups-sub-view =
   .title = タブグループ
-  
+
 all-tabs-menu-current-window-header = 現在のウィンドウ

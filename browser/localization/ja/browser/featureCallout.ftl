@@ -83,6 +83,17 @@ sidebar-pins-callout-title = 重要なタブを見失っていませんか?
 sidebar-pins-callout-subtitle = タブをピン留めすると、タブリストの一番上に表示する事ができます。ピン留めしたいタブを右クリックして [タブをピン留め] を選択してください。
 sidebar-pins-callout-cta-button = タブをピン留め
 
+## Pinning Tabs Strings
+
+pin-tabs-callout-1-title = 大切なタブをすぐ使える場所に
+pin-tabs-callout-1-subtitle = ブをタブバーの先頭にドラッグすると固定できます。右クリックして [タブを固定] も選べます。
+pin-tabs-callout-cta-1-button = このタブを固定
+pin-tabs-callout-2-title = よく使うタブを固定しましょう
+pin-tabs-callout-2-subtitle = タブを固定するには、タブをタブバーの先頭にドラッグするか、右クリックで [タブを固定] を選びます。
+pin-tabs-callout-cta-2-button = このタブを固定
+pin-tabs-callout-3-title = よく使うサイトをすぐにアクセス
+pin-tabs-callout-4-title = よく訪れるサイトを固定しましょう
+
 ## Sidebar Onboarding Strings
 
 sidebar-customization-callout-1-title = サイドバー: ツールとタブを配置する場所
@@ -142,7 +153,7 @@ actions-callout-title = 一般的なタスクを完了するか、基本設定�
 # These example text inputs correlate to the the following strings
 # (either matching the whole string, or the first word of the string).
 # "print" - quickactions-cmd-print
-# "clear" - quickactions-cmd-clearhistory
+# "clear" - quickactions-cmd-clearrecenthistory
 # When localizing, ensure the translations match to ensure the action button appears as expected.
 actions-callout-subtitle = ページを印刷するには “print”、履歴を消去するには “clear” などのアクションを入力してみてください。
 
@@ -201,3 +212,11 @@ perplexity-callout-theme-2-subtitle-2 = 質問すれば、出典付きのしっ�
 perplexity-callout-primary-label = Perplexity に聞く
 perplexity-callout-secondary-label-1 = 非表示にする
 perplexity-callout-secondary-label-2 = わかりました
+
+## Account Adoption Passwords callout strings
+
+# Suggestion to backup passwords by signing up for Mozilla account and using sync
+fxa-adoption-passwords-title = パスワードを保存しました。バックアップしましょう。
+fxa-adoption-passwords-subtitle = 暗号化された同期でパスワードを保護し、すべてのデバイスで使えるようにしましょう。
+# Opens Mozilla accounts sign-up page
+fxa-adoption-passwords-primary-button-label = サインアップ

@@ -15,6 +15,7 @@ contextual-manager-more-options-popup =
 
 ## Passwords
 
+contextual-manager-passwords-title = パスワード
 contextual-manager-passwords-command-create = パスワードを追加
 contextual-manager-passwords-command-import-from-browser = その他のブラウザーからパスワードをインポート…
 contextual-manager-passwords-command-import = ファイルからインポート…

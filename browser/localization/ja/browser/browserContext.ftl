@@ -161,10 +161,6 @@ main-context-menu-save-link =
     .label = リンクを名前を付けて保存…
     .accesskey = k
 
-main-context-menu-save-link-to-pocket =
-    .label = リンクを { -pocket-brand-name } へ保存
-    .accesskey = o
-
 ## The access keys for "Copy Link" and "Copy Email Address"
 ## should be the same if possible; the two context menu items
 ## are mutually exclusive.
@@ -339,10 +335,6 @@ main-context-menu-video-email =
 main-context-menu-audio-email =
     .label = オーディオをメールで送信…
     .accesskey = a
-
-main-context-menu-save-to-pocket =
-    .label = ページを { -pocket-brand-name } に保存
-    .accesskey = k
 
 main-context-menu-send-to-device =
     .label = ページをデバイスへ送る

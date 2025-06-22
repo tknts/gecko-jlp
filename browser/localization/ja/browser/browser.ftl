@@ -348,7 +348,7 @@ quickactions-cmd-print = print, 印刷, プリント
 
 # Opens the print dialog at the save to PDF option
 quickactions-savepdf = ページを PDF 形式で保存
-quickactions-cmd-savepdf = pdf
+quickactions-cmd-savepdf2 = pdf, save page, ページを保存
 
 # Opens a new private browsing window
 quickactions-private2 = プライベートウィンドウを開く
@@ -542,6 +542,11 @@ urlbar-search-mode-indicator-close =
 # engine is unknown.
 urlbar-placeholder =
   .placeholder = URL か検索ワードを入力してください
+
+# This placeholder is used when not in search mode and searching in the urlbar
+# is disabled via the keyword.enabled pref.
+urlbar-placeholder-keyword-disabled =
+  .placeholder = URL を入力してください
 
 # This placeholder is used in search mode with search engines that search the
 # entire web.
@@ -945,12 +950,6 @@ bookmarks-subview-bookmark-tab =
 library-bookmarks-menu =
   .label = ブックマーク
 
-## Pocket toolbar button
-
-save-to-pocket-button =
-  .label = { -pocket-brand-name } に保存
-  .tooltiptext = { -pocket-brand-name } に保存します
-
 ## Repair text encoding toolbar button
 
 repair-text-encoding-button =
@@ -1075,7 +1074,7 @@ navbar-accessible =
 navbar-downloads =
     .label = ダウンロード
 
-navbar-overflow =
+navbar-overflow-2 =
     .tooltiptext = その他のツール…
 
 # Variables:
@@ -1288,5 +1287,6 @@ file-picker-crashed-show-in-folder =
 
 ## Onboarding Finish Setup checklist
 
-onboarding-finish-setup-button-label =
-    .label = セットアップを完了
+onboarding-aw-finish-setup-button =
+    .label = セットアップを完了する
+    .tooltiptext = { -brand-short-name } の設定を完了します
