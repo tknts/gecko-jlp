@@ -299,6 +299,22 @@ contextual-manager-view-alert-heading =
   .heading = 警告の表示
 contextual-manager-view-alert-button =
   .tooltiptext = 警告の表示
+# Variables
+#   $count (number) - The number of active alerts associated with the login
+contextual-manager-view-alert-heading-2 =
+  .heading =
+    { $count ->
+      [1] アラートを表示
+     *[other] アラートを表示
+    }
+# Variables
+#   $count (number) - The number of active alerts associated with the login
+contextual-manager-view-alert-button-2 =
+  .tooltiptext =
+    { $count ->
+      [1] アラートを確認
+     *[other] アラートを確認
+    }
 
 contextual-manager-show-password-button =
   .aria-label = パスワードの表示します

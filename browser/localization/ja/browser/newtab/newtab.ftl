@@ -451,6 +451,9 @@ newtab-topic-selection-button-pick-interests = 関心のある話題を選択し
 newtab-section-follow-button = フォロー
 newtab-section-following-button = フォロー中
 newtab-section-unfollow-button = フォローを解除
+# A modal may appear next to the Follow button, directing users to try out the feature
+newtab-section-follow-highlight-title = フィードをカスタマイズ
+newtab-section-follow-highlight-subtitle = 興味のあるトピックをフォローして、好みに合った記事をもっと表示しましょう。
 
 ## Button to block/unblock listed topics
 ## "Block", "unblocked", and "blocked" are social media terms that refer to hiding a section of stories.
