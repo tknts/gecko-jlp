@@ -212,6 +212,10 @@ profiler-popup-presets-media-description2 = { -brand-shorter-name } のオーデ
 profiler-popup-presets-media-label =
   .label = メディア
 
+profiler-popup-presets-ml-description = { -brand-shorter-name } の機械学習のバグを調査するためのプリセットです。
+profiler-popup-presets-ml-label =
+  .label = 機械学習
+
 profiler-popup-presets-networking-description = { -brand-shorter-name } のネットワークのバグを調査するためのプリセットです。
 profiler-popup-presets-networking-label =
   .label = ネットワーク

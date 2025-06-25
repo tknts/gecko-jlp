@@ -151,6 +151,9 @@ perftools-presets-graphics-description = { -brand-shorter-name } のグラフィ
 perftools-presets-media-label = メディア
 perftools-presets-media-description2 = { -brand-shorter-name } のオーディオとビデオのバグを調査するためのプリセットです。
 
+perftools-presets-ml-label = 機械学習
+perftools-presets-ml-description2 = { -brand-shorter-name } の機械学習のバグを調査するためのプリセットです。
+
 perftools-presets-networking-label = ネットワーク
 perftools-presets-networking-description = { -brand-shorter-name } でネットワークのバグを調査するためのプリセットです。
 
