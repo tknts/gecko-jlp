@@ -8,3 +8,7 @@ ipprotection-button =
   .tooltiptext = { -brand-product-name } IP 保護
 
 ipprotection-title = { -brand-product-name } IP 保護
+
+upgrade-vpn-title = ブラウザーの外でも自分を守るためにアップグレードしましょう
+upgrade-vpn-paragraph = <a data-l10n-name="learn-more-vpn">{ -mozilla-vpn-brand-name }</a> を使えば、ブラウザーだけでなくデバイス全体のセキュリティを強化できます。VPN の接続先をカスタマイズしたり、サイトごとのロケーションを設定したり、さまざまな機能が利用できます。
+upgrade-vpn-button = アップグレード

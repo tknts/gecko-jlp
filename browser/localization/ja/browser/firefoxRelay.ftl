@@ -77,6 +77,8 @@ firefox-relay-and-fxa-popup-notification-header-with-domain = 使い捨てメー
 
 firefox-relay-and-fxa-popup-notification-first-sentence-with-domain  = 無料の <label data-l10n-name="firefox-relay-learn-more-url">使い捨てメール</label> を使用して実際のアドレスを隠し、受信トレイをスパムから保護します。<label data-l10n-name="firefox-fxa-and-relay-offer-domain">このサイト</label> からのメールは受信トレイに届きますが、メールアドレスは開示されません。
 
+firefox-relay-and-fxa-popup-notification-first-sentence = 本当のメールアドレスを隠すために、無料の <label data-l10n-name="firefox-relay-learn-more-url">{ -relay-brand-name } メールマスク</label> を使って、迷惑メールから受信箱を守りましょう。<label data-l10n-name="firefox-fxa-and-relay-offer-domain">このサイト</label> からのメールは引き続き受信箱に届きますが、あなたのアドレスは非公開のままです。
+
 firefox-relay-and-fxa-popup-notification-second-sentence-with-domain = まず使い捨てメールを使用するには、アカウントにサインアップまたはサインインしてください
 
 firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain =
@@ -89,7 +91,7 @@ firefox-relay-and-fxa-popup-notification-header-with-domain-and-value-prop = 使
 
 firefox-relay-and-fxa-popup-notification-first-sentence-with-domain-and-value-prop  = <label data-l10n-name="firefox-relay-learn-more-url">使い捨てメール</label> を使用して実際のアドレスを非表示にすることで、スパムから保護します。<label data-l10n-name="firefox-fxa-and-relay-offer-domain">このサイト</label> からのメールは、アドレスがマスクされた状態で通常の受信トレイに届きます。
 
-firefox-relay-and-fxa-popup-notification-second-sentence-with-domain-and-value-prop = まず、使い捨てメールを使用するには、アカウントにサインアップまたはサインインしてください
+firefox-relay-and-fxa-popup-notification-second-sentence-with-domain-and-value-prop = まず、使い捨てメールを使用するには、アカウントにサインアップまたはサインインしてください。
 
 firefox-relay-and-fxa-opt-in-confirmation-enable-button-with-domain-and-value-prop =
     .label = 次へ
