@@ -373,7 +373,10 @@ quickactions-cmd-settings2 = settings, preferences, options, 設定, オプシ�
 
 # Opens about:addons page in the themes section
 quickactions-themes = テーマを管理
-quickactions-cmd-themes = themes, テーマ,
+# In English we provide multiple spellings for "add-ons". If that's not
+# applicable to your language, only use the correct spelling (don't repeat the
+# same word).
+quickactions-cmd-themes2 = themes, add-ons, addons, テーマ, アドオン, 拡張機能
 
 # Opens a SUMO article explaining how to update the browser
 quickactions-update = { -brand-short-name } を更新
@@ -662,30 +665,8 @@ urlbar-result-action-tabtosearch-web = アドレスバーから直接 { $engine 
 urlbar-result-action-tabtosearch-other-engine = アドレスバーから直接 { $engine } を検索します
 # Action text for copying to clipboard.
 urlbar-result-action-copy-to-clipboard = コピー
-# Shows the result of a formula expression being calculated, the last = sign will be shown
-# as part of the result (e.g. "= 2").
-# Variables
-#  $result (String): the string representation for a formula result
-urlbar-result-action-calculator-result = = { $result }
 # The string returned for an undefined calculator result such as when dividing by 0
 urlbar-result-action-undefined-calculator-result = 未定義
-# Shows the result of a formula expression being calculated, in scientific notation.
-# The last = sign will be shown as part of the result (e.g. "= 1.0e17").
-# Variables
-#  $result (String): the string representation for a result in scientific notation
-#  (e.g. "1.0e17").
-urlbar-result-action-calculator-result-scientific-notation = = { $result }
-# Shows the result of a formula expression being calculated, this is used for numbers >= 1.
-# The last = sign will be shown as part of the result (e.g. "= 2").
-# Variables
-#  $result (String): the string representation for a formula result
-urlbar-result-action-calculator-result-3 = = { NUMBER($result, useGrouping: "false", maximumFractionDigits: 8)}
-# Shows the result of a formula expression being calculated, to a maximum of 9 significant
-# digits. This is used for numbers < 1.
-# The last = sign will be shown as part of the result (e.g. "= 0.333333333").
-# Variables
-#  $result (String): the string representation for a formula result
-urlbar-result-action-calculator-result-decimal = = { NUMBER($result, maximumSignificantDigits: 9)}
 
 # The title of a weather suggestion in the urlbar. The temperature and unit
 # substring should be inside a <strong> tag. If the temperature and unit are not
@@ -754,6 +735,8 @@ urlbar-searchmode-actions =
     .label = アクション
 urlbar-searchmode-exit-button =
     .tooltiptext = 閉じる
+urlbar-searchmode-default =
+    .tooltiptext = デフォルトの検索エンジン
 
 # Label shown on the top of Searchmode Switcher popup. After this label, the
 # available search engines will be listed.

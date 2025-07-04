@@ -279,10 +279,12 @@ tab-context-move-tab-to-group =
         }
     .accesskey = G
 
+tab-context-move-tab-to-group-saved-groups =
+    .label = 保存されたグループ
 tab-group-editor-action-new-tab =
-    .label = New tab in group
+    .label = グループ内の新しいタブ
 tab-group-editor-action-new-window =
-    .label = Move group to new window
+    .label = グループを新しいウィンドウに移動
 tab-group-editor-action-save =
     .label = グループを保存して閉じる
 tab-group-editor-action-ungroup =

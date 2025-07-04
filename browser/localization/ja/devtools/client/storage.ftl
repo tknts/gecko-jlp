@@ -139,4 +139,3 @@ storage-cookie-create-error = Cookie を作成できませんでした: “{ $er
 # Variables:
 #   $errorString (String) - Platform error message
 storage-cookie-edit-error = Cookie を更新できませんでした: “{ $errorString }”.
-
