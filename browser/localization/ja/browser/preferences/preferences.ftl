@@ -1359,8 +1359,14 @@ content-blocking-etp-standard-tcp-rollout-learn-more = さらに詳しく
 content-blocking-etp-standard-tcp-title = これまでで最も強力なプライバシー機能である Total Cookie Protection が含まれています
 
 content-blocking-warning-title = 注意してください!
-content-blocking-and-isolating-etp-warning-description-2 = この設定により、一部のウェブサイトでコンテンツが表示されない、または正しく動作しないことがあります。サイトが壊れているように見える場合は、そのサイトのトラッキング防止機能をオフにして、すべてのコンテンツを読み込むようにしてください。
+content-blocking-and-isolating-etp-warning-description-3 = この設定を有効にすると、一部のウェブサイトでコンテンツが正しく表示されなかったり、機能しなくなったりする可能性があります。既知の影響を受けやすいサイトに対して、例外を適用するオプションがあります。ウェブサイトの表示崩れを減らすには、これらのトラッカー例外を許可してください。サイトが正しく表示されない場合は、そのサイトでトラッキング防止機能を無効にして、すべてのコンテンツを読み込んだ上で問題を報告できます。報告された情報をもとに、全体の改善に役立てます。
 content-blocking-warning-learn-how = さらに詳しく
+
+content-blocking-baseline-exceptions =
+    .label = 主なウェブサイトの表示崩れを回避するために必要な例外を、{ -brand-short-name } に自動で適用させる
+
+content-blocking-convenience-exceptions =
+    .label = 軽微な不具合の修正や利便性機能の有効化に必要な例外も自動で適用する
 
 content-blocking-reload-description = これらの変更を適用するには、タブの再読み込みが必要です。
 content-blocking-reload-tabs-button =

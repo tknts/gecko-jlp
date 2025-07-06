@@ -321,7 +321,7 @@ quickactions-cmd-downloads = downloads, ダウンロード
 
 # Opens about:addons page in the extensions section
 quickactions-extensions = 拡張機能を管理
-quickactions-cmd-extensions = extensions, 拡張機能
+quickactions-cmd-extensions2 = extensions, addons, add-ons, 拡張機能, アドオン
 
 # Opens Firefox View
 quickactions-firefoxview = { -firefoxview-brand-name } を開く
