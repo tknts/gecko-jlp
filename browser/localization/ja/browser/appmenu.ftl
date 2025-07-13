@@ -133,6 +133,10 @@ appmenuitem-fxa-sync-off-description = ブックマーク、パスワードな�
 ## performance profiles. To enable it go to profiler.firefox.com and click
 ## "Enable Profiler Menu Button".
 
+profiler-button-dropmarker =
+    .label = プロファイラーパネルを開く
+    .tooltiptext = プロファイラーパネルを開きます
+
 profiler-popup-button-idle =
   .label = プロファイラー
   .tooltiptext = パフォーマンスプロファイルを記録します

@@ -396,25 +396,25 @@ onboarding-existing-vertical-tabs-label = タブの垂直表示を試す
 onboarding-flair-text = 新機能!
 
 # Text underneath an image used for selecting browser tabs to appear at the top of the browser.
-onboarding-existing-horizontal-tabs-label = Keep horizontal tabs
+onboarding-existing-horizontal-tabs-label = タブを上部に表示
 
 # All users - Initial setup card
 
 # Tooltip displayed on hover for vertical tabs image
 onboarding-vertical-tabs-tooltip =
-    .title = A browser window displaying tabs along the side of the screen as a part of the { -brand-shorter-name } sidebar.
+    .title = { -brand-shorter-name } サイドバーに沿って、画面の側面にタブを表示するブラウザーウィンドウ。
 
 # Description for vertical tabs image
 onboarding-vertical-tabs-description =
-    .aria-description = A browser window displaying tabs along the side of the screen as a part of the { -brand-shorter-name } sidebar.
+    .aria-description = { -brand-shorter-name } サイドバーに沿って、画面の側面にタブを表示するブラウザーウィンドウ。
 
 # Tooltip displayed on hover for horizontal tabs image
 onboarding-horizontal-tabs-tooltip =
-    .title = A browser window displaying tabs along the top.
+    .title = 画面上部にタブを表示するブラウザーウィンドウ。
 
 # Description for horizontal tabs image
 onboarding-horizontal-tabs-description =
-    .aria-description = A browser window displaying tabs along the top.
+    .aria-description = 画面上部にタブを表示するブラウザーウィンドウ。
 
 # Existing users - additional setup card
 
@@ -440,12 +440,18 @@ onboarding-checklist-sign-up = サインアップまたはアカウントにロ�
 
 tab-groups-onboarding-feature-callout-title = タブグループを使用して、タブを整理して、集中力を高めましょう
 tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグして最初のグループを作成し、整理します。
-tab-groups-onboarding-create-group-title-2 = いつでもここからタブグループを探せます。
-tab-groups-onboarding-create-group-no-alltabs-button-title = アドレスバーで検索してグループを探せます。
-tab-groups-onboarding-saved-groups-title-2 = タブグループを閉じた場合は、いつでもここから開き直せます。
-tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 =アドレスバーで検索して閉じたグループを探せます。
-tab-groups-onboarding-session-restore-title = いつでもここからタブグループを開き直せます。
-groups here anytime.tab-groups-onboarding-dismiss = OK
+
+# The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
+tab-groups-onboarding-create-group-title-3 = [すべてのタブを表示] メニューから、いつでもタブグループを確認できます。
+tab-groups-onboarding-create-group-no-alltabs-button-title = アドレスバーで検索してグループを見つけられます。
+
+# The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
+tab-groups-onboarding-saved-groups-title-3 = タブグループを閉じても、[すべてのタブを表示] メニューから再度開けます。
+tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = アドレスバーで検索して、閉じたグループを見つけましょう。
+
+# The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
+tab-groups-onboarding-session-restore-title-2 = [すべてのタブを表示] メニューから、タブグループを再度開くことができます。
+tab-groups-onboarding-dismiss = OK
 
 ## Multi Profiles feature onboarding messages
 

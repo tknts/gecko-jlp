@@ -42,5 +42,11 @@ more-from-moz-mozilla-monitor-button = { -monitor-brand-short-name } を入手
 ## These strings are for the Solo card in about:preferences moreFromMozilla page
 
 more-from-moz-solo-title = { -solo-ai-brand-name } AI
-more-from-moz-solo-description = Create your website instantly and connect your own custom domain for free.
-more-from-moz-solo-button = Try { -solo-ai-brand-name }
+more-from-moz-solo-description = ウェブサイトを即座に作成し、自分専用のカスタムドメインを無料で接続できます。
+more-from-moz-solo-button = { -solo-ai-brand-name } を試す
+
+## These strings are for the MDN card in about:preferences moreFromMozilla page
+
+more-from-moz-mdn-title = MDN Web Docs
+more-from-moz-mdn-description = 無料で充実したガイドとリファレンスでウェブ開発を学びましょう。
+more-from-moz-mdn-button = ウェブ開発を学ぶ

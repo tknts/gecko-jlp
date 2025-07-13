@@ -46,6 +46,9 @@ newtab-topsites-add-search-engine-header = 検索エンジンを追加
 newtab-topsites-add-shortcut-header = 新しいショートカット
 newtab-topsites-edit-shortcut-header = ショートカットを編集
 newtab-topsites-add-shortcut-label = ショートカットを追加
+newtab-topsites-add-shortcut-title =
+    .title = ショートカットの追加
+    .aria-label = ショートカットの追加
 newtab-topsites-title-label = タイトル
 newtab-topsites-title-input =
     .placeholder = タイトルを入力してください
@@ -490,6 +493,12 @@ newtab-custom-wallpaper-title = 壁紙をカスタマイズ出来るようにな
 newtab-custom-wallpaper-subtitle = 自分の壁紙をアップロードするか、カスタムカラーを選んで { -brand-product-name } を自分好みにカスタマイズしましょう。
 newtab-custom-wallpaper-cta = 試してみる
 
+## Strings for new user activation custom wallpaper highlight
+
+newtab-new-user-custom-wallpaper-title = 壁紙を選んで { -brand-product-name } をあなた好みに
+newtab-new-user-custom-wallpaper-subtitle = カスタマイズされた壁紙と配色で、新しいタブをもっと自分らしく。
+newtab-new-user-custom-wallpaper-cta = 今すぐ試す
+
 ## Strings for download mobile highlight
 
 newtab-download-mobile-highlight-title = モバイル版 { -brand-product-name } をダウンロード
@@ -499,6 +508,11 @@ newtab-download-mobile-highlight-body-variant-b = タブやパスワードなど
 newtab-download-mobile-highlight-body-variant-c = { -brand-product-name } を持ち運べることをご存じですか？。同じブラウザーをポケットに。
 newtab-download-mobile-highlight-image =
     .aria-label = モバイル版 { -brand-product-name } をダウンロードするためのQRコード
+
+## Strings for shortcuts highlight
+
+newtab-shortcuts-highlight-title = お気に入りを指先で
+newtab-shortcuts-highlight-subtitle =ショートカットを追加して、お気に入りのサイトにワンクリックでアクセスできるようにします。
 
 ## Strings for reporting ads and content
 

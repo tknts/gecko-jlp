@@ -9,7 +9,7 @@ start-troubleshoot-mode =
     .label = 開く
 refresh-profile =
     .label = { -brand-short-name } をリフレッシュ
-troubleshoot-mode-description = Use this special mode of { -brand-short-name } to diagnose issues. Your extensions and customizations will be temporarily disabled.
-skip-troubleshoot-refresh-profile = You can also skip troubleshooting and refresh { -brand-short-name }, instead.
+troubleshoot-mode-description = この特別な { -brand-short-name } のモードを使って問題を診断できます。拡張機能やカスタマイズは一時的に無効になります。
+skip-troubleshoot-refresh-profile = トラブルシューティングを行わずに、代わりに { -brand-short-name } をリフレッシュすることもできます。
 # Shown on the safe mode dialog after multiple startup crashes.
-auto-safe-mode-description = { -brand-short-name } closed unexpectedly while starting. This might be caused by add-ons or other problems. You can try to resolve the problem by troubleshooting in Safe Mode.
+auto-safe-mode-description = { -brand-short-name } は起動中に予期せず終了しました。これはアドオンなどが原因である可能性があります。セーフモードでトラブルシューティングを行うことで問題を解決できる場合があります。

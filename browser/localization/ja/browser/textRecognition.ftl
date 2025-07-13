@@ -5,10 +5,10 @@
 ## Text recognition works through a modal that presents the text that is found
 ## in an image, and copies the results to the clipboard.
 
-text-recognition-modal-searching-title = Searching image for text…
-text-recognition-modal-results-title = Text copied from image
-text-recognition-modal-no-results-title = Sorry, we couldn’t extract any text. Try a different image. <a data-l10n-name="error-link">Learn more</a>.
-text-recognition-modal-close-button = Close
+text-recognition-modal-searching-title = 画像内のテキストを検索中…
+text-recognition-modal-results-title = 画像からコピーされたテキスト
+text-recognition-modal-no-results-title = 申し訳ありません。テキストを抽出できませんでした。別の画像を試してください。<a data-l10n-name="error-link">詳細はこちら</a>。
+text-recognition-modal-close-button = 閉じる
 
 # The title of the the modal is only available to screen readers.
-text-recognition-modal-accessible-modal-title = Results for text extraction
+text-recognition-modal-accessible-modal-title = テキスト抽出の結果

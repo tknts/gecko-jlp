@@ -89,7 +89,7 @@ add-engine-keyword-exists = そのキーワードは既に使用されていま�
 add-engine-name-exists = その名前は既に使用されています。別の名前を選択してください。
 add-engine-no-name = 名前を追加してください。
 add-engine-no-url = URL を入力してください。
-add-engine-invalid-url = その UR Lは正しくないようです。確認してもう一度お試しください。
+add-engine-invalid-url = その URL は正しくないようです。確認してもう一度お試しください。
 add-engine-invalid-protocol = その URL は正しくないようです。http または https で始まる URL を使用してください。
 # This error is shown when the user typed URL is missing %s.
 add-engine-missing-terms-url = Try including %s in place of the search term.
