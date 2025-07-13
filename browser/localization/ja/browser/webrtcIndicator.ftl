@@ -141,43 +141,43 @@ webrtc-allow-share-screen-and-audio-capture = { $origin } がこのタブのオ�
 
 ## Special phrasing for sharing devices when the origin is a file url.
 
-webrtc-allow-share-audio-capture-with-file = Allow this local file to listen to this tab’s audio?
-webrtc-allow-share-camera-with-file = Allow this local file to use your camera?
-webrtc-allow-share-microphone-with-file = Allow this local file to use your microphone?
-webrtc-allow-share-screen-with-file = Allow this local file to see your screen?
+webrtc-allow-share-audio-capture-with-file = このローカルファイルに、タブの音声を聞き取ることを許可しますか?
+webrtc-allow-share-camera-with-file = このローカルファイルに、カメラの使用を許可しますか?
+webrtc-allow-share-microphone-with-file = このローカルファイルに、マイクの使用を許可しますか?
+webrtc-allow-share-screen-with-file = このローカルファイルに、画面の閲覧を許可しますか？
 # "Speakers" is used in a general sense that might include headphones or
 # another audio output connection.
-webrtc-allow-share-speaker-with-file = Allow this local file to use other speakers?
-webrtc-allow-share-camera-and-microphone-with-file = Allow this local file to use your camera and microphone?
-webrtc-allow-share-camera-and-audio-capture-with-file = Allow this local file to use your camera and listen to this tab’s audio?
-webrtc-allow-share-screen-and-microphone-with-file = Allow this local file to use your microphone and see your screen?
-webrtc-allow-share-screen-and-audio-capture-with-file = Allow this local file to listen to this tab’s audio and see your screen?
+webrtc-allow-share-speaker-with-file = このローカルファイルに、別のスピーカーの使用を許可しますか?
+webrtc-allow-share-camera-and-microphone-with-file = このローカルファイルに、カメラとマイクの使用を許可しますか?
+webrtc-allow-share-camera-and-audio-capture-with-file = このローカルファイルに、カメラの使用とタブの音声の聞き取りを許可しますか?
+webrtc-allow-share-screen-and-microphone-with-file = このローカルファイルに、マイクの使用と画面の閲覧を許可しますか?
+webrtc-allow-share-screen-and-audio-capture-with-file = このローカルファイルに、タブの音声の聞き取りと画面の閲覧を許可しますか?
 
 ## Variables:
 ##   $origin (String): the first party origin.
 ##   $thirdParty (String): the third party origin.
 
-webrtc-allow-share-audio-capture-unsafe-delegation = Allow { $origin } to give { $thirdParty } permission to listen to this tab’s audio?
-webrtc-allow-share-camera-unsafe-delegation = Allow { $origin } to give { $thirdParty } access to your camera?
-webrtc-allow-share-microphone-unsafe-delegation = Allow { $origin } to give { $thirdParty } access to your microphone?
-webrtc-allow-share-screen-unsafe-delegation = Allow { $origin } to give { $thirdParty } permission to see your screen?
+webrtc-allow-share-audio-capture-unsafe-delegation = { $origin } が { $thirdParty } にこのタブの音声を聞き取る許可を与えることを許可しますか?
+webrtc-allow-share-camera-unsafe-delegation = { $origin } が { $thirdParty } にカメラへのアクセスを与えることを許可しますか?
+webrtc-allow-share-microphone-unsafe-delegation = { $origin } が { $thirdParty } にマイクへのアクセスを与えることを許可しますか?
+webrtc-allow-share-screen-unsafe-delegation = { $origin } が { $thirdParty } に画面を閲覧する許可を与えることを許可しますか?
 # "Speakers" is used in a general sense that might include headphones or
 # another audio output connection.
-webrtc-allow-share-speaker-unsafe-delegation = Allow { $origin } to give { $thirdParty } access to other speakers?
-webrtc-allow-share-camera-and-microphone-unsafe-delegation = Allow { $origin } to give { $thirdParty } access to your camera and microphone?
-webrtc-allow-share-camera-and-audio-capture-unsafe-delegation = Allow { $origin } to give { $thirdParty } access to your camera and listen to this tab’s audio?
-webrtc-allow-share-screen-and-microphone-unsafe-delegation = Allow { $origin } to give { $thirdParty } access to your microphone and see your screen?
-webrtc-allow-share-screen-and-audio-capture-unsafe-delegation = Allow { $origin } to give { $thirdParty } permission to listen to this tab’s audio and see your screen?
+webrtc-allow-share-speaker-unsafe-delegation = { $origin } が { $thirdParty } に別のスピーカーへのアクセスを与えることを許可しますか?
+webrtc-allow-share-camera-and-microphone-unsafe-delegation = { $origin } が { $thirdParty } にカメラとマイクへのアクセスを与えることを許可しますか?
+webrtc-allow-share-camera-and-audio-capture-unsafe-delegation = { $origin } が { $thirdParty } にカメラへのアクセスとタブの音声を聞き取ることを許可するのを許可しますか?
+webrtc-allow-share-screen-and-microphone-unsafe-delegation = { $origin } が { $thirdParty } にマイクへのアクセスと画面の閲覧を許可するのを許可しますか?
+webrtc-allow-share-screen-and-audio-capture-unsafe-delegation = { $origin } が { $thirdParty } にタブの音声の聞き取りと画面の閲覧を許可するのを許可しますか?
 
 ##
 
-webrtc-share-screen-warning = Only share screens with sites you trust. Sharing can allow deceptive sites to browse as you and steal your private data.
-webrtc-share-browser-warning = Only share { -brand-short-name } with sites you trust. Sharing can allow deceptive sites to browse as you and steal your private data.
+webrtc-share-screen-warning = 信頼できるサイトとだけ画面を共有してください。共有により、不正なサイトがあなたになりすまし、個人情報を盗み見る可能性があります。
+webrtc-share-browser-warning = 信頼できるサイトとだけ { -brand-short-name } を共有してください。共有により、不正なサイトがあなたになりすまし、個人情報を盗み見る可能性があります。
 
-webrtc-share-screen-learn-more = Learn more
-webrtc-pick-window-or-screen = Select window or screen
-webrtc-share-entire-screen = Entire screen
-webrtc-share-pipe-wire-portal = Use operating system settings
+webrtc-share-screen-learn-more = さらに詳しく
+webrtc-pick-window-or-screen = 共有するウィンドウまたは画面を選択
+webrtc-share-entire-screen = 画面全体
+webrtc-share-pipe-wire-portal = オペレーティングシステムの設定を使用
 # Variables:
 #   $monitorIndex (String): screen number (digits 1, 2, etc).
 webrtc-share-monitor = Screen { $monitorIndex }
@@ -213,6 +213,6 @@ webrtc-remember-allow-checkbox-microphone = すべてのマイクで記憶する
 webrtc-remember-allow-checkbox-camera-and-microphone = すべてのカメラとマイクで記憶する
 webrtc-mute-notifications-checkbox = 共有中はウェブサイトの通知を停止する
 
-webrtc-reason-for-no-permanent-allow-screen = { -brand-short-name } can not allow permanent access to your screen.
-webrtc-reason-for-no-permanent-allow-audio = { -brand-short-name } can not allow permanent access to your tab’s audio without asking which tab to share.
-webrtc-reason-for-no-permanent-allow-insecure = Your connection to this site is not secure. To protect you, { -brand-short-name } will only allow access for this session.
+webrtc-reason-for-no-permanent-allow-screen = { -brand-short-name } は、画面への永続的なアクセスを許可できません。
+webrtc-reason-for-no-permanent-allow-audio = どのタブを共有するかを確認せずに、タブの音声への永続的なアクセスを { -brand-short-name } は許可できません。
+webrtc-reason-for-no-permanent-allow-insecure = このサイトへの接続は安全ではありません。あなたを保護するため、{ -brand-short-name } はこのセッション中のみアクセスを許可します。

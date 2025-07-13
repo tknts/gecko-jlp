@@ -8,7 +8,7 @@ protocolhandler-mailto-os-handler-no-button = 今はしない
 ## Variables:
 ##  $url (String): The url of a webmailer, but only its full domain name.
 
-protocolhandler-mailto-handler-set-message = 電子メールを開くリンクをクリックするたびに <strong>{ -brand-short-name } で { $url } を開く</strong> を使用しますか?
+protocolhandler-mailto-handler-set = 電子メールを開くリンクをクリックするたびに <strong>{ -brand-short-name } で { $url } を開く</strong> を使用しますか?
 protocolhandler-mailto-handler-confirm = 電子メールを送信するリンクをクリックするたびに <strong>{ -brand-short-name } は { $url }</strong> を開きます。
 
 ##
