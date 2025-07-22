@@ -159,6 +159,10 @@ urlbar-result-menu-show-less-frequently =
 urlbar-result-menu-dont-show-weather-suggestions =
     .label = 天気の提案を表示しない
 
+# Used for Split Button.
+urlbar-splitbutton-dropmarker =
+    .title = メニューを開く
+
 # A message shown in the urlbar when the user submits feedback on a suggestion
 # (e.g., it shows an inaccurate location, it's shown too often, etc.).
 urlbar-feedback-acknowledgment = フィードバックありがとうございます
@@ -744,6 +748,9 @@ urlbar-searchmode-popup-description = 次で検索:
 urlbar-searchmode-popup-search-settings-menuitem =
     .label = 検索の設定
 
+# Label shown next to a new search engine in the Searchmode Switcher popup to promote it.
+urlbar-searchmode-new = 新規
+
 # Label prompting user to search with a particular search engine.
 #  $engine (String): the name of a search engine that searches a specific site
 urlbar-result-search-with = { $engine } による検索結果
@@ -1273,3 +1280,133 @@ file-picker-crashed-show-in-folder =
 onboarding-aw-finish-setup-button =
     .label = セットアップを完了する
     .tooltiptext = { -brand-short-name } の設定を完了します
+
+onboarding-checklist-button-label = セットアップを完了する
+
+## アドレスバーの信頼パネル
+
+trustpanel-etp-label-enabled = 強化型トラッキング防止はオンです
+trustpanel-etp-label-disabled = 強化型トラッキング防止はオフです
+
+trustpanel-etp-description-enabled = このサイトで表示が崩れている場合は、保護をオフにしてみてください。
+trustpanel-etp-description-disabled = { -brand-product-name } は、企業によるあなたの追跡を減らすべきだと考えています。保護をオンにすると、可能な限り多くのトラッカーをブロックします。
+
+trustpanel-connection-label-secure = 安全な接続
+trustpanel-connection-label-insecure = 安全ではない接続
+
+trustpanel-header-enabled = { -brand-product-name } が保護中です
+trustpanel-description-enabled = あなたは保護されています。問題が見つかればお知らせします。
+
+trustpanel-header-disabled = 保護をオフにしました
+trustpanel-description-disabled = { -brand-product-name } は待機中です。保護の再有効化をお勧めします。
+
+trustpanel-clear-cookies-button = Cookie とサイトデータを削除
+trustpanel-privacy-link = プライバシー設定
+
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+trustpanel-clear-cookies-header =
+    .title = { $host } の Cookie とサイトデータを削除
+
+trustpanel-clear-cookies-description = Cookie とサイトデータを削除すると、ログアウトされたり、ショッピングカートが空になる場合があります。
+
+trustpanel-clear-cookies-subview-button-clear = 削除
+trustpanel-clear-cookies-subview-button-cancel = キャンセル
+
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+trustpanel-site-information-header =
+    .title = { $host } の接続保護
+
+trustpanel-connection-secure = このサイトへの接続は安全です
+trustpanel-connection-not-secure = このサイトへの接続は安全ではありません
+
+trustpanel-siteinformation-morelink = サイトの詳細情報
+
+trustpanel-blocker-see-all = すべて表示
+
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+trustpanel-blocker-header =
+    .title = { $host } のトラッキング防止
+
+## Variables
+##  $count (String): the number of trackers blocked.
+
+trustpanel-blocker-section-header = { $count ->
+  [one] <span>{ $count }</span> 件のトラッカーをこのサイトでブロックしました
+  *[other] <span>{ $count }</span> 件のトラッカーをこのサイトでブロックしました
+}
+trustpanel-blocker-description = { -brand-product-name } は企業による追跡を減らすべきだと考えています。そのため、可能な限りブロックします。
+trustpanel-blocked-header = { -brand-product-name } が以下をブロックしました：
+trustpanel-tracking-header = サイトが壊れないように、{ -brand-product-name } が以下を許可しました：
+trustpanel-tracking-description = トラッカーがないと、一部のボタン、フォーム、ログインフィールドが動作しないことがあります。
+trustpanel-insecure-section-header = 接続は安全ではありません
+trustpanel-insecure-description = このサイトに送信しているデータは暗号化されておらず、第三者に見られたり、盗まれたり、改ざんされたりする可能性があります。
+
+trustpanel-list-label-tracking-cookies = { $count ->
+  [one] クロスサイトトラッキング Cookie { $count } 件
+  *[other] クロスサイトトラッキング Cookie { $count } 件
+}
+trustpanel-list-label-tracking-content = トラッキングコンテンツ
+trustpanel-list-label-fingerprinter = { $count ->
+  [one] フィンガープリンター { $count } 件
+  *[other] フィンガープリンター { $count } 件
+}
+trustpanel-list-label-social-tracking = { $count ->
+  [one] ソーシャルトラッカー { $count } 件
+  *[other] ソーシャルトラッカー { $count } 件
+}
+trustpanel-list-label-cryptominer = { $count ->
+  [one] クリプトマイナー { $count } 件
+  *[other] クリプトマイナー { $count } 件
+}
+trustpanel-social-tracking-blocking-tab-header = { $count ->
+  [one] { -brand-product-name } がソーシャルトラッカー { $count } 件をブロックしました
+  *[other] { -brand-product-name } がソーシャルトラッカー { $count } 件をブロックしました
+}
+trustpanel-social-tracking-not-blocking-tab-header = { $count ->
+  [one] { -brand-product-name } がソーシャルトラッカー { $count } 件を許可しました
+  *[other] { -brand-product-name } がソーシャルトラッカー { $count } 件を許可しました
+}
+trustpanel-social-tracking-tab-list-header = 以下のサイトがあなたを追跡しようとしています：
+
+trustpanel-tracking-cookies-blocking-tab-header = { $count ->
+  [one] { -brand-product-name } がクロスサイトトラッキング Cookie { $count } 件をブロックしました
+  *[other] { -brand-product-name } がクロスサイトトラッキング Cookie { $count } 件をブロックしました
+}
+trustpanel-tracking-cookies-not-blocking-tab-header = { $count ->
+  [one] { -brand-product-name } がクロスサイトトラッキング Cookie { $count } 件を許可しました
+  *[other] { -brand-product-name } がクロスサイトトラッキング Cookie { $count } 件を許可しました
+}
+trustpanel-tracking-cookies-tab-list-header = 以下のサイトがあなたを追跡しようとしています：
+
+trustpanel-tracking-content-blocking-tab-header = { $count ->
+  [one] { -brand-product-name } がトラッカー { $count } 件をブロックしました
+  *[other] { -brand-product-name } がトラッカー { $count } 件をブロックしました
+}
+trustpanel-tracking-content-not-blocking-tab-header = { $count ->
+  [one] { -brand-product-name } がトラッカー { $count } 件を許可しました
+  *[other] { -brand-product-name } がトラッカー { $count } 件を許可しました
+}
+trustpanel-tracking-content-tab-list-header = 以下のサイトがあなたを追跡しようとしています：
+
+trustpanel-fingerprinter-blocking-tab-header = { $count ->
+  [one] { -brand-product-name } がフィンガープリンター { $count } 件をブロックしました
+  *[other] { -brand-product-name } がフィンガープリンター { $count } 件をブロックしました
+}
+trustpanel-fingerprinter-not-blocking-tab-header = { $count ->
+  [one] { -brand-product-name } がフィンガープリンター { $count } 件を許可しました
+  *[other] { -brand-product-name } がフィンガープリンター { $count } 件を許可しました
+}
+trustpanel-fingerprinter-list-header = 以下のサイトがフィンガープリントを取得しようとしています：
+
+trustpanel-cryptominer-blocking-tab-header = { $count ->
+  [one] { -brand-product-name } がクリプトマイナー { $count } 件をブロックしました
+  *[other] { -brand-product-name } がクリプトマイナー { $count } 件をブロックしました
+}
+trustpanel-cryptominer-not-blocking-tab-header = { $count ->
+  [one] { -brand-product-name } がクリプトマイナー { $count } 件を許可しました
+  *[other] { -brand-product-name } がクリプトマイナー { $count } 件を許可しました
+}
+trustpanel-cryptominer-tab-list-header = 以下のサイトが暗号通貨マイニングを行おうとしています：

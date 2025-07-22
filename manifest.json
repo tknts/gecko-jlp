@@ -4,16 +4,16 @@
   "applications": {
     "gecko": {
       "id": "{93C0FD8C-43E7-4217-B6D5-7DCEAD173C5A}",
-      "strict_min_version": "142.0a1",
-      "strict_max_version": "142.0a1"
+      "strict_min_version": "143.0a1",
+      "strict_max_version": "143.0a1"
     }
   },
   "name": "Language: Japanese (JP)",
   "description": "Unofficial Nightly Language Pack for Japanese (JP) (ja)",
-  "version": "142.0.20250712.202157",
+  "version": "142.0.20250721.154325",
   "languages": {
     "ja": {
-      "version": "20250712202157",
+      "version": "20250721154325",
       "chrome_resources": {
         "app-marketplace-icons": "browser/chrome/browser/locale/ja/app-marketplace-icons/",
         "branding": "browser/chrome/ja/locale/branding/",
