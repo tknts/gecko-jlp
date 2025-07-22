@@ -220,3 +220,26 @@ fxa-adoption-passwords-title = パスワードを保存しました。バック�
 fxa-adoption-passwords-subtitle = 暗号化された同期でパスワードを保護し、すべてのデバイスで使えるようにしましょう。
 # Opens Mozilla accounts sign-up page
 fxa-adoption-passwords-primary-button-label = サインアップ
+
+## Windows 10 EoS Sync messages group 1 callouts
+
+windows-10-eos-sync-urgency-title-1 = Windows 11 への移行時に保存データを失わないために
+windows-10-eos-sync-urgency-subtitle-1 = 今すぐ同期して、{ -brand-short-name } のブックマーク、パスワード、設定を安全かつ簡単に復元できるようにしましょう。
+windows-10-eos-sync-urgency-title-2 = Windows 10 に別れを告げる前に、大切なデータを守りましょう
+windows-10-eos-sync-urgency-subtitle-2 = { -brand-short-name } を毎日使っていなくても、同期すればブックマークやパスワードを安全に保てます。
+
+windows-10-eos-sync-new-device-title-1 = 新しいデバイスで一からやり直すリスクを避けましょう
+windows-10-eos-sync-new-device-subtitle-1 = 移行時に、{ -brand-short-name } のブックマーク、パスワード、設定を一緒に持っていけるように同期しましょう。
+windows-10-eos-sync-new-device-title-2 = 新しいデバイスに移行しますか？大切なものを失わないように
+windows-10-eos-sync-new-device-subtitle-2 = { -brand-short-name } の使用頻度に関わらず、同期すればブックマークやパスワード、設定を守れます。
+windows-10-eos-sync-new-device-primary-label = 今すぐ同期
+
+windows-10-eos-sync-general-title-1 = あなたの使い慣れた { -brand-short-name } を守りましょう
+windows-10-eos-sync-general-subtitle-1 = パスワードやブックマーク、設定などをバックアップして同期すれば、大切なデータをしっかり保護できます。
+windows-10-eos-sync-general-title-2 = 今こそ、パスワードとブックマークのバックアップを
+windows-10-eos-sync-general-subtitle-2 = 信頼して { -brand-short-name } に保存しているものを守るために、今すぐ同期しましょう。どこからでも復元できます。
+
+windows-10-eos-sync-tour-title-1 = タブが多すぎますか? タブグループで整理しましょう
+windows-10-eos-sync-tour-subtitle-1 = タブを別のタブにドラッグすると、グループを作成してスッキリ整理できます。
+windows-10-eos-sync-tour-title-2 = Windows 11 に向けて整理を始めましょう
+windows-10-eos-sync-tour-subtitle-2 = ブックマーク、パスワード、設定を同期して、切り替え前にバックアップしておきましょう。

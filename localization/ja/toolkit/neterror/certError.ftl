@@ -28,8 +28,6 @@ cert-error-trust-expired-issuer = この証明書は信頼されていません�
 
 cert-error-trust-self-signed = この証明書は信頼されていません。自己署名による証明書です。
 
-cert-error-trust-symantec = GeoTrust、RapidSSL、Symantec、Thawte、および VeriSign によって発行された証明書は、これらの認証局が過去に証明書発行ポリシーや慣行に従わなかったため安全とは見なされていません。
-
 # Variables:
 #   $hostname (string) - Hostname of the website with cert error.
 cert-error-trust-certificate-transparency = { -brand-short-name } は、公開証明書の透明性の要件を満たしていることを証明できなかったため、{ $hostname } を信頼しません。
@@ -97,12 +95,6 @@ cert-error-code-prefix-link = エラーコード: <a data-l10n-name="error-code-
 #   $hostname (string) - Hostname of the website with SSL error.
 #   $errorMessage (string) - Error message corresponding to the type of error we are experiencing.
 cert-error-ssl-connection-error = { $hostname } への接続中にエラーが発生しました。{ $errorMessage }
-
-# Variables:
-#   $hostname (string) - Hostname of the website with cert error.
-cert-error-symantec-distrust-description = ウェブサイトは認証局によって発行される証明書によって身元を証明します。 ほとんどのブラウザーは、GeoTrust、RapidSSL、Symantec、Thawte、および VeriSign によって発行された証明書を信頼しなくなりました。 { $hostname } は、これらの機関のいずれかからの証明書を使用しているためウェブサイトの身元を証明することはできません。
-
-cert-error-symantec-distrust-admin = この問題についてウェブサイトの管理者に連絡することができます。
 
 cert-error-old-tls-version = このウェブサイトは { -brand-short-name } でサポートされる最小バージョンである TLS 1.2 プロトコルをサポートしていない可能性があります。
 

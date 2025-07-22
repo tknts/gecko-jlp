@@ -80,6 +80,13 @@ contextual-manager-passwords-import-success-heading =
 #   $modified (number) - Number of modified passwords
 contextual-manager-passwords-import-success-message = 新しいパスワードを追加しました: { $added }<br/>既存のパスワードが更新されました: { $modified }
 
+# Variables
+#   $added (number) - Number of added passwords
+#   $modified (number) - Number of modified passwords
+#   $no_change (number) - Number of duplicate passwords
+#   $error (number) - Number of invalid passwords
+contextual-manager-passwords-import-success-message-2 = 新規追加: { $added }、更新: { $modified }、重複: { $no_change }、エラー: { $error }
+
 contextual-manager-passwords-import-detailed-report = 詳細なレポートを表示
 contextual-manager-passwords-import-success-button = 実行
 

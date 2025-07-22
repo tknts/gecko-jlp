@@ -320,3 +320,16 @@ multi-cta-fox-doodle-privacy-focused-subtitle = { PLATFORM() ->
    *[other] Keep your favorite privacy-focused browser just one click away. Set { -brand-short-name } as your default browser for opening links and pin it to your taskbar.
 }
 multi-cta-fox-doodle-msix-privacy-focused-subtitle = お気に入りのプライバシー重視のブラウザをワンクリックで利用できます。リンクを開くための既定のブラウザとして { -brand-short-name } を設定し、タスクバーとスタートメニューにピン留めします。
+
+## Windows 10 EoS Sync messages group 1 spotlight
+
+windows-10-eos-sync-spotlight-title = まもなく Windows 10 からアップグレードしますか?
+windows-10-eos-sync-spotlight-subtitle = パスワードやブックマークをバックアップして、どのデバイスでもスムーズに移行できるように備えましょう。
+windows-10-eos-sync-spotlight-primary-label = { -brand-short-name } をバックアップ
+
+## Windows 10 EoS Sync messages group 1 toast notification
+
+windows-10-eos-sync-toast-title = Windows 11 へのアップグレード前に、ブックマークやパスワードを失わないように
+windows-10-eos-sync-toast-subtitle = データをバックアップしておけば、この PC でも次の PC でも、{ -brand-short-name } をすぐに使えます。
+windows-10-eos-sync-toast-primary-label = 今すぐ開始
+windows-10-eos-sync-toast-secondary-label = 後で通知する
