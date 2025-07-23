@@ -16,9 +16,19 @@ ipprotection-experiment-badge =
   .label = BETA
 
 ipprotection-help-button =
-  .title = IP プロテクションのサポートページを開く
+  .title = { -firefox-vpn-brand-name } のサポートページを開く
 
-ipprotection-title = { -brand-product-name } IP プロテクション
+ipprotection-title = { -firefox-vpn-brand-name }
+
+## Feature introduction callout
+
+ipprotection-feature-introduction-title = 無料の { -firefox-vpn-brand-name } でブラウザーのプライバシーを強化
+ipprotection-feature-introduction-link-text = 新しい <a data-l10n-name="learn-more-vpn">組み込み型 VPN</a> の早期アクセスに選ばれました。通信を暗号化し、位置情報を隠すことで、ブラウザーの保護をさらに高めましょう。
+ipprotection-feature-introduction-button-primary = 次へ
+ipprotection-feature-introduction-button-secondary-not-now = 今はしない
+ipprotection-feature-introduction-button-secondary-no-thanks = 結構です
+
+##
 
 ipprotection-connection-status-on = VPN 有効
 ipprotection-connection-status-off = VPN 無効
@@ -27,8 +37,11 @@ ipprotection-toggle-active =
 ipprotection-toggle-inactive =
   .aria-label = VPN を有効にする
 
+# Location refers to the VPN server geographical position.
+ipprotection-location-title = ロケーション
+
 upgrade-vpn-title = ブラウザーの外でも自分を守るためにアップグレードしましょう
-upgrade-vpn-paragraph = <a data-l10n-name="learn-more-vpn">{ -mozilla-vpn-brand-name }</a> を使えば、ブラウザーだけでなくデバイス全体のセキュリティを強化できます。VPN の接続先をカスタマイズしたり、サイトごとのロケーションを設定したり、さまざまな機能が利用できます。
+upgrade-vpn-paragraph = <a data-l10n-name="learn-more-vpn">{ -firefox-vpn-brand-name }</a> を使えば、ブラウザーだけでなくデバイス全体のセキュリティを強化できます。VPN の接続先をカスタマイズしたり、サイトごとのロケーションを設定したり、さまざまな機能が利用できます。
 upgrade-vpn-button = アップグレード
 
 signed-out-vpn-message = VPN を使って安全にブラウジング。今では <a data-l10n-name="learn-more-vpn-signed-out">{ -brand-product-name } に直接組み込まれています</a>。位置情報を隠し、通信を暗号化します。サインインして有効にしましょう。

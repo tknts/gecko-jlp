@@ -1097,6 +1097,10 @@ tabs-toolbar-list-all-tabs =
     .label = すべてのタブの一覧
     .tooltiptext = タブの一覧を表示します
 
+## Drop indicator text for pinned tabs when no tabs are pinned.
+
+pinned-tabs-drop-indicator = タブをここにドロップしてピン留め
+
 ## Infobar shown at startup to suggest session-restore
 
 # <img data-l10n-name="icon"/> will be replaced by the application menu icon
@@ -1283,10 +1287,19 @@ onboarding-aw-finish-setup-button =
 
 onboarding-checklist-button-label = セットアップを完了する
 
-## アドレスバーの信頼パネル
+## The urlbar trust panel
 
 trustpanel-etp-label-enabled = 強化型トラッキング防止はオンです
 trustpanel-etp-label-disabled = 強化型トラッキング防止はオフです
+
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+trustpanel-etp-toggle-on =
+  .aria-label = 強化型トラッキング防止: { $host } で有効
+# Variables
+#  $host (String): the hostname of the site that is being displayed.
+trustpanel-etp-toggle-off =
+  .aria-label = 強化型トラッキング防止: { $host } で無効
 
 trustpanel-etp-description-enabled = このサイトで表示が崩れている場合は、保護をオフにしてみてください。
 trustpanel-etp-description-disabled = { -brand-product-name } は、企業によるあなたの追跡を減らすべきだと考えています。保護をオンにすると、可能な限り多くのトラッカーをブロックします。
