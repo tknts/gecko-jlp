@@ -1424,6 +1424,16 @@ permissions-location-settings =
     .label = 設定…
     .accesskey = t
 
+permissions-localhost = デバイスのアプリとサービス
+permissions-localhost-settings =
+    .label = 設定…
+    .accesskey = t
+
+permissions-local-network = ローカル ネットワーク デバイス
+permissions-local-network-settings =
+    .label = 設定…
+    .accesskey = t
+
 permissions-xr = バーチャル・リアリティ
 permissions-xr-settings =
     .label = 設定…
@@ -1531,16 +1541,6 @@ privacy-segmentation-radio-off =
 
 privacy-segmentation-radio-on =
     .label = 詳細な情報を表示する
-
-## Privacy Section - Website Advertising Preferences
-
-website-advertising-header = ウェブサイト広告の設定
-
-website-advertising-private-attribution =
-    .label = ウェブサイトがプライバシーを保護した広告を実行できるようにする measurement
-    .accesskey = a
-
-website-advertising-private-attribution-description = これにより、サイトはユーザーに関するデータを収集することなく、広告効果を測定できるようになります。
 
 ## Privacy Section - Security
 ##

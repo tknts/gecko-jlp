@@ -100,6 +100,10 @@ urlbar-default-notification-anchor =
     .tooltiptext = メッセージパネルを開きます
 urlbar-geolocation-notification-anchor =
     .tooltiptext = 位置情報の要求パネルを開きます
+urlbar-localhost-notification-anchor =
+    .tooltiptext = このサイトのローカルデバイスアクセスを管理します
+urlbar-local-network-notification-anchor =
+    .tooltiptext = このサイトへのローカルネットワーク共有を管理します
 urlbar-xr-notification-anchor =
     .tooltiptext = VR の許可パネルを開きます
 urlbar-storage-access-anchor =
@@ -194,6 +198,10 @@ urlbar-search-mode-actions = アクション
 
 urlbar-geolocation-blocked =
     .tooltiptext = このウェブサイトでの位置情報の共有をブロックしました。
+urlbar-localhost-blocked =
+    .tooltiptext = このウェブサイトによるローカルデバイス接続をブロックしています。
+urlbar-local-network-blocked =
+    .tooltiptext = このウェブサイトによるローカルネットワーク接続をブロックしています。
 urlbar-xr-blocked =
     .tooltiptext = このウェブサイトでの VR デバイスの使用をブロックしました。
 urlbar-web-notifications-blocked =
@@ -1382,7 +1390,6 @@ trustpanel-social-tracking-not-blocking-tab-header = { $count ->
   [one] { -brand-product-name } がソーシャルトラッカー { $count } 件を許可しました
   *[other] { -brand-product-name } がソーシャルトラッカー { $count } 件を許可しました
 }
-trustpanel-social-tracking-tab-list-header = 以下のサイトがあなたを追跡しようとしています：
 
 trustpanel-tracking-cookies-blocking-tab-header = { $count ->
   [one] { -brand-product-name } がクロスサイトトラッキング Cookie { $count } 件をブロックしました
@@ -1392,7 +1399,6 @@ trustpanel-tracking-cookies-not-blocking-tab-header = { $count ->
   [one] { -brand-product-name } がクロスサイトトラッキング Cookie { $count } 件を許可しました
   *[other] { -brand-product-name } がクロスサイトトラッキング Cookie { $count } 件を許可しました
 }
-trustpanel-tracking-cookies-tab-list-header = 以下のサイトがあなたを追跡しようとしています：
 
 trustpanel-tracking-content-blocking-tab-header = { $count ->
   [one] { -brand-product-name } がトラッカー { $count } 件をブロックしました

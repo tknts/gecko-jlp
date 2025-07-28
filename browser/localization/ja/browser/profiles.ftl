@@ -232,3 +232,12 @@ soccer-avatar = Soccer
 sparkle-single-avatar = Sparkle
 star-avatar = Star
 video-game-controller-avatar = Video game controller
+
+custom-avatar-crop-back-button =
+  .aria-label = 戻る
+custom-avatar-crop-view =
+  .aria-label = 画像のトリミングビュー
+custom-avatar-crop-area =
+  .aria-label = トリミング領域を調整
+custom-avatar-drag-handle =
+  .aria-label = トリミング領域のサイズを変更

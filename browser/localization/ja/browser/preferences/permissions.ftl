@@ -179,12 +179,34 @@ permissions-site-camera-disable-label =
     .label = カメラの使用許可の確認を表示しない
 permissions-site-camera-disable-desc = 上記のウェブサイト以外からのカメラの使用許可は自動的にブロックされます。カメラの使用許可をブロックすると、一部のウェブサイトで不具合が発生する可能性があります。
 
+## Site Permissions - Local host
+
+permissions-site-localhost-window =
+    .title = 設定 - デバイスのアプリとサービス
+    .style = { permissions-window2.style }
+permissions-site-localhost-desc = これらのウェブサイトは、このデバイス上のアプリやサービスへのアクセスを要求しました。アクセスを許可するかブロックするかを選択できます。
+permissions-site-localhost-disable-label =
+    .label = このデバイス上のアプリやサービスへの新たなアクセスの要求をブロックする
+permissions-site-localhost-disable-desc = 上記に表示されていないウェブサイトがこのデバイスのアプリやサービスにアクセスを要求できなくなります。一部のウェブサイト機能が動作しなくなる可能性があります。
+
+## Site Permissions - Local network
+
+permissions-site-local-network-window =
+    .title = 設定 - ローカル ネットワーク デバイス
+    .style = { permissions-window2.style }
+permissions-site-local-network-desc = これらのウェブサイトは、Wi-Fi やローカルネットワークに接続されたデバイス上のアプリやサービスへのアクセスを要求しました。アクセスを許可するかブロックするかを選択できます。
+
+permissions-site-local-network-disable-label =
+    .label = Wi-Fi やローカルネットワークに接続されたデバイスのアプリやサービスへの新たなアクセス要求をブロックする
+
+permissions-site-local-network-disable-desc = 上記に表示されていないウェブサイトが、Wi-Fi やローカルネットワーク接続デバイス上のアプリやサービスにアクセスを要求できなくなります。一部のウェブサイト機能が動作しなくなる可能性があります。
+
 ## Site Permissions - Microphone
 
 permissions-site-microphone-window2 =
     .title = 設定 - マイクの使用許可
     .style = { permissions-window2.style }
-permissions-site-microphone-desc = 以下のウェブサイトがマイクの使用許可を要求しています。マイクの使用を許可するウェブサイトを指定してください。 また以後のマイクの使用許可をブロックできます。
+permissions-site-microphone-desc = 以下のウェブサイトがマイクの使用許可を要求しています。マイクの使用を許可するウェブサイトを指定してください。また以後のマイクの使用許可をブロックできます。
 permissions-site-microphone-disable-label =
     .label = マイクの使用許可の確認を表示しない
 permissions-site-microphone-disable-desc = 上記のウェブサイト以外からのマイクの使用許可は自動的にブロックされます。マイクの使用許可をブロックすると、一部のウェブサイトで不具合が発生する可能性があります。
