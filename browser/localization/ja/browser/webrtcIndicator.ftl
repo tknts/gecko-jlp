@@ -20,7 +20,7 @@ webrtc-item-browser = タブ
 ##
 
 # This is used for the website origin for the sharing menu if no readable origin could be deduced from the URL.
-webrtc-sharing-menuitem-unknown-host = Unknown origin
+webrtc-sharing-menuitem-unknown-host = 不明な発信元
 
 # Variables:
 #   $origin (String): The website origin (e.g. www.mozilla.org)
@@ -28,7 +28,7 @@ webrtc-sharing-menuitem-unknown-host = Unknown origin
 webrtc-sharing-menuitem =
     .label = { $origin } ({ $itemList })
 webrtc-sharing-menu =
-    .label = Tabs sharing devices
+    .label = デバイスを共有中のタブ
     .accesskey = d
 
 webrtc-sharing-window = その他のアプリケーションのウィンドウを共有しています。
@@ -64,64 +64,64 @@ webrtc-screen-system-menu =
 ##   $tabCount (Number): the title of the tab using the share.
 
 webrtc-indicator-menuitem-control-sharing =
-    .label = Control Sharing
+    .label = 共有を制御
 webrtc-indicator-menuitem-control-sharing-on =
-    .label = Control Sharing on “{ $streamTitle }”
+    .label = “{ $streamTitle }” で共有を制御
 
 webrtc-indicator-menuitem-sharing-camera-with =
-    .label = Sharing Camera with “{ $streamTitle }”
+    .label = “{ $streamTitle }” とカメラを共有中
 webrtc-indicator-menuitem-sharing-camera-with-n-tabs =
     .label =
         { $tabCount ->
-            [one] Sharing Camera with { $tabCount } tab
-           *[other] Sharing Camera with { $tabCount } tabs
+            [one] タブとカメラを共有中
+           *[other] { $tabCount } 個のタブとカメラを共有中
         }
 
 webrtc-indicator-menuitem-sharing-microphone-with =
-    .label = Sharing Microphone with “{ $streamTitle }”
+    .label = “{ $streamTitle }” とマイクを共有中
 webrtc-indicator-menuitem-sharing-microphone-with-n-tabs =
     .label =
         { $tabCount ->
-            [one] Sharing Microphone with { $tabCount } tab
-           *[other] Sharing Microphone with { $tabCount } tabs
+            [one] タブとマイクを共有中
+           *[other] { $tabCount } 個のタブとマイクを共有中
         }
 
 webrtc-indicator-menuitem-sharing-application-with =
-    .label = Sharing an Application with “{ $streamTitle }”
+    .label = “{ $streamTitle }” とアプリケーションを共有中
 webrtc-indicator-menuitem-sharing-application-with-n-tabs =
     .label =
         { $tabCount ->
-            [one] Sharing an Application with { $tabCount } tab
-           *[other] Sharing Applications with { $tabCount } tabs
+            [one] タブとアプリケーションを共有中
+           *[other] { $tabCount } 個のタブとアプリケーションを共有中
         }
 
 webrtc-indicator-menuitem-sharing-screen-with =
-    .label = Sharing Screen with “{ $streamTitle }”
+    .label = “{ $streamTitle }” と画面を共有中
 webrtc-indicator-menuitem-sharing-screen-with-n-tabs =
     .label =
         { $tabCount ->
-            [one] Sharing Screen with { $tabCount } tab
-           *[other] Sharing Screen with { $tabCount } tabs
+            [one] タブと画面を共有中
+           *[other] { $tabCount } 個のタブと画面を共有中
         }
 
 webrtc-indicator-menuitem-sharing-window-with =
-    .label = Sharing a Window with “{ $streamTitle }”
+    .label = “{ $streamTitle }” とウィンドウを共有中
 webrtc-indicator-menuitem-sharing-window-with-n-tabs =
     .label =
         { $tabCount ->
-            [one] Sharing a Window with { $tabCount } tab
-           *[other] Sharing Windows with { $tabCount } tabs
+            [one] タブとウィンドウを共有中
+           *[other] { $tabCount } 個のタブとウィンドウを共有中
         }
 
 webrtc-indicator-menuitem-sharing-browser-with =
-    .label = Sharing a Tab with “{ $streamTitle }”
+    .label = “{ $streamTitle }” とタブを共有中
 # This message is shown when the contents of a tab is shared during a WebRTC
 # session, which currently is only possible with Loop/Hello.
 webrtc-indicator-menuitem-sharing-browser-with-n-tabs =
     .label =
         { $tabCount ->
-            [one] Sharing a Tab with { $tabCount } tab
-           *[other] Sharing Tabs with { $tabCount } tabs
+            [one] タブと共有中
+           *[other] { $tabCount } 個のタブと共有中
         }
 
 ## Variables:
@@ -174,20 +174,19 @@ webrtc-allow-share-screen-and-audio-capture-unsafe-delegation = { $origin } が 
 webrtc-share-screen-warning = 信頼できるサイトとだけ画面を共有してください。共有により、不正なサイトがあなたになりすまし、個人情報を盗み見る可能性があります。
 webrtc-share-browser-warning = 信頼できるサイトとだけ { -brand-short-name } を共有してください。共有により、不正なサイトがあなたになりすまし、個人情報を盗み見る可能性があります。
 
-webrtc-share-screen-learn-more = さらに詳しく
 webrtc-pick-window-or-screen = 共有するウィンドウまたは画面を選択
 webrtc-share-entire-screen = 画面全体
 webrtc-share-pipe-wire-portal = オペレーティングシステムの設定を使用
 # Variables:
 #   $monitorIndex (String): screen number (digits 1, 2, etc).
-webrtc-share-monitor = Screen { $monitorIndex }
+webrtc-share-monitor = 画面 { $monitorIndex }
 # Variables:
 #   $windowCount (Number): the number of windows currently displayed by the application.
 #   $appName (String): the name of the application.
 webrtc-share-application =
     { $windowCount ->
-        [one] { $appName } ({ $windowCount } window)
-       *[other] { $appName } ({ $windowCount } windows)
+        [one] { $appName } (ひとつのウィンドウ)
+       *[other] { $appName } ({ $windowCount } 個のウィンドウ)
     }
 
 ## These buttons are the possible answers to the various prompts in the "webrtc-allow-share-*" strings.
