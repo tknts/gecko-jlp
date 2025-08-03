@@ -44,5 +44,10 @@ upgrade-vpn-title = ブラウザーの外でも自分を守るためにアップ
 upgrade-vpn-paragraph = <a data-l10n-name="learn-more-vpn">{ -firefox-vpn-brand-name }</a> を使えば、ブラウザーだけでなくデバイス全体のセキュリティを強化できます。VPN の接続先をカスタマイズしたり、サイトごとのロケーションを設定したり、さまざまな機能が利用できます。
 upgrade-vpn-button = アップグレード
 
+signed-out-vpn-title = Sign in to boost your browser’s privacy with free { -firefox-vpn-brand-name }
 signed-out-vpn-message = VPN を使って安全にブラウジング。今では <a data-l10n-name="learn-more-vpn-signed-out">{ -brand-product-name } に直接組み込まれています</a>。位置情報を隠し、通信を暗号化します。サインインして有効にしましょう。
-sign-in-vpn = サインイン
+sign-in-vpn = 次へ
+
+active-subscription-vpn-title = { -mozilla-vpn-brand-name } の設定を完了します
+active-subscription-vpn-message = ダウンロードして拡張機能をインストールすると、アップグレードのロックが解除されます。
+get-vpn-button = ダウンロード

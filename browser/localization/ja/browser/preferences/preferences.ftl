@@ -215,21 +215,21 @@ browser-containers-settings =
     .label = 設定…
     .accesskey = i
 
-containers-disable-alert-title = すべてのコンテナータブを閉じますか?
+containers-disable-alert-title = すべてのコンテナー タブを閉じますか?
 
 ## Variables:
 ##   $tabCount (number) - Number of tabs
 
 containers-disable-alert-desc =
     { $tabCount ->
-        [one] 今すぐコンテナータブを無効にすると、現在使用しているコンテナータブを閉じます。コンテナータブを無効にしてもよろしいですか?
-       *[other] 今すぐコンテナータブを無効にすると、現在使用している { $tabCount } 個のコンテナータブを閉じます。 コンテナータブを無効にしてもよろしいですか?
+        [one] 今すぐコンテナー タブを無効にすると、現在使用しているコンテナータブを閉じます。コンテナー タブを無効にしてもよろしいですか?
+       *[other] 今すぐコンテナー タブを無効にすると、現在使用している { $tabCount } 個のコンテナー タブを閉じます。 コンテナータブを無効にしてもよろしいですか?
     }
 
 containers-disable-alert-ok-button =
     { $tabCount ->
-        [one] コンテナータブを閉じる
-       *[other] { $tabCount } 個のコンテナータブを閉じる
+        [one] コンテナー タブを閉じる
+       *[other] { $tabCount } 個のコンテナー タブを閉じる
     }
 
 ##
@@ -1118,7 +1118,7 @@ autofill-creditcard-os-auth-dialog-caption = { -brand-full-name }
 pane-privacy-autofill-header = 自動入力
 autofill-addresses-checkbox = 住所を入力して保存
     .accesskey = a
-autofill-saved-addresses-button = 保存されたアドレス
+autofill-saved-addresses-button = 保存された住所
     .accesskey = S
 autofill-payment-methods-checkbox-message = 支払い方法を入力して保存
     .accesskey = m

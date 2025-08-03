@@ -60,3 +60,8 @@ experimental-features-link-previews-description-no-ai =
 experimental-features-newtab-sections-follow-block =
     .label = 新しいタブの記事のトピック別セクションとフォロー/ブロック機能
 experimental-features-newtab-sections-follow-block-description = 新しいタブのページに表示される記事をスポーツ、グルメ、エンタメなどのトピック別に整理して、より見やすく構成された表示にできます。フォローとブロックの新しいコントロールで、表示されるコンテンツをカスタマイズしましょう。<a data-l10n-name="connect">フィードバックを送信</a>
+
+# Firefox Web Apps
+experimental-features-fx-web-apps =
+    .label = サイトをタスクバーに追加
+experimental-features-fx-web-apps-description = よく利用するサイトを、タスクバーからウェブアプリとして開けるようになります。アドレスバーの右にある [タスクバーに追加] アイコンを探して、そのサイトを { -brand-product-name } のすべての保護機能付きでアプリ風ウィンドウで起動できます。<a data-l10n-name="connect">フィードバックを送る</a>

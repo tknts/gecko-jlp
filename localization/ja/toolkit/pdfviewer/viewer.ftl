@@ -306,9 +306,13 @@ pdfjs-web-fonts-disabled = Web フォントは無効です: 埋め込まれた P
 
 pdfjs-editor-free-text-button =
     .title = テキスト
+pdfjs-editor-color-picker-free-text-input =
+    .title = テキストの色を変更
 pdfjs-editor-free-text-button-label = テキスト
 pdfjs-editor-ink-button =
     .title = 図形
+pdfjs-editor-color-picker-ink-input =
+    .title = 図形の色を変更
 pdfjs-editor-ink-button-label = 図形
 pdfjs-editor-stamp-button =
     .title = 画像の追加と編集
@@ -320,6 +324,10 @@ pdfjs-highlight-floating-button1 =
     .title = 強調表示
     .aria-label = 強調表示
 pdfjs-highlight-floating-button-label = 強調表示
+pdfjs-comment-floating-button =
+    .title = コメント
+    .aria-label = コメント
+pdfjs-comment-floating-button-label = コメント
 pdfjs-editor-signature-button =
     .title = 署名の追加
 pdfjs-editor-signature-button-label = 署名を追加
@@ -614,6 +622,8 @@ pdfjs-editor-add-signature-save-checkbox = 署名を保存する
 pdfjs-editor-add-signature-save-warning-message = 保存できる署名の最大数 (5つ) に達しました。さらに保存するには、ひとつ削除してください。
 pdfjs-editor-add-signature-image-upload-error-title = 画像のアップロードに失敗しました
 pdfjs-editor-add-signature-image-upload-error-description = ネットワーク接続を確認するか、別の画像を試してください。
+pdfjs-editor-add-signature-image-no-data-error-title = この画像を署名に変換できません
+pdfjs-editor-add-signature-image-no-data-error-description =別の画像をアップロードしてお試しください。
 pdfjs-editor-add-signature-error-close-button = 閉じる
 
 ## Dialog buttons
@@ -638,3 +648,24 @@ pdfjs-editor-edit-signature-dialog-title = 説明の編集
 ## Dialog buttons
 
 pdfjs-editor-edit-signature-update-button = 更新
+
+##  Edit a comment dialog
+
+pdfjs-editor-edit-comment-actions-button-label = 操作
+pdfjs-editor-edit-comment-actions-button =
+    .title = 操作
+pdfjs-editor-edit-comment-close-button-label = 閉じる
+pdfjs-editor-edit-comment-close-button =
+    .title = 閉じる
+pdfjs-editor-edit-comment-actions-edit-button-label = 編集
+pdfjs-editor-edit-comment-actions-delete-button-label = 削除
+pdfjs-editor-edit-comment-manager-text-input =
+    .placeholder = コメントの入力
+
+pdfjs-editor-edit-comment-manager-cancel-button = キャンセル
+pdfjs-editor-edit-comment-manager-save-button = 保存
+
+## Edit a comment button in the editor toolbar
+
+pdfjs-editor-edit-comment-button =
+    .title = コメントの編集

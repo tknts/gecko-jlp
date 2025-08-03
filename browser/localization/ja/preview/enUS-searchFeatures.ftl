@@ -48,10 +48,6 @@ urlbar-group-local =
 # A message that replaces a result when the user dismisses a single suggestion.
 firefox-suggest-dismissal-acknowledgment-one = フィードバックをありがとうございます。 このサジェストは今後表示されません。
 
-# A message that replaces a result when the user dismisses all suggestions of a
-# particular type.
-firefox-suggest-dismissal-acknowledgment-all = フィードバックをありがとうございます。 これらのサジェストは今後表示されません。
-
 # A message that replaces a result when the user dismisses a single MDN
 # suggestion.
 firefox-suggest-dismissal-acknowledgment-one-mdn = フィードバックをありがとうございます。この { -mdn-brand-short-name } に関するサジェストは今後表示されません。
@@ -284,20 +280,3 @@ urlbar-search-mode-bookmarks-en = ブックマーク
 urlbar-search-mode-tabs-en = タブ
 urlbar-search-mode-history-en = 履歴
 urlbar-search-mode-actions-en = アクション
-
-## These strings are used for Realtime suggestions in the urlbar.
-
-# This string is shown as title when stocks suggestion are disabled. firefox-suggest-stocks-opt-in-title = 検索バーで株式市場の情報をチェック
-
-
-# This string is shown as description when stocks suggestion are disabled.
-firefox-suggest-stocks-opt-in-description = 検索キーワードのデータを { -vendor-short-name } と共有することで、株価、試合のスコア、地域のレビューなどの最新情報をパートナーから取得できます。<a data-l10n-name="learn-more-link">さらに詳しく</a>
-
-# This string is shown as button to activate online when realtime suggestion are disabled.
-firefox-suggest-realtime-opt-in-allow = リアルタイムサジェストを有効にする
-
-# This string is shown in split button to dismiss activation the Realtime suggestion.
-firefox-suggest-realtime-opt-in-not-now = 今はしない
-firefox-suggest-realtime-opt-in-dismiss = 非表示にする
-firefox-suggest-realtime-opt-in-dismiss-all =
-    .label = 今後このようなメッセージを表示しない

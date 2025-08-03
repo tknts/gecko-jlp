@@ -78,11 +78,6 @@ contextual-manager-passwords-import-success-heading =
 # Variables
 #   $added (number) - Number of added passwords
 #   $modified (number) - Number of modified passwords
-contextual-manager-passwords-import-success-message = 新しいパスワードを追加しました: { $added }<br/>既存のパスワードが更新されました: { $modified }
-
-# Variables
-#   $added (number) - Number of added passwords
-#   $modified (number) - Number of modified passwords
 #   $no_change (number) - Number of duplicate passwords
 #   $error (number) - Number of invalid passwords
 contextual-manager-passwords-import-success-message-2 = 新規追加: { $added }、更新: { $modified }、重複: { $no_change }、エラー: { $error }
@@ -247,13 +242,14 @@ contextual-manager-passwords-add-username-button = ユーザー名を追加
 
 contextual-manager-passwords-create-label =
   .label = パスワードを追加
-contextual-manager-passwords-edit-label =
-  .label = パスワードを変更
+
+contextual-manager-passwords-update-label =
+  .label = パスワードを更新
 contextual-manager-passwords-remove-label =
   .title = パスワードの削除
 contextual-manager-passwords-origin-tooltip = このサイトにサインインする正確なアドレスを入力してください。
 contextual-manager-passwords-username-tooltip = サインインに使用するユーザー名、メールアドレス、またはアカウント番号を入力します。
-contextual-manager-passwords-password-tooltip = このアカウントにサインインするために使用するパスワードを入力してください。
+contextual-manager-passwords-password-tooltip-2 = このアカウントにサインインするにはパスワードを入力してください。
 
 ## Password Card
 
@@ -302,10 +298,6 @@ contextual-manager-password-login-line-with-alert =
   .title = パスワードのコピー (警告)
 contextual-manager-edit-login-button = 編集
   .tooltiptext = パスワードを編集します
-contextual-manager-view-alert-heading =
-  .heading = 警告の表示
-contextual-manager-view-alert-button =
-  .tooltiptext = 警告の表示
 # Variables
 #   $count (number) - The number of active alerts associated with the login
 contextual-manager-view-alert-heading-2 =
@@ -363,3 +355,9 @@ contextual-manager-passwords-remove-all-passwords-checkbox =
      [1] はい。パスワードを削除します
     *[other] はい。すべてのパスワードを削除します
   }
+
+# This string informs the user they need to provide their primary password for FireFox to access their saved passwords in Firefox.
+contextual-manager-primary-password-reauth-header = 保存されたパスワードを表示するには、プライマリーパスワードを入力してください。
+# This string informs the user their primary password is used to authenticate and access their passwords
+contextual-manager-primary-password-reauth-button = プライマリーパスワードを入力
+contextual-manager-primary-password-learn-more-link = さらに詳しく

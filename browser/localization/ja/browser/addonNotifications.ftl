@@ -123,11 +123,13 @@ addon-install-error-corrupt-file = このサイトからダウンロードした
 addon-install-error-file-access = { $addonName } は { -brand-short-name } が必要なファイルを変更できないため、インストールできませんでした。
 addon-install-error-not-signed = このサイトから未検証のアドオンをインストールする事は { -brand-short-name } によって禁止されています。
 addon-install-error-invalid-domain = この場所からアドオン { $addonName } をインストールする事はできません。
+addon-install-error-no-addon-name-file-access = { -brand-short-name } が必要なファイルを変更できないため、アドオンをインストールできませんでした。
 addon-local-install-error-network-failure = ファイルシステムのエラーのため、このアドオンをインストールできませんでした。
 addon-local-install-error-incorrect-hash = このアドオンは { -brand-short-name } が予期したハッシュ値と異なるため、インストールできません。
 addon-local-install-error-corrupt-file = このアドオンは壊れている可能性があるので、インストールできません。
 addon-local-install-error-file-access = { $addonName } は { -brand-short-name } に必要なファイルを変更できないため、インストールできません。
 addon-local-install-error-not-signed = このアドオンは検証されていないため、インストールできません。
+addon-local-install-no-addon-name-error-file-access = { -brand-short-name } が必要なファイルを変更できないため、アドオンをインストールできませんでした。
 # Variables:
 #   $appVersion (String): the application version.
 addon-install-error-incompatible = { $addonName } は { -brand-short-name } { $appVersion } と互換性がないため、インストールできません。
