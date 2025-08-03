@@ -724,6 +724,36 @@ urlbar-result-weather-title-city-only = { $city } の気温は <strong>{ $temper
 #       name of a company, organization, or service.
 urlbar-result-weather-provider-sponsored = 提供元：{ $provider } · スポンサー
 
+
+## These strings are used for Realtime suggestions in the urlbar.
+## Market refers to stocks, indexes, and funds.
+
+# This string is shown as title when Market suggestion are disabled.
+urlbar-result-market-opt-in-title =検索バーで株価をチェック
+
+# This string is shown as description when Market suggestion are disabled.
+urlbar-result-market-opt-in-description = 検索キーワードのデータを { -vendor-short-name } と共有することで、株価などの最新情報をパートナーから取得できます。<a data-l10n-name="learn-more-link">さらに詳しく</a>
+
+# This string is shown as button to activate online when realtime suggestion are disabled.
+urlbar-result-realtime-opt-in-allow = サジェストを有効にする
+
+# This string is shown in split button to dismiss activation the Realtime suggestion.
+urlbar-result-realtime-opt-in-not-now = 今はしない
+urlbar-result-realtime-opt-in-dismiss = 非表示にする
+urlbar-result-realtime-opt-in-dismiss-all =
+    .label = 今後このようなメッセージを表示しない
+
+# This string is shown in the result menu.
+urlbar-result-menu-dont-show-market =
+  .label = サジェストに株価を表示しない
+
+# A message that replaces a result when the user dismisses Market suggestions.
+urlbar-result-dismissal-acknowledgment-market = フィードバックありがとうございます。今後は株価はサジェストに表示されません。
+
+# A message that replaces a result when the user dismisses all suggestions of a
+# particular type.
+urlbar-result-dismissal-acknowledgment-all = フィードバックありがとうございます。今後はこのタイプの候補は表示されません。
+
 ## Strings used for buttons in the urlbar
 
 # Searchmode Switcher button

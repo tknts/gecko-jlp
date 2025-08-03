@@ -75,6 +75,12 @@ cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
   .aria-label = 閉じるボタン
   .title = 閉じる
 
+fxa-adoption-addresses-backup-title = 保存した住所をバックアップしましょう
+fxa-adoption-addresses-backup-subtitle = 保存した住所を暗号化してデバイス間で同期し、保護します。
+fxa-adoption-credit-cards-backup-title = お支払い方法をバックアップしましょう
+fxa-adoption-credit-cards-backup-subtitle = お支払い方法を暗号化してデバイス間で同期し、保護します。
+fxa-adoption-primary-button-label = サインアップ
+
 ## What's New toolbar button and panel
 
 # This string is used by screen readers to offer a text based alternative for
