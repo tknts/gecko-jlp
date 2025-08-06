@@ -32,10 +32,14 @@ ipprotection-feature-introduction-button-secondary-no-thanks = 結構です
 
 ipprotection-connection-status-on = VPN 有効
 ipprotection-connection-status-off = VPN 無効
+# When VPN is toggled on
 ipprotection-toggle-active =
   .aria-label = VPN を無効にする
+  .title = VPN は有効に設定されいます
+# When VPN is toggled off
 ipprotection-toggle-inactive =
   .aria-label = VPN を有効にする
+  .title = VPN は無効に設定されいます
 
 # Location refers to the VPN server geographical position.
 ipprotection-location-title = ロケーション

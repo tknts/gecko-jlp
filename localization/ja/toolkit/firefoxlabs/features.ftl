@@ -64,4 +64,6 @@ experimental-features-newtab-sections-follow-block-description = 新しいタブ
 # Firefox Web Apps
 experimental-features-fx-web-apps =
     .label = サイトをタスクバーに追加
+
+# “Add tab to taskbar” is found in the tooltip text of `-taskbar-tab-urlbar-button-open`.
 experimental-features-fx-web-apps-description = よく利用するサイトを、タスクバーからウェブアプリとして開けるようになります。アドレスバーの右にある [タスクバーに追加] アイコンを探して、そのサイトを { -brand-product-name } のすべての保護機能付きでアプリ風ウィンドウで起動できます。<a data-l10n-name="connect">フィードバックを送る</a>
