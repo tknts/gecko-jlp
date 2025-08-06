@@ -280,3 +280,44 @@ urlbar-search-mode-bookmarks-en = ブックマーク
 urlbar-search-mode-tabs-en = タブ
 urlbar-search-mode-history-en = 履歴
 urlbar-search-mode-actions-en = アクション
+
+## These strings are used for the important-dates features and will be
+## moved when they are finalized.
+
+# Shows the number of days until an event.
+# Variables:
+#   $daysUntilStart (integer) - The number of days until the event starts.
+urlbar-result-dates-countdown =
+    { $daysUntilStart ->
+        [one] 明日、イベント開始
+        *[other] イベント開始まであと { $daysUntilStart } 日
+    }
+
+# Shows the number of days until a multiple day long event starts.
+# Variables:
+#   $daysUntilStart (integer) - The number of days until the event starts.
+urlbar-result-dates-countdown-range =
+    { $daysUntilStart ->
+        [one] 複数日続くイベントが明日始まる
+        *[other] 複数日続くイベントが { $daysUntilStart } 日後に始まる
+    }
+
+# Shows the number of days until a multiple day long event ends.
+# Variables:
+#   $daysUntilEnd (integer) - The number of days until the event ends.
+urlbar-result-dates-ongoing =
+    { $daysUntilEnd ->
+        [one] 現在進行中、明日まで
+        *[other] 現在進行中、あと { $daysUntilEnd } 日
+    }
+
+# Shows that an event happens today.
+urlbar-result-dates-today = 今日開催
+
+# Shows that a multiple day long event ends today.
+urlbar-result-dates-ends-today = 現在開催中、今日終了
+
+# The title of a urlbar result of an event.
+#   $date (string) - The formatted date of the event.
+#   $name (string) - The name of the event.
+urlbar-result-dates-title = <b>{ $date }</b> · { $name }
