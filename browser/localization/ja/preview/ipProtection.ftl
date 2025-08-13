@@ -30,8 +30,16 @@ ipprotection-feature-introduction-button-secondary-no-thanks = 結構です
 
 ##
 
-ipprotection-connection-status-on = VPN 有効
-ipprotection-connection-status-off = VPN 無効
+# The panel status card has a header and a connection time displayed under it.
+# Variables:
+#   $time (String) - The amount of time connected to the proxy as HH:MM:SS (hours, minutes, seconds).
+ipprotection-connection-status-on =
+  .label = VPN 有効
+  .description = { $time }
+
+ipprotection-connection-status-off =
+  .label = VPN 無効
+
 # When VPN is toggled on
 ipprotection-toggle-active =
   .aria-label = VPN を無効にする
@@ -43,6 +51,8 @@ ipprotection-toggle-inactive =
 
 # Location refers to the VPN server geographical position.
 ipprotection-location-title = ロケーション
+ipprotection-location-title-icon =
+  .title = 最速のサーバーに基づいて選択された場所
 
 upgrade-vpn-title = ブラウザーの外でも自分を守るためにアップグレードしましょう
 upgrade-vpn-paragraph = <a data-l10n-name="learn-more-vpn">{ -firefox-vpn-brand-name }</a> を使えば、ブラウザーだけでなくデバイス全体のセキュリティを強化できます。VPN の接続先をカスタマイズしたり、サイトごとのロケーションを設定したり、さまざまな機能が利用できます。

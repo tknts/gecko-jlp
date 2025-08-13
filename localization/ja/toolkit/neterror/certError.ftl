@@ -32,8 +32,8 @@ cert-error-trust-self-signed = この証明書は信頼されていません。�
 #   $hostname (string) - Hostname of the website with cert error.
 cert-error-trust-certificate-transparency = { -brand-short-name } は、公開証明書の透明性の要件を満たしていることを証明できなかったため、{ $hostname } を信頼しません。
 
-# Variables:
-#   $hostname (string) - Hostname of the website with cert error.
+## Variables:
+##   $hostname (string) - Hostname of the website with cert error.
 
 cert-error-revoked-certificate = { $hostname } に対して提供された証明書は失効し、もはや信頼されないため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
 cert-error-bad-signature = { $hostname } に対して提供された証明書の署名が無効であるため、{ -brand-short-name } はこのサイトへのアクセスをブロックしました。
@@ -144,7 +144,7 @@ redirectLoop-title = ページが正しくリダイレクトされません
 unknownSocketType-title = サーバーからの予期しない応答
 nssFailure2-title = 安全な接続に失敗しました
 csp-xfo-error-title = { -brand-short-name }はこのページを開けません
-corruptedContentError-title = 破損したコンテンツによるエラー
+corruptedContentErrorv2-title = 破損したコンテンツによるエラー
 sslv3Used-title = 安全に接続できませんでした
 inadequateSecurityError-title = 接続は安全ではありません
 blockedByPolicy-title = ブロックされたページ

@@ -66,7 +66,7 @@ cfr-doorhanger-extension-total-users =
      *[other] { $total } ユーザー
   }
 
-## Firefox Accounts Message
+## Mozilla Account messages
 
 cfr-doorhanger-bookmark-fxa-header = どこからでもブックマークを同期します。
 cfr-doorhanger-bookmark-fxa-body-2 = 素晴らしい発見ですね！今すぐアカウントを作成して、このブックマークをモバイルデバイスに入れておきましょう。
@@ -290,9 +290,12 @@ fxa-menu-message-close-button =
     .aria-label = メッセージを閉じる
 
 fxa-menu-message-sign-up-button = サインアップ
+fxa-menu-message-sign-in-button = サインイン
+fxa-menu-message-sync-button = 同期を開始
 
 fxa-menu-message-sync-devices-primary-text = すべてのデバイスと同期
 fxa-menu-message-sync-devices-secondary-text = { -brand-short-name } を使用するすべての場所で、ブックマークやパスワードなどの情報を即座に取得できます。
+fxa-menu-message-sync-devices-secondary-text2 = { -brand-short-name } にサインインしているすべての場所で、ブックマークやパスワードなどをすぐに利用できます。
 fxa-menu-message-sync-devices-collapsed-text = すべてのデバイスと同期
 
 fxa-menu-message-backup-data-primary-text = ブラウザーのデータをバックアップする
@@ -320,10 +323,10 @@ multi-cta-fox-doodle-pin-checkbox  = { PLATFORM() ->
 multi-cta-fox-doodle-start-browsing-primary-button-label = ブラウジングを始める
 multi-cta-fox-doodle-main-browser-primary-button-label = { -brand-short-name } をメインのブラウザーにする
 
-multi-cta-fox-doodle-quick-reminder-subtitle = Here’s a quick reminder that you can keep your favorite privacy-focused browser just one click away.
-multi-cta-fox-doodle-privacy-focused-subtitle = { PLATFORM() ->
-    [macos] Keep your favorite privacy-focused browser just one click away. Set { -brand-short-name } as your default browser for opening links and keep it in your Dock.
-   *[other] Keep your favorite privacy-focused browser just one click away. Set { -brand-short-name } as your default browser for opening links and pin it to your taskbar.
+multi-cta-fox-doodle-quick-reminder-subtitle = お気に入りのプライバシー重視ブラウザーを、ワンクリックで使えるようにしておきましょう。
+multi-cta-fox-doodle-privacy-focused-subtitle  = { PLATFORM() ->
+    [macos] お気に入りのプライバシー重視ブラウザーを、ワンクリックで使えるようにしましょう。リンクを開く既定のブラウザーに { -brand-short-name } を設定し、Dock に追加してください。
+   *[other] お気に入りのプライバシー重視ブラウザーを、ワンクリックで使えるようにしましょう。リンクを開く既定のブラウザーに { -brand-short-name } を設定し、タスクバーにピン留めしてください。
 }
 multi-cta-fox-doodle-msix-privacy-focused-subtitle = お気に入りのプライバシー重視のブラウザをワンクリックで利用できます。リンクを開くための既定のブラウザとして { -brand-short-name } を設定し、タスクバーとスタートメニューにピン留めします。
 
@@ -335,7 +338,7 @@ windows-10-eos-sync-spotlight-primary-label = { -brand-short-name } をバック
 
 ## Windows 10 EoS Sync messages group 1 toast notification
 
-windows-10-eos-sync-toast-title = Windows 11 へのアップグレード前に、ブックマークやパスワードを失わないように
+windows-10-eos-sync-toast-title = Windows 11 へのアップグレード前に、ブックマークやパスワードを失わないように。
 windows-10-eos-sync-toast-subtitle = データをバックアップしておけば、この PC でも次の PC でも、{ -brand-short-name } をすぐに使えます。
 windows-10-eos-sync-toast-primary-label = 今すぐ開始
 windows-10-eos-sync-toast-secondary-label = 後で通知する
