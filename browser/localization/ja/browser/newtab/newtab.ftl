@@ -278,7 +278,19 @@ newtab-custom-weather-toggle =
 newtab-custom-trending-search-toggle =
   .label = トレンド検索
   .description = 人気があり頻繁に検索されるトピック
-newtab-custom-close-button = 閉じる
+newtab-custom-widget-weather-toggle =
+  .label = 天気
+newtab-custom-widget-trending-search-toggle =
+  .label = トレンド検索
+newtab-custom-widget-lists-toggle =
+  .label = リスト
+newtab-custom-widget-timer-toggle =
+  .label = タイマー
+newtab-custom-widget-section-title = ウィジェット
+# Tooltip for close button
+newtab-custom-close-menu-button =
+    .title = 閉じる
+    .aria-label = メニューを閉じます
 newtab-custom-settings = その他の設定を管理
 
 ## New Tab Wallpapers
@@ -555,3 +567,58 @@ newtab-trending-searches-hide-trending =
     .title = トレンド検索を閉じる
 newtab-trending-searches-learn-more = さらに詳しく
 newtab-trending-searches-dismiss = トレンド検索を閉じる
+
+## Strings for task / to-do list productivity widget
+
+newtab-widget-lists-default-list-title = タスクリスト
+# The placeholder value of the name field for a newly created list
+newtab-widget-lists-default-list-new = 新しいリスト
+# "Add one" means adding a new task to the list (e.g., "Walk the dog")
+newtab-widget-lists-empty-cta = 可能性は無限大。追加してみましょう。
+newtab-widget-lists-new-label = 新規
+# When tasks have been previous marked as complete, they will appear in their own separate list beneath incomplete items
+# Variables:
+#   $number (number) - Amount of list items marked complete
+newtab-widget-lists-completed-list = 完了済み ({ $number })
+newtab-widget-task-list-menu-copy = コピー
+newtab-widget-lists-menu-edit = リスト名を編集
+newtab-widget-lists-menu-create = 新しいリストを作成
+newtab-widget-lists-menu-delete = このリストを削除
+newtab-widget-lists-menu-copy = リストをクリップボードにコピー
+newtab-widget-lists-menu-hide = すべてのリストを非表示
+newtab-widget-lists-menu-learn-more = 詳しく見る
+newtab-widget-lists-input-placeholder = アイテムを追加
+newtab-widget-lists-input-error = アイテムを追加するにはテキストを入力してください。
+newtab-widget-lists-input-menu-open-link = リンクを開く
+newtab-widget-lists-input-menu-move-up = 上に移動
+newtab-widget-lists-input-menu-move-down = 下に移動
+newtab-widget-lists-input-menu-delete = 削除
+newtab-widget-lists-input-menu-edit = 編集
+
+## Strings for timer productivity widget
+## When the timer ends, a system notification may be shown. Depending on which mode the timer is in, that message would be shown
+
+newtab-widget-timer-notification-title = タイマー
+newtab-widget-timer-notification-focus = 集中時間が終了しました。お疲れさまでした。休憩しませんか？
+newtab-widget-timer-notification-break = 休憩が終わりました。集中の準備はいいですか？
+newtab-widget-timer-notification-warning = 通知はオフになっています
+newtab-widget-timer-mode-focus =
+    .label = 集中
+newtab-widget-timer-mode-break =
+    .label = 休憩
+newtab-widget-timer-play =
+    .title = 再生
+newtab-widget-timer-pause =
+    .title = 一時停止
+newtab-widget-timer-reset =
+    .title = リセット
+newtab-widget-timer-menu-notifications = 通知を無効にする
+newtab-widget-timer-menu-notifications-on = 通知を有効にする
+newtab-widget-timer-menu-hide = タイマーを非表示
+newtab-widget-timer-menu-learn-more = さらに詳しく
+
+# Strings for the default promo card
+
+newtab-promo-card-title = { -brand-product-name } をサポートする
+newtab-promo-card-body = スポンサーの皆様は、より良いウェブを構築するという私たちの使命を支援してくださっています
+newtab-promo-card-cta = さらに詳しく

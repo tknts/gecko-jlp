@@ -152,10 +152,6 @@ places-organize-button =
   .tooltiptext = あなたのブックマークを管理します
   .accesskey = O
 
-places-organize-button-mac =
-  .label = Organize
-  .tooltiptext = Organize your bookmarks
-
 places-file-close =
   .label = 閉じる
   .accesskey = C
@@ -167,10 +163,6 @@ places-view-button =
   .label = 表示
   .tooltiptext = 表示を変更します
   .accesskey = V
-
-places-view-button-mac =
-  .label = Views
-  .tooltiptext = Change your view
 
 places-view-menu-columns =
   .label = 表示する列
@@ -196,10 +188,6 @@ places-maintenance-button =
   .label = インポートとバックアップ
   .tooltiptext = あなたのブックマークのインポートとバックアップを行います
   .accesskey = I
-
-places-maintenance-button-mac =
-  .label = Import and Backup
-  .tooltiptext = Import and backup your bookmarks
 
 places-cmd-backup =
   .label = バックアップ…

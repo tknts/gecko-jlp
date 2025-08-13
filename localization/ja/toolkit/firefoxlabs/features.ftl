@@ -67,3 +67,15 @@ experimental-features-fx-web-apps =
 
 # “Add tab to taskbar” is found in the tooltip text of `-taskbar-tab-urlbar-button-open`.
 experimental-features-fx-web-apps-description = よく利用するサイトを、タスクバーからウェブアプリとして開けるようになります。アドレスバーの右にある [タスクバーに追加] アイコンを探して、そのサイトを { -brand-product-name } のすべての保護機能付きでアプリ風ウィンドウで起動できます。<a data-l10n-name="connect">フィードバックを送る</a>
+
+## New Tab Productivity Widgets
+
+# Lists Widget
+experimental-features-newtab-widget-lists =
+    .label = { -firefox-home-brand-name } のリスト
+experimental-features-newtab-widget-lists-description = 新しいタブを開くときに、ToDo リストを常に意識できます。荷造りリストから買い物リストまで、{ -brand-product-name } で計画を立てましょう。<a data-l10n-name="connect">フィードバックを共有</a>
+
+# Timer Widget
+experimental-features-newtab-widget-timer =
+    .label = { -firefox-home-brand-name } のタイマー
+experimental-features-newtab-widget-timer-description = 集中を維持したり、予定通り進めるためのリマインダーや休憩の合図としてタイマーを設定できます。<a data-l10n-name="connect">フィードバックを共有</a>
