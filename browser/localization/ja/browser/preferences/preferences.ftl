@@ -728,8 +728,6 @@ home-prefs-recommended-by-description-generic = { -brand-product-name } によ�
 home-prefs-recommended-by-learn-more = 使い方
 home-prefs-recommended-by-option-sponsored-stories =
     .label = 広告記事
-home-prefs-recommended-by-option-recent-saves =
-    .label = 最近の保存を表示
 
 home-prefs-highlights-option-visited-pages =
     .label = 訪問したページ
@@ -1360,13 +1358,26 @@ content-blocking-etp-standard-tcp-title = これまでで最も強力なプラ�
 
 content-blocking-warning-title = 注意してください!
 content-blocking-and-isolating-etp-warning-description-3 = この設定を有効にすると、一部のウェブサイトでコンテンツが正しく表示されなかったり、機能しなくなったりする可能性があります。既知の影響を受けやすいサイトに対して、例外を適用するオプションがあります。ウェブサイトの表示崩れを減らすには、これらのトラッカー例外を許可してください。サイトが正しく表示されない場合は、そのサイトでトラッキング防止機能を無効にして、すべてのコンテンツを読み込んだ上で問題を報告できます。報告された情報をもとに、全体の改善に役立てます。
+content-blocking-warning-title-2 = 厳格なトラッキング防止では一部のサイトが正常に動作しない場合があります
+# “Fix site issues” references the string content-blocking-exceptions-subheader
+content-blocking-and-isolating-etp-warning-description-4 = { -brand-short-name } では、サイトの機能やコンテンツの不具合を減らすために “サイトの問題を修正” 設定を使用することを推奨しています。サイトが正常に表示されない場合は、そのサイトに対してトラッキング防止を無効にするとすべてのコンテンツを読み込める場合があります。
 content-blocking-warning-learn-how = さらに詳しく
 
 content-blocking-baseline-exceptions =
     .label = 主なウェブサイトの表示崩れを回避するために必要な例外を、{ -brand-short-name } に自動で適用させる
+content-blocking-baseline-exceptions-2 =
+    .label = トラッカーを含む可能性のある必須要素のみを解除して、サイトや機能の読み込みを助けます。よくある問題の大半をカバーします。
 
 content-blocking-convenience-exceptions =
-    .label = 軽微な不具合の修正や利便性機能の有効化に必要な例外も自動で適用する
+    .label = Also apply exceptions automatically that are only required to fix minor issues and make convenience features available.
+# This option to fix minor site issues must be used with the option to fix major site issues (string content-blocking-baseline-exceptions-2)
+content-blocking-convenience-exceptions-2 =
+    .label = 記事内の動画やコメント欄などを復元するために、トラッカーを含む可能性のある要素を解除します。サイトの問題を軽減できますが、保護は弱まります。重大な問題の修正と併用する必要があります。
+
+content-blocking-baseline-label = 重大なサイトの問題を修正 (推奨)
+content-blocking-convenience-label = 軽微なサイトの問題を修正
+
+content-blocking-exceptions-subheader = サイトの問題を修正
 
 content-blocking-reload-description = これらの変更を適用するには、タブの再読み込みが必要です。
 content-blocking-reload-tabs-button =

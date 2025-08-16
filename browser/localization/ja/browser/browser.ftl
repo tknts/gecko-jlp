@@ -724,7 +724,6 @@ urlbar-result-weather-title-city-only = { $city } の気温は <strong>{ $temper
 #       name of a company, organization, or service.
 urlbar-result-weather-provider-sponsored = 提供元：{ $provider } · スポンサー
 
-
 ## These strings are used for Realtime suggestions in the urlbar.
 ## Market refers to stocks, indexes, and funds.
 
@@ -753,6 +752,53 @@ urlbar-result-dismissal-acknowledgment-market = フィードバックありが�
 # A message that replaces a result when the user dismisses all suggestions of a
 # particular type.
 urlbar-result-dismissal-acknowledgment-all = フィードバックありがとうございます。今後はこのタイプの候補は表示されません。
+
+## These strings are used for suggestions of important dates in the urlbar.
+
+# The name of an event and the number of days until it starts separated by a
+# middot.
+# Variables:
+#   $name (string) - The name of the event.
+#   $daysUntilStart (integer) - The number of days until the event starts.
+urlbar-result-dates-countdown =
+    { $daysUntilStart ->
+        [one] { $name } · 明日開始
+        *[other] { $name } · 開始まであと { $daysUntilStart } 日
+    }
+
+# The name of a multiple day long event and the number of days until it starts
+# separated by a middot.
+# Variables:
+#   $name (string) - The name of the event.
+#   $daysUntilStart (integer) - The number of days until the event starts.
+urlbar-result-dates-countdown-range =
+    { $daysUntilStart ->
+        [one] { $name } · 明日から開始
+        *[other] { $name } · 開始まであと { $daysUntilStart } 日
+    }
+
+# The name of a multiple day long event and the number of days until it ends
+# separated by a middot.
+# Variables:
+#   $name (string) - The name of the event.
+#   $daysUntilEnd (integer) - The number of days until the event ends.
+urlbar-result-dates-ongoing =
+    { $daysUntilEnd ->
+        [one] { $name } · 明日まで
+        *[other] { $name } · 終了まであと { $daysUntilEnd } 日
+    }
+
+# The name of an event and a note that it is happening today separated by a
+# middot.
+# Variables:
+#   $name (string) - The name of the event.
+urlbar-result-dates-today = { $name } · 今日開催
+
+# The name of multiple day long event and a note that it is ends today
+# separated by a middot.
+# Variables:
+#   $name (string) - The name of the event.
+urlbar-result-dates-ends-today = { $name } · 今日終了
 
 ## Strings used for buttons in the urlbar
 

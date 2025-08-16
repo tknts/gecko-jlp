@@ -65,3 +65,12 @@ sign-in-vpn = 次へ
 active-subscription-vpn-title = { -mozilla-vpn-brand-name } の設定を完了します
 active-subscription-vpn-message = ダウンロードして拡張機能をインストールすると、アップグレードのロックが解除されます。
 get-vpn-button = ダウンロード
+
+## Messages and errors
+
+# TODO: This is placeholder text. Error heading and message need to be finalized.
+ipprotection-message-generic-error =
+  .heading = 問題が発生しました
+  .message = VPN 接続でエラーが発生しました。後でもう一度お試しください。
+
+##

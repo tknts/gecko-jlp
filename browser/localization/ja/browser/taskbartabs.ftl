@@ -10,6 +10,8 @@ taskbar-tab-urlbar-button-open =
   .tooltiptext = タスクバーに追加します
 taskbar-tab-urlbar-button-close =
   .tooltiptext = タスクバーからタブを削除する
+taskbar-tab-urlbar-button-show = ウェブ アプリのページアクションを表示
+taskbar-tab-urlbar-button-hide = ウェブ アプリのページアクションを隠す
 
 # This string is used in the description of a Windows Start Menu
 # shortcut for a Taskbar Tab.
@@ -26,3 +28,10 @@ taskbar-tab-shortcut-description = { $name } Web App
 # use: '<' '>' ':' '"' '/' '\' '|' '?' '*' . All other characters
 # should be fine.)
 taskbar-tab-shortcut-folder = { -brand-short-name } ウェブ アプリ
+
+## These strings are used as the tooltip for the mute/unmute button.
+
+taskbar-tab-audio-mute =
+  .tooltiptext = タブをミュートします
+taskbar-tab-audio-unmute =
+  .tooltiptext = タブのミュートを解除します

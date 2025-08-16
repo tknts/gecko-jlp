@@ -342,3 +342,36 @@ windows-10-eos-sync-toast-title = Windows 11 へのアップグレード前に�
 windows-10-eos-sync-toast-subtitle = データをバックアップしておけば、この PC でも次の PC でも、{ -brand-short-name } をすぐに使えます。
 windows-10-eos-sync-toast-primary-label = 今すぐ開始
 windows-10-eos-sync-toast-secondary-label = 後で通知する
+
+## Windows 10 EoS sync messages group 2 feature callouts
+
+windows-10-eos-challenger-callout-title = { -brand-product-name } は、大手テック企業のブラウザーのようにプリインストールされていません。それが狙いです。
+windows-10-eos-challenger-sync-callout-subtitle = { -brand-product-name } のブックマークやパスワードをバックアップすれば、お気に入りのブラウザーを次のデバイスでもすぐに使えます。
+windows-10-eos-challenger-pin-callout-subtitle = { -brand-shorter-name } をタスクバーにピン留めして、必要なときにいつでもすぐ使えるようにしましょう。
+windows-10-eos-challenger-sync-primary-button = { -brand-shorter-name } をバックアップ
+windows-10-eos-challenger-pin-primary-button = { -brand-shorter-name } をピン留め
+
+windows-10-eos-sync-callout-privacy-screen-1-title = { -brand-product-name } は暗号通貨マイナー、ソーシャルトラッカー、フィンガープリンターをブロックします。
+windows-10-eos-sync-callout-privacy-screen-1-subtitle = トラッカーはあなたのデバイスを特定したり、ウェブ上で追跡したりできません — 私たちがそれを許さないからです。
+windows-10-eos-sync-callout-privacy-screen-2-title = 次のデバイスのためにパスワードとブックマークを安全に保管。
+windows-10-eos-sync-callout-privacy-screen-2-subtitle = { -brand-shorter-name } をバックアップすれば、データやプライバシー設定を簡単に持ち運べます。
+windows-10-eos-sync-callout-privacy-info-button = ブロックされている項目を見る
+
+windows-10-eos-callout-addons-title = アドオンを試す: 手軽に機能を追加して、大きな効果を手に入れよう
+windows-10-eos-callout-addons-subtitle = 生産性の維持、保護、集中力アップに役立つ拡張機能を厳選しました。
+windows-10-eos-callout-addons-primary-button = おすすめを見る
+
+windows-10-eos-sync-callout-addons-title = Windows 10 からアップグレードしてもアドオンを失わないようにしましょう。
+windows-10-eos-sync-callout-addons-subtitle = 今すぐ同期して、デバイス変更後もいつでも { -brand-product-name } のアドオンを使えるようにしましょう。
+
+windows-10-eos-sync-callout-next-button = 次へ
+windows-10-eos-sync-callout-get-started-button = はじめる
+
+## Windows 10 EoS Sync messages group 2 toast notification
+
+windows-10-eos-feature-toast-title = 縦型タブとタブグループが登場!
+
+# In English, "dropped" is a colloquial form for released.
+windows-10-eos-feature-toast-subtitle = 多くのリクエストに応えて、{ -brand-product-name } に新機能が登場。よりスムーズで集中できるブラウジングを実現します。
+windows-10-eos-feature-toast-whats-new-button = 新機能を見る
+windows-10-eos-feature-toast-dismiss-button = 閉じる

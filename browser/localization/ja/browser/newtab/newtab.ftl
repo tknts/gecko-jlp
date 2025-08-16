@@ -131,19 +131,7 @@ newtab-menu-section-unfollow = トピックのフォローを解除
 
 newtab-menu-manage-sponsored-content = スポンサードコンテンツの管理
 newtab-menu-our-sponsors-and-your-privacy = スポンサーとあなたのプライバシーについて
-newtab-menu-report-this-ad = この広告を報告
-
-## Message displayed in a modal window to explain privacy and provide context for sponsored content.
-
-newtab-privacy-modal-button-done = 完了
-newtab-privacy-modal-button-manage = スポンサー付きコンテンツ設定の管理
-newtab-privacy-modal-header = あなたのプライバシーは重要です。
-newtab-privacy-modal-paragraph-2 =
-    あなたの心をつかむ記事に加えて、選ばれたスポンサーからの関連性の高い厳選されたコンテンツを紹介します。でも安心してください。<strong>あなたのブラウジングデータは { -brand-product-name } 内でのみ使用されます。</strong> — 私たちもスポンサーもその情報を見ることはできせん。
-
-
-
-newtab-privacy-modal-link = 新しいタブでのプライバシーの仕組みをご覧ください
+newtab-menu-report-this-ad = この広告を通報する
 
 ##
 
@@ -271,7 +259,6 @@ newtab-custom-row-selector =
 newtab-custom-stories-toggle =
   .label = おすすめのストーリー
   .description = { -brand-product-name } ファミリーによって厳選された優良コンテンツ
-newtab-custom-pocket-show-recent-saves = 最近の保存を表示
 newtab-custom-weather-toggle =
   .label = 天気
   .description = 今日の天気予報が一目でわかる
@@ -575,7 +562,11 @@ newtab-widget-lists-default-list-title = タスクリスト
 newtab-widget-lists-default-list-new = 新しいリスト
 # "Add one" means adding a new task to the list (e.g., "Walk the dog")
 newtab-widget-lists-empty-cta = 可能性は無限大。追加してみましょう。
-newtab-widget-lists-new-label = 新規
+# A simple label next to the default list name letting users know this is a new / beta feature
+newtab-widget-lists-label-new =
+    .label = 新規
+newtab-widget-lists-label-beta =
+    .label = ベータ
 # When tasks have been previous marked as complete, they will appear in their own separate list beneath incomplete items
 # Variables:
 #   $number (number) - Amount of list items marked complete
@@ -587,7 +578,8 @@ newtab-widget-lists-menu-delete = このリストを削除
 newtab-widget-lists-menu-copy = リストをクリップボードにコピー
 newtab-widget-lists-menu-hide = すべてのリストを非表示
 newtab-widget-lists-menu-learn-more = 詳しく見る
-newtab-widget-lists-input-placeholder = アイテムを追加
+newtab-widget-lists-input-add-an-item =
+    .placeholder = アイテムを追加
 newtab-widget-lists-input-error = アイテムを追加するにはテキストを入力してください。
 newtab-widget-lists-input-menu-open-link = リンクを開く
 newtab-widget-lists-input-menu-move-up = 上に移動
@@ -617,8 +609,13 @@ newtab-widget-timer-menu-notifications-on = 通知を有効にする
 newtab-widget-timer-menu-hide = タイマーを非表示
 newtab-widget-timer-menu-learn-more = さらに詳しく
 
+newtab-widget-keep-scrolling = 続きを表示するにはスクロール
+
 # Strings for the default promo card
 
 newtab-promo-card-title = { -brand-product-name } をサポートする
 newtab-promo-card-body = スポンサーの皆様は、より良いウェブを構築するという私たちの使命を支援してくださっています
 newtab-promo-card-cta = さらに詳しく
+newtab-promo-card-dismiss-button =
+    .title = 閉じる
+    .aria-label = 閉じる
