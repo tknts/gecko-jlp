@@ -62,13 +62,6 @@ firefox-suggest-dismissal-acknowledgment-one-yelp = フィードバックをあ�
 # A message that replaces a result when the user dismisses all Yelp suggestions.
 firefox-suggest-dismissal-acknowledgment-all-yelp = フィードバックをありがとうございます。 { -yelp-brand-name } からのサジェストは今後表示されません。
 
-# A message that replaces a result when the user dismisses a single Fakespot
-# suggestion.
-firefox-suggest-dismissal-acknowledgment-one-fakespot = フィードバックありがとうございます。この { -fakespot-brand-name } からのサジェストは今後表示されません。
-
-# A message that replaces a result when the user dismisses all Fakespot suggestions.
-firefox-suggest-dismissal-acknowledgment-all-fakespot = フィードバックありがとうございます。{ -fakespot-brand-name } からのサジェストは今後表示されません。
-
 ## These strings are used for urlbar weather suggestions in the "simpler" and
 ## "full" weather UIs.
 
@@ -111,8 +104,6 @@ firefox-suggest-command-not-relevant =
   .label = 関連性がありません
 firefox-suggest-command-not-interested =
   .label = 興味がありません
-firefox-suggest-command-manage-fakespot =
-  .label = { -fakespot-brand-name } からのサジェストを管理
 firefox-suggest-command-dont-show-this-suggestion =
   .label = このサジェストを表示しない
 firefox-suggest-command-dont-show-any-suggestions =
@@ -140,33 +131,6 @@ firefox-suggest-yelp-service-title = { $service } の上位の検索結果
 # This string is shown in Yelp suggestions and indicates the suggestion is for
 # Yelp.
 firefox-suggest-yelp-bottom-text = Yelp · スポンサー
-
-## These strings are used for Fakespot suggestions in the urlbar.
-
-# This string displays inside of the badge in Fakespot suggestion.
-firefox-suggest-fakespot-badge = 信頼できるレビュー
-
-## This string displays rating and total reviews as a label.
-## Variables:
-##  $rating (number) - The number of rating for the suggestion.
-##  $totalReviews (number) - The number of total reviews for the suggestion.
-
-# Show the exact number of reviews.
-firefox-suggest-fakespot-rating-and-total-reviews =
-  { $totalReviews ->
-     [one] { $rating } · ({ $totalReviews } 件のレビュー)
-    *[other] { $rating } · ({ $totalReviews } 件のレビュー)
-  }
-# Show an approximate number of reviews (e.g. 100,000+ reviews).
-firefox-suggest-fakespot-rating-and-total-reviews-overflow =
-  { $totalReviews ->
-     [one] { $rating } · ({ $totalReviews } 件以上のレビュー)
-    *[other] { $rating } · ({ $totalReviews } 件以上のレビュー)
-  }
-
-# This string is shown in Fakespot suggestion and indicates the suggestion is
-# sponsored.
-firefox-suggest-fakespot-sponsored = { -fakespot-brand-name } · スポンサー
 
 # These strings are used for a toggle switch in the settings UI that opts the
 # user into "online" Firefox Suggest, allowing them to receive suggestions from
@@ -280,44 +244,3 @@ urlbar-search-mode-bookmarks-en = ブックマーク
 urlbar-search-mode-tabs-en = タブ
 urlbar-search-mode-history-en = 履歴
 urlbar-search-mode-actions-en = アクション
-
-## These strings are used for the important-dates features and will be
-## moved when they are finalized.
-
-# Shows the number of days until an event.
-# Variables:
-#   $name (string) - The name of the event.
-#   $daysUntilStart (integer) - The number of days until the event starts.
-urlbar-result-dates-countdown =
-    { $daysUntilStart ->
-        [one] { $name } · 明日、イベント開始
-        *[other] { $name } · イベント開始まであと { $daysUntilStart } 日
-    }
-
-# Shows the number of days until a multiple day long event starts.
-# Variables:
-#   $name (string) - The name of the event.
-#   $daysUntilStart (integer) - The number of days until the event starts.
-urlbar-result-dates-countdown-range =
-    { $daysUntilStart ->
-        [one] { $name } · 複数日続くイベントが明日始まる
-        *[other] { $name } · 複数日続くイベントが { $daysUntilStart } 日後に始まる
-    }
-
-# Shows the number of days until a multiple day long event ends.
-# Variables:
-#   $name (string) - The name of the event.
-#   $daysUntilEnd (integer) - The number of days until the event ends.
-urlbar-result-dates-ongoing =
-    { $daysUntilEnd ->
-        [one] { $name } · 現在進行中、明日まで
-        *[other] { $name } · 現在進行中、あと { $daysUntilEnd } 日
-    }
-
-# Shows that an event happens today.
-#   $name (string) - The name of the event.
-urlbar-result-dates-today = { $name } · 今日開催
-
-# Shows that a multiple day long event ends today.
-#   $name (string) - The name of the event.
-urlbar-result-dates-ends-today = { $name } · 今日終了

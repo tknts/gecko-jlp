@@ -92,6 +92,10 @@ text-action-search-text-box-clear =
 text-action-highlight-selection =
     .label = 選択範囲を強調表示
 
+# Comment is a verb. This adds a comment to selected text within the PDF viewer.
+text-action-comment-selection =
+    .label = コメントセクション
+
 # "Copy Link to Highlight" creates a permanent 'Text Fragment' link
 # to the current selection, and copies it into the user's clipboard.
 text-action-copy-link-to-highlight =
