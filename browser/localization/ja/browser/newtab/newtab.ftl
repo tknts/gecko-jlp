@@ -232,11 +232,6 @@ newtab-toast-dismiss-button =
     .title = 閉じる
     .aria-label = 閉じる
 
-## Pocket content onboarding experience dialog and modal for new users seeing the Pocket section for the first time, shown as the first item in the Pocket section.
-
-newtab-pocket-onboarding-discover = 最高のウェブを発見しましょう
-newtab-pocket-onboarding-cta = { -pocket-brand-name } は、多様な出版物を探索し、最も有益で刺激的で信頼できるコンテンツを { -brand-product-name } ブラウザーに直接お届けします。
-
 ## Error Fallback Content.
 ## This message and suggested action link are shown in each section of UI that fails to render.
 
@@ -557,9 +552,14 @@ newtab-trending-searches-dismiss = トレンド検索を閉じる
 
 ## Strings for task / to-do list productivity widget
 
-newtab-widget-lists-default-list-title = タスクリスト
+newtab-widget-lists-name-label-default =
+    .label = タスクリスト
+newtab-widget-lists-name-placeholder-default =
+    .placeholder = タスクリスト
 # The placeholder value of the name field for a newly created list
-newtab-widget-lists-default-list-new = 新しいリスト
+newtab-widget-lists-name-placeholder-new =
+    .placeholder = 新しいリスト
+
 # "Add one" means adding a new task to the list (e.g., "Walk the dog")
 newtab-widget-lists-empty-cta = 可能性は無限大。追加してみましょう。
 # A simple label next to the default list name letting users know this is a new / beta feature
@@ -609,7 +609,12 @@ newtab-widget-timer-menu-notifications-on = 通知を有効にする
 newtab-widget-timer-menu-hide = タイマーを非表示
 newtab-widget-timer-menu-learn-more = さらに詳しく
 
+# Message that appears when widgets are full-height. This reminds users that there is more New Tab content to see if they scroll
 newtab-widget-keep-scrolling = 続きを表示するにはスクロール
+
+newtab-widget-message-title = リストと内蔵タイマーで集中力を維持
+# to-dos stands for "things to do".
+newtab-widget-message-copy = 簡単なリマインダーから毎日の ToDo、フォーカスセッションからストレッチ休憩まで、タスクを時間通りに進めましょう。
 
 # Strings for the default promo card
 

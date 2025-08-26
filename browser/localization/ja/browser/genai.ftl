@@ -122,6 +122,11 @@ genai-options-hide-shortcut =
 genai-options-about-chatbot =
     .label = { -brand-short-name } の AI チャットボットについて
 
+## Chatbot message
+
+genai-page-warning =
+    .message = ページが長いため、部分的な要約となります。
+
 ## Chatbot footer
 
 genai-page-button-summarize = ページを要約
@@ -221,3 +226,61 @@ link-preview-reading-time =
         [one] 約 { $range } 分で読めます
        *[other] 約 { $range } 分で読めます
     }
+
+# リンクプレビューを生成できないときに表示されるエラーメッセージ
+link-preview-error-message = このリンクをプレビューできません
+
+# エラー時に元の URL を開くリンクテキスト
+link-preview-visit-link = リンクを開く
+
+# ページの要点（ハイライトや主要な内容）を生成できないときのエラーメッセージ
+link-preview-generation-error-missing-data = このページの要点を生成できません。
+
+# 要点生成中に問題が発生したときのエラーメッセージ
+link-preview-generation-error-unexpected = 問題が発生しました。
+
+# 生成に失敗したときの再試行リンクテキスト
+link-preview-generation-retry = 再試行
+
+# リンクプレビュー設定を開くボタン
+link-preview-settings-button =
+    .title = リンクプレビューの設定
+
+link-preview-settings-enable =
+    .label = リンクプレビューを有効にする
+    .description = ショートカットや右クリックでリンクを開くと、ページタイトルや説明などが表示されます。
+link-preview-settings-key-points =
+    .label = AI がページ冒頭を読み取り要点を生成することを許可
+link-preview-settings-long-press =
+    .label = ショートカット: リンクを 1 秒間クリックしたままにする (長押し)
+
+# Title that appears when user is shown the opt-in flow for link previews
+link-preview-optin-title = AI でさらに便利に？
+
+# Message that appears when user is shown the opt-in flow for link previews
+link-preview-optin-message = { -brand-short-name } は AI を使ってページ冒頭を読み取り、いくつかの要点を生成します。プライバシーを重視し、この処理はデバイス上で行われます。
+
+# Onboarding card title for long press
+link-preview-onboarding-title-long-press = 新機能: 任意のリンクを長押ししてプレビュー
+
+# Onboarding card description for long press
+link-preview-onboarding-description-long-press = 短い説明や読了時間などを表示して、リンクを開く価値があるか判断できます。右クリックからも利用可能です。
+
+# Header for the key points section
+link-preview-key-points-header = 要点
+
+# Disclaimer for AI-generated key points
+link-preview-key-points-disclaimer = 要点は AI によって生成されており、誤りを含む場合があります。
+
+# Progress message for the first-time setup
+# $progress (number) - The percentage value 1-100 indicating the progress of the setup.
+link-preview-setup = 初回セットアップ中 • <strong>{ $progress }%</strong>
+
+# Message indicating faster performance after initial setup
+link-preview-setup-faster-next-time = 次回からは要点がより速く表示されます。
+
+# Onboarding card See a preview button
+link-preview-onboarding-button = プレビューを見る
+
+# Onboarding card Close button
+link-preview-onboarding-close = 閉じる

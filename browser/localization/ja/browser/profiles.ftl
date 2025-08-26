@@ -98,26 +98,16 @@ delete-profile-confirm = 削除
 
 ## These strings are color themes available to select from the profile selection screen. Theme names should be localized.
 
-# This light theme features sunny colors such as goldenrod and pale yellow. Its name evokes the color of a marigold flower. This name can be translated directly if it's easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
-profiles-marigold-theme-2 = マリーゴールドイエロー
-
-# This light theme features various shades of soft, muted purples. Its name evokes the color of a lavender flower. This name can be translated directly if it's easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
-profiles-lavender-theme-2 = 淡いラベンダー
-
-# This light theme features very pale green tones. Its name evokes the color of pale green mint ice cream. This name can be translated directly if it's easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
-profiles-lichen-theme-2 = ミントグリーン
-
-# This light theme features various shades of pink ranging from pale to bold. Its name evokes the color of a pink magnolia flower. This name can be translated directly if its easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
-profiles-magnolia-theme-2 = マグノリアピンク
-
-# Ocean blue is a dark theme that features very dark blues and black. Its name evokes the color of the deep ocean water. This name can be translated directly if its easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
-profiles-ocean-theme-2 = オーシャンブルー
-
-# This dark theme features warm oranges, dark mahogany browns, and earthy red/brown colors. The name evokes the earthy colors of brick masonry. This name can be translated directly if it's easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
-profiles-terracotta-theme-2 = レンガ色
-
-# This dark theme features forest green, dusky green with a gray undertone, and a muted sage green. Its name evokes the rich color of green moss in the forest. This name can be translated directly if its easily understood in your language, or adapted to a more natural sounding name that fits the color scheme.
-profiles-moss-theme-2 = モスグリーン
+profiles-gray-theme = グレー
+profiles-yellow-theme = イエロー
+profiles-orange-theme = オレンジ
+profiles-red-theme = レッド
+profiles-pink-theme = ピンク
+profiles-purple-theme = パープル
+profiles-violet-theme = バイオレット
+profiles-blue-theme = ブルー
+profiles-green-theme = グリーン
+profiles-cyan-theme = シアン
 
 # The default light theme
 profiles-light-theme = ライト
@@ -145,19 +135,19 @@ canvas-avatar-alt =
 craft-avatar-alt =
     .alt = Craft
 custom-avatar-alt =
-    .alt = Custom avatar
+    .alt = カスタムアバター
 # Default favicon refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
 default-favicon-avatar-alt =
-    .alt = Default favicon
+    .alt = デフォルトの Favicon
 # Diamond refers to the precious stone, not the geometric shape
 diamond-avatar-alt =
-    .alt = Diamond
+    .alt = ダイアモンド
 flower-avatar-alt =
-    .alt = Flower
+    .alt = フラワー
 folder-avatar-alt =
-    .alt = Folder
+    .alt = フォルダー
 hammer-avatar-alt =
-    .alt = Hammer
+    .alt = ハンマー
 heart-avatar-alt =
     .alt = ハート
 heart-rate-avatar-alt =
@@ -165,7 +155,7 @@ heart-rate-avatar-alt =
 history-avatar-alt =
     .alt = History
 leaf-avatar-alt =
-    .alt = Leaf
+    .alt = リーフ
 lightbulb-avatar-alt =
     .alt = Lightbulb
 makeup-avatar-alt =
@@ -197,10 +187,10 @@ video-game-controller-avatar-alt =
 
 ## Labels for default avatar icons
 
-barbell-avatar = Barbell
-bike-avatar = Bike
-book-avatar = Book
-briefcase-avatar = Briefcase
+barbell-avatar = バーベル
+bike-avatar = バイク
+book-avatar = 本
+briefcase-avatar = ブリーフケース
 # Canvas refers to an artist's painting canvas, not the general material
 canvas-avatar = Canvas
 # Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts

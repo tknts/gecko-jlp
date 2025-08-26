@@ -2,13 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-do-not-track-removal = “Do Not Track” の送信はサポートされなくなりました
+do-not-track-removal2 =
+    .label = “Do Not Track” の送信はサポートされなくなりました
 
 global-privacy-control-description =
     .label = 私のデータを販売または共有しないようウェブサイトに通知します
     .accesskey = s
 
 non-technical-privacy-header = ウェブサイトのプライバシー設定
+
+non-technical-privacy-label =
+     .aria-label = { non-technical-privacy-header }
 
 # Do not translate.
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
@@ -1369,7 +1373,7 @@ content-blocking-baseline-exceptions-2 =
     .label = トラッカーを含む可能性のある必須要素のみを解除して、サイトや機能の読み込みを助けます。よくある問題の大半をカバーします。
 
 content-blocking-convenience-exceptions =
-    .label = Also apply exceptions automatically that are only required to fix minor issues and make convenience features available.
+    .label = また、軽微な問題を修正し、便利な機能を提供するために必要な例外を自動的に適用します。
 # This option to fix minor site issues must be used with the option to fix major site issues (string content-blocking-baseline-exceptions-2)
 content-blocking-convenience-exceptions-2 =
     .label = 記事内の動画やコメント欄などを復元するために、トラッカーを含む可能性のある要素を解除します。サイトの問題を軽減できますが、保護は弱まります。重大な問題の修正と併用する必要があります。
@@ -1378,6 +1382,11 @@ content-blocking-baseline-label = 重大なサイトの問題を修正 (推奨)
 content-blocking-convenience-label = 軽微なサイトの問題を修正
 
 content-blocking-exceptions-subheader = サイトの問題を修正
+
+content-blocking-baseline-uncheck-warning-dialog-title = 修正をオフにしてもよろしいですか?
+content-blocking-baseline-uncheck-warning-dialog-body = この設定は、サイトの最も一般的な問題の解決に役立ちます。オフにすると、一部のサイトが動作しなくなる可能性があり、{ -brand-short-name } はそれらの問題のトラブルシューティングを支援できなくなります。
+content-blocking-baseline-uncheck-warning-dialog-ok-button = 修正をオフにする
+content-blocking-baseline-uncheck-warning-dialog-cancel-button = 修正をオンにしたままにする
 
 content-blocking-reload-description = これらの変更を適用するには、タブの再読み込みが必要です。
 content-blocking-reload-tabs-button =
