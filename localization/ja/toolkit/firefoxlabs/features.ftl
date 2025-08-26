@@ -29,11 +29,8 @@ experimental-features-group-webpage-display =
   .label = ウェブページの表示
 experimental-features-group-customize-browsing =
   .label = ブラウジングをカスタマイズ
-
-# Contextual Password Manager in sidebar
-experimental-features-contextual-password-manager =
-    .label = サイドバーでパスワード管理
-experimental-features-contextual-password-manager-description = サイドバーから直接パスワードにアクセスできます。ログインの際にパスワードを探し回ったり、リセットしたりする手間がなくなります。この機能を使用するには、サイドバーからパスワードを選択してください。その後、「設定」→「一般」→「ブラウザのレイアウト」で「サイドバーを表示」を選択し、サイドバーのカスタマイズで「パスワード」を追加します。試してみたら、ぜひ <a data-l10n-name="connect">フィードバックをお寄せください</a>。
+experimental-features-group-productivity =
+  .label = 生産性
 
 # New Tab Custom Wallpapers
 experimental-features-custom-wallpaper =
@@ -79,3 +76,8 @@ experimental-features-newtab-widget-lists-description = 新しいタブを開く
 experimental-features-newtab-widget-timer =
     .label = { -firefox-home-brand-name } のタイマー
 experimental-features-newtab-widget-timer-description = 集中を維持したり、予定通り進めるためのリマインダーや休憩の合図としてタイマーを設定できます。<a data-l10n-name="connect">フィードバックを共有</a>
+
+# Lists and Timer Widget (Combined)
+experimental-features-newtab-widget-lists-and-timer =
+    .label = { -firefox-home-brand-name } のリストとタイマー
+experimental-features-newtab-widget-lists-and-timer-description = 新しいタブを開いたときに、やることリストをすぐ確認できます。旅行の持ち物リストや買い物リストなど、{ -brand-product-name } で計画を立てましょう。タイマーを設定して集中したり、進捗を促したり、休憩をリマインドしたりできます。<a data-l10n-name="connect">フィードバックを送る</a>

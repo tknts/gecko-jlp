@@ -170,20 +170,20 @@ contextual-manager-passwords-radiogroup-label =
 # Variables
 #   $url (string) - The url associated with the new login
 contextual-manager-passwords-add-password-success-heading =
-  .heading = Password added for { $url }
+  .heading = { $url } のパスワードが追加されました
 contextual-manager-passwords-add-password-success-button = 表示
 
 # Variables
 #   $url (string) - The url associated with the existing login
 contextual-manager-passwords-password-already-exists-error-heading =
-  .heading = A password and username for { $url } already exists
-contextual-manager-passwords-password-already-exists-error-button = Go to password
+  .heading = { $url } のパスワードとユーザー名は既に存在します
+contextual-manager-passwords-password-already-exists-error-button = パスワードへ移動
 
 contextual-manager-passwords-update-password-success-heading =
-  .heading = Password saved
+  .heading = パスワードを保存しました
 contextual-manager-passwords-update-password-success-button = 完了
 
-contextual-manager-passwords-update-username-success-heading =
+contextual-manager-passwords-update-username-success-heading-3 =
   .heading = ユーザー名を保存しました
 
 # Message to confirm successful removal of a password/passwords.
@@ -224,9 +224,9 @@ contextual-manager-passwords-alert-list =
 
 contextual-manager-passwords-breached-origin-heading-and-message =
   .heading = パスワードの変更をおすすめします
-  .message = Passwords from this website were reported stolen or leaked. Change your password to protect your account.
-contextual-manager-passwords-breached-origin-link-message = How does { -brand-product-name } know about breaches?
-contextual-manager-passwords-change-password-button = Change password
+  .message = このウェブサイトのパスワードが盗難または漏洩したと報告されています。アカウントを保護するためにパスワードを変更してください。
+contextual-manager-passwords-breached-origin-link-message = { -brand-product-name } はどのようにしてセキュリティの侵害を知りますか?
+contextual-manager-passwords-change-password-button = パスワードを変更
 
 contextual-manager-passwords-vulnerable-password-heading-and-message =
   .heading = パスワードを削除しました
@@ -325,13 +325,13 @@ contextual-manager-hide-password-button =
 # The message displayed when the search text does not match any of the user's saved logins.
 contextual-manager-passwords-no-passwords-found-header =
   .heading = パスワードが見つかりません
-contextual-manager-passwords-no-passwords-found-message = パスワードが見つかりません。別の用語を検索してもう一度お試しください。
+contextual-manager-passwords-no-passwords-found-message-2 = 別のワードを入力して再度検索してください。
 
 ## When the user has no saved passwords, we display the following messages to inform the user they can save
 ## their passwords safely and securely in Firefox:
 
 # This string encourages the user to save their passwords in Firefox (the "safe spot").
-contextual-manager-passwords-no-passwords-header = パスワードを安全な場所に保存してください。
+contextual-manager-passwords-no-passwords-header-2 = パスワードを安全な場所に保存する
 # This string informs that we (Firefox) store all passwords securely and will notify them of any breaches and alerts their
 # passwords may be involved in.
 contextual-manager-passwords-no-passwords-message = すべてのパスワードは暗号化されており、侵害を監視し、影響を受ける場合は警告を発します。

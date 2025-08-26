@@ -375,3 +375,15 @@ windows-10-eos-feature-toast-title = 縦型タブとタブグループが登場!
 windows-10-eos-feature-toast-subtitle = 多くのリクエストに応えて、{ -brand-product-name } に新機能が登場。よりスムーズで集中できるブラウジングを実現します。
 windows-10-eos-feature-toast-whats-new-button = 新機能を見る
 windows-10-eos-feature-toast-dismiss-button = 閉じる
+
+## ETP (Enhanced Tracking Protection) Strict exceptions infobar
+##
+## These strings are displayed in an infobar notification that appears when
+## Enhanced Tracking Protection's Strict mode is causing website functionality
+## issues. The infobar offers users the option to apply automatic exceptions
+## to fix common site breakage by unblocking essential elements.
+
+etp-strict-exceptions-infobar-message = <strong>厳格なトラッキング防止により、サイトが機能しなくなる可能性があります。</strong> トラッカーを含む可能性のある必須要素のブロックを解除することで、一般的な問題を修正します。
+etp-strict-exceptions-infobar-learn-more = さらに詳しく
+etp-strict-exceptions-infobar-button = 修正を適用
+  .accesskey = A

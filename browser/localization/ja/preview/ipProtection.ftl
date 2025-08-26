@@ -7,9 +7,17 @@
 # before exposing it to localization
 -firefox-vpn-brand-name = Firefox VPN
 
+## Toolbar button tooltip reflects VPN state
+
 ipprotection-button =
   .label = { -firefox-vpn-brand-name }
   .tooltiptext = { -firefox-vpn-brand-name }
+
+ipprotection-button-error =
+  .label = { -firefox-vpn-brand-name } をオンにする
+  .tooltiptext = { -firefox-vpn-brand-name } をオンにします
+
+##
 
 # The word "Beta" is intended to be uppercase in the experiment label.
 ipprotection-experiment-badge =
@@ -50,8 +58,8 @@ ipprotection-toggle-inactive =
   .title = VPN は無効に設定されいます
 
 # Location refers to the VPN server geographical position.
-ipprotection-location-title = ロケーション
-ipprotection-location-title-icon =
+ipprotection-location-title =
+  .label = ロケーション
   .title = 最速のサーバーに基づいて選択された場所
 
 upgrade-vpn-title = ブラウザーの外でも自分を守るためにアップグレードしましょう
@@ -68,7 +76,6 @@ get-vpn-button = ダウンロード
 
 ## Messages and errors
 
-# TODO: This is placeholder text. Error heading and message need to be finalized.
 ipprotection-message-generic-error =
   .heading = 問題が発生しました
   .message = VPN 接続でエラーが発生しました。後でもう一度お試しください。

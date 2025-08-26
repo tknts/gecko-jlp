@@ -93,7 +93,9 @@ inactive-css-text-wrap-balance-lines-exceeded =
 
 inactive-css-text-wrap-balance-fragmented = この要素が断片化されているため <strong>{ $property }</strong> は効果がありません。コンテンツが複数の列にまたがっているか、ページに分割されています。
 
-inactive-css-no-width-height = この要素の幅と高さは設定できないため <strong>{ $property }</strong> はこの要素には影響しません。
+inactive-css-no-width-height = この要素の幅と高さは設定できないため <strong>{ $property }</strong> は、この要素には影響しません。
+
+inactive-css-no-principal-box = この要素は principal box を生成しないため <strong>{ $property }</strong> は、この要素に対して効果がありません。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
@@ -163,6 +165,8 @@ inactive-css-ruby-element-fix = ルビの <strong>font-size</strong> を変更�
 inactive-css-text-wrap-balance-lines-exceeded-fix = 行数を減らしてみてください。 { learn-more }
 
 inactive-css-text-wrap-balance-fragmented-fix = 要素のコンテンツを分割しないでください。例えば、列を削除するか <strong>page-break-inside:avoid</strong> を使用します。 { learn-more }
+
+inactive-css-no-principal-box-fix = <strong>block</strong>、<strong>inline-block</strong>、<strong>flex</strong>、<strong>grid</strong> など、principal box を生成する <strong>display</strong> 値を追加してみてください。{ learn-more }
 
 ## In the Rule View when a CSS property may have compatibility issues with other browsers
 ## we display an icon. When this icon is hovered this message is displayed to explain why
