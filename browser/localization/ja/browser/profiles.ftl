@@ -99,51 +99,69 @@ delete-profile-confirm = 削除
 ## These strings are color themes available to select from the profile selection screen. Theme names should be localized.
 
 profiles-gray-theme = グレー
+profiles-gray-theme-title =
+    .title = グレーのテーマを適用
 profiles-yellow-theme = イエロー
+profiles-yellow-theme-title =
+    .title = イエローのテーマを適用
 profiles-orange-theme = オレンジ
+profiles-orange-theme-title =
+    .title = オレンジのテーマを適用
 profiles-red-theme = レッド
+    .title = レッドのテーマを適用
+profiles-red-theme-title =
 profiles-pink-theme = ピンク
+profiles-pink-theme-title =
+    .title = ピンクのテーマを適用
 profiles-purple-theme = パープル
+profiles-purple-theme-title =
+    .title = パープルのテーマを適用
 profiles-violet-theme = バイオレット
+profiles-violet-theme-title =
+    .title = バイオレットのテーマを適用
 profiles-blue-theme = ブルー
+profiles-blue-theme-title =
+    .title = ブルーのテーマを適用
 profiles-green-theme = グリーン
+profiles-green-theme-title =
+    .title = グリーンのテーマを適用
 profiles-cyan-theme = シアン
-
-# The default light theme
-profiles-light-theme = ライト
-
-# The default dark theme
-profiles-dark-theme = ダーク
+profiles-cyan-theme-title =
+    .title = シアンのテーマを適用
+profiles-custom-theme-title =
+    .title = カスタマイズされたテーマを適用
 
 # The default system theme
 profiles-system-theme = システム
+profiles-system-theme-title =
+    .title = システムと同じテーマを適用
 
 ## Alternative text for default profile icons
 
 barbell-avatar-alt =
     .alt = バーベル
 bike-avatar-alt =
-    .alt = バイク
+    .alt = 自転車
 book-avatar-alt =
     .alt = 本
 briefcase-avatar-alt =
     .alt = ブリーフケース
 # Canvas refers to an artist's painting canvas, not the general material
 canvas-avatar-alt =
-    .alt = Canvas
+    .alt = キャンバス
 # Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts
 craft-avatar-alt =
-    .alt = Craft
+    .alt = クラフト
 custom-avatar-alt =
     .alt = カスタムアバター
 # Default favicon refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
 default-favicon-avatar-alt =
-    .alt = デフォルトの Favicon
+    .alt = デフォルトのファビコン
 # Diamond refers to the precious stone, not the geometric shape
 diamond-avatar-alt =
-    .alt = ダイアモンド
+    .alt = ダイヤモンド
 flower-avatar-alt =
-    .alt = フラワー
+    .alt = 花
 folder-avatar-alt =
     .alt = フォルダー
 hammer-avatar-alt =
@@ -151,83 +169,147 @@ hammer-avatar-alt =
 heart-avatar-alt =
     .alt = ハート
 heart-rate-avatar-alt =
-    .alt = Heart rate
+    .alt = 心拍数
 history-avatar-alt =
-    .alt = History
+    .alt = 履歴
 leaf-avatar-alt =
-    .alt = リーフ
+    .alt = 葉
 lightbulb-avatar-alt =
-    .alt = Lightbulb
+    .alt = 電球
 makeup-avatar-alt =
-    .alt = Makeup
+    .alt = メイク
 # Message refers to a text message, not a traditional letter/envelope message
 message-avatar-alt =
-    .alt = Message
+    .alt = メッセージ
 musical-note-avatar-alt =
-    .alt = Musical note
+    .alt = 音符
 palette-avatar-alt =
-    .alt = Palette
+    .alt = パレット
 paw-print-avatar-alt =
-    .alt = Paw print
+    .alt = 足跡
 plane-avatar-alt =
-    .alt = Plane
+    .alt = 飛行機
 # Present refers to a gift box, not the current time period
 present-avatar-alt =
-    .alt = Present
+    .alt = プレゼント
 shopping-avatar-alt =
-    .alt = ショッピングカート
+    .alt = 買い物カート
 soccer-avatar-alt =
     .alt = サッカー
 sparkle-single-avatar-alt =
-    .alt = Sparkle
+    .alt = きらめき
 star-avatar-alt =
     .alt = 星
 video-game-controller-avatar-alt =
-    .alt = Video game controller
+    .alt = ゲームコントローラー
 
 ## Labels for default avatar icons
 
 barbell-avatar = バーベル
-bike-avatar = バイク
+bike-avatar = 自転車
 book-avatar = 本
 briefcase-avatar = ブリーフケース
 # Canvas refers to an artist's painting canvas, not the general material
-canvas-avatar = Canvas
+canvas-avatar = キャンバス
 # Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts
-craft-avatar = Craft
-custom-avatar = Custom avatar
+craft-avatar = クラフト
+custom-avatar = カスタムアバター
 # Default favicon refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
-default-favicon-avatar = Default favicon
+default-favicon-avatar = デフォルトのファビコン
 # Diamond refers to the precious stone, not the geometric shape
-diamond-avatar = Diamond
-flower-avatar = Flower
-folder-avatar = Folder
-hammer-avatar = Hammer
-heart-avatar = Heart
-heart-rate-avatar = Heart rate
-history-avatar = History
-leaf-avatar = Leaf
-lightbulb-avatar = Lightbulb
-makeup-avatar = Makeup
+diamond-avatar = ダイヤモンド
+flower-avatar = 花
+folder-avatar = フォルダー
+hammer-avatar = ハンマー
+heart-avatar = ハート
+heart-rate-avatar = 心拍数
+history-avatar = 履歴
+leaf-avatar = 葉
+lightbulb-avatar = 電球
+makeup-avatar = メイク
 # Message refers to a text message, not a traditional letter/envelope message
-message-avatar = Message
-musical-note-avatar = Musical note
-palette-avatar = Palette
-paw-print-avatar = Paw print
-plane-avatar = Plane
+message-avatar = メッセージ
+musical-note-avatar = 音符
+palette-avatar = パレット
+paw-print-avatar = 足跡
+plane-avatar = 飛行機
 # Present refers to a gift box, not the current time period
-present-avatar = Present
-shopping-avatar = Shopping cart
-soccer-avatar = Soccer
-sparkle-single-avatar = Sparkle
-star-avatar = Star
-video-game-controller-avatar = Video game controller
+present-avatar = プレゼント
+shopping-avatar = 買い物カート
+soccer-avatar = サッカー
+sparkle-single-avatar = きらめき
+star-avatar = 星
+video-game-controller-avatar = ゲームコントローラー
+
+## Tooltips for default avatar icons
+
+barbell-avatar-tooltip =
+    .tooltiptext = バーベルのアバターを適用します
+bike-avatar-tooltip =
+    .tooltiptext = 自転車のアバターを適用します
+book-avatar-tooltip =
+    .tooltiptext = 本のアバターを適用します
+briefcase-avatar-tooltip =
+    .tooltiptext = ブリーフケースのアバターを適用します
+picture-avatar-tooltip =
+    .tooltiptext = 画像のアバターを適用します
+# Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts
+craft-avatar-tooltip =
+    .tooltiptext = クラフトのアバターを適用します
+# Globe refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
+globe-avatar-tooltip =
+    .tooltiptext = 地球のアバターを適用します
+diamond-avatar-tooltip =
+    .tooltiptext = ダイヤモンドのアバターを適用
+flower-avatar-tooltip =
+    .tooltiptext = 花のアバターを適用
+folder-avatar-tooltip =
+    .tooltiptext = フォルダーのアバターを適用
+hammer-avatar-tooltip =
+    .tooltiptext = ハンマーのアバターを適用
+heart-avatar-tooltip =
+    .tooltiptext = ハートのアバターを適用
+heart-rate-avatar-tooltip =
+    .tooltiptext = 心拍数のアバターを適用
+clock-avatar-tooltip =
+    .tooltiptext = 時計のアバターを適用
+leaf-avatar-tooltip =
+    .tooltiptext = 葉のアバターを適用
+lightbulb-avatar-tooltip =
+    .tooltiptext = 電球のアバターを適用
+makeup-avatar-tooltip =
+    .tooltiptext = メイクのアバターを適用
+# Message refers to a text message, not a traditional letter/envelope message
+message-avatar-tooltip =
+    .tooltiptext = メッセージのアバターを適用
+musical-note-avatar-tooltip =
+    .tooltiptext = 音符のアバターを適用
+palette-avatar-tooltip =
+    .tooltiptext = パレットのアバターを適用
+paw-print-avatar-tooltip =
+    .tooltiptext = 足跡のアバターを適用
+plane-avatar-tooltip =
+    .tooltiptext = 飛行機のアバターを適用
+# Present refers to a gift box, not the current time period
+present-avatar-tooltip =
+    .tooltiptext = プレゼントのアバターを適用
+shopping-avatar-tooltip =
+    .tooltiptext = 買い物カートのアバターを適用
+soccer-ball-avatar-tooltip =
+    .tooltiptext = サッカーボールのアバターを適用
+sparkle-single-avatar-tooltip =
+    .tooltiptext = きらめきのアバターを適用
+star-avatar-tooltip =
+    .tooltiptext = 星のアバターを適用
+video-game-controller-avatar-tooltip =
+    .tooltiptext = ゲームコントローラーのアバターを適用
+
 
 custom-avatar-crop-back-button =
   .aria-label = 戻る
 custom-avatar-crop-view =
   .aria-label = 画像のトリミングビュー
 custom-avatar-crop-area =
-  .aria-label = トリミング領域を調整
+  .aria-label = トリミングの範囲を調整
 custom-avatar-drag-handle =
-  .aria-label = トリミング領域のサイズを変更
+  .aria-label = トリミングの範囲を変更

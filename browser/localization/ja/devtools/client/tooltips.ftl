@@ -49,6 +49,8 @@ inactive-css-only-non-grid-or-flex-item = <strong>{ $property }</strong> は、�
 
 inactive-css-not-block = <strong>{ $property }</strong> はブロックレベル要素にのみ適用されるため、この要素には影響しません。
 
+inactive-css-not-block-container = <strong>{ $property }</strong> はこの要素には効果がありません。ブロックコンテナー要素にのみ適用されます。
+
 inactive-css-not-floated = <strong>{ $property }</strong> はフロート要素にのみ適用されるため、効果はありません。
 
 inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</strong> の制限により <strong>{ $property }</strong> を上書きする事はできません。
@@ -79,7 +81,7 @@ inactive-css-resize = <strong>{ $property }</strong> は、visible 以外のオ�
 
 inactive-css-ruby-element = <strong>{ $property }</strong> はルビ要素であるため、この要素には何の影響も与えません。その大きさはルビ文字のフォントサイズによって決まります。
 
-inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> は疑似要素の強調表示をサポートしていません。
+inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> は、 強調疑似要素ではサポートされていません。
 
 inactive-css-cue-pseudo-element-not-supported = <strong>{ $property }</strong> は ::cue 擬似要素ではサポートされていません。
 
@@ -133,6 +135,8 @@ inactive-css-not-display-block-on-floated-fix = <strong>float</strong> を削除
 inactive-css-only-non-grid-or-flex-item-fix = 要素のコンテナの <strong>display</strong> の値を <strong>flex</strong>、<strong>grid</strong>、<strong>inline-flex</strong>、<strong>inline-grid</strong> 以外の値に変更するか、<strong>float</strong> を削除してみてください。{ learn-more }
 
 inactive-css-not-block-fix = <strong>display:block</strong> や <strong>float:left</strong> などのプロパティを追加してみてください。{ learn-more }
+
+inactive-css-not-block-container-fix = <strong>display:block</strong>、<strong>display:inline-block</strong>、または <strong>display:flow-root</strong> を追加してみてください。{ learn-more }
 
 inactive-css-not-floated-fix = <strong>float</strong> プロパティに <strong>none</strong> 以外の値を追加してみてください。{ learn-more }
 
