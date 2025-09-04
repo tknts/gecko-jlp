@@ -23,6 +23,8 @@ backup-file-name = { -brand-product-name }Backup
 
 settings-data-backup-header = バックアップ
 settings-data-backup-toggle = バックアップを管理
+settings-data-backup-trigger-button = 今すぐバックアップ
+settings-data-backup-in-progress-button = バックアップしています…
 settings-data-backup-scheduled-backups-on = バックアップ: ON
 settings-data-backup-scheduled-backups-off = バックアップ: OFF
 settings-data-backup-scheduled-backups-description = ブックマーク、履歴、その他のデータを自動的に保護します。<a data-l10n-name="support-link">さらに詳しく</a>
@@ -99,8 +101,11 @@ turn-off-scheduled-backups-confirm-button = Turn off and delete backup
 restore-from-backup-header = データの復元
 # Variables:
 #   $date (string) - Date to be formatted based on locale
-restore-from-backup-description-with-metadata = { -brand-short-name } will replace all your current data with your backup from { DATETIME($date, timeStyle: "short") }, { DATETIME($date, dateStyle: "short") }.
-restore-from-backup-support-link = 何が復元されますか?
+restore-from-backup-description-with-metadata =
+    .message = これにより、現在の { -brand-short-name } データがすべて、{ DATETIME($date, timeStyle: "short", dateStyle: "short") } のバックアップに置き換えられます。
+restore-from-backup-support-link =
+    .message = 何が復元されますか?
+restore-from-backup-no-backup-file-link = バックアップが見つかりませんか?
 
 restore-from-backup-filepicker-label = バックアップファイル
 restore-from-backup-filepicker-title = バックアップファイルの選択:
@@ -122,9 +127,7 @@ restore-from-backup-restoring-button = 復元しています…
 # User is not authorized to restore a particular backup file, usually because
 # the backup file is encrypted and the user provided a recovery password that
 # was different than the password the user configured for their backup file
-restore-from-backup-error-incorrect-password =
-    .heading = 許可されていません
-    .message = 入力したパスワードが間違っています。もう一度お試しください。
+restore-from-backup-error-incorrect-password =パスワードが正しくありません。<a data-l10n-name="incorrect-password-support-link">問題が解決しない場合</a>
 
 # The backup file (or specific data files within the backup file) could not be
 # loaded and parsed correctly, most likely due to data corruption of the

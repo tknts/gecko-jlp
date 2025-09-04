@@ -509,9 +509,10 @@ recent-updates-heading = 最近の更新
 release-notes-loading = 読み込んでいます…
 release-notes-error = リリースノートの読み込み中にエラーが発生しました。
 
-addon-permissions-empty2 = この拡張機能には追加の権限は必要ありません。
-addon-permissions-required = 動作に必要な権限:
-addon-permissions-optional = 追加機能の権限:
+addon-permissions-heading = 権限
+addon-permissions-empty2 = この拡張機能は権限を必要としません。
+addon-permissions-required-label = 必須:
+addon-permissions-optional-label = 任意:
 addon-permissions-learnmore = 権限の詳細についてさらに詳しく
 
 recommended-extensions-heading = おすすめの拡張機能
@@ -540,6 +541,9 @@ shortcuts-heading = 拡張機能のショートカットキーの管理
 default-heading-search-label = アドオンを探す
 addons-heading-search-input =
     .placeholder = addons.mozilla.org を検索
+addons-heading-search-button =
+    .title = addons.mozilla.org の検索
+    .aria-label = addons.mozilla.org を検索します
 
 addon-page-options-button =
     .title = すべてのアドオンのツール
@@ -583,17 +587,19 @@ details-notification-gmp-pending2 =
 plugins-gmp-license-info = ライセンス情報
 plugins-gmp-privacy-info = プライバシー情報
 
-plugins-openh264-name = OpenH264 Video Codec (provided by Cisco Systems, Inc.)
+plugins-openh264-name = OpenH264 Video Codec provided by Cisco Systems, Inc.
 plugins-openh264-description = このプラグインは、WebRTC 仕様に準拠し、H.264 ビデオコーデックを必要とするデバイスとの WebRTC 通話を可能にするために、Mozilla によって自動的にインストールされます。コーデックのソースコードを表示し、実装の詳細については https://www.openh264.org/ をご覧ください。
 
-plugins-widevine-name = Widevine Content Decryption Module (provided by Google Inc.)
+plugins-widevine-name = Widevine Content Decryption Module provided by Google Inc.
 plugins-widevine-description = このプラグインを使用すると、Encrypted Media Extensions 仕様に準拠した暗号化されたメディアの再生が可能になります。暗号化されたメディアは通常、プレミアムメディアコンテンツのコピーを防ぐためにサイトで使用されます。Encrypted Media Extensions の詳細については https://www.w3.org/TR/encrypted-media/ をご覧ください。
 
 ## Headings for the Permissions tab in `about:addons` when the data collection
 ## feature is enabled.
 
-addon-permissions-required-data-collection = 必須のデータ収集:
-addon-permissions-optional-data-collection = オプションのデータ収集:
+addon-permissions-data-collection-heading = データ収集
+addon-permissions-data-collection-empty = この拡張機能はデータ収集を必要としないと開発者が述べています。
+addon-data-collection-provided = 拡張機能の開発者によって提供された情報
+addon-data-collection-learnmore = データ収集について、さらに詳しく
 
 # Name of the Permissions tab in `about:addons` when the data collection feature is enabled.
 permissions-data-addon-button = 権限とデータ

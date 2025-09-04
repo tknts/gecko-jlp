@@ -254,6 +254,9 @@ newtab-custom-row-selector =
 newtab-custom-stories-toggle =
   .label = おすすめのストーリー
   .description = { -brand-product-name } ファミリーによって厳選された優良コンテンツ
+newtab-custom-stories-personalized-toggle =
+  .label = ストーリー
+newtab-custom-stories-personalized-checkbox-label = あなたのアクティビティに基づいてパーソナライズされたストーリー
 newtab-custom-weather-toggle =
   .label = 天気
   .description = 今日の天気予報が一目でわかる
@@ -284,7 +287,7 @@ newtab-wallpaper-custom-color = 色の選択
 # Variables
 #   $file_size (number) - The number of the maximum image file size (in MB) that may be uploaded
 newtab-wallpaper-error-max-file-size = 画像がファイルサイズ制限の { $file_size }MB を超えています。より小さいファイルをアップロードしてください。
-newtab-wallpaper-error-file-type = ファイルをアップロードできませんでした。別のファイル形式で再試行してください
+newtab-wallpaper-error-upload-file-type = ファイルをアップロードできませんでした。別の画像ファイルで再試行してください
 newtab-wallpaper-light-red-panda = レッサーパンダ
 newtab-wallpaper-light-mountain = 白い山
 newtab-wallpaper-light-sky = 紫とピンクの雲の空
