@@ -97,8 +97,8 @@ translations-panel-error-unsupported-hint-unknown = 申し訳ございません�
 ## If this structure is problematic for your locale, an alternative way is to
 ## translate them as `Source language:` and `Target language:`
 
-translations-panel-from-label = Translate from
-translations-panel-to-label = Translate to
+translations-panel-from-label = 翻訳元
+translations-panel-to-label = 翻訳先
 
 ## The translation panel appears from the url bar, and this view is the "restore" view
 ## that lets a user restore a page to the original language, or translate into another

@@ -1362,9 +1362,6 @@ trustpanel-clear-cookies-subview-button-cancel = キャンセル
 trustpanel-site-information-header =
     .title = { $host } の接続保護
 
-trustpanel-connection-secure = このサイトへの接続は安全です
-trustpanel-connection-not-secure = このサイトへの接続は安全ではありません
-
 trustpanel-siteinformation-morelink = サイトの詳細情報
 
 trustpanel-blocker-see-all = すべて表示

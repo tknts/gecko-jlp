@@ -108,8 +108,8 @@ profiles-orange-theme = オレンジ
 profiles-orange-theme-title =
     .title = オレンジのテーマを適用
 profiles-red-theme = レッド
-    .title = レッドのテーマを適用
 profiles-red-theme-title =
+    .title = レッドのテーマを適用
 profiles-pink-theme = ピンク
 profiles-pink-theme-title =
     .title = ピンクのテーマを適用
@@ -209,21 +209,19 @@ barbell-avatar = バーベル
 bike-avatar = 自転車
 book-avatar = 本
 briefcase-avatar = ブリーフケース
-# Canvas refers to an artist's painting canvas, not the general material
-canvas-avatar = キャンバス
+clock-avatar = 時計
 # Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts
 craft-avatar = クラフト
 custom-avatar = カスタムアバター
-# Default favicon refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
-default-favicon-avatar = デフォルトのファビコン
 # Diamond refers to the precious stone, not the geometric shape
 diamond-avatar = ダイヤモンド
 flower-avatar = 花
 folder-avatar = フォルダー
+# Globe refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
+globe-avatar = 地球儀
 hammer-avatar = ハンマー
 heart-avatar = ハート
 heart-rate-avatar = 心拍数
-history-avatar = 履歴
 leaf-avatar = 葉
 lightbulb-avatar = 電球
 makeup-avatar = メイク
@@ -231,12 +229,13 @@ makeup-avatar = メイク
 message-avatar = メッセージ
 musical-note-avatar = 音符
 palette-avatar = パレット
-paw-print-avatar = 足跡
+paw-print-avatar = 肉球
+picture-avatar = Picture
 plane-avatar = 飛行機
 # Present refers to a gift box, not the current time period
 present-avatar = プレゼント
 shopping-avatar = 買い物カート
-soccer-avatar = サッカー
+soccer-ball-avatar = サッカーボール
 sparkle-single-avatar = きらめき
 star-avatar = 星
 video-game-controller-avatar = ゲームコントローラー
@@ -287,7 +286,7 @@ musical-note-avatar-tooltip =
 palette-avatar-tooltip =
     .tooltiptext = パレットのアバターを適用
 paw-print-avatar-tooltip =
-    .tooltiptext = 足跡のアバターを適用
+    .tooltiptext = 肉球のアバターを適用
 plane-avatar-tooltip =
     .tooltiptext = 飛行機のアバターを適用
 # Present refers to a gift box, not the current time period

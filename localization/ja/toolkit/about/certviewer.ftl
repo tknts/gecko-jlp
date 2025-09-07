@@ -12,75 +12,75 @@ certificate-viewer-error-title = 何か問題が発生しました。
 ## Certificate information labels
 
 certificate-viewer-algorithm = アルゴリズム
-certificate-viewer-certificate-authority = 認証局
+certificate-viewer-certificate-authority = 認証局 (CA)
 certificate-viewer-cipher-suite = 暗号スイート
 certificate-viewer-common-name = 一般名
 certificate-viewer-email-address = メールアドレス
 # Variables:
 #   $firstCertName (String) - Common Name for the displayed certificate
-certificate-viewer-tab-title = Certificate for { $firstCertName }
+certificate-viewer-tab-title = { $firstCertName } の証明書
 # Inc. means Incorporated, e.g GitHub is incorporated in Delaware
-certificate-viewer-inc-country = 国籍
+certificate-viewer-inc-country = 登記国
 certificate-viewer-country = 国
-certificate-viewer-curve = 楕円曲線
-certificate-viewer-distribution-point =  配布点
+certificate-viewer-curve = 曲線
+certificate-viewer-distribution-point = 配布ポイント
 certificate-viewer-dns-name = DNS 名
 certificate-viewer-ip-address = IP アドレス
-certificate-viewer-other-name = 別名
-certificate-viewer-exponent = Exponent
+certificate-viewer-other-name = その他の名前
+certificate-viewer-exponent = 指数
 certificate-viewer-id = ID
 certificate-viewer-key-exchange-group = 鍵交換グループ
 certificate-viewer-key-id = 鍵 ID
 certificate-viewer-key-size = 鍵サイズ
 # Inc. means Incorporated, e.g GitHub is incorporated in Delaware
-certificate-viewer-inc-locality = 在籍地
-certificate-viewer-locality = 場所
-certificate-viewer-location = URL
+certificate-viewer-inc-locality = 登記地 (市区町村)
+certificate-viewer-locality = 市区町村
+certificate-viewer-location = 場所
 certificate-viewer-logid = ログ ID
-certificate-viewer-method = Method
-certificate-viewer-modulus = 数
+certificate-viewer-method = メソッド
+certificate-viewer-modulus = 法
 certificate-viewer-name = 名前
-certificate-viewer-not-after = 有効期限
-certificate-viewer-not-before = 発行日
+certificate-viewer-not-after = 有効期限（まで）
+certificate-viewer-not-before = 有効期限（から）
 certificate-viewer-organization = 組織
 certificate-viewer-organizational-unit = 組織単位
 certificate-viewer-policy = ポリシー
 certificate-viewer-protocol = プロトコル
-certificate-viewer-public-value = パブリック値
-certificate-viewer-purposes = 使用目的
-certificate-viewer-qualifier = Qualifier
-certificate-viewer-qualifiers = Qualifiers
+certificate-viewer-public-value = 公開値
+certificate-viewer-purposes = 用途
+certificate-viewer-qualifier = 修飾子
+certificate-viewer-qualifiers = 修飾子一覧
 certificate-viewer-required = 必須
-certificate-viewer-unsupported = &lt;サポートしていません&gt;
+certificate-viewer-unsupported = &lt;未対応&gt;
 # Inc. means Incorporated, e.g GitHub is incorporated in Delaware
-certificate-viewer-inc-state-province = 在籍地 (州/県)
-certificate-viewer-state-province = 州/県
+certificate-viewer-inc-state-province = 登記州 / 県
+certificate-viewer-state-province = 州 / 県
 certificate-viewer-sha-1 = SHA-1
 certificate-viewer-sha-256 = SHA-256
 certificate-viewer-serial-number = シリアル番号
 certificate-viewer-signature-algorithm = 署名アルゴリズム
 certificate-viewer-signature-scheme = 署名スキーム
 certificate-viewer-timestamp = タイムスタンプ
-certificate-viewer-value = Value
+certificate-viewer-value = 値
 certificate-viewer-version = バージョン
-certificate-viewer-business-category = 業種
-certificate-viewer-subject-name = 発行先の名前
-certificate-viewer-issuer-name = 発行元の名前
-certificate-viewer-validity = 有効期間 
-certificate-viewer-subject-alt-names = サブジェクトの代替名
-certificate-viewer-public-key-info = 公開鍵
-certificate-viewer-miscellaneous = その他の情報
+certificate-viewer-business-category = 事業区分
+certificate-viewer-subject-name = サブジェクト名
+certificate-viewer-issuer-name = 発行者名
+certificate-viewer-validity = 有効期間
+certificate-viewer-subject-alt-names = サブジェクト代替名
+certificate-viewer-public-key-info = 公開鍵情報
+certificate-viewer-miscellaneous = その他
 certificate-viewer-fingerprints = フィンガープリント
 certificate-viewer-basic-constraints = 基本制約
-certificate-viewer-key-usages = 鍵の用途
-certificate-viewer-extended-key-usages = 拡張鍵の用途
-certificate-viewer-ocsp-stapling = OCSP Stapling
-certificate-viewer-subject-key-id = Subject Key ID
-certificate-viewer-authority-key-id = Authority Key ID
-certificate-viewer-authority-info-aia = 機関情報アクセス (AIA)
+certificate-viewer-key-usages = 鍵用途
+certificate-viewer-extended-key-usages = 拡張鍵用途
+certificate-viewer-ocsp-stapling = OCSP ステープリング
+certificate-viewer-subject-key-id = サブジェクト鍵 ID
+certificate-viewer-authority-key-id = 認証局鍵 ID
+certificate-viewer-authority-info-aia = 認証局情報 (AIA)
 certificate-viewer-certificate-policies = 証明書ポリシー
 certificate-viewer-embedded-scts = 埋め込み SCT
-certificate-viewer-crl-endpoints = CRL 配布ポイント
+certificate-viewer-crl-endpoints = CRL エンドポイント
 
 # This message is used as a row header in the Miscellaneous section.
 # The associated data cell contains links to download the certificate.
@@ -111,6 +111,9 @@ certificate-viewer-export = エクスポート
 
 # Label for a tab where we haven't found a better label:
 certificate-viewer-unknown-group-label = (不明)
+
+# Name for a file where we haven't found a better name:
+certificate-viewer-unknown-file-name = 証明書
 
 ## Labels for tabs displayed in stand-alone about:certificate page
 
