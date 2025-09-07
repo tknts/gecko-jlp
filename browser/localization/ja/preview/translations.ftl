@@ -14,7 +14,7 @@ translations-settings-add-language-button =
 translations-settings-always-translate = これらの言語を毎回翻訳してください
 translations-settings-never-translate = これらの言語は翻訳しないでください
 translations-settings-never-sites-header = これらのサイトは翻訳しないでください
-translations-settings-never-sites-description = To add to this list, visit a site and select “Never translate this site” from the translation menu.
+translations-settings-never-sites-description = このリストに追加するには、対象のウェブサイトにアクセスし、翻訳メニューから “このサイトを翻訳しない” を選択してください。
 
 ## Section to download language models to enable offline translation.
 
