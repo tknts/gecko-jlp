@@ -244,3 +244,21 @@ urlbar-search-mode-bookmarks-en = ブックマーク
 urlbar-search-mode-tabs-en = タブ
 urlbar-search-mode-history-en = 履歴
 urlbar-search-mode-actions-en = アクション
+
+## These strings are used for Yelp realtime suggestions in the urlbar.
+## Yelp realtime suggestions shows shops, places information etc nearby.
+## NOTE: Yelp is a service name, so please use this word as-is when translating.
+
+# This string is shown as title when Yelp realtime suggestion are disabled.
+urlbar-result-yelp-realtime-opt-in-title = 近くのおすすめスポットを見つけよう
+
+# This string is shown as description when Yelp realtime suggestion are disabled.
+urlbar-result-yelp-realtime-opt-in-description = 周辺のスポットやサービスのおすすめに加え、株価情報、スポーツのスコアなどをパートナーから取得できます。検索クエリデータを { -vendor-short-name } と共有することで利用可能になります。<a data-l10n-name="learn-more-link">詳細はこちら</a>
+
+# This string is shown in the result menu.
+urlbar-result-menu-dont-show-yelp-realtime =
+  .label = Yelp のおすすめを表示しない
+
+# A message that replaces a result when the user dismisses Yelp realtime
+# suggestions.
+urlbar-result-dismissal-acknowledgment-yelp-realtime = ご意見ありがとうございます。今後 Yelp のおすすめは表示されません。
