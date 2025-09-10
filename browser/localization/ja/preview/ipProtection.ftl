@@ -70,10 +70,6 @@ signed-out-vpn-title = Sign in to boost your browser’s privacy with free { -fi
 signed-out-vpn-message = VPN を使って安全にブラウジング。今では <a data-l10n-name="learn-more-vpn-signed-out">{ -brand-product-name } に直接組み込まれています</a>。位置情報を隠し、通信を暗号化します。サインインして有効にしましょう。
 sign-in-vpn = 次へ
 
-active-subscription-vpn-title = { -mozilla-vpn-brand-name } の設定を完了します
-active-subscription-vpn-message = ダウンロードして拡張機能をインストールすると、アップグレードのロックが解除されます。
-get-vpn-button = ダウンロード
-
 ## Messages and errors
 
 ipprotection-message-generic-error =
