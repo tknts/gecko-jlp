@@ -1360,33 +1360,25 @@ content-blocking-etp-standard-tcp-rollout-learn-more = さらに詳しく
 
 content-blocking-etp-standard-tcp-title = これまでで最も強力なプライバシー機能である Total Cookie Protection が含まれています
 
-content-blocking-warning-title = 注意してください!
-content-blocking-and-isolating-etp-warning-description-3 = この設定を有効にすると、一部のウェブサイトでコンテンツが正しく表示されなかったり、機能しなくなったりする可能性があります。既知の影響を受けやすいサイトに対して、例外を適用するオプションがあります。ウェブサイトの表示崩れを減らすには、これらのトラッカー例外を許可してください。サイトが正しく表示されない場合は、そのサイトでトラッキング防止機能を無効にして、すべてのコンテンツを読み込んだ上で問題を報告できます。報告された情報をもとに、全体の改善に役立てます。
 content-blocking-warning-title-2 = 厳格なトラッキング防止では一部のサイトが正常に動作しない場合があります
+content-blocking-warning-title-custom = カスタムトラッキング保護では一部のサイトが正しく動作しない場合があります
 # “Fix site issues” references the string content-blocking-exceptions-subheader
 content-blocking-and-isolating-etp-warning-description-4 = { -brand-short-name } では、サイトの機能やコンテンツの不具合を減らすために “サイトの問題を修正” 設定を使用することを推奨しています。サイトが正常に表示されない場合は、そのサイトに対してトラッキング防止を無効にするとすべてのコンテンツを読み込める場合があります。
 content-blocking-warning-learn-how = さらに詳しく
 
-content-blocking-baseline-exceptions =
-    .label = 主なウェブサイトの表示崩れを回避するために必要な例外を、{ -brand-short-name } に自動で適用させる
-content-blocking-baseline-exceptions-2 =
-    .label = トラッカーを含む可能性のある必須要素のみを解除して、サイトや機能の読み込みを助けます。よくある問題の大半をカバーします。
+content-blocking-baseline-exceptions-3 =
+    .label = サイトの主な問題を解決 (推奨)
+    .description = トラッカーを含む可能性のある必要不可欠な要素のみをブロック解除することで、サイトや機能の読み込みを助けます。よくある問題の大半を解決します。
 
-content-blocking-convenience-exceptions =
-    .label = また、軽微な問題を修正し、便利な機能を提供するために必要な例外を自動的に適用します。
-# This option to fix minor site issues must be used with the option to fix major site issues (string content-blocking-baseline-exceptions-2)
-content-blocking-convenience-exceptions-2 =
-    .label = 記事内の動画やコメント欄などを復元するために、トラッカーを含む可能性のある要素を解除します。サイトの問題を軽減できますが、保護は弱まります。重大な問題の修正と併用する必要があります。
-
-content-blocking-baseline-label = 重大なサイトの問題を修正 (推奨)
-content-blocking-convenience-label = 軽微なサイトの問題を修正
-
-content-blocking-exceptions-subheader = サイトの問題を修正
+# This option to fix minor site issues must be used with the option to fix major site issues (string content-blocking-baseline-exceptions-3)
+content-blocking-convenience-exceptions-3 =
+    .label = サイトの軽微な問題を解決
+    .description = 記事中の動画やコメント欄などを、トラッカーを含む可能性のある要素をブロック解除することで復元します。サイトの問題を減らせますが、保護は弱まります。 “主な問題を解決” との併用が必要です。
 
 content-blocking-baseline-uncheck-warning-dialog-title = 修正をオフにしてもよろしいですか?
-content-blocking-baseline-uncheck-warning-dialog-body = この設定は、サイトの最も一般的な問題の解決に役立ちます。オフにすると、一部のサイトが動作しなくなる可能性があり、{ -brand-short-name } はそれらの問題のトラブルシューティングを支援できなくなります。
+content-blocking-baseline-uncheck-warning-dialog-body = この設定は、もっとも一般的なサイトの問題を解決するのに役立ちます。オフにすると一部のサイトが正しく動作しなくなり、{ -brand-short-name } ではそれらの問題を解決できなくなります。
 content-blocking-baseline-uncheck-warning-dialog-ok-button = 修正をオフにする
-content-blocking-baseline-uncheck-warning-dialog-cancel-button = 修正をオンにしたままにする
+content-blocking-baseline-uncheck-warning-dialog-cancel-button = 修正をオンのままにする
 
 content-blocking-reload-description = これらの変更を適用するには、タブの再読み込みが必要です。
 content-blocking-reload-tabs-button =

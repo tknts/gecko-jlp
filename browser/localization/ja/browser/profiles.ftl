@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 profile-window-title-2 = { -brand-short-name } - プロファイルの選択
+
 profile-window-logo =
     .alt = { -brand-short-name } のロゴ
 profile-window-heading = { -brand-short-name } のプロファイルを選択してください
@@ -136,6 +137,17 @@ profiles-system-theme = システム
 profiles-system-theme-title =
     .title = システムと同じテーマを適用
 
+## Data collection settings changed (multi-profile)
+
+# Full infobar message with inline bold title followed by body text
+multiprofile-data-collection-message = <strong>データ収集設定が変更されました。</strong> 他のプロファイルで行われた変更は、このデバイス上のすべてのプロファイルに適用されます。
+
+# Primary button label to open the Data collection section in Settings
+multiprofile-data-collection-view-settings = 設定を表示
+
+# Secondary button label to dismiss the infobar without action
+multiprofile-data-collection-dismiss = 閉じる
+
 ## Alternative text for default profile icons
 
 barbell-avatar-alt =
@@ -146,17 +158,16 @@ book-avatar-alt =
     .alt = 本
 briefcase-avatar-alt =
     .alt = ブリーフケース
-# Canvas refers to an artist's painting canvas, not the general material
-canvas-avatar-alt =
-    .alt = キャンバス
+picture-avatar-alt =
+    .alt = 写真
 # Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts
 craft-avatar-alt =
     .alt = クラフト
 custom-avatar-alt =
     .alt = カスタムアバター
-# Default favicon refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
-default-favicon-avatar-alt =
-    .alt = デフォルトのファビコン
+# Globe refers to the generic globe/world icon that appears in browser tabs when a website doesn't have its own favicon.
+globe-avatar-alt =
+    .alt = 地球儀
 # Diamond refers to the precious stone, not the geometric shape
 diamond-avatar-alt =
     .alt = ダイヤモンド
@@ -230,7 +241,7 @@ message-avatar = メッセージ
 musical-note-avatar = 音符
 palette-avatar = パレット
 paw-print-avatar = 肉球
-picture-avatar = Picture
+picture-avatar = 写真
 plane-avatar = 飛行機
 # Present refers to a gift box, not the current time period
 present-avatar = プレゼント
@@ -251,7 +262,7 @@ book-avatar-tooltip =
 briefcase-avatar-tooltip =
     .tooltiptext = ブリーフケースのアバターを適用します
 picture-avatar-tooltip =
-    .tooltiptext = 画像のアバターを適用します
+    .tooltiptext = 写真のアバターを適用します
 # Craft refers to hobby arts and crafts, represented by a button/fastener commonly found on clothing like shirts
 craft-avatar-tooltip =
     .tooltiptext = クラフトのアバターを適用します

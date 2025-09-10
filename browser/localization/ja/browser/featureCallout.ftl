@@ -20,7 +20,7 @@ callout-firefox-view-recently-closed-title = 閉じたタブをすぐに元通�
 
 callout-firefox-view-recently-closed-subtitle = 閉じたタブはすべてここに魔法のように表示されます。 誤ってサイトを閉じてしまう心配はもうありません。
 
-callout-firefox-view-colorways-title = Add a splash of color
+callout-firefox-view-colorways-title = ブラウザーに彩りを追加
 
 # "Shade" refer to different color options in each colorway.
 callout-firefox-view-colorways-subtitle = あなたに語りかける色彩をテーマカラーで選択してください。{ -brand-product-name } のみ。
@@ -28,7 +28,7 @@ callout-firefox-view-colorways-subtitle = あなたに語りかける色彩を�
 callout-firefox-view-colorways-reminder-title = 最新のテーマカラーをご覧ください
 
 # “Shades” refers to the different color options in each colorways
-callout-firefox-view-colorways-reminder-subtitle = Color your browser with these iconic shades, inspired by independent voices. Only in { -brand-product-name }.
+callout-firefox-view-colorways-reminder-subtitle = 独自の声にインスパイアされた象徴的な色合いで、ブラウザーを彩りましょう。利用できるのは { -brand-product-name } だけです。
 
 ## Continuous Onboarding - Firefox View: Tab pick up
 
@@ -243,3 +243,8 @@ windows-10-eos-sync-tour-title-1 = タブが多すぎますか? タブグルー�
 windows-10-eos-sync-tour-subtitle-1 = タブを別のタブにドラッグすると、グループを作成してスッキリ整理できます。
 windows-10-eos-sync-tour-title-2 = Windows 11 に向けて整理を始めましょう
 windows-10-eos-sync-tour-subtitle-2 = ブックマーク、パスワード、設定を同期して、切り替え前にバックアップしておきましょう。
+
+windows-10-eos-sync-split-dismiss-button-show-fewer-option =
+    .label = おすすめを減らして表示
+windows-10-eos-sync-dismiss-button-label = 閉じる
+windows-10-eos-sync-callout-primary-advance-button-label = 次へ

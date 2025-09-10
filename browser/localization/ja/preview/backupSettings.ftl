@@ -231,12 +231,25 @@ backup-file-encryption-state-not-encrypted = 暗号化されてません
 
 # Variables:
 #   $machineName (String) - Name of the machine that the backup was created on.
-backup-file-creation-device = Created on { $machineName }
+backup-file-creation-device = 作成元: { $machineName }
 
-backup-file-how-to-restore-header = How to restore your data:
-backup-file-moz-browser-restore-step-1 = Go to Settings > Backup
-backup-file-moz-browser-restore-step-2 = Under “Restore”, click “Choose backup file”
-backup-file-moz-browser-restore-step-3 = Restart { -brand-short-name } when asked
+# Variables:
+#   $date (Datetime) - The date the backup was created
+#   $machineName (String) - Name of the machine that the backup was created on.
+backup-file-creation-date-and-device = 作成日: { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } ({ $machineName })
+
+# Variables:
+# $numberOfOtherBackupsFound (number) - The number of backups found other than the
+other-backup-files-founds =
+    { $numberOfOtherBackupsFound ->
+        [one] <b>注意:</b> 他に { $numberOfOtherBackupsFound } 件のバックアップファイルが見つかりました
+        *[other] <b>注意:</b> 他に { $numberOfOtherBackupsFound } 件のバックアップファイルが見つかりました
+    }
+
+backup-file-how-to-restore-header = データを復元する方法:
+backup-file-moz-browser-restore-step-1 = 設定 > バックアップ に移動
+backup-file-moz-browser-restore-step-2 = “復元” から “バックアップファイルを選択” をクリック
+backup-file-moz-browser-restore-step-3 = 指示に従い { -brand-short-name } を再起動
 
 backup-file-other-browser-restore-step-1 = { -brand-short-name } のダウンロードとインストール:
 backup-file-download-moz-browser-button = { -brand-short-name } をダウンロード

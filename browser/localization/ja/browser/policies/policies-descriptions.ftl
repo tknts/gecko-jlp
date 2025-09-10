@@ -135,11 +135,13 @@ policy-FirefoxHome2 = { -firefox-home-brand-name } を設定します。
 
 policy-FirefoxSuggest = { -firefox-suggest-brand-name } を設定します。
 
+policy-GenerativeAI = 生成 AI 機能を設定します。
+
 policy-GoToIntranetSiteForSingleWordEntryInAddressBar = アドレスバーに単語を入力すると、検索の代わりにイントラネットサイトへの案内を強制します。
 
-policy-Handlers = デフォルトのアプリケーションハンドラーを構成します。
+policy-Handlers = デフォルトのアプリケーションハンドラーを設定します。
 
-policy-HardwareAcceleration = false にするとハードウェア アクセラレーションが無効になります。
+policy-HardwareAcceleration = false にするとハードウェアアクセラレーションが無効になります。
 
 # “lock” means that the user won’t be able to change this setting
 policy-Homepage = ホームページを設定し、任意でロックします。
