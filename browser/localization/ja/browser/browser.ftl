@@ -1048,22 +1048,18 @@ ui-tour-info-panel-close =
 ## Variables:
 ##  $uriHost (String): URI host for which the popup was allowed or blocked.
 
-popups-infobar-allow =
-    .label = { $uriHost } からのポップアップを許可
-    .accesskey = p
-
-popups-infobar-block =
-    .label = { $uriHost } からのポップアップをブロック
+popups-infobar-allow2 =
+    .label = { $uriHost } へのポップアップとサードパーティからのリダイレクトを許可する
     .accesskey = p
 
 ##
 
-popups-infobar-dont-show-message =
-    .label = ポップアップがブロックされた時に、このメッセージを表示しない
+popups-infobar-dont-show-message2 =
+    .label = ポップアップやサードパーティによるリダイレクトがブロックされた場合は、このメッセージを表示しないようにする
     .accesskey = D
 
-edit-popup-settings =
-    .label = ポップアップの設定を管理…
+edit-popup-settings2 =
+    .label = ポップアップとサードパーティーによるリダイレクト設定を管理する…
     .accesskey = M
 
 picture-in-picture-hide-toggle =
@@ -1264,6 +1260,16 @@ popup-warning-message =
         [1] { -brand-short-name } により、このサイトはポップアップ ウィンドウを開くことができませんでした。
        *[other] { -brand-short-name } により、このサイトは { $popupCount } 個のポップアップ ウィンドウを開くことができませんでした。
     }
+
+# Variables:
+#   $popupCount (Number): the number of pop-ups blocked.
+redirect-warning-with-popup-message =
+    { $popupCount ->
+        [0] { -brand-short-name } は、このサイトによるリダイレクトをブロックしました。
+        [1] { -brand-short-name } は、このサイトによるポップアップウィンドウの表示とリダイレクトをブロックしました。
+       *[other] { -brand-short-name } は、このサイトによるポップアップウィンドウの表示 ({ $popupCount } 件) とリダイレクトをブロックしました。
+    }
+
 # The singular form is left out for English, since the number of blocked pop-ups is always greater than 1.
 # Variables:
 #   $popupCount (Number): the number of pop-ups blocked.
@@ -1271,6 +1277,14 @@ popup-warning-exceeded-message =
     { $popupCount ->
        *[other] { -brand-short-name } は、このサイトで { $popupCount } 個以上のポップアップ ウィンドウが開かれるのを防止しました。
     }
+
+# Variables:
+#   $popupCount (Number): the number of pop-ups blocked.
+popup-warning-exceeded-with-redirect-message =
+    { $popupCount ->
+       *[other] { -brand-short-name } は、このサイトが { $popupCount } 個以上のポップアップウィンドウを開いたり、リダイレクトしたりするのを防ぎました。
+    }
+
 popup-warning-button =
     .label =
         { PLATFORM() ->
@@ -1287,6 +1301,11 @@ popup-warning-button =
 #   $popupURI (String): the URI for the pop-up window
 popup-show-popup-menuitem =
     .label = “{ $popupURI }” を表示
+
+# Variables:
+#   $redirectURI (String): the URI for the redirect
+popup-trigger-redirect-menuitem =
+    .label = “{ $redirectURI }” を表示
 
 ## File-picker crash notification ("FilePickerCrashed.sys.mjs")
 
