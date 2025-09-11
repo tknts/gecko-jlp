@@ -201,7 +201,7 @@ policy-Permissions2 = カメラ、マイク、場所、通知、および自動�
 
 policy-PictureInPicture = ピクチャー・イン・ピクチャーの使用を切り替えます。
 
-policy-PopupBlocking = 特定のウェブサイトのポップアップ表示をデフォルトで許可します。
+policy-PopupBlocking2 = 特定のウェブサイトがポップアップを表示したり、サードパーティーのフレームによるリダイレクトを行ったりすることを許可します。
 
 policy-Preferences = 設定のサブセットに対する値を設定してロックします。
 

@@ -1616,7 +1616,7 @@ httpsonly-radio-enabled =
     .label = すべてのウィンドウで HTTPS-Only モードを有効にする
 
 httpsonly-radio-enabled-pbm =
-    .label = プライベート ウィンドウでのみ HTTPS-Only モードを有効にする
+    .label = プライベートウィンドウでのみ HTTPS-Only モードを有効にする
 
 httpsonly-radio-disabled3 =
     .label = HTTPS のみのモードを有効にしない

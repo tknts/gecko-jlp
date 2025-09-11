@@ -111,12 +111,12 @@ permissions-exceptions-https-only-window2 =
     .style = { permissions-window2.style }
 permissions-exceptions-https-only-desc2 = 特定のウェブサイトで HTTPS-Only モードを無効にできます。{ -brand-short-name } は、それらのサイトのセキュアな HTTPS への接続のアップグレードを行いません。
 
-## Exceptions - Pop-ups
+## Exceptions - Pop-ups And Third-Party Redirects
 
-permissions-exceptions-popup-window2 =
-    .title = 許可されたウェブサイト - ポップアップ
+permissions-exceptions-popup-window3 =
+    .title = 許可されたウェブサイト - ポップアップとサードパーティーによるリダイレクト
     .style = { permissions-window2.style }
-permissions-exceptions-popup-desc = ポップアップウィンドウが開くのを許可するウェブサイトを指定できます。 許可するサイトの正確なアドレスを入力し [許可] をクリックしてください。
+permissions-exceptions-popup-desc2 = ポップアップウィンドウの表示や、サードパーティーのフレームによるリダイレクトを許可するウェブサイトを、ユーザーが指定できます。
 
 ## Exceptions - Saved Logins
 
