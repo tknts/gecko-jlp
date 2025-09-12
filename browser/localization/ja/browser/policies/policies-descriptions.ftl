@@ -243,6 +243,8 @@ policy-UserMessaging = 特定のメッセージをユーザーに表示させな
 
 policy-UseSystemPrintDialog = システムの印刷ダイアログを使用して印刷します。
 
+policy-VisualSearchEnabled = ビジュアル検索を有効または無効にします。
+
 # “format” refers to the format used for the value of this policy.
 policy-WebsiteFilter = ウェブサイトを訪問済みにしません。書式の詳細についてはドキュメントを参照してください。
 
