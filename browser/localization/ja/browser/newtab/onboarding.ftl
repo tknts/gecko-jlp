@@ -482,7 +482,6 @@ restore-from-backup-secondary-top-button = バックアップから復元
 restore-from-backup-title = { -brand-short-name } をあなたの使い方に戻しましょう
 restore-from-backup-subtitle = ブックマークや履歴などのデータを復元して、すぐにブラウジングを再開できます。
 restore-from-backup-secondary-button = 復元しない
-restore-from-backup-find-backup-guidance = <a data-l10n-name="find-backup"> バックアップが見つからない場合はこちら </a>
 
 ## Restored from Backup spotlight
 
