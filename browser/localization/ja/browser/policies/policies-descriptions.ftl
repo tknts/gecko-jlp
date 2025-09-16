@@ -164,6 +164,8 @@ policy-LegacySameSiteCookieBehaviorEnabledForDomainList = 特定のサイトで 
 
 policy-LocalFileLinks = 特定のウェブサイトにローカルファイルへのリンクを許可します。
 
+policy-LocalNetworkAccess = ローカルネットワークアクセスのチェックを有効または無効にします。
+
 policy-ManagedBookmarks = システムの管理者により管理されたブックマークのリストを設定します。ユーザーがこのリストを変更することはできません。
 
 policy-ManualAppUpdateOnly = 手動による更新のみを許可し、更新についてユーザーに通知しません。

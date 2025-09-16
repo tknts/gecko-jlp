@@ -33,6 +33,7 @@ settings-data-backup-last-backup-date = 最後のバックアップ: { DATETIME(
 settings-data-backup-last-backup-location = 保存先
 settings-data-backup-last-backup-location-show-in-folder = フォルダーで表示
 settings-data-backup-last-backup-location-edit = 編集…
+settings-data-create-backup-error = { DATETIME($date, dateStyle: "short") } { DATETIME($date, timeStyle: "short") } にバックアップの作成中にエラーが発生しました。
 
 # Variables:
 #   $fileName (String) - The file name of the last backup that was created.
@@ -86,6 +87,7 @@ turn-on-scheduled-backups-confirm-button = バックアップをオンにする
 # Tell the user there was an error accessing the user's selected backup
 # folder. The folder may be invalid or inaccessible.
 turn-on-scheduled-backups-error-file-system = 選択されたバックアップフォルダーに問題がありました。別のフォルダーを選択して、もう一度お試しください。
+backup-error-file-system = { -brand-short-name } をバックアップ中に、選択したバックアップフォルダーで問題が発生しました。
 
 ## These strings are displayed in a modal when users want to turn off scheduled backups.
 
@@ -127,12 +129,12 @@ restore-from-backup-restoring-button = 復元しています…
 # User is not authorized to restore a particular backup file, usually because
 # the backup file is encrypted and the user provided a recovery password that
 # was different than the password the user configured for their backup file
-restore-from-backup-error-incorrect-password =パスワードが正しくありません。<a data-l10n-name="incorrect-password-support-link">問題が解決しない場合</a>
+backup-service-backup-error-incorrect-password =パスワードが正しくありません。<a data-l10n-name="incorrect-password-support-link">問題が解決しない場合</a>
 
 # The backup file (or specific data files within the backup file) could not be
 # loaded and parsed correctly, most likely due to data corruption of the
 # backup file itself
-restore-from-backup-error-corrupt-file =
+backup-service-error-corrupt-file =
     .heading = このファイルは動作しません
     .message = バックアップファイルに問題がありました。別のファイルを選択してもう一度お試しください。
 
@@ -140,28 +142,28 @@ restore-from-backup-error-corrupt-file =
 # be too old and may not support features in the backed up profile.
 # Alternatively, the backup file may be too old and some of the feature in
 # the backed up profile may no longer be supported.
-restore-from-backup-error-unsupported-version =
+backup-service-error-unsupported-version =
     .heading = このファイルは動作しません
     .message = 選択されたファイルは、このバージョンの { -brand-short-name } と互換性がありません。別のファイルを選択して、もう一度お試しください。
 
 # The backup file cannot be restored. The currently running application is not
 # the same application that created the backup file (e.g. Firefox cannot
 # restore a Thunderbird profile backup).
-restore-from-backup-error-unsupported-application =
+backup-service-error-unsupported-application =
     .heading = このファイルは動作しません
     .message = 選択されたファイルは { -brand-short-name } によって作成されたものではありません。別のファイルを選択して、もう一度お試しください。
 
 # Recovery from backup did not succeed. Potential causes could be file system
 # errors, internal code errors, decryption errors, etc.
-restore-from-backup-error-recovery-failed =
+backup-service-error-recovery-failed =
     .heading = { -brand-short-name } を復元できませんでした
     .message = { -brand-short-name } を再起動して、バックアップの復元を再度試してください。
 
 # There was some error in the backup service but we don't have a more specific
 # idea of what went wrong
-restore-from-backup-error-went-wrong =
+backup-service-error-went-wrong =
     .heading = 問題が発生しました
-    .message = There was a problem restoring { -brand-short-name }. Please try again or restart { -brand-short-name }.
+    .message = { -brand-short-name } のバックアップ処理で問題が発生しました。もう一度お試しいただくか、{ -brand-short-name } を再起動してください。
 
 ## These strings are displayed in a modal when users want to enable encryption or change the password for an existing backup.
 
