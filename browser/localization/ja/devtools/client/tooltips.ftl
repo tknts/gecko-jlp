@@ -51,6 +51,8 @@ inactive-css-not-block = <strong>{ $property }</strong> はブロックレベル
 
 inactive-css-not-block-container = <strong>{ $property }</strong> はこの要素には効果がありません。ブロックコンテナー要素にのみ適用されます。
 
+inactive-css-not-block-flex-grid-container = <strong>{ $property }</strong> は、この要素には効果がありません。ブロック要素、flex コンテナー、grid コンテナーにのみ適用されます。
+
 inactive-css-not-floated = <strong>{ $property }</strong> はフロート要素にのみ適用されるため、効果はありません。
 
 inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</strong> の制限により <strong>{ $property }</strong> を上書きする事はできません。
@@ -137,6 +139,8 @@ inactive-css-only-non-grid-or-flex-item-fix = 要素のコンテナの <strong>d
 inactive-css-not-block-fix = <strong>display:block</strong> や <strong>float:left</strong> などのプロパティを追加してみてください。{ learn-more }
 
 inactive-css-not-block-container-fix = <strong>display:block</strong>、<strong>display:inline-block</strong>、または <strong>display:flow-root</strong> を追加してみてください。{ learn-more }
+
+inactive-css-not-block-flex-grid-container-fix = <strong>display:block</strong>、<strong>display:inline-block</strong>、<strong>display:flex</strong>、<strong>display:inline-flex</strong>、<strong>display:grid</strong>、<strong>display:inline-grid</strong>、または <strong>display:flow-root</strong> を追加してみてください。{ learn-more }
 
 inactive-css-not-floated-fix = <strong>float</strong> プロパティに <strong>none</strong> 以外の値を追加してみてください。{ learn-more }
 
