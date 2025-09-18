@@ -1206,8 +1206,8 @@ sitedata-option-block-cross-site-trackers =
     .label = クロスサイトトラッカー
 sitedata-option-block-cross-site-tracking-cookies =
     .label = クロスサイトトラッキング Cookie
-sitedata-option-block-cross-site-cookies =
-    .label = クロスサイトトラッキング Cookie 及び、その他のクロスサイト Cookie を分離
+sitedata-option-block-cross-site-cookies2 =
+    .label = クロスサイト Cookie を分離
 sitedata-option-block-unvisited =
     .label = 未訪問のウェブサイトからの Cookie
 sitedata-option-block-all-cross-site-cookies =
@@ -1339,7 +1339,7 @@ content-blocking-private-windows = プライベート ウィンドウでのト�
 content-blocking-cross-site-cookies-in-all-windows2 = すべてのウィンドウでのクロスサイト Cookie
 content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
 content-blocking-all-cross-site-cookies-private-windows = プライベート ウィンドウでのクロスサイト Cookie
-content-blocking-cross-site-tracking-cookies-plus-isolate = クロスサイトトラッキング Cookie と残りの Cookie を分離
+content-blocking-isolate-cross-site-cookies = クロスサイトトラッキング Cookie を分離
 content-blocking-social-media-trackers = ソーシャルメディア トラッカー
 content-blocking-all-cookies = すべての Cookie
 content-blocking-unvisited-cookies = 未訪問のサイトからの Cookie
@@ -1483,8 +1483,8 @@ permissions-autoplay-settings =
     .label = 設定…
     .accesskey = t
 
-permissions-block-popups =
-    .label = ポップアップをブロック
+permissions-block-popups2 =
+    .label = ポップアップとサードパーティーによるリダイレクトをブロック
     .accesskey = B
 
 # "popup" is a misspelling that is more popular than the correct spelling of

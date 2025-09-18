@@ -22,7 +22,7 @@ about-glean-category-manual-testing = 手動テスト
 about-glean-category-adhoc-testing =アドホックテスト
 about-glean-category-profiler = プロファイラの使用
 about-glean-category-about-data = データについて
-about-glean-category-metrics-table = メトリクス表
+about-glean-category-metrics-table = メトリックス表
 
 about-glean-upload-enabled = データのアップロードは有効です。
 about-glean-upload-disabled = データのアップロードは無効です。
@@ -149,7 +149,7 @@ about-glean-about-data-list-item-firefox-profiler =
   パフォーマンスプロファイルを記録し、収集されたすべてのメトリクスを表示するには、
   <a data-l10n-name="about-glean-firefox-profiler">{ -profiler-brand-name }</a> を使用してください。
 
-about-glean-metrics-table-header = すべてのメトリクス
+about-glean-metrics-table-header = すべてのメトリックス
 # This message refers to the category in which a given metric is recorded.
 about-glean-metrics-table-header-category = カテゴリ
 # This message refers to the name of a given metric.
@@ -179,6 +179,8 @@ about-glean-button-watch = 監視
 # Meaning "to stop watching"
 about-glean-button-unwatch = 監視をやめる
 
+about-glean-no-data-to-display = 表示できるデータがありません。
+
 # Do not translate strings between <code> </code> tags.
-about-glean-labeled-metric-warning = ラベル付きメトリクスは <code>about:glean</code> ビューではまだサポートされていません。
-about-glean-unknown-metric-type-warning = 不明なメトリクス型です。
+about-glean-labeled-metric-warning = ラベル付きメトリックスは <code>about:glean</code> ビューではまだサポートされていません。
+about-glean-unknown-metric-type-warning = 不明なメトリックス型です。

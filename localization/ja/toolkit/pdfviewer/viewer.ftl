@@ -328,6 +328,10 @@ pdfjs-comment-floating-button =
     .title = コメント
     .aria-label = コメント
 pdfjs-comment-floating-button-label = コメント
+pdfjs-editor-comment-button =
+    .title = コメント
+    .aria-label = Comment
+pdfjs-editor-comment-button-label = コメント
 pdfjs-editor-signature-button =
     .title = 署名の追加
 pdfjs-editor-signature-button-label = 署名を追加
@@ -394,6 +398,24 @@ pdfjs-editor-add-saved-signature-button =
 pdfjs-free-text2 =
     .aria-label = Text Editor
     .default-content = 文字の入力を開始します…
+
+# Used to show how many comments are present in the pdf file.
+# Variables:
+#   $count (Number) - the number of comments.
+pdfjs-editor-comments-sidebar-title =
+    { $count ->
+        [one] コメント
+       *[other] コメント
+    }
+
+pdfjs-editor-comments-sidebar-close-button =
+    .title = サイドバーを閉じる
+    .aria-label = サイドバーを閉じる
+pdfjs-editor-comments-sidebar-close-button-label = サイドバーを閉じる
+
+# Instructional copy to add a comment by selecting text or an annotations.
+pdfjs-editor-comments-sidebar-no-comments1 = 気になる箇所がありますか? ハイライトしてコメントを残しましょう。
+pdfjs-editor-comments-sidebar-no-comments-link = さらに詳しく
 
 ## Alt-text dialog
 
@@ -648,6 +670,15 @@ pdfjs-editor-edit-signature-dialog-title = 説明の編集
 ## Dialog buttons
 
 pdfjs-editor-edit-signature-update-button = 更新
+
+## Comment popup
+
+pdfjs-editor-edit-comment-popup-button-label = コメントを編集
+pdfjs-editor-edit-comment-popup-button =
+    .title = コメントの編集
+pdfjs-editor-delete-comment-popup-button-label = コメントを削除
+pdfjs-editor-delete-comment-popup-button =
+    .title = コメントの削除
 
 ##  Edit a comment dialog
 
