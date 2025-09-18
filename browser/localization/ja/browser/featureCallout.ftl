@@ -221,6 +221,23 @@ fxa-adoption-passwords-subtitle = 暗号化された同期でパスワードを�
 # Opens Mozilla accounts sign-up page
 fxa-adoption-passwords-primary-button-label = サインアップ
 
+## Taskbar Tabs callout strings
+
+taskbar-tabs-social-callout-title = お気に入りのフィードをタスクバーに固定
+taskbar-tabs-social-callout-subtitle = ソーシャルサイトをアプリのように、{ -brand-short-name } による保護付きのシンプルなウィンドウで開けます。
+
+taskbar-tabs-chat-callout-title = タスクバーからチャット
+taskbar-tabs-chat-callout-subtitle = チャットサイトをアプリのように、{ -brand-short-name } による保護付きのシンプルなウィンドウで開けます。
+
+taskbar-tabs-email-callout-title = メールをタスクバーに固定
+taskbar-tabs-email-callout-subtitle = ウェブメールをアプリのように、{ -brand-short-name } による保護付きのシンプルなウィンドウで開けます。
+
+taskbar-tabs-media-callout-title = タスクバーからすぐにストリーミング
+taskbar-tabs-media-callout-subtitle = ストリーミングサイトをアプリのように、{ -brand-short-name } による保護付きのシンプルなウィンドウで開けます。
+
+taskbar-tabs-value-prop-callout-title = このサイトをタスクバーに追加
+taskbar-tabs-value-prop-callout-subtitle = ワンクリックで、専用ウィンドウとシンプルなインターフェースで開けます。
+
 ## Windows 10 EoS Sync messages group 1 callouts
 
 windows-10-eos-sync-urgency-title-1 = Windows 11 への移行時に保存データを失わないために

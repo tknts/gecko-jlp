@@ -387,3 +387,5 @@ etp-strict-exceptions-infobar-message = <strong>厳格なトラッキング防�
 etp-strict-exceptions-infobar-learn-more = さらに詳しく
 etp-strict-exceptions-infobar-button = 修正を適用
   .accesskey = A
+etp-strict-exceptions-infobar-not-now = 今は修正しない
+  .accesskey = N
