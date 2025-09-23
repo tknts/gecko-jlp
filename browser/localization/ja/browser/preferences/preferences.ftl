@@ -280,34 +280,26 @@ preferences-web-appearance-header = ウェブサイトの外観
 
 preferences-web-appearance-description = 一部のウェブサイトでは、あなたの設定をもとに配色を適用します。それらのサイトに使用する配色を選択してください。
 
-preferences-web-appearance-choice-auto = 自動
-preferences-web-appearance-choice-light = ライト
-preferences-web-appearance-choice-dark = ダーク
-
-preferences-web-appearance-choice-tooltip-auto =
-  .title = システムの設定と { -brand-short-name } のテーマに基づいて、ウェブサイトの背景とコンテンツを自動的に変更します。
-preferences-web-appearance-choice-tooltip-light =
+preferences-web-appearance-choice-auto2 =
+  .label = 自動
+  .title = システム設定と { -brand-short-name } のテーマに基づいて、ウェブサイトの背景とコンテンツを自動的に変更します。
+preferences-web-appearance-choice-light2 =
+  .label = ライト
   .title = ウェブサイトの背景とコンテンツにライトモードを使用します。
-preferences-web-appearance-choice-tooltip-dark =
+preferences-web-appearance-choice-dark2 =
+  .label = ダーク
   .title = ウェブサイトの背景とコンテンツにダークモードを使用します。
 
-preferences-web-appearance-choice-input-auto =
-  .aria-description = { preferences-web-appearance-choice-tooltip-auto.title }
-
-preferences-web-appearance-choice-input-light =
-  .aria-description = { preferences-web-appearance-choice-tooltip-light.title }
-
-preferences-web-appearance-choice-input-dark =
-  .aria-description = { preferences-web-appearance-choice-tooltip-dark.title }
+web-appearance-group =
+  .aria-label = ウェブサイトの見た目
 
 # This can appear when using windows HCM or "Override colors: always" without
 # system colors.
 preferences-web-appearance-override-warning3 =
     .message = コントラストコントロールの設定がウェブサイトの外観を上書きします。
 
-# This message contains one link. It can be moved within the sentence as needed
-# to adapt to your language, but should not be changed.
-preferences-web-appearance-footer = { -brand-short-name } のテーマを <a data-l10n-name="themes-link">拡張機能とテーマ</a> で管理する
+preferences-web-appearance-link =
+    .label = { -brand-short-name } のテーマを [拡張機能とテーマ] で管理する
 
 preferences-contrast-control-header = コントラスト コントロール
 
@@ -392,22 +384,12 @@ check-user-spelling =
 
 files-and-applications-title = ファイルとアプリケーション
 
-download-header = ダウンロード
+downloads-header-2 =
+    .label = ダウンロード
 
-download-save-where = ファイルの保存先
+download-save-where-2 =
+    .label = ファイルの保存先
     .accesskey = v
-
-download-choose-folder =
-    .label =
-        { PLATFORM() ->
-            [macos] 選択…
-           *[other] 参照…
-        }
-    .accesskey =
-        { PLATFORM() ->
-            [macos] e
-           *[other] o
-        }
 
 download-always-ask-where =
     .label = ファイルの保存先を毎回確認する
@@ -1580,9 +1562,7 @@ security-block-uncommon-software =
 
 certs-header = 証明書
 
-certs-enable-ocsp =
-    .label = OCSP レスポンダーサーバーに問い合わせて証明書の現在の正当性を確認する
-    .accesskey = Q
+certs-description = { -brand-short-name } が認証に使用する証明書を構成します。
 
 certs-view =
     .label = 証明書を表示…
@@ -1608,7 +1588,9 @@ space-alert-under-5gb-message2 = <strong>{ -brand-short-name } を実行する�
 
 httpsonly-header = HTTPS-Only モード
 
-httpsonly-description3 = ウェブサイトへの安全な接続のみを許可します。{ -brand-short-name } は安全でない接続を行う前に確認を求めます。
+httpsonly-label =
+    .aria-label = { httpsonly-header }
+    .description = ウェブサイトへの安全な接続のみを許可します。{ -brand-short-name } は安全でない接続を行う前に確認を求めます。
 
 httpsonly-learn-more2 = HTTPS-Only モードとは？
 
@@ -1690,4 +1672,3 @@ preferences-doh-manage-exceptions =
 
 desktop-folder-name = デスクトップ
 downloads-folder-name = ダウンロード
-choose-download-folder-title = ダウンロード先のフォルダーを選択:
