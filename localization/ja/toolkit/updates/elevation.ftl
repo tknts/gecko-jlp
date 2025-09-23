@@ -26,3 +26,6 @@ sandbox-unprivileged-namespaces-dismiss-button =
   .label = 次回から表示しない
   .accesskey = D
 sandbox-unprivileged-namespaces-howtofix = この問題を解決するには
+
+sandbox-content-disabled-warning =
+  セキュリティサンドボックスが無効になっています。この設定はサポートされていないため、安全性が低下します。

@@ -184,3 +184,9 @@ about-glean-no-data-to-display = 表示できるデータがありません。
 # Do not translate strings between <code> </code> tags.
 about-glean-labeled-metric-warning = ラベル付きメトリックスは <code>about:glean</code> ビューではまだサポートされていません。
 about-glean-unknown-metric-type-warning = 不明なメトリックス型です。
+
+about-glean-enable-new-features-promo =
+  .message = 私たちは新機能の追加に取り組んでいます! まだ開発中ですが、ここにあるアクションボタンをクリックすると有効化できます。
+  .heading = まもなく新機能が登場します!
+about-glean-enable-new-features-button = 新機能を有効化
+about-glean-disable-new-features-button = 新機能を無効化

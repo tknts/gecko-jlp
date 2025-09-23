@@ -1358,7 +1358,9 @@ trustpanel-connection-label-secure = 安全な接続
 trustpanel-connection-label-insecure = 安全ではない接続
 
 trustpanel-header-enabled = { -brand-product-name } が保護中です
-trustpanel-description-enabled = あなたは保護されています。問題が見つかればお知らせします。
+trustpanel-description-enabled2 = 保護されています。問題を検出した場合はお知らせします。
+trustpanel-header-enabled-insecure = このサイトには注意が必要です
+trustpanel-description-enabled-insecure = { -brand-product-name } が不審な点を検出しました。
 
 trustpanel-header-disabled = 保護をオフにしました
 trustpanel-description-disabled = { -brand-product-name } は待機中です。保護の再有効化をお勧めします。

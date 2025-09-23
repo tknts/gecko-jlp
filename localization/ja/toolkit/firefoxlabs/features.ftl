@@ -81,3 +81,8 @@ experimental-features-newtab-widget-timer-description = 集中を維持したり
 experimental-features-newtab-widget-lists-and-timer =
     .label = { -firefox-home-brand-name } のリストとタイマー
 experimental-features-newtab-widget-lists-and-timer-description = 新しいタブを開いたときに、やることリストをすぐ確認できます。旅行の持ち物リストや買い物リストなど、{ -brand-product-name } で計画を立てましょう。タイマーを設定して集中したり、進捗を促したり、休憩をリマインドしたりできます。<a data-l10n-name="connect">フィードバックを送る</a>
+
+# Semantic History Search
+experimental-features-semantic-history-search =
+    .label = セマンティック履歴検索
+experimental-features-semantic-history-search-description = ローカルの機械学習モデルを使用し、自然言語理解に基づいて検索に関連する履歴の候補を { -brand-product-name } のアドレスバーに表示します。<a data-l10n-name="connect">フィードバックを共有</a>

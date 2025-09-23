@@ -38,7 +38,7 @@ ipprotection-feature-introduction-button-secondary-no-thanks = 結構です
 
 ##
 
-# The panel status card has a header and a connection time displayed under it.
+# The panel status card has a header and a connection time displayed under it when the VPN is on.
 # Variables:
 #   $time (String) - The amount of time connected to the proxy as HH:MM:SS (hours, minutes, seconds).
 ipprotection-connection-status-on =

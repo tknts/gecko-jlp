@@ -590,6 +590,10 @@ newtab-widget-lists-input-menu-move-down = 下に移動
 newtab-widget-lists-input-menu-delete = 削除
 newtab-widget-lists-input-menu-edit = 編集
 
+# the + symbol emphasises the functionality of adding a new list
+newtab-widget-lists-dropdown-create =
+    .label = + 新しいリストを作成
+
 ## Strings for timer productivity widget
 ## When the timer ends, a system notification may be shown. Depending on which mode the timer is in, that message would be shown
 

@@ -149,57 +149,23 @@ genai-chatbot-contextual-title = タブを切り替えずに AI チャットボ�
 genai-chatbot-contextual-subtitle = { -brand-short-name } のサイドバーに AI チャットボットを追加すると、チャットしながら同時にブラウジングできます。
 genai-chatbot-contextual-button = チャットボットを選ぶ
 
-genai-onboarding-header = ブラウジングしながらページの要約やブレインストーミングなどが行えます
 genai-onboarding-choose-header = { -brand-short-name } のサイドバーで使用する AI チャットボットを選択してください
-# "Switch anytime" refers to allowing the user to switch to a different chatbot.
-genai-onboarding-description = お好みの AI チャットボットを { -brand-short-name } のサイドバーで利用できます。選択すると、それぞれの詳細が表示されます。いつでも切り替え可能です。<a data-l10n-name="learn-more">さらに詳しく</a>
 # "Switch anytime" refers to allowing the user to switch to a different chatbot.
 genai-onboarding-choose-description = いつでも切り替え可能です。各チャットボットの特徴や違いについては<a data-l10n-name="learn-more">詳細</a>をご覧ください。
 genai-onboarding-primary = 続ける
 genai-onboarding-secondary = 閉じる
 genai-onboarding-claude-tooltip =
     .title = Anthropic Claude
-genai-onboarding-claude-learn = Claude について、さらに詳しく
 genai-onboarding-chatgpt-tooltip =
     .title = ChatGPT
-genai-onboarding-chatgpt-learn = ChatGPT について、さらに詳しく
 genai-onboarding-copilot-tooltip =
     .title = Copilot
-genai-onboarding-copilot-learn = Copilot について、さらに詳しく
 genai-onboarding-gemini-tooltip =
     .title = Google Gemini
-genai-onboarding-gemini-learn = Gemini について、さらに詳しく
 genai-onboarding-huggingchat-tooltip =
     .title = HuggingChat
-genai-onboarding-huggingchat-learn = HuggingChat について、さらに詳しく
 genai-onboarding-lechat-tooltip =
     .title = Le Chat Mistral
-genai-onboarding-lechat-learn = Le Chat について、さらに詳しく
-
-genai-onboarding-select-header = テキストを選択して候補を表示します
-genai-onboarding-select-description = When you select text, we’ll suggest prompts you can send to the chatbot. You can also write in your own prompts.
-genai-onboarding-select-primary = チャットを開始
-
-## Chatbot onboarding choices
-## These describe features/capabilities of chatbot providers. These are not buttons/actions.
-
-genai-onboarding-claude-generate = テキスト、コードを生成する
-genai-onboarding-claude-analyze = Analyze documents and images
-genai-onboarding-claude-price = Free and paid options; account required
-genai-onboarding-chatgpt-generate = テキスト、画像、コードを生成する
-genai-onboarding-chatgpt-analyze = Analyze documents and images
-genai-onboarding-chatgpt-price = Free and paid options; account required for some countries and tasks
-genai-onboarding-copilot-generate = テキスト、画像、コードを生成する
-genai-onboarding-copilot-analyze = 画像を分析する
-genai-onboarding-copilot-price = 無料および有料オプション。一部のタスクにはアカウントが必要です。
-genai-onboarding-gemini-generate = Generate text, images, and code
-genai-onboarding-gemini-analyze = Analyze images (free) and documents (paid)
-genai-onboarding-gemini-price = 無料および有料オプション。一部のタスクにはアカウントが必要です。
-genai-onboarding-huggingchat-generate = テキスト、コードを生成する
-genai-onboarding-huggingchat-switch = Switch between a diverse set of open models
-genai-onboarding-huggingchat-price-2 = 無料。一部のタスクにはアカウントが必要です。
-genai-onboarding-lechat-generate = テキスト、コードを生成する
-genai-onboarding-lechat-price = 無料。一部のタスクにはアカウントが必要です。
 
 ## Model Optin Component
 
@@ -227,22 +193,22 @@ link-preview-reading-time =
        *[other] 約 { $range } 分で読めます
     }
 
-# リンクプレビューを生成できないときに表示されるエラーメッセージ
+# Error message displayed when a link preview cannot be generated
 link-preview-error-message = このリンクをプレビューできません
 
-# エラー時に元の URL を開くリンクテキスト
+# Text for the link to visit the original URL when in error state
 link-preview-visit-link = リンクを開く
 
-# ページの要点（ハイライトや主要な内容）を生成できないときのエラーメッセージ
+# Error message when we can't generate key points (summary highlights or main ideas of page content) for a page
 link-preview-generation-error-missing-data = このページの要点を生成できません。
 
-# 要点生成中に問題が発生したときのエラーメッセージ
+# Error message when something went wrong during key point generation
 link-preview-generation-error-unexpected = 問題が発生しました。
 
-# 生成に失敗したときの再試行リンクテキスト
+# Text for the retry link when generation fails
 link-preview-generation-retry = 再試行
 
-# リンクプレビュー設定を開くボタン
+# Button that opens the Link Preview settings
 link-preview-settings-button =
     .title = リンクプレビューの設定
 
