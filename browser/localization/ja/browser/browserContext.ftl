@@ -318,8 +318,9 @@ main-context-menu-image-desc =
 
 # Variables
 #   $engine (String) - Name of the search engine that will perform the search.
-main-context-menu-visual-search =
+main-context-menu-visual-search-2 =
     .label = { $engine } で画像を検索
+    .accesskey = e
 
 main-context-menu-video-save-as =
     .label = ビデオを名前を付けて保存…

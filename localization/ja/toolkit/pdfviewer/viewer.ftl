@@ -673,6 +673,9 @@ pdfjs-editor-edit-signature-update-button = 更新
 
 ## Comment popup
 
+pdfjs-show-comment-button =
+    .title = コメントの表示
+
 pdfjs-editor-edit-comment-popup-button-label = コメントを編集
 pdfjs-editor-edit-comment-popup-button =
     .title = コメントの編集
@@ -682,19 +685,18 @@ pdfjs-editor-delete-comment-popup-button =
 
 ##  Edit a comment dialog
 
-pdfjs-editor-edit-comment-actions-button-label = 操作
-pdfjs-editor-edit-comment-actions-button =
-    .title = 操作
-pdfjs-editor-edit-comment-close-button-label = 閉じる
-pdfjs-editor-edit-comment-close-button =
-    .title = 閉じる
-pdfjs-editor-edit-comment-actions-edit-button-label = 編集
-pdfjs-editor-edit-comment-actions-delete-button-label = 削除
-pdfjs-editor-edit-comment-manager-text-input =
-    .placeholder = コメントの入力
+# An existing comment is edited
+pdfjs-editor-edit-comment-dialog-title-when-editing = コメントの編集
+pdfjs-editor-edit-comment-dialog-save-button-when-editing = 更新
 
-pdfjs-editor-edit-comment-manager-cancel-button = キャンセル
-pdfjs-editor-edit-comment-manager-save-button = 保存
+# No existing comment
+pdfjs-editor-edit-comment-dialog-title-when-adding = コメントの追加
+pdfjs-editor-edit-comment-dialog-save-button-when-adding = 追加
+
+pdfjs-editor-edit-comment-dialog-text-input =
+    .placeholder = 入力を開始…
+
+pdfjs-editor-edit-comment-dialog-cancel-button = キャンセル
 
 ## Edit a comment button in the editor toolbar
 

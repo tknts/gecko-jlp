@@ -1099,21 +1099,29 @@ autofill-creditcard-os-auth-dialog-caption = { -brand-full-name }
 
 ## Privacy section - Autofill
 
-pane-privacy-autofill-header = 自動入力
-autofill-addresses-checkbox = 住所を入力して保存
-    .accesskey = a
-autofill-saved-addresses-button = 保存された住所
-    .accesskey = S
-autofill-payment-methods-checkbox-message = 支払い方法を入力して保存
+autofill-payment-methods-title = 支払い方法
+autofill-payment-methods-header =
+    .aria-label = 支払い方法
+autofill-payment-methods-checkbox-message-2 =
+    .label = 支払い情報を保存して自動入力する
+    .accesskey = p
+autofill-payment-methods-manage-payments-button =
+    .label = 支払い方法を管理
     .accesskey = m
-autofill-payment-methods-checkbox-submessage = クレジットカードとデビットカードが含まれます
-    .accesskey = I
-autofill-saved-payment-methods-button = 決済方法を保存
-    .accesskey = v
-
 # This operation requires the user to authenticate with the operating system (device sign-in)
-autofill-reauth-payment-methods-checkbox = 決済方法の入力と管理にはデバイスのサインインが必要です
+autofill-reauth-payment-methods-checkbox-2 =
+    .label = 自動入力や支払い方法の管理にデバイスへのサインインを要求する
     .accesskey = o
+
+autofill-addresses-title = 住所など
+autofill-addresses-header =
+    .aria-label = 住所など
+autofill-addresses-checkbox-message =
+    .label = 住所を保存して自動入力する
+    .accesskey = S
+autofill-addresses-manage-addresses-button =
+    .label = 住所などを管理
+    .accesskey = M
 
 ## Privacy Section - History
 
