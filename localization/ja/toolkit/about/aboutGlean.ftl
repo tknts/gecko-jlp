@@ -64,6 +64,15 @@ about-glean-manual-testing =
   および <a data-l10n-name="glean-sdk-doc-link">{ glean-sdk-brand-name } ドキュメント</a> に記載されていますが、
   要するに手動でインストゥルメンテーションが正しく動作するかを確認するには、次のようにします:
 
+## These labels are displayed to organize the different ping types within the dropdown.
+
+about-glean-ping-list-optgroup-built-in =
+  .label = 組み込み Ping
+about-glean-ping-list-optgroup-custom =
+  .label = カスタム Ping
+
+##
+
 # This message is an option in a dropdown filled with untranslated names of pings.
 about-glean-no-ping-label = (don’t submit any ping)
 # An in-line text input field precedes this string.

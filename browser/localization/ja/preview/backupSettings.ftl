@@ -96,7 +96,7 @@ turn-off-scheduled-backups-description = これにより、バックアップの
 turn-off-scheduled-backups-support-link = さらに詳しく
 
 turn-off-scheduled-backups-cancel-button = キャンセル
-turn-off-scheduled-backups-confirm-button = Turn off and delete backup
+turn-off-scheduled-backups-confirm-button = バックアップを停止して削除
 
 ## These strings are displayed in a modal when users want restore from a backup.
 
@@ -129,7 +129,7 @@ restore-from-backup-restoring-button = 復元しています…
 # User is not authorized to restore a particular backup file, usually because
 # the backup file is encrypted and the user provided a recovery password that
 # was different than the password the user configured for their backup file
-backup-service-backup-error-incorrect-password =パスワードが正しくありません。<a data-l10n-name="incorrect-password-support-link">問題が解決しない場合</a>
+backup-service-error-incorrect-password = パスワードが正しくありません。<a data-l10n-name="incorrect-password-support-link">まだ問題がありますか？</a>
 
 # The backup file (or specific data files within the backup file) could not be
 # loaded and parsed correctly, most likely due to data corruption of the
@@ -207,13 +207,13 @@ disable-backup-encryption-confirm-button = パスワードを削除
 ## These strings are used to tell users when errors occur when using
 ## the backup system
 
-backup-error-password-requirements = Your password doesn’t meet the requirements. Please try another password.
+backup-error-password-requirements = パスワードが要件を満たしていません。別のパスワードを入力してください。
 
 # This error message will be shown to the user when something went wrong with
 # the backup system but we do not have any more specific idea of what went
 # wrong. This message invites the user to try an action again because there
 # is a chance that the action will succeed if retried.
-backup-error-retry = Something went wrong. Please try again.
+backup-error-retry = 問題が発生しました。もう一度お試しください。
 
 ## These strings are inserted into the generated single-file backup archive.
 ## The single-file backup archive is a specially-crafted, static HTML file
@@ -224,37 +224,48 @@ backup-file-header = { -brand-short-name } は復元する準備ができてい�
 backup-file-title = { -brand-short-name } の復元
 backup-file-intro = ブラウジングに戻り、ブックマーク、履歴、その他のデータをすべて復元します。<a data-l10n-name="backup-file-support-link">さらに詳しく</a>
 
-# Variables:
-#   $date (string) - Date to be formatted based on locale
-backup-file-last-backed-up = <strong>Last backed up:</strong> { DATETIME($date, timeStyle: "short") }, { DATETIME($date, dateStyle: "short") }
+backup-file-path-label = バックアップファイル:
 
-backup-file-encryption-state-encrypted = 暗号化済み
-backup-file-encryption-state-not-encrypted = 暗号化されてません
+backup-file-encryption-state-label = 暗号化:
+backup-file-encryption-state-value-encrypted = はい
+backup-file-encryption-state-value-not-encrypted = いいえ
+
+backup-file-creation-device-label = デバイス:
+
+backup-file-creation-date-label = 作成日:
+# Variables:
+#   $date (Datetime) - The date the backup was created
+backup-file-creation-date-value = { DATETIME($date, timeStyle: "short") }, { DATETIME($date, dateStyle: "short") }
+
+backup-file-how-to-restore-header = 復元方法:
+
+# The ☰ character is intended as a visual icon representing the Firefox
+# application menu.
+backup-file-moz-browser-restore-step-1 = アプリメニュー ☰ を開き、［設定］ > ［Sync］へ移動します
+backup-file-moz-browser-restore-step-2 = ［バックアップファイルを選択］をクリックして、このファイルを選びます
+backup-file-moz-browser-restore-step-3 = 指示に従って { -brand-short-name } を再起動します
+
+backup-file-other-browser-restore-step-1 = { -brand-short-name } をダウンロードしてインストールします
+backup-file-download-moz-browser-button = ダウンロード
+# The ☰ character is intended as a visual icon representing the Firefox
+# application menu.
+backup-file-other-browser-restore-step-2 = { -brand-short-name } を起動し、アプリメニュー ☰ を開いて［設定］ > ［Sync］へ移動します
+backup-file-other-browser-restore-step-3 = ［バックアップファイルを選択］をクリックして、このファイルを選びます
+backup-file-other-browser-restore-step-4 = 指示に従って { -brand-short-name } を再起動します
+
+## These strings are used in the about:restore and about:welcome pages
+## These pages guide the user on browser startup to help them restore a backup
+## if they have one on their file system.
 
 # Variables:
-#   $machineName (String) - Name of the machine that the backup was created on.
-backup-file-creation-device = 作成元: { $machineName }
+# $numberOfOtherBackupsFound (number) - The number of backups found other than the displayed default backup
+other-backup-files-founds =
+    { $numberOfOtherBackupsFound ->
+        [one] <b>注意:</b> 他に { $numberOfOtherBackupsFound } 件のバックアップファイルが見つかりました
+       *[other] <b>注意:</b> 他に { $numberOfOtherBackupsFound } 件のバックアップファイルが見つかりました
+    }
 
 # Variables:
 #   $date (Datetime) - The date the backup was created
 #   $machineName (String) - Name of the machine that the backup was created on.
-backup-file-creation-date-and-device = 作成日: { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } ({ $machineName })
-
-# Variables:
-# $numberOfOtherBackupsFound (number) - The number of backups found other than the
-other-backup-files-founds =
-    { $numberOfOtherBackupsFound ->
-        [one] <b>注意:</b> 他に { $numberOfOtherBackupsFound } 件のバックアップファイルが見つかりました
-        *[other] <b>注意:</b> 他に { $numberOfOtherBackupsFound } 件のバックアップファイルが見つかりました
-    }
-
-backup-file-how-to-restore-header = データを復元する方法:
-backup-file-moz-browser-restore-step-1 = 設定 > バックアップ に移動
-backup-file-moz-browser-restore-step-2 = “復元” から “バックアップファイルを選択” をクリック
-backup-file-moz-browser-restore-step-3 = 指示に従い { -brand-short-name } を再起動
-
-backup-file-other-browser-restore-step-1 = { -brand-short-name } のダウンロードとインストール:
-backup-file-download-moz-browser-button = { -brand-short-name } をダウンロード
-backup-file-other-browser-restore-step-2 = { -brand-short-name } を開いてバックアップを復元します
-
-##
+backup-file-creation-date-and-device = { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } に { $machineName } で作成
