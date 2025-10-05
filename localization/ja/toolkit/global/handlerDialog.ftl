@@ -33,6 +33,28 @@ permission-dialog-description-file-app =
 permission-dialog-description-extension-app =
   拡張機能 { $extension } が{ $scheme } タイプのリンクを { $appName } で開くことを許可しますか?
 
+permission-dialog-description-system-app =
+  { $appName } で { $scheme } リンクを開きますか?
+
+permission-dialog-description-system-noapp =
+  { $scheme } リンクを開きますか?
+
+# Header on a permission prompt, asking the user if they should allow the website to continue.
+wallet-custom-scheme-warning-heading =
+      .heading = このサイトにデジタルウォレットの起動を許可しますか?
+
+# Warning given to the user that the current page is trying to open their digital wallet app
+wallet-custom-scheme-warning-host-app = <strong>{ $scheme }</strong> リンクを開くと、<strong>{ $host }</strong> が <strong>{ $appName }</strong> を使ってあなたの本人情報を要求できるようになります。このサイトを信頼する場合のみ続行してください。
+
+# Warning given to the user that the current page is trying to open their digital wallet app
+wallet-custom-scheme-warning-app = <strong>{ $scheme }</strong> リンクを開くと、このサイトが <strong>{ $appName }</strong> を使ってあなたの本人情報を要求できるようになります。このサイトを信頼する場合のみ続行してください。
+
+# Warning given to the user that the current page is trying to open their digital wallet app
+wallet-custom-scheme-warning-host = <strong>{ $scheme }</strong> リンクを開くと、<strong>{ $host }</strong> があなたのデジタルウォレットから本人情報を要求できるようになります。このサイトを信頼する場合のみ続行してください。
+
+# Warning given to the user that the current page is trying to open their digital wallet app
+wallet-custom-scheme-warning = <strong>{ $scheme }</strong> リンクを開くと、このサイトがあなたのデジタルウォレットから本人情報を要求できるようになります。このサイトを信頼する場合のみ続行してください。
+
 ## Please keep the emphasis around the hostname and scheme (ie the
 ## `<strong>` HTML tags). Please also keep the hostname as close to the start
 ## of the sentence as your language's grammar allows.
@@ -65,7 +87,7 @@ permission-dialog-set-change-app-link = 別のアプリケーションを選択�
 
 ## Chooser dialog
 ## Variables:
-##  $scheme - the type of link that's being opened.
+##  $scheme (string) - The type of link that's being opened.
 
 chooser-window =
       .title = アプリケーションの選択

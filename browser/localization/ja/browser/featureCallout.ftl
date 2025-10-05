@@ -20,16 +20,6 @@ callout-firefox-view-recently-closed-title = 閉じたタブをすぐに元通�
 
 callout-firefox-view-recently-closed-subtitle = 閉じたタブはすべてここに魔法のように表示されます。 誤ってサイトを閉じてしまう心配はもうありません。
 
-callout-firefox-view-colorways-title = ブラウザーに彩りを追加
-
-# "Shade" refer to different color options in each colorway.
-callout-firefox-view-colorways-subtitle = あなたに語りかける色彩をテーマカラーで選択してください。{ -brand-product-name } のみ。
-
-callout-firefox-view-colorways-reminder-title = 最新のテーマカラーをご覧ください
-
-# “Shades” refers to the different color options in each colorways
-callout-firefox-view-colorways-reminder-subtitle = 独自の声にインスパイアされた象徴的な色合いで、ブラウザーを彩りましょう。利用できるのは { -brand-product-name } だけです。
-
 ## Continuous Onboarding - Firefox View: Tab pick up
 
 # “Boost your browsing” refers to the added benefit the user receives from having

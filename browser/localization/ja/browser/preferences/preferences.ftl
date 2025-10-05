@@ -142,8 +142,11 @@ always-check-default =
     .label = 起動時に { -brand-short-name } が既定のブラウザーか確認する
     .accesskey = y
 
-is-default = 既定のブラウザーは { -brand-short-name } です
-is-not-default = { -brand-short-name } は既定のブラウザーに設定されていません
+is-default-browser =
+    .message = { -brand-short-name } は既定のブラウザーに設定されています
+
+is-not-default-browser =
+    .message = { -brand-short-name } は既定のブラウザーに設定されていません
 
 set-as-my-default-browser =
     .label = 既定のブラウザーにする…
@@ -152,12 +155,13 @@ set-as-my-default-browser =
 startup-restore-windows-and-tabs =
     .label = 前回開いていたウィンドウとタブを開く
     .accesskey = s
+startup-windows-launch-on-login-profile-disabled =
+    .message = “ユーザー プロファイルの選択” ウィンドウで “{ profile-manager-use-selected.label }” にチェックを入れて、この設定を有効にしてください。
 
 windows-launch-on-login =
     .label = コンピューターの起動時に { -brand-short-name } を自動的に開きます
     .accesskey = O
 windows-launch-on-login-disabled = この設定は Windows では無効になっています。変更するには Windows の設定にある <a data-l10n-name="startup-link">スタートアップ アプリ</a> にアクセスしてください。
-windows-launch-on-login-profile-disabled = “ユーザー プロファイルの選択” ウィンドウで “{ profile-manager-use-selected.label }” にチェックを入れて、この設定を有効にします。
 
 disable-extension =
     .label = 拡張機能を使用しない
@@ -1177,6 +1181,9 @@ history-clear-button =
 
 sitedata-header = Cookie とサイトデータ
 
+sitedata-label =
+     .aria-label = { sitedata-header }
+
 sitedata-total-size-calculating = サイトデータとキャッシュサイズを計算しています…
 
 # Variables:
@@ -1190,7 +1197,8 @@ sitedata-delete-on-close =
     .label ={ -brand-short-name } を閉じたときに Cookie とサイトデータを削除する
     .accesskey = c
 
-sitedata-delete-on-close-private-browsing2 = 履歴の設定に基づいて、 { -brand-short-name } はブラウザーを閉じたときにセッション中の Cookie とサイトデータを削除します。。
+sitedata-delete-on-close-private-browsing3 =
+    .message = 履歴の設定に基づき、{ -brand-short-name } はブラウザーの終了時にセッションのクッキーやサイトデータを削除します。
 
 sitedata-option-block-cross-site-trackers =
     .label = クロスサイトトラッカー
@@ -1205,17 +1213,21 @@ sitedata-option-block-all-cross-site-cookies =
 sitedata-option-block-all =
     .label = すべての Cookie (ウェブサイトが正しく表示されなくなります)
 
-sitedata-clear =
-    .label = データを消去…
+sitedata-clear2 =
+    .label = ブラウジングデータを消去
     .accesskey = l
 
-sitedata-settings =
-    .label = データを管理…
+sitedata-settings2 =
+    .label = ブラウジングデータを管理…
     .accesskey = M
 
 sitedata-cookies-exceptions =
     .label = 例外を管理…
+
+sitedata-cookies-exceptions2 =
+    .label = 例外を管理
     .accesskey = x
+    .description = Cookie とサイトデータの使用を常に許可する、または許可しないウェブサイトを指定できます。
 
 ## Privacy Section - Cookie Banner Blocking
 

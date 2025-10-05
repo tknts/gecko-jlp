@@ -205,8 +205,8 @@ present-avatar-alt =
     .alt = プレゼント
 shopping-avatar-alt =
     .alt = 買い物カート
-soccer-avatar-alt =
-    .alt = サッカー
+soccer-ball-avatar-alt =
+    .alt = サッカーボール
 sparkle-single-avatar-alt =
     .alt = きらめき
 star-avatar-alt =
@@ -323,3 +323,8 @@ custom-avatar-crop-area =
   .aria-label = トリミングの範囲を調整
 custom-avatar-drag-handle =
   .aria-label = トリミングの範囲を変更
+
+profiles-appmenu-callout-tour-title = 新しいプロファイルの準備ができました
+# "Spin up another" means creating another profile, “Hop between your digital lives" is referring to switching between different profiles such as work, personal, etc.
+profiles-appmenu-callout-tour-subtitle = ☰ メニューからプロフィール名をクリックして、新しいプロファイルを作成したり、今のものを編集したり、仕事用や個人用などのプロファイルを切り替えたりできます。
+profiles-appmenu-callout-tour-primary-button = やり方を表示
