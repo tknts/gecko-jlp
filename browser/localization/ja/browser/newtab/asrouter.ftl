@@ -201,6 +201,23 @@ fox-doodle-pin-secondary = 今はしない
 set-default-pdf-handler-headline = <strong>PDF ファイルは { -brand-short-name } で開くようになりました。</strong> ブラウザーから直接フォームを編集したり署名できます。変更する場合は “設定” で“PDF” と検索してください。
 set-default-pdf-handler-primary = 了解しました
 
+## PDF Annotations strings
+
+# “Sign on the dotted line” is an idiomatic English expression about
+# where to place your signature.
+# If this expression doesn’t have a direct translation, please
+# translate this alternative string: "Add your signature anywhere!"
+annotations-default-pdf-handler-headline = 好きな場所に署名を追加しましょう！
+
+# “Go-to” is an idiomatic English expression referring to something that is used often.
+annotations-default-pdf-handler-body = 署名を描く、入力する、または画像をアップロードして、好きな位置に配置できます。よく使う署名は保存しておけば、次回から簡単に使えます。
+annotations-make-default-pdf-handler-title = { -brand-short-name } を既定の PDF 編集ツールにしますか？
+annotations-make-default-pdf-handler-subtitle = PDF を開くたびに、便利なツールを利用できます。
+annotations-make-default-pdf-primary-cta =
+  .label = 既定に設定
+annotations-make-default-pdf-next =
+  .label = 次へ
+
 ## FxA sync CFR
 
 fxa-sync-cfr-header = 将来的に新しいデバイスを使う予定はありますか?
@@ -220,7 +237,7 @@ device-migration-fxa-spotlight-older-device-header = { -brand-product-name } に
 device-migration-fxa-spotlight-older-device-body = アカウントにより接続された、あらゆるデバイス上で重要な情報が常に最新の状態に保たれ、保護されます。
 device-migration-fxa-spotlight-older-device-primary-button = アカウントを作成する
 
-device-migration-fxa-spotlight-getting-new-device-header-2  = 将来的に新しいデバイスを購入しますか?
+device-migration-fxa-spotlight-getting-new-device-header-2 = 将来的に新しいデバイスを購入しますか?
 device-migration-fxa-spotlight-getting-new-device-body-2 = 新しいデバイスを使い始めるときに、いくつかの簡単な手順に従ってブックマーク、履歴、パスワードを持ち歩きましょう。
 device-migration-fxa-spotlight-getting-new-device-primary-button = データをバックアップする方法
 

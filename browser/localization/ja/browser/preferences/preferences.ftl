@@ -188,6 +188,9 @@ open-new-link-as-tabs =
     .label = リンクを新しいウィンドウではなく新しいタブで開く
     .accesskey = w
 
+open-external-link-next-to-active-tab =
+    .label = アプリのリンクをアクティブなタブの隣で開く
+
 ask-on-close-multiple-tabs =
     .label = 同時に複数のタブを閉じる前に確認する
     .accesskey = m
@@ -1223,6 +1226,7 @@ sitedata-settings2 =
 
 sitedata-cookies-exceptions =
     .label = 例外を管理…
+    .accesskey = x
 
 sitedata-cookies-exceptions2 =
     .label = 例外を管理
@@ -1595,6 +1599,8 @@ certs-devices =
 certs-thirdparty-toggle =
     .label = { -brand-short-name } によってインストールされたサードパーティーのルート証明書を自動的に信頼する
     .accesskey = t
+
+certs-devices-enable-fips = FIPS を有効にする
 
 space-alert-over-5gb-settings-button =
     .label = 設定を開く
