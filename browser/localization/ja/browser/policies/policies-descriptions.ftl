@@ -31,6 +31,8 @@ policy-AutoLaunchProtocolsFromOrigins = ユーザーにプロンプトを表示�
 
 policy-BackgroundAppUpdate2 = バックグラウンド更新を有効または無効にします。
 
+policy-Backup = プロファイルデータのバックアップまたは復元を無効にします。
+
 policy-BlockAboutAddons = アドオン マネージャー (about:addons) へのアクセスをブロックします。
 
 policy-BlockAboutConfig = about:config ページへのアクセスをブロックします。

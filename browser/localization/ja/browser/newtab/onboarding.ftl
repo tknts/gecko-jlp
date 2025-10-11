@@ -476,21 +476,100 @@ sync-to-mobile-button-label = モバイルに同期
 desktop-to-mobile-qr-code-alt =
   .aria-label = QR コードから { -brand-product-name } for mobile をダウンロード
 
+## Fx Backup onboarding: Create Backup spotlight
+
+create-backup-screen-1-title = Windows 11 へアップグレードしますか？
+ { -brand-product-name } のデータをバックアップしましょう。
+create-backup-screen-1-subtitle = パスワードやブックマークなどを 1〜2 分で自動的に保護します。
+create-backup-screen-1-flair = 推奨
+create-backup-learn-more-link = <a data-l10n-name="learn-more-label">詳しく見る</a>
+create-backup-screen-1-sync-label = { -brand-product-name } と同期
+create-backup-screen-1-sync-body = サインインしているすべてのデバイスをバックアップ
+create-backup-screen-1-backup-label = PC にバックアップ
+create-backup-screen-1-backup-body = このデバイスまたは OneDrive に保存
+create-backup-select-tile-button-label = 選択
+create-backup-back-button-label = 戻る
+create-backup-show-fewer =
+.label = このようなおすすめを減らす
+create-backup-screen-2-title = バックアップする { -brand-product-name } データを選択
+create-backup-screen-2-subtitle = 所要時間はわずか 1 分。データは 1 日 1 回バックアップされます。
+# Label for the "Easy setup" backup option
+create-backup-screen-2-easy-label = かんたんセットアップ
+# Preceded by a green check mark indicating that these are included in "Easy setup" backup
+create-backup-screen-2-easy-list-1 = ブックマーク、履歴、設定などを含む
+# Preceded by a red X indicating that these are not included in the "Easy setup" backup
+create-backup-screen-2-easy-list-2 = パスワードと支払い情報は含まれません
+# Preceded by a red X indicating that "Easy setup" backups are not encrypted
+create-backup-screen-2-easy-list-3 = 暗号化されません
+# Label for the "All data" backup option
+create-backup-screen-2-all-label = すべてのデータ
+# Preceded by a green check mark indicating that these are included in the "All data" backup
+create-backup-screen-2-all-list-2 = パスワードと支払い情報を含む
+# Preceded by a green check mark and shield indicating "All data" backups are encrypted
+create-backup-screen-2-all-list-3 = パスワードで暗号化されます
+
+# Title for a screen asking users to choose a file location
+create-backup-screen-3-location = バックアップを保存する場所を選択してください
+# Title for a screen asking users to create a password that will encrypt the backup
+create-backup-screen-3-title = バックアップファイルのパスワードを作成
+create-backup-screen-3-subtitle = データを暗号化するために必要です。忘れない場所に保管してください。
+
+# These strings appear in the embedded backup component.
+
+fx-backup-opt-in-header = 保存先を選択
+fx-backup-opt-in-filepath-label = OneDrive など、新しいデバイスに移行しやすい場所を選びましょう。
+fx-backup-opt-in-create-password-label = パスワードを入力
+fx-backup-opt-in-confirm-btn-label = 続ける
+fx-backup-opt-in-cancel-btn-label = 戻る
+
+## Fx Backup confirmation screen strings
+
+fx-backup-confirmation-screen-title = バックアップがスケジュールされました
+fx-backup-confirmation-screen-close-button = 閉じる
+
+## These strings appear as a confirmation of which items will or won't be included as part of the selected backup method.
+
+fx-backup-confirmation-screen-all-data-item-text-1 = すべての閲覧データを含む
+fx-backup-confirmation-screen-all-data-item-text-2 = デバイスに保存
+fx-backup-confirmation-screen-all-data-item-text-3 = 暗号化され、パスワードで保護されています
+
+fx-backup-confirmation-screen-easy-setup-item-text-1 = ブックマーク、履歴、設定、その他のデータを含む
+fx-backup-confirmation-screen-easy-setup-item-text-2 = デバイスに保存
+fx-backup-confirmation-screen-easy-setup-item-text-3 = パスワードと支払い情報は含まれません
+fx-backup-confirmation-screen-easy-setup-item-subtext-3 = 機密データを含めるには、<a data-l10n-name="settings">設定</a> を開いてください。
+
+fx-backup-confirmation-screen-item-subtext-1 = 数分後にバックアップが開始され、1 日 1 回実行されます。進行状況は <a data-l10n-name="settings">設定</a> で確認できます。
+fx-backup-confirmation-screen-item-subtext-2 = { -brand-short-name } を再インストールする際には、バックアップを自動的に探します。
+
 ## Restore from Backup Flow about:welcome screens
 
 restore-from-backup-secondary-top-button = バックアップから復元
-restore-from-backup-title = { -brand-short-name } をあなたの使い方に戻しましょう
-restore-from-backup-subtitle = ブックマークや履歴などのデータを復元して、すぐにブラウジングを再開できます。
+restore-from-backup-title = { -brand-short-name } を元の状態に戻しましょう
+restore-from-backup-subtitle = ブックマーク、履歴などのデータを復元して、すぐにブラウジングを再開できます。
 restore-from-backup-secondary-button = 復元しない
 
 ## Restored from Backup spotlight
 
-restored-from-backup-success-title = 戻ってきました! { -brand-short-name } のデータを復元しました。
-restored-from-backup-success-with-checklist-subtitle = お気に入りのプライバシー重視ブラウザーをワンクリックで使えるようにしますか?
-restored-from-backup-success-no-checklist-subtitle = このデバイスでバックアップを有効にするには <a data-l10n-name="settings">設定</a> を開いてください。
+restored-from-backup-success-title = 戻りました！ { -brand-short-name } のデータが復元されました。
+restored-from-backup-success-with-checklist-subtitle = プライバシー重視のブラウザーをワンクリックで使い続けますか？
+restored-from-backup-success-no-checklist-subtitle = このデバイスでバックアップを有効にするには <a data-l10n-name="settings">設定</a> へ。
 restored-from-backup-success-with-checklist-primary-button = 保存して続行
 restored-from-backup-success-with-checklist-secondary-button = このステップをスキップ
-restored-from-backup-success-no-checklist-primary-button = 続行
+restored-from-backup-success-no-checklist-primary-button = 続ける
 restored-from-backup-error-title = バックアップファイルに問題がありました。
-restored-from-backup-error-subtitle = 他の { -brand-short-name } バックアップファイルをお持ちなら、そちらで復元をお試しください。<a data-l10n-name="restore-problems"> まだ問題がありますか？ </a>
+restored-from-backup-error-subtitle = 別の { -brand-short-name } バックアップファイルがある場合は、それを使って復元を試してください。<a data-l10n-name="restore-problems">まだ問題がありますか？</a>
 restored-from-backup-error-primary-button = 閉じる
+
+## Onboarding Personalization Screen
+## A screen shown to users during the onboarding process that asks them two qualifying questions about their use of the browser
+
+onboarding-personalization-title = { -brand-short-name } を自分好みにカスタマイズ
+onboarding-personalization-subtitle = いくつかの質問に答えるだけで、{ -brand-short-name } をもっと便利に使える機能や拡張機能をおすすめします。
+onboarding-personalization-use-case-title = { -brand-short-name } をどんな用途で使いますか？
+onboarding-personalization-use-case-personal-option = 個人用
+onboarding-personalization-use-case-school-option = 学校用
+onboarding-personalization-use-case-work-option = 仕事用
+onboarding-personalization-motivation-title = { -brand-short-name } で最も重視するものは何ですか？
+onboarding-personalization-motivation-privacy-option = プライバシーとセキュリティ
+onboarding-personalization-motivation-productivity-option = 生産性
+onboarding-personalization-motivation-other-option = その他
