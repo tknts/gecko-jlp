@@ -242,7 +242,7 @@ backup-file-how-to-restore-header = 復元方法:
 
 # The ☰ character is intended as a visual icon representing the Firefox
 # application menu.
-backup-file-moz-browser-restore-step-1 = アプリメニュー ☰ を開き、［設定］ > ［Sync］へ移動します
+backup-file-moz-browser-restore-step-1 = アプリメニュー ☰ を開き、[設定] > [Sync] へ移動します
 backup-file-moz-browser-restore-step-2 = ［バックアップファイルを選択］をクリックして、このファイルを選びます
 backup-file-moz-browser-restore-step-3 = 指示に従って { -brand-short-name } を再起動します
 
@@ -250,8 +250,8 @@ backup-file-other-browser-restore-step-1 = { -brand-short-name } をダウンロ
 backup-file-download-moz-browser-button = ダウンロード
 # The ☰ character is intended as a visual icon representing the Firefox
 # application menu.
-backup-file-other-browser-restore-step-2 = { -brand-short-name } を起動し、アプリメニュー ☰ を開いて［設定］ > ［Sync］へ移動します
-backup-file-other-browser-restore-step-3 = ［バックアップファイルを選択］をクリックして、このファイルを選びます
+backup-file-other-browser-restore-step-2 = { -brand-short-name } を起動し、アプリメニュー ☰ を開いて [設定] > [Sync] へ移動します
+backup-file-other-browser-restore-step-3 = “バックアップファイルを選択”をクリックして、このファイルを選びます
 backup-file-other-browser-restore-step-4 = 指示に従って { -brand-short-name } を再起動します
 
 ## These strings are used in the about:restore and about:welcome pages
