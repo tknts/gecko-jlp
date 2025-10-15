@@ -117,7 +117,6 @@ newtab-menu-pin = ピン留めする
 newtab-menu-unpin = ピン留めを外す
 newtab-menu-delete-history = 履歴から削除
 newtab-menu-show-privacy-info = スポンサーとあなたのプライバシー
-newtab-menu-about-fakespot = { -fakespot-brand-name } について
 # Report is a verb (i.e. report issue with the content).
 newtab-menu-report = 報告
 # Context menu option to personalize New Tab recommended stories by blocking a section of stories,
@@ -365,6 +364,10 @@ newtab-wallpaper-celestial-eclipse-time-lapse = 月食のタイムラプス
 newtab-wallpaper-celestial-black-hole = ブラックホールの銀河イラスト
 newtab-wallpaper-celestial-river = 人工衛星が撮影した川の画像
 
+## Firefox
+
+newtab-wallpaper-category-title-firefox = { -brand-product-name }
+
 
 # Variables
 #   $author_string (String) - The name of the creator of the photo.
@@ -409,8 +412,16 @@ newtab-weather-menu-change-temperature-units-fahrenheit = 華氏に切り替え�
 newtab-weather-menu-change-temperature-units-celsius = 摂に切り替える
 newtab-weather-menu-hide-weather = 新しいタブで天気予報を表示しない
 newtab-weather-menu-learn-more = さらに詳しく
+newtab-weather-menu-detect-my-location = 現在地を検出
 # This message is shown if user is working offline
 newtab-weather-error-not-available = 現在、気象データは利用できません。
+newtab-weather-opt-in-see-weather = 現在地の天気を表示しますか？
+newtab-weather-opt-in-not-now =
+    .label = 今はしない
+newtab-weather-opt-in-yes =
+    .label = はい
+# We'll be showing static (fake) weather data if the user has not opted in to using their location
+newtab-weather-static-city = ニューヨーク
 
 ## Topic Labels
 
