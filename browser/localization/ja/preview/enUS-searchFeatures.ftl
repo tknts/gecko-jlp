@@ -286,9 +286,64 @@ urlbar-result-yelp-realtime-business-hours-open =
 urlbar-result-yelp-realtime-business-hours-closed =
     <span>営業時間外</span> · { $timeUntil } まで
 
-
 # This string is shown as popularity by the rating and the review count.
 # Variables:
 #   $rating (float) - The rating of this.
 #   $review_count (integer) - The review count of this.
 urlbar-result-yelp-realtime-popularity = { $rating } ({ $review_count })
+
+## These strings are used for flight status suggestions in the urlbar.
+## The flight status suggestions shows the flight time, origin and destination
+## and the status like delayed, etc.
+
+# This string is shown in the result menu.
+urlbar-result-menu-dont-show-flight-status =
+  .label = フライト情報の候補を表示しない
+
+# A message that replaces a result when the user dismisses Yelp realtime
+# suggestions.
+urlbar-result-dismissal-acknowledgment-flight-status = フィードバックをありがとうございます。今後はフライト情報の候補は表示されません。
+
+# This string is shown as the statis of 'On time'.
+urlbar-result-flight-status-status-ontime = 定刻通り
+
+# This string is shown as the statis of 'In flight'.
+urlbar-result-flight-status-status-inflight = 飛行中
+
+# This string is shown as the statis of 'Arrived'.
+urlbar-result-flight-status-status-arrived = 到着済み
+
+# This string is shown as the statis of 'Cancelled'.
+urlbar-result-flight-status-status-cancelled = 欠航
+
+# This string is shown as the statis of 'Delayed'.
+# This label needs to show the estimated departure time too.
+# e.g. Delayed until 5:50pm
+# Variables:
+#   $departureEstimatedTime (string) - The estimated departure time.
+urlbar-result-flight-status-status-delayed =
+    { $departureEstimatedTime } まで遅延
+
+# This string is shown as the time left minutes.
+# e.g. 30 min left
+# Variables:
+#   $timeLeftMinutes (number) - The time left minutes.
+urlbar-result-flight-status-time-left-minutes =
+    { $timeLeftMinutes ->
+        [one] 残り { $timeLeftMinutes } 分
+        *[other] 残り { $timeLeftMinutes } 分
+    }
+
+# This string is shown as the airport.
+# e.g. Los Angeles (LAX) to New York (JFK)
+# Variables:
+#   $city (string) - The city of the airport.
+#   $code (string) - The code of the airport.
+urlbar-result-flight-status-airport = { $city } ({ $code })
+
+# This string is shown as the flight number with the airline name.
+# e.g. AC 8170, (Air Canada)
+# Variables:
+#   $flightNumber (string) - The flight number.
+#   $airlineName (string) - The airline name.
+urlbar-result-flight-status-flight-number-with-airline = { $flightNumber }, { $airlineName }
