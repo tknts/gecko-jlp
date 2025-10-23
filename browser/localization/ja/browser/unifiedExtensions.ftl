@@ -15,8 +15,8 @@ unified-extensions-empty-reason-private-browsing-not-allowed = 拡張機能は�
 unified-extensions-empty-reason-extension-not-enabled = 拡張機能はインストールされていますが、有効になっていません
 # In this headline, “Level up” means to enhance your browsing experience.
 unified-extensions-empty-reason-zero-extensions-onboarding = 拡張機能でブラウジングをレベルアップ
-unified-extensions-empty-content-explain-enable = 設定で有効にするには “{ unified-extensions-item-message-manage }” を選択してください。
-unified-extensions-empty-content-explain-manage = 設定で管理するには “{ unified-extensions-item-message-manage }” を選択してください。
+unified-extensions-empty-content-explain-enable2 = 設定で有効にするには “{ unified-extensions-manage-extensions.label }” を選択してください。
+unified-extensions-empty-content-explain-manage2 = 設定で管理するには “{ unified-extensions-manage-extensions.label }” を選択してください。
 unified-extensions-empty-content-explain-extensions-onboarding = 見た目や動作を変えたり、プライバシーと安全性を向上させたりして、{ -brand-short-name } をパーソナライズしましょう。
 
 ## An extension in the main list
@@ -55,6 +55,9 @@ unified-extensions-context-menu-move-widget-down =
     .label = 下に移動
 
 ## Notifications
+
+unified-extensions-notice-safe-mode =
+    .message = トラブルシューティングモードにより、すべての拡張機能が無効化されました。
 
 # .heading is processed by moz-message-bar to be used as a heading attribute
 unified-extensions-mb-quarantined-domain-message-3 =

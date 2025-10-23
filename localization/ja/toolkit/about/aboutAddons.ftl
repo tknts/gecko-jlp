@@ -206,8 +206,8 @@ addon-sitepermission-host = { $host } のサイト権限
 
 ## These are global warnings
 
-extensions-warning-safe-mode2 =
-    .message = セーフモードによりすべてのアドオンが無効化されています。
+extensions-warning-safe-mode3 =
+    .message = トラブルシューティング モードにより、すべてのアドオンが無効になっています。
 extensions-warning-check-compatibility2 =
     .message = アドオンの互換性チェックが無効になっています。 互換性のないアドオンがインストールされている可能性があります。
 extensions-warning-check-compatibility-button = 有効にする
