@@ -34,12 +34,15 @@ default-profile-name = プロファイル { $number }
 # The word 'original' is used in the sense that it is the initial or starting profile when you install Firefox.
 original-profile-name = オリジナルのプロファイル
 
+default-desktop-shortcut-name = { -brand-short-name }
+
 edit-profile-page-title = プロファイルの編集
 edit-profile-page-header = プロファイルを編集します
 edit-profile-page-profile-name-label = プロファイルの名前
 edit-profile-page-theme-header-2 =
     .label = テーマ
 edit-profile-page-explore-themes = その他のテーマを探す
+edit-profile-page-desktop-shortcut-header = デスクトップにショートカットを作成
 edit-profile-page-avatar-header-2 =
     .label = アバター
 edit-profile-page-delete-button =

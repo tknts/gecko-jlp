@@ -663,7 +663,11 @@ home-new-windows-tabs-description2 = ホームページと新しいウィンド�
 
 ## Home Section - Home Page Customization
 
+home-homepage-header = ホームページ
+
 home-homepage-mode-label = ホームページと新しいウィンドウ
+
+home-homepage-mode-label2 = 新しいウィンドウ
 
 home-newtabs-mode-label = 新しいタブ
 
@@ -682,6 +686,40 @@ home-mode-choice-blank =
 
 home-homepage-custom-url =
     .placeholder = URL を貼り付ける…
+
+# This button is shown when the homepage is managed by an extension and is placed below extension-controlling-homepage.
+home-homepage-manage-extension-button =
+    .label = 拡張機能を管理
+
+# This option leads to the "Custom Homepage" subpage
+home-homepage-custom-homepage-url = 特定のサイトを選択
+
+## Custom Homepage subpage
+
+home-custom-homepage-header = カスタム ホームページ
+
+# Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
+home-custom-homepage-subheader = ウェブサイトのアドレス
+
+home-custom-homepage-address =
+    .placeholder = アドレスを入力
+home-custom-homepage-address-button =
+    .label = アドレスを追加
+
+# Shown when no custom websites/URLs to use as a homepage have been added yet
+home-custom-homepage-no-websites-yet = まだウェブサイトが追加されていません。
+
+# Further options to use when setting the home page. Two action buttons are placed in line with this prompt
+# to replace the current home page with a currently open page or bookmark.
+home-custom-homepage-replace-with = 次の内容に置き換え:
+
+# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with)
+home-custom-homepage-current-pages-button =
+    .label = 現在開いているページ
+
+# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with)
+home-custom-homepage-bookmarks-button =
+    .label = ブックマーク…
 
 # This string has a special case for '1' and [other] (default). If necessary for
 # your language, you can add {$tabCount} to your translations and use the

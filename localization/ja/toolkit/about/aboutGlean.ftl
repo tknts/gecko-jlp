@@ -169,6 +169,36 @@ about-glean-metrics-table-header-type = 型
 about-glean-metrics-table-header-value = 値
 # This message refers to the UI action buttons for a given metric.
 about-glean-metrics-table-header-actions = アクション
+about-glean-metrics-table-settings-button = 設定
+
+# Settings for the metrics table and its visualizations in about:glean
+about-glean-metrics-table-settings-title = メトリクス表の設定
+about-glean-metrics-table-settings-category-general = 一般
+about-glean-metrics-table-settings-hide-empty-value-rows = 値が空の行を非表示にする
+
+about-glean-metrics-table-settings-category-visualizations = 可視化
+# This is a heading that is immediately followed by an example data visualization
+about-glean-metrics-table-settings-visualization-example = サンプル
+
+about-glean-metrics-table-settings-category-visualizations-histogram = ヒストグラム
+about-glean-metrics-table-settings-histograms-chart-max = グラフの最大高さ
+# The maximum height after to which the y-values on the chart will be scaled
+about-glean-metrics-table-settings-histograms-scaled-max = スケーリング後の最大高さ
+about-glean-metrics-table-settings-histograms-box-padding = ボックスの余白
+about-glean-metrics-table-settings-histograms-chart-padding = グラフの余白
+about-glean-metrics-table-settings-histograms-left-padding = 左側の追加余白
+
+about-glean-metrics-table-settings-category-visualizations-timeline = タイムライン
+about-glean-metrics-table-settings-timelines-height = 高さ
+about-glean-metrics-table-settings-timelines-width = 幅
+about-glean-metrics-table-settings-timelines-chart-padding = グラフの余白
+# The radius of each circle denoting individual events recorded for an event metric
+about-glean-metrics-table-settings-timelines-circle-radius = イベントを示す円の半径
+# The offset on the x-axis from the end of the horizontal line for the y-axis line
+about-glean-metrics-table-settings-timelines-vertical-line-x-offset = Y 軸線の X 方向オフセット
+# The offset on the x-axis from the end of the horizontal line for the y-axis line
+about-glean-metrics-table-settings-timelines-vertical-line-y-offset = Y 軸線の Y 方向オフセット
+
 
 # Label displayed near an input field that can be used to filter metrics
 about-glean-label-for-filter-metrics = フィルター

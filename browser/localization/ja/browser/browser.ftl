@@ -1337,7 +1337,12 @@ onboarding-aw-finish-setup-button =
 
 onboarding-checklist-button-label = セットアップを完了する
 
-## The urlbar trust panel
+## The urlbar trust icon & panel
+
+# LOCALIZATION NOTE (trustpanel-urlbar-notsecure-label):
+# Keep this string as short as possible, this is displayed in the URL bar
+# use a synonym for "safe" or "private" if "secure" is too long.
+urlbar-trust-icon-notsecure-label = 保護されていません
 
 trustpanel-etp-label-enabled = 強化型トラッキング防止はオンです
 trustpanel-etp-label-disabled = 強化型トラッキング防止はオフです

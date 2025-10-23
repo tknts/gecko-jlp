@@ -36,12 +36,15 @@ certificate-viewer-key-size = 鍵サイズ
 certificate-viewer-inc-locality = 登記地 (市区町村)
 certificate-viewer-locality = 市区町村
 certificate-viewer-location = 場所
+# Log is a noun meaning a record of events.
+certificate-viewer-log-name = ログの名前
+# Log is a noun meaning a record of events.
 certificate-viewer-logid = ログ ID
 certificate-viewer-method = メソッド
 certificate-viewer-modulus = 法
 certificate-viewer-name = 名前
-certificate-viewer-not-after = 有効期限（まで）
-certificate-viewer-not-before = 有効期限（から）
+certificate-viewer-not-after = 有効期限 (まで)
+certificate-viewer-not-before = 有効期限 (から)
 certificate-viewer-organization = 組織
 certificate-viewer-organizational-unit = 組織単位
 certificate-viewer-policy = ポリシー

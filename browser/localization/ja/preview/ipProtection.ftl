@@ -51,11 +51,9 @@ ipprotection-connection-status-off =
 # When VPN is toggled on
 ipprotection-toggle-active =
   .aria-label = VPN を無効にする
-  .title = VPN は有効に設定されいます
 # When VPN is toggled off
 ipprotection-toggle-inactive =
   .aria-label = VPN を有効にする
-  .title = VPN は無効に設定されいます
 
 # Location refers to the VPN server geographical position.
 ipprotection-location-title =
@@ -75,5 +73,29 @@ sign-in-vpn = 次へ
 ipprotection-message-generic-error =
   .heading = 問題が発生しました
   .message = VPN 接続でエラーが発生しました。後でもう一度お試しください。
+
+## IP Protection Settings
+
+ip-protection-description =
+  .label = { -firefox-vpn-brand-name }
+  .description = { -brand-short-name } での閲覧時に、あなたの位置情報を隠し、通信を追加の暗号化で保護します。
+ip-protection-learn-more = さらに詳しく
+
+ip-protection-site-exceptions =
+  .label = VPN を使用するサイト
+  .description = 選択したサイトを除くすべてのウェブサイトで VPN を使用するか、特定のサイトのみで VPN を使用します。
+ip-protection-site-exceptions-all-sites-radio =
+  .label = すべてのウェブサイト (既定)
+ip-protection-site-exceptions-all-sites-button =
+  .label = これらのウェブサイトでは { -firefox-vpn-brand-name } を使用しません
+  .description = ウェブサイトはまだ追加されていません
+
+# "Select" is an adjective here to describe a setting that allows running the VPN on certain sites only.
+# Not to be confused with the action of selecting a site, which is not at all applicable to this setting.
+ip-protection-site-exceptions-select-sites-radio =
+  .label = ウェブサイトを選択
+ip-protection-site-exceptions-select-sites-button =
+  .label = これらのウェブサイトでは { -firefox-vpn-brand-name } が使用されます
+  .description = ウェブサイトはまだ追加されていません
 
 ##
