@@ -34,10 +34,15 @@ options-show-user-agent-styles-label = ブラウザのスタイルを表示
 options-show-user-agent-styles-tooltip =
     .title = これをオンにすると、ブラウザによって読み込まれるデフォルトのスタイルが表示されます。 
 
+# The label for the checkbox option to show all anonymous content
+options-show-user-agent-shadow-dom-label = ブラウザの Shadow DOM を表示
+options-show-user-agent-shadow-dom-tooltip =
+    .title = 有効にすると、ブラウザによって処理される Shadow DOM 要素が表示されます。
+
 # The label for the checkbox option to enable collapse attributes
-options-collapse-attrs-label = Truncate DOM attributes
+options-collapse-attrs-label = DOM 属性を省略表示
 options-collapse-attrs-tooltip =
-    .title = インスペクタで長い属性を切り捨てる
+    .title = インスペクタで長い属性値を省略表示します。
 
 # The label for the checkbox option to enable the "drag to update" feature
 options-inspector-draggable-properties-label = クリックとドラッグでサイズ値を編集
@@ -164,5 +169,10 @@ options-source-maps-label = ソースマップを有効化
 options-source-maps-tooltip =
     .title = このオプションを有効にすると、ツールにソースがマッピングされます。
 
+# The message shown for settings that trigger page reload and will only apply to the current session
+# This appears underneath the applicable options (e.g. options-disable-javascript-label-2).
+options-context-triggers-page-refresh-temporary = (現在のセッションのみ、ページを再読み込みします)
+
 # The message shown for settings that trigger page reload
-options-context-triggers-page-refresh = * 現在のセッションのみ、ページを再読み込みする
+# This appears underneath the applicable options (e.g. options-show-user-agent-shadow-dom-label).
+options-context-triggers-page-refresh-persists = (ページを再読み込みします)

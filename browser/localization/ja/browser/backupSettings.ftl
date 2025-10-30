@@ -23,8 +23,12 @@ backup-file-name = { -brand-product-name }Backup
 
 settings-data-backup-header = バックアップ
 settings-data-backup-toggle = バックアップを管理
+settings-data-backup-toggle-on = バックアップを有効
+settings-data-backup-toggle-off = バックアップを無効
 settings-data-backup-trigger-button = 今すぐバックアップ
 settings-data-backup-in-progress-button = バックアップしています…
+settings-data-backup-in-progress-message =
+    .message = バックアップしています…
 settings-data-backup-scheduled-backups-on = バックアップ: ON
 settings-data-backup-scheduled-backups-off = バックアップ: OFF
 settings-data-backup-scheduled-backups-description = ブックマーク、履歴、その他のデータを自動的に保護します。<a data-l10n-name="support-link">さらに詳しく</a>
@@ -34,6 +38,8 @@ settings-data-backup-last-backup-location = 保存先
 settings-data-backup-last-backup-location-show-in-folder = フォルダーで表示
 settings-data-backup-last-backup-location-edit = 編集…
 settings-data-create-backup-error = { DATETIME($date, dateStyle: "short") } { DATETIME($date, timeStyle: "short") } にバックアップの作成中にエラーが発生しました。
+
+settings-sensitive-data-encryption-description = パスワードや支払い方法をバックアップし、さらに暗号化によってすべてのデータを安全に保ちましょう。
 
 # Variables:
 #   $fileName (String) - The file name of the last backup that was created.
@@ -52,7 +58,6 @@ settings-data-backup-scheduled-backups-on-restore-description = 前回バック�
 settings-data-backup-scheduled-backups-on-restore-choose = 復元…
 
 settings-data-toggle-encryption-label = 機密データをバックアップ
-settings-data-toggle-encryption-description = パスワード、決済方法、Cookie を暗号化してバックアップします。
 settings-data-toggle-encryption-support-link = さらに詳しく
 
 settings-data-change-password = パスワードを変更…
@@ -60,7 +65,7 @@ settings-data-change-password = パスワードを変更…
 ## These strings are displayed in a modal when users want to turn on scheduled backups.
 
 turn-on-scheduled-backups-header = バックアップをオンにする
-turn-on-scheduled-backups-description = { -brand-short-name } will create a snapshot of your data every 60 minutes. You can restore it if there’s a problem or you get a new device.
+turn-on-scheduled-backups-description = { -brand-short-name } は、24時間ごとにデータのスナップショットを作成します。問題が発生した場合や新しいデバイスに買い替えた場合などに、このスナップショットを使ってデータを復元できます。
 turn-on-scheduled-backups-support-link = 何がバックアップされますか?
 
 # "Location" refers to the save location or a folder where users want backups stored.
@@ -76,7 +81,6 @@ turn-on-scheduled-backups-location-choose-button =
     }
 
 turn-on-scheduled-backups-encryption-label = 機密データをバックアップ
-turn-on-scheduled-backups-encryption-description = Back up your passwords, payment methods, and cookies with encryption.
 turn-on-scheduled-backups-encryption-create-password-label = パスワード
 # Users will be prompted to re-type a password, to ensure that the password is entered correctly.
 turn-on-scheduled-backups-encryption-repeat-password-label = 確認用パスワード
@@ -161,14 +165,13 @@ backup-service-error-recovery-failed =
 
 # There was some error in the backup service but we don't have a more specific
 # idea of what went wrong
-backup-service-error-went-wrong =
-    .heading = 問題が発生しました
-    .message = { -brand-short-name } のバックアップ処理で問題が発生しました。もう一度お試しいただくか、{ -brand-short-name } を再起動してください。
+backup-service-error-went-wrong2 =
+    .heading = バックアップ中に問題が発生しました。
+    .message = 数分後にもう一度お試しください。
 
 ## These strings are displayed in a modal when users want to enable encryption or change the password for an existing backup.
 
 enable-backup-encryption-header = 機密データをバックアップする
-enable-backup-encryption-description = パスワード、決済方法、Cookie をバックアップし、暗号化によってすべてのデータを安全に保管します。
 enable-backup-encryption-support-link = さらに詳しく
 
 enable-backup-encryption-create-password-label = パスワード
@@ -199,7 +202,7 @@ password-rules-a11y-warning =
 ## These strings are displayed in a modal when users want to disable encryption for an existing backup.
 
 disable-backup-encryption-header = パスワードによる保護を削除する
-disable-backup-encryption-description = 保存されたパスワード、決済の方法、Cookie はバックアップされなくなります。
+disable-backup-encryption-description2 = 保存されているパスワードや支払い方法もバックアップされなくなります。
 disable-backup-encryption-support-link = 何がバックアップされますか?
 
 disable-backup-encryption-cancel-button = キャンセル
@@ -270,3 +273,8 @@ other-backup-files-founds =
 #   $date (Datetime) - The date the backup was created
 #   $machineName (String) - Name of the machine that the backup was created on.
 backup-file-creation-date-and-device = { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } に { $machineName } で作成
+
+backup-file-restore-file-validation-error = このファイルは正常に動作しません。別のファイルを選択してみてください。<a data-l10n-name="restore-problems">まだ問題が解決しませんか?</a>
+
+restore-from-backup-filepicker-input =
+    .placeholder = ファイルが選択されていません
