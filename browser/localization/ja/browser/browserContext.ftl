@@ -181,7 +181,7 @@ main-context-menu-copy-phone =
 
 main-context-menu-preview-link =
     .label = リンクをプレビュー
-    .accesskey = r
+    .accesskey = J
 
 # "Copy Clean Link" means that Firefox will remove things from the link you
 # copied, like items that identify you for advertising purposes, and other items
@@ -362,10 +362,6 @@ main-context-menu-suggest-strong-password =
 main-context-menu-manage-passwords =
     .label = パスワードを管理
     .accesskey = M
-
-main-context-menu-keyword =
-    .label = この検索にキーワードを設定…
-    .accesskey = K
 
 main-context-menu-add-engine =
     .label = 検索エンジンを追加

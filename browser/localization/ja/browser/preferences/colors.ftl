@@ -9,18 +9,22 @@ colors-dialog2 =
 colors-close-key =
     .key = w
 
-colors-text-and-background = 文字色と背景色
+colors-text-and-background = 文字と背景
 
-colors-text-header = 文字色
+colors-text =
+    .label = 文字
     .accesskey = T
 
-colors-background = 背景色
+colors-text-background =
+    .label = 背景
     .accesskey = B
 
 colors-links-header = リンクの色
 
-colors-unvisited-links = 未訪問のリンク
+colors-links-unvisited =
+    .label = 未訪問のリンク
     .accesskey = L
 
-colors-visited-links = 訪問済みのリンク
+colors-links-visited =
+    .label = 訪問済みのリンク
     .accesskey = V

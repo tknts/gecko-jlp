@@ -7,6 +7,9 @@
 #  Full infobar message, with inline links to the Terms of Use and Privacy Notice that will be added at runtime.
 existing-user-tou-message = <strong>重要な告知</strong> { -brand-short-name } の <a data-l10n-name="terms-of-use-link">利用規約</a> を新たに導入し、<a data-l10n-name="privacy-notice-link">プライバシー通知</a> を更新しました。ご確認のうえ、同意をお願いします。
 
+# Infobar message for when the Privacy Notice is updated.
+existing-user-privacy-notice-update-message = { -brand-short-name } の最新機能に合わせて、<a data-l10n-name="privacy-notice-link">プライバシーに関する通知</a>を更新しました。
+
 # Text for secondary button linking to FAQ page
 existing-user-tou-learn-more = さらに詳しく
 

@@ -124,6 +124,10 @@ extension-controlling-proxy-config = <img data-l10n-name ="icon"/> <strong>{ $na
 # <img data-l10n-name="menu-icon"/> will be replaced with Menu icon
 extension-controlled-enable = 拡張機能を有効にするには、<img data-l10n-name="menu-icon"/> メニューから <img data-l10n-name="addons-icon"/> アドオンを開きます。
 
+# This string is shown to notify the user that their home page or new tab preferences
+# are being controlled by an extension.
+extension-controlling-homepage = { $name } が一部のホームページ設定を管理しています。
+
 ## Preferences UI Search Results
 
 search-results-header = 検索結果
@@ -739,11 +743,14 @@ choose-bookmark =
 
 ## Home Section - Firefox Home Content Customization
 
-home-prefs-content-header2 = { -firefox-home-brand-name } コンテンツ
-home-prefs-content-description2 = { -firefox-home-brand-name } に表示するコンテンツを選びましょう。
+home-prefs-content-header2 = { -firefox-home-brand-name } のコンテンツ
+home-prefs-content-header3 = { -firefox-home-brand-name }
+home-prefs-content-description2 = { -firefox-home-brand-name } 画面に表示するコンテンツを選択してください。
 
 home-prefs-search-header =
     .label = ウェブ検索
+home-prefs-search-header2 =
+    .label = 検索
 home-prefs-shortcuts-header =
     .label = ショートカット
 home-prefs-shortcuts-description = 保存またはアクセスできるサイト
@@ -753,6 +760,10 @@ home-prefs-shortcuts-by-option-sponsored =
 home-prefs-recommended-by-header-generic =
     .label = おすすめのストーリー
 home-prefs-recommended-by-description-generic = { -brand-product-name } によって厳選された優れたコンテンツ
+
+home-prefs-stories-header =
+    .label = ストーリー
+home-prefs-stories-description = あなたのアクティビティに基づいたパーソナライズされた記事
 
 ##
 
@@ -785,6 +796,9 @@ home-prefs-support-firefox-header =
 
 home-prefs-mission-message = り良いウェブを構築するという私たちの使命を、スポンサーの皆様がサポートしてくださっています
 home-prefs-mission-message-learn-more-link = 詳細はこちら
+
+home-prefs-manage-topics-link = トピックを管理
+home-prefs-choose-wallpaper-link = 壁紙を選択
 
 # Variables:
 #   $num (number) - Number of rows displayed
@@ -1283,13 +1297,13 @@ cookie-banner-blocker-checkbox-label =
 
 addressbar-header = アドレスバー
 
-addressbar-suggest = アドレスバーに表示する候補
+addressbar-suggest-1 = アドレスバーに表示する候補を選択してください
 
 # When Firefox Suggest is enabled, this replaces `addressbar-header`.
-addressbar-header-firefox-suggest = アドレス バー — { -firefox-suggest-brand-name }
+addressbar-header-firefox-suggest-1 = { -firefox-suggest-brand-name }
 
 # When Firefox Suggest is enabled, this replaces `addressbar-suggest`.
-addressbar-suggest-firefox-suggest = アドレスバーに表示されるサジェストの種類を選択します:
+addressbar-suggest-firefox-suggest-1 = { -brand-short-name } とパートナーからの候補をアドレスバーに表示します。
 
 # When Firefox Suggest is enabled, a "Learn more" link appears at the end of
 # `addressbar-suggest-firefox-suggest`.
@@ -1327,14 +1341,23 @@ addressbar-locbar-showtrendingsuggestions-option =
     .label = トレンド検索の候補を表示する
     .accesskey = t
 
-# Nonsponsored suggestions refers to Firefox Suggest suggestions like Wikipedia.
-addressbar-locbar-suggest-nonsponsored-option =
-  .label = { -brand-short-name } からのサジェスト
-addressbar-locbar-suggest-nonsponsored-desc = 検索に関連するウェブからのサジェストを取得します。
+# Toggles whether suggestions are obtained from Firefox Suggest or not (local or online).
+addressbar-locbar-suggest-all-option =
+  .label = { -brand-short-name } からの候補
+addressbar-locbar-suggest-all-option-desc = 検索に関連するウェブ上の候補を取得します。
 
 addressbar-locbar-suggest-sponsored-option =
   .label = スポンサーからのサジェスト
 addressbar-locbar-suggest-sponsored-desc = 時折表示されるスポンサー付きのサジェストを通じて { -brand-short-name } をサポートしてください。
+
+# This string is used for a checkbox in the settings UI that opts the
+# user into "online" Firefox Suggest, allowing them to receive suggestions from
+# Mozilla's Merino server.
+# "Mozilla" is intentionally hardcoded to prevent forks from replacing it
+# with their own vendor name, since the online suggest is created and maintained
+# by Mozilla.
+addressbar-firefox-suggest-online =
+  .label = 入力中に Mozilla から候補を取得する
 
 addressbar-quickactions-learn-more = さらに詳しく
 
