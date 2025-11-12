@@ -95,11 +95,6 @@ newtab-menu-section-tooltip =
     .title = メニューを開きます
     .aria-label = メニューを開きます
 
-# Tooltip for dismiss button
-newtab-dismiss-button-tooltip =
-    .title = 削除します
-    .aria-label = 削除します
-
 # This tooltip is for the context menu of Pocket cards or Topsites
 # Variables:
 #   $title (string) - The label or hostname of the site. This is for screen readers when the context menu button is focused/active.
@@ -626,9 +621,6 @@ newtab-widget-timer-menu-notifications = 通知を無効にする
 newtab-widget-timer-menu-notifications-on = 通知を有効にする
 newtab-widget-timer-menu-hide = タイマーを非表示
 newtab-widget-timer-menu-learn-more = さらに詳しく
-
-# Message that appears when widgets are full-height. This reminds users that there is more New Tab content to see if they scroll
-newtab-widget-keep-scrolling = 続きを表示するにはスクロール
 
 newtab-widget-message-title = リストと内蔵タイマーで集中力を維持
 # to-dos stands for "things to do".

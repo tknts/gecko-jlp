@@ -93,6 +93,10 @@ move-to-end =
 move-to-new-window =
     .label = 新しいウィンドウへ移動
     .accesskey = W
+# Variables
+#  $profileName (string): The name of the profile to move tab to
+move-to-new-profile =
+    .label = { $profileName } に移動
 tab-context-close-multiple-tabs =
     .label = 複数のタブを閉じる
     .accesskey = M

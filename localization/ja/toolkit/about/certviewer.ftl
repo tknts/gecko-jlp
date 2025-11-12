@@ -124,4 +124,3 @@ certificate-viewer-tab-mine = あなたの証明書
 certificate-viewer-tab-people = People
 certificate-viewer-tab-servers = サーバー
 certificate-viewer-tab-ca = 発行者
-certificate-viewer-tab-unkonwn = 不明

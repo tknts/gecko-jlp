@@ -124,6 +124,7 @@ extension-controlling-proxy-config = <img data-l10n-name ="icon"/> <strong>{ $na
 # <img data-l10n-name="menu-icon"/> will be replaced with Menu icon
 extension-controlled-enable = 拡張機能を有効にするには、<img data-l10n-name="menu-icon"/> メニューから <img data-l10n-name="addons-icon"/> アドオンを開きます。
 
+extension-controlled-enable-2 = この拡張機能を再度有効にするには、<a data-l10n-name="addons-link">拡張機能とテーマ</a> を開いてください。
 # This string is shown to notify the user that their home page or new tab preferences
 # are being controlled by an extension.
 extension-controlling-homepage = { $name } が一部のホームページ設定を管理しています。
@@ -790,6 +791,14 @@ home-prefs-trending-search-header =
     .label = トレンド検索
 home-prefs-trending-search-description = 人気があり頻繁に検索されるトピック
 
+# Lists is a widget on New Tab, similar to a to-do widget
+home-prefs-lists-header =
+    .label = リスト
+
+# Timer is a widget on New Tab, similar to the Pomodoro timer.
+home-prefs-timer-header =
+    .label = タイマー
+
 # "Support" here means to help sustain or contribute to something, especially through funding or sponsorship.
 home-prefs-support-firefox-header =
     .label = { -brand-product-name } をサポートする
@@ -896,6 +905,8 @@ remove-addon-engine-alert = この検索エンジンを削除するには、関�
 containers-back-button2 =
     .aria-label = 設定に戻る
 containers-header = コンテナー タブ
+containers-section-header =
+    .heading = コンテナー タブ
 containers-add-button =
     .label = 新しいコンテナーを追加
     .accesskey = A
@@ -1055,6 +1066,16 @@ sync-engine-settings =
 ## The device name controls.
 
 sync-device-name-header = デバイスの名前
+
+# Variables:
+#   $placeholder (string) - The placeholder text of the input
+sync-device-name-input =
+    .aria-label = デバイスの名前
+    .placeholder = { $placeholder }
+
+sync-device-name-change-2 =
+    .label = デバイスの名前を変更
+    .accesskey = h
 
 sync-device-name-change =
     .label = デバイスの名前を変更…
