@@ -97,6 +97,11 @@ ip-protection-autostart-checkbox =
 ip-protection-autostart-private-checkbox =
   .label = プライベートウィンドウを使用している時
 
+ip-protection-contact-support-link =
+  .label = サポートに問い合わせる
+ip-protection-upgrade-link =
+  .label = { -mozilla-vpn-brand-name } にアップグレード
+
 # "Select" is an adjective here to describe a setting that allows running the VPN on certain sites only.
 # Not to be confused with the action of selecting a site, which is not at all applicable to this setting.
 ip-protection-site-exceptions-select-sites-radio =
@@ -104,5 +109,15 @@ ip-protection-site-exceptions-select-sites-radio =
 ip-protection-site-exceptions-select-sites-button =
   .label = これらのウェブサイトでは { -firefox-vpn-brand-name } が使用されます
   .description = ウェブサイトはまだ追加されていません
+
+## IP Protection dialogs
+
+ip-protection-exceptions-dialog-window =
+  .title = { -firefox-vpn-brand-name } を使用するサイト
+ip-protection-exclusions-desc = このリストにあるサイトを除くすべてのサイトで VPN を使用します。
+ip-protection-inclusions-desc = 指定したサイトでのみ VPN を使用します。
+
+ipprotection-site-settings-title =
+  .title = VPN サイト設定
 
 ##

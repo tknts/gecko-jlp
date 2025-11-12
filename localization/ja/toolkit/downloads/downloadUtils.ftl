@@ -95,12 +95,5 @@ download-utils-time-left-double = 残り { $time1 } { $time2 }
 download-utils-time-few-seconds = もうすぐ終わります
 download-utils-time-unknown = 残り時間が不明です
 
-# Variables:
-#   $scheme (string) - URI scheme like data: jar: about:
-download-utils-done-scheme = { $scheme } resource
-# Special case of done-scheme for file:
-# This is used as an eTLD replacement for local files, so make it lower case
-download-utils-done-file-scheme = ローカルファイル
-
 # Displayed time for files finished yesterday
 download-utils-yesterday = 昨日

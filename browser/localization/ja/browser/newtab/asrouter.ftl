@@ -79,6 +79,9 @@ fxa-adoption-addresses-backup-title = 保存した住所をバックアップし
 fxa-adoption-addresses-backup-subtitle = 保存した住所を暗号化してデバイス間で同期し、保護します。
 fxa-adoption-credit-cards-backup-title = お支払い方法をバックアップしましょう
 fxa-adoption-credit-cards-backup-subtitle = お支払い方法を暗号化してデバイス間で同期し、保護します。
+fxa-adoption-bookmarks-treatment-backup-title = ブックマークをバックアップしましょう
+fxa-adoption-bookmarks-treatment-backup-subtitle = ブックマークを暗号化してデバイス間で同期し、安全に保護します。
+
 fxa-adoption-primary-button-label = サインアップ
 
 ## What's New toolbar button and panel
@@ -276,9 +279,9 @@ launch-on-login-infobar-final-reject-button = 必要ありません
 # In English, this is a figure of speech meaning 'stop something from following you'.
 # If the localization of this message is challenging, consider using a simplified
 # alternative as a reference for translation: 'Keep unwanted trackers away'.
-tail-fox-spotlight-title = Keep pesky trackers off your tail
-tail-fox-spotlight-subtitle = Say goodbye to annoying ad trackers and settle into a safer, speedy internet experience.
-tail-fox-spotlight-primary-button = { -brand-short-name } でリンクを開きます
+tail-fox-spotlight-title = 面倒なトラッカーをブロック
+tail-fox-spotlight-subtitle = 迷惑な広告トラッカーにさようなら。もっと安全で高速なインターネット体験を。
+tail-fox-spotlight-primary-button = リンクを { -brand-short-name } で開く
 tail-fox-spotlight-secondary-button = 今はしない
 
 ## Root Certificate Succession Infobar

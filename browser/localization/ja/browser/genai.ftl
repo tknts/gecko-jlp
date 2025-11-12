@@ -250,3 +250,9 @@ link-preview-onboarding-button = プレビューを見る
 
 # Onboarding card Close button
 link-preview-onboarding-close = 閉じる
+
+# Title for the first-time setup modal
+link-preview-first-time-setup-title = 初回セットアップ
+
+# Message for the first-time setup modal
+link-preview-first-time-setup-message = 少し時間がかかることがあります。次回からは重要なポイントをすぐに確認できます。

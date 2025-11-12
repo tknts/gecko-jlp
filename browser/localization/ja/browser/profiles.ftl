@@ -43,6 +43,8 @@ edit-profile-page-theme-header-2 =
     .label = テーマ
 edit-profile-page-explore-themes = その他のテーマを探す
 edit-profile-page-desktop-shortcut-header = デスクトップにショートカットを作成
+edit-profile-page-desktop-shortcut-toggle =
+    .aria-label = デスクトップにショートカットを作成します
 edit-profile-page-avatar-header-2 =
     .label = アバター
 edit-profile-page-delete-button =
@@ -73,6 +75,11 @@ new-profile-page-input-placeholder =
     .placeholder = “仕事用”  や “個人用” などの名前を選びます
 new-profile-page-done-button =
     .label = 編集を完了
+
+# Variables
+#   $profilename (String) - The name of the copied profile.
+copied-profile-page-header =  { $profilename } のコピーのカスタマイズを始めましょう
+copied-profile-page-header-description = データと設定を新しいプロファイルにコピーしました。名前を付けて、見た目を選び、自分好みに仕上げましょう。
 
 ## Delete profile dialogue that allows users to review what they will lose if they choose to delete their profile. Each item (open windows, etc.) is displayed in a table, followed by a column with the number of items.
 

@@ -32,7 +32,7 @@ unified-extensions-item-message-manage = 拡張機能を管理
 
 # Variables:
 #   $extensionName (String) - Name of the user-enabled soft-blocked extension.
-unified-extensions-item-messagebar-softblocked = { $extensionName } は Mozilla のポリシーに違反しています。使用にはリスクが伴う可能性があります。
+unified-extensions-item-messagebar-softblocked2 = { $extensionName } は制限されています。使用すると危険な場合があります。
 
 ## Extension's context menu
 
