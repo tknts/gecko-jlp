@@ -24,12 +24,12 @@ about-webauthn-bio-enrollment-section-title = 生体認証の登録
 
 about-webauthn-text-connect-device = セキュリティトークンを接続してください。
 # If multiple devices are plugged in, they will blink and we are asking the user to select one by touching the device they want.
-about-webauthn-text-select-device = Please select your desired security token by touching the device.
+about-webauthn-text-select-device = デバイスに触れて、目的のセキュリティトークンを選択してください。
 # CTAP2 refers to Client to Authenticator Protocol version 2
-about-webauthn-text-non-ctap2-device = Unable to manage options because your security token does not support CTAP2.
-about-webauthn-text-not-available = Not available on this platform.
-about-webauthn-bio-enrollment-list-subsection-title = 登録数:
-about-webauthn-add-bio-enrollment-section-title = 新規登録の追加
+about-webauthn-text-non-ctap2-device = お使いのセキュリティトークンは CTAP2 に対応していないため、オプションを管理できません。
+about-webauthn-text-not-available = このプラットフォームでは利用できません。
+about-webauthn-bio-enrollment-list-subsection-title = 登録済みの生体認証:
+about-webauthn-add-bio-enrollment-section-title = 新しい生体認証の登録を追加
 
 ## Results label
 
@@ -80,29 +80,29 @@ about-webauthn-update-button = 更新
 ## Authenticator options fields
 ## Option fields correspond to the CTAP2 option IDs and definitions found in https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-20210615.html#option-id
 
-about-webauthn-auth-option-uv = ユーザー認証
-about-webauthn-auth-option-up = User presence
-about-webauthn-auth-option-clientpin = Client PIN
-about-webauthn-auth-option-rk = Resident key
-about-webauthn-auth-option-plat = Platform device
+about-webauthn-auth-option-uv = ユーザー検証
+about-webauthn-auth-option-up = ユーザーの存在
+about-webauthn-auth-option-clientpin = クライアント PIN
+about-webauthn-auth-option-rk = 常駐キー
+about-webauthn-auth-option-plat = プラットフォームデバイス
 # pinUvAuthToken should not be translated.
-about-webauthn-auth-option-pinuvauthtoken = Command permissions (pinUvAuthToken)
+about-webauthn-auth-option-pinuvauthtoken = コマンド権限 (pinUvAuthToken)
 # MakeCredential and GetAssertion should not be translated.
-about-webauthn-auth-option-nomcgapermissionswithclientpin = No MakeCredential / GetAssertion permissions with client PIN
-about-webauthn-auth-option-largeblobs = Large blobs
-about-webauthn-auth-option-ep = Enterprise attestation
-about-webauthn-auth-option-bioenroll = Biometric enrollment
+about-webauthn-auth-option-nomcgapermissionswithclientpin = クライアント PIN を使用した MakeCredential / GetAssertion 権限なし
+about-webauthn-auth-option-largeblobs = ラージブロブ
+about-webauthn-auth-option-ep = エンタープライズ認証証明
+about-webauthn-auth-option-bioenroll = 生体認証の登録
 # FIDO_2_1_PRE should not be translated.
-about-webauthn-auth-option-userverificationmgmtpreview = Prototype of biometric enrollment (FIDO_2_1_PRE)
-about-webauthn-auth-option-uvbioenroll = Biometric enrollment permission
-about-webauthn-auth-option-authnrcfg = Authenticator config
-about-webauthn-auth-option-uvacfg = Authenticator config permission
-about-webauthn-auth-option-credmgmt = Credential management
-about-webauthn-auth-option-credentialmgmtpreview = Prototype credential management
-about-webauthn-auth-option-setminpinlength = Set minimum PIN length
+about-webauthn-auth-option-userverificationmgmtpreview = 生体認証の登録プロトタイプ (FIDO_2_1_PRE)
+about-webauthn-auth-option-uvbioenroll = 生体認証の登録権限
+about-webauthn-auth-option-authnrcfg = オーセンティケーター設定
+about-webauthn-auth-option-uvacfg = オーセンティケーター設定の権限
+about-webauthn-auth-option-credmgmt = クレデンシャル管理
+about-webauthn-auth-option-credentialmgmtpreview = クレデンシャル管理プロトタイプ
+about-webauthn-auth-option-setminpinlength = 最小 PIN 長の設定
 # MakeCredential should not be translated.
-about-webauthn-auth-option-makecreduvnotrqd = MakeCredential without user verification
-about-webauthn-auth-option-alwaysuv = Always require user verification
+about-webauthn-auth-option-makecreduvnotrqd = ユーザー検証なしでの MakeCredential
+about-webauthn-auth-option-alwaysuv = 常にユーザー検証を要求
 # Shows when boolean value for an option is True. True should not be translated.
 about-webauthn-auth-option-true = True
 # Shows when boolean value of an option is False. False should not be translated.
@@ -113,26 +113,26 @@ about-webauthn-auth-option-null = 対応していません
 ## Authenticator info fields
 ## Info fields correspond to the CTAP2 authenticatorGetInfo field member name and definitions found in https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-20210615.html#authenticatorGetInfo
 
-about-webauthn-auth-info-vendor-prototype-config-commands = Vendor prototype config commands
-about-webauthn-auth-info-remaining-discoverable-credentials = Remaining discoverable credentials
-about-webauthn-auth-info-certifications = Certifications
-about-webauthn-auth-info-uv-modality = User verification modality
-about-webauthn-auth-info-preferred-platform-uv-attempts = Preferred platform user verification attempts
-about-webauthn-auth-info-max-rpids-for-set-min-pin-length = Max relying party IDs for set minimum PIN length
-about-webauthn-auth-info-max-cred-blob-length = Max credential blob length
-about-webauthn-auth-info-firmware-version = ファームウェアのバージョン
-about-webauthn-auth-info-min-pin-length = PIN の最小文字数
-about-webauthn-auth-info-force-pin-change = PIN の変更を強制する
-about-webauthn-auth-info-max-ser-large-blob-array = Max size of large blob array
+about-webauthn-auth-info-vendor-prototype-config-commands = ベンダープロトタイプ設定コマンド
+about-webauthn-auth-info-remaining-discoverable-credentials = 残りの発見可能なクレデンシャル
+about-webauthn-auth-info-certifications = 認証
+about-webauthn-auth-info-uv-modality = ユーザー検証のモダリティ
+about-webauthn-auth-info-preferred-platform-uv-attempts = プラットフォームユーザー検証の推奨試行回数
+about-webauthn-auth-info-max-rpids-for-set-min-pin-length = 最小 PIN 長設定のための Relying Party ID の最大数
+about-webauthn-auth-info-max-cred-blob-length = クレデンシャルブロブの最大長
+about-webauthn-auth-info-firmware-version = ファームウェアバージョン
+about-webauthn-auth-info-min-pin-length = 最小 PIN 長
+about-webauthn-auth-info-force-pin-change = PIN 変更の強制
+about-webauthn-auth-info-max-ser-large-blob-array = ラージブロブ配列の最大サイズ
 about-webauthn-auth-info-algorithms = アルゴリズム
-about-webauthn-auth-info-transports = Transports
-about-webauthn-auth-info-max-credential-id-length = Max credential ID length
-about-webauthn-auth-info-max-credential-count-in-list = Max credential count in list
-about-webauthn-auth-info-pin-protocols = PIN のプロトコル
-about-webauthn-auth-info-max-msg-size = Max message size
+about-webauthn-auth-info-transports = トランスポート
+about-webauthn-auth-info-max-credential-id-length = クレデンシャル ID の最大長
+about-webauthn-auth-info-max-credential-count-in-list = リスト内のクレデンシャルの最大数
+about-webauthn-auth-info-pin-protocols = PIN プロトコル
+about-webauthn-auth-info-max-msg-size = 最大メッセージサイズ
 # AAGUID should not be translated.
 about-webauthn-auth-info-aaguid = AAGUID
-about-webauthn-auth-info-extensions = Extensions
+about-webauthn-auth-info-extensions = 拡張機能
 about-webauthn-auth-info-versions = バージョン
 # Shows when boolean value for an info field is True. True should not be translated.
 about-webauthn-auth-info-true = True
@@ -149,33 +149,32 @@ about-webauthn-auth-info-null = 対応していません
 #  $repeatCount (Number): number of tries left
 about-webauthn-samples-still-needed =
     { $repeatCount ->
-        [one] { $repeatCount } sample still needed.
-       *[other] { $repeatCount } samples still needed.
+        [one] あと { $repeatCount } 回スキャンが必要です。
+       *[other] あと { $repeatCount } 回スキャンが必要です。
     }
 
 # Scan (e.g. of fingerprint) was successful.
-about-webauthn-ctap2-enroll-feedback-good = Sample was good.
+about-webauthn-ctap2-enroll-feedback-good = スキャンは良好でした。
 
 ## Scan (e.g. of fingerprint) was off-center (e.g. too high, too left, etc.).
 
-about-webauthn-ctap2-enroll-feedback-too-high = Sample was too high.
-about-webauthn-ctap2-enroll-feedback-too-low = Sample was too low.
-about-webauthn-ctap2-enroll-feedback-too-left = Sample was too left.
-about-webauthn-ctap2-enroll-feedback-too-right = Sample was too right.
+about-webauthn-ctap2-enroll-feedback-too-high = スキャン位置が高すぎます。
+about-webauthn-ctap2-enroll-feedback-too-low = スキャン位置が低すぎます。
+about-webauthn-ctap2-enroll-feedback-too-left = スキャン位置が左すぎます。
+about-webauthn-ctap2-enroll-feedback-too-right = スキャン位置が右すぎます。
 
 ##
 
-about-webauthn-ctap2-enroll-feedback-too-fast = Sample was too fast.
-about-webauthn-ctap2-enroll-feedback-too-slow = Sample was too slow.
-about-webauthn-ctap2-enroll-feedback-poor-quality = Sample had poor quality.
+about-webauthn-ctap2-enroll-feedback-too-fast = スキャンが速すぎます。
+about-webauthn-ctap2-enroll-feedback-too-slow = スキャンが遅すぎます。
+about-webauthn-ctap2-enroll-feedback-poor-quality = スキャン品質が低いです。
 # Skewed in the sense of fingerprint/iris scan was too distorted
-about-webauthn-ctap2-enroll-feedback-too-skewed = Sample was too skewed.
-about-webauthn-ctap2-enroll-feedback-too-short = Sample was too short.
+about-webauthn-ctap2-enroll-feedback-too-skewed = スキャンが歪みすぎています。
+about-webauthn-ctap2-enroll-feedback-too-short = スキャンが短すぎます。
 # Scan (e.g. of fingerprint) couldn't be merged with previous samples.
-about-webauthn-ctap2-enroll-feedback-merge-failure = Sample merge failure.
+about-webauthn-ctap2-enroll-feedback-merge-failure = スキャン統合に失敗しました。
 # Scan (e.g. of fingerprint) is somehow identical to an existing sample.
-about-webauthn-ctap2-enroll-feedback-exists = Sample already exists.
-about-webauthn-ctap2-enroll-feedback-no-user-activity = No activity from user.
-about-webauthn-ctap2-enroll-feedback-no-user-presence-transition = User did not complete the sampling as expected.
-about-webauthn-ctap2-enroll-feedback-other = Sample error.
-
+about-webauthn-ctap2-enroll-feedback-exists = 既に登録済みのスキャンです。
+about-webauthn-ctap2-enroll-feedback-no-user-activity = ユーザーの操作がありません。
+about-webauthn-ctap2-enroll-feedback-no-user-presence-transition = ユーザーが想定通りにスキャンを完了しませんでした。
+about-webauthn-ctap2-enroll-feedback-other = スキャンエラー。

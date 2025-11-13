@@ -2,59 +2,59 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-about-telemetry-ping-data-source = Ping data source:
+about-telemetry-ping-data-source = Ping データソース:
 about-telemetry-show-current-data = 現在のデータ
-about-telemetry-show-archived-ping-data = Archived ping data
-about-telemetry-show-subsession-data = Show subsession data
-about-telemetry-choose-ping = Choose ping:
-about-telemetry-archive-ping-type = Ping Type
+about-telemetry-show-archived-ping-data = アーカイブ済み Ping データ
+about-telemetry-show-subsession-data = サブセッションデータを表示
+about-telemetry-choose-ping = Ping を選択:
+about-telemetry-archive-ping-type = Ping タイプ
 about-telemetry-archive-ping-header = Ping
 about-telemetry-option-group-today = 今日
 about-telemetry-option-group-yesterday = 昨日
 about-telemetry-option-group-older = それ以前
 about-telemetry-previous-ping = <<
 about-telemetry-next-ping = >>
-about-telemetry-page-title = Telemetry Data
+about-telemetry-page-title = Telemetry データ
 about-telemetry-current-store = 現在保存されているデータ: 
-about-telemetry-more-information = Looking for more information?
-about-telemetry-firefox-data-doc = The <a data-l10n-name="data-doc-link">Firefox Data Documentation</a> contains guides about how to work with our data tools.
-about-telemetry-telemetry-client-doc = The <a data-l10n-name="client-doc-link">Firefox Telemetry client documentation</a> includes definitions for concepts, API documentation and data references.
-about-telemetry-telemetry-dashboard = The <a data-l10n-name="dashboard-link">Telemetry dashboards</a> allow you to visualize the data Mozilla receives via Telemetry.
-about-telemetry-telemetry-probe-dictionary = The <a data-l10n-name="probe-dictionary-link">Probe Dictionary</a> provides details and descriptions for the probes collected by Telemetry.
-about-telemetry-show-in-Firefox-json-viewer = Open in the JSON viewer
+about-telemetry-more-information = 詳細な情報をお探しですか?
+about-telemetry-firefox-data-doc = <a data-l10n-name="data-doc-link">Firefox データ ドキュメント</a>には、Mozilla のデータツールを活用するためのガイドが含まれています。
+about-telemetry-telemetry-client-doc = <a data-l10n-name="client-doc-link">Firefox Telemetry クライアント ドキュメント</a>には、概念の定義、API ドキュメント、データリファレンスが含まれています。
+about-telemetry-telemetry-dashboard = <a data-l10n-name="dashboard-link">Telemetry ダッシュボード</a>では、Mozilla が Telemetry 経由で受信したデータを視覚化できます。
+about-telemetry-telemetry-probe-dictionary = <a data-l10n-name="probe-dictionary-link">Probe Dictionary</a>は、Telemetry が収集する Probe の詳細と説明を提供します。
+about-telemetry-show-in-Firefox-json-viewer = JSON viewer で開く
 about-telemetry-home-section = ホーム
-about-telemetry-general-data-section = 全般
-about-telemetry-environment-data-section = Environment Data
+about-telemetry-general-data-section = 一般データ
+about-telemetry-environment-data-section = 環境データ
 about-telemetry-session-info-section = セッション情報
-about-telemetry-scalar-section = Scalars
-about-telemetry-keyed-scalar-section = Keyed Scalars
-about-telemetry-histograms-section = Histograms
-about-telemetry-keyed-histogram-section = Keyed Histograms
+about-telemetry-scalar-section = スカラー
+about-telemetry-keyed-scalar-section = キー付きスカラー
+about-telemetry-histograms-section = ヒストグラム
+about-telemetry-keyed-histogram-section = キー付きヒストグラム
 about-telemetry-events-section = イベント
-about-telemetry-simple-measurements-section = Simple Measurements
-about-telemetry-slow-sql-section = スロークエリ
+about-telemetry-simple-measurements-section = シンプルな測定値
+about-telemetry-slow-sql-section = 低速な SQL ステートメント
 about-telemetry-addon-details-section = アドオンの詳細
-about-telemetry-late-writes-section = Late Writes
-about-telemetry-raw-payload-section = Raw Payload
+about-telemetry-late-writes-section = 遅延書き込み
+about-telemetry-raw-payload-section = Raw ペイロード
 about-telemetry-raw = Raw JSON
-about-telemetry-full-sql-warning = NOTE: Slow SQL debugging is enabled. Full SQL strings may be displayed below but they will not be submitted to Telemetry.
-about-telemetry-fetch-stack-symbols = Fetch function names for stacks
-about-telemetry-hide-stack-symbols = Show raw stack data
+about-telemetry-full-sql-warning = 注意: 低速な SQL デバッグが有効になっています。完全な SQL 文字列が以下に表示される場合がありますが、これらは Telemetry に送信されることはありません。
+about-telemetry-fetch-stack-symbols = スタックの関数名を取得
+about-telemetry-hide-stack-symbols = Raw スタックデータを表示
 # Selects the correct release version
 # Variables:
 #   $channel (string) - Represents the corresponding release data string
 about-telemetry-data-type =
     { $channel ->
-        [release] release data
-       *[prerelease] pre-release data
+        [release] リリースデータ
+       *[prerelease] プレリリースデータ
     }
 # Selects the correct upload string
 # Variables:
 #   $uploadcase (string) - Represents a corresponding upload string
 about-telemetry-upload-type =
     { $uploadcase ->
-        [enabled] enabled
-       *[disabled] disabled
+        [enabled] 有効
+       *[disabled] 無効
     }
 # Example Output: 1 sample, average = 0, sum = 0
 # Variables:
@@ -63,18 +63,18 @@ about-telemetry-upload-type =
 #   $sum (number) - Sum of histogram samples
 about-telemetry-histogram-stats =
     { $sampleCount ->
-        [one] { $sampleCount } sample, average = { $prettyAverage }, sum = { $sum }
-       *[other] { $sampleCount } samples, average = { $prettyAverage }, sum = { $sum }
+        [one] { $sampleCount } サンプル、平均 = { $prettyAverage }、合計 = { $sum }
+       *[other] { $sampleCount } サンプル、平均 = { $prettyAverage }、合計 = { $sum }
     }
 # Variables:
 #   $telemetryServerOwner (string) - the value of the toolkit.telemetry.server_owner preference. Typically "Mozilla"
-about-telemetry-page-subtitle = This page shows the information about performance, hardware, usage and customizations collected by Telemetry. This information is submitted to { $telemetryServerOwner } to help improve { -brand-full-name }.
-about-telemetry-settings-explanation = Telemetry is collecting { about-telemetry-data-type } and upload is <a data-l10n-name="upload-link">{ about-telemetry-upload-type }</a>.
+about-telemetry-page-subtitle = このページには、Telemetry によって収集された、パフォーマンス、ハードウェア、使用状況、カスタマイズに関する情報が表示されています。この情報は、{ -brand-full-name } の改善に役立てるため { $telemetryServerOwner } に送信されます。
+about-telemetry-settings-explanation = Telemetry は { about-telemetry-data-type } を収集しており、アップロードは <a data-l10n-name="upload-link">{ about-telemetry-upload-type }</a> です。
 # Variables:
 #   $name (string) - Ping name, e.g. “saved-session”
 #   $timestamp (string) - Ping localized timestamp, e.g. “2017/07/08 10:40:46”
-about-telemetry-ping-details = Each piece of information is sent bundled into “<a data-l10n-name="ping-link">pings</a>”. You are looking at the { $name }, { $timestamp } ping.
-about-telemetry-data-details-current = Each piece of information is sent bundled into “<a data-l10n-name="ping-link">pings</a>“. You are looking at the current data.
+about-telemetry-ping-details = 各情報は “<a data-l10n-name="ping-link">Ping</a>” にまとめられて送信されます。現在表示しているのは、{ $name }、{ $timestamp } の Ping です。
+about-telemetry-data-details-current = 各情報は “<a data-l10n-name="ping-link">Ping</a>” にまとめられて送信されます。現在表示しているのは、現在のデータです。
 # string used as a placeholder for the search field
 # More info about it can be found here:
 # https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/data/main-ping.html
@@ -86,19 +86,19 @@ about-telemetry-filter-all-placeholder =
     .placeholder = すべてのセクションを検索
 # Variables:
 #   $searchTerms (string) - The searched terms
-about-telemetry-results-for-search = Results for “{ $searchTerms }”
+about-telemetry-results-for-search = “{ $searchTerms }” の検索結果
 # More info about it can be found here: https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/data/main-ping.html
 # Variables:
 #   $sectionName (string) - The section name from the structure of the ping.
 #   $currentSearchText (string) - The current text in the search input
-about-telemetry-no-search-results = Sorry! There are no results in { $sectionName } for “{ $currentSearchText }”
+about-telemetry-no-search-results = 申し訳ありません。“{ $currentSearchText }” の検索結果は { $sectionName } にありませんでした。
 # Variables:
 #   $searchTerms (string) - The searched terms
-about-telemetry-no-search-results-all = Sorry! There are no results in any sections for “{ $searchTerms }”
+about-telemetry-no-search-results-all = 申し訳ありません。“{ $searchTerms }” の検索結果は、いずれのセクションにもありませんでした。
 # This message is displayed when a section is empty.
 # Variables:
 #   $sectionName (string) - Is replaced by the section name.
-about-telemetry-no-data-to-display = Sorry! There is currently no data available in “{ $sectionName }”
+about-telemetry-no-data-to-display = 申し訳ありません。現在 “{ $sectionName }” には表示できるデータがありません。
 # used as a tooltip for the “current” ping title in the sidebar
 about-telemetry-current-data-sidebar = 現在のデータ
 # used in the “Ping Type” select
@@ -106,9 +106,9 @@ about-telemetry-telemetry-ping-type-all = すべて
 # button label to copy the histogram
 about-telemetry-histogram-copy = コピー
 # these strings are used in the “Slow SQL Statements” section
-about-telemetry-slow-sql-main = メインスレッドのスロークエリ
-about-telemetry-slow-sql-other = ヘルパースレッドのスロークエリ
-about-telemetry-slow-sql-hits = 回数
+about-telemetry-slow-sql-main = メインスレッドでの低速な SQL ステートメント
+about-telemetry-slow-sql-other = ヘルパースレッドでの低速な SQL ステートメント
+about-telemetry-slow-sql-hits = ヒット数
 about-telemetry-slow-sql-average = 平均時間 (ms)
 about-telemetry-slow-sql-statement = ステートメント
 # these strings are used in the “Add-on Details” section
@@ -122,15 +122,15 @@ about-telemetry-names-header = 名前
 about-telemetry-values-header = 値
 # Variables:
 #   $lateWriteCount (number) - The number of the late writes
-about-telemetry-late-writes-title = Late Write #{ $lateWriteCount }
-about-telemetry-stack-title = Stack:
-about-telemetry-memory-map-title = Memory map:
-about-telemetry-error-fetching-symbols = An error occurred while fetching symbols. Check that you are connected to the Internet and try again.
+about-telemetry-late-writes-title = 遅延書き込み #{ $lateWriteCount }
+about-telemetry-stack-title = スタック:
+about-telemetry-memory-map-title = メモリーマップ:
+about-telemetry-error-fetching-symbols = シンボル取得中にエラーが発生しました。インターネット接続を確認してから、再度お試しください。
 about-telemetry-time-stamp-header = タイムスタンプ
-about-telemetry-category-header = カテゴリ
+about-telemetry-category-header = カテゴリー
 about-telemetry-method-header = メソッド
 about-telemetry-object-header = オブジェクト
 about-telemetry-extra-header = 追加情報
 # Variables:
 #  $process (string) - Type of process in subsection headers ( e.g. "content", "parent" )
-about-telemetry-process = { $process } process
+about-telemetry-process = { $process } プロセス

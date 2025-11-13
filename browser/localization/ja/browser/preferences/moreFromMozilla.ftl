@@ -41,7 +41,7 @@ more-from-moz-mozilla-monitor-button = { -monitor-brand-short-name } を入手
 
 ## These strings are for the Solo card in about:preferences moreFromMozilla page
 
-more-from-moz-solo-title-2 ={ -solo-ai-brand-name } AI ウェブサイト作成ツール
+more-from-moz-solo-title-2 = { -solo-ai-brand-name } AI ウェブサイト作成ツール
 more-from-moz-solo-description = ウェブサイトを即座に作成し、自分専用のカスタムドメインを無料で接続できます。
 more-from-moz-solo-button = { -solo-ai-brand-name } を試す
 

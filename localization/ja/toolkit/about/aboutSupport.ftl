@@ -8,10 +8,10 @@ page-subtitle =
 
 
 
-crashes-title = クラッシュレポート
+crashes-title = クラッシュ レポート
 crashes-id = レポート ID
 crashes-send-date = 送信日時
-crashes-all-reports = すべてのクラッシュレポート
+crashes-all-reports = すべてのクラッシュ レポート
 crashes-no-config = このアプリケーションはクラッシュレポートを表示できるように設定されていません。
 support-addons-title = アドオン
 support-addons-name = 名前
