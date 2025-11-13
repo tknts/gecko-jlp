@@ -160,8 +160,8 @@ urlbar-screen-blocked =
     .tooltiptext = このウェブサイトでの画面の共有をブロックしました。
 urlbar-persistent-storage-blocked =
     .tooltiptext = このウェブサイトの永続ストレージの使用をブロックしました。
-urlbar-popup-blocked =
-    .tooltiptext = このウェブサイトのポップアップをブロックしました。
+urlbar-popup-blocked2 =
+    .tooltiptext = このサイトに対して、ポップアップとサードパーティへのリダイレクトをブロックしました。
 urlbar-autoplay-media-blocked =
     .tooltiptext = このウェブサイトの音声付きメディアの自動再生をブロックしました。
 urlbar-canvas-blocked =
@@ -596,7 +596,7 @@ urlbar-result-action-visit = 訪問
 # different container.
 # Variables
 # $container (String): the name of the target container
-urlbar-result-action-switch-tab-with-container =  <span>{ $container }</span> タブに切り替える
+urlbar-result-action-switch-tab-with-container = <span>{ $container }</span> タブに切り替える
 # Used when the target tab is in a tab group that doesn't have a label.
 urlbar-result-action-tab-group-unnamed = 名前のないグループ
 # Allows the user to visit a URL that was previously copied to the clipboard.

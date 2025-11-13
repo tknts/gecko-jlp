@@ -36,7 +36,9 @@ contentanalysis-operationtype-clipboard = クリップボード
 contentanalysis-operationtype-dropped-text = ドラッグ アンド ドロップされたテキスト
 contentanalysis-operationtype-print = 印刷
 #   $filename - The filename associated with the request, such as "aFile.txt"
-contentanalysis-customdisplaystring-description = “{ $filename }” のアップロード
+contentanalysis-upload-description = “{ $filename }” のアップロード
+#   $filename - The filename associated with the request, such as "aFile.txt"
+contentanalysis-download-description = “{ $filename }” のダウンロード
 
 contentanalysis-warndialogtitle = このコンテンツは安全ではない可能性があります
 
@@ -53,7 +55,7 @@ contentanalysis-notification-title = コンテンツの分析
 contentanalysis-genericresponse-message = Content Analysis responded with { $response } for resource: { $content }
 # Variables:
 #   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
-contentanalysis-block-message = あなたが所属する組織では、このコンテンツをブロックしたデータ損失防止ソフト使用しています:  { $content }。
+contentanalysis-block-message = あなたが所属する組織では、このコンテンツをブロックしたデータ損失防止ソフト使用しています: { $content }。
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
 #   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
@@ -81,7 +83,11 @@ contentanalysis-timeout-block-error-message-content = { $agent } への接続が
 contentanalysis-block-dialog-title-upload-file = このファイルのアップロードは許可されていません
 # Variables:
 #   $filename - Name of the file that was blocked, such as "aFile.txt"
-contentanalysis-block-dialog-body-upload-file = 所属する組織のデータ保護ポリシーに基づいて、ファイル “{ $filename }”をアップロードすることは許可されていません。詳細については、管理者にお問い合わせください。
+contentanalysis-block-dialog-body-upload-file = 組織のデータ保護ポリシーにより、“{ $filename }” のアップロードは許可されていません。詳細については、管理者にお問い合わせください。
+contentanalysis-block-dialog-title-download-file = このファイルのダウンロードは許可されていません
+# Variables:
+#   $filename - Name of the file that was blocked, such as "aFile.txt"
+contentanalysis-block-dialog-body-download-file = 組織のデータ保護ポリシーにより、“{ $filename }” のダウンロードは許可されていません。詳細については、管理者にお問い合わせください。
 contentanalysis-block-dialog-title-clipboard = このコンテンツを貼り付けることは許可されていません
 contentanalysis-block-dialog-body-clipboard = 所属する組織のデータ保護ポリシーに基づいて、このコンテンツを貼り付けることは許可されていません。詳細については、管理者にお問い合わせください。
 contentanalysis-block-dialog-title-dropped-text = このコンテンツをドロップすることは許可されていません

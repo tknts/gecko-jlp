@@ -6,7 +6,7 @@ clear-site-data-window2 =
     .title = データの消去
     .style = min-width: 35em
 
-clear-site-data-description = { -brand-short-name } によって保存されているすべての Cookie とサイトデータを消去すると、ウェブサイトからサインアウトされ、オフラインで利用可能なウェブ コンテンツが削除される可能性があります。キャッシュ データを消去してもログインには影響しません。
+clear-site-data-description = { -brand-short-name } が保存しているすべての Cookie とサイトデータを消去すると、ウェブサイトからログアウトされ、オフラインで利用可能なウェブ コンテンツも削除される可能性があります。キャッシュデータを消去しても、ログイン情報には影響しません。
 
 clear-site-data-close-key =
     .key = w
@@ -17,7 +17,7 @@ clear-site-data-close-key =
 #   $amount (Number) - Amount of site data currently stored on disk
 #   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
 clear-site-data-cookies-with-data =
-    .label = Cookie とサイトデータ ({ $amount } { $unit })
+    .label = Cookie とサイトのデータ ({ $amount } { $unit })
     .accesskey = S
 
 # This string is a placeholder for while the data used to fill
@@ -26,7 +26,7 @@ clear-site-data-cookies-with-data =
 # or the same as clear-site-data-cookies-with-data (except the amount and unit),
 # to avoid flickering.
 clear-site-data-cookies-empty =
-    .label = Cookie とサイトデータ
+    .label = Cookie とサイトのデータ
     .accesskey = S
 
 clear-site-data-cookies-info = 消去するとウェブサイトからサインアウトされる可能性があります

@@ -744,8 +744,9 @@ choose-bookmark =
 
 ## Home Section - Firefox Home Content Customization
 
+home-prefs-content-header =
+    .label = { -firefox-home-brand-name }
 home-prefs-content-header2 = { -firefox-home-brand-name } のコンテンツ
-home-prefs-content-header3 = { -firefox-home-brand-name }
 home-prefs-content-description2 = { -firefox-home-brand-name } 画面に表示するコンテンツを選択してください。
 
 home-prefs-search-header =
@@ -786,10 +787,6 @@ home-prefs-weather-header =
   .label = 天気
 home-prefs-weather-description = 今日の天気予報が一目でわかる
 home-prefs-weather-learn-more-link = さらに詳しく
-
-home-prefs-trending-search-header =
-    .label = トレンド検索
-home-prefs-trending-search-description = 人気があり頻繁に検索されるトピック
 
 # Lists is a widget on New Tab, similar to a to-do widget
 home-prefs-lists-header =
@@ -1226,15 +1223,21 @@ history-remember-option-never =
 history-remember-option-custom =
     .label = カスタマイズされた履歴設定を使用する
 
-history-remember-description = { -brand-short-name } はあなたの閲覧履歴、ダウンロード、フォーム、検索履歴を記録します。
-history-dontremember-description = { -brand-short-name } はプライベート ブラウジングと同じ設定を使用し、ウェブサイトの閲覧履歴を記録しません。
+history-remember-description2 =
+    .description ={ -brand-short-name } は、閲覧、ダウンロード、フォーム、検索の履歴を記憶します。
+
+history-dontremember-description2 =
+    .description = { -brand-short-name } は、プライベートブラウジングと同じ設定を使用し、ウェブを閲覧する際に履歴を一切記憶しません。
+
+history-custom-description =
+    .description = { -brand-short-name } は、閲覧、ダウンロード、フォーム、検索の履歴に対して独自のカスタム設定を使用します。
 
 history-private-browsing-permanent =
-    .label = 常にプライベートブラウジング モードで使用する
+    .label = 常にプライベートブラウジングモードを使用する
     .accesskey = p
 
 history-remember-browser-option =
-    .label = ブラウジングとダウンロードの履歴を保存する
+    .label = 閲覧とダウンロードの履歴を保存する
     .accesskey = b
 
 history-remember-search-option =
@@ -1255,7 +1258,7 @@ history-clear-button =
 
 ## Privacy Section - Site Data
 
-sitedata-header = Cookie とサイトデータ
+sitedata-header = Cookie とサイトのデータ
 
 sitedata-label =
      .aria-label = { sitedata-header }
@@ -1266,6 +1269,7 @@ sitedata-total-size-calculating = サイトデータとキャッシュサイズ�
 #   $value (number) - Value of the unit (for example: 4.6, 500)
 #   $unit (string) - Name of the unit (for example: "bytes", "KB")
 sitedata-total-size = 保存された Cookie とサイトデータとキャッシュのディスク使用量は現在 { $value } { $unit } です。
+sitedata-total-size2 = 保存されている Cookie、履歴、サイトデータ、キャッシュは、現在ディスク容量を <strong>{ $value } { $unit }</strong> 使用しています
 
 sitedata-learn-more = さらに詳しく
 
@@ -1324,7 +1328,7 @@ addressbar-suggest-1 = アドレスバーに表示する候補を選択してく
 addressbar-header-firefox-suggest-1 = { -firefox-suggest-brand-name }
 
 # When Firefox Suggest is enabled, this replaces `addressbar-suggest`.
-addressbar-suggest-firefox-suggest-1 = { -brand-short-name } とパートナーからの候補をアドレスバーに表示します。
+addressbar-suggest-firefox-suggest-1 = アドレスバーに { -brand-short-name } および提携パートナーからの提案を表示します。
 
 # When Firefox Suggest is enabled, a "Learn more" link appears at the end of
 # `addressbar-suggest-firefox-suggest`.
@@ -1349,8 +1353,8 @@ addressbar-locbar-shortcuts-option =
 addressbar-locbar-topsites-option =
     .label = トップサイト
     .accesskey = T
-addressbar-locbar-engines-option =
-    .label = 検索エンジン
+addressbar-locbar-engines-option-1 =
+    .label = 使用する検索エンジンを提案する
     .accesskey = a
 addressbar-locbar-quickactions-option =
     .label = クイックアクション
@@ -1666,9 +1670,9 @@ security-block-uncommon-software =
 
 ## Privacy Section - Certificates
 
-certs-header = 証明書
-
-certs-description = { -brand-short-name } が認証に使用する証明書を構成します。
+certs-description2 =
+    .label = 証明書
+    .description = { -brand-short-name } が認証に使用する証明書を設定します。
 
 certs-view =
     .label = 証明書を表示…

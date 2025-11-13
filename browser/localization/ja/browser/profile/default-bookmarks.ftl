@@ -13,34 +13,34 @@ default-bookmarks-heading = ブックマーク
 default-bookmarks-firefox-heading = Mozilla Firefox
 
 # link title for https://www.mozilla.org/firefox/help/
-default-bookmarks-firefox-get-help = Get Help
+default-bookmarks-firefox-get-help = ヘルプ
 
 # link title for https://www.mozilla.org/firefox/customize/
-default-bookmarks-firefox-customize = Customize Firefox
+default-bookmarks-firefox-customize = Firefox をカスタマイズ
 
 # link title for https://www.mozilla.org/contribute/
-default-bookmarks-firefox-community = Get Involved
+default-bookmarks-firefox-community = 参加する
 
 # link title for https://www.mozilla.org/about/
-default-bookmarks-firefox-about = About Us
+default-bookmarks-firefox-about = Mozilla について
 
 # Firefox Nightly links folder name
-default-bookmarks-nightly-heading = Firefox Nightly Resources
+default-bookmarks-nightly-heading = Firefox Nightly リソース
 
 # Nightly builds only, link title for https://blog.nightly.mozilla.org/
-default-bookmarks-nightly-blog = Firefox Nightly blog
+default-bookmarks-nightly-blog = Firefox Nightly ブログ
 
 # Nightly builds only, link title for https://bugzilla.mozilla.org/
-default-bookmarks-bugzilla = Mozilla Bug Tracker
+default-bookmarks-bugzilla = Mozilla バグ トラッカー
 
 # Nightly builds only, link title for https://developer.mozilla.org/
 default-bookmarks-mdn = Mozilla Developer Network
 
 # Nightly builds only, link title for https://addons.mozilla.org/firefox/addon/nightly-tester-tools/
-default-bookmarks-nightly-tester-tools = Nightly Tester Tools
+default-bookmarks-nightly-tester-tools = Nightly テスター ツール
 
 # Nightly builds only, link title for about:crashes
-default-bookmarks-crashes = All your crashes
+default-bookmarks-crashes = すべてのクラッシュレポート
 
 # Nightly builds only, link title for https://planet.mozilla.org/
 default-bookmarks-planet = Planet Mozilla

@@ -6,11 +6,11 @@
 ### for WebRTC calls. See https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API.
 
 # The text "WebRTC" is a proper noun and should not be translated.
-about-webrtc-document-title = WebRTC Internals
+about-webrtc-document-title = WebRTC の内部情報
 
 # "about:webrtc" is a internal browser URL and should not be
 # translated. This string is used as a title for a file save dialog box.
-about-webrtc-save-page-dialog-title = save about:webrtc as
+about-webrtc-save-page-dialog-title = about:webrtc を名前を付けて保存
 
 ## These labels are for a disclosure which contains the information for closed PeerConnection sections
 
@@ -26,7 +26,7 @@ about-webrtc-aec-logging-toggled-on-state-msg = AEC ロギングが動作して�
 about-webrtc-aec-logging-unavailable-sandbox = AEC のログをエクスポートするには、環境変数に MOZ_DISABLE_CONTENT_SANDBOX=1 を設定する必要があります。起こり得るリスクを理解している場合にのみ、この変数を設定してください。
 # Variables:
 #  $path (String) - The path to which the aec log file is saved.
-about-webrtc-aec-logging-toggled-off-state-msg = Captured log files can be found in: { $path }
+about-webrtc-aec-logging-toggled-off-state-msg = キャプチャーされたログファイルは { $path } にあります。
 
 ##
 
@@ -43,7 +43,7 @@ about-webrtc-force-refresh-button = 更新
 about-webrtc-peerconnection-id-label = PeerConnection ID:
 
 # The number of DataChannels that a PeerConnection has opened
-about-webrtc-data-channels-opened-label = Data Channels Opened:
+about-webrtc-data-channels-opened-label = 開いているデータチャネル:
 
 # The number of once open DataChannels that a PeerConnection has closed
 about-webrtc-data-channels-closed-label = データチャンネルが閉じられています:
@@ -52,40 +52,40 @@ about-webrtc-data-channels-closed-label = データチャンネルが閉じら�
 ## See http://wikipedia.org/wiki/Session_Description_Protocol
 
 about-webrtc-sdp-heading = SDP
-about-webrtc-local-sdp-heading = Local SDP
-about-webrtc-local-sdp-heading-offer = Local SDP (Offer)
-about-webrtc-local-sdp-heading-answer = Local SDP (Answer)
-about-webrtc-remote-sdp-heading = Remote SDP
-about-webrtc-remote-sdp-heading-offer = Remote SDP (Offer)
-about-webrtc-remote-sdp-heading-answer = Remote SDP (Answer)
-about-webrtc-sdp-history-heading = SDP History
-about-webrtc-sdp-parsing-errors-heading = SDP Parsing Errors
+about-webrtc-local-sdp-heading = ローカル SDP
+about-webrtc-local-sdp-heading-offer = ローカル SDP (Offer)
+about-webrtc-local-sdp-heading-answer = ローカル SDP (Answer)
+about-webrtc-remote-sdp-heading = リモート SDP
+about-webrtc-remote-sdp-heading-offer = リモート SDP (Offer)
+about-webrtc-remote-sdp-heading-answer = リモート SDP (Answer)
+about-webrtc-sdp-history-heading = SDP 履歴
+about-webrtc-sdp-parsing-errors-heading = SDP パースエラー
 
 ##
 
 # "RTP" is an abbreviation for the Real-time Transport Protocol, an IETF
 # specification, and should not normally be translated. "Stats" is an
 # abbreviation for Statistics.
-about-webrtc-rtp-stats-heading = RTP Stats
+about-webrtc-rtp-stats-heading = RTP 統計
 
 ## "ICE" is an abbreviation for Interactive Connectivity Establishment, which
 ## is an IETF protocol, and should not normally be translated.
 
-about-webrtc-ice-state = ICE State
+about-webrtc-ice-state = ICE ステート
 # "Stats" is an abbreviation for Statistics.
-about-webrtc-ice-stats-heading = ICE Stats
-about-webrtc-ice-restart-count-label = ICE restarts:
-about-webrtc-ice-rollback-count-label = ICE rollbacks:
-about-webrtc-ice-pair-bytes-sent = Bytes sent:
-about-webrtc-ice-pair-bytes-received = Bytes received:
-about-webrtc-ice-component-id = Component ID
+about-webrtc-ice-stats-heading = ICE 統計
+about-webrtc-ice-restart-count-label = ICE 再起動:
+about-webrtc-ice-rollback-count-label = ICE ロールバック:
+about-webrtc-ice-pair-bytes-sent = 送信バイト:
+about-webrtc-ice-pair-bytes-received = 受信バイト:
+about-webrtc-ice-component-id = コンポーネント ID
 
 ## These adjectives are used to label a line of statistics collected for a peer
 ## connection. The data represents either the local or remote end of the
 ## connection.
 
-about-webrtc-type-local = Local
-about-webrtc-type-remote = Remote
+about-webrtc-type-local = ローカル
+about-webrtc-type-remote = リモート
 
 ##
 
@@ -99,10 +99,10 @@ about-webrtc-nominated = Nominated
 about-webrtc-selected = Selected
 
 about-webrtc-save-page-label = ページを保存
-about-webrtc-enable-logging-label = Enable WebRTC Log Preset
-about-webrtc-peerconnections-section-heading = RTCPeerConnection Statistics
-about-webrtc-peerconnections-section-show-msg = Show RTCPeerConnection Statistics
-about-webrtc-peerconnections-section-hide-msg = Hide RTCPeerConnection Statistics
+about-webrtc-enable-logging-label = WebRTC ログプリセットを有効化
+about-webrtc-peerconnections-section-heading = RTCPeerConnection 統計
+about-webrtc-peerconnections-section-show-msg = RTCPeerConnection 統計を表示
+about-webrtc-peerconnections-section-hide-msg = RTCPeerConnection 統計を非表示
 about-webrtc-stats-clear = 履歴を消去
 about-webrtc-log-heading = 接続ログ
 about-webrtc-log-clear = ログを消去
@@ -133,41 +133,41 @@ about-webrtc-short-receive-direction = 受信: { $codecs }
 
 ##
 
-about-webrtc-local-candidate = Local Candidate
-about-webrtc-remote-candidate = Remote Candidate
-about-webrtc-raw-candidates-heading = All Raw Candidates
-about-webrtc-raw-local-candidate = Raw Local Candidate
-about-webrtc-raw-remote-candidate = Raw Remote Candidate
-about-webrtc-raw-cand-section-show-msg = Show Raw Candidates
-    .title = Click to expand this section
-about-webrtc-raw-cand-section-hide-msg = Hide Raw Candidates
-    .title = Click to collapse this section
-about-webrtc-priority = Priority
+about-webrtc-local-candidate = ローカル候補
+about-webrtc-remote-candidate = リモート候補
+about-webrtc-raw-candidates-heading = すべての Raw 候補
+about-webrtc-raw-local-candidate = Raw ローカル候補
+about-webrtc-raw-remote-candidate = Raw リモート候補
+about-webrtc-raw-cand-section-show-msg = Raw 候補を表示
+    .title = クリックしてこのセクションを展開します
+about-webrtc-raw-cand-section-hide-msg = Raw 候補を非表示
+    .title = クリックしてこのセクションを折りたたむ
+about-webrtc-priority = 優先度
 about-webrtc-fold-default-show-msg = 詳細を表示
-    .title = Click to expand this section
-about-webrtc-fold-default-hide-msg = 詳細を隠す
-    .title = Click to collapse this section
-about-webrtc-dropped-frames-label = Dropped frames:
-about-webrtc-discarded-packets-label = Discarded packets:
+    .title = クリックしてこのセクションを展開します
+about-webrtc-fold-default-hide-msg = 詳細を非表示
+    .title = クリックしてこのセクションを折りたたむ
+about-webrtc-dropped-frames-label = ドロップされたフレーム:
+about-webrtc-discarded-packets-label = 破棄されたパケット:
 about-webrtc-decoder-label = デコーダー
 about-webrtc-encoder-label = エンコーダー
-about-webrtc-show-tab-label = Show tab
+about-webrtc-show-tab-label = タブを表示
 about-webrtc-current-framerate-label = フレームレート
-about-webrtc-width-px = 横幅 (px)
+about-webrtc-width-px = 幅 (px)
 about-webrtc-height-px = 高さ (px)
-about-webrtc-consecutive-frames = Consecutive Frames
-about-webrtc-time-elapsed = Time Elapsed (s)
-about-webrtc-estimated-framerate = Estimated Framerate
-about-webrtc-rotation-degrees = Rotation (degrees)
-about-webrtc-first-frame-timestamp = First Frame Reception Timestamp
-about-webrtc-last-frame-timestamp = Last Frame Reception Timestamp
+about-webrtc-consecutive-frames = 連続フレーム
+about-webrtc-time-elapsed = 経過時間 (秒)
+about-webrtc-estimated-framerate = 推定フレームレート
+about-webrtc-rotation-degrees = 回転角 (度)
+about-webrtc-first-frame-timestamp = 最初のフレーム受信タイムスタンプ
+about-webrtc-last-frame-timestamp = 最後のフレーム受信タイムスタンプ
 
 ## SSRCs are identifiers that represent endpoints in an RTP stream
 
 # This is an SSRC on the local side of the connection that is receiving RTP
-about-webrtc-local-receive-ssrc = Local Receiving SSRC
+about-webrtc-local-receive-ssrc = ローカル受信 SSRC
 # This is an SSRC on the remote side of the connection that is sending RTP
-about-webrtc-remote-send-ssrc = Remote Sending SSRC
+about-webrtc-remote-send-ssrc = リモート送信 SSRC
 
 ## These are displayed on the button that shows or hides the
 ## PeerConnection configuration disclosure
@@ -179,56 +179,56 @@ about-webrtc-pc-configuration-hide-msg = 構成を隠す
 
 # An option whose value will not be displayed but instead noted as having been
 # provided
-about-webrtc-configuration-element-provided = Provided
+about-webrtc-configuration-element-provided = 提供済み
 
 # An option whose value will not be displayed but instead noted as having not
 # been provided
-about-webrtc-configuration-element-not-provided = Not Provided
+about-webrtc-configuration-element-not-provided = 未提供
 
 # The options set by the user in about:config that could impact a WebRTC call
-about-webrtc-user-modified-configuration-heading = User Modified WebRTC Configuration
+about-webrtc-user-modified-configuration-heading = ユーザーが変更した WebRTC 設定
 
 ## These are displayed on the button that shows or hides the
 ## user modified configuration disclosure
 
-about-webrtc-user-modified-configuration-show-msg = Show User Modified Configuration
-about-webrtc-user-modified-configuration-hide-msg = Hide User Modified Configuration
+about-webrtc-user-modified-configuration-show-msg = ユーザーが変更した設定を表示
+about-webrtc-user-modified-configuration-hide-msg = ユーザーが変更した設定を非表示
 
 ##
 
 # Section header for estimated bandwidths of WebRTC media flows
-about-webrtc-bandwidth-stats-heading = Estimated Bandwidth
+about-webrtc-bandwidth-stats-heading = 推定帯域幅
 
 # The ID of the MediaStreamTrack
-about-webrtc-track-identifier = Track Identifier
+about-webrtc-track-identifier = トラック識別子
 
 # The estimated bandwidth available for sending WebRTC media in bytes per second
-about-webrtc-send-bandwidth-bytes-sec = Send Bandwidth (bytes/sec)
+about-webrtc-send-bandwidth-bytes-sec = 送信帯域幅 (バイト/秒)
 
 # The estimated bandwidth available for receiving WebRTC media in bytes per second
-about-webrtc-receive-bandwidth-bytes-sec = Receive Bandwidth (bytes/sec)
+about-webrtc-receive-bandwidth-bytes-sec = 受信帯域幅 (バイト/秒)
 
 # Maximum number of bytes per second that will be padding zeros at the ends of packets
-about-webrtc-max-padding-bytes-sec = Maximum Padding (bytes/sec)
+about-webrtc-max-padding-bytes-sec = 最大パディング (バイト/秒)
 
 # The amount of time inserted between packets to keep them spaced out
-about-webrtc-pacer-delay-ms = Pacer Delay ms
+about-webrtc-pacer-delay-ms = ペーサー遅延 (ミリ秒)
 
 # The amount of time it takes for a packet to travel from the local machine to the remote machine,
 # and then have a packet return
-about-webrtc-round-trip-time-ms = RTT ms
+about-webrtc-round-trip-time-ms = RTT (ミリ秒)
 
 # This is a section heading for video frame statistics for a MediaStreamTrack.
 # see https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrack.
 # Variables:
 #   $track-identifier (String) - The unique identifier for the MediaStreamTrack.
-about-webrtc-frame-stats-heading = Video Frame Statistics - MediaStreamTrack ID: { $track-identifier }
+about-webrtc-frame-stats-heading = ビデオフレーム統計 - MediaStreamTrack ID: { $track-identifier }
 
 # This path is used for saving the about:webrtc page so it can be attached to
 # bug reports.
 # Variables:
 #  $path (String) - The path to which the file is saved.
-about-webrtc-save-page-complete-msg = Page saved to: { $path }
+about-webrtc-save-page-complete-msg = ページを { $path } に保存しました。
 
 # This is the total number of frames encoded or decoded over an RTP stream.
 # Variables:
@@ -279,12 +279,12 @@ about-webrtc-sent-label =
 # See: https://w3c.github.io/webrtc-stats/#dom-rtcreceivedrtpstreamstats-jitter
 # Variables:
 #   $jitter (Number) - The jitter.
-about-webrtc-jitter-label = Jitter { $jitter }
+about-webrtc-jitter-label = ジッター { $jitter }
 
 # ICE candidates arriving after the remote answer arrives are considered trickled
 # (an attribute of an ICE candidate). These are highlighted in the ICE stats
 # table with light blue background.
-about-webrtc-trickle-caption-msg = Trickled candidates (arriving after answer) are highlighted in blue
+about-webrtc-trickle-caption-msg = Trickled 候補 (Answer 到着後に届いたもの) は青でハイライト表示されます
 
 ## "SDP" is an abbreviation for Session Description Protocol, an IETF standard.
 ## See http://wikipedia.org/wiki/Session_Description_Protocol
@@ -292,12 +292,12 @@ about-webrtc-trickle-caption-msg = Trickled candidates (arriving after answer) a
 # This is used as a header for local SDP.
 # Variables:
 #  $timestamp (Number) - The Unix Epoch time at which the SDP was set.
-about-webrtc-sdp-set-at-timestamp-local = Set Local SDP at timestamp { NUMBER($timestamp, useGrouping: "false") }
+about-webrtc-sdp-set-at-timestamp-local = ローカル SDP をタイムスタンプ { NUMBER($timestamp, useGrouping: "false") } に設定
 
 # This is used as a header for remote SDP.
 # Variables:
 #  $timestamp (Number) - The Unix Epoch time at which the SDP was set.
-about-webrtc-sdp-set-at-timestamp-remote = Set Remote SDP at timestamp { NUMBER($timestamp, useGrouping: "false") }
+about-webrtc-sdp-set-at-timestamp-remote = リモート SDP をタイムスタンプ { NUMBER($timestamp, useGrouping: "false") } に設定
 
 # This is used as a header for an SDP section contained in two columns allowing for side-by-side comparisons.
 # Variables:
