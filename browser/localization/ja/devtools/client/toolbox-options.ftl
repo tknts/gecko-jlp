@@ -135,7 +135,7 @@ options-disable-http-cache-tooltip =
     .title = このオプションをオンにすると、ツールボックスを開いているすべてのタブの HTTP キャッシュが無効になります。Service Worker は、このオプションの影響を受けません。
 
 # The label for checkbox that toggles JavaScript on or off
-options-disable-javascript-label = JavaScript の無効化 *
+options-disable-javascript-label-2 = JavaScript の無効化 *
 options-disable-javascript-tooltip =
     .title = このオプションをオンにすると、現在のタブの JavaScript が無効になります。タブまたはツールボックスを閉じると、この設定は失われます。
 

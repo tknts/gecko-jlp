@@ -42,7 +42,7 @@ profile-prompt = 新しいプロファイルの名前を入力:
 profile-default-name =
   .value = 既定のユーザー
 
-profile-directory-explanation = あなたのユーザー設定やユーザーデータの保存先
+profile-directory-explanation = あなたのユーザー設定、環境設定、その他のユーザー関連データはここに保存されます:
 
 create-profile-choose-folder =
   .label = フォルダーを選択…

@@ -54,7 +54,7 @@ webext-perms-sideload-cancel =
 
 # Variables:
 #   $extension (String): replaced with the localized name of the extension.
-webext-perms-update-text = { $extension } が更新されました。更新されたバージョンをインストールする前に、新しい権限を承認する必要があります。[キャンセル] を選択すると、現在の拡張機能バージョンが維持されます。この拡張機能には次の権限が与えられます:
+webext-perms-update-text2 = { $extension } が更新されました。更新されたバージョンをインストールする前に、新しい権限を承認する必要があります。[キャンセル] を選択すると、現在の拡張機能のバージョンが維持されます。
 webext-perms-update-accept =
     .label = 更新
     .accesskey = U
@@ -117,7 +117,7 @@ webext-perms-update-list-intro-with-data-collection = 現在のバージョン�
 
 # Variables:
 #   $extension (String): replaced with the localized name of the extension.
-webext-perms-optional-text-with-data-collection = { $extension } requests additional settings
+webext-perms-optional-text-with-data-collection = { $extension } が追加の設定を要求しています
 
 # Variables:
 #   $extension (String): replaced with the localized name of the extension.

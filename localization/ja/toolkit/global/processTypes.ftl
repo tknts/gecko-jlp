@@ -6,34 +6,34 @@
 ## Localization for remote types defined in RemoteType.h
 ##
 
-process-type-web = ウェブコンテンツ
+process-type-web = ウェブ コンテンツ
 
 # process used to run privileged about pages,
 # such as about:home
-process-type-privilegedabout = Privileged About
+process-type-privilegedabout = About ページ (特権)
 
 # process used to run privileged mozilla pages,
 # such as accounts.firefox.com
-process-type-privilegedmozilla = Privileged Mozilla Content
+process-type-privilegedmozilla = Mozilla コンテンツ (特権)
 
 process-type-extension = 拡張機能
 
 # process used to open file:// URLs
-process-type-file = ローカルファイル
+process-type-file = ローカル ファイル
 
 # process used to instantiate new child processes
-process-type-forkserver = Fork Server
+process-type-forkserver = Fork サーバー
 
 # process used to isolate a webpage from other web pages
 # to improve security
-process-type-webisolated = 分離されたウェブコンテンツ
+process-type-webisolated = 分離されたウェブ コンテンツ
 
 # process used to isolate a ServiceWorker to improve
 # performance
 process-type-webserviceworker = 分離された Service Worker
 
 # process preallocated; may change to other types
-process-type-prealloc = Preallocated
+process-type-prealloc = 事前割り当て
 
 ##
 ## Localization for Gecko process types defined in GeckoProcessTypes.h
@@ -53,17 +53,17 @@ process-type-socket = ソケット
 process-type-rdd = RDD
 
 # process used to run inference
-process-type-inference = インターフェイス
+process-type-inference = 推論
 
 # process used to run some IPC actor in their own sandbox
-process-type-utility = Sandboxed IPC Actor
-process-type-utility-actor-audio-decoder-generic = Utility Generic Audio Decoder
-process-type-utility-actor-audio-decoder-applemedia = Utility AppleMedia
-process-type-utility-actor-audio-decoder-wmf = Utility Windows Media Foundation
-process-type-utility-actor-mf-media-engine = Utility Media Foundation Engine
-process-type-utility-actor-js-oracle = Utility JavaScript Oracle
-process-type-utility-actor-windows-utils = Utility Windows Utils
-process-type-utility-actor-windows-file-dialog = Utility Windows File Dialog
+process-type-utility = サンドボックス化された IPC アクター
+process-type-utility-actor-audio-decoder-generic = ユーティリティー (汎用オーディオデコーダー)
+process-type-utility-actor-audio-decoder-applemedia = ユーティリティー (AppleMedia)
+process-type-utility-actor-audio-decoder-wmf = ユーティリティー (Windows Media Foundation)
+process-type-utility-actor-mf-media-engine = ユーティリティー (Media Foundation エンジン)
+process-type-utility-actor-js-oracle = ユーティリティー (JavaScript Oracle)
+process-type-utility-actor-windows-utils = ユーティリティー (Windows Utils)
+process-type-utility-actor-windows-file-dialog = ユーティリティー (Windows File Dialog)
 
 ##
 ## Other

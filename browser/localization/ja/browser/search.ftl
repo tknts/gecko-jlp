@@ -63,7 +63,7 @@ edit-engine-window =
     .title = 検索エンジンの編集
     .style = min-width: 32em;
 
-add-engine-button =カスタムエンジンを追加
+add-engine-button =カスタム エンジンを追加
 
 ## The following strings are used as input labels.
 

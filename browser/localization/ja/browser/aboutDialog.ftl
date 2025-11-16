@@ -39,8 +39,8 @@ update-otherInstanceHandlingUpdates = 別のインスタンスが { -brand-short
 ## Variables:
 ##   $displayUrl (String): URL to page with download instructions. Example: www.mozilla.org/firefox/nightly/
 
-aboutdialog-update-manual-with-link = Updates available at <label data-l10n-name="manual-link">{ $displayUrl }</label>
-settings-update-manual-with-link = Updates available at <a data-l10n-name="manual-link">{ $displayUrl }</a>
+aboutdialog-update-manual-with-link = 更新は <label data-l10n-name="manual-link">{ $displayUrl }</label> から入手できます
+settings-update-manual-with-link = 更新は <a data-l10n-name="manual-link">{ $displayUrl }</a> から入手できます
 
 update-unsupported = このシステムではこれ以上の更新は実行できません。 <label data-l10n-name="unsupported-link">さらに詳しく</label>
 
@@ -59,9 +59,9 @@ warningDesc-version = { -brand-short-name } は実験段階であり、不安定
 aboutdialog-help-user = { -brand-product-name } Help
 aboutdialog-submit-feedback = フィードバックを送信
 
-community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> is a <label data-l10n-name="community-exp-creditsLink">global community</label> working together to keep the Web open, public and accessible to all.
+community-exp = <label data-l10n-name="community-exp-mozillaLink">{ -vendor-short-name }</label> は、ウェブをオープンで公共的、そして誰にとってもアクセス可能な状態に保つために協力している<label data-l10n-name="community-exp-creditsLink">グローバルコミュニティー</label>です。
 
-community-2 = { -brand-short-name } is designed by <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label>, a <label data-l10n-name="community-creditsLink">global community</label> working together to keep the Web open, public and accessible to all.
+community-2 = { -brand-short-name } は、ウェブをオープンで公共的、そして誰にとってもアクセス可能な状態に保つために協力している<label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label> の<label data-l10n-name="community-creditsLink">グローバルコミュニティー</label>によって設計されました。
 
 helpus = 手伝ってみませんか? <label data-l10n-name="helpus-donateLink">寄付</label> するか、<label data-l10n-name="helpus-getInvolvedLink">参加</label>してください!
 

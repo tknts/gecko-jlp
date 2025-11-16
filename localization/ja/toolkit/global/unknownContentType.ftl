@@ -9,24 +9,24 @@ unknowncontenttype-handleinternally =
 unknowncontenttype-settingschange =
     .value =
         { PLATFORM() ->
-            [windows] Settings can be changed in { -brand-short-name }’s Options.
-           *[other] Settings can be changed in { -brand-short-name }’s Preferences.
+            [windows] 設定は { -brand-short-name } のオプションで変更できます。
+           *[other] 設定は { -brand-short-name } の設定で変更できます。
         }
 
-unknowncontenttype-intro = You have chosen to open:
-unknowncontenttype-which-is = which is:
-unknowncontenttype-from = from:
-unknowncontenttype-prompt = Would you like to save this file?
-unknowncontenttype-action-question = What should { -brand-short-name } do with this file?
+unknowncontenttype-intro = あなたは以下を開こうとしています:
+unknowncontenttype-which-is = タイプ:
+unknowncontenttype-from = ダウンロード元:
+unknowncontenttype-prompt = このファイルを保存しますか?
+unknowncontenttype-action-question = { -brand-short-name } はこのファイルをどのように処理すべきですか?
 unknowncontenttype-open-with =
-    .label = Open with
+    .label = 次のプログラムで開く
     .accesskey = O
 unknowncontenttype-other =
     .label = その他…
 unknowncontenttype-choose-handler =
     .label =
         { PLATFORM() ->
-            [macos] Choose…
+            [macos] 選択…
            *[other] 参照…
         }
     .accesskey =
@@ -38,5 +38,5 @@ unknowncontenttype-save-file =
     .label = ファイルを保存
     .accesskey = S
 unknowncontenttype-remember-choice =
-    .label = Do this automatically for files like this from now on.
+    .label = 次回から同様のファイルは自動的に処理する。
     .accesskey = a

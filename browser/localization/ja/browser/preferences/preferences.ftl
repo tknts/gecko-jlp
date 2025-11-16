@@ -63,7 +63,7 @@ category-sync3 =
 settings-pane-labs-title = { -firefoxlabs-brand-name }
 settings-category-labs =
     .tooltiptext = { -firefoxlabs-brand-name }
-pane-experimental-description3 = 実験的な機能をぜひお試しください。現在開発中および進化中の機能のため { -brand-short-name } の動作に影響する可能性があります。
+pane-experimental-description4 = 開発中の日々進化している実験機能を試してみましょう! これらの機能は { -brand-short-name } の動作に影響を与える可能性があります。<a data-l10n-name="data-collection">技術的なデータと操作に関するデータ</a>の収集がオンになっている場合にのみ、これらの機能の使用に関するデータが送信されります。
 
 pane-experimental-reset =
   .label = 初期設定に戻す
@@ -767,6 +767,10 @@ home-prefs-stories-header =
     .label = ストーリー
 home-prefs-stories-description = あなたのアクティビティに基づいたパーソナライズされた記事
 
+home-prefs-stories-header2 =
+    .label = ストーリー
+    .description = { -brand-product-name } ファミリーが厳選した特別なコンテンツ
+
 ##
 
 home-prefs-recommended-by-learn-more = 使い方
@@ -787,6 +791,9 @@ home-prefs-weather-header =
   .label = 天気
 home-prefs-weather-description = 今日の天気予報が一目でわかる
 home-prefs-weather-learn-more-link = さらに詳しく
+
+home-prefs-widgets-header =
+    .label = ウィジェット
 
 # Lists is a widget on New Tab, similar to a to-do widget
 home-prefs-lists-header =
@@ -1268,7 +1275,6 @@ sitedata-total-size-calculating = サイトデータとキャッシュサイズ�
 # Variables:
 #   $value (number) - Value of the unit (for example: 4.6, 500)
 #   $unit (string) - Name of the unit (for example: "bytes", "KB")
-sitedata-total-size = 保存された Cookie とサイトデータとキャッシュのディスク使用量は現在 { $value } { $unit } です。
 sitedata-total-size2 = 保存されている Cookie、履歴、サイトデータ、キャッシュは、現在ディスク容量を <strong>{ $value } { $unit }</strong> 使用しています
 
 sitedata-learn-more = さらに詳しく
@@ -1604,7 +1610,7 @@ preferences-collection-privacy-notice = プライバシー通知を表示
 preferences-across-profiles = これらの設定は、このデバイス上のすべての { -brand-product-name } プロファイルに適用されます。
 preferences-view-profiles = すべてのプロファイルを表示
 
-collection-health-report-telemetry-disabled = { -vendor-short-name } への技術的な対話データの送信の許可を取り消しました。過去のデータは 30 日以内にすべて削除されます。
+collection-health-report-telemetry-disabled = { -vendor-short-name } が技術的なデータと操作に関するデータを取得することはなくなりました。過去のデータはすべて 30 日以内に削除されます。
 collection-health-report-telemetry-disabled-link = さらに詳しく
 
 collection-usage-ping =
@@ -1613,7 +1619,7 @@ collection-usage-ping =
 collection-usage-ping-description = これは { -vendor-short-name } がアクティブ ユーザーを推定するのに役立ちます。
 
 collection-health-report2 =
-    .label = 技術データとインタラクションデータを { -vendor-short-name } に送信します
+    .label = 技術的なデータと操作に関するデータを { -vendor-short-name } に送信する
     .accesskey = r
 collection-health-report-link = さらに詳しく
 collection-health-report-description = これにより { -brand-product-name } の機能、パフォーマンス、安定性を向上させるのに役立ちます。

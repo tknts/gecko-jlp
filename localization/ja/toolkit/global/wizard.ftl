@@ -23,7 +23,7 @@ wizard-win-button-next =
   .accesskey = N
 
 wizard-macos-button-finish =
-  .label = Done
+  .label = 完了
 wizard-linux-button-finish =
   .label = 完了
 wizard-win-button-finish =

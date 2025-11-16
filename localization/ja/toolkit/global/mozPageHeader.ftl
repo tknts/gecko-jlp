@@ -3,4 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 back-nav-button-title =
-    .title = Go back
+    .title = 戻る

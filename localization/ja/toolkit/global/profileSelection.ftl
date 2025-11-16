@@ -23,7 +23,7 @@ profile-selection-delete-button =
   .label = 削除…
   .accesskey = D
 
-profile-selection-conflict-message = Another copy of { -brand-product-name } has made changes to profiles. You must restart { -brand-short-name } before making more changes.
+profile-selection-conflict-message = 別の { -brand-product-name } のインスタンスがプロファイルに変更を加えました。これ以上変更を行う前に { -brand-short-name } を再起動する必要があります。
 
 ## Messages used in the profile manager
 

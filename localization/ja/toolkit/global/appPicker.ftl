@@ -7,4 +7,4 @@ app-picker-browse-button =
 app-picker-send-msg =
     .value = このアイテムの送信先:
 app-picker-no-app-found =
-    .value = このファイル タイプのアプリケーションは見つかりませんでした。
+    .value = このファイルタイプのアプリケーションは見つかりませんでした。

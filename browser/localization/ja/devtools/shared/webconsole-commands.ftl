@@ -10,15 +10,15 @@
 webconsole-commands-usage-block =
   :block URL_STRING
 
-  ネットワークリクエストのブロックを開始
+  ネットワークリクエストのブロックを開始します。
 
-    It accepts only one URL_STRING argument, an unquoted string which will be used to block all requests whose URL includes this string.
-    Use :unblock or the Network Monitor request blocking sidebar to undo this.
+    クォートで囲まれていない文字列である URL_STRING を唯一の引数として受け付けます。この文字列は、その URL に指定された文字列が含まれるすべてのリクエストをブロックするために使用されます。
+    この操作を元に戻すには、:unblock コマンドまたはネットワークモニターのリクエストブロッキングサイドバーを使用します。
 
 # Usage string for :unblock command
 webconsole-commands-usage-unblock =
   :unblock URL_STRING
 
-  ネットワークリクエストのブロックを解除
+  ネットワークリクエストのブロックを停止します。
 
-    受け入れる引数は 1 つだけで、これは :block に以前渡されたのとまったく同じ文字列です。
+    :block に以前渡された文字列と完全に同じ文字列を、唯一の引数として受け付けます。

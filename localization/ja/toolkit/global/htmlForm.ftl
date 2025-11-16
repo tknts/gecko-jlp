@@ -9,6 +9,13 @@
 #   $fileCount (Number): The number of remaining files.
 input-file-and-more-files =
     { $fileCount ->
-        [one] and one more
-       *[other] and { $fileCount } more
+        [one] ともうひとつ
+       *[other] と他 { $fileCount } 件
     }
+
+form-post-secure-to-insecure-warning-title = セキュリティー警告
+form-post-secure-to-insecure-warning-message =
+    このページで入力した情報は、安全でない接続を介して送信され、第三者によって読み取られる可能性があります。
+
+    この情報を送信してもよろしいですか?
+form-post-secure-to-insecure-warning-continue = 続行

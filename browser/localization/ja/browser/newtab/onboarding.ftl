@@ -214,11 +214,11 @@ mr2022-onboarding-pin-primary-button-label-msix = { -brand-short-name } をタ�
 # Title used on multistage onboarding page for existing users when Firefox is not pinned
 mr2022-onboarding-existing-pin-header = { -brand-product-name } を好きになっていただきありがとうございます。
 # Subtitle is used on onboarding page for existing users when Firefox is not pinned
-mr2022-onboarding-existing-pin-subtitle = Launch a healthier internet from anywhere with a single click. Our latest update is packed with new things we think you’ll adore.
+mr2022-onboarding-existing-pin-subtitle = ワンクリックで、どこからでも、より健全なインターネットを始めましょう。今回の最新アップデートには、きっと気に入っていただける新しい機能が満載です。
 # Subtitle will be used on the welcome screen for existing users
 # when they already have Firefox pinned but not set as default
-mr2022-onboarding-existing-set-default-only-subtitle = Use a browser that defends your privacy while you zip around the web. Our latest update is packed with things that you adore.
-mr2022-onboarding-existing-pin-checkbox-label = { -brand-short-name } のプライベート ブラウジングも追加
+mr2022-onboarding-existing-set-default-only-subtitle = ウェブを軽快に移動しながら、プライバシーを守ってくれるブラウザーを使いましょう。今回の最新アップデートには、あなたが気に入っている機能が満載です。
+mr2022-onboarding-existing-pin-checkbox-label = { -brand-short-name } のプライベートブラウジングも追加する
 
 ## MR2022 New User Set Default screen strings
 
@@ -242,7 +242,7 @@ mr2022-onboarding-import-primary-button-label-no-attribution = 以前のブラ�
 
 ## MR2022 Multistage Mobile Download screen strings
 
-mr2022-onboarding-mobile-download-subtitle = あるデバイスでタブを開き、別のデバイスで中断したところから再開します。それに加えて { -brand-product-name } を使用しているデバイスならどこでも、ブックマークとパスワードを同期できます。
+mr2022-onboarding-mobile-download-cta-text = QR コードをスキャンしてモバイル版 { -brand-product-name } を入手するか、<a data-l10n-name="download-label">ご自身にダウンロードリンクを送信</a>してください。
 mr2022-onboarding-no-mobile-download-cta-text = QR コードをスキャンして、モバイル用の { -brand-product-name } を入手します。
 
 ## MR2022 Upgrade Dialog screens
@@ -252,7 +252,7 @@ mr2022-upgrade-onboarding-pin-private-window-header = ワンクリックでプ�
 mr2022-upgrade-onboarding-pin-private-window-subtitle = Cookie や履歴の保存は行われません。デスクトップから直接ブラウジングできます。誰にも見られずにブラウズしましょう。
 mr2022-upgrade-onboarding-pin-private-window-primary-button-label = { PLATFORM() ->
     [macos] Keep { -brand-short-name } private browsing in Dock
-   *[other] { -brand-short-name } のプライベート ブラウジングをタスクバーにピン留めする
+   *[other] { -brand-short-name } のプライベートブラウジングをタスクバーにピン留めする
 }
 
 ## MR2022 Privacy Segmentation screen strings

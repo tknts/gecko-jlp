@@ -173,6 +173,7 @@ fp-certerror-hide-advanced-button = 終了
 fp-certerror-override-exception-button = { $hostname } に進みます (危険)
 fp-certerror-intro = { -brand-short-name } は、<strong>{ $hostname }</strong> に関する潜在的に深刻なセキュリティ問題を検出しました。誰かがそのサイトになりすまして、クレジットカード情報、パスワード、メールアドレスなどを盗もうとしている可能性があります。
 fp-certerror-expired-into = { -brand-short-name } は、<strong>{ $hostname }</strong> に関するセキュリティ問題を検出しました。サイトが正しく設定されていないか、デバイスの時計が間違った日付/時刻に設定されています。
+fp-certerror-transparency-intro = <strong>{ $hostname }</strong> を装った誰かが、クレジットカード情報、パスワード、メールアドレスなどの情報を盗み取ろうとしている可能性があります。
 
 ##
 
@@ -215,11 +216,19 @@ fp-certerror-expired-what-can-you-do-body = デバイスの時計は { DATETIME(
 
 # Variables:
 #   $error (string) - NSS error code string that specifies type of cert error. e.g. unknown issuer, invalid cert, etc.
-fp-cert-error-code = Error Code: { $error }
+fp-cert-error-code = エラー コード: { $error }
 
 # Variables:
 #   $datetime (Date) - Current datetime.
 fp-datetime = { DATETIME($datetime, month: "short", year: "numeric", day: "numeric") } { DATETIME($datetime, timeStyle: "long") }
+
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
+fp-certerror-transparency-why-dangerous-body = { $hostname } が公開証明書の透明性要件を満たしていることを証明できなかったため、{ -brand-short-name } はこのサイトを信頼できません。
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+fp-certerror-transparency-what-can-you-do-body = サイト自体に問題がある可能性が高いので、あなたにできることはおそらくありません。
+
 
 fp-learn-more-about-secure-connection-failures = 安全な接続の失敗について、さらに詳しく
 fp-learn-more-about-cert-issues = こうした証明書の問題について、さらに詳しく

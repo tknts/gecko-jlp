@@ -21,4 +21,4 @@ credential-chooser-urlbar-anchor =
 # This indicates that an account is initially from another website.
 # This is short for "we are getting this thing from { $provider } in English.
 # This is displayed on a new line below the provider's name.
-credential-chooser-host-descriptor = from { $provider }
+credential-chooser-host-descriptor = { $provider } から

@@ -45,15 +45,15 @@ about-processes-extension-process = 拡張機能 ({ $pid })
 about-processes-privilegedabout-process = About ページ ({ $pid })
 about-processes-plugin-process = プラグイン ({ $pid })
 about-processes-privilegedmozilla-process = { -vendor-short-name } サイト ({ $pid })
-about-processes-gmp-plugin-process = Gecko Media Plugins ({ $pid })
+about-processes-gmp-plugin-process = Gecko メディア プラグイン ({ $pid })
 about-processes-gpu-process = GPU ({ $pid })
 about-processes-vr-process = VR ({ $pid })
-about-processes-rdd-process = Data Decoder ({ $pid })
+about-processes-rdd-process = データ デコーダー ({ $pid })
 about-processes-socket-process = ネットワーク ({ $pid })
-about-processes-fork-server-process = Fork Server ({ $pid })
-about-processes-preallocated-process = 事前割り当て済み ({ $pid })
+about-processes-fork-server-process = Fork サーバー ({ $pid })
+about-processes-preallocated-process = 事前割り当て ({ $pid })
 about-processes-utility-process = ユーティリティー ({ $pid })
-about-processes-inference-process = インターフェイス ({ $pid })
+about-processes-inference-process = 推論 ({ $pid })
 
 # Unknown process names
 # Variables:
@@ -67,10 +67,10 @@ about-processes-unknown-process = その他: { $type } ({ $pid })
 ##    $origin (String) The domain name for this process.
 
 about-processes-web-isolated-process = { $origin } ({ $pid })
-about-processes-web-serviceworker = { $origin } ({ $pid }, serviceworker)
-about-processes-with-coop-coep-process = { $origin } ({ $pid }, cross-origin isolated)
-about-processes-web-isolated-process-private = { $origin } — Private ({ $pid })
-about-processes-with-coop-coep-process-private = { $origin } — Private ({ $pid }, cross-origin isolated)
+about-processes-web-serviceworker = { $origin } ({ $pid }, Service Worker)
+about-processes-with-coop-coep-process = { $origin } ({ $pid }, クロスオリジン分離)
+about-processes-web-isolated-process-private = { $origin } — プライベート ({ $pid })
+about-processes-with-coop-coep-process-private = { $origin } — プライベート ({ $pid }, クロスオリジン分離)
 
 ## Details within processes
 
@@ -126,15 +126,15 @@ about-processes-frame-name-many = サブフレーム ({ $number }): { $shortUrl 
 
 ## Utility process actor names
 
-about-processes-utility-actor-unknown = Unknown actor
-about-processes-utility-actor-audio-decoder-generic = 汎用オーディオ デコーダー
-about-processes-utility-actor-audio-decoder-applemedia = Apple Media Audio Decoder
-about-processes-utility-actor-audio-decoder-wmf = Windows Media Framework Audio Decoder
+bout-processes-utility-actor-unknown = 不明なアクター
+about-processes-utility-actor-audio-decoder-generic = 汎用オーディオデコーダー
+about-processes-utility-actor-audio-decoder-applemedia = Apple Media オーディオデコーダー
+about-processes-utility-actor-audio-decoder-wmf = Windows Media Framework オーディオデコーダー
 about-processes-utility-actor-mf-media-engine = Windows Media Foundation Media Engine CDM
 # "Oracle" refers to an internal Firefox process and should be kept in English
 about-processes-utility-actor-js-oracle = JavaScript Oracle
 about-processes-utility-actor-windows-utils = Windows Utils
-about-processes-utility-actor-windows-file-dialog = Windows ファイル ダイアログボックス
+about-processes-utility-actor-windows-file-dialog = Windows ファイル ダイアログ
 
 ## Displaying CPU (percentage and total)
 ## Variables:

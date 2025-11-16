@@ -16,17 +16,17 @@ problem-with-this-site-title = このサイトに問題があるようです
 
 ## Error page actions
 
-neterror-advanced-button = Advanced…
-neterror-copy-to-clipboard-button = クリップボードにテキストをコピー
-neterror-learn-more-link = さらに詳しく…
-neterror-open-portal-login-page-button = ネットワークのログインページを開く
-neterror-override-exception-button = リスクを受け入れて続行
-neterror-pref-reset-button = デフォルトの設定を復元
+neterror-advanced-button = 詳細…
+neterror-copy-to-clipboard-button = テキストをクリップボードにコピー
+neterror-learn-more-link = 詳細
+neterror-open-portal-login-page-button = ネットワークログインページを開く
+neterror-override-exception-button = 危険を承知で続行
+neterror-pref-reset-button = 既定の設定に戻す
 neterror-return-to-previous-page-button = 戻る
 neterror-return-to-previous-page-recommended-button = 戻る (推奨)
-neterror-try-again-button = もう一度
-neterror-add-exception-button = このサイトを常に続ける
-neterror-settings-button = DNS の設定を変更
+neterror-try-again-button = 再試行
+neterror-add-exception-button = このサイトへの接続を常に継続
+neterror-settings-button = DNS 設定を変更
 neterror-view-certificate-link = 証明書を表示
 
 ##
@@ -180,10 +180,21 @@ certerror-what-should-i-do-bad-sts-cert-explanation = <b>{ $hostname }</b> に�
 cert-error-trust-certificate-transparency-what-can-you-do-about-it = サイト自体に問題がある可能性が高いので、おそらく何もないでしょう。
 
 certerror-blocked-by-corp-headers-description = ウェブサイトによっては、他のサイトとの望ましくないやり取りから、ウェブサイト自身やあなたを保護するための保護策が講じられている場合があります。
-certerror-coop-learn-more = クロス オリジン オープナー ポリシー (COOP) の詳細
-certerror-coep-learn-more = クロス オリジン エンベッダー ポリシー (COEP) の詳細
+certerror-coop-learn-more = Cross-Origin-Opener-Policy (COOP) について詳しくはこちら
+certerror-coep-learn-more = Cross-Origin-Embedder-Policy (COEP) について詳しくはこちら
 
 # Variables:
 #   $responsestatus (string) - HTTP response status code (e.g., 500).
 #   $responsestatustext (string) - HTTP response status text (e.g., "Internal Server Error").
 neterror-response-status-code = エラーコード: { $responsestatus } { $responsestatustext }
+
+## Felt Privacy V1 Strings
+## Variables:
+##   $hostname (String) - Hostname of the website to which the user was trying to connect.
+
+fp-neterror-connection-intro = { -brand-short-name } は { $hostname } のサーバーに安全に接続できません。
+
+# This string appears after the following string: "What makes the site look dangerous?" (fp-neterror-why-site-dangerous)
+fp-neterror-cypher-overlap-why-dangerous-body = このサイトは、既知のセキュリティー問題を持つ古いソフトウェアを使用しているようです。
+# This string appears after the following string: "What can you do about it?" (fp-neterror-what-can-you-do)
+fp-neterror-cypher-overlap-what-can-you-do-body = { -brand-short-name } が最新バージョンであることを確認してください。メニューの [ヘルプ] > [{ -brand-short-name } について] を開いてください。最新の { -brand-short-name } を使用している場合、問題はおそらくサイト自体にあります。

@@ -9,7 +9,7 @@ security-privacy-status-ok-header = { -brand-short-name } は保護されてい�
 #   $problemCount (Number) - Number of problems we have discovered in the user`s settings
 security-privacy-status-problem-header = { $problemCount ->
       [one] セキュリティとプライバシーに影響する問題があります
-     *[other] セキュリティとプライバシーに影響する問題が { $problemCount } 件あります
+      *[other] セキュリティとプライバシーに影響する問題が { $problemCount } 件あります
   }
 security-privacy-status-ok-label = セキュリティとプライバシーは保護されています
 security-privacy-status-problem-label = 一部の設定がセキュリティとプライバシーに影響しています
@@ -21,7 +21,7 @@ security-privacy-status-pending-trackers-label = 過去 1 か月間にブロッ�
 #   $trackerCount (Number) - Number of trackers we have blocked in the last month
 security-privacy-status-trackers-label = { $trackerCount ->
       [one] 過去 1 か月間に { $trackerCount } 件のトラッカーをブロックしました
-     *[other] 過去 1 か月間に { $trackerCount } 件のトラッカーをブロックしました
+      *[other] 過去 1 か月間に { $trackerCount } 件のトラッカーをブロックしました
   }
 security-privacy-status-strict-enabled-label = <a data-l10n-name="strict-tracking-protection">厳格なトラッキング防止</a> が有効になっています
 security-privacy-status-up-to-date-label = { -brand-short-name } は最新です

@@ -7,21 +7,21 @@
 ## appropriate location before relaunching itself from that location if the
 ## user accepts.
 
-prompt-to-install-title = Finish installing { -brand-short-name }?
-prompt-to-install-message = Complete this one-step installation to help keep { -brand-short-name } up to date and prevent data loss. { -brand-short-name } will be added to your Applications folder and Dock.
+prompt-to-install-title = { -brand-short-name } のインストールを完了しますか？
+prompt-to-install-message = この 1 ステップのインストールを完了すると、{ -brand-short-name } を最新の状態に保ち、データ損失を防ぐことができます。{ -brand-short-name } はアプリケーションフォルダーと Dock に追加されます。
 prompt-to-install-yes-button = インストール
-prompt-to-install-no-button = キャンセル
+prompt-to-install-no-button = インストールしない
 
 ## Strings for a dialog that opens if the installation failed.
 
-install-failed-title = { -brand-short-name } installation failed.
-install-failed-message = { -brand-short-name } failed to install but will continue to run.
+install-failed-title = { -brand-short-name } のインストールに失敗しました
+install-failed-message = { -brand-short-name } のインストールに失敗しましたが、引き続き実行されます。
 
 ## Strings for a dialog that recommends to the user to start an existing
 ## installation of the app in the Applications directory if one is detected,
 ## rather than the app that was double-clicked in a .dmg.
 
-prompt-to-launch-existing-app-title = Open existing { -brand-short-name } application?
-prompt-to-launch-existing-app-message = You already have { -brand-short-name } installed. Use the installed application to stay up to date and prevent data loss.
-prompt-to-launch-existing-app-yes-button = Open existing
-prompt-to-launch-existing-app-no-button = No thanks
+prompt-to-launch-existing-app-title = 既存の { -brand-short-name } アプリケーションを開きますか？
+prompt-to-launch-existing-app-message = { -brand-short-name } はすでにインストールされています。最新の状態を保ちデータ損失を防ぐため、インストール済みのアプリケーションを使用してください。
+prompt-to-launch-existing-app-yes-button = 既存のアプリケーションを開く
+prompt-to-launch-existing-app-no-button = いいえ

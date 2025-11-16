@@ -12,4 +12,4 @@ moz-five-star-rating =
 # Variables:
 #   $rating (number) - A number between 0 and 5. The translation should show at most one digit after the comma.
 moz-five-star-rating-rate-text =
-  .title = Rate { NUMBER($rating, maximumFractionDigits: 1) } out of 5
+  .title = 5 点満点中 { NUMBER($rating, maximumFractionDigits: 1) } 点で評価

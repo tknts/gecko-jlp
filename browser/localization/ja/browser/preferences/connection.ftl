@@ -64,7 +64,7 @@ connection-proxy-noproxy = プロキシなしで接続
 connection-proxy-noproxy-desc = 例: .mozilla.org, .net.nz, 192.168.1.0/24
 
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
-connection-proxy-noproxy-localhost-desc-2 = localhost, 127.0.0.1/8, and ::1 へは常にプロキシーなしで接続します。
+connection-proxy-noproxy-localhost-desc-2 = localhost、127.0.0.1/8、および ::1 への接続は決してプロキシーを介しません。
 
 connection-proxy-autotype =
     .label = プロキシーの自動構成 URL
