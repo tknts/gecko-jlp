@@ -15,7 +15,7 @@ serviceworker-list-header = Service Worker
 
 # Text displayed next to the list of Service Workers to encourage users to check out
 # about:debugging to see all registered Service Workers.
-serviceworker-list-aboutdebugging = <a>about:debugging</a> で他のドメインの Service Worker をデバッグ
+serviceworker-list-aboutdebugging = 他のドメインの Service Worker は <a>about:debugging</a> を開いてください
 
 # Text for the button to unregister a Service Worker. Displayed for active Service Workers.
 serviceworker-worker-unregister = 登録解除
@@ -32,7 +32,7 @@ serviceworker-worker-start3 = 開始
 # display the last update time of the service worker script.
 # Variables:
 #   $date (date) - Update date
-serviceworker-worker-updated = <time>{ DATETIME($date, year: "numeric", month: "long", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric") }</time>更新
+serviceworker-worker-updated = 更新 <time>{ DATETIME($date, month: "long", year: "numeric", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric") }</time>
 
 ## Service Worker status strings: all serviceworker-worker-status-* strings are also
 ## defined in aboutdebugging.properties and should be synchronized with them.
@@ -45,34 +45,34 @@ serviceworker-worker-status-running = 実行中
 serviceworker-worker-status-stopped = 停止中
 
 # Text displayed when no service workers are visible for the current page.
-serviceworker-empty-intro2 = Service Worker が見つかりませんでした。
+serviceworker-empty-intro2 = Service Workers が見つかりません
 
 # Link will open https://developer.mozilla.org/docs/Web/API/Service_Worker_API/Using_Service_Workers
-serviceworker-empty-intro-link = さらに詳しく
+serviceworker-empty-intro-link = 詳細
 
 # Text displayed when there are no Service Workers to display for the current page,
 # introducing hints to debug Service Worker issues.
 # <a> and <span> are links that will open the webconsole and the debugger, respectively.
-serviceworker-empty-suggestions2 = 現在のページに Service Worker が必要な場合は <a>Console</a> でエラーを探すか <span>Debugger</span> で Service Worker の登録をステップスルーできます。
+serviceworker-empty-suggestions2 = 現在のページに Service Worker があるべき場合は、<a>Console</a> でエラーを探すか、<span>Debugger</span> で Service Worker の登録をステップ実行してください。
 
 # Suggestion to go to about:debugging in order to see Service Workers for all domains.
 # Link will open about:debugging in a new tab.
-serviceworker-empty-suggestions-aboutdebugging2 = 他のドメインの Service Worker を確認する
+serviceworker-empty-suggestions-aboutdebugging2 = 他のドメインの Service Worker を表示
 
 # Header for the Manifest page when we have an actual manifest
-manifest-view-header = アプリのマニフェスト
+manifest-view-header = アプリケーション Manifest
 
 # Header for the Manifest page when there's no manifest to inspect
-manifest-empty-intro2 = ウェブアプリのマニフェストが検出されませんでした。マニフェストの追加方法について
+manifest-empty-intro2 = ウェブアプリ Manifest が検出されませんでした
 
 # The link will open https://developer.mozilla.org/en-US/docs/Web/Manifest
-manifest-empty-intro-link = さらに詳しく
+manifest-empty-intro-link = Manifest の追加方法
 
 # Header for the Errors and Warnings section of Manifest inspection displayed in the application panel.
 manifest-item-warnings = エラーと警告
 
 # Header for the Identity section of Manifest inspection displayed in the application panel.
-manifest-item-identity = 識別子
+manifest-item-identity = 識別情報
 
 # Header for the Presentation section of Manifest inspection displayed in the application panel.
 manifest-item-presentation = 表示
@@ -81,31 +81,31 @@ manifest-item-presentation = 表示
 manifest-item-icons = アイコン
 
 # Text displayed while we are loading the manifest file
-manifest-loading = マニフェストを読み込み中…
+manifest-loading = Manifest を読み込み中…
 
 # Text displayed when the manifest has been successfully loaded
-manifest-loaded-ok = マニフェストを読み込みました。
+manifest-loaded-ok = Manifest を読み込みました。
 
 # Text displayed as a caption when there has been an error while trying to
 # load the manifest
-manifest-loaded-error = マニフェストの読み込み中にエラーが発生しました:
+manifest-loaded-error = Manifest の読み込み中にエラーが発生しました:
 
 # Text displayed as an error when there has been a Firefox DevTools error while
 # trying to load the manifest
-manifest-loaded-devtools-error = Firefox 開発ツールエラー
+manifest-loaded-devtools-error = Firefox DevTools エラー
 
 # Text displayed when the page has no manifest available
-manifest-non-existing = マニフェストが見つからないため検査できませんでした。
+manifest-non-existing = 調査する Manifest が見つかりません。
 
 # Text displayed when the page has a manifest embedded in a Data URL and
 # thus we cannot link to it.
-manifest-json-link-data-url = マニフェストはデータ URL に埋め込まれています。
+manifest-json-link-data-url = Manifest は Data URL に埋め込まれています。
 
 # Text displayed at manifest icons to label their purpose, as declared
 # in the manifest.
 # Variables:
 #   $purpose (string) - Manifest purpose
-manifest-icon-purpose = 目的: <code>{ $purpose }</code>
+manifest-icon-purpose = 用途: <code>{ $purpose }</code>
 
 # Text displayed as the alt attribute for <img> tags showing the icons in the
 # manifest.
@@ -118,21 +118,21 @@ manifest-icon-img =
 #   $sizes (string) - User-dependent string that has been parsed as a
 #                     space-separated list of `<width>x<height>` sizes or
 #                     the keyword `any`.
-manifest-icon-img-title = アイコンのサイズ: { $sizes }
+manifest-icon-img-title = サイズ: { $sizes } のアイコン
 
 # Text displayed as the title attribute for <img> tags showing the icons in the
 # manifest, in case there's no icon size specified by the user
-manifest-icon-img-title-no-sizes = 未定義のサイズのアイコン
+manifest-icon-img-title-no-sizes = サイズが指定されていないアイコン
 
 # Sidebar navigation item for Manifest sidebar item section
 sidebar-item-manifest = Manifest
-  .alt = マニフェスト アイコン
-  .title = マニフェスト
+  .alt = Manifest アイコン
+  .title = Manifest
 
 # Sidebar navigation item for Service Workers sidebar item section
 sidebar-item-service-workers = Service Workers
-  .alt = Service Worker アイコン
-  .title = Service Worker
+  .alt = Service Workers アイコン
+  .title = Service Workers
 
 # Text for the ALT and TITLE attributes of the warning icon
 icon-warning =
@@ -141,5 +141,5 @@ icon-warning =
 
 # Text for the ALT and TITLE attributes of the error icon
 icon-error =
-  .alt = エラー アイコン
+  .alt = エラーアイコン
   .title = エラー

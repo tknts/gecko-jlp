@@ -1527,130 +1527,112 @@ tracking-manage-exceptions =
 
 ## Privacy Section - Permissions
 
-permissions-header = 許可
+permissions-header2 =
+    .label = 権限
+    .description = 閲覧するウェブサイトに与える権限です。
 
-permissions-location = 位置情報
-permissions-location-settings =
-    .label = 設定…
-    .accesskey = t
+permissions-location2 =
+    .label = 位置情報
 
-permissions-localhost = デバイスのアプリとサービス
-permissions-localhost-settings =
-    .label = 設定…
-    .accesskey = t
+permissions-localhost2 =
+    .label = デバイスのアプリとサービス
 
-permissions-local-network = ローカル ネットワーク デバイス
-permissions-local-network-settings =
-    .label = 設定…
-    .accesskey = t
+permissions-local-network2 =
+    .label = ローカルネットワークデバイス
 
-permissions-xr = バーチャル・リアリティ
-permissions-xr-settings =
-    .label = 設定…
-    .accesskey = t
+permissions-xr2 =
+    .label = バーチャルリアリティ
 
-permissions-camera = カメラ
-permissions-camera-settings =
-    .label = 設定…
-    .accesskey = t
+permissions-camera2 =
+    .label = カメラ
 
-permissions-microphone = マイク
-permissions-microphone-settings =
-    .label = 設定…
-    .accesskey = t
+permissions-microphone2 =
+    .label = マイク
 
-# Short form for "the act of choosing sound output devices and redirecting audio to the chosen devices".
-permissions-speaker = スピーカーの選択
-permissions-speaker-settings =
-    .label = 設定…
-    .accesskey = t
+# Privacy permission for sound output devices.
+permissions-speaker2 =
+    .label = スピーカー
 
-permissions-notification = 通知
-permissions-notification-settings =
-    .label = 設定…
-    .accesskey = t
-permissions-notification-link = さらに詳しく
+permissions-notification2 =
+    .label = 通知
 
 permissions-notification-pause =
-    .label = { -brand-short-name } が再起動するまで通知を一時的に停止する
+    .label = { -brand-short-name } を再起動するまで通知を一時停止
     .accesskey = n
 
-permissions-autoplay = 自動再生
-
-permissions-autoplay-settings =
-    .label = 設定…
-    .accesskey = t
+permissions-autoplay2 =
+    .label = 自動再生
 
 permissions-block-popups2 =
-    .label = ポップアップとサードパーティーによるリダイレクトをブロック
+    .label = ポップアップとサードパーティのリダイレクトをブロック
     .accesskey = B
 
 # "popup" is a misspelling that is more popular than the correct spelling of
 # "pop-up" so it's included as a search keyword, not displayed in the UI.
-permissions-block-popups-exceptions-button =
-    .label = 例外サイト…
+permissions-block-popups-exceptions-button2 =
+    .label = ポップアップとサードパーティのリダイレクトの例外を管理
     .accesskey = E
-    .searchkeywords = ポップアップ
+    .searchkeywords = popups
 
-permissions-addon-install-warning =
-    .label = ウェブサイトからのアドオンのインストールを警告する。
+permissions-addon-install-warning2 =
+    .label = ウェブサイトが拡張機能をインストールしようとしたときに警告する
     .accesskey = W
 
-permissions-addon-exceptions =
-    .label = 例外サイト…
+permissions-addon-exceptions2 =
+    .label = 拡張機能をインストールできるウェブサイトを選択
     .accesskey = E
 
 ## Privacy Section - Data Collection
 
-collection-header2 = { -brand-short-name } によるデータの収集と使用
-    .searchkeywords = テレメトリ
+collection-header2 = { -brand-short-name } のデータ収集と利用
+    .searchkeywords = テレメトリー
 
-preferences-collection-description = 私たちは、すべてのユーザーに選択肢を提供し { -brand-product-name } をすべての人にとってより良いものにするために必要最低限のデータのみを収集するよう努めています。
+preferences-collection-description = 私たちは選択肢を提供し、すべての人々のために { -brand-product-name } を改善するために必要最低限のデータのみを収集するよう努めています。
 preferences-collection-privacy-notice = プライバシー通知を表示
-preferences-across-profiles = これらの設定は、このデバイス上のすべての { -brand-product-name } プロファイルに適用されます。
+preferences-across-profiles = これらの設定はこのデバイス上のすべての { -brand-product-name } プロファイルに適用されます。
 preferences-view-profiles = すべてのプロファイルを表示
 
 collection-health-report-telemetry-disabled = { -vendor-short-name } が技術的なデータと操作に関するデータを取得することはなくなりました。過去のデータはすべて 30 日以内に削除されます。
-collection-health-report-telemetry-disabled-link = さらに詳しく
+collection-health-report-telemetry-disabled-link = 詳細はこちら
 
 collection-usage-ping =
-    .label = 毎日の使用状況の ping を { -vendor-short-name } に送信します
+    .label = 毎日の利用状況の ping を { -vendor-short-name } に送信する
     .accesskey = u
-collection-usage-ping-description = これは { -vendor-short-name } がアクティブ ユーザーを推定するのに役立ちます。
+collection-usage-ping-description = これは { -vendor-short-name } がアクティブなユーザーを推定するのに役立ちます。
 
 collection-health-report2 =
     .label = 技術的なデータと操作に関するデータを { -vendor-short-name } に送信する
     .accesskey = r
-collection-health-report-link = さらに詳しく
-collection-health-report-description = これにより { -brand-product-name } の機能、パフォーマンス、安定性を向上させるのに役立ちます。
+collection-health-report-link = 詳細はこちら
+collection-health-report-description = これは { -brand-product-name } の機能、パフォーマンス、安定性を改善するために役立ちます。
 
 collection-studies2 =
-    .label = Studies をインストールして実行する
-collection-studies-description = 機能やアイデアを、一般公開される前に試してみましょう。
-collection-studies-link = { -brand-short-name } Studies 調査を表示する
+    .label = スタディーをインストールして実行する
+collection-studies-description = すべてのユーザーにリリースされる前に、機能やアイデアを試すことができます。
+collection-studies-link = { -brand-short-name } のスタディーを表示
 
 addon-recommendations2 =
-    .label = 拡張機能のおすすめにパーソナライズされたデータの使用を許可する
-addon-recommendations-description = ブラウジング体験を向上させるおすすめの拡張機能を取得します。
+    .label = パーソナライズされた拡張機能の推奨を許可する
+addon-recommendations-description = 閲覧体験を向上させるための拡張機能の推奨を受け取ります。
 
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
-collection-health-report-disabled2 = このビルドの構成ではデータレポートは無効になっています。
+collection-health-report-disabled2 = このビルド構成では、データの報告は無効化されています。
 
 collection-backlogged-crash-reports2 =
     .label = クラッシュレポートを自動的に送信する
     .accesskey = c
-collection-backlogged-crash-reports-description = これは、{ -vendor-short-name } がブラウザーの問題を診断して修正するのに役立ちます。レポートには、個人情報や機密データが含まれる場合があります。
+collection-backlogged-crash-reports-description = これは { -vendor-short-name } がブラウザーの問題を診断し、修正するために役立ちます。レポートには個人情報や機密データが含まれる場合があります。
 
-privacy-segmentation-section-header = ブラウジングを強化する新機能
+privacy-segmentation-section-header = 閲覧を強化する新機能
 
-privacy-segmentation-section-description = あなたのデータを使用したパーソナライズされた新機能を追加する場合:
+privacy-segmentation-section-description = よりパーソナルな体験を提供するためにあなたのデータを使用する機能を提示する場合:
 
 privacy-segmentation-radio-off =
-    .label = { -brand-product-name } からのおすすめを使用する
+    .label = { -brand-product-name } の推奨を使用する
 
 privacy-segmentation-radio-on =
-    .label = 詳細な情報を表示する
+    .label = 詳細情報を表示
 
 ## Privacy Section - Security
 ##

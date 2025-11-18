@@ -131,3 +131,80 @@ security-privacy-issue-warning-inner-html-ltgt =
 security-privacy-issue-warning-file-uri-origin =
   .label = File URI 厳格オリジンポリシーが無効です
   .description = { -brand-short-name } で読み込まれたファイルは、同じフォルダー内のファイルとは別オリジンで扱われるべきです
+
+## DNS-Over-HTTPS
+
+preferences-doh-overview-default =
+    .label = 既定
+    .description = 利用可能な地域でセキュア DNS を使用します
+
+preferences-doh-overview-custom =
+    .label = カスタム
+    .description = セキュア DNS を使用するタイミングとプロバイダーを選択します。
+
+preferences-doh-overview-off =
+    .label = オフ
+    .description = 既定の DNS リゾルバーを使用します
+
+preferences-doh-advanced-button =
+    .label = 詳細設定
+
+preferences-doh-advanced-section =
+    .label = 詳細設定
+    .description = Domain Name System (DNS) over HTTPS は、暗号化された接続を介してドメイン名の要求を送信し、セキュアな DNS を提供することで、あなたがアクセスしようとしているウェブサイトを他者が確認しにくくします。
+
+preferences-doh-manage-exceptions2 =
+    .label = 例外を管理
+    .accesskey = x
+
+preferences-doh-radio-default =
+    .label = 既定 (利用可能な場合)
+    .description = 利用可能な地域でセキュア DNS を使用します
+
+preferences-doh-radio-custom =
+    .label = カスタム (常にオン)
+
+preferences-doh-radio-off =
+    .label = オフ
+    .description = 既定の DNS リゾルバーを使用します
+
+preferences-doh-fallback-label =
+    .label = 常に既定の DNS にフォールバックする
+    .description = セキュア DNS に問題がある場合、既定の DNS リゾルバーにフォールバックします
+
+preferences-doh-status-item-off =
+    .message = DNS-over-HTTPS はオフです
+
+## Variables:
+##   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+##   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+
+preferences-doh-status-item-not-active =
+    .message = プロバイダー { $name } を使用しようとしたときにエラー ({ $reason }) が発生したため、DNS-over-HTTPS は動作していません
+
+preferences-doh-status-item-not-active-bad-url =
+    .message = 無効な URL ({ $reason }) を受け取ったため、DNS-over-HTTPS は動作していません
+
+preferences-doh-status-item-active =
+    .message = DNS-over-HTTPS はプロバイダー { $name } を使用しています
+
+preferences-doh-status-item-not-active-local =
+    .message = ローカルプロバイダー { $name } を使用しようとしたときにエラー ({ $reason }) が発生したため、DNS-over-HTTPS は動作していません
+
+preferences-doh-status-item-active-local =
+    .message = DNS-over-HTTPS はローカルプロバイダー { $name } を使用しています
+
+preferences-doh-select-resolver-label =
+    .label = プロバイダーを選択
+
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+connection-dns-over-https-url-item =
+    .label = { $name }
+    .tooltiptext = DNS over HTTPS の解決にこのプロバイダーを使用します
+
+preferences-doh-custom-provider-label =
+    .aria-label = カスタムプロバイダーの URL を入力
+
+preferences-doh-header2 =
+  .heading = DNS over HTTPS

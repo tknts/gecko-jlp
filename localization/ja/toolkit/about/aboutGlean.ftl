@@ -9,33 +9,33 @@
 glean-sdk-brand-name = { -glean-brand-name } SDK
 glean-debug-ping-viewer-brand-name = { -glean-brand-name } Debug Ping Viewer
 
-about-glean-page-title2 = { -glean-brand-name } について
+about-glean-page-title2 = { -glean-brand-name } の概要
 about-glean-header = { -glean-brand-name } について
 about-glean-interface-description =
-  <a data-l10n-name="glean-sdk-doc-link">{ glean-sdk-brand-name }</a> は { -vendor-short-name } のプロジェクトで使用されるデータ収集ライブリです。 
-  このインターフェイスは、開発者とテスターが <a data-l10n-name="fog-link">テスト機器</a> を使用して手動でテストするように設計されています
+  <a data-l10n-name="glean-sdk-doc-link">{ glean-sdk-brand-name }</a> は、{ -vendor-short-name } プロジェクトで使用されるデータ収集ライブラリーです。このインターフェースは、開発者やテスターが手動で <a data-l10n-name="fog-link">計測をテスト</a> するために設計されています。
+
 
 
 
 about-glean-category-about-glean = { -glean-brand-name } について
 about-glean-category-manual-testing = 手動テスト
-about-glean-category-adhoc-testing =アドホックテスト
-about-glean-category-profiler = プロファイラの使用
+about-glean-category-adhoc-testing = アドホックテスト
+about-glean-category-profiler = プロファイラーの使用
 about-glean-category-about-data = データについて
-about-glean-category-metrics-table = メトリックス表
+about-glean-category-metrics-table = メトリクステーブル
 
-about-glean-upload-enabled = データのアップロードは有効です。
-about-glean-upload-disabled = データのアップロードは無効です。
-about-glean-upload-enabled-local = データのアップロードはローカルにあるサーバーへに対してのみ送信できます。
+about-glean-upload-enabled = データアップロードは有効です。
+about-glean-upload-disabled = データアップロードは無効です。
+about-glean-upload-enabled-local = データアップロードはローカルサーバーへの送信のみ有効です。
 about-glean-upload-fake-enabled =
-  データのアップロードは無効になっていますが、
-  実際には { glean-sdk-brand-name } に対して有効と偽装して伝えることで、
-  データはローカルに記録され続けます。
-  注意: デバッグタグを設定すると、設定に関わらず
-  <a data-l10n-name="glean-debug-ping-viewer">{ glean-debug-ping-viewer-brand-name }</a> に ping がアップロードされます。
+  データアップロードは無効ですが、データがローカルに記録されるように、{ glean-sdk-brand-name } には有効であると伝えています。
+  注: デバッグタグを設定した場合、設定に関わらず ping は <a data-l10n-name="glean-debug-ping-viewer">{ glean-debug-ping-viewer-brand-name }</a> にアップロードされます。
+
+
+
 
 # This message is followed by a bulleted list.
-about-glean-prefs-and-defines = 関連する <a data-l10n-name="fog-prefs-and-defines-doc-link">設定と定義</a> には以下が含まれています:
+about-glean-prefs-and-defines = 関連する <a data-l10n-name="fog-prefs-and-defines-doc-link">設定と定義</a> には次のものがあります:
 # Variables:
 #   $data-upload-pref-value (String): the value of the datareporting.healthreport.uploadEnabled pref. Typically "true", sometimes "false"
 # Do not translate strings between <code> </code> tags.
@@ -54,117 +54,117 @@ about-glean-glean-android = <code>MOZ_GLEAN_ANDROID</code>: { $glean-android-def
 about-glean-moz-official =<code>MOZILLA_OFFICIAL</code>: { $moz-official-define-value }
 
 about-glean-additional-links =
-  データの記録と検索のさまざまな方法については、<strong>データについて</strong> タブをご覧ください。
+  データを記録し、見つけるためのさまざまな方法については、<strong>データについて</strong>タブをご覧ください。
 
 
 # This message is followed by a numbered list.
 about-glean-manual-testing =
-  詳細な手順は
-  <a data-l10n-name="fog-instrumentation-test-doc-link">{ -fog-brand-name } インストゥルメンテーションテストのドキュメント</a>
-  および <a data-l10n-name="glean-sdk-doc-link">{ glean-sdk-brand-name } ドキュメント</a> に記載されていますが、
-  要するに手動でインストゥルメンテーションが正しく動作するかを確認するには、次のようにします:
+  詳細な手順は、<a data-l10n-name="fog-instrumentation-test-doc-link">{ -fog-brand-name } 計測テストドキュメント</a> および <a data-l10n-name="glean-sdk-doc-link">{ glean-sdk-brand-name } ドキュメント</a> に記載されていますが、手動で計測が機能するかをテストするには、次のことを行います:
+
+
+
 
 ## These labels are displayed to organize the different ping types within the dropdown.
 
 about-glean-ping-list-optgroup-built-in =
-  .label = 組み込み Ping
+  .label = ビルトイン Ping
 about-glean-ping-list-optgroup-custom =
   .label = カスタム Ping
 
 ##
 
 # This message is an option in a dropdown filled with untranslated names of pings.
-about-glean-no-ping-label = (don’t submit any ping)
+about-glean-no-ping-label = (ping を送信しない)
 # An in-line text input field precedes this string.
 about-glean-label-for-tag-pings-with-requirements =
-  後で ping を認識できるように、記憶できるデバッグ タグ <span>(20 文字以下の英数字のみ)</span> を設定します。
+  後でご自身の ping を認識できるように、記憶に残るデバッグタグを設定してください <span>(20 文字以内、英数字と - のみ)</span>。
 # An in-line drop down list precedes this string.
 # Do not translate strings between <code> </code> tags.
 about-glean-label-for-ping-names =
-  前のリストから、あなたのインストゥルメンテーションが含まれる ping を選択してください。
-  <a data-l10n-name="custom-ping-link">カスタム ping</a> に含まれている場合は、それを選びます。
-  それ以外の場合、<code>event</code> メトリクスのデフォルトは <code>events</code> ping、
-  その他すべてのメトリクスのデフォルトは <code>metrics</code> ping です。
-
-
+  上記のリストから、ご自身の計測が含まれる ping を選択してください。
+  それが <a data-l10n-name="custom-ping-link">カスタム ping</a> に含まれる場合は、それを選んでください。
+  それ以外の場合、<code>event</code> メトリクスのデフォルトは
+  <code>events</code> ping であり、
+  その他のすべてのメトリクスでは
+  <code>metrics</code> ping がデフォルトです。
 # An in-line check box precedes this string.
 about-glean-label-for-log-pings =
-  (オプション。送信時に ping をログに記録したい場合は、前のチェックボックスをオンにしてください。
-  さらに <a data-l10n-name="enable-logging-link">ロギングを有効化</a>する必要があります。)
+  (オプション。ping の送信時にログにも記録したい場合は、上記のチェックボックスをオンにしてください。
+  別途 <a data-l10n-name="enable-logging-link">ログを有効にする</a> 必要があります。)
 # Variables
 #   $debug-tag (String): The user-set value of the debug tag input on this page. Like "about-glean-kV"
 # An in-line button labeled "Apply settings and submit ping" precedes this string.
 about-glean-label-for-controls-submit =
-  前のボタンを押すと、すべての { -glean-brand-name } ping にタグを付け、選択した ping を送信します。
-  (その後アプリケーションを再起動するまで、送信されるすべての ping に
+  ご自身のタグですべての { -glean-brand-name } ping にタグを付け、選択した ping を送信するには、上記のボタンを押してください。
+  (それ以降、アプリケーションを再起動するまで送信されるすべての ping には
   <code>{ $debug-tag }</code> がタグ付けされます。)
 about-glean-li-for-visit-gdpv =
-  <a data-l10n-name="gdpv-tagged-pings-link">{ glean-debug-ping-viewer-brand-name } ページにアクセスして、タグ付きの ping を確認してください</a>。
-  ボタンを押してから ping が届くまで、数秒以上かかることはほとんどありません。
+  <a data-l10n-name="gdpv-tagged-pings-link">ご自身のタグが付いた ping を { glean-debug-ping-viewer-brand-name } ページで表示</a> します。
+  ボタンを押してから ping が到着するまで、数秒以上はかかりません。
   場合によっては数分かかることもあります。
 
 # Do not translate strings between <code> </code> tags.
 about-glean-adhoc-explanation2 =
-  より<i>アドホック</i>なテストには、
-  <code>about:glean</code> 上で開発者ツールのコンソールを開き、
-  <code>testGetValue()</code> API を利用して現在の計測値を取得することもできます。
-  たとえば、<code>metric.category.metric_name</code> というメトリクスの場合は
-  <code>Glean.metricCategory.metricName.testGetValue()</code> を使用します。
+  よりアドホックなテストを行うには、
+  <code>about:glean</code> の開発ツールコンソールを開き、
+  <code>testGetValue()</code> API を使用して、特定の計測の現在の値を判断することもできます。
+  <code>metric.category.metric_name</code> という名前のメトリクスの場合、
+  使用方法は <code>Glean.metricCategory.metricName.testGetValue()</code> のようになります。
 
 
 # Do not translate strings between <code> </code> tags.
 about-glean-adhoc-note =
-  開発ツールのコンソールを使用して Glean JS API を使用していることに注意してください。
-  これは、メトリック カテゴリとメトリック名が次のようにフォーマットされていることを意味します。
-  Rust や C++ API とは異なり <code>camelCase</code> です。
+  開発ツールコンソールを使用することで、Glean JS API を利用していることに注意してください。
+  これは、Rust および C++ API とは異なり、メトリクスのカテゴリとメトリクス名が
+  <code>camelCase</code> 形式でフォーマットされることを意味します。
 
 about-glean-profiler-explanation =
-  記録されたすべてのメトリクスを確認するには { -profiler-brand-name } を使用できます。
-  まず <a data-l10n-name="firefox-profiler-link">パフォーマンスプロファイルを取得</a> してください。
-  プロファイルを取得したら、<q>Marker Chart</q> を選択し、<q>Telemetry</q> 配下のマーカーを確認します。
+  記録されたすべてのメトリクスの全体像を確認するには、{ -profiler-brand-name } を使用できます。
+  まず、<a data-l10n-name="firefox-profiler-link">パフォーマンスプロファイルをキャプチャする</a> 必要があります。
+  プロファイルをキャプチャしたら、<q>マーカーチャート</q> を選択し、<q>Telemetry</q> の下のマーカーを確認してください。
 
 about-glean-profiler-explanation-profiler =
-  パフォーマンスプロファイルでは、収集されたすべてのメトリクス、その収集時刻、
-  および収集された正確な値を確認できます。個々のマーカーにカーソルを合わせると、
-  正しい値が収集され、適切なタイミングで収集されたことを検証できます。
+  パフォーマンスプロファイルでは、収集されたすべてのメトリクス、それらがいつ収集されたか、そして正確にどのような値が収集されたかを確認できます。個々のマーカーにカーソルを合わせることで、正しい値が収集されたこと、そして収集が適切なタイミングで行われたことを確認できます。
 
-controls-button-label-verbose = 設定を適用して ping を送信する
+
+
+controls-button-label-verbose = 設定を適用して ping を送信
 
 about-glean-feedback-settings-only =
   .message = 設定が適用されました!
 
 about-glean-feedback-settings-and-ping =
-  .message = 設定が適用されて、ping が送信されました。
+  .message = 設定が適用され、ping が送信されました!
 
 about-glean-about-data-header = データについて
 about-glean-about-data-description =
-  目的に応じて、自分のデータを確認するために利用できるツールがいくつかあります。
+  どのようなデータを探しているかに応じて、データを表示するためにいくつかの異なるツールを使用できます。
 
 about-glean-about-data-description-list-intro =
-  各ツールの具体的な利用ケースについては、以下のリストを参照してください:
+  各ツールの特定のユースケースについては、以下のリストを参照してください:
 
 
 about-glean-about-data-list-item-dictionary =
-  アプリケーションごとに { -glean-brand-name } が収集するデータ一覧を閲覧するには、
+  アプリケーションごとに { -glean-brand-name } によって収集されたデータのリストを参照するには、
   <a data-l10n-name="glean-dictionary-link">{ -glean-brand-name } Dictionary</a> を参照してください。
 about-glean-about-data-list-item-about-telemetry =
-  レガシー Telemetry が収集しているデータを閲覧するには、
+  レガシーテレメトリーによって収集されているデータを参照するには、
   <a data-l10n-name="about-telemetry-link">about:telemetry</a> を参照してください。
 about-glean-about-data-list-item-debug-ping-viewer =
-  デバッグタグの閲覧、完全な ping の確認、ライブイベントストリームの表示、または
-  メトリクスの可視化を行うには、
+  デバッグタグの参照、完全な ping の表示、ライブイベントストリームの確認、またはメトリクス可視化の表示を行うには、
   <a data-l10n-name="glean-debug-ping-viewer">{ glean-debug-ping-viewer-brand-name }</a> を参照してください。
+
 about-glean-about-data-list-item-firefox-profiler =
-  パフォーマンスプロファイルを記録し、収集されたすべてのメトリクスを表示するには、
+  パフォーマンスプロファイルを記録し、記録されたすべてのメトリクスを確認するには、
   <a data-l10n-name="about-glean-firefox-profiler">{ -profiler-brand-name }</a> を使用してください。
 
-about-glean-metrics-table-header = すべてのメトリックス
+about-glean-metrics-table-header = すべてのメトリクス
 # This message refers to the category in which a given metric is recorded.
 about-glean-metrics-table-header-category = カテゴリ
 # This message refers to the name of a given metric.
 about-glean-metrics-table-header-name = 名前
 # This message refers to a given metric's metric type.
-about-glean-metrics-table-header-type = 型
+about-glean-metrics-table-header-type = タイプ
 # This message refers to the underlying value of a given metric.
 about-glean-metrics-table-header-value = 値
 # This message refers to the UI action buttons for a given metric.
@@ -172,32 +172,32 @@ about-glean-metrics-table-header-actions = アクション
 about-glean-metrics-table-settings-button = 設定
 
 # Settings for the metrics table and its visualizations in about:glean
-about-glean-metrics-table-settings-title = メトリクス表の設定
+about-glean-metrics-table-settings-title = メトリクステーブルの設定
 about-glean-metrics-table-settings-category-general = 一般
-about-glean-metrics-table-settings-hide-empty-value-rows = 値が空の行を非表示にする
+about-glean-metrics-table-settings-hide-empty-value-rows = 空の値の行を非表示にする
 
 about-glean-metrics-table-settings-category-visualizations = 可視化
 # This is a heading that is immediately followed by an example data visualization
-about-glean-metrics-table-settings-visualization-example = サンプル
+about-glean-metrics-table-settings-visualization-example = 例
 
 about-glean-metrics-table-settings-category-visualizations-histogram = ヒストグラム
 about-glean-metrics-table-settings-histograms-chart-max = グラフの最大高さ
 # The maximum height after to which the y-values on the chart will be scaled
-about-glean-metrics-table-settings-histograms-scaled-max = スケーリング後の最大高さ
-about-glean-metrics-table-settings-histograms-box-padding = ボックスの余白
-about-glean-metrics-table-settings-histograms-chart-padding = グラフの余白
-about-glean-metrics-table-settings-histograms-left-padding = 左側の追加余白
+about-glean-metrics-table-settings-histograms-scaled-max = スケールされた最大高さ
+about-glean-metrics-table-settings-histograms-box-padding = ボックスのパディング
+about-glean-metrics-table-settings-histograms-chart-padding = グラフのパディング
+about-glean-metrics-table-settings-histograms-left-padding = 追加の左パディング
 
 about-glean-metrics-table-settings-category-visualizations-timeline = タイムライン
 about-glean-metrics-table-settings-timelines-height = 高さ
 about-glean-metrics-table-settings-timelines-width = 幅
-about-glean-metrics-table-settings-timelines-chart-padding = グラフの余白
+about-glean-metrics-table-settings-timelines-chart-padding = グラフのパディング
 # The radius of each circle denoting individual events recorded for an event metric
-about-glean-metrics-table-settings-timelines-circle-radius = イベントを示す円の半径
+about-glean-metrics-table-settings-timelines-circle-radius = 円の半径
 # The offset on the x-axis from the end of the horizontal line for the y-axis line
-about-glean-metrics-table-settings-timelines-vertical-line-x-offset = Y 軸線の X 方向オフセット
-# The offset on the x-axis from the end of the horizontal line for the y-axis line
-about-glean-metrics-table-settings-timelines-vertical-line-y-offset = Y 軸線の Y 方向オフセット
+about-glean-metrics-table-settings-timelines-vertical-line-x-offset = Y軸のXオフセット
+# The offset on the y-axis from the x-axis for the y-axis line
+about-glean-metrics-table-settings-timelines-vertical-line-y-offset = Y軸のYオフセット
 
 
 # Label displayed near an input field that can be used to filter metrics
@@ -208,7 +208,7 @@ about-glean-label-for-filter-metrics = フィルター
 # Type refers to a given metric's metric type.
 # Value refers to the underlying value of a given metric.
 # "Simple type" refers to a value type that does not have deeply-nested data, such as a boolean, number, string, or list of strings.
-about-glean-description-for-filter-metrics = 下の表をカテゴリ、名前、型、値（値がシンプル型の場合）でフィルターします。
+about-glean-description-for-filter-metrics = これは、カテゴリ、名前、タイプ、および値 (値が単純なタイプの場合) に基づいて、以下のテーブルをフィルターします。
 
 about-glean-button-load-all = すべての値を読み込む
 about-glean-button-load-value = 読み込む
@@ -216,16 +216,16 @@ about-glean-button-load-value = 読み込む
 about-glean-button-dictionary-link = ドキュメント
 about-glean-button-watch = 監視
 # Meaning "to stop watching"
-about-glean-button-unwatch = 監視をやめる
+about-glean-button-unwatch = 監視を停止
 
-about-glean-no-data-to-display = 表示できるデータがありません。
+about-glean-no-data-to-display = 表示するデータがありません。
 
 # Do not translate strings between <code> </code> tags.
-about-glean-labeled-metric-warning = ラベル付きメトリックスは <code>about:glean</code> ビューではまだサポートされていません。
-about-glean-unknown-metric-type-warning = 不明なメトリックス型です。
+about-glean-dual-labeled-metric-warning = <code>DualLabeledCounter</code> メトリクスは <code>about:glean</code> ビューではまだサポートされていません。
+about-glean-unknown-metric-type-warning = 不明なメトリクスタイプです。
 
 about-glean-enable-new-features-promo =
-  .message = 私たちは新機能の追加に取り組んでいます! まだ開発中ですが、ここにあるアクションボタンをクリックすると有効化できます。
-  .heading = まもなく新機能が登場します!
-about-glean-enable-new-features-button = 新機能を有効化
-about-glean-disable-new-features-button = 新機能を無効化
+  .message = 新機能を追加中です！まだ開発中ですが、有効にしたい場合はこちらのアクションボタンをクリックしてください。
+  .heading = 新機能が登場します！
+about-glean-enable-new-features-button = 新機能を有効にする
+about-glean-disable-new-features-button = 新機能を無効にする

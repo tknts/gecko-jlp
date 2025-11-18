@@ -4,7 +4,7 @@
 
 ### Localization for Developer Tools tooltips.
 
-learn-more = <span data-l10n-name="link">さらに詳しく</span>
+learn-more = <span data-l10n-name="link">詳細</span>
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain why
@@ -15,75 +15,75 @@ learn-more = <span data-l10n-name="link">さらに詳しく</span>
 ##   $property (string) - A CSS property name e.g. "color".
 ##   $display (string) - A CSS display value e.g. "inline-block".
 
-inactive-css-not-grid-or-flex-container = この要素はフレックス コンテナでもグリッド コンテナでもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-or-flex-container = <strong>{ $property }</strong> は flex コンテナでも grid コンテナでもないため、この要素には効果がありません。
 
-inactive-css-not-grid-or-flex-container-or-multicol-container = この要素はフレックス コンテナでもグリッ ドコンテナでも、グリッド コンテナでもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-or-flex-container-or-multicol-container = <strong>{ $property }</strong> は flex コンテナ、grid コンテナ、または複数段組みコンテナではないため、この要素には効果がありません。
 
-inactive-css-not-multicol-container = <strong>{ $property }</strong> はマルチカラム コンテナではないため、この要素には影響しません。
+inactive-css-not-multicol-container = <strong>{ $property }</strong> は複数段組みコンテナではないため、この要素には効果がありません。
 
-inactive-css-column-span = <strong>{ $property }</strong> は複数列コンテナ内にないため、この要素にスパンは影響しません。
+inactive-css-column-span = <strong>{ $property }</strong> は複数段組みコンテナ内にないため、この要素には段組み効果がありません。
 
-inactive-css-not-grid-or-flex-item = この要素はグリッド アイテムでもフレックス アイテムでもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-or-flex-item = <strong>{ $property }</strong> は grid アイテムまたは flex アイテムではないため、この要素には効果がありません。
 
-inactive-css-not-grid-item = この要素はグリッ ドアイテムではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-item = <strong>{ $property }</strong> は grid アイテムではないため、この要素には効果がありません。
 
-inactive-css-not-grid-container = この要素はグリッド コンテナではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-grid-container = <strong>{ $property }</strong> は grid コンテナではないため、この要素には効果がありません。
 
-inactive-css-not-flex-item = この要素はフレックス アイテムではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-flex-item = <strong>{ $property }</strong> は flex アイテムではないため、この要素には効果がありません。
 
-inactive-css-not-flex-container = この要素はフレックス コンテナではないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-flex-container = <strong>{ $property }</strong> は flex コンテナではないため、この要素には効果がありません。
 
-inactive-css-not-inline-or-tablecell = この要素はインライン要素でもテーブルのセル要素でもないため、<strong>{ $property }</strong> はこの要素に影響を及ぼしません。
+inactive-css-not-inline-or-tablecell = <strong>{ $property }</strong> は inline または table-cell 要素ではないため、この要素には効果がありません。
 
 inactive-css-first-line-pseudo-element-not-supported = <strong>{ $property }</strong> は ::first-line 擬似要素ではサポートされていません。
 
 inactive-css-first-letter-pseudo-element-not-supported = <strong>{ $property }</strong> は ::first-letter 擬似要素ではサポートされていません。
 
-inactive-css-placeholder-pseudo-element-not-supported = <strong>{ $property }</strong> は ::placeholder 疑似要素ではサポートされていません。
+inactive-css-placeholder-pseudo-element-not-supported = <strong>{ $property }</strong> は ::placeholder 擬似要素ではサポートされていません。
 
-inactive-css-property-because-of-display = この要素は <strong>{ $display }</strong> の display プロパティを持つため、<strong>{ $property }</strong> は、この要素には影響を与えません。
+inactive-css-property-because-of-display = <strong>{ $property }</strong> は、この要素の display が <strong>{ $display }</strong> であるため、効果がありません。
 
-inactive-css-not-display-block-on-floated-2 = 要素に <strong>float</strong> が使用されているため、 <strong>display</strong> の値はエンジンによって <strong>{ $display }</strong> に変更されました。
+inactive-css-not-display-block-on-floated-2 = 要素が <strong>floated</strong> のため、<strong>display</strong> の値がエンジンによって <strong>{ $display }</strong> に変更されました。
 
-inactive-css-only-non-grid-or-flex-item = <strong>{ $property }</strong> は、グリッド アイテムやフレックス アイテムでは使用できないため、効果がありません。
+inactive-css-only-non-grid-or-flex-item = <strong>{ $property }</strong> は grid アイテムまたは flex アイテムには使用できないため、効果がありません。
 
-inactive-css-not-block = <strong>{ $property }</strong> はブロックレベル要素にのみ適用されるため、この要素には影響しません。
+inactive-css-not-block = <strong>{ $property }</strong> はブロックレベル要素にのみ適用されるため、この要素には効果がありません。
 
-inactive-css-not-block-container = <strong>{ $property }</strong> はこの要素には効果がありません。ブロックコンテナー要素にのみ適用されます。
+inactive-css-not-block-container = <strong>{ $property }</strong> はブロックコンテナ要素にのみ適用されるため、この要素には効果がありません。
 
-inactive-css-not-block-flex-grid-container = <strong>{ $property }</strong> は、この要素には効果がありません。ブロック要素、flex コンテナー、grid コンテナーにのみ適用されます。
+inactive-css-not-block-flex-grid-container = <strong>{ $property }</strong> はブロック、flex、および grid コンテナー要素にのみ適用されるため、この要素には効果がありません。
 
-inactive-css-not-floated = <strong>{ $property }</strong> はフロート要素にのみ適用されるため、効果はありません。
+inactive-css-not-floated = <strong>{ $property }</strong> は float された要素にのみ適用されるため、効果がありません。
 
-inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</strong> の制限により <strong>{ $property }</strong> を上書きする事はできません。
+inactive-css-property-is-impossible-to-override-in-visited = <strong>:visited</strong> の制限により、<strong>{ $property }</strong> を上書きすることはできません。
 
-inactive-css-position-property-on-unpositioned-box = <strong>{ $property }</strong> は位置指定要素ではないため、この要素には影響を与えません。
+inactive-css-position-property-on-unpositioned-box = <strong>{ $property }</strong> は position が設定された要素ではないため、この要素には効果がありません。
 
-inactive-css-only-replaced-elements = <strong>{ $property }</strong> は置換された要素にのみ適用できるため、この要素には影響しません。
+inactive-css-only-replaced-elements = <strong>{ $property }</strong> は置き換え要素にのみ適用できるため、この要素には効果がありません。
 
-inactive-text-overflow-when-no-overflow = <strong>overflow:hidde</strong> が設定されていないため <strong>{ $property }</strong> は、この要素に影響を与えません。
+inactive-text-overflow-when-no-overflow = <strong>overflow:hidden</strong> が設定されていないため、<strong>{ $property }</strong> はこの要素には効果がありません。
 
-inactive-css-no-size-containment = <strong>{ $property }</strong> は、この要素にサイズの包含がないため効果がありません。
+inactive-css-no-size-containment = <strong>{ $property }</strong> はサイズ包含がないため、この要素には効果がありません。
 
-inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> は、内部テーブル要素には効果がありません。
+inactive-css-not-for-internal-table-elements = <strong>{ $property }</strong> は内部テーブル要素には効果がありません。
 
-inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> は、テーブル セル以外の内部テーブル要素には影響を与えません。
+inactive-css-not-for-internal-table-elements-except-table-cells = <strong>{ $property }</strong> は table-cell 以外の内部テーブル要素には効果がありません。
 
-inactive-css-not-table = <strong>{ $property }</strong> はテーブルではないため、この要素には影響を与えません。
+inactive-css-not-table = <strong>{ $property }</strong> は table ではないため、この要素には効果がありません。
 
-inactive-css-collapsed-table-borders = この要素は境界線が折りたたまれたテーブルなので、<strong>{ $property }</strong> は影響を与えません。
+inactive-css-collapsed-table-borders = <strong>{ $property }</strong> は境界線を結合したテーブルがあるため、この要素には効果がありません。
 
-inactive-css-not-table-cell = <strong>{ $property }</strong> はテーブル セルではないため、この要素には影響を与えません。
+inactive-css-not-table-cell = <strong>{ $property }</strong> は table-cell ではないため、この要素には効果がありません。
 
-inactive-scroll-padding-when-not-scroll-container = <strong>{ $property }</strong> はスクロールしないため、この要素には影響を与えません。
+inactive-scroll-padding-when-not-scroll-container = <strong>{ $property }</strong> はスクロールしないため、この要素には効果がありません。
 
-inactive-css-border-image = <strong>{ $property }</strong> は、この要素には影響を与えません。なぜなら親テーブル要素の <strong>border-collapse</strong> が <strong>collapse</strong> に設定されている内部テーブル要素には適用できないからです。
+inactive-css-border-image = <strong>{ $property }</strong> は、親の table 要素で <strong>border-collapse</strong> が <strong>collapse</strong> に設定されている内部 table 要素には適用できないため、この要素には効果がありません。
 
-inactive-css-resize = <strong>{ $property }</strong> は、visible 以外のオーバーフロー値を持つ要素、およびテキストエリアなどの特定の置換された要素にのみ適用されるため、この要素には影響しません。
+inactive-css-resize = <strong>{ $property }</strong> は、overflow の値が visible 以外の要素、および textarea などの特定の置き換え要素にのみ適用できるため、この要素には効果がありません。
 
-inactive-css-ruby-element = <strong>{ $property }</strong> はルビ要素であるため、この要素には何の影響も与えません。その大きさはルビ文字のフォントサイズによって決まります。
+inactive-css-ruby-element = <strong>{ $property }</strong> は ruby 要素であるため、この要素には効果がありません。サイズはルビのフォントサイズによって決まります。
 
-inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> は、 強調疑似要素ではサポートされていません。
+inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> はハイライト擬似要素ではサポートされていません。
 
 inactive-css-cue-pseudo-element-not-supported = <strong>{ $property }</strong> は ::cue 擬似要素ではサポートされていません。
 
@@ -91,15 +91,15 @@ inactive-css-cue-pseudo-element-not-supported = <strong>{ $property }</strong> �
 #   $lineCount (integer) - The number of lines the element has.
 inactive-css-text-wrap-balance-lines-exceeded =
     { $lineCount ->
-         [one] <strong>{ $property }</strong> は { $lineCount } 行を超えるため、この要素には影響しません。
-        *[other] <strong>{ $property }</strong> は { $lineCount } 行を超えるため、この要素には影響しません。
+         [one] <strong>{ $property }</strong> は { $lineCount } 行を超えるため、この要素には効果がありません。
+        *[other] <strong>{ $property }</strong> は { $lineCount } 行を超えるため、この要素には効果がありません。
      }
 
-inactive-css-text-wrap-balance-fragmented = この要素が断片化されているため <strong>{ $property }</strong> は効果がありません。コンテンツが複数の列にまたがっているか、ページに分割されています。
+inactive-css-text-wrap-balance-fragmented = <strong>{ $property }</strong> は、複数段組みやページをまたいでコンテンツが分割されるなど、要素が断片化されているため、この要素には効果がありません。
 
-inactive-css-no-width-height = この要素の幅と高さは設定できないため <strong>{ $property }</strong> は、この要素には影響しません。
+inactive-css-no-width-height = <strong>{ $property }</strong> は幅と高さを設定できないため、この要素には効果がありません。
 
-inactive-css-no-principal-box = この要素は principal box を生成しないため <strong>{ $property }</strong> は、この要素に対して効果がありません。
+inactive-css-no-principal-box = <strong>{ $property }</strong> はプリンシパルボックスを作成しないため、この要素には効果がありません。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
@@ -112,19 +112,19 @@ inactive-css-not-grid-or-flex-or-block-container-fix = <strong>display:grid</str
 
 inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>display:grid</strong>、<strong>display:flex</strong>、または <strong>columns:2</strong> のいずれかを追加してみてください。{ learn-more }
 
-inactive-css-not-multicol-container-fix = <strong>column-count</strong> または <strong>column-width</strong> を追加してみてください。{ learn-more }
+inactive-css-not-multicol-container-fix = <strong>column-count</strong> または <strong>column-width</strong> のいずれかを追加してみてください。{ learn-more }
 
-inactive-css-column-span-fix = 親要素の 1 つに <strong>column-count</strong> または <strong>column-width</strong> を追加してみてください。 { learn-more }
+inactive-css-column-span-fix = 祖先要素のいずれかに <strong>column-count</strong> または <strong>column-width</strong> を追加してみてください。{ learn-more }
 
-inactive-css-not-grid-or-flex-item-fix-3 = <strong>display:grid</strong>、 <strong>display:flex</strong>、 <strong>display:inline-grid</strong> か <strong>display:inline-flex</strong> を追加してみてください。 { learn-more }
+inactive-css-not-grid-or-flex-item-fix-3 = 要素の親要素に <strong>display:grid</strong>、<strong>display:flex</strong>、<strong>display:inline-grid</strong>、または <strong>display:inline-flex</strong> を追加してみてください。 { learn-more }
 
-inactive-css-not-grid-item-fix-2 = 親要素に <strong>display:grid</strong> か <strong>display:inline-grid</strong> を追加してみてください。 { learn-more }
+inactive-css-not-grid-item-fix-2 = 親要素に <strong>display:grid</strong> または <strong>display:inline-grid</strong> を追加してみてください。 { learn-more }
 
 inactive-css-not-grid-container-fix = <strong>display:grid</strong> または <strong>display:inline-grid</strong> を追加してみてください。{ learn-more }
 
-inactive-css-not-flex-item-fix-2 = 親要素に <strong>display:flex</strong> か <strong>display:inline-flex</strong> を追加してみてください。 { learn-more }
+inactive-css-not-flex-item-fix-2 = 親要素に <strong>display:flex</strong> または <strong>display:inline-flex</strong> を追加してみてください。 { learn-more }
 
-inactive-css-not-flex-container-fix = <strong>display:flex</strong> または <strong>display:inline-flex</strong> を追加してみてください。{ learn-more }
+inactive-css-not-flex-container-fix = <strong>display:flex</strong> または <strong>display:inline-flex</strong> を追加してみてください。 { learn-more }
 
 inactive-css-not-inline-or-tablecell-fix = <strong>display:inline</strong> または <strong>display:table-cell</strong> を追加してみてください。{ learn-more }
 
@@ -132,9 +132,9 @@ inactive-css-non-replaced-inline-or-table-row-or-row-group-fix = <strong>display
 
 inactive-css-non-replaced-inline-or-table-column-or-column-group-fix = <strong>display:inline-block</strong> を追加してみてください。{ learn-more }
 
-inactive-css-not-display-block-on-floated-fix = <strong>float</strong> を削除するか <strong>display:block</strong> を追加してみてください。 { learn-more }
+inactive-css-not-display-block-on-floated-fix = <strong>float</strong> を削除するか、<strong>display:block</strong> を追加してみてください。{ learn-more }
 
-inactive-css-only-non-grid-or-flex-item-fix = 要素のコンテナの <strong>display</strong> の値を <strong>flex</strong>、<strong>grid</strong>、<strong>inline-flex</strong>、<strong>inline-grid</strong> 以外の値に変更するか、<strong>float</strong> を削除してみてください。{ learn-more }
+inactive-css-only-non-grid-or-flex-item-fix = 要素のコンテナの <strong>display</strong> の値を <strong>flex</strong>、<strong>grid</strong>、<strong>inline-flex</strong>、または <strong>inline-grid</strong> 以外のものに変更するか、<strong>float</strong> を削除してみてください。{ learn-more }
 
 inactive-css-not-block-fix = <strong>display:block</strong> や <strong>float:left</strong> などのプロパティを追加してみてください。{ learn-more }
 
@@ -142,39 +142,39 @@ inactive-css-not-block-container-fix = <strong>display:block</strong>、<strong>
 
 inactive-css-not-block-flex-grid-container-fix = <strong>display:block</strong>、<strong>display:inline-block</strong>、<strong>display:flex</strong>、<strong>display:inline-flex</strong>、<strong>display:grid</strong>、<strong>display:inline-grid</strong>、または <strong>display:flow-root</strong> を追加してみてください。{ learn-more }
 
-inactive-css-not-floated-fix = <strong>float</strong> プロパティに <strong>none</strong> 以外の値を追加してみてください。{ learn-more }
+inactive-css-not-floated-fix = <strong>float</strong> プロパティを <strong>none</strong> 以外の値で追加してみてください。{ learn-more }
 
-inactive-css-position-property-on-unpositioned-box-fix = その  <strong>position</strong> プロパティを値を <strong>static</strong> 以外に変更してください。 { learn-more }
+inactive-css-position-property-on-unpositioned-box-fix = <strong>position</strong> プロパティを <strong>static</strong> 以外の値に設定してみてください。 { learn-more }
 
-inactive-css-only-replaced-elements-fix = 置換された要素にプロパティが追加されていることを確認してください。 { learn-more }
+inactive-css-only-replaced-elements-fix = プロパティを置き換え要素に追加していることを確認してください。 { learn-more }
 
 inactive-text-overflow-when-no-overflow-fix = <strong>overflow:hidden</strong> を追加してみてください。 { learn-more }
 
-inactive-css-no-size-containment-fix = <strong>display</strong> プロパティを <strong>none</strong>、<strong>contents</strong>、<strong>table</strong>、<strong>inline-table</strong> 以外の値に設定し、テーブルやルビーセグメント内にないことを確認してください。{ learn-more }
+inactive-css-no-size-containment-fix = <strong>display</strong> プロパティを <strong>none</strong>、<strong>contents</strong>、<strong>table</strong>、<strong>inline-table</strong> 以外の値に設定し、table または ruby セグメント内にないことを確認してください。{ learn-more }
 
-inactive-css-not-for-internal-table-elements-fix = その <strong>display</strong> プロパティを <strong>table-cell</strong>、<strong>table-column</strong>、<strong>table-row</strong>、<strong>table-column-group</strong>、<strong>table-row-group</strong>、または <strong>table-footer-group</strong> 以外に設定してみてください。 { learn-more }
+inactive-css-not-for-internal-table-elements-fix = <strong>display</strong> プロパティを <strong>table-cell</strong>、<strong>table-column</strong>、<strong>table-row</strong>、<strong>table-column-group</strong>、<strong>table-row-group</strong>、または <strong>table-footer-group</strong> 以外の値に設定してみてください。{ learn-more }
 
-inactive-css-not-for-internal-table-elements-except-table-cells-fix = <strong>display</strong> プロパティを <strong>table-column</strong>、<strong>table-row</strong>、 <strong>table-column-group</strong>、 <strong>table-row-group</strong>、または <strong>table-footer-group</strong> 以外の値を設定してください。 { learn-more }
+inactive-css-not-for-internal-table-elements-except-table-cells-fix = <strong>display</strong> プロパティを <strong>table-column</strong>、<strong>table-row</strong>、<strong>table-column-group</strong>、<strong>table-row-group</strong>、または <strong>table-footer-group</strong> 以外の値に設定してみてください。{ learn-more }
 
-inactive-css-not-table-fix = <strong>display:table</strong> か <strong>display:inline-table</strong> を追加してみてください。 { learn-more }
+inactive-css-not-table-fix = <strong>display:table</strong> または <strong>display:inline-table</strong> を追加してみてください。 { learn-more }
 
 inactive-css-collapsed-table-borders-fix = <strong>border-collapse:separate</strong> を追加してみてください。 { learn-more }
 
 inactive-css-not-table-cell-fix = <strong>display:table-cell</strong> を追加してみてください。{ learn-more }
 
-inactive-scroll-padding-when-not-scroll-container-fix = <strong>overflow:auto</strong> か <strong>overflow:scroll</strong> または <strong>overflow:hidden</strong> を追加してみてください。{ learn-more }
+inactive-scroll-padding-when-not-scroll-container-fix = <strong>overflow:auto</strong>、<strong>overflow:scroll</strong>、または <strong>overflow:hidden</strong> を追加してみてください。{ learn-more }
 
-inactive-css-border-image-fix = 親テーブル要素で、プロパティを削除するか <strong>border-collapse</strong> の値を <strong>collapse</strong> 以外の値に変更します。{ learn-more }
+inactive-css-border-image-fix = 親の table 要素で、プロパティを削除するか、<strong>border-collapse</strong> の値を <strong>collapse</strong> 以外の値に変更してください。{ learn-more }
 
-inactive-css-resize-fix = <strong>overflow</strong> を <strong>visible</strong> 以外の値に設定するか、それをサポートする要素に置き換えてみてください。 { learn-more }
+inactive-css-resize-fix = <strong>overflow</strong> の値を <strong>visible</strong> 以外の値に設定するか、それをサポートする置き換え要素を対象にしてみてください。 { learn-more }
 
-inactive-css-ruby-element-fix = ルビの <strong>font-size</strong> を変更してみてください。 { learn-more }
+inactive-css-ruby-element-fix = ruby テキストの <strong>font-size</strong> を変更してみてください。 { learn-more }
 
 inactive-css-text-wrap-balance-lines-exceeded-fix = 行数を減らしてみてください。 { learn-more }
 
-inactive-css-text-wrap-balance-fragmented-fix = 要素のコンテンツを分割しないでください。例えば、列を削除するか <strong>page-break-inside:avoid</strong> を使用します。 { learn-more }
+inactive-css-text-wrap-balance-fragmented-fix = 段組みを削除するか、<strong>page-break-inside:avoid</strong> を使用するなどして、要素のコンテンツが分割されないようにしてください。 { learn-more }
 
-inactive-css-no-principal-box-fix = <strong>block</strong>、<strong>inline-block</strong>、<strong>flex</strong>、<strong>grid</strong> など、principal box を生成する <strong>display</strong> 値を追加してみてください。{ learn-more }
+inactive-css-no-principal-box-fix = <strong>block</strong>、<strong>inline-block</strong>、<strong>flex</strong>、または <strong>grid</strong> など、プリンシパルボックスを作成する <strong>display</strong> の値を追加してみてください。{ learn-more }
 
 ## In the Rule View when a CSS property may have compatibility issues with other browsers
 ## we display an icon. When this icon is hovered this message is displayed to explain why
@@ -183,25 +183,25 @@ inactive-css-no-principal-box-fix = <strong>block</strong>、<strong>inline-bloc
 ##   $property (string) - A CSS declaration name e.g. "-moz-user-select" that can be a platform specific alias.
 ##   $rootProperty (string) - A raw CSS property name e.g. "user-select" that is not a platform specific alias.
 
-css-compatibility-default-message = <strong>{ $property }</strong> は次のブラウザではサポートされません:
+css-compatibility-default-message = <strong>{ $property }</strong> は以下のブラウザではサポートされていません:
 
-css-compatibility-deprecated-experimental-message = <strong>{ $property }</strong> は試験的なプロパティでしたが、現在 W3C 標準によって使用は推奨されていません。次のブラウザではサポートされません:
+css-compatibility-deprecated-experimental-message = <strong>{ $property }</strong> は実験的なプロパティでしたが、現在は W3C 標準で非推奨になっています。以下のブラウザではサポートされていません:
 
-css-compatibility-deprecated-experimental-supported-message = <strong>{ $property }</strong> は試験的なプロパティでしたが、現在 W3C 標準によって使用は推奨されていません。
+css-compatibility-deprecated-experimental-supported-message = <strong>{ $property }</strong> は実験的なプロパティでしたが、現在は W3C 標準で非推奨になっています。
 
-css-compatibility-deprecated-message = <strong>{ $property }</strong> は W3C 標準によって使用は推奨されていません。次のブラウザではサポートされません:
+css-compatibility-deprecated-message = <strong>{ $property }</strong> は W3C 標準で非推奨になっています。以下のブラウザではサポートされていません:
 
-css-compatibility-deprecated-supported-message = <strong>{ $property }</strong> は W3C 標準によって使用は推奨されていません。
+css-compatibility-deprecated-supported-message = <strong>{ $property }</strong> は W3C 標準で非推奨になっています。
 
-css-compatibility-experimental-message = <strong>{ $property }</strong> は試験的なプロパティです。次のブラウザではサポートされません:
+css-compatibility-experimental-message = <strong>{ $property }</strong> は実験的なプロパティです。以下のブラウザではサポートされていません:
 
-css-compatibility-experimental-supported-message = <strong>{ $property }</strong> は試験的なプロパティです。
+css-compatibility-experimental-supported-message = <strong>{ $property }</strong> は実験的なプロパティです。
 
-css-compatibility-learn-more-message = <strong>{ $rootProperty }</strong> については、こちらを <span data-l10n-name="link">ご覧ください</span>。
+css-compatibility-learn-more-message = <strong>{ $rootProperty }</strong> について<span data-l10n-name="link">詳細</span>
 
 ## In the Rule View when a rule selector can causes issues, we display an icon.
 ## When this icon is hovered one or more of those messages are displayed to explain what
 ## the issue are.
 
 # :has() should not be translated
-css-selector-warning-unconstrained-has = このセレクターは制約のない <strong>:has()</strong> を使用するため、速度が低下する可能性があります。
+css-selector-warning-unconstrained-has = このセレクタは制約のない <strong>:has()</strong> を使用しており、低速になる可能性があります。

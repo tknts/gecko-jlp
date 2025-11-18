@@ -6,10 +6,10 @@
 ### which is available from the Browser Tools sub-menu -> 'Inspect'.
 
 # A title text for the spectrum dragger panel in the color picker tooltip.
-colorpicker-tooltip-spectrum-dragger-title = スペクトラム
+colorpicker-tooltip-spectrum-dragger-title = スペクトル
 
 # A title text for the eyedropper in the color picker tooltip.
-colorpicker-tooltip-eyedropper-title = ページ上の色を選択
+colorpicker-tooltip-eyedropper-title = ページから色を選択
 
 # A title text for the closest color name shown in the color picker tooltip, used together with the actual color.
 # Variables:

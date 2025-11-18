@@ -10,12 +10,12 @@ compatibility-all-elements-header = すべての問題
 ## Message used as labels for the type of issue
 
 compatibility-issue-deprecated = (非推奨)
-compatibility-issue-experimental = (実験的)
-compatibility-issue-prefixneeded = (接頭辞が必要)
-compatibility-issue-deprecated-experimental = (非推奨、実験的)
-compatibility-issue-deprecated-prefixneeded = (非推奨、接頭辞が必要)
-compatibility-issue-experimental-prefixneeded = (実験的、接頭辞が必要)
-compatibility-issue-deprecated-experimental-prefixneeded = (非推奨、実験的、接頭辞が必要)
+compatibility-issue-experimental = (試験的機能)
+compatibility-issue-prefixneeded = (プレフィックスが必要)
+compatibility-issue-deprecated-experimental = (非推奨、試験的機能)
+compatibility-issue-deprecated-prefixneeded = (非推奨、プレフィックスが必要)
+compatibility-issue-experimental-prefixneeded = (試験的機能、プレフィックスが必要)
+compatibility-issue-deprecated-experimental-prefixneeded = (非推奨、試験的機能、プレフィックスが必要)
 
 ## Messages used as labels and titles for buttons in the footer
 
@@ -26,7 +26,7 @@ compatibility-settings-button-title =
 ## Messages used as headers in settings pane
 
 compatibility-settings-header = 設定
-compatibility-target-browsers-header = ターゲット ブラウザ
+compatibility-target-browsers-header = ターゲットブラウザ
 
 ##
 
@@ -35,8 +35,8 @@ compatibility-target-browsers-header = ターゲット ブラウザ
 #   $number (Number) - The number of nodes where the issue occurred
 compatibility-issue-occurrences =
     { $number ->
-        [one] { $number } 件の非互換
-       *[other] { $number } 件の非互換
+        [one] { $number } か所
+       *[other] { $number } か所
     }
 
 compatibility-no-issues-found = 互換性の問題は見つかりませんでした。
@@ -48,5 +48,5 @@ compatibility-close-settings-button =
 # Variables:
 #   $browsers (String) - A line-separated list of browser information (e.g. Firefox 98\nChrome 99).
 compatibility-issue-browsers-list =
-    .title = 互換性の問題:
+    .title = 互換性の問題があるブラウザ:
     { $browsers }

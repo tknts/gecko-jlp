@@ -14,23 +14,23 @@
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused due to a `debugger` statement in the code
-whypaused-debugger-statement = debugger ステートメントで停止しました
+whypaused-debugger-statement = debugger ステートメントで一時停止
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused on a breakpoint
-whypaused-breakpoint = ブレークポイントで停止しました
+whypaused-breakpoint = ブレークポイントで一時停止
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused on an event breakpoint.
-whypaused-event-breakpoint = イベントブレークポイントで停止しました
+whypaused-event-breakpoint = イベントブレークポイントで一時停止
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused on an exception
-whypaused-exception = 例外で停止しました
+whypaused-exception = 例外で一時停止
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused on a DOM mutation breakpoint
-whypaused-mutation-breakpoint = DOM の変更で停止しました
+whypaused-mutation-breakpoint = DOM の変更で一時停止
 
 # The text that is displayed to describe an added node which triggers a subtree
 # modification
@@ -42,45 +42,45 @@ whypaused-mutation-breakpoint-removed = 削除:
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused at a JS execution
-whypaused-interrupted = 実行中に停止しました
+whypaused-interrupted = 実行時に一時停止
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused while stepping in or out of the stack
-whypaused-resume-limit = ステッピング中に停止しました
+whypaused-resume-limit = ステップ実行中に一時停止
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused on a dom event
-whypaused-pause-on-dom-events = イベントリスナーで停止しました
+whypaused-pause-on-dom-events = イベントリスナで一時停止
 
 # The text that is displayed in an info block when evaluating a conditional
 # breakpoint throws an error
-whypaused-breakpoint-condition-thrown = 条件付きブレークポイントでエラーが発生しました
+whypaused-breakpoint-condition-thrown = 条件付きブレークポイントでエラー
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused on an xml http request
-whypaused-xhr = XMLHttpRequest で停止しました
+whypaused-xhr = XMLHttpRequest で一時停止
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused on a promise rejection
-whypaused-promise-rejection = Promise の reject により停止しました
+whypaused-promise-rejection = Promise の拒否で一時停止
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused at a watchpoint on an object property
-whypaused-get-watchpoint = プロパティの取得で停止しました
+whypaused-get-watchpoint = プロパティの取得で一時停止
 
 # The text that is displayed in an info block explaining how the debugger is
 # currently paused at a watchpoint on an object property
-whypaused-set-watchpoint = プロパティの設定で停止しました
+whypaused-set-watchpoint = プロパティの設定で一時停止
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused on an assert
-whypaused-assert = アサーションで停止しました
+whypaused-assert = アサーションで一時停止
 
 # The text that is displayed in a info block explaining how the debugger is
 # currently paused on a debugger statement
-whypaused-debug-command = デバッグされた関数で停止しました
+whypaused-debug-command = デバッグ対象の関数で一時停止
 
 # The text that is displayed in a info block saying that the debugger is currently paused
 # without other precision. This is also used in the overlay we show in the page when
 # the page is paused.
-whypaused-other = デバッガが停止しました
+whypaused-other = デバッガは一時停止中

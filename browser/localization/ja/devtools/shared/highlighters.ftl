@@ -15,27 +15,27 @@ grid-row-column-positions = 行 { $row } / 列 { $column }
 
 # The layout type of an element shown in the infobar when hovering over a DOM element and
 # it is a grid container.
-gridtype-container = グリッドコンテナ
+gridtype-container = グリッド コンテナ
 
 # The layout type of an element shown in the infobar when hovering over a DOM element and
 # it is a grid item.
-gridtype-item = グリッドアイテム
+gridtype-item = グリッド アイテム
 
 # The layout type of an element shown in the infobar when hovering over a DOM element and
 # it is both a grid container and a grid item.
-gridtype-dual = グリッドコンテナ / アイテム
+gridtype-dual = グリッド コンテナ/アイテム
 
 # The layout type of an element shown in the infobar when hovering over a DOM element and
 # it is a flex container.
-flextype-container = フレックスコンテナ
+flextype-container = Flex コンテナ
 
 # The layout type of an element shown in the infobar when hovering over a DOM element and
 # it is a flex item.
-flextype-item = フレックスアイテム
+flextype-item = Flex アイテム
 
 # The layout type of an element shown in the infobar when hovering over a DOM element and
 # it is both a flex container and a flex item.
-flextype-dual = フレックスコンテナー/アイテム
+flextype-dual = Flex コンテナ/アイテム
 
 # The message displayed in the content page when the user clicks on the
 # "Pick an element from the page" in about:devtools-toolbox inspector panel, when
@@ -43,24 +43,25 @@ flextype-dual = フレックスコンテナー/アイテム
 # Variables
 # $action (string) - Will either be remote-node-picker-notice-action-desktop or
 #                    remote-node-picker-notice-action-touch
-remote-node-picker-notice = 開発ツールのノード選択が有効になっています。 { $action }
+remote-node-picker-notice = 開発ツールのノード ピッカが有効です。{ $action }
 
 # Text displayed in `remote-node-picker-notice`, when the remote page is on desktop
-remote-node-picker-notice-action-desktop = 要素をクリックすると、インスペクタでその要素を選択できます
+remote-node-picker-notice-action-desktop = 要素をクリックするとインスペクタで選択されます
 
 # Text displayed in `remote-node-picker-notice`, when the remote page is on Android
-remote-node-picker-notice-action-touch = インスペクタで要素をタップして選択します
+remote-node-picker-notice-action-touch = 要素をタップするとインスペクタで選択されます
 
 # The text displayed in the button that is in the notice in the content page when the user
 # clicks on the "Pick an element from the page" in about:devtools-toolbox inspector panel,
 # when debugging a remote page.
-remote-node-picker-notice-hide-button = 閉じる
+remote-node-picker-notice-hide-button = 非表示
 
 # The text displayed in a toolbox notification message which is only displayed
 # if prefers-reduced-motion is enabled (via OS-level settings or by using the
 # ui.prefersReducedMotion=1 preference).
-simple-highlighters-message = prefers-reduced-motion が有効になっている場合、設定パネルで簡単なハイライト機能を有効にできます。この設定を有効にすると点滅によるハイライトが無効になります。
+simple-highlighters-message = アニメーションを減らす設定が有効な場合、点滅する色を避けるため、よりシンプルなハイライト機能を設定パネルで有効にできます。
 
 # Text displayed in a button inside the "simple-highlighters-message" toolbox
 # notification. "Settings" here refers to the DevTools settings panel.
 simple-highlighters-settings-button = 設定を開く
+```

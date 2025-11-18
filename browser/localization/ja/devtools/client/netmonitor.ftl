@@ -6,20 +6,20 @@
 
 # Tooltip for the performance button in the status bar
 network-menu-summary-tooltip-perf =
-    .title = パフォーマンスの解析を開始
+    .title = パフォーマンス分析を開始
 network-menu-summary-tooltip-domcontentloaded =
-    .title = “DOMContentLoad” イベントの発生時刻
+    .title = “DOMContentLoaded” イベントが発生した時刻
 network-menu-summary-tooltip-load =
-    .title =“load” イベントの発生時刻
+    .title = “load” イベントが発生した時刻
 # This label is displayed in the network table footer providing the
 # number of requests
 # Variables:
 #   $requestCount (Number): The total number of requests.
 network-menu-summary-requests-count =
     { $requestCount ->
-        [0] リクエストはありません
-        [one] { $requestCount } 件のリクエスト
-        *[other] { $requestCount } 件のリクエスト
+        [0] リクエストなし
+        [one] { $requestCount } リクエスト
+        *[other] { $requestCount } リクエスト
     }
 network-menu-summary-tooltip-requests-count =
     .title = リクエストの数
@@ -29,13 +29,13 @@ network-menu-summary-tooltip-requests-count =
 #   $formattedContentSize (String): The formatted content size.
 #   $formattedTransferredSize (String): The formatted transferred size.
 network-menu-summary-transferred =
-    { $formattedContentSize } / 転送済み: { $formattedTransferredSize } 
+    { $formattedContentSize } / { $formattedTransferredSize } 転送済み
 network-menu-summary-tooltip-transferred =
-    .title = すべてのリクエストのサイズ/転送サイズ
+    .title = すべてのリクエストのサイズ / 転送サイズ
 # This label is displayed in the network table footer providing the
 # transfer time.
 # Variables:
 #   $formattedTime (String): The formatted transfer time.
 network-menu-summary-finish = 終了: { $formattedTime }
 network-menu-summary-tooltip-finish =
-    .title = すべてのリクエストを読み込むのに必要な合計時間
+    .title = すべてのリクエストの読み込みにかかった合計時間
