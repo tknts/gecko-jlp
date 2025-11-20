@@ -113,7 +113,7 @@ tabbrowser-confirm-close-windows-title =
 tabbrowser-confirm-close-windows-button =
     { PLATFORM() ->
         [windows] 閉じて終了
-       *[other] Close and quit
+       *[other] 閉じて終了
     }
 
 ## Confirmation dialog when quitting using the keyboard shortcut (Ctrl/Cmd+Q)
@@ -276,6 +276,7 @@ tab-context-unnamed-group =
 
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.
+##  $splitViewCount (Number): the number of split views that are affected by the action.
 
 # When a tab group containing the active tab is collapsed, the active tab
 # remains visible. An indicator appears at the end of the group showing the
@@ -284,8 +285,8 @@ tab-context-unnamed-group =
 tab-group-overflow-count = +{ $tabCount }
 tab-group-overflow-count-tooltip =
     { $tabCount ->
-        [one] 他に { $tabCount } 件のタブ
-        *[other] 他に { $tabCount } 件のタブ
+        [one] 他に { $tabCount } 個のタブがあります
+        *[other] 他に { $tabCount } 個のタブがあります
     }
 tab-context-move-tab-to-new-group =
     .label =
@@ -299,6 +300,20 @@ tab-context-move-tab-to-group =
         { $tabCount ->
             [1] タブをグループに追加
            *[other] 複数のタブをグループに追加
+        }
+    .accesskey = G
+tab-context-move-split-view-to-new-group =
+    .label =
+        { $splitViewCount ->
+            [1] 分割表示を新しいグループに追加
+           *[other] 分割表示を新しいグループに追加
+        }
+    .accesskey = G
+tab-context-move-split-view-to-group =
+    .label =
+        { $splitViewCount ->
+            [1] 分割表示をグループに追加
+           *[other] 分割表示をグループに追加
         }
     .accesskey = G
 
@@ -317,7 +332,7 @@ tab-group-editor-action-ungroup =
 tab-group-editor-action-delete =
     .label = グループを削除
 tab-group-editor-done =
-    .label = 実行
+    .label = 完了
     .accessKey = D
 
 tab-context-reopen-tab-group =
@@ -342,7 +357,7 @@ tab-context-ungroup-tab =
 # For a tab group open in any window, clicking this will create a new
 # window and move this tab group to that new window.
 tab-group-context-move-to-new-window =
-    .label = グループを新しいウィンドウに移動する
+    .label = グループを新しいウィンドウに移動
 
 # For a tab group open in a different window from the one that the
 # user is using to access the tab group menu, move that tab group into the
@@ -365,6 +380,25 @@ tab-group-context-open-saved-group-in-this-window =
 # open the tab group in that window.
 tab-group-context-open-saved-group-in-new-window =
     .label = 新しいウィンドウでグループを開く
+
+## Tab Notes
+
+tab-context-add-note =
+    .label = ノートを追加
+    .accesskey = A
+tab-context-edit-note =
+    .label = ノートを編集
+    .accesskey = E
+tab-note-editor-title-create = ノートの追加
+tab-note-editor-title-edit = ノートの編集
+tab-note-editor-text-field =
+    .placeholder = このタブについて何を残しますか?
+tab-note-editor-button-cancel =
+    .label = キャンセル
+    .accesskey = C
+tab-note-editor-button-save =
+    .label = 保存
+    .accesskey = S
 
 ## Split View
 

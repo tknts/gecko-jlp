@@ -164,6 +164,9 @@ perftools-presets-power-description = { -brand-shorter-name } の電力使用関
 perftools-presets-debug-label = デバッグ
 perftools-presets-debug-description = { -brand-shorter-name } でのデバッグ用プリセットです。オーバーヘッドが高いため、パフォーマンス作業ではなく、ブラウザーの動作を理解することに焦点を当てるために使用してください。
 
+perftools-presets-web-compat-label = ウェブの互換性
+perftools-presets-web-compat-description = パフォーマンスの追跡ではなく、ウェブサイトのウェブ互換性の問題をデバッグするための推奨プリセットです。
+
 perftools-presets-custom-label = カスタム
 
 ##

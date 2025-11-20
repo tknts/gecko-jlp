@@ -4,8 +4,8 @@
 
 navbar-tooltip-instruction =
     .value = { PLATFORM() ->
-        [macos] 長押しする事で履歴が表示されます
-       *[other] 右クリックか長押しする事で履歴が表示されます
+        [macos] 履歴を表示するには長押します
+       *[other] 履歴を表示するには右クリックか長押しします
     }
 
 ## Back
@@ -51,12 +51,12 @@ toolbar-button-forward-2 =
 ## Reload
 
 main-context-menu-reload =
-    .aria-label = 更新
+    .aria-label = 再読み込み
     .accesskey = R
 
 # This menuitem is only visible on macOS
 main-context-menu-reload-mac =
-    .label = 更新
+    .label = 再読み込み
     .accesskey = R
 
 toolbar-button-reload =
@@ -166,7 +166,7 @@ main-context-menu-save-link =
 ## are mutually exclusive.
 
 main-context-menu-copy-email =
-    .label = メールアドレスをコピー
+    .label = メール アドレスをコピー
     .accesskey = l
 
 main-context-menu-copy-link-simple =
@@ -187,7 +187,7 @@ main-context-menu-preview-link =
 # copied, like items that identify you for advertising purposes, and other items
 # sites add into URLs to help them deliver a certain browsing experience.
 main-context-menu-copy-clean-link =
-    .label = フレンドリー URL をコピー
+    .label = クリーンリンクをコピー
     .accesskey = u
 
 ## Media (video/audio) controls
@@ -245,7 +245,7 @@ main-context-menu-media-show-controls =
     .accesskey = C
 
 main-context-menu-media-hide-controls =
-    .label = コントロールを隠す
+    .label = コントロールを非表示
     .accesskey = C
 
 ##
@@ -313,7 +313,7 @@ main-context-menu-image-info =
     .accesskey = f
 
 main-context-menu-image-desc =
-    .label = 画像の詳細情報を表示
+    .label = 画像の説明を表示
     .accesskey = D
 
 # Variables
@@ -342,8 +342,8 @@ main-context-menu-audio-email =
     .label = オーディオをメールで送信…
     .accesskey = a
 
-main-context-menu-send-to-device =
-    .label = ページをデバイスへ送る
+main-context-menu-send-to-device-2 =
+    .label = デバイスへ送信
     .accesskey = n
 
 # Displayed when there are saved passwords and the user clicks inside a username or password field
@@ -368,7 +368,7 @@ main-context-menu-add-engine =
     .accesskey = S
 
 main-context-menu-link-send-to-device =
-    .label = リンクをデバイスへ送る
+    .label = リンクをデバイスへ送信
     .accesskey = n
 
 main-context-menu-frame =
@@ -440,7 +440,7 @@ main-context-menu-inspect =
     .accesskey = Q
 
 main-context-menu-inspect-a11y-properties =
-    .label = アクセシビリティのプロパティを調査
+    .label = アクセシビリティーのプロパティを調査
 
 main-context-menu-eme-learn-more =
     .label = 著作権保護 (DRM) について…
@@ -457,4 +457,4 @@ main-context-menu-reveal-password =
     .accesskey = v
 
 # The label of a badge shown in menu items to call out new features.
-main-context-menu-new-feature-badge = 新機能
+main-context-menu-new-feature-badge = 新規

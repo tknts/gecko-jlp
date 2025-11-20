@@ -46,14 +46,14 @@ urlbar-group-local =
   .label = 地域のおすすめ
 
 # A message that replaces a result when the user dismisses a single suggestion.
-firefox-suggest-dismissal-acknowledgment-one = フィードバックをありがとうございます。 このサジェストは今後表示されません。
+firefox-suggest-dismissal-acknowledgment-one = フィードバックをありがとうございます。このサジェストは今後表示されません。
 
 # A message that replaces a result when the user dismisses a single MDN
 # suggestion.
 firefox-suggest-dismissal-acknowledgment-one-mdn = フィードバックをありがとうございます。この { -mdn-brand-short-name } に関するサジェストは今後表示されません。
 
 # A message that replaces a result when the user dismisses all MDN suggestions.
-firefox-suggest-dismissal-acknowledgment-all-mdn = フィードバックをありがとうございます。 { -mdn-brand-short-name } に関するサジェストは今後表示されません。
+firefox-suggest-dismissal-acknowledgment-all-mdn = フィードバックをありがとうございます。{ -mdn-brand-short-name } に関するサジェストは今後表示されません。
 
 # A message that replaces a result when the user dismisses a single Yelp
 # suggestion.
@@ -137,7 +137,7 @@ firefox-suggest-yelp-bottom-text = { -yelp-brand-name } · スポンサー
 
 firefox-suggest-onboarding-introduction-title-1 =
   最新の検索体験を
-  ご確認ください
+  手に入れましょう
 firefox-suggest-onboarding-introduction-title-2 =
   信頼できる、より良い検索体験を構築中です
 
@@ -153,7 +153,7 @@ firefox-suggest-onboarding-introduction-title-6 =
   検索の次なる進化、
   { -firefox-suggest-brand-name } をご紹介します
 firefox-suggest-onboarding-introduction-title-7 =
-  ウェブ上のベストを、より早く見つけよう。
+  ウェブ上のベストを、より速く見つけよう。
 
 ##
 
@@ -168,65 +168,65 @@ firefox-suggest-onboarding-introduction-next-button-3 = 使い方を見る
 ## multiple lines as needed (line breaks are significant).
 
 firefox-suggest-onboarding-main-title-1 =
-  より充実した検索エクスペリエンスを構築しています
+  より充実した検索体験を構築しています
 firefox-suggest-onboarding-main-title-2 =
   インターネットのベストな体験へ導くお手伝いを
 
 firefox-suggest-onboarding-main-title-3 =
-  より豊かで賢い検索エクスペリエンス
+  より豊かで賢い検索体験
 firefox-suggest-onboarding-main-title-4 =
   ウェブ上の最良を、より速く見つける
 firefox-suggest-onboarding-main-title-5 =
-  私たちはより良い検索体験を構築しています —
+  私たちはより良い検索体験を構築中です —
   あなたの協力が必要です
 firefox-suggest-onboarding-main-title-6 =
    従来の検索エンジンを超えた発想を
 firefox-suggest-onboarding-main-title-7 =
-  信頼できる、よりスマートな検索体験を構築しています
-
+  よりスマートな検索体験を構築中です —
+  信頼できる検索体験を
 firefox-suggest-onboarding-main-title-8 =
-  ウェブの最良を見つけることは、もっとシンプルで安全であるべきです。
-
+  ウェブのベストを、よりシンプルで
+  安全に見つけるべきです。
 firefox-suggest-onboarding-main-title-9 =
-  ウェブの最良を、より速く見つけよう
+  ウェブのベストを、より速く見つけましょう
 
 ##
 
-firefox-suggest-onboarding-main-description-1 = 検索クエリを { -vendor-short-name } が処理することによって、よりスマートで関連性の高い検索候補の作成に役立つことを意味します。そして、私たちは常にあなたのプライバシーを最優先に考えています。
-firefox-suggest-onboarding-main-description-2 = { -vendor-short-name } があなたの検索クエリを処理することを許可することで、すべての人にとってより良い { -firefox-suggest-brand-name } を構築する手助けになります。もちろん、常にプライバシーを最優先に考慮します。
-firefox-suggest-onboarding-main-description-3 = ブラウザーが本当に探しているものにピンポイントでたどり着く手助けをしてくれるとしたらどうでしょう？{ -vendor-short-name } が検索クエリを処理することを許可することで、プライバシーを重視しながら、より関連性の高い検索の提案を作成できます。
-firefox-suggest-onboarding-main-description-4 = ウェブで探している場所にすばやくたどり着き、次へ進みたいですよね。{ -vendor-short-name } が検索クエリを処理することを許可することで、プライバシーを重視しながら、目的地へより早く到達する手助けができます。
-firefox-suggest-onboarding-main-description-5 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索提案を提供できます。私たちは、プライバシーを考慮しながらインターネットでの目的地に到達する手助けをする { -firefox-suggest-brand-name } を構築しています。
-firefox-suggest-onboarding-main-description-6 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索提案を提供できます。私たちは、プライバシーを考慮しながらインターネットでの目的地に到達する手助けをする { -firefox-suggest-brand-name } を構築しています。
-firefox-suggest-onboarding-main-description-7 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索の提案を作成することができます。
-firefox-suggest-onboarding-main-description-8 = { -vendor-short-name } が検索クエリを処理することを許可することで、より関連性の高い検索の提案を提供できます。このデータをウェブ上でのプロファイリングには使用しません。
+firefox-suggest-onboarding-main-description-1 = { -vendor-short-name } が検索クエリを処理することを許可すると、よりスマートで関連性の高い検索候補の作成に役立ちます。そして、これまでと同様に、皆さんのプライバシーを最優先します。
+firefox-suggest-onboarding-main-description-2 = { -vendor-short-name } が検索クエリを処理することを許可すると、すべてのユーザーにとってより良い { -firefox-suggest-brand-name } の構築に役立ちます。そして、これまでと同様に、皆さんのプライバシーを最優先します。
+firefox-suggest-onboarding-main-description-3 = ブラウザーが探しているものを正確に見つける手助けをしてくれたらどうでしょう？ { -vendor-short-name } が検索クエリを処理することを許可すると、プライバシーを最優先しながら、より関連性の高い検索候補を作成するのに役立ちます。
+firefox-suggest-onboarding-main-description-4 =  あなたはウェブで探している場所にすばやくたどり着き、次の作業に進もうとしています。{ -vendor-short-name } が検索クエリを処理することを許可すると、プライバシーを最優先しながら、より速く目的地にたどり着けるようお手伝いします。
+firefox-suggest-onboarding-main-description-5 = { -vendor-short-name } が検索クエリを処理することを許可すると、すべてのユーザーにとってより関連性の高い候補を作成するのに役立ちます。そして、これまでと同様に、皆さんのプライバシーを最優先します。
+firefox-suggest-onboarding-main-description-6 = { -vendor-short-name } が検索クエリを処理することを許可すると、より関連性の高い検索候補を作成するのに役立ちます。私たちは、皆さんのプライバシーを考慮しながら、インターネットで目的地にたどり着けるよう { -firefox-suggest-brand-name } を構築しています。。
+firefox-suggest-onboarding-main-description-7 = { -vendor-short-name } が検索クエリを処理することを許可すると、より関連性の高い検索候補を作成するのに役立ちます。
+firefox-suggest-onboarding-main-description-8 = { -vendor-short-name } が検索クエリを処理することを許可すると、より関連性の高い検索候補を提供するのに役立ちます。私たちはこのデータを使用して、ウェブ上であなたをプロファイリングすることはありません。
 firefox-suggest-onboarding-main-description-9 =
-  私たちは、より良い検索体験を構築しています。{ -vendor-short-name } が検索クエリを処理することを許可することで、あなたにとってより関連性の高い検索提案を提供できます。
+  より良い検索体験を構築しています。{ -vendor-short-name } が検索クエリを処理することを許可すると、より関連性の高い検索候補を作成できます。。
   <a data-l10n-name="learn-more-link">さらに詳しく</a>
 
-firefox-suggest-onboarding-main-privacy-first = ユーザーのプロファイリングを行わず。常にあなたのプライバシーを最優先に。
+firefox-suggest-onboarding-main-privacy-first = ユーザーのプロファイリングを行わず、常にあなたのプライバシーを最優先に。
 
-firefox-suggest-onboarding-main-accept-option-label = 許可します。 <a data-l10n-name="learn-more-link">さらに詳しく</a>
-firefox-suggest-onboarding-main-accept-option-label-2 = 許可
+firefox-suggest-onboarding-main-accept-option-label = 許可する。<a data-l10n-name="learn-more-link">さらに詳しく</a>
+firefox-suggest-onboarding-main-accept-option-label-2 = 有効にする
 
-firefox-suggest-onboarding-main-accept-option-description-1 = より関連性の高いサジェストを提供するために { -firefox-suggest-brand-name } の改善にご協力ください。あなたの検索クエリが処理されます。
-firefox-suggest-onboarding-main-accept-option-description-2 = { -firefox-suggest-brand-name } の改善を支援したい方におすすめです。検索クエリが処理されます。
-firefox-suggest-onboarding-main-accept-option-description-3 = { -firefox-suggest-brand-name } の体験向上にご協力ください。検索クエリが処理されます。
+firefox-suggest-onboarding-main-accept-option-description-1 = より関連性の高いサジェストを提供するために { -firefox-suggest-brand-name } の改善にご協力ください。あなたの検索クエリはが処理されます。
+firefox-suggest-onboarding-main-accept-option-description-2 = { -firefox-suggest-brand-name } の改善を支援したい方におすすめです。あなたの検索クエリは処理されます。
+firefox-suggest-onboarding-main-accept-option-description-3 = { -firefox-suggest-brand-name } の体験を改善するのご協力ください。検索クエリが処理されます。
 
 firefox-suggest-onboarding-main-reject-option-label = 拒否します。
 firefox-suggest-onboarding-main-reject-option-label-2 = 無効のままにする
 
-firefox-suggest-onboarding-main-reject-option-description-1 = 最も厳格なデータ共有の制限を使用して、デフォルトの { -firefox-suggest-brand-name } による検索体験を維持します。 
-firefox-suggest-onboarding-main-reject-option-description-2 = データ共有の制限を最も厳しくしたい方におすすめです。デフォルトの検索体験を維持します。
-firefox-suggest-onboarding-main-reject-option-description-3 = デフォルトの { -firefox-suggest-brand-name } での検索体験を維持し、最も厳しいデータ共有の制限を適用します。
+firefox-suggest-onboarding-main-reject-option-description-1 = 最も厳格なデータ共有の制限を使用して、既定の { -firefox-suggest-brand-name } による検索体験を維持します。
+firefox-suggest-onboarding-main-reject-option-description-2 = 最も厳格なデータ共有コントロールを好む方におすすめです。既定の体験を維持します。
+firefox-suggest-onboarding-main-reject-option-description-3 = 最も厳格なデータ共有コントロールを備えた、既定の { -firefox-suggest-brand-name } の体験を維持します。
 
 firefox-suggest-onboarding-main-submit-button = 設定を保存
 firefox-suggest-onboarding-main-skip-link = 今はしない
 
 urlbar-firefox-suggest-contextual-opt-in-title-1 =
-  Find the best of the web, faster
+  ウェブのベストを、より速く見つけましょう
 urlbar-firefox-suggest-contextual-opt-in-description-3 =
-  私たちは、より優れた検索体験を構築しています。検索クエリのデータを { -vendor-short-name } と共有すると、{ -brand-short-name } とパートナーからより関連性の高いサジェストを作成できます。
+  より良い検索体験を構築しています。検索クエリデータを { -vendor-short-name } と共有すると、{ -brand-short-name } やパートナーからより関連性の高い候補を作成できます。
   <a data-l10n-name="learn-more-link">さらに詳しく</a>
 urlbar-firefox-suggest-contextual-opt-in-allow = サジェストを許可
 urlbar-firefox-suggest-contextual-opt-in-dismiss = 使用しない
@@ -242,18 +242,18 @@ urlbar-search-mode-actions-en = アクション
 ## Yelp realtime suggestions shows shops, places information etc nearby.
 
 # This string is shown as title when Yelp realtime suggestion are disabled.
-urlbar-result-yelp-realtime-opt-in-title = 近くのおすすめスポットを見つけよう
+urlbar-result-yelp-realtime-opt-in-title = 周辺のおすすめスポットを見つけよう
 
 # This string is shown as description when Yelp realtime suggestion are disabled.
-urlbar-result-yelp-realtime-opt-in-description = 周辺のスポットやサービスのおすすめに加え、株価情報、スポーツのスコアなどをパートナーから取得できます。検索クエリデータを { -vendor-short-name } と共有することで利用可能になります。<a data-l10n-name="learn-more-link">詳細はこちら</a>
+urlbar-result-yelp-realtime-opt-in-description = { -vendor-short-name } と検索クエリデータを共有することで、周辺の場所やサービスの候補、さらにパートナーからの株式、スポーツのスコアなどの更新情報を取得できます。<a data-l10n-name="learn-more-link">詳細はこちら</a>
 
 # This string is shown in the result menu.
 urlbar-result-menu-dont-show-yelp-realtime =
-  .label = Yelp のおすすめを表示しない
+  .label = { -yelp-brand-name } の候補を表示しない
 
 # A message that replaces a result when the user dismisses Yelp realtime
 # suggestions.
-urlbar-result-dismissal-acknowledgment-yelp-realtime = ご意見ありがとうございます。今後 Yelp のおすすめは表示されません。
+urlbar-result-dismissal-acknowledgment-yelp-realtime = フィードバックをありがとうございます。{ -yelp-brand-name } の候補は今後表示されません。
 
 # This string is shown as group label for Yelp realtime suggestions.
 urlbar-result-yelp-realtime-group-label =
@@ -291,11 +291,11 @@ urlbar-result-yelp-realtime-popularity = { $rating } ({ $review_count })
 
 # This string is shown in the result menu.
 urlbar-result-menu-dont-show-flight-status =
-  .label = フライト情報の候補を表示しない
+  .label = フライト状況の候補を表示しない
 
-# A message that replaces a result when the user dismisses Yelp realtime
+# A message that replaces a result when the user dismisses flight status
 # suggestions.
-urlbar-result-dismissal-acknowledgment-flight-status = フィードバックをありがとうございます。今後はフライト情報の候補は表示されません。
+urlbar-result-dismissal-acknowledgment-flight-status = フィードバックをありがとうございます。フライト状況の候補は今後表示されません。
 
 # This string is shown as the statis of 'On time'.
 urlbar-result-flight-status-status-ontime = 定刻通り
@@ -315,9 +315,9 @@ urlbar-result-flight-status-status-cancelled = 欠航
 # Variables:
 #   $departureEstimatedTime (string) - The estimated departure time.
 urlbar-result-flight-status-status-delayed =
-    { $departureEstimatedTime } まで遅延
+    遅延: { $departureEstimatedTime } まで
 
-# This string is shown as the time left minutes.
+# This string is shown as the time remaining in an in-progress flight.
 # e.g. 30 min left
 # Variables:
 #   $timeLeft (string) - Localized duration string, e.g., "1 hr, 30 min"
@@ -335,7 +335,7 @@ urlbar-result-flight-status-airport = { $city } ({ $code })
 # Variables:
 #   $flightNumber (string) - The flight number.
 #   $airlineName (string) - The airline name.
-urlbar-result-flight-status-flight-number-with-airline = { $flightNumber }, { $airlineName }
+urlbar-result-flight-status-flight-number-with-airline = { $flightNumber }、{ $airlineName }
 
 ## These strings are used for sports suggestions in the urlbar. Sports
 ## suggestions show team names, scores, game times, etc.
@@ -347,14 +347,14 @@ urlbar-result-flight-status-flight-number-with-airline = { $flightNumber }, { $a
 # Variables:
 #   $awayTeam (string) - Name of the visting team.
 #   $homeTeam (string) - Name of the home team.
-urlbar-result-sports-team-names = { $awayTeam } at { $homeTeam }
+urlbar-result-sports-team-names = { $awayTeam } 対 { $homeTeam }
 
 # This string is shown when the game is today, in the near future, or in the
 # recent past.
 # Variables:
 #   $date (string) - Localized date string, e.g., "Today", "Oct 31"
 #   $time (string) - Localized time
-urlbar-result-sports-game-date-with-time = { $date } at { $time }
+urlbar-result-sports-game-date-with-time = { $date } { $time }
 
 # This status is shown when the game is in progress.
 urlbar-result-sports-status-live = 試合中
@@ -364,4 +364,7 @@ urlbar-result-sports-status-final = 試合終了
 
 # This string is shown in the result menu.
 urlbar-result-menu-dont-show-sports =
-  .label = スポーツのサジェストを非表示にする
+  .label = スポーツのサジェストを表示しない
+
+# A message that replaces a result when the user dismisses sports suggestions.
+urlbar-result-dismissal-acknowledgment-sports = フィードバックをありがとうございます。スポーツのサジェストは今後表示されません。

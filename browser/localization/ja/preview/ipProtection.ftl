@@ -31,22 +31,51 @@ ipprotection-title = { -firefox-vpn-brand-name }
 ## Feature introduction callout
 
 ipprotection-feature-introduction-title = ブラウザーに組み込まれた無料の { -firefox-vpn-brand-name }
-ipprotection-feature-introduction-link-text = 新しい <a data-l10n-name="learn-more-vpn">内蔵 VPN</a> の早期アクセス版をご利用いただけます。{ -brand-product-name } で閲覧中にあなたの位置情報を隠し、暗号化を強化します。始めるにはサインインしてください。
+ipprotection-feature-introduction-link-text = 新しい <a data-l10n-name="learn-more-vpn">組み込み型 VPN</a> の先行アクセスに選ばれました。位置情報を隠し、{ -brand-product-name }での閲覧に暗号化を追加します。サインインして開始してください。
 ipprotection-feature-introduction-button-primary = 次へ
 ipprotection-feature-introduction-button-secondary-not-now = 今はしない
 ipprotection-feature-introduction-button-secondary-no-thanks = 利用しない
 
-##
+## Panel
 
-# The panel status card has a header and a connection time displayed under it when the VPN is on.
+upgrade-vpn-title = デバイス全体を保護して安心を手に入れましょう
+upgrade-vpn-paragraph = <a data-l10n-name="learn-more-vpn">{ -mozilla-vpn-brand-name }</a> を使用して、ブラウザー以外も保護しましょう。VPN ロケーションのカスタマイズ、サイト固有のロケーション設定、自宅や公共 Wi-Fi での強化されたセキュリティをお楽しみください。
+upgrade-vpn-button = アップグレード
+
+signed-out-vpn-title = サインインして無料の{ -firefox-vpn-brand-name }でブラウザーのプライバシーを強化しましょう
+signed-out-vpn-message = 新しい <a data-l10n-name="learn-more-vpn-signed-out">組み込み型 VPN</a> の先行アクセスに選ばれました。位置情報を隠し、トラフィックを暗号化してブラウザーの保護を強化しましょう。
+sign-in-vpn = 次へ
+
+## Status card
+
+ipprotection-connection-status-on =
+  .label = VPN オン
+ipprotection-connection-status-off =
+  .label = VPN オフ
+
+# The panel status card has a header, as well as VPN server location name and connection time displayed under it when the VPN is on.
 # Variables:
 #   $time (String) - The amount of time connected to the proxy as HH:MM:SS (hours, minutes, seconds).
-ipprotection-connection-status-on =
-  .label = VPN はオンです
-  .description = { $time }
+ipprotection-connection-time = { $time }
 
-ipprotection-connection-status-off =
+# Location refers to the VPN server geographical position.
+ipprotection-location-title =
+  .title = Location selected based on fastest server
+
+ipprotection-site-settings-control =
+  .label = Website settings
+
+# Variables:
+#   $sitename (String) - The name of the site that we're currently on (eg. example.com)
+ipprotection-site-settings-button-vpn-off =
+  .label = { $sitename }
   .label = VPN はオフです
+
+# Variables:
+#   $sitename (String) - The name of the site that we're currently on (eg. example.com)
+ipprotection-site-settings-button-vpn-on =
+  .label = { $sitename }
+  .label = VPN はオンです
 
 # When VPN is toggled on
 ipprotection-toggle-active =
@@ -55,34 +84,21 @@ ipprotection-toggle-active =
 ipprotection-toggle-inactive =
   .aria-label = VPN をオンにする
 
-# Location refers to the VPN server geographical position.
-ipprotection-location-title =
-  .label = 接続場所
-  .title = 最速のサーバーに基づいて接続場所が選択されています
-
-upgrade-vpn-title = デバイス全体の保護で安心感を
-upgrade-vpn-paragraph = ブラウザーの外側も<a data-l10n-name="learn-more-vpn">{ -mozilla-vpn-brand-name }</a>で保護しましょう。VPN 接続場所のカスタマイズ、サイト固有の接続場所の設定、公共 Wi-Fi や自宅でのセキュリティー強化が利用できます。
-upgrade-vpn-button = アップグレード
-
-signed-out-vpn-title = 無料の { -firefox-vpn-brand-name } でブラウザーのプライバシーを強化するにはサインインしてください
-signed-out-vpn-message = 新しい<a data-l10n-name="learn-more-vpn-signed-out">内蔵 VPN</a> の早期アクセス版をご利用いただけます。あなたの位置情報を隠し、通信を暗号化することで、ブラウザーの保護を強化します。
-sign-in-vpn = 次へ
-
 ## Messages and errors
 
 ipprotection-message-generic-error =
   .heading = VPN に接続できませんでした
   .message = 数分後にもう一度お試しください。
 
-ipprotection-message-continuous-onboarding-intro = VPN をオンにして、位置情報を隠し、閲覧にさらなる暗号化を追加しましょう。
-ipprotetection-message-continuous-onboarding-autostart = さらなる保護のために、{ -brand-short-name } を開くたびに VPN がオンになるように<a data-l10n-name="setting-link">設定してください</a>。
-ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } は、あなたが VPN の使用を設定したウェブサイトを記憶します。<a data-l10n-name="setting-link">設定</a>でいつでも更新できます。
+ipprotection-message-continuous-onboarding-intro = VPN をオンにして位置情報を隠し、閲覧に暗号化を追加しましょう。
+ipprotetection-message-continuous-onboarding-autostart = { -brand-short-name } を開くたびに VPN を<a data-l10n-name="setting-link">オンにするように設定</a>して、保護をさらに強化しましょう。
+ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } はVPNを使用するように設定したウェブサイトを記憶します。<a data-l10n-name="setting-link">設定</a>でいつでも更新できます。
 
 ## IP Protection Settings
 
 ip-protection-description =
   .label = { -firefox-vpn-brand-name }
-  .description = { -brand-short-name } で閲覧中にあなたの位置情報を隠し、暗号化を強化します。
+  .description = { -brand-short-name } での閲覧時に位置情報を隠し、暗号化を追加します。
 ip-protection-learn-more = さらに詳しく
 
 ip-protection-site-exceptions =
@@ -118,8 +134,8 @@ ip-protection-site-exceptions-select-sites-button =
 
 ip-protection-exceptions-dialog-window =
   .title = { -firefox-vpn-brand-name } を使用するウェブサイト
-ip-protection-exclusions-desc = この一覧にあるウェブサイトを除くすべてのウェブサイトで VPN を使用します。
-ip-protection-inclusions-desc = 選択したウェブサイトでのみ VPN を使用します。
+ip-protection-exclusions-desc = このリストにあるウェブサイト以外すべてでVPNを使用します。VPN パネルで任意のサイトに対して { -firefox-vpn-brand-name } をオンまたはオフにすることで、このリストにウェブサイトを追加します。
+ip-protection-inclusions-desc = 選択したウェブサイトでのみ VPN を使用します。VPN パネルで任意のサイトに対して { -firefox-vpn-brand-name } をオンまたはオフにすることで、このリストにウェブサイトを追加します。
 
 ipprotection-site-settings-title =
   .title = VPN サイト設定

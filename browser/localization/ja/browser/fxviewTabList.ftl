@@ -18,22 +18,22 @@ fxviewtabrow-tabs-list-tab =
 # Variables:
 #   $tabTitle (string) - Title of tab being closed
 fxviewtabrow-close-tab-button =
-  .title = { $tabTitle } を閉じます
+  .title = { $tabTitle } を閉じる
 
 # Variables:
 #   $tabTitle (string) - Title of tab being dismissed
 fxviewtabrow-dismiss-tab-button =
-  .title = { $tabTitle } を閉じます
+  .title = { $tabTitle } を閉じる
 
 # Used instead of the localized relative time when a timestamp is within a minute or so of now
-fxviewtabrow-just-now-timestamp = さっき
+fxviewtabrow-just-now-timestamp = たった今
 
 # Strings below are used for context menu options within panel-list.
 # For developers, this duplicates command because the label attribute is required.
 
 fxviewtabrow-delete = 削除
     .accesskey = D
-fxviewtabrow-forget-about-this-site = Forget About This Site…
+fxviewtabrow-forget-about-this-site = このサイトについて忘れる…
     .accesskey = F
 fxviewtabrow-open-in-window = 新しいウィンドウで開く
     .accesskey = N
@@ -42,7 +42,7 @@ fxviewtabrow-open-in-private-window = 新しいプライベート ウィンド�
 # “Bookmark” is a verb, as in "Bookmark this page" (add to bookmarks).
 fxviewtabrow-add-bookmark = ブックマーク…
     .accesskey = B
-fxviewtabrow-save-to-pocket = { -pocket-brand-name } へ保存
+fxviewtabrow-save-to-pocket = { -pocket-brand-name } に保存
     .accesskey = o
 fxviewtabrow-copy-link = リンクをコピー
     .accesskey = L
@@ -50,13 +50,13 @@ fxviewtabrow-close-tab = タブを閉じる
     .accesskey = C
 fxviewtabrow-move-tab = タブを移動
     .accesskey = v
-fxviewtabrow-move-tab-start = 最初に移動
+fxviewtabrow-move-tab-start = 先頭に移動
     .accesskey = S
-fxviewtabrow-move-tab-end = 最後に移動
+fxviewtabrow-move-tab-end = 末尾に移動
     .accesskey = E
 fxviewtabrow-move-tab-window = 新しいウィンドウに移動
     .accesskey = W
-fxviewtabrow-send-tab = タブをデバイスに送信
+fxviewtabrow-send-to-device = デバイスに送信
     .accesskey = n
 fxviewtabrow-pin-tab = タブを固定
     .accesskey = P

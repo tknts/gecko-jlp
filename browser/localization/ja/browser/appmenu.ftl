@@ -24,7 +24,7 @@ appmenuitem-new-tab =
 appmenuitem-new-window =
     .label = 新しいウィンドウ
 appmenuitem-new-private-window =
-    .label = 新しいプライベート ウィンドウ
+    .label = 新しいプライベートウィンドウ
 appmenuitem-history =
   .label = 履歴
 appmenuitem-downloads =
@@ -54,10 +54,10 @@ appmenuitem-exit2 =
            *[other] 終了
         }
 appmenu-menu-button-closed2 =
-    .tooltiptext = アプリケーション メニューを開きます
+    .tooltiptext = アプリケーションメニューを開きます
     .label = { -brand-short-name }
 appmenu-menu-button-opened2 =
-    .tooltiptext = アプリケーション メニューを閉じます
+    .tooltiptext = アプリケーションメニューを閉じます
     .label = { -brand-short-name }
 
 # Settings is now used to access the browser settings across all platforms,
@@ -77,40 +77,40 @@ appmenuitem-fullscreen =
 ## Firefox Account toolbar button and Sync panel in App menu.
 
 appmenu-remote-tabs-sign-into-sync =
-  .label = ログインして同期…
+  .label = サインインして同期…
 appmenu-remote-tabs-turn-on-sync =
   .label = 同期を有効にする…
 
 # This is shown after the tabs list if we can display more tabs by clicking on the button
 appmenu-remote-tabs-showmore =
-  .label = その他のタブを表示
-  .tooltiptext = このデバイスのタブをさらに表示する
+  .label = さらに多くのタブを表示
+  .tooltiptext = このデバイスのタブをさらに表示します
 
 # This is shown as the label for an element to show inactive tabs from this device.
 appmenu-remote-tabs-show-inactive-tabs =
   .label = 非アクティブなタブ
-  .tooltiptext = このデバイスの非アクティブなタブを表示
+  .tooltiptext = このデバイスの非アクティブなタブを表示します
 
 # This is shown beneath the name of a device when that device has no open tabs
-appmenu-remote-tabs-notabs = 開かれたタブがありません
+appmenu-remote-tabs-notabs = 開いているタブはありません
 
 # This is shown when Sync is configured but syncing tabs is disabled.
-appmenu-remote-tabs-tabsnotsyncing = タブの同期機能を有効にして、他のデバイスのタブの一覧を表示します。
+appmenu-remote-tabs-tabsnotsyncing = 他のデバイスのタブの一覧を表示するには、タブの同期を有効にしてください。
 
 appmenu-remote-tabs-opensettings =
   .label = 設定
 
 # This is shown when Sync is configured but this appears to be the only device attached to
 # the account. We also show links to download Firefox for android/ios.
-appmenu-remote-tabs-noclients = このデバイスで他のデバイスのタブを見たいですか?
+appmenu-remote-tabs-noclients = 他のデバイスのタブをここに表示しますか?
 
 appmenu-remote-tabs-connectdevice =
   .label = その他のデバイスを接続
-appmenu-remote-tabs-welcome = 他のデバイスのタブを一覧表示します。
-appmenu-remote-tabs-unverified = アカウントを確認する必要があります。
+appmenu-remote-tabs-welcome = 他のデバイスのタブの一覧を表示します。
+appmenu-remote-tabs-unverified = アカウントの認証が必要です。
 
 appmenuitem-fxa-toolbar-sync-now2 = 今すぐ同期
-appmenuitem-fxa-sign-in = { -brand-product-name } にログイン
+appmenuitem-fxa-sign-in = { -brand-product-name } にサインイン
 appmenuitem-fxa-manage-account = アカウントを管理
 appmenu-account-header = アカウント
 # Variables
@@ -118,16 +118,16 @@ appmenu-account-header = アカウント
 # 3 hours ago, etc.)
 appmenu-fxa-last-sync = 最終同期: { $time }
     .label = 最終同期: { $time }
-appmenu-fxa-sync-and-save-data2 = データの保存と同期
-appmenu-fxa-signed-in-label = ログイン
+appmenu-fxa-sync-and-save-data2 = 同期してデータを保存
+appmenu-fxa-signed-in-label = サイン イン
 appmenu-fxa-setup-sync =
     .label = 同期を有効にする…
 appmenu-fxa-setup-sync-new = オンにする
 appmenuitem-save-page =
-    .label = 名前を付けて保存…
+    .label = ページを名前を付けて保存…
 
-appmenuitem-fxa-sync-off-title = 同期をオフにする
-appmenuitem-fxa-sync-off-description = ブックマーク、パスワードなどをどこからでも保護し、アクセスできます。
+appmenuitem-fxa-sync-off-title = 同期していません
+appmenuitem-fxa-sync-off-description = ブックマークやパスワードなどをどこからでも保護してアクセスできます。
 
 ## The Firefox Profiler – The popup is the UI to turn on the profiler, and record
 ## performance profiles. To enable it go to profiler.firefox.com and click
@@ -143,11 +143,11 @@ profiler-popup-button-idle =
 
 profiler-popup-button-recording =
   .label = プロファイラー
-  .tooltiptext = プロファイラーがプロファイルを記録しています
+  .tooltiptext = プロファイラーがプロファイルを記録中です
 
 profiler-popup-button-capturing =
   .label = プロファイラー
-  .tooltiptext = プロファイラーがプロファイルをキャプチャーしています
+  .tooltiptext = プロファイラーがプロファイルをキャプチャーー中です
 
 profiler-popup-header-text = { -profiler-brand-name }
 
@@ -158,7 +158,7 @@ profiler-popup-description-title =
   .value = 記録、分析、共有
 
 profiler-popup-description =
-  プロファイルを公開してパフォーマンスの問題をチームと共有できます。
+  プロファイルを公開してチームと共有することで、パフォーマンスの問題に協力して対処できます。
 
 profiler-popup-learn-more-button =
   .label = さらに詳しく
@@ -170,7 +170,7 @@ profiler-popup-settings =
 profiler-popup-edit-settings-button =
   .label = 設定を編集…
 
-profiler-popup-recording-screen = 記録しています…
+profiler-popup-recording-screen = 記録中…
 
 profiler-popup-start-recording-button =
   .label = 記録を開始
@@ -200,11 +200,11 @@ profiler-popup-capture-shortcut =
 # devtools/client/performance-new/shared/background.sys.mjs
 # Please take care that the same values are also defined in devtools' perftools.ftl.
 
-profiler-popup-presets-web-developer-description = 一般的なウェブアプリのデバッグに推奨される低負荷なプリセットです。
+profiler-popup-presets-web-developer-description = ほとんどのウェブアプリのデバッグに推奨される低負荷なプリセットです。
 profiler-popup-presets-web-developer-label =
   .label = ウェブ開発
 
-profiler-popup-presets-firefox-description = { -brand-shorter-name } のプロファイルに推奨されたプリセットです。
+profiler-popup-presets-firefox-description = { -brand-shorter-name } のプロファイリングに推奨されるプリセットです。
 profiler-popup-presets-firefox-label =
   .label = { -brand-shorter-name }
 
@@ -216,11 +216,11 @@ profiler-popup-presets-media-description2 = { -brand-shorter-name } のオーデ
 profiler-popup-presets-media-label =
   .label = メディア
 
-profiler-popup-presets-ml-description = { -brand-shorter-name } の機械学習のバグを調査するためのプリセットです。
+profiler-popup-presets-ml-description = { -brand-shorter-name } の機械学習関連のバグを調査するためのプリセットです。
 profiler-popup-presets-ml-label =
   .label = 機械学習
 
-profiler-popup-presets-networking-description = { -brand-shorter-name } のネットワークのバグを調査するためのプリセットです。
+profiler-popup-presets-networking-description = { -brand-shorter-name } のネットワーク関連のバグを調査するためのプリセットです。
 profiler-popup-presets-networking-label =
   .label = ネットワーク
 
@@ -229,9 +229,13 @@ profiler-popup-presets-power-description = { -brand-shorter-name } の電力使�
 profiler-popup-presets-power-label =
   .label = 電力消費
 
-profiler-popup-presets-debug-description = { -brand-shorter-name } でのデバッグ用のプリセットです。オーバーヘッドが大きいため、パフォーマンス向上には使用せず、ブラウザーの動作を理解することに重点を置いて使用してください。
+profiler-popup-presets-debug-description = { -brand-shorter-name } でのデバッグ用のプリセットです。高負荷なため、パフォーマンスの調査には使用せず、ブラウザーの動作を理解することに重点を置いて使用してください。
 profiler-popup-presets-debug-label =
   .label = デバッグ
+
+profiler-popup-presets-web-compat-description = ウェブサイトの互換性に関する問題をデバッグするのに推奨されるプリセットで、パフォーマンスの追跡用ではありません。
+profiler-popup-presets-web-compat-label =
+  .label = ウェブの互換性
 
 profiler-popup-presets-custom-label =
   .label = カスタマイズ
@@ -241,7 +245,7 @@ profiler-popup-presets-custom-label =
 appmenu-manage-history =
     .label = 履歴を管理
 appmenu-restore-session =
-    .label = 前回のセッションを復元
+    .label = 以前のセッションを復元
 appmenu-clear-history =
     .label = 最近の履歴を消去…
 appmenu-recent-history-subheader = 最近の履歴
@@ -267,10 +271,10 @@ appmenu-help-more-troubleshooting-info =
     .label = その他のトラブルシューティングに関する情報
     .accesskey = t
 appmenu-help-share-ideas =
-    .label = 意見とフィードバックを共有…
+    .label = アイデアとフィードバックを共有…
     .accesskey = S
 appmenu-help-switch-device =
-    .label = 新しいデバイスへの切り替え
+    .label = 新しいデバイスに切り替える
 
 ## appmenu-help-enter-troubleshoot-mode and appmenu-help-exit-troubleshoot-mode
 ## are mutually exclusive, so it's possible to use the same accesskey for both.
@@ -286,10 +290,10 @@ appmenu-help-exit-troubleshoot-mode =
 ## are mutually exclusive, so it's possible to use the same accesskey for both.
 
 appmenu-help-report-deceptive-site =
-    .label = フィッシングサイトを報告…
+    .label = 詐欺サイトを報告…
     .accesskey = d
 appmenu-help-not-deceptive =
-    .label = フィッシングサイトではありません…
+    .label = これは詐欺サイトではありません…
     .accesskey = d
 
 ## More Tools
@@ -301,14 +305,14 @@ appmenu-developer-tools-subheader = ブラウザー ツール
 appmenu-developer-tools-extensions =
     .label = 開発者向け拡張機能
 appmenuitem-report-broken-site =
-  .label = 壊れたサイトを報告
+  .label = サイトの不具合を報告
 
 ## Panel for privacy and security products
 
-appmenuitem-sign-in-account = アカウントにサインインする
+appmenuitem-sign-in-account = アカウントにサインイン
 
 appmenuitem-monitor-title = { -monitor-brand-short-name }
-appmenuitem-monitor-description = データの漏洩に関する警告を通知する
+appmenuitem-monitor-description = データの漏洩に関する警告を受け取る
 appmenuitem-relay-title = { -relay-brand-short-name }
 appmenuitem-relay-description = 実際のメールアドレスと電話番号をマスクする
 appmenuitem-services-relay-description = 使い捨てメールのダッシュボードを起動します
