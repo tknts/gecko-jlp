@@ -15,7 +15,7 @@ browser-main-private-window-title = { PLATFORM() ->
 
 # This is only used on macOS; on other OSes we use the full private window
 # title (so including the brand name) as a suffix
-browser-main-private-suffix-for-content = Private Browsing
+browser-main-private-suffix-for-content = プライベート ブラウジング
 
 # The non-variable portion of this MUST match the translation of
 # "PRIVATE_BROWSING_SHORTCUT_TITLE" in custom.properties
@@ -37,9 +37,9 @@ urlbar-midi-notification-anchor =
 urlbar-eme-notification-anchor =
     .tooltiptext = DRM ソフトウェアを管理します
 urlbar-web-authn-anchor =
-    .tooltiptext = Web Authentication パネルを開きます
+    .tooltiptext = ウェブ認証 (WebAuthn) パネルを開きます
 urlbar-canvas-notification-anchor =
-    .tooltiptext = canvas 要素抽出の許可を管理します
+    .tooltiptext = Canvas データ抽出の許可を管理します。
 urlbar-web-rtc-share-microphone-notification-anchor =
     .tooltiptext = マイクの使用を管理します
 urlbar-default-notification-anchor =
@@ -51,7 +51,7 @@ urlbar-localhost-notification-anchor =
 urlbar-local-network-notification-anchor =
     .tooltiptext = このサイトへのローカルネットワーク共有を管理します
 urlbar-xr-notification-anchor =
-    .tooltiptext = VR の許可パネルを開きます
+    .tooltiptext = VR 許可パネルを開きます
 urlbar-storage-access-anchor =
     .tooltiptext = 行動追跡の許可パネルを開きます
 urlbar-web-rtc-share-screen-notification-anchor =
@@ -65,13 +65,13 @@ urlbar-web-rtc-share-devices-notification-anchor =
 # "Speakers" is used in a general sense that might include headphones or
 # another audio output connection.
 urlbar-web-rtc-share-speaker-notification-anchor =
-    .tooltiptext = サイトと他のスピーカーの共有を管理します
+    .tooltiptext = 他のスピーカーのサイトへの共有を管理します。
 urlbar-autoplay-notification-anchor =
     .tooltiptext = 自動再生パネルを開きます
 urlbar-persistent-storage-notification-anchor =
     .tooltiptext = データを永続ストレージに格納します
 urlbar-addons-notification-anchor =
-    .tooltiptext = アドオンのインストールのメッセージ パネルを開きます
+    .tooltiptext = アドオンのインストールのメッセージパネルを開きます
 urlbar-search-tips-confirm = 了解しました
 urlbar-search-tips-confirm-short = 了解
 
@@ -86,7 +86,7 @@ urlbar-result-menu-remove-from-history =
     .label = 履歴から削除
     .accesskey = R
 urlbar-result-menu-tip-get-help =
-    .label = ヘルプを入手する
+    .label = ヘルプを表示
     .accesskey = h
 urlbar-result-menu-dismiss-suggestion =
     .label = このサジェストを削除
@@ -101,13 +101,13 @@ urlbar-result-menu-manage-firefox-suggest =
 # detected by Firefox (e.g., weather suggestions), and this menu item lets the
 # user tell Firefox that the location is not accurate. Typically the location
 # will be a city name, or a city name combined with the name of its parent
-# administrative region (e.g., a province, prefecture, or state).
+# administrative division (e.g., a province, prefecture, or state).
 urlbar-result-menu-report-inaccurate-location =
     .label = 不正確な位置情報を報告
 urlbar-result-menu-show-less-frequently =
     .label = 表示頻度を減らす
 urlbar-result-menu-dont-show-weather-suggestions =
-    .label = 天気の提案を表示しない
+    .label = 天気の候補を表示しない
 
 # Used for Split Button.
 urlbar-splitbutton-dropmarker =
@@ -119,14 +119,14 @@ urlbar-feedback-acknowledgment = フィードバックありがとうござい�
 
 # A message shown in the urlbar when the user dismisses weather suggestions.
 # Weather suggestions won't be shown at all anymore.
-urlbar-dismissal-acknowledgment-weather = フィードバックありがとうございます。天気の提案は今後表示されません。
+urlbar-dismissal-acknowledgment-weather = フィードバックありがとうございます。天気の候補は今後表示されません。
 
 ## Prompts users to use the Urlbar when they open a new tab or visit the
 ## homepage of their default search engine.
 ## Variables:
 ##  $engineName (String): The name of the user's default search engine. e.g. "Google" or "DuckDuckGo".
 
-urlbar-search-tips-onboard = 少ない入力で多くを探す: アドレスバーから直接 { $engineName } を検索できます。
+urlbar-search-tips-onboard = 少ない入力で多くを見つけましょう: アドレスバーから直接 { $engineName } を検索できます。
 urlbar-search-tips-redirect-2 = アドレスバーで検索を開始して { $engineName } からのサジェストと履歴を表示します。
 
 # Prompts users to use the Urlbar when they are typing in the domain of a
@@ -231,8 +231,8 @@ search-one-offs-engine-with-alias =
 #  $engineName (String): The name of the engine.
 search-one-offs-add-engine =
     .label = “{ $engineName }” を追加
-    .tooltiptext = “{ $engineName }” を検索エンジンとして追加します
-    .aria-label = “{ $engineName }” を検索エンジンとして追加します
+    .tooltiptext = 検索エンジン “{ $engineName }” を追加します
+    .aria-label = 検索エンジン “{ $engineName }” を追加
 # When more than 5 engines are offered by a web page, they are grouped in a
 # submenu using this as its label.
 search-one-offs-add-engine-menu =
@@ -324,6 +324,10 @@ quickactions-cmd-restart = restart, 再起動,
 quickactions-screenshot3 = スクリーンショットを撮影
 quickactions-cmd-screenshot2 = screenshot, take a screenshot, スクリーンショット, 撮影,
 
+# Opens about:translations
+quickactions-translate = 翻訳
+quickactions-cmd-translate = 翻訳
+
 # Opens about:preferences
 quickactions-settings2 = 設定を管理
 # "manage" should match the corresponding command, which is “Manage settings” in English.
@@ -351,7 +355,7 @@ quickactions-learn-more =
 # Will be shown to users the first configurable number of times
 # they experience actions giving them instructions on how to
 # select the action shown by pressing the tab key.
-press-tab-label = [タブ] キーを押して選択します
+press-tab-label = [Tab] キーを押して選択します
 
 ## Bookmark Panel
 
@@ -389,30 +393,30 @@ identity-site-information = { $host } のサイト情報
 # Variables
 #  $host (String): the hostname of the site that is being displayed.
 identity-header-security-with-host =
-    .title = { $host } の接続セキュリティ
-identity-connection-not-secure = 安全ではない接続
-identity-connection-secure = 安全な接続
-identity-connection-failure = 接続失敗
-identity-connection-internal = このページは { -brand-short-name } の安全な内部ページです。
+    .title = { $host } の接続の安全性
+identity-connection-not-secure = 接続は安全ではありません
+identity-connection-secure = 接続は安全です
+identity-connection-failure = 接続エラー
+identity-connection-internal = これは安全な { -brand-short-name } のページです。
 identity-connection-file = このページはコンピューターに保存されています。
-identity-connection-associated = このページは別のページからロードされています。
-identity-extension-page = このページは拡張機能によって読み込まれました。
-identity-active-blocked = このページの安全でない部分を { -brand-short-name } はブロックしました。
+identity-connection-associated = このページは別のページから読み込まれています。
+identity-extension-page = このページは拡張機能から読み込まれています。
+identity-active-blocked = { -brand-short-name } は、このページの一部の安全でないコンテンツをブロックしました。
 identity-custom-root = Mozilla によって承認されていない証明書の発行者によって接続が検証されました。 
-identity-passive-loaded = このページの一部 (画像など) は安全ではありません。
-identity-active-loaded = このページでの保護は無効化されています。
-identity-weak-encryption = このページは脆弱な暗号を使用しています。
+identity-passive-loaded = このページの一部のコンテンツ (画像など) は安全ではありません。
+identity-active-loaded = このページでは保護が無効になっています。
+identity-weak-encryption =  このページは強度の低い暗号化を使用しています。
 
 identity-https-only-connection-upgraded = (HTTPS にアップグレードされています)
-identity-https-only-label2 = このサイトを安全な接続に自動的にアップグレードします
+identity-https-only-label2 =  このサイトへの接続を自動的に安全な接続にアップグレード
 identity-https-only-dropdown-on =
     .label = オン
 identity-https-only-dropdown-off =
     .label = オフ
 identity-https-only-dropdown-off-temporarily =
     .label = 一時的にオフ
-identity-https-only-info-turn-on3 = 可能な場合に { -brand-short-name } で接続をアップグレードする場合は、このサイトの HTTPS アップグレードをオンにします。
-identity-https-only-info-turn-off3 = ページが壊れていると思われる場合は、安全でない HTTP を使用して再読み込みするために、このサイトの HTTPS アップグレードをオフにすることをお勧めします。
+identity-https-only-info-turn-on3 = 可能な場合に { -brand-short-name } で接続をアップグレードするには、このサイトの HTTPS アップグレードをオンにします。
+identity-https-only-info-turn-off3 = ページが壊れていると思われる場合は、このサイトの HTTPS アップグレードをオフにして、安全でない HTTP を使用して再読み込みを試してください。
 identity-https-only-info-no-upgrade = 接続を HTTP からアップグレードできません。
 
 identity-permissions-storage-access-header = クロスサイト Cookie
@@ -448,7 +452,7 @@ browser-window-minimize-button =
 browser-window-maximize-button =
     .tooltiptext = 最小化します
 browser-window-restore-down-button =
-    .tooltiptext = Restore Down
+    .tooltiptext = 元のサイズに戻します
 browser-window-close-button =
     .tooltiptext = 閉じます
 
@@ -461,7 +465,7 @@ browser-tab-audio-pip =ピクチャー・イン・ピクチャー
 
 browser-import-button2 =
     .label = ブックマークをインポート…
-    .tooltiptext = その他のブラウザーから { -brand-short-name } へブックマークをインポートします。
+    .tooltiptext = 他のブラウザーから { -brand-short-name } にブックマークをインポートします。
 
 bookmarks-toolbar-empty-message = ブックマークをこのブックマークツールバーに配置すると、素早くアクセスできます。 <a data-l10n-name="manage-bookmarks">ブックマークを管理…</a>
 
@@ -556,7 +560,7 @@ urlbar-placeholder-with-name =
 #  $component (String): the name of the component which forces remote control.
 #    Example: "DevTools", "Marionette", "RemoteAgent".
 urlbar-remote-control-notification-anchor2 =
-  .tooltiptext = ブラウザーはリモートからコントロールされています (制御元: { $component })
+  .tooltiptext = ブラウザーはリモートから制御されています (制御元: { $component })
 urlbar-permissions-granted =
   .tooltiptext = このウェブサイトに追加の権限を許可しました。
 urlbar-switch-to-tab =
@@ -569,7 +573,7 @@ urlbar-extension =
 urlbar-go-button =
   .tooltiptext = ロケーションバーのアドレスに移動します
 urlbar-page-action-button =
-  .tooltiptext = ページ アクション
+  .tooltiptext = ページアクション
 urlbar-revert-button =
   .tooltiptext = ロケーションバーにアドレスを表示します
 
@@ -581,7 +585,7 @@ urlbar-revert-button =
 # "Search", and we would like to avoid strings like "Search MSN Search".
 # Variables
 #  $engine (String): the name of a search engine
-urlbar-result-action-search-in-private-w-engine = プライベート ウィンドウの { $engine } で検索
+urlbar-result-action-search-in-private-w-engine = プライベート ウィンドウで { $engine } を使用して検索
 # Used when the private browsing engine is the same as the default engine.
 urlbar-result-action-search-in-private = プライベート ウィンドウで検索
 # The "with" format was chosen because the search engine name can end with
@@ -589,14 +593,14 @@ urlbar-result-action-search-in-private = プライベート ウィンドウで�
 # Variables
 #  $engine (String): the name of a search engine
 urlbar-result-action-search-w-engine = { $engine } で検索
-urlbar-result-action-sponsored = スポンサー記事
+urlbar-result-action-sponsored = スポンサー
 urlbar-result-action-switch-tab = タブを切り替える
 urlbar-result-action-visit = 訪問
 # "Switch to tab with container" is used when the target tab is located in a
 # different container.
 # Variables
 # $container (String): the name of the target container
-urlbar-result-action-switch-tab-with-container = <span>{ $container }</span> タブに切り替える
+urlbar-result-action-switch-tab-with-container = タブに切り替え · <span>{ $container }</span>
 # Used when the target tab is in a tab group that doesn't have a label.
 urlbar-result-action-tab-group-unnamed = 名前のないグループ
 # Allows the user to visit a URL that was previously copied to the clipboard.
@@ -668,19 +672,19 @@ urlbar-result-weather-title-city-only = { $city } の気温は <strong>{ $temper
 # Variables:
 #   $provider (String) - The name of the weather-data provider. It will be the
 #       name of a company, organization, or service.
-urlbar-result-weather-provider-sponsored = 提供元：{ $provider } · スポンサー
+urlbar-result-weather-provider-sponsored = { $provider } · スポンサー
 
 ## These strings are used for Realtime suggestions in the urlbar.
 ## Market refers to stocks, indexes, and funds.
 
 # This string is shown as title when Market suggestion are disabled.
-urlbar-result-market-opt-in-title =検索バーで株価をチェック
+urlbar-result-market-opt-in-title = 検索バーで株価をチェック
 
 # This string is shown as description when Market suggestion are disabled.
-urlbar-result-market-opt-in-description = 検索キーワードのデータを { -vendor-short-name } と共有することで、株価などの最新情報をパートナーから取得できます。<a data-l10n-name="learn-more-link">さらに詳しく</a>
+urlbar-result-market-opt-in-description =  { -vendor-short-name } と検索クエリデータを共有すると、パートナーからの市場最新情報などが表示されます。<a data-l10n-name="learn-more-link">さらに詳しく</a>
 
 # This string is shown as button to activate online when realtime suggestion are disabled.
-urlbar-result-realtime-opt-in-allow = サジェストを有効にする
+urlbar-result-realtime-opt-in-allow = サジェストを表示する
 
 # This string is shown in split button to dismiss activation the Realtime suggestion.
 urlbar-result-realtime-opt-in-not-now = 今はしない
@@ -738,13 +742,13 @@ urlbar-result-dates-ongoing =
 # middot.
 # Variables:
 #   $name (string) - The name of the event.
-urlbar-result-dates-today = { $name } · 今日開催
+urlbar-result-dates-today = { $name } · 本日
 
 # The name of multiple day long event and a note that it is ends today
 # separated by a middot.
 # Variables:
 #   $name (string) - The name of the event.
-urlbar-result-dates-ends-today = { $name } · 今日終了
+urlbar-result-dates-ends-today = { $name } · 本日終了
 
 ## Strings used for buttons in the urlbar
 
@@ -770,7 +774,7 @@ urlbar-searchmode-actions =
 urlbar-searchmode-exit-button =
     .tooltiptext = 閉じる
 urlbar-searchmode-default =
-    .tooltiptext = デフォルトの検索エンジン
+    .tooltiptext = 既定の検索エンジン
 
 # Label shown on the top of Searchmode Switcher popup. After this label, the
 # available search engines will be listed.
@@ -824,11 +828,11 @@ urlbar-group-firefox-suggest =
 # Variables
 #  $engine (String): the name of the search engine providing the suggestions
 urlbar-group-search-suggestions =
-  .label = { $engine } からの提案
+  .label = { $engine } からのサジェスト
 
 # A label shown above Quick Actions in the urlbar results.
 urlbar-group-quickactions =
-  .label = クイックアクション
+  .label = クイック アクション
 
 # A label shown above the recent searches group in the urlbar results.
 # Variables
@@ -851,21 +855,21 @@ urlbar-result-menu-trending-dont-show =
     .label = トレンド検索を表示しない
     .accesskey = D
 urlbar-result-menu-trending-why =
-    .label = なぜ表示されるのですか?
+    .label = これが表示されるのはなぜですか?
     .accesskey = W
 
 # A message that replaces a result when the user dismisses all suggestions of a
 # particular type.
-urlbar-trending-dismissal-acknowledgment = フィードバックありがとうございます。今後はトレンド検索は表示されなくなります。
+urlbar-trending-dismissal-acknowledgment = フィードバックありがとうございます。トレンド検索は今後表示されません。
 
 ## Reader View toolbar buttons
 
 # This should match menu-view-enter-readerview in menubar.ftl
 reader-view-enter-button =
-    .aria-label = リーダービューに切り替え
+    .aria-label = リーダー ビューに切り替え
 # This should match menu-view-close-readerview in menubar.ftl
 reader-view-close-button =
-    .aria-label = リーダービューを閉じる
+    .aria-label = リーダ ービューを閉じる
 
 ## Picture-in-Picture urlbar button
 ## Variables:
@@ -924,8 +928,8 @@ bookmarks-mobile-bookmarks-menu =
 
 bookmarks-tools-sidebar-visibility =
   .label = { $isVisible ->
-     [true] ブックマーク サイドバーを閉じる
-    *[other] ブックマーク サイドバーを表示
+     [true] ブックマークサイドバーを閉じる
+    *[other] ブックマークサイドバーを表示
   }
 bookmarks-tools-toolbar-visibility-menuitem =
   .label = { $isVisible ->
@@ -934,8 +938,8 @@ bookmarks-tools-toolbar-visibility-menuitem =
   }
 bookmarks-tools-toolbar-visibility-panel =
   .label = { $isVisible ->
-     [true] ブックマーク ツールバーを閉じる
-    *[other] ブックマーク ツールバーを表示
+     [true] ブックマークツールバーを閉じる
+    *[other] ブックマークツールバーを表示
   }
 
 ##
@@ -955,15 +959,15 @@ bookmarks-toolbar =
   .accesskey = B
   .aria-label = ブックマーク
 bookmarks-toolbar-menu =
-  .label = ブックマーク ツールバー
+  .label = ブックマークツールバー
 bookmarks-toolbar-placeholder =
-  .title = ブックマーク ツールバーの項目
+  .title = ブックマークツールバーの項目
 bookmarks-toolbar-placeholder-button =
-  .label = ブックマーク ツールバーの項目
+  .label = ブックマークツールバーの項目
 
 # "Bookmark" is a verb, as in "Add current tab to bookmarks".
 bookmarks-subview-bookmark-tab =
-  .label = 現在のタブをブックマーク
+  .label = 現在のタブをブックマーク…
 
 ## Library Panel items
 
@@ -992,12 +996,12 @@ toolbar-overflow-customize-button =
   .accesskey = C
 
 toolbar-button-email-link =
-  .label = メールで送信
+  .label = リンクをメールで送信
   .tooltiptext = このページのリンクをメールで送信します
 
 toolbar-button-logins =
   .label = パスワード
-  .tooltiptext = 保存されたパスワードの管理と表示を行います
+  .tooltiptext = 保存されているパスワードの管理と表示を行います
 
 # Variables:
 #  $shortcut (String): keyboard shortcut to save a copy of the page
@@ -1018,8 +1022,8 @@ toolbar-button-synced-tabs =
 # Variables
 # $shortcut (string) - Keyboard shortcut to open a new private browsing window
 toolbar-button-new-private-window =
-  .label = 新しいプライベート ウィンドウ
-  .tooltiptext = 新しいプライベート ウィンドウを開きます ({ $shortcut })
+  .label = 新しいプライベートウィンドウ
+  .tooltiptext = 新しいプライベートウィンドウを開きます ({ $shortcut })
 
 ## EME notification panel
 
@@ -1049,17 +1053,17 @@ ui-tour-info-panel-close =
 ##  $uriHost (String): URI host for which the popup was allowed or blocked.
 
 popups-infobar-allow2 =
-    .label = { $uriHost } へのポップアップとサードパーティからのリダイレクトを許可する
+    .label = { $uriHost } のポップアップとサードパーティからのリダイレクトを許可する
     .accesskey = p
 
 ##
 
 popups-infobar-dont-show-message2 =
-    .label = ポップアップやサードパーティによるリダイレクトがブロックされた場合は、このメッセージを表示しないようにする
+    .label = ポップアップまたはサードパーティのリダイレクトがブロックされているときにこのメッセージを表示しない
     .accesskey = D
 
 edit-popup-settings2 =
-    .label = ポップアップとサードパーティーによるリダイレクト設定を管理する…
+    .label = ポップアップとサードパーティのリダイレクト設定を管理…
     .accesskey = M
 
 picture-in-picture-hide-toggle =
@@ -1114,14 +1118,14 @@ navbar-search =
 # "toolbar" is appended automatically and should not be included in
 # in the string
 tabs-toolbar =
-    .aria-label = ブラウザータブ
+    .aria-label = ブラウザーのタブ
 
 tabs-toolbar-new-tab =
     .label = 新しいタブ
 
 tabs-toolbar-list-all-tabs =
     .label = すべてのタブの一覧
-    .tooltiptext = タブの一覧を表示します
+    .tooltiptext = すべてのタブの一覧を表示します
 
 ## Drop indicator text for pinned tabs when no tabs are pinned.
 
@@ -1131,11 +1135,11 @@ pinned-tabs-drop-indicator = タブをここにドロップしてピン留め
 
 # <img data-l10n-name="icon"/> will be replaced by the application menu icon
 restore-session-startup-suggestion-message = <strong>前回のタブを開きますか?</strong> { -brand-short-name } アプリケーション メニュー <img data-l10n-name="icon"/> の [履歴] から前回のセッションを復元できます。
-restore-session-startup-suggestion-button = 方法を確認
+restore-session-startup-suggestion-button = 方法を表示
 
 ## Infobar shown when the user tries to open a file picker and file pickers are blocked by enterprise policy
 
-filepicker-blocked-infobar = あなたが所属している組織によって、このコンピューター上のローカル ファイルへのアクセスはブロックされています
+filepicker-blocked-infobar = あなたが所属している組織によって、このコンピューター上のローカルファイルへのアクセスがブロックされています
 
 ## Mozilla data reporting notification (Telemetry, Firefox Health Report, etc)
 
@@ -1197,10 +1201,10 @@ unified-extensions-button-blocklisted =
 ## Private browsing reset button
 
 reset-pbm-toolbar-button =
-    .label = プライベートセッションを終了
-    .tooltiptext = プライベートセッションを終了します
+    .label = プライベート セッションを終了
+    .tooltiptext = プライベート セッションを終了します
 reset-pbm-panel-heading = プライベートセッションを終了しますか?
-reset-pbm-panel-description = すべてのプライベート タブを閉じ、履歴、Cookie、その他すべてのサイト データを削除します。
+reset-pbm-panel-description = すべてのプライベートタブを閉じ、履歴、Cookie、その他すべてのサイト データを削除します。
 reset-pbm-panel-always-ask-checkbox =
      .label = 毎回確認する
      .accesskey = A
@@ -1248,7 +1252,7 @@ popup-notification-addon-privatebrowsing-checkbox2 =
 # This string is similar to `webext-perms-description-data-long-technicalAndInteraction`
 # but it is used in the install prompt, and it needs an access key.
 popup-notification-addon-technical-and-interaction-checkbox =
-    .label = 拡張機能の開発者と技術データやインタラクションデータを共有する
+    .label = 技術データと操作データを拡張機能開発者と共有
     .accesskey = S
 
 ## Pop-up warning
@@ -1257,8 +1261,8 @@ popup-notification-addon-technical-and-interaction-checkbox =
 #   $popupCount (Number): the number of pop-ups blocked.
 popup-warning-message =
     { $popupCount ->
-        [1] { -brand-short-name } により、このサイトはポップアップ ウィンドウを開くことができませんでした。
-       *[other] { -brand-short-name } により、このサイトは { $popupCount } 個のポップアップ ウィンドウを開くことができませんでした。
+        [1] { -brand-short-name } により、このサイトはポップアップウィンドウを開くことができませんでした。
+       *[other] { -brand-short-name } により、このサイトは { $popupCount } 個のポップアップウィンドウを開くことができませんでした。
     }
 
 # Variables:
@@ -1309,15 +1313,15 @@ popup-trigger-redirect-menuitem =
 
 ## File-picker crash notification ("FilePickerCrashed.sys.mjs")
 
-file-picker-failed-open = Windows のファイル ダイアログを開けませんでした。ファイルまたはフォルダーを選択できませんでした。
+file-picker-failed-open = Windows のファイルダイアログを開けませんでした。ファイルまたはフォルダーを選択できませんでした。
 #   $path (string): The full path to which the file will be saved (e.g., 'C:\Users\Default User\Downloads\readme.txt').
-file-picker-failed-save-somewhere = Windows のファイル ダイアログを開けませんでした。ファイルは { $path } に保存されます。
-file-picker-failed-save-nowhere = Windows のファイル ダイアログを開けませんでした。既定のフォルダーが見つからないため、ファイルは保存されません。
+file-picker-failed-save-somewhere = Windows のファイルダイアログを開けませんでした。ファイルは { $path } に保存されます。
+file-picker-failed-save-nowhere = Windows のファイルダイアログを開けませんでした。既定のフォルダーが見つからないため、ファイルは保存されません。
 
-file-picker-crashed-open = Windows のファイル ダイアログがクラッシュしました。ファイルまたはフォルダーを選択できませんでした。
+file-picker-crashed-open = Windows のファイルダイアログがクラッシュしました。ファイルまたはフォルダーを選択できませんでした。
 #   $path (string): The full path to which the file will be saved (e.g., 'C:\Users\Default User\Downloads\readme.txt').
-file-picker-crashed-save-somewhere = Windows のファイル ダイアログがクラッシュしました。ファイルは { $path } に保存されます。
-file-picker-crashed-save-nowhere = Windows のファイル ダイアログがクラッシュしました。既定のフォルダーが見つからないため、ファイルは保存されません。
+file-picker-crashed-save-somewhere = Windows のファイルダイアログがクラッシュしました。ファイルは { $path } に保存されます。
+file-picker-crashed-save-nowhere = Windows のファイルダイアログがクラッシュしました。既定のフォルダーが見つからないため、ファイルは保存されません。
 
 # Button used with file-picker-crashed-save-default. Opens the folder in Windows
 # Explorer, with the saved file selected and in focus.
@@ -1350,20 +1354,20 @@ trustpanel-etp-label-disabled = 強化型トラッキング防止はオフです
 # Variables
 #  $host (String): the hostname of the site that is being displayed.
 trustpanel-etp-toggle-on =
-  .aria-label = 強化型トラッキング防止: { $host } で有効
+  .aria-label = 強化型トラッキング防止: { $host } でオン
 # Variables
 #  $host (String): the hostname of the site that is being displayed.
 trustpanel-etp-toggle-off =
-  .aria-label = 強化型トラッキング防止: { $host } で無効
+  .aria-label = 強化型トラッキング防止: { $host } でオフ
 
 trustpanel-etp-description-enabled = このサイトで表示が崩れている場合は、保護をオフにしてみてください。
-trustpanel-etp-description-disabled = { -brand-product-name } は、企業によるあなたの追跡を減らすべきだと考えています。保護をオンにすると、可能な限り多くのトラッカーをブロックします。
+trustpanel-etp-description-disabled = { -brand-product-name } は、企業がユーザーを追跡すべきではないと考えています。保護をオンにすると、可能な限り多くのトラッカーをブロックします。
 
 trustpanel-connection-label-secure = 安全な接続
 trustpanel-connection-label-insecure = 安全ではない接続
 
-trustpanel-header-enabled = { -brand-product-name } が保護中です
-trustpanel-description-enabled2 = 保護されています。問題を検出した場合はお知らせします。
+trustpanel-header-enabled = { -brand-product-name } が監視しています
+trustpanel-description-enabled2 = 保護されています。何か問題を発見した場合はお知らせします。
 trustpanel-header-enabled-insecure = このサイトには注意が必要です
 trustpanel-description-enabled-insecure = { -brand-product-name } が不審な点を検出しました。
 
