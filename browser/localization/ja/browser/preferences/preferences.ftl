@@ -177,13 +177,46 @@ preferences-data-migration-button =
     .label = データをインポート
     .accesskey = m
 
-preferences-profiles-header = プロファイル
-preferences-manage-profiles-description = 各プロファイルには、履歴、パスワードなどを含む個別のブラウザーデータと設定を持っています。
-preferences-manage-profiles-learn-more = さらに詳しく
+preferences-profiles-group-header =
+    .heading = プロファイル
+preferences-profiles-subpane-description =
+    .description = 各プロファイルには、履歴、パスワードなどを含む個別のブラウジングデータと設定があります。
+preferences-profiles-section-header =
+    .label = プロファイル
+    .description = 各プロファイルには、履歴、パスワードなどを含む個別のブラウジングデータと設定があります。
 preferences-manage-profiles-button =
   .label = プロファイルを管理
+preferences-profiles-settings-button =
+  .label = 設定
+# This string labels the entire copy profile section in the profiles sub-pane.
+preferences-copy-profile-header =
+    .label = 既存のプロファイルをコピー
+    .description = 新しいプロファイルは、設定、アドオン、履歴、ブックマークやパスワードといった保存済みのデータはコピーしますが、アカウントや同期の情報はコピーしません。
+# This string sits next to the copy controls, both the copy-profile-select
+# drop-down and the copy-profile-button, so that the user understands they
+# need to first pick a profile to copy, and then click the copy button.
+preferences-profile-to-copy =
+  .label = コピーするプロファイル
+# This string is a placeholder that will be shown in a drop-down list of
+# profiles. The user will select a profile, then click the copy button
+# to make a copy of that profile.
+preferences-copy-profile-select = プロファイルを選択
+preferences-copy-profile-button = コピー
 
-tabs-group-header = タブ
+tabs-group-header2 =
+  .label = タブ
+
+tabs-opening-heading =
+  .label = 開く
+
+tabs-interaction-heading =
+  .label = 操作
+
+tabs-containers-heading =
+  .label = コンテナー
+
+tabs-closing-heading =
+  .label = 閉じる
 
 ctrl-tab-recently-used-order =
     .label = Ctrl+Tab で最近使用した順にタブを切り替える

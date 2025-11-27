@@ -24,7 +24,7 @@ ipprotection-experiment-badge =
   .label = ベータ
 
 ipprotection-help-button =
-  .title = { -firefox-vpn-brand-name } のサポートページを開く
+  .tooltiptext = { -firefox-vpn-brand-name } のサポートページを開きます
 
 ipprotection-title = { -firefox-vpn-brand-name }
 
@@ -69,13 +69,13 @@ ipprotection-site-settings-control =
 #   $sitename (String) - The name of the site that we're currently on (eg. example.com)
 ipprotection-site-settings-button-vpn-off =
   .label = { $sitename }
-  .label = VPN はオフです
+  .description = VPN はオフです
 
 # Variables:
 #   $sitename (String) - The name of the site that we're currently on (eg. example.com)
 ipprotection-site-settings-button-vpn-on =
   .label = { $sitename }
-  .label = VPN はオンです
+  .description = VPN はオンです
 
 # When VPN is toggled on
 ipprotection-toggle-active =

@@ -254,13 +254,8 @@ newtab-custom-stories-personalized-checkbox-label = あなたのアクティビ�
 newtab-custom-weather-toggle =
   .label = 天気
   .description = 今日の天気予報をひと目で確認できます
-newtab-custom-trending-search-toggle =
-  .label = トレンド検索
-  .description = 人気があり頻繁に検索されるトピック
 newtab-custom-widget-weather-toggle =
   .label = 天気
-newtab-custom-widget-trending-search-toggle =
-  .label = トレンド検索
 newtab-custom-widget-lists-toggle =
   .label = リスト
 newtab-custom-widget-timer-toggle =
@@ -547,17 +542,6 @@ newtab-report-cancel = キャンセル
 newtab-report-submit = 送信
 newtab-toast-thanks-for-reporting =
     .message = ご報告ありがとうございました。
-
-## Strings for trending searches
-
-# "Trending searches refers to popular searches from search engines
-newtab-trending-searches-title = トレンド検索
-newtab-trending-searches-show-trending =
-    .title = トレンド検索を表示
-newtab-trending-searches-hide-trending =
-    .title = トレンド検索を非表示
-newtab-trending-searches-learn-more = さらに詳しく
-newtab-trending-searches-dismiss = トレンド検索を閉じる
 
 ## Strings for task / to-do list productivity widget
 

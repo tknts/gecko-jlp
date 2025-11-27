@@ -19,13 +19,13 @@ report-broken-site-panel-reason-load =
   .label = サイトが読み込まれない
 # These terms are referring to ecommerce websites
 report-broken-site-panel-reason-checkout =
-  .label = 支払い、チェックアウト、ショッピングができません
+  .label = 支払いや購入など、買い物ができません
 report-broken-site-panel-reason-slow2 =
   .label = サイトの動作が遅いです
 report-broken-site-panel-reason-media2 =
   .label = 動画が再生または読み込まれません
 report-broken-site-panel-reason-content2 =
-  .label = コンテンツがありません
+  .label = コンテンツが表示さらません
 report-broken-site-panel-reason-account2 =
   .label = ログインまたは登録できません
 report-broken-site-panel-reason-adblocker2 =
@@ -38,9 +38,9 @@ report-broken-site-panel-reason-other =
 report-broken-site-panel-description-label = 問題を説明してください
 
 report-broken-site-panel-description =
-  .placeholder = .placeholder = 何が起きましたか? 本来はどうなるべきでしたか？トラッキング保護をオフにすると改善しましたか?
+  .placeholder = 何が起きましたか? 本来はどうなるべきでしたか? トラッキング保護をオフにすると改善しましたか?
 
-report-broken-site-panel-description-optional-label = 問題の内容を記入 (任意)
+report-broken-site-panel-description-optional-label = 問題の内容を教えて下さい (任意)
 
 report-broken-site-panel-send-more-info-link = 追加情報を送信
 
@@ -59,9 +59,15 @@ report-broken-site-panel-report-sent-header =
   .title = レポートが送信されました
 report-broken-site-panel-report-sent-text = { -brand-product-name } がウェブをよりオープンでアクセスしやすく、すべての人にとってより良いものになるために、ご協力いただきありがとうございます。
 
-report-broken-site-panel-invalid-url-label = 有効なURLを入力してください
+report-broken-site-panel-invalid-url-label = 有効な URL を入力してください
 report-broken-site-panel-missing-reason-label = 理由を選択してください
 
 report-broken-site-panel-blocked-trackers-label =
-  .label = トラッキング保護でブロックされたURLを送信
-report-broken-site-panel-blocked-trackers-description = 強化型トラッキング保護 (ETP) は、一部のウェブサイトの正常な動作に必要なトラッカーやスクリプトをブロックする場合があります。
+  .label = トラッキング保護機能がブロックした URL を送信
+report-broken-site-panel-blocked-trackers-description = 強化型トラッキング保護機能 (ETP) は、一部のウェブサイトが正常に動作するのに必要なトラッカーやスクリプトをブロックする場合があります。
+
+report-broken-site-panel-preview-button =
+  .label = レポートをプレビュー
+report-broken-site-panel-preview-header =
+  .label = レポートのプレビュー
+report-broken-site-panel-button-copy = コピー
