@@ -189,12 +189,17 @@ certerror-coep-learn-more = Cross-Origin-Embedder-Policy (COEP) について詳�
 neterror-response-status-code = エラーコード: { $responsestatus } { $responsestatustext }
 
 ## Felt Privacy V1 Strings
+
+fp-neterror-offline-body-title = インターネットの接続に問題があるようです
+
 ## Variables:
 ##   $hostname (String) - Hostname of the website to which the user was trying to connect.
 
 fp-neterror-connection-intro = { -brand-short-name } は { $hostname } のサーバーに安全に接続できません。
+fp-neterror-offline-intro = { -brand-short-name } は { $hostname } のサーバーに接続できません
 
-# This string appears after the following string: "What makes the site look dangerous?" (fp-neterror-why-site-dangerous)
-fp-neterror-cypher-overlap-why-dangerous-body = このサイトは、既知のセキュリティー問題を持つ古いソフトウェアを使用しているようです。
-# This string appears after the following string: "What can you do about it?" (fp-neterror-what-can-you-do)
-fp-neterror-cypher-overlap-what-can-you-do-body = { -brand-short-name } が最新バージョンであることを確認してください。メニューの [ヘルプ] > [{ -brand-short-name } について] を開いてください。最新の { -brand-short-name } を使用している場合、問題はおそらくサイト自体にあります。
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+fp-neterror-cypher-overlap-why-dangerous-body = このサイトは、既知のセキュリティ問題がある古いソフトウェアを使用しているようです。
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+fp-neterror-cypher-overlap-what-can-you-do-body = { -brand-short-name } の最新バージョンを使用していることを確認してください。メニューの [ヘルプ] > [{ -brand-short-name } について] を選択してください。最新の { -brand-short-name } を使用している場合、問題はサイト自体にある可能性が最も高いです。
+fp-neterror-offline-what-can-you-do-body = 別のデバイスで接続を試みてください。モデムまたはルーターを確認してください。Wi-Fi から切断し、再接続してください。

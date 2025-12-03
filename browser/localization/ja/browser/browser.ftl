@@ -761,6 +761,12 @@ urlbar-searchmode-button2 =
 urlbar-searchmode-button-no-engine =
     .label = ショートカットが選択されていません。ショートカットを選択してください
     .tooltiptext =ショートカットが選択されていません。ショートカットを選択してください
+
+# Refers to the ability to search using keywords in the address bar
+urlbar-searchmode-no-keyword =
+    .label = キーワード検索は無効です
+    .tooltiptext = キーワード検索は無効になっています
+
 urlbar-searchmode-dropmarker =
     .tooltiptext = 検索エンジンを選ぶ
 urlbar-searchmode-bookmarks =
@@ -1204,7 +1210,7 @@ reset-pbm-toolbar-button =
     .label = プライベート セッションを終了
     .tooltiptext = プライベート セッションを終了します
 reset-pbm-panel-heading = プライベートセッションを終了しますか?
-reset-pbm-panel-description = すべてのプライベートタブを閉じ、履歴、Cookie、その他すべてのサイト データを削除します。
+reset-pbm-panel-description = すべてのプライベートタブを閉じ、履歴、Cookie、その他すべてのサイトデータを削除します。
 reset-pbm-panel-always-ask-checkbox =
      .label = 毎回確認する
      .accesskey = A
@@ -1420,7 +1426,7 @@ trustpanel-list-label-tracking-cookies = { $count ->
   *[other] クロスサイトトラッキング Cookie { $count } 件
 }
 trustpanel-list-label-tracking-content = トラッキングコンテンツ
-trustpanel-list-label-fingerprinter = { $count ->
+trustpanel-list-label-fingerprinter =  { $count ->
   [one] フィンガープリンター { $count } 件
   *[other] フィンガープリンター { $count } 件
 }

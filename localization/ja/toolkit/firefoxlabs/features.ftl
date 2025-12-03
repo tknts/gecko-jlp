@@ -11,17 +11,12 @@ experimental-features-media-jxl-description = この機能を有効にすると�
 # JS JIT Warp project
 experimental-features-js-warp =
     .label = JavaScript JIT: Warp
-experimental-features-js-warp-description = Warp を有効にすると、JavaScript のパフォーマンスとメモリ使用効率が向上します。
+experimental-features-js-warp-description = JavaScript のパフォーマンスとメモリ使用量を改善するためのプロジェクトである Warp を有効にします。
 
 # Search during IME
 experimental-features-ime-search =
-    .label = アドレスバー: IME入力中の検索結果表示
-experimental-features-ime-search-description = IME (入力方式エディター) は、東アジア言語やインド系言語のような複雑な文字を標準キーボードで入力できるツールです。この機能を有効にすると、IME で文字入力中もアドレスバーの検索結果や候補が表示されます。ただし、一部の IME は独自のパネルを表示し、アドレスバーの結果を覆い隠すことがあるため、そのような IME には推奨されません。
-
-# Auto Picture-in-Picture
-experimental-features-auto-pip =
-    .label = ピクチャーインピクチャー: タブ切り替え時の自動表示
-experimental-features-auto-pip-description = アクティブな動画をピクチャーインピクチャー (PiP) モードで自動的に開くようにします。タブを切り替えた際に動画が PiP で表示されます。
+    .label = アドレスバー: IME 変換中に結果を表示する
+experimental-features-ime-search-description = IME (Input Method Editor) は、標準的なキーボードを使用して東アジアやインドの書き言葉で使用されるような複雑な記号を入力できるようにするツールです。この実験を有効にすると、IME を使用してテキストを入力している間、アドレスバーパネルを開いたままにして、検索結果と候補を表示します。IME はアドレスバーの結果を覆い隠すパネルを表示する可能性があるため、この設定は、この種のパネルを使用しない IME にのみ推奨されます。
 
 experimental-features-group-developer-tools =
   .label = 開発ツール

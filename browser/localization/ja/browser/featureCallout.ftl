@@ -57,6 +57,9 @@ fx-view-discoverability-secondary-button-label = 表示しない
 sidebar-button-callout-title = サイドバーにタブのタイトルを表示する
 sidebar-button-callout-subtitle = サイドバーボタンを使用してサイドバーを展開し、タブのタイトルを表示します。
 sidebar-button-callout-vertical-tabs = タブを表示するには、ツールバーのサイドバーボタンをクリックします。
+sidebar-deprecation-callout-title = 新しいサイドバーはまもなく登場します
+sidebar-deprecation-callout-subtitle = 現在ご利用中のサイドバーは廃止予定です。更新されたサイドバーをお試しください。より高速になり、さらに多くのツールにアクセスできるようになります。
+sidebar-deprecation-cta-button = 今すぐ試す
 
 ## Sidebar Vertical Tabs Strings
 

@@ -208,3 +208,50 @@ preferences-doh-custom-provider-label =
 
 preferences-doh-header2 =
   .heading = DNS over HTTPS
+
+## ETP status section
+
+preferences-etp-status-header =
+    .label = 強化型トラッキング防止機能
+    .description = 一部のサイトは、オンラインでの行動を把握するためにトラッカーを使用します。{ -brand-short-name } は、ブラウジング中のプライバシーを保護するために、その多くを自動的にブロックします。
+
+preferences-etp-level-standard =
+    .label = 標準 (既定)
+    .description = 既知のトラッカーと Cookie をブロックし、ほとんどのウェブサイトの機能を損なうことなくプライバシー保護に役立ちます。
+
+preferences-etp-level-strict =
+    .label = 厳格
+    .description = より強力な保護を提供しますが、一部のサイトやコンテンツが壊れる可能性があります。
+
+preferences-etp-level-custom =
+    .label = カスタム
+    .description = ブロックするトラッカーとスクリプトを選択します。
+
+preferences-etp-status-advanced-button =
+    .label = 詳細設定
+
+preferences-etp-status-protections-dashboard-link =
+        .label = パーソナライズされたプロテクション ダッシュボードを表示
+        .description = ソーシャルメディアトラッカー、フィンガープリント採取、不正な暗号通貨採掘など、{ -brand-short-name } がブロックした追跡要素の数を確認できます。
+
+preferences-etp-header =
+    .heading = 強化型トラッキング防止機能
+    .description = Aut voluptates deleniti ut. Aut et praesentium voluptas dolore nostrum occaecati.
+
+preferences-etp-advanced-settings-group =
+    .label = 詳細設定
+    .description = トラッカーはオンラインであなたを追跡し、ブラウジングの習慣や興味に関する情報を収集します。{ -brand-short-name } は、これらのトラッカーやその他の悪意のあるスクリプトの多くをブロックします。
+
+preferences-etp-customize-button =
+    .label = カスタマイズ
+
+preferences-etp-rfp-warning-message =
+    .message = あなたは耐フィンガープリント採取 (RFP) を使用しています。これは、{ -brand-short-name } のフィンガープリント採取防止設定の一部を置き換えます。これにより、一部のサイトが壊れる可能性があります。
+
+preferences-etp-level-warning-message =
+    .heading = ご注意
+    .message = この設定では、一部のウェブサイトでコンテンツが表示されない、または正しく動作しない可能性があります。サイトが壊れているように見える場合は、すべてのコンテンツを読み込むために、そのサイトのトラッキング防止をオフにすることをお勧めします。
+
+preferences-etp-manage-exceptions-button =
+    .label = 例外を管理
+    .description = 強化型トラッキング防止機能を無効にしているウェブサイトを管理します。

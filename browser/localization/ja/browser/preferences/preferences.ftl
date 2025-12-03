@@ -171,8 +171,9 @@ windows-launch-on-login-disabled = この設定は Windows では無効になっ
 disable-extension =
     .label = 拡張機能を無効にする
 
-preferences-data-migration-header = ブラウザーのデータをインポート
-preferences-data-migration-description = ブックマーク、パスワード、履歴、自動入力データを { -brand-short-name } にインポートします。
+preferences-data-migration-group =
+    .label = ブラウザーのデータをインポート
+    .description = 他のブラウザーからブックマーク、パスワード、履歴、拡張機能、自動入力データを引き継ぎます。
 preferences-data-migration-button =
     .label = データをインポート
     .accesskey = m
@@ -669,6 +670,10 @@ browsing-search-on-start-typing =
 browsing-picture-in-picture-toggle-enabled =
     .label = ピクチャー・イン・ピクチャー動画の操作を有効にする
     .accesskey = E
+
+browsing-picture-in-picture-enable-when-switching-tabs =
+    .label = タブを切り替えてもピクチャー・イン・ピクチャーで動画の再生を継続する
+    .accesskey = s
 
 browsing-media-control =
     .label = キーボード、ヘッドセット、または VR デバイスを使用してメディアを制御する
@@ -1301,24 +1306,26 @@ history-header = 履歴
 #   - Simply as "Firefox", moving the verb into each option.
 #     This will result in "Firefox" + "Will remember history", etc.
 #   - As a stand-alone message, for example "Firefox history settings:".
-history-remember-label = { -brand-short-name } に
-    .accesskey = w
+history-remember-label2 = { -brand-short-name } に
 
 history-remember-option-all =
     .label = 履歴を記録する
 history-remember-option-never =
     .label = 履歴を記録しない
 history-remember-option-custom =
-    .label = カスタマイズされた履歴設定を使用する
+    .label = 履歴のカスタム設定を使用する
 
-history-remember-description2 =
-    .description ={ -brand-short-name } は、閲覧、ダウンロード、フォーム、検索の履歴を記憶します。
+history-remember-description3 =
+    .aria-label = { history-remember-label2 }
+    .description = { -brand-short-name } が閲覧、ダウンロード、フォーム、検索の履歴を記憶します。
 
-history-dontremember-description2 =
-    .description = { -brand-short-name } は、プライベートブラウジングと同じ設定を使用し、ウェブを閲覧する際に履歴を一切記憶しません。
+history-dontremember-description3 =
+    .aria-label = { history-remember-label2 }
+    .description = { -brand-short-name } はプライベートブラウジングと同じ設定を使用し、ウェブサイトの閲覧履歴を一切記憶しません。
 
-history-custom-description =
-    .description = { -brand-short-name } は、閲覧、ダウンロード、フォーム、検索の履歴に対して独自のカスタム設定を使用します。
+history-custom-description3 =
+    .aria-label = { history-remember-label2 }
+    .description = { -brand-short-name } が閲覧、ダウンロード、フォーム、検索の履歴について詳細設定を使用します。
 
 history-private-browsing-permanent =
     .label = 常にプライベートブラウジングモードを使用する

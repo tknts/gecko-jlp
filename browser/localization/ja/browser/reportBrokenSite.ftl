@@ -70,4 +70,3 @@ report-broken-site-panel-preview-button =
   .label = レポートをプレビュー
 report-broken-site-panel-preview-header =
   .label = レポートのプレビュー
-report-broken-site-panel-button-copy = コピー
