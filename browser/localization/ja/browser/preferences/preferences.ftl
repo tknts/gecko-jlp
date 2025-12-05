@@ -1047,6 +1047,12 @@ prefs-syncing-button =
 
 sync-syncing-across-devices-heading = 接続されているすべてのデバイスで、以下の項目を同期しています:
 
+sync-syncing-across-devices-heading-2 = デバイス間で同期されたデータ
+
+sync-syncing-across-devices-empty-state =
+    .label = まだ何も同期されていません…
+    .description = 同期を開始して、すべてのデバイスであなたの全データを利用できるようにしましょう。
+
 sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 表示履歴
 sync-currently-syncing-tabs = 開いているタブ

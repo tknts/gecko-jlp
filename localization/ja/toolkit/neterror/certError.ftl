@@ -183,6 +183,13 @@ fp-certerror-return-to-previous-page-recommended-button = 戻る (推奨)
 # This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
 # Variables:
 #   $hostname (String) - Hostname of the website to which the user was trying to connect.
+fp-certerror-revoked-why-dangerous-body = { -brand-short-name } がこのサイトについて警告しているのは、{ $hostname } 向けに提供された証明書が失効しており、もう信用できないためです。
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+fp-certerror-revoked-what-can-you-do-body = 問題はサイト自体にある可能性が高いため、あなたができることはおそらく何もありません。ウェブサイトの所有者に連絡して、問題に取り組んでいるかどうかを確認することができます。
+
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
 #   $validHosts (String) - Valid hostnames.
 fp-certerror-bad-domain-why-dangerous-body = このサイトは安全な接続のみを許可するように設定されていますが、サイトの証明書に問題があります。悪意のある人がサイトになりすましている可能性があります。サイトは、証明書機関によって発行された証明書を使って自分自身が本物であることを証明します。しかし、この証明書は { $hostname } 用には有効ではないため、{ -brand-short-name } はこのサイトを信頼できません。この証明書が有効なのは次のホスト名のみです: { $validHosts }。
 # This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)

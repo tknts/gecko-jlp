@@ -85,6 +85,8 @@ inactive-css-ruby-element = <strong>{ $property }</strong> は ruby 要素であ
 
 inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> はハイライト擬似要素ではサポートされていません。
 
+inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> は、ハイライト擬似要素ではサポートされていません。
+
 inactive-css-cue-pseudo-element-not-supported = <strong>{ $property }</strong> は ::cue 擬似要素ではサポートされていません。
 
 # Variables:
@@ -115,6 +117,8 @@ inactive-css-not-grid-or-flex-container-or-multicol-container-fix = <strong>disp
 inactive-css-not-multicol-container-fix = <strong>column-count</strong> または <strong>column-width</strong> のいずれかを追加してみてください。{ learn-more }
 
 inactive-css-column-span-fix = 祖先要素のいずれかに <strong>column-count</strong> または <strong>column-width</strong> を追加してみてください。{ learn-more }
+
+inactive-css-not-grid-or-flex-or-absolutely-positioned-item-fix = 要素に <strong>position:absolute</strong> を追加するか、要素の親に <strong>display:grid</strong>、<strong>display:flex</strong>、<strong>display:inline-grid</strong>、または <strong>display:inline-flex</strong> を試してみてください。{ learn-more }
 
 inactive-css-not-grid-or-flex-item-fix-3 = 要素の親要素に <strong>display:grid</strong>、<strong>display:flex</strong>、<strong>display:inline-grid</strong>、または <strong>display:inline-flex</strong> を追加してみてください。 { learn-more }
 

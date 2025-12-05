@@ -181,6 +181,10 @@ urlbar-star-edit-bookmark =
 urlbar-star-add-bookmark =
     .tooltiptext = このページをブックマークします ({ $shortcut })
 
+urlbar-split-view-button =
+    .tooltiptext = 分割ビューで表示します
+    .aria-label = 分割ビュー
+
 ## Page Action Context Menu
 
 page-action-manage-extension2 =
