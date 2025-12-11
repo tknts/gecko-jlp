@@ -25,6 +25,10 @@ inactive-css-column-span = <strong>{ $property }</strong> は複数段組みコ�
 
 inactive-css-not-grid-or-flex-item = <strong>{ $property }</strong> は grid アイテムまたは flex アイテムではないため、この要素には効果がありません。
 
+inactive-css-not-grid-or-flex-or-absolutely-positioned-item = この要素は grid アイテムでも flex アイテムでも、絶対配置された要素でもないので、<strong>{ $property }</strong> は効果がありません.
+
+inactive-css-not-grid-or-absolutely-positioned-item = この要素は grid アイテムでも絶対配置された要素でもないので、<strong>{ $property }</strong> は効果がありません.
+
 inactive-css-not-grid-item = <strong>{ $property }</strong> は grid アイテムではないため、この要素には効果がありません。
 
 inactive-css-not-grid-container = <strong>{ $property }</strong> は grid コンテナではないため、この要素には効果がありません。
@@ -83,11 +87,11 @@ inactive-css-resize = <strong>{ $property }</strong> は、overflow の値が vi
 
 inactive-css-ruby-element = <strong>{ $property }</strong> は ruby 要素であるため、この要素には効果がありません。サイズはルビのフォントサイズによって決まります。
 
-inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> はハイライト擬似要素ではサポートされていません。
-
 inactive-css-highlight-pseudo-elements-not-supported = <strong>{ $property }</strong> は、ハイライト擬似要素ではサポートされていません。
 
 inactive-css-cue-pseudo-element-not-supported = <strong>{ $property }</strong> は ::cue 擬似要素ではサポートされていません。
+
+inactive-css-at-position-try-not-supported = <strong>{ $property }</strong> は <strong>@position-try</strong> ルールでサポートされていません。
 
 # Variables:
 #   $lineCount (integer) - The number of lines the element has.
@@ -119,6 +123,8 @@ inactive-css-not-multicol-container-fix = <strong>column-count</strong> また�
 inactive-css-column-span-fix = 祖先要素のいずれかに <strong>column-count</strong> または <strong>column-width</strong> を追加してみてください。{ learn-more }
 
 inactive-css-not-grid-or-flex-or-absolutely-positioned-item-fix = 要素に <strong>position:absolute</strong> を追加するか、要素の親に <strong>display:grid</strong>、<strong>display:flex</strong>、<strong>display:inline-grid</strong>、または <strong>display:inline-flex</strong> を試してみてください。{ learn-more }
+
+inactive-css-not-grid-or-absolutely-positioned-item-fix = 要素に <strong>position:absolute</strong> を追加するか、親要素に <strong>display:grid</strong> または <strong>display:inline-grid</strong> を追加してみてください。 { learn-more }
 
 inactive-css-not-grid-or-flex-item-fix-3 = 要素の親要素に <strong>display:grid</strong>、<strong>display:flex</strong>、<strong>display:inline-grid</strong>、または <strong>display:inline-flex</strong> を追加してみてください。 { learn-more }
 

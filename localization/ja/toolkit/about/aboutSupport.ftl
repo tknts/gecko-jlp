@@ -131,6 +131,10 @@ place-database-stats-efficiency-perc = Efficiency (%)
 place-database-stats-sequentiality-perc = Sequentiality (%)
 place-database-integrity = 完全性
 place-database-verify-integrity = 完全性を検証
+place-database-last-idle-maintenance-data = 最終アイドル メンテナンス日
+# Vacuum refers to a type of database maintenance process
+place-database-last-vacuum-date = 最終バキューム日
+place-database-last-integrity-corruption-date = 最終整合性破損日
 a11y-title = アクセシビリティ
 a11y-activated = 有効
 a11y-force-disabled = アクセシビリティの無効化
@@ -188,22 +192,22 @@ media-codec-support-hw-encoding = ハードウェア エンコード
 media-codec-support-codec-name = コーデックの名前
 media-codec-support-supported = 対応
 media-codec-support-unsupported = 非対応
-media-codec-support-error = コーデックのサポート情報が利用できませんでした。メディア ファイルを再生した後に、もう一度試してください。
-media-codec-support-lack-of-extension = Install extension
+media-codec-support-error = コーデックのサポート情報が利用できませんでした。メディアファイルを再生した後に、もう一度試してください。
+media-codec-support-lack-of-extension = 拡張機能をインストール
 
 ## Media Content Decryption Modules (CDM)
 ## See EME Spec for more explanation for following technical terms
 ## https://w3c.github.io/encrypted-media/
 
 media-content-decryption-modules-title = コンテンツ復号化モジュールの情報
-media-key-system-name = Key System Name
-media-video-robustness = Video Robustness
-media-audio-robustness = Audio Robustness
-media-cdm-capabilities = Capabilities
+media-key-system-name = キーシステム名
+media-video-robustness = ビデオの堅牢性
+media-audio-robustness = オーディオの堅牢性
+media-cdm-capabilities = 機能
 # Clear Lead isn't defined in the spec, which means the the first few seconds
 # are not encrypted. It allows playback to start without having to wait for
 # license response, improving video start time and user experience.
-media-cdm-clear-lead = Clear Lead
+media-cdm-clear-lead = クリア リード
 
 ##
 
@@ -213,7 +217,7 @@ intl-locales-requested = 要求されたロケール
 intl-locales-available = 利用可能なロケール
 intl-locales-supported = アプリケーションのロケール
 intl-locales-default = 規定のロケール
-intl-os-title = オペレーティングシステム
+intl-os-title = オペレーティング システム
 intl-os-prefs-system-locales = システムのロケール
 intl-regional-prefs = 地域設定
 
@@ -226,7 +230,7 @@ intl-regional-prefs = 地域設定
 ##
 ## See also https://firefox-source-docs.mozilla.org/remote/
 
-remote-debugging-title = リモートデバッグ (Chromium プロトコル)
+remote-debugging-title = リモート デバッグ (Chromium プロトコル)
 remote-debugging-accepting-connections = 接続の受け入れ
 remote-debugging-url = URL
 
@@ -342,15 +346,15 @@ d3d11layers-crash-guard = D3D11 コンポジター
 glcontext-crash-guard = OpenGL
 wmfvpxvideo-crash-guard = WMF VPX Video Decoder
 
-reset-on-next-restart = 次回起動時にリセット
-gpu-process-kill-button = GPU プロセスを終了
-gpu-device-reset = ハードウェアリセット
-gpu-device-reset-button = ハードウェアリセットを実行
-uses-tiling = タイリングの使用
-content-uses-tiling = タイリングの使用 (コンテンツ)
-off-main-thread-paint-enabled = メインスレッド外ペイント有効
-off-main-thread-paint-worker-count = メインスレッド外ペイントワーカー数
-target-frame-rate = ターゲットのフレームレート
+reset-on-next-restart = 次回再起動時にリセット
+gpu-process-kill-button = GPU プロセスを強制終了
+gpu-device-reset = デバイス リセット
+gpu-device-reset-button = デバイス リセットをトリガー
+uses-tiling = タイリングを使用
+content-uses-tiling = タイリングを使用 (コンテンツ)
+off-main-thread-paint-enabled = メイン スレッド外描画を有効化
+off-main-thread-paint-worker-count = メイン スレッド外描画ワーカー数
+target-frame-rate = 目標フレームレート
 
 min-lib-versions = 想定される最低バージョン
 loaded-lib-versions = 使用中のバージョン

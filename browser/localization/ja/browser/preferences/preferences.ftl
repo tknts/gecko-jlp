@@ -602,6 +602,18 @@ update-in-progress-ok-button = 破棄(&D)
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = 続行(&C)
 
+## Firefox support
+
+support-application-heading =
+    .label = { -brand-short-name } サポート
+    .description = 問題のトラブルシューティングや、コミュニティでのアイデアの共有。
+
+support-get-help =
+    .label = ヘルプを見る
+
+support-share-ideas =
+    .label = アイデアやフィードバックを共有
+
 ## General Section - Performance
 
 performance-title = パフォーマンス
@@ -865,12 +877,22 @@ home-prefs-sections-rows-option =
 
 ## Search Section
 
-search-engine-default-header = 既定の検索エンジン
-search-engine-default-desc-2 = これはアドレスバーと検索バーで使用される既定の検索エンジンです。いつでも切り替えられます。
-search-engine-default-private-desc-2 = プライベート ウィンドウでのみ別の既定の検索エンジンを選択する
-search-separate-default-engine =
-    .label = プライベート ウィンドウでこの検索エンジンを使用する
+search-engine-group =
+    .label = 既定の検索エンジン
+search-default-engine =
+    .aria-label = 既定の検索エンジン
+
+# With this option enabled, while on a SERP, the URL normally displayed in the
+# address bar will be replaced with the search term used to generate that SERP.
+search-show-search-term-option-2 =
+    .label = 検索結果ページでアドレスバーに検索語句を表示する
+
+search-separate-default-engine-2 =
+    .label = プライベートウィンドウで異なる既定の検索エンジンを使用する
     .accesskey = U
+
+search-separate-default-engine-dropdown =
+    .aria-label = プライベートウィンドウの既定の検索エンジン
 
 search-suggestions-header = 検索候補
 search-suggestions-desc = 検索エンジンからの検索候補の表示方法を選択してください。
@@ -882,13 +904,6 @@ search-show-suggestions-option =
 search-show-suggestions-url-bar-option =
     .label = アドレスバーに検索候補を表示する
     .accesskey = l
-
-
-# With this option enabled, on the search results page
-# the URL will be replaced by the search terms in the address bar.
-search-show-search-term-option-2 =
-    .label = 検索結果ページでアドレスバーに検索ワードを表示する
-
 
 # This string describes what the user will observe when the system
 # prioritizes search suggestions over browsing history in the results

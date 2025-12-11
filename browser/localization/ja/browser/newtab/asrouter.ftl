@@ -409,3 +409,20 @@ etp-strict-exceptions-infobar-button = 修正を適用
   .accesskey = A
 etp-strict-exceptions-infobar-not-now = 今は修正しない
   .accesskey = N
+
+## 'Set to default' messaging displayed within the App menu
+
+set-default-menu-message-simple-layout-title = { -brand-short-name } が既定のブラウザーに設定されていません
+set-default-menu-message-simple-layout-title-variant = { -brand-short-name } がメインのブラウザーに設定されていません
+
+set-default-menu-message-row-layout-title = { -brand-short-name } をメインのブラウザーにする
+set-default-menu-message-row-layout-title-variant = { -brand-short-name } を既定のブラウザーにする
+
+set-default-menu-message-row-layout-subtitle = ブラウズするたびに、速度、安全性、プライバシーを手に入れましょう。
+set-default-menu-message-row-layout-subtitle-variant = { PLATFORM() ->
+    [macos] { -brand-short-name } をすぐに使えるようにしましょう — 既定のブラウザーにして Dock に固定してください。
+   *[other] { -brand-short-name } をすぐに使えるようにしましょう — 既定のブラウザーにしてタスクバーに固定してください。
+}
+
+set-default-menu-message-primary-button = 既定に設定
+set-default-menu-message-primary-button-variant = メインのブラウザーに設定

@@ -2,22 +2,22 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-panic-button-open-new-window = V‚µ‚¢ƒNƒŠ[ƒ“‚ÈƒEƒBƒ“ƒhƒE‚ğŠJ‚­
-panic-button-undo-warning = ‚±‚Ì‘€ì‚ÍŒ³‚É–ß‚¹‚Ü‚¹‚ñB
+panic-button-open-new-window = æ–°ã—ã„ã‚¯ãƒªãƒ¼ãƒ³ãªã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚’é–‹ã
+panic-button-undo-warning = ã“ã®æ“ä½œã¯å…ƒã«æˆ»ã›ã¾ã›ã‚“ã€‚
 panic-button-forget-button =
-    .label = –Y‚ê‚é!
+    .label = å¿˜ã‚Œã‚‹!
 
 ## These strings are combined to form a complete sentence starting with
 ## panic-main-timeframe-desc. For example: "Forget the last: Five minutes".
 ## Please ensure that this remains the case in the translation.
 
-panic-main-timeframe-desc = ’¼‹ß‚Ì:
+panic-main-timeframe-desc = ç›´è¿‘ã®:
 panic-button-5min =
-    .label = 5•ªŠÔ
+    .label = 5åˆ†é–“
 panic-button-2hr =
-    .label = 2ŠÔ
+    .label = 2æ™‚é–“
 panic-button-day =
-    .label = 24ŠÔ
+    .label = 24æ™‚é–“
 
 ## These strings are combined to form a complete sentence starting with
 ## panic-button-action-desc. For example: "Proceeding will: Delete Recent Cookies".
@@ -25,7 +25,7 @@ panic-button-day =
 ## Note also that some strings include <strong> tags for emphasis on the
 ## words "Cookies", "History", "Tabs" and "Windows". The translation should do the same.
 
-panic-button-action-desc = Ÿ‚Ì‘€ì‚ğÀs‚µ‚Ü‚·:
-panic-button-delete-cookies = Å‹ß‚Ì <strong>Cookie</strong> ‚ğíœ
-panic-button-delete-history = Å‹ß‚Ì <strong>—š—ğ</strong> ‚ğíœ
-panic-button-delete-tabs-and-windows = ‚·‚×‚Ä‚Ì <strong>ƒ^ƒu</strong> ‚Æ <strong>ƒEƒBƒ“ƒhƒE</strong> ‚ğ•Â‚¶‚é
+panic-button-action-desc = æ¬¡ã®æ“ä½œã‚’å®Ÿè¡Œã—ã¾ã™:
+panic-button-delete-cookies = æœ€è¿‘ã® <strong>Cookie</strong> ã‚’å‰Šé™¤
+panic-button-delete-history = æœ€è¿‘ã® <strong>å±¥æ­´</strong> ã‚’å‰Šé™¤
+panic-button-delete-tabs-and-windows = ã™ã¹ã¦ã® <strong>ã‚¿ãƒ–</strong> ã¨ <strong>ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦</strong> ã‚’é–‰ã˜ã‚‹

@@ -6,3 +6,18 @@
 
 appmenuitem-new-ai-window =
     .label = 新しい AI ウィンドウ
+
+appmenuitem-new-classic-window =
+    .label = 新しいクラシックウィンドウ
+
+menu-file-new-ai-window =
+    .label = 新しい AI ウィンドウ
+
+menu-file-new-classic-window =
+    .label = 新しいクラシックウィンドウ
+
+## Input CTA
+
+aiwindow-input-cta-label-chat = チャット
+aiwindow-input-cta-label-search = 検索
+aiwindow-input-cta-label-navigate = ナビゲート

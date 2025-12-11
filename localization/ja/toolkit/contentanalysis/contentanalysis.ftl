@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-contentanalysis-alert-title = コンテンツの分析
+contentanalysis-alert-title = コンテンツの解析
 
 # Variables:
 #   $content - Description of the content being warned about, such as "clipboard" or "aFile.txt"
-contentanalysis-slow-agent-notification = コンテンツの分析ツールが “{ $content }” の分析結果を報告するのに時間がかかっています
+contentanalysis-slow-agent-notification = コンテンツの解析ツールが “{ $content }” の解析結果を報告するのに時間がかかっています
 contentanalysis-slow-agent-dialog-header = スキャンしています
 
 # Variables:
@@ -48,18 +48,18 @@ contentanalysis-warndialogtext = あなたの所属する組織が使用して�
 contentanalysis-warndialog-response-allow = コンテンツを使用
 contentanalysis-warndialog-response-deny = キャンセル
 
-contentanalysis-notification-title = コンテンツの分析
+contentanalysis-notification-title = コンテンツの解析
 # Variables:
 #   $content - Description of the content being reported, such as "clipboard" or "aFile.txt"
 #   $response - The response received from the content analysis agent, such as "REPORT_ONLY"
-contentanalysis-genericresponse-message = Content Analysis responded with { $response } for resource: { $content }
+contentanalysis-genericresponse-message = コンテンツ解析はリソース { $content } に対して { $response } で応答しました
 # Variables:
 #   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
-contentanalysis-block-message = あなたが所属する組織では、このコンテンツをブロックしたデータ損失防止ソフト使用しています: { $content }。
+contentanalysis-block-message = あなたが所属する組織では、このコンテンツをブロックしたデータ損失防止ソフト使用しています。理由: { $content }
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
-#   $content - Description of the content being blocked, such as "clipboard" or "aFile.txt"
-contentanalysis-unspecified-error-message = { $agent } との通信中にエラーが発生しました。リソース: { $content } の転送が拒否されました。
+#   $content - Localized text describing the content being blocked, such as "Paste denied."
+contentanalysis-unspecified-error-message-content = { $agent } との通信中にエラーが発生しました。理由: { $content }
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
 #   $content - Localized text describing the content being blocked, such as "Paste denied."

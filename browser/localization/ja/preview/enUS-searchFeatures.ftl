@@ -285,6 +285,10 @@ urlbar-result-yelp-realtime-business-hours-closed =
 #   $review_count (integer) - The review count of this.
 urlbar-result-yelp-realtime-popularity = { $rating } ({ $review_count })
 
+# This a11y label is read by screen readers when an item in the row is selected.
+urlbar-result-aria-group-yelp-realtime =
+  .aria-label = { -yelp-brand-name } からの候補
+
 ## These strings are used for flight status suggestions in the urlbar.
 ## The flight status suggestions shows the flight time, origin and destination
 ## and the status like delayed, etc.
@@ -337,6 +341,10 @@ urlbar-result-flight-status-airport = { $city } ({ $code })
 #   $airlineName (string) - The airline name.
 urlbar-result-flight-status-flight-number-with-airline = { $flightNumber }、{ $airlineName }
 
+# This a11y label is read by screen readers when an item in the row is selected.
+urlbar-result-aria-group-flight-status =
+  .aria-label = フライト状況の候補
+
 ## These strings are used for sports suggestions in the urlbar. Sports
 ## suggestions show team names, scores, game times, etc.
 
@@ -364,7 +372,11 @@ urlbar-result-sports-status-final = 試合終了
 
 # This string is shown in the result menu.
 urlbar-result-menu-dont-show-sports =
-  .label = スポーツのサジェストを表示しない
+  .label = 試合の候補を表示しない
 
 # A message that replaces a result when the user dismisses sports suggestions.
-urlbar-result-dismissal-acknowledgment-sports = フィードバックをありがとうございます。スポーツのサジェストは今後表示されません。
+urlbar-result-dismissal-acknowledgment-sports = フィードバックをありがとうございます。試合の候補は今後表示されません。
+
+# This a11y label is read by screen readers when an item in the row is selected.
+urlbar-result-aria-group-sports =
+  .aria-label = 試合の候補

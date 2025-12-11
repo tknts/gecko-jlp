@@ -240,3 +240,13 @@ fp-certerror-transparency-what-can-you-do-body = サイト自体に問題があ�
 fp-learn-more-about-secure-connection-failures = 安全な接続の失敗について、さらに詳しく
 fp-learn-more-about-cert-issues = こうした証明書の問題について、さらに詳しく
 fp-learn-more-about-time-related-errors = 時間関連のエラーのトラブルシューティングについて、さらに詳しく
+
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+# Variables:
+#   $datetime (Date) - Date the cert becomes valid.
+fp-certerror-pkix-not-yet-valid-why-dangerous-body = 提供された証明書は { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") } の { DATETIME($date, timeStyle: "short") } まで有効ではないため、{ -brand-short-name } はこのサイトを信頼しません。
+
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+# Variables:
+#   $date (Date) - Device's clock date.
+fp-certerror-pkix-not-yet-valid-what-can-you-do-body = デバイスの時計は { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") } の { DATETIME($date, timeStyle: "short") } に設定されています。これが正しい場合は、セキュリティ上の問題はおそらくサイト自体にあります。間違っている場合は、デバイスのシステム設定で変更できます。

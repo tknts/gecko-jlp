@@ -6,15 +6,15 @@ customkeys-title = キーボードショートカット
 customkeys-search = 検索:
 customkeys-change = 変更
 customkeys-reset = リセット
-customkeys-clear = 消去
-customkeys-new-key = 新しいキー:
+customkeys-clear = クリア
+customkeys-new-key = 新しいキーを押してください:
 customkeys-reset-all = すべてのショートカットを既定にリセット
 
 # Variables
 # $conflict (string) - The title of the conflicting shortcut.
 customkeys-conflict-confirm = このキーは既に { $conflict } に割り当てられています。置き換えますか?
 
-customkeys-reset-all-confirm = すべてのキーボードショートカットを既定の設定にリセットしてもよろしいですか?
+customkeys-reset-all-confirm = 本当にすべてのキーボードショートカットを既定値にリセットしますか?
 
 customkeys-history-reopen-tab = 最後に閉じたタブを再度開く
 customkeys-history-reopen-window = 最後に閉じたウィンドウを再度開く
@@ -39,4 +39,7 @@ customkeys-nav-reload = 再読み込み
 customkeys-nav-reload-skip-cache = 再読み込み (キャッシュを無視)
 customkeys-nav-stop = 停止
 
-customkeys-caution-message = この機能は試験的なものであり、想定どおりに動作しない可能性があります。
+customkeys-caution-message = この機能は試験的なもので、意図した通りに動作しない可能性があります。
+
+# Displayed in the new key field when the key that was pressed isn't valid.
+customkeys-key-invalid = 無効
