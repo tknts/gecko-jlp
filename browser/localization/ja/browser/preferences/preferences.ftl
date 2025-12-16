@@ -347,9 +347,11 @@ preferences-web-appearance-override-warning3 =
 preferences-web-appearance-link =
     .label =  [拡張機能とテーマ] で { -brand-short-name } のテーマを管理する
 
-preferences-contrast-control-header = コントラストの調整
-
-preferences-contrast-control-description = ウェブサイトにはさまざまな文字の色 (前景色) と背景色があります。読みやすさを向上させるために、ウェブサイト全体で同じ色を使用するように { -brand-short-name } で設定してください。
+preferences-contrast-control-group =
+    .label = ウェブサイトのコントラスト
+    .description = ウェブサイトはさまざまな前景色と背景色を使用しています。一貫したコントラストを実現するために、すべてのウェブサイトで同じ色を使用できます。
+preferences-contrast-control-radio-group =
+    .label = 色を上書き
 
 preferences-contrast-control-use-platform-settings =
     .label = 自動 (システムの設定に従います)
@@ -379,9 +381,11 @@ advanced-fonts =
     .accesskey = A
 
 # Zoom is a noun, and the message is used as header for a group of options
-preferences-zoom-header = 拡大/縮小
+preferences-zoom-header2 =
+  .label = ズーム
 
-preferences-default-zoom = 初期設定
+preferences-default-zoom-label =
+    .label = デフォルトのズーム
     .accesskey = z
 
 # Variables:
@@ -864,7 +868,14 @@ home-prefs-mission-message2 =
     .message = 私たちのスポンサーは、より良いウェブを構築するという私たちの使命をサポートしています。
 
 home-prefs-manage-topics-link = トピックを管理
+
+home-prefs-manage-topics-link2 =
+    .label = トピックを管理
+
 home-prefs-choose-wallpaper-link = 壁紙を選択
+
+home-prefs-choose-wallpaper-link2 =
+    .label = 壁紙を選択
 
 # Variables:
 #   $num (number) - Number of rows displayed
@@ -894,8 +905,8 @@ search-separate-default-engine-2 =
 search-separate-default-engine-dropdown =
     .aria-label = プライベートウィンドウの既定の検索エンジン
 
-search-suggestions-header = 検索候補
-search-suggestions-desc = 検索エンジンからの検索候補の表示方法を選択してください。
+search-suggestions-header-2 =
+    .label = 検索エンジンの候補
 
 search-show-suggestions-option =
     .label = 検索候補を表示する
@@ -908,15 +919,16 @@ search-show-suggestions-url-bar-option =
 # This string describes what the user will observe when the system
 # prioritizes search suggestions over browsing history in the results
 # that extend down from the address bar. In the original English string,
-# "ahead" refers to location (appearing most proximate to), not time
+# "before" refers to location (appearing most proximate to), not time
 # (appearing before).
-search-show-suggestions-above-history-option =
-    .label = アドレスバーの結果に検索候補を優先して表示する
+search-show-suggestions-above-history-option-2 =
+    .label = アドレスバーの結果で閲覧履歴より前に検索候補を表示
 
-search-show-suggestions-private-windows =
-    .label = プライベート ウィンドウで検索候補を表示する
+search-show-suggestions-private-windows-2 =
+    .label = プライベートウィンドウで検索候補を表示
 
-search-suggestions-cant-show = { -brand-short-name } は履歴を保存しない設定になっているため、検索候補はロケーションバーに検索候補は表示されません。
+search-suggestions-cant-show-2 =
+    .message = 履歴を記憶しないように { -brand-short-name } が設定されているため、ロケーションバーの結果に検索候補は表示されません。
 
 search-one-click-header2 = ショートカット検索
 
@@ -980,6 +992,11 @@ containers-settings-button =
 containers-remove-button =
     .label = 削除
 
+## Account and sync
+
+sync-group-label =
+    .label = 同期
+
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
 
@@ -988,6 +1005,10 @@ sync-signedout-description2 = すべてのデバイスでブックマーク、�
 
 sync-signedout-account-signin3 =
     .label = サインインして同期…
+    .accesskey = i
+
+sync-signedout-account-signin-4 =
+    .label = アカウントにサインインして同期を開始
     .accesskey = i
 
 # This message contains two links and two icon images.
@@ -1043,10 +1064,21 @@ sync-sign-in =
 
 prefs-syncing-on = 同期: オン
 
+prefs-syncing-on-2 =
+    .label = 同期がオンです
+
 prefs-syncing-off = 同期: オフ
 
+prefs-syncing-off-2 =
+    .label = 同期がオフです
+    .description = 同期をオンにすると、どのデバイスでもブックマーク、パスワード、履歴などを利用できるようになります.
+
 prefs-sync-turn-on-syncing =
-    .label = 同期をオンにします…
+    .label = 同期をオンにする…
+    .accesskey = s
+
+prefs-sync-turn-on-syncing-2 =
+    .label = 同期をオンにする
     .accesskey = s
 
 prefs-sync-offer-setup-label2 = ブックマーク、履歴、タブ、パスワード、アドオン、設定をすべてのデバイスで同期します。
@@ -1055,8 +1087,16 @@ prefs-sync-now-button =
     .label = 今すぐ同期
     .accesskey = N
 
+prefs-sync-now-button-2 =
+    .label = 今すぐ同期
+    .accesskey = N
+
 prefs-syncing-button =
-    .label = 同期しています…
+    .label = 同期中…
+
+prefs-syncing-button-2 =
+    .label = 同期中…
+    .title = 今すぐ同期
 
 ## The list of things currently syncing.
 
@@ -1079,6 +1119,10 @@ sync-currently-syncing-settings = 設定
 
 sync-manage-options =
     .label = 同期を管理…
+    .accesskey = M
+
+sync-manage-options-2 =
+    .label = 同期データを管理
     .accesskey = M
 
 ## The "Choose what to sync" dialog.
@@ -1131,7 +1175,10 @@ sync-engine-settings =
 
 ## The device name controls.
 
-sync-device-name-header = デバイスの名前
+sync-device-name-header = デバイス名
+
+sync-device-name-header-2 =
+    .label = デバイス名
 
 # Variables:
 #   $placeholder (string) - The placeholder text of the input
@@ -1155,7 +1202,10 @@ sync-device-name-save =
     .label = 保存
     .accesskey = v
 
-sync-connect-another-device = 別のデバイスを接続
+sync-connect-another-device = 他のデバイスを接続
+
+sync-connect-another-device-2 =
+    .label = 他のデバイスを接続
 
 ## Privacy Section
 
@@ -1291,19 +1341,9 @@ autofill-reauth-payment-methods-checkbox-2 =
 autofill-payment-methods-add-button = 新しい支払い方法を追加
 payments-list-header =
   .label = 支払い方法
-payments-list-item-label = <strong>支払い方法</strong>
-payments-remove-payment-prompt-title = この支払い方法を削除しますか?
-payments-remove-payment-prompt-confirm-button = 削除
-payments-remove-payment-prompt-cancel-button = キャンセル
-autofill-addresses-title = 住所など
-autofill-addresses-header =
-    .aria-label = 住所など
-autofill-addresses-checkbox-message =
-    .label = 住所を保存して自動入力する
-    .accesskey = S
-autofill-addresses-manage-addresses-button =
-    .label = 住所などを管理
-    .accesskey = M
+payments-delete-payment-prompt-title = この支払い方法を削除しますか?
+payments-delete-payment-prompt-confirm-button = 削除
+payments-delete-payment-prompt-cancel-button = キャンセル
 
 # These values are displayed for each credit card record listed on the Manage Payment methods
 # settings page.
@@ -1313,6 +1353,36 @@ autofill-addresses-manage-addresses-button =
 payment-moz-box-item =
   .label = { $cardNumber }
   .description = { $expDate }
+
+autofill-addresses-title = 住所など
+autofill-addresses-header =
+    .aria-label = 住所など
+autofill-addresses-checkbox-message =
+    .label = 住所を保存して自動入力
+    .accesskey = S
+autofill-addresses-manage-addresses-button =
+    .label = 住所などを管理
+    .accesskey = M
+addresses-list-header =
+    .label = 住所
+addreses-delete-address-button-label =
+    .aria-label = 削除
+addreses-edit-address-button-label =
+    .aria-label = 編集
+addresses-delete-address-prompt-title = この住所を削除しますか?
+addresses-delete-address-prompt-confirm-button = 削除
+addresses-delete-address-prompt-cancel-button = キャンセル
+autofill-addresses-add-button = 新しい住所を追加
+autofill-addresses-manage-addresses-title =
+    .heading = 住所などを管理
+
+# These values are displayed for each address record listed on the "Manage addresses and more" subpage.
+# Variables:
+#   $name (string) - The name associated with the address
+#   $address (string) - The address
+address-moz-box-item =
+  .label = { $name }
+  .description = { $address }
 
 ## Privacy Section - History
 
@@ -1474,11 +1544,11 @@ addressbar-locbar-engines-option-1 =
 addressbar-locbar-quickactions-option =
     .label = クイックアクション
     .accesskey = Q
-addressbar-locbar-showrecentsearches-option =
-    .label = 最近の検索を表示
+addressbar-locbar-showrecentsearches-option-2 =
+    .label = 最近の検索
     .accesskey = r
-addressbar-locbar-showtrendingsuggestions-option =
-    .label = トレンド検索の候補を表示する
+addressbar-locbar-showtrendingsuggestions-option-2 =
+    .label = トレンドの検索候補
     .accesskey = t
 
 # Toggles whether suggestions are obtained from Firefox Suggest or not (local or online).

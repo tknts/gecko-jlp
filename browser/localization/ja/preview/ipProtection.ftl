@@ -60,10 +60,10 @@ ipprotection-connection-time = { $time }
 
 # Location refers to the VPN server geographical position.
 ipprotection-location-title =
-  .title = Location selected based on fastest server
+  .title = 最速のサーバーに基づいて選択されたロケーション
 
 ipprotection-site-settings-control =
-  .label = Website settings
+  .label = ウェブサイトの設定
 
 # Variables:
 #   $sitename (String) - The name of the site that we're currently on (eg. example.com)
@@ -102,13 +102,10 @@ ip-protection-description =
 ip-protection-learn-more = さらに詳しく
 
 ip-protection-site-exceptions =
-  .label = VPN を使用するウェブサイト
-  .description = 選択したウェブサイトを除くすべてのウェブサイトで VPN を使用するか、特定のウェブサイトでのみ使用するかを選択します。
-ip-protection-site-exceptions-all-sites-radio =
-  .label = すべてのウェブサイト（既定）
+  .label = サイト固有の設定
 ip-protection-site-exceptions-all-sites-button =
-  .label = { -firefox-vpn-brand-name } をオフにするウェブサイト
-  .description = まだウェブサイトが追加されていません
+  .label = ウェブサイトの設定を管理
+  .description = まだウェブサイトは追加されていません
 
 ip-protection-autostart =
   .label = VPN を自動的にオンにする
@@ -122,20 +119,11 @@ ip-protection-contact-support-link =
 ip-protection-upgrade-link =
   .label = { -mozilla-vpn-brand-name } にアップグレード
 
-# "Select" is an adjective here to describe a setting that allows running the VPN on certain sites only.
-# Not to be confused with the action of selecting a site, which is not at all applicable to this setting.
-ip-protection-site-exceptions-select-sites-radio =
-  .label = 選択したウェブサイト
-ip-protection-site-exceptions-select-sites-button =
-  .label = { -firefox-vpn-brand-name } をオンにするウェブサイト
-  .description = まだウェブサイトが追加されていません
-
 ## IP Protection dialogs
 
 ip-protection-exceptions-dialog-window =
   .title = { -firefox-vpn-brand-name } を使用するウェブサイト
-ip-protection-exclusions-desc = このリストにあるウェブサイト以外すべてでVPNを使用します。VPN パネルで任意のサイトに対して { -firefox-vpn-brand-name } をオンまたはオフにすることで、このリストにウェブサイトを追加します。
-ip-protection-inclusions-desc = 選択したウェブサイトでのみ VPN を使用します。VPN パネルで任意のサイトに対して { -firefox-vpn-brand-name } をオンまたはオフにすることで、このリストにウェブサイトを追加します。
+ip-protection-exclusions-desc = このリストにあるウェブサイト以外すべてで VPN を使用します。VPN パネルで任意のサイトに対して { -firefox-vpn-brand-name } をオンまたはオフにすることで、このリストにウェブサイトを追加します。
 
 ipprotection-site-settings-title =
   .title = VPN サイト設定

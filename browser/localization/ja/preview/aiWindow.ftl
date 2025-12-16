@@ -21,3 +21,7 @@ menu-file-new-classic-window =
 aiwindow-input-cta-label-chat = チャット
 aiwindow-input-cta-label-search = 検索
 aiwindow-input-cta-label-navigate = ナビゲート
+
+## Firstrun onboarding
+
+aiwindow-firstrun-title = Smart Window へようこそ

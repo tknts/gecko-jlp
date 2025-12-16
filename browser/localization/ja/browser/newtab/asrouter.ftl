@@ -213,13 +213,11 @@ set-default-pdf-handler-primary = 了解しました
 annotations-default-pdf-handler-headline = 好きな場所に署名を追加しましょう！
 
 # “Go-to” is an idiomatic English expression referring to something that is used often.
-annotations-default-pdf-handler-body = 署名を描く、入力する、または画像をアップロードして、好きな位置に配置できます。よく使う署名は保存しておけば、次回から簡単に使えます。
-annotations-make-default-pdf-handler-title = { -brand-short-name } を既定の PDF 編集ツールにしますか？
-annotations-make-default-pdf-handler-subtitle = PDF を開くたびに、便利なツールを利用できます。
-annotations-make-default-pdf-primary-cta =
-  .label = 既定に設定
-annotations-make-default-pdf-next =
-  .label = 次へ
+annotations-default-pdf-handler-body = 署名を手書き、入力、またはアップロードして、正確に好きな場所に配置できます。次回の使用のために、よく使う署名を保存できます.
+annotations-make-default-pdf-handler-title = { -brand-short-name } を既定の PDF エディターにしますか?
+annotations-make-default-pdf-handler-subtitle = PDF を開くたびに、当社のツールにアクセスできるようになります.
+annotations-make-default-pdf-primary-cta-label = 既定に設定
+annotations-make-default-pdf-next-label = 次へ
 
 ## FxA sync CFR
 
@@ -251,7 +249,7 @@ device-migration-fxa-spotlight-sync-primary-button = 今すぐ始める
 ## Set as Default PDF Reader Infobar
 
 # The question portion of the following message should have the <strong> and </strong> tags surrounding it.
-pdf-default-notification-message = <strong>{ -brand-short-name } をデフォルトの PDF リーダーにしますか?</strong> { -brand-short-name } を使用して、コンピューターに保存されている PDF を読んだり編集したりできます。
+pdf-default-notification-message = <strong>{ -brand-short-name } を既定の PDF リーダーにしますか?</strong> { -brand-short-name } を使用して、コンピューターに保存されている PDF を読んだり編集したりできます。
 pdf-default-notification-set-default-button =
     .label = デフォルトとして設定
 pdf-default-notification-decline-button =

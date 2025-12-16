@@ -28,6 +28,10 @@ permissions-allow =
     .label = 許可
     .accesskey = A
 
+permissions-add =
+    .label = 追加
+    .accesskey = A
+
 permissions-button-off =
     .label = オフにする
     .accesskey = O

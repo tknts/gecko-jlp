@@ -196,7 +196,14 @@ fp-certerror-bad-domain-why-dangerous-body = このサイトは安全な接続�
 fp-certerror-bad-domain-what-can-you-do-body = サイト自体に問題があるため、あなたにできることはありません。この問題はサイト自体にある可能性が高いからです。サイトは、証明機関が発行した証明書を使用して、そのサイトが本当にそのサイトであることを証明しています。ただし、企業ネットワークを使用している場合は、サポートチームがさらに詳しい情報を持っている可能性があります。ウイルス対策ソフトウェアを使用している場合は、競合や既知の問題について検索してみてください。
 
 # This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
-fp-certerror-unknown-issuer-why-dangerous-body = サイトの証明書に問題があります。悪意のある人物がサイトになりすましている可能性があります。サイトは、証明機関が発行した証明書を使用して、そのサイトが本当にそのサイトであることを証明していますが、証明書の発行者が不明であるか、自己署名されているか、サイトが信頼できる中間証明書を送信していないため、{ -brand-short-name } は、このサイトを信頼しません。
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
+fp-certerror-untrusted-issuer-why-dangerous-body = { $hostname } に提供された証明書が、もはや信頼されていない認証局によって発行されたものであるため、{ -brand-short-name } はこのサイトについて警告しています。
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+fp-certerror-untrusted-issuer-what-can-you-do-body = おそらくサイト自体に問題があるため、何もできません。サイトの所有者に連絡して、問題に取り組んでいるかどうかを確認することができます。
+
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+fp-certerror-unknown-issuer-why-dangerous-body = サイトの証明書に問題があります。悪意のある者がサイトになりすまそうとしている可能性があります。サイトは、認証局によって発行された証明書を使用して、自分が名乗っている通りの人物であることを証明します。{ -brand-short-name } がこのサイトを信頼しないのは、証明書を発行したのが誰かわからない、自己署名されている、またはサイトが信頼できる中間証明書を送信していないためです。
 # This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
 fp-certerror-unknown-issuer-what-can-you-do-body = できることはありません。問題はサイト自体にある可能性が高いからです。ただし、企業ネットワークを使用している場合は、サポートチームが解決策を知っている可能性があります。またウイルス対策ソフトウェアを使用している場合は、{ -brand-short-name } で動作するように設定することで解決する可能性があります。
 

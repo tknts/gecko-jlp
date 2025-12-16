@@ -211,21 +211,6 @@ newtab-discovery-empty-section-topstories-loading = 読み込み中…
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = 問題が発生しました。このセクションをほぼ読み込みましたが、完了できませんでした。
 
-## Thumbs up and down buttons that shows over a newtab stories card thumbnail on hover.
-
-# Clicking the thumbs up button for this story will result in more stories like this one being recommended
-newtab-pocket-thumbs-up-tooltip =
-    .title = このようなコンテンツをもっとおすすめします
-# Clicking the thumbs down button for this story informs us that the user does not feel like the story is interesting for them
-newtab-pocket-thumbs-down-tooltip =
-    .title = 興味がありません
-# Used to show the user a message upon clicking the thumbs up or down buttons
-newtab-toast-thumbs-up-or-down2 =
-    .message = ありがとうございます。あなたのフィードバックはフィードを改善するのに役立ちます。
-newtab-toast-dismiss-button =
-    .title = 閉じる
-    .aria-label = 閉じる
-
 ## Error Fallback Content.
 ## This message and suggested action link are shown in each section of UI that fails to render.
 
@@ -382,7 +367,7 @@ newtab-weather-see-forecast =
     .title = { $provider } で天気予報を見る
 # Variables:
 #   $provider (string) - Service provider for weather data
-newtab-weather-sponsored = { $provider } · スポンサー
+newtab-weather-sponsored = { $provider } ∙ スポンサー
 newtab-weather-menu-change-location = 地域を変更
 newtab-weather-change-location-search-input-placeholder =
     .placeholder = 地域を検索
