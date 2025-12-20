@@ -421,6 +421,94 @@ translate-exceptions =
     .label = 例外サイト…
     .accesskey = x
 
+settings-translations-header =
+    .label = 翻訳
+    .aria-label = 翻訳
+    .description = ページ全体や選択したテキストを翻訳します。プライバシーを保護するため、翻訳処理はデバイス上で行われます。
+
+settings-translations-offer-to-translate-label =
+    .label = ページ全体の翻訳を毎回表示する
+
+settings-translations-more-settings-button =
+    .label = 翻訳の詳細設定
+    .description = 言語、ウェブサイト、オフライン翻訳の設定を行います。
+
+settings-translations-subpage-header =
+    .heading = 翻訳の詳細設定
+
+settings-translations-subpage-speed-up-translation-header =
+    .label = 翻訳を高速化する
+    .description = 言語データをダウンロードすると、翻訳が速くなり、オフラインでも翻訳できるようになります。
+
+settings-translations-subpage-automatic-translation-header =
+    .label = 自動翻訳
+
+settings-translations-subpage-always-translate-header =
+    .label = 常に翻訳する言語
+
+settings-translations-subpage-never-translate-header =
+    .label = 翻訳しない言語
+
+settings-translations-subpage-never-translate-sites-header =
+    .label = 翻訳しないサイト
+
+# The icon placeholders show the translations button and the settings gear in the urlbar panel.
+settings-translations-subpage-never-translate-sites-description =
+    サイトを追加するには、翻訳パネル <img data-l10n-name="translations-icon"/> を開き、翻訳設定 <img data-l10n-name="settings-icon"/> から “このサイトは翻訳しない”を選択してください。
+
+settings-translations-subpage-language-select-option =
+    .label = 言語を追加
+
+settings-translations-subpage-language-add-button =
+    .aria-label = 言語を追加
+    .title = 言語を追加
+
+settings-translations-subpage-download-languages-header =
+    .label = 言語をダウンロード
+
+settings-translations-subpage-download-languages-select-option =
+    .label = 言語を選択
+
+settings-translations-subpage-download-languages-button =
+    .aria-label = 言語をダウンロード
+    .title = 言語をダウンロード
+
+# Variables:
+#   $language (string) - Localized name of the language to download.
+#   $size (string) - Download size in megabytes, formatted for the locale.
+settings-translations-subpage-download-language-option = { $language } ({ $size }MB)
+    .label = { $language } ({ $size }MB)
+
+settings-translations-subpage-no-languages-downloaded =
+    .label = ダウンロード済みの言語はありません
+
+settings-translations-subpage-no-languages-added =
+    .label = 追加された言語はありません
+
+settings-translations-subpage-download-progress = ダウンロードしています…
+
+# Variables:
+#   $language (string) - The localized display name of the language.
+#   $size (string) - The download size of the language in megabytes.
+settings-translations-subpage-download-error = { $language } ({ $size }MB) をダウンロードできませんでした
+
+settings-translations-subpage-download-retry-button =
+    .label = 再試行
+
+# Variables:
+#   $language (string) - The localized display name of the language.
+#   $size (string) - The download size of the language in megabytes.
+settings-translations-subpage-download-delete-confirm = { $language } ({ $size }MB) を削除しますか?
+
+settings-translations-subpage-download-delete-button =
+    .label = 削除
+
+settings-translations-subpage-download-cancel-button =
+    .label = キャンセル
+
+settings-translations-subpage-no-sites-added =
+    .label = 追加されたサイトはありません
+
 # Variables:
 #    $localeName (string) - Localized name of the locale to be used.
 use-system-locale =
@@ -722,36 +810,42 @@ home-new-windows-tabs-description2 = ホームページと新しいウィンド�
 
 ## Home Section - Home Page Customization
 
-home-homepage-header = ホームページ
+home-homepage-title =
+    .label = ホームページ
 
 home-homepage-mode-label = ホームページと新しいウィンドウ
 
-home-homepage-mode-label2 = 新しいウィンドウ
+home-homepage-new-windows =
+    .label = 新しいウィンドウ
 
 home-newtabs-mode-label = 新しいタブ
 
+home-homepage-new-tabs =
+    .label = 新しいタブ
+
 home-restore-defaults =
-    .label = 初期設定に戻す
+    .label = 既定値に戻す
     .accesskey = R
 
 home-mode-choice-default-fx =
-    .label = { -firefox-home-brand-name } (初期設定)
+    .label = { -firefox-home-brand-name } (既定)
 
 home-mode-choice-custom =
-    .label = ウェブページ…
+    .label = カスタム URL…
 
 home-mode-choice-blank =
-    .label = 空白のページ
+    .label = 空白ページ
 
 home-homepage-custom-url =
-    .placeholder = URL を貼り付ける…
+    .placeholder = URL を貼り付け…
 
 # This button is shown when the homepage is managed by an extension and is placed below extension-controlling-homepage.
 home-homepage-manage-extension-button =
     .label = 拡張機能を管理
 
 # This option leads to the "Custom Homepage" subpage
-home-homepage-custom-homepage-url = 特定のサイトを選択
+home-homepage-custom-homepage-button =
+    .label = 特定のサイトを選択
 
 ## Custom Homepage subpage
 
@@ -997,6 +1091,13 @@ containers-remove-button =
 sync-group-label =
     .label = 同期
 
+account-group-label =
+    .label = { -vendor-short-name } アカウント
+
+account-placeholder =
+    .label = サインインしていません
+    .description = サインインすると、データを非公開で暗号化したまま、デバイス間で同期できます。
+
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
 
@@ -1009,6 +1110,10 @@ sync-signedout-account-signin3 =
 
 sync-signedout-account-signin-4 =
     .label = アカウントにサインインして同期を開始
+    .accesskey = i
+
+sync-signedout-account-short =
+    .label = サインイン
     .accesskey = i
 
 # This message contains two links and two icon images.
@@ -1024,11 +1129,11 @@ sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10
 ## Firefox account - Signed in
 
 sync-profile-picture-with-alt =
-    .tooltiptext = プロフィールの画像を変更します
-    .alt = プロフィールの画像を変更します
+    .tooltiptext = プロフィール写真を変更
+    .alt = プロフィール写真を変更
 
 sync-profile-picture-account-problem =
-    .alt = アカウントのプロフィール画像
+    .alt = アカウントのプロフィール写真
 
 fxa-login-rejected-warning =
     .alt = 警告
@@ -1037,14 +1142,39 @@ sync-sign-out =
     .label = サインアウト…
     .accesskey = g
 
+sync-sign-out2 =
+    .label = サインアウト
+    .accesskey = g
+
 sync-manage-account = アカウントを管理
+    .accesskey = o
+
+sync-manage-account2 =
+    .label = アカウントを管理
     .accesskey = o
 
 ## Variables
 ## $email (string) - Email used for Firefox account
+## $name (string) - Name used for Firefox account
 
-sync-signedin-unverified = { $email } はまだ検証されていません。
+sync-account-signed-in =
+    .label = { $email }
+
+sync-account-signed-in-display-name =
+    .label = { $name }
+    .description = { $email }
+
+sync-signedin-unverified = { $email } は検証されていません。
+
+sync-signedin-unverified2 =
+    .label = { $email } はまだ検証されていません
+    .description = 受信トレイを確認してアカウントを承認し、登録を完了させてください。
+
 sync-signedin-login-failure = { $email } を再接続するにはサインインしてください
+
+sync-signedin-login-failure2 =
+    .label = { $email } からサインアウトしています
+    .description = 再度サインインして接続し、データの同期を開始してください。
 
 ##
 
@@ -1345,10 +1475,14 @@ payments-delete-payment-prompt-title = この支払い方法を削除します�
 payments-delete-payment-prompt-confirm-button = 削除
 payments-delete-payment-prompt-cancel-button = キャンセル
 
+# This message is displayed when no payment methods such as credit card are stored in Firefox
+payments-no-payments-stored-message =
+    .label = 支払い方法が登録されていません
+
 # These values are displayed for each credit card record listed on the Manage Payment methods
 # settings page.
 # Variables:
-#   $cardNumber (string) - The obscured credit card number (for example: 2423 *********)
+#   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
 #   $expDate (string) - The obscured expiry date of the credit card (for example: XX/2027)
 payment-moz-box-item =
   .label = { $cardNumber }
@@ -1375,6 +1509,10 @@ addresses-delete-address-prompt-cancel-button = キャンセル
 autofill-addresses-add-button = 新しい住所を追加
 autofill-addresses-manage-addresses-title =
     .heading = 住所などを管理
+
+# This message is displayed when no addresses are stored in Firefox
+addresses-no-addresses-stored-message =
+    .label = 住所が登録されていません
 
 # These values are displayed for each address record listed on the "Manage addresses and more" subpage.
 # Variables:

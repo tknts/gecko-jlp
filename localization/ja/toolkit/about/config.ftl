@@ -4,10 +4,10 @@
 
 ## These strings appear on the warning you see when first visiting about:config.
 
-about-config-intro-warning-title = 注意して進めてください!
-about-config-intro-warning-text = 詳細な構成設定を変更すると { -brand-short-name } のパフォーマンスまたはセキュリティに影響を与える可能性があります。
-about-config-intro-warning-checkbox = これらの設定にアクセスする時に、警告を表示する
-about-config-intro-warning-button = 危険性を理解して続行する
+about-config-intro-warning-title = 注意して進んでください
+about-config-intro-warning-text = 高度な設定を変更すると、{ -brand-short-name } のパフォーマンスやセキュリティに影響を及ぼす可能性があります。
+about-config-intro-warning-checkbox = これらの設定にアクセスしようとしたときに警告を表示する
+about-config-intro-warning-button = リスクを承知の上で続行
 
 ##
 
@@ -31,15 +31,15 @@ about-config-pref-edit-button =
 about-config-pref-save-button =
     .title = 保存
 about-config-pref-reset-button =
-    .title = 初期設定
+    .title = リセット
 about-config-pref-delete-button =
     .title = 削除
 
 ## Labels for the type selection radio buttons shown when adding preferences.
 
-about-config-pref-add-type-boolean = 真偽値
-about-config-pref-add-type-number = 整数値
-about-config-pref-add-type-string = 文字列
+about-config-pref-add-type-boolean = 真偽値 (Boolean)
+about-config-pref-add-type-number = 数値 (Number)
+about-config-pref-add-type-string = 文字列 (String)
 
 ## Preferences with a non-default value are differentiated visually, and at the
 ## same time the state is made accessible to screen readers using an aria-label
@@ -49,6 +49,6 @@ about-config-pref-add-type-string = 文字列
 ##   $value (String): The full value of the preference.
 
 about-config-pref-accessible-value-default =
-    .aria-label = { $value } (初期設定値)
+    .aria-label = { $value } (既定値)
 about-config-pref-accessible-value-custom =
-    .aria-label = { $value } (変更されています)
+    .aria-label = { $value } (カスタム)

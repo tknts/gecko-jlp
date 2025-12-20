@@ -255,3 +255,51 @@ preferences-etp-level-warning-message =
 preferences-etp-manage-exceptions-button =
     .label = 例外を管理
     .description = 強化型トラッキング防止機能を無効にしているウェブサイトを管理します。
+
+preferences-etp-customize-header =
+    .heading = プライバシー保護をカスタマイズ
+    .description = 設定を自由に変更して、保護レベルを調整できます。
+
+preferences-etp-reset =
+    .label = リセット
+    .description = すべてのカスタム設定を消去して、デフォルトの状態に戻します。
+
+
+preferences-etp-reset-standard-button =
+    .label = “標準” 設定にリセット
+
+preferences-etp-reset-strict-button =
+    .label = “厳格” 設定にリセット
+
+preferences-etp-custom-control-group =
+    .label = トラッキング防止
+
+preferences-etp-custom-cookies-enabled =
+    .label = Cookie
+    .description = サイトから保存される Cookie の種類を選択します。
+
+preferences-etp-custom-cookie-behavior =
+    .aria-label = { preferences-etp-custom-cookies-enabled.label }
+
+preferences-etpc-custom-cookie-behavior-accept-all =
+    .label = すべての Cookie を許可する
+
+preferences-etp-custom-tracking-protection-enabled =
+    .label = トラッキングコンテンツ
+    .description = 閲覧履歴を追跡するコンテンツをブロックします。
+
+preferences-etp-custom-tracking-protection-enabled-context =
+    .aria-label = { preferences-etp-custom-tracking-protection-enabled.label }
+
+preferences-etp-custom-crypto-mining-protection-enabled =
+    .label = 仮想通貨マイナー
+
+preferences-etp-custom-known-fingerprinting-protection-enabled =
+    .label = 既知のフィンガープリンター
+
+preferences-etp-custom-suspect-fingerprinting-protection-enabled =
+    .label = 疑わしいフィンガープリンター
+    .description = ユーザーを特定しようとする疑わしいスクリプトをブロックします。
+
+preferences-etp-custom-suspect-fingerprinting-protection-enabled-context =
+    .aria-label = { preferences-etp-custom-suspect-fingerprinting-protection-enabled.label }

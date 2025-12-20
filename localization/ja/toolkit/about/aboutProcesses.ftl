@@ -127,14 +127,15 @@ about-processes-frame-name-many = サブフレーム ({ $number }): { $shortUrl 
 ## Utility process actor names
 
 bout-processes-utility-actor-unknown = 不明なアクター
-about-processes-utility-actor-audio-decoder-generic = 汎用オーディオデコーダー
-about-processes-utility-actor-audio-decoder-applemedia = Apple Media オーディオデコーダー
-about-processes-utility-actor-audio-decoder-wmf = Windows Media Framework オーディオデコーダー
+about-processes-utility-actor-audio-decoder-generic = 汎用オーディオ デコーダー
+about-processes-utility-actor-audio-decoder-applemedia = Apple Media オーディオ デコーダー
+about-processes-utility-actor-audio-decoder-wmf = Windows Media Framework オーディオ デコーダー
 about-processes-utility-actor-mf-media-engine = Windows Media Foundation Media Engine CDM
 # "Oracle" refers to an internal Firefox process and should be kept in English
 about-processes-utility-actor-js-oracle = JavaScript Oracle
 about-processes-utility-actor-windows-utils = Windows Utils
 about-processes-utility-actor-windows-file-dialog = Windows ファイル ダイアログ
+about-processes-utility-actor-pkcs11-module = セキュリティ モジュール ヘルパー
 
 ## Displaying CPU (percentage and total)
 ## Variables:
@@ -174,20 +175,20 @@ about-processes-cpu-fully-idle = 待機
 
 # Common case.
 about-processes-total-memory-size-changed = { NUMBER($total, maximumFractionDigits:0) }{ $totalUnit }
-   .title = Evolution: { $deltaSign }{ NUMBER($delta, maximumFractionDigits:0) }{ $deltaUnit }
+   .title = 変動: { $deltaSign }{ NUMBER($delta, maximumFractionDigits:0) }{ $deltaUnit }
 
 # Special case: no change.
 about-processes-total-memory-size-no-change = { NUMBER($total, maximumFractionDigits:0) }{ $totalUnit }
 
 ## Duration units
 
-duration-unit-ns = ナノ秒
-duration-unit-us = マイクロ秒
-duration-unit-ms = ミリ秒
-duration-unit-s = 秒
-duration-unit-m = 分
-duration-unit-h = 時
-duration-unit-d = 日
+duration-unit-ns = ns
+duration-unit-us = µs
+duration-unit-ms = ms
+duration-unit-s = s
+duration-unit-m = m
+duration-unit-h = h
+duration-unit-d = d
 
 ## Memory units
 

@@ -53,17 +53,13 @@ ipprotection-connection-status-on =
 ipprotection-connection-status-off =
   .label = VPN オフ
 
-# The panel status card has a header, as well as VPN server location name and connection time displayed under it when the VPN is on.
-# Variables:
-#   $time (String) - The amount of time connected to the proxy as HH:MM:SS (hours, minutes, seconds).
-ipprotection-connection-time = { $time }
-
+# The panel status card has a header, as well as VPN server location name displayed under it when the VPN is on.
 # Location refers to the VPN server geographical position.
 ipprotection-location-title =
-  .title = 最速のサーバーに基づいて選択されたロケーション
+  .title = 最速のサーバーに基づいて選択されたロケーション
 
 ipprotection-site-settings-control =
-  .label = ウェブサイトの設定
+  .label = ウェブサイトの設定
 
 # Variables:
 #   $sitename (String) - The name of the site that we're currently on (eg. example.com)
@@ -90,9 +86,13 @@ ipprotection-message-generic-error =
   .heading = VPN に接続できませんでした
   .message = 数分後にもう一度お試しください。
 
-ipprotection-message-continuous-onboarding-intro = VPN をオンにして位置情報を隠し、閲覧に暗号化を追加しましょう。
-ipprotetection-message-continuous-onboarding-autostart = { -brand-short-name } を開くたびに VPN を<a data-l10n-name="setting-link">オンにするように設定</a>して、保護をさらに強化しましょう。
-ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } はVPNを使用するように設定したウェブサイトを記憶します。<a data-l10n-name="setting-link">設定</a>でいつでも更新できます。
+ipprotection-message-bandwidth-warning =
+  .heading = 通信量の制限に近づいています
+  .message = 今月の使用可能量 150 GB のうち、残り 1 GB です。
+
+ipprotection-message-continuous-onboarding-intro = VPN をオンにして現在地を隠し、ブラウジングの暗号化を強化しましょう。
+ipprotection-message-continuous-onboarding-autostart = さらなる保護レイヤーを追加するため、{ -brand-short-name } を開くたびに <a data-l10n-name="setting-link">VPN がオンになるように設定</a>しましょう。
+ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } は、どのウェブサイトで VPN を使用するように設定したかを記憶します。これらはいつでも <a data-l10n-name="setting-link">設定</a> から変更できます。
 
 ## IP Protection Settings
 
