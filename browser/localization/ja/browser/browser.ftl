@@ -433,6 +433,8 @@ identity-clear-site-data =
 identity-connection-not-secure-security-view = このサイトには安全に接続されていません。
 identity-connection-verified = このサイトには安全に接続されています。
 identity-ev-owner-label = 証明書の対象:
+# "qualified" here refers to the qualified website authentication certificate presented by the site.
+identity-etsi = 規則 (EU) 2024/1183 に規定される適格 (Qualified) 認証を受けています。
 identity-description-custom-root2 = Mozilla はこの証明書の発行者を認識していません。オペレーティングシステムまたは管理者によって追加された可能性があります。
 identity-remove-cert-exception =
     .label = 例外を削除
@@ -792,7 +794,10 @@ urlbar-searchmode-default =
 
 # Label shown on the top of Searchmode Switcher popup. After this label, the
 # available search engines will be listed.
-urlbar-searchmode-popup-description = 次で検索:
+urlbar-searchmode-popup-description = 今回のみ使用する検索エンジン:
+# Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
+# reset after submitting.
+urlbar-searchmode-popup-sticky-description = 次で検索:
 urlbar-searchmode-popup-search-settings-menuitem =
     .label = 検索の設定
 

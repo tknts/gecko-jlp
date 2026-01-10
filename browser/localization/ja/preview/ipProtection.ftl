@@ -80,6 +80,11 @@ ipprotection-toggle-active =
 ipprotection-toggle-inactive =
   .aria-label = VPN をオンにする
 
+# Button to turn off the VPN
+ipprotection-button-turn-vpn-off = VPN をオフにする
+# Button to turn on the VPN
+ipprotection-button-turn-vpn-on = VPN をオンにする
+
 ## Messages and errors
 
 ipprotection-message-generic-error =
@@ -103,9 +108,16 @@ ip-protection-learn-more = さらに詳しく
 
 ip-protection-site-exceptions =
   .label = サイト固有の設定
+
+# Variables:
+#   $count (number) - The number of sites saved as VPN exclusions.
 ip-protection-site-exceptions-all-sites-button =
   .label = ウェブサイトの設定を管理
-  .description = まだウェブサイトは追加されていません
+  .description =
+    { $count ->
+        [one] ひとつのウェブサイト
+       *[other] { $count } 個のウェブサイト
+    }
 
 ip-protection-autostart =
   .label = VPN を自動的にオンにする

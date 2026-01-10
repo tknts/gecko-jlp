@@ -126,7 +126,7 @@ about-processes-frame-name-many = サブフレーム ({ $number }): { $shortUrl 
 
 ## Utility process actor names
 
-bout-processes-utility-actor-unknown = 不明なアクター
+about-processes-utility-actor-unknown = 不明なアクター
 about-processes-utility-actor-audio-decoder-generic = 汎用オーディオ デコーダー
 about-processes-utility-actor-audio-decoder-applemedia = Apple Media オーディオ デコーダー
 about-processes-utility-actor-audio-decoder-wmf = Windows Media Framework オーディオ デコーダー
@@ -135,7 +135,6 @@ about-processes-utility-actor-mf-media-engine = Windows Media Foundation Media E
 about-processes-utility-actor-js-oracle = JavaScript Oracle
 about-processes-utility-actor-windows-utils = Windows Utils
 about-processes-utility-actor-windows-file-dialog = Windows ファイル ダイアログ
-about-processes-utility-actor-pkcs11-module = セキュリティ モジュール ヘルパー
 
 ## Displaying CPU (percentage and total)
 ## Variables:

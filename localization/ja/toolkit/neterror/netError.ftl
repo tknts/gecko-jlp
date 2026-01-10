@@ -44,6 +44,10 @@ neterror-load-error-firewall = コンピューターまたはネットワーク�
 neterror-load-osx-permission = ローカルネットワークのページを読み込もうとしている場合は、macOS のプライバシーとセキュリティ設定で { -brand-short-name } にローカル ネットワークの権限が付与されていることを確認してください。
 
 neterror-http-error-page = ウェブサイトのアドレスが正しく入力されていることを確認してください。
+neterror-http-empty-response = ウェブサイトのアドレスが正しく入力されているか確認し、しばらくしてからもう一度お試しください。
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
+neterror-http-empty-response-description = { $hostname } から空のページが返されました。
 
 neterror-captive-portal = インターネットにアクセスする前に、このネットワークにログインする必要があります。
 
@@ -53,7 +57,7 @@ neterror-dns-not-found-with-suggestion = <a data-l10n-name="website">{ $hostAndP
 neterror-dns-not-found-hint-header = <strong>正しいアドレスを入力した場合は、次のことができます:</strong>
 neterror-dns-not-found-hint-try-again = あとでもう一度試してください
 neterror-dns-not-found-hint-check-network = ネットワーク接続を確認してください
-neterror-dns-not-found-hint-firewall ={ -brand-short-name } にウェブへのアクセス権限があることを確認してください (接続していてもファイアウォールの内側にいる可能性があります)。
+neterror-dns-not-found-hint-firewall = { -brand-short-name } にウェブへのアクセス権限があることを確認してください (接続していてもファイアウォールの内側にいる可能性があります)。
 neterror-dns-not-found-offline-hint-header = <strong>対処方法</strong>
 neterror-dns-not-found-offline-hint-different-device = 別のデバイスで接続を試してみてください。
 neterror-dns-not-found-offline-hint-modem = モデムまたはルーターを確認してください。
@@ -180,8 +184,8 @@ certerror-what-should-i-do-bad-sts-cert-explanation = <b>{ $hostname }</b> に�
 cert-error-trust-certificate-transparency-what-can-you-do-about-it = サイト自体に問題がある可能性が高いので、おそらく何もないでしょう。
 
 certerror-blocked-by-corp-headers-description = ウェブサイトによっては、他のサイトとの望ましくないやり取りから、ウェブサイト自身やあなたを保護するための保護策が講じられている場合があります。
-certerror-coop-learn-more = Cross-Origin-Opener-Policy (COOP) について詳しくはこちら
-certerror-coep-learn-more = Cross-Origin-Embedder-Policy (COEP) について詳しくはこちら
+certerror-coop-learn-more = Cross Origin Opener Policies (COOP) について詳しく
+certerror-coep-learn-more = Cross Origin Embedder Policies (COEP) について詳しく
 
 # Variables:
 #   $responsestatus (string) - HTTP response status code (e.g., 500).

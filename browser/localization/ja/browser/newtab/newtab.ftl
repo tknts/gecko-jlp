@@ -246,6 +246,12 @@ newtab-custom-widget-lists-toggle =
 newtab-custom-widget-timer-toggle =
   .label = タイマー
 newtab-custom-widget-section-title = ウィジェット
+newtab-custom-widget-section-toggle =
+    .label = ウィジェット
+newtab-widget-manage-title = ウィジェット
+newtab-widget-manage-widget-button =
+    .label = ウィジェットを管理
+
 # Tooltip for close button
 newtab-custom-close-menu-button =
     .title = 閉じる
@@ -373,6 +379,8 @@ newtab-weather-change-location-search-input-placeholder =
     .placeholder = 地域を検索
     .aria-label = 地域を検索
 newtab-weather-menu-weather-display = 天気表示
+newtab-weather-todays-forecast = 今日の天気予報
+newtab-weather-see-full-forecast = 詳細な予報を見る
 # Display options are:
 # - Simple: Displays a current weather condition icon and the current temperature
 # - Detailed: Include simple information plus a short text summary: e.g. "Mostly cloudy"
@@ -505,7 +513,7 @@ newtab-download-mobile-highlight-image =
 newtab-shortcuts-highlight-title = お気に入りを手軽に利用
 newtab-shortcuts-highlight-subtitle = ショートカットを追加して、お気に入りのサイトにワンクリックでアクセスしましょう。
 
-## Strings for reporting ads and content
+## Strings for reporting issues with ads and content
 
 newtab-report-content-why-reporting-this =
   .label = このコンテンツを報告する理由は何ですか?
@@ -523,6 +531,9 @@ newtab-report-content-inappropriate-offensive =
   .label = 不適切または不快な内容
 newtab-report-content-spam-misleading =
   .label = スパムまたは誤解を招く内容
+newtab-report-content-requires-payment-subscription =
+  .label = 支払いまたはサブスクリプションが必要
+newtab-report-content-requires-payment-subscription-learn-more = さらに詳しく
 newtab-report-cancel = キャンセル
 newtab-report-submit = 送信
 newtab-toast-thanks-for-reporting =

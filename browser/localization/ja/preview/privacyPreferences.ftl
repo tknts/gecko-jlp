@@ -32,6 +32,11 @@ security-privacy-status-update-needed-description = 最新のセキュリティ�
 security-privacy-status-update-button-label =
   .label = { -brand-short-name } を更新
 
+security-privacy-image-warning =
+  .alt = { -brand-short-name } のマスコットがセキュリティ警告を心配そうに見守っている
+security-privacy-image-ok =
+  .alt = { -brand-short-name } のマスコットが未解決のセキュリティ問題がなく満足している
+
 security-privacy-issue-card =
   .heading = セキュリティ警告
 issue-card-reset-button =
@@ -245,6 +250,12 @@ preferences-etp-advanced-settings-group =
 preferences-etp-customize-button =
     .label = カスタマイズ
 
+
+preferences-etp-reload-tabs-hint =
+    .message = 設定の変更を適用するには、タブを再読み込みしてください。
+preferences-etp-reload-tabs-hint-button =
+  .label = すべてのタブを再読み込み
+
 preferences-etp-rfp-warning-message =
     .message = あなたは耐フィンガープリント採取 (RFP) を使用しています。これは、{ -brand-short-name } のフィンガープリント採取防止設定の一部を置き換えます。これにより、一部のサイトが壊れる可能性があります。
 
@@ -303,3 +314,48 @@ preferences-etp-custom-suspect-fingerprinting-protection-enabled =
 
 preferences-etp-custom-suspect-fingerprinting-protection-enabled-context =
     .aria-label = { preferences-etp-custom-suspect-fingerprinting-protection-enabled.label }
+
+## Relay integration
+
+preferences-privacy-relay-available =
+    .label = { -relay-brand-name } のメールマスクを提案する
+    .description = スパムから受信トレイを保護するため、実際のメールアドレスを隠します。
+
+## Additional protections
+
+do-not-track-removal3 =
+    .message = “Do Not Track(トラッキング拒否)” 機能のサポートは終了しました
+
+non-technical-privacy-heading =
+    .label = ウェブサイトのプライバシー設定
+
+## Site Data
+
+sitedata-heading =
+    .label = 閲覧データ
+    .description = Cookie、履歴、キャッシュ、ウェブサイトのデータなどを管理します。
+
+sitedata-settings3 =
+    .label = 特定のサイトのデータを消去
+    .accesskey = s
+
+sitedata-cookies-exceptions3 =
+    .label = 例外を管理
+    .accesskey = x
+    .description = 特定のサイトによる Cookie とサイトデータの取り扱いを選択します。
+
+## History
+
+history-header2 =
+    .heading = 履歴
+
+history-section-header =
+    .label = 履歴
+    .description = ブラウザーを閉じたときに { -brand-short-name } に記憶させる内容を選択します。
+
+history-custom-section-header =
+    .label = 詳細設定
+    .description = ブラウザーを閉じたときに { -brand-short-name } に記憶させる内容をカスタマイズします。
+
+history-custom-button =
+    .label = { -brand-short-name } に記憶させる内容を選択

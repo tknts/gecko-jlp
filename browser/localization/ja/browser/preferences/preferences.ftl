@@ -1024,9 +1024,75 @@ search-show-suggestions-private-windows-2 =
 search-suggestions-cant-show-2 =
     .message = 履歴を記憶しないように { -brand-short-name } が設定されているため、ロケーションバーの結果に検索候補は表示されません。
 
-search-one-click-header2 = ショートカット検索
 
-search-one-click-desc = キーワードの入力開始時にアドレスバーや検索バーの下に現れる代替検索エンジンを選んでください。
+addressbar-header-1 =
+    .label = アドレスバー
+    .description = アドレスバーに表示する候補を選択します
+
+# When Firefox Suggest is enabled, this replaces `addressbar-header-1`.
+addressbar-header-firefox-suggest-2 =
+    .label = { -firefox-suggest-brand-name }
+    .description = { -brand-short-name } とパートナーによる候補をアドレスバーに表示します。
+
+addressbar-locbar-history-option =
+    .label = 閲覧履歴
+    .accesskey = h
+addressbar-locbar-bookmarks-option =
+    .label = ブックマーク
+    .accesskey = k
+addressbar-locbar-clipboard-option =
+    .label = クリップボード
+    .accesskey = C
+addressbar-locbar-openpage-option =
+    .label = 開いているタブ
+    .accesskey = O
+# Shortcuts refers to the shortcut tiles on the new tab page, previously known as top sites. Translation should be consistent.
+addressbar-locbar-shortcuts-option =
+    .label = ショートカット
+    .accesskey = S
+addressbar-locbar-topsites-option =
+    .label = トップサイト
+    .accesskey = T
+addressbar-locbar-showrecentsearches-option-2 =
+    .label = 最近の検索ワード
+    .accesskey = r
+addressbar-locbar-engines-option-1 =
+    .label = 利用可能な検索エンジン
+    .accesskey = a
+addressbar-locbar-quickactions-option =
+    .label = クイックアクション
+    .accesskey = Q
+addressbar-locbar-showtrendingsuggestions-option-2 =
+    .label = 急上昇ワード
+    .accesskey = t
+
+# Toggles whether suggestions are obtained from Firefox Suggest or not (local or online).
+addressbar-locbar-suggest-all-option-2 =
+    .label = { -brand-short-name } による候補
+    .description = 入力内容に関連するウェブ上の候補を表示します。
+
+addressbar-locbar-suggest-sponsored-option-2 =
+    .label = スポンサーによる候補
+    .description = 時折表示されるスポンサー候補により { -brand-short-name } を支援します。
+
+# This string is used for a checkbox in the settings UI that opts the
+# user into "online" Firefox Suggest, allowing them to receive suggestions from
+# Mozilla's Merino server.
+# "Mozilla" is intentionally hardcoded to prevent forks from replacing it
+# with their own vendor name, since the online suggest is created and maintained
+# by Mozilla.
+addressbar-firefox-suggest-online =
+    .label = 入力中に Mozilla から候補を取得する
+
+addressbar-dismissed-suggestions-label-2 =
+    .label = 非表示にした候補
+    .description = 非表示にしたスポンサーや { -brand-short-name } による候補を元に戻します。
+addressbar-restore-dismissed-suggestions-button-2 =
+    .label = 候補を元に戻す
+
+search-one-click-header2 = 検索ショートカット
+
+search-one-click-desc = キーワードの入力時に、アドレスバーや検索バーの下に表示される代替検索エンジンを選択します。
 
 search-choose-engine-column =
     .label = 検索エンジン
@@ -1235,8 +1301,8 @@ sync-syncing-across-devices-heading = 接続されているすべてのデバイ
 sync-syncing-across-devices-heading-2 = デバイス間で同期されたデータ
 
 sync-syncing-across-devices-empty-state =
-    .label = まだ何も同期されていません…
-    .description = 同期を開始して、すべてのデバイスであなたの全データを利用できるようにしましょう。
+    .label = 同期されている項目がまだありません。
+    .description = 同期を開始すると、すべてのデバイスでお使いのデータを利用できるようになります。
 
 sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 表示履歴
@@ -1395,6 +1461,10 @@ forms-additional-protections-header =
 forms-primary-pw-use =
     .label = プライマリーパスワードを使用する
     .accesskey = U
+forms-primary-pw-use-2 =
+    .label = プライマリーパスワードを使用する
+    .description = 保存されたパスワードを保護するために、セキュリティレイヤーを追加します。
+    .accesskey = U
 forms-primary-pw-set =
     .label = プライマリーパスワードを設定
 forms-primary-pw-on =
@@ -1440,7 +1510,7 @@ primary-password-os-auth-dialog-message-win = プライマリーパスワード�
 # The macOS strings are preceded by the operating system with "Firefox is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
-primary-password-os-auth-dialog-message-macosx = プライマリパスワードを作成する
+primary-password-os-auth-dialog-message-macosx = プライマリ パスワードを作成する
 master-password-os-auth-dialog-caption = { -brand-full-name }
 
 # The macOS string is preceded by the operating system with "Firefox is trying to ".
@@ -1640,79 +1710,6 @@ cookie-banner-blocker-description = プライベート ブラウジング中に�
 cookie-banner-learn-more = さらに詳しく
 cookie-banner-blocker-checkbox-label =
     .label = Cookie 同意バナー を自動的にブロックする
-
-## Privacy Section - Address Bar
-
-addressbar-header = アドレスバー
-
-addressbar-suggest-1 = アドレスバーに表示する候補を選択してください
-
-# When Firefox Suggest is enabled, this replaces `addressbar-header`.
-addressbar-header-firefox-suggest-1 = { -firefox-suggest-brand-name }
-
-# When Firefox Suggest is enabled, this replaces `addressbar-suggest`.
-addressbar-suggest-firefox-suggest-1 = アドレスバーに { -brand-short-name } と提携パートナーからのサジェストを表示します。
-
-# When Firefox Suggest is enabled, a "Learn more" link appears at the end of
-# `addressbar-suggest-firefox-suggest`.
-addressbar-locbar-firefox-suggest-learn-more = さらに詳しく
-
-addressbar-locbar-history-option =
-    .label = 閲覧履歴
-    .accesskey = h
-addressbar-locbar-bookmarks-option =
-    .label = ブックマーク
-    .accesskey = k
-addressbar-locbar-clipboard-option =
-    .label = クリップボード
-    .accesskey = C
-addressbar-locbar-openpage-option =
-    .label = 開いているタブ
-    .accesskey = O
-# Shortcuts refers to the shortcut tiles on the new tab page, previously known as top sites. Translation should be consistent.
-addressbar-locbar-shortcuts-option =
-    .label = ショートカット
-    .accesskey = S
-addressbar-locbar-topsites-option =
-    .label = トップサイト
-    .accesskey = T
-addressbar-locbar-engines-option-1 =
-    .label = 使用する検索エンジンを提案する
-    .accesskey = a
-addressbar-locbar-quickactions-option =
-    .label = クイックアクション
-    .accesskey = Q
-addressbar-locbar-showrecentsearches-option-2 =
-    .label = 最近の検索
-    .accesskey = r
-addressbar-locbar-showtrendingsuggestions-option-2 =
-    .label = トレンドの検索候補
-    .accesskey = t
-
-# Toggles whether suggestions are obtained from Firefox Suggest or not (local or online).
-addressbar-locbar-suggest-all-option =
-  .label = { -brand-short-name } からの候補
-addressbar-locbar-suggest-all-option-desc = 検索に関連するウェブ上の候補を取得します。
-
-addressbar-locbar-suggest-sponsored-option =
-  .label = スポンサーからのサジェスト
-addressbar-locbar-suggest-sponsored-desc = 時折表示されるスポンサー付きのサジェストを通じて { -brand-short-name } をサポートしてください。
-
-# This string is used for a checkbox in the settings UI that opts the
-# user into "online" Firefox Suggest, allowing them to receive suggestions from
-# Mozilla's Merino server.
-# "Mozilla" is intentionally hardcoded to prevent forks from replacing it
-# with their own vendor name, since the online suggest is created and maintained
-# by Mozilla.
-addressbar-firefox-suggest-online =
-  .label = 入力中に Mozilla から候補を取得する
-
-addressbar-quickactions-learn-more = さらに詳しく
-
-addressbar-dismissed-suggestions-label = 非表示にしたサジェスト
-addressbar-restore-dismissed-suggestions-description = スポンサーと { -brand-short-name } からの非表示にしたサジェストを復元します。
-addressbar-restore-dismissed-suggestions-button =
-  .label = 復元
 
 ## Privacy Section - Content Blocking
 

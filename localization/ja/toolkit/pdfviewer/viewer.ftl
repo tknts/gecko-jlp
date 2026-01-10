@@ -180,23 +180,6 @@ pdfjs-printing-not-ready = 警告: PDF は印刷用に完全にロードされ�
 
 ## Tooltips and alt text for side panel toolbar buttons
 
-pdfjs-toggle-sidebar-button =
-    .title = サイドバーの切り替え
-pdfjs-toggle-sidebar-notification-button =
-    .title = サイドバーの切り替え (ドキュメントにアウトライン / 添付ファイル / レイヤーが含まれています)
-pdfjs-toggle-sidebar-button-label = サイドバーの切り替え
-pdfjs-document-outline-button =
-    .title = ドキュメントのアウトラインを表示（ダブルクリックですべての項目を展開／折りたたみ）
-pdfjs-document-outline-button-label = ドキュメントのアウトライン
-pdfjs-attachments-button =
-    .title = 添付ファイルを表示
-pdfjs-attachments-button-label = 添付ファイル
-pdfjs-layers-button =
-    .title = レイヤーを表示 (ダブルクリックで全レイヤーをデフォルト状態にリセット)
-pdfjs-layers-button-label = レイヤー
-pdfjs-thumbs-button =
-    .title = サムネイルを表示
-pdfjs-thumbs-button-label = サムネイル
 pdfjs-current-outline-item-button =
     .title = 現在のアウトライン項目を探す
 pdfjs-current-outline-item-button-label = 現在のアウトライン項目
@@ -240,16 +223,16 @@ pdfjs-find-reached-bottom = ドキュメントの最後に達しました。上�
 #   $total (Number) - the total number of matches in the document
 pdfjs-find-match-count =
     { $total ->
-        [one] { $current } of { $total } match
-       *[other] { $current } of { $total } matches
+        [one] { $total } 件中 { $current } 件目
+       *[other] { $total } 件中 { $current } 件目
     }
 
 # Variables:
 #   $limit (Number) - the maximum number of matches
 pdfjs-find-match-count-limit =
     { $limit ->
-        [one] More than { $limit } match
-       *[other] More than { $limit } matches
+        [one] { $limit } 件以上の候補があります
+       *[other] { $limit } 件以上の候補があります
     }
 
 pdfjs-find-not-found = フレーズが見つかりませんでした
@@ -292,7 +275,7 @@ pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", tim
 # (32000-1:2008 Table 169 – Annotation types).
 # Some common types are e.g.: "Check", "Text", "Comment", "Note"
 pdfjs-text-annotation-type =
-    .alt = [{ $type } Annotation]
+    .alt = [{ $type } 注釈]
 
 ## Password
 
@@ -551,9 +534,9 @@ pdfjs-editor-alt-text-settings-create-model-description = 画像が表示され�
 
 # Variables:
 #   $totalSize (Number) - the total size (in MB) of the AI model.
-pdfjs-editor-alt-text-settings-download-model-label = Alt text AI model ({ $totalSize } MB)
+pdfjs-editor-alt-text-settings-download-model-label = 代替テキスト AI モデル ({ $totalSize } MB)
 
-pdfjs-editor-alt-text-settings-ai-model-description = Runs locally on your device so your data stays private. Required for automatic alt text.
+pdfjs-editor-alt-text-settings-ai-model-description = データプライバシー保護のため、お使いのデバイス上でローカルに実行されます。自動代替テキストの生成に必要です。
 pdfjs-editor-alt-text-settings-delete-model-button = 削除
 pdfjs-editor-alt-text-settings-download-model-button = ダウンロード
 pdfjs-editor-alt-text-settings-downloading-model-button = ダウンロードしています…
@@ -700,5 +683,87 @@ pdfjs-editor-edit-comment-dialog-cancel-button = キャンセル
 
 ## Edit a comment button in the editor toolbar
 
-pdfjs-editor-edit-comment-button =
-    .title = コメントの編集
+pdfjs-editor-add-comment-button =
+    .title = コメントの追加
+
+## The view manager is a sidebar displaying different views:
+##  - thumbnails;
+##  - outline;
+##  - attachments;
+##  - layers.
+## The thumbnails view is used to edit the pdf: remove/insert pages, ...
+
+pdfjs-toggle-views-manager-button =
+    .title = サイドバーの表示切り替え
+pdfjs-toggle-views-manager-notification-button =
+    .title = サイドバーの表示切り替え (サムネイル/アウトライン/添付ファイル/レイヤーが含まれています)
+pdfjs-toggle-views-manager-button-label = サイドバーを切り替え
+
+pdfjs-views-manager-sidebar =
+    .aria-label = サイドバー
+pdfjs-views-manager-view-selector-button =
+    .title = 表示
+pdfjs-views-manager-view-selector-button-label = 表示
+pdfjs-views-manager-pages-title = ページ
+pdfjs-views-manager-outlines-title = 文書のアウトライン
+pdfjs-views-manager-attachments-title = 添付ファイル
+pdfjs-views-manager-layers-title = レイヤー
+
+pdfjs-views-manager-pages-option-label = ページ
+pdfjs-views-manager-outlines-option-label = 文書のアウトライン
+pdfjs-views-manager-attachments-option-label = 添付ファイル
+pdfjs-views-manager-layers-option-label = レイヤー
+
+pdfjs-views-manager-add-file-button =
+    .title = ファイルを追加
+pdfjs-views-manager-add-file-button-label = ファイルを追加
+
+# Variables:
+#   $count (Number) - the number of selected pages.
+pdfjs-views-manager-pages-status-action-label =
+    { $count ->
+        [one] 選択しています
+        *[other] { $count } 枚選択しています
+    }
+pdfjs-views-manager-pages-status-none-action-label = ページを選択
+pdfjs-views-manager-pages-status-action-button-label = 管理
+pdfjs-views-manager-pages-status-copy-button-label = コピー
+pdfjs-views-manager-pages-status-cut-button-label = 切り取り
+pdfjs-views-manager-pages-status-delete-button-label = 削除
+pdfjs-views-manager-pages-status-save-as-button-label = 名前を付けて保存…
+
+# Variables:
+#   $count (Number) - the number of selected pages to be cut.
+pdfjs-views-manager-status-undo-cut-label =
+    { $count ->
+        [one] ページを切り取りました
+        *[other] { $count } ページを切り取りました
+    }
+
+# Variables:
+#   $count (Number) - the number of selected pages to be copied.
+pdfjs-views-manager-pages-status-undo-copy-label =
+    { $count ->
+        [one] ページをコピーしました
+        *[other] { $count } ページをコピーしました
+    }
+
+# Variables:
+#   $count (Number) - the number of selected pages to be deleted.
+pdfjs-views-manager-pages-status-undo-delete-label =
+    { $count ->
+        [one] ページを削除しました
+        *[other] { $count } ページを削除しました
+    }
+
+pdfjs-views-manager-pages-status-waiting-ready-label = ファイルを準備しています…
+pdfjs-views-manager-pages-status-waiting-uploading-label = ファイルをアップロードしています…
+
+pdfjs-views-manager-status-warning-cut-label = 切り取りできませんでした。ページを更新してもう一度お試しください。
+pdfjs-views-manager-status-warning-copy-label = コピーできませんでした。ページを更新してもう一度お試しください。
+pdfjs-views-manager-status-warning-delete-label = 削除できませんでした。ページを更新してもう一度お試しください。
+pdfjs-views-manager-status-warning-save-label = 保存できませんでした。ページを更新してもう一度お試しください。
+pdfjs-views-manager-status-undo-button-label = 元に戻す
+pdfjs-views-manager-status-close-button =
+    .title = 閉じる
+pdfjs-views-manager-status-close-button-label = 閉じる

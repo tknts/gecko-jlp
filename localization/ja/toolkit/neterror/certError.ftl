@@ -6,7 +6,7 @@
 #   $hostname (string) - Hostname of the website with cert error.
 cert-error-intro = { $hostname } は無効なセキュリティ証明書を使用しています。
 
-cert-error-mitm-intro = ウェブサイトは認証局によって発行される証明書によってアイデンティティを証明します。
+cert-error-mitm-intro = ウェブサイトは証明書を使用して自身の身元を証明します。これらの証明書は認証局によって発行されます。
 
 cert-error-mitm-mozilla = { -brand-short-name } は完全にオープンな認証局 (CA) ストアを管理する非営利団体 Mozilla によって支援されています。CA ストアは、認証局がユーザーのセキュリティのためのベストプラクティスに従っていることを保証するのに役立ちます。
 
@@ -257,3 +257,8 @@ fp-certerror-pkix-not-yet-valid-why-dangerous-body = 提供された証明書は
 # Variables:
 #   $date (Date) - Device's clock date.
 fp-certerror-pkix-not-yet-valid-what-can-you-do-body = デバイスの時計は { DATETIME($date, month: "numeric", day: "numeric", year: "numeric") } の { DATETIME($date, timeStyle: "short") } に設定されています。これが正しい場合は、セキュリティ上の問題はおそらくサイト自体にあります。間違っている場合は、デバイスのシステム設定で変更できます。
+
+# This string appears after the following string: "What makes the site look dangerous?" (fp-certerror-why-site-dangerous)
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
+fp-certerror-invalid-cert-why-dangerous = { $hostname } の所有者が正しく設定を行っていないため、安全な接続を確立できません。
