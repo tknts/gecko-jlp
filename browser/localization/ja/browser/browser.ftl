@@ -1418,14 +1418,14 @@ trustpanel-blocker-see-all = すべて表示
 # Variables
 #  $host (String): the hostname of the site that is being displayed.
 trustpanel-blocker-header =
-    .title = { $host } のトラッキング防止
+    .title = { $host } でのトラッキングを防止
 
 ## Variables
 ##  $count (String): the number of trackers blocked.
 
 trustpanel-blocker-section-header2 = { $count ->
-  [one] このサイトで <span data-l10n-name="count">{ $count }</span> 個のトラッカーをブロックしました
-  *[other] このサイトで <span data-l10n-name="count">{ $count }</span> 個のトラッカーをブロックしました
+  [one] このサイトでトラッカーをブロックしました
+  *[other] このサイトで <span data-l10n-name="count">{ $count }</span> 個のトラッカーをブロックしました
 }
 trustpanel-blocker-description = { -brand-product-name } は企業による追跡を減らすべきだと考えています。そのため、可能な限りブロックします。
 trustpanel-blocked-header = { -brand-product-name } が以下をブロックしました：

@@ -127,7 +127,7 @@ extension-controlled-enable = 拡張機能を有効にするには、<img data-l
 extension-controlled-enable-2 = この拡張機能を再度有効にするには、<a data-l10n-name="addons-link">拡張機能とテーマ</a> を開いてください。
 # This string is shown to notify the user that their home page or new tab preferences
 # are being controlled by an extension.
-extension-controlling-homepage = { $name  がホームページ設定の一部を管理しています。
+extension-controlling-homepage = { $name } がホームページ設定の一部を管理しています。
 
 ## Preferences UI Search Results
 
