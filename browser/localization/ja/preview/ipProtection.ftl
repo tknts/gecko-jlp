@@ -2,20 +2,15 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# As this feature is currently not localized, this brand is temporarily defined
-# in this file. It should be moved to toolkit/toolkit/branding/brandings.ftl
-# before exposing it to localization
--firefox-vpn-brand-name = Firefox VPN
-
 ## Toolbar button tooltip reflects VPN state
 
 ipprotection-button =
-  .label = { -firefox-vpn-brand-name }
-  .tooltiptext = { -firefox-vpn-brand-name }
+  .label = VPN
+  .tooltiptext = VPN
 
 ipprotection-button-error =
-  .label = { -firefox-vpn-brand-name } をオンにする
-  .tooltiptext = { -firefox-vpn-brand-name } をオンにします
+  .label = VPN をオンにする
+  .tooltiptext = VPN をオンにします
 
 ##
 
@@ -24,13 +19,13 @@ ipprotection-experiment-badge =
   .label = ベータ
 
 ipprotection-help-button =
-  .tooltiptext = { -firefox-vpn-brand-name } のサポートページを開きます
+  .tooltiptext = VPN のサポートページを開きます
 
-ipprotection-title = { -firefox-vpn-brand-name }
+ipprotection-title = VPN
 
 ## Feature introduction callout
 
-ipprotection-feature-introduction-title = ブラウザーに組み込まれた無料の { -firefox-vpn-brand-name }
+ipprotection-feature-introduction-title = ブラウザーに組み込まれた無料の VPN
 ipprotection-feature-introduction-link-text = 新しい <a data-l10n-name="learn-more-vpn">組み込み型 VPN</a> の先行アクセスに選ばれました。位置情報を隠し、{ -brand-product-name }での閲覧に暗号化を追加します。サインインして開始してください。
 ipprotection-feature-introduction-button-primary = 次へ
 ipprotection-feature-introduction-button-secondary-not-now = 今はしない
@@ -38,11 +33,7 @@ ipprotection-feature-introduction-button-secondary-no-thanks = 利用しない
 
 ## Panel
 
-upgrade-vpn-title = デバイス全体を保護して安心を手に入れましょう
-upgrade-vpn-paragraph = <a data-l10n-name="learn-more-vpn">{ -mozilla-vpn-brand-name }</a> を使用して、ブラウザー以外も保護しましょう。VPN ロケーションのカスタマイズ、サイト固有のロケーション設定、自宅や公共 Wi-Fi での強化されたセキュリティをお楽しみください。
-upgrade-vpn-button = アップグレード
-
-signed-out-vpn-title = サインインして無料の{ -firefox-vpn-brand-name }でブラウザーのプライバシーを強化しましょう
+signed-out-vpn-title = ログインして、無料の VPN でブラウザーのプライバシーを強化しましょう
 signed-out-vpn-message = 新しい <a data-l10n-name="learn-more-vpn-signed-out">組み込み型 VPN</a> の先行アクセスに選ばれました。位置情報を隠し、トラフィックを暗号化してブラウザーの保護を強化しましょう。
 sign-in-vpn = 次へ
 
@@ -57,9 +48,6 @@ ipprotection-connection-status-off =
 # Location refers to the VPN server geographical position.
 ipprotection-location-title =
   .title = 最速のサーバーに基づいて選択されたロケーション
-
-ipprotection-site-settings-control =
-  .label = ウェブサイトの設定
 
 # Variables:
 #   $sitename (String) - The name of the site that we're currently on (eg. example.com)
@@ -85,6 +73,14 @@ ipprotection-button-turn-vpn-off = VPN をオフにする
 # Button to turn on the VPN
 ipprotection-button-turn-vpn-on = VPN をオンにする
 
+## VPN paused state
+
+ipprotection-connection-status-paused-title = VPN を一時停止しました
+ipprotection-connection-status-paused-description = VPN のデータ使用量が上限の 150 GB に達しました。月末にリセットされます。
+upgrade-vpn-title = ブラウザーを超えた高度な保護を手に入れましょう
+upgrade-vpn-description = VPN サーバーの場所を選択でき、最大 5 台のデバイスのすべてのアプリで VPN を使用できます。自宅でも公共 Wi-Fi でも、あらゆるネットワークで安全を保ちます。
+upgrade-vpn-button = { -mozilla-vpn-brand-name } を試す
+
 ## Messages and errors
 
 ipprotection-message-generic-error =
@@ -102,7 +98,7 @@ ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name }
 ## IP Protection Settings
 
 ip-protection-description =
-  .label = { -firefox-vpn-brand-name }
+  .label = VPN
   .description = { -brand-short-name } での閲覧時に位置情報を隠し、暗号化を追加します。
 ip-protection-learn-more = さらに詳しく
 
@@ -134,8 +130,8 @@ ip-protection-upgrade-link =
 ## IP Protection dialogs
 
 ip-protection-exceptions-dialog-window =
-  .title = { -firefox-vpn-brand-name } を使用するウェブサイト
-ip-protection-exclusions-desc = このリストにあるウェブサイト以外すべてで VPN を使用します。VPN パネルで任意のサイトに対して { -firefox-vpn-brand-name } をオンまたはオフにすることで、このリストにウェブサイトを追加します。
+  .title = VPN を使用するウェブサイト
+ip-protection-exclusions-desc = このリストにあるウェブサイトを除き、すべてのウェブサイトで VPN を使用します。VPN パネルで各サイトの VPN のオン/オフを切り替えることで、このリストにウェブサイトを追加できます。
 
 ipprotection-site-settings-title =
   .title = VPN サイト設定

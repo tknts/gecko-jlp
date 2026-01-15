@@ -114,6 +114,8 @@ policy-DNSOverHTTPS = DNS over HTTPS (DoH) の設定を構成します。
 
 policy-DontCheckDefaultBrowser = 起動時にデフォルトのブラウザーか確認する機能を無効にします。
 
+policy-DontCheckDefaultBrowser = 起動時の既定のブラウザー確認を無効にします。
+
 policy-DownloadDirectory = ダウンロードの保存先を設定しロックします。
 
 # “lock” means that the user won’t be able to change this setting

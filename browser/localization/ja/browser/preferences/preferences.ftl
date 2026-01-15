@@ -147,16 +147,6 @@ always-check-default =
     .label = 起動時に { -brand-short-name } が既定のブラウザーか確認する
     .accesskey = y
 
-is-default-browser =
-    .message = { -brand-short-name } は既定のブラウザーに設定されています
-
-is-not-default-browser =
-    .message = { -brand-short-name } は既定のブラウザーに設定されていません
-
-set-as-my-default-browser =
-    .label = 既定のブラウザーにする…
-    .accesskey = D
-
 startup-restore-windows-and-tabs =
     .label = 前回開いていたウィンドウとタブを開く
     .accesskey = s
@@ -808,6 +798,21 @@ home-new-windows-tabs-header = 新しいウィンドウとタブ
 
 home-new-windows-tabs-description2 = ホームページと新しいウィンドウ、新しいタブを開いたときに表示するものを選択します。
 
+## Home Section - Default Browser
+
+home-default-browser-title =
+    .label = 既定のブラウザー
+
+is-default-browser-2 =
+    .message = { -brand-short-name } は既定のブラウザーに設定されています。
+
+is-not-default-browser-2 =
+    .message = { -brand-short-name } は既定のブラウザーに設定されていません。
+
+set-as-my-default-browser-2 =
+    .label = 既定のブラウザーにする
+    .accesskey = D
+
 ## Home Section - Home Page Customization
 
 home-homepage-title =
@@ -851,8 +856,15 @@ home-homepage-custom-homepage-button =
 
 home-custom-homepage-header = カスタム ホームページ
 
+home-custom-homepage-subpage =
+    .heading = カスタム ホームページ
+
 # Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
 home-custom-homepage-subheader = ウェブサイトのアドレス
+
+# Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
+home-custom-homepage-card =
+    .heading = ウェブサイトのアドレス
 
 home-custom-homepage-address =
     .placeholder = アドレスを入力
@@ -1024,9 +1036,8 @@ search-show-suggestions-private-windows-2 =
 search-suggestions-cant-show-2 =
     .message = 履歴を記憶しないように { -brand-short-name } が設定されているため、ロケーションバーの結果に検索候補は表示されません。
 
-
 addressbar-header-1 =
-    .label = アドレスバー
+    .label = アドレス バー
     .description = アドレスバーに表示する候補を選択します
 
 # When Firefox Suggest is enabled, this replaces `addressbar-header-1`.
@@ -1091,8 +1102,10 @@ addressbar-restore-dismissed-suggestions-button-2 =
     .label = 候補を元に戻す
 
 search-one-click-header2 = 検索ショートカット
-
 search-one-click-desc = キーワードの入力時に、アドレスバーや検索バーの下に表示される代替検索エンジンを選択します。
+search-one-click-header-3 =
+    .label = 追加の検索エンジン
+    .description = アドレスバーに表示する検索エンジンとショートカットを選択してください。
 
 search-choose-engine-column =
     .label = 検索エンジン
@@ -1108,6 +1121,9 @@ search-remove-engine =
     .accesskey = R
 search-add-engine =
     .label = 追加
+    .accesskey = A
+search-add-engine-2 =
+    .label = 検索エンジンを追加
     .accesskey = A
 search-edit-engine =
     .label = 編集
@@ -1477,6 +1493,8 @@ forms-primary-pw-turn-off =
 # This operation requires the user to authenticate with the operating system (device sign-in)
 forms-os-reauth =
     .label = パスワードの自動入力と管理にデバイスのサインインを要求する
+forms-os-reauth-2 =
+    .label = パスワードの管理にデバイスへのサインインを必要とする
 forms-primary-pw-learn-more-link = さらに詳しく
 # This string uses the former name of the Primary Password feature
 # ("Master Password" in English) so that the preferences can be found
@@ -1924,6 +1942,10 @@ collection-studies2 =
     .label = スタディーをインストールして実行する
 collection-studies-description = すべてのユーザーにリリースされる前に、機能やアイデアを試すことができます。
 collection-studies-link = { -brand-short-name } のスタディーを表示
+
+nimbus-rollouts-enabled =
+    .label = アップデートの合間に、{ -brand-short-name } が機能、パフォーマンス、安定性を向上させることを許可する
+nimbus-rollouts-enabled-description = 変更はリモートで適用されます。
 
 addon-recommendations2 =
     .label = パーソナライズされた拡張機能の推奨を許可する

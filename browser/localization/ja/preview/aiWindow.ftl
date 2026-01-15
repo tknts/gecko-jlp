@@ -67,3 +67,15 @@ aiwindow-firstrun-model-allpurpose-body = 素早い処理から複雑なタス�
 aiwindow-firstrun-model-personal-label = パーソナライズ
 aiwindow-firstrun-model-personal-body = ユーザーの好みを学習し、パーソナライズするのに最適です
 aiwindow-firstrun-button = 始める
+
+## Assistant Message footer
+
+aiwindow-memories-used = 使用されたメモリー
+aiwindow-retry-without-memories =
+    .label = メモリーを使用せずに再試行
+aiwindow-retry =
+  .tooltiptext = 再試行します
+  .aria-label = 再試行
+aiwindow-copy-message =
+    .tooltiptext = コピーします
+    .aria-label = メッセージをコピー

@@ -369,11 +369,12 @@ feature-highlight-wallpaper =
 
 # Variables:
 #   $provider (string) - Service provider for weather data
-newtab-weather-see-forecast =
-    .title = { $provider } で天気予報を見る
+newtab-weather-see-forecast-description =
+    .title = { $provider } で予報を見る
+    .aria-description = { $provider } ∙ 広告
 # Variables:
 #   $provider (string) - Service provider for weather data
-newtab-weather-sponsored = { $provider } ∙ スポンサー
+newtab-weather-sponsored = { $provider } ∙ 広告
 newtab-weather-menu-change-location = 地域を変更
 newtab-weather-change-location-search-input-placeholder =
     .placeholder = 地域を検索
