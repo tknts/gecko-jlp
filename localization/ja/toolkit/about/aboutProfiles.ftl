@@ -28,16 +28,17 @@ profiles-rootdir = ルート ディレクトリ
 # part of a backup scheme.)
 # In case localDir and rootDir are equal, localDir is not shown.
 profiles-localdir = ローカル ディレクトリ
-profiles-current-profile = このプロファイルは使用中のため削除できません。
-profiles-in-use-profile = このプロファイルは別のアプリケーションで使用されているため削除できません。
+profiles-current-profile = これは現在使用中のプロファイルです。削除することはできません。
+profiles-in-use-profile = このプロファイルは別のアプリケーションで使用中のため、削除することはできません。
+profiles-cannot-delete-profile = 他のプロファイルとリンクされているプロファイルを削除することはできません。
 
 profiles-rename = 名前の変更
 profiles-remove = 削除
-profiles-set-as-default = デフォルトのプロファイルに設定
+profiles-set-as-default = 既定のプロファイルに設定
 profiles-launch-profile = 新しいブラウザーでプロファイルを起動
 
-profiles-cannot-set-as-default-title = デフォルトに設定できません
-profiles-cannot-set-as-default-message = { -brand-short-name } のデフォルト プロファイルを変更できませんでした。
+profiles-cannot-set-as-default-title = 既定のプロファイルに設定できません
+profiles-cannot-set-as-default-message = { -brand-short-name } の既定のプロファイルは変更できません。
 
 profiles-yes = はい
 profiles-no = いいえ

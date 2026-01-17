@@ -9,10 +9,8 @@ global-privacy-control-description =
     .label = 私のデータを販売または共有しないようウェブサイトに通知します
     .accesskey = s
 
-non-technical-privacy-header = ウェブサイトのプライバシー設定
-
-non-technical-privacy-label =
-     .aria-label = { non-technical-privacy-header }
+non-technical-privacy-group =
+    .label = ウェブサイトのプライバシー設定
 
 # Do not translate.
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
@@ -59,6 +57,10 @@ category-privacy =
 pane-sync-title3 = 同期
 category-sync3 =
     .tooltiptext = { pane-sync-title3 } の設定です
+
+pane-ai-controls-title = AI コントロール
+category-ai-controls =
+    .tooltiptext = { pane-ai-controls-title }
 
 settings-pane-labs-title = { -firefoxlabs-brand-name }
 settings-category-labs =
@@ -141,7 +143,8 @@ search-results-help-link = 助けが必要ですか? <a data-l10n-name="url">{ -
 
 ## General Section
 
-startup-header = 起動
+startup-group =
+    .label = 起動
 
 always-check-default =
     .label = 起動時に { -brand-short-name } が既定のブラウザーか確認する
@@ -312,9 +315,9 @@ browser-layout-show-sidebar-desc = メインビューを離れることなく、
 
 language-and-appearance-header = 言語とデザイン
 
-preferences-web-appearance-header = ウェブサイトのデザイン
-
-preferences-web-appearance-description = 一部のウェブサイトは、設定に基づいて配色を調整できます。これらのサイトで使用したい配色を選択してください。
+appearance-group =
+  .label = ウェブサイトのデザイン
+  .description = 一部のウェブサイトは、ユーザーの設定に合わせて配色を調整できます。それらのサイトで使用する配色を選択してください。
 
 preferences-web-appearance-choice-auto2 =
   .label = 自動
@@ -624,7 +627,8 @@ applications-ask-before-handling =
     .label = ファイルを開くか保存するかを確認する
     .accesskey = A
 
-drm-content-header = デジタル著作権管理 (DRM) コンテンツ
+drm-group =
+  .label = デジタル著作権管理 (DRM) コンテンツ
 
 play-drm-content =
     .label = DRM 制御のコンテンツを再生する
@@ -698,7 +702,8 @@ support-share-ideas =
 
 ## General Section - Performance
 
-performance-title = パフォーマンス
+performance-group =
+  .label = パフォーマンス
 
 performance-use-recommended-settings-checkbox =
     .label = 推奨されたパフォーマンス設定を使用する
@@ -725,9 +730,8 @@ performance-default-content-process-count =
 
 ## General Section - Browsing
 
-browsing-title = ブラウジング
-browsing-group-label =
-    .aria-label = ブラウジング
+browsing-group =
+  .label = ブラウジング
 
 browsing-use-autoscroll =
     .label = 自動スクロール機能を使用する
@@ -782,11 +786,9 @@ browsing-cfr-features =
 
 ## General Section - Proxy
 
-network-settings-title = ネットワークの設定
-
-network-proxy-connection-description = { -brand-short-name } がインターネットに接続する方法を変更します。
-
-network-proxy-connection-learn-more = さらに詳しく
+network-proxy-group =
+  .label = ネットワークの設定
+  .description = { -brand-short-name } のインターネット接続方法を設定します。
 
 network-proxy-connection-settings =
     .label = 設定…
@@ -1540,7 +1542,9 @@ autofill-creditcard-os-auth-dialog-caption = { -brand-full-name }
 
 ## Privacy section - Autofill
 
-autofill-payment-methods-title = 支払い方法
+payments-group =
+    .label = 支払い方法
+
 autofill-payment-methods-header =
     .aria-label = 支払い方法
 autofill-payment-methods-checkbox-message-2 =
@@ -1562,6 +1566,10 @@ payments-list-header =
 payments-delete-payment-prompt-title = この支払い方法を削除しますか?
 payments-delete-payment-prompt-confirm-button = 削除
 payments-delete-payment-prompt-cancel-button = キャンセル
+payments-delete-payment-button-label =
+    .aria-label = 削除
+payments-edit-payment-button-label =
+    .aria-label = 編集
 
 # This message is displayed when no payment methods such as credit card are stored in Firefox
 payments-no-payments-stored-message =
@@ -1576,9 +1584,8 @@ payment-moz-box-item =
   .label = { $cardNumber }
   .description = { $expDate }
 
-autofill-addresses-title = 住所など
-autofill-addresses-header =
-    .aria-label = 住所など
+addresses-group =
+    .label = 住所など
 autofill-addresses-checkbox-message =
     .label = 住所を保存して自動入力
     .accesskey = S
@@ -1612,18 +1619,8 @@ address-moz-box-item =
 
 ## Privacy Section - History
 
-history-header = 履歴
-
-# This label is followed, on the same line, by a dropdown list of options
-# (Remember history, etc.).
-# In English it visually creates a full sentence, e.g.
-# "Firefox will" + "Remember history".
-#
-# If this doesn't work for your language, you can translate this message:
-#   - Simply as "Firefox", moving the verb into each option.
-#     This will result in "Firefox" + "Will remember history", etc.
-#   - As a stand-alone message, for example "Firefox history settings:".
-history-remember-label2 = { -brand-short-name } に
+history-group =
+    .label = 履歴
 
 history-remember-option-all =
     .label = 履歴を記録する
@@ -1632,17 +1629,17 @@ history-remember-option-never =
 history-remember-option-custom =
     .label = 履歴のカスタム設定を使用する
 
-history-remember-description3 =
-    .aria-label = { history-remember-label2 }
-    .description = { -brand-short-name } が閲覧、ダウンロード、フォーム、検索の履歴を記憶します。
+history-remember-description4 =
+    .aria-label = { history-group.label }
+    .description = { -brand-short-name } は、表示したページ、ダウンロード、フォーム入力、検索の履歴を記憶します。
 
-history-dontremember-description3 =
-    .aria-label = { history-remember-label2 }
-    .description = { -brand-short-name } はプライベートブラウジングと同じ設定を使用し、ウェブサイトの閲覧履歴を一切記憶しません。
+history-dontremember-description4 =
+    .aria-label = { history-group.label }
+    .description = { -brand-short-name } はプライベートブラウジングと同じ設定を使用します。ウェブの閲覧履歴は一切記憶そません。
 
-history-custom-description3 =
-    .aria-label = { history-remember-label2 }
-    .description = { -brand-short-name } が閲覧、ダウンロード、フォーム、検索の履歴について詳細設定を使用します。
+history-custom-description4 =
+    .aria-label = { history-group.label }
+    .description = { -brand-short-name } は、表示したページ、ダウンロード、フォーム入力、検索の履歴についてカスタム設定を使用します。
 
 history-private-browsing-permanent =
     .label = 常にプライベートブラウジングモードを使用する
@@ -1670,10 +1667,8 @@ history-clear-button =
 
 ## Privacy Section - Site Data
 
-sitedata-header = Cookie とサイトのデータ
-
-sitedata-label =
-     .aria-label = { sitedata-header }
+cookies-site-data-group =
+    .label = Cookie とサイトのデータ
 
 sitedata-total-size-calculating = サイトデータとキャッシュのサイズを計算しています…
 
@@ -1977,7 +1972,8 @@ privacy-segmentation-radio-on =
 
 security-header = セキュリティ
 
-security-browsing-protection = 詐欺的なコンテンツと危険なソフトウェアからの保護
+browsing-protection-group =
+    .label = 詐欺的なコンテンツと危険なソフトウェアからの保護
 
 security-enable-safe-browsing =
     .label = 危険で詐欺的なコンテンツをブロックする
@@ -2022,13 +2018,14 @@ space-alert-under-5gb-message2 = <strong>{ -brand-short-name } を実行する�
 
 ## Privacy Section - HTTPS-Only
 
-httpsonly-header = HTTPS-Only モード
+httpsonly-group =
+    .label = HTTPS-Only モード
+    .description = ウェブサイトへの安全な接続のみを許可します。{ -brand-short-name } は安全でない接続を行う前に確認を表示します。
 
-httpsonly-label =
-    .aria-label = { httpsonly-header }
-    .description = ウェブサイトへの安全な接続のみを許可します。{ -brand-short-name } は安全でない接続を行う前に確認を求めます。
+httpsonly-label2 =
+    .aria-label = { httpsonly-group.label }
 
-httpsonly-learn-more2 = HTTPS-Only モードの仕組み
+httpsonly-learn-more2 = HTTPS-Only の仕組み
 
 httpsonly-radio-enabled =
     .label = すべてのウィンドウで HTTPS-Only モードを有効にする
@@ -2043,6 +2040,8 @@ httpsonly-radio-disabled3 =
 ## DoH Section
 
 preferences-doh-header = DNS over HTTPS
+dns-over-https-group =
+    .label = DNS over HTTPS
 
 preferences-doh-description2 = Domain Name System (DNS) over HTTPS は、暗号化された接続を介してドメイン名のリクエストを送信することで、安全な DNS を提供し、他の人がアクセスしようとしているウェブサイトを見ることを困難にします。
 
@@ -2108,3 +2107,77 @@ preferences-doh-manage-exceptions =
 
 desktop-folder-name = デスクトップ
 downloads-folder-name = ダウンロード
+
+## AI controls page
+
+preferences-ai-controls-header =
+    .heading = { pane-ai-controls-title }
+
+preferences-ai-controls-description = { -brand-short-name } では、AI を活用した機能を使用するかどうかを含め、常にユーザー自身が選択できます。その他のコントロール機能も近日中に追加予定です。
+
+preferences-ai-controls-block-ai-label = AI 強化機能をブロックする
+preferences-ai-controls-block-ai =
+    .label = { preferences-ai-controls-block-ai-label }
+preferences-ai-controls-block-ai-description = ブロックすると、{ -brand-short-name } の新規または現在の AI 強化機能、およびそれらに関するポップアップが表示されなくなります。検索候補やおすすめなどの従来の機械学習機能の制御方法や、対象となる機能の詳細は <a data-l10n-name="link">こちらをご確認ください</a>。
+
+preferences-ai-controls-blocked-message =
+    .message = 新規および現在の AI 強化機能はデフォルトでブロックされています。特定の機能を解除するには、以下のコントロールを使用してください。
+
+preferences-ai-controls-on-device-group =
+    .label = デバイス上の AI
+    .description = これらは、機能を使用する際にデバイスへダウンロードされる小型の AI モデルを使用します。この手法によりプライバシーを保護できます。
+
+preferences-ai-controls-translations-control =
+    .label = 翻訳
+    .description = お好みの言語でシームレスにウェブを閲覧できます。
+preferences-ai-controls-translations-more-link = その他の翻訳設定
+
+preferences-ai-controls-pdfjs-control =
+    .label = { -brand-short-name } PDF ビューアーの画像代替テキスト
+    .description = PDF に画像を追加する際、アクセシビリティを高めるための説明文を追加します。
+
+preferences-ai-controls-tab-group-suggestions-control =
+    .label = タブグループの提案
+    .description = タブの名前付けや整理に関する提案を表示します。
+
+preferences-ai-controls-key-points-control =
+    .label = リンクプレビューの要点
+    .description = リンクを開く前に素早く要約を確認できます。
+
+preferences-ai-controls-sidebar-chatbot-group =
+    .label = サイドバーの AI チャットボットプロバイダー
+    .description = ブラウジング中にチャットボットを表示したままにできます。Anthropic Claude、ChatGPT、Copilot、Google Gemini、Le Chat Mistral から選択できます。
+
+preferences-ai-controls-sidebar-chatbot-control =
+    .label = サイドバーのチャットボット
+
+# This option means that a user will see the feature and can use it.
+preferences-ai-controls-state-available =
+    .label = 利用可能
+# This option means a user has opted in to use the feature.
+preferences-ai-controls-state-enabled =
+    .label = 有効
+# This option means the user won't see and can't use the feature. For on-device AI, any models already downloaded are removed.
+preferences-ai-controls-state-blocked =
+    .label = ブロック済み
+
+preferences-ai-controls-state-description-before = オプションの意味:
+preferences-ai-controls-state-description-available = <strong>利用可能:</strong> 機能が表示され、使用できる状態です。
+preferences-ai-controls-state-description-enabled = <strong>有効:</strong> 機能の使用を選択している状態です。
+preferences-ai-controls-state-description-blocked = <strong>ブロック済み:</strong> 機能は表示されず、使用もできません。デバイス上の AI については、ダウンロード済みのモデルはすべて削除されます。
+
+preferences-ai-controls-block-confirmation-heading = AI 強化機能をブロックしますか？
+preferences-ai-controls-block-confirmation-description = { -brand-short-name } の新規または現在の AI 強化機能、およびそれらに関するポップアップが表示されなくなります。ブロック後も、使い続けたい機能は個別に解除できます。
+
+preferences-ai-controls-block-confirmation-features-start = ブロックされる機能:
+preferences-ai-controls-block-confirmation-translations = 翻訳
+preferences-ai-controls-block-confirmation-pdfjs = { -brand-short-name } PDF ビューアーの画像代替テキスト
+preferences-ai-controls-block-confirmation-tab-group-suggestions = タブグループのサジェスト
+preferences-ai-controls-block-confirmation-key-points = リンクプレビューの要点
+preferences-ai-controls-block-confirmation-sidebar-chatbot = サイドバーのチャットボットプロバイダー
+preferences-ai-controls-block-confirmation-features-after = ブロックすると、{ -brand-short-name } が提供する AI を利用する拡張機能にも影響します。
+
+preferences-ai-controls-block-confirmation-cancel =
+    .label = キャンセル
+preferences-ai-controls-block-confirmation-confirm =
+    .label = ブロック

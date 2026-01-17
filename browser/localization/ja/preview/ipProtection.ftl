@@ -122,10 +122,9 @@ ip-protection-autostart-checkbox =
 ip-protection-autostart-private-checkbox =
   .label = プライベートウィンドウを使用している時
 
-ip-protection-contact-support-link =
-  .label = サポートに問い合わせる
-ip-protection-upgrade-link =
-  .label = { -mozilla-vpn-brand-name } にアップグレード
+ip-protection-vpn-upgrade-link =
+  .label = { -mozilla-vpn-brand-name } で { -brand-short-name } 以外でもさらなる保護を
+  .description = 自宅でも公共 Wi-Fi でも、最大 5 台のデバイスのすべてのアプリに保護を追加し、VPN 接続先を自由に選択できます。
 
 ## IP Protection dialogs
 

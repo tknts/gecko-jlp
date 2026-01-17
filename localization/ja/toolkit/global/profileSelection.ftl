@@ -36,3 +36,6 @@ profile-manager-work-offline =
 profile-manager-use-selected =
   .label = 選択されたプロファイルを次回も使用する
   .accesskey = s
+
+profile-has-selectable-profiles-title = 他のプロファイルとリンクされているプロファイルを削除することはできません
+profile-has-selectable-profiles-message = このプロファイルを削除するには、プロファイルを開き、{ -brand-short-name } メニューのプロファイルセクションから [プロファイルを管理] を選択してください。そこで作成した追加のプロファイルをすべて削除した後、about:profiles に戻ってこのプロファイルを削除できます。

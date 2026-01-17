@@ -169,3 +169,7 @@ sanitize-everything-warning = すべての履歴を消去しました。
 # Recent History dialog, provided that the user has modified the default set of
 # history items to clear.
 sanitize-selected-warning = 選択されたすべての項目を消去しました。
+
+# Label shown next to the loading spinner while calculating the size of cached data
+# and cookies in the clear data dialog.
+sanitize-calculating-size = Calculating…

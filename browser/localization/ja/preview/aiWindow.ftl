@@ -55,6 +55,12 @@ aiwindow-input-cta-label-navigate = ナビゲート
 smartbar-placeholder =
     .placeholder = 質問、検索、または URL を入力
 
+## Website Chip
+
+aiwindow-website-chip-placeholder = タブまたはサイトをタグ付け
+aiwindow-website-chip-remove-button =
+    .aria-label = 削除
+
 ## Firstrun onboarding
 
 aiwindow-firstrun-title = スマート ウィンドウへようこそ
@@ -79,3 +85,8 @@ aiwindow-retry =
 aiwindow-copy-message =
     .tooltiptext = コピーします
     .aria-label = メッセージをコピー
+
+## Ask Toolbar Button
+
+aiwindow-ask-button =
+    .label = 質問する
