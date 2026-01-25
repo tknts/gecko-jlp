@@ -29,22 +29,6 @@ urlbar-group-shortcuts =
 urlbar-group-best-match =
   .label = おすすめ
 
-# Label shown above an extension suggestion in the urlbar results (an
-# alternative phrasing is "Extension for Firefox"). It's singular since only one
-# suggested extension is displayed.
-urlbar-group-addon =
-  .label = { -brand-product-name } の拡張機能
-
-# Label shown above a MDN suggestion in the urlbar results.
-urlbar-group-mdn =
-  .label = おすすめのリソース
-
-# A label shown above urlbar suggestions for businesses and other locations
-# in the user's city or a city they included in their search string (e.g., Yelp
-# suggestions).
-urlbar-group-local =
-  .label = 地域のおすすめ
-
 # A message that replaces a result when the user dismisses a single suggestion.
 firefox-suggest-dismissal-acknowledgment-one = フィードバックをありがとうございます。このサジェストは今後表示されません。
 
@@ -108,6 +92,8 @@ firefox-suggest-command-dont-show-this-suggestion =
   .label = このサジェストを表示しない
 firefox-suggest-command-dont-show-any-suggestions =
   .label = すべてのサジェストを表示しない
+firefox-suggest-command-dont-show-addons =
+  .label = { -brand-product-name } の拡張機能のサジェストを表示しない
 
 ## These strings are used for add-on suggestions in the urlbar.
 

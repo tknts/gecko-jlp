@@ -172,4 +172,4 @@ sanitize-selected-warning = 選択されたすべての項目を消去しまし�
 
 # Label shown next to the loading spinner while calculating the size of cached data
 # and cookies in the clear data dialog.
-sanitize-calculating-size = Calculating…
+sanitize-calculating-size = 計算しています…

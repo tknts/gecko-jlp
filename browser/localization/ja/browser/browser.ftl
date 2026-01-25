@@ -91,9 +91,6 @@ urlbar-result-menu-tip-get-help =
 urlbar-result-menu-dismiss-suggestion =
     .label = このサジェストを削除
     .accesskey = D
-urlbar-result-menu-learn-more-about-firefox-suggest =
-    .label = { -firefox-suggest-brand-name } について、さらに詳しく
-    .accesskey = L
 urlbar-result-menu-manage-firefox-suggest =
     .label = { -firefox-suggest-brand-name } を管理
     .accesskey = M
@@ -600,8 +597,9 @@ urlbar-result-action-search-in-private = プライベート ウィンドウで�
 #  $engine (String): the name of a search engine
 urlbar-result-action-search-w-engine = { $engine } で検索
 urlbar-result-action-sponsored = スポンサー
-urlbar-result-action-switch-tab = タブを切り替える
-urlbar-result-action-visit = 訪問
+urlbar-result-action-switch-tab = タブへ切り替え
+urlbar-result-action-move-tab-to-split-view = タブを分割ビューに移動
+urlbar-result-action-visit = 移動
 # "Switch to tab with container" is used when the target tab is located in a
 # different container.
 # Variables
@@ -635,6 +633,9 @@ urlbar-result-action-tabtosearch-other-engine = アドレスバーから直接 {
 urlbar-result-action-copy-to-clipboard = コピー
 # The string returned for an undefined calculator result such as when dividing by 0
 urlbar-result-action-undefined-calculator-result = 未定義
+
+# The sub title of an add-on suggestion in the urlbar.
+urlbar-result-addons-subtitle = { -brand-product-name } 拡張機能
 
 # The title of a weather suggestion in the urlbar. The temperature and unit
 # substring should be inside a <strong> tag. If the temperature and unit are not
@@ -865,17 +866,10 @@ urlbar-group-recent-searches =
 urlbar-group-trending =
   .label = { $engine } でトレンド検索
 
-# Label shown above sponsored suggestions in the urlbar results.
-urlbar-group-sponsored =
-  .label = スポンサー
-
 # The result menu labels shown next to trending results.
 urlbar-result-menu-trending-dont-show =
     .label = トレンド検索を表示しない
     .accesskey = D
-urlbar-result-menu-trending-why =
-    .label = これが表示されるのはなぜですか?
-    .accesskey = W
 
 # A message that replaces a result when the user dismisses all suggestions of a
 # particular type.

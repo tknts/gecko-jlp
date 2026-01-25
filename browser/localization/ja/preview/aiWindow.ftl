@@ -22,17 +22,17 @@ menu-history-chats =
 menu-history-chats-recent =
     .label = 最近のチャット
 
-## AI Window Toggle Button
+## Smart Window Toggle Button
 
 toolbar-button-ai-window-toggle =
-    .label = AI ウィンドウ
-    .tooltiptext = AI ウィンドウとクラシックウィンドウを切り替えます。
+    .label = スマート ウィンドウ
+    .tooltiptext = スマート ウィンドウとクラシック ウィンドウを切り替えます
 
 ai-window-toggleview-switch-classic =
     .label = クラシック ウィンドウ
 
 ai-window-toggleview-switch-ai =
-    .label = AI ウィンドウ
+    .label = スマート ウィンドウ
 
 ai-window-toggleview-switch-private =
     .label = プライベート ウィンドウ
@@ -40,7 +40,7 @@ ai-window-toggleview-switch-private =
 ai-window-toggleview-open-private =
     .label = 新しいプライベート ウィンドウを開く
 
-ai-window-toggleview-status-label-active = AI ウィンドウ
+ai-window-toggleview-status-label-active = スマート ウィンドウ
 
 ai-window-toggleview-status-label-inactive = クラシック ウィンドウ
 
@@ -90,3 +90,12 @@ aiwindow-copy-message =
 
 aiwindow-ask-button =
     .label = 質問する
+
+## Memories toggle button
+
+aiwindow-memories-on =
+    .tooltiptext = メモリ機能をオンにします
+    .aria-label = メモリーオン
+aiwindow-memories-off =
+    .tooltiptext = メモリ機能をオフにします
+    .aria-label = メモリーオフ

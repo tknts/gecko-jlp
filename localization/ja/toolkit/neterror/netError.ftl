@@ -90,8 +90,7 @@ neterror-unknown-protocol = このアドレスを開くには、他のソフト�
 
 neterror-redirect-loop = この問題は Cookie の受け入れを無効にするか拒否することによって発生することがあります。
 
-neterror-unknown-socket-type-psm-installed = システムに Personal Security Manager がインストールされていることを確認してください。
-neterror-unknown-socket-type-server-config = これはサーバーの構成が非標準である事が原因の可能性があります。
+neterror-unknown-socket-type-client-config = これはクライアントの設定エラーが原因である可能性があります。
 
 neterror-not-cached-intro = 要求されたドキュメントは { -brand-short-name } のキャッシュでは利用できません。
 neterror-not-cached-sensitive = セキュリティ上の予防措置として { -brand-short-name } は機密文書を自動的に再リクエストしません。

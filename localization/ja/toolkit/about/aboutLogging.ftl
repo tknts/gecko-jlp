@@ -57,6 +57,8 @@ about-logging-preset-ml-label = 機械学習
 about-logging-preset-ml-description = 機械学習の問題を診断するためのログモジュール
 about-logging-preset-web-compat-label = ウェブ互換性
 about-logging-preset-web-compat-description = ウェブ互換性の問題を診断するためのログモジュール
+about-logging-preset-navigation = ナビゲーション
+about-logging-preset-navigation-description = ナビゲーションおよびセッション履歴の問題を診断するためのログモジュール
 about-logging-preset-webgpu-label = WebGPU
 about-logging-preset-webgpu-description = WebGPU の問題を診断するためのログモジュール
 about-logging-preset-gfx-label = グラフィック
@@ -81,8 +83,8 @@ about-logging-unknown-option = “{ $k }“ は不明な about:logging のオプ
 
 ##
 
-about-logging-configuration-url-ignored = 構成 URL は無視されました
-about-logging-file-and-profiler-override = ファイル出力の強制とプロファイラー オプションの上書きを同時に行うことはできません
+about-logging-configuration-url-ignored = 設定 URL は無視されました
+about-logging-file-and-profiler-override = ファイル出力の強制とプロファイラーオプションの上書きを同時に行うことはできません
 
 # Variables:
 #   $errorText (string) - The received error message, inserted as is.

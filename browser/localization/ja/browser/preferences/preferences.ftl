@@ -297,19 +297,22 @@ settings-tabs-show-image-in-preview =
     .accessKey = h
 
 
-browser-layout-header = ブラウザーのレイアウト
+browser-layout-header2 =
+    .label = ブラウザーのレイアウト
 
-browser-layout-horizontal-tabs =
-    .label = タブを水平に表示
-browser-layout-horizontal-tabs-desc = ブラウザーの上部に表示します
+browser-layout-horizontal-tabs2 =
+    .label = 水平タブ
+    .title = タブを上部に表示
+    .description = タブを上部に表示します
 
-browser-layout-vertical-tabs =
-    .label = タブを垂直に表示
-browser-layout-vertical-tabs-desc = サイドバーに表示します
+browser-layout-vertical-tabs2 =
+    .label = 垂直タブ
+    .title = サイドバー（横側）にタブを表示
+    .description = タブをサイドバーに配置し、画面の横側に表示します。
 
-browser-layout-show-sidebar =
+browser-layout-show-sidebar2 =
     .label = サイドバーを表示
-browser-layout-show-sidebar-desc = メインビューを離れることなく、ブックマーク、スマートフォンのタブ、AI チャットボットなどに素早くアクセスできます。
+    .description = メイン画面を離れることなく、ブックマークやスマートフォンのタブ、AI チャットボットなどに素早くアクセスできます。
 
 ## General Section - Language & Appearance
 
@@ -395,7 +398,34 @@ preferences-text-zoom-override-warning =
 
 language-header = 言語
 
-choose-language-description = ウェブページの表示に使用する言語の優先順位を設定できます
+choose-language-description = ページを表示する際に優先する言語を選択してください
+
+website-language-heading =
+  .label = ウェブサイトの言語
+  .description = 一部のウェブページは複数の言語で表示されます。優先する順に言語を選択してください。
+
+website-preferred-language =
+  .label = 優先言語
+
+website-add-language =
+  .label = 言語を追加
+
+website-add-language-button =
+  .aria-label = 選択した言語を追加
+  .title = 選択した言語を追加
+
+# The pattern used to generate strings presented to the user in the
+# website languages selection list.
+#
+# Example:
+#   Icelandic
+#   Spanish (Chile)
+#
+# Variables:
+#   $locale (String) - A name of the locale (for example: "Icelandic", "Spanish (Chile)")
+website-remove-language-button =
+  .aria-label = { $locale } を削除
+  .title = { $locale } を削除
 
 choose-button =
     .label = 選択…

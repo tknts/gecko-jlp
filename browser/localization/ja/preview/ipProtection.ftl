@@ -37,6 +37,12 @@ signed-out-vpn-title = ログインして、無料の VPN でブラウザーの�
 signed-out-vpn-message = 新しい <a data-l10n-name="learn-more-vpn-signed-out">組み込み型 VPN</a> の先行アクセスに選ばれました。位置情報を隠し、トラフィックを暗号化してブラウザーの保護を強化しましょう。
 sign-in-vpn = 次へ
 
+site-exclusion-toggle-label = このサイトで VPN を使用する
+site-exclusion-toggle-enabled =
+  .aria-label = このサイトで VPN はオンです
+site-exclusion-toggle-disabled =
+  .aria-label = このサイトで VPN はオフです
+
 ## Status card
 
 ipprotection-connection-status-on =
@@ -48,18 +54,6 @@ ipprotection-connection-status-off =
 # Location refers to the VPN server geographical position.
 ipprotection-location-title =
   .title = 最速のサーバーに基づいて選択されたロケーション
-
-# Variables:
-#   $sitename (String) - The name of the site that we're currently on (eg. example.com)
-ipprotection-site-settings-button-vpn-off =
-  .label = { $sitename }
-  .description = VPN はオフです
-
-# Variables:
-#   $sitename (String) - The name of the site that we're currently on (eg. example.com)
-ipprotection-site-settings-button-vpn-on =
-  .label = { $sitename }
-  .description = VPN はオンです
 
 # When VPN is toggled on
 ipprotection-toggle-active =
@@ -94,6 +88,8 @@ ipprotection-message-bandwidth-warning =
 ipprotection-message-continuous-onboarding-intro = VPN をオンにして現在地を隠し、ブラウジングの暗号化を強化しましょう。
 ipprotection-message-continuous-onboarding-autostart = さらなる保護レイヤーを追加するため、{ -brand-short-name } を開くたびに <a data-l10n-name="setting-link">VPN がオンになるように設定</a>しましょう。
 ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } は、どのウェブサイトで VPN を使用するように設定したかを記憶します。これらはいつでも <a data-l10n-name="setting-link">設定</a> から変更できます。
+
+confirmation-hint-ipprotection-navigated-to-excluded-site = このサイトでは VPN がオフになっています
 
 ## IP Protection Settings
 
@@ -134,5 +130,29 @@ ip-protection-exclusions-desc = このリストにあるウェブサイトを除
 
 ipprotection-site-settings-title =
   .title = VPN サイト設定
+
+## IP Proctection Bandwidth
+
+ip-protection-bandwidth-header = VPN の月間データ使用量
+
+## Variables
+##   $usageLeft (number) - The amount of data a user has left in a month (in GB)
+##   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+
+ip-protection-bandwidth-left-this-month-gb = 今月の残り: { $usageLeft } GB / { $maxUsage } GB
+ip-protection-bandwidth-left-gb = 残り: { $usageLeft } GB / { $maxUsage } GB
+
+## Variables
+##   $usageLeft (number) - The amount of data a user has left in a month (in MB)
+##   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+
+ip-protection-bandwidth-left-this-month-mb = 今月の残り: { $usageLeft } MB / { $maxUsage } GB
+ip-protection-bandwidth-left-mb = 残り: { $usageLeft } MB / { $maxUsage } GB
+
+## Variables
+##   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+
+ip-protection-bandwidth-hit-for-the-month = 今月の VPN データ制限（{ $maxUsage } GB）に達しました。来月にリセットされます。
+ip-protection-bandwidth-help-text = 毎月 1 日に { $maxUsage } GB にリセットされます。
 
 ##

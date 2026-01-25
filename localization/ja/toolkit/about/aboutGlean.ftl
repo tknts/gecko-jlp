@@ -211,6 +211,8 @@ about-glean-label-for-filter-metrics = フィルター
 about-glean-description-for-filter-metrics = これは、カテゴリ、名前、タイプ、および値 (値が単純なタイプの場合) に基づいて、以下のテーブルをフィルターします。
 
 about-glean-button-load-all = すべての値を読み込む
+# A button that, when pressed, exports the data currently shown in the metrics table
+about-glean-button-export-data = データをエクスポート
 about-glean-button-load-value = 読み込む
 # "Docs" is shorthand for "documentation"
 about-glean-button-dictionary-link = ドキュメント
@@ -222,7 +224,7 @@ about-glean-no-data-to-display = 表示するデータがありません。
 
 # Do not translate strings between <code> </code> tags.
 about-glean-dual-labeled-metric-warning = <code>DualLabeledCounter</code> メトリクスは <code>about:glean</code> ビューではまだサポートされていません。
-about-glean-unknown-metric-type-warning = 不明なメトリクスタイプです。
+about-glean-unknown-metric-type-warning = 未知のメトリクスタイプです。
 
 about-glean-enable-new-features-promo =
   .message = 新機能を追加中です！まだ開発中ですが、有効にしたい場合はこちらのアクションボタンをクリックしてください。
