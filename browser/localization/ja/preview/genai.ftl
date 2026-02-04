@@ -18,16 +18,3 @@ sidebar-menu-genai-page-assist-label =
   .label = ページ バディ
 
 genai-page-assist-title = ページ バディ
-
-## AI mode - Smart Assist Strings
-
-genai-smart-assist-sidebar-title =
-  .heading = スマート アシスト
-
-menu-view-genai-smart-assist =
-  .label = スマート アシスト
-
-sidebar-menu-genai-smart-assist-label =
-  .label = スマート アシスト
-
-genai-smart-assist-title = スマート アシスト

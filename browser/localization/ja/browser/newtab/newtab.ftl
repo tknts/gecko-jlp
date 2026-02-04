@@ -394,7 +394,7 @@ newtab-weather-menu-temperature-option-fahrenheit = 華氏
 newtab-weather-menu-temperature-option-celsius = 摂氏
 newtab-weather-menu-change-temperature-units-fahrenheit = 華氏に切り替える
 newtab-weather-menu-change-temperature-units-celsius = 摂に切り替える
-newtab-weather-menu-hide-weather = 新しいタブで天気予報を表示しない
+newtab-weather-menu-hide-weather-v2 = 天気を表示しない
 newtab-weather-menu-learn-more = さらに詳しく
 newtab-weather-menu-detect-my-location = 現在地を検出
 # This message is shown if user is working offline
@@ -613,6 +613,16 @@ newtab-widget-timer-menu-notifications = 通知をオフにする
 newtab-widget-timer-menu-notifications-on = 通知をオンにする
 newtab-widget-timer-menu-hide = タイマーを非表示
 newtab-widget-timer-menu-learn-more = さらに詳しく
+
+# Strings for daily briefing card
+
+# The title displays above a set of top news headlines.
+newtab-daily-briefing-card-title = トップ ヘッドライン
+newtab-daily-briefing-card-menu-dismiss = 非表示にする
+
+# Variables:
+#   $minutes (number) - Time since the feed has been refreshed
+newtab-daily-briefing-card-timestamp = { $minutes } 分前に更新
 
 newtab-widget-message-title = リストとタイマーで集中力を維持
 # to-dos stands for "things to do".

@@ -16,3 +16,15 @@ amo-screen-primary-cta = スタッフのおすすめからアドオンを探す
 browser-aboutwelcome-button =
     .label = 設定を完了する
     .tooltiptext = { -brand-short-name } の設定を完了します。
+
+## Smart window switcher callout
+
+smartwindow-switcher-callout = スマート ウィンドウとクラシック ウィンドウはいつでも切り替えられます。
+
+## Smart Window ToU modal
+
+# Existing users
+smartwindow-existing-user-fx-tou-title = { -brand-product-name } 利用規約
+smartwindow-existing-user-fx-tou-body = スマート ウィンドウを使用するには、<a data-l10n-name="terms_of_use">利用規約</a> と更新された <a data-l10n-name="privacy_notice">プライバシー通知</a> に同意してください。
+smartwindow-existing-user-fx-tou-accept = 同意する
+smartwindow-existing-user-fx-tou-go-back = 戻る

@@ -561,6 +561,7 @@ pdfjs-editor-undo-bar-message-freetext = テキストが削除されました
 pdfjs-editor-undo-bar-message-ink = 図形が削除されました
 pdfjs-editor-undo-bar-message-stamp = 画像が削除されました
 pdfjs-editor-undo-bar-message-signature = 署名が削除されました
+pdfjs-editor-undo-bar-message-comment = コメントを削除されました
 # Variables:
 #   $count (Number) - the number of removed annotations.
 pdfjs-editor-undo-bar-message-multiple =

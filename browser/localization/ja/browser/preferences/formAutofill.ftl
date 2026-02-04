@@ -129,3 +129,10 @@ autofill-card-expires-month = 有効期限 (月)
 autofill-card-expires-year = 有効期限 (年)
 autofill-card-billing-address = 請求先住所
 autofill-card-network = カードの種類
+
+# This string is never actually displayed, but is used to make it easier to
+# find the payment methods section of about:settings via the search input. It's
+# simply a comma separated list of additional search keywords for the payment
+# methods section. Localizers should choose terms that make sense for payment
+# methods in their region.
+autofill-card-search-term-credit-cards = クレジットカード、クレジット、カード、デビットカード、デビット、ウォレット、決済、支払い

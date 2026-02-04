@@ -5,16 +5,16 @@
 ## Chrome
 
 appmenuitem-new-ai-window =
-    .label = 新しい AI ウィンドウ
+    .label = 新しいスマートウィンドウ
 
 appmenuitem-new-classic-window =
     .label = 新しいクラシックウィンドウ
 
 menu-file-new-ai-window =
-    .label = 新しい AI ウィンドウ
+    .label = 新しいスマート ウィンドウ
 
 menu-file-new-classic-window =
-    .label = 新しいクラシックウィンドウ
+    .label = 新しいクラシック ウィンドウ
 
 menu-history-chats =
     .label = チャット
@@ -55,6 +55,14 @@ aiwindow-input-cta-label-navigate = ナビゲート
 smartbar-placeholder =
     .placeholder = 質問、検索、または URL を入力
 
+## Mentions
+## These label strings generally refer to “pages”, which can either be open tabs
+## or previously visited pages depending on the results shown in the list.
+
+smartbar-mentions-list-no-results-label = タブまたはページが見つかりません
+smartbar-mentions-list-open-tabs-label = タブ
+smartbar-mentions-list-previously-visited-pages-label = 過去に表示したページ
+
 ## Website Chip
 
 aiwindow-website-chip-placeholder = タブまたはサイトをタグ付け
@@ -88,7 +96,7 @@ aiwindow-copy-message =
 
 ## Ask Toolbar Button
 
-aiwindow-ask-button =
+smartwindow-ask-button =
     .label = 質問する
 
 ## Memories toggle button
@@ -99,3 +107,9 @@ aiwindow-memories-on =
 aiwindow-memories-off =
     .tooltiptext = メモリ機能をオフにします
     .aria-label = メモリーオフ
+
+## New Chat Button
+
+aiwindow-new-chat =
+    .tooltiptext = 新しいチャットを開始します
+    .aria-label = 新しいチャットを開始

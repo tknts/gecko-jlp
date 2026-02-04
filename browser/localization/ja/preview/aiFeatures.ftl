@@ -2,15 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-try-ai-features-ai-window =
-    .label = AI ウィンドウ
-    .description = 閲覧しながら学習する専用ウィンドウ。タブの内容について素早く回答を得たり、よりパーソナライズされた体験を楽しむことができます。
-try-ai-features-ai-window-activate-link =
-    .label = AI ウィンドウを有効にする
-
 ai-window-features-group =
     .label = スマート ウィンドウ
     .description = 内蔵のアシスタントを備えた別ウィンドウで、質問をしたり、ページを比較したりできます。スマートウィンドウは、よりパーソナライズされた体験を提供するために、ブラウジングを通じて学習します。
+
+ai-window-activate-link =
+    .label = 今すぐ始める
 
 ai-window-personalize-button =
     .label = スマート ウィンドウをパーソナライズ

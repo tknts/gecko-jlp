@@ -32,6 +32,7 @@ perftools-description-local-build =
   このマシンでご自身でコンパイルしたビルドをプロファイルする場合、シンボル情報を検索できるように、ビルドの objdir を以下のリストに追加してください。
 
 
+perftools-pick-local-build-directory = ビルドディレクトリを選択
 
 ## The controls for the interval at which the profiler samples the code.
 

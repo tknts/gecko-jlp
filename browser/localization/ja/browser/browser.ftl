@@ -583,6 +583,8 @@ urlbar-revert-button =
 ## Action text shown in urlbar results, usually appended after the search
 ## string or the url, like "result value - action text".
 
+# Used for asking AI assistant chat.
+urlbar-result-action-ai-chat = AI に質問
 # Used when the private browsing engine differs from the default engine.
 # The "with" format was chosen because the search engine name can end with
 # "Search", and we would like to avoid strings like "Search MSN Search".
@@ -636,6 +638,15 @@ urlbar-result-action-undefined-calculator-result = 未定義
 
 # The sub title of an add-on suggestion in the urlbar.
 urlbar-result-addons-subtitle = { -brand-product-name } 拡張機能
+
+# The sub title of a mdn suggestion in the urlbar.
+urlbar-result-mdn-subtitle = { -mdn-brand-name }
+
+# The sub title of a Yelp suggestion in the urlbar.
+urlbar-result-yelp-subtitle = { -yelp-brand-name }
+
+# This string explaining that the suggestion is a recommendation.
+urlbar-result-suggestion-recommended = おすすめのサジェスト
 
 # The title of a weather suggestion in the urlbar. The temperature and unit
 # substring should be inside a <strong> tag. If the temperature and unit are not

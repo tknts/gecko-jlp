@@ -33,9 +33,10 @@ ipprotection-feature-introduction-button-secondary-no-thanks = 利用しない
 
 ## Panel
 
-signed-out-vpn-title = ログインして、無料の VPN でブラウザーのプライバシーを強化しましょう
-signed-out-vpn-message = 新しい <a data-l10n-name="learn-more-vpn-signed-out">組み込み型 VPN</a> の先行アクセスに選ばれました。位置情報を隠し、トラフィックを暗号化してブラウザーの保護を強化しましょう。
-sign-in-vpn = 次へ
+unauthenticated-vpn-title = { -brand-product-name } 内蔵の VPN をお試しください
+unauthenticated-hide-location-message = { -brand-product-name } 内でのブラウジングにおいて、現在地を隠し、暗号化を強化します。
+unauthenticated-bandwidth-limit-message = 毎月 150 GB の無料  VPN によるデータ通信が利用できます。
+unauthenticated-get-started = 今すぐ始める
 
 site-exclusion-toggle-label = このサイトで VPN を使用する
 site-exclusion-toggle-enabled =
@@ -43,29 +44,25 @@ site-exclusion-toggle-enabled =
 site-exclusion-toggle-disabled =
   .aria-label = このサイトで VPN はオフです
 
+ipprotection-settings-link =
+  .label = 今すぐ始める
+  
 ## Status card
 
-ipprotection-connection-status-on =
-  .label = VPN オン
-ipprotection-connection-status-off =
-  .label = VPN オフ
-
-# The panel status card has a header, as well as VPN server location name displayed under it when the VPN is on.
-# Location refers to the VPN server geographical position.
-ipprotection-location-title =
-  .title = 最速のサーバーに基づいて選択されたロケーション
-
-# When VPN is toggled on
-ipprotection-toggle-active =
-  .aria-label = VPN をオフにする
-# When VPN is toggled off
-ipprotection-toggle-inactive =
-  .aria-label = VPN をオンにする
+ipprotection-connection-status-connected = VPN はオンです
+ipprotection-connection-status-disconnected = VPN はオフです
+ipprotection-connection-status-excluded = このサイトでは VPN はオフです
+ipprotection-connection-status-connecting = VPN に接続しています…
 
 # Button to turn off the VPN
 ipprotection-button-turn-vpn-off = VPN をオフにする
+# Button to turn off the VPN when the VPN panel is open while viewing
+# a page from an excluded site.
+ipprotection-button-turn-vpn-off-excluded-site = すべてのサイトで VPN をオフにする
 # Button to turn on the VPN
 ipprotection-button-turn-vpn-on = VPN をオンにする
+# Button while VPN is connecting
+ipprotection-button-connecting = オンにしています…
 
 ## VPN paused state
 
@@ -102,6 +99,13 @@ ip-protection-site-exceptions =
   .label = サイト固有の設定
 
 # Variables:
+#   $maxUsage (number) - The bandwidth limit of free VPN, in GB
+ip-protection-not-opted-in =
+  .heading = { -brand-short-name } に内蔵された VPN をお試しください
+  .message = { -brand-short-name } 内でのブラウジングにおいて、現在地を隠し、暗号化を強化します。毎月 { $maxUsage } GB の無料の VPN によるデータ通信が利用できます。
+ip-protection-not-opted-in-button = 今すぐ始める
+
+# Variables:
 #   $count (number) - The number of sites saved as VPN exclusions.
 ip-protection-site-exceptions-all-sites-button =
   .label = ウェブサイトの設定を管理
@@ -128,9 +132,6 @@ ip-protection-exceptions-dialog-window =
   .title = VPN を使用するウェブサイト
 ip-protection-exclusions-desc = このリストにあるウェブサイトを除き、すべてのウェブサイトで VPN を使用します。VPN パネルで各サイトの VPN のオン/オフを切り替えることで、このリストにウェブサイトを追加できます。
 
-ipprotection-site-settings-title =
-  .title = VPN サイト設定
-
 ## IP Proctection Bandwidth
 
 ip-protection-bandwidth-header = VPN の月間データ使用量
@@ -154,5 +155,19 @@ ip-protection-bandwidth-left-mb = 残り: { $usageLeft } MB / { $maxUsage } GB
 
 ip-protection-bandwidth-hit-for-the-month = 今月の VPN データ制限（{ $maxUsage } GB）に達しました。来月にリセットされます。
 ip-protection-bandwidth-help-text = 毎月 1 日に { $maxUsage } GB にリセットされます。
+
+## IP Protection alerts
+
+vpn-paused-alert-title = VPN は一時停止中です
+
+# Variables
+#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+vpn-paused-alert-body = 今月の VPN データ制限 ({ $maxUsage } GB) に達しました。来月にリセットされます。
+
+vpn-paused-alert-close-tabs-button = すべてのタブを閉じる
+vpn-paused-alert-continue-wo-vpn-button = VPN なしで続行
+
+vpn-error-alert-title = VPN は現在利用できません。
+vpn-error-alert-body = しばらくしてからもう一度お試しください。
 
 ##

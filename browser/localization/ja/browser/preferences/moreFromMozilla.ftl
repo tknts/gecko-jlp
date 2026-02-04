@@ -46,6 +46,6 @@ more-from-moz-solo-button = { -solo-ai-brand-name } を試す
 
 ## These strings are for the MDN card in about:preferences moreFromMozilla page
 
-more-from-moz-mdn-title = MDN Web Docs
+more-from-moz-mdn-title2 = { -mdn-brand-name }
 more-from-moz-mdn-description = 無料で充実したガイドとリファレンスでウェブ開発を学びましょう。
 more-from-moz-mdn-button = ウェブ開発を学ぶ

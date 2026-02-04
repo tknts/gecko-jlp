@@ -129,6 +129,16 @@ sidebar-genai-survey-productive-question =
     あなたはこの意見にどの程度同意しますか、あるいは反対しますか:<br/>
     “サイドバー上で AI チャットボットを使用すると生産性が上がります”?
 
+# Split View Onboarding Strings
+
+splitview-onboarding-callout-title-1 = 分割ビュー: マルチタスクをより快適に
+splitview-onboarding-callout-subtitle-1 = このタブを右クリックして “分割ビューを追加” を選択すると、2 つのタブを同時に表示できます。
+splitview-onboarding-callout-cta-1 = 今すぐ試す
+
+splitview-onboarding-callout-title-2 = 分割ビューで 2 つのタブを同時に表示
+splitview-onboarding-callout-subtitle-2 = ウィンドウを増やす必要も、タブを切り替える必要もありません。このタブを右クリックして “分割ビューを追加” を選択してください。
+splitview-onboarding-callout-cta-2 = 分割ビューを試す
+
 # Unified Search Button callout strings
 
 unified-search-callout-title = 検索エンジンを切り替える
@@ -137,7 +147,7 @@ unified-search-callout-primary-label = 次へ
 unified-search-callout-secondary-label = Dismiss
 
 unified-search-engines-callout-title = ショートカットで検索
-unified-search-engines-callout-subtitle =  “@” に続けてキーワードを入力すると、履歴、ブックマーク、タブ、または別の検索エンジンで検索できます。
+unified-search-engines-callout-subtitle =“@” に続けてキーワードを入力すると、履歴、ブックマーク、タブ、または別の検索エンジンで検索できます。
 unified-search-engines-callout-primary-label = Got it
 
 actions-callout-title = 一般的なタスクを完了するか、基本設定にアクセスします
@@ -170,7 +180,7 @@ split-dismiss-button-manage-settings-option =
 # The 'account icon' is the toolbar button with a 'profile' icon of a human
 # head/shoulders. It's for dealing with your Mozilla account. When hovering the
 # icon, the tooltip says 'Account'.
-login-status-advisory-title =  サインアウトしています。サインインするにはアカウントのアイコンをクリックしてください。
+login-status-advisory-title = サインアウトしています。サインインするにはアカウントのアイコンをクリックしてください。
 
 ## Bookmarks toolbar callout strings
 
