@@ -18,6 +18,8 @@ customkeys-reset-all-confirm = 本当にすべてのキーボードショート�
 
 customkeys-history-reopen-tab = 最後に閉じたタブを再度開く
 customkeys-history-reopen-window = 最後に閉じたウィンドウを再度開く
+customkeys-sidebar-toggle = サイドバーを切り替えます
+customkeys-view-picture-in-picture = ピクチャーインピクチャー
 customkeys-dev-tools = ウェブ開発ツール
 customkeys-dev-inspector = DOM およびスタイル インスペクター
 customkeys-dev-webconsole = ウェブ コンソール

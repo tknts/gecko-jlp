@@ -524,26 +524,17 @@ pdfjs-editor-new-alt-text-generated-alt-text-with-disclaimer = Created automatic
 ## Image alt-text settings
 
 pdfjs-image-alt-text-settings-button =
-    .title = 画像の代替テキストの設定
-pdfjs-image-alt-text-settings-button-label = 画像の代替テキストの設定
+    .title = 画像の代替テキスト設定を表示します
+pdfjs-image-alt-text-settings-button-label = 画像の代替テキスト設定
 
-pdfjs-editor-alt-text-settings-dialog-label = 画像の代替テキストの設定
-pdfjs-editor-alt-text-settings-automatic-title = 代替テキストの自動設定
-pdfjs-editor-alt-text-settings-create-model-button-label = 代替テキストを自動的に生成成する
-pdfjs-editor-alt-text-settings-create-model-description = 画像が表示されない場合、または画像が読み込まれない場合に役立つ説明を提案します。
-
-# Variables:
-#   $totalSize (Number) - the total size (in MB) of the AI model.
-pdfjs-editor-alt-text-settings-download-model-label = 代替テキスト AI モデル ({ $totalSize } MB)
-
-pdfjs-editor-alt-text-settings-ai-model-description = データプライバシー保護のため、お使いのデバイス上でローカルに実行されます。自動代替テキストの生成に必要です。
-pdfjs-editor-alt-text-settings-delete-model-button = 削除
-pdfjs-editor-alt-text-settings-download-model-button = ダウンロード
-pdfjs-editor-alt-text-settings-downloading-model-button = ダウンロードしています…
+pdfjs-editor-alt-text-settings-dialog-label = 画像の代替テキスト設定
+pdfjs-editor-alt-text-settings-automatic-title = 自動代替テキスト
+pdfjs-editor-alt-text-settings-create-model-button-label = 代替テキストを自動作成する
+pdfjs-editor-alt-text-settings-create-model-description = 画像が表示されない場合や、視覚に障がいのある方を支援するために、内容を説明するサジェストを表示します。
 
 pdfjs-editor-alt-text-settings-editor-title = 代替テキストエディター
-pdfjs-editor-alt-text-settings-show-dialog-button-label = 画像を追加するときにすぐに代替テキストエディタを表示します
-pdfjs-editor-alt-text-settings-show-dialog-description = すべての画像に代替テキストが含まれていることを確認するのに役立ちます。
+pdfjs-editor-alt-text-settings-show-dialog-button-label = 画像を追加するときに代替テキストエディターをすぐに表示する
+pdfjs-editor-alt-text-settings-show-dialog-description = すべての画像に代替テキストが設定されているか確認しやすくなります。
 pdfjs-editor-alt-text-settings-close-button = 閉じる
 
 ## Accessibility labels (announced by screen readers) for objects added to the editor.

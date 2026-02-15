@@ -341,7 +341,7 @@ preferences-web-appearance-override-warning3 =
     .message = コントラスト調整の設定がウェブサイトのデザインを上書きしています。
 
 preferences-web-appearance-link =
-    .label =  [拡張機能とテーマ] で { -brand-short-name } のテーマを管理する
+    .label = [拡張機能とテーマ] で { -brand-short-name } のテーマを管理する
 
 preferences-contrast-control-group =
     .label = ウェブサイトのコントラスト
@@ -365,12 +365,15 @@ preferences-colors-manage-button =
     .label = 配色を管理…
     .accesskey = C
 
-preferences-fonts-header = フォント
+preferences-fonts-header2 =
+  .label = フォント
 
-default-font = 規定のフォント
-    .accesskey = D
-default-font-size = 大きさ
-    .accesskey = S
+default-font-2 =
+  .label = デフォルトのフォント
+  .accesskey = D
+default-font-size-2 =
+  .label = サイズ
+  .accesskey = S
 
 advanced-fonts =
     .label = 詳細設定…
@@ -559,9 +562,9 @@ download-private-browsing-delete =
     .label = すべてのプライベートウィンドウが閉じられたときにプライベートブラウジングでダウンロードしたファイルを削除する
     .accesskey = D
 
-applications-header = アプリケーション
-
-applications-description = ウェブからダウンロードしたファイルを { -brand-short-name } が取り扱う方法とブラウズ中に使用するアプリケーションを選択してください。
+applications-setting =
+    .label = アプリケーション
+    .description = ウェブからダウンロードしたファイルを { -brand-short-name } が取り扱う方法とブラウズ中に使用するアプリケーションを選択してください。
 
 applications-filter =
     .placeholder = ファイルの種類とアプリケーションの検索
@@ -570,9 +573,13 @@ applications-type-column =
     .label = ファイルの種類 (Content Type)
     .accesskey = T
 
+applications-type-heading = ファイルの種類 (Content Type)
+
 applications-action-column =
     .label = 動作
     .accesskey = A
+
+applications-action-heading = 動作
 
 # Variables:
 #   $extension (String) - file extension (e.g .TXT)
@@ -892,11 +899,8 @@ home-custom-homepage-subpage =
     .heading = カスタム ホームページ
 
 # Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
-home-custom-homepage-subheader = ウェブサイトのアドレス
-
-# Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
-home-custom-homepage-card =
-    .heading = ウェブサイトのアドレス
+home-custom-homepage-card-header =
+    .label = ウェブサイトのアドレス
 
 home-custom-homepage-address =
     .placeholder = アドレスを入力
@@ -904,17 +908,23 @@ home-custom-homepage-address-button =
     .label = アドレスを追加
 
 # Shown when no custom websites/URLs to use as a homepage have been added yet
-home-custom-homepage-no-websites-yet = まだウェブサイトが追加されていません。
+home-custom-homepage-no-results =
+    .label = ウェブサイトはまだ追加されていません。
+
+home-custom-homepage-delete-address-button =
+    .aria-label = アドレスを削除
+    .title = アドレスを削除します
 
 # Further options to use when setting the home page. Two action buttons are placed in line with this prompt
 # to replace the current home page with a currently open page or bookmark.
-home-custom-homepage-replace-with = 次の内容に置き換え:
+home-custom-homepage-replace-with =
+    .label = 次の内容に置き換え:
 
-# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with)
+# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with-prompt)
 home-custom-homepage-current-pages-button =
     .label = 現在開いているページ
 
-# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with)
+# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with-prompt)
 home-custom-homepage-bookmarks-button =
     .label = ブックマーク…
 
@@ -1138,6 +1148,9 @@ search-one-click-desc = キーワードの入力時に、アドレスバーや�
 search-one-click-header-3 =
     .label = 追加の検索エンジン
     .description = アドレスバーに表示する検索エンジンとショートカットを選択してください。
+
+update-search-engine-success =
+    .message = 検索エンジンを正常に更新しました
 
 search-choose-engine-column =
     .label = 検索エンジン

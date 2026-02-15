@@ -317,7 +317,7 @@ appmenuitem-relay-title = { -relay-brand-short-name }
 appmenuitem-relay-description = 実際のメールアドレスと電話番号をマスクする
 appmenuitem-services-relay-description = 使い捨てメールのダッシュボードを起動します
 appmenuitem-vpn-title = { -mozilla-vpn-brand-name }
-appmenuitem-vpn-description = あなたのオンラインでの行動を保護します
+appmenuitem-vpn-description-2 = デバイス全体を保護
 
 appmenu-services-header = マイサービス
 # "Mozilla" is intentionally hardcoded to prevent forks from replacing it

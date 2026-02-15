@@ -480,7 +480,7 @@ desktop-to-mobile-qr-code-alt =
 
 create-backup-screen-1-title = Windows 11 へアップグレードしますか？
  { -brand-product-name } のデータをバックアップしましょう。
-create-backup-screen-1-subtitle = パスワードやブックマークなどを 1〜2 分で自動的に保護します。
+create-backup-screen-1-subtitle = パスワードやブックマークなどを 1–2 分で自動的に保護します。
 create-backup-screen-1-flair = 推奨
 create-backup-learn-more-link = <a data-l10n-name="learn-more-label">詳しく見る</a>
 create-backup-screen-1-sync-label = { -brand-product-name } と同期
@@ -490,7 +490,7 @@ create-backup-screen-1-backup-body = このデバイスまたは OneDrive に保
 create-backup-select-tile-button-label = 選択
 create-backup-back-button-label = 戻る
 create-backup-show-fewer =
-.label = このようなおすすめを減らす
+  .label = このようなおすすめを減らす
 create-backup-screen-2-title = バックアップする { -brand-product-name } データを選択
 create-backup-screen-2-subtitle = 所要時間はわずか 1 分。データは 1 日 1 回バックアップされます。
 # Label for the "Easy setup" backup option
@@ -569,7 +569,24 @@ onboarding-personalization-use-case-title = { -brand-short-name } をどんな�
 onboarding-personalization-use-case-personal-option = 個人用
 onboarding-personalization-use-case-school-option = 学校用
 onboarding-personalization-use-case-work-option = 仕事用
-onboarding-personalization-motivation-title = { -brand-short-name } で最も重視するものは何ですか？
+onboarding-personalization-motivation-title = { -brand-short-name } で最も重視するものは何ですか?
 onboarding-personalization-motivation-privacy-option = プライバシーとセキュリティ
 onboarding-personalization-motivation-productivity-option = 生産性
 onboarding-personalization-motivation-other-option = その他
+
+## Onboarding 2026 brand refresh
+
+onboarding-refresh-pin-set-default-subtitle = あなたのデータを保護し、企業によるクリックの追跡を自動的にブロックします。
+# "safe paws" is a play on "safe hands", meaning you're being well taken care of or protected
+# If it doesn’t translate well, you can use the alternative: “You’re safe with Firefox.”
+onboarding-refresh-pin-set-default-title = Firefox がついているから安心です
+onboarding-refresh-import-subtitle = パスワード、ブックマーク、履歴などをインポートしましょう。
+onboarding-refresh-import-title = { -brand-short-name } を使い慣れた環境に
+onboarding-refresh-onboarding-addons-subtitle = 拡張機能は { -brand-short-name } をカスタマイズできる小さなアプリです。プライバシーの強化、生産性の向上、見た目の変更など、さまざまなことが可能になります。
+# "Give your browsing a boost" means to enhance or improve the browsing experience
+onboarding-refresh-onboarding-addons-title = ブラウジングをより快適に
+onboarding-refresh-sync-subtitle = { -brand-short-name } にサインインすれば、どこでもブックマークやパスワードを利用できます。データは暗号化されるため、あなた以外に見られることはありません。
+onboarding-refresh-sync-title = どこからでも、すべてを同期
+onboarding-refresh-gratitude-subtitle = 非営利団体が支援する唯一の主要ブラウザーである { -brand-short-name } をご利用いただきありがとうございます。皆様のサポートにより、私たちはインターネットをより安全で、誰もが利用しやすい場所にできるよう取り組んでいます。
+# "has your back" is an idiom suggesting support and protection
+onboarding-refresh-gratitude-title = { -brand-short-name } はあなたの味方です

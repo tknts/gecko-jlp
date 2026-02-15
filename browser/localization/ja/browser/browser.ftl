@@ -458,6 +458,9 @@ browser-window-restore-down-button =
     .tooltiptext = 元のサイズに戻します
 browser-window-close-button =
     .tooltiptext = 閉じます
+# Clicking this button closes the window and returns to the tab where it was opened from
+browser-window-return-to-opener =
+    .tooltiptext = 元のタブに戻ります
 
 ## Tab actions
 
@@ -1048,6 +1051,10 @@ toolbar-button-synced-tabs =
 toolbar-button-new-private-window =
   .label = 新しいプライベートウィンドウ
   .tooltiptext = 新しいプライベートウィンドウを開きます ({ $shortcut })
+
+toolbar-button-share-tab =
+  .label = 共有
+  .tooltiptext = このページを共有します
 
 ## EME notification panel
 

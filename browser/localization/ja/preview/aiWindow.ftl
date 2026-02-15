@@ -22,6 +22,8 @@ menu-history-chats =
 menu-history-chats-recent =
     .label = 最近のチャット
 
+smartwindow-document-title = 新しいタブ
+
 ## Smart Window Toggle Button
 
 toolbar-button-ai-window-toggle =
@@ -46,9 +48,14 @@ ai-window-toggleview-status-label-inactive = クラシック ウィンドウ
 
 ## Input CTA
 
-aiwindow-input-cta-label-chat = チャット
-aiwindow-input-cta-label-search = 検索
-aiwindow-input-cta-label-navigate = ナビゲート
+aiwindow-input-cta-submit-label-chat = 質問
+aiwindow-input-cta-submit-label-navigate = 移動
+aiwindow-input-cta-submit-label-search = 検索
+
+aiwindow-input-cta-menu-label-chat = 質問します
+aiwindow-input-cta-menu-label-navigate = サイトへ移動します
+# $searchEngineName (string) - The name of the default search engine
+aiwindow-input-cta-menu-label-search = { $searchEngineName } で検索します
 
 ## Smartbar
 
@@ -62,6 +69,12 @@ smartbar-placeholder =
 smartbar-mentions-list-no-results-label = タブまたはページが見つかりません
 smartbar-mentions-list-open-tabs-label = タブ
 smartbar-mentions-list-previously-visited-pages-label = 過去に表示したページ
+
+## Context mentions menu toggle button
+
+smartbar-context-menu-button =
+    .aria-label = タブまたはサイトを追加
+    .tooltiptext = タブまたはサイトを追加します
 
 ## Website Chip
 
@@ -82,18 +95,6 @@ aiwindow-firstrun-model-personal-label = パーソナライズ
 aiwindow-firstrun-model-personal-body = ユーザーの好みを学習し、パーソナライズするのに最適です
 aiwindow-firstrun-button = 始める
 
-## Assistant Message footer
-
-aiwindow-memories-used = 使用されたメモリー
-aiwindow-retry-without-memories =
-    .label = メモリーを使用せずに再試行
-aiwindow-retry =
-  .tooltiptext = 再試行します
-  .aria-label = 再試行
-aiwindow-copy-message =
-    .tooltiptext = コピーします
-    .aria-label = メッセージをコピー
-
 ## Ask Toolbar Button
 
 smartwindow-ask-button =
@@ -113,3 +114,7 @@ aiwindow-memories-off =
 aiwindow-new-chat =
     .tooltiptext = 新しいチャットを開始します
     .aria-label = 新しいチャットを開始
+
+## Sign out dialog
+
+fxa-signout-dialog-body-aiwindow = 同期されたデータはアカウントに残ります。開いているスマート ウィンドウは標準のウィンドウに切り替わります。
