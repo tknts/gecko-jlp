@@ -45,4 +45,4 @@ safeb-blocked-addon-page-error-desc-override = <strong>なぜこのサイトは�
 safeb-blocked-addon-page-error-desc2-override = <strong>{ $sitename }</strong> は、不正で悪意のある目的で作成された可能性があります。
 safeb-blocked-addon-page-error-desc3-override = どうすればよいですか?
 safeb-blocked-addon-page-error-desc4-override = このページを再び表示しないようにするには、<strong>{ $addonName }</strong> を about:addons から削除または無効化してください。
-safeb-blocked-addon-page-learn-more = <a data-l10n-name='firefox_support'>{ -brand-short-name } のフィッシング詐欺とマルウェアに対する保護について詳しくはこちら</a>。
+safeb-blocked-addon-page-learn-more3 = <a data-l10n-name='firefox_support_harmful_addons'>{ -brand-short-name } の有害なアドオンからの保護機能について詳細を表示します</a>。

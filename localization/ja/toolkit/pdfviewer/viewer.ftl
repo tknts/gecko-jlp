@@ -200,6 +200,11 @@ pdfjs-thumb-page-title =
 pdfjs-thumb-page-canvas =
     .aria-label = { $page } ページのサムネイル
 
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox =
+    .aria-label = { $page } ページ目を選択します
+
 ## Find panel button title and messages
 
 pdfjs-find-input =
@@ -759,3 +764,4 @@ pdfjs-views-manager-status-undo-button-label = 元に戻す
 pdfjs-views-manager-status-close-button =
     .title = 閉じる
 pdfjs-views-manager-status-close-button-label = 閉じる
+pdfjs-views-manager-paste-button-label = 貼り付け

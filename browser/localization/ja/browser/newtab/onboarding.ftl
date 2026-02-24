@@ -548,6 +548,8 @@ restore-from-backup-title = { -brand-short-name } を元の状態に戻しまし
 restore-from-backup-subtitle = ブックマーク、履歴などのデータを復元して、すぐにブラウジングを再開できます。
 restore-from-backup-secondary-button = 復元しない
 
+multiple-backups-info-tile = <strong>複数のバックアップファイルが見つかりました。</strong>最新のファイルが選択されています。他のプロファイルを復元するには、<a data-l10n-name="settings-label">設定</a>から操作してください。
+
 ## Restored from Backup spotlight
 
 restored-from-backup-success-title = 戻りました！ { -brand-short-name } のデータが復元されました。

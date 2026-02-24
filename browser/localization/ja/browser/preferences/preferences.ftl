@@ -12,6 +12,17 @@ global-privacy-control-description =
 non-technical-privacy-group =
     .label = ウェブサイトのプライバシー設定
 
+do-not-track-removal3 =
+    .message = “Do Not Track” 機能のサポートは終了しました。
+
+non-technical-privacy-heading =
+    .label = 追加の保護機能
+
+preferences-privacy-relay-available =
+    .label = { -relay-brand-name } のメールマスクを提案します
+    .description = 実際のメールアドレスを隠すことで、受信トレイをスパムから保護します。
+
+
 # Do not translate.
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
@@ -540,9 +551,19 @@ settings-translations-subpage-no-sites-added =
 use-system-locale =
    .label = オペレーティングシステムによって設定された “{ $localeName }” の日付、時刻、数値、測定値の書式を使用します。
 
+settings-spellcheck-header =
+    .label = スペルチェック
+
 check-user-spelling =
-    .label = 入力中にスペルをチェックする
+    .label = 入力中にスペルチェックする
     .accesskey = t
+
+spellcheck-download-dictionaries =
+    .label = 辞書をダウンロード
+
+spellcheck-promo =
+    .heading = スペルチェックの使い方
+    .message = テキストフィールドを右クリックすると、スペルチェックのオン/オフの切り替えや言語の変更ができます。すべてのフィールドがスペルチェックに対応しているわけではありません。
 
 ## General Section - Files and Applications
 
@@ -654,7 +675,8 @@ applications-use-os-default-label =
 
 ##
 
-applications-handle-new-file-types-description = その他のファイルに対して { -brand-short-name } はどう動作しますか?
+applications-setting-new-file-types =
+     .label = その他のファイルに対して { -brand-short-name } が行う動作を選択してください
 
 applications-save-for-new-types =
     .label = ファイルを保存する
@@ -823,13 +845,14 @@ browsing-cfr-features =
 
 ## General Section - Proxy
 
-network-proxy-group =
-  .label = ネットワークの設定
-  .description = { -brand-short-name } のインターネット接続方法を設定します。
+network-proxy-group2 =
+  .label = プロキシ設定
+  .description = { -brand-short-name } がインターネットに接続する方法を構成します。
 
-network-proxy-connection-settings =
-    .label = 設定…
-    .accesskey = e
+network-proxy-connection-settings2 =
+    .label = プロキシを構成
+    .description = これらの設定を変更すると、接続の問題が発生する可能性があります
+    .accesskey = p
 
 ## Home Section
 
@@ -1151,6 +1174,15 @@ search-one-click-header-3 =
 
 update-search-engine-success =
     .message = 検索エンジンを正常に更新しました
+
+search-edit-engine-2 =
+    .title = 検索エンジンを編集
+search-delete-engine =
+    .title = 検索エンジンを削除
+search-enable-engine =
+    .title = 検索エンジンを有効にする
+search-outlink-to-extensions-page =
+    .title = 拡張機能とテーマで管理
 
 search-choose-engine-column =
     .label = 検索エンジン
@@ -1665,12 +1697,13 @@ address-moz-box-item =
 history-group =
     .label = 履歴
 
-history-remember-option-all =
-    .label = 履歴を記録する
-history-remember-option-never =
-    .label = 履歴を記録しない
-history-remember-option-custom =
-    .label = 履歴のカスタム設定を使用する
+history-remember-option-all2 =
+    .label = 履歴を保存する
+history-remember-option-never2 =
+    .label = 履歴を一切保存しない
+    .description = すべてのウィンドウがプライベートウィンドウとして動作します。この設定がオンの場合、拡張機能の使用には個別の許可が必要になります。
+history-remember-option-custom2 =
+    .label = 履歴の設定をカスタマイズする
 
 history-remember-description4 =
     .aria-label = { history-group.label }
@@ -1708,6 +1741,20 @@ history-clear-button =
     .label = 履歴を消去…
     .accesskey = s
 
+history-header2 =
+    .heading = 履歴
+
+history-section-header =
+    .label = 履歴
+    .description = ブラウザーを閉じるときに { -brand-short-name } が保存する項目を選択してください。
+
+history-custom-section-header =
+    .label = 詳細設定
+    .description = ブラウザーを閉じるときに { -brand-short-name } が保存する項目をカスタマイズしてください。
+
+history-custom-button =
+    .label = { -brand-short-name } が保存する項目を選択
+
 ## Privacy Section - Site Data
 
 cookies-site-data-group =
@@ -1718,16 +1765,20 @@ sitedata-total-size-calculating = サイトデータとキャッシュのサイ�
 # Variables:
 #   $value (number) - Value of the unit (for example: 4.6, 500)
 #   $unit (string) - Name of the unit (for example: "bytes", "KB")
-sitedata-total-size2 = 保存されている Cookie、履歴、サイトデータ、キャッシュは、現在ディスク容量を <strong>{ $value } { $unit }</strong> 使用しています
+sitedata-total-size3 = ウェブサイトは現在、ディスク領域を <strong>{ $value } { $unit }</strong> 使用しています。
 
 sitedata-learn-more = さらに詳しく
 
-sitedata-delete-on-close =
-    .label = { -brand-short-name } の終了時に Cookie とサイトデータを削除する
+sitedata-delete-on-close2 =
+    .label = { -brand-short-name } を閉じるたびに Cookie とサイトデータを消去します
     .accesskey = c
 
 sitedata-delete-on-close-private-browsing3 =
     .message = 履歴の設定に基づき、{ -brand-short-name } はブラウザーの終了時にセッションの Cookie やサイトデータを削除します。
+
+sitedata-delete-on-close-private-browsing4 =
+    .heading = 履歴は保存されません。
+    .message = { -brand-short-name } は、ブラウザーを閉じるときにセッション中の Cookie とサイトのデータを消去します。
 
 sitedata-option-block-cross-site-trackers =
     .label = クロスサイトトラッカー
@@ -1758,6 +1809,19 @@ sitedata-cookies-exceptions2 =
     .label = 例外を管理
     .accesskey = x
     .description = Cookie とサイトデータの使用を常に許可する、または許可しないウェブサイトを指定できます。
+
+sitedata-heading =
+    .label = 閲覧データ
+    .description = Cookie、履歴、キャッシュ、ウェブサイトデータなどを管理します。
+
+sitedata-settings3 =
+    .label = 特定サイトのデータを消去
+    .accesskey = s
+
+sitedata-cookies-exceptions3 =
+    .label = 例外設定を管理
+    .accesskey = x
+    .description = 特定のサイトによる Cookie やサイトデータの取り扱い方法を選択します。
 
 ## Privacy Section - Cookie Banner Blocking
 
@@ -2015,13 +2079,17 @@ privacy-segmentation-radio-on =
 
 security-header = セキュリティ
 
-browsing-protection-group =
-    .label = 詐欺的なコンテンツと危険なソフトウェアからの保護
+browsing-protection-group2 =
+    .label = 詐欺コンテンツと危険なソフトウェアからの保護
+    .description = 危険なサイトやダウンロードは、データやデバイスを危険にさらす可能性があります。{ -brand-short-name } はこれらを自動的にブロックし、リスクのあるソフトウェアや不要なソフトウェアについて警告を表示します。
 
 security-enable-safe-browsing =
     .label = 危険で詐欺的なコンテンツをブロックする
     .accesskey = B
 security-enable-safe-browsing-link = さらに詳しく
+
+security-safe-browsing-warning =
+    .message = この設定をオフにすると、詐欺、悪意のあるサイト、および危険なダウンロードに対する保護が低下します。
 
 security-block-downloads =
     .label = 危険なダウンロードをブロック
@@ -2033,16 +2101,16 @@ security-block-uncommon-software =
 
 ## Privacy Section - Certificates
 
-certs-description2 =
+certs-description3 =
     .label = 証明書
-    .description = { -brand-short-name } が認証に使用する証明書を設定します。
+    .description = { -brand-short-name } が安全な接続を検証するために使用する証明書を構成します。
 
-certs-view =
-    .label = 証明書を表示…
+certs-view2 =
+    .label = 証明書を管理
     .accesskey = C
 
-certs-devices =
-    .label = セキュリティデバイス…
+certs-devices2 =
+    .label = セキュリティデバイスを管理
     .accesskey = D
 
 certs-thirdparty-toggle =
@@ -2083,8 +2151,9 @@ httpsonly-radio-disabled3 =
 ## DoH Section
 
 preferences-doh-header = DNS over HTTPS
-dns-over-https-group =
+dns-over-https-group2 =
     .label = DNS over HTTPS
+    .description = DNS over HTTPS (DoH) は、サイトの照会を暗号化します。これにより、インターネットプロバイダーなどが、あなたがどのウェブサイトを訪れようとしているかを知ることをより困難にします。
 
 preferences-doh-description2 = Domain Name System (DNS) over HTTPS は、暗号化された接続を介してドメイン名のリクエストを送信することで、安全な DNS を提供し、他の人がアクセスしようとしているウェブサイトを見ることを困難にします。
 
@@ -2143,8 +2212,93 @@ preferences-doh-off-desc = デフォルトの DNS リゾルバーが使用され
 preferences-doh-select-resolver = プロパイダーの選択:
 
 preferences-doh-manage-exceptions =
-    .label = 例外を管理…
+    .label = 例外設定を管理…
     .accesskey = x
+
+preferences-doh-overview-default =
+    .label = デフォルトの保護
+    .description = 利用可能な地域では、安全な DNS を使用します。
+
+preferences-doh-overview-custom =
+    .label = カスタム
+    .description = プロバイダーやフォールバック動作を制御しながら、常に安全な DNS を使用します。
+
+preferences-doh-overview-off =
+    .label = オフ
+    .description = デフォルトの DNS リゾルバーを使用します。
+
+preferences-doh-advanced-button =
+    .label = 詳細設定
+
+preferences-doh-advanced-section =
+    .label = 詳細設定
+    .description = DNS over HTTPS (DoH) はサイトの照会を暗号化します。これにより、インターネットプロバイダーなどが、あなたがどのウェブサイトを訪れようとしているかを知ることをより困難にします。
+
+preferences-doh-manage-exceptions2 =
+    .label = 例外設定を管理
+    .accesskey = x
+
+preferences-doh-radio-default =
+    .label = デフォルト
+    .description = 利用可能な地域では、安全な DNS を使用します
+
+preferences-doh-radio-custom =
+    .label = カスタム
+    .description = プロバイダーやフォールバック動作を制御しながら、常に安全な DNS を使用します。
+
+preferences-doh-radio-off =
+    .label = オフ
+    .description = デフォルトの DNS リゾルバーを使用します
+
+preferences-doh-fallback-label =
+    .label = 安全な DNS が利用できない場合は常に警告を表示します。
+
+preferences-doh-status-item-off =
+    .message = DNS over HTTPS はオフです
+
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-status-item-not-active =
+    .message = プロバイダー { $name } の使用中にエラー ({ $reason }) が発生したため、DNS over HTTPS は機能していません
+
+
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-item-not-active-bad-url =
+    .message = 無効な URL ({ $reason }) を受け取ったため、DNS over HTTPS は機能していません
+
+
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-status-item-active =
+    .message = DNS over HTTPS はプロバイダー { $name } を使用しています
+
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-status-item-not-active-local =
+    .message = ローカルプロバイダー { $name } の使用中にエラー ({ $reason }) が発生したため、DNS over HTTPS は機能していません
+
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-status-item-active-local =
+    .message = DNS over HTTPS はローカルプロバイダー { $name } を使用しています
+
+preferences-doh-select-resolver-label =
+    .label = プロバイダーを選択:
+
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+connection-dns-over-https-url-item =
+    .label = { $name }
+    .tooltiptext = DNS over HTTPS の解決にこのプロバイダーを使用します
+
+preferences-doh-custom-provider-label =
+    .aria-label = カスタムプロバイダーの URL を入力してください
+
+preferences-doh-header2 =
+  .heading = DNS over HTTPS
 
 ## The following strings are used in the Download section of settings
 
@@ -2224,3 +2378,179 @@ preferences-ai-controls-block-confirmation-cancel =
     .label = キャンセル
 preferences-ai-controls-block-confirmation-confirm =
     .label = ブロック
+
+## Privacy and security status card
+
+security-privacy-status-ok-header = { -brand-short-name } が保護しています
+
+# This is the header above a section telling the user about problems in their settings
+security-privacy-status-problem-header = { -brand-short-name } からセキュリティ改善の提案があります
+security-privacy-status-ok-label = 強化型トラッキング防止機能はオンです
+security-privacy-status-problem-label = 保護機能に影響する設定が見つかりました
+security-privacy-status-problem-helper-label = 問題を表示
+security-privacy-status-pending-trackers-label = 直近 1 か月間に { -brand-short-name } がブロックしたトラッカー数を取得しています
+
+# This label tells the user how many trackers we have blocked for them.
+# Variables:
+#   $trackerCount (Number) - Number of trackers we have blocked in the last month
+security-privacy-status-trackers-label = { $trackerCount ->
+      [one] 直近 1 か月間に { $trackerCount } 個のトラッカーをブロックしました
+      *[other] 直近 1 か月間に { $trackerCount } 個のトラッカーをブロックしました
+  }
+# This string appears under "Enhanced Tracking Protection is on" when a user has enabled "Strict" in Enhanced Tracking Protection advanced settings
+security-privacy-status-strict-enabled-label = <a data-l10n-name="strict-tracking-protection">厳格な保護</a>が有効です
+# This string appears under "Enhanced Tracking Protection is on" when a user has enabled "Custom" in Enhanced Tracking Protection advanced settings
+security-privacy-status-custom-enabled-label = <a data-l10n-name="custom-tracking-protection">カスタム保護</a>が有効です
+security-privacy-status-up-to-date-label = 最新で最も安全なバージョンの { -brand-short-name } を使用しています
+security-privacy-status-update-needed-label = { -brand-short-name } の新しいバージョンが利用可能です。
+security-privacy-status-update-error-label = { -brand-short-name } の更新中に問題が発生しました
+security-privacy-status-update-checking-label = { -brand-short-name } の更新を確認しています
+security-privacy-status-update-needed-description = 最新の速度、安定性、セキュリティを確保するために更新してください。
+security-privacy-status-update-button-label =
+  .label = { -brand-short-name } を更新
+
+security-privacy-image-warning =
+  .alt = 感嘆符付きの盾。セキュリティ警告に関する注意を促しています
+security-privacy-image-ok =
+  .alt = チェックマーク付きの盾。未解決のセキュリティ問題がないことを示しています
+
+security-privacy-issue-card =
+  .heading = セキュリティ警告
+issue-card-reset-button =
+  .label = リセット
+issue-card-dismiss-button =
+  .tooltiptext = 閉じる
+  .aria-label = 閉じる
+
+## Enhanced Tracking Protection (ETP) status section
+
+preferences-etp-status-header =
+    .label = 強化型トラッキング防止機能
+    .description = ウェブサイトはトラッカーを使用してあなたのオンライン活動を追跡し、しつこい広告を表示します。{ -brand-short-name } は閲覧中のあなたを保護し、トラッカーを自動的にブロックしてデジタル上の足跡を制御できるようにします。
+
+preferences-etp-level-standard =
+    .label = 標準 (デフォルト)
+    .description = ほとんどのウェブサイトで動作に支障をきたさない、強力で信頼性の高い保護機能です。
+
+preferences-etp-level-strict =
+    .label = 厳格
+    .description = より多くのトラッカーをブロックする強力な保護機能ですが、一部のサイトが正常に表示されない場合があります。
+
+preferences-etp-level-custom =
+    .label = カスタム
+    .description = 有効または無効にする保護機能を自分で選択します。
+
+preferences-etp-status-advanced-button =
+    .label = 詳細設定
+
+preferences-etp-status-protections-dashboard-link =
+    .label = 個人用保護ダッシュボードを表示
+    .description = ソーシャルメディアトラッカー、フィンガープリント、仮想通貨マイナーなど、{ -brand-short-name } がブロックしたトラッカーの数を確認できます。
+
+preferences-etp-header =
+    .heading = 強化型トラッキング防止機能
+
+preferences-etp-advanced-settings-group =
+    .label = 詳細設定
+    .description = ウェブサイトはトラッカーを使用してあなたのオンライン活動を追跡し、しつこい広告を表示します。{ -brand-short-name } は閲覧中のあなたを保護し、ほとんどのトラッカーを自動的にブロックしてデジタル上の足跡を制御できるようにします。
+
+preferences-etp-customize-button =
+    .label = トラッキング防止機能をカスタマイズ
+
+preferences-etp-reload-tabs-hint =
+    .message = 設定を適用するには、タブを再読み込みしてください。
+preferences-etp-reload-tabs-hint-button =
+    .label = すべてのタブを再読み込み
+
+preferences-etp-rfp-warning-message =
+    .message = 現在「フィンガープリント耐性 (RFP)」が有効です。これにより { -brand-short-name } の一部のフィンガープリント保護設定が置き換えられ、一部のサイトが正常に動作しなくなる可能性があります。
+
+preferences-etp-level-warning-message =
+    .heading = ご注意ください：一部のサイトが期待通りに動作しない場合があります。
+    .message = 一部のサイトでは、機能やコンテンツにトラッカーが組み込まれています。{ -brand-short-name } がそれらをブロックすると、サイトの表示が崩れることがあります。その場合は「サイトの問題を報告」を使用するか、そのサイトでのトラッキング防止機能をオフにしてみてください。
+
+preferences-etp-manage-exceptions-button =
+    .label = 例外設定を管理
+    .description = 強化型トラッキング防止機能を無効にしているウェブサイトを管理します。
+
+preferences-etp-customize-header =
+    .heading = トラッキング防止機能をカスタマイズ
+
+preferences-etp-reset =
+    .label = カスタマイズをリセット
+    .description = 設定をプリセットされた保護レベルに戻します。
+
+preferences-etp-reset-standard-button =
+    .label = 標準にリセット
+
+preferences-etp-reset-strict-button =
+    .label = 厳格にリセット
+
+preferences-etp-custom-control-group =
+    .label = トラッキング防止
+    .description = 有効または無効にする保護機能を自分で選択します。
+
+preferences-etp-custom-cookies-enabled =
+    .label = Cookie
+
+preferences-etp-custom-cookie-behavior =
+    .aria-label = Cookie
+
+preferences-etpc-custom-cookie-behavior-accept-all =
+    .label = すべての Cookie を許可する
+
+preferences-etp-custom-tracking-protection-enabled =
+    .label = 追跡コンテンツ
+
+preferences-etp-custom-tracking-protection-enabled-context =
+    .aria-label = 追跡コンテンツ
+
+preferences-etp-custom-crypto-mining-protection-enabled =
+    .label = 仮想通貨マイナー
+
+preferences-etp-custom-known-fingerprinting-protection-enabled =
+    .label = 既知のフィンガープリント
+
+preferences-etp-custom-suspect-fingerprinting-protection-enabled =
+    .label = 疑わしいフィンガープリント
+
+preferences-etp-custom-suspect-fingerprinting-protection-enabled-context =
+    .aria-label = 疑わしいフィンガープリント
+
+## Warnings section
+
+security-privacy-issue-warning-fingerprinters =
+  .label = 既知のフィンガープリントがブロックされていません
+  .description = これにより、Cookie なしで一部のトラッカーに追跡される可能性があります。
+
+security-privacy-issue-warning-third-party-cookies =
+  .label = サードパーティ Cookie が有効です
+  .description = サードパーティ Cookie は、複数のサイトをまたいであなたを追跡するために使用されます。
+
+security-privacy-issue-warning-password-manager =
+  .label = パスワードマネージャーが無効です
+  .description = パスワードマネージャーを使用すると、アカウントごとに強力なパスワードを保存できます。
+
+security-privacy-issue-warning-popup-blocker =
+  .label = ポップアップブロックが無効です
+  .description = ポップアップは閲覧の邪魔になるだけでなく、有害な場合もあります。
+
+security-privacy-issue-warning-extension-install =
+  .label = ウェブサイトによる拡張機能のインストールが許可されています
+  .description = ウェブサイトが確認なしで { -brand-short-name } に拡張機能をインストールできる状態です。
+
+security-privacy-issue-warning-safe-browsing =
+  .label = 危険なコンテンツや詐欺コンテンツがブロックされていません
+  .description = ウェブサイトによる詐欺やマルウェアの脅威にさらされるリスクが高まります。
+
+security-privacy-issue-warning-doh =
+  .label = DNS over HTTPS が無効です
+  .description = DNS over HTTPS は、訪問したサイトの情報をネットワークプロバイダーから隠します。
+
+security-privacy-issue-warning-ech =
+  .label = Encrypted Client Hello が無効です
+  .description = Encrypted Client Hello は、訪問したサイトの情報をネットワークプロバイダーから隠します。
+
+security-privacy-issue-warning-proxy-autodetection =
+  .label = プロキシの自動構成が有効です
+  .description = プロキシの自動構成により、信頼できないネットワークがあなたの活動を監視できる可能性があります。

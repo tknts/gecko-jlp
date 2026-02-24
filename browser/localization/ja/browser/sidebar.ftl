@@ -36,7 +36,8 @@ sidebar-history-delete =
 sidebar-history-clear =
   .label = 履歴を消去
 
-sidebar-history-sort-by-heading = 並び替え：
+sidebar-history-sort-by-heading-menucaption =
+  .label = 並び替え:
 sidebar-history-sort-option-date =
   .label = 日付
 sidebar-history-sort-option-site =

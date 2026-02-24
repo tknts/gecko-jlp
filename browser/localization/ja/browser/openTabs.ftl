@@ -3,3 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 opentabs-page-title = 分割表示に追加するタブを選択
+
+opentabs-search-text-box =
+  .placeholder = タブを検索
+
+# Variables:
+#   $query (String) - The search query used for searching through open tabs.
+opentabs-search-results-header =
+  .heading = “{ $query }” の検索結果

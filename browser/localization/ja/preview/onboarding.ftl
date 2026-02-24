@@ -28,3 +28,12 @@ smartwindow-existing-user-fx-tou-title = { -brand-product-name } 利用規約
 smartwindow-existing-user-fx-tou-body = スマート ウィンドウを使用するには、<a data-l10n-name="terms_of_use">利用規約</a> と更新された <a data-l10n-name="privacy_notice">プライバシー通知</a> に同意してください。
 smartwindow-existing-user-fx-tou-accept = 同意する
 smartwindow-existing-user-fx-tou-go-back = 戻る
+
+## Smart Window about:welcome screen
+
+smartwindow-onboarding-title = スマート ウィンドウをいつものツールに
+smartwindow-onboarding-subtitle = 流れを止めることなく、要約や比較、質問ができます。
+smartwindow-onboarding-primary-button = 次へ
+# Kit is referring to the Firefox mascot
+smartwindow-onboarding-image-alt =
+  .aria-label = 星の小道具を持った { -brand-product-name } のマスコット (Kit) 

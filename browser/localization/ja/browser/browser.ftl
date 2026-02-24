@@ -809,10 +809,12 @@ urlbar-searchmode-default =
 
 # Label shown on the top of Searchmode Switcher popup. After this label, the
 # available search engines will be listed.
-urlbar-searchmode-popup-description = 今回のみ使用する検索エンジン:
+urlbar-searchmode-popup-description-menucaption =
+    .label = 今回のみ使用する検索エンジン:
 # Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
 # reset after submitting.
-urlbar-searchmode-popup-sticky-description = 次で検索:
+urlbar-searchmode-popup-sticky-description-menucaption =
+    .label = 使用する検索エンジン:
 urlbar-searchmode-popup-search-settings-menuitem =
     .label = 検索の設定
 

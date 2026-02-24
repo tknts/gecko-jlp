@@ -46,6 +46,9 @@ storage-variable-view-search-box =
 storage-add-button =
   .title = アイテムを追加
 
+storage-delete-all-button =
+  .title = すべて削除
+
 # Refresh button title
 storage-refresh-button =
   .title = アイテムを再読み込み

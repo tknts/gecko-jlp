@@ -141,6 +141,10 @@ main-context-menu-open-link-new-tab =
     .label = 新しいタブでリンクを開く
     .accesskey = T
 
+main-context-menu-open-link-split-view =
+    .label = リンクを分割画面で開く
+    .accesskey = M
+
 main-context-menu-open-link-container-tab =
     .label = 新しいコンテナー タブでリンクを開く
     .accesskey = w

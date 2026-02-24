@@ -29,6 +29,10 @@ inactive-css-not-grid-or-flex-or-absolutely-positioned-item = この要素は gr
 
 inactive-css-not-grid-or-absolutely-positioned-item = この要素は grid アイテムでも絶対配置された要素でもないので、<strong>{ $property }</strong> は効果がありません.
 
+inactive-css-not-absolutely-positioned-item = この要素は絶対配置 (absolutely positioned) されていないため、<strong>{ $property }</strong> は効果がありません。
+
+inactive-css-no-default-anchor = この要素にはデフォルトのアンカー要素がないため、<strong>{ $property }</strong> は効果がありません。
+
 inactive-css-not-grid-item = <strong>{ $property }</strong> は grid アイテムではないため、この要素には効果がありません。
 
 inactive-css-not-grid-container = <strong>{ $property }</strong> は grid コンテナではないため、この要素には効果がありません。
@@ -126,6 +130,10 @@ inactive-css-not-grid-or-flex-or-absolutely-positioned-item-fix = 要素に <str
 
 inactive-css-not-grid-or-absolutely-positioned-item-fix = 要素に <strong>position:absolute</strong> を追加するか、親要素に <strong>display:grid</strong> または <strong>display:inline-grid</strong> を追加してみてください。 { learn-more }
 
+inactive-css-not-absolutely-positioned-item-fix = 要素に <strong>position:absolute</strong> を追加してみてください。{ learn-more }
+
+inactive-css-no-default-anchor-fix = 有効なアンカー名を持つ <strong>position-anchor</strong> を追加してみてください。{ learn-more }
+
 inactive-css-not-grid-or-flex-item-fix-3 = 要素の親要素に <strong>display:grid</strong>、<strong>display:flex</strong>、<strong>display:inline-grid</strong>、または <strong>display:inline-flex</strong> を追加してみてください。 { learn-more }
 
 inactive-css-not-grid-item-fix-2 = 親要素に <strong>display:grid</strong> または <strong>display:inline-grid</strong> を追加してみてください。 { learn-more }
@@ -215,3 +223,6 @@ css-compatibility-learn-more-message = <strong>{ $rootProperty }</strong> につ
 
 # :has() should not be translated
 css-selector-warning-unconstrained-has = このセレクタは制約のない <strong>:has()</strong> を使用しており、低速になる可能性があります。
+
+# :scope should not be translated
+css-selector-warning-sibling-combinator-after-scope = <strong>:scope</strong> の後の兄弟結合子 (sibling combinator) はいかなる要素にも一致しません

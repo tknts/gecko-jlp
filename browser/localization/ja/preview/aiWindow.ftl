@@ -63,12 +63,9 @@ smartbar-placeholder =
     .placeholder = 質問、検索、または URL を入力
 
 ## Mentions
-## These label strings generally refer to “pages”, which can either be open tabs
-## or previously visited pages depending on the results shown in the list.
 
 smartbar-mentions-list-no-results-label = タブまたはページが見つかりません
-smartbar-mentions-list-open-tabs-label = タブ
-smartbar-mentions-list-previously-visited-pages-label = 過去に表示したページ
+smartbar-mentions-list-recent-tabs-label = 最近使ったタブ
 
 ## Context mentions menu toggle button
 
@@ -118,3 +115,46 @@ aiwindow-new-chat =
 ## Sign out dialog
 
 fxa-signout-dialog-body-aiwindow = 同期されたデータはアカウントに残ります。開いているスマート ウィンドウは標準のウィンドウに切り替わります。
+
+## Smart Window Toggle Button (in-page)
+
+smartwindow-switch-to-smart-window = スマート ウィンドウに切り替えます
+
+## Fullpage Footer Actions
+
+smartwindow-footer-chats =
+    .tooltiptext = チャット
+    .aria-label = チャット
+    .label = チャット
+
+smartwindow-footer-history =
+    .tooltiptext = 履歴
+    .aria-label = 履歴
+    .label = 履歴
+
+## FirefoxView Chats
+## Chats in this context refers to chats saved from the Smart Window Assistant
+
+firefoxview-chats-nav = チャット
+  .title = チャット
+firefoxview-chats-header = チャット
+
+firefoxview-chat-context-delete = チャットから削除
+    .accesskey = D
+
+# Placeholder for the input field to search in open tabs ("search" is a verb).
+firefoxview-search-text-box-chats =
+  .placeholder = チャットを検索
+
+## Variables:
+##   $date (string) - Date to be formatted based on locale
+
+firefoxview-chat-date-today = 今日 - { DATETIME($date, dateStyle: "full") }
+firefoxview-chat-date-yesterday = 昨日 - { DATETIME($date, dateStyle: "full") }
+firefoxview-chat-date-this-month = { DATETIME($date, dateStyle: "full") }
+firefoxview-chat-date-prev-month = { DATETIME($date, month: "long", year: "numeric") }
+
+## Message displayed in Firefox View when the user has no chat data
+
+firefoxview-chats-empty-header = チャットを再開しましょう
+firefoxview-chats-empty-description = スマート ウィンドウを使用すると、こちらにチャットが保存されます。

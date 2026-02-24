@@ -105,18 +105,9 @@ firefoxview-recently-closed-header = 最近閉じたタブ
 
 ## Tabs from other devices refers in this context refers to synced tabs from other devices
 
-firefoxview-synced-tabs-nav = その他のデバイスのタブ
-  .title = その他のデバイスのタブ
-firefoxview-synced-tabs-header = その他のデバイスのタブ
-
-## Chats in this context refers to chats saved from the AI Window Assistant
-
-firefoxview-chats-nav = チャット
-  .title = チャット
-firefoxview-chats-header = チャット
-
-firefoxview-chat-context-delete = チャットから削除
-    .accesskey = D
+firefoxview-synced-tabs-nav = 他のデバイスのタブ
+  .title = 他のデバイスのタブ
+firefoxview-synced-tabs-header = 他のデバイスのタブ
 
 ##
 
@@ -160,10 +151,6 @@ firefoxview-search-text-box-tabs =
 firefoxview-search-text-box-opentabs =
   .placeholder = 開いているタブの検索
 
-# Placeholder for the input field to search in open tabs ("search" is a verb).
-firefoxview-search-text-box-chats =
-  .placeholder = チャットを検索
-
 # "Search" is a noun (as in "Results of the search for")
 # Variables:
 #   $query (String) - The search query used for searching through browser history.
@@ -202,14 +189,6 @@ firefoxview-history-site-localhost = (ローカル ファイル)
 ##
 
 firefoxview-show-all-history = すべての履歴を表示
-
-## Variables:
-##   $date (string) - Date to be formatted based on locale
-
-firefoxview-chat-date-today = 今日 - { DATETIME($date, dateStyle: "full") }
-firefoxview-chat-date-yesterday = 昨日 - { DATETIME($date, dateStyle: "full") }
-firefoxview-chat-date-this-month = { DATETIME($date, dateStyle: "full") }
-firefoxview-chat-date-prev-month = { DATETIME($date, month: "long", year: "numeric") }
 
 ## Message displayed in Firefox View when the user has no history data
 
