@@ -856,6 +856,9 @@ network-proxy-connection-settings2 =
 
 ## Home Section
 
+home-section =
+    .heading = ホームとスタートアップ
+
 home-new-windows-tabs-header = 新しいウィンドウとタブ
 
 home-new-windows-tabs-description2 = ホームページと新しいウィンドウ、新しいタブを開いたときに表示するものを選択します。
@@ -2028,6 +2031,9 @@ preferences-view-profiles = すべてのプロファイルを表示
 
 collection-health-report-telemetry-disabled = { -vendor-short-name } が技術的なデータと操作に関するデータを取得することはなくなりました。過去のデータはすべて 30 日以内に削除されます。
 collection-health-report-telemetry-disabled-link = 詳細はこちら
+
+backup-multi-profile-warning-message =
+    .message = この変更が確実にバックアップに含まれるように、各プロファイルを開き、設定から「今すぐバックアップ」を選択してください。
 
 collection-usage-ping =
     .label = 毎日の利用状況の ping を { -vendor-short-name } に送信する

@@ -13,13 +13,35 @@ about-translations-learn-more-link = さらに詳しく
 about-translations-unsupported-info-message =
   .heading = このデバイスでは翻訳機能は利用できません
   .message = 別のデバイスでお試しください。
-about-translations-unsupported-info-button = さらに詳しく
+
+# An info message displayed when translations are disabled and locked by enterprise policy.
+about-translations-policy-disabled-info-message =
+  .heading = 組織のポリシーにより翻訳機能を利用できません
+  .message = この設定は管理者によって管理されています。
+
+# An info message displayed when translations are disabled but can still be unblocked.
+about-translations-feature-blocked-info-message =
+  .heading = テキストを翻訳するには、この機能のブロックを解除してください
+  .message = AI 制御の設定によってこの機能がブロックされています。いつでもブロックを解除して利用を開始できます。
+about-translations-feature-blocked-unblock-button = ブロックを解除
 
 # An error message displayed when the language list fails to load.
 about-translations-language-load-error-message =
   .heading = 言語を読み込めませんでした。
   .message = インターネット接続を確認し、再度お試しください。
 about-translations-language-load-error-button = 再度試す
+
+# An error message displayed when a translation request fails.
+about-translations-translation-error-heading = 翻訳中に問題が発生しました
+about-translations-translation-error-subtext = もう一度お試しください。
+about-translations-translation-error-button = やり直す
+
+# An informational message displayed when the detected language is not supported.
+# Variables:
+#   $language (String) - The display name of the detected language.
+about-translations-detected-language-unsupported-heading = 申し訳ありません、 { $language } はまだサポートされていません
+about-translations-detected-language-unsupported-heading-unknown = 申し訳ありません、この言語はまだサポートされていません
+about-translations-detected-language-unsupported-subtext = 別の言語を選択してください。
 
 # Placeholder text shown in the source-language text area when the user has not typed any text.
 about-translations-input-placeholder =

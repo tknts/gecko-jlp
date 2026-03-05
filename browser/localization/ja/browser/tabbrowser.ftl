@@ -449,6 +449,10 @@ tab-context-open-in-split-view =
 tab-context-separate-split-view =
     .label = 分割表示を切り離す
     .accesskey = t
+# Reverse the order of the two tabs in the split view
+tab-context-reverse-split-view =
+    .label = タブを左右入れ替える
+    .accesskey = r
 tab-context-badge-new = 新規
 
 ## Manage Split View (icon in the address bar & three-dot menu in the footer)

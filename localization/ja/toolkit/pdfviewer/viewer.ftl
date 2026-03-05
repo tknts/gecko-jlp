@@ -192,8 +192,9 @@ pdfjs-additional-layers = 追加のレイヤー
 
 # Variables:
 #   $page (Number) - the page number
-pdfjs-thumb-page-title =
-    .title = { $page } ページ
+#   $total (Number) - the number of pages
+pdfjs-thumb-page-title1 =
+    .title = { $total } ページ中 { $page } ページ目
 
 # Variables:
 #   $page (Number) - the page number
@@ -202,8 +203,8 @@ pdfjs-thumb-page-canvas =
 
 # Variables:
 #   $page (Number) - the page number
-pdfjs-thumb-page-checkbox =
-    .aria-label = { $page } ページ目を選択します
+pdfjs-thumb-page-checkbox1 =
+    .title = { $page } ページ目を選択
 
 ## Find panel button title and messages
 
@@ -698,6 +699,8 @@ pdfjs-toggle-views-manager-button-label = サイドバーを切り替え
 
 pdfjs-views-manager-sidebar =
     .aria-label = サイドバー
+pdfjs-views-manager-sidebar-resizer =
+    .aria-label = サイドバーのサイズ変更
 pdfjs-views-manager-view-selector-button =
     .title = 表示
 pdfjs-views-manager-view-selector-button-label = 表示

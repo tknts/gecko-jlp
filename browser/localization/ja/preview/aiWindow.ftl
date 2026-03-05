@@ -114,7 +114,7 @@ aiwindow-new-chat =
 
 ## Sign out dialog
 
-fxa-signout-dialog-body-aiwindow = 同期されたデータはアカウントに残ります。開いているスマート ウィンドウは標準のウィンドウに切り替わります。
+fxa-signout-dialog-body-aiwindow = 同期されたデータはアカウントに残ります。開いているスマート ウィンドウはクラシック ウィンドウに切り替わります。
 
 ## Smart Window Toggle Button (in-page)
 

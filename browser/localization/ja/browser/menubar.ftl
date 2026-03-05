@@ -10,17 +10,20 @@
 ## Application Menu (macOS only)
 
 menu-application-preferences =
-    .label = Preferences
+    .label = 環境設定
+# Starting with macOS Ventura (13), the name of the "Preferences" menu item changed to "Settings".
+menu-application-settings =
+    .label = 設定…
 menu-application-services =
-    .label = Services
+    .label = サービス
 menu-application-hide-this =
-    .label = Hide { -brand-shorter-name }
+    .label = { -brand-shorter-name } を隠す
 menu-application-hide-other =
-    .label = Hide Others
+    .label = ほかを隠す
 menu-application-show-all =
-    .label = Show All
+    .label = すべてを表示
 menu-application-touch-bar =
-    .label = Customize Touch Bar…
+    .label = Touch Bar をカスタマイズ…
 
 ##
 

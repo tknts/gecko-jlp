@@ -58,6 +58,11 @@ newtab-topsites-url-input =
     .placeholder = URL を入力するか貼り付けてください
 newtab-topsites-url-validation = 正しい URL を入力してください
 
+## Clear text button for the URL and image URL input fields in the Top Sites form.
+
+newtab-topsites-clear-input =
+    .aria-label = テキストを消去
+
 newtab-topsites-image-url-label = カスタム画像 URL
 newtab-topsites-use-image-link = カスタム画像を使用…
 newtab-topsites-image-validation = 画像を読み込めませんでした。別の URL を試してください。
@@ -394,7 +399,6 @@ newtab-weather-menu-temperature-option-fahrenheit = 華氏
 newtab-weather-menu-temperature-option-celsius = 摂氏
 newtab-weather-menu-change-temperature-units-fahrenheit = 華氏に切り替える
 newtab-weather-menu-change-temperature-units-celsius = 摂に切り替える
-newtab-weather-menu-hide-weather-v2 = 天気を表示しない
 newtab-weather-menu-learn-more = さらに詳しく
 newtab-weather-menu-detect-my-location = 現在地を検出
 # This message is shown if user is working offline
@@ -539,10 +543,13 @@ newtab-report-cancel = キャンセル
 newtab-report-submit = 送信
 newtab-toast-thanks-for-reporting =
     .message = ご報告ありがとうございました。
+newtab-toast-widgets-hidden =
+    .message = 鉛筆アイコンを選択すれば、いつでもウィジェットを元に戻せます。
 
 ## Strings for task / to-do list productivity widget
 
 newtab-widget-section-title = ウィジェット
+newtab-widget-menu-hide = ウィジェットを非表示にする
 # Tooltip for hide all widgets button
 newtab-widget-section-hide-all-button =
     .title = ウィジェットを非表示
@@ -553,6 +560,7 @@ newtab-widget-section-maximize =
 newtab-widget-section-minimize =
     .title = ウィジェットを最小化
     .aria-label = すべてのウィジェットをコンパクトサイズに折りたたむ
+newtab-widget-section-feedback = ご意見をお聞かせください
 newtab-widget-lists-name-label-default =
     .label = タスクリスト
 newtab-widget-lists-name-placeholder-default =
@@ -577,7 +585,6 @@ newtab-widget-lists-menu-edit = リスト名を編集
 newtab-widget-lists-menu-create = 新しいリストを作成
 newtab-widget-lists-menu-delete = このリストを削除
 newtab-widget-lists-menu-copy = リストをクリップボードにコピー
-newtab-widget-lists-menu-hide = すべてのリストを非表示
 newtab-widget-lists-menu-learn-more = 詳しく見る
 newtab-widget-lists-input-add-an-item =
     .placeholder = アイテムを追加
@@ -611,7 +618,6 @@ newtab-widget-timer-reset =
     .title = リセット
 newtab-widget-timer-menu-notifications = 通知をオフにする
 newtab-widget-timer-menu-notifications-on = 通知をオンにする
-newtab-widget-timer-menu-hide = タイマーを非表示
 newtab-widget-timer-menu-learn-more = さらに詳しく
 
 # Strings for daily briefing card
@@ -630,8 +636,8 @@ newtab-widget-message-copy = ちょっとしたリマインダーから毎日の
 
 # Strings for the default promo card
 
-newtab-promo-card-title = { -brand-product-name } をサポートする
-newtab-promo-card-body = 弊社のスポンサーは、より良いウェブを構築するという弊社の使命を支援してくださっています
+newtab-promo-card-title = { -brand-product-name } を支援
+newtab-promo-card-body = スポンサーの協力により、より良いウェブを構築するという私たちのミッションが支えられています。
 newtab-promo-card-cta = さらに詳しく
 newtab-promo-card-dismiss-button =
     .title = 閉じる

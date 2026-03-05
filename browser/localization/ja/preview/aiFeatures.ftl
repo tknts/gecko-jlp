@@ -52,9 +52,11 @@ ai-window-memories-section =
     .label = メモリー
     .description = スマート ウィンドウがあなたのアクティビティから学習する内容を管理します。
 
-ai-window-learn-from-activity =
-    .label = あなたのアクティビティから学習する
-    .description = スマート ウィンドウは、ブラウジングやチャットのアクティビティを使用してメモリーを作成し、回答をパーソナライズできます。
+ai-window-learn-from-chat-activity =
+    .label = スマート ウィンドウでのチャット内容を学習に利用する
+
+ai-window-learn-from-browsing-activity =
+    .label = クラシック ウィンドウとスマート ウィンドウでのブラウジング内容を学習に利用する
 
 ai-window-manage-memories-button =
     .label = メモリーを管理

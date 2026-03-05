@@ -98,9 +98,16 @@ ipprotection-message-bandwidth-warning =
   .heading = VPN の使用制限に近づいています
   .message = 今月の残りデータ量は { $maxUsage } GB 中 { $usageLeft } GB です。
 
+# Variables
+#   $usageLeft (number) - The amount of data a user has left in a month (in MB)
+#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+ipprotection-message-bandwidth-warning-mb =
+  .heading = VPN の利用制限が近づいています
+  .message = 今月の残り容量は { $maxUsage } GB のうち { $usageLeft } MB です。
+
 ipprotection-message-continuous-onboarding-intro = VPN をオンにして現在地を隠し、ブラウジングに高度な暗号化を追加しましょう。
 ipprotection-message-continuous-onboarding-autostart = さらなる保護のために、{ -brand-short-name } を開くたびに <a data-l10n-name="setting-link">VPN をオンにする</a> よう設定できます。
-ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } はどのウェブサイトで VPN を使用するかを記憶します。これらの設定はいつでも <a data-l10n-name="setting-link">設定</a> から変更できます。
+ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } は、VPN を使用するように設定したウェブサイトを記憶します。これらはいつでも <a data-l10n-name="setting-link">設定</a> から更新できます。
 
 confirmation-hint-ipprotection-navigated-to-excluded-site = このサイトでは VPN はオフです
 
@@ -118,6 +125,10 @@ ip-protection-bandwidth-warning-infobar-message-75 = <strong>VPN の使用制限
 # Variables
 #   $usageLeft (number) - The amount of data a user has left in a month (in GB)
 ip-protection-bandwidth-warning-infobar-message-90 = <strong>VPN データが残りわずかです。</strong> 残りは { $usageLeft } GB です。すべて使い切ると、来月 1 日にリセットされるまで VPN は一時停止します。
+
+# Variables
+#   $usageLeft (number) - The amount of data a user has left in a month (in MB)
+ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>VPN のデータ容量が残りわずかです。</strong> 残り容量は { $usageLeft } MB です。すべて使い切ると、翌月 1 日にデータがリセットされるまで VPN は一時停止します。
 
 ## IP Protection Settings
 

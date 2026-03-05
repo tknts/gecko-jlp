@@ -81,11 +81,15 @@ new-profile-page-done-button =
 copied-profile-page-header =  { $profilename } のコピーのカスタマイズを始めましょう
 copied-profile-page-header-description = データと設定を新しいプロファイルにコピーしました。名前を付けて、見た目を選び、自分好みに仕上げましょう。
 
+restored-profile-page-header = 復元されたプロファイルをカスタマイズ
+restored-profile-page-header-description = 各プロファイルでは、独自の閲覧履歴や設定が他のプロファイルとは別に保持されます。さらに、{ -brand-short-name } の強力なプライバシー保護機能が標準で有効になっています。
+restored-profile-page-learn-more = さらに詳しく
+
 ## Delete profile dialogue that allows users to review what they will lose if they choose to delete their profile. Each item (open windows, etc.) is displayed in a table, followed by a column with the number of items.
 
 # Variables
 #   $profilename (String) - The name of the profile.
-delete-profile-page-title = { $profilename } のプロファイルを削除
+delete-profile-page-title-2 = “{ $profilename }” のプロファイルを削除
 
 # Variables
 #   $profilename (String) - The name of the profile.
