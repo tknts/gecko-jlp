@@ -57,16 +57,6 @@ settings-data-backup-restore-scheduled-off =
     .label = データを復元
     .description = 他のデバイスの { -brand-product-name } バックアップを使用してデータを復元します。
 
-## These strings are shown under the header if scheduled backups are disabled.
-
-settings-data-backup-scheduled-backups-off-restore-description = 別のデバイスから { -brand-product-name } のバックアップを使用してデータを復元します。
-settings-data-backup-scheduled-backups-off-restore-choose = バックアップファイルの選択…
-
-## These strings are shown under the header if scheduled backups are enabled.
-
-settings-data-backup-scheduled-backups-on-restore-description = 前回バックアップした時点から{ -brand-product-name } のデータを復元します。
-settings-data-backup-scheduled-backups-on-restore-choose = 復元…
-
 settings-sensitive-data =
     .label = 機密データ
 settings-sensitive-data-encryption-description = パスワードや支払い方法をバックアップし、さらに暗号化によってすべてのデータを安全に保護します。
@@ -293,7 +283,7 @@ other-backup-files-founds =
 #   $profileName (String) - The name of the profile that was backed up.
 #   $date (Datetime) - The date the backup was created.
 #   $machineName (String) - Name of the machine that the backup was created on.
-backup-file-creation-metadata = { $profileName } (作成日: { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") }、作成元: { $machineName })
+backup-file-creation-metadata2 = <b>{ $profileName }</b> { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") } に { $machineName } で作成されました
 
 # Variables:
 #   $deviceName (String) - The name of the device from which the backup was created.

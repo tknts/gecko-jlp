@@ -22,6 +22,8 @@ menu-history-chats =
 menu-history-chats-recent =
     .label = 最近のチャット
 
+smartwindow-fullpage-heading = スマート ウィンドウ
+
 smartwindow-document-title = 新しいタブ
 
 ## Smart Window Toggle Button
@@ -35,6 +37,7 @@ ai-window-toggleview-switch-classic =
 
 ai-window-toggleview-switch-ai =
     .label = スマート ウィンドウ
+    .value = スマート ウィンドウ
 
 ai-window-toggleview-switch-private =
     .label = プライベート ウィンドウ
@@ -86,6 +89,9 @@ aiwindow-firstrun-model-title = 使用するモデルを選択
 aiwindow-firstrun-model-subtitle = いつでも切り替えて、自分に最適なものを見つけられます。
 aiwindow-firstrun-model-fast-label = 最速
 aiwindow-firstrun-model-fast-body = 日常的な質問に素早く回答するのに最適です
+# $modelName (string) - The name of the AI model
+# $ownerName (string) - The name of the model owner/provider
+aiwindow-firstrun-model-chip-subtitle = モデル: { $modelName } / 提供元: { $ownerName }
 aiwindow-firstrun-model-allpurpose-label = 多目的
 aiwindow-firstrun-model-allpurpose-body = 素早い処理から複雑なタスクまで、幅広く対応するのに最適です
 aiwindow-firstrun-model-personal-label = パーソナライズ
@@ -132,6 +138,11 @@ smartwindow-footer-history =
     .aria-label = 履歴
     .label = 履歴
 
+## Disclaimer
+## Text displayed to user to warn user about potential mistakes.
+
+smartwindow-disclaimer = AI は間違えることがあります
+
 ## FirefoxView Chats
 ## Chats in this context refers to chats saved from the Smart Window Assistant
 
@@ -158,3 +169,13 @@ firefoxview-chat-date-prev-month = { DATETIME($date, month: "long", year: "numer
 
 firefoxview-chats-empty-header = チャットを再開しましょう
 firefoxview-chats-empty-description = スマート ウィンドウを使用すると、こちらにチャットが保存されます。
+
+## Count displayed in fxview chat search results
+
+# Variables:
+#   $count (Number) - The number of chats matching the search query.
+
+firefoxview-search-chat-results-count = { $count ->
+  [one] { $count } 件のチャット
+ *[other] { $count } 件のチャット
+}

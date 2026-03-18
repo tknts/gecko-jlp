@@ -24,7 +24,8 @@ neterror-override-exception-button = 危険を承知で続行
 neterror-pref-reset-button = 既定の設定に戻す
 neterror-return-to-previous-page-button = 戻る
 neterror-return-to-previous-page-recommended-button = 戻る (推奨)
-neterror-try-again-button = 再試行
+neterror-try-again-button-2 = 再試行
+    .accesskey = T
 neterror-add-exception-button = このサイトへの接続を常に継続
 neterror-settings-button = DNS 設定を変更
 neterror-view-certificate-link = 証明書を表示
@@ -194,6 +195,9 @@ neterror-response-status-code = エラーコード: { $responsestatus } { $respo
 ## Felt Privacy V1 Strings
 
 fp-neterror-offline-body-title = インターネットの接続に問題があるようです
+
+fp-neterror-illustration-alt =
+  .alt = 切断されたネットワークケーブルを見つめているキツネのイラスト
 
 ## Variables:
 ##   $hostname (String) - Hostname of the website to which the user was trying to connect.

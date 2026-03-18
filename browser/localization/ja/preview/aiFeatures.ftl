@@ -2,9 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+preferences-ai-controls-block-confirmation-smart-window = スマート ウィンドウ
+
 ai-window-features-group =
     .label = スマート ウィンドウ
-    .description = 内蔵のアシスタントを備えた別ウィンドウで、質問をしたり、ページを比較したりできます。スマートウィンドウは、よりパーソナライズされた体験を提供するために、ブラウジングを通じて学習します。
+    .description = 組み込みのアシスタントを使用して、質問、ページの比較、パーソナライズされたサジェストの取得ができます。
+
+smart-window-select-label =
+    .label = スマート ウィンドウ
 
 ai-window-activate-link =
     .label = 今すぐ始める

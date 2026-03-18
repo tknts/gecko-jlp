@@ -1032,6 +1032,32 @@ toolbar-button-logins =
   .label = パスワード
   .tooltiptext = 保存されているパスワードの管理と表示を行います
 
+qrcode-panel-error =
+    .message = QR コードの生成に失敗しました。もう一度お試しください。
+
+qrcode-copy-button =
+    .label = コピー
+qrcode-copy-success =
+    .message = QR コードをクリップボードにコピーしました。
+qrcode-copy-error =
+    .message = QR コードのコピーに失敗しました。
+
+qrcode-save-button =
+    .label = 保存
+qrcode-save-success =
+    .message = QR コードを保存しました。
+qrcode-save-error =
+    .message = QR コードの保存に失敗しました。
+qrcode-save-title = QR コードの保存
+qrcode-save-filter-png = PNG 画像
+qrcode-save-filename = qrcode.png
+qrcode-window-title = QR コード
+qrcode-dialog-title = QR コード
+qrcode-image =
+    .aria-label = QR コード
+qrcode-close-button =
+    .aria-label = 閉じる
+
 # Variables:
 #  $shortcut (String): keyboard shortcut to save a copy of the page
 toolbar-button-save-page =

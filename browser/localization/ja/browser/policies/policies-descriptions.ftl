@@ -232,6 +232,8 @@ policy-SecurityDevices2 = PKCS #11 モジュールの追加と削除。
 
 policy-ShowHomeButton = ホームボタンをツールバーに表示します。
 
+policy-SitePolicies = サイト固有のポリシー
+
 # ”You represent that...” means ”You confirm/declare that...”
 policy-SkipTermsOfUse2 = 起動時に利用規約およびプライバシー通知を表示しないようにします。あなたは、本ブラウザーへアクセスする、すべての個人を代表して、利用規約に同意し、同意する権限を有していることを表明するものとします。
 

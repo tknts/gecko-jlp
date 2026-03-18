@@ -307,6 +307,8 @@ settings-tabs-show-image-in-preview =
     .label = タブにカーソルを合わせたときに画像のプレビューを表示する
     .accessKey = h
 
+settings-tabs-drag-to-create-tab-groups =
+    .label = タブをドラッグして重ねることでタブグループを作成します
 
 browser-layout-header2 =
     .label = ブラウザーのレイアウト

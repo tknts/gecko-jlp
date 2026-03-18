@@ -189,6 +189,7 @@ permissions-site-localhost-window =
     .title = 設定 - デバイスのアプリとサービス
     .style = { permissions-window2.style }
 permissions-site-localhost-desc = これらのウェブサイトは、このデバイス上のアプリやサービスへのアクセスを要求しました。アクセスを許可するかブロックするかを選択できます。
+
 permissions-site-localhost-disable-label =
     .label = このデバイス上のアプリやサービスへの新たなアクセスの要求をブロックする
 permissions-site-localhost-disable-desc = 上記に表示されていないウェブサイトがこのデバイスのアプリやサービスにアクセスを要求できなくなります。一部のウェブサイト機能が動作しなくなる可能性があります。

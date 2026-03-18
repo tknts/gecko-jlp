@@ -272,7 +272,7 @@ tab-group-preview-closed-description = タブ一覧が閉じています
 ##
 
 tab-context-unnamed-group =
-    .label =  新しいグループ
+    .label = 新しいグループ
 
 ## Variables:
 ##  $tabCount (Number): the number of tabs that are affected by the action.
@@ -410,6 +410,8 @@ tab-note-editor-button-save =
     .accesskey = S
 # Link to show the full tab note in case it was truncated.
 tab-note-preview-expand = 続きを読む
+tab-note-panel-add-note-new-badge =
+    .label = New
 
 # Displayed within the tab note edit dialog box when the user has entered more
 # characters than are allowed.

@@ -462,3 +462,15 @@ main-context-menu-reveal-password =
 
 # The label of a badge shown in menu items to call out new features.
 main-context-menu-new-feature-badge = 新規
+
+main-context-menu-pdfjs-copy-page =
+    .label = ページをコピー
+
+main-context-menu-pdfjs-cut-page =
+    .label = ページを切り取り
+
+main-context-menu-pdfjs-delete-page =
+    .label = ページを削除
+
+main-context-menu-pdfjs-save-page =
+    .label = 選択範囲を名前を付けて保存…
