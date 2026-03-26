@@ -6,6 +6,7 @@
 
 appmenuitem-new-ai-window =
     .label = 新しいスマートウィンドウ
+    .value = 新しいスマートウィンドウ
 
 appmenuitem-new-classic-window =
     .label = 新しいクラシックウィンドウ
@@ -79,6 +80,7 @@ smartbar-context-menu-button =
 ## Website Chip
 
 aiwindow-website-chip-placeholder = タブまたはサイトをタグ付け
+aiwindow-website-chip-history-deleted = 履歴を削除しました
 aiwindow-website-chip-remove-button =
     .aria-label = 削除
 
@@ -179,3 +181,11 @@ firefoxview-search-chat-results-count = { $count ->
   [one] { $count } 件のチャット
  *[other] { $count } 件のチャット
 }
+
+## Clear browsing data dialog
+
+item-history-downloads-and-chat =
+    .label = ブラウジング、ダウンロード、チャットの履歴
+    .accesskey = B
+
+item-history-downloads-and-chat-description = サイトの閲覧、ダウンロード、およびチャットの履歴を消去します

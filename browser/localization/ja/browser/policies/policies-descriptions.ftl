@@ -11,6 +11,8 @@
 
 policy-3rdparty = WebExtension が chrome.storage.managed を利用してアクセスできるポリシーを設定します。
 
+policy-AIControls = AI の制御を構成します。
+
 policy-AllowedDomainsForApps = Google Workspace へのアクセスを許可するドメインを定義します。
 
 policy-AllowFileSelectionDialogs = ファイルの選択ダイアログを許可します。
@@ -217,13 +219,15 @@ policy-PromptForDownloadLocation = ダウンロード時にファイルの保存
 
 policy-Proxy = プロキシ設定を構成します。
 
+policy-RelaunchRequired = 指定された期間内に { -brand-short-name } の再起動を要求し、再起動が近づいていることをユーザーに通知します。
+
 policy-RequestedLocales = アプリケーションに要求される言語リストと優先順位を設定します。
 
 policy-SanitizeOnShutdown2 = 終了時にナビゲーションデータを消去します。
 
 policy-SearchBar = 検索バーのデフォルトの位置を設定します。ユーザーがカスタマイズすることも可能です。
 
-policy-SearchEngines = 検索エンジンの設定を行います。このポリシー延長サポート (ESR) 版でのみ利用可能です。
+policy-SearchEngines = 検索エンジンの設定を構成します。このポリシーは延長サポート版 (ESR) でのみ利用可能です。
 
 policy-SearchSuggestEnabled = 検索候補の表示機能の使用を切り替えます。
 

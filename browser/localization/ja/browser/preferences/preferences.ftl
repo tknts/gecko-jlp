@@ -585,6 +585,10 @@ download-private-browsing-delete =
     .label = すべてのプライベートウィンドウが閉じられたときにプライベートブラウジングでダウンロードしたファイルを削除する
     .accesskey = D
 
+applications-header = アプリケーション
+
+applications-description = ウェブからダウンロードするファイルや、閲覧中に使用するアプリケーションを { -brand-short-name } でどのように処理するかを選択します。
+
 applications-setting =
     .label = アプリケーション
     .description = ウェブからダウンロードしたファイルを { -brand-short-name } が取り扱う方法とブラウズ中に使用するアプリケーションを選択してください。
@@ -676,6 +680,8 @@ applications-use-os-default-label =
     .value = { applications-use-os-default.label }
 
 ##
+
+applications-handle-new-file-types-description = 他のファイル形式について { -brand-short-name } でどのように処理しますか?
 
 applications-setting-new-file-types =
      .label = その他のファイルに対して { -brand-short-name } が行う動作を選択してください
@@ -2008,13 +2014,14 @@ permissions-block-popups2 =
 
 # "popup" is a misspelling that is more popular than the correct spelling of
 # "pop-up" so it's included as a search keyword, not displayed in the UI.
-permissions-block-popups-exceptions-button2 =
-    .label = ポップアップとサードパーティのリダイレクトの例外を管理
+permissions-block-popups-exceptions-button4 =
+    .label = 例外を管理
+    .description = ポップアップの表示やサードパーティのリダイレクトを許可するウェブサイトを追加します。
     .accesskey = E
     .searchkeywords = popups
 
-permissions-addon-install-warning2 =
-    .label = ウェブサイトが拡張機能をインストールしようとしたときに警告する
+permissions-addon-install-warning3 =
+    .label = ウェブサイトが拡張機能をインストールしようとしたときに警告を表示する
     .accesskey = W
 
 permissions-addon-exceptions2 =
@@ -2023,43 +2030,48 @@ permissions-addon-exceptions2 =
 
 ## Privacy Section - Data Collection
 
-collection-header2 = { -brand-short-name } のデータ収集と利用
-    .searchkeywords = テレメトリー
-
-preferences-collection-description = 私たちは選択肢を提供し、すべての人々のために { -brand-product-name } を改善するために必要最低限のデータのみを収集するよう努めています。
-preferences-collection-privacy-notice = プライバシー通知を表示
-preferences-across-profiles = これらの設定はこのデバイス上のすべての { -brand-product-name } プロファイルに適用されます。
-preferences-view-profiles = すべてのプロファイルを表示
-
-collection-health-report-telemetry-disabled = { -vendor-short-name } が技術的なデータと操作に関するデータを取得することはなくなりました。過去のデータはすべて 30 日以内に削除されます。
-collection-health-report-telemetry-disabled-link = 詳細はこちら
+# The search keyword isn't shown to users but is used to find relevant settings in about:preferences.
+data-collection =
+    .label = { -brand-short-name } によるデータ収集と利用
+    .description = 私たちは、お客様に選択肢を提供し、すべてのユーザーのために { -brand-product-name } を改善する上で必要最小限のデータのみを収集するよう努めています。
+    .searchkeywords = テレメトリ, telemetry
+data-collection-link = プライバシー通知を表示
+data-collection-preferences-across-profiles =
+    .message = これらの設定は、このデバイス上のすべての { -brand-product-name } プロファイルに適用されます。
+data-collection-profiles-link = すべてのプロファイルを表示
+data-collection-health-report-telemetry-disabled =
+    .message = { -vendor-short-name } による技術データおよび対話データの収集を停止しました。過去のデータはすべて 30 日以内に削除されます。
+data-collection-health-report =
+    .label = 技術データおよび対話データを { -vendor-short-name } へ送信する
+    .accesskey = r
+    .description = これにより、{ -brand-product-name } の機能、パフォーマンス、安定性の向上に役立てられます。
+data-collection-health-report-disabled =
+    .label = 技術データおよび対話データを { -vendor-short-name } へ送信する
+    .accesskey = r
+    .description = このビルド構成ではデータ報告が無効になっています。
+data-collection-run-studies =
+    .label = { -brand-short-name } による機能調査の実行を許可する
+    .description = { -brand-short-name } は、機能をテストするためにユーザーをランダムに選択します。これは、すべてのユーザーに対する品質向上のために役立てられます。
+data-collection-studies-link =
+    .label = { -brand-short-name } の調査を表示
+data-collection-backlogged-crash-reports =
+    .label = クラッシュレポートを自動的に送信する
+    .description = これにより、{ -vendor-short-name } がブラウザの問題を診断して修正するのに役立てられます。レポートには個人情報や機密データが含まれる場合があります。
+    .accesskey = c
+data-collection-usage-ping =
+    .label = 1 日の利用状況 (ping) を { -vendor-short-name } に送信する
+    .description = これにより、{ -vendor-short-name } がアクティブユーザー数を推定するのに役立てられます。
+    .accesskey = u
 
 backup-multi-profile-warning-message =
-    .message = この変更が確実にバックアップに含まれるように、各プロファイルを開き、設定から「今すぐバックアップ」を選択してください。
+    .message = この変更をバックアップに確実に含めるには、各プロファイルを開き、設定から [今すぐバックアップ] を選択してください。
 
-collection-usage-ping =
-    .label = 毎日の利用状況の ping を { -vendor-short-name } に送信する
-    .accesskey = u
-collection-usage-ping-description = これは { -vendor-short-name } がアクティブなユーザーを推定するのに役立ちます。
-
-collection-health-report2 =
-    .label = 技術的なデータと操作に関するデータを { -vendor-short-name } に送信する
-    .accesskey = r
-collection-health-report-link = 詳細はこちら
-collection-health-report-description = これは { -brand-product-name } の機能、パフォーマンス、安定性を改善するために役立ちます。
-
-collection-studies2 =
-    .label = スタディーをインストールして実行する
-collection-studies-description = すべてのユーザーにリリースされる前に、機能やアイデアを試すことができます。
-collection-studies-link = { -brand-short-name } のスタディーを表示
-
-nimbus-rollouts-enabled =
-    .label = アップデートの合間に、{ -brand-short-name } が機能、パフォーマンス、安定性を向上させることを許可する
-nimbus-rollouts-enabled-description = 変更はリモートで適用されます。
-
-addon-recommendations2 =
-    .label = パーソナライズされた拡張機能の推奨を許可する
-addon-recommendations-description = 閲覧体験を向上させるための拡張機能の推奨を受け取ります。
+nimbus-rollouts =
+    .label = アップデートの合間に { -brand-short-name } の機能、パフォーマンス、安定性を向上させることを許可する
+    .description = 変更はリモートで順次適用されます。
+addon-recommendations3 =
+    .label = パーソナライズされた拡張機能のおすすめを許可する
+    .description = ブラウジング体験を向上させるための拡張機能のおすすめを表示します。
 
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.

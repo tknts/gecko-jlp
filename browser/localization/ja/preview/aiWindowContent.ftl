@@ -21,7 +21,11 @@ smartwindow-signin-btn = サインイン
 
 ## Assistant Message footer
 
-aiwindow-memories-used = 使用されたメモリー
+aiwindow-memories-used = メモリを使用しました
+aiwindow-memories-callout-description = メモリ機能により、この回答はあなた向けにパーソナライズされています。
+aiwindow-memories-learn-more = 詳細はこちら
+aiwindow-manage-memories =
+    .label = メモリの設定
 aiwindow-retry-without-memories =
     .label = メモリーを使用せずに再試行
 aiwindow-retry =

@@ -97,7 +97,7 @@ neterror-not-cached-intro = リクエストされたドキュメントは { -bra
 neterror-not-cached-sensitive = セキュリティ上の配慮から、{ -brand-short-name } は機密性の高いドキュメントを自動的に再リクエストしません。
 neterror-not-cached-try-again = [再試行] をクリックして、ウェブサイトからドキュメントを再取得してください。
 
-neterror-net-offline =  [再試行] を押してオンラインモードに切り替え、ページを再読み込みしてください。
+neterror-net-offline = [再試行] を押してオンラインモードに切り替え、ページを再読み込みしてください。
 
 neterror-proxy-resolve-failure-settings = プロキシーの設定が正しいことを確認してください。
 neterror-proxy-resolve-failure-connection = コンピューターのネットワーク接続が有効であることを確認してください。
@@ -204,6 +204,12 @@ fp-neterror-illustration-alt =
 
 fp-neterror-connection-intro = { -brand-short-name } は { $hostname } のサーバーへの安全な接続を確立できません。
 fp-neterror-offline-intro = { -brand-short-name } は <strong>{ $hostname }</strong> のサーバーに接続できません
+fp-neterror-net-timeout-intro = <strong>{ $hostname }</strong> のサーバーからの応答に時間がかかりすぎています。
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
+#   $responsestatus (Number) - HTTP response status code (e.g., 404).
+#   $responsestatustext (String) - HTTP response status text (e.g., "Not Found", always in English).
+fp-neterror-http-error-intro = <strong>{ $hostname }</strong> のサーバーからエラーが返されました: { $responsestatus } { $responsestatustext }
 fp-neterror-coop-coep-intro = セキュリティ設定が前のページと一致しないため、{ -brand-short-name } はこのページを読み込みませんでした。
 fp-neterror-http-auth-disabled-intro = サイトになりすました第三者が、ユーザー名やパスワード、メールアドレスなどを盗み取ろうとする可能性があります。
 fp-neterror-http-auth-disabled-secure-connection = このサイトは安全な接続を必要としており、アクセスするための例外を追加することはできません。

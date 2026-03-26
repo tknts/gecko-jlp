@@ -87,9 +87,13 @@ upgrade-vpn-button = { -mozilla-vpn-brand-name } を試す
 
 ipprotection-connection-status-generic-error-title = VPN に接続できませんでした
 ipprotection-connection-status-generic-error-description = 数分後にもう一度お試しください。
+ipprotection-connection-status-generic-error-try-again = 後でもう一度お試しください。
 
 ipprotection-connection-status-network-error-title = インターネット接続を確認してください
 ipprotection-connection-status-network-error-description = インターネットに接続してから、VPN をオンにしてください。
+
+ipprotection-connection-status-blocked-error-title = VPN を利用できません
+ipprotection-connection-status-blocked-error-description = ご利用の地域の法律により、この地域では VPN サービスを提供することができません。<a data-l10n-name="learn-more-link">さらに詳しく</a>
 
 # Variables
 #   $usageLeft (number) - The amount of data a user has left in a month (in GB)
@@ -173,7 +177,7 @@ ip-protection-exclusions-desc = このリストにあるウェブサイトを除
 
 ## IP Protection Bandwidth
 
-ip-protection-bandwidth-header = VPN の月間データ使用量
+ip-protection-bandwidth-header-1 = 月間データ通信量の上限
 
 # Variables
 #   $usageLeft (number) - The amount of data a user has left in a month (in GB)

@@ -21,7 +21,9 @@ firefox-relay-reuse-masks-header =
     { $count ->
         *[other] 無料のメールマスクを { $count } 個すべて使用しました
     }
-firefox-relay-reuse-masks-description = 既存のメールマスクを再利用できますが、ウェブサイトごとに固有のメールマスクを使用するのが最も安全な選択肢です。<label data-l10n-name="learn-more-url">アップグレードして無制限にメールマスクを作成</label>
+# Description following warning that the user has used all their free email masks.
+# The user is presented a list of recently used masks to select, or they can click a button to see all masks.
+firefox-relay-reuse-masks-description-v2 = いずれかのメールマスクを再度使用するか、すべてのメールマスクを表示して別のものを選択できます。
 firefox-relay-reuse-masks-select-label = 最近のメールマスクを選択
 firefox-relay-see-all-masks =
     .label = すべてのメールマスクを表示

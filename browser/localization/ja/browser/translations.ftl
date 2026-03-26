@@ -247,14 +247,14 @@ select-translations-panel-translation-failure-message =
 
 # If your language requires declining the language name, a possible solution
 # is to adapt the structure of the phrase, or use a support noun, e.g.
-# `Sorry, we don't support the language yet: { $language }
+# `Sorry, we don't support translations from { $language } yet.
 #
 # Variables:
 #   $language (string) - The language of the document.
-select-translations-panel-unsupported-language-message-known =
-    .message = 申し訳ございません。{ $language } はまだサポートされていません。
-select-translations-panel-unsupported-language-message-unknown =
-    .message = 申し訳ございません。この言語はまだサポートされていません。
+select-translations-panel-unsupported-language-message-known-2 =
+    .message = 申し訳ありませんが、{ $language } からの翻訳にはまだ対応していません。
+select-translations-panel-unsupported-language-message-unknown-2 =
+    .message = 申し訳ありませんが、この言語からの翻訳にはまだ対応していません。
 
 # Text displayed on the menuitem that opens the Translation Settings page.
 select-translations-panel-open-translations-settings-menuitem =

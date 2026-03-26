@@ -225,9 +225,51 @@ bar-tooltip-fingerprinter =
       *[other] { $count } 個のフィンガープリント ({ $percentage }%)
     }
 bar-tooltip-cryptominer =
-  .title = クリプトマイナー (暗号通貨採掘)
+  .title = 仮想通貨採掘スクリプト
   .aria-label =
     { $count ->
-       [one] { $count } 個のクリプトマイナー ({ $percentage }%)
-      *[other] { $count } 個のクリプトマイナー ({ $percentage }%)
+       [one] { $count } 個の仮想通貨採掘スクリプト ({ $percentage }%)
+      *[other] { $count } 個の仮想通貨採掘スクリプト ({ $percentage }%)
     }
+
+# Privacy Metrics Card
+privacy-metrics-title = プライバシー保護
+# Variables:
+#   $count (Number) - Total number of trackers blocked this week
+privacy-metrics-blocked-this-week =
+    { $count ->    
+        [one] 今週は { $count } 件ブロックしました
+       *[other] 今週は { $count } 件ブロックしました
+    }
+# Variables:
+#   $count (Number) - Number of trackers blocked
+privacy-metrics-trackers =
+    { $count ->
+        [one] { $count } 個のトラッカー
+       *[other] { $count } 個のトラッカー
+    }
+# Variables:
+#   $count (Number) - Number of fingerprinters blocked
+privacy-metrics-fingerprinters =
+    { $count ->
+        [one] { $count } 個のフィンガープリンター
+       *[other] { $count } 個のフィンガープリンター
+    }
+# Variables:
+#   $count (Number) - Number of tracking cookies blocked
+privacy-metrics-cookies =
+    { $count ->
+        [one] { $count } 個のトラッキング Cookie
+       *[other] { $count } 個のトラッキング Cookie
+    }
+# Variables:
+#   $count (Number) - Number of social trackers blocked
+privacy-metrics-social =
+    { $count ->
+        [one] { $count } 個のソーシャルトラッカー
+       *[other] { $count } 個のソーシャルトラッカー
+    }
+privacy-metrics-empty = 今週ブロックしたトラッカーはありません。{ -brand-short-name } は閲覧中に次のような脅威からあなたを保護します。
+privacy-metrics-loading = 保護統計を読み込み中…
+privacy-metrics-error = 保護統計を読み込めませんでした。
+privacy-metrics-private-window = { -brand-short-name } はプライベート ウィンドウでもトラッカーをブロックし続けますが、ブロックしたものの記録は保持しません。

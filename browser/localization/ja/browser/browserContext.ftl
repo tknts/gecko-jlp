@@ -350,6 +350,10 @@ main-context-menu-send-to-device-2 =
     .label = デバイスへ送信
     .accesskey = n
 
+main-context-menu-send-to-mobile-2 =
+    .label = モバイルデバイスへ送信
+    .accesskey = n
+
 # Displayed when there are saved passwords and the user clicks inside a username or password field
 main-context-menu-use-saved-password =
     .label = 保存されたパスワードを使用
@@ -373,6 +377,10 @@ main-context-menu-add-engine =
 
 main-context-menu-link-send-to-device =
     .label = リンクをデバイスへ送信
+    .accesskey = n
+
+main-context-menu-link-send-to-mobile =
+    .label = リンクをモバイルデバイスへ送信
     .accesskey = n
 
 main-context-menu-frame =

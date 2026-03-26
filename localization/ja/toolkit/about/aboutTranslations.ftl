@@ -39,8 +39,8 @@ about-translations-translation-error-button = やり直す
 # An informational message displayed when the detected language is not supported.
 # Variables:
 #   $language (String) - The display name of the detected language.
-about-translations-detected-language-unsupported-heading = 申し訳ありません、 { $language } はまだサポートされていません
-about-translations-detected-language-unsupported-heading-unknown = 申し訳ありません、この言語はまだサポートされていません
+about-translations-detected-language-unsupported-heading-2 = 申し訳ありませんが、{ $language } からの翻訳にはまだ対応していません
+about-translations-detected-language-unsupported-heading-unknown-2 = 申し訳ありませんが、この言語からの翻訳にはまだ対応していません
 about-translations-detected-language-unsupported-subtext = 別の言語を選択してください。
 
 # Placeholder text shown in the source-language text area when the user has not typed any text.
