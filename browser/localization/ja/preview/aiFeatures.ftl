@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 preferences-ai-controls-block-confirmation-smart-window = スマート ウィンドウ
+smart-window-block-title = スマート ウィンドウをブロックしますか？
+smart-window-block-description-both = これにより、スマート ウィンドウのチャット履歴とメモリが削除されます。
+smart-window-block-description-chats = これにより、スマート ウィンドウのチャット履歴が削除されます。
+smart-window-block-description-memories = これにより、スマート ウィンドウのメモリが削除されます。
 
 ai-window-features-group =
     .label = スマート ウィンドウ
@@ -27,6 +31,7 @@ smart-window-model-learn-link = AI モデルについてさらに詳しく
 
 ## Variables:
 ##   $modelName (String) - The name of the AI model
+##   $ownerName (String) - The name of owner of the AI model
 
 smart-window-model-fast =
     .label = 高速: 素早く回答します

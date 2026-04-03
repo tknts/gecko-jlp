@@ -158,6 +158,8 @@ policy-HttpsOnlyMode = HTTPS-Only モードを有効にします。
 
 policy-InstallAddonsPermission = 特定のウェブサイトにアドオンのインストールを許可します。
 
+policy-IPProtectionAvailable = 内蔵 VPN をユーザーが利用できないようにします。
+
 policy-LegacyProfiles = インストールごとに個別のプロファイルを適用する機能を無効にします。
 
 ## Do not translate "SameSite", it's the name of a cookie attribute.

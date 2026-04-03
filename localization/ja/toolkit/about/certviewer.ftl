@@ -43,6 +43,10 @@ certificate-viewer-logid = ログ ID
 certificate-viewer-method = メソッド
 certificate-viewer-modulus = 法
 certificate-viewer-name = 名前
+certificate-viewer-surname = 姓 (Surname)
+# See https://datatracker.ietf.org/doc/html/rfc4519#section-2.12
+# Contains name strings that are the part of a person's name that is not their surname.
+certificate-viewer-given-name = 名 (Given Name)
 certificate-viewer-not-after = 有効期限 (まで)
 certificate-viewer-not-before = 有効期限 (から)
 certificate-viewer-organization = 組織

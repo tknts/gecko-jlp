@@ -182,6 +182,12 @@ urlbar-split-view-button =
     .tooltiptext = 分割ビューで表示します
     .aria-label = 分割ビュー
 
+## Searchbar context menu
+
+clear-search-history =
+    .label = 検索履歴を消去
+    .accesskey = H
+
 ## Page Action Context Menu
 
 page-action-manage-extension2 =
@@ -296,6 +302,10 @@ quickactions-cmd-help = ヘルプとサポート
 # Opens the devtools web inspector
 quickactions-inspector2 = 開発者ツールを開く
 quickactions-cmd-inspector2 = inspector, devtools, dev tools, 開発, 調査, インスペクタ
+
+# Opens Firefox Library
+quickactions-cmd-library = ライブラリ
+quickactions-library = ライブラリを開く
 
 # Opens about:logins
 quickactions-logins2 = ログイン情報を管理

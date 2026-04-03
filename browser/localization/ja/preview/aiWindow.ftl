@@ -5,11 +5,11 @@
 ## Chrome
 
 appmenuitem-new-ai-window =
-    .label = 新しいスマートウィンドウ
-    .value = 新しいスマートウィンドウ
+    .label = 新しいスマート ウィンドウ
+    .value = 新しいスマート ウィンドウ
 
 appmenuitem-new-classic-window =
-    .label = 新しいクラシックウィンドウ
+    .label = 新しいクラシック ウィンドウ
 
 menu-file-new-ai-window =
     .label = 新しいスマート ウィンドウ
@@ -68,6 +68,7 @@ smartbar-placeholder =
 
 ## Mentions
 
+smartbar-mention-typing-placeholder = タブやサイトをタグ付け
 smartbar-mentions-list-no-results-label = タブまたはページが見つかりません
 smartbar-mentions-list-recent-tabs-label = 最近使ったタブ
 

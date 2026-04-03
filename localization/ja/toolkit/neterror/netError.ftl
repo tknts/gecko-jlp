@@ -85,6 +85,11 @@ neterror-dns-not-found-trr-unknown-problem = 予期しない問題。
 neterror-file-not-found-filename = ファイル名に大文字小文字の誤りや入力ミスがないか確認してください。
 neterror-file-not-found-moved = ファイルが移動、名前変更、または削除されていないか確認してください。
 
+# Variables:
+#   $path (String) - Path of the local file that could not be found.
+neterror-file-not-found-intro = { -brand-short-name } は <strong>{ $path }</strong> にあるファイルを見つけられません。ファイルが存在しないか、パスが正しくありません。
+neterror-file-not-found-what-can-you-do = アドレスを手入力した場合は、ファイル名やパスに大文字・小文字の誤りやタイポ (打ち間違い) がないか確認してください。保存されたブックマークやリンクを辿った場合は、そのファイルが移動、名前変更、または削除された可能性があります。ファイルマネージャーや最近の検索を使って、ファイルの場所を探してみてください。
+
 neterror-access-denied = ファイルが削除、移動されたか、ファイル権限によってアクセスが禁止されている可能性があります。
 
 neterror-unknown-protocol = このアドレスを開くには、別のソフトウェアをインストールする必要があるかもしれません。

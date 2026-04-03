@@ -139,6 +139,10 @@ firefoxview-search-text-box-recentbrowsing =
 firefoxview-search-text-box-history =
   .placeholder = 履歴の検索
 
+# Placeholder for the input field to search in bookmarks ("search" is a verb).
+firefoxview-search-text-box-bookmarks =
+  .placeholder = ブックマークの検索
+
 # Placeholder for the input field to search in recently closed tabs ("search" is a verb).
 firefoxview-search-text-box-recentlyclosed =
   .placeholder = 最近閉じたタブの検索

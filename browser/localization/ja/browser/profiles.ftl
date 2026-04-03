@@ -78,7 +78,7 @@ new-profile-page-done-button =
 
 # Variables
 #   $profilename (String) - The name of the copied profile.
-copied-profile-page-header =  { $profilename } のコピーのカスタマイズを始めましょう
+copied-profile-page-header-2 = コピーされた “{ $profilename }” のカスタマイズ準備が整いました
 copied-profile-page-header-description = データと設定を新しいプロファイルにコピーしました。名前を付けて、見た目を選び、自分好みに仕上げましょう。
 
 restored-profile-page-header = 復元されたプロファイルをカスタマイズ

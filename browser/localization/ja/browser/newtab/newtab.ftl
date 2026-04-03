@@ -230,9 +230,10 @@ newtab-custom-shortcuts-toggle =
   .description = あなたが保存または訪問したサイト
 
 newtab-custom-shortcuts-toggle-rows =
-    .label = ショートカット
-    .description = 行数
+  .label = ショートカット
 
+newtab-custom-row-description =
+  .description = 行数
 # Variables
 #   $num (number) - Number of rows to display
 #  (developer note): @nova-cleanup(remove-string): Remove string once Nova lands. We won't be using "row"/"rows" anymore for the dropdown
@@ -241,9 +242,12 @@ newtab-custom-row-selector2 =
             [one] { $num } 行
            *[other] { $num } 行
         }
+#  (developer note): @nova-cleanup(remove-string): Remove string once Nova lands. We won't be having a description under "Recommended stories" anymore
 newtab-custom-stories-toggle =
-  .label = おすすめのストーリー
-  .description = { -brand-product-name } ファミリーが厳選した優良コンテンツ
+  .label = おすすめの記事
+  .description = { -brand-product-name } ファミリーが厳選した選りすぐりのコンテンツ
+newtab-recommended-stories-toggle =
+  .label = おすすめの記事
 newtab-custom-stories-personalized-toggle =
   .label = ストーリー
 newtab-custom-stories-personalized-checkbox-label = あなたのアクティビティに基づいてパーソナライズされたストーリー
@@ -418,6 +422,12 @@ newtab-weather-opt-in-yes =
     .label = はい
 # We'll be showing static (fake) weather data if the user has not opted in to using their location
 newtab-weather-static-city = ニューヨーク
+# "Highest" here refers to the highest temperature of the day
+newtab-weather-high =
+    .aria-label = 最高気温
+# "Lowest" here refers to the lowest temperature of the day
+newtab-weather-low =
+    .aria-label = 最低気温
 
 ## Topic Labels
 
@@ -644,9 +654,16 @@ newtab-widget-message-copy = ちょっとしたリマインダーから毎日の
 
 # Strings for the default promo card
 
-newtab-promo-card-title = { -brand-product-name } を支援
-newtab-promo-card-body = スポンサーの協力により、より良いウェブを構築するという私たちのミッションが支えられています。
-newtab-promo-card-cta = さらに詳しく
+newtab-promo-card-title = { -brand-product-name } を支援する
+newtab-promo-card-body = スポンサー各社は、より良いウェブを構築するという私たちのミッションを支援しています
+newtab-promo-card-cta = 詳しくはこちら
+
+# "Make Firefox yours" refers to about:newtab. The call to action here ("Try it now")
+# is to customize the new tab page with a background image or color from
+# the built-in wallpaper collection or uploading your own image.
+newtab-promo-card-title-addons = { -brand-product-name } を自分好みにカスタマイズ
+newtab-promo-card-body-addons = 壁紙コレクションから選ぶか、オリジナルの画像をアップロードしてみましょう。
+newtab-promo-card-cta-addons = 今すぐ試す
 newtab-promo-card-dismiss-button =
     .title = 閉じる
     .aria-label = 閉じる

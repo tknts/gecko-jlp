@@ -121,6 +121,15 @@ sidebar-history-context-menu-bookmark-page =
 sidebar-history-context-menu-delete-pages =
   .label = 複数のページを履歴から削除
 
+## Labels for sidebar bookmarks context menu items
+
+sidebar-bookmarks-context-menu-edit-bookmark =
+  .label = ブックマークを編集…
+sidebar-bookmarks-context-menu-delete-bookmark =
+  .label = ブックマークを削除
+sidebar-bookmarks-context-menu-delete-separator =
+  .label = 削除
+
 ## Labels for sidebar menu items.
 
 sidebar-menu-genai-chat-label =
@@ -183,6 +192,15 @@ sidebar-menu-syncedtabs-header =
   .heading = その他のデバイスからのタブ
 sidebar-menu-cpm-header =
   .heading = パスワード
+sidebar-menu-bookmarks-header =
+  .heading = ブックマーク
+
+## Labels for sidebar bookmarks panel folder names.
+
+sidebar-bookmarks-folder-menu = ブックマーク メニュー
+sidebar-bookmarks-folder-toolbar = ブックマーク ツールバー
+sidebar-bookmarks-folder-other = その他のブックマーク
+sidebar-bookmarks-folder-mobile = モバイルのブックマーク
 
 ## Titles for sidebar menu panels.
 

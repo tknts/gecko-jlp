@@ -25,12 +25,14 @@ ipprotection-title = VPN
 
 ## Feature introduction callout
 
-ipprotection-feature-introduction-title = ブラウザーに組み込まれた無料の VPN
-ipprotection-feature-introduction-link-text = 新しい <a data-l10n-name="learn-more-vpn">組み込み型 VPN</a> の先行アクセスに選ばれました。位置情報を隠し、{ -brand-product-name }での閲覧に暗号化を追加します。サインインして開始してください。
-ipprotection-feature-introduction-link-text-private-browsing = プライベートウィンドウを使用しているときでも、新しい <a data-l10n-name="learn-more-vpn">内蔵 VPN</a> を使えば、現在地を隠し、高度な暗号化でデータを保護できます。
+ipprotection-feature-introduction-title = ブラウザに内蔵された新しい VPN のご紹介
+ipprotection-feature-introduction-link-text-2 = 新しい <a data-l10n-name="learn-more-vpn">内蔵 VPN</a> を使用して、現在地を隠し、データを保護しましょう。
+ipprotection-feature-introduction-link-text-private-browsing-2 = 新しい <a data-l10n-name="learn-more-vpn">内蔵 VPN</a> を使用すれば、プライベートウィンドウでも現在地を隠してデータを保護できます。
+ipprotection-feature-introduction-description-private-browsing = プライベートウィンドウでも現在地を隠し、より強力な保護機能でブラウジングを楽しめます。
+ipprotection-feature-introduction-description-captive-portal = 公衆 Wi-Fi を利用している時でも、現在地を隠して安全にブラウジングできます。
 ipprotection-feature-introduction-button-primary = 次へ
-ipprotection-feature-introduction-button-secondary-not-now = 今はしない
-ipprotection-feature-introduction-button-secondary-no-thanks = 利用しない
+ipprotection-feature-introduction-button-secondary-not-now = あとで
+ipprotection-feature-introduction-button-secondary-no-thanks = いえ、結構です
 
 ## Site settings callout
 
@@ -40,22 +42,23 @@ ipprotection-site-settings-callout-button = 了解
 
 ## Panel
 
-unauthenticated-vpn-title = { -brand-product-name } 内蔵の VPN をお試しください
-unauthenticated-hide-location-message-2 = { -brand-product-name } でのブラウジング中にあなたの位置情報を隠します。
+unauthenticated-vpn-title = { -brand-product-name } の内蔵 VPN を試してみる
+unauthenticated-hide-location-message-3 = { -brand-product-name } での閲覧中に <a data-l10n-name="learn-more-vpn">現在地を隠せます</a>。
 # Variables
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
-unauthenticated-bandwidth-limit-message = 毎月 150 GB の無料  VPN によるデータ通信が利用できます。
+unauthenticated-bandwidth-limit-message = 毎月 { $maxUsage } GB の無料 VPN データ通信を利用できます。
 unauthenticated-get-started = 今すぐ始める
 
-site-exclusion-toggle-label = このサイトで VPN を使用する
-site-exclusion-toggle-enabled =
-  .aria-label = このサイトで VPN はオンです
-site-exclusion-toggle-disabled =
-  .aria-label = このサイトで VPN はオフです
+site-exclusion-toggle-enabled-1 =
+  .label = このサイトで VPN を使用する
+  .aria-label = このサイトでは VPN がオンになっています
+site-exclusion-toggle-disabled-1 =
+  .label = このサイトで VPN を使用する
+  .aria-label = このサイトでは VPN がオフになっています
 
 ipprotection-settings-link =
-  .label = 今すぐ始める
-  
+  .label = 設定
+
 ## Status card
 
 ipprotection-connection-status-connected = VPN はオンです
@@ -143,9 +146,9 @@ ip-protection-learn-more = さらに詳しく
 
 # Variables:
 #   $maxUsage (number) - The bandwidth limit of free VPN, in GB
-ip-protection-not-opted-in =
-  .heading = { -brand-short-name } に内蔵された VPN をお試しください
-  .message = { -brand-short-name } 内でのブラウジングにおいて、現在地を隠し、暗号化を強化します。毎月 { $maxUsage } GB の無料の VPN によるデータ通信が利用できます。
+ip-protection-not-opted-in-2 =
+  .heading = { -brand-short-name } の内蔵 VPN を試してみる
+  .message = { -brand-short-name } での閲覧中に現在地を隠せます。毎月 { $maxUsage } GB の無料 VPN データ通信を利用できます。
 ip-protection-not-opted-in-button = 今すぐ始める
 
 # Variables:
