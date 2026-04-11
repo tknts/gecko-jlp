@@ -90,6 +90,8 @@ firefoxview-history-nav = 履歴
 firefoxview-history-header = 履歴
 firefoxview-history-context-delete = 履歴から削除
     .accesskey = D
+firefoxview-history-context-forget-site = このサイトの履歴を消去…
+    .accesskey = F
 
 ## Open Tabs in this context refers to all open tabs in the browser
 

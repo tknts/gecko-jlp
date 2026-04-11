@@ -408,6 +408,12 @@ tab-note-editor-button-cancel =
 tab-note-editor-button-save =
     .label = 保存
     .accesskey = S
+tab-note-editor-button-delete =
+    .title = メモを削除
+    .aria-label = メモを削除
+    .accesskey = D
+tab-note-preview-edit-icon =
+    .alt = メモを編集
 # Link to show the full tab note in case it was truncated.
 tab-note-preview-expand = 続きを読む
 tab-note-panel-add-note-new-badge =

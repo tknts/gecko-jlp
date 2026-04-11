@@ -300,6 +300,8 @@ appmenu-help-not-deceptive =
 
 appmenu-customizetoolbar =
     .label = ツールバーをカスタマイズ…
+appmenu-abouttranslations =
+    .label = 翻訳…
 
 appmenu-developer-tools-subheader = ブラウザー ツール
 appmenu-developer-tools-extensions =

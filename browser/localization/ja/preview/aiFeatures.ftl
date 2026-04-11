@@ -24,6 +24,12 @@ ai-window-personalize-button =
 ai-window-personalize-header =
     .heading = スマート ウィンドウ
 
+ai-window-default-section =
+    .label = デフォルト設定
+ai-window-open-sidebar =
+    .label = アシスタントを自動的に開く
+    .description = 新しいタブを開くたびにアシスタントサイドバーを表示します。サイドバーはいつでも閉じることができます。
+
 smart-window-model-section =
     .label = アシスタントモデル
     .description = あなたが重視するものに合わせてモデルを選択してください。

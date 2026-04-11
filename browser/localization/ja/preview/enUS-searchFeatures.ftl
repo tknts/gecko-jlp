@@ -347,3 +347,21 @@ urlbar-result-dismissal-acknowledgment-sports = フィードバックをあり�
 # This a11y label is read by screen readers when an item in the row is selected.
 urlbar-result-aria-group-sports =
   .aria-label = 試合の候補
+
+## For urlbar results with last-visited dates like history, bookmarks, and top
+## sites, these strings replace their URL when the user selects or hovers over
+## them. They explain the reason the result is shown.
+##
+## TODO: Move these to browser.ftl when they are finalized.
+
+# This explanation is used when the when the last-visited date is formatted as
+# an absolute date like "11 May" or "11 May 2026".
+# Variables:
+#   $date (string) - A localized absolute date string
+urlbar-result-explanation-last-visited-absolute = 最後に表示した日時: { $date }
+
+# This explanation is used when the when the last-visited date is formatted as
+# one of the following relative dates: "yesterday", "today"
+# Variables:
+#   $date (string) - A localized relative date string
+urlbar-result-explanation-last-visited-relative = 最終訪問日: { $date }

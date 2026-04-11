@@ -354,6 +354,14 @@ main-context-menu-send-to-mobile-2 =
     .label = モバイルデバイスへ送信
     .accesskey = n
 
+# Displayed within the send tab submenu to prompt users to sign in, enable sync, or pair a device
+main-context-menu-send-to-mobile-enable-sync =
+    .label = 同期を有効にしてタブを送信
+main-context-menu-send-to-mobile-connect-phone =
+    .label = スマートフォンを接続
+main-context-menu-send-to-mobile-device-missing =
+    .label = デバイスが表示されませんか?
+
 # Displayed when there are saved passwords and the user clicks inside a username or password field
 main-context-menu-use-saved-password =
     .label = 保存されたパスワードを使用

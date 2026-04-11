@@ -38,6 +38,9 @@ xpinstall-prompt-install =
 site-permission-install-first-prompt-midi-header = このサイトは MIDI (Musical Instrument Digital Interface) デバイスへのアクセスを要求しています。アドオンをインストールすることでデバイスへのアクセスを有効にできます。
 site-permission-install-first-prompt-midi-message = このアクセスは安全であるとは保証されません。このサイトを信頼できる場合にのみ続行してください。
 
+site-permission-install-first-prompt-serial-header = このサイトがシリアルデバイスへのアクセスを求めています。アドオンをインストールすることで、デバイスへのアクセスを有効にできます。
+site-permission-install-first-prompt-serial-message = このアクセスが安全であるとは限りません。このサイトを信頼できる場合のみ続行してください。
+
 ##
 
 xpinstall-disabled-by-policy = ソフトウェアのインストールは組織によって無効にされています。

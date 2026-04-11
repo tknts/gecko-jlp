@@ -563,11 +563,27 @@ newtab-toast-thanks-for-reporting =
     .message = ご報告ありがとうございました。
 newtab-toast-widgets-hidden =
     .message = 鉛筆アイコンを選択すれば、いつでもウィジェットを元に戻せます。
+# Variables:
+#   $topic (string) - Topic that the user has followed
+newtab-section-toast-follow =
+    .message = { $topic } のフォローを開始しました。
+# Variables:
+#   $topic (string) - Topic that the user has unfollowed
+newtab-section-toast-unfollow =
+    .message = { $topic } のフォローを解除しました。
+# Variables:
+#   $topic (string) - Topic that the user has blocked
+newtab-section-toast-block =
+    .message = 今後 { $topic } に関する記事は表示されません。
 
 ## Strings for task / to-do list productivity widget
 
 newtab-widget-section-title = ウィジェット
 newtab-widget-menu-hide = ウィジェットを非表示にする
+newtab-widget-menu-change-size = サイズを変更
+newtab-widget-size-small = 小
+newtab-widget-size-medium = 中
+newtab-widget-size-large = 大
 # Tooltip for hide all widgets button
 newtab-widget-section-hide-all-button =
     .title = ウィジェットを非表示

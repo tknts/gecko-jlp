@@ -34,6 +34,8 @@ urlbar-web-notification-anchor =
     .tooltiptext = サイトからの通知の設定を変更します
 urlbar-midi-notification-anchor =
     .tooltiptext = MIDI パネルを開きます
+urlbar-serial-notification-anchor =
+    .tooltiptext = シリアルパネルを開きま
 urlbar-eme-notification-anchor =
     .tooltiptext = DRM ソフトウェアを管理します
 urlbar-web-authn-anchor =
@@ -165,6 +167,8 @@ urlbar-canvas-blocked =
     .tooltiptext = このウェブサイトの Canvas データの抽出をブロックしました。
 urlbar-midi-blocked =
     .tooltiptext = このウェブサイトの MIDI へのアクセスをブロックしました。
+urlbar-serial-blocked =
+    .tooltiptext = このウェブサイトによるシリアルポートへのアクセスをブロックしました。
 urlbar-install-blocked =
     .tooltiptext = このウェブサイトのアドオンのインストールをブロックしました。
 
@@ -513,6 +517,11 @@ sharing-warning-proceed-to-tab =
 sharing-warning-disable-for-session =
   .label = このセッションでは共有保護を無効にする。
 
+## WebSerial "select a port" popup
+
+webserial-select-port-label = シリアルポートを選択してください:
+webserial-no-ports-available = 利用可能なシリアルポートはありません
+
 ## URL Bar
 
 # This string is used as an accessible name to the "X" button that cancels a custom search mode (i.e. exits the Amazon.com search mode).
@@ -819,14 +828,14 @@ urlbar-searchmode-default =
 
 # Label shown on the top of Searchmode Switcher popup. After this label, the
 # available search engines will be listed.
-urlbar-searchmode-popup-description-menucaption =
-    .label = 今回のみ使用する検索エンジン:
+urlbar-searchmode-popup-one-off-description-menucaption =
+    .label = 今回のみ次のエンジンで検索:
 # Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
 # reset after submitting.
-urlbar-searchmode-popup-sticky-description-menucaption =
-    .label = 使用する検索エンジン:
+urlbar-searchmode-popup-header-menucaption =
+    .label = 次のエンジンで検索:
 urlbar-searchmode-popup-search-settings-menuitem =
-    .label = 検索の設定
+    .label = 検索設定
 
 # Label shown next to a new search engine in the Searchmode Switcher popup to promote it.
 urlbar-searchmode-new = 新規

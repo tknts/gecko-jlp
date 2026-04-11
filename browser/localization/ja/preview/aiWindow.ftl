@@ -30,8 +30,8 @@ smartwindow-document-title = 新しいタブ
 ## Smart Window Toggle Button
 
 toolbar-button-ai-window-toggle =
-    .label = スマート ウィンドウ
-    .tooltiptext = スマート ウィンドウとクラシック ウィンドウを切り替えます
+    .label = ウィンドウの種類
+    .tooltiptext = スマート ウィンドウとクラシック ウィンドウを切り替えます。
 
 ai-window-toggleview-switch-classic =
     .label = クラシック ウィンドウ
@@ -144,7 +144,7 @@ smartwindow-footer-history =
 ## Disclaimer
 ## Text displayed to user to warn user about potential mistakes.
 
-smartwindow-disclaimer = AI は間違えることがあります
+smartwindow-disclaimer = AI は間違いを犯すことがあります。<a data-l10n-name="report-link">問題を報告</a>してください。
 
 ## FirefoxView Chats
 ## Chats in this context refers to chats saved from the Smart Window Assistant

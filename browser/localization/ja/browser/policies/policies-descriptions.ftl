@@ -266,3 +266,6 @@ policy-Windows10SSO = Microsoft、職場または学校のアカウントで Win
 
 # Entra is the name of a Microsoft product.
 policy-MicrosoftEntraSSO = Microsoft Entra アカウントのシングル サインオンを許可します。
+
+# Do not translate "XSLTProcessor" as it is the name of an API interface.
+policy-XSLTEnabled = XSLTProcessor JavaScript API および XSLT 処理命令のサポートを有効または無効にします。

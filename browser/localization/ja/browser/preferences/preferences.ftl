@@ -1410,9 +1410,9 @@ sync-syncing-across-devices-heading = 接続されているすべてのデバイ
 
 sync-syncing-across-devices-heading-2 = デバイス間で同期されたデータ
 
-sync-syncing-across-devices-empty-state =
-    .label = 同期されている項目がまだありません。
-    .description = 同期を開始すると、すべてのデバイスでお使いのデータを利用できるようになります。
+sync-syncing-across-devices-empty-state2 =
+    .label = 同期データの管理
+    .description = まだ何も同期されていません。同期を開始して、すべてのデバイスでデータを利用できるようにしましょう。
 
 sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 表示履歴
@@ -1430,6 +1430,9 @@ sync-manage-options =
 sync-manage-options-2 =
     .label = 同期データを管理
     .accesskey = M
+
+settings-sync-disconnect-button =
+    .label = 接続を解除
 
 ## The "Choose what to sync" dialog.
 
