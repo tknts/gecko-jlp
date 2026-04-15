@@ -1076,6 +1076,10 @@ home-prefs-sections-rows-option =
 
 ## Search Section
 
+# Header for the search section ("search" is a noun).
+search-section =
+    .heading = 検索
+
 search-engine-group =
     .label = 既定の検索エンジン
 search-default-engine =
@@ -1264,15 +1268,18 @@ containers-remove-button =
 
 ## Account and sync
 
+account-sync-section =
+    .heading = アカウントと同期
+
 sync-group-label =
     .label = 同期
 
-account-group-label =
-    .label = { -vendor-short-name } アカウント
+account-group-label2 =
+    .label = アカウント
 
-account-placeholder =
+account-placeholder2 =
     .label = サインインしていません
-    .description = サインインすると、データを非公開で暗号化したまま、デバイス間で同期できます。
+    .description = サインインすると、データは非公開のまま暗号化され、{ -brand-short-name } を使用するすべての場所で即座にアクセスできるようになります。
 
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").

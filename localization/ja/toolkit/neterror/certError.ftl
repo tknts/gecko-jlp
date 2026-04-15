@@ -267,3 +267,13 @@ fp-certerror-pkix-not-yet-valid-what-can-you-do-body = デバイスの時計は 
 # Variables:
 #   $hostname (String) - Hostname of the website to which the user was trying to connect.
 fp-certerror-invalid-cert-why-dangerous = { $hostname } の所有者が正しく設定を行っていないため、安全な接続を確立できません。
+
+# Variables:
+#   $hostname (String) - Hostname of the website to which the user was trying to connect.
+#   $now (Date) - The current datetime, to be formatted as a date
+fp-certerror-clock-skew-intro = コンピューターの時刻設定が { DATETIME($now, dateStyle: "medium") } となっており、{ -brand-short-name } が安全に接続できません。<strong>{ $hostname }</strong> にアクセスするには、システムの画面で日付、時刻、タイムゾーンを現在に合わせてからページを再読み込みしてください。
+
+# This string appears after the following string: "What can you do about it?" (fp-certerror-what-can-you-do)
+# Variables:
+#   $now (Date) - The current datetime, to be formatted as a date
+fp-certerror-clock-skew-what-can-you-do-body = システム設定でコンピューターの時計を現在の日付、時刻、タイムゾーンに更新してください。現在のコンピューター上の設定は { DATETIME($now, dateStyle: "medium") } です。

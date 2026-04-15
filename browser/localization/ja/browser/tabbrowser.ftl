@@ -221,6 +221,9 @@ tabbrowser-manager-current-window-tab-group =
   .tooltiptext = { $tabGroupName } — 現在のウィンドウ
 
 ## Tab Groups
+## Variables:
+##  $tabGroupName (String): The name of the tab group. See also tab-group-name-default, which will be
+##                          used when the group's name is empty.
 
 tab-group-name-default = 新しいグループ
 tab-group-editor-title-create = タブグループの作成
@@ -252,6 +255,10 @@ tab-group-editor-color-selector2-gray = グレー
   .title = グレー
 tab-group-editor-color-selector2-red = レッド
   .title = レッド
+
+tab-group-menu-closed-tab-group =
+  .label = { $tabGroupName }
+  .title = { $tabGroupName } — 閉じています
 
 ## Variables:
 ##  $tabGroupName (String): The name of the tab group. Defaults to the value
@@ -389,12 +396,13 @@ tab-group-context-open-saved-group-in-new-window =
 tab-context-add-note =
     .label = ノートを追加
     .accesskey = A
-tab-context-update-note =
-    .label = ノートを更新
-    .accesskey = U
 tab-context-edit-note =
     .label = ノートを編集
     .accesskey = E
+
+# TODO Bug 2023230: `tab-context-delete-note` is no longer used as of bug 2023200,
+# but it seems likely to return, so this string is being left in place for now.
+
 tab-context-delete-note =
     .label = ノートを削除
     .accesskey = D

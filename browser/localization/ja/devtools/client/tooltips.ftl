@@ -226,3 +226,11 @@ css-selector-warning-unconstrained-has = このセレクタは制約のない <s
 
 # :scope should not be translated
 css-selector-warning-sibling-combinator-after-scope = <strong>:scope</strong> の後の兄弟結合子 (sibling combinator) はいかなる要素にも一致しません
+
+## In the Rule View we display a tooltip when a @container condition is hovered.
+## We want to show a specific message if the condition doesn't match a container for the
+## currently selected element
+## Variables:
+##   $name (string) - The condition name.
+
+css-selector-container-query-condition-no-container = コンテナー ‘{ $name }’ が見つかりません

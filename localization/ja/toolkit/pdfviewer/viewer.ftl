@@ -705,12 +705,14 @@ pdfjs-views-manager-view-selector-button =
     .title = 表示
 pdfjs-views-manager-view-selector-button-label = 表示
 pdfjs-views-manager-pages-title = ページ
-pdfjs-views-manager-outlines-title = 文書のアウトライン
+pdfjs-views-manager-outlines-title1 = 文書の目次
+    .title = 文書の目次 (ダブルクリックですべての項目を展開/折り畳む)
 pdfjs-views-manager-attachments-title = 添付ファイル
-pdfjs-views-manager-layers-title = レイヤー
+pdfjs-views-manager-layers-title1 = レイヤー
+    .title = レイヤー (ダブルクリックですべてのレイヤーをデフォルトの状態にリセット)
 
 pdfjs-views-manager-pages-option-label = ページ
-pdfjs-views-manager-outlines-option-label = 文書のアウトライン
+pdfjs-views-manager-outlines-option-label = 文書の目次
 pdfjs-views-manager-attachments-option-label = 添付ファイル
 pdfjs-views-manager-layers-option-label = レイヤー
 
@@ -781,3 +783,5 @@ pdfjs-views-manager-paste-button-after =
 # Badge used to promote a new feature in the UI, keep it as short as possible.
 # It's spelled uppercase for English, but it can be translated as usual.
 pdfjs-new-badge-content = 新機能
+
+pdfjs-views-manager-waiting-for-file = ファイルをアップロード中…
