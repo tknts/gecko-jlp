@@ -82,9 +82,6 @@ fxviewtabrow-unmute-tab-button-no-context =
   .title = タブのミュートを解除
 
 # The following strings are for displaying elements in Firefox View to prompt users to sign in, enable sync, or pair a device
-fxviewtabrow-send-to-mobile-enable-sync =
-    .label = 同期を有効にしてタブを送信
-fxviewtabrow-send-to-mobile-connect-phone =
-    .label = スマートフォンを接続
-fxviewtabrow-send-to-mobile-device-missing =
-    .label = デバイスが表示されませんか?
+fxviewtabrow-send-to-mobile-enable-sync2 = タブを送信するには同期を有効にしてください
+fxviewtabrow-send-to-mobile-connect-phone2 = スマートフォンを接続
+fxviewtabrow-send-to-mobile-device-missing2 = デバイスが表示されませんか?

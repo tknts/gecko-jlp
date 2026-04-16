@@ -276,8 +276,10 @@ newtab-custom-settings = その他の設定を管理
 ## New Tab Wallpapers
 
 newtab-wallpaper-title = 壁紙
-newtab-wallpaper-reset = 初期設定に戻す
+newtab-wallpaper-reset = デフォルトに戻す
+# (developer note): @nova-cleanup(remove-string): Remove old "Upload an image" string once Nova lands. The new "Add an image"  string will take over
 newtab-wallpaper-upload-image = 画像をアップロード
+newtab-wallpaper-add-an-image = 画像を追加
 newtab-wallpaper-custom-color = 色を選択
 newtab-wallpaper-toggle-title =
     .label = 壁紙
@@ -302,7 +304,9 @@ newtab-wallpaper-light-fox-anniversary = 霧がかった山々の風景と草原
 
 ## Solid Colors
 
+#  (developer note): @nova-cleanup(remove-string): Remove old "Solid colors" string once Nova lands. The simplified "Colors" string will take over
 newtab-wallpaper-category-title-colors = 単色
+newtab-wallpaper-colors = カラー
 newtab-wallpaper-blue = ブルー
 newtab-wallpaper-light-blue = ライトブルー
 newtab-wallpaper-light-purple = ライトパープル
@@ -420,6 +424,10 @@ newtab-weather-opt-in-not-now =
     .label = 今はしない
 newtab-weather-opt-in-yes =
     .label = はい
+newtab-weather-opt-in-headline = お住まいの地域の天気予報を表示します
+newtab-weather-opt-in-use-location =
+    .label = 現在地を使用する
+newtab-weather-opt-in-choose-location = 地域を選択
 # We'll be showing static (fake) weather data if the user has not opted in to using their location
 newtab-weather-static-city = ニューヨーク
 # "Highest" here refers to the highest temperature of the day
