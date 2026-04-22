@@ -1229,6 +1229,8 @@ search-edit-engine =
 
 search-find-more-link = その他の検索エンジンを探す
 
+search-filtering-for-add-engine = 検索エンジンを追加
+
 # This warning is displayed when the chosen keyword is already in use
 # ('Duplicate' is an adjective)
 search-keyword-warning-title = キーワードの重複
@@ -2098,6 +2100,13 @@ collection-backlogged-crash-reports2 =
     .accesskey = c
 collection-backlogged-crash-reports-description = これは { -vendor-short-name } がブラウザーの問題を診断し、修正するために役立ちます。レポートには個人情報や機密データが含まれる場合があります。
 
+# Promotional message displayed in the Settings panes to inform users of the new redesign
+settings-redesign-promo =
+    .heading = 設定項目はそのまま、見た目が新しくなりました！
+    .message = より探しやすく、見やすいレイアウトに再構成しました。個人の設定は変更されておらず、すべての項目は引き続き利用可能です。ヒント: 検索機能を使えば、必要な項目にすぐ移動できます。
+settings-redesign-promo-dismiss-button =
+    .label = 了解
+
 privacy-segmentation-section-header = 閲覧を強化する新機能
 
 privacy-segmentation-section-description = よりパーソナルな体験を提供するためにあなたのデータを使用する機能を提示する場合:
@@ -2336,6 +2345,18 @@ preferences-doh-custom-provider-label =
 preferences-doh-header2 =
   .heading = DNS over HTTPS
 
+## Connection and software security section
+
+preferences-connection-header =
+    .heading = 接続とソフトウェアのセキュリティ
+
+preferences-connection-link-section =
+    .label = 接続とソフトウェアのセキュリティ
+    .description = 通信の安全性確保、有害なソフトウェアのブロック、サイトの認証状況について確認できます。
+
+preferences-connection-link-button =
+    .label = 詳細設定
+
 ## The following strings are used in the Download section of settings
 
 desktop-folder-name = デスクトップ
@@ -2480,8 +2501,8 @@ preferences-etp-status-advanced-button =
     .label = 詳細設定
 
 preferences-etp-status-protections-dashboard-link =
-    .label = 個人用保護ダッシュボードを表示
-    .description = ソーシャルメディアトラッカー、フィンガープリント、仮想通貨マイナーなど、{ -brand-short-name } がブロックしたトラッカーの数を確認できます。
+        .label = 個人用保護ダッシュボードを表示
+        .description = ソーシャルメディアトラッカー、フィンガープリント、仮想通貨マイナーなど、{ -brand-short-name } がブロックしたトラッカーの数を確認できます。
 
 preferences-etp-header =
     .heading = 強化型トラッキング防止機能

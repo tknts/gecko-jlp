@@ -25,14 +25,31 @@ ipprotection-title = VPN
 
 ## Feature introduction callout
 
+# Original strings
+
 ipprotection-feature-introduction-title = ブラウザに内蔵された新しい VPN のご紹介
 ipprotection-feature-introduction-link-text-2 = 新しい <a data-l10n-name="learn-more-vpn">内蔵 VPN</a> を使用して、現在地を隠し、データを保護しましょう。
-ipprotection-feature-introduction-link-text-private-browsing-2 = 新しい <a data-l10n-name="learn-more-vpn">内蔵 VPN</a> を使用すれば、プライベートウィンドウでも現在地を隠してデータを保護できます。
-ipprotection-feature-introduction-description-private-browsing = プライベートウィンドウでも現在地を隠し、より強力な保護機能でブラウジングを楽しめます。
-ipprotection-feature-introduction-description-captive-portal = 公衆 Wi-Fi を利用している時でも、現在地を隠して安全にブラウジングできます。
+
+# Used for callout in private browsing as well as users who expressed interest in privacy in onboarding
+ipprotection-feature-introduction-title-privacy = プライバシーをさらに強化しましょう
+ipprotection-feature-introduction-link-text-privacy = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } 内蔵の VPN</a> がブラウジングの保護をサポートします。5つの地域から選択して、よりセキュアにブラウジングしましょう。
+
+# Original strings for private browsing callout
+
+ipprotection-feature-introduction-link-text-private-browsing-2 = プライベート ウィンドウでも、新しい<a data-l10n-name="learn-more-vpn">内蔵 VPN</a> を使用して現在地を隠し、データを保護しましょう。
+ipprotection-feature-introduction-description-private-browsing = プライベート ウィンドウでも現在地を隠し、さらに強固な保護機能でブラウジングできます。
+
+# Used for callout shown on login to public wi-fi through a captive portal
+ipprotection-feature-introduction-title-captive-portal = 公共 Wi-Fi をお使いですか？ { -brand-product-name } 内蔵の VPN をお試しください。
+ipprotection-feature-introduction-link-text-captive-portal = 5 つのロケーションから選択して現在地を隠し、<a data-l10n-name="learn-more-vpn">プライバシーをさらに強化</a>しましょう。
+ipprotection-feature-introduction-description-captive-portal = 公共 Wi-Fi でも現在地を隠し、さらに強固な保護機能でブラウジングできます。
+
+## Buttons used for all feature introduction callouts
+
 ipprotection-feature-introduction-button-primary = 次へ
-ipprotection-feature-introduction-button-secondary-not-now = あとで
-ipprotection-feature-introduction-button-secondary-no-thanks = いえ、結構です
+ipprotection-feature-introduction-button-secondary-not-now = 後で
+ipprotection-feature-introduction-button-secondary-no-thanks = 利用しない
+ipprotection-feature-introduction-button-secondary-remove = ツールバーから VPN を削除
 
 ## Site settings callout
 
@@ -40,14 +57,24 @@ ipprotection-site-settings-callout-title = VPN を使用するサイトを選択
 ipprotection-site-settings-callout-subtitle = 特定のサイトで VPN をオフにすると、次回の訪問時もその設定が維持されます。
 ipprotection-site-settings-callout-button = 了解
 
+## Location selection callout
+
+ipprotection-location-selection-callout-title = 新機能: 接続先の切り替え
+ipprotection-location-selection-callout-description = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } 内蔵の VPN</a> では、5 つの地域から接続先を選べるほか、最適な高速サーバーを自動で選択することもできます。
+ipprotection-location-selection-callout-primary-button = 試してみる
+ipprotection-location-selection-callout-secondary-button = 閉じる
+
 ## Panel
 
 unauthenticated-vpn-title = { -brand-product-name } の内蔵 VPN を試してみる
 unauthenticated-hide-location-message-3 = { -brand-product-name } での閲覧中に <a data-l10n-name="learn-more-vpn">現在地を隠せます</a>。
+unauthenticated-private-location-message = { -brand-product-name } での<a data-l10n-name="learn-more-vpn">現在地の秘匿</a>をサポートします。
+unauthenticated-choose-location-message = 5 つの接続先から選ぶか、{ -brand-product-name } に最適な高速サーバーを任せることもできます。
 # Variables
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 unauthenticated-bandwidth-limit-message = 毎月 { $maxUsage } GB の無料 VPN データ通信を利用できます。
 unauthenticated-get-started = 今すぐ始める
+unauthenticated-terms-of-service-privacy-notice = 続行することで、<a data-l10n-name="vpn-terms-of-service">利用規約</a>および<a data-l10n-name="vpn-privacy-notice">プライバシー告知</a>に同意したものとみなされます。
 
 site-exclusion-toggle-enabled-1 =
   .label = このサイトで VPN を使用する
@@ -55,6 +82,7 @@ site-exclusion-toggle-enabled-1 =
 site-exclusion-toggle-disabled-1 =
   .label = このサイトで VPN を使用する
   .aria-label = このサイトでは VPN がオフになっています
+site-exclusion-toggle-description = サイトが正しく動作しませんか？ VPN をオフにしてみてください。
 
 ipprotection-settings-link =
   .label = 設定
@@ -76,12 +104,36 @@ ipprotection-button-turn-vpn-on = VPN をオンにする
 # Button while VPN is connecting
 ipprotection-button-connecting = オンにしています…
 
+## Location controls
+
+# The button displays the selected VPN location.
+# This shows the default selection, "Recommended" which is the recommended location as determined by Firefox.
+ipprotection-recommended-location-button = 接続先: 推奨
+ipprotection-recommended-location-description = { -brand-product-name } が最適な接続先を探します
+ipprotection-recommended-location-badge = 新機能
+
+# Variables
+#   $country (string) - The country selected for the VPN server location
+ipprotection-location-country-button = 接続先: { $country }
+
+ipprotection-locations-subview =
+    .title = 接続先を選択
+ipprotection-locations-subview-description = ブラウジングの起点となる場所を変更します。
+
+ipprotecion-locations-subview-recommended-label = 推奨
+ipprotection-locations-subview-recommended-description = 最適な高速サーバーを探します
+
+ipprotection-locations-subview-promo =
+  .heading = { -mozilla-vpn-brand-name } でさらに強固な保護を
+  .message = 300 以上の接続先から選択でき、最大 5 台のデバイスであらゆるアプリを保護できます。
+ipprotection-locations-subview-promo-button = { -mozilla-vpn-brand-name } を入手
+
 ## VPN paused state
 
-ipprotection-connection-status-paused-title = VPN を一時停止しました
+ipprotection-connection-status-paused-title-1 = VPN は一時停止中です
 # Variables
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
-ipprotection-connection-status-paused-description = VPN のデータ使用量が上限の { $maxUsage } GB に達しました。来月にリセットされます。
+ipprotection-connection-status-paused-description-1 = 今月の VPN データ容量 ({ $maxUsage } GB) をすべて使い切りました。来月になると再度利用可能になります。
 upgrade-vpn-title = ブラウザーを超えた高度な保護を手に入れましょう
 upgrade-vpn-description = VPN サーバーの場所の選択、すべてのアプリでの使用、最大 5 台のデバイス対応、そして自宅や公共 Wi-Fi などのあらゆるネットワークでの安全確保が可能になります。
 upgrade-vpn-button = { -mozilla-vpn-brand-name } を試す
@@ -141,7 +193,10 @@ ip-protection-bandwidth-warning-infobar-message-90-mb = <strong>VPN のデータ
 
 ip-protection-description =
   .label = VPN
-  .description = { -brand-short-name } での閲覧時に位置情報を隠し、暗号化を追加します。
+.description = { -brand-short-name } でのブラウジング中にプライバシーを強化する内蔵 VPN です。
+ip-protection-description-1 =
+  .label = 内蔵 VPN
+  .description = 現在地を隠すことで、ブラウジングのプライバシーをさらに高めます。
 ip-protection-learn-more = さらに詳しく
 
 # Variables:
@@ -149,7 +204,12 @@ ip-protection-learn-more = さらに詳しく
 ip-protection-not-opted-in-2 =
   .heading = { -brand-short-name } の内蔵 VPN を試してみる
   .message = { -brand-short-name } での閲覧中に現在地を隠せます。毎月 { $maxUsage } GB の無料 VPN データ通信を利用できます。
-ip-protection-not-opted-in-button = 今すぐ始める
+# Variables
+#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+ip-protection-not-opted-in-3 =
+  .heading = { -brand-short-name } 内蔵の VPN を試してみる
+  .message = 現在地を隠して、さらに安全にブラウジングしましょう。毎月 { $maxUsage } GB の VPN データ容量を無料で利用できます。
+ip-protection-not-opted-in-button = 今すぐ開始
 
 # Variables:
 #   $count (number) - The number of sites saved as VPN exclusions.
@@ -171,6 +231,9 @@ ip-protection-autostart-private-checkbox =
 ip-protection-vpn-upgrade-link =
   .label = { -mozilla-vpn-brand-name } で { -brand-short-name } 以外でもさらなる保護を
   .description = 自宅でも公共 Wi-Fi でも、最大 5 台のデバイスのすべてのアプリに保護を追加し、VPN 接続先を自由に選択できます。
+ip-protection-vpn-upgrade-link-1 =
+  .label = { -mozilla-vpn-brand-name } でさらに強固な保護を
+  .description = 300 以上の接続先から選択でき、最大 5 台のデバイスであらゆるアプリを保護できます。
 
 ## IP Protection dialogs
 
@@ -230,6 +293,13 @@ vpn-paused-alert-title = VPN は一時停止中です
 # Variables
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
 vpn-paused-alert-body = 今月の VPN データ制限 ({ $maxUsage } GB) に達しました。来月にリセットされます。
+
+# Variables
+#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+vpn-error-page-paused-description = 今月の VPN データ容量 ({ $maxUsage } GB) をすべて使い切りました。来月になると再度利用可能になります。
+vpn-error-page-continue-description = VPN を使用せずに続行する方法を選択してください
+vpn-error-page-keep-browsing = このセッションで閲覧を続ける
+vpn-error-page-new-session = 新しいセッションを開始する
 
 vpn-paused-alert-close-tabs-button = すべてのタブを閉じる
 vpn-paused-alert-continue-wo-vpn-button = VPN なしで続行

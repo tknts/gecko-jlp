@@ -92,9 +92,9 @@ aiwindow-firstrun-model-title = 使用するモデルを選択
 aiwindow-firstrun-model-subtitle = いつでも切り替えて、自分に最適なものを見つけられます。
 aiwindow-firstrun-model-fast-label = 最速
 aiwindow-firstrun-model-fast-body = 日常的な質問に素早く回答するのに最適です
-# $modelName (string) - The name of the AI model
+# $model (string) - The name of the AI model
 # $ownerName (string) - The name of the model owner/provider
-aiwindow-firstrun-model-chip-subtitle = モデル: { $modelName } / 提供元: { $ownerName }
+aiwindow-firstrun-model-chip-subtitle = モデル: { $model } / 提供元: { $ownerName }
 aiwindow-firstrun-model-allpurpose-label = 多目的
 aiwindow-firstrun-model-allpurpose-body = 素早い処理から複雑なタスクまで、幅広く対応するのに最適です
 aiwindow-firstrun-model-personal-label = パーソナライズ
@@ -120,6 +120,12 @@ aiwindow-memories-off =
 aiwindow-new-chat =
     .tooltiptext = 新しいチャットを開始します
     .aria-label = 新しいチャットを開始
+
+## Close Sidebar Button
+
+aiwindow-close-sidebar =
+    .tooltiptext = 閉じる
+    .aria-label = 閉じる
 
 ## Sign out dialog
 

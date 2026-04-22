@@ -26,6 +26,8 @@ experimental-features-group-customize-browsing =
   .label = ブラウジングをカスタマイズ
 experimental-features-group-productivity =
   .label = 生産性
+experimental-features-group-newtab-widgets =
+  .label = { -firefox-home-brand-name } のウィジェット
 
 # New Tab Custom Wallpapers
 experimental-features-custom-wallpaper =
@@ -76,6 +78,21 @@ experimental-features-newtab-widget-timer-description = 集中を維持したり
 experimental-features-newtab-widget-lists-and-timer =
     .label = { -firefox-home-brand-name } のリストとタイマー
 experimental-features-newtab-widget-lists-and-timer-description = 新しいタブを開いたときに、やることリストをすぐ確認できます。旅行の持ち物リストや買い物リストなど、{ -brand-product-name } で計画を立てましょう。タイマーを設定して集中したり、進捗を促したり、休憩をリマインドしたりできます。<a data-l10n-name="connect">フィードバックを送る</a>
+
+# Weather Widget
+experimental-features-newtab-widget-weather =
+    .label = 天気予報
+experimental-features-newtab-widget-weather-description = 1 時間ごとの予報で、今日の天気をひと目で把握できます。<a data-l10n-name="connect">フィードバックを送る</a>
+
+# Picture of the Day Widget
+experimental-features-newtab-widget-picture-of-the-day =
+    .label = 今日の一枚
+experimental-features-newtab-widget-picture-of-the-day-description = 毎日の生活にちょっとした驚きを。新しい写真を楽しんだり、興味深い知識を学んだり、お気に入りの写真をすぐに壁紙に設定したりできます。<a data-l10n-name="connect">フィードバックを送る</a>
+
+# Clocks Widget
+experimental-features-newtab-widget-clocks =
+    .label = 時計
+experimental-features-newtab-widget-clocks-description = 最大 4 つまで時計を追加できます。好きな名前を付けて、大切な場所の時間をいつでもチェックしましょう。<a data-l10n-name="connect">フィードバックを送る</a>
 
 # Semantic History Search
 experimental-features-semantic-history-search =

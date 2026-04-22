@@ -529,6 +529,12 @@ newtab-new-user-custom-wallpaper-title = 壁紙を選択して、{ -brand-produc
 newtab-new-user-custom-wallpaper-subtitle = カスタマイズされた壁紙と配色で、新しいタブをもっと自分らしく。
 newtab-new-user-custom-wallpaper-cta = 今すぐ試す
 
+## Strings for Nova wallpaper feature highlight
+
+newtab-wallpaper-feature-highlight-title = 新しい壁紙が登場しました
+newtab-wallpaper-feature-highlight-subtitle = お気に入りのデザインを選んで、新しいタブをもっと自分好みに。
+newtab-wallpaper-feature-highlight-cta = 壁紙を選択
+
 ## Strings for download mobile highlight
 
 newtab-download-mobile-highlight-title = モバイル版 { -brand-product-name } をダウンロード
@@ -602,11 +608,21 @@ newtab-widget-section-maximize =
 newtab-widget-section-minimize =
     .title = ウィジェットを最小化
     .aria-label = すべてのウィジェットをコンパクトサイズに折りたたむ
-newtab-widget-section-feedback = ご意見をお聞かせください
+newtab-widget-section-menu-button =
+    .title = ウィジェットメニュー
+    .aria-label = ウィジェットメニューを開く
+newtab-widget-section-menu-hide-all = ウィジェットを非表示にする
+newtab-widget-section-menu-learn-more = 詳細はこちら
+newtab-widget-section-feedback = フィードバックを送る
+newtab-widget-lists-name-default = チェックリスト
 newtab-widget-lists-name-label-default =
     .label = タスクリスト
+newtab-widget-lists-name-label-checklist =
+    .label = チェックリスト
 newtab-widget-lists-name-placeholder-default =
     .placeholder = タスクリスト
+newtab-widget-lists-name-placeholder-checklist =
+    .placeholder = チェックリスト
 # The placeholder value of the name field for a newly created list
 newtab-widget-lists-name-placeholder-new =
     .placeholder = 新しいリスト

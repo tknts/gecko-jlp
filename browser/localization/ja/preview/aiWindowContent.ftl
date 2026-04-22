@@ -34,3 +34,11 @@ aiwindow-retry =
 aiwindow-copy-message =
     .tooltiptext = コピーします
     .aria-label = メッセージをコピー
+aiwindow-applied-memories-popover =
+    .aria-label = この内容をメモリーする
+
+## Jump to Bottom Button
+
+aiwindow-jump-to-bottom =
+    .tooltiptext = 最下部へ移動
+    .aria-label = チャットの最下部へ移動

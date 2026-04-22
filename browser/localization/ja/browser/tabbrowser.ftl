@@ -335,6 +335,14 @@ tab-group-editor-action-new-tab =
     .label = グループ内の新しいタブ
 tab-group-editor-action-new-window =
     .label = グループを新しいウィンドウに移動
+# Variables:
+#  $linkCount (Number): the number of shareable links in the group.
+tab-group-editor-action-copy-links =
+    .label =
+        { $linkCount ->
+            [1] グループ内のリンクをコピー
+           *[other] グループ内のリンク ({ $linkCount } 件) をコピー
+        }
 tab-group-editor-action-save =
     .label = グループを保存して閉じる
 tab-group-editor-action-ungroup =
@@ -344,6 +352,9 @@ tab-group-editor-action-delete =
 tab-group-editor-done =
     .label = 完了
     .accessKey = D
+# Share is a verb here. Meaning to "Share" the "tab group"
+tab-group-editor-action-share-tab-group =
+    .label = タブグループを共有
 
 tab-context-reopen-tab-group =
     .label =タブグループを開き直す

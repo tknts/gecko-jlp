@@ -1288,18 +1288,18 @@ unified-extensions-button-blocklisted =
 reset-pbm-toolbar-button =
     .label = プライベート セッションを終了
     .tooltiptext = プライベート セッションを終了します
-reset-pbm-panel-heading = プライベートセッションを終了しますか?
-reset-pbm-panel-description = すべてのプライベートタブを閉じ、履歴、Cookie、その他すべてのサイトデータを削除します。
+reset-pbm-panel-heading2 = データを消去して新しいプライベートセッションを開始しますか？
+reset-pbm-panel-description2 = プライベート ウィンドウを閉じることなく、履歴や Cookie、その他のすべてのサイトデータを削除します。
 reset-pbm-panel-always-ask-checkbox =
      .label = 毎回確認する
      .accesskey = A
 reset-pbm-panel-cancel-button =
     .label = キャンセル
     .accesskey = C
-reset-pbm-panel-confirm-button =
-    .label = セッションデータを削除
-    .accesskey = D
-reset-pbm-panel-complete = プライベートセッションのデータが削除されました
+reset-pbm-panel-confirm-button2 =
+    .label = プライベートセッションを消去
+    .accesskey = l
+reset-pbm-panel-complete = プライベートセッションのデータを削除しました
 
 ## Autorefresh blocker
 
@@ -1563,4 +1563,11 @@ trustpanel-cryptominer-not-blocking-tab-header = { $count ->
   [one] { -brand-product-name } がクリプトマイナー { $count } 件を許可しました
   *[other] { -brand-product-name } がクリプトマイナー { $count } 件を許可しました
 }
-trustpanel-cryptominer-tab-list-header = 以下のサイトが暗号通貨マイニングを行おうとしています：
+trustpanel-cryptominer-tab-list-header = 以下のサイトが暗号通貨マイニングを行おうとしています:
+
+## Reduced Protection Infobar ("ReducedProtectionNotification.sys.mjs")
+
+# "temporarily lower your tracking protection" refers to temporarily decreasing the amount of tracking protection.
+reduced-protection-infobar-message = <strong>サイトが正しく表示されませんか?</strong> ページを再読み込みして、一時的にトラッキング保護を緩和します。
+reduced-protection-infobar-reload-button = 再読み込み
+  .accesskey = R

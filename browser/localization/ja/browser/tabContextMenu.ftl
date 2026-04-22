@@ -156,3 +156,8 @@ tab-context-send-to-mobile-connect-phone =
     .label = スマートフォンを接続
 tab-context-send-to-mobile-device-missing =
     .label = デバイスが表示されませんか?
+
+# Verb: share a collection of selected tabs as a link
+tab-context-share-selected-tabs =
+    .label = 共有用リンクを作成
+    .accesskey = a

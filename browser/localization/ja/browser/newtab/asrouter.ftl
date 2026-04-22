@@ -430,3 +430,13 @@ set-default-menu-message-row-layout-subtitle-variant = { PLATFORM() ->
 
 set-default-menu-message-primary-button = 既定に設定
 set-default-menu-message-primary-button-variant = メインのブラウザーに設定
+
+## Firefox Relay 50 Masks Announcement
+
+# "on us" in this context means "for free" or "at no cost"
+relay-50-masks-announcement-title = メールマスク 50 個を無料で提供中
+relay-50-masks-announcement-subtitle = 無料で使えるマスクが 5 個から 50 個に増えました。アカウントごとに使い分けて、本物のメールアドレスを秘密にしましょう。
+relay-50-masks-announcement-primary-button = { -relay-brand-name } へ移動
+  .accesskey = G
+relay-50-masks-announcement-secondary-button = 閉じる
+  .accesskey = D
