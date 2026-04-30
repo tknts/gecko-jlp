@@ -225,6 +225,9 @@ tabbrowser-manager-current-window-tab-group =
 ##  $tabGroupName (String): The name of the tab group. See also tab-group-name-default, which will be
 ##                          used when the group's name is empty.
 
+# Title placed over a list of all of the user's tab groups
+tab-groups-list-title = タブグループ
+
 tab-group-name-default = 新しいグループ
 tab-group-editor-title-create = タブグループの作成
 tab-group-editor-title-edit = タブグループの編集

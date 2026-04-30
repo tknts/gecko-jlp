@@ -36,18 +36,18 @@ smart-window-model-section =
 smart-window-model-learn-link = AI モデルについてさらに詳しく
 
 ## Variables:
-##   $modelName (String) - The name of the AI model
+##   $model (string) - The name of the AI model
 ##   $ownerName (String) - The name of owner of the AI model
 
 smart-window-model-fast =
     .label = 高速: 素早く回答します
-    .description = { $modelName }
+    .description = モデル: { $model } / 提供元: { $ownerName }
 smart-window-model-flexible =
     .label = フレキシブル: 多くのニーズにしっかり対応します
-    .description = { $modelName }
+    .description = モデル: { $model } / 提供元: { $ownerName }
 smart-window-model-personal =
     .label = パーソナル: 最も一人ひとりに適した回答をします
-    .description = { $modelName }
+    .description = モデル: { $model } / 提供元: { $ownerName }
 smart-window-model-custom =
     .label = カスタム: 独自の LLM を使用する
 smart-window-model-custom-name =

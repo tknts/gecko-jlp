@@ -67,9 +67,9 @@ pane-search-title = 検索
 category-search =
     .tooltiptext = { pane-search-title } の設定です
 
-pane-privacy-title = プライバシーとセキュリティ
-category-privacy =
-    .tooltiptext = { pane-privacy-title } の設定です
+pane-privacy-title2 = プライバシーとセキュリティ
+pane-privacy-section =
+    .heading = プライバシーとセキュリティ
 
 pane-sync-title3 = 同期
 category-sync3 =
@@ -79,7 +79,19 @@ pane-ai-controls-title = AI コントロール
 category-ai-controls =
     .tooltiptext = { pane-ai-controls-title }
 
+pane-accessibility-title = Accessibility
+  .title = { pane-accessibility-title }
+
+pane-languages-title = 言語
+category-languages =
+    .tooltiptext = { pane-languages-title }
+
+preferences-languages-header =
+    .heading = { pane-languages-title }
+
 settings-pane-labs-title = { -firefoxlabs-brand-name }
+settings-pane-labs-header =
+    .heading = { -firefoxlabs-brand-name }
 settings-category-labs =
     .tooltiptext = { -firefoxlabs-brand-name } の設定です
 pane-experimental-description4 = 実験的な機能を試してみてください。これらの機能は開発中で日々進化しており、{ -brand-short-name } の動作に影響を与える可能性があります。<a data-l10n-name="data-collection">技術的データと操作データ</a>の収集がオンになっている場合にのみ、これらの機能の使用に関するデータが送信されます。
@@ -387,21 +399,6 @@ preferences-colors-manage-button =
 preferences-fonts-header2 =
   .label = フォント
 
-default-font-2 =
-  .label = デフォルトのフォント
-  .accesskey = D
-default-font-size-2 =
-  .label = サイズ
-  .accesskey = S
-
-advanced-fonts =
-    .label = 詳細設定…
-    .accesskey = A
-
-# Zoom is a noun, and the message is used as header for a group of options
-preferences-zoom-header2 =
-  .label = ズーム
-
 preferences-default-zoom-label =
     .label = デフォルトのズーム
     .accesskey = z
@@ -459,6 +456,17 @@ manage-browser-languages-button =
   .accesskey = l
 confirm-browser-language-change-description = 変更を適用するには、{ -brand-short-name } の再起動が必要です
 confirm-browser-language-change-button = 適用して再起動
+
+browser-language-heading =
+  .label = ブラウザーの言語
+  .description = { -brand-short-name } のメニュー、メッセージ、通知に使用する言語を選択してください。
+browser-language-preferred-label =
+  .label = 優先言語
+browser-language-fallback-label =
+  .label = フォールバック言語
+  .description = 優先言語の翻訳が不完全な場合に使用されます。
+browser-language-install-error =
+  .message = { -brand-short-name } は現在言語を更新できません。インターネットに接続されているか確認するか、もう一度やり直してください。
 
 fx-translate-web-pages = { -translations-brand-name }
 
@@ -628,7 +636,7 @@ applications-use-app =
 # Variables:
 #   $app-name (String) - Name of an application (e.g Adobe Acrobat)
 applications-use-app-default =
-    .label = { $app-name } を使用 (既定)
+    .label = { $app-name } を使用 (デフォルト)
 
 applications-use-os-default =
     .label =
@@ -709,19 +717,28 @@ play-drm-content =
 
 play-drm-content-learn-more = さらに詳しく
 
-update-application-title = { -brand-short-name } の更新
+## Firefox updates
 
-update-application-description = 最高のパフォーマンスと安定性、およびセキュリティを提供するために { -brand-short-name } を最新の状態に保ちます。
+update-application-heading =
+    .label = { -brand-short-name } の更新
+    .description = 更新により、{ -brand-short-name } の速度、安定性、セキュリティが向上します。
+
+update-application-suppress-prompts-heading =
+    .label = 通知
+
+update-application-updates-managed-by-os =
+    .message = 更新はオペレーティングシステムによって管理されています
 
 # Variables:
 # $version (string) - Firefox version
 update-application-version = バージョン: { $version } <a data-l10n-name="learn-more">最新情報</a>
 
-update-history =
-    .label = 更新の履歴を表示…
+update-history-2 =
+    .label = 更新履歴を表示
     .accesskey = p
 
-update-application-allow-description = { -brand-short-name } の更新動作
+update-application-installation =
+    .label = インストール設定
 
 update-application-auto =
     .label = 更新を自動的にインストールする (推奨)
@@ -735,7 +752,8 @@ update-application-background-enabled =
     .label = { -brand-short-name } が起動していない時に実行
     .accesskey = W
 
-update-application-warning-cross-user-setting = この設定は、この { -brand-short-name } を使用するすべての Windows アカウントと { -brand-short-name } のプロファイルに適用されます。
+update-application-warning-cross-user-setting-2 =
+    .message = この設定は、この { -brand-short-name } を使用するすべての Windows アカウントおよび { -brand-short-name } プロファイルに適用されます。
 
 update-application-suppress-prompts =
     .label = 更新の通知回数を減らす
@@ -805,10 +823,6 @@ performance-default-content-process-count =
 
 browsing-group =
   .label = ブラウジング
-
-browsing-use-autoscroll =
-    .label = 自動スクロール機能を使用する
-    .accesskey = a
 
 browsing-use-smooth-scrolling =
     .label = スムーズスクロール機能を使用する
@@ -1045,6 +1059,10 @@ home-prefs-lists-header =
 home-prefs-timer-header =
     .label = タイマー
 
+# Sports is a widget on New Tab showing sports scores and schedules.
+home-prefs-sports-widget-header =
+    .label = スポーツ
+
 # "Support" here means to help sustain or contribute to something, especially through funding or sponsorship.
 home-prefs-support-firefox-header =
     .label = { -brand-product-name } をサポートする
@@ -1064,6 +1082,12 @@ home-prefs-choose-wallpaper-link = 壁紙を選択
 
 home-prefs-choose-wallpaper-link2 =
     .label = 壁紙を選択
+
+# Informational message bar that appears in the Firefox Home section when the options are disabled.
+# The user must select Firefox Home as their homepage for either new tabs or new windows to enable
+# the features in settings.
+home-prefs-firefox-home-disabled-notice =
+    .message = これらの機能を使用するには、新しいタブまたは新しいウィンドウの表示先を { -firefox-home-brand-name } に設定してください。
 
 # Variables:
 #   $num (number) - Number of rows displayed
@@ -1557,6 +1581,17 @@ forms-breach-alerts =
     .label = 漏洩したウェブサイトのパスワードの警告を表示する
     .accesskey = b
 forms-breach-alerts-learn-more-link = さらに詳しく
+
+## Privacy Panel Settings
+
+privacy-panel-settings-header =
+    .label = プライバシーパネル設定
+    .description = { -brand-short-name } を使用してオンライン情報の保護に役立てましょう。
+# By “breach message” we mean the UI messaging shown when Firefox detects that a
+# site the user has interacted with has been involved in a known data breach
+privacy-panel-breach-alerts =
+    .label = データ流出に関する通知を表示する
+    .accesskey = s
 preferences-relay-integration-checkbox2 =
     .label = メールアドレスを保護するために { -relay-brand-name } メールマスクを使用する
     .accesskey = r
@@ -1990,9 +2025,9 @@ tracking-manage-exceptions =
 
 ## Privacy Section - Permissions
 
-permissions-header2 =
-    .label = 権限
-    .description = 閲覧するウェブサイトに与える権限です。
+permissions-header3 =
+    .label = 許可設定
+    .description = ウェブサイトがアクセス、制御、実行できる項目を管理します。
 
 permissions-location2 =
     .label = 位置情報
@@ -2362,6 +2397,36 @@ preferences-connection-link-button =
 desktop-folder-name = デスクトップ
 downloads-folder-name = ダウンロード
 
+## Accessibility page
+
+preferences-accessibility-header =
+    .heading = アクセシビリティ
+
+preferences-default-zoom-select =
+    .aria-label = 既定のズーム倍率
+
+preferences-fonts-family =
+    .label = フォントの種類
+    .accesskey = D
+
+preferences-fonts-size =
+    .label = フォントサイズ
+    .accesskey = s
+
+preferences-fonts-advanced-settings =
+    .label = 詳細設定
+    .accesskey = A
+
+browsing-use-autoscroll =
+    .label = オートスクロール機能を使用する
+    .accesskey = a
+
+keyboard-and-scrolling-group =
+  .label = キーボードナビゲーションとスクロール
+
+motion-and-link-group =
+  .label = アニメーションとリンクのスタイル
+
 ## AI controls page
 
 preferences-ai-controls-header =
@@ -2517,7 +2582,7 @@ preferences-etp-customize-button =
 preferences-etp-reload-tabs-hint =
     .message = 設定を適用するには、タブを再読み込みしてください。
 preferences-etp-reload-tabs-hint-button =
-    .label = すべてのタブを再読み込み
+  .label = すべてのタブを再読み込み
 
 preferences-etp-rfp-warning-message =
     .message = 現在「フィンガープリント耐性 (RFP)」が有効です。これにより { -brand-short-name } の一部のフィンガープリント保護設定が置き換えられ、一部のサイトが正常に動作しなくなる可能性があります。

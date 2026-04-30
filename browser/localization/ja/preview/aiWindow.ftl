@@ -4,6 +4,10 @@
 
 ## Chrome
 
+main-context-menu-open-link-new-smart-window =
+    .label = リンクを新しいスマート ウィンドウで開く
+    .accesskey = S
+
 appmenuitem-new-ai-window =
     .label = 新しいスマート ウィンドウ
     .value = 新しいスマート ウィンドウ
@@ -55,11 +59,18 @@ ai-window-toggleview-status-label-inactive = クラシック ウィンドウ
 aiwindow-input-cta-submit-label-chat = 質問
 aiwindow-input-cta-submit-label-navigate = 移動
 aiwindow-input-cta-submit-label-search = 検索
+aiwindow-input-cta-submit-label-stop = 停止
 
-aiwindow-input-cta-menu-label-chat = 質問します
-aiwindow-input-cta-menu-label-navigate = サイトへ移動します
+# Text announced to screen readers when response generation starts.
+aiwindow-generation-started-announcement = 回答の生成を開始しました
+
+aiwindow-input-cta-menu-label-chat = 質問する
+aiwindow-input-cta-menu-label-navigate = サイトへ移動
 # $searchEngineName (string) - The name of the default search engine
-aiwindow-input-cta-menu-label-search = { $searchEngineName } で検索します
+aiwindow-input-cta-menu-label-search = { $searchEngineName } で検索
+aiwindow-input-cta-menu-label-search-with = 次で検索…
+
+aiwindow-input-cta-search-submenu-header = 検索
 
 ## Smartbar
 
@@ -196,3 +207,27 @@ item-history-downloads-and-chat =
     .accesskey = B
 
 item-history-downloads-and-chat-description = サイトの閲覧、ダウンロード、およびチャットの履歴を消去します
+
+## Natural Language Interactions
+
+smart-window-confirm-select-all =
+    .aria-label = すべて選択
+    .label = すべて選択
+
+smart-window-confirm-deselect-all =
+    .aria-label = すべて選択解除
+    .label = すべて選択解除
+
+smart-window-close-confirm =
+    .tooltiptext = 確認を閉じます
+    .aria-label = 確認を閉じます
+
+smart-window-confirm-close-tab = 閉じる
+
+# Variables
+#   $count (number) - Number of tabs to close
+smart-window-confirm-close-tabs =
+    { $count ->
+        [one] タブを閉じる
+       *[other] { $count } 個のタブを閉じる
+    }

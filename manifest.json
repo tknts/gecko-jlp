@@ -10,10 +10,10 @@
   },
   "name": "Language: Japanese (JP)",
   "description": "Unofficial Nightly Language Pack for Japanese (JP) (ja)",
-  "version": "151.0.202604212.11246",
+  "version": "151.0.20260429.203445",
   "languages": {
     "ja": {
-      "version": "20260421211246",
+      "version": "20260429203445",
       "chrome_resources": {
         "app-marketplace-icons": "browser/chrome/browser/locale/ja/app-marketplace-icons/",
         "branding": "browser/chrome/ja/locale/branding/",

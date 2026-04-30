@@ -30,7 +30,7 @@ ipprotection-title = VPN
 ipprotection-feature-introduction-title = ブラウザに内蔵された新しい VPN のご紹介
 ipprotection-feature-introduction-link-text-2 = 新しい <a data-l10n-name="learn-more-vpn">内蔵 VPN</a> を使用して、現在地を隠し、データを保護しましょう。
 
-# Used for callout in private browsing as well as users who expressed interest in privacy in onboarding
+# Used for callout for users who expressed interest in privacy in onboarding
 ipprotection-feature-introduction-title-privacy = プライバシーをさらに強化しましょう
 ipprotection-feature-introduction-link-text-privacy = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } 内蔵の VPN</a> がブラウジングの保護をサポートします。5つの地域から選択して、よりセキュアにブラウジングしましょう。
 
@@ -40,9 +40,11 @@ ipprotection-feature-introduction-link-text-private-browsing-2 = プライベー
 ipprotection-feature-introduction-description-private-browsing = プライベート ウィンドウでも現在地を隠し、さらに強固な保護機能でブラウジングできます。
 
 # Used for callout shown on login to public wi-fi through a captive portal
-ipprotection-feature-introduction-title-captive-portal = 公共 Wi-Fi をお使いですか？ { -brand-product-name } 内蔵の VPN をお試しください。
-ipprotection-feature-introduction-link-text-captive-portal = 5 つのロケーションから選択して現在地を隠し、<a data-l10n-name="learn-more-vpn">プライバシーをさらに強化</a>しましょう。
-ipprotection-feature-introduction-description-captive-portal = 公共 Wi-Fi でも現在地を隠し、さらに強固な保護機能でブラウジングできます。
+ipprotection-feature-introduction-title-captive-portal = 公共 Wi-Fi をお使いですか? { -brand-product-name } 内蔵の VPN をお試しください。
+ipprotection-feature-introduction-description-captive-portal = 公共 Wi-Fi でも、現在地を隠してさらに安全にブラウジングできます。
+
+# Used for discovery callouts for both captive portal login and private browsing
+ipprotection-feature-introduction-link-text-captive-portal = 5 つの接続先から選んで現在地を隠し、<a data-l10n-name="learn-more-vpn">さらに強固なプライバシー</a>を手に入れましょう。
 
 ## Buttons used for all feature introduction callouts
 
@@ -66,7 +68,9 @@ ipprotection-location-selection-callout-secondary-button = 閉じる
 
 ## Panel
 
-unauthenticated-vpn-title = { -brand-product-name } の内蔵 VPN を試してみる
+# Also used for the callout shown in private browsing
+unauthenticated-vpn-title = { -brand-product-name } 内蔵の VPN をお試しください
+
 unauthenticated-hide-location-message-3 = { -brand-product-name } での閲覧中に <a data-l10n-name="learn-more-vpn">現在地を隠せます</a>。
 unauthenticated-private-location-message = { -brand-product-name } での<a data-l10n-name="learn-more-vpn">現在地の秘匿</a>をサポートします。
 unauthenticated-choose-location-message = 5 つの接続先から選ぶか、{ -brand-product-name } に最適な高速サーバーを任せることもできます。

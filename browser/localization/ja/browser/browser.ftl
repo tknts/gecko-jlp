@@ -315,6 +315,13 @@ quickactions-library = ライブラリを開く
 quickactions-logins2 = ログイン情報を管理
 quickactions-cmd-logins = logins, passwords, ログイン, パスワード
 
+# Mutes all tabs playing audio
+quickactions-mute = 音声を再生中のタブをミュートする
+# List of words that would trigger the "mute tabs" action from the address bar.
+# Replace with idiomatic expressions in your language to silence something or
+# someone.
+quickactions-cmd-mute = mute, shush, sssssh, 消音, ミュート
+
 # Opens the print dialog
 quickactions-print2 = ページを印刷
 quickactions-cmd-print = print, 印刷, プリント
@@ -444,9 +451,11 @@ identity-clear-site-data =
 identity-connection-not-secure-security-view = このサイトには安全に接続されていません。
 identity-connection-verified = このサイトには安全に接続されています。
 identity-ev-owner-label = 証明書の対象:
+identity-verifier-label = 検証者:
 # "qualified" here refers to the qualified website authentication certificate presented by the site.
 identity-etsi = 規則 (EU) 2024/1183 に規定される適格 (Qualified) 認証を受けています。
 identity-description-custom-root2 = Mozilla はこの証明書の発行者を認識していません。オペレーティングシステムまたは管理者によって追加された可能性があります。
+identity-cert-exception-overridden = このサイトのセキュリティ例外が追加されています。
 identity-remove-cert-exception =
     .label = 例外を削除
     .accesskey = R
@@ -475,11 +484,6 @@ browser-window-close-button =
 # Clicking this button closes the window and returns to the tab where it was opened from
 browser-window-return-to-opener =
     .tooltiptext = 元のタブに戻ります
-
-## Tab actions
-
-# This label should be written in all capital letters if your locale supports them.
-browser-tab-audio-pip =ピクチャー・イン・ピクチャー
 
 ## Bookmarks toolbar items
 
@@ -595,8 +599,8 @@ urlbar-switch-to-tab =
 urlbar-extension =
   .value = 拡張機能:
 
-urlbar-go-button =
-  .tooltiptext = ロケーションバーのアドレスに移動します
+urlbar-go-button2 =
+  .title = ロケーションバーに入力された場所へ移動します
 urlbar-page-action-button =
   .tooltiptext = ページアクション
 urlbar-revert-button =
@@ -834,9 +838,6 @@ urlbar-searchmode-popup-header = 次で検索:
 urlbar-searchmode-popup-search-settings-panelitem = 検索設定
 urlbar-searchmode-popup-settings-panelitem = 設定
 
-# Label shown next to a new search engine in the Searchmode Switcher popup to promote it.
-urlbar-searchmode-new = 新規
-
 # Label prompting user to search with a particular search engine.
 #  $engine (String): the name of a search engine that searches a specific site
 urlbar-result-search-with = { $engine } による検索結果
@@ -867,6 +868,21 @@ urlbar-result-action-switch-to-tabgroup = { $group } に切り替える
 # Label for a quickaction result used to re-opan a saved tab group.
 #  $group (String): the name of the tab group to re-open
 urlbar-result-action-open-saved-tabgroup = { $group } を開く
+
+## Used in the context menu in urlbar view.
+
+urlbar-view-context-menu-open-in-tab =
+  .label = 新しいタブで開く
+  .accesskey = w
+urlbar-view-context-menu-open-in-container-tab =
+  .label = 新しいコンテナー タブで開く
+  .accesskey = i
+urlbar-view-context-menu-open-in-window =
+  .label = 新しいウィンドウで開く
+  .accesskey = N
+urlbar-view-context-menu-open-in-private-window =
+  .label = 新しいプライベート ウィンドウで開く
+  .accesskey = P
 
 ## Labels shown above groups of urlbar results
 
@@ -1103,6 +1119,10 @@ toolbar-button-new-private-window =
 toolbar-button-share-tab =
   .label = 共有
   .tooltiptext = このページを共有します
+
+toolbar-button-tab-groups =
+  .label = タブグループ
+  .tooltiptext = タブグループを表示します
 
 ## EME notification panel
 
@@ -1563,7 +1583,12 @@ trustpanel-cryptominer-not-blocking-tab-header = { $count ->
   [one] { -brand-product-name } がクリプトマイナー { $count } 件を許可しました
   *[other] { -brand-product-name } がクリプトマイナー { $count } 件を許可しました
 }
-trustpanel-cryptominer-tab-list-header = 以下のサイトが暗号通貨マイニングを行おうとしています:
+trustpanel-cryptominer-tab-list-header = 以下のサイトが暗号資産のマイニングを行おうとしています:
+# "account on this site" refers to the (breached) site the user is currently visiting, not a Mozilla Monitor account.
+trustpanel-breachalerts-anonymous-breached-header = このサイトのアカウントをお持ちですか？
+trustpanel-breachalerts-anonymous-breached-description = このサイトで過去 12 か月以内にデータ侵害が発生したことが { -brand-product-name } により確認されました。あなたの情報が影響を受けていないか確認しましょう。
+trustpanel-breachalerts-anonymous-breached-button-dismiss = 閉じる
+trustpanel-breachalerts-anonymous-breached-button-check-monitor = 無料スキャンを開始
 
 ## Reduced Protection Infobar ("ReducedProtectionNotification.sys.mjs")
 
@@ -1571,3 +1596,5 @@ trustpanel-cryptominer-tab-list-header = 以下のサイトが暗号通貨マイ
 reduced-protection-infobar-message = <strong>サイトが正しく表示されませんか?</strong> ページを再読み込みして、一時的にトラッキング保護を緩和します。
 reduced-protection-infobar-reload-button = 再読み込み
   .accesskey = R
+reduced-protection-infobar-never-show-button = 次回から表示しない
+  .accesskey = D
