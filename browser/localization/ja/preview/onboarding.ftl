@@ -37,3 +37,14 @@ smartwindow-onboarding-primary-button = 次へ
 # Kit is referring to the Firefox mascot
 smartwindow-onboarding-image-alt =
   .aria-label = 星の小道具を持った { -brand-product-name } のマスコット (Kit) 
+
+## Smart Window Sidebar Auto-Open Pref
+
+smartwindow-sidebar-auto-open-callout-title = アシスタントを閉じたままにしますか?
+smartwindow-sidebar-auto-open-callout-body = 必要なときにはいつでも開くことができます。
+smartwindow-sidebar-auto-open-callout-accept = 閉じたままにする
+smartwindow-sidebar-auto-open-callout-dismiss = いいえ
+smartwindow-sidebar-auto-open-callout-accepted-title = アシスタントが閉じたままになります
+smartwindow-sidebar-auto-open-callout-accepted-subtitle = どのページからでも [質問する] を使用して開けます。これは <a data-l10n-name="settings">設定</a> からいつでも変更可能です。
+smartwindow-sidebar-auto-open-callout-rejected-title = わかりました
+smartwindow-sidebar-auto-open-callout-rejected-subtitle = 気が変わった場合は、<a data-l10n-name="settings">設定</a> からいつでもデフォルトの設定に戻せます。

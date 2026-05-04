@@ -400,6 +400,14 @@ windows-10-eos-feature-toast-subtitle = 多くのリクエストに応えて、{
 windows-10-eos-feature-toast-whats-new-button = 新機能を見る
 windows-10-eos-feature-toast-dismiss-button = 閉じる
 
+## Windows 10 EoS Global Infobar
+
+windows-10-eos-global-infobar-title = <strong>Microsoft による Windows 10 のサポートは終了しました。</strong>Windows 11 で { -brand-product-name } を使用する準備として、情報のバックアップを行ってください。
+windows-10-eos-global-infobar-primary-button = バックアップをオンにする
+  .accesskey = T
+windows-10-eos-global-infobar-learn-more-link = 更に詳しく
+  .accessKey = L
+
 ## ETP (Enhanced Tracking Protection) Strict exceptions infobar
 ##
 ## These strings are displayed in an infobar notification that appears when

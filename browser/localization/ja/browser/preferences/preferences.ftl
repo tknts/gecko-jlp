@@ -79,6 +79,9 @@ pane-ai-controls-title = AI コントロール
 category-ai-controls =
     .tooltiptext = { pane-ai-controls-title }
 
+pane-about-firefox-title = { -brand-short-name } について
+  .title = { pane-about-firefox-title }
+
 pane-accessibility-title = Accessibility
   .title = { pane-accessibility-title }
 
@@ -167,7 +170,7 @@ search-results-header = 検索結果
 # `<span data-l10n-name="query"></span>` will be replaced by the search term.
 search-results-empty-message2 =
        ごめんなさい! 設定内には “<span data-l10n-name="query"></span>” の検索結果がありません。
-       
+
 search-results-help-link = 助けが必要ですか? <a data-l10n-name="url">{ -brand-short-name } サポート</a> にアクセスしてください
 
 ## General Section
@@ -717,6 +720,11 @@ play-drm-content =
 
 play-drm-content-learn-more = さらに詳しく
 
+## About Firefox
+
+about-firefox-header =
+    .heading = { -brand-short-name } について
+
 ## Firefox updates
 
 update-application-heading =
@@ -744,8 +752,8 @@ update-application-auto =
     .label = 更新を自動的にインストールする (推奨)
     .accesskey = A
 
-update-application-check-choose =
-    .label = 更新の確認後インストールするか選択する
+update-application-check-choose-2 =
+    .label = 更新を確認した後にインストールするか選択する
     .accesskey = C
 
 update-application-background-enabled =
@@ -755,8 +763,8 @@ update-application-background-enabled =
 update-application-warning-cross-user-setting-2 =
     .message = この設定は、この { -brand-short-name } を使用するすべての Windows アカウントおよび { -brand-short-name } プロファイルに適用されます。
 
-update-application-suppress-prompts =
-    .label = 更新の通知回数を減らす
+update-application-suppress-prompts-2 =
+    .label = 更新の通知を減らす
     .accesskey = n
 
 update-setting-write-failure-title2 = 更新設定の保存中にエラーが発生しました
