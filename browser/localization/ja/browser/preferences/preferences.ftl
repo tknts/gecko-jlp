@@ -82,6 +82,9 @@ category-ai-controls =
 pane-about-firefox-title = { -brand-short-name } について
   .title = { pane-about-firefox-title }
 
+pane-appearance-title = Appearance
+  .title = { pane-appearance-title }
+
 pane-accessibility-title = Accessibility
   .title = { pane-accessibility-title }
 
@@ -1071,6 +1074,10 @@ home-prefs-timer-header =
 home-prefs-sports-widget-header =
     .label = スポーツ
 
+# Clock is a widget on New Tab that displays time zones around the world.
+home-prefs-clocks-header =
+    .label = 時計
+
 # "Support" here means to help sustain or contribute to something, especially through funding or sponsorship.
 home-prefs-support-firefox-header =
     .label = { -brand-product-name } をサポートする
@@ -2033,6 +2040,11 @@ tracking-manage-exceptions =
 
 ## Privacy Section - Permissions
 
+permissions-data-section =
+    .heading = 許可とデータ
+
+pane-permissions-data-title = 許可とデータ
+
 permissions-header3 =
     .label = 許可設定
     .description = ウェブサイトがアクセス、制御、実行できる項目を管理します。
@@ -2404,6 +2416,27 @@ preferences-connection-link-button =
 
 desktop-folder-name = デスクトップ
 downloads-folder-name = ダウンロード
+
+## Appearance page
+
+preferences-appearance-header =
+    .heading = 外観の管理
+
+browser-theme-group =
+    .label = ブラウザーのテーマ
+    .description = { -brand-short-name } を自分好みのスタイルに。テーマの色はツールバー、メニュー、メッセージに適用されます。
+
+browser-theme-manage-link =
+    .label = { -brand-short-name } のテーマを管理
+
+related-settings-group =
+    .label = 関連設定
+
+related-settings-accessibility-link =
+    .label = アクセシビリティでズームとフォントの設定をカスタマイズ
+
+related-settings-home-link =
+    .label = { -firefox-home-brand-name } のカスタマイズ
 
 ## Accessibility page
 

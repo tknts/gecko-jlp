@@ -266,6 +266,8 @@ newtab-custom-widget-timer-toggle =
   .label = タイマー
 newtab-custom-widget-sports-toggle =
   .label = ワールドカップ
+newtab-custom-widget-clock-toggle =
+  .label = 時計
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -729,33 +731,27 @@ newtab-sports-widget-menu-view-upcoming = 今後の試合を表示
 newtab-sports-widget-menu-view-results = 試合結果を表示
 newtab-sports-widget-menu-learn-more = 詳細はこちら
 
-newtab-sports-widget-countdown-title = ワールドカップへのカウントダウン
-# Abbreviated label for days in the sport widget countdown. D is short for Days.
-# The layout only allows for 1–2 characters: if there is an equivalent single
-# character for your language, use that. Your translation will be automatically
-# truncated at 1 character to avoid layout issues.
-newtab-sports-widget-countdown-days = 日
-# Abbreviated label for hours in the sport widget countdown. H is short for Hours.
-# The layout only allows for 1–2 characters: if there is an equivalent single
-# character for your language, use that. Your translation will be automatically
-# truncated at 1 character to avoid layout issues.
-newtab-sports-widget-countdown-hours = 時
-# Abbreviated label for minutes in the sport widget countdown. M is short for Minutes.
-# The layout only allows for 1–2 characters: if there is an equivalent single
-# character for your language, use that. Your translation will be automatically
-# truncated at 1 character to avoid layout issues.
-newtab-sports-widget-countdown-minutes = 分
+# “Keep tabs on” is an informal expression meaning to stay updated on, stay informed on, or regularly follow something (in this case, World Cup matches and updates).
+newtab-sports-widget-keep-tabs = ワールドカップの最新情報をチェック
 newtab-sports-widget-get-updates = 試合の速報などを取得します。
 newtab-sports-widget-view-schedule =
     .label = 試合日程を表示
 newtab-sports-widget-follow-teams =
     .label = チームをフォロー
+
+# Variables:
+#   $number (number) - Maximum number of teams a user can choose to follow in the team selection state
+newtab-sports-widget-follow-teams-title =
+    { $number ->
+        *[other] 最大 { $number } チームまでフォローできます
+    }
 newtab-sports-widget-choose-wallpaper =
     .label = 壁紙を選択
 newtab-sports-widget-skip = スキップ
 newtab-sports-widget-search-teams =
     .placeholder = チームを検索
     .aria-label = チームを検索
+newtab-sports-widget-cancel = キャンセル
 newtab-sports-widget-done-button =
     .label = 完了
 
@@ -881,6 +877,62 @@ newtab-activation-window-message-customization-focus-primary-button =
 # the existing widgetry that appears on it.
 newtab-activation-window-message-values-focus-header = あなたのための自由なスペース
 newtab-activation-window-message-values-focus-message = { -brand-product-name } なら、もっと自分らしい方法でネットを使い始め、思い通りにブラウジングできます。{ -brand-product-name } を自分好みに作り上げましょう。
+
+## Strings for the Clock widget
+
+# Context menu item: toggle the clock card off.
+newtab-clock-widget-menu-hide = 時計を非表示にする
+newtab-clock-widget-menu-learn-more = 詳細はこちら
+newtab-clock-widget-menu-edit = 時計を編集
+newtab-clock-widget-menu-switch-to-12h = 12時間制に切り替え
+newtab-clock-widget-menu-switch-to-24h = 24時間制に切り替え
+newtab-clock-widget-label-your-clocks = 保存済みの時計
+newtab-clock-widget-search-location-input =
+    .label = 場所
+    .placeholder = 都市を検索
+    .aria-label = 都市を検索
+# "Nickname (optional)" refers to a custom, user-defined label for a saved location
+# (e.g., "Home", "Office", or "School") to make it easier to recognize.
+# Not to be translated as a legal name, username, or alias used for identity verification.
+newtab-clock-widget-input-nickname =
+    .label = ニックネーム (任意)
+    .placeholder = ニックネームを追加
+    .aria-label = ニックネーム (任意)
+# "Add new clock" is an icon-only button in the widget toolbar — the
+# attributes are consumed as tooltip/screen-reader label only. The button
+# never renders visible text.
+newtab-clock-widget-button-add =
+    .title = 新しい時計の追加
+    .aria-label = 新しい時計を追加
+newtab-clock-widget-button-add-clock = 追加
+newtab-clock-widget-button-cancel = キャンセル
+newtab-clock-widget-button-back =
+    .title = 戻る
+    .aria-label = 戻る
+newtab-clock-widget-button-edit-clock =
+    .title = 時計の編集
+    .aria-label = 時計を編集
+newtab-clock-widget-button-save = 保存
+newtab-clock-widget-button-remove-clock =
+    .title = 時計の削除
+    .aria-label = 時計を削除
+newtab-clock-widget-add-clock-form =
+    .aria-label = 時計を追加
+newtab-clock-widget-edit-clock-form =
+    .aria-label = 時計を編集
+# "Search results" is the accessible label for the listbox dropdown that appears
+# below the location search field, listing matching cities as the user types.
+# It means "results of the search", not "search within the results".
+newtab-clock-widget-search-results =
+    .aria-label = 検索結果
+# "Open menu for clock" is an icon-only button in the widget toolbar — the
+# attributes are consumed as tooltip/screen-reader label only. The button
+# never renders visible text.
+newtab-clock-widget-menu-button =
+    .title = 時計のメニューを開く
+    .aria-label = 時計のメニューを開く
+# $nickname (String) - The user-defined nickname for a saved clock location (e.g., "Home", "Office").
+newtab-clock-widget-label-nickname-with-value = ニックネーム: { $nickname }
 
 ##
 
