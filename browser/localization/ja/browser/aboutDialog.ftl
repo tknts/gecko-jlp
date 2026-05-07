@@ -16,25 +16,38 @@ update-updateButton =
     .accesskey = R
 
 update-checkingForUpdates = 更新を確認しています…
+settings-update-checking-for-updates =
+    .label = 更新を確認しています…
 
 ## Variables:
 ##   $transfer (string) - Transfer progress.
 
-settings-update-downloading = <img data-l10n-name="icon"/>更新をダウンロードしています — <label data-l10n-name="download-status">{ $transfer }</label>
-aboutdialog-update-downloading = 更新をダウンロードしています — <label data-l10n-name="download-status">{ $transfer }</label>
+settings-update-downloading-2 =
+    .label = アップデートをダウンロード中 — { $transfer }
+aboutdialog-update-downloading = アップデートをダウンロード中 — <label data-l10n-name="download-status">{ $transfer }</label>
 
 ##
 
 update-applying = 更新を適用しています…
+settings-update-applying =
+    .label = 更新を適用しています…
 
 update-failed = 更新に失敗しました。 <label data-l10n-name="failed-link">最新のバージョンをダウンロード</label>
 update-failed-main =
     更新に失敗しました。 <a data-l10n-name="failed-link-main">最新のバージョンをダウンロー</a>
 
 update-policy-disabled = 更新は所属している組織によって無効化されています。
+settings-update-policy-disabled =
+    .label = 組織によって更新が無効化されています
 update-noUpdatesFound = { -brand-short-name } は最新の状態です
+settings-update-no-updates-found =
+    .label = { -brand-short-name } は最新の状態です
 aboutdialog-update-checking-failed = 更新の確認に失敗しました。
-update-otherInstanceHandlingUpdates = 別のインスタンスが { -brand-short-name } を更新しています
+settings-update-checking-failed =
+    .label = 更新の確認に失敗しました。
+update-otherInstanceHandlingUpdates = 別のインスタンスが { -brand-short-name } を更新中です
+settings-update-other-instance-handling-updates =
+    .label = 別のインスタンスが { -brand-short-name } をアップデート中です
 
 ## Variables:
 ##   $displayUrl (String): URL to page with download instructions. Example: www.mozilla.org/firefox/nightly/
@@ -43,10 +56,14 @@ aboutdialog-update-manual-with-link = 更新は <label data-l10n-name="manual-li
 settings-update-manual-with-link = 更新は <a data-l10n-name="manual-link">{ $displayUrl }</a> から入手できます
 
 update-unsupported = このシステムではこれ以上の更新は実行できません。 <label data-l10n-name="unsupported-link">さらに詳しく</label>
+settings-update-unsupported = このシステムではこれ以上の更新は実行できません。 <a data-l10n-name="unsupported-link">さらに詳しく</a>
 
 update-restarting = 再起動しています…
+settings-update-restarting =
+    .label = 再起動しています…
 
-update-internal-error2 = 内部にエラーが発生しているため、更新を確認できません。 <label data-l10n-name="manual-link">{ $displayUrl }</label> から入手してください。
+update-internal-error2 = 内部エラーが発生したため更新を確認できません。<a data-l10n-name="manual-link">{ $displayUrl }</a> から入手してください。
+settings-update-internal-error = 内部エラーが発生したため更新を確認できません。<a data-l10n-name="manual-link">{ $displayUrl }</a> から入手してください。
 
 ##
 

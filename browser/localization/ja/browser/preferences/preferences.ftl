@@ -85,6 +85,10 @@ pane-about-firefox-title = { -brand-short-name } について
 pane-appearance-title = Appearance
   .title = { pane-appearance-title }
 
+pane-downloads-title = ダウンロード
+pane-downloads =
+    .heading = { pane-downloads-title }
+
 pane-accessibility-title = Accessibility
   .title = { pane-accessibility-title }
 
@@ -355,13 +359,13 @@ browser-layout-show-sidebar2 =
 
 language-and-appearance-header = 言語とデザイン
 
-appearance-group =
-  .label = ウェブサイトのデザイン
-  .description = 一部のウェブサイトは、ユーザーの設定に合わせて配色を調整できます。それらのサイトで使用する配色を選択してください。
+appearance-group2 =
+  .label = ウェブサイトの外観
+  .description = 一部のウェブサイトは、ユーザーの設定に合わせて色を変更します。配色を選択してください。
 
-preferences-web-appearance-choice-auto2 =
-  .label = 自動
-  .title = システム設定と { -brand-short-name } のテーマに基づいて、ウェブサイトの背景とコンテンツを自動的に変更します。
+preferences-web-appearance-choice-auto3 =
+  .label = システム
+  .title = システムの設定と { -brand-short-name } のテーマに基づいてウェブサイトの背景とコンテンツを自動的な変更します。
 preferences-web-appearance-choice-light2 =
   .label = ライト
   .title = ウェブサイトの背景とコンテンツにライトモードを使用します。
@@ -591,27 +595,26 @@ spellcheck-promo =
 
 files-and-applications-title = ファイルとアプリケーション
 
-downloads-header-2 =
-    .label = ダウンロード
-
-download-save-where-2 =
+download-save-files-header =
     .label = ファイルの保存先
-    .accesskey = v
 
-download-always-ask-where =
-    .label = ファイルの保存先を毎回確認する
+download-save-where-3 =
+    .aria-label = ファイルの保存先
+
+download-always-ask-where2 =
+    .label = ファイルごとに保存先を確認する
     .accesskey = A
-download-private-browsing-delete =
-    .label = すべてのプライベートウィンドウが閉じられたときにプライベートブラウジングでダウンロードしたファイルを削除する
+download-private-browsing-delete2 =
+    .label = プライベートウィンドウを閉じる時にダウンロード履歴を削除する
     .accesskey = D
 
 applications-header = アプリケーション
 
 applications-description = ウェブからダウンロードするファイルや、閲覧中に使用するアプリケーションを { -brand-short-name } でどのように処理するかを選択します。
 
-applications-setting =
-    .label = アプリケーション
-    .description = ウェブからダウンロードしたファイルを { -brand-short-name } が取り扱う方法とブラウズ中に使用するアプリケーションを選択してください。
+applications-setting2 =
+    .label = ファイルとアプリケーション
+    .description = ダウンロードしたファイルやコンテンツを { -brand-short-name } でどのように扱うかを選択します。
 
 applications-filter =
     .placeholder = ファイルの種類とアプリケーションの検索
@@ -709,9 +712,15 @@ applications-setting-new-file-types =
 applications-save-for-new-types =
     .label = ファイルを保存する
     .accesskey = S
+applications-save-for-new-types2 =
+    .label = 自動的にファイルを保存する
+    .accesskey = S
 
 applications-ask-before-handling =
     .label = ファイルを開くか保存するかを確認する
+    .accesskey = A
+applications-ask-before-handling2 =
+    .label = ファイルを開くか保存するか確認する
     .accesskey = A
 
 drm-group =

@@ -729,7 +729,9 @@ newtab-widget-timer-menu-learn-more = さらに詳しく
 newtab-sports-widget-menu-follow-teams = チームをフォロー
 newtab-sports-widget-menu-view-upcoming = 今後の試合を表示
 newtab-sports-widget-menu-view-results = 試合結果を表示
-newtab-sports-widget-menu-learn-more = 詳細はこちら
+# Milestone dates (e.g. group stage, semifinals, etc.). Refers to calendar dates.
+newtab-sports-widget-menu-key-dates = 重要な日程
+newtab-sports-widget-menu-learn-more = さらに詳しく
 
 # “Keep tabs on” is an informal expression meaning to stay updated on, stay informed on, or regularly follow something (in this case, World Cup matches and updates).
 newtab-sports-widget-keep-tabs = ワールドカップの最新情報をチェック
@@ -755,18 +757,32 @@ newtab-sports-widget-cancel = キャンセル
 newtab-sports-widget-done-button =
     .label = 完了
 
-newtab-sports-widget-group-stage = グループステージ
 # The "LIVE" string is meant to be uppercase in English, but other languages and locales may vary in how they handle this.
 newtab-sports-widget-live = ライブ
 newtab-custom-widget-live-refresh =
     .title = スコアの更新
     .aria-label = スコアを更新
+# Milestone dates (e.g. group stage, semifinals, etc.). Refers to calendar dates.
+newtab-sports-widget-key-dates = 主要日程
 newtab-sports-widget-upcoming = 今後の試合
 newtab-sports-widget-results = 試合結果
+newtab-sports-widget-group-stage = グループステージ
+newtab-sports-widget-round-32 = ラウンド 32
+newtab-sports-widget-round-16 = ラウンド 16
+newtab-sports-widget-quarter-finals = 準々決勝
 newtab-sports-widget-semi-finals = 準決勝
 newtab-sports-widget-bronze-finals = 3 位決定戦
 # Final is the final match for 1st place.
 newtab-sports-widget-final = 決勝
+
+# Variables:
+#   $start (Date) - Start date of a tournament stage
+#   $end (Date) - End date of a tournament stage
+newtab-sports-widget-key-date-range = { DATETIME($start, month: "short", day: "numeric") } – { DATETIME($end, month: "short", day: "numeric") }
+
+# Variables:
+#   $date (Date) - Date of a single tournament event
+newtab-sports-widget-key-date = { DATETIME($date, month: "short", day: "numeric") }
 
 newtab-sports-widget-delayed = 遅延
 newtab-sports-widget-postponed = 延期

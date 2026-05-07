@@ -53,3 +53,5 @@ aiwindow-jump-to-bottom =
 ## Natural Language Action
 
 smartwindow-nl-thinking = 一致するタブを探しています…
+smartwindow-nl-undo-button =
+    .label = 元に戻す

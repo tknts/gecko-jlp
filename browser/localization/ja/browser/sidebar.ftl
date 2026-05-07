@@ -57,14 +57,14 @@ sidebar-search-results-header =
 
 ## Labels for sidebar customize panel
 
-sidebar-customize-extensions-header = サイドバー拡張機能
-sidebar-customize-firefox-tools-header =
-  .label = { -brand-product-name } ツール
+sidebar-customize-extensions-header2 = 拡張機能
+sidebar-customize-firefox-tools-header2 =
+  .label = ツール
 sidebar-customize-firefox-settings = { -brand-short-name } の設定を管理
 sidebar-vertical-tabs =
   .label = タブの垂直表示
-sidebar-settings =
-  .label = サイドバーの設定
+sidebar-settings2 =
+  .label = 設定
 sidebar-hide-tabs-and-sidebar =
   .label = タブとサイドバーを閉じる
 sidebar-show-on-the-right =
@@ -75,7 +75,7 @@ sidebar-show-on-the-left =
 # hovers over it.
 expand-sidebar-on-hover =
   .label = サイドバーを自動的に表示
-sidebar-manage-extensions = 拡張機能を管理
+sidebar-manage-extensions2 = すべての拡張機能を管理
 
 ## Labels for sidebar context menu items
 
@@ -106,7 +106,7 @@ sidebar-context-menu-customize-sidebar =
 # Variables:
 #   $deviceName (String) - The name of the device the user is closing a tab for
 sidebar-context-menu-close-remote-tab =
-  .label ={ $deviceName } のタブを閉じる
+  .label = { $deviceName } のタブを閉じる
 sidebar-context-menu-remove-extension2 =
   .label = { -brand-short-name } から削除
 sidebar-context-menu-unpin-extension =

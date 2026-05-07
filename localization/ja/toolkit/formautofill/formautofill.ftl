@@ -17,9 +17,8 @@ autofill-edit-payment-method-os-prompt-macos = 保存されている決済方法
 autofill-edit-payment-method-os-prompt-windows = { -brand-short-name } は、保存されている決済方法の情報を表示しようとしています。以下でこの Windows アカウントへのアクセスを確認します。
 autofill-edit-payment-method-os-prompt-other = { -brand-short-name } は、保存されている決済方法の情報を表示しようとしています。
 
-# The links lead users to Form Autofill browser preferences.
+# The link leads users to Form Autofill browser preferences.
 autofill-options-link = フォームの自動入力オプション
-autofill-options-link-osx = フォームの自動入力設定
 
 ## The credit card capture doorhanger
 
