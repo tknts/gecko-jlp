@@ -144,12 +144,12 @@ webext-site-perms-description-gated-perms-midi =
 
     通常、ウェブサイトは MIDI デバイスにアクセスできません。不適切な使用は、損害を引き起こしたり、セキュリティを侵害したりする可能性があります。
 
-webext-site-perms-description-gated-perms-serial =
-    これはマイコン、3D プリンター、その他 USB やシリアルポートを介して接続されるデバイスを指します。ウェブサイトがアクセスできるデバイスを、ユーザー自身が選択できます。通常、ウェブサイトによるシリアルデバイスへのアクセスは許可されていません。不適切な使用により、デバイスの損傷やセキュリティ上のリスクを招く恐れがあります。
+webext-site-perms-description-gated-perms-webserial =
+    これらはマイコン、3D プリンター、その他 USB、シリアルポート、Bluetooth を介して接続されるデバイスです。
 
+    ウェブサイトがアクセスできるデバイスを選択できるようになります。
 
-
-
+    通常、ウェブサイトによるシリアルデバイスへのアクセスは許可されていません。不適切な使用は損傷を引き起こしたり、セキュリティを損なったりする可能性があります。
 
 ## Headers used in the webextension permissions dialog.
 ## Note: This string will be used as raw markup. Avoid characters like <, >, &

@@ -1110,6 +1110,10 @@ toolbar-button-synced-tabs =
   .label = 同期されたタブ
   .tooltiptext = 他のデバイスのタブを表示します
 
+toolbar-button-send-tab =
+  .label = タブを送信
+  .tooltiptext = 現在のタブを他のデバイスに送信します。
+
 # Variables
 # $shortcut (string) - Keyboard shortcut to open a new private browsing window
 toolbar-button-new-private-window =

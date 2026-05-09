@@ -4,3 +4,11 @@
 
 moz-box-link-anchor =
     .title = 新しいタブで開きます
+
+moz-box-item-reorder-handle =
+    .aria-label = Ctrl+Shift+ArrowUp または Ctrl+Shift+ArrowDown を使用して項目の順序を入れ替えます
+
+# Variables:
+#   $item (string) - The label of the moz-box-item being reordered.
+moz-box-item-reorder-handle-named =
+    .aria-label = Ctrl+Shift+ArrowUp または Ctrl+Shift+ArrowDown を使用して { $item } の順序を入れ替えます

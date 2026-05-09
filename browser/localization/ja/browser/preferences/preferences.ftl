@@ -236,6 +236,12 @@ preferences-profile-to-copy =
 preferences-copy-profile-select = プロファイルを選択
 preferences-copy-profile-button = コピー
 
+tabs-browsing-section =
+  .heading = タブとブラウジング
+
+pane-tabs-browsing-title = タブとブラウジング
+  .title = タブとブラウジング
+
 tabs-group-header2 =
   .label = タブ
 
@@ -279,22 +285,22 @@ warn-on-open-many-tabs =
     .label = 同時に複数のタブを開く事で { -brand-short-name } の動作が遅くなる可能性がある場合に警告する
     .accesskey = d
 
-switch-to-new-tabs =
-    .label = 新しいタブでリンク、画像、メディアを開いたら、すぐにそのタブに切り替える
+switch-to-new-tabs-2 =
+    .label = リンクやメディアを新しいタブで開いたとき、すぐにそのタブに切り替える
     .accesskey = h
 
 show-tabs-in-taskbar =
     .label = Windows タスクバーにタブのプレビューを表示する
     .accesskey = k
 
-browser-containers-enabled =
-    .label = コンテナー タブを有効にする
+browser-containers-enabled-2 =
+    .label = コンテナー タブを使用する
     .accesskey = n
 
 browser-containers-learn-more = さらに詳しく
 
-browser-containers-settings =
-    .label = 設定…
+browser-containers-settings-2 =
+    .label = 設定を管理…
     .accesskey = i
 
 containers-disable-alert-title = すべてのコンテナー タブを閉じますか?
@@ -354,6 +360,9 @@ browser-layout-vertical-tabs2 =
 browser-layout-show-sidebar2 =
     .label = サイドバーを表示
     .description = メイン画面を離れることなく、ブックマークやスマートフォンのタブ、AI チャットボットなどに素早くアクセスできます。
+
+page-navigation-group =
+    .label = ページナビゲーション
 
 ## General Section - Language & Appearance
 
@@ -816,11 +825,10 @@ support-share-ideas =
 performance-group =
   .label = パフォーマンス
 
-performance-use-recommended-settings-checkbox =
-    .label = 推奨されたパフォーマンス設定を使用する
+performance-use-recommended-settings-checkbox-2 =
+    .label = 推奨のパフォーマンス設定を使用する
+    .description = これらの設定は、お使いのハードウェアとオペレーティングシステムに合わせて調整されています。
     .accesskey = U
-
-performance-use-recommended-settings-desc = これらの設定は、お使いのコンピューターのハードウェアとオペレーティングシステムに合わせて調整されます。
 
 performance-settings-learn-more = さらに詳しく
 
@@ -872,9 +880,12 @@ browsing-search-on-start-typing =
     .label = キー入力時に検索を開始する
     .accesskey = x
 
-browsing-picture-in-picture-toggle-enabled =
-    .label = ピクチャー・イン・ピクチャー動画の操作を有効にする
-    .accesskey = E
+settings-media-group =
+    .label = メディア
+
+browsing-picture-in-picture-toggle-enabled-2 =
+    .label = ピクチャー・イン・ピクチャーを有効
+    .accesskey = e
 
 browsing-picture-in-picture-enable-when-switching-tabs =
     .label = タブを切り替えてもピクチャー・イン・ピクチャーで動画の再生を継続する
@@ -883,6 +894,9 @@ browsing-picture-in-picture-enable-when-switching-tabs =
 browsing-media-control =
     .label = キーボード、ヘッドセット、または VR デバイスを使用してメディアを制御する
     .accesskey = v
+
+recommendations-group =
+    .label = おすすめ
 
 browsing-cfr-recommendations =
     .label = おすすめの拡張機能を紹介する
@@ -991,8 +1005,8 @@ home-custom-homepage-delete-address-button =
 
 # Further options to use when setting the home page. Two action buttons are placed in line with this prompt
 # to replace the current home page with a currently open page or bookmark.
-home-custom-homepage-replace-with =
-    .label = 次の内容に置き換え:
+home-custom-homepage-replace-with-prompt =
+    .label = 次に置き換える
 
 # Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with-prompt)
 home-custom-homepage-current-pages-button =
@@ -1320,6 +1334,8 @@ containers-remove-button =
 
 account-sync-section =
     .heading = アカウントと同期
+
+pane-account-sync-title = アカウントと同期
 
 sync-group-label =
     .label = 同期
@@ -1779,6 +1795,12 @@ addresses-no-addresses-stored-message =
 address-moz-box-item =
   .label = { $name }
   .description = { $address }
+
+category-passwords-autofill =
+    .tooltiptext = パスワードと自動入力の設定です
+pane-passwords-autofill-title = パスワードと自動入力のタイトル
+preferences-passwords-autofill-header =
+   .heading = パスワードと自動入力
 
 ## Privacy Section - History
 
