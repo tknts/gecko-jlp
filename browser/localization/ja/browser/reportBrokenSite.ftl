@@ -8,41 +8,39 @@ report-broken-site-panel-header =
   .title = 壊れたサイトの報告
 report-broken-site-panel-intro-text = あなたの報告は、{ -brand-product-name } の問題を理解し修正するのに役立ち、すべてのユーザーにとってより良いブラウジング体験を提供します。
 report-broken-site-panel-learn-more-link = さらに詳しく
-report-broken-site-panel-url = URL
 
-report-broken-site-panel-reason-label = 何が壊れていますか?
-report-broken-site-panel-reason-optional-label = 何が壊れていますか? (任意回答)
+report-broken-site-panel-reason-intro-text = 何が機能していませんか?
 
-report-broken-site-panel-reason-choose =
-  .label = 理由を選択してください
-report-broken-site-panel-reason-load =
-  .label = サイトが読み込まれない
+report-broken-site-panel-reason-load-moz-box-button =
+  .label = サイトが読み込まれなかった
 # These terms are referring to ecommerce websites
-report-broken-site-panel-reason-checkout =
-  .label = 支払いや購入など、買い物ができません
-report-broken-site-panel-reason-slow2 =
-  .label = サイトの動作が遅いです
-report-broken-site-panel-reason-media2 =
-  .label = 動画が再生または読み込まれません
-report-broken-site-panel-reason-content2 =
-  .label = コンテンツが表示さらません
-report-broken-site-panel-reason-account2 =
-  .label = ログインまたは登録できません
-report-broken-site-panel-reason-adblocker2 =
-  .label = サイトから広告ブロッカーをオフにするように求められました
-report-broken-site-panel-reason-notsupported =
-  .label = ブラウザーがサポートされていないかブロックされています
-report-broken-site-panel-reason-other =
+report-broken-site-panel-reason-checkout-moz-box-button =
+  .label = 支払い、チェックアウト、買い物ができない
+report-broken-site-panel-reason-slow-moz-box-button =
+  .label = サイトの動作が遅い
+report-broken-site-panel-reason-media-moz-box-button =
+  .label = 動画が再生または読み込まれなかった
+report-broken-site-panel-reason-content-moz-box-button =
+  .label = コンテンツが表示されない
+report-broken-site-panel-reason-account-moz-box-button =
+  .label = サインインまたは登録ができない
+report-broken-site-panel-reason-adblocker-moz-box-button =
+  .label = 広告ブロック機能のオフを求められた
+report-broken-site-panel-reason-notsupported-moz-box-button =
+  .label = ブラウザーがブロックされているかサポートされていない
+report-broken-site-panel-reason-deceptive-moz-box-button =
+  .label = 偽装されたサイトである
+report-broken-site-panel-reason-other-moz-box-button =
   .label = その他
 
-report-broken-site-panel-description-label = 問題を説明してください
+report-broken-site-panel-instructions-other = 問題の調査に役立てるため、詳細を記述してください。
+report-broken-site-panel-instructions-other-optional = 問題の調査に役立てるため、詳細を記述してください。(任意)
 
-report-broken-site-panel-description =
-  .placeholder = 何が起きましたか? 本来はどうなるべきでしたか? トラッキング保護をオフにすると改善しましたか?
+report-broken-site-panel-description2 =
+  .placeholder = 何が起きましたか? 本来どうなることを期待していましたか? 問題を再現するための手順を入力してください。
 
-report-broken-site-panel-description-optional-label = 問題の内容を教えて下さい (任意)
-
-report-broken-site-panel-send-more-info-link = 追加情報を送信
+report-broken-site-panel-send-more-info-button =
+  .label = 詳細情報を送信
 
 report-broken-site-panel-button-cancel =
   .label = キャンセル
@@ -50,23 +48,33 @@ report-broken-site-panel-button-cancel =
 report-broken-site-panel-button-okay =
   .label = OK
 
-report-broken-site-panel-button-send =
-  .label = 送信
+report-broken-site-panel-button-send-report =
+  .label = レポートを送信
 
 report-broken-site-panel-report-sent-label = レポートが送信されました
 report-broken-site-panel-report-sent-header =
   .label = レポートが送信されました
   .title = レポートが送信されました
-report-broken-site-panel-report-sent-text = { -brand-product-name } がウェブをよりオープンでアクセスしやすく、すべての人にとってより良いものになるために、ご協力いただきありがとうございます。
+report-broken-site-panel-report-sent-text = すべての人にとってウェブがよりオープンで、アクセシブルで、より良いものになるよう、{ -brand-product-name } にご協力いただきありがとうございます。
 
 report-broken-site-panel-invalid-url-label = 有効な URL を入力してください
-report-broken-site-panel-missing-reason-label = 理由を選択してください
 
-report-broken-site-panel-blocked-trackers-label =
-  .label = トラッキング保護機能がブロックした URL を送信
-report-broken-site-panel-blocked-trackers-description = 強化型トラッキング保護機能 (ETP) は、一部のウェブサイトが正常に動作するのに必要なトラッカーやスクリプトをブロックする場合があります。
+# $minLength (number) - The minimum number of characters required in the description textarea.
+report-broken-site-panel-invalid-description-label =
+    {$minLength ->
+         *[other] { $minLength } 文字以上入力してください
+    }
+
+report-broken-site-panel-screenshot-label =
+  .label = スクリーンショットを送信
+
+report-broken-site-panel-blocked-trackers-label2 =
+  .label = 強化型トラッキング防止機能によってブロックされたアイテムの一覧を送信
+
+report-broken-site-panel-url-input-label =
+  .aria-label = 報告するページの URL
 
 report-broken-site-panel-preview-button =
   .label = レポートをプレビュー
-report-broken-site-panel-preview-header =
+report-broken-site-panel-preview-header2 =
   .label = レポートのプレビュー

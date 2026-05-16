@@ -631,6 +631,15 @@ newtab-section-toast-block =
 newtab-widget-section-title = ウィジェット
 newtab-widget-menu-hide = ウィジェットを非表示にする
 newtab-widget-menu-change-size = サイズを変更
+# Parent label for a submenu in the widget menu that reorders the widget
+# among its siblings. "Left" and "Right" appear as items inside this submenu.
+newtab-widget-menu-move = 移動
+# Submenu item under "Move"; moves the widget one position to the left.
+# RTL locales should translate this as "Right".
+newtab-widget-menu-move-left = 左へ
+# Submenu item under "Move"; moves the widget one position to the right.
+# RTL locales should translate this as "Left".
+newtab-widget-menu-move-right = 右へ
 newtab-widget-size-small = 小
 newtab-widget-size-medium = 中
 newtab-widget-size-large = 大
@@ -647,6 +656,10 @@ newtab-widget-section-minimize =
 newtab-widget-section-menu-button =
     .title = ウィジェットメニュー
     .aria-label = ウィジェットメニューを開く
+newtab-widget-add-widgets-button =
+    .aria-label = ウィジェットの追加
+    .title = ウィジェットの追加
+newtab-widget-section-menu-manage = ウィジェットを管理
 newtab-widget-section-menu-hide-all = ウィジェットを非表示にする
 newtab-widget-section-menu-learn-more = 詳細はこちら
 newtab-widget-section-feedback = フィードバックを送る
@@ -727,6 +740,7 @@ newtab-widget-timer-menu-learn-more = さらに詳しく
 ## Sports widget
 
 newtab-sports-widget-menu-follow-teams = チームをフォロー
+newtab-sports-widget-menu-view-schedule = 試合日程を表示
 newtab-sports-widget-menu-view-upcoming = 今後の試合を表示
 newtab-sports-widget-menu-view-results = 試合結果を表示
 # Milestone dates (e.g. group stage, semifinals, etc.). Refers to calendar dates.
@@ -740,7 +754,8 @@ newtab-sports-widget-view-schedule =
     .label = 試合日程を表示
 newtab-sports-widget-follow-teams =
     .label = チームをフォロー
-
+newtab-sports-widget-view-matches =
+    .label = 試合を表示
 # Variables:
 #   $number (number) - Maximum number of teams a user can choose to follow in the team selection state
 newtab-sports-widget-follow-teams-title =
@@ -754,6 +769,8 @@ newtab-sports-widget-search-teams =
     .placeholder = チームを検索
     .aria-label = チームを検索
 newtab-sports-widget-cancel = キャンセル
+newtab-sports-widget-back-button =
+    .aria-label = 戻る
 newtab-sports-widget-done-button =
     .label = 完了
 
@@ -765,6 +782,8 @@ newtab-custom-widget-live-refresh =
 # Milestone dates (e.g. group stage, semifinals, etc.). Refers to calendar dates.
 newtab-sports-widget-key-dates = 主要日程
 newtab-sports-widget-upcoming = 今後の試合
+# Used for a match currently ongoing
+newtab-sports-widget-now = Now
 newtab-sports-widget-results = 試合結果
 newtab-sports-widget-group-stage = グループステージ
 newtab-sports-widget-round-32 = ラウンド 32
@@ -941,6 +960,10 @@ newtab-clock-widget-edit-clock-form =
 # It means "results of the search", not "search within the results".
 newtab-clock-widget-search-results =
     .aria-label = 検索結果
+# Shown in place of the search results when the user's query does not match any
+# supported city — e.g. typing a misspelled name or a place not in the IANA
+# time zone list.
+newtab-clock-widget-search-no-results = 一致する結果はありません
 # "Open menu for clock" is an icon-only button in the widget toolbar — the
 # attributes are consumed as tooltip/screen-reader label only. The button
 # never renders visible text.

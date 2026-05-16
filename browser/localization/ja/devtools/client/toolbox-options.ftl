@@ -44,10 +44,15 @@ options-collapse-attrs-label = DOM 属性を省略
 options-collapse-attrs-tooltip =
     .title = インスペクタで長い属性を省略します
 
+# The label for the checkbox option to enable the display of comments in the Inspector
+options-show-comments-label = コメントを表示
+options-show-comments-tooltip =
+    .title = インスペクタでのコメントノードの表示
+
 # The label for the checkbox option to enable the "drag to update" feature
 options-inspector-draggable-properties-label = クリックして保持する事でサイズ値を編集
 options-inspector-draggable-properties-tooltip =
-  .title = インスペクタのルールビューで、クリック＆ドラッグでサイズ値を編集できるようにします。
+    .title = インスペクタのルールビューで、クリック＆ドラッグでサイズ値を編集できるようにします。
 
 # The label for the checkbox option to enable simplified highlighting on page elements
 # within the inspector for users who enabled prefers-reduced-motion = reduce

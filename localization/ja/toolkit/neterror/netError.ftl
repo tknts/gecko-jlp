@@ -209,6 +209,7 @@ fp-neterror-illustration-alt =
 
 fp-neterror-connection-intro = { -brand-short-name } は { $hostname } のサーバーへの安全な接続を確立できません。
 fp-neterror-offline-intro = { -brand-short-name } は <strong>{ $hostname }</strong> のサーバーに接続できません
+fp-neterror-offline-intro-2 = { -brand-short-name } は <strong>{ $hostname }</strong> のサーバーに接続できません。
 fp-neterror-net-timeout-intro = <strong>{ $hostname }</strong> のサーバーからの応答に時間がかかりすぎています。
 # Variables:
 #   $hostname (String) - Hostname of the website to which the user was trying to connect.

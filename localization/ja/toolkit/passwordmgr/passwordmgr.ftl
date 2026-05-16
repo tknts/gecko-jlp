@@ -23,13 +23,15 @@ password-manager-update-password-message = { $host } のパスワードを更新
 password-manager-update-password-button-delete =
     .label = 保存されたパスワードを削除
     .accesskey = R
-password-manager-update-login-add-username =  保存したパスワードにユーザー名を追加しますか?
+password-manager-update-login-add-username = 保存したパスワードにユーザー名を追加しますか?
 password-manager-password-password-button-allow =
     .label = 更新
     .accesskey = U
 password-manager-update-password-button-deny =
     .label = 今はしない
     .accesskey = D
+
+primary-password-prompt-message = プライマリー パスワードを入力してください。
 
 # This is displayed in place of the username when it is missing.
 password-manager-no-username-placeholder = ユーザー名がありません

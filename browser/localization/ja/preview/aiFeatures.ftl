@@ -26,6 +26,9 @@ ai-window-personalize-header =
 
 ai-window-default-section =
     .label = デフォルト設定
+ai-window-is-default-window =
+    .label = デフォルトでスマート ウィンドウを使用する
+    .description = {-brand-short-name} の起動時、再起動時、または他のアプリからのリンクを開くときにスマート ウィンドウを開きます。
 ai-window-open-sidebar =
     .label = アシスタントを自動的に開く
     .description = 新しいタブを開くたびにアシスタントサイドバーを表示します。サイドバーはいつでも閉じることができます。
@@ -63,6 +66,7 @@ smart-window-model-custom-help =
 smart-window-model-custom-more-link = カスタムモデルの詳細
 smart-window-model-custom-save =
     .label = 保存
+smart-window-model-custom-save-confirmation = スマート ウィンドウで使用するモデルの詳細を保存しました。新しいチャットを開始してテストしてください。
 
 ai-window-memories-section =
     .label = メモリー

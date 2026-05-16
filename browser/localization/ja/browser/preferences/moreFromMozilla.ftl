@@ -4,7 +4,8 @@
 
 ## These strings are used in the about:preferences moreFromMozilla page
 
-more-from-moz-title = その他の { -vendor-short-name } 製品
+more-from-moz-title2 = { -vendor-short-name } のその他の製品
+  .title = { -vendor-short-name } のその他の製品
 more-from-moz-page-header =
     .heading = その他の { -vendor-short-name } 製品
 more-from-moz-category =
@@ -98,13 +99,13 @@ more-from-moz-thunderbird-card =
     .label = { -thunderbird-brand-name }
     .description = メール、カレンダー、連絡先に、一つの高速なアプリでアクセスできます。
 
-more-from-moz-solo-card =
+more-from-moz-solo-card-1 =
     .label = { -solo-ai-brand-name }
     .description = 私たちの最新のアイデアや実験的な技術を体験しましょう。
 
-more-from-moz-new-products-card =
+more-from-moz-new-products-card2 =
     .label = { -vendor-short-name } の新製品
-    .description = { -vendor-short-name } の最新製品をチェックしましょう。
+    .description = 最新のアイデアや実験的なテクノロジーをご覧ください。
 
 more-from-moz-mozilla-monitor-box-link =
     .label = { -monitor-brand-short-name } を入手

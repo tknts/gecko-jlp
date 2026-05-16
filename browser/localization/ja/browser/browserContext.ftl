@@ -354,11 +354,22 @@ main-context-menu-send-to-mobile-2 =
     .label = モバイルデバイスへ送信
     .accesskey = n
 
-# Displayed within the send tab submenu to prompt users to sign in, enable sync, or pair a device
+## Displayed within the send tab submenu to prompt users to sign in, enable sync, pair a device, or troubleshoot device issues.
+
 main-context-menu-send-to-mobile-sign-in = ログインしてタブを送信
 main-context-menu-send-to-mobile-enable-sync2 = 同期を有効にしてタブを送信
 main-context-menu-send-to-mobile-connect-phone2 = スマートフォンと接続
 main-context-menu-send-to-mobile-device-missing2 = デバイスが表示されませんか?
+main-context-menu-send-to-mobile-sign-in-from-link = ログインしてリンクを送信
+main-context-menu-send-to-mobile-sign-in-from-page = ログインしてページを送信
+main-context-menu-send-to-mobile-enable-sync3 = 同期をオンにしてタブを送信
+main-context-menu-send-to-mobile-enable-sync-from-link = 同期をオンにしてリンクを送信
+main-context-menu-send-to-mobile-enable-sync-from-page = 同期をオンにしてページを送信
+main-context-menu-send-to-mobile-connect-phone3 = デバイスを接続してタブを送信
+main-context-menu-send-to-mobile-connect-phone-from-link = デバイスを接続してリンクを送信
+main-context-menu-send-to-mobile-connect-phone-from-page = デバイスを接続してページを送信
+
+##
 
 # Displayed when there are saved passwords and the user clicks inside a username or password field
 main-context-menu-use-saved-password =

@@ -40,10 +40,16 @@ fxa-menu-send-to-mobile =
            *[other] { $tabCount } 個のタブをモバイルデバイスへ送信
         }
 
-# The following strings are for displaying elements in the FxA send tab submenu to prompt users to sign in, enable sync, or pair a device
-fxa-menu-send-to-mobile-enable-sync2 = タブを送信するには同期を有効にしてください
+## The following strings are for displaying elements in the FxA send tab submenu to prompt users to sign in, enable sync, pair a device, or troubleshoot device issues.
+
+fxa-menu-send-to-mobile-sign-in = サインインしてタブを送信
+fxa-menu-send-to-mobile-enable-sync2 = 同期を有効にしてタブを送信
 fxa-menu-send-to-mobile-connect-phone2 = スマートフォンを接続
-fxa-menu-send-to-mobile-device-missing2 = デバイスが表示されませんか？
+fxa-menu-send-to-mobile-device-missing2 = 端末が表示されませんか?
+fxa-menu-send-to-mobile-turn-on-sync = 同期をオンにしてタブを送信
+fxa-menu-send-to-mobile-connect-device = 端末を接続してタブを送信
+
+##
 
 # This is shown dynamically within "Send tab to device" in fxa menu.
 fxa-menu-send-tab-to-device-syncnotready =

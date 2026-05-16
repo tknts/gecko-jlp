@@ -42,6 +42,7 @@ mr1-return-to-amo-add-extension-label = { $addon-name } を追加
 onboarding-welcome-steps-indicator-label =
   .aria-label = 進捗状況: ステップ { $current } / { $total }
 
+
 # This button will open system settings to turn on prefers-reduced-motion
 mr1-onboarding-reduce-motion-button-label = アニメーションを無効にする
 
@@ -66,6 +67,15 @@ mr1-onboarding-theme-label-dark = ダーク
 mr1-onboarding-theme-label-alpenglow = アルペングロー
 
 onboarding-theme-primary-button-label = 完了
+
+## Accessible labels for the icon-only play/pause toggle that controls animated
+## illustrations on the onboarding screen. The button replaces the animation
+## with a static image when clicked.
+
+onboarding-animation-pause-button =
+  .aria-label = アニメーションの一時停止
+onboarding-animation-play-button =
+  .aria-label = アニメーションの再生
 
 ## Please make sure to split the content of the title attribute into lines whose
 ## width corresponds to about 40 Latin characters, to ensure that the tooltip

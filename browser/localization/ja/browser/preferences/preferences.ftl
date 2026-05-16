@@ -56,28 +56,25 @@ category-list =
     .aria-label = カテゴリー
 
 pane-general-title = 一般
-category-general =
-    .tooltiptext = { pane-general-title } 設定です
 
 pane-home-title = ホーム
-category-home =
-    .tooltiptext = { pane-home-title } の設定です
 
-pane-search-title = 検索
-category-search =
-    .tooltiptext = { pane-search-title } の設定です
+pane-home-startup-title2 = ホームと起動
+  .title = ホームと起動
 
-pane-privacy-title2 = プライバシーとセキュリティ
+pane-search-title2 = 検索
+  .title = 検索
+
+pane-privacy-title3 = プライバシーとセキュリティ
+  .title = プライバシーとセキュリティ
+
 pane-privacy-section =
     .heading = プライバシーとセキュリティ
 
 pane-sync-title3 = 同期
-category-sync3 =
-    .tooltiptext = { pane-sync-title3 } の設定です
 
-pane-ai-controls-title = AI コントロール
-category-ai-controls =
-    .tooltiptext = { pane-ai-controls-title }
+pane-ai-controls-title2 = AI コントロール
+  .title = AI コントロール
 
 pane-about-firefox-title = { -brand-short-name } について
   .title = { pane-about-firefox-title }
@@ -85,33 +82,36 @@ pane-about-firefox-title = { -brand-short-name } について
 pane-appearance-title = Appearance
   .title = { pane-appearance-title }
 
-pane-downloads-title = ダウンロード
-pane-downloads =
-    .heading = { pane-downloads-title }
+pane-downloads-title2 = ダウンロード
+  .title = ダウンロード
+
+pane-downloads2 =
+    .heading = { pane-downloads-title2 }
 
 pane-accessibility-title = Accessibility
   .title = { pane-accessibility-title }
 
-pane-languages-title = 言語
-category-languages =
-    .tooltiptext = { pane-languages-title }
+pane-languages-title2 = 言語
+  .title = 言語
 
-preferences-languages-header =
-    .heading = { pane-languages-title }
+preferences-languages-header2 =
+    .heading = { pane-languages-title2 }
 
-settings-pane-labs-title = { -firefoxlabs-brand-name }
+settings-pane-labs-title2 = { -firefoxlabs-brand-name }
+  .title = { -firefoxlabs-brand-name }
+
 settings-pane-labs-header =
     .heading = { -firefoxlabs-brand-name }
-settings-category-labs =
-    .tooltiptext = { -firefoxlabs-brand-name } の設定です
-pane-experimental-description4 = 実験的な機能を試してみてください。これらの機能は開発中で日々進化しており、{ -brand-short-name } の動作に影響を与える可能性があります。<a data-l10n-name="data-collection">技術的データと操作データ</a>の収集がオンになっている場合にのみ、これらの機能の使用に関するデータが送信されます。
+pane-experimental-description4 = 実験的な機能をぜひお試しください! これらの機能は開発中で進化しているため、{ -brand-short-name } の動作に影響を与える可能性があります。これらの機能の使用に関するデータは、<a data-l10n-name="data-collection">技術データおよびインタラクションデータ</a> の収集がオンになっている場合にのみ送信されます。
 
 pane-experimental-reset =
   .label = 初期設定に戻す
   .accesskey = R
 
-help-button-label = { -brand-short-name } サポート
-addons-button-label = 拡張機能とテーマ
+help-button-label2 = { -brand-short-name } サポート
+  .title = { -brand-short-name } のサポート
+addons-button-label2 = 拡張機能とテーマ
+  .title = 拡張機能とテーマの管理
 
 focus-search =
     .key = f
@@ -1127,6 +1127,12 @@ home-prefs-choose-wallpaper-link2 =
 home-prefs-firefox-home-disabled-notice =
     .message = これらの機能を使用するには、新しいタブまたは新しいウィンドウの表示先を { -firefox-home-brand-name } に設定してください。
 
+# Dropdown option shown when an extension replaces the contents of new windows or tabs.
+# Variables:
+#   $extension (string) - Name of the extension
+home-prefs-homepage-extension-option =
+    .label = 拡張機能 ({ $extension })
+
 # Variables:
 #   $num (number) - Number of rows displayed
 home-prefs-sections-rows-option =
@@ -1335,7 +1341,8 @@ containers-remove-button =
 account-sync-section =
     .heading = アカウントと同期
 
-pane-account-sync-title = アカウントと同期
+pane-account-sync-title2 = アカウントと同期
+    .title = アカウントの同期
 
 sync-group-label =
     .label = 同期
@@ -1796,9 +1803,8 @@ address-moz-box-item =
   .label = { $name }
   .description = { $address }
 
-category-passwords-autofill =
-    .tooltiptext = パスワードと自動入力の設定です
-pane-passwords-autofill-title = パスワードと自動入力のタイトル
+pane-passwords-autofill-title2 = パスワードと自動入力
+  .title = パスワードと自動入力
 preferences-passwords-autofill-header =
    .heading = パスワードと自動入力
 
@@ -2074,7 +2080,8 @@ tracking-manage-exceptions =
 permissions-data-section =
     .heading = 許可とデータ
 
-pane-permissions-data-title = 許可とデータ
+pane-permissions-data-title2 = 許可とデータ
+  .title = 許可とデータ
 
 permissions-header3 =
     .label = 許可設定
@@ -2469,6 +2476,9 @@ related-settings-accessibility-link =
 related-settings-home-link =
     .label = { -firefox-home-brand-name } のカスタマイズ
 
+related-settings-tabs-browsing-link =
+    .label = ブラウザーの配置をカスタマイズ
+
 ## Accessibility page
 
 preferences-accessibility-header =
@@ -2501,8 +2511,8 @@ motion-and-link-group =
 
 ## AI controls page
 
-preferences-ai-controls-header =
-    .heading = { pane-ai-controls-title }
+preferences-ai-controls-header2 =
+    .heading = { pane-ai-controls-title2 }
 
 preferences-ai-controls-description = { -brand-short-name } では、AI を活用した機能を使用するかどうかを含め、常にユーザー自身が選択できます。その他のコントロール機能も近日中に追加予定です。
 
