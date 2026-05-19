@@ -85,7 +85,5 @@ fxviewtabrow-unmute-tab-button-no-context =
 
 fxviewtabrow-send-to-mobile-sign-in = ログインしてタブを送信
 fxviewtabrow-send-to-mobile-turn-on-sync = 同期をオンにしてタブを送信
-fxviewtabrow-send-to-mobile-enable-sync2 = 同期を有効にしてタブを送信
-fxviewtabrow-send-to-mobile-connect-phone2 = スマートフォンを接続
 fxviewtabrow-send-to-mobile-connect-device = デバイスを接続してタブを送信
 fxviewtabrow-send-to-mobile-device-missing2 = デバイスが表示されませんか？

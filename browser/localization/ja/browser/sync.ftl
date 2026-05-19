@@ -43,11 +43,9 @@ fxa-menu-send-to-mobile =
 ## The following strings are for displaying elements in the FxA send tab submenu to prompt users to sign in, enable sync, pair a device, or troubleshoot device issues.
 
 fxa-menu-send-to-mobile-sign-in = サインインしてタブを送信
-fxa-menu-send-to-mobile-enable-sync2 = 同期を有効にしてタブを送信
-fxa-menu-send-to-mobile-connect-phone2 = スマートフォンを接続
-fxa-menu-send-to-mobile-device-missing2 = 端末が表示されませんか?
-fxa-menu-send-to-mobile-turn-on-sync = 同期をオンにしてタブを送信
-fxa-menu-send-to-mobile-connect-device = 端末を接続してタブを送信
+fxa-menu-send-to-mobile-turn-on-sync = 同期を有効にしてタブを送信
+fxa-menu-send-to-mobile-connect-device = デバイスを接続してタブを送信
+fxa-menu-send-to-mobile-device-missing2 = デバイスが表示されませんか?
 
 ##
 

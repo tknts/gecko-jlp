@@ -372,6 +372,14 @@ tab-context-ungroup-tab =
         }
     .accesskey = R
 
+## The tab groups list provides a list of all open tab groups and saved tab
+## groups in one place. When the user has no tab groups, the list instead
+## recommends that the user create a tab group.
+
+tab-groups-list-empty-header = タブをすっきり整理
+tab-groups-list-empty-description = タブを別のタブにドラッグするか、タブを右クリックして整理を始めましょう。グループはここに保存されるため、後から簡単に見つけることができます。
+tab-groups-list-empty-button = タブグループを作成
+
 ## Open/saved tab group context menu
 
 # For right-click context menu use in the "all tabs"/"tab overflow menu" when

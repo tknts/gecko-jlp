@@ -2700,8 +2700,18 @@ preferences-etp-custom-cookies-enabled =
 preferences-etp-custom-cookie-behavior =
     .aria-label = Cookie
 
-preferences-etpc-custom-cookie-behavior-accept-all =
+preferences-etp-custom-cookie-behavior-accept-all =
     .label = すべての Cookie を許可する
+preferences-etp-custom-cookie-behavior-block-cross-site-cookies =
+    .label = クロスサイト Cookie をブロックする
+preferences-etp-custom-cookie-behavior-isolate-cross-site-cookies =
+    .label = クロスサイト Cookie を分離する
+preferences-etp-custom-cookie-behavior-block-unvisited =
+    .label = 履歴のないウェブサイトからの Cookie をブロックする
+preferences-etp-custom-cookie-behavior-block-all-cross-site-cookies =
+    .label = すべてのクロスサイト Cookie をブロックする (ウェブサイトが正常に動作しない可能性があります)
+preferences-etp-custom-cookie-behavior-block-all =
+    .label = すべての Cookie をブロックする (ウェブサイトが正常に動作しなくなります)
 
 preferences-etp-custom-tracking-protection-enabled =
     .label = 追跡コンテンツ

@@ -41,7 +41,7 @@ address-capture-learn-more-button =
     .label = さらに詳しく
 address-capture-open-menu-button =
     .aria-label = メニューを開く
-address-capture-edit-address-button =
+address-capture-edit-address-link = 住所を編集
     .aria-label = 住所を編集
 
 
