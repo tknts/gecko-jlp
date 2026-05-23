@@ -370,6 +370,10 @@ quickactions-cmd-update = update, 更新, アップデート,
 quickactions-viewsource2 = ページのソースを表示
 quickactions-cmd-viewsource2 = view source, source, page source, ソース
 
+# Opens about:preferences:experimental (Firefox Labs)
+quickactions-labs = { -firefoxlabs-brand-name } を開く
+quickactions-cmd-labs = labs, experiment, 実験, サジェスト
+
 # Tooltip text for the help button shown in the result.
 quickactions-learn-more =
     .title = クイックアクションの詳細

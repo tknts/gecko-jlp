@@ -87,3 +87,5 @@ fxviewtabrow-send-to-mobile-sign-in = ログインしてタブを送信
 fxviewtabrow-send-to-mobile-turn-on-sync = 同期をオンにしてタブを送信
 fxviewtabrow-send-to-mobile-connect-device = デバイスを接続してタブを送信
 fxviewtabrow-send-to-mobile-device-missing2 = デバイスが表示されませんか？
+fxviewtabrow-send-to-mobile-not-verified = アカウントが未確認です
+fxviewtabrow-send-to-mobile-verify-account = アカウントを確認してください

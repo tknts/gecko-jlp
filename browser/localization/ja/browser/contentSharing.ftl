@@ -22,6 +22,9 @@ content-sharing-modal-view-page =
 content-sharing-modal-copy-link =
   .label = リンクをコピー
 
+content-sharing-modal-generating-page =
+  .label = ページを作成中…
+
 content-sharing-modal-link-copied =
   .label = リンクをコピーしました
 
@@ -39,7 +42,7 @@ content-sharing-modal-policy = 共有することにより、弊社の <a data-l
 # The current max is 30.
 content-sharing-modal-too-many-links =
   { $count ->
-     *[other] 最大で { $count } 個のリンクのみが含まれます
+      *[other] 最大で { $count } 個のリンクのみが含まれます
   }
 
 content-sharing-modal-generic-error =

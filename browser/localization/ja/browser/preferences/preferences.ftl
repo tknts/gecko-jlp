@@ -79,7 +79,7 @@ pane-ai-controls-title2 = AI コントロール
 pane-about-firefox-title = { -brand-short-name } について
   .title = { pane-about-firefox-title }
 
-pane-appearance-title = Appearance
+pane-appearance-title = 外観
   .title = { pane-appearance-title }
 
 pane-downloads-title2 = ダウンロード
@@ -239,7 +239,7 @@ preferences-copy-profile-button = コピー
 tabs-browsing-section =
   .heading = タブとブラウジング
 
-pane-tabs-browsing-title = タブとブラウジング
+pane-tabs-browsing-title2 = タブとブラウジング
   .title = タブとブラウジング
 
 tabs-group-header2 =
@@ -431,8 +431,8 @@ preferences-zoom-text-only =
     .label = 文字のみズーム
     .accesskey = t
 
-preferences-text-zoom-override-warning =
-    .message = 警告: “文字のみズーム”を選択し、デフォルトのズームが 100% に設定されていない場合、一部のサイトやコンテンツで正しく表示されなくなる可能性があります。
+preferences-text-zoom-override-warning2 =
+    .message =“文字のみズーム”が有効で、デフォルトのズーム倍率が 100% 以外に設定されている場合、一部のサイトでコンテンツが正しく表示されないことがあります。
 
 language-header = 言語
 
@@ -769,7 +769,7 @@ update-history-2 =
 update-application-installation =
     .label = インストール設定
 
-update-application-auto =
+update-application-auto-2 =
     .label = 更新を自動的にインストールする (推奨)
     .accesskey = A
 

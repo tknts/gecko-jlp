@@ -43,10 +43,10 @@ aiwindow-thumbs-up =
     .tooltiptext = 良い回答
     .aria-label = 良い回答
 aiwindow-thumbs-down =
-    .tooltiptext = 良くない回答
-    .aria-label = 良くない回答
+    .tooltiptext = 悪い回答
+    .aria-label = 悪い回答
 aiwindow-applied-memories-popover =
-    .aria-label = この内容をメモリーする
+    .aria-label = メモリーパネル
 aiwindow-applied-memories-list =
     .aria-label = メモリー
 
@@ -61,3 +61,30 @@ aiwindow-jump-to-bottom =
 smartwindow-nl-thinking = 一致するタブを探しています…
 smartwindow-nl-undo-button =
     .label = 元に戻す
+
+## Variables
+##   $count (number) - Number of tabs closed/restored
+
+smart-window-closed-tabs-label =
+    { $count ->
+        [one] { $count } 個のタブを閉じました
+       *[other] { $count } 個のタブを閉じました
+    }
+smart-window-closed-tabs-summary =
+    { $count ->
+        [one] 完了しました。タブを閉じました。
+       *[other] 完了しました。タブを閉じました。
+    }
+smart-window-closed-tabs-row-label = 閉じたタブ
+smart-window-closed-and-restored-label = 閉じて復元したタブ
+smart-window-restored-row-label =
+    { $count ->
+        [one] { $count } 個のタブを復元しました
+       *[other] { $count } 個のタブを復元しました
+    }
+smart-window-restore-success-summary =
+    { $count ->
+        [one] タブを閉じ、その後に復元しました。
+       *[other] タブを閉じ、その後に復元しました。
+    }
+smart-window-cancelled-label = リクエストはキャンセルされました。

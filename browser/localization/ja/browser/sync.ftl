@@ -46,6 +46,8 @@ fxa-menu-send-to-mobile-sign-in = サインインしてタブを送信
 fxa-menu-send-to-mobile-turn-on-sync = 同期を有効にしてタブを送信
 fxa-menu-send-to-mobile-connect-device = デバイスを接続してタブを送信
 fxa-menu-send-to-mobile-device-missing2 = デバイスが表示されませんか?
+fxviewtabrow-send-to-mobile-not-verified = アカウントが未確認です
+fxviewtabrow-send-to-mobile-verify-account = アカウントを確認してください
 
 ##
 

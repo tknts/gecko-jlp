@@ -376,6 +376,9 @@ tab-context-ungroup-tab =
 ## groups in one place. When the user has no tab groups, the list instead
 ## recommends that the user create a tab group.
 
+# Text for a button that, when clicked, creates a new tab group
+tab-groups-list-create-group-button = 新しいグループ
+
 tab-groups-list-empty-header = タブをすっきり整理
 tab-groups-list-empty-description = タブを別のタブにドラッグするか、タブを右クリックして整理を始めましょう。グループはここに保存されるため、後から簡単に見つけることができます。
 tab-groups-list-empty-button = タブグループを作成

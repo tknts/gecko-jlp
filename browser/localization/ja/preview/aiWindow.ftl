@@ -270,9 +270,32 @@ smart-window-confirm-close-tabs =
        *[other] { $count } 個のタブを閉じる
     }
 
+## Natural Language action callouts
+
+# Shown after the Smart Window closes the user's current tab in response to a
+# natural language prompt action, anchored to the toolbar menu button.
+smartwindow-close-tab-callout-title = タブを閉じました
+smartwindow-close-tab-callout-subtitle = 履歴からいつでもタブを開き直せます。
+
 ## Smart Window new tab promo
 
 smart-window-default-promo-heading = スマート ウィンドウをデフォルトにしますか？
 smart-window-default-promo-message = 毎回 { -brand-short-name } をスマート ウィンドウで開くようになります。
 smart-window-default-promo-primary-button = デフォルトに設定
 smart-window-default-promo-additional-button = 後で
+
+## Feedback modal
+
+aiwindow-feedback-modal-title = フィードバックの共有
+aiwindow-feedback-what-worked-well = どのような点が良かったですか? 個人情報は含めないでください。
+aiwindow-feedback-choose-any = 該当するものを選択してください
+aiwindow-feedback-add-details = 必要に応じて詳細を追加してください。個人情報は含めないでください。
+aiwindow-feedback-disclaimer = 送信すると、スマート ウィンドウの改善に役立てるため、フィードバックとあわせて { -brand-shorter-name } のバージョンや使用されたモデルなどの詳細情報が共有されます。<a data-l10n-name="learn-more">さらに詳しく</a>
+aiwindow-feedback-submit = 送信
+aiwindow-feedback-cancel = キャンセル
+aiwindow-feedback-reason-incorrect-or-misleading = 不正確または誤解を招く
+aiwindow-feedback-reason-doesnt-address-my-request = 要求を満たしていない
+aiwindow-feedback-reason-lacks-personalization = パーソナライズや文脈が不足している
+aiwindow-feedback-reason-performance-or-usability = パフォーマンスまたは使いやすさの問題
+aiwindow-feedback-reason-harmful-or-offensive = 有害または不快
+aiwindow-feedback-reason-other = その他
