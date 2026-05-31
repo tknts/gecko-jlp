@@ -88,7 +88,7 @@ pane-downloads-title2 = ダウンロード
 pane-downloads2 =
     .heading = { pane-downloads-title2 }
 
-pane-accessibility-title = Accessibility
+pane-accessibility-title = アクセシビリティ
   .title = { pane-accessibility-title }
 
 pane-languages-title2 = 言語
@@ -1794,14 +1794,6 @@ autofill-addresses-manage-addresses-title =
 # This message is displayed when no addresses are stored in Firefox
 addresses-no-addresses-stored-message =
     .label = 住所が登録されていません
-
-# These values are displayed for each address record listed on the "Manage addresses and more" subpage.
-# Variables:
-#   $name (string) - The name associated with the address
-#   $address (string) - The address
-address-moz-box-item =
-  .label = { $name }
-  .description = { $address }
 
 pane-passwords-autofill-title2 = パスワードと自動入力
   .title = パスワードと自動入力

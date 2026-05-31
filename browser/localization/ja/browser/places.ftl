@@ -293,5 +293,7 @@ places-search-downloads =
 places-locked-prompt = { -brand-short-name } のファイルが、他のアプリケーションによって使用中のためブックマークと履歴のシステムが機能していません。この問題は一部のセキュリティソフトウェアによって引き起こされることがあります。
 
 # Share is a verb here. Meaning to "Share" the bookmark "Folder"
-places-share-folder =
+# .badge used to promote the sharing menu item; keep it as short as possible.
+places-share-folder2 =
   .label = フォルダーを共有
+  .badge = 新着

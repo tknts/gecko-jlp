@@ -101,6 +101,9 @@ security-view-identity-validity =
     .value = 有効期限:
 security-view-privacy =
     .value = プライバシーと履歴
+security-view-qwac =
+    .label = 適格証明書を表示
+    .accesskey = Q
 
 security-view-privacy-history-value = 昨日までにこのウェブサイトにアクセスしたことがありますか?
 security-view-privacy-sitedata-value = このウェブサイトは私のコンピューターに情報を保存していますか?

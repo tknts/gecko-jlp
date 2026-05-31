@@ -123,6 +123,23 @@ aiwindow-firstrun-button = 始める
 aiwindow-firstrun-back-button = 戻る
 aiwindow-firstrun-next-button = 次へ
 
+## These are labels describing model types in the smartbar model select.
+
+aiwindow-input-model-select-button-label-fast = 高速
+aiwindow-input-model-select-button-label-allpurpose = 汎用
+aiwindow-input-model-select-button-label-personal = 個人向け
+aiwindow-input-model-select-button-label-custom = カスタム
+
+# Variables:
+# $ownerName (string) - The name of the model owner/provider
+# $model (string) - The model name
+aiwindow-input-model-select-menu-item-description = { $ownerName } { $model }
+aiwindow-input-model-select-menu-item-description-custom = 独自の LLM を使用
+aiwindow-input-model-select-default-badge =
+    .label = デフォルト
+    .title = 選択されているデフォルトのモデル
+aiwindow-input-model-select-settings-link = モデルの設定
+
 ## Firstrun memories onboarding
 
 aiwindow-firstrun-memories-title = あなたの好みに合わせた、より役立つ回答

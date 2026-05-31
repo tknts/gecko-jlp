@@ -8,6 +8,10 @@ menu-view-genai-chat =
 menu-view-contextual-password-manager =
   .label = パスワード
 
+# Label for the Open Tabs entry in the View > Sidebars menu bar menu.
+menu-view-open-tabs =
+  .label = 開いているタブ
+
 sidebar-options-menu-button =
   .title = メニューを開く
 
@@ -138,6 +142,11 @@ sidebar-menu-history-label =
   .label = 履歴
 sidebar-menu-synced-tabs-label =
   .label = その他のデバイスのタブ
+# Label for the Open Tabs panel in the sidebar tools list and customize
+# menu. "Open tabs" is a noun phrase referring to the tabs currently open
+# in the browser, not an instruction to open tabs.
+sidebar-menu-open-tabs-label =
+  .label = 開いているタブ
 sidebar-menu-bookmarks-label =
   .label = ブックマーク
 sidebar-menu-customize-label =
@@ -190,6 +199,10 @@ sidebar-menu-history-header =
   .heading = 履歴
 sidebar-menu-syncedtabs-header =
   .heading = その他のデバイスからのタブ
+# Heading shown at the top of the Open Tabs sidebar panel. "Open tabs"
+# refers to the tabs currently open in the browser.
+sidebar-menu-open-tabs-header =
+  .heading = 開いているタブ
 sidebar-menu-cpm-header =
   .heading = パスワード
 sidebar-menu-bookmarks-header =
@@ -207,6 +220,9 @@ sidebar-bookmarks-folder-mobile = モバイルのブックマーク
 sidebar-customize-title = サイドバーのカスタマイズ
 sidebar-history-title = 履歴
 sidebar-syncedtabs-title = その他のデバイスのタブ
+# Title of the Open Tabs sidebar panel. "Open tabs" refers to the tabs
+# currently open in the browser.
+sidebar-opentabs-title = 開いているタブ
 
 ## Context for closing synced tabs when hovering over the items
 

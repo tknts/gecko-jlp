@@ -69,6 +69,8 @@ webext-perms-optional-perms-deny =
 
 webext-perms-host-description-all-urls = すべてのウェブサイトのデータにアクセスする
 
+webext-perms-host-description-file-urls = コンピューター上のローカルファイルへのアクセス
+
 # Variables:
 #   $domain (String): will be replaced by the DNS domain for which a webextension is requesting access (e.g., mozilla.org)
 webext-perms-host-description-wildcard = ドメイン ({ $domain } ) 内のサイトのデータにアクセスする

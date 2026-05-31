@@ -307,6 +307,10 @@ quickactions-cmd-help = ヘルプとサポート
 quickactions-inspector2 = 開発者ツールを開く
 quickactions-cmd-inspector2 = inspector, devtools, dev tools, 開発, 調査, インスペクタ
 
+# Opens the devtools eyedropper to pick a color from the page
+quickactions-colorpicker = カラーピッカー
+quickactions-cmd-colorpicker = カラーピッカー, スポイト, 色の選択
+
 # Opens Firefox Library
 quickactions-cmd-library = ライブラリ
 quickactions-library = ライブラリを開く
@@ -1090,7 +1094,17 @@ qrcode-save-error =
     .message = QR コードの保存に失敗しました。
 qrcode-save-title = QR コードの保存
 qrcode-save-filter-png = PNG 画像
-qrcode-save-filename = qrcode.png
+
+## Default filenames used when saving a QR code. The file extension (.png)
+## is added automatically.
+
+qrcode-save-filename-base = qrcode
+# Variables:
+#  $domain (String): The current page's domain used in the suggested filename.
+qrcode-save-filename-with-domain-base = qrcode-{ $domain }
+
+##
+
 qrcode-window-title = QR コード
 qrcode-dialog-title = QR コード
 qrcode-image =
@@ -1315,9 +1329,9 @@ unified-extensions-button-blocklisted =
 
 ## Private browsing reset button
 
-reset-pbm-toolbar-button =
-    .label = プライベート セッションを終了
-    .tooltiptext = プライベート セッションを終了します
+reset-pbm-toolbar-button2 =
+    .label = プライベート セッションを消去
+    .tooltiptext = プライベート セッションを消去します
 reset-pbm-panel-heading2 = データを消去して新しいプライベートセッションを開始しますか？
 reset-pbm-panel-description2 = プライベート ウィンドウを閉じることなく、履歴や Cookie、その他のすべてのサイトデータを削除します。
 reset-pbm-panel-always-ask-checkbox =

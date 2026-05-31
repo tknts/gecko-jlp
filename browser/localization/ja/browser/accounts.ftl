@@ -31,7 +31,7 @@ account-manage-devices-titlecase = デバイスの管理…
 ## and the Sync account is unverified. Redirects to the Sync preferences page.
 
 account-send-tab-to-device-verify-status = アカウントは確認されていません
-account-send-tab-to-device-verify = アカウントを確認してください…
+account-send-tab-to-device-verify2 = アカウントを確認
 
 ## These strings are used in a notification shown when a new device joins the Firefox account.
 

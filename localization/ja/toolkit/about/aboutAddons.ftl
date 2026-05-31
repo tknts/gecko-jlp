@@ -38,8 +38,12 @@ list-empty-button =
     .label = アドオンについてさらに詳しく
 
 help-button = アドオンのサポート
+sidebar-help-button-title =
+    .title = アドオンのサポート
 
 addons-settings-button = { -brand-short-name } の設定
+sidebar-settings-button-title =
+    .title = { -brand-short-name } の設定
 
 show-unsigned-extensions-button =
     .label = 一部の拡張機能を検証できませんでした
@@ -172,14 +176,32 @@ aboutaddons-sidebar =
     .heading = アドオン
 
 addon-category-discover = おすすめ
+addon-category-discover-title =
+    .title = おすすめ
 addon-category-extension = 拡張機能
+addon-category-extension-title =
+    .title = 拡張機能
 addon-category-theme = テーマ
+addon-category-theme-title =
+    .title = テーマ
 addon-category-plugin = プラグイン
+addon-category-plugin-title =
+    .title = プラグイン
 addon-category-dictionary = 辞書
+addon-category-dictionary-title =
+    .title = 辞書
 addon-category-locale = 言語
+addon-category-locale-title =
+    .title = 言語
 addon-category-available-updates = 利用可能な更新
+addon-category-available-updates-title =
+    .title = 利用可能な更新
 addon-category-recent-updates = 最近の更新
+addon-category-recent-updates-title =
+    .title = 最近の更新
 addon-category-sitepermission = サイトのアクセス許可
+addon-category-sitepermission-title =
+    .title = サイトのアクセス許可
 
 # String displayed in about:addons in the Site Permissions section
 # Variables:
