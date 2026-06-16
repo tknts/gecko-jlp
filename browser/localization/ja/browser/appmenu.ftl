@@ -19,6 +19,19 @@ appmenuitem-banner-update-unsupported =
 appmenuitem-banner-update-restart =
     .label = 更新が利用できます — 今すぐ再起動
 
+# Fresh Firefox refers to the new updated UI
+appmenu-nova-update-promo =
+    .message = 新しくなった { -brand-short-name } を体験。タブはすべてそのまま引き継がれます。
+
+appmenu-nova-update-link = 再起動して更新
+
+appmenu-nova-fxa-sign-in = サインイン
+
+appmenu-nova-switch-device-promo =
+    .message = 新しいデバイスへの移行はお済みですか？{ -brand-short-name } も一緒に連れていきましょう！
+
+appmenu-nova-switch-device-link = データを移行する方法
+
 appmenuitem-new-tab =
     .label = 新しいタブ
 appmenuitem-new-window =

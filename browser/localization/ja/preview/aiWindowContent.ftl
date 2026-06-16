@@ -39,6 +39,9 @@ aiwindow-retry =
 aiwindow-copy-message =
     .tooltiptext = コピーします
     .aria-label = メッセージをコピー
+aiwindow-copy-table =
+    .tooltiptext = 表をコピー
+    .aria-label = 表をコピー
 aiwindow-thumbs-up =
     .tooltiptext = 良い回答
     .aria-label = 良い回答
@@ -49,6 +52,10 @@ aiwindow-applied-memories-popover =
     .aria-label = メモリーパネル
 aiwindow-applied-memories-list =
     .aria-label = メモリー
+# Variables:
+#   $summary (String) - The memory text that will be deleted
+aiwindow-delete-memory-button =
+    .aria-label = { $summary } を削除
 
 ## Jump to Bottom Button
 
@@ -58,7 +65,14 @@ aiwindow-jump-to-bottom =
 
 ## Natural Language Action
 
+smartwindow-nl-retry-tool-button =
+    .label = 再試行
+
+smartwindow-nl-retry-message = タブを閉じたい場合は、<strong>再試行</strong>を選択し、開いたカードで操作してください。
+
 smartwindow-nl-thinking = 一致するタブを探しています…
+smartwindow-loading-assistant-response =
+    .aria-label = アシスタントの回答を読み込んでいます
 smartwindow-nl-undo-button =
     .label = 元に戻す
 
@@ -88,3 +102,37 @@ smart-window-restore-success-summary =
        *[other] タブを閉じ、その後に復元しました。
     }
 smart-window-cancelled-label = リクエストはキャンセルされました。
+
+## Action log
+
+action-log-searching-tabs = タブを検索中
+action-log-searched-open-tabs = 開いているタブを検索しました
+action-log-searching-history = 履歴を検索中
+action-log-searched-history = 履歴を検索しました
+action-log-reading-page = ページを読み込み中
+action-log-read-page = ページ内容を読み込みました
+action-log-searching-web = ウェブを検索中
+action-log-searched-web = ウェブを検索しました
+action-log-checking-memories = メモリを確認中
+action-log-checked-memories = メモリを確認しました
+action-log-searching-settings = 設定を検索中
+action-log-searched-settings = 設定を検索しました
+action-log-searching-world-cup-matches = ワールドカップの試合を検索中
+action-log-searched-world-cup-matches = ワールドカップの試合を検索しました
+action-log-checking-world-cup-live = ワールドカップのライブ試合を確認中
+action-log-checked-world-cup-live = ワールドカップのライブ試合を確認しました
+
+# Variables
+#   $count (Number) - how many tool steps completed in the turn
+action-log-completed-steps =
+    { $count ->
+        [one] ステップを完了しました
+       *[other] { $count } 個のステップを完了しました
+    }
+
+## Assistant Loader
+
+# Shown while the assistant analyzes search results that it loaded into the
+# current tab on the user's behalf. Communicates both that the tab's content
+# changed and that the assistant is reviewing the results before responding.
+smartwindow-search-loader-text = このタブに検索結果を読み込みました。分析しています…

@@ -282,7 +282,7 @@ quickactions-cmd-bookmarks = bookmarks, ブックマーク
 
 # Opens a SUMO article explaining how to clear history
 quickactions-clearrecenthistory = 最近の履歴を消去
-quickactions-cmd-clearrecenthistory = clear recent history, history, 最近の履歴を消去, 履歴
+quickactions-cmd-clearrecenthistory2 = クッキー, cookies, クッキーを削除, clear cookies, キャッシュ, cache, キャッシュを削除, clear cache, 閲覧データ, ブラウジングデータ, browsing data, 閲覧データの削除, clear browsing data, 履歴, history, 最近の履歴を消去, clear recent history, 履歴の消去
 
 # Opens about:downloads page
 quickactions-downloads2 = ダウンロードを表示
@@ -670,6 +670,58 @@ urlbar-result-action-copy-to-clipboard = コピー
 # The string returned for an undefined calculator result such as when dividing by 0
 urlbar-result-action-undefined-calculator-result = 未定義
 
+## "Last visited" and "bookmarked" explanation strings. For bookmarks and urlbar
+## results with last-visited dates like history and top sites, these strings
+## explain why the result is shown.
+
+# This explanation is used when the last-visited date is formatted as one of the
+# following relative dates: "yesterday", "today"
+# Variables:
+#   $date (string) - A localized relative date string
+urlbar-result-explanation-last-visited-relative = 最終訪問日: { $date }
+
+# This explanation is used when the last-visited date is a small number of days
+# in the past.
+# Variables:
+#   $daysAgo (number) - The number of days ago
+urlbar-result-explanation-last-visited-days =
+    { $daysAgo ->
+        [one] 最終訪問日: { $daysAgo } 日前
+        *[other] 最終訪問日: { $daysAgo } 日前
+    }
+
+# This explanation is used when the last-visited date is a small number of weeks
+# in the past.
+# Variables:
+#   $weeksAgo (number) - The number of weeks ago
+urlbar-result-explanation-last-visited-weeks =
+    { $weeksAgo ->
+        [one] 最終訪問日: { $weeksAgo } 週間前
+        *[other] 最終訪問日: { $weeksAgo } 週間前
+    }
+
+# This explanation is used when the last-visited date is a small number of
+# months in the past.
+# Variables:
+#   $monthsAgo (number) - The number of months ago
+urlbar-result-explanation-last-visited-months =
+    { $monthsAgo ->
+        [one] 最終訪問日: { $monthsAgo } か月前
+        *[other] 最終訪問日: { $monthsAgo } か月前
+    }
+
+# This explanation is used when the last-visited date is further in the past.
+# The date will be formatted as an absolute date like: "11 May", "11 May 2026"
+# Variables:
+#   $date (string) - A localized absolute date string
+urlbar-result-explanation-last-visited-absolute = 最終訪問日: { $date }
+
+# This explanation is used when the result is bookmarked. The date will be
+# formatted as an absolute date like: "11 May", "11 May 2026"
+# Variables:
+#   $date (string) - A localized absolute date string
+urlbar-result-explanation-bookmarked = ブックマーク登録日: { $date }
+
 # The sub title of an add-on suggestion in the urlbar.
 urlbar-result-addons-subtitle = { -brand-product-name } 拡張機能
 
@@ -883,7 +935,7 @@ urlbar-view-context-menu-open-in-tab =
   .label = 新しいタブで開く
   .accesskey = w
 urlbar-view-context-menu-open-in-container-tab =
-  .label = 新しいコンテナー タブで開く
+  .label = 新しいコンテナ タブで開く
   .accesskey = i
 urlbar-view-context-menu-open-in-window =
   .label = 新しいウィンドウで開く
@@ -1088,12 +1140,6 @@ qrcode-copy-error =
 
 qrcode-save-button =
     .label = 保存
-qrcode-save-success =
-    .message = QR コードを保存しました。
-qrcode-save-error =
-    .message = QR コードの保存に失敗しました。
-qrcode-save-title = QR コードの保存
-qrcode-save-filter-png = PNG 画像
 
 ## Default filenames used when saving a QR code. The file extension (.png)
 ## is added automatically.
@@ -1156,8 +1202,10 @@ eme-notifications-drm-content-playing-dismiss-accesskey = D
 
 ## Password save/update panel
 
-panel-save-update-username = ユーザー名
-panel-save-update-password = パスワード
+panel-save-update-username-2 =
+    .label = ユーザー名
+panel-save-update-password-2 =
+    .label = パスワード
 
 ##
 

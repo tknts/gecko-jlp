@@ -59,7 +59,7 @@ inactive-css-not-block = <strong>{ $property }</strong> はブロックレベル
 
 inactive-css-not-block-container = <strong>{ $property }</strong> はブロックコンテナ要素にのみ適用されるため、この要素には効果がありません。
 
-inactive-css-not-block-flex-grid-container = <strong>{ $property }</strong> はブロック、flex、および grid コンテナー要素にのみ適用されるため、この要素には効果がありません。
+inactive-css-not-block-flex-grid-container = <strong>{ $property }</strong> はブロック、flex、および グリッドコンテナー要素にのみ適用されるため、この要素には効果がありません。
 
 inactive-css-not-floated = <strong>{ $property }</strong> は float された要素にのみ適用されるため、効果がありません。
 

@@ -9,7 +9,9 @@ report-broken-site-panel-header =
 report-broken-site-panel-intro-text = あなたの報告は、{ -brand-product-name } の問題を理解し修正するのに役立ち、すべてのユーザーにとってより良いブラウジング体験を提供します。
 report-broken-site-panel-learn-more-link = さらに詳しく
 
-report-broken-site-panel-reason-intro-text = 何が機能していませんか?
+report-broken-site-panel-url-label = 不具合のあるサイトの URL
+
+report-broken-site-panel-reason-intro-text = どのような問題が起きていますか?
 
 report-broken-site-panel-reason-load-moz-box-button =
   .label = サイトが読み込まれなかった
@@ -77,4 +79,4 @@ report-broken-site-panel-url-input-label =
 report-broken-site-panel-preview-button =
   .label = レポートをプレビュー
 report-broken-site-panel-preview-header2 =
-  .label = レポートのプレビュー
+  .title = レポートのプレビュー

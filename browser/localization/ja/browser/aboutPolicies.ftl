@@ -8,13 +8,22 @@ aboutpolicies-page-heading =
   .heading = ポリシーについて
 
 # 'Active' is used to describe the policies that are currently active
-active-policies-tab = 動作中
+active-policies-tab = 有効
 errors-tab = エラー
 documentation-tab = ドキュメント
 
-no-specified-policies-message = エンタープライズ ポリシー サービスは動作中ですが、有効なポリシーがありません。
-inactive-message = エンタープライズ ポリシー サービスは停止中です。
+# These title attributes label the navigation buttons when the moz-page-nav
+# sidebar is collapsed and the visible button text is hidden.
+active-policies-tab-title =
+  .title = 有効
+errors-tab-title =
+  .title = エラー
+documentation-tab-title =
+  .title = ドキュメント
 
-policy-name = ポリシーの名前
+no-specified-policies-message = エンタープライズポリシーサービスは有効ですが、有効化されているポリシーはありません。
+inactive-message = エンタープライズポリシーサービスは無効です。
+
+policy-name = ポリシー名
 policy-value = ポリシーの値
-policy-errors = ポリシー エラー
+policy-errors = ポリシーのエラー

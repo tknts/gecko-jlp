@@ -129,6 +129,54 @@ options-sourceeditor-tabsize-label = Tab サイズ
 options-sourceeditor-keybinding-label = キーバインド
 options-sourceeditor-keybinding-default-label = 既定
 
+## Local Mode section
+
+# The heading
+options-local-mode-label = ローカルモード
+
+options-local-mode-only-work-locally = ローカルモードはローカル環境でのみ動作し、リモートコンテキストのデバッグ時には無効になります。
+
+options-local-mode-behavior = ローカルモードでは、外部依存関係なしで HTTPS URL を介してローカルファイルを読み込むことができます。この URL は、開発ツールが開いているタブからのみ読み込み可能です。
+
+options-local-mode-domain-label = カスタムドメイン:
+
+options-local-mode-origin-input =
+    .placeholder = ローカルマッピングのオリジン
+
+# Errors shown when the origin input has an error
+options-local-mode-origin-conflict = このオリジンは既存の別のマッピングと競合しています
+options-local-mode-origin-invalid = このオリジンは無効です
+
+options-local-mode-folder-label = ローカルフォルダー:
+
+options-local-mode-choose-folder = 参照…
+    .title = このマッピングを提供するローカルフォルダーを選択
+
+# Dialog's title when picking a folder for a mapping
+# Variables:
+#   $url (String): The url for the mapping being configured
+options-local-mode-choose-folder-picker-title = { $url } のローカルモードフォルダーを選択
+
+# Error shown when the folder is invalid
+# (can easily be triggered when using about:config and changing underlying mappings prefs)
+options-local-mode-folder-invalid = このフォルダーは存在しないか、無効です。
+
+options-local-mode-toggle =
+    .title = このローカルマッピングを切り替え
+
+options-local-mode-toggle-enable = 有効
+options-local-mode-toggle-disable = 無効
+
+options-local-mode-navigate-to =
+    .title = このマッピング URL へ移動
+
+# Dialog message prompted when clicking on the Delete button
+# Variables:
+#   $mappingOrigin (String): The origin for the mapping
+options-local-mode-confirm-deletion = 「{ $mappingOrigin }」のマッピングを削除しますか？
+
+options-local-mode-new-mapping = 新しいローカルマッピングを追加
+
 ## Advanced section
 
 # The heading (this item is also used in perftools.ftl)

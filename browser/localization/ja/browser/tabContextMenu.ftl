@@ -13,22 +13,31 @@ tab-context-new-group =
     .label = 新しいグループ
     .accesskey = G
 reload-tab =
-    .label = タブを再読込み
+    .label = タブを再読み込み
+    .accesskey = R
+reload-tab2 =
+    .label = 再読み込み
     .accesskey = R
 select-all-tabs =
     .label = すべてのタブを選択
     .accesskey = S
 tab-context-play-tab =
-    .label = Play Tab
+    .label = タブを再生
     .accesskey = l
 tab-context-play-tabs =
-    .label = Play Tabs
+    .label = タブを再生
     .accesskey = y
 duplicate-tab =
     .label = タブを複製
     .accesskey = D
+duplicate-tab2 =
+    .label = 複製
+    .accesskey = D
 duplicate-tabs =
     .label = 複数のタブを複製
+    .accesskey = D
+duplicate-tabs2 =
+    .label = 複製
     .accesskey = D
 # The following string is displayed on a menuitem that will close the tabs from the start of the tabstrip to the currently targeted tab (excluding the currently targeted and any other selected tabs).
 # In left-to-right languages this should use "Left" and in right-to-left languages this should use "Right".
@@ -60,14 +69,25 @@ tab-context-unload-n-tabs =
            *[other] { $tabCount } 個のタブをアンロード
         }
     .accesskey = U
+
+# Context menu option, alternate label for unloading the content of 1 or more tabs to reduce memory usage
+tab-context-unload-tabs =
+    .label = アンロード
+    .accesskey = U
 reload-tabs =
     .label = 複数のタブを再読み込み
     .accesskey = R
 pin-tab =
     .label = タブを固定
     .accesskey = P
+tab-context-pin-tab2 =
+    .label = 固定
+    .accesskey = P
 unpin-tab =
     .label = タブの固定を解除
+    .accesskey = p
+tab-context-unpin-tab2 =
+    .label = 固定を解除
     .accesskey = p
 pin-selected-tabs =
     .label = 複数のタブを固定
@@ -81,8 +101,14 @@ bookmark-selected-tabs =
 tab-context-bookmark-tab =
     .label = タブをブックマーク…
     .accesskey = B
+tab-context-bookmark-tab2 =
+    .label = ブックマーク
+    .accesskey = B
 tab-context-open-in-new-container-tab =
-    .label = 新しいコンテナー タブを開く
+    .label = 新しいコンテナ タブを開く
+    .accesskey = e
+tab-context-open-in-new-container-tab2 =
+    .label = 新しいコンテナ タブを開く
     .accesskey = e
 move-to-start =
     .label = 先頭へ移動
@@ -100,9 +126,15 @@ move-to-new-profile =
 tab-context-close-multiple-tabs =
     .label = 複数のタブを閉じる
     .accesskey = M
+tab-context-close-multiple-tabs2 =
+    .label = 複数のタブを閉じる
+    .accesskey = M
 tab-context-close-duplicate-tabs =
-    .label = 重複したタブを閉じる
-    .accesskey = u
+    .label = 同じタブを閉じる
+    .accesskey = x
+tab-context-close-duplicate-tabs2 =
+    .label = このタブと同じタブを閉じる
+    .accesskey = x
 tab-context-share-url =
     .label = 共有
     .accesskey = h
@@ -121,7 +153,14 @@ tab-context-close-n-tabs =
     .label =
         { $tabCount ->
             [1] タブを閉じる
-           *[other] 複数のタブを閉じる
+           *[other] { $tabCount } 個のタブを閉じる
+        }
+    .accesskey = C
+tab-context-close-n-tabs2 =
+    .label =
+        { $tabCount ->
+            [1] 閉じる
+           *[other] { $tabCount } 個閉じる
         }
     .accesskey = C
 tab-context-move-tabs =
@@ -132,6 +171,20 @@ tab-context-move-tabs =
         }
     .accesskey = v
 
+# Context menu option, highlighting this shows a submenu of potential destinations to move one or more tabs to (tab groups, windows, profiles, start, end, etc.)
+tab-context-move-tabs2 =
+    .label =
+        { $tabCount ->
+            [1] タブを移動
+           *[other] { $tabCount } 個のタブを移動
+        }
+    .accesskey = v
+
+# Context menu option, highlighting this shows a submenu of potential destinations to move two tabs of a split view together to (tab groups, windows, profiles, start, end, etc.)
+tab-context-move-split-view =
+    .label = 分割ビューを移動
+    .accesskey = v
+
 # The following string intentionally omits the word "Tab" from the singular and includes it in the plural.
 tab-context-send-to-device =
     .label =
@@ -139,6 +192,9 @@ tab-context-send-to-device =
             [1] デバイスに送信
            *[other] { $tabCount } 個のタブをデバイスに送信
         }
+    .accesskey = n
+tab-context-send-to-device2 =
+    .label = デバイスに送信
     .accesskey = n
 # The following string intentionally omits the word "Tab" from the singular and includes it in the plural.
 tab-context-send-to-mobile =

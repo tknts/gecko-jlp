@@ -23,6 +23,9 @@ customkeys-history-reopen-window = 最後に閉じたウィンドウを再度開
 customkeys-sidebar-toggle = サイドバーを切り替えます
 customkeys-view-bookmarks-toolbar = ブックマーク ツールバーの切り替え
 customkeys-view-picture-in-picture = ピクチャーインピクチャー
+customkeys-view-add-split-view = 分割表示を追加
+# Separate is a verb
+customkeys-view-separate-split-view = 分割表示を分離
 customkeys-dev-tools = ウェブ開発ツール
 customkeys-dev-inspector = 調査 (DOM とスタイル インスペクター)
 customkeys-dev-webconsole = ウェブ コンソール

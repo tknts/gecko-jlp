@@ -128,7 +128,9 @@ newtab-menu-report = 報告
 newtab-menu-section-block = ブロック
 # "Follow", "unfollow", and "following" are social media terms that refer to subscribing to or unsubscribing from a section of stories.
 # e.g. Following the travel section of stories.
-newtab-menu-section-unfollow = トピックのフォローを解除
+newtab-menu-section-unfollow-topic = フォローを解除
+# Context menu option to open a support page explaining the New Tab personalization features and privacy controls.
+newtab-menu-section-learn-more = さらに詳しく
 
 ## Context menu options for sponsored stories and new ad formats on New Tab.
 
@@ -795,6 +797,23 @@ newtab-sports-widget-show-less =
 newtab-sports-widget-followed-only-toggle =
     .label = フォロー中のチームのみ
 
+## Sports widget live-games pagination. Shown when 2+ matches are live at the same time
+
+# arrow button that goes to the previous page of live matches.
+newtab-sports-widget-pagination-previous =
+    .aria-label = 前へ
+    .title = 前へ
+# arrow button that goes to the next page of live matches.
+newtab-sports-widget-pagination-next =
+    .aria-label = 次へ
+    .title = 次へ
+# Dot indicator that jumps directly to a given live match.
+# $index (number) - 1-based position of this dot in the list.
+# $total (number) - Total number of live matches.
+newtab-sports-widget-pagination-dot =
+    .aria-label = ライブマッチ { $index } / { $total }
+    .title = ライブマッチ { $index } / { $total }
+
 ## Watch live stream dialog
 ## Shown when the user clicks the “Watch live” button on a live match.
 ## Lists available streaming services where the match can be watched.
@@ -811,7 +830,7 @@ newtab-sports-widget-watch-icon =
 
 newtab-sports-widget-watch-dialog-close =
     .aria-label = Close
-    .title = 閉じるの確認
+    .title = 閉じる
 
 # Tag: user can watch without paying (sign-in may still be required).
 newtab-sports-widget-watch-stream-free = 無料
@@ -910,6 +929,11 @@ newtab-sports-widget-match-full-time = 試合終了
 newtab-sports-widget-match-halftime = ハーフタイム
 newtab-sports-widget-match-extra-time = 延長
 newtab-sports-widget-match-penalties = PK 戦
+# Separator shown between two teams in a placeholder match row when no upcoming
+# match details are available yet.
+newtab-sports-widget-match-vs = vs
+# Note shown in the Upcoming tab when no match details are available yet.
+newtab-sports-widget-no-upcoming-matches = 今後の試合の詳細については、続報をお待ちください
 
 ## Accessible labels for match rows in the sports widget. These are read by
 ## screen readers to announce the match details and status.
@@ -977,6 +1001,9 @@ newtab-sports-widget-team-name-label-eng =
     .label = イングランド
 newtab-sports-widget-team-name-label-sco =
     .label = スコットランド
+
+# Placeholder used in a match row's aria-label for an undecided team (shown visually as "--").
+newtab-sports-widget-team-tbd = 対戦相手未定
 
 ## Sports widget OMC messages
 ## Shown as on-screen messages promoting the Sports widget and World Cup wallpapers.
@@ -1167,3 +1194,163 @@ newtab-clock-widget-label-nickname-with-value = ニックネーム: { $nickname 
 newtab-card-dismiss-button =
     .title = 閉じます
     .aria-label = 閉じる
+
+## Strings for "Homepage" and "Firefox Home" sections of about:settings#home.
+## Homepage panel
+
+home-homepage-title =
+    .label = ホームページ
+
+home-homepage-new-windows =
+    .label = 新しいウィンドウ
+
+home-homepage-new-tabs =
+    .label = 新しいタブ
+
+# This option leads to the "Custom Homepage" subpage
+home-homepage-custom-homepage-button =
+    .label = 特定のサイトを指定
+
+## Custom URLs subpage
+
+# Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
+home-custom-homepage-card-header =
+    .label = ウェブサイトのアドレス
+
+home-custom-homepage-address =
+    .placeholder = アドレスを入力
+home-custom-homepage-address-button =
+    .label = アドレスを追加
+
+# Shown when no custom websites/URLs to use as a homepage have been added yet
+home-custom-homepage-no-results =
+    .label = ウェブサイトはまだ追加されていません。
+
+home-custom-homepage-delete-address-button =
+    .aria-label = アドレスを削除
+    .title = アドレスを削除
+
+# Further options to use when setting the home page. Two action buttons are placed in line with this prompt
+# to replace the current home page with a currently open page or bookmark.
+home-custom-homepage-replace-with-prompt =
+    .label = 次のもので置き換える:
+
+# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with-prompt)
+home-custom-homepage-current-pages-button =
+    .label = 現在開いているページ
+
+# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with-prompt)
+home-custom-homepage-bookmarks-button =
+    .label = ブックマーク…
+
+## Firefox Home content
+
+home-prefs-content-header =
+    .label = { -firefox-home-brand-name }
+
+home-prefs-search-header2 =
+    .label = 検索
+
+home-prefs-stories-header2 =
+    .label = ストーリー
+    .description = { -brand-product-name } ファミリーが厳選した特別なコンテンツ
+
+home-prefs-widgets-header =
+    .label = ウィジェット
+
+# Lists is a widget on New Tab, similar to a to-do widget
+home-prefs-lists-header =
+    .label = リスト
+
+# Timer is a widget on New Tab, similar to the Pomodoro timer.
+home-prefs-timer-header =
+    .label = タイマー
+
+# Sports is a widget on New Tab showing sports scores and schedules.
+home-prefs-sports-widget-header =
+    .label = スポーツ
+
+# Clock is a widget on New Tab that displays time zones around the world.
+home-prefs-clocks-header =
+    .label = 時計
+
+home-prefs-mission-message2 =
+    .message = 私たちのスポンサーは、より良いウェブを構築するという使命を支援しています。
+
+home-prefs-manage-topics-link2 =
+    .label = トピックを管理
+
+home-prefs-choose-wallpaper-link2 =
+    .label = 壁紙を選択
+
+home-prefs-firefox-logo-header =
+    .label = { -brand-short-name } ロゴ
+
+# Informational message bar that appears in the Firefox Home section when the options are disabled.
+# The user must select Firefox Home as their homepage for either new tabs or new windows to enable
+# the features in settings.
+home-prefs-firefox-home-disabled-notice =
+    .message = これらの機能を使用するには、新しいタブまたは新しいウィンドウを { -firefox-home-brand-name } に設定してください。
+
+# Variables:
+#   $num (number) - Number of rows displayed
+home-prefs-sections-rows-option-srd =
+    .label =
+        { $num ->
+            [one] { $num } 行
+           *[other] { $num } 行
+        }
+
+# Dropdown option shown when an extension replaces the contents of new windows or tabs.
+# Variables:
+#   $extension (string) - Name of the extension
+home-prefs-homepage-extension-option =
+    .label = 拡張機能 ({ $extension })
+
+home-restore-defaults-srd =
+    .label = デフォルトに戻す
+    .accesskey = R
+
+home-mode-choice-default-fx-srd =
+    .label = { -firefox-home-brand-name } (デフォルト)
+
+home-mode-choice-custom-srd =
+    .label = カスタム URL…
+
+home-mode-choice-blank-srd =
+    .label = 空白ページ
+
+home-prefs-shortcuts-header-srd =
+    .label = ショートカット
+
+home-prefs-shortcuts-select =
+    .aria-label = ショートカット
+
+home-prefs-shortcuts-by-option-sponsored-srd =
+    .label = スポンサー付きショートカット
+
+home-prefs-recommended-by-option-sponsored-stories-srd =
+    .label = スポンサー付きストーリー
+
+home-prefs-highlights-option-visited-pages-srd =
+    .label = 閲覧したページ
+
+home-prefs-highlights-options-bookmarks-srd =
+    .label = ブックマーク
+
+home-prefs-highlights-option-most-recent-download-srd =
+    .label = 最近のダウンロード
+
+home-prefs-recent-activity-header-srd =
+    .label = 最近のアクティビティ
+
+home-prefs-recent-activity-select =
+    .aria-label = 最近のアクティビティ
+
+home-prefs-weather-header-srd =
+    .label = 天気
+
+home-prefs-support-firefox-header-srd =
+    .label = { -brand-product-name } をサポート
+
+home-prefs-mission-message-learn-more-link-srd = 詳細はこちら
