@@ -4,8 +4,6 @@
 
 ### These strings are used inside the Accessibility panel.
 
-accessibility-learn-more = 詳細
-
 accessibility-text-label-header = テキストラベルと名前
 
 accessibility-keyboard-header = キーボード

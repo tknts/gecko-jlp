@@ -920,7 +920,10 @@ newtab-sports-widget-third-place = 3 位
 # Runner-up is the team in 2nd place.
 newtab-sports-widget-runner-up = 準優勝
 newtab-sports-widget-champions = 優勝
-newtab-sports-widget-world-cup-champions = 2026 ワールドカップ優勝チーム
+newtab-sports-widget-world-cup-champions = 2026 ワールド カップ優勝チーム
+# Compact champions label for the medium-size widget result card; the larger
+# card uses newtab-sports-widget-world-cup-champions.
+newtab-sports-widget-world-cup-champions-short = 2026 年チャンピオン
 
 # Variables:
 #   $date (Date) - The match start time

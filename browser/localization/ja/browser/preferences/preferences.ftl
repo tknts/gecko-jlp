@@ -1243,7 +1243,6 @@ containers-add-button2 =
 containers-new-tab-check2 =
     .label = 新しいタブごとにコンテナを選択
     .accesskey = S
-    .description = 新しいタブボタンを押すたびにコンテナメニューが開くようになります。
 
 containers-settings-button2 =
     .title = 設定
@@ -1589,8 +1588,7 @@ forms-primary-pw-use-2 =
     .accesskey = U
 forms-primary-pw-set =
     .label = プライマリーパスワードを設定
-forms-primary-pw-on =
-    .label = プライマリーパスワードがオン
+forms-primary-pw-on-2 = プライマリーパスワードは <strong>オン</strong> です
 forms-primary-pw-change-2 =
     .label = プライマリーパスワードを変更
 # Label for button to disable primary password.
@@ -1762,6 +1760,10 @@ history-clear-on-close-option =
 history-clear-on-close-settings =
     .label = 設定…
     .accesskey = t
+
+history-shutdown-exceptions =
+    .label = 例外の管理
+    .accesskey = x
 
 history-clear-button =
     .label = 履歴を消去…
@@ -2377,6 +2379,36 @@ browser-theme-group =
 browser-theme-manage-link =
     .label = { -brand-short-name } のテーマを管理
 
+appearance-window-density-group =
+    .label = 画面密度
+    .description = ツールバー、タブ、サイドバーなどの画面要素の余白を調整します。
+
+appearance-window-density-radio-group =
+    .aria-label = 画面密度
+
+appearance-window-density-automatic =
+    .label = 自動 (デフォルト)
+    .description = 標準、コンパクト、またはタッチ用の余白が自動的に適用されます
+
+appearance-window-density-automatic-no-touch =
+    .label = 自動 (デフォルト)
+    .description = 標準またはコンパクトの余白が自動的に適用されます
+
+appearance-window-density-standard =
+    .label = 標準
+    .description = ほとんどの画面に適したバランスの良い余白
+
+appearance-window-density-auto-touch-mode =
+    .label = タブレットモードでタッチ用の余白を使用する
+
+appearance-window-density-compact =
+    .label = コンパクト
+    .description = 小さな画面に適した狭めの余白
+
+appearance-window-density-touch =
+    .label = タッチ
+    .description = タッチスクリーンに最適化された、大きめの画面要素とクリックターゲット
+
 related-settings-group =
     .label = 関連設定
 
@@ -2421,8 +2453,8 @@ motion-and-link-group =
 
 ## AI controls page
 
-preferences-ai-controls-header2 =
-    .heading = { pane-ai-controls-title2 }
+preferences-ai-controls-header3 =
+    .heading = AI コントロール
 
 preferences-ai-controls-description = { -brand-short-name } では、AI を活用した機能を使用するかどうかを含め、常にユーザー自身が選択できます。その他のコントロール機能も近日中に追加予定です。
 

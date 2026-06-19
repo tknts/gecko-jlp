@@ -108,6 +108,13 @@ permissions-exceptions-cookie-window2 =
     .style = { permissions-window2.style }
 permissions-exceptions-cookie-desc = Cookie やサイトデータの使用を常に許可するウェブサイト、または許可しないウェブサイトを指定することができます。 管理したいサイトの正確なアドレスを入力して、[ブロック]、[セッション中のみ許可]、[許可] のいずれかをクリックしてください。
 
+## Exceptions - Clear on Shutdown
+
+permissions-exceptions-shutdown-clearing-window =
+    .title = 終了時の履歴消去の例外
+    .style = { permissions-window2.style }
+permissions-exceptions-shutdown-clearing-desc = { -brand-short-name } の終了時に履歴を消去する際、データを保持するウェブサイトを指定できます。管理したいサイトの正確なアドレスを入力し、[許可] をクリックしてください。
+
 ## Exceptions - HTTPS-Only Mode
 
 permissions-exceptions-https-only-window2 =

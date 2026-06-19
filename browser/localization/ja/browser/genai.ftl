@@ -46,14 +46,17 @@ genai-prompts-proofread =
 
 ## Chatbot menu shortcuts
 
+genai-menu-ask-smart-window =
+    .label = 質問…
+    .accesskey = z
 genai-menu-no-provider-2 =
     .label = AI チャットボットに質問
-    .accesskey = h
+    .accesskey = z
 genai-menu-choose-chatbot =
     .label = AI チャットボットを選択
 genai-menu-ask-generic-2 =
-    .label = AI チャットボットに質
-    .accesskey = h
+    .label = AI チャットボットに質問
+    .accesskey = z
 # $provider (string) - name of the provider
 genai-menu-ask-provider-2 =
     .label = { $provider } に質問
@@ -77,6 +80,8 @@ genai-shortcut-button =
 genai-menu-new-badge = 新規
 genai-menu-summarize-page = ページの要約
 
+genai-input-ask-smart-window =
+    .placeholder = 質問…
 genai-input-ask-generic =
     .placeholder = AI  チャットボットに質問…
 # $provider (string) - name of the provider
