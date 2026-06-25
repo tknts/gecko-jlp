@@ -42,6 +42,7 @@ aiwindow-copy-message =
 aiwindow-copy-table =
     .tooltiptext = 表をコピー
     .aria-label = 表をコピー
+aiwindow-table-scroll-indicator = スクロールしてさらに表示
 aiwindow-thumbs-up =
     .tooltiptext = 良い回答
     .aria-label = 良い回答

@@ -68,9 +68,15 @@ about-private-browsing-cookie-banners-promo-body = 多くの Cookie バナーで
 ## Strings for the info section of about:privatebrowsing
 
 about-private-browsing-felt-privacy-v1-info-header = このデバイスに履歴を残しません
-about-private-browsing-felt-privacy-v1-info-body = すべてのプライベートウィンドウを閉じると、{-brand-short-name} は Cookie、履歴、サイトデータを削除します。
+about-private-browsing-felt-privacy-v1-info-body = すべてのプライベートウィンドウを閉じると、{ -brand-short-name} は Cookie、履歴、サイトデータを削除します。
 about-private-browsing-felt-privacy-v1-info-link = 誰がアクティビティを見ることができますか?
 
 ## Strings for the Nova redesign of about:privatebrowsing
 
-about-private-browsing-nova-info-body = すべてのプライベートウィンドウを閉じると、Cookie、履歴、サイトデータが削除されます。
+# "You're off the record" is an English idiom meant to communicate that you
+# are not being recorded. If there is not a comparable phrase in the locale,
+# fall back to "Your browsing will be deleted"
+about-private-browsing-nova-info-header = 閲覧履歴は残りません
+about-private-browsing-nova-info-subheader = このウィンドウを閉じると、すべての検索履歴とサインイン情報が消去されます。トラッカーのブロックなど、{ -brand-short-name } に組み込まれている保護機能もここで有効になっています。
+about-private-browsing-nova-info-body = すべてのプライベートウィンドウを閉じると、クッキー、履歴、サイトデータが削除されます。
+about-private-browsing-nova-info-link = アクティビティをまだ確認できる可能性があるのは誰ですか？

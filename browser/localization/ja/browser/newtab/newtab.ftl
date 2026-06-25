@@ -270,6 +270,8 @@ newtab-custom-widget-clock-toggle =
   .label = 時計
 newtab-custom-widget-sports-toggle2 =
   .label = スポーツ
+newtab-custom-widget-privacy-toggle =
+  .label = プライバシー
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -749,6 +751,8 @@ newtab-widget-timer-reset =
 newtab-widget-timer-menu-notifications = 通知をオフにする
 newtab-widget-timer-menu-notifications-on = 通知をオンにする
 newtab-widget-timer-menu-learn-more = さらに詳しく
+newtab-widget-timer-menu-button =
+    .aria-label = タイマーのオプション
 
 ## Sports widget
 
@@ -796,6 +800,8 @@ newtab-sports-widget-show-less =
 # Toggle that filters the list of teams the user follows
 newtab-sports-widget-followed-only-toggle =
     .label = フォロー中のチームのみ
+# Status shown when more matches are being fetched.
+newtab-sports-widget-loading-more = さらに試合を読み込んでいます…
 
 ## Sports widget live-games pagination. Shown when 2+ matches are live at the same time
 
@@ -1014,6 +1020,8 @@ newtab-sports-widget-team-tbd = 対戦相手未定
 newtab-sports-widget-message-wallpapers-title = 新しい壁紙でワールドカップをキックオフ
 newtab-sports-widget-message-wallpapers-body = 大会に向けてブラウザーに試合日の熱気を取り入れましょう。
 newtab-sports-widget-message-wallpapers-cta = 壁紙を選択
+newtab-sports-widget-message-wallpapers-semifinals-title = 準決勝の新しい壁紙の取得
+newtab-sports-widget-message-wallpapers-semifinals-body = ワールドカップ最大の試合に向けて舞台を整えましょう。
 newtab-sports-widget-message-add-widgets-cta =
     .label = ウィジェットを追加
 newtab-sports-widget-message-day-in-play-title = { -brand-product-name } ウィジェットでの日常の継続
@@ -1277,6 +1285,10 @@ home-prefs-sports-widget-header =
 home-prefs-clocks-header =
     .label = 時計
 
+# Privacy is a widget on New Tab that shows tracking protection activity.
+home-prefs-privacy-header =
+    .label = プライバシー
+
 home-prefs-mission-message2 =
     .message = 私たちのスポンサーは、より良いウェブを構築するという使命を支援しています。
 
@@ -1357,3 +1369,8 @@ home-prefs-support-firefox-header-srd =
     .label = { -brand-product-name } をサポート
 
 home-prefs-mission-message-learn-more-link-srd = 詳細はこちら
+
+## Strings for the Privacy widget
+
+# Context menu item linking to more information about the Privacy widget.
+newtab-privacy-menu-learn-more = さらに詳しく

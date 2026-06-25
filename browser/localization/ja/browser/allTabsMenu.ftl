@@ -15,6 +15,9 @@ all-tabs-menu-hidden-tabs =
 all-tabs-menu-close-duplicate-tabs =
   .label = 重複したタブを閉じる
 
+all-tabs-menu-view-all-tabs =
+  .label = すべてのタブを表示
+
 # "Recent" refers to tab groups being sorted in recently used order. We show up
 # to five of these in this section.
 all-tabs-menu-recent-tab-groups-header = 最近使用したタブグループ

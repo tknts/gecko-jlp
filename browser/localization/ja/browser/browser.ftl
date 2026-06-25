@@ -334,6 +334,10 @@ quickactions-cmd-print = print, 印刷, プリント
 quickactions-savepdf = ページを PDF 形式で保存
 quickactions-cmd-savepdf2 = pdf, save page, ページを保存
 
+# Opens about:pdf, the PDF editor landing page
+quickactions-editpdf = PDF エディターを開く
+quickactions-cmd-editpdf = pdf
+
 # Opens a new private browsing window
 quickactions-private2 = プライベートウィンドウを開く
 quickactions-cmd-private = private browsing, プライベート,

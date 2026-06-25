@@ -48,3 +48,15 @@ toolbox-always-on-top-enabled2 = 常に手前に表示を無効化
   .title = 開発ツールが再起動します
 toolbox-always-on-top-disabled2 = 常に手前に表示を有効化
   .title = 開発ツールが再起動します
+
+## These two labels are shown when navigating to a file:// URL while having DevTools opened,
+## in order to suggest enabling the Local Mode and load them from https instead.
+
+# Variables:
+#   $url (String): The local mode URL
+toolbox-local-mode-notice = このドキュメントは、設定パネルから有効化できる開発ツール “ローカル モード” を使用して “{ $url }” から読み込むことも可能です。
+
+toolbox-local-mode-notice-add-to-settings-button = 設定に追加
+toolbox-local-mode-notice-try-it-button = 試してみる
+toolbox-local-mode-notice-navigate-to-existing-mapping = 既存のマッピングに移動
+toolbox-local-mode-notice-always-hide = 今後は表示しない

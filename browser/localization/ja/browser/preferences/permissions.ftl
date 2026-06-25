@@ -54,7 +54,7 @@ permissions-remove-all =
     .label = すべてのウェブサイトを削除
     .accesskey = e
 
-permission-dialog =
+permissions-save-changes-2 =
     .buttonlabelaccept = 変更を保存
     .buttonaccesskeyaccept = S
 

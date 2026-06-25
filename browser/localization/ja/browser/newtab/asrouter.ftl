@@ -450,8 +450,19 @@ set-default-menu-message-row-layout-subtitle-variant = { PLATFORM() ->
    *[other] { -brand-short-name } をすぐに使えるようにしましょう — 既定のブラウザーにしてタスクバーに固定してください。
 }
 
+set-default-menu-message-split-layout-title = { PLATFORM() ->
+    [macos] { -brand-short-name } の常時表示
+   *[other] すべてのリンクを { -brand-short-name } で開く
+}
+
+set-default-menu-message-split-layout-subtitle = { PLATFORM() ->
+    [macos] デフォルトのブラウザーに設定して Dock に残しましょう。
+   *[other] 高速なブラウジングと自動的なプライバシー保護を手に入れましょう。
+}
+
 set-default-menu-message-primary-button = 既定に設定
 set-default-menu-message-primary-button-variant = メインのブラウザーに設定
+set-default-menu-message-primary-button-short-variant = { -brand-short-name } を既定にする
 
 ## Firefox Relay 50 Masks Announcement
 
