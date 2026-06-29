@@ -4,6 +4,15 @@
 
 smartwindow-messages-document-title = スマートウィンドウ チャットメッセージ
 
+## Context chips in the chat content
+
+# Variables:
+#   $tags (Number) - Number of context chips added in a chat bubble (only when we have 3 or more chips)
+smart-window-context-chips-tag-count = { $tags ->
+    [one] { $tags } 個のタグ
+   *[other] { $tags } 個のタグ
+}
+
 ## Error messages in the chat content
 
 smartwindow-assistant-error-generic-header = リクエストを処理できませんでした。もう一度お試しください。
@@ -70,6 +79,7 @@ smartwindow-nl-retry-tool-button =
     .label = 再試行
 
 smartwindow-nl-retry-message = タブを閉じたい場合は、<strong>再試行</strong>を選択し、開いたカードで操作してください。
+smartwindow-nl-retry-group-tabs-message = 引き続きタブをグループ化する場合は、[再試行] を選択し、開いたカードで目的のタブを選択してください。
 
 smartwindow-nl-thinking = 一致するタブを探しています…
 smartwindow-loading-assistant-response =
@@ -102,7 +112,53 @@ smart-window-restore-success-summary =
         [one] タブを閉じ、その後に復元しました。
        *[other] タブを閉じ、その後に復元しました。
     }
-smart-window-cancelled-label = リクエストはキャンセルされました。
+smart-window-cancelled-label = 要求がキャンセルされました。
+# Button label - "Group" is a verb (action to group tabs)
+smart-window-confirm-group-tab = グループ化
+# Button label - "Group" is a verb (action to group tabs)
+smart-window-confirm-group-tabs =
+    { $count ->
+        [one] { $count } 個のタブをグループ化
+       *[other] { $count } 個のタブをグループ化
+    }
+
+# Action result labels for grouped tabs
+# Variables
+#   $count (number) - Number of tabs grouped
+smart-window-grouped-tabs-label =
+    { $count ->
+        [one] { $count } 個のタブをグループ化しました
+       *[other] { $count } 個のタブをグループ化しました
+    }
+
+# Variables
+#   $count (number) - Number of tabs grouped
+#   $label (string) - The label of the tab group
+smart-window-grouped-tabs-summary =
+    { $count ->
+        [one] グループ “{ $label }” を作成し、{ $count } 個のタブを追加しました。
+        *[other] グループ “{ $label }” を作成し、{ $count } 個のタブを追加しました。
+    }
+
+smart-window-grouped-tabs-row-label = グループ化されたタブ
+
+# Action result labels for ungrouped tabs
+smart-window-grouped-and-ungrouped-label = タブのグループ化を解除しました
+
+# Variables
+#   $count (number) - Number of tabs ungrouped
+smart-window-ungroup-success-summary =
+    { $count ->
+        [one] { $count } 個のタブをグループ化した後、グループ化を解除しました。
+        *[other] { $count } 個のタブをグループ化した後、グループ化を解除しました。
+    }
+
+
+smart-window-ungrouped-row-label =
+    { $count ->
+        [one] { $count } 個のタブのグループ化を解除
+        *[other] { $count } 個のタブのグループ化を解除
+    }
 
 ## Action log
 

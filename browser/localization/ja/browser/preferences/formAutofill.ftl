@@ -20,7 +20,7 @@ autofill-manage-edit-button = 編集…
 
 address-capture-save-doorhanger-header = 住所を保存しますか？
 address-capture-save-doorhanger-description = フォーム入力をすばやく行えるように、情報を { -brand-short-name } に保存します。
-address-capture-update-doorhanger-header = 住所を更新しますか？
+address-capture-update-doorhanger-header = 住所を更新しますか?
 address-capture-edit-doorhanger-header = 住所を編集
 
 address-capture-save-button =

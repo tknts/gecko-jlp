@@ -85,8 +85,8 @@ pane-appearance-title = 外観
 pane-downloads-title2 = ダウンロード
   .title = ダウンロード
 
-pane-downloads2 =
-    .heading = { pane-downloads-title2 }
+pane-downloads3 =
+    .heading = ダウンロード
 
 pane-accessibility-title = アクセシビリティ
   .title = { pane-accessibility-title }
@@ -94,8 +94,8 @@ pane-accessibility-title = アクセシビリティ
 pane-languages-title2 = 言語
   .title = 言語
 
-preferences-languages-header2 =
-    .heading = { pane-languages-title2 }
+preferences-languages-header3 =
+    .heading = 言語
 
 settings-pane-labs-title2 = { -firefoxlabs-brand-name }
   .title = { -firefoxlabs-brand-name }
@@ -1240,7 +1240,7 @@ containers-add-button2 =
     .label = 新しいコンテナを追加
     .accesskey = A
 
-containers-new-tab-check2 =
+containers-new-tab-check3 =
     .label = 新しいタブごとにコンテナを選択
     .accesskey = S
 

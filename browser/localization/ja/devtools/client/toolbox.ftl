@@ -9,10 +9,10 @@
 ## external links. Some of the commands have the keyboard shortcut shown next to
 ## the label.
 
-toolbox-meatball-menu-dock-bottom-label = 画面下にドック
-toolbox-meatball-menu-dock-left-label = 画面左にドック
-toolbox-meatball-menu-dock-right-label = 画面右にドック
-toolbox-meatball-menu-dock-separate-window-label = 別ウィンドウ
+toolbox-meatball-menu-dock-bottom-label = 下側に表示
+toolbox-meatball-menu-dock-left-label = 左側に表示
+toolbox-meatball-menu-dock-right-label = 右側に表示
+toolbox-meatball-menu-dock-separate-window-label = ウィンドウを分割
 
 toolbox-meatball-menu-splitconsole-label = 分割コンソールを表示
 toolbox-meatball-menu-hideconsole-label = 分割コンソールを隠す
@@ -24,7 +24,7 @@ toolbox-meatball-menu-community-label = コミュニティ…
 # This menu item is only available in the browser toolbox. It forces the popups/panels
 # to stay visible on blur, which is primarily useful for addon developers and Firefox
 # contributors.
-toolbox-meatball-menu-noautohide-label = ポップアップの自動非表示を無効化
+toolbox-meatball-menu-noautohide-label = ポップアップを自動的に隠さない
 
 toolbox-meatball-menu-pseudo-locale-accented = “accented” ロケールを有効化
 toolbox-meatball-menu-pseudo-locale-bidi =“bidi” ロケールを有効化
@@ -37,12 +37,12 @@ toolbox-mode-browser-console-label = ブラウザ コンソール モード
 toolbox-mode-everything-label = マルチプロセス
 toolbox-mode-everything-sub-label = (低速)
 toolbox-mode-everything-container =
-  .title = すべてのプロセスですべてをデバッグ
+  .title = すべてのプロセスをデバッグ
 
 toolbox-mode-parent-process-label = 親プロセスのみ
 toolbox-mode-parent-process-sub-label = (高速)
 toolbox-mode-parent-process-container =
-  .title = 親プロセスからのリソースにのみ集中
+  .title = 親プロセスで動作しているリソースにのみ集中
 
 toolbox-always-on-top-enabled2 = 常に手前に表示を無効化
   .title = 開発ツールが再起動します

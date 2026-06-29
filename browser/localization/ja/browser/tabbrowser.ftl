@@ -337,6 +337,8 @@ tab-context-move-split-view-to-group =
 
 tab-splitview-splitter =
     .aria-label = 分割ビュータブのサイズを変更
+tab-devtools-splitter =
+    .aria-label = 開発ツールパネルのサイズ変更
 
 tab-context-move-tab-to-group-saved-groups =
     .label = 保存されたグループ

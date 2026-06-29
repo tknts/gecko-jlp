@@ -352,7 +352,7 @@ about-debugging-worker-action-push2 = Push
 # This string is displayed as a label of the button that starts a service worker.
 # .disabledTitle is processed by the fluent-react / ActionButton code.
 about-debugging-worker-action-start2 = 開始
-  .disabledTitle = マルチプロセス { -brand-shorter-name } では、Service Worker の開始は現在無効です
+  .disabledTitle = Service Worker の開始は、マルチプロセス { -brand-shorter-name } では現在無効化されたいます。
 
 # This string is displayed as a label of the button that unregisters a service worker.
 about-debugging-worker-action-unregister = 登録解除
@@ -360,12 +360,12 @@ about-debugging-worker-action-unregister = 登録解除
 # Displayed for service workers in runtime pages that listen to Fetch events.
 about-debugging-worker-fetch-listening =
   .label = Fetch
-  .value = Fetch イベントを待機中
+  .value = Fetch イベントを監視中
 
 # Displayed for service workers in runtime pages that do not listen to Fetch events.
 about-debugging-worker-fetch-not-listening =
   .label = Fetch
-  .value = Fetch イベントを待機していません
+  .value = Fetch イベントの監視を休止中
 
 # Displayed for service workers in runtime pages that are currently running (service
 # worker instance is active).
@@ -396,7 +396,7 @@ about-debugging-worker-inspect-action-disabled =
 
 # Displayed as title of the inspect button for zombie tabs (e.g. tabs loaded via a session restore).
 about-debugging-zombie-tab-inspect-action-disabled =
-  .title = タブが完全に読み込まれていないため、調査できません
+  .title = タブの読み込みが完了してないため調査できません
 
 # Displayed as name for the Main Process debug target in the Processes category. Only for
 # remote runtimes, if `devtools.aboutdebugging.process-debugging` is true.

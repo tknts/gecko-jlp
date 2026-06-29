@@ -53,6 +53,7 @@ newtab-topsites-add-shortcut-label = ショートカットを追加
 newtab-topsites-add-shortcut-title =
     .title = ショートカットの追加
     .aria-label = ショートカットを追加
+newtab-shortcuts-pinned-area = ピン留めエリア
 newtab-topsites-title-label = タイトル
 newtab-topsites-title-input =
     .placeholder = タイトルを入力してください
@@ -272,6 +273,8 @@ newtab-custom-widget-sports-toggle2 =
   .label = スポーツ
 newtab-custom-widget-privacy-toggle =
   .label = プライバシー
+newtab-custom-widget-stocks-toggle =
+  .label = 株価
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -1289,6 +1292,10 @@ home-prefs-clocks-header =
 home-prefs-privacy-header =
     .label = プライバシー
 
+# Stocks is a widget on New Tab that shows stock ticker prices.
+home-prefs-stocks-header =
+    .label = 株価
+
 home-prefs-mission-message2 =
     .message = 私たちのスポンサーは、より良いウェブを構築するという使命を支援しています。
 
@@ -1374,3 +1381,14 @@ home-prefs-mission-message-learn-more-link-srd = 詳細はこちら
 
 # Context menu item linking to more information about the Privacy widget.
 newtab-privacy-menu-learn-more = さらに詳しく
+
+## Strings for the Stocks widget
+
+# Context menu item for searching stock ticker symbols.
+newtab-stocks-menu-search = ティッカーシンボルを検索
+
+# Context menu item that hides the Stocks widget.
+newtab-stocks-menu-hide = 株価を非表示
+
+# Context menu item linking to more information about the Stocks widget.
+newtab-stocks-menu-learn-more = さらに詳しく
