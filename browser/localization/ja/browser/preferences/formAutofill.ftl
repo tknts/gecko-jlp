@@ -122,12 +122,17 @@ autofill-add-card-title = カードを追加
 # The dialog title for editing credit cards in browser preferences.
 autofill-edit-card-title2 = カードの編集
 
-autofill-card-number = カード番号
+autofill-card-number-2 =
+    .label = カード番号
 autofill-card-invalid-number = 有効なカード番号を入力してください
-autofill-card-name-on-card = カードの名義
-autofill-card-expires-month = 有効期限 (月)
-autofill-card-expires-year = 有効期限 (年)
-autofill-card-billing-address = 請求先住所
+autofill-card-name-on-card-2 =
+    .label = カード上の名前
+autofill-card-expires-month-2 =
+    .label = 有効期限 (月)
+autofill-card-expires-year-2 =
+    .label = 有効期限 (年)
+autofill-card-billing-address-2 =
+    .label = 請求先住所
 autofill-card-network = カードの種類
 
 # This string is never actually displayed, but is used to make it easier to
