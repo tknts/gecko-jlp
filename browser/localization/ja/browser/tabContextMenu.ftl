@@ -101,6 +101,7 @@ bookmark-selected-tabs =
 tab-context-bookmark-tab =
     .label = タブをブックマーク…
     .accesskey = B
+# Context menu item used to bookmark 1 or more selected tabs
 tab-context-bookmark-tab2 =
     .label = ブックマーク
     .accesskey = B
@@ -126,6 +127,7 @@ move-to-new-profile =
 tab-context-close-multiple-tabs =
     .label = 複数のタブを閉じる
     .accesskey = M
+# Sub-menu label in context menu with different options to close multiple tabs (e.g. close to right, left, etc.).
 tab-context-close-multiple-tabs2 =
     .label = 複数のタブを閉じる
     .accesskey = M

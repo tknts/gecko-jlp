@@ -5,18 +5,18 @@
 ## Chrome
 
 main-context-menu-open-link-new-smart-window =
-    .label = リンクを新しいスマート ウィンドウで開く
+    .label = リンクを新しい { -smart-window-brand-name } で開く
     .accesskey = S
 
 appmenuitem-new-ai-window =
-    .label = 新しいスマート ウィンドウ
-    .value = 新しいスマート ウィンドウ
+    .label = 新しい { -smart-window-brand-name }
+    .value = 新しい { -smart-window-brand-name }
 
 appmenuitem-new-classic-window =
     .label = 新しいクラシック ウィンドウ
 
 menu-file-new-ai-window =
-    .label = 新しいスマート ウィンドウ
+    .label = 新しい { -smart-window-brand-name }
 
 menu-file-new-classic-window =
     .label = 新しいクラシック ウィンドウ
@@ -27,7 +27,7 @@ menu-history-chats =
 menu-history-chats-recent =
     .label = 最近のチャット
 
-smartwindow-fullpage-heading = スマート ウィンドウ
+smartwindow-fullpage-heading = { -smart-window-brand-name }
 
 smartwindow-document-title = 新しいタブ
 
@@ -46,8 +46,8 @@ ai-window-toggleview-switch-classic-description =
     .value = 標準ブラウジング
 
 ai-window-toggleview-switch-ai =
-    .label = スマート ウィンドウ
-    .value = スマート ウィンドウ
+    .label = { -smart-window-brand-name }
+    .value = { -smart-window-brand-name }
 
 ai-window-toggleview-switch-ai-description =
     .label = ブラウジングしながら質問
@@ -59,7 +59,7 @@ ai-window-toggleview-switch-private =
 ai-window-toggleview-open-private =
     .label = 新しいプライベート ウィンドウを開く
 
-ai-window-toggleview-status-label-active = スマート ウィンドウ
+ai-window-toggleview-status-label-active = { -smart-window-brand-name }
 
 ai-window-toggleview-status-label-inactive = クラシック ウィンドウ
 
@@ -115,7 +115,7 @@ aiwindow-website-chip-remove-button =
 
 ## Firstrun onboarding
 
-aiwindow-firstrun-title = スマート ウィンドウへようこそ
+aiwindow-firstrun-title = { -smart-window-brand-name } にようこそ
 aiwindow-firstrun-model-title = 使用するモデルを選択
 aiwindow-firstrun-model-subtitle = いつでも切り替えて、自分に最適なものを見つけられます。
 aiwindow-firstrun-model-fast-label = 最速
@@ -151,28 +151,28 @@ aiwindow-input-model-select-settings-link = モデルの設定
 ## Firstrun memories onboarding
 
 aiwindow-firstrun-memories-title = あなたの好みに合わせた、より役立つ回答
-aiwindow-firstrun-memories-subtitle = スマート ウィンドウはチャットや閲覧履歴、またはその両方から学習して「メモリー」を作成できます。これにより、使えば使うほど回答がより役立つものになります。
+aiwindow-firstrun-memories-subtitle = { -smart-window-brand-name } はチャットや閲覧履歴、またはその両方から学習してメモリーを作成できます。これにより、使えば使うほど回答がより役立つものになります。
 
 aiwindow-firstrun-memories-conversation-title = 会話の継続
 aiwindow-firstrun-memories-conversation-body = チャットから学習することで、同じことを何度も説明する必要がなくなります。
 
 aiwindow-firstrun-memories-relevance-title = 関連性の高い回答
-aiwindow-firstrun-memories-relevance-body = 閲覧履歴から学習することで、スマート ウィンドウはより広い文脈を把握できるようになります。
+aiwindow-firstrun-memories-relevance-body = 閲覧履歴から学習することで、{ -smart-window-brand-name } はより広い文脈を把握できるようになります。
 
 aiwindow-firstrun-memories-privacy-title = プライバシーに配慮した設計
 aiwindow-firstrun-memories-privacy-body = メモリーはこのデバイスに保存されます。いつでも削除や無効化が可能です。
 
-aiwindow-firstrun-memories-choose-label = スマート ウィンドウの学習ソースを選択
-aiwindow-firstrun-memories-checkbox-chats = スマート ウィンドウでのチャット
+aiwindow-firstrun-memories-choose-label = { -smart-window-brand-name } の学習ソースを選択
+aiwindow-firstrun-memories-checkbox-chats = { -smart-window-brand-name } でのチャット
 aiwindow-firstrun-memories-checkbox-browsing = { -brand-product-name } での閲覧履歴
 aiwindow-firstrun-memories-update-settings = 設定はいつでも更新できます。
-aiwindow-firstrun-memories-no-create = 了解しました。スマート ウィンドウはメモリーを作成しません。設定はいつでも更新できます。
+aiwindow-firstrun-memories-no-create = 了解しました。 { -smart-window-brand-name } はメモリーを作成しません。設定はいつでも更新できます。
 
 ## Firstrun set as default onboarding
 
-aiwindow-firstrun-default-title = スマート ウィンドウを標準にする
+aiwindow-firstrun-default-title = { -smart-window-brand-name } を標準にする
 aiwindow-firstrun-default-subtitle = 閲覧、検索、質問を 1 つの場所で行えます。必要に応じていつでもプライベートウィンドウやクラシック ウィンドウを開くことができます。
-aiwindow-firstrun-default-checkbox-label = 常に { -brand-product-name } をスマート ウィンドウで開く
+aiwindow-firstrun-default-checkbox-label = 常に { -brand-product-name } を { -smart-window-brand-name } で開く
 aiwindow-firstrun-default-checkbox-description = 設定でいつでも切り替えられます
 
 ## Ask Toolbar Button
@@ -203,11 +203,11 @@ aiwindow-close-sidebar =
 
 ## Sign out dialog
 
-fxa-signout-dialog-body-aiwindow = 同期されたデータはアカウントに残ります。開いているスマート ウィンドウはクラシック ウィンドウに切り替わります。
+fxa-signout-dialog-body-aiwindow = 同期されたデータはアカウントに残ります。開いている { -smart-window-brand-name(plural-form: "true") } はクラシック ウィンドウに切り替わります。
 
 ## Smart Window Toggle Button (in-page)
 
-smartwindow-switch-to-smart-window = スマート ウィンドウに切り替えます
+smartwindow-switch-to-smart-window = { -smart-window-brand-name } に切り替えます
 
 ## Fullpage Footer Actions
 
@@ -297,7 +297,7 @@ smart-window-confirm-close-tabs =
 
 ## Natural Language action callouts
 
-# Shown after the Smart Window closes the user's current tab in response to a
+# Shown after the Smart Window closes the user’s current tab in response to a
 # natural language prompt action, anchored to the toolbar menu button.
 smartwindow-close-tab-callout-title = タブを閉じました
 smartwindow-close-tab-callout-subtitle = 履歴からいつでもタブを開き直せます。
@@ -315,7 +315,7 @@ aiwindow-feedback-modal-title = フィードバックの共有
 aiwindow-feedback-what-worked-well = どのような点が良かったですか? 個人情報は含めないでください。
 aiwindow-feedback-choose-any = 該当するものを選択してください
 aiwindow-feedback-add-details = 必要に応じて詳細を追加してください。個人情報は含めないでください。
-aiwindow-feedback-disclaimer = 送信すると、スマート ウィンドウの改善に役立てるため、フィードバックとあわせて { -brand-shorter-name } のバージョンや使用されたモデルなどの詳細情報が共有されます。<a data-l10n-name="learn-more">さらに詳しく</a>
+aiwindow-feedback-disclaimer = 送信すると、{ -smart-window-brand-name } の改善に役立てるため、フィードバックとあわせて { -brand-shorter-name } のバージョンや使用されたモデルなどの詳細情報が共有されます。<a data-l10n-name="learn-more">さらに詳しく</a>
 aiwindow-feedback-submit = 送信
 aiwindow-feedback-cancel = キャンセル
 aiwindow-feedback-reason-incorrect-or-misleading = 不正確または誤解を招く

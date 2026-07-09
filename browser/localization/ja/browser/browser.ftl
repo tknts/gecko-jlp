@@ -267,7 +267,7 @@ search-one-offs-actions =
 
 ## QuickActions are shown in the urlbar as the user types a matching string
 ## The -cmd- strings are comma separated list of keywords that will match
-## the action.
+## the action. English commas should be used, i.e. ,
 
 # Opens the about:addons page in the home / recommendations section
 quickactions-addons = アドオンを表示
@@ -275,6 +275,10 @@ quickactions-addons = アドオンを表示
 # applicable to your language, only use the correct spelling (don't repeat the
 # same word).
 quickactions-cmd-addons3 = extensions, themes, addons, add-ons, アドオン, テーマ, 拡張機能
+
+# Opens preferences page at AI controls
+quickactions-manageai = AI コントロールを管理
+quickactions-cmd-manageai = disable ai, off ai, manage ai
 
 # Opens the bookmarks library window
 quickactions-bookmarks2 = ブックマークを管理
@@ -682,13 +686,13 @@ urlbar-result-action-undefined-calculator-result = 未定義
 # following relative dates: "yesterday", "today"
 # Variables:
 #   $date (string) - A localized relative date string
-urlbar-result-explanation-last-visited-relative = 最終訪問日: { $date }
+urlbar-result-explanation-last-visited-relative-2 = 最終訪問日: { $date }
 
 # This explanation is used when the last-visited date is a small number of days
 # in the past.
 # Variables:
 #   $daysAgo (number) - The number of days ago
-urlbar-result-explanation-last-visited-days =
+urlbar-result-explanation-last-visited-days-2 =
     { $daysAgo ->
         [one] 最終訪問日: { $daysAgo } 日前
         *[other] 最終訪問日: { $daysAgo } 日前
@@ -698,7 +702,7 @@ urlbar-result-explanation-last-visited-days =
 # in the past.
 # Variables:
 #   $weeksAgo (number) - The number of weeks ago
-urlbar-result-explanation-last-visited-weeks =
+urlbar-result-explanation-last-visited-weeks-2 =
     { $weeksAgo ->
         [one] 最終訪問日: { $weeksAgo } 週間前
         *[other] 最終訪問日: { $weeksAgo } 週間前
@@ -708,7 +712,7 @@ urlbar-result-explanation-last-visited-weeks =
 # months in the past.
 # Variables:
 #   $monthsAgo (number) - The number of months ago
-urlbar-result-explanation-last-visited-months =
+urlbar-result-explanation-last-visited-months-2 =
     { $monthsAgo ->
         [one] 最終訪問日: { $monthsAgo } か月前
         *[other] 最終訪問日: { $monthsAgo } か月前
@@ -718,7 +722,7 @@ urlbar-result-explanation-last-visited-months =
 # The date will be formatted as an absolute date like: "11 May", "11 May 2026"
 # Variables:
 #   $date (string) - A localized absolute date string
-urlbar-result-explanation-last-visited-absolute = 最終訪問日: { $date }
+urlbar-result-explanation-last-visited-absolute-2 = 最終訪問日: { $date }
 
 # This explanation is used when the result is bookmarked. The date will be
 # formatted as an absolute date like: "11 May", "11 May 2026"

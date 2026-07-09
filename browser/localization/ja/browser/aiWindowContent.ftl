@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-smartwindow-messages-document-title = スマートウィンドウ チャットメッセージ
+smartwindow-messages-document-title = { -smart-window-brand-name } チャットメッセージ
 
 ## Context chips in the chat content
 
@@ -17,8 +17,8 @@ smart-window-context-chips-tag-count = { $tags ->
 
 smartwindow-assistant-error-generic-header = リクエストを処理できませんでした。もう一度お試しください。
 smartwindow-assistant-error-budget-header = 1 日あたりの対話回数の上限に達しました。アクセス権は米国東部標準時の深夜にリセットされます
-smartwindow-assistant-error-account-header = スマート ウィンドウを使用するには、サインインする必要があります。
-smartwindow-assistant-error-capacity-header = スマート ウィンドウは現在混雑しています。後でもう一度お試しください。
+smartwindow-assistant-error-account-header = { -smart-window-brand-name } を使用するには、サインインする必要があります。
+smartwindow-assistant-error-capacity-header = { -smart-window-brand-name } は現在混雑しています。後でもう一度お試しください。
 
 smartwindow-assistant-error-budget-body = このウィンドウで引き続きブラウジングを続けることは可能です。チャットは米国東部標準時の深夜 (0時) 以降に再び利用できるようになります。
 smartwindow-assistant-error-many-requests-header = しばらく待ってからやり直してください。短時間に送信されたメッセージが多すぎます。
@@ -165,9 +165,13 @@ action-log-searched-open-tabs = 開いているタブを検索しました
 action-log-searching-history = 履歴を検索中
 action-log-searched-history = 履歴を検索しました
 action-log-reading-page = ページを読み込み中
+# Read is past tense, to indicate that the action has been completed.
 action-log-read-page = ページ内容を読み込みました
 action-log-searching-web = ウェブを検索中
 action-log-searched-web = ウェブを検索しました
+# Exa is the name of a third-party web search API
+# It is a brand name and should not be translated
+action-log-searched-web-exa = Exa を使用してウェブを検索
 action-log-checking-memories = メモリを確認中
 action-log-checked-memories = メモリを確認しました
 action-log-searching-settings = 設定を検索中

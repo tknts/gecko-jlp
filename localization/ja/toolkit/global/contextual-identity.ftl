@@ -20,11 +20,14 @@ user-context-shopping =
 
 ##
 
-user-context-none =
-    .label = コンテナーはありません
+user-context-new-tab =
+    .label = 新しいタブ
     .accesskey = N
+user-context-add-container =
+    .label = 新しいコンテナを追加
+    .accesskey = A
 user-context-manage-containers =
-    .label = コンテナーの管理
+    .label = コンテナを管理
     .accesskey = o
 
 ## Container colors, shown as selectable swatches in the container

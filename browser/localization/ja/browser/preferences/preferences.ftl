@@ -415,8 +415,8 @@ preferences-contrast-control-custom =
     .label = カスタム
     .accesskey = C
 
-preferences-colors-manage-button =
-    .label = 配色を管理…
+preferences-colors-manage-button2 =
+    .label = 配色を管理
     .accesskey = C
 
 preferences-fonts-header2 =
@@ -884,6 +884,12 @@ browsing-search-on-start-typing =
     .label = キー入力時に検索を開始する
     .accesskey = x
 
+settings-keyboard-shortcuts-group =
+    .label = キーボードショートカット
+    .description = { -brand-short-name } の操作やインタラクションの方法をコントロールします。
+settings-keyboard-shortcuts-customkeys-link =
+    .label = キーボードショートカットのカスタマイズ
+
 settings-media-group =
     .label = メディア
 
@@ -1246,7 +1252,7 @@ containers-new-tab-check3 =
 
 containers-settings-button2 =
     .title = 設定
-containers-remove-button2 =
+containers-remove-button3 =
     .title = 削除
 
 ## Account and sync

@@ -223,6 +223,7 @@ sidebar-bookmarks-folder-mobile = モバイルのブックマーク
 
 ## Titles for sidebar menu panels.
 
+sidebar-bookmarks-title = ブックマーク
 sidebar-customize-title = サイドバーのカスタマイズ
 sidebar-history-title = 履歴
 sidebar-syncedtabs-title = その他のデバイスのタブ

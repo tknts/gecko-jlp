@@ -1,7 +1,7 @@
 {
   "langpack_id": "ja",
   "manifest_version": 2,
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "{93C0FD8C-43E7-4217-B6D5-7DCEAD173C5A}",
       "strict_min_version": "154.0a1",
@@ -10,10 +10,10 @@
   },
   "name": "Language: Japanese (JP)",
   "description": "Unofficial Nightly Language Pack for Japanese (JP) (ja)",
-  "version": "154.0.20260630.090337",
+  "version": "154.0.20260708.220003",
   "languages": {
     "ja": {
-      "version": "20260630090337",
+      "version": "20260708220003",
       "chrome_resources": {
         "app-marketplace-icons": "browser/chrome/browser/locale/ja/app-marketplace-icons/",
         "branding": "browser/chrome/ja/locale/branding/",

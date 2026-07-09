@@ -27,3 +27,11 @@ containers-color-label2 =
 containers-dialog =
     .buttonlabelaccept = 完了
     .buttonaccesskeyaccept = D
+
+## Container creation panel, anchored to the URL bar.
+
+containers-panel-title = 新しいコンテナを追加
+containers-panel-create-button =
+    .label = 完了
+containers-panel-cancel-button =
+    .label = キャンセル

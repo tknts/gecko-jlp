@@ -146,7 +146,10 @@ ipprotecion-locations-subview-recommended-label = 推奨
 ipprotection-locations-subview-recommended-description = 最適な高速サーバーを探します
 
 # Label shown next to a VPN location that the user cannot select.
-ipprotection-locations-unavailable-label = 利用不可
+# The aria-label is for accessibility, and should communicate that the
+# location is unavailable and the button is disabled.
+ipprotection-locations-unavailable-label-1 = 利用不可
+  .aria-label = 利用不可、無効
 
 ipprotection-locations-subview-promo =
   .heading = { -mozilla-vpn-brand-name } でさらに強固な保護を
