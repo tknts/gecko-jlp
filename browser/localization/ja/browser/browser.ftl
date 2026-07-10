@@ -78,35 +78,27 @@ urlbar-search-tips-confirm = 了解しました
 urlbar-search-tips-confirm-short = 了解
 
 urlbar-result-menu-button =
-    .title = メニューを開きます
+    .title = メニューの表示
 urlbar-result-menu-button-feedback = フィードバック
-    .title = メニューを開きます
-urlbar-result-menu-learn-more =
-    .label = さらに詳しく
+    .title = メニューの表示
+urlbar-result-menu-learn-more2 = 詳細情報
     .accesskey = L
-urlbar-result-menu-remove-from-history =
-    .label = 履歴から削除
+urlbar-result-menu-remove-from-history2 = 履歴から削除
     .accesskey = R
-urlbar-result-menu-tip-get-help =
-    .label = ヘルプを表示
+urlbar-result-menu-tip-get-help2 = ヘルプを表示
     .accesskey = h
-urlbar-result-menu-dismiss-suggestion =
-    .label = このサジェストを削除
+urlbar-result-menu-dismiss-suggestion2 = このサジェストを非表示にする
     .accesskey = D
-urlbar-result-menu-manage-firefox-suggest =
-    .label = { -firefox-suggest-brand-name } を管理
+urlbar-result-menu-manage-firefox-suggest2 = { -firefox-suggest-brand-name } の管理
     .accesskey = M
 # Some urlbar suggestions show the user's approximate location as automatically
 # detected by Firefox (e.g., weather suggestions), and this menu item lets the
 # user tell Firefox that the location is not accurate. Typically the location
 # will be a city name, or a city name combined with the name of its parent
 # administrative division (e.g., a province, prefecture, or state).
-urlbar-result-menu-report-inaccurate-location =
-    .label = 不正確な位置情報を報告
-urlbar-result-menu-show-less-frequently =
-    .label = 表示頻度を減らす
-urlbar-result-menu-dont-show-weather-suggestions =
-    .label = 天気の候補を表示しない
+urlbar-result-menu-report-inaccurate-location2 = 不正確な位置情報を報告
+urlbar-result-menu-show-less-frequently2 = 表示頻度を減らす
+urlbar-result-menu-dont-show-weather-suggestions2 = 天気のサジェストを表示しない
 
 # Used for Split Button.
 urlbar-splitbutton-dropmarker =
@@ -801,12 +793,10 @@ urlbar-result-realtime-opt-in-allow = サジェストを表示する
 # This string is shown in split button to dismiss activation the Realtime suggestion.
 urlbar-result-realtime-opt-in-not-now = 今はしない
 urlbar-result-realtime-opt-in-dismiss = 非表示にする
-urlbar-result-realtime-opt-in-dismiss-all =
-    .label = 今後このようなメッセージを表示しない
+urlbar-result-realtime-opt-in-dismiss-all2 = これらのサジェストを表示しない
 
 # This string is shown in the result menu.
-urlbar-result-menu-dont-show-market =
-  .label = サジェストに株価を表示しない
+urlbar-result-menu-dont-show-market2 = サジェストに株価を表示しない
 
 # A message that replaces a result when the user dismisses Market suggestions.
 urlbar-result-dismissal-acknowledgment-market = フィードバックありがとうございます。今後は株価はサジェストに表示されません。
@@ -983,9 +973,8 @@ urlbar-group-trending =
   .label = { $engine } でトレンド検索
 
 # The result menu labels shown next to trending results.
-urlbar-result-menu-trending-dont-show =
-    .label = トレンド検索を表示しない
-    .accesskey = D
+urlbar-result-menu-trending-dont-show2 = トレンド検索を表示しない
+  .accesskey = D
 
 # A message that replaces a result when the user dismisses all suggestions of a
 # particular type.

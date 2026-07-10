@@ -4,6 +4,9 @@
 
 ### These strings are used inside the about:debugging UI.
 
+about-debugging-sidebar =
+  .heading = デバッグ
+
 # Page Title strings
 
 # Page title (ie tab title) for the Setup page
@@ -20,15 +23,15 @@ about-debugging-page-title-runtime-page = デバッグ - ランタイム / { $se
 # Sidebar and in the Setup page.
 about-debugging-this-firefox-runtime-name = この { -brand-shorter-name }
 
-# Sidebar heading for selecting the currently running instance of Firefox
-# .name is processed by fluent-react / SidebarFixedItem
-about-debugging-sidebar-this-firefox =
-  .name = { about-debugging-this-firefox-runtime-name }
+# Sidebar heading and title for selecting the currently running instance of Firefox
+about-debugging-sidebar-this-firefox2 = この { -brand-shorter-name }
+about-debugging-sidebar-this-firefox-title =
+  .title = この { -brand-shorter-name } の設定
 
-# Sidebar heading for connecting to some remote source
-# .name is processed by fluent-react / SidebarFixedItem
-about-debugging-sidebar-setup =
-  .name = セットアップ
+# Sidebar heading and title for connecting to some remote source
+about-debugging-sidebar-setup2 = セットアップ
+about-debugging-sidebar-setup-title =
+    .title = セットアップの構成
 
 # Text displayed in the about:debugging sidebar when USB devices discovery is enabled.
 about-debugging-sidebar-usb-enabled = USB 有効
