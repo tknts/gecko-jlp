@@ -10,51 +10,51 @@ printui-save-to-pdf-title = 名前を付けて保存
 # $sheetCount (integer) - Number of paper sheets
 printui-sheets-count =
     { $sheetCount ->
-        [one] { $sheetCount } 枚
-       *[other] { $sheetCount } 枚
+        [one] { $sheetCount } 枚の用紙
+        *[other] { $sheetCount } 枚の用紙
     }
 
 printui-page-range-all = すべて
-printui-page-range-current = Current
-printui-page-range-odd = Odd
-printui-page-range-even = Even
+printui-page-range-current = 現在のページ
+printui-page-range-odd = 奇数ページ
+printui-page-range-even = 偶数ページ
 printui-page-range-custom = カスタム
 printui-page-range-label = ページ
 printui-page-range-picker =
-  .aria-label = ページ範囲を選択
+    .aria-label = ページ範囲の選択
 printui-page-custom-range-input =
-  .aria-label = Enter custom page range
-  .placeholder = e.g. 2-6, 9, 12-16
+    .aria-label = カスタムページ範囲の入力
+    .placeholder = 例: 2-6, 9, 12-16
 
 # Section title for the number of copies to print
-printui-copies-label = 枚数
+printui-copies-label = 部数
 
 printui-orientation = 方向
-printui-landscape = 横向き
-printui-portrait = 縦向き
+printui-landscape = 横
+printui-portrait = 縦
 
 # Section title for the printer or destination device to target
-printui-destination-label = 送信先
-printui-destination-pdf-label = PDF 形式で保存
+printui-destination-label = 出力先
+printui-destination-pdf-label = PDF に保存
 
 printui-more-settings = 詳細設定
-printui-less-settings = 標準設定
+printui-less-settings = 設定を隠す
 
 printui-paper-size-label = 用紙サイズ
 
 # Section title (noun) for the print scaling options
-printui-scale = 拡大と縮小
-printui-scale-fit-to-page-width =  ページの横幅に合わせる
+printui-scale = 拡大/縮小
+printui-scale-fit-to-page-width = ページ幅に合わせる
 # Label for input control where user can set the scale percentage
-printui-scale-pcent = 倍率
+printui-scale-pcent = 拡大/縮小
 
 # Section title (noun) for the two-sided print options
-printui-two-sided-printing = Two-sided printing
+printui-two-sided-printing = 両面印刷
 printui-two-sided-printing-off = オフ
 # Flip the sheet as if it were bound along its long edge.
-printui-two-sided-printing-long-edge = Flip on long edge
+printui-two-sided-printing-long-edge = 長辺とじ
 # Flip the sheet as if it were bound along its short edge.
-printui-two-sided-printing-short-edge = Flip on short edge
+printui-two-sided-printing-short-edge = 短辺とじ
 
 # Section title for miscellaneous print options
 printui-options = オプション
@@ -66,13 +66,13 @@ printui-backgrounds-checkbox = 背景を印刷
 ## where the page is processed with "Reader View".
 
 # The section title.
-printui-source-label = Format
+printui-source-label = 形式
 # Option for printing the original page.
-printui-source-radio = Original
+printui-source-radio = オリジナル
 # Option for printing just the content a user selected prior to printing.
-printui-selection-radio = Selection
+printui-selection-radio = 選択範囲
 # Option for "simplifying" the page by printing the Reader View version.
-printui-simplify-page-radio = Simplified
+printui-simplify-page-radio = 簡略化
 
 ##
 
@@ -80,9 +80,9 @@ printui-color-mode-label = カラーモード
 printui-color-mode-color = カラー
 printui-color-mode-bw = 白黒
 
-printui-margins = Margins
-printui-margins-default = 初期設定
-printui-margins-min = Minimum
+printui-margins = 余白
+printui-margins-default = 既定
+printui-margins-min = 最小
 printui-margins-none = なし
 printui-margins-custom-inches = カスタム (インチ)
 printui-margins-custom-mm = カスタム (mm)
@@ -99,26 +99,26 @@ printui-margins-custom-right = 右
 printui-margins-custom-right-inches = 右 (インチ)
 printui-margins-custom-right-mm = 右 (mm)
 
-printui-system-dialog-link = システムダイアログを使用して印刷…
+printui-system-dialog-link = システムダイアログを使用して印刷...
 
 printui-primary-button = 印刷
 printui-primary-button-save = 保存
 printui-cancel-button = キャンセル
 printui-close-button = 閉じる
 
-printui-loading = Preparing Preview
+printui-loading = プレビューを準備中
 
 # Reported by screen readers and other accessibility tools to indicate that
 # the print preview has focus.
 printui-preview-label =
     .aria-label = 印刷プレビュー
 
-printui-pages-per-sheet = Pages per sheet
+printui-pages-per-sheet = 1枚あたりのページ数
 
 # This is shown next to the Print button with an indefinite loading spinner
 # when the user prints a page and it is being sent to the printer.
-printui-print-progress-indicator = 印刷しています…
-printui-print-progress-indicator-saving = 保存しています…
+printui-print-progress-indicator = 印刷中…
+printui-print-progress-indicator-saving = 保存中…
 
 ## Paper sizes that may be supported by the Save to PDF destination:
 
@@ -132,17 +132,17 @@ printui-paper-b5 = B5
 printui-paper-b4 = B4
 printui-paper-jis-b5 = JIS-B5
 printui-paper-jis-b4 = JIS-B4
-printui-paper-letter = US Letter
-printui-paper-legal = US Legal
-printui-paper-tabloid = タブロイド判
+printui-paper-letter = USレター
+printui-paper-legal = USリーガル
+printui-paper-tabloid = タブロイド
 
 ## Error messages shown when a user has an invalid input
 
-printui-error-invalid-scale = Scale must be a number between 10 and 200.
-printui-error-invalid-margin = Please enter a valid margin for the selected paper size.
-printui-error-invalid-copies = Copies must be a number between 1 and 10000.
+printui-error-invalid-scale = 拡大/縮小には 10 から 200 までの数値を指定してください。
+printui-error-invalid-margin = 選択した用紙サイズに対して有効な余白を入力してください。
+printui-error-invalid-copies = 部数には 1 から 10000 までの数値を指定してください。
 
 # Variables
 # $numPages (integer) - Number of pages
-printui-error-invalid-range = Range must be a number between 1 and { $numPages }.
-printui-error-invalid-start-overflow = The “from” page number must be smaller than the “to” page number.
+printui-error-invalid-range = 範囲には 1 から { $numPages } までの数値を指定してください。
+printui-error-invalid-start-overflow = “開始” ページ番号は、“終了” ページ番号より小さい数値を指定してください。

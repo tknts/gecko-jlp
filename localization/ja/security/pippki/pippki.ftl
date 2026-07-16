@@ -106,8 +106,11 @@ set-password-repeat-backup-pw =
   .value = バックアップ用パスワード (再入力):
 set-password-reminder = 重要: バックアップ用パスワードを忘れると、バックアップから復元できなくなります。安全な場所に記録してください。
 
-## Protected authentication alert
+## Protected authentication dialog
+
+protected-auth-window =
+  .title = 保護された認証のウィンドウ
 
 # Variables:
-# $tokenName (String) - The name of the token to authenticate to (for example, "OS Client Cert Token (Modern)")
-protected-auth-alert = “{ $tokenName }” への認証を行ってください。認証方法はトークンによって異なります (例: 指紋リーダーの使用やキーパッドでのコード入力)。
+# $tokenName (String) - The name of the token to authenticate to (for example, “OS Client Cert Token (Modern)”)
+protected-auth-prompt = セキュリティデバイス ({ $tokenName }) で認証を行ってください。認証方法はデバイスによって異なります (例: 指紋認証リーダーの使用やキーパッドでのコード入力など)。

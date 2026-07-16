@@ -19,11 +19,8 @@ appmenuitem-banner-update-unsupported =
 appmenuitem-banner-update-restart =
     .label = 更新が利用できます — 今すぐ再起動
 
-# Fresh Firefox refers to the new updated UI
-appmenu-nova-update-promo =
-    .message = 新しくなった { -brand-short-name } を体験。タブはすべてそのまま引き継がれます。
-
-appmenu-nova-update-link = 再起動して更新
+appmenu-nova-update-title = { -brand-short-name } のアップデートのための再起動
+appmenu-nova-update-description = タブは自動的に再開されます。
 
 appmenu-nova-fxa-sign-in = サインイン
 
@@ -370,3 +367,16 @@ appmenu-edit-profile =
 appmenu-edit-this-profile =
     .label = このプロファイルを編集
 appmenu-profile-current-in-use = 現在使用中のプロファイル
+
+fxa-menu-create-profile-subpanel =
+    .title = 新しいプロファイルの作成
+
+fxa-menu-create-profile-heading = 新しいプロファイルでブラウジングをレベルアップ
+
+fxa-menu-create-profile-description = 仕事用とプライベート用のブラウジングで、ブックマーク、パスワード、履歴を別々に保ちます。
+
+fxa-menu-create-profile-confirm =
+    .label = 新しいプロファイルを作成
+
+fxa-menu-create-profile-learn-more =
+    .label = プロファイルとは?

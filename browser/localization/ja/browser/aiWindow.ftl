@@ -116,18 +116,35 @@ aiwindow-website-chip-remove-button =
 ## Firstrun onboarding
 
 aiwindow-firstrun-title = { -smart-window-brand-name } にようこそ
-aiwindow-firstrun-model-title = 使用するモデルを選択
-aiwindow-firstrun-model-subtitle = いつでも切り替えて、自分に最適なものを見つけられます。
-aiwindow-firstrun-model-fast-label = 最速
-aiwindow-firstrun-model-fast-body = 日常的な質問に素早く回答するのに最適です
+aiwindow-firstrun-model-title = 何を重視しますか？
+aiwindow-firstrun-model-title-v2 = 開始するためのモデルの選択
+aiwindow-firstrun-model-subtitle = { -smart-window-brand-name } を動かすモデルを選択します。いつでも切り替えられます。
+aiwindow-firstrun-model-subtitle-v2 = それぞれのモデルはタブをまたいだ要約、比較、探索を支援します。いつでも切り替えられます。
+
 # $model (string) - The name of the AI model
 # $ownerName (string) - The name of the model owner/provider
-aiwindow-firstrun-model-chip-subtitle = モデル: { $model } / 提供元: { $ownerName }
-aiwindow-firstrun-model-allpurpose-label = 多目的
-aiwindow-firstrun-model-allpurpose-body = 素早い処理から複雑なタスクまで、幅広く対応するのに最適です
-aiwindow-firstrun-model-personal-label = パーソナライズ
-aiwindow-firstrun-model-personal-body = ユーザーの好みを学習し、パーソナライズするのに最適です
-aiwindow-firstrun-button = 始める
+# $shortName (string) - The short name of the model version
+aiwindow-firstrun-model-chip-subtitle = { $ownerName } によるモデル { $model }
+aiwindow-firstrun-model-personal-label = パーソナル
+aiwindow-firstrun-model-personal-body = 最もパーソナライズされた回答
+# $shortName (string) - The short name of the model version
+aiwindow-firstrun-model-personal-label-v2 = パーソナル: { $shortName }
+aiwindow-firstrun-model-personal-body-v2 = 言語を越えたパーソナライズされたヘルプ向けに構築
+aiwindow-firstrun-model-fast-label = 高速
+aiwindow-firstrun-model-fast-body = 素早く回答
+# $shortName (string) - The short name of the model version
+aiwindow-firstrun-model-fast-label-v2 = 高速: { $shortName }
+aiwindow-firstrun-model-fast-body-v2 = 急いでいる時の素早い回答に最適
+aiwindow-firstrun-model-allpurpose-label = フレキシブル
+aiwindow-firstrun-model-allpurpose-body = ほとんどのニーズにしっかり対応
+# $shortName (string) - The short name of the model version
+aiwindow-firstrun-model-flexible-label = フレキシブル: { $shortName }
+aiwindow-firstrun-model-flexible-body = さまざまなタスクに対応可能
+
+# Recommended represents the chat brand and model we recommend for users. Only affects European users.
+aiwindow-firstrun-model-recommended = 推奨
+
+aiwindow-firstrun-button = 開始
 aiwindow-firstrun-back-button = 戻る
 aiwindow-firstrun-next-button = 次へ
 
@@ -137,6 +154,7 @@ aiwindow-input-model-select-button-label-fast = 高速
 aiwindow-input-model-select-button-label-allpurpose = 汎用
 aiwindow-input-model-select-button-label-personal = 個人向け
 aiwindow-input-model-select-button-label-custom = カスタム
+aiwindow-input-model-select-button-description-custom = 独自の LLM の使用
 
 # Variables:
 # $ownerName (string) - The name of the model owner/provider
@@ -338,3 +356,21 @@ aiwindow-ai-chat-grid-list-view =
 aiwindow-ai-chat-grid-grid-view =
     .aria-label = モードを切り替え: グリッド表示
     .tooltiptext = グリッド表示
+
+## Smart Window new-tab conversation starters
+## These are short suggested user queries used to prompt the AI assistant when clicked on.
+## They then become the first message in the conversation.
+## When localizing, please write them as short instructions a user would give to an assistant.
+## They should also be concise and direct, but not at the expense of losing meaning.
+
+aiwindow-starter-writing-first-draft = 下書きを作成して
+aiwindow-starter-writing-improve = 文章を改善して
+aiwindow-starter-writing-proofread = メッセージを校正して
+
+aiwindow-starter-planning-simplify = トピックを分かりやすく説明して
+aiwindow-starter-planning-brainstorm = アイデアを出して
+aiwindow-starter-planning-plan = 計画の作成を手伝って
+
+aiwindow-starter-browsing-history = 履歴からタブを探して
+aiwindow-starter-browsing-summarize = タブを要約して
+aiwindow-starter-browsing-compare = タブを比較して

@@ -2705,13 +2705,13 @@ security-privacy-issue-warning-safe-browsing =
   .label = 危険なコンテンツや詐欺コンテンツがブロックされていません
   .description = ウェブサイトによる詐欺やマルウェアの脅威にさらされるリスクが高まります。
 
-security-privacy-issue-warning-doh =
-  .label = DNS over HTTPS が無効です
-  .description = DNS over HTTPS は、訪問したサイトの情報をネットワークプロバイダーから隠します。
+security-privacy-issue-warning-doh2 =
+.label = DNS over HTTPS は無効です
+.description = DNS over HTTPS は、あなたがアクセスしようとしているサイトをネットワークプロバイダーから隠すのに役立ちます。
 
-security-privacy-issue-warning-ech =
-  .label = Encrypted Client Hello が無効です
-  .description = Encrypted Client Hello は、訪問したサイトの情報をネットワークプロバイダーから隠します。
+security-privacy-issue-warning-ech2 =
+.label = Encrypted Client Hello は無効です
+.description = Encrypted Client Hello は、あなたがアクセスしようとしているサイトをネットワークプロバイダーから隠すのに役立ちます。
 
 security-privacy-issue-warning-proxy-autodetection =
   .label = プロキシの自動構成が有効です

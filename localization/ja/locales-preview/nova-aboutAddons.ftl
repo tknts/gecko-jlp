@@ -17,3 +17,14 @@ list-empty-get-extensions-promo =
   .message = 集中力の向上やプライバシーの保護などに役立つおすすめの拡張機能を用意しています。
 
 list-empty-get-extensions-promo-button = 最初の拡張機能を見つける
+
+# Themes Mode segmented control shown at the top of the about:addons themes list view
+# when Project Nova is enabled.
+themes-mode-light =
+  .label = ライト
+
+themes-mode-dark =
+  .label = ダーク
+
+themes-mode-device =
+  .label = デバイス設定に従う

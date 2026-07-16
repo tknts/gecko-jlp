@@ -13,11 +13,11 @@ unified-extensions-discover-extensions =
     .label = 拡張機能を探す
 unified-extensions-empty-reason-private-browsing-not-allowed = 拡張機能はインストールされていますが、プライベートウィンドウでは有効になっていません
 unified-extensions-empty-reason-extension-not-enabled = 拡張機能はインストールされていますが、有効になっていません
-# In this headline, “Level up” means to enhance your browsing experience.
-unified-extensions-empty-reason-zero-extensions-onboarding = 拡張機能でブラウジングをレベルアップ
-unified-extensions-empty-content-explain-enable2 = 設定で有効にするには “{ unified-extensions-manage-extensions.label }” を選択してください。
-unified-extensions-empty-content-explain-manage2 = 設定で管理するには “{ unified-extensions-manage-extensions.label }” を選択してください。
-unified-extensions-empty-content-explain-extensions-onboarding = 見た目や動作を変えたり、プライバシーと安全性を向上させたりして、{ -brand-short-name } をパーソナライズしましょう。
+# In this headline, "go a long way", means that even a small number of extensions can have a big impact.
+unified-extensions-empty-reason-zero-extensions-onboarding2 = 少数の拡張機能で大きな効果を
+unified-extensions-empty-content-explain-enable2 = “{ unified-extensions-manage-extensions.label }” を選択して、設定から拡張機能を有効にします。
+unified-extensions-empty-content-explain-manage2 = “{ unified-extensions-manage-extensions.label }” を選択して、設定から拡張機能を管理します。
+unified-extensions-empty-content-explain-extensions-onboarding2 = 集中力やプライバシーの向上などに役立つおすすめの拡張機能を用意しています。
 
 ## An extension in the main list
 
@@ -72,9 +72,9 @@ unified-extensions-mb-about-addons-link = 拡張機能の設定に移動
 # Variables:
 #   $extensionName (String) - Name of the extension disabled through a soft-block.
 unified-extensions-mb-blocklist-warning-single =
-    .heading = { $extensionName } が無効になっています
+    .heading = { $extensionName } が無効化されました
     .message =
-        この拡張機能は Mozilla のポリシーに違反しているため、無効化されました。設定で有効にすることはできますが、リスクを伴う可能性があります。
+        この拡張機能は制限されており、無効化されました。設定から有効化できますが、リスクを伴う可能性があります。
 
 
 # Variables:
@@ -86,13 +86,13 @@ unified-extensions-mb-blocklist-error-single =
 
 # Variables:
 #   $extensionsCount (Number) - Number of extensions disabled through both soft and hard-blocks (always going to be greater than 1)
-unified-extensions-mb-blocklist-warning-multiple =
+unified-extensions-mb-blocklist-warning-multiple2 =
     .heading =
         { $extensionsCount ->
-            *[other] { $extensionsCount } 個の拡張機能が無効になっています
+            *[other] { $extensionsCount } 個の拡張機能が無効化されました
         }
     .message =
-        一部の拡張機能が Mozilla のポリシー違反により無効化されました。設定で有効にすることはできますが、リスクを伴う可能性があります。
+        一部の拡張機能が制限され、無効化されました。設定から有効化できますが、リスクを伴う可能性があります。
 
 
 # Variables:

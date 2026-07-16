@@ -3,37 +3,37 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 printpreview-simplify-page-checkbox =
-    .label = Simplify Page
+    .label = ページを簡略化
     .accesskey = i
-    .tooltiptext = This page cannot be automatically simplified
+    .tooltiptext = このページは自動的に簡略化できません
 printpreview-simplify-page-checkbox-enabled =
     .label = { printpreview-simplify-page-checkbox.label }
     .accesskey = { printpreview-simplify-page-checkbox.accesskey }
-    .tooltiptext = Change layout for easier reading
+    .tooltiptext = 読みやすくするためにレイアウトを変更します
 printpreview-close =
     .label = 閉じる
     .accesskey = C
 printpreview-portrait =
-    .label = Portrait
+    .label = 縦
     .accesskey = o
 printpreview-landscape =
-    .label = Landscape
+    .label = 横
     .accesskey = L
 printpreview-scale =
-    .value = Scale:
+    .value = 拡大/縮小:
     .accesskey = S
 printpreview-shrink-to-fit =
-    .label = Shrink To Fit
+    .label = ページ幅に合わせて縮小
 printpreview-custom =
     .label = カスタム…
 printpreview-print =
     .label = 印刷…
     .accesskey = P
 printpreview-of =
-    .value = of
-printpreview-custom-scale-prompt-title = Custom Scale
+    .value = /
+printpreview-custom-scale-prompt-title = カスタムの倍率
 printpreview-page-setup =
-    .label = ページをセットアップ…
+    .label = ページ設定…
     .accesskey = u
 printpreview-page =
     .value = ページ:
@@ -42,7 +42,7 @@ printpreview-page =
 # Variables
 # $sheetNum (integer) - The current sheet number
 # $sheetCount (integer) - The total number of sheets to print
-printpreview-sheet-of-sheets = { $sheetNum } of { $sheetCount }
+printpreview-sheet-of-sheets = { $sheetNum } / { $sheetCount }
 
 ## Variables
 ## $percent (integer) - menuitem percent label
@@ -52,21 +52,21 @@ printpreview-percentage-value =
     .label = { $percent }%
 printpreview-homearrow =
     .label = { $arrow }
-    .tooltiptext = 最初のページへ移動します
+    .tooltiptext = 最初のページです
 printpreview-previousarrow =
     .label = { $arrow }
-    .tooltiptext = 前のページへ移動します
+    .tooltiptext = 前のページです
 printpreview-nextarrow =
     .label = { $arrow }
-    .tooltiptext = 次のページへ移動します
+    .tooltiptext = 次のページです
 printpreview-endarrow =
     .label = { $arrow }
-    .tooltiptext = 最後のページへ移動します
+    .tooltiptext = 最後のページです
 printpreview-homearrow-button =
-    .title = 最初のページ
+    .title = 最初のページの表示
 printpreview-previousarrow-button =
-    .title = 前のページ
+    .title = 前のページの表示
 printpreview-nextarrow-button =
-    .title = 次のページ
+    .title = 次のページの表示
 printpreview-endarrow-button =
-    .title = 最後のページ
+    .title = 最後のページの表示

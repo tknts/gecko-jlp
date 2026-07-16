@@ -89,11 +89,11 @@ restored-profile-page-learn-more = さらに詳しく
 
 # Variables
 #   $profilename (String) - The name of the profile.
-delete-profile-page-title-2 = “{ $profilename }” のプロファイルを削除
+delete-profile-page-title-2 = “{ $profilename }” プロファイルの削除
 
 # Variables
 #   $profilename (String) - The name of the profile.
-delete-profile-header = { $profilename } のプロファイルを削除しますか?
+delete-profile-header-2 = “{ $profilename }”  プロファイルを削除しますか?
 delete-profile-description = { -brand-short-name } は、このデバイスから次のデータを完全に削除します:
 # Open is an adjective, as in "browser windows currently open".
 delete-profile-windows = 開いたウィンドウ

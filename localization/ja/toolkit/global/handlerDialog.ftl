@@ -117,3 +117,27 @@ choose-other-app-window-title = その他のアプリケーション…
 
 # Displayed under the name of a protocol handler in the Launch Application dialog.
 choose-dialog-privatebrowsing-disabled = プライベート ウィンドウでは無効
+
+## Mailto handler picker
+## Shown when the user clicks a mailto: link and lets them pick which configured
+## web mail service (or the OS default app) should handle email links.
+
+mailto-handler-picker-window =
+      .title = メールアプリの選択
+      .style = min-width: 26em; min-height: 26em;
+
+mailto-handler-picker-subtitle = メールリンクに使用するアプリを選択してください。この設定は後で設定画面から変更できます。
+
+# Checkbox letting the user keep being prompted with this picker each time they
+# click an email link, instead of remembering the chosen handler.
+mailto-handler-picker-always-ask = メールリンクをクリックしたときに常に確認する
+
+# Confirms the picker: sets the selected app as the handler for email links.
+mailto-handler-picker-set-default =
+      .label = デフォルトに設定
+      .accesskey = S
+
+# Dismisses the picker without choosing an email app for now.
+mailto-handler-picker-not-now =
+      .label = 後で
+      .accesskey = N

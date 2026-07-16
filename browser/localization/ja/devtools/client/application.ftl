@@ -143,6 +143,12 @@ sidebar-item-session-history = セッション履歴
 session-history-entry-info-button-title =
   .title = セッション履歴データを表示します
 
+# Title (tooltip) for the clickable Session History diagram column headers, which
+# navigate the inspected page to that entry in its session history.
+# Variables:
+#   $index (number) - The session history index that will be navigated to.
+session-history-navigate-button-title = セッション履歴エントリ { $index } への移動
+
 # Header for the Session History page when session history diagrams are unavailable
 session-history-unavailable = セッション履歴図は利用できません
 

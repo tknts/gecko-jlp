@@ -114,6 +114,7 @@ newtab-menu-content-tooltip =
 ## Context Menu: These strings are displayed in a context menu and are meant as a call to action for a given page.
 
 newtab-menu-edit-topsites = 編集
+newtab-menu-add-topsite = 新しいショートカットを追加
 newtab-menu-open-new-window = 新しいウィンドウで開く
 newtab-menu-open-new-private-window = 新しいプライベート ウィンドウで開く
 newtab-menu-dismiss = 削除
@@ -256,7 +257,8 @@ newtab-recommended-stories-toggle =
   .label = おすすめの記事
 newtab-custom-stories-personalized-toggle =
   .label = ストーリー
-newtab-custom-stories-personalized-checkbox-label = あなたのアクティビティに基づいてパーソナライズされたストーリー
+newtab-custom-stories-personalized-checkbox =
+  .label = アクティビティに基づいたパーソナライズされた記事
 newtab-custom-weather-toggle =
   .label = 天気
   .description = 今日の天気予報をひと目で確認できます
@@ -730,6 +732,9 @@ newtab-widget-lists-input-menu-edit2 =
 newtab-widget-lists-edit-clear =
     .aria-label = キャンセル
     .title = キャンセル
+# Lists is a noun, as in "options for the lists"
+newtab-widget-lists-menu-button =
+    .aria-label = リストのオプション
 
 # the + symbol emphasises the functionality of adding a new list
 newtab-widget-lists-dropdown-create =
@@ -1297,6 +1302,10 @@ home-prefs-clocks-header =
 home-prefs-privacy-header =
     .label = プライバシー
 
+# Crossword is a widget on New Tab that shows a daily crossword puzzle.
+home-prefs-crossword-widget-header =
+    .label = クロスワード
+
 # Stocks is a widget on New Tab that shows stock ticker prices.
 home-prefs-stocks-header =
     .label = 株価
@@ -1391,22 +1400,218 @@ home-prefs-mission-message-learn-more-link-srd = 詳細はこちら
 # Context menu item linking to more information about the Privacy widget.
 newtab-privacy-menu-learn-more = さらに詳しく
 
+## Privacy widget — count readout
+
+# Label shown under the large tracker-count number, appearing like:
+# Line 1: 86
+# Line 2: Trackers blocked today
+# Translations can be adjusted to "Today's blocked trackers" or something
+# similar if this fixed order causes issues.
+# Variables:
+#   $count (number) - Number of trackers blocked today
+newtab-privacy-trackers-blocked-today =
+    { $count ->
+        [one] 今日ブロックされたトラッカー
+       *[other] 今日ブロックされたトラッカー
+    }
+
+# Second line of the readout, under the large number and "Trackers blocked
+# today". Counts the sites those trackers were blocked on. The English is
+# shortened from "Blocked across { $count } sites" — translate it that fuller way
+# if the short fragment doesn't work in your language.
+# Variables:
+#   $count (number) - Number of sites where trackers were blocked
+newtab-privacy-across-sites =
+    { $count ->
+        [one] { $count } 個のサイトでブロック
+       *[other] { $count } 個のサイトでブロック
+    }
+
+## Privacy widget — empty state
+
+# Shown when no trackers have been blocked yet today.
+newtab-privacy-empty = { -brand-short-name } は閲覧中にトラッカーをブロックします。ブロックしたトラッカーはここに表示されます。
+
+## Privacy widget — informational messages
+##
+## Rotating "info" secondary messages. Each message has a body plus a matched
+## "-cta" button label sharing the same id stem (the CTA button isn't rendered
+## yet; the labels are authored so the pairing is ready).
+
+newtab-privacy-message-info-1 = { -brand-short-name } はウェブの閲覧中にトラッカーを自動的にブロックします。
+newtab-privacy-message-info-1-cta = 保護状態を表示
+newtab-privacy-message-info-2 = トラッカーのブロックは、企業によるオンラインでの追跡を防ぐのに役立ちます。
+newtab-privacy-message-info-2-cta = 保護状態を表示
+newtab-privacy-message-info-3 = 多くのサイトにトラッカーが設置されているため、訪問したことのない企業からもオンラインで追跡される可能性があります。
+newtab-privacy-message-info-3-cta = 保護状態を表示
+newtab-privacy-message-info-4 = { -brand-short-name } を選ぶということは、デフォルトで保護機能を選択していることを意味します。
+newtab-privacy-message-info-4-cta = 保護状態を表示
+newtab-privacy-message-info-5 = トラッカーをブロックすることで、サイト間で追跡できる企業を減らせます。
+newtab-privacy-message-info-5-cta = 保護状態を表示
+newtab-privacy-message-info-6 = データを { -brand-short-name } で安全に保ちましょう。私たちはデータを決して販売しませんが、他のブラウザーは販売する可能性があります。
+newtab-privacy-message-info-6-cta = 詳細情報
+newtab-privacy-message-info-7 = { -brand-short-name } がブロックしたトラッカーを確認しましょう。
+newtab-privacy-message-info-7-cta = 保護状態を表示
+newtab-privacy-message-info-8 = { -brand-short-name } での閲覧は、より良いウェブを構築するという { -vendor-short-name } のミッションを支援することに繋がります。
+newtab-privacy-message-info-8-cta = 詳細情報
+newtab-privacy-message-info-9 = 組み込みのプライバシー機能を備えた { -brand-short-name } をメインのブラウザーにしましょう。
+newtab-privacy-message-info-9-cta = デフォルトに設定
+newtab-privacy-message-info-10 = パスワードを { -brand-short-name } に保存して、あらゆる場所で強力かつ固有のログイン情報を使用しましょう。
+newtab-privacy-message-info-10-cta = パスワードを表示
+newtab-privacy-message-info-11 = { -brand-short-name } がどのように閲覧のプライバシー保護に役立つか確認しましょう。
+newtab-privacy-message-info-11-cta = 詳細情報
+newtab-privacy-message-info-12 = トラッカーをブロックすると、制限付きデータプランでの帯域幅の節約に役立ちます。
+newtab-privacy-message-info-12-cta = 保護状態を表示
+newtab-privacy-message-info-13 = { -brand-short-name } はトラッカーをブロックし、よりスムーズなストリーミングのために帯域幅を解放します。
+newtab-privacy-message-info-13-cta = 保護状態を表示
+
+## Privacy widget — promotional messages
+##
+## Rotating "promo" secondary messages suggesting another Firefox feature. Each
+## has a body plus a matched "-cta" button label.
+
+newtab-privacy-message-promo-monitor-1 = あなたの個人情報がデータ侵害に遭っているか確認しましょう。
+newtab-privacy-message-promo-monitor-1-cta = 詳細情報
+newtab-privacy-message-promo-monitor-2 = 最大 20 個のメールアドレスに対応する無料のデータ侵害監視機能で、情報を保護しましょう。
+newtab-privacy-message-promo-monitor-2-cta = 詳細情報
+newtab-privacy-message-promo-signin-1 = { -vendor-short-name } アカウントを使用して、ブックマーク、パスワード、タブをデバイス間で暗号化して同期しましょう。
+newtab-privacy-message-promo-signin-1-cta = サインイン
+newtab-privacy-message-promo-vpn-1 = 公共 Wi-Fi でお買い物ですか? さらに保護を高めるために、組み込み VPN をオンにしましょう。
+newtab-privacy-message-promo-vpn-1-cta = VPN を開く
+newtab-privacy-message-promo-vpn-2 = 空港の Wi-Fi を使用中ですか? 組み込み VPN をオンにして、ブラウジングを保護しましょう。
+newtab-privacy-message-promo-vpn-2-cta = VPN を開く
+newtab-privacy-message-promo-vpn-3 = 組み込み VPN をオンにして、位置情報のプライバシーをさらに高めましょう。
+newtab-privacy-message-promo-vpn-3-cta = VPN を開く
+newtab-privacy-message-promo-private-window-1 = 共有コンピューターを使用する時は、よりプライベートに閲覧できるプライベートウィンドウを試してみましょう。
+newtab-privacy-message-promo-private-window-1-cta = プライベートウィンドウを開く
+newtab-privacy-message-promo-relay-1 = 本物のメールアドレスは信頼できる人のために残し、サインアップにはメールマスクを使用しましょう。
+newtab-privacy-message-promo-relay-1-cta = マスクを取得
+newtab-privacy-message-promo-relay-2 = 無料のメールマスク機能で、インボックスを迷惑メールから保護しましょう。
+newtab-privacy-message-promo-relay-2-cta = マスクを取得
+newtab-privacy-message-promo-relay-3 = 本物のメールアドレスのプライバシーを保つために、50 個の無料メールマスクを取得しましょう。
+newtab-privacy-message-promo-relay-3-cta = マスクを取得
+
+## Privacy widget — celebration messages
+##
+## Earned "celebration" moments (milestones, daily cap, streak, first
+## protection). Count-bearing ones interpolate { $count }.
+
+# Variables:
+#   $count (number) - Trackers blocked this week
+newtab-privacy-message-milestone-week =
+    { $count ->
+        [one] 今週 { $count } 個のトラッカーをブロックしました。{ -brand-short-name } が何をブロックしているか確認しましょう
+       *[other] 今週 { $count } 個のトラッカーをブロックしました。{ -brand-short-name } が何をブロックしているか確認しましょう
+    }
+newtab-privacy-message-milestone-week-cta = 保護状態を表示
+
+# Variables:
+#   $count (number) - Trackers blocked this month
+newtab-privacy-message-milestone-month =
+    { $count ->
+        [one] 今月 { $count } 個のトラッカーをブロックしました。プライバシーへの小さな一歩、安心への大きな一歩です。
+       *[other] 今月 { $count } 個のトラッカーをブロックしました。プライバシーへの小さな一歩、安心への大きな一歩です。
+    }
+newtab-privacy-message-milestone-month-cta = 保護状態を表示
+
+# Variables:
+#   $count (number) - Trackers blocked this year
+newtab-privacy-message-milestone-year =
+    { $count ->
+        [one] 今年 { $count } 個のトラッカーをブロックしました。プライバシーが強力に保護された 1 年です。
+       *[other] 今年 { $count } 個のトラッカーをブロックしました。プライバシーが強力に保護された 1 年です。
+    }
+newtab-privacy-message-milestone-year-cta = 保護状態を表示
+
+# Variables:
+#   $count (number) - Trackers blocked all-time
+newtab-privacy-message-milestone-total =
+    { $count ->
+        [one] { $count } 個のトラッカーをブロックしました。あなたに合わせたプライバシー保護への大きな前進です。
+       *[other] { $count } 個のトラッカーをブロックしました。あなたに合わせたプライバシー保護への大きな前進です。
+    }
+newtab-privacy-message-milestone-total-cta = 保護状態を表示
+
+# Shown when today's blocked-tracker count reaches the display cap ("100+").
+newtab-privacy-message-daily-cap = (今日 100 個以上のトラッカーをブロックしました。) トラッカーが減るほど、プライバシーが高まります。
+newtab-privacy-message-daily-cap-cta = 保護状態を表示
+
+# Variables:
+#   $count (number) - Consecutive days the user has had trackers blocked
+newtab-privacy-message-streak =
+    { $count ->
+        [one] { $count } 日連続で保護されています。
+       *[other] { $count } 日連続で保護されています。
+    }
+newtab-privacy-message-streak-cta = 保護状態を表示
+
+# Shown the first time the tracker count goes above zero.
+newtab-privacy-message-first-protection = 閲覧を続けましょう。{ -brand-short-name } はブロックを続けます。
+newtab-privacy-message-first-protection-cta = 保護状態を表示
+
 ## Strings for the Stocks widget
+
+# Heading for the Stocks widget.
+newtab-stocks-widget-title = 株価
 
 # Context menu item for searching stock ticker symbols.
 newtab-stocks-menu-search = ティッカーシンボルを検索
 
-# Context menu item that hides the Stocks widget.
-newtab-stocks-menu-hide = 株価を非表示
-
 # Context menu item linking to more information about the Stocks widget.
 newtab-stocks-menu-learn-more = さらに詳しく
 
+# "Stocks widget options" is an icon-only button in the widget toolbar — the
+# attributes are consumed as tooltip/screen-reader label only. The button
+# never renders visible text.
+newtab-stocks-widget-menu-button =
+    .title = 株価ウィジェットのオプション
+    .aria-label = 株価ウィジェットのオプション
+
+## Screen-reader summary of a stock ticker.
+## Variables:
+##   $name (String) - the full fund/ETF name, e.g. "SPDR S&P 500 ETF Trust".
+##   $change (String) - the day's percentage change, e.g. "+2.1%".
+##   $price (String) - the last price, e.g. "$559.44".
+
+# Stock increased (went up) during the day
+newtab-stocks-ticker-status-up = { $name }、{ $change } 上昇、{ $price }
+
+# Stock decreased (went down) during the day
+newtab-stocks-ticker-status-down = { $name }、{ $change } 下落、{ $price }
+
+# Stock didn't change during the day
+newtab-stocks-ticker-status-flat = { $name }、変更なし、{ $change }、{ $price }
+
 ## Strings for the Picture of the Day widget
 
-# Eyebrow shown at the top of the widget. Wikimedia Commons is a brand name and
-# should not be translated.
-newtab-picture-header = 今日の写真 · Wikimedia Commons
+# Title shown at the top of the widget, with the source name appended.
+# "Wikimedia Commons" is a brand name and should not be translated.
+newtab-picture-header = 今日の画像 · Wikimedia Commons
+
+# Shorter title shown at the top of the widget, without the source name.
+newtab-picture-header-main = 今日の画像
+
+# Attribution line shown under the title once a picture loads: an author
+# credit, a link to the picture's source page, and a link to its license.
+# "©" is the copyright symbol.
+# $author (string) - the name of the image's author.
+newtab-picture-attribution-author = © { $author }
+
+# Link to the picture's source page (its Wikimedia Commons file page).
+# "Wikimedia Commons" is a brand name and should not be translated.
+newtab-picture-attribution-source-link = Wikimedia Commons
+
+# Screen-reader label for the license link; the visible text is the license
+# name (for example "CC BY-SA 4.0") provided with the picture.
+# $license (string) - the name of the license.
+newtab-picture-attribution-license =
+    .aria-label = { $license } ライセンスを表示
+
+# Tooltip and screen-reader label for the icon-only button that opens the
+# widget's context menu. The button never renders visible text.
+newtab-picture-widget-menu-button =
+    .title = 今日の画像のオプション
+    .aria-label = 今日の画像のオプション
 
 # Button that sets the current picture as the New Tab background wallpaper. The
 # button collapses to an icon when not hovered/focused, so .title is its tooltip.

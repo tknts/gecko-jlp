@@ -54,6 +54,22 @@ smart-window-model-flexible =
 smart-window-model-personal =
     .label = パーソナル: 最も一人ひとりに適した回答をします
     .description = モデル: { $model } / 提供元: { $ownerName }
+
+## Full name indicates the full version name of the model currently listed along with its publisher
+##   $shortName (string) - The display name of the model collection
+##   $model (string) - The name of the AI model
+##   $ownerName (String) - The name of owner of the AI model
+
+smart-window-model-fast-v2 =
+    .label = {$shortName}: 高速
+    .description = 速度が重要な場合における素早い回答に最適。フルネーム: { $ownerName } による { $model }
+smart-window-model-flexible-v2 =
+    .label = {$shortName}: フレキシブル
+    .description = さまざまなタスクに対応可能。フルネーム: { $ownerName } による { $model }
+smart-window-model-personal-v2 =
+    .label = {$shortName}: パーソナル
+    .description = 言語を越えたパーソナライズされたヘルプ向けに構築。フルネーム: { $ownerName } による { $model }
+
 smart-window-model-custom =
     .label = カスタム: 独自の LLM を使用する
 smart-window-model-custom-name =

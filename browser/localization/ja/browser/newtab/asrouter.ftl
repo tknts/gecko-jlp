@@ -483,3 +483,10 @@ nova-early-access-share-feedback-link = フィードバックを送信
 
 nova-early-access-infobar-primary-button = 了解しました
   .accesskey = G
+
+## App Exit Spotlight dialog
+
+app-exit-spotlight-title = Windows へのサインイン時に { -brand-short-name } を毎回起動
+app-exit-spotlight-checkbox-launch-on-login = スタートアップ時に { -brand-short-name } を開く
+app-exit-spotlight-checkbox-pin-to-taskbar = タスクバーにピン留めする
+app-exit-spotlight-primary-button = 保存して { -brand-short-name } を閉じる
