@@ -20,6 +20,8 @@ customkeys-reset-all-button = デフォルトに戻す
 
 ## Shortcut actions
 
+# Displayed below the action label (e.g. "Undo") when the shortcut cannot be changed.
+customkeys-key-unchangeable = (変更できません)
 customkeys-key-new =
   .label = 新しいキーを押してください:
 # Displayed in the new key field when the key that was pressed isn't valid.
@@ -47,6 +49,11 @@ customkeys-conflict-confirm-title = 別のショートカットの削除?
 customkeys-conflict-confirm-body = このキーはすでに “{ $conflict }” で使用されています。
 customkeys-conflict-confirm-button-confirm = 強制的に使用
 customkeys-conflict-confirm-button-cancel = キャンセル
+
+customkeys-conflict-unusable-title = キーの使用不可
+# Variables
+# $conflict (string) - The title of the conflicting shortcut.
+customkeys-conflict-unusable-body = このキーはすでに “{ $conflict }” で使用されているため、使用できません。
 
 customkeys-reset-all-confirm-title = デフォルトの復元?
 customkeys-reset-all-confirm-body = 作成したすべてのカスタムキーボードショートカットが削除されます。

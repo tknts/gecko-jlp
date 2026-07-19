@@ -55,6 +55,11 @@ appmenuitem-translate =
     .label = ページを翻訳…
 appmenuitem-zoom =
     .value = 拡大と縮小
+
+# This menu item opens the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
+appmenuitem-referrals =
+    .label = { -brand-product-name } を共有
 appmenuitem-more-tools =
     .label = その他のツール
 appmenuitem-help =
@@ -124,6 +129,54 @@ appmenu-remote-tabs-unverified = アカウントの認証が必要です。
 appmenuitem-fxa-toolbar-sync-now2 = 今すぐ同期
 appmenuitem-fxa-sign-in = { -brand-product-name } にサインイン
 appmenuitem-fxa-manage-account = アカウントを管理
+
+fxa-menu-sync-status-on = 同期はオンです
+
+fxa-menu-sync-status-off = 同期はオフです
+
+# Shown as a secondary label under "Sync is Off" when the user is signed in but
+# sync is turned off.
+fxa-menu-sync-off-data-description = データは同期されていません
+
+# Button shown next to "Sync is Off" when the user is signed in but sync is
+# turned off. Turns syncing on by opening sync preferences.
+fxa-menu-sync-status-turn-on-button =
+    .label = オンにする
+
+# Shown as a secondary label under "Sync is Off" when the user needs to sign in
+# (again) for sync to work.
+fxa-menu-sync-off-signin-description = 同期するにはサインインしてください
+
+# Sync is a verb, short for synchronize.
+# Variables:
+#   $deviceName (String): The name of the local device.
+fxa-menu-sync-device-now = 今すぐ { $deviceName } を同期
+
+fxa-menu-manage-sync-settings =
+    .label = 同期設定を管理
+
+fxa-menu-add-device =
+    .label = デバイスを追加
+
+fxa-menu-manage-devices =
+    .label = デバイスの管理
+
+fxa-menu-device-missing =
+    .label = デバイスが表示されませんか [ ? ]
+
+# Mozilla account menu item when selected opens a panel with all devices synced to the user's account
+fxa-menu-all-devices =
+    .label = すべてのデバイス
+
+# Mozilla account panel title which shows all devices synced to a user's account
+fxa-menu-all-devices-panel =
+    .title = すべてのデバイス
+
+fxa-menu-get-firefox-mobile =
+    .label = Android または iOS 版 { -brand-product-name } を入手
+
+fxa-menu-secure-sync-subpanel =
+    .title = 安全な同期
 appmenu-account-header = アカウント
 # Variables
 # $time (string) - Localized relative time since last sync (e.g. 1 second ago,
@@ -352,6 +405,24 @@ appmenu-profiles-header = プロファイル
 appmenu-all-profiles =
     .label = すべてのプロファイル
 appmenu-secure-sync-header = 安全な同期
+
+# Panel shown when clicking a synced device in the Mozilla account menu.
+# The .title attribute sets the panel header text.
+fxa-menu-device-recent-tabs-panel =
+    .title = 最近のタブ
+
+# Button at the bottom of the per-device recent tabs subpanel.
+# Variables:
+#   $tabCount (Number): Total number of synced tabs on the device.
+fxa-menu-device-view-all-synced-tabs =
+    .label = { $tabCount ->
+        [one] 同期されたタブを表示
+       *[other] 同期された { $tabCount } 個のタブを表示
+    }
+
+# Button in the recent tabs sub-panel that sends the current page to the synced device.
+fxa-menu-device-send-current-page =
+    .label = このデバイスに現在のページを送信
 
 appmenu-profiles-2 =
     .label = プロファイル

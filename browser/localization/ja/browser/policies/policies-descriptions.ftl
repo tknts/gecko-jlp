@@ -49,6 +49,11 @@ policy-CaptivePortal = キャプティブポータルのサポートを切り替
 
 policy-CertificatesDescription =証明書を追加、または組み込みの証明書を利用します。
 
+# CNSA 2.0 is the United States National Security Agency's Commercial National
+# Security Algorithm Suite 2.0. ML-KEM-1024 is a post-quantum key agreement
+# algorithm. Neither should be translated.
+policy-CNSA2KeyAgreementEnabled = TLS 用の CNSA 2.0 ML-KEM-1024 鍵合意を有効にする
+
 policy-ContentAnalysis = データ損失防止エージェントへの接続を切り替えます。
 
 policy-Cookies = ウェブサイトの Cookie の保存を切り替えます。

@@ -43,6 +43,42 @@ ipprotection-feature-introduction-text-summer-promo-1 = オンにしてブラウ
 ipprotection-feature-introduction-title-summer-promo = 旅行のご予定ですか？プライバシーも一緒に連れていきましょう。
 ipprotection-feature-introduction-description-summer-promo = { -brand-product-name } 内蔵の VPN でさらに遠くへ: より多くの接続先、無制限の帯域幅。8 月 31 日まで。
 
+## Unlimited bandwidth summer promotion offramp callouts
+
+# Generic summer promo offramp message
+ipprotection-summer-promo-offramp-generic-title = 9 月 1 日の内蔵 VPN 制限のリセット
+# Variables
+#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+ipprotection-summer-promo-offramp-generic-description = ブラウジングの追跡をより困難にしてプライバシーを強化するため、{ $maxUsage } GB の容量と 6 つのロケーションを利用できます。
+
+# Generic summer promo offramp message for users who cannot upgrade to Mozilla VPN due to locale and already have Firefox as their default browser
+# Variables
+#   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
+ipprotection-summer-promo-offramp-generic-description-default-browser-users-no-upgrade = ブラウジングの追跡をより困難にしてプライバシーを強化するため、{ $maxUsage } GB の容量と 20 以上のロケーションを利用できます。
+
+# Mozilla VPN subscriber summer promo offramp message
+# Message shown to current subscribers of Mozilla VPN
+# Refers to subscribers now receiving unlimited bandwidth and more locations in the Firefox built-in VPN
+ipprotection-summer-promo-offramp-subscriber-title = 内蔵 VPN の機能向上
+ipprotection-summer-promo-offramp-subscriber-description = { -mozilla-vpn-brand-name } のサブスクリプション登録者として、無制限の帯域幅とより多くのロケーションを利用できるようになりました。
+
+# Default browser incentive summer promo offramp message
+# "Make Firefox your go-to browser" refers to setting Firefox to default.
+# This appears in a promo message with a button labeled "Set to default"
+ipprotection-summer-promo-offramp-default-browser-incentive-title = 内蔵 VPN の追加ロケーションの維持
+ipprotection-summer-promo-offramp-default-browser-incentive-description = { -brand-product-name } を通常のブラウザに設定すると、8 月 31 日以降も 20 以上の追加ロケーションからブラウジングできます。
+
+# Mozilla VPN upsell summer promo offramp message
+# "Level up" refers to enhancing VPN functionality from the Firefox built-in VPN
+ipprotection-summer-promo-offramp-subscription-upsell-title = { -mozilla-vpn-brand-name } による機能のアップグレード
+ipprotection-summer-promo-offramp-subscription-upsell-description = 8 月 31 日以降も無制限の帯域幅を維持し、5 台のデバイスで 300 以上のロケーションを利用してブラウジングの追跡をより困難にできます。
+
+# Summer promo offramp callout buttons
+ipprotection-summer-promo-offramp-open-vpn-primary-button = VPN を開く
+ipprotection-summer-promo-offramp-set-to-default-primary-button = デフォルトに設定
+ipprotection-summer-promo-offramp-get-subscription-button = { -mozilla-vpn-brand-name } を入手
+ipprotection-summer-promo-offramp-dismiss-secondary-button = 閉じる
+
 # Original strings for private browsing callout
 
 ipprotection-feature-introduction-link-text-private-browsing-2 = プライベート ウィンドウでも、新しい<a data-l10n-name="learn-more-vpn">内蔵 VPN</a> を使用して現在地を隠し、データを保護しましょう。
@@ -180,7 +216,8 @@ ipprotection-connection-status-network-error-description = インターネット
 
 ipprotection-connection-status-blocked-error-title-1 = VPN は利用できません
   .aria-label = VPN は利用できません
-ipprotection-connection-status-blocked-error-description = ご利用の地域の法律により、この地域では VPN サービスを提供することができません。<a data-l10n-name="learn-more-link">さらに詳しく</a>
+# "Where" refers to the user's location. It does not refer to apps or devices because the built-in VPN only protects a user's browsing in Firefox
+ipprotection-connection-status-blocked-error-description-1 = 地域の法律および規制により、VPN を利用できる場所が制限されています。<a data-l10n-name="learn-more-link">さらに詳しく</a>
 
 # Variables
 #   $usageLeft (string) - The amount of data a user has left in a month (in GB)

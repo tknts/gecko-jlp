@@ -68,7 +68,7 @@ newtab-topsites-clear-input =
     .aria-label = テキストを消去
 
 newtab-topsites-image-url-label = カスタム画像 URL
-newtab-topsites-use-image-link = カスタム画像を使用…
+newtab-topsites-use-custom-image-link = カスタム画像を使用
 newtab-topsites-image-validation = 画像を読み込めませんでした。別の URL を試してください。
 
 ## Top Sites - General form dialog buttons. These are verbs/actions.
@@ -590,11 +590,6 @@ newtab-download-mobile-highlight-body-variant-b = タブやパスワードなど
 newtab-download-mobile-highlight-body-variant-c = { -brand-product-name } をどこでも利用できることをご存じでしたか? 同じブラウザーがポケットの中に。
 newtab-download-mobile-highlight-image =
     .aria-label = モバイル版 { -brand-product-name } をダウンロードするための QR コード
-
-## Strings for shortcuts highlight
-
-newtab-shortcuts-highlight-title = お気に入りを手軽に利用
-newtab-shortcuts-highlight-subtitle = ショートカットを追加して、お気に入りのサイトにワンクリックでアクセスしましょう。
 
 ## Strings for reporting issues with ads and content
 
@@ -1559,6 +1554,9 @@ newtab-stocks-menu-search = ティッカーシンボルを検索
 
 # Context menu item linking to more information about the Stocks widget.
 newtab-stocks-menu-learn-more = さらに詳しく
+
+# Shown in the Stocks widget when its data could not be loaded.
+newtab-stocks-error-not-available = 株価データを利用できません。
 
 # "Stocks widget options" is an icon-only button in the widget toolbar — the
 # attributes are consumed as tooltip/screen-reader label only. The button
