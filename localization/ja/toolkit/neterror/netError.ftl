@@ -34,6 +34,14 @@ neterror-view-certificate-link = 証明書を表示
 
 neterror-pref-reset = ネットワークのセキュリティ設定が原因である可能性があります。デフォルトの設定を復元しますか?
 
+## Shown on about:neterror and about:certerror when the SSLKEYLOGFILE
+## environment variable is set, which causes { -brand-short-name } to log TLS
+## session keys that can be used to decrypt encrypted network traffic.
+
+neterror-sslkeylogging-warning =
+    .heading = この接続はプライベートではありません
+    .message = アプリまたはサービスがこのサイトとの暗号化されたトラフィックを閲覧できる可能性があります。
+
 ## Specific error messages
 
 neterror-generic-error = { -brand-short-name } は何らかの理由でこのページを読み込めません。

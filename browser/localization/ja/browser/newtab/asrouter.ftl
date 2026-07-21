@@ -285,20 +285,6 @@ launch-on-login-autostart-infobar-keep-button = 有効のままにする
 launch-on-login-autostart-infobar-turn-off-button = 無効にする
   .accesskey = T
 
-## Launch on login spotlight
-##
-## Shown as a spotlight message when the user closes the browser, offering to set
-## { -brand-short-name } to launch when the computer starts up.
-
-launch-on-login-spotlight-title = { -brand-short-name } のコンピューターの起動時に自動的に開始
-launch-on-login-spotlight-startup-checkbox = コンピューターの起動時に { -brand-short-name } を開始する
-launch-on-login-spotlight-pin-taskbar-checkbox = タスクバーにピン留めする
-# This checkbox label intentionally matches “startup-restore-windows-and-tabs”
-# in the Settings (preferences.ftl). Localizers can reuse the existing
-# translation suggested by translation memory.
-launch-on-login-spotlight-restore-checkbox = 前回のウィンドウとタブを開く
-launch-on-login-spotlight-primary-button = 保存して { -brand-short-name } を終了
-
 ## Tail Fox Set Default Spotlight
 
 # This title is displayed together with the picture of a running fox with a long tail.
@@ -498,9 +484,20 @@ nova-early-access-share-feedback-link = フィードバックを送信
 nova-early-access-infobar-primary-button = 了解しました
   .accesskey = G
 
-## App Exit Spotlight dialog
+## Firefox launch options spotlight
+##
+## Shown as a spotlight prompt on browser close or launch, offering
+## launch-on-login, taskbar pinning, and session restore.
 
-app-exit-spotlight-title = Windows へのサインイン時に { -brand-short-name } を毎回起動
-app-exit-spotlight-checkbox-launch-on-login = スタートアップ時に { -brand-short-name } を開く
-app-exit-spotlight-checkbox-pin-to-taskbar = タスクバーにピン留めする
-app-exit-spotlight-primary-button = 保存して { -brand-short-name } を閉じる
+launch-options-spotlight-title-launch-on-login = Windows にサインインするたびに { -brand-short-name } を起動しますか?
+launch-options-spotlight-title-session-restore = { -brand-short-name } の再起動時にセッションを復元しますか？
+launch-options-spotlight-checkbox-launch-on-login = 起動時に { -brand-short-name } を開く
+launch-options-spotlight-checkbox-pin-to-taskbar = タスクバーにピン留めする
+# Shown on the browser-close prompt only
+launch-options-spotlight-checkbox-restore-current = 現在のウィンドウとタブを再び開く
+# Shown on the browser-launch prompt only
+launch-options-spotlight-checkbox-restore-previous = 以前のウィンドウとタブを再び開く
+# Primary button on the browser-close prompt
+launch-options-spotlight-primary-button-close = 保存して { -brand-short-name } を閉じる
+# Primary button on the browser-launch prompt
+launch-options-spotlight-primary-button-launch = 保存して続行
