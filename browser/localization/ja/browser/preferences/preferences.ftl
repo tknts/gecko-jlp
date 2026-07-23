@@ -200,6 +200,7 @@ windows-launch-on-login =
     .accesskey = O
 windows-launch-on-login-disabled = この設定は Windows では無効になっています。変更するには Windows の設定にある <a data-l10n-name="startup-link">スタートアップ アプリ</a> にアクセスしてください。
 
+# Option to also opens a new tab, in addition to restoring previous tabs and windows
 windows-launch-on-login-open-new-tab =
     .label = 新しいタブも開く
     .accesskey = n
@@ -1717,6 +1718,29 @@ autofill-addresses-manage-addresses-title =
 addresses-no-addresses-stored-message =
     .label = 住所が登録されていません
 
+personal-info-group =
+    .label = 個人情報
+autofill-personal-info-checkbox-message =
+    .label = 個人情報を保存して自動入力する
+autofill-personal-info-manage-button =
+    .label = 個人情報を管理
+passports-list-header =
+    .label = パスポート
+passports-delete-passport-button-label =
+    .aria-label = 削除
+passports-edit-passport-button-label =
+    .aria-label = 編集
+passports-delete-passport-prompt-title = このパスポートを削除しますか?
+passports-delete-passport-prompt-confirm-button = 削除
+passports-delete-passport-prompt-cancel-button = キャンセル
+autofill-passports-add-button = 新しいパスポートを追加
+autofill-personal-info-manage-title =
+    .heading = 個人情報の管理
+
+# This message is displayed when no passports are stored in Firefox
+passports-no-passports-stored-message =
+    .label = パスポートは追加されていません
+
 pane-passwords-autofill-title2 = パスワードと自動入力
   .title = パスワードと自動入力
 preferences-passwords-autofill-header =
@@ -2110,13 +2134,6 @@ collection-backlogged-crash-reports2 =
     .label = クラッシュレポートを自動的に送信する
     .accesskey = c
 collection-backlogged-crash-reports-description = これは { -vendor-short-name } がブラウザーの問題を診断し、修正するために役立ちます。レポートには個人情報や機密データが含まれる場合があります。
-
-# Promotional message displayed in the Settings panes to inform users of the new redesign
-settings-redesign-promo =
-    .heading = 設定項目はそのまま、見た目が新しくなりました！
-    .message = より探しやすく、見やすいレイアウトに再構成しました。個人の設定は変更されておらず、すべての項目は引き続き利用可能です。ヒント: 検索機能を使えば、必要な項目にすぐ移動できます。
-settings-redesign-promo-dismiss-button =
-    .label = 了解
 
 privacy-segmentation-section-header = 閲覧を強化する新機能
 
@@ -2595,6 +2612,9 @@ preferences-etp-level-custom =
 preferences-etp-status-advanced-button =
     .label = 詳細設定
 
+preferences-etp-tracker-count-enabled =
+    .label = ブロックしたトラッカーをアドレスバーに表示する
+
 preferences-etp-status-protections-dashboard-link =
         .label = 個人用保護ダッシュボードを表示
         .description = ソーシャルメディアトラッカー、フィンガープリント、仮想通貨マイナーなど、{ -brand-short-name } がブロックしたトラッカーの数を確認できます。
@@ -2706,12 +2726,12 @@ security-privacy-issue-warning-safe-browsing =
   .description = ウェブサイトによる詐欺やマルウェアの脅威にさらされるリスクが高まります。
 
 security-privacy-issue-warning-doh2 =
-.label = DNS over HTTPS は無効です
-.description = DNS over HTTPS は、あなたがアクセスしようとしているサイトをネットワークプロバイダーから隠すのに役立ちます。
+  .label = DNS over HTTPS は無効です
+  .description = DNS over HTTPS は、あなたがアクセスしようとしているサイトをネットワークプロバイダーから隠すのに役立ちます。
 
 security-privacy-issue-warning-ech2 =
-.label = Encrypted Client Hello は無効です
-.description = Encrypted Client Hello は、あなたがアクセスしようとしているサイトをネットワークプロバイダーから隠すのに役立ちます。
+  .label = Encrypted Client Hello は無効です
+  .description = Encrypted Client Hello は、あなたがアクセスしようとしているサイトをネットワークプロバイダーから隠すのに役立ちます。
 
 security-privacy-issue-warning-proxy-autodetection =
   .label = プロキシの自動構成が有効です

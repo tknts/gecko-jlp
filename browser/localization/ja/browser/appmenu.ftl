@@ -62,8 +62,9 @@ appmenuitem-referrals =
     .label = { -brand-product-name } を共有
 appmenuitem-more-tools =
     .label = その他のツール
-appmenuitem-help =
-    .label = ヘルプ
+# Menu combining the previous "Help" menu and report broken site
+appmenuitem-help-and-report =
+    .label = ヘルプとフィードバック
 appmenuitem-exit2 =
     .label =
         { PLATFORM() ->
@@ -328,8 +329,9 @@ appmenu-search-history =
 
 ## Help panel
 
-appmenu-help-header =
-    .title = { -brand-shorter-name } のヘルプ
+# Menu header for combination of "Help" menu and report broken site
+appmenu-help-and-report-header =
+    .title = ヘルプとフィードバック
 appmenu-about =
     .label = { -brand-shorter-name } について
     .accesskey = A

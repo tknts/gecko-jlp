@@ -24,15 +24,6 @@ about-private-browsing-get-privacy = Get privacy protections everywhere you brow
 about-private-browsing-hide-activity-1 = { -mozilla-vpn-brand-name } で閲覧履歴や位置情報を隠せます。フリー Wi-Fi でもワンクリックで安全な接続を作成します。
 about-private-browsing-prominent-cta = { -mozilla-vpn-brand-name } でプライベートを維持する
 
-about-private-browsing-focus-promo-cta = { -focus-brand-name } をダウンロード
-about-private-browsing-focus-promo-header = { -focus-brand-name }: どこでもプライベート ブラウジングを
-about-private-browsing-focus-promo-text = プライベート ブラウジング専用のモバイルアプリは、毎回閲覧履歴と Cookie をクリアします。
-
-## The following strings will be used for experiments in Fx99 and Fx100
-
-about-private-browsing-focus-promo-header-c = モバイルにおける次世代のプライバシー
-about-private-browsing-focus-promo-text-c = { -focus-brand-name } は広告やトラッカーをブロックするたびに履歴を消去します。
-
 # This string is the title for the banner for search engine selection
 # in a private window.
 # Variables:

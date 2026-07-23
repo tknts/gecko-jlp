@@ -24,3 +24,35 @@ colorpicker-tooltip-alpha-slider-title = 不透明度
 
 # A text for the toggle for the element-specific pseudo-classes panel.
 inspector-element-specific-pseudo-classes-heading = 要素固有の擬似クラス
+
+# A title text for the light color scheme emulation options
+inspector-color-scheme-emulation-light =
+  .title = ページのライトカラースキームのエミュレーションを切り替え
+
+# A title text for the dark color scheme emulation options
+inspector-color-scheme-emulation-dark =
+  .title = ページのダークカラースキームのエミュレーションを切り替え
+
+# A title text for the emulation panel toggle button in the Rule View toolbar
+# that toggles the emulation features panel.
+inspector-emulation-panel-toggle =
+  .title = CSS エミュレーション機能の切り替え
+  .aria-label = CSS エミュレーション機能の切り替え
+
+inspector-emulation-panel-color-scheme = カラースキームのエミュレーション
+
+# A label text for the print emulation options
+inspector-emulation-panel-print = 有効
+  .aria-label = 印刷用メディアのエミュレーションを有効化
+
+# A label text for the light color scheme emulation radio button option.
+inspector-emulation-panel-color-scheme-light = ライト
+  .aria-label = ライトカラースキームのエミュレーションを有効化
+
+# A label text for the dark color scheme emulation radio button option.
+inspector-emulation-panel-color-scheme-dark = ダーク
+  .aria-label = ダークカラースキームのエミュレーションを有効化
+
+# A label text for the no color scheme emulation radio button option (uses user's preference).
+inspector-emulation-panel-color-scheme-none = エミュレーションなし
+  .aria-label = カラースキームのエミュレーションを無効化
