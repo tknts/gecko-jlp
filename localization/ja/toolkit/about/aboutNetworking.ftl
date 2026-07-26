@@ -19,6 +19,56 @@ about-networking-alt-svc-alpn = ALPN
 about-networking-alt-svc-validated = 検証済み
 about-networking-alt-svc-ttl = 有効期限 (TTL)
 about-networking-alt-svc-origin-attributes-suffix = 分離キー (Isolation Key)
+about-networking-ssl-tokens = TLS トークン
+# $count (Number) - Number of cached TLS resumption tokens
+about-networking-ssl-tokens-summary-count = { $count ->
+    [one] { $count } 個のトークン
+   *[other] { $count } 個のトークン
+}
+# $count (Number) - Number of cached tokens that have already expired
+about-networking-ssl-tokens-summary-expired = { $count ->
+    [one] ({ $count } 個期限切れ)
+   *[other] ({ $count } 個期限切れ)
+}
+# $decompressedLength (Number) - Total uncompressed size in bytes across all tokens
+# $compressedLength (Number) - Total compressed size in bytes across all tokens
+# $saved (Number) - Percentage of space saved by compression
+about-networking-ssl-tokens-summary-compression = { $decompressedLength } → { $compressedLength } B ({ $saved }% 削減)
+# $used (Number) - Cache size currently in use, in kilobytes
+# $capacity (Number) - Total cache capacity, in kilobytes
+# $percent (Number) - Percentage of the cache capacity currently in use
+about-networking-ssl-tokens-summary-capacity = { $used } / { $capacity } KB ({ $percent }%)
+about-networking-ssl-tokens-partition-key = パーティションキー
+about-networking-ssl-tokens-tokens-column = トークン
+about-networking-ssl-tokens-expires = 有効期限
+about-networking-ssl-tokens-certificate = 証明書
+# $count (Number) - Number of tokens sharing this row's host and certificate
+about-networking-ssl-tokens-token-list = { $count ->
+    [one] { $count } 個のトークン
+   *[other] { $count } 個のトークン
+}
+about-networking-ssl-tokens-restored =
+  .alt = ストレージから復元済み
+  .title = ストレージから復元済み
+about-networking-ssl-tokens-new =
+  .alt = このセッションの新規
+  .title = このセッションの新規の項目
+about-networking-ssl-tokens-expired =
+  .alt = 期限切れ
+  .title = 期限切れの項目
+# $tokenLength (Number) - Total size in bytes of the raw TLS resumption token(s)
+# $decompressedLength (Number) - Total size in bytes before compression
+# $compressedLength (Number) - Total size in bytes after compression
+about-networking-ssl-tokens-compression-details =
+  .title = トークン: { $tokenLength } B。エンコード済み: { $decompressedLength } → { $compressedLength } B。
+about-networking-ssl-tokens-ev-status = EV 証明書
+about-networking-ssl-tokens-ct-status = 証明書の透明性 (CT) ステータス
+about-networking-ssl-tokens-overridable-error = 上書き可能なエラーのカテゴリー
+about-networking-ssl-tokens-built-in-root = 組み込みルート証明書
+# $count (Number) - Number of certs in the succeeded cert chain
+about-networking-ssl-tokens-cert-chain = 証明書チェーン ({ $count })
+# $count (Number) - Number of certs seen during the TLS handshake
+about-networking-ssl-tokens-handshake-certs = ハンドシェイク証明書 ({ $count })
 about-networking-refresh = 更新
 about-networking-auto-refresh = 3 秒ごとに自動更新
 about-networking-hostname = ホスト名

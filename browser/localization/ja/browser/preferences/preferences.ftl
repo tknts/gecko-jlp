@@ -2510,9 +2510,9 @@ preferences-ai-controls-key-points-control =
     .label = リンクプレビューの要点
     .description = リンクを開く前に素早く要約を確認できます。
 
-preferences-ai-controls-sidebar-chatbot-group =
+preferences-ai-controls-sidebar-chatbot-group-2 =
     .label = サイドバーの AI チャットボットプロバイダー
-    .description = ブラウジング中にチャットボットを表示したままにできます。Anthropic Claude、ChatGPT、Copilot、Google Gemini、Le Chat Mistral から選択できます。
+    .description = 閲覧中にチャットボットを表示したままにします。Anthropic Claude、ChatGPT、Copilot、Google Gemini、Mistral Vibe から選択できます。
 
 preferences-ai-controls-sidebar-chatbot-control =
     .label = サイドバーのチャットボット

@@ -285,6 +285,29 @@ newtab-widget-manage-title = ウィジェット
 newtab-widget-manage-widget-button =
     .label = ウィジェットを管理
 
+## New Tab Appearance (browser theme picker)
+
+# Title of the browser theme ("Appearance") section in the customize panel.
+newtab-custom-appearance-section-title = 外観
+# Button that opens the full browser theme selection view.
+newtab-appearance-more-themes-button =
+    .label = 他のテーマを表示
+# Title of the full theme selection sub-panel, also used as its back button label.
+newtab-appearance-manage-title = { -brand-product-name } のテーマ
+# Header for the list of the user's already-installed themes in the full theme panel.
+newtab-appearance-your-themes-header = 使用中のテーマ
+# Button that enables an already-installed theme.
+newtab-appearance-enable-theme-button =
+    .label = 有効化
+# Button that disables the active theme and reverts to the default.
+newtab-appearance-disable-theme-button =
+    .label = 無効化
+# Button that installs a theme.
+newtab-appearance-install-theme-button =
+    .label = テーマをインストール
+# Button/link on the full theme panel that opens the complete list of available themes.
+newtab-appearance-explore-more-themes-button = 他のテーマを探す
+
 # Tooltip for close button
 newtab-custom-close-menu-button =
     .title = 閉じる

@@ -639,3 +639,9 @@ smartwindow-sidebar-auto-open-callout-accepted-title = アシスタントの閉�
 smartwindow-sidebar-auto-open-callout-accepted-subtitle = 任意のページで「質問」を使用して開いてください。これは <a data-l10n-name="settings">設定</a> でいつでも変更できます。
 smartwindow-sidebar-auto-open-callout-rejected-title = 了解の旨
 smartwindow-sidebar-auto-open-callout-rejected-subtitle = 気が変わった場合は、いつでも <a data-l10n-name="settings">設定</a> でデフォルトを更新できます。
+
+## Theme Picker screen strings
+
+onboarding-theme-picker-title = テーマの選択
+onboarding-theme-picker-subtitle = { -brand-short-name } に色彩をプラスしましょう。
+onboarding-theme-picker-button-label = 保存して続行

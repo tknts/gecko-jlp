@@ -169,17 +169,22 @@ action-log-reading-page = ページを読み込み中
 action-log-read-page = ページ内容を読み込みました
 action-log-searching-web = ウェブを検索中
 action-log-searched-web = ウェブを検索しました
-# Exa is the name of a third-party web search API
-# It is a brand name and should not be translated
-action-log-searched-web-exa = Exa を使用してウェブを検索
-action-log-checking-memories = メモリを確認中
-action-log-checked-memories = メモリを確認しました
+# Exa is the name of a third-party web search API and a brand name that
+# should not be translated. The <a> wraps "Exa" as a link to a support
+# article explaining the third-party web search integration.
+action-log-searching-web-with-exa = <a data-l10n-name="exa-link">Exa</a> でウェブを検索中
+# Exa is the name of a third-party web search API and a brand name that
+# should not be translated. The <a> wraps "Exa" as a link to a support
+# article explaining the third-party web search integration.
+action-log-searched-web-with-exa = <a data-l10n-name="exa-link">Exa</a> でウェブを検索しました
+action-log-checking-memories = メモリをチェック中
+action-log-checked-memories = メモリをチェックしました
 action-log-searching-settings = 設定を検索中
 action-log-searched-settings = 設定を検索しました
 action-log-searching-world-cup-matches = ワールドカップの試合を検索中
 action-log-searched-world-cup-matches = ワールドカップの試合を検索しました
-action-log-checking-world-cup-live = ワールドカップのライブ試合を確認中
-action-log-checked-world-cup-live = ワールドカップのライブ試合を確認しました
+action-log-checking-world-cup-live = ワールドカップのライブ配信をチェック中
+action-log-checked-world-cup-live = ワールドカップのライブ配信をチェックしました
 
 # Variables
 #   $count (Number) - how many tool steps completed in the turn
@@ -195,3 +200,10 @@ action-log-completed-steps =
 # current tab on the user’s behalf. Communicates both that the tab’s content
 # changed and that the assistant is reviewing the results before responding.
 smartwindow-search-loader-text = このタブに検索結果を読み込みました。分析しています…
+
+## Citations
+
+# Label for the button that reveals overflowing citation sources.
+# Variables:
+#   $count (Number) - Number of the additional hidden sources
+smartwindow-assistant-citations-more-label = 他 { $count } 件

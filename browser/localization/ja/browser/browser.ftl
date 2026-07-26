@@ -476,8 +476,8 @@ identity-clear-site-data =
     .label = Cookie とサイトデータを消去…
 identity-connection-not-secure-security-view = このサイトには安全に接続されていません。
 identity-connection-verified = このサイトには安全に接続されています。
-identity-ev-owner-label = 証明書の対象:
-identity-verifier-label = 検証者:
+identity-ev-owner-label2 = 証明書の所有者: 
+identity-verifier-label2 = 発行者: 
 # "qualified" here refers to the qualified website authentication certificate presented by the site.
 identity-etsi = 規則 (EU) 2024/1183 に規定される適格 (Qualified) 認証を受けています。
 identity-description-custom-root2 = Mozilla はこの証明書の発行者を認識していません。オペレーティングシステムまたは管理者によって追加された可能性があります。
@@ -494,6 +494,8 @@ identity-description-passive-loaded-insecure2 = このウェブサイトには�
 identity-description-passive-loaded-mixed2 = { -brand-short-name } は一部のコンテンツをブロックしましたが、ページには安全でないコンテンツ (画像など) が残っています。
 identity-description-active-loaded = このウェブサイトには安全でないコンテンツ (スクリプトなど) が含まれており、このウェブサイトへの接続ではプライバシーが保護されません。
 identity-description-active-loaded-insecure = このサイトと共有したあなたの情報  (パスワード、メッセージ、クレジットカード情報など) は、第三者に盗み見られる可能性があります。
+identity-description-tls-key-logging-heading = 接続がプライベートではない可能性
+identity-description-tls-key-logging-message = アプリやサービスがこのサイトからの暗号化されたトラフィックを閲覧できる可能性があります。
 identity-more-info-link-text =
     .label = その他の情報
 
@@ -1330,6 +1332,17 @@ private-browsing-indicator-label = プライベートブラウジング
 # Tooltip for the indicator shown in the private browsing window titlebar.
 private-browsing-indicator-tooltip =
     .tooltiptext = プライベートブラウジング
+
+# Tooltip for the private browsing indicator button that opens the info panel.
+private-browsing-indicator-button =
+    .tooltiptext = プライベートブラウジングの情報です
+
+# Title shown in the private browsing info panel.
+private-browsing-info-panel-title = プライベートウィンドウの表示
+
+# Body copy shown in the private browsing info panel. The learn-more link text
+# is embedded in the sentence.
+private-browsing-info-panel-description = このデバイスを使用する他のユーザーから閲覧履歴を隠せますが、オンライン上で完全に非表示になるわけではありません。<a data-l10n-name="learn-more">アクティビティを見ることができる対象者</a>
 
 # Tooltip for the indicator shown in the window titlebar when content analysis is active.
 # Variables:
