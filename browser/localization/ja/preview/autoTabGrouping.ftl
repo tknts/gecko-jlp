@@ -37,3 +37,8 @@ smartwindow-group-tabs-suggestion =
             [one] グループ { $groupLabel } を作成、{ $tabCount } 個のタブ
            *[other] グループ { $groupLabel } を作成、{ $tabCount } 個のタブ
         }
+# Heading for the list of groups the user just created (and can still undo).
+smartwindow-group-tabs-just-created-heading = 作成しました
+# Footer action that dissolves every group in the "Just created" list. The tabs
+# stay open; only the grouping is removed.
+smartwindow-group-tabs-ungroup = グループ解除

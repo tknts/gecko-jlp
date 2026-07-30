@@ -225,6 +225,39 @@ aiwindow-close-sidebar =
     .tooltiptext = 閉じる
     .aria-label = 閉じる
 
+## Chat History Menu
+## The menu opened from the "..." button next to the new chat button. Its main
+## view links to the chat history subview and Smart Window settings; the chat
+## history subview lists recent chats and a shortcut to all chats.
+
+aiwindow-history-menu =
+    .tooltiptext = その他のオプション
+    .aria-label = その他のオプション
+
+aiwindow-history-menu-chat-history = チャット履歴
+
+aiwindow-history-menu-back =
+    .tooltiptext = 戻ります
+    .aria-label = 戻る
+
+aiwindow-history-menu-view-all-chats = すべてのチャットを表示
+
+aiwindow-history-menu-settings = { -smart-window-brand-name } の設定
+
+## Fullpage top actions
+## Labeled buttons shown at the top of the fullpage Smart Window.
+
+aiwindow-fullpage-new-chat =
+    .label = 新しいチャット
+aiwindow-fullpage-chat-history =
+    .label = チャット履歴
+# "More" is the label for a button that opens a menu of additional Smart Window
+# options (currently Smart Window settings) — i.e. "more actions/options", not
+# more content or more chat history.
+aiwindow-fullpage-more =
+    .label = その他
+    .title = その他の項目
+
 ## Sign out dialog
 
 fxa-signout-dialog-body-aiwindow = 同期されたデータはアカウントに残ります。開いている { -smart-window-brand-name(plural-form: "true") } はクラシック ウィンドウに切り替わります。
