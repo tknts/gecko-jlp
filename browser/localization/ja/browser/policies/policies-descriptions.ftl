@@ -95,6 +95,8 @@ policy-DisableForgetButton = [忘れる] ボタンへのアクセスをブロッ
 
 policy-DisableFormHistory = 検索とフォームの履歴を記憶しないようにします。
 
+policy-DisableLaunchOnLogin = ユーザーのログイン時に { -brand-short-name } が自動起動しないようにします。
+
 policy-DisablePrimaryPasswordCreation = true にすると、プライマリ パスワードを作成できなくなります。
 
 policy-DisablePasswordReveal = 保存されたログイン情報のパスワードの表示を禁止します

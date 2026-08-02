@@ -68,6 +68,6 @@ about-private-browsing-felt-privacy-v1-info-link = 誰がアクティビティ�
 # are not being recorded. If there is not a comparable phrase in the locale,
 # fall back to "Your browsing will be deleted"
 about-private-browsing-nova-info-header = 閲覧履歴は残りません
-about-private-browsing-nova-info-subheader = このウィンドウを閉じると、すべての検索履歴とサインイン情報が消去されます。トラッカーのブロックなど、{ -brand-short-name } に組み込まれている保護機能もここで有効になっています。
+about-private-browsing-nova-info-subheader2 = プライベートウィンドウをすべて閉じると、すべての検索結果とサインインが削除されます。トラッカーのブロックなど、{ -brand-short-name } の組み込み保護機能もここで有効になります。
 about-private-browsing-nova-info-body = すべてのプライベートウィンドウを閉じると、クッキー、履歴、サイトデータが削除されます。
 about-private-browsing-nova-info-link = アクティビティをまだ確認できる可能性があるのは誰ですか？

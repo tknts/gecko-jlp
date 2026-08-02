@@ -16,6 +16,10 @@ menu-application-settings =
     .label = 設定…
 menu-application-set-as-default =
     .label = { -brand-shorter-name } を既定のブラウザーに設定する
+# This menu item opens the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
+menu-application-referrals =
+    .label = { -brand-shorter-name } の共有
 menu-application-services =
     .label = サービス
 menu-application-hide-this =
@@ -369,4 +373,8 @@ menu-help-not-deceptive =
     .label = フィッシングサイトではありません…
     .accesskey = D
 menu-report-broken-site =
-  .label = 壊れたサイトを報告
+    .label = 壊れたサイトを報告
+# This menu item opens the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
+menu-referrals =
+    .label = { -brand-shorter-name } の共有

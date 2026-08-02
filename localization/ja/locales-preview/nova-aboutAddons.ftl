@@ -47,6 +47,12 @@ aboutaddons-themes-picker-disable-button =
 aboutaddons-themes-picker-install-button =
     .label = インストール
 
+# Shown when a Nova theme fails to be downloaded, installed, enabled, or
+# disabled (e.g. no network access to reach the AMO-hosted theme, or a
+# local install/disk failure).
+aboutaddons-themes-picker-error-message =
+    .message = テーマを更新できませんでした。接続を確認してもう一度お試しください。
+
 ## Theme names shown in the Firefox Themes picker in about:addons and theme add-on card,
 ## and new default-theme description for the theme add-on card.
 ##

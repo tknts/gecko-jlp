@@ -54,5 +54,17 @@ inspector-emulation-panel-color-scheme-dark = ダーク
   .aria-label = ダークカラースキームのエミュレーションを有効化
 
 # A label text for the no color scheme emulation radio button option (uses user's preference).
-inspector-emulation-panel-color-scheme-none = エミュレーションなし
+inspector-emulation-panel-color-scheme-none = エミュレーションしない
   .aria-label = カラースキームのエミュレーションを無効化
+
+# A label text for the reduced motion emulation radio button option.
+inspector-emulation-panel-reduced-motion-reduce = 視覚効果を削減する
+  .aria-label = 視覚効果の削減のエミュレーションを有効にします
+
+# A label text for the no preference for reduced motion emulation radio button option.
+inspector-emulation-panel-reduced-motion-no-preference = 視覚効果の削減をしない
+  .aria-label = 視覚効果の削減なしのエミュレーションを有効にします
+
+# A label text for the no reduced motion emulation radio button option (uses user's preference).
+inspector-emulation-panel-reduced-motion-none = エミュレーションしない
+  .aria-label = 視覚効果の削減のエミュレーションを無効にします
