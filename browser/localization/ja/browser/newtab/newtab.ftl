@@ -97,6 +97,27 @@ topsite-label-pinned =
     .aria-label = { $title } (ピン留め済み)
     .title = { $title }
 
+## Top Sites - Web notifications hover card
+
+# Variables:
+#   $site (string) - The label or hostname of the site the notifications are from.
+newtab-topsites-hover-card-header = { $site } からの通知
+
+# Relative time shown for a notification posted less than a minute ago.
+newtab-topsites-hover-card-just-now = たった今
+
+newtab-topsites-hover-card-mark-all-read =
+    .title = すべて既読にする
+    .aria-label = すべて既読にする
+
+newtab-topsites-hover-card-settings =
+    .title = 通知の設定
+    .aria-label = 通知の設定
+
+newtab-topsites-hover-card-dismiss =
+    .title = 削除
+    .aria-label = 削除
+
 ## Context Menu - Action Tooltips.
 
 # General tooltip for context menus.
@@ -236,8 +257,12 @@ newtab-custom-shortcuts-toggle =
   .label = ショートカット
   .description = あなたが保存または訪問したサイト
 
-newtab-custom-shortcuts-toggle-rows =
+newtab-custom-shortcuts-nova =
   .label = ショートカット
+
+newtab-custom-web-notifications-toggle =
+  .label = ウェブ通知
+  .description = ショートカットからそのサイトの通知を表示します
 
 newtab-custom-row-description =
   .description = 行数
@@ -1218,10 +1243,26 @@ newtab-clock-widget-edit-clock-form =
 # It means "results of the search", not "search within the results".
 newtab-clock-widget-search-results =
     .aria-label = 検索結果
-# Shown in place of the search results when the user's query does not match any
-# supported city — e.g. typing a misspelled name or a place not in the IANA
-# time zone list.
-newtab-clock-widget-search-no-results = 一致する結果はありません
+# Fallback row in the search results that lets the user add a city that is
+# not in the list. $city (String) is the text the user has typed.
+newtab-clock-widget-add-custom = “{ $city }” をカスタム時計として追加
+# Text field for the display name of a user-added custom clock.
+newtab-clock-widget-custom-city-input =
+    .label = 都市名
+    .placeholder = この時計の名前を入力
+    .aria-label = 都市名
+# Searchable time-zone field shown when adding a custom clock. The user
+# types a city they know and picks it to set the clock's time zone.
+newtab-clock-widget-custom-timezone-input =
+    .label = タイムゾーン
+    .placeholder = 都市名、タイムゾーン、UTC オフセットで検索
+    .aria-label = タイムゾーン
+newtab-clock-widget-custom-zone-results =
+    .aria-label = タイムゾーンの検索結果
+# Shown in the time-zone picker when the search matches no time zones.
+newtab-clock-widget-custom-zone-no-results = 一致するタイムゾーンはありません
+# Returns from the custom clock form back to the city search.
+newtab-clock-widget-custom-back = 戻る
 # "Open menu for clock" is an icon-only button in the widget toolbar — the
 # attributes are consumed as tooltip/screen-reader label only. The button
 # never renders visible text.
@@ -1230,6 +1271,109 @@ newtab-clock-widget-menu-button =
     .aria-label = 時計のメニューを開く
 # $nickname (String) - The user-defined nickname for a saved clock location (e.g., "Home", "Office").
 newtab-clock-widget-label-nickname-with-value = ニックネーム: { $nickname }
+
+# Curated World Clock city names. The value is the city name shown on the
+# clock; translate to your locale's usual spelling for the city.
+newtab-clock-city-us-new-york = ニューヨーク
+newtab-clock-city-us-los-angeles = ロサンゼルス
+newtab-clock-city-us-chicago = シカゴ
+newtab-clock-city-us-san-francisco = サンフランシスコ
+newtab-clock-city-us-san-diego = サンディエゴ
+newtab-clock-city-us-dallas = ダラス
+newtab-clock-city-us-houston = ヒューストン
+newtab-clock-city-us-philadelphia = フィラデルフィア
+newtab-clock-city-us-atlanta = アトランタ
+newtab-clock-city-us-washington-dc = ワシントン D.C.
+newtab-clock-city-us-boston = ボストン
+newtab-clock-city-us-miami = マイアミ
+newtab-clock-city-us-seattle = シアトル
+newtab-clock-city-us-denver = デンバー
+newtab-clock-city-us-honolulu = ホノルル
+newtab-clock-city-us-anchorage = アンカレッジ
+newtab-clock-city-de-berlin = ベルリン
+newtab-clock-city-de-munich = ミュンヘン
+newtab-clock-city-de-frankfurt = フランクフルト
+newtab-clock-city-de-hamburg = ハンブルク
+newtab-clock-city-fr-paris = パリ
+newtab-clock-city-fr-lyon = リヨン
+newtab-clock-city-fr-marseille = マルセイユ
+newtab-clock-city-fr-toulouse = トゥールーズ
+newtab-clock-city-in-kolkata = コルカタ
+newtab-clock-city-in-mumbai = ムンバイ
+newtab-clock-city-in-delhi = デリー
+newtab-clock-city-in-bangalore = バンガロール
+newtab-clock-city-cn-shanghai = 上海
+newtab-clock-city-cn-beijing = 北京
+newtab-clock-city-cn-shenzhen = 深セン
+newtab-clock-city-br-sao-paulo = サンパウロ
+newtab-clock-city-br-rio-de-janeiro = リオデジャネイロ
+newtab-clock-city-br-brasilia = ブラジリア
+newtab-clock-city-id-jakarta = ジャカルタ
+newtab-clock-city-id-surabaya = スラバヤ
+newtab-clock-city-id-makassar = マカッサル
+newtab-clock-city-ca-toronto = トロント
+newtab-clock-city-ca-montreal = モントリオール
+newtab-clock-city-ca-vancouver = バンクーバー
+newtab-clock-city-au-sydney = シドニー
+newtab-clock-city-au-perth = パース
+newtab-clock-city-au-adelaide = アデレード
+newtab-clock-city-pl-warsaw = ワルシャワ
+newtab-clock-city-pl-krakow = クラコフ
+newtab-clock-city-jp-tokyo = 東京
+newtab-clock-city-jp-osaka = 大阪
+newtab-clock-city-mx-mexico-city = メキシコシティ
+newtab-clock-city-mx-guadalajara = グアダラハラ
+newtab-clock-city-it-rome = ローマ
+newtab-clock-city-it-milan = ミラノ
+newtab-clock-city-ru-moscow = モスクワ
+newtab-clock-city-ru-saint-petersburg = サンクトペテルブルク
+newtab-clock-city-gb-london = ロンドン
+newtab-clock-city-gb-birmingham = バーミンガム
+newtab-clock-city-es-madrid = マドリード
+newtab-clock-city-es-barcelona = バルセロナ
+newtab-clock-city-nl-amsterdam = アムステルダム
+newtab-clock-city-ch-zurich = チューリッヒ
+newtab-clock-city-at-vienna = ウィーン
+newtab-clock-city-cz-prague = プラハ
+newtab-clock-city-ar-buenos-aires = ブエノスアイレス
+newtab-clock-city-gr-athens = アテネ
+newtab-clock-city-hu-budapest = ブダペスト
+newtab-clock-city-be-brussels = ブリュッセル
+newtab-clock-city-ua-kyiv = キーウ
+newtab-clock-city-fi-helsinki = ヘルシンキ
+newtab-clock-city-co-bogota = ボゴタ
+newtab-clock-city-ph-manila = マニラ
+newtab-clock-city-tr-istanbul = イスタンブール
+newtab-clock-city-my-kuala-lumpur = クアラルンプール
+newtab-clock-city-eg-cairo = カイロ
+newtab-clock-city-se-stockholm = ストックホルム
+newtab-clock-city-ro-bucharest = ブカレスト
+newtab-clock-city-th-bangkok = バンコク
+newtab-clock-city-ng-lagos = ラゴス
+newtab-clock-city-tw-taipei = 台北
+newtab-clock-city-za-johannesburg = ヨハネスブルグ
+newtab-clock-city-cl-santiago = サンティアゴ
+newtab-clock-city-pk-karachi = カラチ
+newtab-clock-city-bg-sofia = ソフィア
+newtab-clock-city-sg-singapore = シンガポール
+newtab-clock-city-hk-hong-kong = 香港
+newtab-clock-city-sa-riyadh = リヤド
+newtab-clock-city-dk-copenhagen = コペンハーゲン
+newtab-clock-city-pe-lima = リマ
+newtab-clock-city-ke-nairobi = ナイロビ
+newtab-clock-city-nz-auckland = オークランド
+newtab-clock-city-kr-seoul = ソウル
+newtab-clock-city-lt-vilnius = ヴィルニュス
+newtab-clock-city-ie-dublin = ダブリン
+newtab-clock-city-ae-dubai = ドバイ
+newtab-clock-city-lv-riga = リガ
+newtab-clock-city-pt-lisbon = リスボン
+newtab-clock-city-ir-tehran = テヘラン
+newtab-clock-city-bd-dhaka = ダッカ
+newtab-clock-city-ec-guayaquil = グアヤキル
+newtab-clock-city-vn-ho-chi-minh-city = ホーチミン
+newtab-clock-city-np-kathmandu = カトマンズ
+newtab-clock-city-mm-yangon = ヤンゴン
 
 ##
 

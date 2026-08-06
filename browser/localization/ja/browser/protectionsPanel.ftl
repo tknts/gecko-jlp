@@ -103,28 +103,6 @@ protections-panel-content-blocking-manage-settings =
   .label = 保護設定を管理
   .accesskey = M
 
-# Cookie Banner Handling
-
-protections-panel-cookie-banner-blocker-header = Cookie 同意バナーをブロック
-protections-panel-cookie-banner-handling-enabled = このサイトで有効にする
-protections-panel-cookie-banner-handling-disabled = このサイトで無効にする
-protections-panel-cookie-banner-handling-undetected = Cookie 同意バナーが検出されませんでした
-
-protections-panel-cookie-banner-blocker-view-title =
-  .title = Cookie 同意バナーのブロック
-# Variables
-#  $host (String): the hostname of the site that is being displayed.
-protections-panel-cookie-banner-blocker-view-turn-off-for-site = { $host } で Cookie 同意バナーのブロックを無効にしますか?
-protections-panel-cookie-banner-blocker-view-turn-on-for-site = このサイトで Cookie 同意バナーのブロックを有効にしますか?
-protections-panel-cookie-banner-view-cookie-clear-warning = { -brand-short-name } は、このサイトの Cookie を消去し、ページを更新します。すべての Cookie を消去すると、サインアウトしたり、ショッピング カートが空になったりする場合があります。
-protections-panel-cookie-banner-blocker-view-turn-on-description = 有効にすると { -brand-short-name } はこのサイトの Cookie 同意バナーを自動的にブロックします。
-protections-panel-cookie-banner-view-cancel-label =
-  .label = キャンセル
-protections-panel-cookie-banner-view-turn-off-label =
-  .label = 使用しないf
-protections-panel-cookie-banner-view-turn-on-label =
-  .label = 使用する
-
 protections-panel-report-broken-site =
   .label = 壊れたサイトを報告
   .title = 壊れたサイトの報告

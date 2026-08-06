@@ -180,12 +180,6 @@ mr2022-background-update-toast-primary-button-label = { -brand-shorter-name } �
 # exceeding characters will be truncated.
 mr2022-background-update-toast-secondary-button-label = 後で通知する
 
-## Cookie Banner Handling CFR
-
-cookie-banner-blocker-onboarding-header = { -brand-short-name } が Cookie 同意バナーの表示ブロックしました
-cookie-banner-blocker-onboarding-body = このサイトでは気が散る要素が減り、Cookie があなたを追跡することも減ります。
-cookie-banner-blocker-onboarding-learn-more = さらに詳しく
-
 ## These strings are used in the Fox doodle Pin/set default spotlights
 
 july-jam-headline = 私たちはあなたをサポートしています

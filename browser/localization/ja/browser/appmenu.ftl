@@ -186,6 +186,13 @@ appmenu-fxa-last-sync = 最終同期: { $time }
     .label = 最終同期: { $time }
 appmenu-fxa-sync-and-save-data2 = 同期してデータを保存
 appmenu-fxa-signed-in-label = サイン イン
+
+# Sign-in promo shown in the app menu when signed out and no menu message or
+# update banner is present, prompting the user to sign in and sync.
+appmenu-fxa-sign-in-promo-heading = サインインして同期
+appmenu-fxa-sign-in-promo-message = どこからでもデータにアクセスできます
+appmenu-fxa-sign-in-promo-button =
+    .label = サインイン
 appmenu-fxa-setup-sync =
     .label = 同期を有効にする…
 appmenu-fxa-setup-sync-new = オンにする
@@ -314,6 +321,30 @@ profiler-popup-presets-custom-label =
 
 appmenu-manage-history =
     .label = 履歴を管理
+
+## Sync promo shown at the bottom of the History and Bookmarks panels. Its
+## variant depends on the user's account and Sync state. The sign-in heading and
+## all three call-to-action labels are shared by both panels; the remaining
+## headings are specific to the panel they appear in.
+
+appmenu-sync-promo-signin =
+    .heading = デバイス間で同期を維持
+appmenu-sync-promo-signin-cta = サインイン
+appmenu-sync-promo-turnonsync =
+    .heading = タブと履歴を同期
+appmenu-sync-promo-turnonsync-cta = Sync を有効化
+# This refers to getting tabs from your mobile device via sync
+appmenu-sync-promo-connectdevice =
+    .heading = モバイルのタブを取得
+appmenu-sync-promo-connectdevice-cta = デバイスを接続
+appmenu-bookmarks-sync-promo-turnonsync =
+    .heading = ブックマークを持ち出そう
+# This refers to having your bookmarks available on your mobile device via sync
+appmenu-bookmarks-sync-promo-connectdevice =
+    .heading = ブックマークをどこへでも
+
+##
+
 appmenu-restore-session =
     .label = 以前のセッションを復元
 appmenu-clear-history =
@@ -335,6 +366,11 @@ appmenu-help-and-report-header =
 appmenu-about =
     .label = { -brand-shorter-name } について
     .accesskey = A
+# This menu item opens the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
+appmenu-referrals =
+    .label = { -brand-shorter-name } の共有
+    .accesskey = r
 appmenu-get-help =
     .label = ヘルプを表示
     .accesskey = h
@@ -388,14 +424,17 @@ appmenuitem-sign-in-account = アカウントにサインイン
 
 appmenuitem-monitor-title2 = 個人情報の盗難を未然に防ぐ
 appmenuitem-monitor-description2 = データ侵害に関する通知を受け取る
-appmenuitem-relay-title = { -relay-brand-short-name }
+# Shown in place of appmenuitem-monitor-title2 when the user has signed up for Monitor.
+appmenuitem-monitor-title-signed-in = { -monitor-brand-short-name } データ侵害アラート
 appmenuitem-relay-title2 = メールアドレスのプライバシー保護
 appmenuitem-relay-description2 = 受信トレイへのスパムを防ぐのに役立ちます
-appmenuitem-services-relay-description = メールマスクダッシュボードを起動
-appmenuitem-vpn-title2 = { -mozilla-vpn-brand-name } で接続元を隠す
-appmenuitem-vpn-description3 = ブラウジングの追跡を困難にします
+# Shown in place of appmenuitem-relay-title2 when the user has signed up for Relay.
+appmenuitem-relay-title-signed-in = メール マスクの表示
+appmenuitem-vpn-title2 = { -mozilla-vpn-brand-name } で位置情報を隠す
+appmenuitem-vpn-description4 = アプリやデバイス全体の保護を強化します
+# Shown in place of appmenuitem-vpn-title2 when the user has signed up for VPN.
+appmenuitem-vpn-title-signed-in = { -mozilla-vpn-brand-name } を開く
 
-appmenu-services-header = マイサービス
 # "Mozilla" is intentionally hardcoded to prevent forks from replacing it
 # with their own vendor name, since these tools are created and maintained by
 # Mozilla.

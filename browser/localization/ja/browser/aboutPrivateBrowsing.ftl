@@ -49,13 +49,6 @@ about-private-browsing-pin-promo-link-text = { PLATFORM() ->
 }
 about-private-browsing-pin-promo-title = Cookie や履歴を残さずにデスクトップから直接閲覧できます。誰に見られる事なくブラウズすることができます。
 
-## Strings used in a promotion message for cookie banner reduction
-
-# Simplified version of the headline if the original text doesn't work
-# in your language: `{ -brand-short-name } will show fewer cookie requests`
-about-private-browsing-cookie-banners-promo-heading = { -brand-short-name } が Cookie バナーを処理します
-about-private-browsing-cookie-banners-promo-body = 多くの Cookie バナーで自動的に Cookie を拒否するようになりました。これにより、追跡されることが減り、気を散らすことのなくインターネットを楽しめます。
-
 ## Strings for the info section of about:privatebrowsing
 
 about-private-browsing-felt-privacy-v1-info-header = このデバイスに履歴を残しません

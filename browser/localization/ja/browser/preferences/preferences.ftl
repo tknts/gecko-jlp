@@ -1881,14 +1881,6 @@ sitedata-cookies-exceptions3 =
     .accesskey = x
     .description = 特定のサイトによる Cookie やサイトデータの取り扱い方法を選択します。
 
-## Privacy Section - Cookie Banner Blocking
-
-cookie-banner-blocker-header = Cookie 同意バナー ブロッカー
-cookie-banner-blocker-description = プライベート ブラウジング中にサイトが Cookie 同意バナーを表示しようとすると、{ -brand-short-name } は自動的に拒否します。これはサポートされているサイトでのみ動作します。
-cookie-banner-learn-more = さらに詳しく
-cookie-banner-blocker-checkbox-label =
-    .label = Cookie 同意バナー を自動的にブロックする
-
 ## Privacy Section - Content Blocking
 
 content-blocking-enhanced-tracking-protection = 強化型トラッキング防止機能
@@ -2736,3 +2728,16 @@ security-privacy-issue-warning-ech2 =
 security-privacy-issue-warning-proxy-autodetection =
   .label = プロキシの自動構成が有効です
   .description = プロキシの自動構成により、信頼できないネットワークがあなたの活動を監視できる可能性があります。
+
+## Referrals Section
+
+# The header in settings with link to the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
+referrals-section-header =
+  .label = { -brand-short-name } を薦める
+  .description = プライバシーを第一に考えるブラウザーをおすすめしましょう。
+
+# Link that opens the referral page, where the user can invite others to
+# use the browser. "Share" here means recommending or referring the browser
+referrals-link =
+  .label = { -brand-short-name } を薦める

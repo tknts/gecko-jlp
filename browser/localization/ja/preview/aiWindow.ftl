@@ -157,3 +157,45 @@ ai-tasks-alert-schedule-weekly-friday = 毎週金曜日の { DATETIME($time, tim
 ai-tasks-alert-schedule-weekly-saturday = 毎週土曜日の { DATETIME($time, timeStyle: "short") } に確認
 ai-tasks-alert-status-watching = 有効
 ai-tasks-alert-status-paused = 一時停止中
+
+## AI Window Agent chat messages
+## Shown in the chat conversation while the Agent sets up or manages a monitor.
+
+# The <a data-l10n-name="tasks"> element links to the tasks page. Its text is
+# the page address; keep it and the element (with its name) unchanged.
+# Variables:
+#   $count (number) - The maximum number of watch tasks allowed
+smartwindow-agent-monitor-limit-reached = すでに { $count } 個の監視タスクが実行されています。これは現在の制限値です。<a data-l10n-name="tasks">about:smartwindowtasks</a> でいずれかを削除してから、ここで再度 /watch と入力してください。
+
+smartwindow-agent-monitor-setup = このページを監視するタスクをセットアップしました。必要な調整を行い、開始してください。
+
+# Fallback name used for $monitorName when the watched page has no title.
+smartwindow-agent-monitor-default-name = ページの監視
+
+# The <a data-l10n-name="tasks"> element links to the tasks page. Its text is
+# the page address; keep it and the element (with its name) unchanged.
+# Variables:
+#   $monitorName (string) - The name of the page or target being watched
+#   $schedule (string) - Readable check cadence, e.g. "daily at 9:00 AM"
+smartwindow-agent-monitor-watching = { $monitorName } を { $schedule } 確認します。タスクに一致するコンテンツが見つかったときにお知らせします。このタスクは <a data-l10n-name="tasks">about:smartwindowtasks</a> でいつでも表示または編集できます。
+
+# Shown in place of the card when the user deletes a task from the chat.
+# Variables:
+#   $monitorName (string) - The name of the page or target that was being watched
+smartwindow-agent-monitor-deleted = { $monitorName } の監視を停止し、このタスクを削除しました。
+
+# Check watch schedule, added { $schedule } in the chat message.
+# Variables:
+#   $time (date) - The scheduled check time
+smartwindow-agent-monitor-schedule-daily = 毎日の { DATETIME($time, hour: "numeric", minute: "2-digit") } に
+
+# Variables:
+#   $time (date) - The scheduled check day and time
+smartwindow-agent-monitor-schedule-weekly = 毎週 { DATETIME($time, weekday: "long") } の { DATETIME($time, hour: "numeric", minute: "2-digit") } に
+
+# Status chip and change-history rows shown on a monitor card in chat.
+smartwindow-agent-monitor-status-watching = 監視中
+smartwindow-agent-monitor-status-paused = 一時停止中
+smartwindow-agent-monitor-history-check-failed = 確認に失敗しました。後でもう一度確認してください。
+smartwindow-agent-monitor-history-no-match = 確認しましたが、アラート条件を満たしていませんでした。後でもう一度確認してください。
+smartwindow-agent-monitor-checked-just-now = たった今

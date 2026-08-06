@@ -2,11 +2,32 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Promo footer shown in the about:addons recommendations view when
+# Project Nova styles are enabled.
+# The heading refers to the user choosing a Firefox theme or extension to
+# install. In the message, "tools" refers to Firefox extensions and
+# "styles" refers to Firefox themes.
+find-more-addons-promo =
+  .heading = { -brand-product-name } を自分好みにアレンジ
+  .message = ニーズや好みに合わせて機能やテーマを追加しましょう。
+
+find-more-addons-promo-open-amo-button = 拡張機能とテーマを探す
+
 # Promo footer shown in the about:addons extensions list view when
 # Project Nova styles are enabled.
-find-more-addons-promo =
-  .heading = アドオンをさらに探索
-  .message = { -brand-product-name } 拡張機能の世界を探索しましょう - 人気の拡張機能を見つけてインスピレーションを得たり、それらがどのように数百万人ものユーザーを魅了しているかを確認してください!
+# In the message, "tools" refers to Firefox extensions.
+find-more-extensions-promo =
+  .heading = お気に入りの拡張機能を見つけよう
+  .message = 集中、プライバシー、ショッピングなどに役立つツールで { -brand-product-name } をカスタマイズ。
+
+find-more-extensions-promo-open-amo-button = 拡張機能を探す
+
+# Promo footer shown in the about:addons themes list view when
+# Project Nova styles are enabled.
+# "Find more fresh looks" refers to the user looking for more Firefox themes.
+find-more-themes-promo =
+  .heading = 新しい見た目を探す
+  .message = { -brand-product-name } を自分らしいスタイルで使いましょう。
 
 find-more-addons-promo-open-amo-button = お気に入りの拡張機能を見つける
 
@@ -52,6 +73,12 @@ aboutaddons-themes-picker-install-button =
 # local install/disk failure).
 aboutaddons-themes-picker-error-message =
     .message = テーマを更新できませんでした。接続を確認してもう一度お試しください。
+
+# Checkbox shown inside the enabled default theme's addon-card, on Linux
+# only, to opt-in/opt-out matching the GTK/system theme colors instead of
+# the built-in default theme colors.
+aboutaddons-linux-theme-colors-checkbox-label =
+    .label = Linux のシステムテーマを使用する
 
 ## Theme names shown in the Firefox Themes picker in about:addons and theme add-on card,
 ## and new default-theme description for the theme add-on card.

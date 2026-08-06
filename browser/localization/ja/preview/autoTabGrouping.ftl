@@ -2,32 +2,33 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## Group My Tabs Panel
-## The panel opened from the "Group my tabs" toolbar button, which suggests
+## Organize Tabs Toolbar Button
+
+smartwindow-organize-tabs-button =
+    .label = タブの整理
+    .tooltiptext = タブを整理します
+
+## Organize Tabs Panel
+## The panel opened from the "Organize Tabs" toolbar button, which suggests
 ## groups for the window's open tabs and creates the ones the user picks.
 
-smartwindow-group-tabs-panel-heading = タブをグループ化
-# Shown while the on-device model clusters the open tabs into suggestions.
-# "Finding groups" means forming new groups from these tabs, not searching for
-# tab groups that already exist.
-smartwindow-group-tabs-loading = グループを検索中…
+smartwindow-group-tabs-panel-heading = タブの整理
+# Shown while the on-device model clusters the open tabs into suggestions. It is
+# forming new groups from these tabs, not searching for tab groups that already
+# exist.
+smartwindow-group-tabs-loading = 役立つグループがないかタブを確認しています…
 # Shown when clustering produced no group worth suggesting.
-smartwindow-group-tabs-empty = サジェストは現在ありません
-smartwindow-group-tabs-create-all = サジェストされたグループをすべて作成
+smartwindow-group-tabs-empty = 現在サジェストできるタブグループはありません。後でもう一度確認してください。
+# Shown in place of suggestions when every group the model found has already
+# been created.
+smartwindow-group-tabs-all-sorted = タブの整理が完了しました
+smartwindow-group-tabs-create-all = グループを作成
 smartwindow-group-tabs-suggested-heading = サジェストされたグループ
-# Title of the flyout that previews a single suggested group; activating it
-# creates that group.
-smartwindow-group-tabs-flyout-create = グループを作成
-# Flyout subtitle. $groupLabel is the suggested group's name, $tabCount the
-# number of tabs it would contain.
-smartwindow-group-tabs-flyout-subtitle =
-    { $tabCount ->
-        [one] { $groupLabel } · { $tabCount } 個のタブ
-       *[other] { $groupLabel } · { $tabCount } 個のタブ
-    }
-# A tab listed in the flyout. $siteName is derived from the tab's domain
-# (e.g. "Github"); $title is the page title.
-smartwindow-group-tabs-flyout-tab = { $siteName } · { $title }
+# Accessible name for the flyout that lists the tabs of one suggested group.
+# Activating a tab in the list switches to it. $groupLabel is the suggested
+# group's name.
+smartwindow-group-tabs-flyout-list =
+    .aria-label = { $groupLabel } のタブ
 # Accessible name for a suggested-group row. Activating the row creates the
 # group. $groupLabel is the suggested group's name, $tabCount the number of
 # tabs it would contain.
@@ -39,6 +40,14 @@ smartwindow-group-tabs-suggestion =
         }
 # Heading for the list of groups the user just created (and can still undo).
 smartwindow-group-tabs-just-created-heading = 作成しました
-# Footer action that dissolves every group in the "Just created" list. The tabs
-# stay open; only the grouping is removed.
-smartwindow-group-tabs-ungroup = グループ解除
+# Action that dissolves every group in the "Just created" list. The tabs stay
+# open; only the grouping is removed.
+smartwindow-group-tabs-ungroup = グループを解除
+# Action that closes this window's duplicate tabs, keeping the most recently
+# used tab of each set. Only shown when there are duplicates to close, and
+# $tabCount is exactly how many tabs activating it closes.
+smartwindow-group-tabs-close-duplicates =
+    { $tabCount ->
+        [one] 重複したタブを閉じる
+       *[other] { $tabCount } 個の重複したタブを閉じる
+    }
