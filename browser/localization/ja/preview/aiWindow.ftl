@@ -69,21 +69,10 @@ ai-tasks-alert-cancel-button = キャンセル
 ai-tasks-alert-save-button = 保存
 ai-tasks-alert-delete-button =
   .aria-label = アラートを削除
-ai-tasks-alert-edit-button =
-  .aria-label = アラートを編集
+ai-tasks-alert-edit-button = 編集
 ai-tasks-alert-pause-button = 一時停止
 ai-tasks-alert-resume-button = 再開
 ai-tasks-alert-check-now-button = 今すぐ確認
-
-## Status Messages - Success notifications shown to users after alert actions
-
-ai-tasks-alert-success-created = アラートを作成しました
-ai-tasks-alert-success-deleted = アラートを削除しました
-ai-tasks-alert-success-paused = アラートを一時停止しました
-ai-tasks-alert-success-resumed = アラートを再開しました
-ai-tasks-alert-success-checking = アラートを確認中
-ai-tasks-alert-success-checked = アラートの確認が完了しました
-ai-tasks-alert-success-updated = アラートを更新しました
 
 ## Dialog Headers - Titles for alert dialogs
 
@@ -131,6 +120,8 @@ ai-tasks-alert-add-url = 保存
 ## Alert Display - Strings used when displaying alert details
 
 ai-tasks-alert-change-history = 変更履歴
+ai-tasks-alert-on-this-page = このページ内
+ai-tasks-alert-the-alert = アラート
 # Variables:
 #   $time (DateTime) - The time to be formatted based on locale
 ai-tasks-alert-schedule-daily-at = 毎日 { DATETIME($time, timeStyle: "short") } に確認
@@ -198,4 +189,22 @@ smartwindow-agent-monitor-status-watching = 監視中
 smartwindow-agent-monitor-status-paused = 一時停止中
 smartwindow-agent-monitor-history-check-failed = 確認に失敗しました。後でもう一度確認してください。
 smartwindow-agent-monitor-history-no-match = 確認しましたが、アラート条件を満たしていませんでした。後でもう一度確認してください。
-smartwindow-agent-monitor-checked-just-now = たった今
+
+## Alert deletion confirmation
+
+ai-tasks-alert-delete-confirmation-title = このアラートの削除
+
+ai-tasks-alert-delete-confirmation-message =
+    このアラートと変更履歴は完全に削除されます。
+
+ai-tasks-alert-delete-confirm-button = 削除
+
+## Used in the header to show the last check result
+
+ai-tasks-alert-last-result-met = 前回結果: 一致あり
+ai-tasks-alert-last-result-not-met = 前回結果: 一致なし
+
+## Used in the history table as a simple status badge
+
+ai-tasks-alert-condition-met = 一致あり
+ai-tasks-alert-condition-not-met = 一致なし

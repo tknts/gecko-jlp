@@ -116,8 +116,16 @@ smart-window-confirm-group-tab = グループ化
 # Button label - "Group" is a verb (action to group tabs)
 smart-window-confirm-group-tabs =
     { $count ->
-        [one] { $count } 個のタブをグループ化
+        [one] タブをグループ化
        *[other] { $count } 個のタブをグループ化
+    }
+# Button label - "Open" is a verb (action to open, then group, tabs)
+smart-window-confirm-open-tab = 開く
+# Button label - "Open" is a verb (action to open, then group, tabs)
+smart-window-confirm-open-tabs =
+    { $count ->
+        [one] タブを開く
+       *[other] { $count } 個のタブを開く
     }
 
 # Action result labels for grouped tabs
@@ -125,9 +133,13 @@ smart-window-confirm-group-tabs =
 #   $count (number) - Number of tabs grouped
 smart-window-grouped-tabs-label =
     { $count ->
-        [one] { $count } 個のタブをグループ化しました
+        [one] タブをグループ化しました
        *[other] { $count } 個のタブをグループ化しました
     }
+
+# Fallback name used in place of $label above when the model didn't provide
+# one for the tab group.
+smart-window-default-tab-group-label = タブ グループ
 
 # Variables
 #   $count (number) - Number of tabs grouped
@@ -139,6 +151,39 @@ smart-window-grouped-tabs-summary =
     }
 
 smart-window-grouped-tabs-row-label = グループ化されたタブ
+
+# Action result labels for opened (and grouped) tabs
+# Variables
+#   $count (number) - Number of tabs opened
+smart-window-opened-tabs-label =
+    { $count ->
+        [one] { $count } 個のタブを開きました
+       *[other] { $count } 個のタブを開きました
+    }
+
+# Variables
+#   $count (number) - Number of tabs opened
+smart-window-opened-tabs-summary-single =
+    { $count ->
+        [one] { $count } 個のタブを開きました。
+       *[other] { $count } 個のタブを開きました。
+    }
+
+# Variables
+#   $count (number) - Number of tabs opened
+#   $label (string) - The label of the tab group
+smart-window-opened-tabs-summary-group =
+    { $count ->
+       *[other] グループ “{ $label }” を作成し、{ $count } 個のタブを開きました。
+    }
+
+smart-window-opened-tabs-row-label = 開いたタブ
+
+# Action result labels for switching to a single already-open tab
+smart-window-switched-tab-label = タブを切り替えました
+# Variables
+#   $title (String) - Title of the tab switched to
+smart-window-switched-tab-summary =“{ $label }” に切り替えました。
 
 # Action result labels for ungrouped tabs
 smart-window-grouped-and-ungrouped-label = タブのグループ化を解除しました

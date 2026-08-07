@@ -341,7 +341,9 @@ newtab-custom-settings = その他の設定を管理
 
 ## New Tab Wallpapers
 
+#  (developer note): @nova-cleanup(remove-string): Remove old "Wallpapers" heading string once Nova lands. The newtab-wallpaper-toggle-title string will take over
 newtab-wallpaper-title = 壁紙
+#  (developer note): @nova-cleanup(remove-string): Remove string once Nova lands. Nova has no reset button; the wallpapers toggle handles reset
 newtab-wallpaper-reset = デフォルトに戻す
 #  (developer note): @nova-cleanup(remove-string): Remove old "Upload an image" string once Nova lands. The new "Add an image"  string will take over
 newtab-wallpaper-upload-image = 画像をアップロード
@@ -1381,54 +1383,6 @@ newtab-card-dismiss-button =
     .title = 閉じます
     .aria-label = 閉じる
 
-## Strings for "Homepage" and "Firefox Home" sections of about:settings#home.
-## Homepage panel
-
-home-homepage-title =
-    .label = ホームページ
-
-home-homepage-new-windows =
-    .label = 新しいウィンドウ
-
-home-homepage-new-tabs =
-    .label = 新しいタブ
-
-# This option leads to the "Custom Homepage" subpage
-home-homepage-custom-homepage-button =
-    .label = 特定のサイトを指定
-
-## Custom URLs subpage
-
-# Subheader on the Custom Homepage subpage. Followed by a form to enter URLs and a list of URLs already saved, if any.
-home-custom-homepage-card-header =
-    .label = ウェブサイトのアドレス
-
-home-custom-homepage-address =
-    .placeholder = アドレスを入力
-home-custom-homepage-address-button =
-    .label = アドレスを追加
-
-# Shown when no custom websites/URLs to use as a homepage have been added yet
-home-custom-homepage-no-results =
-    .label = ウェブサイトはまだ追加されていません。
-
-home-custom-homepage-delete-address-button =
-    .aria-label = アドレスを削除
-    .title = アドレスを削除
-
-# Further options to use when setting the home page. Two action buttons are placed in line with this prompt
-# to replace the current home page with a currently open page or bookmark.
-home-custom-homepage-replace-with-prompt =
-    .label = 次のもので置き換える:
-
-# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with-prompt)
-home-custom-homepage-current-pages-button =
-    .label = 現在開いているページ
-
-# Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with-prompt)
-home-custom-homepage-bookmarks-button =
-    .label = ブックマーク…
-
 ## Firefox Home content
 
 home-prefs-content-header =
@@ -1502,12 +1456,6 @@ home-prefs-sections-rows-option-srd =
             [one] { $num } 行
            *[other] { $num } 行
         }
-
-# Dropdown option shown when an extension replaces the contents of new windows or tabs.
-# Variables:
-#   $extension (string) - Name of the extension
-home-prefs-homepage-extension-option =
-    .label = 拡張機能 ({ $extension })
 
 home-restore-defaults-srd =
     .label = デフォルトに戻す

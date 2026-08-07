@@ -247,9 +247,19 @@ contextual-manager-passwords-update-label =
   .label = パスワードを更新
 contextual-manager-passwords-remove-label =
   .title = パスワードの削除
-contextual-manager-passwords-origin-tooltip = このサイトにサインインする正確なアドレスを入力してください。
-contextual-manager-passwords-username-tooltip = サインインに使用するユーザー名、メールアドレス、またはアカウント番号を入力します。
-contextual-manager-passwords-password-tooltip-2 = このアカウントにサインインするにはパスワードを入力してください。
+
+contextual-manager-passwords-origin-field =
+  .label = ウェブサイトのアドレス
+  .placeholder = https://www.example.com
+contextual-manager-passwords-origin-field-description = このサイトにサインインする正確なアドレスを入力してください。
+
+contextual-manager-passwords-username-field =
+  .label = ユーザー名
+contextual-manager-passwords-username-field-description = サインインに使用するユーザー名、メールアドレス、またはアカウント番号を入力してください。
+
+contextual-manager-passwords-password-field =
+  .label = パスワード
+contextual-manager-passwords-password-field-description = このアカウントにサインインするためのパスワードを入力してください。
 
 ## Password Card
 
