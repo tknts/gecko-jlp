@@ -249,6 +249,31 @@ taskbar-tabs-media-callout-subtitle = ストリーミングサイトをアプリ
 taskbar-tabs-value-prop-callout-title = このサイトをタスクバーに追加
 taskbar-tabs-value-prop-callout-subtitle = ワンクリックで、専用ウィンドウとシンプルなインターフェースで開けます。
 
+## Taskbar Tabs callout strings (treatment B copy variants)
+##
+## In the subtitles below, a "streamlined window" is a taskbar tab: the site
+## opens in its own dedicated window with a simplified interface, without the
+## usual browser tabs and toolbars.
+
+# Treatment B changes only the title for chat; the subtitle is unchanged from
+# treatment A, so this variant reuses taskbar-tabs-chat-callout-subtitle.
+taskbar-tabs-chat-callout-title-v3 = タスクバーから連絡を取り合おう
+
+taskbar-tabs-email-callout-title-v3 = タスクバーに受信トレイを置こう
+taskbar-tabs-email-callout-subtitle-v3 = { -brand-short-name } で保護されたシンプル化されたウィンドウで、メールサイトをアプリのように起動できます。
+
+taskbar-tabs-media-callout-title-v3 = タスクバーでストリーミングを楽しもう
+taskbar-tabs-media-callout-subtitle-v3 = { -brand-short-name } で保護されたシンプル化されたウィンドウで、メディアサイトをアプリのように起動できます。
+
+taskbar-tabs-value-prop-callout-title-v3 = お気に入りのサイトをタスクバーにピン留めしよう
+taskbar-tabs-value-prop-callout-subtitle-v3 = { -brand-short-name } で保護されたシンプル化されたウィンドウで、あらゆるサイトをアプリのように起動できます。
+
+taskbar-tabs-gaming-callout-title-v3 = タスクバーからゲームに戻ろう
+taskbar-tabs-gaming-callout-subtitle-v3 = { -brand-short-name } で保護されたシンプル化されたウィンドウで、ゲームサイトをアプリのように起動できます。
+
+# Button that pins the current site to the taskbar as a taskbar tab
+taskbar-tabs-callout-primary-button-v3 = タスクバーにピン留めする
+
 ## Windows 10 EoS Sync messages group 1 callouts
 
 windows-10-eos-sync-urgency-title-1 = Windows 11 への移行時に保存データを失わないために

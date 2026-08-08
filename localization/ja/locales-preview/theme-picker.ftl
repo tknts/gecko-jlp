@@ -4,7 +4,9 @@
 
 theme-picker-mode-light = ライト
 theme-picker-mode-dark = ダーク
-theme-picker-mode-device = デバイスの設定
+# "Device" refers to the mode that makes the Firefox active theme's selected color scheme
+# update based on the color scheme mode currently chosen by the operating system.
+theme-picker-mode-device = デバイス
 
 theme-picker-use-linux-theme =
     .label = Linux のシステムテーマを使用する
@@ -64,16 +66,16 @@ theme-picker-smoke =
 # Name for a neutral gray-purple theme. Conveys a standard, default look. Not a
 # color word; translate the sense of "standard."
 theme-picker-default-aria-label =
-    .aria-label = 標準
+    .aria-label = デフォルト
 # Name for a warm yellow-gold theme. Refers to the color of sunlight.
 theme-picker-sun-aria-label =
-    .aria-label = 太陽
+    .aria-label = サン (ゴールド)
 # Name for a warm orange theme. Refers to a small burst of fire.
 theme-picker-spark-aria-label =
-    .aria-label = 火花
+    .aria-label = スパーク (ウォームオレンジ)
 # Name for a red-orange theme. Refers to the color of fire.
 theme-picker-flame-aria-label =
-    .aria-label = 炎
+    .aria-label = フレイム (バーミリオン)
 # Name for a bright pink theme. Refers to a burst of light or fire.
 theme-picker-flare-aria-label =
     .aria-label = フレア
@@ -82,19 +84,19 @@ theme-picker-lavender-aria-label =
     .aria-label = ラベンダー
 # Name for a medium purple theme. Refers to the sky just after sunset.
 theme-picker-dusk-aria-label =
-    .aria-label = 薄暮
+    .aria-label = ダスク (ミディアムパープル)
 # Name for a medium blue theme. Refers to a sheltered body of water.
 theme-picker-lagoon-aria-label =
-    .aria-label = ラグーン
+    .aria-label = ラグーン (ミディアムブルー)
 # Name for a green theme. Refers to pine trees.
 theme-picker-pine-aria-label =
-    .aria-label = 松
+    .aria-label = パイン (グリーン)
 # Name for a soft teal theme. Refers to ocean tides.
 theme-picker-tide-aria-label =
-    .aria-label = 潮
+    .aria-label = タイド (ソフトティール)
 # Name for a medium-dark gray theme. Refers to the gray residue left by fire.
 theme-picker-ash-aria-label =
-    .aria-label = 灰
+    .aria-label = アッシュ (チャコールグレー)
 # Name for a warm gray-beige theme. Refers to the hazy color of smoke.
 theme-picker-smoke-aria-label =
-    .aria-label = 煙
+    .aria-label = スモーク (グレージュ)
