@@ -27,9 +27,6 @@ password-manager-update-login-add-username = 保存したパスワードにユ�
 password-manager-password-password-button-allow =
     .label = 更新
     .accesskey = U
-password-manager-update-password-button-deny =
-    .label = 今はしない
-    .accesskey = D
 
 primary-password-prompt-message = プライマリー パスワードを入力してください。
 

@@ -21,19 +21,15 @@ ai-tasks-monitor-notification-dismiss = 閉じる
 
 ai-tasks-alert-name =
   .label = アラート名
-  .placeholder = このアラートの名前を入力
 ai-tasks-alert-alert =
   .label = 監視項目
   .placeholder = 例: 価格が 100 ドル未満に降下、M サイズの再入荷、チケットの販売開始など
+  .description = 監視する内容を詳細に記述してください。
 # Variables:
 #   $maxPages (number) - The maximum number of webpages that can be monitored
 ai-tasks-alert-pages =
   .label = 監視するページ
   .placeholder = ウェブページのアドレスを入力または貼り付け
-  .description = { $maxPages ->
-    [one] ウェブページを追加できます。
-   *[other] 最大 { $maxPages } 個のウェブページを追加できます。
-  }
 ai-tasks-alert-check-label = 確認の頻度
 ai-tasks-alert-time-label = 時刻
 ai-tasks-alert-day-label = 曜日
@@ -83,6 +79,9 @@ ai-tasks-alert-modal-title = アラートの作成
 ai-tasks-page-title = スマート ウィンドウ アラート
 ai-tasks-add-alert-button = アラートを作成
 ai-task-page-description = 価格の値下げ、再入荷、チケット販売などのアラートを作成します。監視するページを選択すると、スマート ウィンドウ が変更を確認します。
+ai-tasks-no-monitors-title = お住まいの地域ではスマート ウィンドウタスクを利用できません
+ai-tasks-no-monitors-message = <a data-l10n-name="smart-window-link">スマート ウィンドウ</a>についての詳細をご覧ください。
+ai-task-page-no-alerts = 選択したページの価格やコンテンツを追跡するタスクを作成します。 { -smart-window-brand-name }  が一致するものを見つけると通知されます。
 ai-task-page-no-alerts = 作成されたアラートはありません。
 # Variables:
 #   $count (number) - The number of alerts currently active
@@ -120,7 +119,9 @@ ai-tasks-alert-add-url = 保存
 ## Alert Display - Strings used when displaying alert details
 
 ai-tasks-alert-change-history = 変更履歴
+ai-tasks-alert-change-history-description = 結果には、各チェック時に { -smart-window-brand-name } が見つけた内容が表示されます。ページを開いて確認してください。
 ai-tasks-alert-on-this-page = このページ内
+# When viewing a monitor's details the user will see this string as a label for the box containing the prompt the user entered on monitor creation
 ai-tasks-alert-the-alert = アラート
 # Variables:
 #   $time (DateTime) - The time to be formatted based on locale
@@ -156,9 +157,19 @@ ai-tasks-alert-status-paused = 一時停止中
 # the page address; keep it and the element (with its name) unchanged.
 # Variables:
 #   $count (number) - The maximum number of watch tasks allowed
-smartwindow-agent-monitor-limit-reached = すでに { $count } 個の監視タスクが実行されています。これは現在の制限値です。<a data-l10n-name="tasks">about:smartwindowtasks</a> でいずれかを削除してから、ここで再度 /watch と入力してください。
+smartwindow-agent-monitor-limit-reached =
+    { $count ->
+        [one] アクティブな監視タスクがあります。これが現在の監視の上限数です。新しいタスクを作成するには、<a data-l10n-name="tasks">about:smartwindowtasks</a> に移動して、不要になったタスクを削除してください。
+       *[other] アクティブな監視タスクが { $count } 件あります。これが現在の監視の上限数です。新しいタスクを作成するには、<a data-l10n-name="tasks">about:smartwindowtasks</a> に移動して、不要になったタスクを削除してください。
+    }
 
-smartwindow-agent-monitor-setup = このページを監視するタスクをセットアップしました。必要な調整を行い、開始してください。
+smartwindow-agent-monitor-setup = このページを監視するタスクを作成しましょう。探している内容について詳細を含めるほど、より良い結果が得られます。
+
+# Shown when the user runs the watch command from a page that has no address
+# to watch (for example an internal page or a blank tab).
+smartwindow-agent-monitor-page-not-watchable =
+    このページをウォッチすることはできません — ウォッチ機能は通常のウェブページで動作し、{ -brand-product-name } 内のページでは動作しません。<br/>
+    確認したいページを開いて、そこで /watch と入力してください。
 
 # Fallback name used for $monitorName when the watched page has no title.
 smartwindow-agent-monitor-default-name = ページの監視
@@ -194,8 +205,7 @@ smartwindow-agent-monitor-history-no-match = 確認しましたが、アラー�
 
 ai-tasks-alert-delete-confirmation-title = このアラートの削除
 
-ai-tasks-alert-delete-confirmation-message =
-    このアラートと変更履歴は完全に削除されます。
+ai-tasks-alert-delete-confirmation-message = { -smart-window-brand-name }  はこれらのページの監視を終了します。一時的に停止するには、代わりに一時停止してください。
 
 ai-tasks-alert-delete-confirm-button = 削除
 
