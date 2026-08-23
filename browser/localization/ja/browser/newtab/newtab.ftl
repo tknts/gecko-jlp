@@ -244,6 +244,28 @@ newtab-discovery-empty-section-topstories-loading = 読み込み中…
 # Displays when a layout in a section took too long to fetch articles.
 newtab-discovery-empty-section-topstories-timed-out = 問題が発生しました。このセクションをほぼ読み込みましたが、完了できませんでした。
 
+## Strings for the story cards carousel
+
+# Identifies the current carousel slide to screen reader users.
+# Variables:
+#   $index - the position of this slide
+#   $total - how many slides there are
+newtab-carousel-slide =
+    .aria-label = { $index } / { $total }
+
+# Button that goes to the previous carousel slide.
+newtab-carousel-previous =
+    .aria-label = 前へ
+# Button that goes to the next carousel slide.
+newtab-carousel-next =
+    .aria-label = 次へ
+# Button that pauses autoplay on the carousel.
+newtab-carousel-pause =
+    .aria-label = 自動再生を一時停止
+# Button that resumes autoplay on the carousel.
+newtab-carousel-play =
+    .aria-label = 自動再生を再開
+
 ## Error Fallback Content.
 ## This message and suggested action link are shown in each section of UI that fails to render.
 
@@ -303,6 +325,8 @@ newtab-custom-widget-stocks-toggle =
   .label = 株価
 newtab-custom-widget-picture-toggle =
   .label = 今日の写真
+newtab-custom-widget-recent-searches-toggle =
+  .label = 最近の検索
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -1130,16 +1154,6 @@ newtab-widget-timer-celebration-message-focus = 休憩しませんか？
 # Message shown inside the Timer widget after a break session ends.
 newtab-widget-timer-celebration-message-break = 作業を再開しますか？
 
-# Strings for daily briefing card
-
-# The title displays above a set of top news headlines.
-newtab-daily-briefing-card-title = トップ ヘッドライン
-newtab-daily-briefing-card-menu-dismiss = 非表示にする
-
-# Variables:
-#   $minutes (number) - Time since the feed has been refreshed
-newtab-daily-briefing-card-timestamp = { $minutes } 分前に更新
-
 newtab-widget-message-title = リストとタイマーで集中力を維持
 # to-dos stands for "things to do".
 newtab-widget-message-copy = ちょっとしたリマインダーから毎日の ToDo リスト、集中セッションからストレッチ休憩まで、タスクを時間通りに進めましょう。
@@ -1430,6 +1444,10 @@ home-prefs-stocks-header =
 home-prefs-picture-header =
     .label = 今日の写真
 
+# Recent searches is a widget on New Tab that shows the user's recent searches.
+home-prefs-recent-searches-header =
+    .label = 最近の検索
+
 home-prefs-mission-message2 =
     .message = 私たちのスポンサーは、より良いウェブを構築するという使命を支援しています。
 
@@ -1506,6 +1524,11 @@ home-prefs-support-firefox-header-srd =
 home-prefs-mission-message-learn-more-link-srd = 詳細はこちら
 
 ## Strings for the Privacy widget
+
+# Accessible name for the Privacy widget container. The widget shows no visible
+# title, so screen readers rely on this label to identify it.
+newtab-privacy-widget-label =
+    .aria-label = プライバシー
 
 # Context menu item linking to more information about the Privacy widget.
 newtab-privacy-menu-learn-more = さらに詳しく
@@ -1661,11 +1684,21 @@ newtab-privacy-message-first-protection-cta = 保護状態を表示
 
 ## Strings for the Stocks widget
 
-# Heading for the Stocks widget.
-newtab-stocks-widget-title = 株価
+# Accessible name for the Stocks widget; hidden because the list dropdown is
+# shown in place of the title.
+newtab-stocks-widget-title = 株式市場
 
-# Context menu item for searching stock ticker symbols.
-newtab-stocks-menu-search = ティッカーシンボルを検索
+# "Markets" is the default list of market ETFs. The value is shown in the menu,
+# and .label is shown on the button that opens it.
+newtab-stocks-list-markets = マーケット
+    .label = マーケット
+# "Watchlist" is the user's list of stocks to follow. The value is shown in the
+# menu, and .label is shown on the button that opens it.
+newtab-stocks-list-watchlist = ウォッチリスト
+    .label = ウォッチリスト
+
+# Context menu item that opens the stock search (by company name or ticker symbol).
+newtab-stocks-menu-search-stocks = 企業名またはシンボルで検索
 
 # Context menu item linking to more information about the Stocks widget.
 newtab-stocks-menu-learn-more = さらに詳しく
@@ -1694,6 +1727,79 @@ newtab-stocks-ticker-status-down = { $name }、{ $change } 下落、{ $price }
 
 # Stock didn't change during the day
 newtab-stocks-ticker-status-flat = { $name }、変更なし、{ $change }、{ $price }
+
+## Stocks widget watchlist add and remove controls
+
+# Tooltip and screen-reader label for the button that adds a stock to the watchlist.
+# The button shows only an icon and never renders visible text.
+# Variables:
+#   $name (String) - the fund/ETF name, e.g. "SPDR S&P 500 ETF Trust".
+newtab-stocks-add-to-watchlist =
+    .title = ウォッチリストへ { $name } の追加
+    .aria-label = { $name }をウォッチリストに追加
+
+# Tooltip and screen-reader label for the button that removes a stock from the watchlist.
+# The button shows only an icon and never renders visible text.
+# Variables:
+#   $name (String) - the fund/ETF name.
+newtab-stocks-remove-from-watchlist =
+    .title = ウォッチリストから { $name } の削除
+    .aria-label = { $name } をウォッチリストから削除
+
+# Visually hidden text on a Markets row whose stock is already in the watchlist, so
+# screen readers announce that it is saved. Removal happens on the Watchlist tab.
+# Variables:
+#   $name (String) - the fund/ETF name.
+newtab-stocks-in-watchlist = { $name } はウォッチリストに追加されています
+
+# Announced to screen readers after a stock is added to the watchlist.
+# Variables:
+#   $name (String) - the fund/ETF name.
+newtab-stocks-added-to-watchlist = { $name } をウォッチリストに追加しました
+
+# Announced to screen readers after a stock is removed from the watchlist.
+# Variables:
+#   $name (String) - the fund/ETF name.
+newtab-stocks-removed-from-watchlist = { $name } をウォッチリストから削除しました
+
+## Stocks widget ticker search
+
+# Placeholder and screen-reader label for the ticker search input.
+newtab-stocks-search-input =
+    .placeholder = 企業名またはシンボルで検索
+    .aria-label = 企業名またはシンボルで検索
+
+# "Search results" is the accessible label for the list of tickers matching the
+# search. It means "results of the search", not "search within the results".
+newtab-stocks-search-results =
+    .aria-label = 検索結果
+
+# "Back" is an icon-only button in the search panel header that returns to the
+# widget — the attributes are consumed as tooltip/screen-reader label only. The
+# button never renders visible text.
+newtab-stocks-search-back-button =
+    .title = 戻る
+    .aria-label = 戻る
+
+# Shown when a ticker search returns no matching symbols.
+# Variables:
+#   $query (String) - the text the user searched for.
+newtab-stocks-search-no-results = “{ $query }” に一致する結果はありませんでした。
+
+# Shown while a ticker search is running; also announced to screen readers.
+newtab-stocks-search-loading = 読み込んでいます…
+
+# Shown when a ticker search fails to reach the service.
+newtab-stocks-search-error = 現在検索できません。後でお試しください。
+
+# Shown below successful search results when the watchlist is already full.
+# Variables:
+#   $limit (Number) - the maximum number of stocks the watchlist can hold.
+newtab-stocks-watchlist-full =
+    { $limit ->
+        [one] ウォッチリストに追加できるのは最大 { $limit } 件までです。別の銘柄を追加するには、1 件削除してください。
+        *[other] ウォッチリストに追加できるのは最大 { $limit } 件までです。別の銘柄を追加するには、1 件削除してください。
+    }
 
 ## Strings for the Picture of the Day widget
 
@@ -1744,7 +1850,7 @@ newtab-picture-menu-hide-photo = 今日の写真を非表示にする
 newtab-picture-menu-show-photo = 今日の写真を表示する
 
 # Context menu item linking to more information about the widget.
-newtab-picture-menu-learn-more = 詳細情報
+newtab-picture-menu-learn-more = さらに詳しく
 
 # Icon button shown on the widget once the picture is hidden; restores it.
 newtab-picture-show-button =
@@ -1757,3 +1863,22 @@ newtab-picture-check-back = 明日また新しい写真を確認してくださ�
 # Screen-reader text alternative for the picture; fallback used when the source
 # provides no localized description.
 newtab-picture-image-alt = Wikimedia Commons 今日の写真
+
+## Strings for the Recent Searches widget
+
+# Widget heading; also the widget's accessible name.
+newtab-recent-searches-widget-title = 最近の検索
+
+# Screen reader label for the widget's icon-only menu button.
+newtab-recent-searches-widget-menu-button =
+    .aria-label = 最近の検索のオプション
+
+# Context menu item linking to more information about the widget.
+newtab-recent-searches-menu-learn-more = さらに詳しく
+
+## Strings for the navigable panels that new tab content area can be
+## split into.
+
+newtab-spaces-tab-stories = ストーリー
+newtab-spaces-tab-widgets = ウィジェット
+newtab-spaces-tab-activity = アクティビティ

@@ -376,5 +376,5 @@ menu-report-broken-site =
     .label = 壊れたサイトを報告
 # This menu item opens the referral page, where the user can invite others to
 # use the browser. "Share" here means recommending or referring the browser
-menu-referrals =
-    .label = { -brand-shorter-name } の共有
+menu-referrals2 =
+    .label = { -brand-product-name } の共有

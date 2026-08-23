@@ -49,6 +49,12 @@ about-private-browsing-pin-promo-link-text = { PLATFORM() ->
 }
 about-private-browsing-pin-promo-title = Cookie や履歴を残さずにデスクトップから直接閲覧できます。誰に見られる事なくブラウズすることができます。
 
+## Strings used in a promotion message for Firefox Relay
+
+about-private-browsing-relay-promo-header = メールマスクで受信トレイのスパムを防ぎます
+about-private-browsing-relay-promo-title = サインアップやショッピング、オンラインでの共有時にメールマスクで実際のメールアドレスを隠します。
+about-private-browsing-relay-promo-link-text = メールマスクを試す
+
 ## Strings for the info section of about:privatebrowsing
 
 about-private-browsing-felt-privacy-v1-info-header = このデバイスに履歴を残しません

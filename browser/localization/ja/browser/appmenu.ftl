@@ -135,6 +135,10 @@ fxa-menu-sync-status-on = 同期はオンです
 
 fxa-menu-sync-status-off = 同期はオフです
 
+# Shown in place of "Sync is Off" on the sync status button when the user has
+# never signed in. Sync is a verb, short for synchronize.
+fxa-menu-sync-your-data = データを同期
+
 # Shown as a secondary label under "Sync is Off" when the user is signed in but
 # sync is turned off.
 fxa-menu-sync-off-data-description = データは同期されていません
@@ -431,14 +435,14 @@ appmenuitem-relay-description2 = 受信トレイへのスパムを防ぐのに�
 # Shown in place of appmenuitem-relay-title2 when the user has signed up for Relay.
 appmenuitem-relay-title-signed-in = メール マスクの表示
 appmenuitem-vpn-title2 = { -mozilla-vpn-brand-name } で位置情報を隠す
-appmenuitem-vpn-description4 = アプリやデバイス全体の保護を強化します
+appmenuitem-vpn-description5 = すべてのデバイスで追加の保護を取得します
 # Shown in place of appmenuitem-vpn-title2 when the user has signed up for VPN.
-appmenuitem-vpn-title-signed-in = { -mozilla-vpn-brand-name } を開く
+appmenuitem-vpn-title-signed-in1 = { -mozilla-vpn-brand-name } のダウンロード
 
 # "Mozilla" is intentionally hardcoded to prevent forks from replacing it
 # with their own vendor name, since these tools are created and maintained by
 # Mozilla.
-appmenu-other-protection-header2 = Mozilla による他の保護ツールをお試しください:
+appmenu-other-protection-header3 = プライバシーの保護ツール
 
 ## Profiles panel
 
@@ -494,5 +498,5 @@ fxa-menu-create-profile-learn-more =
     .label = プロファイルとは?
 
 # Button in the account menu that links to the Referrals page
-appmenuitem-share-firefox-title = { -brand-short-name } の共有
+appmenuitem-share-firefox-title2 = { -brand-product-name } の共有
 appmenuitem-share-firefox-description = プライバシーを第一に考えるブラウザーを他の人にも勧めましょう

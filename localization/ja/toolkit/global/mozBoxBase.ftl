@@ -5,6 +5,8 @@
 moz-box-link-anchor =
     .title = 新しいタブで開きます
 
+moz-box-link-opens-in-new-tab = 新しいタブで開きます
+
 moz-box-item-reorder-handle =
     .aria-label = Ctrl+Shift+ArrowUp または Ctrl+Shift+ArrowDown を使用して項目の順序を入れ替えます
 

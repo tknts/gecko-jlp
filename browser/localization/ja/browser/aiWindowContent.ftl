@@ -226,11 +226,6 @@ action-log-checking-memories = メモリをチェック中
 action-log-checked-memories = メモリをチェックしました
 action-log-searching-settings = 設定を検索中
 action-log-searched-settings = 設定を検索しました
-action-log-searching-world-cup-matches = ワールドカップの試合を検索中
-action-log-searched-world-cup-matches = ワールドカップの試合を検索しました
-action-log-checking-world-cup-live = ワールドカップのライブ配信をチェック中
-action-log-checked-world-cup-live = ワールドカップのライブ配信をチェックしました
-
 # Variables
 #   $count (Number) - how many tool steps completed in the turn
 action-log-completed-steps =

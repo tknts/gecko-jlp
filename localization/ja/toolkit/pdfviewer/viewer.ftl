@@ -758,13 +758,6 @@ pdfjs-views-manager-pages-status-undo-delete-label =
         *[other] { $count } ページを削除しました
     }
 
-pdfjs-views-manager-pages-status-waiting-ready-label = ファイルを準備しています…
-pdfjs-views-manager-pages-status-waiting-uploading-label = ファイルをアップロードしています…
-
-pdfjs-views-manager-status-warning-cut-label = 切り取りできませんでした。ページを更新してもう一度お試しください。
-pdfjs-views-manager-status-warning-copy-label = コピーできませんでした。ページを更新してもう一度お試しください。
-pdfjs-views-manager-status-warning-delete-label = 削除できませんでした。ページを更新してもう一度お試しください。
-pdfjs-views-manager-status-warning-save-label = 保存できませんでした。ページを更新してもう一度お試しください。
 pdfjs-views-manager-status-undo-button-label = 元に戻す
 pdfjs-views-manager-status-done-button-label = 完了
 pdfjs-views-manager-status-close-button =

@@ -117,7 +117,7 @@ autofill-address-email = メールアドレス
 
 autofill-cancel-button = キャンセル
 autofill-save-button = 保存
-autofill-country-warning-message = Form Autofill is currently available only for certain countries.
+autofill-country-warning-message-2 = フォームの自動補完機能は、現在一部の国でのみ利用可能です。
 autofill-message-tooltip = 自動入力に関するメッセージを表示する
 
 # The dialog title for creating credit cards in browser preferences.

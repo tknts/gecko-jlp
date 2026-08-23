@@ -249,22 +249,6 @@ pdf-default-notification-set-default-button =
 pdf-default-notification-decline-button =
     .label = 今はしない
 
-## Launch on login infobar notification
-
-launch-on-login-infobar-message = <strong>コンピューターを再起動するたびに { -brand-short-name } を開きますか?</strong> デバイスを再起動するときに { -brand-short-name } が自動的に開くように設定できるようになりました。
-launch-on-login-learnmore = さらに詳しく
-launch-on-login-infobar-confirm-button = 自動的に { -brand-short-name } を開きます
-  .accesskey = Y
-launch-on-login-infobar-reject-button = 今はしない
-  .accesskey = N
-
-## These string variants are used when the “launch on login” infobar
-## notification is displayed for a second time.
-
-launch-on-login-infobar-final-message = <strong>コンピューターを再起動するたびに { -brand-short-name } を開きますか?</strong> スタートアップの設定を管理するには、設定で “スタートアップ” を検索してください。
-launch-on-login-infobar-final-reject-button = 必要ありません
-  .accesskey = N
-
 ## Launch on login "show and tell" infobar notification
 ##
 ## Shown after Firefox has automatically launched at Windows sign-in (an

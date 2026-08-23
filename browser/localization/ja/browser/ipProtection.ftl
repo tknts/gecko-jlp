@@ -119,6 +119,12 @@ ipprotection-location-selection-callout-description-1 = <a data-l10n-name="learn
 ipprotection-location-selection-callout-primary-button = 試してみる
 ipprotection-location-selection-callout-secondary-button = 閉じる
 
+## VPN for Android promo callout
+
+ipprotection-android-promo-callout-title = Android 用内蔵 VPN の持ち出し
+ipprotection-android-promo-callout-description = QR コードをスキャンして Android 版 { -brand-product-name } を取得し、内蔵 VPN を有効にして外出先でのプライバシーを強化できます。iOS にもまもなく対応予定です。
+ipprotection-android-promo-callout-primary-button = 了解しました
+
 ## Panel
 
 # Also used for the callout shown in private browsing

@@ -62,7 +62,7 @@ update-restarting = 再起動しています…
 settings-update-restarting =
     .label = 再起動しています…
 
-update-internal-error2 = 内部エラーが発生したため更新を確認できません。<a data-l10n-name="manual-link">{ $displayUrl }</a> から入手してください。
+update-internal-error2 = 内部エラーが発生したため更新を確認できません。<label data-l10n-name="manual-link">{ $displayUrl }</label> から入手してください。
 settings-update-internal-error = 内部エラーが発生したため更新を確認できません。<a data-l10n-name="manual-link">{ $displayUrl }</a> から入手してください。
 
 ##

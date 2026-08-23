@@ -62,7 +62,7 @@ ai-tasks-alert-weekday-saturday =
 
 ai-tasks-alert-create-button = アラートを作成
 ai-tasks-alert-cancel-button = キャンセル
-ai-tasks-alert-save-button = 保存
+ai-tasks-alert-save-button = 変更を保存
 ai-tasks-alert-delete-button =
   .aria-label = アラートを削除
 ai-tasks-alert-edit-button = 編集
@@ -218,3 +218,29 @@ ai-tasks-alert-last-result-not-met = 前回結果: 一致なし
 
 ai-tasks-alert-condition-met = 一致あり
 ai-tasks-alert-condition-not-met = 一致なし
+
+## AI Tab - A page generated from the content of the user's tabs
+
+# Title given to a generated page when the model returns no title of its own and
+# the user did not say what the page should focus on.
+ai-tab-default-page-title = 生成されたページ
+
+## Smartbar command palette
+## Slash commands shown in the smartbar when the user types "/".
+
+# Group header for the agent task commands (for example, /watch).
+smartbar-command-tasks-header = タスク
+# The /watch command creates a task that watches a page for changes.
+smartbar-command-watch-label = /watch
+smartbar-command-watch-description = ページの変更を監視するタスクを作成する
+# Footer note shown at the bottom of the command palette, hinting that more
+# task command types will be added later.
+smartbar-command-coming-soon = その他の種類のタスクは近日追加予定です
+
+## Smart Form Fill
+
+ai-smart-form-fill-autocomplete-label = スマートフォーム自動入力
+ai-smart-form-fill-autocomplete-loading = 読み込んでいます…
+ai-smart-form-fill-autocomplete-sources-label = ソース:
+ai-smart-form-fill-autocomplete-choose-tabs = 関連するタブを選択する必要があります
+ai-smart-form-fill-autocomplete-open-tabs = いくつかのタブを開く必要があります

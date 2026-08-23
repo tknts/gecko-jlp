@@ -87,6 +87,10 @@ sidebar-show-on-the-left =
 # hovers over it.
 expand-sidebar-on-hover =
   .label = サイドバーを自動的に表示
+# Option to show a preview of the most recently active tabs when the mouse
+# pointer hovers over the Open Tabs button in the sidebar.
+sidebar-show-preview-on-hover =
+  .label = マウスオーバー時にプレビューを表示する
 sidebar-manage-extensions2 = すべての拡張機能を管理
 
 ## Labels for sidebar context menu items

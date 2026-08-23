@@ -24,9 +24,32 @@ containers-icon-label2 =
 containers-color-label2 =
     .label = 色
 
-containers-dialog =
-    .buttonlabelaccept = 完了
-    .buttonaccesskeyaccept = D
+containers-dialog2 =
+    .buttonlabelaccept = 保存
+    .buttonaccesskeyaccept = S
+
+## Dialog that binds a website to a container.
+
+containers-site-window =
+    .title = ウェブサイトの追加
+
+containers-site-label =
+    .label = ウェブサイト
+    .placeholder = example.com
+
+containers-site-container-label =
+    .label = コンテナ
+
+containers-site-dialog =
+    .buttonlabelaccept = 保存
+    .buttonaccesskeyaccept = S
+
+# Shown below the website field when the typed website is not a host, or when
+# it is a URL that does not use the https scheme.
+containers-site-invalid-error = 有効で安全なウェブサイトを入力してください
+# Shown below the website field when the typed website is already bound to a
+# container.
+containers-site-duplicate-error = このウェブサイトはすでにリストに存在します
 
 ## Container creation panel, anchored to the URL bar.
 

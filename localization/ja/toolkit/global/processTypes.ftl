@@ -64,6 +64,7 @@ process-type-utility-actor-mf-media-engine = ユーティリティー (Media Fou
 process-type-utility-actor-js-oracle = ユーティリティー (JavaScript Oracle)
 process-type-utility-actor-windows-utils = ユーティリティー (Windows Utils)
 process-type-utility-actor-windows-file-dialog = ユーティリティー (Windows File Dialog)
+process-type-utility-actor-hw-inference = ユーティリティ  (Utility Hardware Accelerated Inference)
 
 ##
 ## Other

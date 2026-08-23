@@ -1300,9 +1300,31 @@ containers-new-tab-check3 =
     .label = 新しいタブごとにコンテナを選択
     .accesskey = S
 
+# Checkbox in the Containers settings. By default, when a link is opened from
+# another application, Firefox tries to pick a matching container for it. When
+# this checkbox is checked, such links always open outside of any container.
+containers-external-links-check =
+    .label = 外部アプリから開いたリンクにはコンテナを使用しない
+    .accesskey = D
+
 containers-settings-button2 =
     .title = 設定
 containers-remove-button3 =
+    .title = 削除
+
+containers-sites-card-header =
+    .label = サイト別コンテナ
+    .description = サイトのコンテナを選択すると、{ -brand-short-name } はそのサイトを開くたびにそのコンテナを使用します。
+containers-sites-add-button =
+    .label = ウェブサイトを追加
+    .accesskey = w
+
+# The dropdown that picks which container a site opens in.
+# Variables:
+#   $site (string) - Domain of the website, for example “example.com”.
+containers-site-container-select = [ { $site } ] のコンテナ
+
+containers-site-remove-button =
     .title = 削除
 
 ## Account and sync
@@ -2782,11 +2804,11 @@ security-privacy-issue-warning-proxy-autodetection =
 
 # The header in settings with link to the referral page, where the user can invite others to
 # use the browser. "Share" here means recommending or referring the browser
-referrals-section-header =
-  .label = { -brand-short-name } を薦める
+referrals-section-header2 =
+  .label = { -brand-product-name } を薦める
   .description = プライバシーを第一に考えるブラウザーをおすすめしましょう。
 
 # Link that opens the referral page, where the user can invite others to
 # use the browser. "Share" here means recommending or referring the browser
-referrals-link =
-  .label = { -brand-short-name } を薦める
+referrals-link2 =
+  .label = { -brand-product-name } を薦める

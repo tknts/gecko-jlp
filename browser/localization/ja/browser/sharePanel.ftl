@@ -13,8 +13,11 @@ share-panel-heading = ページの共有
 
 share-panel-copy-link =
   .label = リンクをコピー
+# Confirmation hint shown near the share button after the user copies the
+# current page URL from the share panel.
+confirmation-hint-link-copied = リンクをコピーしました
 share-panel-os-share =
-  .label = 他の方法で共有...
+  .label = 他の方法で共有…
 share-panel-mail =
   .label = メールを送信
 share-panel-screenshot =
@@ -34,5 +37,14 @@ share-panel-send-to-mobile =
 share-panel-device-subview =
   .title = すべてのデバイス
 
+# Shown below the device list in the share panel's device subview. Clicking it
+# opens the flow to connect another device to the user's account.
+share-panel-connect-device =
+  .label = 別のデバイスを接続
+# Shown below the device list in the share panel's device subview. Clicking it
+# opens a support article about devices missing from the list.
+share-panel-missing-device =
+  .label = デバイスが見つかりませんか？
+
 share-panel-os-share-subview =
-  .title = 他の方法で共有...
+  .title = 他の方法で共有…
