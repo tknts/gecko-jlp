@@ -2733,8 +2733,8 @@ preferences-etp-custom-cookie-behavior =
 
 preferences-etp-custom-cookie-behavior-accept-all =
     .label = すべての Cookie を許可する
-preferences-etp-custom-cookie-behavior-block-cross-site-cookies =
-    .label = クロスサイト Cookie をブロックする
+preferences-etp-custom-cookie-behavior-block-cross-site-tracking-cookies =
+    .label = クロスサイトトラッキング Cookie をブロックする
 preferences-etp-custom-cookie-behavior-isolate-cross-site-cookies =
     .label = クロスサイト Cookie を分離する
 preferences-etp-custom-cookie-behavior-block-unvisited =

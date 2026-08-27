@@ -55,6 +55,12 @@ smartwindow-group-tabs-groups-list =
 # $tabCount is exactly how many tabs activating it closes.
 smartwindow-group-tabs-close-duplicates =
     { $tabCount ->
-        [one] 重複したタブを閉じる
+        [one] { $tabCount } 個の重複したタブを閉じる
        *[other] { $tabCount } 個の重複したタブを閉じる
     }
+# Accessible name for the list of duplicate tabs the row above would close,
+# one row per tab. Activating a tab in the list switches to it.
+# "Duplicate tabs" refers to tabs that are copies of each other; it is not a
+# verb telling the user to duplicate anything.
+smartwindow-group-tabs-duplicates-list =
+    .aria-label = 重複したタブを閉じます

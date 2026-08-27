@@ -10,7 +10,7 @@ all-tabs-menu-new-user-context =
   .label = 新しいコンテナ タブ
 
 all-tabs-menu-hidden-tabs =
-  .label = 非表示タブ
+  .label = タブを隠す
 
 all-tabs-menu-close-duplicate-tabs =
   .label = 重複したタブを閉じる
@@ -20,7 +20,7 @@ all-tabs-menu-view-all-tabs =
 
 # "Recent" refers to tab groups being sorted in recently used order. We show up
 # to five of these in this section.
-all-tabs-menu-recent-tab-groups-header = 最近のタブグループ
+all-tabs-menu-recent-tab-groups-header = 最近使用したタブグループ
 
 # This opens the sub view listing _all_ open and saved tab groups.
 all-tabs-menu-tab-groups-show-all =
@@ -30,4 +30,4 @@ all-tabs-menu-tab-groups-show-all =
 all-tabs-menu-tab-groups-sub-view =
   .title = タブグループ
 
-all-tabs-menu-current-window-header = 現在のウインドウ
+all-tabs-menu-current-window-header = 現在のウィンドウ

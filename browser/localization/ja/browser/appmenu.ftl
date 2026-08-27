@@ -147,6 +147,7 @@ fxa-menu-sync-off-data-description = データは同期されていません
 # turned off. Turns syncing on by opening sync preferences.
 fxa-menu-sync-status-turn-on-button =
     .label = オンにする
+fxa-menu-sync-status-turn-on-button-aria-label = オンにする
 
 # Shown as a secondary label under "Sync is Off" when the user needs to sign in
 # (again) for sync to work.
@@ -372,8 +373,8 @@ appmenu-about =
     .accesskey = A
 # This menu item opens the referral page, where the user can invite others to
 # use the browser. "Share" here means recommending or referring the browser
-appmenu-referrals =
-    .label = { -brand-shorter-name } の共有
+appmenu-referrals2 =
+    .label = { -brand-product-name } の共有
     .accesskey = r
 appmenu-get-help =
     .label = ヘルプを表示

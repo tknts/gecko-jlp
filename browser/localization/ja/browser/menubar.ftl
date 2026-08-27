@@ -18,8 +18,8 @@ menu-application-set-as-default =
     .label = { -brand-shorter-name } を既定のブラウザーに設定する
 # This menu item opens the referral page, where the user can invite others to
 # use the browser. "Share" here means recommending or referring the browser
-menu-application-referrals =
-    .label = { -brand-shorter-name } の共有
+menu-application-referrals2 =
+    .label = { -brand-product-name } の共有
 menu-application-services =
     .label = サービス
 menu-application-hide-this =

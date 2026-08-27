@@ -82,7 +82,7 @@ community-2 = { -brand-short-name } は、ウェブをオープンで公共的�
 
 helpus = 手伝ってみませんか? <label data-l10n-name="helpus-donateLink">寄付</label> するか、<label data-l10n-name="helpus-getInvolvedLink">参加</label>してください!
 
-helpus-referrals = 協力しませんか? <label data-l10n-name="helpus-donateLink">寄付をする</label>、<label data-l10n-name="helpus-shareFirefoxLink">{ -brand-short-name } を共有する</label>、または <label data-l10n-name="helpus-getInvolvedLink">プロジェクトに参加する</label>
+helpus-referrals2 = 協力しませんか？ <label data-l10n-name="helpus-donateLink">寄付をする</label>、<label data-l10n-name="helpus-shareFirefoxLink">{ -brand-product-name } を共有する</label>、または<label data-l10n-name="helpus-getInvolvedLink">参加する</label>
 
 bottomLinks-license = ライセンス情報
 bottom-links-terms = 利用規約

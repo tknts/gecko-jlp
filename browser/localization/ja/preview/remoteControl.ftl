@@ -5,37 +5,37 @@
 ## Remote control banners
 
 # Dynamic start banner
-remote-control-dynamic-start-banner-message = ƒŠƒ‚[ƒgƒRƒ“ƒgƒ[ƒ‹‚ª‚±‚Ìƒuƒ‰ƒEƒU[ƒZƒbƒVƒ‡ƒ“‚Å—LŒø‰»‚³‚ê‚Ü‚µ‚½BˆÓ}‚µ‚½‚à‚Ì‚Å‚È‚¢ê‡‚Í–³Œø‰»‚µ‚Ä‚­‚¾‚³‚¢B
-remote-control-dynamic-start-banner-stop-button = ƒŠƒ‚[ƒgƒRƒ“ƒgƒ[ƒ‹‚ğƒIƒt‚É‚·‚é
-    .accesskey = T
-remote-control-dynamic-start-banner-disable-button = ƒŠƒ‚[ƒgƒRƒ“ƒgƒ[ƒ‹‚ğ‰i‘±“I‚É–³Œø‰»‚·‚é
-    .accesskey = D
+remote-control-dynamic-start-banner-message = ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ãŒã“ã®ãƒ–ãƒ©ã‚¦ã‚¶ãƒ¼ã‚»ãƒƒã‚·ãƒ§ãƒ³ã§æœ‰åŠ¹åŒ–ã•ã‚Œã¾ã—ãŸã€‚æ„å›³ã—ãŸã‚‚ã®ã§ãªã„å ´åˆã¯ç„¡åŠ¹åŒ–ã—ã¦ãã ã•ã„ã€‚
+remote-control-dynamic-start-banner-stop-button = ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ã‚’ã‚ªãƒ•ã«ã™ã‚‹
+  .accesskey = T
+remote-control-dynamic-start-banner-disable-button = ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ã‚’æ°¸ç¶šçš„ã«ç„¡åŠ¹åŒ–ã™ã‚‹
+  .accesskey = D
 
 # Message displayed in the banner after clicking on the stop button
-remote-control-dynamic-start-banner-stopped-message = ƒŠƒ‚[ƒgƒRƒ“ƒgƒ[ƒ‹‚ªƒIƒt‚É‚È‚è‚Ü‚µ‚½B
+remote-control-dynamic-start-banner-stopped-message = ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ãŒã‚ªãƒ•ã«ãªã‚Šã¾ã—ãŸã€‚
 
 # Message displayed in the banner after clicking on the disable button
-remote-control-dynamic-start-banner-disabled-message = ƒŠƒ‚[ƒgƒRƒ“ƒgƒ[ƒ‹‚ªƒIƒt‚É‚È‚èA‚±‚Ìƒvƒƒtƒ@ƒCƒ‹‚Å‚Í¡Œã—LŒø‰»‚Å‚«‚È‚­‚È‚è‚Ü‚·B
+remote-control-dynamic-start-banner-disabled-message = ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ãŒã‚ªãƒ•ã«ãªã‚Šã€ã“ã®ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ã§ã¯ä»Šå¾Œæœ‰åŠ¹åŒ–ã§ããªããªã‚Šã¾ã™ã€‚
 
 # Connected banner is never shown at the same time as the dynamic start banner
-remote-control-connected-banner-message = ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ª‚±‚Ìƒuƒ‰ƒEƒU[ƒZƒbƒVƒ‡ƒ“‚ğ§Œä‚µ‚Ä‚¢‚Ü‚·Bƒ^ƒu‚Ì“à—e‚ğ“Ç‚İæ‚Á‚½‚èA•Û‘¶‚³‚ê‚½ƒf[ƒ^‚ÉƒAƒNƒZƒX‚µ‚½‚èA”CˆÓ‚ÌƒEƒFƒuƒTƒCƒg‚ÉˆÚ“®‚µ‚½‚è‚Å‚«‚Ü‚·B
-remote-control-connected-banner-disconnect-button = Ø’f
+remote-control-connected-banner-message = ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ãŒã“ã®ãƒ–ãƒ©ã‚¦ã‚¶ãƒ¼ã‚»ãƒƒã‚·ãƒ§ãƒ³ã‚’åˆ¶å¾¡ã—ã¦ã„ã¾ã™ã€‚ã‚¿ãƒ–ã®å†…å®¹ã‚’èª­ã¿å–ã£ãŸã‚Šã€ä¿å­˜ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã«ã‚¢ã‚¯ã‚»ã‚¹ã—ãŸã‚Šã€ä»»æ„ã®ã‚¦ã‚§ãƒ–ã‚µã‚¤ãƒˆã«ç§»å‹•ã—ãŸã‚Šã§ãã¾ã™ã€‚
+remote-control-connected-banner-disconnect-button = åˆ‡æ–­
   .accesskey = D
 
 ## Remote control toolbar button and panel
 
 remote-control-toolbar-button =
-    .label = ƒŠƒ‚[ƒgƒRƒ“ƒgƒ[ƒ‹
-    .tooltiptext = { -brand-short-name } ‚ÌƒŠƒ‚[ƒgƒRƒ“ƒgƒ[ƒ‹‚ğŠÇ—‚µ‚Ü‚·B
+    .label = ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«
+    .tooltiptext = { -brand-short-name } ã®ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ã‚’ç®¡ç†ã—ã¾ã™ã€‚
 remote-control-toolbar-button-on =
-    .label = ƒŠƒ‚[ƒgƒRƒ“ƒgƒ[ƒ‹ (ƒIƒ“)
-    .tooltiptext = { -brand-short-name } ‚ÌƒŠƒ‚[ƒgƒRƒ“ƒgƒ[ƒ‹‚ÍƒIƒ“‚Å‚·B
-remote-control-panel-heading = AI ƒAƒVƒXƒ^ƒ“ƒgŒü‚¯ƒŠƒ‚[ƒgƒRƒ“ƒgƒ[ƒ‹
-remote-control-panel-summary = ƒŠƒ‚[ƒgƒRƒ“ƒgƒ[ƒ‹‚ğƒIƒ“‚É‚·‚é‚ÆAAI ƒAƒVƒXƒ^ƒ“ƒg‚ª { -brand-short-name } ‚ÉÚ‘±‚µAƒuƒ‰ƒEƒWƒ“ƒOAƒtƒH[ƒ€‚Ö‚Ì“ü—ÍA”½•œ“I‚Èƒ^ƒXƒN‚Ì©“®‰»‚ğx‰‡‚Å‚«‚é‚æ‚¤‚É‚È‚è‚Ü‚·B
-remote-control-panel-warning = ƒŠƒ‚[ƒgƒRƒ“ƒgƒ[ƒ‹‚ªƒIƒ“‚ÌŠÔ‚ÍA‚±‚ÌƒRƒ“ƒsƒ…[ƒ^[ã‚Ì‘¼‚ÌƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ª { -brand-short-name } ‚Ö‚ÌÚ‘±‚ğ—v‹‚·‚éê‡‚ª‚ ‚è‚Ü‚·B
-remote-control-panel-status-running = Ú‘±‚ğó‚¯“ü‚ê‚é€”õŠ®—¹
-remote-control-panel-status-stopped = Ú‘±‚ğó‚¯“ü‚ê‚Ä‚¢‚Ü‚¹‚ñ
+    .label = ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ« (ã‚ªãƒ³)
+    .tooltiptext = { -brand-short-name } ã®ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ã¯ã‚ªãƒ³ã§ã™ã€‚
+remote-control-panel-heading = AI ã‚¢ã‚·ã‚¹ã‚¿ãƒ³ãƒˆå‘ã‘ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«
+remote-control-panel-summary = ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ã‚’ä½¿ç”¨ã™ã‚‹ã¨ã€AI ã‚¢ã‚·ã‚¹ã‚¿ãƒ³ãƒˆãŒ { -brand-short-name } ã«æ¥ç¶šã—ã€ãƒ–ãƒ©ã‚¦ã‚¸ãƒ³ã‚°ã€ãƒ•ã‚©ãƒ¼ãƒ ã¸ã®å…¥åŠ›ã€åå¾©çš„ãªã‚¿ã‚¹ã‚¯ã®è‡ªå‹•åŒ–ã‚’æ”¯æ´ã§ãã‚‹ã‚ˆã†ã«ãªã‚Šã¾ã™ã€‚
+remote-control-panel-warning = ãƒªãƒ¢ãƒ¼ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«ãŒã‚ªãƒ³ã®é–“ã¯ã€ã“ã®ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼ä¸Šã®ä»–ã®ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ãŒ { -brand-short-name } ã¸ã®æ¥ç¶šã‚’è¦æ±‚ã™ã‚‹å ´åˆãŒã‚ã‚Šã¾ã™ã€‚
+remote-control-panel-status-running = æ¥ç¶šã‚’å—ã‘å…¥ã‚Œã‚‹æº–å‚™å®Œäº†
+remote-control-panel-status-stopped = æ¥ç¶šã‚’å—ã‘å…¥ã‚Œã¦ã„ã¾ã›ã‚“
 remote-control-panel-turn-on-button =
-    .label = ƒIƒ“‚É‚·‚é
+    .label = ã‚ªãƒ³ã«ã™ã‚‹
 remote-control-panel-turn-off-button =
-    .label = ƒIƒt‚É‚·‚é
+    .label = ã‚ªãƒ•ã«ã™ã‚‹
