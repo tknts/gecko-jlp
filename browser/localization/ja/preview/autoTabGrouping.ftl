@@ -21,9 +21,10 @@ smartwindow-group-tabs-loading = 役立つグループがないかタブを確�
 smartwindow-group-tabs-empty = 現在サジェストできるタブグループはありません。後でもう一度確認してください。
 # Shown in place of suggestions when every group the model found has already
 # been created.
-smartwindow-group-tabs-all-sorted = タブの整理が完了しました
-smartwindow-group-tabs-create-all = グループを作成
-smartwindow-group-tabs-suggested-heading = サジェストされたグループ
+smartwindow
+# Creates every suggested group at once.
+smartwindow-group-tabs-create-all = すべてのグループを作成
+smartwindow-group-tabs-suggested-heading = おすすめのグループ
 # Accessible name for the flyout that lists the tabs of one suggested group.
 # Activating a tab in the list switches to it. $groupLabel is the suggested
 # group's name.

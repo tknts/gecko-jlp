@@ -4,13 +4,13 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "{93C0FD8C-43E7-4217-B6D5-7DCEAD173C5A}",
-      "strict_min_version": "156.0a1",
-      "strict_max_version": "156.0a1"
+      "strict_min_version": "157.0a1",
+      "strict_max_version": "157.0a1"
     }
   },
   "name": "Language: Japanese (JP)",
   "description": "Unofficial Nightly Language Pack for Japanese (JP) (ja)",
-  "version": "156.0.20260826.205548",
+  "version": "157.0.20260826.205548",
   "languages": {
     "ja": {
       "version": "20260826205548",

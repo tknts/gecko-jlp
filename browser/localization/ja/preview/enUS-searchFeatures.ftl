@@ -335,7 +335,7 @@ urlbar-result-sports-status-live = 試合中
 urlbar-result-sports-status-final = 試合終了
 
 # This string is shown in the result menu.
-urlbar-result-menu-dont-show-sports = スポーツのサジェストを表示しない
+urlbar-result-menu-dont-show-sports2 = スポーツのサジェストを表示しない
 
 # A message that replaces a result when the user dismisses sports suggestions.
 urlbar-result-dismissal-acknowledgment-sports = フィードバックをありがとうございます。試合の候補は今後表示されません。

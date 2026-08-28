@@ -251,3 +251,19 @@ ai-smart-form-fill-autocomplete-loading = 読み込んでいます…
 ai-smart-form-fill-autocomplete-sources-label = ソース:
 ai-smart-form-fill-autocomplete-choose-tabs = 関連するタブを選択する必要があります
 ai-smart-form-fill-autocomplete-open-tabs = いくつかのタブを開く必要があります
+
+# Sources are what tabs the Smart Form Fill should use to generate field values
+ai-smart-form-fill-edit-sources = ソースを編集
+ai-smart-form-fill-suggested-tabs = 推奨タブ
+ai-smart-form-fill-other-tabs = その他のタブ
+
+# Variables:
+#   $tabTitle (string) - Title of the tab controlled by the toggle
+ai-smart-form-fill-tab-select-toggle =
+    .aria-label = “{ $tabTitle }” のタブ選択を切り替える
+
+ai-smart-form-fill-cancel-tab-select =
+    .label = キャンセル
+
+ai-smart-form-fill-accept-tab-select =
+    .label = 完了
