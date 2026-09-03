@@ -407,3 +407,13 @@ aiwindow-starter-planning-plan = 計画の作成を手伝って
 aiwindow-starter-browsing-history = 履歴からタブを探して
 aiwindow-starter-browsing-summarize = タブを要約して
 aiwindow-starter-browsing-compare = タブを比較して
+
+## Conversation Starter Scroll Buttons
+## Scrolls the conversation-starter pill row toward its start/end.
+
+aiwindow-starter-scroll-start =
+    .tooltiptext = 前へスクロールします。
+    .aria-label = 前へスクロール
+aiwindow-starter-scroll-end =
+    .tooltiptext = 次へスクロールします。
+    .aria-label = 次へスクロール

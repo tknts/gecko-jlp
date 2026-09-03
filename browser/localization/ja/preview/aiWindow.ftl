@@ -232,6 +232,13 @@ ai-tasks-alert-condition-not-met = 一致なし
 # the user did not say what the page should focus on.
 ai-tab-default-page-title = 生成されたページ
 
+# Shown in place of a generated page when it can no longer be found, for
+# example because the user deleted it.
+ai-tab-page-unavailable = このページは利用できなくなりました。
+
+# Shown in place of a generated page when it could not be loaded.
+ai-tab-page-error = このページの読み込み中にエラーが発生しました。
+
 ## Smartbar command palette
 ## Slash commands shown in the smartbar when the user types "/".
 
@@ -267,3 +274,32 @@ ai-smart-form-fill-cancel-tab-select =
 
 ai-smart-form-fill-accept-tab-select =
     .label = 完了
+
+ai-smart-form-fill-fill-form =
+    .label = フォームに入力
+
+ai-smart-form-fill-review-heading = サジェストを確認
+ai-smart-form-fill-review-description = 正しくない部分を編集または削除してください。
+
+ai-smart-form-fill-field =
+    .label = 項目
+
+ai-smart-form-fill-cancel-review =
+    .label = キャンセル
+
+ai-smart-form-fill-finding-suggestions = サジェストを検索中
+
+ai-smart-form-fill-stop-finding-suggestions =
+    .aria-label = サジェストの検索を停止
+
+ai-smart-form-fill-success-heading = サジェストでフォームを入力しました
+ai-smart-form-fill-success-description = フォームを確認してください。入力された項目を確認し、送信前に不自然な点や不足している点がないか更新してください。
+
+ai-smart-form-fill-no-suggestions-heading = サジェストが見つかりませんでした
+ai-smart-form-fill-no-suggestions-description = スマートフォーム自動入力はこのフォームのサジェストを生成できませんでした。
+
+ai-smart-form-fill-error-heading = エラーが発生しました
+ai-smart-form-fill-error-description = 接続の問題など何らかのエラーが発生しました。もう一度お試しください。
+
+ai-smart-form-fill-close-review =
+    .label = 閉じる

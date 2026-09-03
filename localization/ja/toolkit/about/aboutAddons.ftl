@@ -631,6 +631,7 @@ mlmodel-smart-tab-topic-engine = { -brand-short-name } はタブグループの�
 mlmodel-smart-tab-embedding-engine = { -brand-short-name } はタブグループのタブを提案するためにこれを使用します
 
 mlmodel-formfill-engine = { -brand-short-name } は、住所フォームへの入力を補助するためにこれを使用します。
+mlmodel-speech-recognition = { -brand-short-name } はオンデバイスの音声認識にこれを使用します
 
 # AI Model will be downloaded on the users device and used locally
 addon-category-mlmodel = オンデバイス AI

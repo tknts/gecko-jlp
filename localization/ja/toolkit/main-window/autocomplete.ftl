@@ -20,3 +20,17 @@ autocomplete-import-logins-chromium-edge =
 ##
 
 autocomplete-import-learn-more = さらに詳しく
+
+## Secondary actions shown on form autocomplete dropdown rows.
+## Gated by the browser.autocomplete.removeRecords.enabled pref.
+
+# aria-label and tooltip for the button that opens the edit/delete menu.
+autocomplete-more-actions = その他の操作
+autocomplete-edit-password = パスワードを編集
+autocomplete-delete-password = パスワードを削除
+autocomplete-edit-address = 住所を編集
+autocomplete-delete-address = 住所を削除
+autocomplete-edit-payment-method = 支払い方法を編集
+autocomplete-delete-payment-method = 支払い方法を削除
+# aria-label and tooltip for the trash button on a form history entry.
+autocomplete-delete-form-history-entry = このフォーム履歴のエントリを削除

@@ -591,6 +591,14 @@ newtab-section-unfollow-button-label =
 newtab-section-follow-highlight-title = フィードの最適化
 newtab-section-follow-highlight-subtitle = 興味のあるトピックをフォローして、好みに合ったコンテンツをもっと表示しましょう。
 
+## Topic navigation
+## A row of buttons above the stories, each scrolling the page to that topic's section.
+
+newtab-topic-navigation-label =
+    .aria-label = トピック
+# Opens a menu listing the topics that did not fit in the row.
+newtab-topic-navigation-more-button = その他
+
 ## Button to block/unblock listed topics
 ## "Block", "unblocked", and "blocked" are social media terms that refer to hiding a section of stories.
 ## e.g. Blocked the politics section of stories.
@@ -732,6 +740,11 @@ newtab-widget-section-maximize =
 newtab-widget-section-minimize =
     .title = ウィジェットを最小化
     .aria-label = すべてのウィジェットをコンパクトサイズに折りたたむ
+# Shown on the widgets section header button while the section is
+# auto-minimized to its title row, to open the section back up.
+newtab-widget-section-show-widgets =
+    .title = ウィジェットの表示
+    .aria-label = ウィジェットセクションを表示
 newtab-widget-section-menu-button =
     .title = ウィジェットメニュー
     .aria-label = ウィジェットメニューを開く

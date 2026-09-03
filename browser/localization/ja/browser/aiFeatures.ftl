@@ -39,7 +39,10 @@ ai-window-smart-cursor-in-smart-window =
 smart-window-model-section =
     .label = アシスタントモデル
     .description = あなたが重視するものに合わせてモデルを選択してください。
-smart-window-model-learn-link = AI モデルについてさらに詳しく
+
+smart-window-model-radio-group =
+    .aria-label = アシスタントモデル
+smart-window-model-learn-link = モデルについて詳しく
 
 ## Variables:
 ##   $model (string) - The name of the AI model

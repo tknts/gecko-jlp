@@ -52,6 +52,9 @@ managed-notice-info-icon =
 managed-notice-nav =
     .label = ご使用のブラウザーはあなたの所属する組織によって管理されています。
 
+tls-key-logging-notice-nav =
+    .label = 暗号化されたトラフィックがアプリやサービスによって傍受される可能性があります。
+
 category-list =
     .aria-label = カテゴリー
 
@@ -773,6 +776,9 @@ update-history-2 =
 
 update-application-installation =
     .label = インストール設定
+
+update-application-radio-group =
+    .aria-label = インストール
 
 update-application-auto-2 =
     .label = 更新を自動的にインストールする (推奨)
@@ -1822,6 +1828,9 @@ preferences-passwords-autofill-header =
 history-group =
     .label = 履歴
 
+history-mode-radio-group =
+    .aria-label = 履歴
+
 history-remember-option-all2 =
     .label = 履歴を保存する
 history-remember-option-never2 =
@@ -2312,6 +2321,9 @@ preferences-doh-status-not-active = 動作していません ({ $reason })
 
 preferences-doh-group-message2 = DNS over HTTPS を有効にする:
 
+preferences-doh-radio-group =
+    .aria-label = 次の方法を使用して DNS over HTTPS を有効にする:
+
 preferences-doh-expand-section =
   .tooltiptext = その他の情報
 
@@ -2577,6 +2589,10 @@ preferences-ai-controls-sidebar-chatbot-group-2 =
     .label = サイドバーの AI チャットボットプロバイダー
     .description = 閲覧中にチャットボットを表示したままにします。Anthropic Claude、ChatGPT、Copilot、Google Gemini、Mistral Vibe から選択できます。
 
+preferences-ai-controls-sidebar-chatbot-group-3 =
+    .label = サイドバーの AI チャットボットプロバイダー
+    .description = ブラウジング中もチャットボットを表示し続けられます。複数のプロバイダーから選択して、いつでも切り替えられます。
+
 preferences-ai-controls-sidebar-chatbot-control =
     .label = サイドバーのチャットボット
 
@@ -2604,6 +2620,7 @@ preferences-ai-controls-block-confirmation-pdfjs = { -brand-short-name } PDF ビ
 preferences-ai-controls-block-confirmation-tab-group-suggestions = タブグループのサジェスト
 preferences-ai-controls-block-confirmation-key-points = リンクプレビューの要点
 preferences-ai-controls-block-confirmation-sidebar-chatbot = サイドバーのチャットボットプロバイダー
+preferences-ai-controls-block-confirmation-speech-recognition = 音声認識
 preferences-ai-controls-block-confirmation-features-after = ブロックすると、{ -brand-short-name } が提供する AI を利用する拡張機能にも影響します。
 
 preferences-ai-controls-block-confirmation-cancel =
@@ -2659,6 +2676,9 @@ issue-card-dismiss-button =
 preferences-etp-status-header =
     .label = 強化型トラッキング防止機能
     .description = ウェブサイトはトラッカーを使用してあなたのオンライン活動を追跡し、しつこい広告を表示します。{ -brand-short-name } は閲覧中のあなたを保護し、トラッカーを自動的にブロックしてデジタル上の足跡を制御できるようにします。
+
+preferences-etp-level-radio-group =
+    .aria-label = 強化型トラッキング防止機能
 
 preferences-etp-level-standard =
     .label = 標準 (デフォルト)
