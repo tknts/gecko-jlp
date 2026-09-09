@@ -140,6 +140,16 @@ a11y-activated = 有効
 a11y-force-disabled = アクセシビリティの無効化
 a11y-handler-used = アクセシブルハンドラーの使用
 a11y-instantiator = アクセシビリティのインスタンス生成
+pdfjs-title = PDF ビューアー
+# PDF.js is the name of the project, leave it unchanged.
+pdfjs-version = PDF.js バージョン
+pdfjs-enabled = 有効
+# The annotation editor is the set of PDF editing tools (draw, add image, add
+# text, signature).
+pdfjs-enabled-annotation-editor = 注釈エディターが有効
+# XFA (XML Form Architecture) refers to Adobe’s technology for forms.
+pdfjs-enabled-xfa = XFA フォームが有効
+pdfjs-open-attachments-inline = PDF 添付ファイルをインラインで開く
 library-version-title = ライブラリーのバージョン
 copy-text-to-clipboard-label = テキストをクリップボードにコピー
 copy-raw-data-to-clipboard-label = 生データをクリップボードにコピー

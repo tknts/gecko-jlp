@@ -274,6 +274,11 @@ newtab-error-fallback-refresh-link = ページを再読み込みして、もう�
 
 ## Customization Menu
 
+# An arrow button that goes back from a sub-panel in the customize panel, such as a wallpaper category, to the main Customize panel.
+newtab-customize-panel-back-button =
+    .aria-label = カスタマイズに戻る
+    .title = カスタマイズに戻る
+
 #  (developer note): @nova-cleanup(remove-string): Remove old string once Nova lands. The newtab-custom-shortcuts-nova string will take over
 newtab-custom-shortcuts-toggle =
   .label = ショートカット
@@ -394,6 +399,48 @@ newtab-wallpaper-dark-city = 紫の都市風景
 newtab-wallpaper-dark-fox-anniversary = 森の近くの舗道にいるキツネ
 newtab-wallpaper-light-fox-anniversary = 霧がかった山々の風景と草原にいるキツネ
 
+## "Your images" is the folder of wallpapers someone has saved. A saved wallpaper
+## can be a file they uploaded, a Picture of the Day they chose to keep, or a
+## Firefox wallpaper kept for them when it was retired.
+
+newtab-wallpaper-your-images = 保存した画像
+# Accessible name for the tile that opens the "Your images" folder in the
+# wallpaper picker. The tile shows one of the saved images and has no text of
+# its own, so this is all a screen reader has to go on.
+newtab-wallpaper-your-images-folder =
+    .aria-label = 保存した画像、保存した壁紙
+# Read by screen readers for a saved image that has a name of its own: a kept
+# Picture of the Day, or a Firefox wallpaper kept when it was retired. An image
+# someone added themselves is numbered instead, see the string below.
+# Variables:
+#   $name (string) - The picture's own title, or the Firefox wallpaper's name
+newtab-wallpaper-your-images-item = { $name }
+# Read by screen readers for an image someone added themselves. Firefox counts
+# these as they are saved rather than keeping the name of their file.
+# Variables:
+#   $number (number) - Which saved image this is, counting from one
+newtab-wallpaper-your-images-item-numbered = 画像 { $number }
+# Each saved image has its own remove button. The tooltip stays short because
+# a name can be long and some locales put it before the verb, which would push
+# "remove" out of view. The full name is on the label a screen reader reads.
+# Variables:
+#   $name (string) - The picture's own title, or the Firefox wallpaper's name
+newtab-wallpaper-remove-image =
+    .title = 画像の削除
+    .aria-label = { $name } を削除
+# The remove button for an image someone added themselves. .title is the
+# tooltip and .aria-label is what a screen reader reads.
+# Variables:
+#   $number (number) - Which saved image this is, counting from one
+newtab-wallpaper-remove-image-numbered =
+    .title = 画像の削除
+    .aria-label = 画像 { $number } を削除
+newtab-wallpaper-remove-image-title = 画像の削除
+# "This action" refers to removing a saved wallpaper image.
+newtab-wallpaper-remove-image-body = この操作は元に戻せません。
+newtab-wallpaper-remove-image-confirm = 削除
+newtab-wallpaper-remove-image-cancel = キャンセル
+
 ## Solid Colors
 
 #  (developer note): @nova-cleanup(remove-string): Remove old "Solid colors" string once Nova lands. The simplified "Colors" string will take over
@@ -462,6 +509,24 @@ newtab-wallpaper-celestial-river = 川の衛星画像
 
 newtab-wallpaper-category-title-firefox = { -brand-product-name }
 
+## Firefox wallpaper descriptions used for screen readers
+
+newtab-wallpaper-firefox-orange = オレンジ色の背景の右端にいるキツネ
+newtab-wallpaper-firefox-colorful-sky = 紫色の夜空に広がるオレンジ色の波
+newtab-wallpaper-firefox-desert-dark = 濃い紫色の砂漠に座るキツネ
+newtab-wallpaper-firefox-desert-light = 明るい砂漠を走るキツネ
+newtab-wallpaper-firefox-hills-dark = 暗い丘を走るキツネ
+newtab-wallpaper-firefox-hills-light = 明るい丘を走るキツネ
+newtab-wallpaper-firefox-tail-dark = 暗い背景の上のキツネのしっぽ
+newtab-wallpaper-firefox-tail-light = 明るい背景の上のキツネのしっぽ
+newtab-wallpaper-firefox-side-kit-dark = 暗い背景の左側にいるキツネ
+newtab-wallpaper-firefox-side-kit-light = 明るい背景の左側にいるキツネ
+newtab-wallpaper-firefox-sitting-hill-dark = 濃い紫色の丘に座るキツネ
+newtab-wallpaper-firefox-sitting-hill-light = 明るい丘に座るキツネ
+newtab-wallpaper-firefox-peak-dark = 暗い背景の左端にあるキツネの顔
+newtab-wallpaper-firefox-peak-light = 明るい背景の左端にあるキツネの顔
+newtab-wallpaper-firefox-sky-dark = 夜空の下の濃い紫色の丘
+newtab-wallpaper-firefox-sky-light = 柔らかな空の下の明るい丘
 
 # Variables
 #   $author_string (String) - The name of the creator of the photo.
@@ -492,6 +557,9 @@ newtab-weather-menu-change-location = 地域を変更
 newtab-weather-change-location-search-input-placeholder =
     .placeholder = 地域を検索
     .aria-label = 地域を検索
+newtab-weather-cancel-input =
+    .title = キャンセル
+    .aria-label = キャンセル
 # "Current" refers to the user's physical/geographic location detected via geolocation.
 newtab-weather-change-location-search-use-current =
     .label = 現在地を使用する
@@ -799,6 +867,10 @@ newtab-widget-lists-menu-create = 新しいリストを作成
 newtab-widget-lists-menu-delete = このリストを削除
 newtab-widget-lists-menu-copy = リストをクリップボードにコピー
 newtab-widget-lists-menu-learn-more = さらに詳しく
+# "Change" is a verb here: the button switches which list is shown
+newtab-widget-lists-change-list =
+    .title = リストの変更
+    .aria-label = リストを変更
 newtab-widget-lists-button-add-item = 項目を追加
 newtab-widget-lists-input-add-an-item2 =
     .placeholder = 項目を追加
@@ -1488,19 +1560,6 @@ home-prefs-sections-rows-option-srd =
            *[other] { $num } 行
         }
 
-home-restore-defaults-srd =
-    .label = デフォルトに戻す
-    .accesskey = R
-
-home-mode-choice-default-fx-srd =
-    .label = { -firefox-home-brand-name } (デフォルト)
-
-home-mode-choice-custom-srd =
-    .label = カスタム URL…
-
-home-mode-choice-blank-srd =
-    .label = 空白ページ
-
 home-prefs-shortcuts-header-srd =
     .label = ショートカット
 
@@ -1576,7 +1635,11 @@ newtab-privacy-across-sites =
 ## Privacy widget — empty state
 
 # Shown when no trackers have been blocked yet today.
-newtab-privacy-empty = { -brand-short-name } は閲覧中にトラッカーをブロックします。ブロックしたトラッカーはここに表示されます。
+newtab-privacy-empty-state = { -brand-short-name } はトラッカーを自動的にブロックし、あなたのアクティビティのプライバシーをより多く保護します。
+# "A running tally" is an informal way to say a total that keeps updating as it goes.
+# Here we are referring to the number of trackers blocked, which increases as the user browses.
+# An alternative can be "See a running total here"
+newtab-privacy-empty-state-tally = ここでリアルタイムの合計数を確認できます。
 
 ## Privacy widget — Enhanced Tracking Protection off state
 

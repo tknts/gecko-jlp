@@ -65,9 +65,6 @@ neterror-search-cta-reload-button =
     .label = 再読み込み
     .accesskey = R
 
-# Shown in place of the Search button while the search option is being prepared.
-neterror-search-cta-loading = 読み込み中
-
 # Shown in place of the Search button when the user clicks it but connectivity
 # has dropped since the page loaded, so the search cannot be performed.
 neterror-search-cta-offline = オフラインのようです。再接続してもう一度お試しください。

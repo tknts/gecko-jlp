@@ -258,6 +258,16 @@ ai-smart-form-fill-autocomplete-loading = 読み込んでいます…
 ai-smart-form-fill-autocomplete-sources-label = ソース:
 ai-smart-form-fill-autocomplete-choose-tabs = 関連するタブを選択する必要があります
 ai-smart-form-fill-autocomplete-open-tabs = いくつかのタブを開く必要があります
+ai-smart-form-fill-close-review =
+    .label = 閉じる
+
+# Variables:
+#   $tabs (number) - The number of tabs used as a source for autofill
+ai-smart-form-fill-autocomplete-tabs-count =
+    { $tabs ->
+        [one] { $tabs } 個のタブ
+       *[other] { $tabs } 個のタブ
+    }
 
 # Sources are what tabs the Smart Form Fill should use to generate field values
 ai-smart-form-fill-edit-sources = ソースを編集
@@ -279,10 +289,21 @@ ai-smart-form-fill-fill-form =
     .label = フォームに入力
 
 ai-smart-form-fill-review-heading = サジェストを確認
-ai-smart-form-fill-review-description = 正しくない部分を編集または削除してください。
+
+# Variables:
+#   $count (number) - The number of generated form field suggestions
+ai-smart-form-fill-review-description =
+    { $count ->
+        [one] { $count } 件の項目の候補が見つかりました。正しくない項目は編集または削除してください。
+       *[other] { $count } 件の項目の候補が見つかりました。正しくない項目は編集または削除してください。
+    }
 
 ai-smart-form-fill-field =
     .label = 項目
+
+ai-smart-form-fill-jump-to-bottom =
+    .tooltiptext = 一番下に移動する
+    .aria-label = サジェストの一番下に移動
 
 ai-smart-form-fill-cancel-review =
     .label = キャンセル
@@ -294,12 +315,17 @@ ai-smart-form-fill-stop-finding-suggestions =
 
 ai-smart-form-fill-success-heading = サジェストでフォームを入力しました
 ai-smart-form-fill-success-description = フォームを確認してください。入力された項目を確認し、送信前に不自然な点や不足している点がないか更新してください。
+ai-smart-form-fill-no-changes-heading = 変更は適用されませんでした
+ai-smart-form-fill-no-changes-description = Smart Form Fill で入力された項目はありませんでした。フォームを確認し、もう一度お試しください。
 
 ai-smart-form-fill-no-suggestions-heading = サジェストが見つかりませんでした
-ai-smart-form-fill-no-suggestions-description = スマートフォーム自動入力はこのフォームのサジェストを生成できませんでした。
+ai-smart-form-fill-no-suggestions-description = Smart Form Fill はこのフォームのサジェストを生成できませんでした。
 
-ai-smart-form-fill-error-heading = エラーが発生しました
-ai-smart-form-fill-error-description = 接続の問題など何らかのエラーが発生しました。もう一度お試しください。
+ai-smart-form-fill-error-try-again-heading = フォームにサジェストを追加できませんでした
+ai-smart-form-fill-error-try-again-description = 問題が発生しました。もう一度サジェストの追加をお試しください。
 
-ai-smart-form-fill-close-review =
-    .label = 閉じる
+ai-smart-form-fill-error-heading = サジェストを追加できませんでした
+ai-smart-form-fill-error-description = 問題が発生しました。再試行するには、フォームフィールドを選択し、ソースから入力を選択してください。
+
+ai-smart-form-fill-try-again =
+    .label = もう一度試す

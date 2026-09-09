@@ -417,3 +417,10 @@ aiwindow-starter-scroll-start =
 aiwindow-starter-scroll-end =
     .tooltiptext = 次へスクロールします。
     .aria-label = 次へスクロール
+
+# Dismisses a "pick up where you left off" resume-activity suggestion pill.
+# Variables:
+#   $text (String) - The suggestion headline being dismissed
+aiwindow-starter-dismiss =
+    .title = { $text } の非表示
+    .aria-label = { $text } を非表示にする

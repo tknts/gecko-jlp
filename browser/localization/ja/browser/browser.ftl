@@ -936,18 +936,14 @@ urlbar-result-action-open-saved-tabgroup = { $group } を開く
 
 ## Used in the context menu in urlbar view.
 
-urlbar-view-context-menu-open-in-tab =
-  .label = 新しいタブで開く
-  .accesskey = w
-urlbar-view-context-menu-open-in-container-tab =
-  .label = 新しいコンテナ タブで開く
-  .accesskey = i
-urlbar-view-context-menu-open-in-window =
-  .label = 新しいウィンドウで開く
-  .accesskey = N
-urlbar-view-context-menu-open-in-private-window =
-  .label = 新しいプライベート ウィンドウで開く
-  .accesskey = P
+urlbar-view-context-menu-open-in-tab2 = 新しいタブで開く
+    .accesskey = w
+urlbar-view-context-menu-open-in-container-tab2 = 新しいコンテナ タブで開く
+    .accesskey = i
+urlbar-view-context-menu-open-in-window2 = 新しいウィンドウで開く
+    .accesskey = N
+urlbar-view-context-menu-open-in-private-window2 = 新しいプライベート ウィンドウで開く
+    .accesskey = P
 
 ## Labels shown above groups of urlbar results
 
@@ -1355,7 +1351,7 @@ content-analysis-indicator-tooltip =
 content-analysis-panel-title = Data protection
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
-content-analysis-panel-text-styled = あなたが所属する組織は、データ損失を防ぐために { $agentName } を使用しています。<a data-l10n-name="info">さらに詳しく</a>
+content-analysis-panel-text-styled = あなたが所属する組織は、データ損失を防ぐために <b>{ $agentName }</b> を使用しています。<a data-l10n-name="info">さらに詳しく</a>
 
 ## Unified extensions (toolbar) button
 

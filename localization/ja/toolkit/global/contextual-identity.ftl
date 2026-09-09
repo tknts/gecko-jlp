@@ -30,8 +30,25 @@ user-context-manage-containers =
     .label = コンテナを管理
     .accesskey = o
 
-## Container colors, shown as selectable swatches in the container
-## creation/edit dialog.
+# The below strings need separate messages for use in panel-list implementations,
+# which take their label from the message value rather than a .label attribute.
+
+user-context-personal-panel-item = 個人
+    .accesskey = P
+user-context-work-panel-item = 仕事
+    .accesskey = W
+user-context-banking-panel-item = バンキング
+    .accesskey = B
+user-context-shopping-panel-item = ショッピング
+    .accesskey = S
+user-context-new-tab-panel-item = 新しいタブ
+    .accesskey = N
+user-context-add-container-panel-item = 新しいコンテナを追加
+    .accesskey = A
+user-context-manage-containers-panel-item = コンテナを管理
+    .accesskey = o
+
+## Container colors, shown as selectable swatches in the container creation/edit dialog.
 
 user-context-color-blue =
     .label = ブルー
