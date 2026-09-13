@@ -117,8 +117,6 @@ ai-tasks-alert-error-max-urls = { $maxUrls ->
 
 ## Accessibility - ARIA labels and accessibility text
 
-ai-tasks-alert-remove-page-label =
-  .aria-label = ページを削除
 ai-tasks-alert-show-details =
   .aria-label = アラートの詳細を表示
 ai-tasks-alert-add-url = 保存
@@ -315,6 +313,7 @@ ai-smart-form-fill-stop-finding-suggestions =
 
 ai-smart-form-fill-success-heading = サジェストでフォームを入力しました
 ai-smart-form-fill-success-description = フォームを確認してください。入力された項目を確認し、送信前に不自然な点や不足している点がないか更新してください。
+
 ai-smart-form-fill-no-changes-heading = 変更は適用されませんでした
 ai-smart-form-fill-no-changes-description = Smart Form Fill で入力された項目はありませんでした。フォームを確認し、もう一度お試しください。
 

@@ -85,6 +85,12 @@ fxa-menu-signed-out-message-login-failed = サインアウトしています
 # Reason shown when the remembered account still needs to verify their email.
 fxa-menu-signed-out-message-unverified = セットアップの完了
 
+# Shown by the same card, and by the app menu's sign-in row, once the user has
+# signed out - the account they signed out of can no longer be identified, so
+# this copy stands in for the email.
+fxa-menu-signed-out-title = 同期のサインイン
+fxa-menu-signed-out-description = サインアウトしています
+
 fxa-avatar-sign-in = サインイン
 fxa-avatar-sign-up = サインアップ
 fxa-avatar-tooltip =

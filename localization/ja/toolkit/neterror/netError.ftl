@@ -99,9 +99,6 @@ neterror-load-osx-permission = ローカルネットワークのページを読�
 
 neterror-http-error-page = ウェブサイトのアドレスが正しく入力されていることを確認してください。
 neterror-http-empty-response = ウェブサイトのアドレスが正しく入力されているか確認し、しばらくしてからもう一度お試しください。
-# Variables:
-#   $hostname (String) - Hostname of the website to which the user was trying to connect.
-neterror-http-empty-response-description = { $hostname } から空のページが返されました。
 
 neterror-captive-portal = インターネットにアクセスする前に、このネットワークにログインする必要があります。
 

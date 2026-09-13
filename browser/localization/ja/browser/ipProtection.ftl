@@ -131,8 +131,9 @@ ipprotection-android-promo-callout-primary-button = 了解しました
 unauthenticated-vpn-title = { -brand-product-name } 内蔵の VPN をお試しください
 
 unauthenticated-hide-location-message-3 = { -brand-product-name } での閲覧中に<a data-l10n-name="learn-more-vpn">現在地を隠します</a>。
-unauthenticated-private-location-message = { -brand-product-name } で<a data-l10n-name="learn-more-vpn">現在地のプライバシーを保つ</a>のに役立ちます。
-unauthenticated-choose-location-message-1 = 複数のロケーションから選択するか、{ -brand-product-name } に最速のロケーションを自動選択させることができます。
+unauthenticated-private-location-message = { -brand-product-name } で<a data-l10n-name="learn-more-vpn">現在地を非公開に保つ</a>のに役立ちます。
+unauthenticated-choose-location-message-1 = 複数のロケーションから選択するか、{ -brand-product-name } に最速のものを自動選択させます。
+unauthenticated-site-rules-message = VPN を使用するサイトと使用しないサイトを管理します。
 unauthenticated-get-started = 開始する
 unauthenticated-terms-of-service-privacy-notice = 続行すると、<a data-l10n-name="vpn-terms-of-service">利用規約</a>および<a data-l10n-name="vpn-privacy-notice">プライバシー通知</a>に同意したことになります。
 
@@ -143,6 +144,16 @@ site-exclusion-toggle-disabled-1 =
   .label = このサイトで VPN を使用する
   .aria-label = このサイトでは VPN がオフになっています
 site-exclusion-toggle-description = サイトが正しく動作しませんか? VPN をオフにしてみてください。
+
+# Manages rules for VPN to turn on or off automatically for certain websites
+site-rules-manage-rules-link-text = VPN ルールの管理
+
+# Heading for user defined rules on VPN usage for particular websites
+site-rules-status-heading = あなたのルール
+# Used in the panel when a user navigates to a site where the VPN is off due to a site exclusion
+site-rules-description-exclusion = このサイトでは VPN がオフになっています
+# Used in the panel when a user navigates to a site where the VPN is on due to a site inclusion
+site-rules-description-inclusion = このサイトでは VPN がオンになっています
 
 ipprotection-settings-link =
   .label = 設定
@@ -294,6 +305,12 @@ ip-protection-site-exceptions-all-sites-button =
         [one] ひとつのウェブサイト
        *[other] { $count } 個のウェブサイト
     }
+
+ip-protection-site-rules-header =
+  .heading = ウェブサイトのルールを管理
+ip-protection-site-rules-button =
+  .label = ウェブサイトのルールを管理
+  .description = 追加のプライバシーや VPN のオフが必要なサイトのルールを設定します。
 
 ip-protection-autostart =
   .label = VPN を自動的にオンにする

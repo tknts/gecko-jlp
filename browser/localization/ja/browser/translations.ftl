@@ -86,13 +86,14 @@ translations-panel-error-change-button =
   .label = Change source language
 # If your language requires declining the language name, a possible solution
 # is to adapt the structure of the phrase, or use a support noun, e.g.
-# `Sorry, we don't support the language yet: { $language }
+# `Sorry, we don't support translations from this language yet: { $language }
 #
 # Variables:
 #   $language (string) - The language of the document.
-translations-panel-error-unsupported-hint-known = 申し訳ございません。{ $language } はまだサポートされていません。
-translations-panel-error-unsupported-hint-unknown = 申し訳ございません。この言語はまだサポートされていません。
+translations-panel-error-unsupported-hint-known-2 = 申し訳ありません。{ $language } からの翻訳にはまだ対応していません。
+translations-panel-error-unsupported-hint-unknown-2 = 申し訳ありません。この言語からの翻訳にはまだ対応していません。
 
+## The default translation view contains two language dropdowns.
 ## Each label is followed, on a new line, by a dropdown list of language names.
 ## If this structure is problematic for your locale, an alternative way is to
 ## translate them as `Source language:` and `Target language:`
@@ -103,6 +104,11 @@ translations-panel-to-label = 翻訳先
 ## The translation panel appears from the url bar, and this view is the "restore" view
 ## that lets a user restore a page to the original language, or translate into another
 ## language.
+
+# The label for the target-language dropdown in the revisit view. This may need
+# to be translated differently from translations-panel-to-label to convey that
+# selecting a language will translate the page again.
+translations-panel-revisit-to-label = 再翻訳する言語
 
 # If your language requires declining the language name, a possible solution
 # is to adapt the structure of the phrase, or use a support noun, e.g.

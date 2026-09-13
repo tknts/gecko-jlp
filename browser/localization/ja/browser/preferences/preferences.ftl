@@ -365,10 +365,6 @@ browser-layout-vertical-tabs2 =
     .title = サイドバー（横側）にタブを表示
     .description = タブをサイドバーに配置し、画面の横側に表示します。
 
-browser-layout-show-sidebar2 =
-    .label = サイドバーを表示
-    .description = メイン画面を離れることなく、ブックマークやスマートフォンのタブ、AI チャットボットなどに素早くアクセスできます。
-
 page-navigation-group =
     .label = ページナビゲーション
 

@@ -8,6 +8,10 @@ theme-picker-mode-dark = ダーク
 # update based on the color scheme mode currently chosen by the operating system.
 theme-picker-mode-device = デバイス
 
+# Accessible name for the group of light/dark/device buttons.
+theme-picker-mode =
+    .aria-label = 外観
+
 theme-picker-use-linux-theme =
     .label = Linux のシステムテーマを使用する
 

@@ -1286,6 +1286,16 @@ newtab-activation-window-message-customization-focus-primary-button =
 newtab-activation-window-message-values-focus-header = あなたのための自由なスペース
 newtab-activation-window-message-values-focus-message = { -brand-product-name } なら、もっと自分らしい方法でネットを使い始め、思い通りにブラウジングできます。{ -brand-product-name } を自分好みに作り上げましょう。
 
+## Strings for the New Tab customization callout shown at the Nova launch.
+
+# "Put your finishing touch on" means to add the last, personal detail that
+# makes something yours. The call to action is to open the New Tab
+# customization panel and pick a theme or wallpaper.
+newtab-nova-customization-callout-header = { -brand-product-name } に最後の仕上げを加えましょう。
+newtab-nova-customization-callout-message = ライトテーマやダークテーマ、壁紙を探索して、新しい { -brand-product-name } を自分好みにカスタマイズしましょう。
+newtab-nova-customization-callout-primary-button =
+    .label = 外観を選ぶ
+
 ## Strings for the Clock widget
 
 newtab-clock-widget-menu-learn-more = 詳細はこちら
@@ -1957,6 +1967,34 @@ newtab-recent-searches-widget-menu-button =
 
 # Context menu item linking to more information about the widget.
 newtab-recent-searches-menu-learn-more = さらに詳しく
+
+# Tab listing the searches the user has made recently.
+newtab-recent-searches-tab-recent = 最近の検索
+
+# Tab listing what is trending with the user's search engine.
+newtab-recent-searches-tab-trending = トレンド
+
+# Informs the user which engine the trending results come from.
+# Variables:
+#   $engine (string) - Name of the default search engine, e.g. "Google".
+newtab-recent-searches-trending-attribution = { $engine } 提供
+
+# Relative time shown for a search made less than a minute ago.
+newtab-recent-searches-just-now = たった今
+
+# Screen reader label for the button that forgets one listed search.
+# Variables:
+#   $search (string) - The search the row shows, e.g. "puffin colonies".
+newtab-recent-searches-row-remove =
+    .aria-label = 最近の検索から “{ $search }” を削除
+
+## Recent searches widget — empty states
+
+# Shown in place of the list when the user has made no searches recently.
+newtab-recent-searches-empty-recent = 最近行った検索がここに表示されるため、いつでも再開できます。
+
+# Shown in place of the list when there are no trending search results.
+newtab-recent-searches-empty-trending = 現在おすすめのトレンドはありません。
 
 ## Strings for the navigable panels that new tab content area can be
 ## split into.

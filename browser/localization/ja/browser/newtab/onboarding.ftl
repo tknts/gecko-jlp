@@ -606,8 +606,42 @@ onboarding-refresh-sync-subtitle = { -brand-short-name } にサインインす�
 onboarding-refresh-sync-title = どこからでも、すべてを同期
 onboarding-refresh-gratitude-subtitle = 非営利団体が支援する唯一の主要ブラウザーである { -brand-short-name } をご利用いただきありがとうございます。皆様のサポートにより、私たちはインターネットをより安全で、誰もが利用しやすい場所にできるよう取り組んでいます。
 # "has your back" is an idiom suggesting support and protection
-onboarding-refresh-gratitude-title = { -brand-short-name } はあなたの味方です
+onboarding-refresh-gratitude-title = { -brand-short-name } の保護
 
+## First Run Onboarding refresh strings
+
+# "has your back" is an idiom suggesting support and protection
+onboarding-refresh-splash-screen-title = { -brand-product-name } は今すぐあなたを守ります
+onboarding-refresh-hero-text = あなたを追跡するためではなく、保護するために作られています。
+onboarding-refresh-tou-default = すべてのリンクを { -brand-short-name } で開く
+onboarding-refresh-tou-pin = { PLATFORM() ->
+    [macos] { -brand-short-name } を Dock に保持
+   *[other] { -brand-short-name } をタスクバーに追加
+}
+onboarding-refresh-tou-default-unchecked = ブラウジングするたびに組み込みの保護を維持する
+onboarding-refresh-tou-pin-unchecked = 唯一の主要な独立系ブラウザーをすぐ使えるようにする
+onboarding-refresh-terms-of-use-with-links = 続行すると、<a data-l10n-name="terms_of_use">{ -brand-product-name } 利用規約</a>および<a data-l10n-name="privacy_notice">プライバシー通知</a>に同意したことになります。ブラウザーの改善に役立てるため、{ -brand-product-name } は診断データとインタラクションデータを { -vendor-short-name } に送信します。
+onboarding-refresh-data-collection-link = データ収集設定の管理
+
+onboarding-refresh-primary-button = 続行
+
+onboarding-refresh-fro-import-header = データの移行
+onboarding-refresh-fro-import-body = あなたの個人データはプライベートに保たれます。{ -brand-product-name } がそれを販売することは決してありません。
+onboarding-refresh-fro-skip-button = スキップ
+
+onboarding-refresh-fro-theme-header = 外観のカスタマイズ
+
+onboarding-refresh-tab-layout-header = 別のタブレイアウトを試す
+onboarding-refresh-tab-layout-top = 上部
+onboarding-refresh-tab-layout-side = サイド
+onboarding-refresh-tab-layout-minimal = 最小
+# Tooltip displayed on hover for minimal tabs image
+onboarding-minimal-tabs-tooltip =
+    .title = ミニマルなサイドバーの画面の側面に沿ってタブを小さなアイコンとして表示するブラウザーウィンドウのタイトル
+
+# Description for minimal tabs image
+onboarding-minimal-tabs-description =
+    .aria-description = ミニマルなサイドバーの画面の側面に沿ってタブを小さなアイコンとして表示するブラウザーウィンドウ
 ## Smart window switcher callout
 
 smartwindow-switcher-callout = スマート ウィンドウとクラシック ウィンドウはいつでも切り替えられます。

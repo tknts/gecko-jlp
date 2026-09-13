@@ -497,3 +497,14 @@ lapsed-user-toast-title = { -brand-product-name } は常にあなたを守りま
 lapsed-user-toast-subtitle = より多くの選択肢、プライバシー、コントロールを備えた新しいブラウジングの方法をご覧ください。
 lapsed-user-toast-whats-new-button = 新機能を見る
 lapsed-user-toast-dismiss-button = 閉じる
+
+## Refresh Firefox infobar
+##
+## Shown at startup when the profile has not been used in over 60 days, or when
+## Firefox has just been reinstalled over an existing profile.
+## Both offer to reset the profile to a fresh state.
+
+refresh-unused-profile-infobar-message = しばらく { -brand-short-name } を起動されていないようですね。新品同様の快適な状態で使えるよう、クリーンアップしませんか? おかえりなさい!
+refresh-reinstalled-profile-infobar-message = Firefoxを再インストールされたようですね。新品同様の快適な状態で使えるよう、クリーンアップしませんか?
+refresh-profile-infobar-button = { -brand-short-name } をリフレッシュ…
+  .accesskey = e

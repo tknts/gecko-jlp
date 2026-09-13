@@ -25,6 +25,21 @@ colorpicker-tooltip-alpha-slider-title = 不透明度
 # A text for the toggle for the element-specific pseudo-classes panel.
 inspector-element-specific-pseudo-classes-heading = 要素固有の擬似クラス
 
+# A title text for the button in the Inspector toolbar that opens the menu
+# controlling how the Inspector panels are split.
+inspector-split-orientation-button-title = パネルのレイアウト
+
+# A label for the split orientation menu item that switches the layout
+# automatically based on the panel width.
+inspector-split-orientation-auto = 自動
+
+# A label for the split orientation menu item that locks the panels side by side.
+inspector-split-orientation-side-by-side = 左右に並べる
+
+# A label for the split orientation menu item that locks the panels on top of
+# each other.
+inspector-split-orientation-stacked = 上下に重ねる
+
 # A title text for the light color scheme emulation options
 inspector-color-scheme-emulation-light =
   .title = ページのライトカラースキームのエミュレーションを切り替え

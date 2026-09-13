@@ -710,6 +710,10 @@ themes-mode-dark =
 themes-mode-device =
   .label = デバイス
 
+# Accessible name for the group of light/dark/device buttons.
+themes-mode =
+  .aria-label = 外観
+
 # Heading for the in-product themes picker section in about:addons
 aboutaddons-themes-picker-heading =
     .heading = { -brand-product-name } のテーマ
