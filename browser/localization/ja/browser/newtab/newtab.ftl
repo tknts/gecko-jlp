@@ -1539,9 +1539,10 @@ home-prefs-stocks-header =
 home-prefs-picture-header =
     .label = 今日の写真
 
-# Recent searches is a widget on New Tab that shows the user's recent searches.
-home-prefs-recent-searches-header =
-    .label = 最近の検索
+# Search is a widget on New Tab that shows the user's recent and trending
+# searches.
+home-prefs-search-widget-header =
+    .label = 検索
 
 home-prefs-mission-message2 =
     .message = 私たちのスポンサーは、より良いウェブを構築するという使命を支援しています。

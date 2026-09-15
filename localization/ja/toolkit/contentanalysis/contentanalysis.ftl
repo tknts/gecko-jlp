@@ -25,6 +25,9 @@ contentanalysis-slow-agent-dialog-body-file-and-more =
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
 contentanalysis-slow-agent-dialog-body-clipboard = あなたの所属する組織のデータ ポリシーに照らして { $agent } は、あなたが貼り付けた内容をレビューしています。これには少し時間がかかる場合があります。
+# Variables:
+#   $agent - The name of the DLP agent doing the analysis
+contentanalysis-slow-agent-dialog-body-clipboard-copy = { $agent } がコピーした内容を組織のデータポリシーに照らして確認しています。しばらくお待ちください。
 # Note that this is shown when the user drag and drops text into the browser.
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
@@ -32,7 +35,13 @@ contentanalysis-slow-agent-dialog-body-dropped-text = あなたの所属する�
 # Variables:
 #   $agent - The name of the DLP agent doing the analysis
 contentanalysis-slow-agent-dialog-body-print = { $agent } は、印刷した内容を組織のデータ ポリシーに照らして審査しています。これには少し時間がかかる場合があります。
+# Written to the system clipboard in place of content that the user was not
+# permitted to copy, so that pasting produces this notice rather than silently
+# producing whatever was on the clipboard beforehand.
+contentanalysis-clipboard-copy-blocked-replacement = このコンテンツのコピーは組織によって制限されています。
+
 contentanalysis-operationtype-clipboard = クリップボード
+contentanalysis-operationtype-clipboard-copy = コピーされたコンテンツ
 contentanalysis-operationtype-dropped-text = ドラッグ アンド ドロップされたテキスト
 contentanalysis-operationtype-print = 印刷
 #   $filename - The filename associated with the request, such as "aFile.txt"
@@ -73,6 +82,7 @@ contentanalysis-invalid-agent-signature-message-content = { $agent } の署名�
 contentanalysis-error-message-upload-file = “{ $filename }” のアップロードが拒否されました。
 contentanalysis-error-message-dropped-text = ドラッグアンドドロップは拒否されました。
 contentanalysis-error-message-clipboard = 貼り付けが拒否されました。
+contentanalysis-error-message-clipboard-copy = コピーが拒否されました。
 contentanalysis-error-message-print = 印刷が拒否されました。
 
 # Variables:
@@ -90,6 +100,8 @@ contentanalysis-block-dialog-title-download-file = このファイルのダウ�
 contentanalysis-block-dialog-body-download-file = 組織のデータ保護ポリシーにより、“{ $filename }” のダウンロードは許可されていません。詳細については、管理者にお問い合わせください。
 contentanalysis-block-dialog-title-clipboard = このコンテンツを貼り付けることは許可されていません
 contentanalysis-block-dialog-body-clipboard = 所属する組織のデータ保護ポリシーに基づいて、このコンテンツを貼り付けることは許可されていません。詳細については、管理者にお問い合わせください。
+contentanalysis-block-dialog-title-clipboard-copy = このコンテンツのコピーは許可されていません
+contentanalysis-block-dialog-body-clipboard-copy = 組織のデータ保護ポリシーにより、このコンテンツのコピーは許可されていません。詳細については管理者に連絡してください。
 contentanalysis-block-dialog-title-dropped-text = このコンテンツをドロップすることは許可されていません
 contentanalysis-block-dialog-body-dropped-text = 所属する組織のデータ保護ポリシーに基づいて、このコンテンツをドラッグ アンド ドロップすることは許可されていません。詳細については、管理者にお問い合わせください。
 contentanalysis-block-dialog-title-print = このドキュメントの印刷は許可されていません

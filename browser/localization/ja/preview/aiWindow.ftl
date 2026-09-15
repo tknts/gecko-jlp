@@ -9,6 +9,28 @@ smartwindow-monitor-button =
     .label = モニター
     .tooltiptext = モニターを作成します。
 
+# Title of the panel opened by the toolbar button above
+smartwindow-monitor-panel-title = スマート ウィンドウのタスク
+
+# Label above tasks that newly met their condition since the panel was last opened
+smartwindow-monitor-panel-new-matches = 新しい一致
+# Label above the list of tasks the user has running
+smartwindow-monitor-panel-watching = 最近
+smartwindow-monitor-panel-empty-title = 監視中の項目はありません
+smartwindow-monitor-panel-empty-description = { -brand-short-name } はページを監視し、変更された瞬間に通知できます。確認は { -brand-short-name } が開いている間のみ行われます。下の新しいタスクを作成から開始してください。
+# Shown when the task's condition was met on its last check
+smartwindow-monitor-panel-result-match = 一致
+smartwindow-monitor-panel-result-no-match = 一致なし
+smartwindow-monitor-panel-result-error = 確認に失敗しました
+smartwindow-monitor-panel-create = 新しいタスクを作成
+# Panel title while the user is filling in the create form
+smartwindow-monitor-panel-create-title = スマート ウィンドウの新しいタスクの作成
+# Variables:
+#   $used (number) - How many tasks the user has
+#   $max (number) - The maximum number of tasks allowed
+smartwindow-monitor-panel-count = { $used } / { $max }
+smartwindow-monitor-panel-manage = すべてのタスクの管理と表示
+
 ## AI Tasks
 
 # Desktop notification shown when a AI Tasks fires. A "monitor" is
@@ -85,8 +107,8 @@ ai-tasks-alert-modal-title = アラートの作成
 
 ai-tasks-page-title = スマート ウィンドウ アラート
 ai-tasks-add-alert-button = アラートを作成
-ai-task-page-description = 価格の値下げ、再入荷、チケット販売などのアラートを作成します。監視するページを選択すると、スマート ウィンドウ が変更を確認します。
-ai-tasks-no-monitors-title = お住まいの地域ではスマート ウィンドウタスクを利用できません
+ai-task-page-description = 価格の値下げ、再入荷、チケット販売などのアラートを作成します。監視するページを選択すると、 { -smart-window-brand-name } が変更を確認します。
+ai-tasks-no-monitors-title = お住まいの地域では{ -smart-window-brand-name } タスクを利用できません
 ai-tasks-no-monitors-message = <a data-l10n-name="smart-window-link">スマート ウィンドウ</a>についての詳細をご覧ください。
 ai-task-page-no-alerts = 選択したページの価格やコンテンツを追跡するタスクを作成します。 { -smart-window-brand-name }  が一致するものを見つけると通知されます。
 ai-task-page-no-alerts = 作成されたアラートはありません。
@@ -328,3 +350,38 @@ ai-smart-form-fill-error-description = 問題が発生しました。再試行�
 
 ai-smart-form-fill-try-again =
     .label = もう一度試す
+
+## AI Tab generated pages
+
+# Shown above the title of a generated page that was created today.
+aitab-created-today = 本日作成
+
+# Shown above the title of a generated page created on an earlier date.
+# Variables:
+#   $date (number) - Timestamp of when the page was generated.
+aitab-created-on = { DATETIME($date, month: "short", day: "numeric") } 作成
+
+# Button that re-fetches the sources a generated page was built from.
+aitab-page-refresh-sources =
+    .label = ソースを更新
+
+# Replaces the refresh label while the sources are being re-fetched.
+aitab-page-refreshing-sources =
+    .label = ソースを更新中
+
+# Icon-only button that deletes the generated page.
+aitab-page-delete =
+    .aria-label = ページの削除
+    .title = ページの削除
+
+# TODO: D321710 (bug 2061040) adds `-ai-tab-brand-name`; swap the literal
+# placeholder for that term once it has landed on central.
+# "[AI Tab]" is a placeholder for the final product name.
+aitab-page-delete-dialog-title = [AI Tab] の削除
+aitab-page-delete-dialog-message = この生成されたページは削除されます。元のソースは影響を受けません。
+
+aitab-page-delete-dialog-cancel =
+    .label = キャンセル
+
+aitab-page-delete-dialog-confirm =
+    .label = 削除
