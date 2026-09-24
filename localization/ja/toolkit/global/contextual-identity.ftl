@@ -5,48 +5,30 @@
 ## Names of the default containers in Firefox.
 ## See https://support.mozilla.org/kb/how-use-firefox-containers
 
-user-context-personal =
+user-context-personal2 =
     .label = 個人
-    .accesskey = P
-user-context-work =
+user-context-work2 =
     .label = 仕事
-    .accesskey = W
-user-context-banking =
+user-context-banking2 =
     .label = 銀行
-    .accesskey = B
-user-context-shopping =
+user-context-shopping2 =
     .label = 買い物
-    .accesskey = S
 
 ##
 
-user-context-new-tab =
+user-context-new-tab2 =
     .label = 新しいタブ
-    .accesskey = N
-user-context-add-container =
+user-context-add-container2 =
     .label = 新しいコンテナを追加
-    .accesskey = A
-user-context-manage-containers =
-    .label = コンテナを管理
-    .accesskey = o
+user-context-manage-containers2 =
+    .label = コンテナを管理o
 
 # The below strings need separate messages for use in panel-list implementations,
 # which take their label from the message value rather than a .label attribute.
 
-user-context-personal-panel-item = 個人
-    .accesskey = P
-user-context-work-panel-item = 仕事
-    .accesskey = W
-user-context-banking-panel-item = バンキング
-    .accesskey = B
-user-context-shopping-panel-item = ショッピング
-    .accesskey = S
-user-context-new-tab-panel-item = 新しいタブ
-    .accesskey = N
-user-context-add-container-panel-item = 新しいコンテナを追加
-    .accesskey = A
-user-context-manage-containers-panel-item = コンテナを管理
-    .accesskey = o
+user-context-new-tab2-panel-item = 新しいタブ
+user-context-add-container2-panel-item = 新しいコンテナを追加
+user-context-manage-containers2-panel-item = コンテナを管理
 
 ## Container colors, shown as selectable swatches in the container creation/edit dialog.
 

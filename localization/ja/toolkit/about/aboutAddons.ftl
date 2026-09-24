@@ -338,22 +338,12 @@ discopane-notice-recommendations2 =
         これらは、あなたがインストールした拡張機能、プロファイル設定、および利用統計に基づいて表示されます。
 discopane-notice-learn-more = さらに詳しく
 
-# Notice for the colorway theme removal
-colorway-removal-notice-message =
-    .heading = カラーウェイテーマが削除されました。
-    .message =
-        { -brand-product-name } は Colorway を更新しました。“保存済みテーマ” リストから古いバージョンを削除しました。新しいバージョンはアドオンサイトから入手できます。
-
-
-colorway-removal-notice-learn-more = さらに詳しく
-colorway-removal-notice-button = 更新された Colorway テーマを入手
-
 # Notice to make user aware that themes are not applied in forced colors mode.
 # This notice is only visible on Windows.
 forced-colors-theme-notice =
     .message = Windows のコントラスト設定が { -brand-short-name } のテーマを上書きしています。テーマを使用するには、この設定をオフにしてください。
 
-privacy-policy = プライバシーポリシー
+privacy-policy = プライバシー ポリシー
 
 # Refers to the author of an add-on, shown below the name of the add-on.
 # Variables:

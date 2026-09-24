@@ -70,3 +70,26 @@ about-private-browsing-nova-info-header = 閲覧履歴は残りません
 about-private-browsing-nova-info-subheader2 = プライベートウィンドウをすべて閉じると、すべての検索結果とサインインが削除されます。トラッカーのブロックなど、{ -brand-short-name } の組み込み保護機能もここで有効になります。
 about-private-browsing-nova-info-body = すべてのプライベートウィンドウを閉じると、クッキー、履歴、サイトデータが削除されます。
 about-private-browsing-nova-info-link = アクティビティをまだ確認できる可能性があるのは誰ですか？
+about-private-browsing-private-window-basics-link = プライベート ウインドウの基本
+about-private-browsing-private-window-redesign-subheader = { -brand-short-name } は閲覧時のプライバシー保護を目的として設計されており、トラッキング保護機能が組み込まれています。このウインドウを閉じると、履歴、クッキー、サイトデータが消去され、このデバイスを使用する他のユーザーから閲覧プライバシーが保護されます。
+
+## Strings for the Private Window basics spotlight
+
+about-private-browsing-spotlight-basics-title = プライベート ウインドウの基本
+about-private-browsing-spotlight-basics-subtitle = プライベートウィンドウは、このデバイス上の他のユーザーに閲覧履歴を知られないようにするのに役立ちます。ただし、匿名性を確保したり、すべてのデータを消去したりするものではありません。
+# This is a section header in the Private Window basics spotlight dialog,
+# introducing information about what users should know about Private Windows.
+about-private-browsing-spotlight-basics-what-to-know = 知っておくべきこと
+about-private-browsing-spotlight-basics-activity-seen = ウェブサイト、検索エンジン、インターネットプロバイダー、または雇用主によって、一部の活動が依然として確認される可能性があります。
+about-private-browsing-spotlight-basics-bookmarks-downloads = ブックマークとダウンロードはデバイス上に残り、アドレスバーに表示される場合があります。
+# This is a section header in the Private Window basics spotlight dialog,
+# introducing additional privacy protection features available in { -brand-short-name }.
+about-private-browsing-spotlight-basics-more-privacy = その他のプライバシー保護機能
+about-private-browsing-spotlight-basics-malware-alerts = { -brand-short-name } は、マルウェアや詐欺サイトについて自動的に警告します。
+# "Participating sites" refers to websites that honor Global Privacy Control (GPC) signals, either voluntarily or where legally required.
+about-private-browsing-spotlight-basics-no-sell-data = { -brand-short-name } は、個人情報の販売や共有を行わないよう、対象サイトに自動的に要求します。
+about-private-browsing-spotlight-basics-vpn = 内蔵 VPN を使用すると、現在地を追跡されにくくなります。
+# "Strict" refers to the Strict level of Enhanced Tracking Protection settings.
+# Translations should be consistent with the existing "Strict" string in about:preferences.
+about-private-browsing-spotlight-basics-strict-tracking = より強力なトラッキング保護を利用するには、設定で「厳格」に切り替えてください。
+about-private-browsing-spotlight-basics-learn-more = 詳細情報

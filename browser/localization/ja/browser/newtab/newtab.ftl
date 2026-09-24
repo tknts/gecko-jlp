@@ -326,12 +326,15 @@ newtab-custom-widget-sports-toggle2 =
   .label = スポーツ
 newtab-custom-widget-privacy-toggle =
   .label = プライバシー
+# Crossword is a widget on New Tab that shows a daily crossword puzzle.
+newtab-custom-widget-crossword-toggle =
+  .label = クロスワード
 newtab-custom-widget-stocks-toggle =
   .label = 株価
 newtab-custom-widget-picture-toggle =
   .label = 今日の写真
-newtab-custom-widget-recent-searches-toggle =
-  .label = 最近の検索
+newtab-custom-widget-search-toggle =
+  .label = 検索
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -380,6 +383,9 @@ newtab-wallpaper-add-an-image = 画像を追加
 newtab-wallpaper-custom-color = 色を選択
 newtab-wallpaper-toggle-title =
     .label = 壁紙
+# Label for the grid of wallpaper categories in the customize panel
+newtab-wallpaper-category-list =
+    .aria-label = 壁紙のカテゴリ
 # Variables
 #   $file_size (number) - The number of the maximum image file size (in MB) that may be uploaded
 newtab-wallpaper-error-max-file-size = 画像がファイルサイズ制限の { $file_size } MB を超えています。より小さいファイルをアップロードしてください。
@@ -1616,6 +1622,13 @@ newtab-privacy-widget-label =
 # Context menu item linking to more information about the Privacy widget.
 newtab-privacy-menu-learn-more = さらに詳しく
 
+# "Privacy options" is an icon-only button in the widget toolbar — the
+# attributes are consumed as tooltip/screen-reader label only. The button
+# never renders visible text.
+newtab-privacy-widget-menu-button =
+    .title = プライバシーオプション
+    .aria-label = プライバシーオプション
+
 ## Privacy widget — count readout
 
 # Label shown under the large tracker-count number, appearing like:
@@ -1806,6 +1819,26 @@ newtab-stocks-widget-menu-button =
     .title = 株価ウィジェットのオプション
     .aria-label = 株価ウィジェットのオプション
 
+# Toolbar button that opens the stock search. It shows only the icon until it is
+# hovered or focused, then the .label as well; "Search" is a verb. .title and
+# .aria-label name it for tooltips and screen readers.
+newtab-stocks-search-button =
+    .label = 検索
+    .title = 名前またはシンボルで検索
+    .aria-label = 名前またはシンボルで検索
+
+# Shown on the Watchlist while the user has no stocks in it, above a button that
+# opens the stock search.
+newtab-stocks-watchlist-empty = 関心のある株式のウォッチを開始する
+
+# Button under the empty-watchlist message that opens the stock search. Shown
+# with a magnifying-glass icon and the .label, where "Search" is a verb; .title
+# and .aria-label name it the same way as the toolbar search button.
+newtab-stocks-watchlist-empty-search =
+    .label = 検索
+    .title = 名前またはシンボルで検索
+    .aria-label = 名前またはシンボルで検索
+
 ## Screen-reader summary of a stock ticker.
 ## Variables:
 ##   $name (String) - the full fund/ETF name, e.g. "SPDR S&P 500 ETF Trust".
@@ -1866,6 +1899,10 @@ newtab-stocks-search-input =
 # search. It means "results of the search", not "search within the results".
 newtab-stocks-search-results =
     .aria-label = 検索結果
+
+# Shown in the search panel, where the results will appear, until the user
+# has searched.
+newtab-stocks-search-hint = ウォッチリストに追加するシンボルや企業を検索
 
 # "Back" is an icon-only button in the search panel header that returns to the
 # widget — the attributes are consumed as tooltip/screen-reader label only. The

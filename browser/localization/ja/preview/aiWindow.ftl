@@ -21,7 +21,8 @@ smartwindow-monitor-panel-empty-description = { -brand-short-name } はページ
 # Shown when the task's condition was met on its last check
 smartwindow-monitor-panel-result-match = 一致
 smartwindow-monitor-panel-result-no-match = 一致なし
-smartwindow-monitor-panel-result-error = 確認に失敗しました
+# Shown when the most recent check failed, so there is no match to report.
+smartwindow-monitor-panel-result-could-not-check = 確認できませんでした
 smartwindow-monitor-panel-create = 新しいタスクを作成
 # Panel title while the user is filling in the create form
 smartwindow-monitor-panel-create-title = スマート ウィンドウの新しいタスクの作成
@@ -41,6 +42,34 @@ ai-tasks-monitor-notification-title = { -smart-window-brand-name } モニター�
 ai-tasks-monitor-notification-body = 監視中のページがアラート条件を満たしました。
 ai-tasks-monitor-notification-snooze = スヌーズ
 ai-tasks-monitor-notification-dismiss = 閉じる
+
+# Desktop notification shown right after the user creates a monitor, so they
+# know a match will be announced the same way. The notification title is the
+# monitor's name.
+# Variables:
+#   $site (String) - Hostname of the first page the monitor watches, e.g. "example.com"
+#   $extraCount (Number) - How many more pages the monitor watches besides $site
+ai-tasks-monitor-created-notification-body =
+    { $extraCount ->
+        [0] { $site } の監視を開始しました。一致する項目が見つかると、このような通知でお知らせします。
+        [one] { $site } および他のページ ({ $extraCount } 件) の監視を開始しました。一致する項目が見つかると、このような通知でお知らせします。
+       *[other] { $site } および他のページ ({ $extraCount } 件) の監視を開始しました。一致する項目が見つかると、このような通知でお知らせします。
+    }
+
+# Desktop notification shown when a monitor pauses itself, either because it
+# went a long time without its condition being met or because it reached its
+# maximum lifetime. The notification title is the monitor's name.
+# Variables:
+#   $days (Number) - Number of days the monitor ran without a match
+ai-tasks-monitor-expired-notification-body-no-match = 一致する項目が見つからないまま { $days } 日間が経過したため、このタスクは自動的に一時停止されました。いつでも再開できます。
+# Variables:
+#   $days (Number) - Number of days the monitor has been running
+ai-tasks-monitor-expired-notification-body-max-age = { $days } 日間が経過したため、このタスクは自動的に一時停止されました。いつでも再開できます。
+ai-tasks-monitor-expired-notification-resume = 再開
+# Desktop notification shown when a task's check could not run at all, for
+# example because the page could not be loaded. The task's name is the
+# notification title, so the body does not repeat it.
+ai-tasks-monitor-error-notification-body = このタスクを実行できませんでした。確認してください。
 
 # Smart Window Alerts
 # This file contains localized strings for the Smart Window alerts feature,
@@ -103,6 +132,10 @@ ai-tasks-alert-check-now-button = 今すぐ確認
 
 ai-tasks-alert-modal-title = アラートの作成
 
+# Note shown at the bottom of the create form indicating required fields
+# The asterisk (*) marks form fields that must be filled in.
+ai-tasks-alert-required-note = * 必須項目
+
 ## Page Content - Strings displayed on the alerts page
 
 ai-tasks-page-title = スマート ウィンドウ アラート
@@ -127,15 +160,24 @@ ai-tasks-alert-watching-pages = { $count ->
 
 ## Error Messages - Validation and error messages for alert creation
 
-ai-tasks-alert-error-http-only = HTTP および HTTPS の URL のみ許可されています
-ai-tasks-alert-error-invalid-url = 有効な URL を入力してください
-ai-tasks-alert-error-duplicate-url = この URL はすでに追加されています
+# Shown under the task name field when it is left empty on submit
+ai-tasks-alert-error-name-required = このタスクの名前を入力してください。
+# Shown under the "Notify me when" field when it is left empty on submit
+ai-tasks-alert-error-condition-required = 監視する内容を入力してください。
+# Shown under the page field for input that isn't a web address. A missing
+# scheme is filled in with https automatically
+ai-tasks-alert-error-invalid-url = 有効な URL を入力してください。
+ai-tasks-alert-error-duplicate-url = この URL は既に追加されています。
+# Shown under the page field when submitting with no pages added
+ai-tasks-alert-error-no-pages = 監視するページを少なくとも1つ追加してください。
 # Variables:
-#   $maxUrls (number) - Maximum number of URLs allowed per alert
+#   $maxUrls (number) - Maximum number of pages allowed per task
 ai-tasks-alert-error-max-urls = { $maxUrls ->
-    [one] 最大 { $maxUrls } 個の URL を指定できます
-   *[other] 最大 { $maxUrls } 個の URL を指定できます
-  }
+ *[other] 最大 { $maxUrls } ページまで監視できます。追加するには別のページを削除してください。
+}
+# Shown when creating or resuming a task is refused because the limit of
+# active tasks has been reached. Paused tasks don’t count toward the limit.
+ai-tasks-alert-error-active-limit = アクティブなタスクの上限に達しました。別のタスクを追加または再開するには、いずれかのタスクを一時停止または削除してください。
 
 ## Accessibility - ARIA labels and accessibility text
 
@@ -213,6 +255,9 @@ smartwindow-agent-monitor-watching = { $monitorName } を { $schedule } 確認�
 #   $monitorName (string) - The name of the page or target that was being watched
 smartwindow-agent-monitor-deleted = { $monitorName } の監視を停止し、このタスクを削除しました。
 
+# Shown in place of the card when the user cancels creating a task from the chat.
+smartwindow-agent-monitor-canceled = キャンセルしました。他に何かお手伝いできることはありますか？
+
 # Check watch schedule, added { $schedule } in the chat message.
 # Variables:
 #   $time (date) - The scheduled check time
@@ -225,7 +270,6 @@ smartwindow-agent-monitor-schedule-weekly = 毎週 { DATETIME($time, weekday: "l
 # Status chip and change-history rows shown on a monitor card in chat.
 smartwindow-agent-monitor-status-watching = 監視中
 smartwindow-agent-monitor-status-paused = 一時停止中
-smartwindow-agent-monitor-history-check-failed = 確認に失敗しました。後でもう一度確認してください。
 smartwindow-agent-monitor-history-no-match = 確認しましたが、アラート条件を満たしていませんでした。後でもう一度確認してください。
 
 ## Alert deletion confirmation
@@ -241,12 +285,44 @@ ai-tasks-alert-delete-confirm-button = 削除
 ai-tasks-alert-last-result-met = 前回結果: 一致あり
 ai-tasks-alert-last-result-not-met = 前回結果: 一致なし
 
+# Shown when the most recent check failed, so there is no match to report.
+ai-tasks-alert-last-result-could-not-check = 確認できませんでした
+
 ## Used in the history table as a simple status badge
 
 ai-tasks-alert-condition-met = 一致あり
 ai-tasks-alert-condition-not-met = 一致なし
+# Shown in place of Match / No match when the check itself failed to run.
+ai-tasks-alert-condition-could-not-check = 確認できませんでした
+
+## Notes shown beside a Couldn’t check badge, explaining why a check failed.
+## One per failure the run can produce.
+
+ai-tasks-alert-history-error-network = { -smart-window-brand-name } はこのページに接続できなかったため、比較は行われませんでした。このタスクは次回の予定時刻に再試行されます。
+
+ai-tasks-alert-history-error-timeout = ページの応答に時間がかかりすぎました。このタスクは次回の予定時刻に再試行されます。
+
+ai-tasks-alert-history-error-rate-limit = { -smart-window-brand-name } の本日の確認回数制限に達しました。このタスクは次回の予定時刻に再試行されます。
+
+ai-tasks-alert-history-error-auth = このページはサインインを要求したため、比較するものがありませんでした。ページを開いてサインインすると、次回の確認が機能するようになります。
+
+ai-tasks-alert-history-error-content-extraction = このページを読み込めませんでした。移動または削除された可能性があります。このタスクに保存されているアドレスを確認してください。
+
+ai-tasks-alert-history-error-canceled = 完了する前にこの確認を停止したため、比較は行われませんでした。
+
+ai-tasks-alert-history-error-interrupted = この確認の実行中に { -brand-short-name } が閉じたため、比較は行われませんでした。このタスクは次回の予定時刻に再試行されます。
+
+ai-tasks-alert-history-error-model = { -smart-window-brand-name } はページを読み取るサービスに接続できませんでした。比較は行われませんでした。このタスクは次回の予定時刻に再試行されます。
+
+ai-tasks-alert-history-error-prompt-load = { -smart-window-brand-name } はこの確認用の指示を読み込めなかったため、比較は行われませんでした。このタスクは次回の予定時刻に再試行されます。
+
+ai-tasks-alert-history-error-unknown = 問題が発生したため、この確認は実行されませんでした。比較は行われませんでした。
 
 ## AI Tab - A page generated from the content of the user's tabs
+
+# The feature name. It stays here rather than in brandings.ftl until the AI Tab
+# strings are exposed to localization.
+-ai-tab-brand-name = AI Tab
 
 # Title given to a generated page when the model returns no title of its own and
 # the user did not say what the page should focus on.
@@ -258,6 +334,31 @@ ai-tab-page-unavailable = このページは利用できなくなりました。
 
 # Shown in place of a generated page when it could not be loaded.
 ai-tab-page-error = このページの読み込み中にエラーが発生しました。
+
+# Page context menu entry that builds a generated page from the current page.
+main-context-menu-create-aitab =
+    .label = { -ai-tab-brand-name } を作成
+    .accesskey = A
+
+# Tab context menu entry that builds a generated page from the tabs the menu
+# was opened on.
+tab-context-create-aitab =
+    .label = { -ai-tab-brand-name } を作成
+
+# Tab group menu entry that builds a generated page from the group's tabs.
+tab-group-editor-action-create-aitab =
+    .label = { -ai-tab-brand-name } を作成
+
+# Chat message that starts the conversation created by a "Create AI Tab" menu
+# entry, written in the user's voice. The URLs of the chosen tabs are appended
+# on the lines below it.
+# Variables:
+#   $tabCount (Number) - How many tabs the page is built from.
+ai-tab-create-page-prompt =
+    { $tabCount ->
+        [one] このタブから { -ai-tab-brand-name } を作成する:
+       *[other] これらのタブから { -ai-tab-brand-name } を作成する:
+    }
 
 ## Smartbar command palette
 ## Slash commands shown in the smartbar when the user types "/".
@@ -374,10 +475,7 @@ aitab-page-delete =
     .aria-label = ページの削除
     .title = ページの削除
 
-# TODO: D321710 (bug 2061040) adds `-ai-tab-brand-name`; swap the literal
-# placeholder for that term once it has landed on central.
-# "[AI Tab]" is a placeholder for the final product name.
-aitab-page-delete-dialog-title = [AI Tab] の削除
+aitab-page-delete-dialog-title = { -ai-tab-brand-name }の削除?
 aitab-page-delete-dialog-message = この生成されたページは削除されます。元のソースは影響を受けません。
 
 aitab-page-delete-dialog-cancel =
@@ -385,3 +483,43 @@ aitab-page-delete-dialog-cancel =
 
 aitab-page-delete-dialog-confirm =
     .label = 削除
+
+## "Pick up where you left off" cards for resuming browsing or chat journeys.
+## A "journey" is a past browsing or chat session the user was in the middle
+## of - for example, a set of tabs open toward some task, or an ongoing
+## conversation - that the user can pick back up from where they left off.
+
+# Variables:
+#   $count (Number) - Number of tabs in the journey
+aiwindow-resume-card-tab-count =
+    { $count ->
+        [one] { $count } 個のタブ
+       *[other] { $count } 個のタブ
+    }
+# Variables:
+#   $text (String) - The journey title
+aiwindow-resume-card-more = その他
+    .aria-label = { $text } のその他のオプション
+aiwindow-resume-card-open-tabs = タブを開く
+aiwindow-resume-card-snooze = 後で通知
+# Variables:
+#   $text (String) - The journey title
+aiwindow-resume-card-resume = 再開
+    .aria-label = { $text } を再開
+# Variables:
+#   $text (String) - The journey title being dismissed
+aiwindow-resume-card-dismiss =
+    .title = { $text } を非表示
+    .aria-label = { $text } を非表示
+
+## Resume section
+## Toggles between showing a couple of "Pick up where you left off" resume
+## cards and showing all of them.
+
+aiwindow-resume-section-heading = アクティビティを再開
+# Variables:
+#   $count (Number) - Total number of resume cards in the section
+aiwindow-resume-section-show-more = すべて表示 ({ $count })
+# Variables:
+#   $count (Number) - Total number of resume cards in the section
+aiwindow-resume-section-show-less = 折り畳む ({ $count })

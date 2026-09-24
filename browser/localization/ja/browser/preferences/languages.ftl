@@ -71,3 +71,6 @@ browser-languages-installed-label = インストールされている言語
 browser-languages-available-label = 利用可能な言語
 
 browser-languages-error = { -brand-short-name } は言語の更新ができませんでした。インターネットに接続されていることを確認して、もう一度やり直してください。
+
+browser-languages-update-error =
+    .message = 現在 { -brand-short-name } の言語を更新できません。インターネットに接続されているか確認するか、もう一度やり直してください。

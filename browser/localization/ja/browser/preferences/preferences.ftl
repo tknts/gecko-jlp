@@ -934,10 +934,6 @@ network-proxy-connection-settings2 =
 home-section =
     .heading = ホームとスタートアップ
 
-home-new-windows-tabs-header = 新しいウィンドウとタブ
-
-home-new-windows-tabs-description2 = ホームページと新しいウィンドウ、新しいタブを開いたときに表示するものを選択します。
-
 ## Home Section - Default Browser
 
 home-default-browser-title =
@@ -955,10 +951,6 @@ set-as-my-default-browser-2 =
 
 ## Home Section - Home Page Customization
 
-home-homepage-mode-label = ホームページと新しいウィンドウ
-
-home-newtabs-mode-label = 新しいタブ
-
 home-restore-defaults =
     .label = 既定値に戻す
     .accesskey = R
@@ -972,35 +964,10 @@ home-mode-choice-custom =
 home-mode-choice-blank =
     .label = 空白ページ
 
-home-homepage-custom-url =
-    .placeholder = URL を貼り付け…
-
-# This button is shown when the homepage is managed by an extension and is placed below extension-controlling-homepage.
-home-homepage-manage-extension-button =
-    .label = 拡張機能を管理
-
 ## Custom Homepage subpage
-
-home-custom-homepage-header = カスタム ホームページ
 
 home-custom-homepage-subpage =
     .heading = カスタム ホームページ
-
-# This string has a special case for '1' and [other] (default). If necessary for
-# your language, you can add {$tabCount} to your translations and use the
-# standard CLDR forms, or only use the form for [other] if both strings should
-# be identical.
-use-current-pages =
-    .label =
-        { $tabCount ->
-            [1] 表示中のページを使用する
-           *[other] 表示中の複数のページを使用する
-        }
-    .accesskey = C
-
-choose-bookmark =
-    .label = ブックマークを使用する…
-    .accesskey = B
 
 home-homepage-title =
     .label = ホームページ
@@ -1043,75 +1010,13 @@ home-custom-homepage-current-pages-button =
 
 # Button that appears in-line after text "Replace with" (home-custom-homepage-replace-with-prompt)
 home-custom-homepage-bookmarks-button =
-    .label = ブックマーク...
+    .label = ブックマーク…
 
 # Dropdown option shown when an extension replaces the contents of new windows or tabs.
 # Variables:
 #   $extension (string) - Name of the extension
 home-prefs-homepage-extension-option =
-    .label = 拡張機能 ([ { $extension } ])
-
-## Home Section - Firefox Home Content Customization
-
-home-prefs-content-header2 = { -firefox-home-brand-name } のコンテンツ
-home-prefs-content-description2 = { -firefox-home-brand-name } 画面に表示するコンテンツを選択してください。
-
-home-prefs-search-header =
-    .label = ウェブ検索
-home-prefs-shortcuts-header =
-    .label = ショートカット
-home-prefs-shortcuts-description = 保存またはアクセスできるサイト
-home-prefs-shortcuts-by-option-sponsored =
-    .label = スポンサー付きショートカット
-
-home-prefs-recommended-by-header-generic =
-    .label = おすすめのストーリー
-home-prefs-recommended-by-description-generic = { -brand-product-name } ファミリーが厳選した特別なコンテンツ
-
-home-prefs-stories-header =
-    .label = ストーリー
-home-prefs-stories-description = あなたのアクティビティに基づいたパーソナライズされた記事
-
-##
-
-home-prefs-recommended-by-learn-more = 使い方
-home-prefs-recommended-by-option-sponsored-stories =
-    .label = スポンサー付きストーリー
-
-home-prefs-highlights-option-visited-pages =
-    .label = 訪問したページ
-home-prefs-highlights-options-bookmarks =
-    .label = ブックマーク
-home-prefs-highlights-option-most-recent-download =
-    .label = 最近のダウンロード
-
-home-prefs-recent-activity-header =
-    .label = 最近のアクティビティ
-home-prefs-recent-activity-description = 最近のサイトとコンテンツの抜粋
-
-# Variables:
-#   $num (number) - Number of rows displayed
-home-prefs-sections-rows-option =
-    .label =
-        { $num ->
-            [one] { $num } 行
-           *[other] { $num } 行
-        }
-home-prefs-weather-header =
-  .label = 天気
-home-prefs-weather-description = 今日の天気予報が一目でわかる
-home-prefs-weather-learn-more-link = さらに詳しく
-
-# "Support" here means to help sustain or contribute to something, especially through funding or sponsorship.
-home-prefs-support-firefox-header =
-    .label = { -brand-product-name } をサポートする
-
-home-prefs-mission-message = り良いウェブを構築するという私たちの使命を、スポンサーの皆様がサポートしてくださっています
-home-prefs-mission-message-learn-more-link = 詳細はこちら
-
-home-prefs-manage-topics-link = トピックを管理
-
-home-prefs-choose-wallpaper-link = 壁紙を選択
+    .label = 拡張機能 ({ $extension })
 
 ## Search Section
 

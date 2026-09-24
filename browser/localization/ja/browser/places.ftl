@@ -294,6 +294,7 @@ places-locked-prompt = { -brand-short-name } のファイルが、他のアプ�
 
 # Share is a verb here. Meaning to "Share" the bookmark "Folder"
 # .badge used to promote the sharing menu item; keep it as short as possible.
-places-share-folder2 =
+places-share-folder3 =
   .label = フォルダーを共有
+  .accesskey = a
   .badge = 新着

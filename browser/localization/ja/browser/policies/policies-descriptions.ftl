@@ -49,6 +49,8 @@ policy-CaptivePortal = キャプティブポータルのサポートを切り替
 
 policy-CertificatesDescription =証明書を追加、または組み込みの証明書を利用します。
 
+policy-ClearOnShutdown = { -brand-short-name } の終了時に閲覧データを消去する。
+
 # CNSA 2.0 is the United States National Security Agency's Commercial National
 # Security Algorithm Suite 2.0. ML-KEM-1024 is a post-quantum key agreement
 # algorithm. Neither should be translated.

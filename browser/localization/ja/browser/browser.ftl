@@ -873,14 +873,10 @@ urlbar-searchmode-no-keyword2 =
 
 urlbar-searchmode-dropmarker2 =
     .title = 検索エンジンの選択
-urlbar-searchmode-bookmarks3 = ブックマーク
-    .accesskey = B
-urlbar-searchmode-tabs3 = タブ
-    .accesskey = T
-urlbar-searchmode-history3 = 履歴
-    .accesskey = H
-urlbar-searchmode-actions3 = アクション
-    .accesskey = A
+urlbar-searchmode-bookmarks4 = ブックマーク
+urlbar-searchmode-tabs4 = タブ
+urlbar-searchmode-history4 = 履歴
+urlbar-searchmode-actions4 = アクション
 urlbar-searchmode-exit-button2 =
     .title = 閉じる
 urlbar-searchmode-default2 =
@@ -898,10 +894,8 @@ urlbar-searchmode-popup-one-off-header = 今回の検索に使用するエンジ
 # Label shown on the top of Searchmode Switcher popup when the search engine won't automatically
 # reset after submitting.
 urlbar-searchmode-popup-header = 次で検索:
-urlbar-searchmode-popup-search-settings = 検索設定
-    .accesskey = S
-urlbar-searchmode-popup-settings = 設定
-    .accesskey = S
+urlbar-searchmode-popup-search-settings2 = 検索設定
+urlbar-searchmode-popup-settings2 = 設定
 
 # Label prompting user to search with a particular search engine.
 #  $engine (String): the name of a search engine that searches a specific site

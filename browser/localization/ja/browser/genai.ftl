@@ -74,8 +74,20 @@ genai-menu-remove-provider =
 genai-menu-remove-sidebar =
     .label = サイドバーから削除
 # $provider (string) - name of the AI chat provider
-genai-shortcut-button =
-    .aria-label = { $provider } に質問
+genai-shortcut-button-2 =
+    .tooltiptext = { $provider } に質問する
+    .aria-label = { $provider } に質問する
+# $engine (string) - name of the search engine
+# $selection (string) - the selected text, truncated
+genai-shortcut-search-button =
+    .tooltiptext = { $engine } で “{ $selection }” を検索する
+    .aria-label = { $engine } で “{ $selection }” を検索する
+genai-shortcut-copy-button =
+    .tooltiptext = 選択したテキストをコピーする
+    .aria-label = 選択したテキストをコピーする
+genai-shortcut-more-actions-button =
+    .tooltiptext = その他のオプション
+    .aria-label = その他のオプション
 
 genai-menu-new-badge = 新規
 genai-menu-summarize-page = ページの要約

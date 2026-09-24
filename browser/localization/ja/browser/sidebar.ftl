@@ -59,6 +59,8 @@ sidebar-history-sort-option-date-and-site =
   .label = 日付とサイト
 sidebar-history-sort-option-last-visited =
   .label = 最終訪問日時
+sidebar-history-sort-option-most-visited =
+  .label = 訪問した回数
 
 ## Labels for sidebar search
 

@@ -193,19 +193,17 @@ appmenu-fxa-sync-and-save-data2 = 同期してデータを保存
 appmenu-fxa-signed-in-label = サイン イン
 
 # Sign-in promo shown in the app menu when signed out and no menu message or
-# update banner is present, prompting the user to sign in and sync.
-appmenu-fxa-sign-in-promo-heading = サインインして同期
-appmenu-fxa-sign-in-promo-message = どこからでもデータにアクセスできます
-appmenu-fxa-sign-in-promo-button =
-    .label = サインイン
+# update banner is present, prompting the user to sign in and sync. The user can
+# dismiss it, after which the compact sign-in row is shown in its place.
+appmenu-fxa-sign-in-promo-heading2 = すべてのデバイスでデータを同期する
+appmenu-fxa-sign-in-promo-link = サインイン
+appmenu-fxa-sign-in-promo-dismiss-button =
+    .title = 閉じる
+    .aria-label = サインインの案内を閉じる
 appmenu-fxa-setup-sync =
     .label = 同期を有効にする…
-appmenu-fxa-setup-sync-new = オンにする
 appmenuitem-save-page =
     .label = ページを名前を付けて保存…
-
-appmenuitem-fxa-sync-off-title = 同期していません
-appmenuitem-fxa-sync-off-description = ブックマークやパスワードなどをどこからでも保護してアクセスできます。
 
 ## The Firefox Profiler – The popup is the UI to turn on the profiler, and record
 ## performance profiles. To enable it go to profiler.firefox.com and click

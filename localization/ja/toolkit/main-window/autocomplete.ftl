@@ -44,11 +44,11 @@ autocomplete-delete-form-history-entry2 = フォーム履歴から { $entry } �
 ## Confirmation shown before a record is removed from the autocomplete dropdown.
 ## Gated by the browser.autocomplete.removeRecords.enabled pref.
 
-autocomplete-remove-password-title = パスワードの削除
-autocomplete-remove-address-title = 住所の削除
-autocomplete-remove-payment-method-title = 支払い方法の削除
+autocomplete-delete-password-title = パスワードの削除
+autocomplete-delete-address-title = 住所の削除
+autocomplete-delete-payment-method-title = 支払い方法の削除
 autocomplete-remove-record-message = この操作は元に戻せません。
-autocomplete-remove-record-button = 削除
+autocomplete-delete-record-button = 削除
 
 ## Device sign-in prompt shown before a password is removed from the autocomplete
 ## dropdown. The -win and -macosx variants are selected at runtime; other platforms
