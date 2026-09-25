@@ -31,12 +31,6 @@ ipprotection-feature-introduction-title = ブラウザに内蔵された新し�
 ipprotection-feature-introduction-title-1 = { -brand-product-name } 内蔵の VPN を試す
 ipprotection-feature-introduction-link-text-2 = 新しい <a data-l10n-name="learn-more-vpn">内蔵 VPN</a> を使用して、現在地を隠し、データを保護しましょう。
 
-# Used for callout for users who expressed interest in privacy in onboarding
-ipprotection-feature-introduction-title-privacy = プライバシーの保護をもう一段階強化
-ipprotection-feature-introduction-link-text-privacy-1 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } に内蔵された VPN</a> がブラウジングの保護に役立ちます。複数の接続先から選択して、閲覧場所のプライバシーをさらに高めましょう。
-ipprotection-feature-introduction-link-text-privacy-2 = <a data-l10n-name="learn-more-vpn">{ -brand-product-name } に内蔵された VPN</a> がブラウジングの保護に役立ちます。複数の接続先から選択して、閲覧場所のプライバシーをさらに高めましょう。
-ipprotection-feature-introduction-link-text-privacy-3 = 複数の接続先から選択して閲覧場所を隠し、<a data-l10n-name="learn-more-vpn">さらに強固なプライバシー</a>を確保します。
-
 # Unlimited bandwidth summer promotion
 
 ipprotection-feature-introduction-text-summer-promo-1 = オンにしてブラウジングのプライバシーをさらに高めましょう。8 月 31 日まで<a data-l10n-name="summer-promo-link">無制限の帯域幅</a>を利用して、より多くの接続先からブラウジングできます。
@@ -74,19 +68,32 @@ ipprotection-summer-promo-offramp-subscription-upsell-title = { -mozilla-vpn-bra
 ipprotection-summer-promo-offramp-subscription-upsell-description = 8 月 31 日以降も無制限の帯域幅を維持し、5 台のデバイスで 300 以上のロケーションを利用してブラウジングの追跡をより困難にできます。
 
 # Summer promo offramp callout buttons
+
 ipprotection-summer-promo-offramp-open-vpn-primary-button = VPN を開く
 ipprotection-summer-promo-offramp-set-to-default-primary-button = デフォルトに設定
 ipprotection-summer-promo-offramp-get-subscription-button = { -mozilla-vpn-brand-name } を入手
 ipprotection-summer-promo-offramp-dismiss-secondary-button = 閉じる
 
-# Original strings for private browsing callout
+## Callout shown when the user opens a private browsing window
 
+ipprotection-feature-introduction-title-private-browsing = { -brand-product-name } の内蔵 VPN によるプライバシーの最大化
 ipprotection-feature-introduction-link-text-private-browsing-2 = プライベート ウィンドウでも、新しい<a data-l10n-name="learn-more-vpn">内蔵 VPN</a> を使用して現在地を隠し、データを保護しましょう。
 ipprotection-feature-introduction-description-private-browsing = プライベート ウィンドウでも現在地を隠し、さらに強固な保護機能でブラウジングできます。
+# Alternate version of the feature discovery callout copy used after we've released site inclusions for the VPN. Users have the option to turn the VPN on for specific sites only
+ipprotection-feature-introduction-description-private-browsing-1 = ブラウジング時の<a data-l10n-name="learn-more-vpn">プライバシーを強化</a>するために、現在地を隠すことができます。特定サイトでVPNを有効または無効にするルールを設定し、プライバシーや位置情報に基づいた閲覧を制御できます。
 
-# Used for callout shown on login to public wi-fi through a captive portal
-ipprotection-feature-introduction-title-captive-portal = 公共 Wi-Fi をお使いですか? { -brand-product-name } 内蔵の VPN をお試しください。
-ipprotection-feature-introduction-description-captive-portal = 公共 Wi-Fi でも、現在地を隠してさらに安全にブラウジングできます。
+## Callout shown when the user logs in to a captive portal network
+
+ipprotection-feature-introduction-title-captive-portal = 公衆Wi-Fiを利用中ですか？{ -brand-product-name } の内蔵VPNをお試しください。
+ipprotection-feature-introduction-description-captive-portal = 公衆Wi-Fi上でも現在地を隠し、より強力な保護機能でブラウジングを行います。
+
+## Callout shown to users who have expressed an interest in privacy and security
+
+ipprotection-feature-introduction-title-privacy = プライバシーの追加レイヤー
+ipprotection-feature-introduction-link-text-privacy-3 = 複数のロケーションから選択して閲覧場所を隠し、<a data-l10n-name="learn-more-vpn">プライバシーを強化</a>します。
+
+# Used for multiple discovery callouts after release of the site inclusions feature
+ipprotection-feature-introduction-description-inclusions = ブラウジング時の<a data-l10n-name="learn-more-vpn">プライバシーを強化</a>するために、現在地を隠すことができます。特定のサイトに対してVPNの有効/無効を設定できます。
 
 # Used for discovery callouts for both captive portal login and private browsing
 ipprotection-feature-introduction-link-text-captive-portal-1 = 複数の接続先から選択して閲覧場所を隠し、<a data-l10n-name="learn-more-vpn">さらに強固なプライバシー</a>を確保します。
@@ -124,6 +131,16 @@ ipprotection-location-selection-callout-secondary-button = 閉じる
 ipprotection-android-promo-callout-title = Android 用内蔵 VPN の持ち出し
 ipprotection-android-promo-callout-description = QR コードをスキャンして Android 版 { -brand-product-name } を取得し、内蔵 VPN を有効にして外出先でのプライバシーを強化できます。iOS にもまもなく対応予定です。
 ipprotection-android-promo-callout-primary-button = 了解しました
+
+## Feature discovery callout message advertising a feature where the user can turn on the VPN for specific sites only
+
+# Here 'browse on' means continue browsing
+ipprotection-site-inclusions-callout-title-existing-users = 内蔵 VPN ルールを設定して閲覧を継続する
+ipprotection-site-inclusions-callout-title-lapsed-users = 内蔵 VPN をサイトごとに試す
+ipprotection-site-inclusions-callout-description = プライバシーを強化したいときや位置情報に基づいたブラウジングをしたいときはオンにし、そうでないときはオフにします。
+ipprotection-site-inclusions-callout-primary-button = ルールを設定
+ipprotection-site-inclusions-callout-secondary-button-existing-users = 今はしない
+ipprotection-site-inclusions-callout-secondary-button-lapsed-users = 閉じる
 
 ## Panel
 

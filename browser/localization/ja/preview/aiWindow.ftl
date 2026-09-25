@@ -360,6 +360,13 @@ ai-tab-create-page-prompt =
        *[other] これらのタブから { -ai-tab-brand-name } を作成する:
     }
 
+# A rating cell in a generated table, for example "4.5 / 5". Both numbers
+# arrive already formatted for the locale.
+# Variables:
+#   $value (String) - The item's rating.
+#   $max (String) - The highest possible rating.
+ai-tab-table-rating = { $value } / { $max }
+
 ## Smartbar command palette
 ## Slash commands shown in the smartbar when the user types "/".
 
@@ -523,3 +530,13 @@ aiwindow-resume-section-show-more = すべて表示 ({ $count })
 # Variables:
 #   $count (Number) - Total number of resume cards in the section
 aiwindow-resume-section-show-less = 折り畳む ({ $count })
+
+# Shown in place of the cards when there are no journeys to suggest yet. A
+# "journey" is a past browsing or chat session the user can pick back up
+# from where they left off.
+aiwindow-resume-section-empty-no-suggestions-heading = 今のところサジェストはありません
+aiwindow-resume-section-empty-no-suggestions-description = 再開できるアクティビティがあるときは、ここに表示されます。
+# Shown in place of the cards when the user has dismissed every suggestion.
+aiwindow-resume-section-empty-all-dismissed-heading = すべて確認済みです
+aiwindow-resume-section-empty-all-dismissed-description = 現在のサジェストは以上です。後でまた確認してください。
+aiwindow-resume-section-hide = 一時的に非表示

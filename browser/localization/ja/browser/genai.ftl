@@ -73,10 +73,9 @@ genai-menu-remove-provider =
     .label = { $provider } を削除
 genai-menu-remove-sidebar =
     .label = サイドバーから削除
-# $provider (string) - name of the AI chat provider
-genai-shortcut-button-2 =
-    .tooltiptext = { $provider } に質問する
-    .aria-label = { $provider } に質問する
+genai-shortcut-button-3 =
+    .tooltiptext = このテキストについて質問する
+    .aria-label = このテキストについて質問する
 # $engine (string) - name of the search engine
 # $selection (string) - the selected text, truncated
 genai-shortcut-search-button =

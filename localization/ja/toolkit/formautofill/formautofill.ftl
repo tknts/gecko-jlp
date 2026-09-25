@@ -23,8 +23,9 @@ autofill-delete-payment-method-os-prompt-macos = 保存された支払い方法�
 autofill-delete-payment-method-os-prompt-windows = { -brand-short-name } が保存された支払い方法情報を削除しようとしています。以下の Windows アカウントへのアクセスを確認してください。
 autofill-delete-payment-method-os-prompt-other = { -brand-short-name } が保存された支払い方法情報を削除しようとしています。
 
-# The link leads users to Form Autofill browser preferences.
-autofill-options-link = フォームの自動入力オプション
+# The button leads users to Form Autofill browser preferences.
+credit-card-doorhanger-options-button =
+    .title = フォームの自動入力のオプション
 
 ## The credit card capture doorhanger
 
@@ -32,9 +33,15 @@ autofill-options-link = フォームの自動入力オプション
 # this checkbox is displayed on the doorhanger shown when saving credit card.
 credit-card-doorhanger-credit-cards-sync-checkbox = 保存されているすべてのカードをデバイス間で同期する
 
-# Used on the doorhanger when users submit payment with credit card.
+## Used on the doorhanger when users submit payment with credit card.
+
 credit-card-save-doorhanger-header = このカードを安全に保存しますか?
 credit-card-save-doorhanger-description = { -brand-short-name } はカード番号を暗号化します。セキュリティコードは保存されません。
+credit-card-save-doorhanger-description-security-code = { -brand-short-name } はカード番号とセキュリティコードを暗号化するため、支払いフォームへの入力にそれらを使用できるのはあなただけです。
+credit-card-doorhanger-save-security-codes-checkbox =
+    .label = 支払い方法のセキュリティコードを常に保存する
+
+##
 
 credit-card-capture-save-button =
     .label = 保存
@@ -71,7 +78,23 @@ autofill-manage-payment-methods-label = 決済方法を管理
 # field is the card security code. The card's masked number is shown underneath
 # it as the secondary label. "CVC" is a common abbreviation for the code printed
 # on a payment card; use whichever abbreviation is most familiar in your locale.
-autofill-card-security-code-label = CVC
+autofill-card-security-code-label = セキュリティコード (CVC)
+
+## Details of the card shown on the credit card capture doorhanger, below the
+## masked card number. Each message is used for a different combination of the
+## available details.
+## Variables:
+##   $name (String): The cardholder name
+##   $month (String): Two-digit month the card expires
+##   $year (String): Two-digit year the card expires
+
+credit-card-doorhanger-details-name = { $name }
+credit-card-doorhanger-details-expiration = { $month }/{ $year }
+credit-card-doorhanger-details-cvv = セキュリティコード保存済み
+credit-card-doorhanger-details-name-expiration = { $name }, { $month }/{ $year }
+credit-card-doorhanger-details-name-cvv = { $name } | セキュリティコード保存済み
+credit-card-doorhanger-details-expiration-cvv = { $month }/{ $year } | セキュリティコード保存済み
+credit-card-doorhanger-details-name-expiration-cvv = { $name }, { $month }/{ $year } | セキュリティコード保存済み
 
 ## These are brand names and should only be translated when a locale-specific name for that brand is in common use
 
