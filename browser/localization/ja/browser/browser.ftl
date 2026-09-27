@@ -99,6 +99,8 @@ urlbar-result-menu-tip-get-help2 = ヘルプを表示
     .accesskey = h
 urlbar-result-menu-dismiss-suggestion2 = このサジェストを非表示にする
     .accesskey = D
+urlbar-result-menu-remove-top-site = このトップサイトを削除
+    .accesskey = T
 urlbar-result-menu-manage-firefox-suggest2 = { -firefox-suggest-brand-name } の管理
     .accesskey = M
 # Some urlbar suggestions show the user's approximate location as automatically
@@ -1203,11 +1205,33 @@ panel-save-update-password-2 =
 
 ##
 
-# "More" item in macOS share menu
-menu-share-more =
-    .label = その他…
-menu-share-windows =
-    .label = その他オプション
+# Caption shown in the native macOS share picker for the items being shared.
+# Variables:
+#   $count (Number) - The number of links being shared.
+menu-share-links =
+    .label =
+        { $count ->
+            [one] { $count } 件のリンク
+           *[other] { $count } 件のリンク
+        }
+# macOS-only item that opens the system share picker, used when a single link
+# is shared. "AirDrop" and "Messages" are names of macOS apps, so they should
+# match the macOS translation of those names where possible.
+menu-share-mac-picker-single =
+    .label = AirDrop、メッセージ、その他…
+    .accesskey = M
+# macOS-only item that opens the system share picker, used when more than one
+# link is shared. AirDrop is not mentioned here because it can only share a
+# single URL. "Messages" and "Mail" are names of macOS apps, so they should
+# match the macOS translation of those names where possible.
+menu-share-mac-picker-multiple =
+    .label = メッセージ、メール、その他…
+    .accesskey = M
+# Share entry in the addressbar context menu. Opens the macOS share picker
+# directly, hence the ellipsis.
+urlbar-share-url =
+    .label = 共有…
+    .accesskey = h
 # Variables:
 #   $count (Number) - The number of links that will be copied.
 menu-share-copy-links =
@@ -1217,6 +1241,8 @@ menu-share-copy-links =
            *[other] { $count } 個のリンクをコピー
         }
     .accesskey = L
+menu-share-windows =
+    .label = その他のオプション
 ui-tour-info-panel-close =
     .tooltiptext = 閉じます
 

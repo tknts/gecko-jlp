@@ -642,6 +642,7 @@ onboarding-minimal-tabs-tooltip =
 # Description for minimal tabs image
 onboarding-minimal-tabs-description =
     .aria-description = ミニマルなサイドバーの画面の側面に沿ってタブを小さなアイコンとして表示するブラウザーウィンドウ
+
 ## Smart window switcher callout
 
 smartwindow-switcher-callout = スマート ウィンドウとクラシック ウィンドウはいつでも切り替えられます。
@@ -679,3 +680,10 @@ smartwindow-sidebar-auto-open-callout-rejected-subtitle = 気が変わった場�
 onboarding-theme-picker-title = テーマの選択
 onboarding-theme-picker-subtitle = { -brand-short-name } に色彩をプラスしましょう。
 onboarding-theme-picker-button-label = 保存して続行
+
+## Carousel navigation
+
+# Default accessible name for the row of pills used to move between carousel
+# cards. String means `Highlights of a feature` (feature is a noun).
+onboarding-carousel-nav =
+  .aria-label = 機能の主な特徴

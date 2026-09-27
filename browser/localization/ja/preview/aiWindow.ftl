@@ -328,12 +328,12 @@ ai-tasks-alert-history-error-unknown = 問題が発生したため、この確�
 # the user did not say what the page should focus on.
 ai-tab-default-page-title = 生成されたページ
 
-# Shown in place of a generated page when it can no longer be found, for
-# example because the user deleted it.
-ai-tab-page-unavailable = このページは利用できなくなりました。
-
-# Shown in place of a generated page when it could not be loaded.
-ai-tab-page-error = このページの読み込み中にエラーが発生しました。
+# Shown in place of a generated page when it can't be displayed, for
+# example because the user deleted it, the address is wrong, or it
+# failed to load.
+aitab-page-error-heading = このページはもう利用できません。
+# TODO - Bug 2075639: update this string based on UX feedback
+aitab-page-error-description = その他の補足的な文字列。
 
 # Page context menu entry that builds a generated page from the current page.
 main-context-menu-create-aitab =
