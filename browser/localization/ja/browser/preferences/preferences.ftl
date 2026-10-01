@@ -893,6 +893,11 @@ settings-keyboard-shortcuts-group =
 settings-keyboard-shortcuts-customkeys-link =
     .label = キーボードショートカットのカスタマイズ
 
+# Link that takes the user to the Search category of settings, where the
+# address bar options live.
+settings-keyboard-shortcuts-addressbar-link =
+    .label = 検索でアドレスバーの設定をカスタマイズ
+
 settings-media-group =
     .label = メディア
 
@@ -1040,6 +1045,16 @@ search-separate-default-engine-2 =
 
 search-separate-default-engine-dropdown =
     .aria-label = プライベートウィンドウの既定の検索エンジン
+
+# "Navigation" here means moving around within the address bar and its results
+# list, not navigation to the address bar.
+addressbar-navigation-group =
+    .label = アドレスバー内の移動
+
+# "Results menu" refers to the menu available on each row of the address bar
+# results list, which offers actions such as dismissing the result.
+addressbar-skip-result-menu-on-tab =
+    .label = Tab キーでフォーカスを移動するときに結果メニューをスキップする
 
 search-suggestions-header-2 =
     .label = 検索エンジンの候補
@@ -1395,6 +1410,10 @@ sync-syncing-across-devices-heading-2 = デバイス間で同期されたデー�
 sync-syncing-across-devices-empty-state2 =
     .label = 同期データの管理
     .description = まだ何も同期されていません。同期を開始して、すべてのデバイスでデータを利用できるようにしましょう。
+
+sync-syncing-across-devices-empty-state3 =
+    .label = 同期データの管理
+    .description = まだ何も同期していません…。このデバイスで同期する項目を選択してください。
 
 sync-currently-syncing-bookmarks = ブックマーク
 sync-currently-syncing-history = 表示履歴

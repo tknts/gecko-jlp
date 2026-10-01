@@ -468,8 +468,11 @@ main-context-menu-inspect =
     .label = 調査
     .accesskey = Q
 
-main-context-menu-inspect-a11y-properties =
-    .label = アクセシビリティーのプロパティを調査
+# This item only shows for DevTools users, so its access key may be the same
+# as another item's, such as "Copy Image".
+main-context-menu-inspect-a11y-properties2 =
+    .label = アクセシビリティのプロパティを調査
+    .accesskey = y
 
 main-context-menu-eme-learn-more =
     .label = 著作権保護 (DRM) について…

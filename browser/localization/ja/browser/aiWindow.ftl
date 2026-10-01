@@ -98,6 +98,7 @@ smartbar-placeholder-hint-4 = ウェブを検索…
 
 smartbar-mention-typing-placeholder = タブやサイトをタグ付け
 smartbar-mentions-list-no-results-label = タブまたはページが見つかりません
+smartbar-mentions-list-tab-groups-label = 最近使ったグループ
 smartbar-mentions-list-recent-tabs-label = 最近使ったタブ
 
 ## Context mentions menu toggle button

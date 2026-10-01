@@ -88,6 +88,11 @@ menu-file-close-tab =
            *[other] { $tabCount } 個のタブを閉じる
         }
     .accesskey = C
+# Replaces menu-file-close-tab in a window that can only ever hold one tab,
+# such as a popup, where closing the tab closes the window.
+menu-file-close =
+    .label = 閉じる
+    .accesskey = C
 menu-file-close-window =
     .label = ウィンドウを閉じる
     .accesskey = d

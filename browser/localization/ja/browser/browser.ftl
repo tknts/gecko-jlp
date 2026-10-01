@@ -941,6 +941,13 @@ urlbar-view-context-menu-open-in-window2 = 新しいウィンドウで開く
 urlbar-view-context-menu-open-in-private-window2 = 新しいプライベート ウィンドウで開く
     .accesskey = P
 
+# A checkable menu item that controls whether pressing the Tab key while
+# navigating the address bar results stops on each result's menu button. When
+# checked, the Tab key moves straight from one result to the next, skipping the
+# menu button that opens this menu.
+urlbar-view-context-menu-skip-menu-with-tab = [Tab] キーでこのメニューをスキップ
+    .accesskey = S
+
 ## Labels shown above groups of urlbar results
 
 # A label shown above the "Firefox Suggest" (bookmarks/history) group in the

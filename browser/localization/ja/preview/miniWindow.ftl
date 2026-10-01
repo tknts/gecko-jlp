@@ -60,3 +60,16 @@ main-context-menu-use-mini-window =
 move-to-mini-window =
     .label = ミニ ウインドウに移動
     .accesskey = M
+
+## These strings label the Screenshots overlay while it is being used to pick
+## what to move into a Mini Window.
+
+mini-window-overlay-header = 表示しておくページの一部を選択
+mini-window-overlay-instructions = クリックして保持して、ミニ ウィンドウに移動する領域を選択します。ブラウジング中も常に手前に表示されます。
+
+## These strings label the panel that asks what the user wants to move into a
+## Mini Window, shown alongside the Screenshots selection overlay.
+
+mini-window-panel-header = ミニ ウィンドウに移動するものを選択
+mini-window-panel-move-selection = 選択範囲を移動
+mini-window-panel-move-full-tab = タブ全体を移動
