@@ -327,8 +327,9 @@ newtab-custom-widget-privacy-toggle =
 # Crossword is a widget on New Tab that shows a daily crossword puzzle.
 newtab-custom-widget-crossword-toggle =
   .label = クロスワード
-newtab-custom-widget-stocks-toggle =
-  .label = 株価
+# Finance is a widget on New Tab that shows stock ticker prices.
+newtab-custom-widget-stocks-toggle2 =
+  .label = 金融
 newtab-custom-widget-picture-toggle =
   .label = 今日の写真
 newtab-custom-widget-search-toggle =

@@ -1375,10 +1375,10 @@ private-browsing-info-panel-description = このデバイスを使用する他�
 #   $agentName (String): The name of the DLP agent that is connected
 content-analysis-indicator-tooltip =
     .tooltiptext = データ損失防止 (DLP) by { $agentName }。詳細については、クリックしてください。
-content-analysis-panel-title = Data protection
+content-analysis-panel-title2 = データ損失防止
 # Variables:
 #   $agentName (String): The name of the DLP agent that is connected
-content-analysis-panel-text-styled = あなたが所属する組織は、データ損失を防ぐために <b>{ $agentName }</b> を使用しています。<a data-l10n-name="info">さらに詳しく</a>
+content-analysis-panel-text-styled2 = あなたが所属する組織では、機密データの共有方法を制御するために <b>{ $agentName }</b> を使用しています。<a data-l10n-name="info">さらに詳しく</a>
 
 ## Unified extensions (toolbar) button
 

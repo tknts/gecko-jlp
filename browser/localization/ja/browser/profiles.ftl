@@ -64,6 +64,10 @@ avatar-selector-crop = 切り抜き
 avatar-selector-dialog =
     .aria-label = アバターを編集します
 
+# Accessible name for the list of profile avatars.
+avatar-selector-icon-list =
+    .aria-label = アバターを選択
+
 edit-profile-page-no-name = 後で見つけやすいように、このプロファイルに名前を付けてください。いつでも名前を変更できます。
 edit-profile-page-duplicate-name = このプロファイルの名前は既に使用されています。他の名前で試してください。
 
