@@ -33,9 +33,9 @@ smartwindow-document-title = 新しいタブ
 
 ## Smart Window Toggle Button
 
-toolbar-switcher-customizable-label =
-    .label = { -smart-window-brand-name } の切り替え
-    .tooltiptext = スマート ウィンドウとクラシック ウィンドウを切り替えます。
+toolbar-switcher-customizable-label-v2 =
+    .label = { -smart-window-brand-name } に切り替え
+    .tooltiptext = スマート ウィンドウとクラシックウィンドウを切り替えます
 
 ai-window-toggleview-switch-classic =
     .label = クラシック ウィンドウ

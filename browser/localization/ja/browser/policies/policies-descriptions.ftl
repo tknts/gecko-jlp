@@ -101,7 +101,7 @@ policy-DisableLaunchOnLogin = ユーザーのログイン時に { -brand-short-n
 
 policy-DisablePrimaryPasswordCreation = true にすると、プライマリ パスワードを作成できなくなります。
 
-policy-DisablePasswordReveal = 保存されたログイン情報のパスワードの表示を禁止します
+policy-DisablePasswordReveal2 = パスワード入力欄で保存されたログイン情報やパスワードを表示できないようにします。
 
 policy-DisablePrivateBrowsing = プライベート ブラウジングを無効にします。
 
@@ -113,7 +113,7 @@ policy-DisableRemoteImprovements = アップデートの合間に、{ -brand-sho
 
 policy-DisableRemoteSettingsAndAcceptSecurityConsequences = リモート設定を無効にします。
 
-policy-DisableSafeMode = セーフ モードで再起動する機能を無効にします。注意: Shift キーでセーフ モードを起動する機能は、Windows でグループ ポリシーを使用する場合のみ無効にできます。
+policy-DisableSafeMode = セーフ モードで再起動する機能を無効にします。注意: [Shift] キーでセーフ モードを起動する機能は、Windows でグループ ポリシーを使用する場合のみ無効にできます。
 
 policy-DisableSecurityBypass = ユーザーが特定のセキュリティ警告を回避できないようにします。
 

@@ -12,74 +12,74 @@ navbar-tooltip-instruction =
 
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
-main-context-menu-back-2 =
+main-context-menu-back-3 =
     .tooltiptext = 前のページへ戻ります ({ $shortcut })
     .aria-label = 戻る
-    .accesskey = B
 
 # This menuitem is only visible on macOS
 main-context-menu-back-mac =
     .label = 戻る
     .accesskey = B
 
-navbar-tooltip-back-2 =
-    .value = { main-context-menu-back-2.tooltiptext }
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+navbar-tooltip-back-3 =
+    .value = 前のページへ戻ります ({ $shortcut })
 
-toolbar-button-back-2 =
-    .label = { main-context-menu-back-2.aria-label }
+toolbar-button-back-3 =
+    .label = 戻る
 
 ## Forward
 
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
-main-context-menu-forward-2 =
+main-context-menu-forward-3 =
     .tooltiptext = 次のページへ進みます ({ $shortcut })
     .aria-label = 進む
-    .accesskey = F
 
 # This menuitem is only visible on macOS
 main-context-menu-forward-mac =
     .label = 進む
     .accesskey = F
 
-navbar-tooltip-forward-2 =
-    .value = { main-context-menu-forward-2.tooltiptext }
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+navbar-tooltip-forward-3 =
+    .value = 次のページへ進みます ({ $shortcut })
 
-toolbar-button-forward-2 =
-    .label = { main-context-menu-forward-2.aria-label }
+toolbar-button-forward-3 =
+    .label = 進む
 
 ## Reload
 
-main-context-menu-reload =
+main-context-menu-reload-2 =
     .aria-label = 再読み込み
-    .accesskey = R
 
 # This menuitem is only visible on macOS
 main-context-menu-reload-mac =
     .label = 再読み込み
     .accesskey = R
 
-toolbar-button-reload =
-    .label = { main-context-menu-reload.aria-label }
+toolbar-button-reload-2 =
+    .label = 再読み込み
 
 ## Stop
 
-main-context-menu-stop =
+main-context-menu-stop-2 =
     .aria-label = 中止
-    .accesskey = S
 
 # This menuitem is only visible on macOS
 main-context-menu-stop-mac =
     .label = 中止
     .accesskey = S
 
-toolbar-button-stop =
-    .label = { main-context-menu-stop.aria-label }
+toolbar-button-stop-2 =
+    .label = 中止
 
 ## Stop-Reload Button
 
-toolbar-button-stop-reload =
-    .title = { main-context-menu-reload.aria-label }
+toolbar-button-stop-reload-2 =
+    .label = 再読み込み
 
 ## Account toolbar Button
 
@@ -95,9 +95,8 @@ main-context-menu-page-save =
 
 ## Simple menu items
 
-main-context-menu-bookmark-page =
+main-context-menu-bookmark-page-2 =
     .aria-label = ページをブックマーク…
-    .accesskey = m
     .tooltiptext = ページをブックマークします
 
 # This menuitem is only visible on macOS
@@ -116,21 +115,18 @@ main-context-menu-edit-bookmark-mac =
 
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the add bookmark command.
-main-context-menu-bookmark-page-with-shortcut =
+main-context-menu-bookmark-page-with-shortcut-2 =
     .aria-label = ページをブックマーク…
-    .accesskey = m
-    .tooltiptext = このページをブックマーク ({ $shortcut })
+    .tooltiptext = ページをブックマークします ({ $shortcut })
 
-main-context-menu-edit-bookmark =
-    .aria-label = ブックマークを編集
-    .accesskey = m
+main-context-menu-edit-bookmark-2 =
+    .aria-label = ブックマークを編集…
     .tooltiptext = ブックマークを編集します
 
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the edit bookmark command.
-main-context-menu-edit-bookmark-with-shortcut =
+main-context-menu-edit-bookmark-with-shortcut-2 =
     .aria-label = ブックマークを編集…
-    .accesskey = m
     .tooltiptext = ブックマークを編集します ({ $shortcut })
 
 main-context-menu-open-link =

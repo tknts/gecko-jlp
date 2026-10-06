@@ -38,9 +38,15 @@ smartwindow-monitor-panel-manage = すべてのタスクの管理と表示
 # a user-created task in Smart Window that watches a web page and alerts the
 # user when a condition they described is met.
 # The user-facing name is not final.
-ai-tasks-monitor-notification-title = { -smart-window-brand-name } モニターエージェント
-ai-tasks-monitor-notification-body = 監視中のページがアラート条件を満たしました。
-ai-tasks-monitor-notification-snooze = スヌーズ
+ai-tasks-monitor-notification-title = 一致する項目が見つかりました
+# Variables:
+#   $pageCount (Number) - How many pages the monitor watches
+ai-tasks-monitor-notification-body =
+    { $pageCount ->
+        [one] { -smart-window-brand-name } が監視中のページで一致する項目を見つけました。
+       *[other] { -smart-window-brand-name } が監視中のページで一致する項目を見つけました。
+    }
+ai-tasks-monitor-notification-snooze = 一時停止
 ai-tasks-monitor-notification-dismiss = 閉じる
 
 # Desktop notification shown right after the user creates a monitor, so they
@@ -146,7 +152,7 @@ ai-tasks-no-monitors-message = <a data-l10n-name="smart-window-link">スマー�
 ai-task-page-no-alerts = 選択したページの価格やコンテンツを追跡するタスクを作成します。 { -smart-window-brand-name }  が一致するものを見つけると通知されます。
 ai-task-page-no-alerts = 作成されたアラートはありません。
 # Variables:
-#   $count (number) - The number of alerts currently active
+#   $count (number) - The number of tasks currently active
 ai-tasks-alerts-count = { $count ->
     [one] { $count } 件のアラート
    *[other] { $count } 件のアラート

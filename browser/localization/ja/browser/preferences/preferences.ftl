@@ -1376,6 +1376,11 @@ prefs-syncing-off-2 =
     .label = 同期がオフです
     .description = 同期をオンにすると、どのデバイスでもブックマーク、パスワード、履歴などを利用できるようになります.
 
+# This string is shown when the user's device has per-device syncing enabled but sync is disabled on the device.
+prefs-syncing-off-3 =
+    .label = 同期はオフです
+    .description = 同期をオンにすると、このデバイスでブックマーク、パスワード、履歴などを利用できます。
+
 prefs-sync-turn-on-syncing =
     .label = 同期をオンにする…
     .accesskey = s
