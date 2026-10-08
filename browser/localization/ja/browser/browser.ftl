@@ -1345,6 +1345,17 @@ restore-session-startup-suggestion-button = 方法を表示
 
 filepicker-blocked-infobar = あなたが所属している組織によって、このコンピューター上のローカルファイルへのアクセスがブロックされています
 
+## Address bar result shown when someone who used the Extensions and Themes
+## keyboard shortcut presses that shortcut after it moved to Search Tabs.
+## Variables:
+##   $searchTabsShortcut (String) - The Search Tabs keyboard shortcut, e.g. "Ctrl+Shift+A".
+##   $addonsShortcut (String) - The Extensions and Themes keyboard shortcut, e.g. "Ctrl+Shift+F".
+
+urlbar-addons-shortcut-moved-title = { $searchTabsShortcut } でタブを検索できるようになりました
+urlbar-addons-shortcut-moved-description = 拡張機能とテーマを開くには、{ $addonsShortcut } を使用してください。
+urlbar-addons-shortcut-moved-change-shortcuts = ショートカットを変更
+urlbar-addons-shortcut-moved-dismiss = 了解しました
+
 ## Mozilla data reporting notification (Telemetry, Firefox Health Report, etc)
 
 data-reporting-notification-message = { -brand-short-name } は、ユーザー体験の向上のため、自動的にいくつかのデータを { -vendor-short-name } に送信します。

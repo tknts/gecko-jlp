@@ -898,9 +898,6 @@ newtab-widget-lists-input-menu-edit2 =
 newtab-widget-lists-edit-clear =
     .aria-label = キャンセル
     .title = キャンセル
-# Lists is a noun, as in "options for the lists"
-newtab-widget-lists-menu-button =
-    .aria-label = リストのオプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 # Lists is a noun, as in "the menu for your lists".
@@ -932,8 +929,6 @@ newtab-widget-timer-reset =
 newtab-widget-timer-menu-notifications = 通知をオフにする
 newtab-widget-timer-menu-notifications-on = 通知をオンにする
 newtab-widget-timer-menu-learn-more = さらに詳しく
-newtab-widget-timer-menu-button =
-    .aria-label = タイマーのオプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-widget-timer-open-menu-button =
@@ -1130,12 +1125,6 @@ newtab-clock-widget-custom-zone-results =
 newtab-clock-widget-custom-zone-no-results = 一致するタイムゾーンはありません
 # Returns from the custom clock form back to the city search.
 newtab-clock-widget-custom-back = 戻る
-# "Clock options" is an icon-only button in the widget toolbar — the
-# attributes are consumed as tooltip/screen-reader label only. The button
-# never renders visible text.
-newtab-clock-widget-menu-button2 =
-    .title = 時計のオプション
-    .aria-label = 時計のオプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-clock-widget-open-menu-button =
@@ -1377,12 +1366,6 @@ newtab-privacy-widget-label =
 # Context menu item linking to more information about the Privacy widget.
 newtab-privacy-menu-learn-more = さらに詳しく
 
-# "Privacy options" is an icon-only button in the widget toolbar — the
-# attributes are consumed as tooltip/screen-reader label only. The button
-# never renders visible text.
-newtab-privacy-widget-menu-button =
-    .title = プライバシーのオプション
-    .aria-label = プライバシーのオプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-privacy-widget-open-menu-button =
@@ -1548,11 +1531,11 @@ newtab-privacy-message-streak-cta = 保護状態を表示
 newtab-privacy-message-first-protection = 閲覧を続けましょう。{ -brand-short-name } はブロックを続けます。
 newtab-privacy-message-first-protection-cta = 保護状態を表示
 
-## Strings for the Stocks widget
+## Strings for the Finance widget
 
-# Accessible name for the Stocks widget; hidden because the list dropdown is
-# shown in place of the title.
-newtab-stocks-widget-title = 株式市場
+# Accessible name for the Finance widget. It is usually not shown, since the
+# list dropdown or the chosen ticker symbol takes the title's place.
+newtab-stocks-widget-title = 金融
 
 # "Markets" is the default list of market ETFs. The value is shown in the menu,
 # and .label is shown on the button that opens it.
@@ -1566,23 +1549,17 @@ newtab-stocks-list-watchlist = ウォッチリスト
 # Context menu item that opens the stock search (by company name or ticker symbol).
 newtab-stocks-menu-search-stocks = 企業名またはシンボルで検索
 
-# Context menu item linking to more information about the Stocks widget.
+# Context menu item linking to more information about the Finance widget.
 newtab-stocks-menu-learn-more = さらに詳しく
 
-# Shown in the Stocks widget when its data could not be loaded.
+# Shown in the Finance widget when its data could not be loaded.
 newtab-stocks-error-not-available = 株価データを利用できません。
 
-# "Stocks widget options" is an icon-only button in the widget toolbar — the
-# attributes are consumed as tooltip/screen-reader label only. The button
-# never renders visible text.
-newtab-stocks-widget-menu-button =
-    .title = 株価ウィジェットのオプション
-    .aria-label = 株価ウィジェットのオプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
-newtab-stocks-widget-open-menu-button =
-    .title = 株価のメニューを開く
-    .aria-label = 株価のメニューを開く
+newtab-stocks-widget-open-menu-button2 =
+    .title = 金融のメニューを開く
+    .aria-label = 金融のメニューを開く
 
 # Toolbar button that opens the stock search. It shows only the icon until it is
 # hovered or focused, then the .label as well; "Search" is a verb. .title and
@@ -1721,11 +1698,6 @@ newtab-picture-attribution-source-link = Wikimedia Commons
 newtab-picture-attribution-license =
     .aria-label = { $license } ライセンスを表示
 
-# Tooltip and screen-reader label for the icon-only button that opens the
-# widget's context menu. The button never renders visible text.
-newtab-picture-widget-menu-button =
-    .title = 今日の画像のオプション
-    .aria-label = 今日の画像のオプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-picture-widget-open-menu-button =
@@ -1769,9 +1741,6 @@ newtab-picture-image-alt = Wikimedia Commons 今日の写真
 # Widget heading; also the widget's accessible name.
 newtab-recent-searches-widget-title = 最近の検索
 
-# Screen reader label for the widget's icon-only menu button.
-newtab-recent-searches-widget-menu-button =
-    .aria-label = 最近の検索のオプション
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-search-widget-open-menu-button =

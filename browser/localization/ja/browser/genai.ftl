@@ -27,6 +27,9 @@ genai-prompt-prefix-selection = 閲覧中のページは “{ $tabTitle }” で
 genai-prompts-summarize =
     .label = 要約
     .value = 選択された範囲を、正確で簡潔な言葉で要約してください。要約には見出しと箇条書きを使用し、読みやすいようにしてください。意味と事実の正確さを維持してください。
+# Prompt purpose: help users understand what a webpage covers at a glance
+# $url (string) - address of the webpage to summarize
+genai-prompts-summarize-page = ウェブページ ({ $url }) の内容を、正確かつ簡潔な言葉で要約してください。一目でわかるように、要約には見出しと箇条書きを使用してください。意味と事実の正確性を維持してください。
 # Prompt purpose: make a selection easier to read
 genai-prompts-simplify =
     .label = わかりやすく
@@ -141,11 +144,6 @@ genai-options-hide-shortcut =
 genai-options-about-chatbot =
     .label = { -brand-short-name } の AI チャットボットについて
 
-## Chatbot message
-
-genai-page-warning =
-    .message = ページが長いため、部分的な要約となります。
-
 ## Chatbot footer
 
 genai-page-button-summarize = ページを要約
@@ -238,6 +236,15 @@ link-preview-settings-key-points =
     .label = AIにページ冒頭を読み込ませ、要点を生成することを許可
 link-preview-settings-long-press =
     .label = ショートカット: リンクを 1 秒間クリックしたままにする (長押し)
+
+highlight-to-search-settings-enable =
+    .label = テキスト選択時にアクションメニューを表示
+    .description = コンテンツを選択したときに便利なアクションにすばやくアクセスできます。
+# $provider (string) - name of the AI chatbot provider
+highlight-to-search-settings-ask-provider =
+    .label = { $provider } に質問
+highlight-to-search-settings-ask-generic =
+    .label = AI に質問
 
 # Title that appears when user is shown the opt-in flow for link previews
 link-preview-optin-title = AI でさらに便利に？

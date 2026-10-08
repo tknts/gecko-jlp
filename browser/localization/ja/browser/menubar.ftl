@@ -239,6 +239,9 @@ menu-history-undo-window-menu =
 # "Search" is a verb, as in "Search in History"
 menu-history-search =
     .label = 検索の履歴
+# "Search" is a verb, as in "Search in Tabs"
+menu-history-search-tabs =
+    .label = タブを検索
 
 ## Bookmarks Menu
 

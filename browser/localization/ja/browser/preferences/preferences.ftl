@@ -1450,6 +1450,14 @@ sync-choose-what-to-sync-dialog4 =
     .buttonlabelextra2 = 切断…
     .buttonaccesskeyextra2 = D
 
+sync-choose-what-to-sync-dialog5 =
+    .title = Manage what syncs on this device
+    .style = min-width: 36em;
+    .buttonlabelaccept = Save
+    .buttonaccesskeyaccept = S
+    .buttonlabelextra2 = 切断…
+    .buttonaccesskeyextra2 = D
+
 sync-engine-bookmarks =
     .label = ブックマーク
     .accesskey = m
