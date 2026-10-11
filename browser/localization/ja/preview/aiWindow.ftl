@@ -497,6 +497,9 @@ aitab-page-delete-dialog-cancel =
 aitab-page-delete-dialog-confirm =
     .label = 削除
 
+# Credit at the bottom of a generated page.
+aitab-page-made-with = <span data-l10n-name="brand">{ -smart-window-brand-name }</span> で作成
+
 ## "Pick up where you left off" cards for resuming browsing or chat journeys.
 ## A "journey" is a past browsing or chat session the user was in the middle
 ## of - for example, a set of tabs open toward some task, or an ongoing
@@ -546,3 +549,12 @@ aiwindow-resume-section-empty-no-suggestions-description = 再開できるアク
 aiwindow-resume-section-empty-all-dismissed-heading = すべて確認済みです
 aiwindow-resume-section-empty-all-dismissed-description = 現在のサジェストは以上です。後でまた確認してください。
 aiwindow-resume-section-hide = 一時的に非表示
+
+smartwindow-aitab-creating = ページを作成しています…
+# "Open here" opens aitab url in the current tab
+smartwindow-aitab-open-current =
+    .label = このタブで開く
+# "Open in new tab" opens a new browser tab with the AITab url in it
+smartwindow-aitab-open-new =
+    .label = 新しいタブで開く
+smartwindow-aitab-created-an-aitab = スマートページを作成しました

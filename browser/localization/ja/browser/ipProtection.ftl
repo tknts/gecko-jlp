@@ -323,11 +323,37 @@ ip-protection-site-exceptions-all-sites-button =
        *[other] { $count } 個のウェブサイト
     }
 
-ip-protection-site-rules-header =
-  .heading = ウェブサイトのルールを管理
-ip-protection-site-rules-button =
-  .label = ウェブサイトのルールを管理
-  .description = 追加のプライバシーや VPN のオフが必要なサイトのルールを設定します。
+ip-protection-site-rules-header-1 =
+  .heading = VPN ルールを管理
+ip-protection-site-rules-button-1 =
+  .label = VPN ルールを管理
+  .description = プライバシー保護を強化するサイトや、VPN をオフにする必要があるサイトのルールを設定します。
+
+ip-protection-site-rules-list-section =
+  .label = ウェブサイトのルール
+  .description = プライバシー保護を強化するサイトや、VPN をオフにする必要があるサイトでのVPNの動作を選択します。
+
+ip-protection-site-rules-add-button =
+  .label = ルールを設定
+ip-protection-site-rules-delete-all-button =
+  .label = すべてのルールを削除
+ip-protection-site-rules-empty = 設定したルールがここに表示されます。
+
+# Shown on a website whose rule turns the VPN on for it
+ip-protection-site-rules-rule-included = VPN を常に使用する
+# Shown on a website whose rule turns the VPN off for it
+ip-protection-site-rules-rule-excluded = VPN を常に無効にする
+
+# Variables:
+#   $website (string) - The website the rule applies to, e.g. https://example.com
+ip-protection-site-rules-edit-button =
+  .title = 編集
+  .aria-label = { $website } のルールを編集
+# Variables:
+#   $website (string) - The website the rule applies to, e.g. https://example.com
+ip-protection-site-rules-delete-button =
+  .title = 削除
+  .aria-label = { $website } のルールを削除
 
 ip-protection-autostart =
   .label = VPN を自動的にオンにする
@@ -346,8 +372,49 @@ ip-protection-vpn-upgrade-link-1 =
 ## IP Protection dialogs
 
 ip-protection-exceptions-dialog-window =
-  .title = ウェブサイトの設定の管理
-ip-protection-exclusions-desc = このリストにあるウェブサイトを除き、すべてのウェブサイトで VPN を使用します。ウェブサイトを追加するには、ここに直接追加するか、VPN を開いて追加してください。
+  .title = ウェブサイトの設定を管理
+ip-protection-exclusions-desc = このリストにあるウェブサイト以外の、すべてのウェブサイトでVPNを使用します。ここにウェブサイトを追加するか、VPN を開いて追加してください。
+
+ip-protection-site-rule-window =
+  .title = ルールを設定
+ip-protection-edit-site-rule-window =
+  .title = ルールを編集
+ip-protection-site-rule-dialog =
+  .buttonlabelaccept = 設定
+  .buttonaccesskeyaccept = S
+ip-protection-edit-site-rule-dialog =
+  .buttonlabelaccept = 保存
+  .buttonaccesskeyaccept = S
+# VPN status refers to a state of 'always on' or 'always off' applied to a site
+ip-protection-site-rule-intro = ウェブサイトを入力し、VPNの状態を選択してください。
+# "ex:" is short for "example".
+ip-protection-site-rule-website-field =
+  .label = ウェブサイト
+  .placeholder = 例: acme.com
+# VPN status refers to a state of 'always on' or 'always off' applied to a site
+ip-protection-site-rule-status-field =
+  .label = VPNの状態
+ip-protection-site-rule-status-on =
+  .label = 常にオン
+ip-protection-site-rule-status-off =
+  .label = 常にオフ
+# Shown below the website field when what was typed is not a website address.
+ip-protection-site-rule-invalid-error = 有効なウェブサイトのアドレスを入力してください。
+# Shown below the website field when the typed website already has a rule.
+ip-protection-site-rule-duplicate-error = このサイトにはすでにルールが設定されています。
+# Shown at the top of the dialog when the rule could not be saved.
+ip-protection-site-rule-save-error =
+  .message = ルールの作成中にエラーが発生しました。もう一度お試しください。
+# Variables:
+#   $website (string) - The website the rule applies to, e.g. https://example.com
+ip-protection-delete-site-rule-message = { $website } のルールを削除しますか?
+ip-protection-delete-site-rule-cancel =
+  .label = キャンセル
+ip-protection-delete-site-rule-confirm =
+  .label = 削除
+ip-protection-delete-all-site-rules-message = すべてのウェブサイトのルールを削除しますか?
+ip-protection-delete-all-site-rules-confirm =
+  .label = すべてのルールを削除
 
 ## IP Protection Bandwidth
 

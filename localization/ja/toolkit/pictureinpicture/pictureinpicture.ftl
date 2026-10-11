@@ -76,7 +76,8 @@ pictureinpicture-playback-rate-btn =
 # after selecting the subtitles button.
 pictureinpicture-subtitles-panel-accessible = 字幕設定
 
-pictureinpicture-subtitles-label = 字幕
+pictureinpicture-subtitles-toggle =
+  .label = 字幕
 
 # This string is never displayed on the window. Is intended to be announced by
 # a screen reader whenever a user opens the playback speed settings panel
@@ -100,10 +101,14 @@ pictureinpicture-playback-rate-value = { NUMBER($rate) }×
 #   $rate (number) - The preset's playback rate, e.g. 1.5.
 pictureinpicture-playback-rate-preset = { NUMBER($rate, minimumFractionDigits: 1) }×
 
-pictureinpicture-font-size-label = 文字の大きさ
+pictureinpicture-font-size-group =
+  .label = 文字の大きさ
 
-pictureinpicture-font-size-small = 小さめ
+pictureinpicture-font-size-small-radio =
+  .label = 小さめ
 
-pictureinpicture-font-size-medium = 普通
+pictureinpicture-font-size-medium-radio =
+  .label = 普通
 
-pictureinpicture-font-size-large = 大きめ
+pictureinpicture-font-size-large-radio =
+  .label = 大きめ

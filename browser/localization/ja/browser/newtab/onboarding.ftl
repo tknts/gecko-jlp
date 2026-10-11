@@ -687,3 +687,17 @@ onboarding-theme-picker-button-label = 保存して続行
 # cards. String means `Highlights of a feature` (feature is a noun).
 onboarding-carousel-nav =
   .aria-label = 機能の主な特徴
+
+## Welcome Back Onboarding
+
+welcome-back-onboarding-title = さらに便利に使える新機能
+welcome-back-onboarding-primary-button-label = ブラウジングを開始
+welcome-back-onboarding-secondary-button-label = その他の新機能を見る
+# Pill label for features that allow you to tidy up your tabs
+welcome-back-onboarding-pill-label-tabs = タブの整理
+welcome-back-onboarding-pill-label-vpn = 内蔵された VPN 
+welcome-back-onboarding-pill-label-pdf = PDF ツール
+welcome-back-onboarding-card-label-tabs = 垂直タブとグループによるタブの整理
+welcome-back-onboarding-card-label-vpn = 内蔵された VPN でプライバシーを保護
+welcome-back-onboarding-card-label-pdf = PDF でハイライト、署名、編集ができます
+welcome-back-onboarding-card-tilebutton-label = 試してみる

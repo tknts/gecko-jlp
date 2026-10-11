@@ -1783,9 +1783,11 @@ newtab-recent-searches-empty-trending = 現在おすすめのトレンドはあ�
 # Widget heading; also the widget's accessible name.
 newtab-horoscopes-widget-title = 星占い
 
-# Screen reader label for the widget's icon-only menu button.
-newtab-horoscopes-widget-menu-button =
-    .aria-label = 星占いのオプション
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-horoscopes-widget-open-menu-button =
+    .title = 星占いのメニューを開く
+    .aria-label = 星占いのメニューを開きます
 
 # Context menu item linking to more information about the widget.
 newtab-horoscopes-menu-learn-more = さらに詳しく

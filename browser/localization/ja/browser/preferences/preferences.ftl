@@ -1412,6 +1412,8 @@ sync-syncing-across-devices-heading = 接続されているすべてのデバイ
 
 sync-syncing-across-devices-heading-2 = デバイス間で同期されたデータ
 
+sync-syncing-across-devices-heading-3 = このデバイスのデータを同期
+
 sync-syncing-across-devices-empty-state2 =
     .label = 同期データの管理
     .description = まだ何も同期されていません。同期を開始して、すべてのデバイスでデータを利用できるようにしましょう。

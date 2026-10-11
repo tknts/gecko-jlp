@@ -4,13 +4,14 @@
 
 ## Generative AI (GenAI) Settings section
 
-genai-settings-chat-chatgpt-links = By choosing ChatGPT, you agree to the OpenAI <a data-l10n-name="link1">Terms of Use</a> and <a data-l10n-name="link2">Privacy Policy</a>.
-genai-settings-chat-claude-links = By choosing Anthropic Claude, you agree to the Anthropic <a data-l10n-name="link1">Consumer Terms of Service</a>, <a data-l10n-name="link2">Usage Policy</a>, and <a data-l10n-name="link3">Privacy Policy</a>.
-genai-settings-chat-copilot-links = By choosing Copilot, you agree to the <a data-l10n-name="link1">Copilot AI Experiences Terms</a> and <a data-l10n-name="link2">Microsoft Privacy Statement</a>.
-genai-settings-chat-gemini-links = By choosing Google Gemini, you agree to the <a data-l10n-name="link1">Google Terms of Service</a>, <a data-l10n-name="link2">Generative AI Prohibited Use Policy</a>, and <a data-l10n-name="link3">Gemini Apps Privacy Notice</a>.
-genai-settings-chat-huggingchat-links = By choosing HuggingChat, you agree to the <a data-l10n-name="link1">HuggingChat Privacy Notice</a> and <a data-l10n-name="link2">Hugging Face Privacy Policy</a>.
-genai-settings-chat-lechat-links-2 = Mistral Vibe を選択すると、Mistral AI の <a data-l10n-name="link1">利用規約</a> と <a data-l10n-name="link2">プライバシーポリシー</a> に同意したことになります。
-genai-settings-chat-localhost-links = Bring your own private local chatbot such as <a data-l10n-name="link1">llamafile</a> from { -vendor-short-name }’s Innovation group.
+genai-settings-chat-chatgpt-links = ChatGPT を選択すると、OpenAI の<a data-l10n-name="link1">利用規約</a>および<a data-l10n-name="link2">プライバシー ポリシー</a>に同意したことになります。
+genai-settings-chat-claude-links = Anthropic Claude を選択すると、Anthropic の<a data-l10n-name="link1">消費者向け利用規約</a>、<a data-l10n-name="link2">利用ポリシー</a>、および<a data-l10n-name="link3">プライバシー ポリシー</a>に同意したことになります。
+genai-settings-chat-copilot-links = Copilot を選択すると、<a data-l10n-name="link1">Copilot AI エクスペリエンス規約</a>および<a data-l10n-name="link2">Microsoft プライバシーに関する声明</a>に同意したことになります。
+genai-settings-chat-gemini-links = Google Gemini を選択すると、<a data-l10n-name="link1">Google 利用規約</a>、<a data-l10n-name="link2">生成 AI の禁止されている使用に関するポリシー</a>、および<a data-l10n-name="link3">Gemini アプリのプライバシーに関するお知らせ</a>に同意したことになります。
+genai-settings-chat-huggingchat-links = HuggingChat を選択すると、<a data-l10n-name="link1">HuggingChat のプライバシーに関するお知らせ</a>および<a data-l10n-name="link2">Hugging Face のプライバシー ポリシー</a>に同意したことになります。
+genai-settings-chat-lechat-links-2 = Mistral Vibe を選択すると、Mistral AI の<a data-l10n-name="link1">利用規約</a>および<a data-l10n-name="link2">プライバシー ポリシー</a>に同意したことになります。
+genai-settings-chat-localhost-links = { -vendor-short-name } のイノベーショングループが提供する <a data-l10n-name="link1">llamafile</a> などのローカルチャットボットを自分で用意して使用できます。
+genai-settings-chat-scout-links = Yahoo Scout を選択すると、Yahoo の<a data-l10n-name="link1">利用規約</a>および<a data-l10n-name="link2">プライバシー ポリシー</a>に同意したことになります。
 
 ## Chatbot prompts
 ## Prompts are plain language ‘instructions’ sent to a chatbot.
@@ -181,8 +182,10 @@ genai-onboarding-gemini-tooltip =
     .title = Google Gemini
 genai-onboarding-huggingchat-tooltip =
     .title = HuggingChat
-genai-onboarding-lechat-tooltip =
-    .title = Le Chat Mistral
+genai-onboarding-lechat-tooltip-2 =
+    .title = Mistral Vibe
+genai-onboarding-scout-tooltip =
+    .title = Yahoo Scout
 
 ## Model Optin Component
 

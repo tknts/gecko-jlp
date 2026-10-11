@@ -44,3 +44,6 @@ default-browser-guidance-notification-v2-title = { -brand-short-name } を既定
 default-browser-guidance-notification-v2-body = 設定画面で、{ -brand-short-name } の “既定値に設定” を選択してください。
 
 default-browser-guidance-notification-v2-title-only = 設定画面で { -brand-short-name } を既定のブラウザーに設定してください
+
+default-browser-guidance-notification-auto-trigger-title = リンクを { -brand-short-name } で開く
+default-browser-guidance-notification-auto-trigger-body = 設定で { -brand-short-name } を既定のブラウザーに設定してください。
