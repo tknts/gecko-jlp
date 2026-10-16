@@ -1328,19 +1328,13 @@ tabs-toolbar =
 tabs-toolbar-new-tab =
     .label = 新しいタブ
 
-tabs-toolbar-list-all-tabs =
-    .label = すべてのタブの一覧
-    .tooltiptext = すべてのタブの一覧を表示します
+tabs-toolbar-list-all-tabs-2 =
+    .label = タブを検索して管理
+    .tooltiptext = タブを検索して管理します
 
 ## Drop indicator text for pinned tabs when no tabs are pinned.
 
 pinned-tabs-drop-indicator = タブをここにドロップしてピン留め
-
-## Infobar shown at startup to suggest session-restore
-
-# <img data-l10n-name="icon"/> will be replaced by the application menu icon
-restore-session-startup-suggestion-message = <strong>前回のタブを開きますか?</strong> { -brand-short-name } アプリケーション メニュー <img data-l10n-name="icon"/> の [履歴] から前回のセッションを復元できます。
-restore-session-startup-suggestion-button = 方法を表示
 
 ## Infobar shown when the user tries to open a file picker and file pickers are blocked by enterprise policy
 
@@ -1442,6 +1436,27 @@ reset-pbm-panel-confirm-button2 =
     .label = プライベートセッションを消去
     .accesskey = l
 reset-pbm-panel-complete = プライベートセッションのデータを削除しました
+
+## Fire button. Clears the whole browsing session, then closes every window and
+## opens a new one.
+
+fire-button-toolbar-button =
+    .label = 一部またはすべての閲覧データを削除
+    .tooltiptext = 一部またはすべての閲覧データを削除します
+fire-button-panel-heading = すべての閲覧データを削除しますか?
+fire-button-panel-description = 履歴、Cookie、サイトデータが削除されます。各サイトからはサインアウトされます。このウィンドウは閉じられ、{ -brand-short-name } で新しいウィンドウが開きます。
+fire-button-panel-choose-description = すべてを削除したくない場合は、削除するデータを個別に選択する。
+# Opens the "Delete browsing data" dialog, where the user picks
+# which kinds of data to delete. The trailing ellipsis marks that a dialog
+# follows rather than the action happening immediately.
+fire-button-panel-choose-link = 選択…
+fire-button-panel-cancel-button =
+    .label = キャンセル
+    .accesskey = C
+fire-button-panel-confirm-button =
+    .label = すべて削除
+    .accesskey = D
+fire-button-panel-complete = 閲覧データを削除しました
 
 ## Autorefresh blocker
 

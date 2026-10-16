@@ -495,7 +495,3 @@ fxa-menu-create-profile-confirm =
 
 fxa-menu-create-profile-learn-more =
     .label = プロファイルとは?
-
-# Button in the account menu that links to the Referrals page
-appmenuitem-share-firefox-title2 = { -brand-product-name } の共有
-appmenuitem-share-firefox-description = プライバシーを第一に考えるブラウザーを他の人にも勧めましょう

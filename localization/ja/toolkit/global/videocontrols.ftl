@@ -51,6 +51,9 @@ videocontrols-error-no-source = 対応するファイル形式および MIME タ
 videocontrols-error-generic = 不明なエラーによりビデオの再生が中止されました。
 videocontrols-status-picture-in-picture = この動画はピクチャー・イン・ピクチャーモードで再生しています。
 
+# Android counterpart of videocontrols-status-picture-in-picture.
+videocontrols-status-picture-in-picture-android = 動画がピクチャー・イン・ピクチャーで再生されています
+
 # This message shows the current position and total video duration
 #
 # Variables:

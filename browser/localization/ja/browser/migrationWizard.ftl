@@ -63,11 +63,16 @@ migration-no-permissions-instructions = 他のブラウザーからデータを�
 migration-no-permissions-instructions-step1 = “続行” を選択します
 
 # The second step in getting permissions to read data for the selected
-# browser type.
+# browser type. On macOS, the file picker already opens in the folder that
+# needs to be selected.
 #
 # Variables:
 #  $permissionsPath (String): the file system path that the user will need to grant read permission to.
-migration-no-permissions-instructions-step2 = ファイルの選択ダイアログで <code>{ $permissionsPath }</code> に移動し、“選択” をクリックしてください。
+migration-no-permissions-instructions-step2-2 =
+  { PLATFORM() ->
+      [macos] ファイルの選択画面で “開く” を選択する
+     *[other] ファイルの選択画面で <code>{ $permissionsPath }</code> に移動して “選択” を選択する
+  }
 
 ## These strings will be displayed based on how many resources are selected to import
 

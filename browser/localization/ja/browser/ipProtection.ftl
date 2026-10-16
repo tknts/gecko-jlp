@@ -90,6 +90,7 @@ ipprotection-feature-introduction-description-captive-portal = 公衆Wi-Fi上で
 ## Callout shown to users who have expressed an interest in privacy and security
 
 ipprotection-feature-introduction-title-privacy = プライバシーの追加レイヤー
+ipprotection-feature-introduction-title-privacy-1 = 内蔵 VPN で、プライバシーをさらに強化しましょう。
 ipprotection-feature-introduction-link-text-privacy-3 = 複数のロケーションから選択して閲覧場所を隠し、<a data-l10n-name="learn-more-vpn">プライバシーを強化</a>します。
 
 # Used for multiple discovery callouts after release of the site inclusions feature
@@ -172,6 +173,13 @@ site-rules-description-exclusion = このサイトでは VPN がオフになっ�
 # Used in the panel when a user navigates to a site where the VPN is on due to a site inclusion
 site-rules-description-inclusion = このサイトでは VPN がオンになっています
 
+# Message shown in the panel the first time a user turns on the VPN, offering to always turn on VPN for the current website
+# Variables
+#   $website (string) - The host of the current website (e.g. "example.com")
+site-rules-inclusion-prompt =
+  .heading = { $website } では常に VPN をオンにしますか?
+  .message = 設定でルールをいつでも変更できます。
+
 ipprotection-settings-link =
   .label = 設定
 
@@ -202,7 +210,6 @@ ipprotection-button-connecting = オンにしています…
 # This shows the default selection, "Recommended" which is the recommended location as determined by Firefox.
 ipprotection-recommended-location-button = 接続先: 推奨
 ipprotection-recommended-location-description = { -brand-product-name } が最適な接続先を探します
-ipprotection-recommended-location-badge = 新機能
 
 # Variables
 #   $country (string) - The country selected for the VPN server location
@@ -306,12 +313,15 @@ ip-protection-description-1 =
   .description = 現在地を隠すことで、ブラウジングのプライバシーをさらに高めます。
 ip-protection-learn-more = さらに詳しく
 
+ip-protection-not-opted-in-4 =
+  .heading = { -brand-short-name } の内蔵 VPN を試す
+  .message = 現在地を隠して、より安全にブラウジングしましょう。
 # Variables
 #   $maxUsage (number) - The maximum amount of data a user can use in a month (in GB)
-ip-protection-not-opted-in-4 =
-  .heading = { -brand-short-name } 内蔵の VPN をお試しください
-  .message = 現在地を隠してさらに安全にブラウジングできます。
-ip-protection-not-opted-in-button = 開始する
+ip-protection-not-opted-in-inclusions-enabled =
+  .heading = 試してみませんか?
+  .message = 毎月 { $maxUsage } GB まで無料で利用でき、VPN を使用するサイトを選択できます。
+ip-protection-not-opted-in-button = はじめる
 
 # Variables:
 #   $count (number) - The number of sites saved as VPN exclusions.
@@ -415,6 +425,12 @@ ip-protection-delete-site-rule-confirm =
 ip-protection-delete-all-site-rules-message = すべてのウェブサイトのルールを削除しますか?
 ip-protection-delete-all-site-rules-confirm =
   .label = すべてのルールを削除
+# Shown in place of the delete confirmation when deleting a rule fails.
+ip-protection-delete-site-rule-error = ルールを削除できませんでした
+# Shown in place of the delete confirmation when deleting all rules fails.
+ip-protection-delete-all-site-rules-error = ルールを削除できませんでした
+ip-protection-delete-site-rule-retry =
+  .label = 再試行
 
 ## IP Protection Bandwidth
 

@@ -180,6 +180,15 @@ permissions-site-xr-disable-label =
     .label = VR デバイスの使用許可の確認を表示しない
 permissions-site-xr-disable-desc = 上記のウェブサイト以外からの VR デバイスの使用許可は自動的にブロックされます。VR デバイスの使用許可をブロックすると、一部のウェブサイトで不具合が発生する可能性があります。
 
+## Site Permissions - App Links
+## App links are links that a website can ask to open for you, like email
+## (mailto:) links. Sites in this list are blocked from asking.
+
+permissions-site-app-links-window =
+    .title = 設定 - アプリ リンクをブロックするサイト
+    .style = { permissions-window2.style }
+permissions-site-app-links-desc = これらのサイトは、メール（mailto:）などのアプリリンクを開くよう求めることがブロックされています。サイトを削除すれば、再び許可を求められるようになります。
+
 ## Site Permissions - Camera
 
 permissions-site-camera-window2 =

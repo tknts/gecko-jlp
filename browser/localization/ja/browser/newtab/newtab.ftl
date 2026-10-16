@@ -336,6 +336,10 @@ newtab-custom-widget-search-toggle =
   .label = 検索
 newtab-custom-widget-horoscopes-toggle =
   .label = 星占い
+# Travel (noun) is a widget on New Tab for searching hotels, flights
+# and car rentals.
+newtab-custom-widget-travel-toggle =
+  .label = 旅行
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -1257,48 +1261,14 @@ home-prefs-stories-header2 =
 home-prefs-widgets-header =
     .label = ウィジェット
 
-# Lists is a widget on New Tab, similar to a to-do widget
-home-prefs-lists-header =
-    .label = リスト
-
-# Timer is a widget on New Tab, similar to the Pomodoro timer.
-home-prefs-timer-header =
-    .label = タイマー
-
-# Clock is a widget on New Tab that displays time zones around the world.
-home-prefs-clocks-header =
-    .label = 時計
-
-# Privacy is a widget on New Tab that shows tracking protection activity.
-home-prefs-privacy-header =
-    .label = プライバシー
-
-# Crossword is a widget on New Tab that shows a daily crossword puzzle.
-home-prefs-crossword-widget-header =
-    .label = クロスワード
-
-# Stocks is a widget on New Tab that shows stock ticker prices.
-home-prefs-stocks-header =
-    .label = 株価
-
-# Picture of the day is a widget on New Tab that shows a daily Wikimedia Commons image.
-home-prefs-picture-header =
-    .label = 今日の写真
-
-# Search is a widget on New Tab that shows the user's recent and trending
-# searches.
-home-prefs-search-widget-header =
-    .label = 検索
-
-# Horoscopes is a widget on New Tab that shows daily horoscopes.
-home-prefs-horoscopes-header =
-    .label = 星占い
-
 home-prefs-mission-message2 =
     .message = 私たちのスポンサーは、より良いウェブを構築するという使命を支援しています。
 
 home-prefs-manage-topics-link2 =
     .label = トピックを管理
+
+home-prefs-manage-widgets-link =
+    .label = ウィジェットを管理
 
 home-prefs-choose-wallpaper-link2 =
     .label = 壁紙を選択
@@ -1791,6 +1761,21 @@ newtab-horoscopes-widget-open-menu-button =
 
 # Context menu item linking to more information about the widget.
 newtab-horoscopes-menu-learn-more = さらに詳しく
+
+## Strings for the Travel widget
+
+# Widget heading; also the widget's accessible name. Travel (noun) is a
+# widget on New Tab for searching hotels, flights and car rentals.
+newtab-travel-widget-title = 旅行
+
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-travel-widget-open-menu-button =
+    .title = 旅行メニューを開く
+    .aria-label = 旅行メニューを開く
+
+# Context menu item linking to more information about the widget.
+newtab-travel-menu-learn-more = さらに詳しく
 
 ## Strings for the navigable panels that new tab content area can be
 ## split into.

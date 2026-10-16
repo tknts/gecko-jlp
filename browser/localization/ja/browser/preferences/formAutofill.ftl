@@ -29,8 +29,8 @@ address-capture-save-button =
 address-capture-not-now-button =
     .label = 今はしない
     .accessKey = N
-address-capture-never-save-button =
-    .label = 保存しない
+address-capture-never-save-addresses-button =
+    .label = 住所を保存しない
     .accessKey = v
 address-capture-cancel-button =
     .label = キャンセル
@@ -138,8 +138,8 @@ autofill-card-billing-address-2 =
     .label = 請求先住所
 # "CVV" is a common abbreviation for the security code printed on a payment
 # card. Use whichever abbreviation is most familiar in your locale.
-autofill-card-security-code =
-    .label = CVV
+autofill-card-security-code-optional =
+    .label = CVV (オプション)
 autofill-card-network = カードの種類
 
 # This string is never actually displayed, but is used to make it easier to

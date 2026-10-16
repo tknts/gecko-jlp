@@ -248,6 +248,11 @@ highlight-to-search-settings-ask-provider =
     .label = { $provider } に質問
 highlight-to-search-settings-ask-generic =
     .label = AI に質問
+# Checkbox label for one of the actions in the menu that appears when selecting
+# text on a page. "Search" is a verb: the action searches the selected text
+# with the default search engine.
+highlight-to-search-settings-search =
+    .label = 検索
 
 # Title that appears when user is shown the opt-in flow for link previews
 link-preview-optin-title = AI でさらに便利に？

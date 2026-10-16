@@ -232,3 +232,8 @@ about-glean-store-submitted-pings-select-label = Ping:
 about-glean-store-submitted-pings =
   .label = 送信済みの Ping を保存
   .description = 送信済みの Ping をメモリー内に保存する
+
+# Header for a section that shows client information
+about-glean-submitted-ping-client-info-title = クライアント情報
+# Header for a section that shows Ping information
+about-glean-submitted-ping-ping-info-title = Ping 情報

@@ -53,3 +53,24 @@ bookmark-overlay-keyword-2 =
 bookmark-overlay-tags-caption-label = タグを使用して、アドレスバーからブックマークの整理や検索をします
 
 bookmark-overlay-keyword-caption-label-2 = 専用のキーワードを使用して、アドレスバーから直接ブックマークを開きます
+
+## Bookmark properties dialog
+
+bookmark-properties-save-button =
+  .label = 保存
+
+## Titles of the dialog used to add or edit bookmarks and folders.
+
+bookmark-properties-title-add-bookmark = ブックマークの追加
+# Title used when bookmarking multiple tabs at once into a new folder.
+bookmark-properties-title-add-multiple-bookmarks = 新しいブックマーク
+bookmark-properties-title-add-folder = ブックマークフォルダーの追加
+bookmark-properties-title-edit-bookmark = ブックマークの編集
+bookmark-properties-title-edit-folder = ブックマークフォルダーの編集
+
+## Default names for newly created bookmarks and folders.
+
+# Default name of the folder created when bookmarking all tabs.
+bookmark-properties-default-name-all-tabs-folder = [フォルダーの名前]
+bookmark-properties-default-name-folder = 新しいフォルダー
+bookmark-properties-default-name-bookmark = 新しいブックマーク

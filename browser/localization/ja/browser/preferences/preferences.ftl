@@ -195,9 +195,6 @@ always-check-default =
 startup-restore-windows-and-tabs =
     .label = 前回開いていたウィンドウとタブを開く
     .accesskey = s
-startup-windows-launch-on-login-profile-disabled =
-    .message = この設定は “ユーザー プロファイルの選択” ウィンドウで “{ profile-manager-use-selected.label }” にチェックを入れることで有効にできます。
-
 windows-launch-on-login =
     .label = コンピューターの起動時に { -brand-short-name } を自動的に開きます
     .accesskey = O
@@ -2110,6 +2107,17 @@ permissions-addon-install-warning3 =
 permissions-addon-exceptions2 =
     .label = 拡張機能をインストールできるウェブサイトを選択
     .accesskey = E
+
+# App links are links that a website can ask to open for you, like email
+# (mailto:) links.
+permissions-allow-app-links =
+    .label = サイトがアプリリンクを開くよう求めてくることを許可する。
+    .accesskey = A
+
+# Opens the list of sites that are blocked from asking to open app links.
+permissions-app-links-manage-button =
+    .label = ブロックされたサイトを管理する
+    .accesskey = M
 
 ## Privacy Section - Data Collection
 

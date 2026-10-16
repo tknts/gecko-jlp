@@ -125,6 +125,14 @@ about-processes-thread-name-and-id = { $name }
 about-processes-tab-name = タブ: { $name }
 about-processes-preloaded-tab = 予め読み込まれた新しいタブ
 
+# Tab count shown in the groupby=tab view's totals bar.
+# Variables:
+#   $count (Number) The number of open tabs currently listed. Always ≥ 0.
+about-processes-tab-count = { $count ->
+   [one] ひとつのタブ
+  *[other] { $count } 個のタブ
+}
+
 # Single subframe
 # Variables:
 #   $url (String) The full url of this subframe.

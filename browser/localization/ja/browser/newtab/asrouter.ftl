@@ -516,3 +516,9 @@ refresh-unused-profile-infobar-message = しばらく { -brand-short-name } を�
 refresh-reinstalled-profile-infobar-message = Firefoxを再インストールされたようですね。新品同様の快適な状態で使えるよう、クリーンアップしませんか?
 refresh-profile-infobar-button = { -brand-short-name } をリフレッシュ…
   .accesskey = e
+
+## Infobar shown at startup to suggest session-restore
+
+# <img data-l10n-name="icon"/> will be replaced by the application menu icon
+restore-session-startup-suggestion-message = <strong>前回のタブを開きますか?</strong> 前回のセッションは、{ -brand-short-name } のアプリケーションメニュー <img data-l10n-name="icon"/> の [履歴] から復元できます。
+restore-session-startup-suggestion-button = 方法を確認

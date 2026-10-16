@@ -119,11 +119,11 @@ policy-DisableSecurityBypass = ユーザーが特定のセキュリティ警告�
 
 policy-DisableSetAsDesktopBackground = メニューコマンドの [デスクトップの背景に設定] を無効にします。
 
-policy-DisableSystemAddonUpdate = ブラウザーがシステム アドオンのインストールと更新をできないようにします。
+policy-DisableSystemAddonUpdate = ブラウザーがシステムアドオンのインストールと更新をできないようにします。
 
 policy-DisableTelemetry = テレメトリを無効にします。
 
-policy-DisableThirdPartyModuleBlocking = { -brand-short-name } のプロセスに挿入されるサードパーティーのモジュールをユーザーがブロックできないようにします。
+policy-DisableThirdPartyModuleBlocking2 = [サードパーティモジュール情報] (about:third-party) を使用して、{ -brand-short-name } のプロセスに挿入されたサードパーティモジュールをブロックできないようにします。
 
 policy-DisplayBookmarksToolbar = ブックマーク ツールバーをデフォルトで表示します。
 
@@ -211,7 +211,7 @@ policy-OverrideFirstRunPage = 初回起動時に表示されるページを上�
 
 policy-OverridePostUpdatePage = 更新後に表示されるの “What’s New” ページを上書きします。 更新後のページを無効にする場合は、このポリシーの設定を空白にしてください。
 
-policy-PasswordManagerEnabled = パスワード マネージャーへのパスワードの保存を有効にします。
+policy-PasswordManagerEnabled2 = パスワードマネージャーへのパスワードの保存を有効または無効にする。無効にすると、[パスワード] (about:logins) もブロックされます。
 
 policy-PasswordManagerExceptions = { -brand-short-name } が特定のサイトでパスワードを保存しないようにします。
 

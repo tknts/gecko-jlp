@@ -13,6 +13,13 @@ protocolhandler-add-handler-button =
 protocolhandler-mailto-os-handler-yes-button = デフォルトとして設定
 protocolhandler-mailto-os-handler-no-button = 今はしない
 
+# Button in the notification bar shown when a website asks to register as an
+# application handler, for example for email links. Blocks the website from
+# asking again.
+protocolhandler-never-allow-button =
+    .label = 今後も許可しない
+    .accesskey = N
+
 ## Variables:
 ##  $url (String): The url of a webmailer, but only its full domain name.
 

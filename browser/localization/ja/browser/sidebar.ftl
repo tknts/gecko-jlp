@@ -62,6 +62,13 @@ sidebar-history-sort-option-last-visited =
 sidebar-history-sort-option-most-visited =
   .label = 訪問した回数
 
+# Promo shown in the history panel to people with a new profile, inviting them
+# to import their browsing history from another browser.
+sidebar-history-import-promo =
+  .message = 何か見つかりませんか? 別のブラウザーから履歴を取り込みましょう。
+sidebar-history-import-promo-button =
+  .label = { -brand-short-name } にインポート
+
 ## Labels for sidebar search
 
 # "Search" is a noun (as in "Results of the search for")
