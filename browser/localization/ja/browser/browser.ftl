@@ -201,6 +201,15 @@ urlbar-split-view-button =
     .tooltiptext = 分割ビューで表示します
     .aria-label = 分割ビュー
 
+## URLbar context menu
+
+urlbar-menuitem-paste-and-go =
+    .label = 貼り付けて移動
+    .accesskey = G
+urlbar-menuitem-paste-and-search =
+    .label = 貼り付けて検索
+    .accesskey = S
+
 ## Searchbar context menu
 
 clear-search-history =

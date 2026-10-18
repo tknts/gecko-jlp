@@ -67,7 +67,7 @@ ipprotection-summer-promo-offramp-default-browser-incentive-description = { -bra
 ipprotection-summer-promo-offramp-subscription-upsell-title = { -mozilla-vpn-brand-name } による機能のアップグレード
 ipprotection-summer-promo-offramp-subscription-upsell-description = 8 月 31 日以降も無制限の帯域幅を維持し、5 台のデバイスで 300 以上のロケーションを利用してブラウジングの追跡をより困難にできます。
 
-# Summer promo offramp callout buttons
+## Summer promo offramp callout buttons
 
 ipprotection-summer-promo-offramp-open-vpn-primary-button = VPN を開く
 ipprotection-summer-promo-offramp-set-to-default-primary-button = デフォルトに設定
@@ -138,10 +138,17 @@ ipprotection-android-promo-callout-primary-button = 了解しました
 # Here 'browse on' means continue browsing
 ipprotection-site-inclusions-callout-title-existing-users = 内蔵 VPN ルールを設定して閲覧を継続する
 ipprotection-site-inclusions-callout-title-lapsed-users = 内蔵 VPN をサイトごとに試す
-ipprotection-site-inclusions-callout-description = プライバシーを強化したいときや位置情報に基づいたブラウジングをしたいときはオンにし、そうでないときはオフにします。
+ipprotection-site-inclusions-callout-description-1 = プライバシーをより強化したいときや、特定の地域に基づいたブラウジングを行いたいときは VPN をオンにし、それ以外の場合はオフにしてください。
 ipprotection-site-inclusions-callout-primary-button = ルールを設定
 ipprotection-site-inclusions-callout-secondary-button-existing-users = 今はしない
 ipprotection-site-inclusions-callout-secondary-button-lapsed-users = 閉じる
+
+## Holiday Promotion Callout
+
+ipprotection-holiday-promo-title = 1 月 30 日まで VPN を無制限で利用できます
+ipprotection-holiday-promo-description = 組み込みの VPN で、プライバシーを保護し、追跡されにくいブラウジングを実現しましょう。
+ipprotection-holiday-promo-primary-button = VPNを開く
+ipprotection-holiday-promo-secondary-button = 閉じる
 
 ## Panel
 

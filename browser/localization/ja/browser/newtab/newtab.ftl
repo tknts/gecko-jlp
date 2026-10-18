@@ -1652,6 +1652,11 @@ newtab-picture-header = 今日の画像 · Wikimedia Commons
 # Shorter title shown at the top of the widget, without the source name.
 newtab-picture-header-main = 今日の画像
 
+# Title shown at the top of the widget, with the date of the picture shown.
+# $date (Date) - the day Wikimedia Commons featured the picture as its picture
+# of the day, shown in numbers (for example 10/8/2026).
+newtab-picture-header-date = 今日の 1 枚: { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") }
+
 # Attribution line shown under the title once a picture loads: an author
 # credit, a link to the picture's source page, and a link to its license.
 # "©" is the copyright symbol.
@@ -1674,30 +1679,30 @@ newtab-picture-widget-open-menu-button =
     .title = 今日の画像のメニューを開く
     .aria-label = 今日の画像のメニューを開く
 
-# Button that sets the current picture as the New Tab background wallpaper. The
-# button collapses to an icon when not hovered/focused, so .title is its tooltip.
-newtab-picture-set-wallpaper =
+# Button that sets the picture shown in the widget, which may be today’s or the
+# previous day’s, as the New Tab background wallpaper. The button collapses to an
+# icon when not hovered/focused, so .title is its tooltip.
+newtab-picture-set-wallpaper2 =
     .label = 壁紙に設定
-    .title = 壁紙に設定します
-    .aria-label = 今日の写真を壁紙に設定します
+    .title = 壁紙に設定
+    .aria-label = この画像を壁紙に設定
 
 # Context menu item that opens the New Tab customization panel.
-newtab-picture-menu-manage-wallpaper = 壁紙の管理
+newtab-picture-menu-manage-wallpaper = 壁紙を管理
 
-# Context menu item that hides today’s picture, replacing it with an existing
-# wallpaper.
-newtab-picture-menu-hide-photo = 今日の写真を非表示にする
+# Context menu item that hides the picture shown in the widget.
+newtab-picture-menu-hide-photo2 = この画像を非表示
 
-# Context menu item that restores today’s picture after it has been hidden.
-newtab-picture-menu-show-photo = 今日の写真を表示する
+# Context menu item that restores the picture after it has been hidden.
+newtab-picture-menu-show-photo2 = 画像を表示
 
 # Context menu item linking to more information about the widget.
 newtab-picture-menu-learn-more = さらに詳しく
 
 # Icon button shown on the widget once the picture is hidden; restores it.
-newtab-picture-show-button =
-    .title = 今日の写真を表示します
-    .aria-label = 今日の写真を表示します
+newtab-picture-show-button2 =
+    .title = 写真の表示
+    .aria-label = 写真の表示
 
 # Shown when there is no new picture to display yet.
 newtab-picture-check-back = 明日また新しい写真を確認してください
@@ -1706,10 +1711,10 @@ newtab-picture-check-back = 明日また新しい写真を確認してくださ�
 # provides no localized description.
 newtab-picture-image-alt = Wikimedia Commons 今日の写真
 
-## Strings for the Recent Searches widget
+## Strings for the Search widget
 
 # Widget heading; also the widget's accessible name.
-newtab-recent-searches-widget-title = 最近の検索
+newtab-search-widget-title = 最近の検索
 
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
