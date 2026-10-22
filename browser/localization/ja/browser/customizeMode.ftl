@@ -34,6 +34,15 @@ customize-mode-undo-cmd =
 customize-mode-uidensity-link = ウィンドウ密度の設定
 customize-mode-lwthemes-link-2 = テーマの管理
 customize-mode-touchbar-cmd =
-    .label = タッチバーをカスタマイズ…
+    .label = タッチ バーをカスタマイズ…
 customize-mode-downloads-button-autohide =
     .label = 空の場合は表示しない
+
+## Labels for the special items that can be added to toolbars in customize mode
+
+customize-mode-toolbarspring =
+    .title = フレキシブル スペース
+customize-mode-toolbarseparator =
+    .title = 区切り
+customize-mode-toolbarspacer =
+    .title = スペース

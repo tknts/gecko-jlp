@@ -37,11 +37,11 @@ policy-Backup = プロファイルデータのバックアップまたは復元�
 
 policy-BlockAboutAddons = アドオン マネージャー (about:addons) へのアクセスをブロックします。
 
-policy-BlockAboutConfig = about:config ページへのアクセスをブロックします。
+policy-BlockAboutConfig2 = 詳細設定 (about:config) へのアクセスをブロックします。
 
-policy-BlockAboutProfiles = about:profiles ページへのアクセスをブロックします。
+policy-BlockAboutProfiles2 = プロファイル情報 (about:profiles) へのアクセスをブロックします。
 
-policy-BlockAboutSupport = about:support ページへのアクセスをブロックします。
+policy-BlockAboutSupport2 = トラブルシューティング情報 (about:support) へのアクセスをブロックします。
 
 policy-Bookmarks = ブックマークツールバー、ブックマークメニュー、または指定のフォルダーの中にブックマークを作成します。
 
@@ -77,7 +77,7 @@ policy-DisableAppUpdate = ブラウザーの更新を禁止します。
 
 policy-DisableBuiltinPDFViewer = { -brand-short-name } の組み込みの PDF ビューアーの PDF.js を無効にします。
 
-policy-DisableDefaultBrowserAgent = Default Browser Agent がアクションを実行できないようにします。 Windows にのみ適用されます。 その他のプラットフォームにはエージェントがありません。
+policy-DisableDefaultBrowserAgent2 = 既定のブラウザーエージェントによるすべての動作を禁止する。
 
 policy-DisableDeveloperTools = 開発者ツールへのアクセスをブロックします。
 
@@ -99,6 +99,8 @@ policy-DisableFormHistory = 検索とフォームの履歴を記憶しないよ�
 
 policy-DisableLaunchOnLogin = ユーザーのログイン時に { -brand-short-name } が自動起動しないようにします。
 
+policy-DisableMacOSUserPolicies = macOS のユーザー設定およびユーザースコープの構成プロファイルによるポリシーを無視する。
+
 policy-DisablePrimaryPasswordCreation = true にすると、プライマリ パスワードを作成できなくなります。
 
 policy-DisablePasswordReveal2 = パスワード入力欄で保存されたログイン情報やパスワードを表示できないようにします。
@@ -107,13 +109,13 @@ policy-DisablePrivateBrowsing = プライベート ブラウジングを無効�
 
 policy-DisableProfileImport = メニューコマンドの [他のブラウザーからデータをインポート] を無効にします。
 
-policy-DisableProfileRefresh = about:support ページの [{ -brand-short-name } をリフレシュ] ボタンを無効にします。
+policy-DisableProfileRefresh2 = トラブルシューティング情報 (about:support) および support.mozilla.org にある { -brand-short-name } の 	[リフレッシュ] ボタンと、しばらく使用されていない場合に表示される { -brand-short-name } のリフレッシュを提案するプロンプトを無効にする。
 
 policy-DisableRemoteImprovements = アップデートの合間に、{ -brand-short-name } がパフォーマンス、安定性、および機能の変更を適用するのを防ぎます。
 
 policy-DisableRemoteSettingsAndAcceptSecurityConsequences = リモート設定を無効にします。
 
-policy-DisableSafeMode = セーフ モードで再起動する機能を無効にします。注意: [Shift] キーでセーフ モードを起動する機能は、Windows でグループ ポリシーを使用する場合のみ無効にできます。
+policy-DisableSafeMode2 = トラブルシューティングモード (セーフモード) での再起動を無効にする。
 
 policy-DisableSecurityBypass = ユーザーが特定のセキュリティ警告を回避できないようにします。
 
@@ -244,7 +246,7 @@ policy-SanitizeOnShutdown2 = 終了時にナビゲーションデータを消去
 
 policy-SearchBar = 検索バーのデフォルトの位置を設定します。ユーザーがカスタマイズすることも可能です。
 
-policy-SearchEngines = 検索エンジンの設定を構成します。このポリシーは延長サポート版 (ESR) でのみ利用可能です。
+policy-SearchEngines2 = 検索エンジンの設定を構成する。
 
 policy-SearchSuggestEnabled = 検索候補の表示機能の使用を切り替えます。
 

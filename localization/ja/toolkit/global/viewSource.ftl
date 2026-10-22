@@ -14,14 +14,16 @@ view-source-out-of-range-text = 指定された行が見つからなかった。
 ##
 
 # Title of the page displayed when viewing the source of a selection.
-view-source-selection-title = 選択範囲のDOMソース
+view-source-selection-title = 選択範囲の DOM ソース
 
 ## Context menu items, only visible when viewing the source of a page
 
 view-source-context-go-to-line =
     .label = 指定の行へ移動…
     .accesskey = L
-view-source-context-wrap-long-lines =
+view-source-context-wrap-long-lines-2 =
     .label = 長い行を折り返す
-view-source-context-highlight-syntax =
+    .accesskey = o
+view-source-context-highlight-syntax-2 =
     .label = 構文の強調表示
+    .accesskey = x

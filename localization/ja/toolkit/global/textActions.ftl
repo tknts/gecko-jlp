@@ -93,25 +93,30 @@ text-action-spell-dictionaries =
 text-action-search-text-box-clear =
     .title = 消去
 
-text-action-highlight-selection =
+text-action-highlight-selection-2 =
     .label = 選択範囲を強調表示
+    .accesskey = h
 
 # This adds a comment to selected text within the PDF viewer.
-text-action-comment-selection-1 =
+text-action-comment-selection-2 =
     .label = 選択範囲にコメントを追加
+    .accesskey = m
 
 # "Copy Link to Highlight" creates a permanent 'Text Fragment' link
 # to the current selection, and copies it into the user's clipboard.
-text-action-copy-link-to-highlight =
+text-action-copy-link-to-highlight-2 =
     .label = ハイライトへのリンクをコピー
+    .accesskey = h
 
 # This combines "Copy Link to Highlight" with "Copy Clean Link", ie.
 # it creates a link with a text fragment to the current selection
 # and it strips trackers etc.
-text-action-copy-clean-link-to-highlight =
+text-action-copy-clean-link-to-highlight-2 =
     .label = クリーンなリンクをハイライトにコピー
+    .accesskey = k
 
 # If the page has been loaded with a text fragment and text is
 # visibly highlighted, this removes any highlighted sections on the page.
-text-action-remove-highlight =
+text-action-remove-highlight-2 =
     .label = ハイライトを削除
+    .accesskey = h

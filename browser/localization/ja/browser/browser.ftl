@@ -1171,14 +1171,13 @@ qrcode-image =
 qrcode-close-button =
     .aria-label = 閉じる
 
-# Variables:
-#  $shortcut (String): keyboard shortcut to save a copy of the page
+## Variables:
+##  $shortcut (String): keyboard shortcut to perform the action
+
 toolbar-button-save-page =
   .label = ページを保存
   .tooltiptext = このページを保存します ({ $shortcut })
 
-# Variables:
-#  $shortcut (String): keyboard shortcut to open a local file
 toolbar-button-open-file =
   .label = ファイルを開く
   .tooltiptext = ファイルを開きます ({ $shortcut })
@@ -1191,8 +1190,6 @@ toolbar-button-send-tab =
   .label = タブを送信
   .tooltiptext = 現在のタブを他のデバイスに送信します。
 
-# Variables
-# $shortcut (string) - Keyboard shortcut to open a new private browsing window
 toolbar-button-new-private-window =
   .label = 新しいプライベートウィンドウ
   .tooltiptext = 新しいプライベートウィンドウを開きます ({ $shortcut })
@@ -1205,6 +1202,52 @@ toolbar-button-tab-groups =
   .label = タブグループ
   .tooltiptext = タブグループを表示します
 
+toolbar-button-history =
+  .label = 履歴
+  .tooltiptext = 履歴を表示 ({ $shortcut })
+
+toolbar-button-find =
+  .label = 検索
+  .tooltiptext = このページ内を検索 ({ $shortcut })
+
+toolbar-button-developer =
+  .label = 開発ツール
+  .tooltiptext = Web 開発ツールを開く ({ $shortcut })
+
+toolbar-button-forget =
+  .label = 忘れる
+  .tooltiptext = 一部の閲覧履歴を消去
+
+toolbar-zoom-controls =
+  .label = ズームコントロール
+  .title = ズームコントロール
+
+toolbar-button-zoom-out =
+  .label = 縮小
+  .tooltiptext = 縮小 ({ $shortcut })
+
+toolbar-button-zoom-reset-tooltip = ズーム倍率をリセット ({ $shortcut })
+
+toolbar-button-zoom-in =
+  .label = 拡大
+  .tooltiptext = 拡大 ({ $shortcut })
+
+toolbar-edit-controls =
+  .label = 編集コントロール
+  .title = 編集コントロール
+
+toolbar-button-cut =
+  .label = 切り取り
+  .tooltiptext = 切り取り ({ $shortcut })
+
+toolbar-button-copy =
+  .label = コピー
+  .tooltiptext = コピー ({ $shortcut })
+
+toolbar-button-paste =
+  .label = 貼り付け
+  .tooltiptext = 貼り付け ({ $shortcut })
+
 ## EME notification panel
 
 eme-notifications-drm-content-playing = このサイトの一部のオーディオまたはビデオは DRM によって保護されているため { -brand-short-name } で実行できる内容が制限される場合があります。
@@ -1212,6 +1255,35 @@ eme-notifications-drm-content-playing-manage = 設定を管理
 eme-notifications-drm-content-playing-manage-accesskey = M
 eme-notifications-drm-content-playing-dismiss = 閉じる
 eme-notifications-drm-content-playing-dismiss-accesskey = D
+
+## Notification bars for media playback issues
+
+eme-notifications-drm-content-disabled-message = このページで音声や動画を再生するには、DRM を有効にする必要があります。
+eme-notifications-drm-content-disabled-button =
+    .label = DRM を有効にする
+    .accesskey = E
+eme-notifications-drm-content-cdm-installing-message = { -brand-short-name } はこのページの音声や動画を再生するために必要なコンポーネントをインストールしています。しばらくしてからもう一度お試しください。
+
+decoder-doctor-no-codecs-linux-message = 動画を再生するには、必要なビデオコーデックをインストールする必要がある場合があります。
+decoder-doctor-no-hw-acceleration-message = 動画の品質を向上させるには、Microsoft Media Feature Pack をインストールする必要がある場合があります。
+decoder-doctor-no-pulse-audio-message = 音声を再生するには、必要な PulseAudio ソフトウェアをインストールする必要がある場合があります。
+decoder-doctor-unsupported-libavcodec-message = libavcodec は脆弱性があるか、サポートされていない可能性があります。動画を再生するには更新してください。
+decoder-doctor-decode-error-message = メディアリソースのデコード中にエラーが発生しました。
+decoder-doctor-decode-warning-message = メディアリソースのデコード中に回復可能なエラーが発生しました。
+decoder-doctor-learn-how-link = 詳細情報
+decoder-doctor-report-issue-button =
+    .label = サイトの問題を報告
+    .accesskey = R
+
+# Variables:
+#   $pluginName (String) - The name of the media plugin that crashed (for example, “Widevine Content Decryption Module”).
+plugin-crashed-notification-message = プラグイン { $pluginName } がクラッシュしました。
+plugin-crashed-notification-reload-button =
+    .label = ページを再読み込み
+    .accesskey = R
+plugin-crashed-notification-submit-button =
+    .label = クラッシュレポートを送信
+    .accesskey = S
 
 ## Password save/update panel
 

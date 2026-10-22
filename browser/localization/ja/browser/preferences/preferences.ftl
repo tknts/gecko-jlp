@@ -2047,10 +2047,76 @@ tracking-manage-exceptions =
 ## Privacy Section - Permissions
 
 permissions-data-section =
-    .heading = 許可とデータ
+    .heading = 許可設定とデータ
 
-pane-permissions-data-title2 = 許可とデータ
-  .title = 許可とデータ
+pane-permissions-data-title2 = 許可設定とデータ
+  .title = 許可設定とデータ
+
+notifications-section-header =
+    .heading = 通知
+
+notifications-entry-card-header =
+    .label = 通知
+    .description = 通知の送信を許可するウェブサイトと、通知の表示方法を選択します。
+
+# Variables:
+#   $count (number) - Number of websites with a stored notification decision,
+#                     always one or more. The zero case is a separate message,
+#                     notifications-entry-manage-button-empty.
+notifications-entry-manage-button =
+    .label = 通知設定を管理
+    .description =
+        { $count ->
+            [one] { $count } 件のウェブサイト
+           *[other] { $count } 件のウェブサイト
+        }
+
+# Replaces notifications-entry-manage-button when no website has a stored
+# notification decision. It deliberately carries no description: the empty
+# state is stated on the Notifications page rather than on this row.
+notifications-entry-manage-button-empty =
+    .label = ウェブサイトの通知設定を管理
+
+notifications-website-card-header =
+    .label = ウェブサイトの通知
+    .description = ウェブサイトからの通知を許可する方法を選択します。
+
+notifications-filter =
+    .placeholder = ウェブサイトを検索
+
+# Heading of the website column in the list of websites and their notification
+# state, shown when the list has rows.
+notifications-list-header =
+    .label = ウェブサイト
+# Heading of the state column in the list of websites and their notification
+# state, shown when the list has rows.
+notifications-list-header-state = 通知を許可
+# Heading of the list of websites when it has no rows, because no website has a
+# stored notification decision or a search matches no website.
+notifications-list-header-empty =
+    .label = ウェブサイト
+
+# Read-only state shown on each row of the website notifications list, in the
+# column headed "Allow notifications". "Always" is used where notifications can
+# also be delivered while Firefox is closed.
+notifications-state-always = 常に許可
+# Read-only state shown on each row of the website notifications list, in the
+# column headed "Allow notifications". "Allow" is used where notifications
+# cannot be delivered while Firefox is closed.
+notifications-state-allow = 許可
+# Read-only state shown on each row of the website notifications list, in the
+# column headed "Allow notifications", for websites blocked from sending
+# notifications.
+notifications-state-never = 許可しない
+
+# Shown as a row under the list header when no website has a stored
+# notification decision.
+notifications-empty-message =
+    .label = ウェブサイトの通知は追加されていません。
+
+# Shown as a row under the list header when a search matches no website.
+notifications-no-results-message =
+    .label = 検索に一致するウェブサイトの通知はありません。
 
 permissions-header3 =
     .label = 許可設定

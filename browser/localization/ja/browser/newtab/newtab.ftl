@@ -340,6 +340,11 @@ newtab-custom-widget-horoscopes-toggle =
 # and car rentals.
 newtab-custom-widget-travel-toggle =
   .label = 旅行
+# Solitaire is a widget on New Tab where you can play solitaire, a card game
+# for one player, also known as patience.
+# Game displays within an iframe with name “Yahoo Solitaire”
+newtab-custom-widget-solitaire-toggle =
+  .label = ソリティア
 newtab-custom-widget-section-title = ウィジェット
 newtab-custom-widget-section-toggle =
     .label = ウィジェット
@@ -1505,7 +1510,7 @@ newtab-privacy-message-first-protection-cta = 保護状態を表示
 
 # Accessible name for the Finance widget. It is usually not shown, since the
 # list dropdown or the chosen ticker symbol takes the title's place.
-newtab-stocks-widget-title = 金融
+newtab-stocks-widget-title2 = 金融
 
 # "Markets" is the default list of market ETFs. The value is shown in the menu,
 # and .label is shown on the button that opens it.
@@ -1781,6 +1786,22 @@ newtab-travel-widget-open-menu-button =
 
 # Context menu item linking to more information about the widget.
 newtab-travel-menu-learn-more = さらに詳しく
+
+## Strings for the Solitaire widget. Solitaire is a widget on New Tab where you
+## can play solitaire, a card game for one player, also known as patience.
+## Game displays within an iframe with name “Yahoo Solitaire”
+
+# Widget heading; also the widget's accessible name.
+newtab-solitaire-widget-title = ソリティア
+
+# Tooltip and screen reader label for the icon-only button that opens the
+# widget's menu.
+newtab-solitaire-widget-open-menu-button =
+    .title = Open solitaire menu
+    .aria-label = ソリティアのメニューを開く
+
+# Context menu item linking to more information about the widget.
+newtab-solitaire-menu-learn-more = さらに詳しく
 
 ## Strings for the navigable panels that new tab content area can be
 ## split into.

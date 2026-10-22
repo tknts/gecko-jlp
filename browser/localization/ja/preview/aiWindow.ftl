@@ -304,11 +304,27 @@ ai-tasks-alert-condition-could-not-check = 確認できませんでした
 ## Notes shown beside a Couldn’t check badge, explaining why a check failed.
 ## One per failure the run can produce.
 
-ai-tasks-alert-history-error-network = { -smart-window-brand-name } はこのページに接続できなかったため、比較は行われませんでした。このタスクは次回の予定時刻に再試行されます。
+ai-tasks-alert-history-error-network = { -smart-window-brand-name } はこのページに接続できなかったため、比較は行われませんでした。このタスクは次回のスケジュール時刻に再試行されます。
 
-ai-tasks-alert-history-error-timeout = ページの応答に時間がかかりすぎました。このタスクは次回の予定時刻に再試行されます。
+ai-tasks-alert-history-error-timeout = ページからの応答に時間がかかりすぎました。このタスクは次回のスケジュール時刻に再試行されます。
 
-ai-tasks-alert-history-error-rate-limit = { -smart-window-brand-name } の本日の確認回数制限に達しました。このタスクは次回の予定時刻に再試行されます。
+ai-tasks-alert-history-error-budget = { -smart-window-brand-name } は 1日のチェック上限に達しました。このタスクは次回のスケジュール時刻に再試行されます。
+
+ai-tasks-alert-history-error-rate-limit = { -smart-window-brand-name } は現在のリクエスト上限に達しました。このタスクは次回のスケジュール時刻に再試行されます。
+
+ai-tasks-alert-history-error-too-large = 1回のチェックで比較するにはページのコンテンツが多すぎます。このタスクは次回のスケジュール時刻に再試行されます。
+
+ai-tasks-alert-history-error-capacity = { -smart-window-brand-name } は現在、処理能力の上限に達しました。このタスクは次回のスケジュール時刻に再試行されます。
+
+ai-tasks-alert-history-error-upstream-rate-limit = { -smart-window-brand-name } は一時的にリクエストが集中しています。このタスクは次回のスケジュール時刻に再試行されます。
+
+ai-tasks-alert-history-error-connection-blocked = { -smart-window-brand-name } は一時的に接続元からのリクエストをブロックしました。このタスクは次回のスケジュール時刻に再試行されます。
+
+ai-tasks-alert-history-error-request-blocked = { -smart-window-brand-name } はセキュリティ上の理由により、このリクエストをブロックしました。このタスクは次回のスケジュール時刻に再試行されます。
+
+ai-tasks-alert-history-error-request = { -smart-window-brand-name } はこのリクエストを処理できませんでした。このタスクは次回のスケジュール時刻に再試行されます。
+
+ai-tasks-alert-history-error-service-budget = { -smart-window-brand-name } は利用上限に達しました。このタスクは次回のスケジュール時刻に再試行されます。
 
 ai-tasks-alert-history-error-auth = このページはサインインを要求したため、比較するものがありませんでした。ページを開いてサインインすると、次回の確認が機能するようになります。
 
@@ -500,15 +516,21 @@ aitab-page-delete-dialog-confirm =
 # Credit at the bottom of a generated page.
 aitab-page-footer-brand = { -smart-window-brand-name }
 
-smartwindow-aitab-creating = ページを作成中…
+smartwindow-aitab-creating = { -smart-page-brand-name } を作成しています
+smartwindow-aitab-updating = { -smart-page-brand-name } を更新しています
+smartwindow-aitab-creating-an-aitab-failed = { -smart-page-brand-name } を作成できませんでした
+smartwindow-aitab-updating-an-aitab-failed = { -smart-page-brand-name } を更新できませんでした
+
 # "Open here" opens aitab url in the current tab
 smartwindow-aitab-open-current =
     .label = ここで開く
 # "Open in new tab" opens a new browser tab with the AITab url in it
 smartwindow-aitab-open-new =
     .label = 新しいタブで開く
+
 smartwindow-aitab-created-an-aitab = { -smart-page-brand-name } を作成しました
-smartwindow-aitab-empty-chat-message = { -smart-page-brand-name } を変更しますか? チャットでコンテンツの追加や削除を依頼できます。
+smartwindow-aitab-updated-an-aitab = { -smart-page-brand-name } を更新しました
+smartwindow-aitab-empty-chat-message = { -smart-page-brand-name } を変更しますか? チャットでコンテンツの追加や削除を指示してください。
 
 ## "Pick up where you left off" cards for resuming browsing or chat journeys.
 ## A "journey" is a past browsing or chat session the user was in the middle

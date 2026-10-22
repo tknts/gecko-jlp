@@ -184,14 +184,6 @@ firefox-suggest-onboarding-main-reject-option-description-3 = 最も厳格なデ
 firefox-suggest-onboarding-main-submit-button = 設定を保存
 firefox-suggest-onboarding-main-skip-link = 今はしない
 
-urlbar-firefox-suggest-contextual-opt-in-title-1 =
-  ウェブのベストを、より速く見つけましょう
-urlbar-firefox-suggest-contextual-opt-in-description-3 =
-  より良い検索体験を構築しています。検索クエリデータを { -vendor-short-name } と共有すると、{ -brand-short-name } やパートナーからより関連性の高い候補を作成できます。
-  <a data-l10n-name="learn-more-link">さらに詳しく</a>
-urlbar-firefox-suggest-contextual-opt-in-allow = サジェストを許可
-urlbar-firefox-suggest-contextual-opt-in-dismiss = 使用しない
-
 ## Local search mode indicator labels in the urlbar
 
 urlbar-search-mode-bookmarks-en = ブックマーク
@@ -254,7 +246,7 @@ urlbar-result-aria-group-yelp-realtime =
 ## and the status like delayed, etc.
 
 # This string is shown in the result menu.
-urlbar-result-menu-dont-show-flight-status = フライト状況の候補を表示しない
+urlbar-result-menu-dont-show-flight-status2 = フライト状況の提案を表示しない
 
 # A message that replaces a result when the user dismisses flight status
 # suggestions.

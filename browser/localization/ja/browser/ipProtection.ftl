@@ -16,7 +16,7 @@ ipprotection-button-error =
 
 # The word "Beta" is intended to be uppercase in the experiment label.
 ipprotection-experiment-badge =
-  .label = ベータ
+  .label = BETA
 
 ipprotection-help-button =
   .tooltiptext = VPN のサポートページを開きます
@@ -139,13 +139,14 @@ ipprotection-android-promo-callout-primary-button = 了解しました
 ipprotection-site-inclusions-callout-title-existing-users = 内蔵 VPN ルールを設定して閲覧を継続する
 ipprotection-site-inclusions-callout-title-lapsed-users = 内蔵 VPN をサイトごとに試す
 ipprotection-site-inclusions-callout-description-1 = プライバシーをより強化したいときや、特定の地域に基づいたブラウジングを行いたいときは VPN をオンにし、それ以外の場合はオフにしてください。
+ipprotection-site-inclusions-callout-description-lapsed-users = プライバシーを強化したいときや、場所に応じたブラウジングをしたいときに VPN をオンにし、必要ないときはオフにするルールを設定できます。
 ipprotection-site-inclusions-callout-primary-button = ルールを設定
 ipprotection-site-inclusions-callout-secondary-button-existing-users = 今はしない
 ipprotection-site-inclusions-callout-secondary-button-lapsed-users = 閉じる
 
 ## Holiday Promotion Callout
 
-ipprotection-holiday-promo-title = 1 月 30 日まで VPN を無制限で利用できます
+ipprotection-holiday-promo-title-1 = 1月 31日までVPNを無制限で利用
 ipprotection-holiday-promo-description = 組み込みの VPN で、プライバシーを保護し、追跡されにくいブラウジングを実現しましょう。
 ipprotection-holiday-promo-primary-button = VPNを開く
 ipprotection-holiday-promo-secondary-button = 閉じる
@@ -202,12 +203,12 @@ ipprotection-connection-status-connecting-1 = VPN に接続中…
   .aria-label = VPN に接続中…
 
 # Button to turn off the VPN
-ipprotection-button-turn-vpn-off = VPN をオフにする
+ipprotection-button-turn-vpn-off-1 = オフにする
 # Button to turn off the VPN when the VPN panel is open while viewing
 # a page from an excluded site.
 ipprotection-button-turn-vpn-off-excluded-site = すべてのサイトで VPN をオフにする
 # Button to turn on the VPN
-ipprotection-button-turn-vpn-on = VPN をオンにする
+ipprotection-button-turn-vpn-on-1 = オンにする
 # Button while VPN is connecting
 ipprotection-button-connecting = オンにしています…
 
@@ -285,7 +286,8 @@ ipprotection-message-continuous-onboarding-intro = VPN をオンにして現在�
 ipprotection-message-continuous-onboarding-autostart = さらなる保護のために、{ -brand-short-name } を開くたびに <a data-l10n-name="setting-link">VPN をオンにする</a> よう設定できます。
 ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } は、VPN を使用するように設定したウェブサイトを記憶します。これらはいつでも <a data-l10n-name="setting-link">設定</a> から更新できます。
 
-confirmation-hint-ipprotection-navigated-to-excluded-site = このサイトでは VPN はオフです
+confirmation-hint-ipprotection-navigated-to-excluded-site = このサイトでは VPN はオフになっています
+confirmation-hint-ipprotection-navigated-to-included-site = このサイトでは VPN はオンになっています
 
 ipprotection-open-button = { -brand-product-name } を開く
 ipprotection-come-back-title = 戻って内蔵 VPN を試す
@@ -346,9 +348,9 @@ ip-protection-site-rules-button-1 =
   .label = VPN ルールを管理
   .description = プライバシー保護を強化するサイトや、VPN をオフにする必要があるサイトのルールを設定します。
 
-ip-protection-site-rules-list-section =
+ip-protection-site-rules-list-section-1 =
   .label = ウェブサイトのルール
-  .description = プライバシー保護を強化するサイトや、VPN をオフにする必要があるサイトでのVPNの動作を選択します。
+  .description = VPN を自動的にオンまたはオフにするルールを設定します。
 
 ip-protection-site-rules-add-button =
   .label = ルールを設定
