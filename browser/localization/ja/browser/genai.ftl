@@ -88,9 +88,28 @@ genai-shortcut-search-button =
 genai-shortcut-copy-button =
     .tooltiptext = 選択したテキストをコピーする
     .aria-label = 選択したテキストをコピーする
+# Shown briefly after clicking the Copy action in the text selection menu,
+# confirming the selection was copied to the clipboard.
+genai-shortcut-copy-confirmation = コピーしました
 genai-shortcut-more-actions-button =
     .tooltiptext = その他のオプション
     .aria-label = その他のオプション
+genai-more-actions-panel =
+    .aria-label = 表示するアクションの選択
+# $provider (string) - name of the chatbot provider
+genai-more-actions-ai-provider =
+    .label = { $provider } に質問
+genai-more-actions-ai-generic =
+    .label = AI に質問
+genai-more-actions-search =
+    .label = 検索
+genai-more-actions-copy =
+    .label = コピー
+# The span is a right-pointing chevron that separates the steps of the path to
+# the setting, in place of a ">" character.
+genai-more-actions-all-off-notice = テキストを選択したときにこのメニューは表示されません。再び表示するには [設定] <span data-l10n-name="chevron"></span> [タブとブラウジング] にアクセスしてください。
+genai-more-actions-manage-settings =
+    .label = 設定を管理
 
 genai-menu-new-badge = 新規
 genai-menu-summarize-page = ページの要約
@@ -253,6 +272,11 @@ highlight-to-search-settings-ask-generic =
 # with the default search engine.
 highlight-to-search-settings-search =
     .label = 検索
+# Checkbox label for one of the actions in the menu that appears when selecting
+# text on a page. "Copy" is a verb: the action copies the selected text to the
+# clipboard.
+highlight-to-search-settings-copy =
+    .label = コピー
 
 # Title that appears when user is shown the opt-in flow for link previews
 link-preview-optin-title = AI でさらに便利に？

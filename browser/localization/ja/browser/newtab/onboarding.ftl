@@ -625,16 +625,20 @@ onboarding-refresh-data-collection-link = データ収集設定の管理
 
 onboarding-refresh-primary-button = 続行
 
-onboarding-refresh-fro-import-header = データの移行
-onboarding-refresh-fro-import-body = あなたの個人データはプライベートに保たれます。{ -brand-product-name } がそれを販売することは決してありません。
+onboarding-refresh-fro-import-header = データを引き継ぐ
+# "It" in "It stays yours" means the browsing data the user is importing (bookmarks, passwords, history).
+# Refers to personal data, indicating that ownership of imported data remains with the user.
+onboarding-refresh-fro-import-subtitle = あなたのデータはあなただけのものです。{ -brand-product-name } が個人データを販売することは一切ありません。
+onboarding-refresh-fro-import-body = あなたのデータは、あなた自身のものです。{ -brand-product-name } がそれを販売することは一切ありません。
 onboarding-refresh-fro-skip-button = スキップ
 
-onboarding-refresh-fro-theme-header = 外観のカスタマイズ
+onboarding-refresh-fro-theme-header = 見た目をカスタマイズする
 
 onboarding-refresh-tab-layout-header = 別のタブレイアウトを試す
+onboarding-refresh-fro-tab-layout-title = 新しいタブレイアウトを選ぶ
 onboarding-refresh-tab-layout-top = 上部
 onboarding-refresh-tab-layout-side = サイド
-onboarding-refresh-tab-layout-minimal = 最小
+onboarding-refresh-tab-layout-minimal = ミニマル
 # Tooltip displayed on hover for minimal tabs image
 onboarding-minimal-tabs-tooltip =
     .title = ミニマルなサイドバーの画面の側面に沿ってタブを小さなアイコンとして表示するブラウザーウィンドウのタイトル
@@ -695,7 +699,7 @@ welcome-back-onboarding-primary-button-label = ブラウジングを開始
 welcome-back-onboarding-secondary-button-label = その他の新機能を見る
 # Pill label for features that allow you to tidy up your tabs
 welcome-back-onboarding-pill-label-tabs = タブの整理
-welcome-back-onboarding-pill-label-vpn = 内蔵された VPN 
+welcome-back-onboarding-pill-label-vpn = 内蔵された VPN
 welcome-back-onboarding-pill-label-pdf = PDF ツール
 welcome-back-onboarding-card-label-tabs = 垂直タブとグループによるタブの整理
 welcome-back-onboarding-card-label-vpn = 内蔵された VPN でプライバシーを保護

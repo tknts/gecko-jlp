@@ -522,3 +522,17 @@ refresh-profile-infobar-button = { -brand-short-name } をリフレッシュ…
 # <img data-l10n-name="icon"/> will be replaced by the application menu icon
 restore-session-startup-suggestion-message = <strong>前回のタブを開きますか?</strong> 前回のセッションは、{ -brand-short-name } のアプリケーションメニュー <img data-l10n-name="icon"/> の [履歴] から復元できます。
 restore-session-startup-suggestion-button = 方法を確認
+
+## Taskbar Tabs Spotlight
+##
+## A dialog that suggests websites to add to the Windows taskbar. Each website
+## is shown in a row with its name, web address and an “Add” button.
+
+taskbar-tabs-spotlight-title = お気に入りのサイトをアプリのように開きます
+taskbar-tabs-spotlight-subtitle =  ワンクリックで、よく使うサイトを { -brand-short-name } の保護機能が適用された専用ウィンドウで開く。
+# Heading above the list of suggested websites.
+taskbar-tabs-spotlight-sites-heading = タスクバーに追加するサイトを選択
+# Button shown in each row of the list of websites. Clicking it adds the
+# website in that row to the Windows taskbar.
+taskbar-tabs-spotlight-add-button = 追加
+taskbar-tabs-spotlight-done-button = 完了

@@ -26,24 +26,24 @@ about-debugging-this-firefox-runtime-name = この { -brand-shorter-name }
 # Sidebar heading and title for selecting the currently running instance of Firefox
 about-debugging-sidebar-this-firefox2 = この { -brand-shorter-name }
 about-debugging-sidebar-this-firefox-title =
-  .title = この { -brand-shorter-name } の設定
+  .title = この { -brand-shorter-name }
 
 # Sidebar heading and title for connecting to some remote source
 about-debugging-sidebar-setup2 = セットアップ
 about-debugging-sidebar-setup-title =
-    .title = セットアップの構成
+    .title = セットアップ
 
 # Text displayed in the about:debugging sidebar when USB devices discovery is enabled.
-about-debugging-sidebar-usb-enabled = USB 有効
+about-debugging-sidebar-usb-enabled = USB を有効化済み
 
 # Text displayed in the about:debugging sidebar when USB devices discovery is disabled
 # (for instance because the mandatory ADB extension is not installed).
-about-debugging-sidebar-usb-disabled = USB 無効
+about-debugging-sidebar-usb-disabled = USB を無効化済み
 
 # Connection status (connected) for runtime items in the sidebar
 aboutdebugging-sidebar-runtime-connection-status-connected = 接続済み
 # Connection status (disconnected) for runtime items in the sidebar
-aboutdebugging-sidebar-runtime-connection-status-disconnected = 未接続
+aboutdebugging-sidebar-runtime-connection-status-disconnected = 切断済み
 
 # Text displayed in the about:debugging sidebar when no device was found.
 about-debugging-sidebar-no-devices = デバイスが見つかりません
@@ -60,7 +60,7 @@ about-debugging-sidebar-item-connect-button-connection-failed = 接続に失敗�
 
 # Text displayed in connection warning on sidebar item of the runtime when connecting to
 # the runtime is taking too much time.
-about-debugging-sidebar-item-connect-button-connection-not-responding = 接続が保留中です。ターゲットブラウザでメッセージを確認してください
+about-debugging-sidebar-item-connect-button-connection-not-responding = 接続に応答していません。ターゲットブラウザのメッセージを確認してください
 
 # Text displayed as connection error in sidebar item when the connection has timed out.
 about-debugging-sidebar-item-connect-button-connection-timeout = 接続がタイムアウトしました
@@ -68,11 +68,11 @@ about-debugging-sidebar-item-connect-button-connection-timeout = 接続がタイ
 # Text displayed in sidebar items for remote devices where a compatible browser (eg
 # Firefox) has not been detected yet. Typically, Android phones connected via USB with
 # USB debugging enabled, but where Firefox is not started.
-about-debugging-sidebar-runtime-item-waiting-for-browser = ブラウザーを待機中…
+about-debugging-sidebar-runtime-item-waiting-for-browser = ブラウザを待機中…
 
 # Text displayed in sidebar items for remote devices that have been disconnected from the
 # computer.
-about-debugging-sidebar-runtime-item-unplugged = 取り外し済み
+about-debugging-sidebar-runtime-item-unplugged = 切断されました
 
 # Title for runtime sidebar items that are related to a specific device (USB, WiFi).
 # Variables:
@@ -89,7 +89,7 @@ about-debugging-sidebar-runtime-item-name-no-device =
 
 # Text to show in the footer of the sidebar that links to a help page
 # (currently: https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/)
-about-debugging-sidebar-support = デバッグのサポート
+about-debugging-sidebar-support = デバッグ サポート
 
 # Text to show as the ALT attribute of a help icon that accompanies the help about
 # debugging link in the footer of the sidebar
@@ -106,13 +106,13 @@ about-debugging-refresh-usb-devices-button = デバイスを更新
 about-debugging-setup-title = セットアップ
 
 # Introduction text in the Setup page to explain how to configure remote debugging.
-about-debugging-setup-intro = デバイスをリモートデバッグするために使用したい接続方法を設定します。
+about-debugging-setup-intro = リモートデバッグに使用する接続方法を設定してください。
 
 # Explanatory text in the Setup page about what the 'This Firefox' page is for
 about-debugging-setup-this-firefox2 = <a>{ about-debugging-this-firefox-runtime-name }</a> を使用して、このバージョンの { -brand-shorter-name } の拡張機能と Service Worker をデバッグできます。
 
 # Title of the heading Connect section of the Setup page.
-about-debugging-setup-connect-heading = デバイスに接続
+about-debugging-setup-connect-heading = デバイスを接続
 
 # USB section of the Setup page
 about-debugging-setup-usb-title = USB
@@ -137,19 +137,19 @@ about-debugging-setup-usb-status-disabled = 無効
 about-debugging-setup-usb-status-updating = 更新中…
 
 # USB section step by step guide
-about-debugging-setup-usb-step-enable-dev-menu2 = Android デバイスで開発者メニューを有効にします。
+about-debugging-setup-usb-step-enable-dev-menu2 = Android デバイスで開発者向けメニューを有効にします。
 
 # USB section step by step guide
-about-debugging-setup-usb-step-enable-debug2 = Android 開発者メニューで USB デバッグを有効にします。
+about-debugging-setup-usb-step-enable-debug2 = Android の開発者向けメニューで USB デバッグを有効にします。
 
 # USB section step by step guide
-about-debugging-setup-usb-step-enable-file-transfer = ファイル転送を有効にし、デバイスが充電のみのモードになっていないことを確認します。
+about-debugging-setup-usb-step-enable-file-transfer = ファイル転送を有効にし、デバイスが充電のみモードになっていないことを確認します。
 
 # USB section step by step guide
-about-debugging-setup-usb-step-enable-debug-firefox2 = Android デバイスの Firefox で USB デバッグを有効にします。
+about-debugging-setup-usb-step-enable-debug-firefox2 = Android デバイス上の Firefox で USB デバッグを有効にします。
 
 # USB section step by step guide
-about-debugging-setup-usb-step-plug-device = Android デバイスをコンピューターに接続します。
+about-debugging-setup-usb-step-plug-device = Android デバイスをコンピュータに接続します。
 
 # Text shown in the USB section of the setup page with a link to troubleshoot connection errors.
 # The link goes to https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/index.html#connecting-to-a-remote-device
@@ -179,7 +179,7 @@ about-debugging-network-locations-remove-button = 削除
 # Text used as error message if the format of the input value was invalid in the network locations form of the Setup page.
 # Variables:
 #   $host-value (string) - The input value submitted by the user in the network locations form
-about-debugging-network-location-form-invalid = ホスト “{ $host-value }” は無効です。期待される形式は “hostname:portnumber” です。
+about-debugging-network-location-form-invalid = 無効なホスト “{ $host-value }” です。期待される形式は “hostname:portnumber”です。
 
 # Text used as error message if the input value was already registered in the network locations form of the Setup page.
 # Variables:
@@ -205,15 +205,15 @@ about-debugging-runtime-tabs =
 # Title of the service workers category.
 # .name is processed by fluent-react / DebugTargetPane
 about-debugging-runtime-service-workers =
-  .name = Service Workers
+  .name = Service Worker
 # Title of the shared workers category.
 # .name is processed by fluent-react / DebugTargetPane
 about-debugging-runtime-shared-workers =
-  .name = 共有 Workers
+  .name = 共有 Worker
 # Title of the other workers category.
 # .name is processed by fluent-react / DebugTargetPane
 about-debugging-runtime-other-workers =
-  .name = その他の Workers
+  .name = その他の Worker
 # Title of the processes category.
 # .name is processed by fluent-react / DebugTargetPane
 about-debugging-runtime-processes =
@@ -226,17 +226,17 @@ about-debugging-runtime-profile-button2 = パフォーマンスをプロファ�
 # This string is displayed in the runtime page if the current configuration of the
 # target runtime is incompatible with service workers. "Learn more" points to:
 # https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/index.html#service-workers-not-compatible
-about-debugging-runtime-service-workers-not-compatible = お使いのブラウザの設定は Service Worker と互換性がありません。<a>詳細はこちら</a>
+about-debugging-runtime-service-workers-not-compatible = お使いのブラウザ設定は Service Worker と互換性がありません。<a>詳細はこちら</a>
 
 # This string is displayed in the runtime page if the remote browser version is too old.
 # "Troubleshooting" link points to https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/
 # { $runtimeVersion } is the version of the remote browser (for instance "67.0a1")
 # { $minVersion } is the minimum version that is compatible with the current Firefox instance (same format)
-about-debugging-browser-version-too-old = 接続されているブラウザーのバージョンが古い ({ $runtimeVersion })。サポートされている最小バージョンは { $minVersion } です。これはサポートされていないセットアップであり、開発ツールが失敗する原因となる可能性があります。接続されているブラウザーを更新してください。<a>トラブルシューティング</a>
+about-debugging-browser-version-too-old = 接続されたブラウザのバージョンが古くなっています ({ $runtimeVersion })。サポートされる最小バージョンは ({ $minVersion }) です。これはサポートされていない構成であり、[開発者ツール] が正常に動作しない原因になります。接続されたブラウザを更新してください。<a>トラブルシューティング</a>
 
 # Dedicated message for a backward compatibility issue that occurs when connecting:
 # from Fx 70+ to the old Firefox for Android (aka Fennec) which uses Fx 68.
-about-debugging-browser-version-too-old-fennec = このバージョンの Firefox は、Firefox for Android (68) をデバッグできません。テストには、スマートフォンに Firefox for Android Nightly をインストールすることをお勧めします。<a>詳細</a>
+about-debugging-browser-version-too-old-fennec = このバージョンの Firefox では Firefox for Android (68) をデバッグできません。テストには Firefox for Android Nightly のインストールをお勧めします。<a>詳細情報</a>
 
 # This string is displayed in the runtime page if the remote browser version is too recent.
 # "Troubleshooting" link points to https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/
@@ -244,7 +244,7 @@ about-debugging-browser-version-too-old-fennec = このバージョンの Firefo
 # { $localID } is the build ID of the current Firefox instance (same format)
 # { $runtimeVersion } is the version of the remote browser (for instance "67.0a1")
 # { $localVersion } is the version of your current browser (same format)
-about-debugging-browser-version-too-recent = 接続されているブラウザーは、お使いの { -brand-shorter-name } ({ $localVersion }、ビルド ID { $localID }) よりも新しい ({ $runtimeVersion }、ビルド ID { $runtimeID }） です。これはサポートされていないセットアップであり、開発ツールが失敗する原因となる可能性があります。Firefox を更新してください。<a>トラブルシューティング</a>
+about-debugging-browser-version-too-recent = 接続されたブラウザのバージョンが新しい ({ $runtimeVersion }, ビルドID { $runtimeID }) ため、お使いの { -brand-shorter-name } ({ $localVersion }, ビルドID { $localID }) よりも進んでいます。これはサポートされていない構成であり、[開発者ツール] が正常に動作しない原因になります。Firefox を更新してください。<a>トラブルシューティング</a>
 
 # Displayed for runtime info in runtime pages.
 # { $name } is brand name such as "Firefox Nightly"
@@ -253,7 +253,7 @@ about-debugging-runtime-name = { $name } ({ $version })
 
 # Text of a button displayed in Runtime pages for remote runtimes.
 # Clicking on the button will close the connection to the runtime.
-about-debugging-runtime-disconnect-button = 接続解除
+about-debugging-runtime-disconnect-button = 切断
 
 # Text of the connection prompt button displayed in Runtime pages, when the preference
 # "devtools.debugger.prompt-connection" is false on the target runtime.
@@ -269,13 +269,13 @@ about-debugging-profiler-dialog-title2 = プロファイラ
 # Clicking on the header of a debug target category will expand or collapse the debug
 # target items in the category. This text is used as ’title’ attribute of the header,
 # to describe this feature.
-about-debugging-collapse-expand-debug-targets = 折りたたみ / 展開
+about-debugging-collapse-expand-debug-targets = 折り畳む / 展開する
 
 # Debug Targets strings
 
 # Displayed in the categories of "runtime" pages that don't have any debug target to
 # show. Debug targets depend on the category (extensions, tabs, workers...).
-about-debugging-debug-target-list-empty = まだ何もありません。
+about-debugging-debug-target-list-empty = 項目はありません。
 
 # Text of a button displayed next to debug targets of "runtime" pages. Clicking on this
 # button will open a DevTools toolbox that will allow inspecting the target.
@@ -307,10 +307,10 @@ about-debugging-tmp-extension-terminate-bgscript-button = バックグラウン�
 # (triggered by the button using "about-debugging-tmp-extension-install-button")
 # manifest.json .xpi and .zip should not be localized.
 # Note: this message is only displayed in Windows and Linux platforms.
-about-debugging-tmp-extension-install-message = manifest.json ファイル、または .xpi/.zip アーカイブを選択
+about-debugging-tmp-extension-install-message = manifest.json ファイルまたは .xpi/.zip アーカイブを選択してください
 
 # This string is displayed as a message about the add-on having a temporaryID.
-about-debugging-tmp-extension-temporary-id = この WebExtension には一時的な ID が設定されています。<a>詳細はこちら</a>
+about-debugging-tmp-extension-temporary-id = この WebExtension は一時的な ID を持っています。<a>詳細はこちら</a>
 
 # Text displayed for extensions in "runtime" pages, before displaying a link the extension's
 # manifest URL.
@@ -325,7 +325,7 @@ about-debugging-extension-uuid =
 # Text displayed for extensions (temporary extensions only) in "runtime" pages, before
 # displaying the location of the temporary extension.
 about-debugging-extension-location =
-  .label = ロケーション
+  .label = 場所
 
 # Text displayed for extensions in "runtime" pages, before displaying the extension's ID.
 # For instance "geckoprofiler@mozilla.com" or "{ed26ddcb-5611-4512-a89a-51b8db81cfb2}".
@@ -350,12 +350,12 @@ about-debugging-extension-backgroundscript-status-stopped = 停止中
 # probably better to not localize it.
 # .disabledTitle is processed by the fluent-react / ActionButton code.
 about-debugging-worker-action-push2 = Push
-  .disabledTitle = マルチプロセス { -brand-shorter-name } では、Service Worker の Push は現在無効です
+  .disabledTitle = マルチプロセス { -brand-shorter-name } では Service Worker の Push は現在無効化されています
 
 # This string is displayed as a label of the button that starts a service worker.
 # .disabledTitle is processed by the fluent-react / ActionButton code.
 about-debugging-worker-action-start2 = 開始
-  .disabledTitle = Service Worker の開始は、マルチプロセス { -brand-shorter-name } では現在無効化されたいます。
+  .disabledTitle = マルチプロセス { -brand-shorter-name } では Service Worker の開始は現在無効化されています
 
 # This string is displayed as a label of the button that unregisters a service worker.
 about-debugging-worker-action-unregister = 登録解除
@@ -368,7 +368,7 @@ about-debugging-worker-fetch-listening =
 # Displayed for service workers in runtime pages that do not listen to Fetch events.
 about-debugging-worker-fetch-not-listening =
   .label = Fetch
-  .value = Fetch イベントの監視を休止中
+  .value = Fetch イベントの監視をしていません
 
 # Displayed for service workers in runtime pages that are currently running (service
 # worker instance is active).
@@ -391,15 +391,15 @@ about-debugging-worker-push-service =
 
 # Displayed for service workers in runtime pages, to label the origin of a worker.
 about-debugging-worker-origin =
-  .label = オリジン
+  .label = 生成元
 
 # Displayed as title of the inspect button when service worker debugging is disabled.
 about-debugging-worker-inspect-action-disabled =
-  .title = マルチプロセス { -brand-shorter-name } では、Service Worker の調査は現在無効です
+  .title = マルチプロセス { -brand-shorter-name } では Service Worker の調査は現在無効化されています
 
 # Displayed as title of the inspect button for zombie tabs (e.g. tabs loaded via a session restore).
 about-debugging-zombie-tab-inspect-action-disabled =
-  .title = タブの読み込みが完了してないため調査できません
+  .title = タブが完全に読み込まれていないため、調査できません
 
 # Displayed as name for the Main Process debug target in the Processes category. Only for
 # remote runtimes, if `devtools.aboutdebugging.process-debugging` is true.
@@ -407,7 +407,7 @@ about-debugging-multiprocess-toolbox-name = マルチプロセスツールボッ
 
 # Displayed as description for the Main Process debug target in the Processes category.
 # Only for remote browsers, if `devtools.aboutdebugging.process-debugging` is true.
-about-debugging-multiprocess-toolbox-description = ターゲットブラウザーのメイン プロセスとコンテンツ プロセス
+about-debugging-multiprocess-toolbox-description = ターゲットブラウザのメイン プロセスとコンテンツ プロセス
 
 about-debugging-message-error-icon =
   .alt = エラーアイコン

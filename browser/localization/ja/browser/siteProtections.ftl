@@ -22,6 +22,12 @@ content-blocking-cookies-view-allowed-label =
 content-blocking-cookies-view-blocked-label =
     .value = ブロックしました
 
+# This label is shown next to a tracker origin in the list of blocked trackers
+# when the same tracker was blocked on more than one page of the same site.
+# Variables:
+#   $count (Number): the number of pages the tracker was blocked on.
+content-blocking-tracker-count = (×{ $count })
+
 # Variables:
 #   $domain (String): the domain of the site.
 content-blocking-cookies-view-remove-button =
@@ -101,6 +107,6 @@ protections-footer-blocked-tracker-counter-no-tooltip =
 # In English this looks like "Firefox blocked over 10,000 trackers since October 2019"
 protections-milestone =
     { $trackerCount ->
-        [one] { -brand-short-name } は { DATETIME($date, year: "numeric", month: "long") } 以降にトラッカーをブロックしました
-       *[other] { -brand-short-name } は { DATETIME($date, year: "numeric", month: "long") } 以降に { $trackerCount } 個のトラッカーをブロックしました
+        [one] { -brand-short-name } は { DATETIME($date, year: "numeric", month: "long") } 以降に { $trackerCount } 件のトラッカーをブロックしました
+       *[other] { -brand-short-name } は { DATETIME($date, year: "numeric", month: "long") } 以降に { $trackerCount } 件以上のトラッカーをブロックしました
     }

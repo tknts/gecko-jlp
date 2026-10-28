@@ -388,6 +388,11 @@ main-context-menu-add-engine =
     .label = 検索エンジンを追加
     .accesskey = S
 
+# Actions menu that appears when selecting text with actions like Ask AI, Search, or Copy.
+main-context-menu-turn-on-actions-menu =
+    .label = アクション メニューを有効にする
+    .accesskey = A
+
 main-context-menu-link-send-to-device =
     .label = リンクをデバイスへ送信
     .accesskey = n

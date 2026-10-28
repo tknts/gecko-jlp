@@ -156,7 +156,7 @@ newtab-menu-section-learn-more = さらに詳しく
 
 ## Context menu options for sponsored stories and new ad formats on New Tab.
 
-newtab-menu-manage-sponsored-content = スポンサードコンテンツの管理
+newtab-menu-manage-sponsored-content = スポンサーコンテンツの管理
 newtab-menu-our-sponsors-and-your-privacy = スポンサーとあなたのプライバシーについて
 newtab-menu-report-this-ad = この広告を通報する
 
@@ -191,8 +191,8 @@ newtab-menu-open-file = ファイルを開く
 
 newtab-label-visited = 訪問済み
 newtab-label-bookmarked = ブックマーク済み
-newtab-label-removed-bookmark = 削除済みブックマーク
-newtab-label-recommended = 話題の記事
+newtab-label-removed-bookmark = ブックマークを削除しました
+newtab-label-recommended = トレンド
 newtab-label-saved = { -pocket-brand-name } に保存しました
 newtab-label-download = ダウンロード済み
 
@@ -210,7 +210,7 @@ newtab-label-sponsored-by = 提供: { $sponsor }
 # Variables:
 #   $source (string) - The name of a company or their domain
 #   $timeToRead (number) - The estimated number of minutes to read this story
-newtab-label-source-read-time = { $source } · { $timeToRead } 分
+newtab-label-source-read-time = { $source } · 読了時間の目安: { $timeToRead } 分
 
 # This string is used under fixed size ads to indicate sponsored content
 newtab-label-sponsored-fixed = スポンサー
@@ -578,9 +578,14 @@ newtab-weather-menu-change-location = 地域を変更
 newtab-weather-change-location-search-input-placeholder =
     .placeholder = 地域を検索
     .aria-label = 地域を検索
-newtab-weather-cancel-input =
-    .title = キャンセル
-    .aria-label = キャンセル
+# "Back" is an icon-only button next to the location search field that returns to the widget.
+newtab-weather-search-back-button =
+    .title = 戻る
+    .aria-label = 戻る
+# Screen reader label for the dropdown below the location search field that
+# lists matching locations as the user types.
+newtab-weather-location-search-results =
+    .aria-label = 地域の候補
 # "Current" refers to the user's physical/geographic location detected via geolocation.
 newtab-weather-change-location-search-use-current =
     .label = 現在地を使用する
@@ -952,14 +957,9 @@ newtab-crossword-widget-open-menu-button =
     .title = クロスワードのメニューを開く
     .aria-label = クロスワードのメニューを開く
 
-## World Cup wallpaper OMC messages
-## Shown as on-screen messages promoting the World Cup wallpapers.
-
-newtab-sports-widget-message-wallpapers-title = 新しい壁紙でワールドカップを始めよう
-newtab-sports-widget-message-wallpapers-body = 大会期間中、試合当日のような盛り上がりをブラウザーにもたらします。
-newtab-sports-widget-message-wallpapers-cta = 壁紙を選択
-newtab-sports-widget-message-wallpapers-semifinals-title = 準決勝に向けて新しい壁紙を設定
-newtab-sports-widget-message-wallpapers-semifinals-body = ワールドカップ最大の試合に向けて準備しましょう。
+# Context menu item linking to the Particle website, the provider of the
+# crossword. “Particle” is a brand name and should not be translated.
+newtab-crossword-menu-powered-by-particle = 提供: Particle
 
 ## Strings introduced by the Nova redesign of the Timer widget
 
@@ -1058,13 +1058,16 @@ newtab-nova-customization-callout-primary-button =
 
 ## Strings for the Clock widget
 
-newtab-clock-widget-menu-learn-more = 詳細はこちら
+newtab-clock-widget-menu-learn-more = 詳細情報
 newtab-clock-widget-menu-edit = 時計を編集
 newtab-clock-widget-menu-switch-to-12h = 12時間制に切り替え
 newtab-clock-widget-menu-switch-to-24h = 24時間制に切り替え
 newtab-clock-widget-label-your-clocks = 保存済みの時計
-newtab-clock-widget-search-location-input =
-    .label = 場所
+# "Back" is an icon-only button next to the city search field form that returns to the list of clocks.
+newtab-clock-widget-search-back-button =
+    .title = 戻る
+    .aria-label = 戻る
+newtab-clock-widget-search-location-input2 =
     .placeholder = 都市を検索
     .aria-label = 都市を検索
 # "Nickname (optional)" refers to a custom, user-defined label for a saved location
@@ -1126,7 +1129,7 @@ newtab-clock-widget-custom-city-input =
 # types a city they know and picks it to set the clock's time zone.
 newtab-clock-widget-custom-timezone-input =
     .label = タイムゾーン
-    .placeholder = 都市名、タイムゾーン、UTC オフセットで検索
+    .placeholder = 都市名、タイムゾーン、または UTC オフセットで検索
     .aria-label = タイムゾーン
 newtab-clock-widget-custom-zone-results =
     .aria-label = タイムゾーンの検索結果
@@ -1771,6 +1774,10 @@ newtab-horoscopes-widget-open-menu-button =
 
 # Context menu item linking to more information about the widget.
 newtab-horoscopes-menu-learn-more = さらに詳しく
+
+# Context menu item linking to the Yahoo website, the provider of the
+# horoscopes. “Yahoo” is a brand name and should not be translated.
+newtab-horoscopes-menu-powered-by-yahoo = Powered by Yahoo
 
 ## Strings for the Travel widget
 

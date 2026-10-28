@@ -136,10 +136,12 @@ autofill-card-expires-year-2 =
     .label = 有効期限 (年)
 autofill-card-billing-address-2 =
     .label = 請求先住所
-# "CVV" is a common abbreviation for the security code printed on a payment
-# card. Use whichever abbreviation is most familiar in your locale.
-autofill-card-security-code-optional =
-    .label = CVV (オプション)
+# Variables:
+#   $securityCode (String): The name of the card's security code, which depends
+#     on the card network (for example "CVV", or "Security code" when the
+#     network isn't known yet)
+autofill-card-security-code-optional-2 =
+    .label = { $securityCode } (任意)
 autofill-card-network = カードの種類
 
 # This string is never actually displayed, but is used to make it easier to

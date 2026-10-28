@@ -5,28 +5,28 @@
 ## Error page titles
 
 neterror-page-title = ページの読み込み中に問題が発生しました
-certerror-page-title = 警告: この先、セキュリティリスクの可能性があります
-certerror-sts-page-title = 接続できませんでした: セキュリティ上の問題の可能性があります
+certerror-page-title = 警告: 今後発生する可能性のあるセキュリティリスク
+certerror-sts-page-title = 接続できませんでした: セキュリティ上の問題の可能性
 neterror-blocked-by-policy-page-title = ブロックされたページ
 neterror-captive-portal-page-title = ネットワークへのログイン
 neterror-dns-not-found-title = サーバーが見つかりません
 neterror-malformed-uri-page-title = 無効な URL
-general-body-title = 注意してください。何かがおかしいようです。
+general-body-title = ご注意ください。何かおかしい点が見つかりました。
 problem-with-this-site-title = このサイトに問題があるようです
 
 ## Error page actions
 
-neterror-advanced-button = 詳細…
+neterror-advanced-button = 詳細設定…
 neterror-copy-to-clipboard-button = テキストをクリップボードにコピー
-neterror-learn-more-link = 詳細
-neterror-open-portal-login-page-button = ネットワークログインページを開く
-neterror-override-exception-button = 危険を承知で続行
-neterror-pref-reset-button = 既定の設定に戻す
+neterror-learn-more-link = 詳細情報…
+neterror-open-portal-login-page-button = ネットワーク ログイン ページを開く
+neterror-override-exception-button = 危険性を承知の上で続行
+neterror-pref-reset-button = 初期設定に戻す
 neterror-return-to-previous-page-button = 戻る
 neterror-return-to-previous-page-recommended-button = 戻る (推奨)
 neterror-try-again-button-2 = 再試行
     .accesskey = T
-neterror-add-exception-button = このサイトへの接続を常に継続
+neterror-add-exception-button = このサイトでは常に続行する
 neterror-settings-button = DNS 設定を変更
 neterror-view-certificate-link = 証明書を表示
 
@@ -34,25 +34,25 @@ neterror-view-certificate-link = 証明書を表示
 ## browser.netError.searchCTA.enabled is true. Offers a one-click web search
 ## derived from the address that failed to resolve.
 
-neterror-search-cta-title = このサイトへアクセスできません
+neterror-search-cta-title = このサイトにアクセスできません
 
-# $domain (String) - The host of the address that failed to load, including any
-# subdomains, for example "docs.example.com".
-neterror-search-cta-intro = { $domain } のサーバーに接続できませんでした。
+# $hostname (String) - The host of the address that failed to load, including
+# any subdomains, for example "docs.example.com". The host is emphasized.
+neterror-search-cta-intro2 = <strong>{ $hostname }</strong> のサーバーに接続できませんでした。
 
 # Heading above the list of recovery hints on the search CTA error page.
-neterror-search-cta-things-to-try = 次の手順をお試しください:
+neterror-search-cta-things-to-try = 以下の手順をお試しください:
 
-neterror-search-cta-hint-check-address = ウェブサイトのアドレスを再確認する
+neterror-search-cta-hint-check-address = ウェブサイトのアドレスをもう一度確認する
 
 # Shown when no Search button is offered, so no specific query can be named.
 neterror-search-cta-hint-search = ウェブを検索してサイトを見つける
 
 # Shown when the Search button is offered, naming the exact query it will run.
 # $query (String) - The search query derived from the address that failed to
-# load, for example "best hiking boots reviews". The query and the quotation
-# marks around it are emphasized.
-neterror-search-cta-hint-search-query = <strong>“{ $query }”</strong> をウェブで検索する
+# load, beginning with the site's name, for example "example best hiking
+# boots". The query and the quotation marks around it are emphasized.
+neterror-search-cta-hint-search-query = ウェブで <strong>“{ $query }”</strong> を検索する
 
 # .tooltiptext doubles as the button's accessible description, so it explains
 # that results open in a new tab.
@@ -77,7 +77,7 @@ neterror-search-cta-learn-more = さらに詳しく
 
 ##
 
-neterror-pref-reset = ネットワークのセキュリティ設定が原因である可能性があります。デフォルトの設定を復元しますか?
+neterror-pref-reset = ネットワークのセキュリティ設定が原因である可能性があります。初期設定に戻しますか？
 
 ## Shown on about:neterror and about:certerror when the SSLKEYLOGFILE
 ## environment variable is set, which causes { -brand-short-name } to log TLS
@@ -89,13 +89,13 @@ neterror-sslkeylogging-warning =
 
 ## Specific error messages
 
-neterror-generic-error = { -brand-short-name } は何らかの理由でこのページを読み込めません。
+neterror-generic-error = 何らかの理由により、{ -brand-short-name } はこのファイルを読み込めませんでした。
 
-neterror-load-error-try-again = サイトが一時的に利用できないか、混雑している可能性があります。しばらくしてからもう一度お試しください。
+neterror-load-error-try-again = サイトが一時的に利用できないか、混雑しています。しばらく待ってからもう一度お試しください。
 neterror-load-error-connection = どのページも読み込めない場合は、コンピューターのネットワーク接続を確認してください。
-neterror-load-error-firewall = コンピューターやネットワークがファイアウォールやプロキシによって保護されている場合は、{ -brand-short-name } がウェブへのアクセスを許可されていることを確認してください。
+neterror-load-error-firewall = コンピューターやネットワークがファイアウォールやプロキシーで保護されている場合は、{ -brand-short-name } によるウェブへのアクセスが許可されていることを確認してください。
 # This warning is only shown on macOS Sequoia and later (see bug 1929377)
-neterror-load-osx-permission = ローカルネットワークのページを読み込もうとしている場合は、macOS のプライバシーとセキュリティ設定で { -brand-short-name } にローカルネットワークの権限が付与されていることを確認してください。
+neterror-load-osx-permission = ローカルネットワークのページを読み込もうとしている場合は、macOS のプライバシーとセキュリティ設定で { -brand-short-name } にローカルネットワークの権限が許可されていることを確認してください。
 
 neterror-http-error-page = ウェブサイトのアドレスが正しく入力されていることを確認してください。
 neterror-http-empty-response = ウェブサイトのアドレスが正しく入力されているか確認し、しばらくしてからもう一度お試しください。
@@ -104,17 +104,30 @@ neterror-captive-portal = インターネットにアクセスする前に、こ
 
 # Variables:
 # $hostAndPath (String) - a suggested site (e.g. "www.example.com") that the user may have meant instead.
-neterror-dns-not-found-with-suggestion = <a data-l10n-name="website">{ $hostAndPath }</a> のサジェストへ移動しますか?
-neterror-dns-not-found-hint-header = <strong>正しいアドレスを入力した場合は、以下の操作を試してください:</strong>
-neterror-dns-not-found-hint-try-again = しばらくしてからもう一度お試しください
-neterror-dns-not-found-hint-check-network = ネットワーク接続を確認してください
-neterror-dns-not-found-hint-firewall = { -brand-short-name } がウェブへのアクセスを許可されているか確認してください (接続されていてもファイアウォールで保護されている可能性があります)
+neterror-dns-not-found-with-suggestion = もしかして <a data-l10n-name="website">{ $hostAndPath }</a> にアクセスしようとしたのですか？
+neterror-dns-not-found-hint-header = <strong>正しいアドレスを入力した場合は、以下の方法をお試しください:</strong>
+neterror-dns-not-found-hint-try-again = 後でもう一度試す
+neterror-dns-not-found-hint-check-network = ネットワーク接続を確認する
+neterror-dns-not-found-hint-firewall = { -brand-short-name } によるウェブへのアクセスが許可されていることを確認する (接続はされていますが、ファイアウォールで保護されている可能性があります)
 neterror-dns-not-found-hint-check-network-2 = ネットワーク接続を確認してください。
-neterror-dns-not-found-hint-firewall-2 = { -brand-short-name } にウェブへのアクセス権限があるか確認してください (接続されていても、ファイアウォールでブロックされている可能性があります)。
-neterror-dns-not-found-offline-hint-header = <strong>解決のために何ができますか?</strong>
-neterror-dns-not-found-offline-hint-different-device = 別のデバイスで接続を試してください。
+neterror-dns-not-found-hint-firewall-2 = { -brand-short-name } によるウェブへのアクセスが許可されていることを確認してください(接続はされていますが、ファイアウォールで保護されている可能性があります)。
+neterror-dns-not-found-offline-hint-header = <strong>どうすればよいですか？</strong>
+neterror-dns-not-found-offline-hint-different-device = 別のデバイスで接続してみてください。
 neterror-dns-not-found-offline-hint-modem = モデムやルーターを確認してください。
-neterror-dns-not-found-offline-hint-reconnect = Wi-Fi の切断と再接続を行ってください。
+neterror-dns-not-found-offline-hint-reconnect = Wi-Fi の接続を一度解除してから再接続してください。
+
+## Hints shown, as one list of steps, when a connection to this computer
+## (localhost) is refused.
+## Variables:
+##   $port (String) - The port number the connection was refused on.
+
+neterror-loopback-refused-not-running = ポート { $port } で接続を受け付けていません。ローカルサーバーが実行されているか確認してください。
+# "it" is the local server that the user is trying to reach.
+neterror-loopback-refused-wrong-port = 実行されている場合は、ポート { $port } を使用しているか確認してください。
+# "this address" is the IP address of the page that failed to load, for example
+# 127.0.0.1 or [::1]. Do not translate or reformat the literal addresses [::1]
+# and 127.0.0.1 in the text.
+neterror-loopback-refused-address = サーバーがこのアドレスでの接続を受け入れているか確認してください。一部のサーバーは [::1] または 127.0.0.1 でのみ待ち受けを行います。
 
 ## TRR-only specific messages
 ## Variables:
@@ -179,10 +192,10 @@ neterror-nss-failure-contact-website = ウェブサイトの所有者に連絡�
 certerror-intro = { -brand-short-name } は潜在的なセキュリティ脅威を検出したため <b>{ $hostname }</b> への接続を中断しました。このサイトにアクセスすると、攻撃者がパスワードやメールアドレス、クレジットカードの詳細情報などを盗み取る可能性があります。
 # Variables:
 # $hostname (String) - Hostname of the website to which the user was trying to connect.
-certerror-sts-intro = このウェブサイトは安全な接続を必要としています。{ -brand-short-name } は潜在的なセキュリティ脅威を検出したため  <b>{ $hostname }</b> への接続を中断しました。
+certerror-sts-intro = { -brand-short-name } は潜在的なセキュリティ脅威を検出しました。このウェブサイトでは安全な接続が必要とされるため、<b>{ $hostname }</b> へのアクセスを中止しました。
 # Variables:
 # $hostname (String) - Hostname of the website to which the user was trying to connect.
-certerror-expired-cert-intro = { -brand-short-name } は問題を検出したため <b>{ $hostname }</b> への接続を中断しました。ウェブサイトの設定に誤りがあるか、コンピューターの時計が間違った時刻に設定されている可能性があります。
+certerror-expired-cert-intro = { -brand-short-name } は問題点を検出し、<b>{ $hostname }</b> へのアクセスを中止しました。ウェブサイトの設定が間違っているか、コンピューターの時計の時刻が間違っています。
 # Variables:
 # $hostname (String) - Hostname of the website to which the user was trying to connect.
 # $mitm (String) - The name of the software intercepting communications between you and the website (or “man in the middle”)
@@ -214,7 +227,7 @@ certerror-expired-cert-sts-second-para = ウェブサイトの証明書の有効
 certerror-what-can-you-do-about-it-title = 解決のために何ができますか?
 
 certerror-unknown-issuer-what-can-you-do-about-it-website = この問題はウェブサイト側に起因する可能性が非常に高く、ユーザー側で解決できることはありません。
-certerror-unknown-issuer-what-can-you-do-about-it-contact-admin = 企業内ネットワークを利用している場合やウイルス対策ソフトウェアを使用している場合は、サポートチームに連絡して支援を求めてください。また、ウェブサイトの管理者にこの問題を通知することもできます。
+certerror-unknown-issuer-what-can-you-do-about-it-admin = 企業ネットワークを使用している場合やウイルス対策ソフトを使用している場合は、サポートチームにお問い合わせください。また、ウェブサイトの管理者に問題を通知することもできます。
 
 # Variables:
 # $hostname (String) - Hostname of the website to which the user was trying to connect.

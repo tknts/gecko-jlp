@@ -7,7 +7,7 @@
 ## Default Developer Tools section
 
 # The heading
-options-select-default-tools-label = 既定の開発ツール
+options-select-default-tools-label = 標準の開発ツ―ル
 
 # The label for the explanation of the * marker on a tool which is currently not supported
 # for the target of the toolbox.
@@ -15,7 +15,7 @@ options-tool-not-supported-label = * 現在のツールボックスの対象で�
 
 # The label for the heading of group of checkboxes corresponding to the developer tools
 # added by add-ons. This heading is hidden when there is no developer tool installed by add-ons.
-options-select-additional-tools-label = アドオンがインストールした開発ツール
+options-select-additional-tools-label = アドオンでインストールされた開発ツール
 
 # The label for the heading of group of checkboxes corresponding to the default developer
 # tool buttons.
@@ -32,45 +32,45 @@ options-context-inspector = 調査 (インスペクタ)
 # The label for the checkbox option to show user agent styles
 options-show-user-agent-styles-label = ブラウザのスタイルを表示
 options-show-user-agent-styles-tooltip =
-    .title = これをオンにすると、ブラウザによって読み込まれる既定のスタイルが表示されます。
+    .title = この機能を有効にすると、ブラウザによって読み込まれる標準スタイルが表示されます。
 
 # The label for the checkbox option to show all anonymous content
 options-show-user-agent-shadow-dom-label = ブラウザの Shadow DOM を表示
 options-show-user-agent-shadow-dom-tooltip =
-    .title = これをオンにすると、ブラウザが処理する Shadow DOM 要素が表示されます。
+    .title = この機能を有効にすると、ブラウザによって処理される Shadow DOM 要素が表示されます。
 
 # The label for the checkbox option to enable collapse attributes
 options-collapse-attrs-label = DOM 属性を省略
 options-collapse-attrs-tooltip =
-    .title = インスペクタで長い属性を省略します
+    .title = インスペクタ内の長い属性を省略します
 
 # The label for the checkbox option to enable the display of comments in the Inspector
 options-show-comments-label = コメントを表示
 options-show-comments-tooltip =
-    .title = インスペクタでのコメントノードの表示
+    .title = インスペクタ内にコメントノードを表示します
 
 # The label for the checkbox option to enable the "drag to update" feature
-options-inspector-draggable-properties-label = クリックして保持する事でサイズ値を編集
+options-inspector-draggable-properties-label = クリックしてドラッグし、サイズ値を編集する
 options-inspector-draggable-properties-tooltip =
-    .title = インスペクタのルールビューで、クリック＆ドラッグでサイズ値を編集できるようにします。
+    .title = インスペクタのルールビューで、クリックしてドラッグすることでサイズ値を編集できます。
 
 # The label for the checkbox option to enable simplified highlighting on page elements
 # within the inspector for users who enabled prefers-reduced-motion = reduce
-options-inspector-simplified-highlighters-label = prefers-reduced-motion を有効時にシンプルなハイライトを使用
+options-inspector-simplified-highlighters-label = prefers-reduced-motion 設定時にシンプルなハイライトを使用する
 options-inspector-simplified-highlighters-tooltip =
-    .title = prefers-reduced-motion が有効な場合に、シンプルなハイライトを有効にします。点滅効果を避けるため、ハイライトされた要素の周囲を塗りつぶした長方形ではなく線で描画します。
+    .title = prefers-reduced-motion が有効な場合に、シンプルなハイライトを使用します。点滅効果を避けるため、ハイライトされた要素の周囲を塗りつぶした長方形ではなく線で囲みます。
 
 # The label for the checkbox option to make the Enter key move the focus to the next input
 # when editing a property name or value in the Inspector rules view
-options-inspector-rules-focus-next-on-enter-label = <kbd>Enter</kbd> キーで次の入力にフォーカスを移動
+options-inspector-rules-focus-next-on-enter-label = <kbd>Enter</kbd> キーで次の入力欄へ移動する
 options-inspector-rules-focus-next-on-enter-tooltip =
-    .title = 有効にすると、インスペクタのルールビューでセレクタ、プロパティ名、またはプロパティ値を編集中に Enter キーを押すと、次の入力にフォーカスが移動します。
+    .title = 有効にすると、セレクタ、プロパティ名、または値を編集しているときに [Enter] キーを押すことで、フォーカスが次の入力欄に移動します。
 
 ## "Default Color Unit" options for the Inspector
 
-options-default-color-unit-label = 既定の色の単位
-options-default-color-unit-authored = 記述された通り
-options-default-color-unit-hex = Hex
+options-default-color-unit-label = 標準の色単位
+options-default-color-unit-authored = 記述されたとおり
+options-default-color-unit-hex = 16進数
 options-default-color-unit-hsl = HSL(A)
 options-default-color-unit-rgb = RGB(A)
 options-default-color-unit-hwb = HWB
@@ -82,9 +82,9 @@ options-default-color-unit-name = 色の名前
 options-webconsole-label = ウェブ コンソール
 
 # The label for the checkbox that toggle whether the Split console is enabled
-options-webconsole-split-console-label = 分割コンソールを有効化
+options-webconsole-split-console-label = 分割コンソールを有効にする
 options-webconsole-split-console-tooltip =
-    .title = Escape キーで分割コンソールを開きます
+    .title = [ESC] キーで分割コンソールを開きます
 
 ## Network Monitor section
 
@@ -92,31 +92,31 @@ options-webconsole-split-console-tooltip =
 options-netmonitor-label = ネットワーク モニタ
 
 # The label for the input defining the limit of stored request and response body size
-options-netmonitor-body-limit-label = リクエストおよびレスポンスボディの最大サイズ (制限なしにするには 0 を設定):
+options-netmonitor-body-limit-label = リクエストおよびレスポンスのボディの最大サイズ (無制限にするには 0 を設定):
 options-netmonitor-body-limit-tooltip =
-    .title = 指定されたサイズを超えるリクエストまたはレスポンスのボディは、ネットワークモニターでの表示またはダウンロード時に切り捨てられます。制限をなくすには 0 を設定してください。
+    .title = 指定されたサイズを超えるリクエストまたはレスポンスのボディは、ネットワークモニタでの表示やダウンロード時に切り詰められます。制限をなくすには 0 を設定してください。
 # Text shown in the input when there is no limitation (instead of showing "0")
-options-netmonitor-body-limit-unlimited-label = 制限なし
+options-netmonitor-body-limit-unlimited-label = 無制限
 options-netmonitor-body-limit-button =
-    .title = リクエスト/レスポンスボディの最大サイズを編集します。
+    .title = リクエスト/レスポンスのボディの最大サイズを編集します。
 options-netmonitor-body-limit-restore-default =
-    .title = リクエスト/レスポンスボディの最大サイズをデフォルト値に戻します。
+    .title = リクエスト/レスポンスのボディの最大サイズを初期値に戻します。
 options-netmonitor-body-limit-set =
-    .title = 現在の入力値をリクエスト/レスポンスボディの最大サイズとして設定します。
-    
+    .title = 現在の入力値をリクエスト/レスポンスのボディの最大サイズとして設定します。
+
 ## Experimental section
 
 # The heading
 options-experimental-label = 実験的な機能
 
 # The label for the checkbox that toggles showing stylesheets in the debugger
-options-stylesheets-in-the-debugger-label = デバッガ内でスタイルシートを表示
+options-stylesheets-in-the-debugger-label = デバッガでスタイルシートを表示する
 options-stylesheets-in-the-debugger-tooltip =
-    .title = デバッガ内でスタイルシートを一覧表示および閲覧します。
+    .title = デバッガでスタイルシートの一覧表示や確認を行います
 
 # The message shown for settings that indicates that the attached setting requires the
 # toolbox to be reopened to take effect.
-options-reopen-toolbox-message = (ツールボックスの再起動が必要)
+options-reopen-toolbox-message = (変更を適用するにはツールボックスの再起動が必要です)
 
 ## Style Editor section
 
@@ -124,9 +124,9 @@ options-reopen-toolbox-message = (ツールボックスの再起動が必要)
 options-styleeditor-label = スタイル エディタ
 
 # The label for the checkbox that toggles autocompletion of css in the Style Editor
-options-stylesheet-autocompletion-label = CSS のオートコンプリート
+options-stylesheet-autocompletion-label = CSS の自動補完
 options-stylesheet-autocompletion-tooltip =
-    .title = スタイル エディタで入力中に CSS プロパティ、値、セレクタをオートコンプリートします
+    .title = スタイル エディタでの入力時に CSS プロパティ、値、セレクタを自動補完します
 
 ## Screenshot section
 
@@ -134,14 +134,14 @@ options-stylesheet-autocompletion-tooltip =
 options-screenshot-label = スクリーンショットの動作
 
 # Label for the checkbox that toggles screenshot to clipboard feature
-options-screenshot-clipboard-only-label = クリップボードにのみ保存
+options-screenshot-clipboard-only-label = スクリーンショットをクリップボードにのみ保存する
 options-screenshot-clipboard-tooltip2 =
-    .title = スクリーンショットをクリップボードに直接保存します
+    .title = スクリーンショットを直接クリップボードに保存
 
 # Label for the checkbox that toggles the camera shutter audio for screenshot tool
-options-screenshot-audio-label = カメラのシャッター音を鳴らす
+options-screenshot-audio-label = カメラのシャッター音を再生する
 options-screenshot-audio-tooltip =
-    .title = スクリーンショットを撮影する際にカメラのシャッター音を鳴らします
+    .title = スクリーンショット撮影時のカメラ音を有効
 
 ## Editor section
 
@@ -150,25 +150,25 @@ options-sourceeditor-label = エディタの設定
 
 options-sourceeditor-detectindentation-tooltip =
     .title = ソース内容に基づいてインデントを推測します
-options-sourceeditor-detectindentation-label = インデントを検出
+options-sourceeditor-detectindentation-label = インデントを自動検出する
 options-sourceeditor-autoclosebrackets-tooltip =
     .title = 閉じ括弧を自動的に挿入します
-options-sourceeditor-autoclosebrackets-label = 括弧の自動閉じ
+options-sourceeditor-autoclosebrackets-label = 括弧を自動的に閉じる
 options-sourceeditor-expandtab-tooltip =
-    .title = Tab 文字の代わりにスペースを使用します
-options-sourceeditor-expandtab-label = スペースでインデント
-options-sourceeditor-tabsize-label = Tab サイズ
+    .title = タブ文字の代わりにスペースを使用
+options-sourceeditor-expandtab-label = スペースを使用してインデントする
+options-sourceeditor-tabsize-label = タブサイズ
 options-sourceeditor-keybinding-label = キーバインド
-options-sourceeditor-keybinding-default-label = 既定
+options-sourceeditor-keybinding-default-label = 標準
 
 ## Local Mode section
 
 # The heading
 options-local-mode-label = ローカルモード
 
-options-local-mode-only-work-locally = ローカルモードはローカル環境でのみ動作し、リモートコンテキストのデバッグ時には無効になります。
+options-local-mode-only-work-locally = ローカルモードはローカル環境でのみ動作し、リモートコンテキストのデバッグ時は無効になります
 
-options-local-mode-behavior = ローカルモードでは、外部依存関係なしで HTTPS URL を介してローカルファイルを読み込むことができます。この URL は、開発ツールが開いているタブからのみ読み込み可能です。
+options-local-mode-behavior =ローカルモードを使用すると、外部依存関係なしで https URL を介してローカルファイルを読み込むことができます。。この URL は [開発者ツール] が開いているタブからのみ読み込むことができます。
 
 options-local-mode-domain-label = カスタムドメイン:
 
@@ -182,12 +182,12 @@ options-local-mode-origin-invalid = このオリジンは無効です
 options-local-mode-folder-label = ローカルフォルダー:
 
 options-local-mode-choose-folder = 参照…
-    .title = このマッピングを提供するローカルフォルダーを選択
+    .title = このマッピングを提供するローカルフォルダを選択
 
 # Dialog's title when picking a folder for a mapping
 # Variables:
 #   $url (String): The url for the mapping being configured
-options-local-mode-choose-folder-picker-title = { $url } のローカルモードフォルダーを選択
+options-local-mode-choose-folder-picker-title = 次のローカルモードフォルダを選択: { $url }
 
 # Error shown when the folder is invalid
 # (can easily be triggered when using about:config and changing underlying mappings prefs)
@@ -196,8 +196,8 @@ options-local-mode-folder-invalid = このフォルダは存在しないか、�
 options-local-mode-toggle =
     .title = このローカルマッピングを切り替え
 
-options-local-mode-toggle-enable = 有効
-options-local-mode-toggle-disable = 無効
+options-local-mode-toggle-enable = 有効にする
+options-local-mode-toggle-disable = 無効にする
 
 options-local-mode-navigate-to =
     .title = このマッピング URL へ移動
@@ -207,52 +207,52 @@ options-local-mode-navigate-to =
 #   $mappingOrigin (String): The origin for the mapping
 options-local-mode-confirm-deletion =“{ $mappingOrigin }” のマッピングを削除しますか？
 
-options-local-mode-new-mapping = 新しいローカルマッピングを追加
+options-local-mode-new-mapping = 新しいローカルマッピングを追加する
 
 ## Advanced section
 
 # The heading (this item is also used in perftools.ftl)
-options-context-advanced-settings = 高度な設定
+options-context-advanced-settings = 詳細設定
 
 # The label for the checkbox that toggles the HTTP cache on or off
 options-disable-http-cache-label = HTTP キャッシュを無効化 (ツールボックスが開いている時)
 options-disable-http-cache-tooltip =
-    .title = このオプションをオンにすると、ツールボックスが開いているすべてのタブで HTTP キャッシュが無効になります。Service Worker はこのオプションの影響を受けません。
+    .title = このオプションを有効にすると、ツールボックスが開いているすべてのタブで HTTP キャッシュが無効になります。Service Worker はこのオプションの影響を受けません。
 
 # The label for checkbox that toggles JavaScript on or off
 options-disable-javascript-label-2 = JavaScript を無効化
 options-disable-javascript-tooltip =
-    .title = このオプションをオンにすると、現在のタブで JavaScript が無効になります。タブまたはツールボックスが閉じられると、この設定は破棄されます。
+    .title = このオプションを有効にすると、現在のタブで JavaScript が無効になります。タブやツールボックスを閉じると、この設定は破棄されます。
 
 # The label for checkbox that toggles chrome debugging, i.e. the devtools.chrome.enabled preference
-options-enable-chrome-label = ブラウザ本体とアドオンのデバッグツールボックスを有効化
+options-enable-chrome-label = ブラウザ本体およびアドオンのデバッグ用ツールボックスを有効にする
 options-enable-chrome-tooltip =
-    .title = このオプションをオンにすると、ブラウザのコンテキストでさまざまな開発ツール (ツール > ウェブ開発 > ブラウザー用ツールボックスから) を使用したり、アドオンマネージャからアドオンをデバッグしたりできるようになります
+    .title = このオプションを有効にすると、ブラウザコンテキストでのさまざまな開発ツールの使用 ([ツール] > [ウェブ開発] > [ブラウザータールボックス] から) や、アドオンマネージャからのアドオンのデバッグが可能になります
 
 # The label for checkbox that toggles remote debugging, i.e. the devtools.debugger.remote-enabled preference
 options-enable-remote-label = リモートデバッグを有効化
 options-enable-remote-tooltip2 =
-    .title = このオプションをオンにすると、このブラウザインスタンスをリモートからデバッグできるようになります
+    .title = このオプションを有効にすると、このブラウザインスタンスをリモートからデバッグできるようになります
 
 # The label for checkbox that enables F12 as a shortcut to open DevTools
-options-enable-f12-label = F12 キーで開発ツールを開閉する
+options-enable-f12-label = F12 キーで [開発者ツール] を開閉する
 options-enable-f12-tooltip =
-    .title = このオプションをオンにすると、F12 キーで開発ツールのツールボックスを開閉できるようになります
+    .title = このオプションを有効にすると、F12 キーに [開発者ツール] ツールボックスの開閉ショートカットが割り当てられます
 
 # The label for checkbox that toggles custom formatters for objects
-options-enable-custom-formatters-label = カスタムフォーマッタを有効化
+options-enable-custom-formatters-label = カスタムフォーマッタを有効にする
 options-enable-custom-formatters-tooltip =
-    .title = このオプションをオンにすると、サイトが DOM オブジェクトに対してカスタムフォーマッターを定義できるようになります
+    .title = このオプションを有効にすると、サイト側で DOM オブジェクト用のカスタムフォーマッタを定義できるようになります
 
 # The label for checkbox that toggles the service workers testing over HTTP on or off.
-options-enable-service-workers-http-label = HTTP 経由での Service Worker を有効化 (ツールボックスが開いている時)
+options-enable-service-workers-http-label = HTTP 経由の Service Worker テストを有効にする (ツールボックスが開いているとき)
 options-enable-service-workers-http-tooltip =
-    .title = このオプションをオンにすると、ツールボックスが開いているすべてのタブで HTTP 経由の Service Worker が有効になります。
+    .title = このオプションを有効にすると、ツールボックスが開いているすべてのタブで HTTP 経由の Service Worker が有効になります。
 
 # The label for the checkbox that toggles source maps in all tools.
-options-source-maps-label = ソース マップを有効化
+options-source-maps-label = ソース マップを有効にする
 options-source-maps-tooltip =
-    .title = このオプションを有効にすると、ツール内でソースがマップされます。
+    .title = このオプションを有効にすると、ツール内でソースがマッピングされます。
 
 # The message shown for settings that trigger page reload and will only apply to the current session
 # This appears underneath the applicable options (e.g. options-disable-javascript-label-2).
@@ -273,4 +273,4 @@ options-auto-theme-label = 自動
 
 # This is the text that appears in the settings panel for panel that will be removed in future releases.
 # This entire text is treated as a link to an MDN page.
-options-deprecation-notice = 非推奨。詳細情報…
+options-deprecation-notice = 廃止予定です。詳細はこちら…

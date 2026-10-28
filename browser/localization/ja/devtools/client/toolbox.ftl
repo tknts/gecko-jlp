@@ -9,13 +9,13 @@
 ## external links. Some of the commands have the keyboard shortcut shown next to
 ## the label.
 
-toolbox-meatball-menu-dock-bottom-label = 下側に表示
-toolbox-meatball-menu-dock-left-label = 左側に表示
-toolbox-meatball-menu-dock-right-label = 右側に表示
-toolbox-meatball-menu-dock-separate-window-label = ウィンドウを分割
+toolbox-meatball-menu-dock-bottom-label = 下部にドッキング
+toolbox-meatball-menu-dock-left-label = 左側にドッキング
+toolbox-meatball-menu-dock-right-label = 右側にドッキング
+toolbox-meatball-menu-dock-separate-window-label = 別ウィンドウ
 
 toolbox-meatball-menu-splitconsole-label = 分割コンソールを表示
-toolbox-meatball-menu-hideconsole-label = 分割コンソールを隠す
+toolbox-meatball-menu-hideconsole-label = 分割コンソールを非表示
 
 toolbox-meatball-menu-settings-label = 設定
 toolbox-meatball-menu-documentation-label = ドキュメント…
@@ -37,26 +37,26 @@ toolbox-mode-browser-console-label = ブラウザ コンソール モード
 toolbox-mode-everything-label = マルチプロセス
 toolbox-mode-everything-sub-label = (低速)
 toolbox-mode-everything-container =
-  .title = すべてのプロセスをデバッグ
+  .title = すべてのプロセスの内容をデバッグ
 
 toolbox-mode-parent-process-label = 親プロセスのみ
 toolbox-mode-parent-process-sub-label = (高速)
 toolbox-mode-parent-process-container =
-  .title = 親プロセスで動作しているリソースにのみ集中
+  .title = 親プロセスのリソースのみにフォーカス
 
 toolbox-always-on-top-enabled2 = 常に手前に表示を無効化
-  .title = 開発ツールが再起動します
+  .title = 開発者ツールが再起動します
 toolbox-always-on-top-disabled2 = 常に手前に表示を有効化
-  .title = 開発ツールが再起動します
+  .title = 開発者ツールが再起動します
 
 ## These two labels are shown when navigating to a file:// URL while having DevTools opened,
 ## in order to suggest enabling the Local Mode and load them from https instead.
 
 # Variables:
 #   $url (String): The local mode URL
-toolbox-local-mode-notice = このドキュメントは、設定パネルから有効化できる開発ツール “ローカル モード” を使用して “{ $url }” から読み込むことも可能です。
+toolbox-local-mode-notice = このドキュメントは、設定パネルで有効にできる開発ツールの “ローカル モード” を使用して “{ $url }” から読み込むことも可能です。
 
 toolbox-local-mode-notice-add-to-settings-button = 設定に追加
 toolbox-local-mode-notice-try-it-button = 試してみる
 toolbox-local-mode-notice-navigate-to-existing-mapping = 既存のマッピングに移動
-toolbox-local-mode-notice-always-hide = 今後は表示しない
+toolbox-local-mode-notice-always-hide = 今後表示しない

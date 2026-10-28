@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-customkeys-title = キーボードショートカット
+customkeys-title = キーボード ショートカット
 
 ## Sidebar
 
@@ -22,6 +22,16 @@ customkeys-reset-all-button = デフォルトに戻す
 
 # Displayed below the action label (e.g. "Undo") when the shortcut cannot be changed.
 customkeys-key-unchangeable = (変更できません)
+# Displayed below the action label (e.g. "Undo") when the user has assigned the
+# shortcut in the operating system's keyboard settings (System Settings on
+# macOS). That shortcut is used instead of any shortcut set here, and it can't
+# be changed here. Translate "keyboard settings" the way the operating system
+# names these settings in your language. "set" here means "assigned".
+customkeys-key-system-assigned =
+    { PLATFORM() ->
+        [macos] (macOS のキーボード設定で割り当て済み)
+       *[other] (システムのキーボード設定で割り当て済み)
+    }
 customkeys-key-new =
   .label = 新しいキーを押してください:
 # Displayed in the new key field when the key that was pressed isn't valid.
@@ -62,7 +72,8 @@ customkeys-reset-all-confirm-button-cancel = キャンセル
 
 ## Added shortcuts:
 
-customkeys-file-duplicate-tab = タブを複製する
+customkeys-file-duplicate-tab = タブを複製
+customkeys-file-copy-tab-url = タブの URL をコピー
 customkeys-file-focus-search = 検索バーにフォーカス
 
 customkeys-history-reopen-tab = 最近閉じたタブを再度開く

@@ -45,7 +45,7 @@ search-input-box2 =
     .style = width: 15.4em
     .placeholder = 設定を検索
 
-managed-notice = ご使用のブラウザーはあなたの所属する組織によって管理されています。
+managed-notice = お使いのブラウザーはあなたの所属する組織によって管理されています。
 managed-notice-info-icon =
     .alt = 情報
 
@@ -53,7 +53,7 @@ managed-notice-nav =
     .label = ご使用のブラウザーはあなたの所属する組織によって管理されています。
 
 tls-key-logging-notice-nav =
-    .label = 暗号化されたトラフィックがアプリやサービスによって傍受される可能性があります。
+    .label = アプリケーションやサービスによって暗号化された通信が監視されている可能性があります。
 
 category-list =
     .aria-label = カテゴリー
@@ -127,7 +127,7 @@ close-button =
 feature-enable-requires-restart = この機能を有効にするには { -brand-short-name } を再起動する必要があります。
 feature-disable-requires-restart = この機能を無効にするには { -brand-short-name } を再起動する必要があります。
 should-restart-title = { -brand-short-name } の再起動
-should-restart-ok = { -brand-short-name } を今すぐ再起動
+should-restart-ok = 今すぐ { -brand-short-name } を再起動
 cancel-no-restart-button = キャンセル
 restart-later = 後で再起動
 
@@ -143,19 +143,19 @@ restart-later = 後で再起動
 
 # This string is shown to notify the user that the password manager setting
 # is being controlled by an extension
-extension-controlling-password-saving = <img data-l10n-name="icon"/> この設定は <strong>{ $name }</strong> によって制御されています。
+extension-controlling-password-saving = <img data-l10n-name="icon"/> <strong>{ $name }</strong> がこの設定を制御しています。
 
 # This string is shown to notify the user that their notifications permission
 # is being controlled by an extension.
-extension-controlling-web-notifications = <img data-l10n-name="icon"/> この設定は <strong>{ $name }</strong> によって制御されています。
+extension-controlling-web-notifications = <img data-l10n-name="icon"/> <strong>{ $name }</strong> がこの設定を制御しています。
 
 # This string is shown to notify the user that Container Tabs
 # are being enabled by an extension.
-extension-controlling-privacy-containers = <img data-l10n-name="icon"/> <strong>{ $name }</strong> はコンテナタブを必要としています。
+extension-controlling-privacy-containers = <img data-l10n-name="icon"/> <strong>{ $name }</strong> がコンテナタブを必要としています。
 
 # This string is shown to notify the user that their content blocking "All Detected Trackers"
 # preferences are being controlled by an extension.
-extension-controlling-websites-content-blocking-all-trackers = <img data-l10n-name="icon"/> この設定は <strong>{ $name }</strong> によって制御されています。
+extension-controlling-websites-content-blocking-all-trackers = <img data-l10n-name="icon"/> <strong>{ $name }</strong> がこの設定を制御しています。
 
 # This string is shown to notify the user that their proxy configuration preferences
 # are being controlled by an extension.
@@ -179,9 +179,9 @@ search-results-header = 検索結果
 
 # `<span data-l10n-name="query"></span>` will be replaced by the search term.
 search-results-empty-message2 =
-       ごめんなさい! 設定内には “<span data-l10n-name="query"></span>” の検索結果がありません。
+       見つかりませんでした。“<span data-l10n-name="query"></span>” に一致する設定はありません。
 
-search-results-help-link = 助けが必要ですか? <a data-l10n-name="url">{ -brand-short-name } サポート</a> にアクセスしてください
+search-results-help-link = 助けが必要ですか? <a data-l10n-name="url">{ -brand-short-name } サポート</a>をご覧ください
 
 ## General Section
 
@@ -445,6 +445,9 @@ website-language-heading =
 
 website-preferred-language =
   .label = 優先言語
+
+website-language-list =
+  .aria-label = 優先言語
 
 website-add-language =
   .label = 言語を追加
@@ -988,6 +991,9 @@ home-homepage-custom-homepage-button =
 home-custom-homepage-card-header =
     .label = ウェブサイトアドレス
 
+home-custom-homepage-list =
+    .aria-label = ウェブサイトアドレス
+
 home-custom-homepage-address =
     .placeholder = アドレスを入力
 home-custom-homepage-address-button =
@@ -1149,6 +1155,9 @@ search-one-click-header-3 =
     .label = 追加の検索エンジン
     .description = アドレスバーに表示する検索エンジンとショートカットを選択してください。
 
+search-engine-list =
+    .aria-label = 検索エンジンとショートカット
+
 update-search-engine-success =
     .message = 検索エンジンを正常に更新しました
 
@@ -1215,6 +1224,9 @@ containers-add-button2 =
     .label = 新しいコンテナを追加
     .accesskey = A
 
+containers-list =
+    .aria-label = コンテナ
+
 containers-new-tab-check3 =
     .label = 新しいタブごとにコンテナを選択
     .accesskey = S
@@ -1241,7 +1253,7 @@ containers-sites-add-button =
 # The dropdown that picks which container a site opens in.
 # Variables:
 #   $site (string) - Domain of the website, for example “example.com”.
-containers-site-container-select = [ { $site } ] のコンテナ
+containers-site-container-select = { $site } のコンテナ
 
 containers-site-remove-button =
     .title = 削除
@@ -1674,8 +1686,11 @@ autofill-payment-methods-manage-payments-button =
     .label = 支払い方法を管理
     .accesskey = m
 # This operation requires the user to authenticate with the operating system (device sign-in)
+autofill-payment-methods-require-device-sign-in-checkbox =
+    .label = 支払い方法の自動入力にデバイスのログインを求める
+    .accesskey = o
 autofill-reauth-payment-methods-checkbox-2 =
-    .label = 支払い方法の自動入力と管理にデバイスのサインインを要求する
+    .label = Require device sign in to autofill and manage payment methods
     .accesskey = o
 # Security codes are the CVV/CVC card codes
 autofill-payment-methods-save-security-codes-checkbox =
@@ -1708,22 +1723,27 @@ payment-moz-box-item =
 
 # Used in place of payment-moz-box-item when a security code is saved alongside
 # the card. Only the presence of a saved security code is ever shown, never the
-# code itself. "CVV" is a common abbreviation for the security code printed on a
-# payment card; use whichever abbreviation is most familiar in your locale.
+# code itself: "•••" stands for the hidden code, so keep it as is rather than
+# translating it into words.
 # Variables:
 #   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
 #   $expDate (string) - The obscured expiry date of the credit card (for example: XX/2027)
-payment-moz-box-item-with-security-code =
+#   $securityCode (string) - The name of the card's security code, which depends
+#     on the card network (for example: CVV)
+payment-moz-box-item-with-security-code-2 =
   .label = { $cardNumber }
-  .description = { $expDate } | セキュリティコード保存済み
+  .description = { $expDate } | { $securityCode } •••
 
-# Used in place of payment-moz-box-item-with-security-code for a card that has a
-# saved security code but no expiry date to show alongside it.
+# Used in place of payment-moz-box-item-with-security-code-2 for a card that has
+# a saved security code but no expiry date to show alongside it. "•••" stands for
+# the hidden code.
 # Variables:
 #   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
-payment-moz-box-item-security-code-only =
+#   $securityCode (string) - The name of the card's security code, which depends
+#     on the card network (for example: CVV)
+payment-moz-box-item-security-code-only-2 =
   .label = { $cardNumber }
-  .description = セキュリティコード保存済み
+  .description = { $securityCode } •••
 
 addresses-group =
     .label = 住所など
@@ -2621,6 +2641,10 @@ preferences-ai-controls-sidebar-chatbot-group-2 =
     .label = サイドバーの AI チャットボットプロバイダー
     .description = 閲覧中にチャットボットを表示したままにします。Anthropic Claude、ChatGPT、Copilot、Google Gemini、Mistral Vibe から選択できます。
 
+preferences-ai-controls-speech-recognition-control =
+    .label = 音声認識
+    .description = 音声をローカルで文字起こしします。
+
 preferences-ai-controls-sidebar-chatbot-group-3 =
     .label = サイドバーの AI チャットボットプロバイダー
     .description = ブラウジング中もチャットボットを表示し続けられます。複数のプロバイダーから選択して、いつでも切り替えられます。
@@ -2857,10 +2881,10 @@ security-privacy-issue-warning-proxy-autodetection =
 # The header in settings with link to the referral page, where the user can invite others to
 # use the browser. "Share" here means recommending or referring the browser
 referrals-section-header2 =
-  .label = { -brand-product-name } を薦める
-  .description = プライバシーを第一に考えるブラウザーをおすすめしましょう。
+  .label = { -brand-product-name } をすすめる
+  .description = プライバシーを最優先に考えるブラウザーを大切な人にすすめましょう。
 
 # Link that opens the referral page, where the user can invite others to
 # use the browser. "Share" here means recommending or referring the browser
 referrals-link2 =
-  .label = { -brand-product-name } を薦める
+  .label = { -brand-product-name } をすすめる

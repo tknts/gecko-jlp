@@ -37,9 +37,27 @@ credit-card-doorhanger-credit-cards-sync-checkbox = 保存されているすべ�
 
 credit-card-save-doorhanger-header = このカードを安全に保存しますか?
 credit-card-save-doorhanger-description = { -brand-short-name } はカード番号を暗号化します。セキュリティコードは保存されません。
-credit-card-save-doorhanger-description-security-code = { -brand-short-name } はカード番号とセキュリティコードを暗号化するため、支払いフォームへの入力にそれらを使用できるのはあなただけです。
-credit-card-doorhanger-save-security-codes-checkbox =
-    .label = 支払い方法のセキュリティコードを常に保存する
+
+## Used on the doorhanger when users submit a new card and security codes can be saved.
+
+credit-card-save-payment-method-doorhanger-header = この支払い方法を保存しますか?
+# Used when the security code won't be saved, because saving security codes
+# is turned off or the form didn't include one.
+# “Checkout” refers to the payment stage on websites.
+credit-card-save-payment-method-doorhanger-description = { -brand-short-name } が支払い情報を暗号化して保存するため、次からスムーズに買い物をすることができます。
+# Used when the security code will be saved along with the card.
+credit-card-save-payment-method-doorhanger-description-security-code = { -brand-short-name } がカード番号とセキュリティコードを暗号化して保存するため、次から自動で入力されます。
+credit-card-capture-dismiss-button =
+    .label = 閉じる
+    .accessKey = D
+
+## The toggle turns saving security codes on and off. Its label describes the
+## current state: whether security codes are saved or not.
+
+credit-card-doorhanger-always-save-security-codes-toggle =
+    .label = セキュリティコードを常に保存する
+credit-card-doorhanger-dont-save-security-codes-toggle =
+    .label = セキュリティコードを保存しない
 
 ##
 
@@ -49,8 +67,8 @@ credit-card-capture-save-button =
 credit-card-capture-cancel-button =
     .label = 今はしない
     .accessKey = W
-credit-card-capture-never-save-button =
-    .label = 今後も保存しない
+credit-card-capture-never-save-payment-methods-button =
+    .label = 支払い方法を保存しない
     .accessKey = N
 
 # Used on the doorhanger when an credit card change is detected.
@@ -65,6 +83,26 @@ credit-card-capture-update-button =
     .label = 既存のカードを更新
     .accessKey = U
 
+## Used on the doorhanger when a saved card is submitted with changed details
+## and security codes can be saved.
+
+credit-card-update-payment-method-doorhanger-header = 支払い方法を更新しますか?
+credit-card-capture-save-new-payment-method-button =
+    .label = 新しい支払い方法を保存
+    .accessKey = S
+credit-card-capture-update-payment-method-button =
+    .label = 更新
+    .accessKey = U
+
+## Used on the doorhanger when a saved card is submitted with a new or changed
+## security code.
+
+credit-card-save-security-code-doorhanger-header = セキュリティコードを保存しますか?
+# “Checkout” refers to the payment stage on websites.
+credit-card-save-security-code-doorhanger-description = 次回からのスムーズな買い物のため、{ -brand-short-name } がこのカードのセキュリティコードを暗号化して保存します。
+
+##
+
 # Label for the button in the dropdown menu used to clear the populated form.
 autofill-clear-form-label = 自動入力フォームを消去
 
@@ -74,11 +112,17 @@ autofill-manage-addresses-label = 住所を管理
 # Used as a label for the button, displayed at the bottom of the dropdown suggestion, to open Form Autofill browser preferences.
 autofill-manage-payment-methods-label = 決済方法を管理
 
-# Used as the primary label of an autofill drop down suggestion when the focused
-# field is the card security code. The card's masked number is shown underneath
-# it as the secondary label. "CVC" is a common abbreviation for the code printed
-# on a payment card; use whichever abbreviation is most familiar in your locale.
-autofill-card-security-code-label = セキュリティコード (CVC)
+## The name of the security code printed on a payment card, as each card
+## network calls it.
+
+# Visa calls it "CVV".
+credit-card-security-code-name-visa = CVV
+# Mastercard calls it "CVC".
+credit-card-security-code-name-mastercard = CVC
+# American Express calls it "CID".
+credit-card-security-code-name-amex = CID
+# Used for any other card network, or when the network isn't known.
+credit-card-security-code-name-other = セキュリティコード
 
 ## Details of the card shown on the credit card capture doorhanger, below the
 ## masked card number. Each message is used for a different combination of the
@@ -87,14 +131,18 @@ autofill-card-security-code-label = セキュリティコード (CVC)
 ##   $name (String): The cardholder name
 ##   $month (String): Two-digit month the card expires
 ##   $year (String): Two-digit year the card expires
+##   $securityCode (String): The name of the card's security code, from one of
+##     the credit-card-security-code-name-* strings (for example "CVV")
+## "•••" stands for the hidden security code; keep it as is rather than
+## translating it into words.
 
-credit-card-doorhanger-details-name = { $name }
-credit-card-doorhanger-details-expiration = { $month }/{ $year }
-credit-card-doorhanger-details-cvv = セキュリティコード保存済み
-credit-card-doorhanger-details-name-expiration = { $name }, { $month }/{ $year }
-credit-card-doorhanger-details-name-cvv = { $name } | セキュリティコード保存済み
-credit-card-doorhanger-details-expiration-cvv = { $month }/{ $year } | セキュリティコード保存済み
-credit-card-doorhanger-details-name-expiration-cvv = { $name }, { $month }/{ $year } | セキュリティコード保存済み
+credit-card-doorhanger-card-details-name = { $name }
+credit-card-doorhanger-card-details-expiration = { $month }/{ $year }
+credit-card-doorhanger-card-details-security-code = { $securityCode } •••
+credit-card-doorhanger-card-details-name-expiration = { $name } | { $month }/{ $year }
+credit-card-doorhanger-card-details-name-security-code = { $name } | { $securityCode } •••
+credit-card-doorhanger-card-details-expiration-security-code = { $month }/{ $year } | { $securityCode } •••
+credit-card-doorhanger-card-details-name-expiration-security-code = { $name } | { $month }/{ $year } | { $securityCode } •••
 
 ## These are brand names and should only be translated when a locale-specific name for that brand is in common use
 

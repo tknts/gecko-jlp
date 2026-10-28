@@ -798,7 +798,7 @@ urlbar-result-weather-provider-sponsored = { $provider } · スポンサー
 urlbar-result-market-opt-in-title = 検索バーで株価をチェック
 
 # This string is shown as description when Market suggestion are disabled.
-urlbar-result-market-opt-in-description =  { -vendor-short-name } と検索クエリデータを共有すると、パートナーからの市場最新情報などが表示されます。<a data-l10n-name="learn-more-link">さらに詳しく</a>
+urlbar-result-market-opt-in-description = { -vendor-short-name } と検索クエリデータを共有すると、パートナーからの市場最新情報などが表示されます。<a data-l10n-name="learn-more-link">さらに詳しく</a>
 
 # This string is shown as button to activate online when realtime suggestion are disabled.
 urlbar-result-realtime-opt-in-allow = サジェストを表示する
@@ -1500,15 +1500,15 @@ unified-extensions-button-blocklisted =
         拡張機能
         一部の拡張機能は無効になっています
 
-## Private browsing reset button
+# Private browsing reset button
 
 reset-pbm-toolbar-button2 =
-    .label = プライベート セッションを消去
-    .tooltiptext = プライベート セッションを消去します
-reset-pbm-panel-heading2 = データを消去して新しいプライベートセッションを開始しますか？
-reset-pbm-panel-description2 = プライベート ウィンドウを閉じることなく、履歴や Cookie、その他のすべてのサイトデータを削除します。
+    .label = プライベートセッションを消去
+    .tooltiptext = プライベートセッションを消去します
+reset-pbm-panel-heading2 = データを消去して新しいプライベートセッションを開始しますか?
+reset-pbm-panel-description3 = 閲覧履歴や Cookie を消去し、各ウェブサイトからログアウトします。プライベートウィンドウをすべて閉じて、新しく開きます。
 reset-pbm-panel-always-ask-checkbox =
-     .label = 毎回確認する
+     .label = 常に確認する
      .accesskey = A
 reset-pbm-panel-cancel-button =
     .label = キャンセル
@@ -1516,17 +1516,17 @@ reset-pbm-panel-cancel-button =
 reset-pbm-panel-confirm-button2 =
     .label = プライベートセッションを消去
     .accesskey = l
-reset-pbm-panel-complete = プライベートセッションのデータを削除しました
+reset-pbm-panel-complete = プライベートセッションのデータを消去しました
 
 ## Fire button. Clears the whole browsing session, then closes every window and
 ## opens a new one.
 
-fire-button-toolbar-button =
-    .label = 一部またはすべての閲覧データを削除
-    .tooltiptext = 一部またはすべての閲覧データを削除します
+fire-button-toolbar-button2 =
+    .label = 一部のデータを削除する
+    .tooltiptext = 閲覧データのすべてまたは一部を削除します
 fire-button-panel-heading = すべての閲覧データを削除しますか?
-fire-button-panel-description = 履歴、Cookie、サイトデータが削除されます。各サイトからはサインアウトされます。このウィンドウは閉じられ、{ -brand-short-name } で新しいウィンドウが開きます。
-fire-button-panel-choose-description = すべてを削除したくない場合は、削除するデータを個別に選択する。
+fire-button-panel-description = 履歴、Cookie、サイトデータが削除されます。すべてのサイトからログアウトされ、このウィンドウは閉じたあと、{ -brand-short-name } の新しいウィンドウが開きます。
+fire-button-panel-choose-description = すべてではなく特定のデータを削除する場合は、個別に選択してください。
 # Opens the "Delete browsing data" dialog, where the user picks
 # which kinds of data to delete. The trailing ellipsis marks that a dialog
 # follows rather than the action happening immediately.

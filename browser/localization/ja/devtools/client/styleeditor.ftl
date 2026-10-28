@@ -11,16 +11,16 @@ styleeditor-import-button =
 styleeditor-filter-input =
     .placeholder = スタイルシートをフィルタ
 styleeditor-visibility-toggle =
-    .tooltiptext = スタイルシートの表示を切り替えるします
+    .tooltiptext = スタイルシートの表示を切り替えます
     .accesskey = S
 styleeditor-visibility-toggle-system =
-    .tooltiptext = システムのスタイルシートは無効にできません
+    .tooltiptext = システムスタイルシートは無効化できません
 styleeditor-save-button = 保存
     .tooltiptext = このスタイルシートをファイルに保存します
     .accesskey = S
 styleeditor-options-button =
-    .tooltiptext = スタイルエディタの設定
-styleeditor-at-rules = アットルール
+    .tooltiptext = スタイル エディタの設定
+styleeditor-at-rules = At 規則
 styleeditor-no-stylesheet = このページにはスタイルシートがありません。
 styleeditor-no-stylesheet-tip = <a data-l10n-name="append-new-stylesheet">新しいスタイルシートを追加</a>しますか?
 styleeditor-open-link-new-tab =
@@ -31,21 +31,21 @@ styleeditor-find =
     .label = 検索
     .accesskey = F
 styleeditor-find-again =
-    .label = 再度検索
+    .label = 次を検索
     .accesskey = g
 styleeditor-go-to-line =
-    .label = 行にジャンプ…
+    .label = 行へ移動…
     .accesskey = J
 # Label displayed when searching a term that is not found in any stylesheet path
-styleeditor-stylesheet-all-filtered = 一致するスタイルシートは見つかりませんでした。
+styleeditor-stylesheet-all-filtered = 一致するスタイルシートが見つかりませんでした。
 
 # This string is shown in the style sheets list
 # Variables:
 #   $ruleCount (Integer) - The number of rules in the stylesheet.
 styleeditor-stylesheet-rule-count =
     { $ruleCount ->
-        [one] { $ruleCount } ルール
-       *[other] { $ruleCount } ルール
+        [one] { $ruleCount } 件のルール
+       *[other] { $ruleCount } 件のルール
     }
 
 # Title for the pretty print button in the editor footer.

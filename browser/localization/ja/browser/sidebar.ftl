@@ -355,4 +355,6 @@ sidebar-widget-hide-sidebar2 =
 # Promotional message displayed in the expanded sidebar state for Vertical Tabs
 # users who do not have any pinned tabs. Indicates that they can drop tabs in
 # this area to pin them.
-sidebar-pins-promo-text = よく使うタブをここにドラッグすると、すぐアクセスできるようになります
+sidebar-pins-promo-text = 重要なタブをここにドラッグすると、いつでもすぐに開くことができます
+sidebar-pins-promo-text-2 =
+  .heading = 重要なタブをここにドラッグすると、いつでもすぐに開くことができます

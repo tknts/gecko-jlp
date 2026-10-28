@@ -18,11 +18,11 @@ network-menu-summary-tooltip-load =
 network-menu-summary-requests-count =
     { $requestCount ->
         [0] リクエストなし
-        [one] { $requestCount } リクエスト
-        *[other] { $requestCount } リクエスト
+        [one] { $requestCount } 件のリクエスト
+        *[other] { $requestCount } 件のリクエスト
     }
 network-menu-summary-tooltip-requests-count =
-    .title = リクエストの数
+    .title = リクエスト数
 # This label is displayed in the network table footer providing the
 # transferred size.
 # Variables:
@@ -36,6 +36,6 @@ network-menu-summary-tooltip-transferred =
 # transfer time.
 # Variables:
 #   $formattedTime (String): The formatted transfer time.
-network-menu-summary-finish = 終了: { $formattedTime }
+network-menu-summary-finish = 完了: { $formattedTime }
 network-menu-summary-tooltip-finish =
     .title = すべてのリクエストの読み込みにかかった合計時間

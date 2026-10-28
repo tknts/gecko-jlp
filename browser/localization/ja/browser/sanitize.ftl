@@ -79,11 +79,12 @@ clear-time-duration-suffix =
 
 history-section-label = 履歴
 
-item-history-and-downloads =
-    .label = ページの表示履歴とファイルのダウンロード履歴
+item-history-and-downloads2 =
+    .label = 閲覧履歴とダウンロード履歴
     .accesskey = B
 
-item-history-and-downloads-description2 = サイト履歴とダウンロード履歴を消去します
+# Description for the "Browsing and downloads history" item, which can be selected for deletion
+item-history-and-downloads-description3 = 訪れたサイトとダウンロードしたファイルの一覧
 
 item-cookies =
     .label = Cookie
@@ -100,7 +101,8 @@ item-cookies-site-data =
     .label = Cookie とサイトのデータ
     .accesskey = e
 
-item-cookies-site-data-description = サイトからサインアウトしたり、ショッピング カートが空になる可能性があります
+# Description for the "Cookies and site data" item, which can be selected for deletion
+item-cookies-site-data-description2 = サイトからログアウトされ、ショッピングカートの中身が消去されることがあります
 
 item-active-logins =
     .label = ログイン情報
@@ -113,18 +115,19 @@ item-cache =
 # Variables:
 #   $amount (Number) - Amount of cached data
 #   $unit (String) - Abbreviation of the unit that $amount is in, e.g. "MB"
-item-cached-content-with-size =
-    .label = 一時的にキャッシュされたファイルとページ ({ $amount } { $unit })
+item-cached-content-with-size2 =
+    .label = 一時ファイル ({ $amount } { $unit })
     .accesskey = f
 
-item-cached-content =
-    .label = 一時的にキャッシュされたファイルとページ
+item-cached-content2 =
+    .label = 一時ファイル
     .accesskey = f
 
-item-cached-content-description = サイトの読み込みを高速化するために保存されたデータを消去します
+# Description for the "Temporary files" item, which can be selected for deletion
+item-cached-content-description2 = サイトをすばやく読み込めるようにします
 
 item-form-search-history =
-    .label = 検索やフォームの入力履歴
+    .label = フォームと検索の履歴
     .accesskey = F
 
 item-site-prefs =
@@ -135,9 +138,11 @@ item-formdata-prefs =
     .label = 保存されたフォーム情報
     .accesskey = o
 
-item-formdata-description = 名前、メールアドレス、フォームに入力したその他の項目などを消去します
+# Description for the "Saved form info" item, which can be selected for deletion
+item-formdata-description2 = 名前、メールアドレス、フォームに入力した内容
 
-item-site-prefs-description = 権限とサイトの設定を初期化します
+# Description for the "Site settings" item, which can be selected for deletion
+item-site-prefs-description2 = ウェブサイトの権限と設定
 
 data-section-label = データ
 
@@ -149,7 +154,7 @@ item-offline-apps =
     .label = ウェブサイトのオフラインデータ
     .accesskey = O
 
-sanitize-everything-undo-warning = この操作は元に戻すことはできません。
+sanitize-everything-undo-warning2 = この操作は元に戻せません。
 
 window-close =
     .key = w

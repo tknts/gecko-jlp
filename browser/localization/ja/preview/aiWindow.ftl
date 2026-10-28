@@ -532,6 +532,13 @@ smartwindow-aitab-created-an-aitab = { -smart-page-brand-name } を作成しま�
 smartwindow-aitab-updated-an-aitab = { -smart-page-brand-name } を更新しました
 smartwindow-aitab-empty-chat-message = { -smart-page-brand-name } を変更しますか? チャットでコンテンツの追加や削除を指示してください。
 
+# Variables:
+#   $tags (Number) - Number of sources used to create the AITab
+smart-window-aitab-sources-count = { $tags ->
+    [one] { $tags } 件のソース
+   *[other] { $tags } 件のソース
+}
+
 ## "Pick up where you left off" cards for resuming browsing or chat journeys.
 ## A "journey" is a past browsing or chat session the user was in the middle
 ## of - for example, a set of tabs open toward some task, or an ongoing
