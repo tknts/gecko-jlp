@@ -26,18 +26,18 @@ newtab-search-box-search-button =
 
 # Variables:
 #   $engine (string) - The name of the user's default search engine
-newtab-search-box-handoff-text = { $engine } で検索、または URL を入力
-newtab-search-box-handoff-text-no-engine = 検索ワード、または URL を入力
+newtab-search-box-handoff-text = { $engine } で検索するかアドレスを入力してください
+newtab-search-box-handoff-text-no-engine = 検索するかアドレスを入力してください
 # Variables:
 #   $engine (string) - The name of the user's default search engine
 newtab-search-box-handoff-input =
-    .placeholder = { $engine } で検索または URL を入力
-    .title = { $engine } で検索または URL を入力してください
-    .aria-label = { $engine } で検索または URL を入力してください
+    .placeholder = { $engine } で検索するかアドレスを入力してください
+    .title = { $engine } で検索するかアドレスを入力してください
+    .aria-label = { $engine } で検索するかアドレスを入力してください
 newtab-search-box-handoff-input-no-engine =
-    .placeholder = 検索ワードまたは URL を入力
-    .title = 検索ワードまたは URL を入力してください
-    .aria-label = 検索ワードまたは URL を入力してください
+    .placeholder = 検索するかアドレスを入力してください
+    .title = 検索するかアドレスを入力してください
+    .aria-label = 検索するかアドレスを入力してください
 
 newtab-search-box-text = ウェブを検索
 newtab-search-box-input =
@@ -52,7 +52,7 @@ newtab-topsites-edit-shortcut-header = ショートカットを編集
 newtab-topsites-add-shortcut-title =
     .title = ショートカットの追加
     .aria-label = ショートカットを追加
-newtab-shortcuts-pinned-area = ピン留めエリア
+newtab-shortcuts-pinned-area = ピン留めされたエリア
 newtab-topsites-title-label = タイトル
 newtab-topsites-title-input =
     .placeholder = タイトルを入力してください
@@ -69,7 +69,7 @@ newtab-topsites-clear-input =
 
 newtab-topsites-image-url-label = カスタム画像 URL
 newtab-topsites-use-custom-image-link = カスタム画像を使用
-newtab-topsites-image-validation = 画像を読み込めませんでした。別の URL を試してください。
+newtab-topsites-image-validation = 画像の読み込みに失敗しました。別の URL を試してください。
 
 ## Top Sites - General form dialog buttons. These are verbs/actions.
 
@@ -81,7 +81,7 @@ newtab-topsites-add-button = 追加
 
 ## Top Sites - Delete history confirmation dialog.
 
-newtab-confirm-delete-history-p1 = このページに関する、すべての履歴を削除してもよろしいですか?
+newtab-confirm-delete-history-p1 = 履歴からこのページのすべての記録を削除しますか?
 # "This action" refers to deleting a page from history.
 newtab-confirm-delete-history-p2 = この操作は元に戻せません。
 
@@ -115,8 +115,8 @@ newtab-topsites-hover-card-settings =
     .aria-label = 通知の設定
 
 newtab-topsites-hover-card-dismiss =
-    .title = 削除
-    .aria-label = 削除
+    .title = 閉じる
+    .aria-label = 閉じる
 
 ## Context Menu - Action Tooltips.
 
@@ -138,9 +138,9 @@ newtab-menu-edit-topsites = 編集
 newtab-menu-add-topsite = 新しいショートカットを追加
 newtab-menu-open-new-window = 新しいウィンドウで開く
 newtab-menu-open-new-private-window = 新しいプライベート ウィンドウで開く
-newtab-menu-dismiss = 削除
-newtab-menu-pin = ピン留めする
-newtab-menu-unpin = ピン留めを外す
+newtab-menu-dismiss = 閉じる
+newtab-menu-pin = ピン留め
+newtab-menu-unpin = ピン留めを解除
 newtab-menu-delete-history = 履歴から削除
 newtab-menu-show-privacy-info = スポンサーとあなたのプライバシー
 # Report is a verb (i.e. report issue with the content).
@@ -157,8 +157,8 @@ newtab-menu-section-learn-more = さらに詳しく
 ## Context menu options for sponsored stories and new ad formats on New Tab.
 
 newtab-menu-manage-sponsored-content = スポンサーコンテンツの管理
-newtab-menu-our-sponsors-and-your-privacy = スポンサーとあなたのプライバシーについて
-newtab-menu-report-this-ad = この広告を通報する
+newtab-menu-our-sponsors-and-your-privacy = スポンサーとプライバシー
+newtab-menu-report-this-ad = この広告を通報
 
 ##
 
@@ -170,8 +170,8 @@ newtab-menu-bookmark = ブックマーク
 ## Context Menu - Downloaded Menu. "Download" in these cases is not a verb,
 ## it is a noun. As in, "Copy the link that belongs to this downloaded item".
 
-newtab-menu-copy-download-link = ダウンロード元の URL をコピー
-newtab-menu-go-to-download-page = ダウンロード元のページを開く
+newtab-menu-copy-download-link = ダウンロード リンクをコピー
+newtab-menu-go-to-download-page = ダウンロード ページへ移動
 newtab-menu-remove-download = 履歴から削除
 
 ## Context Menu - Download Menu: These are platform specific strings found in the context menu of an item that has
@@ -180,8 +180,8 @@ newtab-menu-remove-download = 履歴から削除
 
 newtab-menu-show-file =
     { PLATFORM() ->
-        [macos] Finder に表示
-       *[other] 保存フォルダーを開く
+        [macos] Finder で表示
+       *[other] 保存先のフォルダーを開く
     }
 newtab-menu-open-file = ファイルを開く
 
@@ -193,7 +193,7 @@ newtab-label-visited = 訪問済み
 newtab-label-bookmarked = ブックマーク済み
 newtab-label-removed-bookmark = ブックマークを削除しました
 newtab-label-recommended = トレンド
-newtab-label-saved = { -pocket-brand-name } に保存しました
+newtab-label-saved = { -pocket-brand-name } に保存済み
 newtab-label-download = ダウンロード済み
 
 # This string is used in the story cards to indicate sponsored content
@@ -210,7 +210,7 @@ newtab-label-sponsored-by = 提供: { $sponsor }
 # Variables:
 #   $source (string) - The name of a company or their domain
 #   $timeToRead (number) - The estimated number of minutes to read this story
-newtab-label-source-read-time = { $source } · 読了時間の目安: { $timeToRead } 分
+newtab-label-source-read-time = { $source } · 読む時間の目安: { $timeToRead } 分
 
 # This string is used under fixed size ads to indicate sponsored content
 newtab-label-sponsored-fixed = スポンサー
@@ -218,7 +218,7 @@ newtab-label-sponsored-fixed = スポンサー
 ## Section Menu: These strings are displayed in the section context menu and are
 ## meant as a call to action for the given section.
 
-newtab-section-menu-privacy-notice = プライバシーに関する通知
+newtab-section-menu-privacy-notice = プライバシー通知
 
 ## Section Headers.
 
@@ -233,16 +233,17 @@ newtab-section-header-todays-picks = 今日のおすすめ
 newtab-empty-section-highlights = ブラウジングを開始すると、最近アクセスした記事、動画、その他のページやブックマークがここに表示されます。
 
 # Ex. When there are no more story recommendations, in the space where there would have been stories, this is shown instead.
-newtab-empty-section-topstories-generic = 現在おすすめのストーリーはありません。後でもっと多くのストーリーをチェックしてください。待てませんか? 人気のトピックを選択して、ウェブ上のもっと素晴らしいストーリーを見つけてください。
+newtab-empty-section-topstories-generic = 現在おすすめのストーリーはありません。後でまたチェックしてください。待てませんか? 人気のトピックを選択して、ウェブから素晴らしいストーリーを探してみましょう。
 
 ## Empty Section (Content Discovery Experience). These show when there are no more stories or when some stories fail to load.
 
 newtab-discovery-empty-section-topstories-header = すべて読みました!
-newtab-discovery-empty-section-topstories-content = 後でもっと多くのストーリーをチェックしてください。
+newtab-discovery-empty-section-topstories-content = 後でまた新しいストーリーをチェックしてください。
 newtab-discovery-empty-section-topstories-try-again-button = もう一度
 newtab-discovery-empty-section-topstories-loading = 読み込み中…
-# Displays when a layout in a section took too long to fetch articles.
-newtab-discovery-empty-section-topstories-timed-out = 問題が発生しました。このセクションをほぼ読み込みましたが、完了できませんでした。
+# Headline and body shown when stories fail to load, for example when offline or the server can’t be reached.
+newtab-discovery-empty-section-topstories-unavailable-header = ストーリーを利用できません
+newtab-discovery-empty-section-topstories-unavailable-body = 接続を確認するか、後でやり直してください。
 
 ## Strings for the story cards carousel
 
@@ -269,7 +270,7 @@ newtab-carousel-play =
 ## Error Fallback Content.
 ## This message and suggested action link are shown in each section of UI that fails to render.
 
-newtab-error-fallback-info = このコンテンツの読み込み中に何か問題が発生しました。
+newtab-error-fallback-info = 申し訳ありません。このコンテンツの読み込み中にエラーが発生しました。
 newtab-error-fallback-refresh-link = ページを再読み込みして、もう一度試してください。
 
 ## Customization Menu
@@ -289,7 +290,7 @@ newtab-custom-shortcuts-nova =
 
 newtab-custom-web-notifications-toggle =
   .label = ウェブ通知
-  .description = ショートカットからそのサイトの通知を表示します
+  .description = ショートカット上でサイトからの通知を表示します
 
 newtab-custom-row-description =
   .description = 行数
@@ -303,14 +304,14 @@ newtab-custom-row-selector2 =
         }
 #  (developer note): @nova-cleanup(remove-string): Remove string once Nova lands. We won't be having a description under "Recommended stories" anymore
 newtab-custom-stories-toggle =
-  .label = おすすめの記事
+  .label = おすすめのストーリー
   .description = { -brand-product-name } ファミリーが厳選した選りすぐりのコンテンツ
 newtab-recommended-stories-toggle =
-  .label = おすすめの記事
+  .label = おすすめのストーリー
 newtab-custom-stories-personalized-toggle =
   .label = ストーリー
 newtab-custom-stories-personalized-checkbox =
-  .label = アクティビティに基づいたパーソナライズされた記事
+  .label = アクティビティに基づいたパーソナライズされたストーリー
 newtab-custom-weather-toggle =
   .label = 天気
   .description = 今日の天気予報をひと目で確認できます
@@ -543,14 +544,17 @@ newtab-wallpaper-firefox-peak-dark = 暗い背景の左端にあるキツネの�
 newtab-wallpaper-firefox-peak-light = 明るい背景の左端にあるキツネの顔
 newtab-wallpaper-firefox-sky-dark = 夜空の下の濃い紫色の丘
 newtab-wallpaper-firefox-sky-light = 柔らかな空の下の明るい丘
+# “Wrexham AFC” is the name of a football club and should not be translated.
+# "crest" refers to the football club's logo (team badge).
+newtab-wallpaper-firefox-wrexham = 赤い背景のレクサム AFC のエンブレム
 
 # Variables
 #   $author_string (String) - The name of the creator of the photo.
 #   $webpage_string (String) - The name of the webpage where the photo is located.
-newtab-wallpaper-attribution = Photo by <a data-l10n-name="name-link">{ $author_string }</a> on <a data-l10n-name="webpage-link">{ $webpage_string }</a>
-newtab-wallpaper-feature-highlight-header = カラフルにしてみませんか?
-newtab-wallpaper-feature-highlight-content = 新しいタブに壁紙を設定してフレッシュな見た目にしましょう。
-newtab-wallpaper-feature-highlight-button = OK
+newtab-wallpaper-attribution = 写真の撮影者: <a data-l10n-name="name-link">{ $author_string }</a> ({ <a data-l10n-name="webpage-link">{ $webpage_string }</a> })
+newtab-wallpaper-feature-highlight-header = 少しの色どりをプラスしてみましょう
+newtab-wallpaper-feature-highlight-content = 壁紙を使って新しいタブを新鮮な見た目に彩りましょう。
+newtab-wallpaper-feature-highlight-button = 了解しました
 # Tooltip for dismiss button
 feature-highlight-dismiss-button =
     .title = 閉じる
@@ -565,10 +569,10 @@ feature-highlight-wallpaper =
 #   $provider (string) - Service provider for weather data
 newtab-weather-see-forecast-description =
     .title = { $provider } で予報を見る
-    .aria-description = { $provider } ∙ 広告
+    .aria-description = { $provider } ∙ スポンサー
 # Variables:
 #   $provider (string) - Service provider for weather data
-newtab-weather-sponsored = { $provider } ∙ 広告
+newtab-weather-sponsored = { $provider } ∙ スポンサー
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-weather-widget-open-menu-button =
@@ -810,17 +814,23 @@ newtab-section-toast-block =
 ## Strings for task / to-do list productivity widget
 
 newtab-widget-section-title = ウィジェット
-newtab-widget-menu-hide = ウィジェットを非表示にする
+newtab-widget-menu-hide = ウィジェットを隠す
 newtab-widget-menu-change-size = サイズを変更
 # Parent label for a submenu in the widget menu that reorders the widget
 # among its siblings. "Left" and "Right" appear as items inside this submenu.
 newtab-widget-menu-move = 移動
 # Submenu item under "Move"; moves the widget one position to the left.
 # RTL locales should translate this as "Right".
-newtab-widget-menu-move-left = 左へ
+newtab-widget-menu-move-left = 左へ移動
 # Submenu item under "Move"; moves the widget one position to the right.
 # RTL locales should translate this as "Left".
-newtab-widget-menu-move-right = 右へ
+newtab-widget-menu-move-right = 右へ移動
+# Submenu item under "Move"; pins the widget to Home, the New Tab space the
+# page opens on.
+newtab-widget-menu-move-to-home = ホームへ固定
+# Submenu item under "Move"; moves the widget from Home back to the Widgets
+# space, the New Tab space that holds every widget not pinned to Home.
+newtab-widget-menu-move-to-widgets = ウィジェットへ戻す
 newtab-widget-size-small = 小
 newtab-widget-size-medium = 中
 newtab-widget-size-large = 大
@@ -893,18 +903,14 @@ newtab-widget-lists-menu-create = 新しいリストを作成
 newtab-widget-lists-menu-delete = このリストを削除
 newtab-widget-lists-menu-copy = リストをクリップボードにコピー
 newtab-widget-lists-menu-learn-more = さらに詳しく
-# "Change" is a verb here: the button switches which list is shown
-newtab-widget-lists-change-list =
-    .title = リストの変更
-    .aria-label = リストを変更
 newtab-widget-lists-button-add-item = 項目を追加
 newtab-widget-lists-input-add-an-item2 =
     .placeholder = 項目を追加
     .aria-label = 項目を追加
-newtab-widget-lists-input-error = アイテムを追加するにはテキストを入力してください。
+newtab-widget-lists-input-error = 項目を追加するにはテキストを入力してください。
 newtab-widget-lists-input-menu-open-link = リンクを開く
-newtab-widget-lists-input-menu-move-up = 上に移動
-newtab-widget-lists-input-menu-move-down = 下に移動
+newtab-widget-lists-input-menu-move-up = 上へ移動
+newtab-widget-lists-input-menu-move-down = 下へ移動
 newtab-widget-lists-input-menu-delete = 削除
 newtab-widget-lists-input-menu-edit = 編集
 newtab-widget-lists-input-menu-edit2 =
@@ -1191,7 +1197,7 @@ newtab-clock-city-au-sydney = シドニー
 newtab-clock-city-au-perth = パース
 newtab-clock-city-au-adelaide = アデレード
 newtab-clock-city-pl-warsaw = ワルシャワ
-newtab-clock-city-pl-krakow = クラコフ
+newtab-clock-city-pl-krakow = クラクフ
 newtab-clock-city-jp-tokyo = 東京
 newtab-clock-city-jp-osaka = 大阪
 newtab-clock-city-mx-mexico-city = メキシコシティ
@@ -1236,7 +1242,7 @@ newtab-clock-city-pe-lima = リマ
 newtab-clock-city-ke-nairobi = ナイロビ
 newtab-clock-city-nz-auckland = オークランド
 newtab-clock-city-kr-seoul = ソウル
-newtab-clock-city-lt-vilnius = ヴィルニュス
+newtab-clock-city-lt-vilnius = ヴィリニュス
 newtab-clock-city-ie-dublin = ダブリン
 newtab-clock-city-ae-dubai = ドバイ
 newtab-clock-city-lv-riga = リガ
@@ -1398,31 +1404,31 @@ newtab-privacy-etp-off-turn-on-tracking = ブロックを開始するには、�
 ## "-cta" button label sharing the same id stem (the CTA button isn't rendered
 ## yet; the labels are authored so the pairing is ready).
 
-newtab-privacy-message-info-1 = { -brand-short-name } はウェブの閲覧中にトラッカーを自動的にブロックします。
+newtab-privacy-message-info-1 = { -brand-short-name } はブラウジング中にトラッカーを自動的にブロックします。
 newtab-privacy-message-info-1-cta = 保護状態を表示
-newtab-privacy-message-info-2 = トラッカーのブロックは、企業によるオンラインでの追跡を防ぐのに役立ちます。
+newtab-privacy-message-info-2 = トラッカーのブロックにより、企業がオンラインであなたを追跡するのを防ぎます。
 newtab-privacy-message-info-2-cta = 保護状態を表示
-newtab-privacy-message-info-3 = 多くのサイトにトラッカーが設置されているため、訪問したことのない企業からもオンラインで追跡される可能性があります。
+newtab-privacy-message-info-3 = 多くのサイトにはトラッカーが含まれているため、一度も訪れたことのない企業にオンラインで追跡されることがあります。
 newtab-privacy-message-info-3-cta = 保護状態を表示
-newtab-privacy-message-info-4 = { -brand-short-name } を選ぶということは、デフォルトで保護機能を選択していることを意味します。
+newtab-privacy-message-info-4 = { -brand-short-name } を選ぶことは、標準で保護機能を選ぶことを意味します。
 newtab-privacy-message-info-4-cta = 保護状態を表示
-newtab-privacy-message-info-5 = トラッカーをブロックすることで、サイト間で追跡できる企業を減らせます。
+newtab-privacy-message-info-5 = トラッカーがブロックされることで、あなたを追跡する企業を減らすことができます。
 newtab-privacy-message-info-5-cta = 保護状態を表示
-newtab-privacy-message-info-6 = データを { -brand-short-name } で安全に保ちましょう。私たちはデータを決して販売しませんが、他のブラウザーは販売する可能性があります。
+newtab-privacy-message-info-6 = { -brand-short-name } でデータを安全に保ちましょう。私たちは決してデータを販売しません (他のブラウザーとは違います)。
 newtab-privacy-message-info-6-cta = 詳細情報
 newtab-privacy-message-info-7 = { -brand-short-name } がブロックしたトラッカーを確認しましょう。
 newtab-privacy-message-info-7-cta = 保護状態を表示
-newtab-privacy-message-info-8 = { -brand-short-name } での閲覧は、より良いウェブを構築するという { -vendor-short-name } のミッションを支援することに繋がります。
+newtab-privacy-message-info-8 = { -brand-short-name } でのブラウジングは、より良いウェブを構築するという { -vendor-short-name } のミッションをサポートします。
 newtab-privacy-message-info-8-cta = 詳細情報
-newtab-privacy-message-info-9 = 組み込みのプライバシー機能を備えた { -brand-short-name } をメインのブラウザーにしましょう。
+newtab-privacy-message-info-9 = プライバシー保護機能が組み込まれた { -brand-short-name } を既定のブラウザーに設定しましょう。
 newtab-privacy-message-info-9-cta = デフォルトに設定
-newtab-privacy-message-info-10 = パスワードを { -brand-short-name } に保存して、あらゆる場所で強力かつ固有のログイン情報を使用しましょう。
-newtab-privacy-message-info-10-cta = パスワードを表示
-newtab-privacy-message-info-11 = { -brand-short-name } がどのように閲覧のプライバシー保護に役立つか確認しましょう。
+newtab-privacy-message-info-10 = { -brand-short-name } にパスワードを保存して、どこでも強力でユニークなログイン情報を使用しましょう。
+newtab-privacy-message-info-10-cta = パスワードへ移動
+newtab-privacy-message-info-11 = { -brand-short-name } がブラウジングのプライバシーを守る仕組みを確認しましょう。
 newtab-privacy-message-info-11-cta = 詳細情報
-newtab-privacy-message-info-12 = トラッカーをブロックすると、制限付きデータプランでの帯域幅の節約に役立ちます。
-newtab-privacy-message-info-12-cta = 保護状態を表示
-newtab-privacy-message-info-13 = { -brand-short-name } はトラッカーをブロックし、よりスムーズなストリーミングのために帯域幅を解放します。
+newtab-privacy-message-info-12 = トラッカーをブロックすると、データ容量が制限されたプランの帯域幅を節約できます。
+newtab-privacy-message-info-12-cta = 保護を確認
+newtab-privacy-message-info-13 = { -brand-short-name } がトラッカーをブロックし、スムーズなストリーミングのために帯域幅を解放します。
 newtab-privacy-message-info-13-cta = 保護状態を表示
 
 ## Privacy widget — promotional messages
@@ -1430,25 +1436,25 @@ newtab-privacy-message-info-13-cta = 保護状態を表示
 ## Rotating "promo" secondary messages suggesting another Firefox feature. Each
 ## has a body plus a matched "-cta" button label.
 
-newtab-privacy-message-promo-monitor-1 = あなたの個人情報がデータ侵害に遭っているか確認しましょう。
+newtab-privacy-message-promo-monitor-1 = 個人情報がデータ流出事件に含まれていないか確認しましょう。
 newtab-privacy-message-promo-monitor-1-cta = 詳細情報
-newtab-privacy-message-promo-monitor-2 = 最大 20 個のメールアドレスに対応する無料のデータ侵害監視機能で、情報を保護しましょう。
+newtab-privacy-message-promo-monitor-2 = 最大 20 件のメールアドレスに対して無料のデータ流出監視を行い、情報を保護しましょう。
 newtab-privacy-message-promo-monitor-2-cta = 詳細情報
-newtab-privacy-message-promo-signin-1 = { -vendor-short-name } アカウントを使用して、ブックマーク、パスワード、タブをデバイス間で暗号化して同期しましょう。
-newtab-privacy-message-promo-signin-1-cta = サインイン
-newtab-privacy-message-promo-vpn-1 = 公共 Wi-Fi でお買い物ですか? さらに保護を高めるために、組み込み VPN をオンにしましょう。
+newtab-privacy-message-promo-signin-1 = { -vendor-short-name } アカウントを使用して、ブックマーク、パスワード、タブをデバイス間で暗号化して維持しましょう。
+newtab-privacy-message-promo-signin-1-cta = ログイン
+newtab-privacy-message-promo-vpn-1 = 公共の Wi-Fi でショッピングですか? 内蔵 VPN をオンにしてセキュリティを強化しましょう。
 newtab-privacy-message-promo-vpn-1-cta = VPN を開く
-newtab-privacy-message-promo-vpn-2 = 空港の Wi-Fi を使用中ですか? 組み込み VPN をオンにして、ブラウジングを保護しましょう。
+newtab-privacy-message-promo-vpn-2 = 空港の Wi-Fi を使用していますか? 内蔵 VPN をオンにしてブラウジングを保護しましょう。
 newtab-privacy-message-promo-vpn-2-cta = VPN を開く
-newtab-privacy-message-promo-vpn-3 = 組み込み VPN をオンにして、位置情報のプライバシーをさらに高めましょう。
+newtab-privacy-message-promo-vpn-3 = 内蔵 VPN をオンにして、場所のプライバシーをより強固に保護しましょう。
 newtab-privacy-message-promo-vpn-3-cta = VPN を開く
-newtab-privacy-message-promo-private-window-1 = 共有コンピューターを使用する時は、よりプライベートに閲覧できるプライベートウィンドウを試してみましょう。
+newtab-privacy-message-promo-private-window-1 = 共有コンピュータを使用する際は、プライベートウィンドウでよりプライベートにブラウジングしましょう。
 newtab-privacy-message-promo-private-window-1-cta = プライベートウィンドウを開く
-newtab-privacy-message-promo-relay-1 = 本物のメールアドレスは信頼できる人のために残し、サインアップにはメールマスクを使用しましょう。
+newtab-privacy-message-promo-relay-1 = 本当のメールアドレスは信頼できる人だけに伝え、サインアップにはメールマスクを使いましょう。
 newtab-privacy-message-promo-relay-1-cta = マスクを取得
-newtab-privacy-message-promo-relay-2 = 無料のメールマスク機能で、インボックスを迷惑メールから保護しましょう。
+newtab-privacy-message-promo-relay-2 = 無料のメールマスキングで受信トレイをスパムから守りましょう。
 newtab-privacy-message-promo-relay-2-cta = マスクを取得
-newtab-privacy-message-promo-relay-3 = 本物のメールアドレスのプライバシーを保つために、50 個の無料メールマスクを取得しましょう。
+newtab-privacy-message-promo-relay-3 = 本物のメールアドレスを非公開にするため、無料のメールマスクを 50 件取得しましょう。
 newtab-privacy-message-promo-relay-3-cta = マスクを取得
 
 ## Privacy widget — celebration messages
@@ -1460,8 +1466,8 @@ newtab-privacy-message-promo-relay-3-cta = マスクを取得
 #   $count (number) - Trackers blocked this week
 newtab-privacy-message-milestone-week =
     { $count ->
-        [one] 今週 { $count } 個のトラッカーをブロックしました。{ -brand-short-name } が何をブロックしているか確認しましょう
-       *[other] 今週 { $count } 個のトラッカーをブロックしました。{ -brand-short-name } が何をブロックしているか確認しましょう
+        [one] 今週ブロックされたトラッカー: { $count } 件。{ -brand-short-name } がどのようにプライバシーを守っているか確認しましょう
+       *[other] 今週ブロックされたトラッカー: { $count } 件。{ -brand-short-name } がどのようにプライバシーを守っているか確認しましょう
     }
 newtab-privacy-message-milestone-week-cta = 保護状態を表示
 
@@ -1469,8 +1475,8 @@ newtab-privacy-message-milestone-week-cta = 保護状態を表示
 #   $count (number) - Trackers blocked this month
 newtab-privacy-message-milestone-month =
     { $count ->
-        [one] 今月 { $count } 個のトラッカーをブロックしました。プライバシーへの小さな一歩、安心への大きな一歩です。
-       *[other] 今月 { $count } 個のトラッカーをブロックしました。プライバシーへの小さな一歩、安心への大きな一歩です。
+        [one] 今月ブロックされたトラッカー: { $count } 件。プライバシーへの小さな一歩、安心への大きな一歩です。
+       *[other] 今月ブロックされたトラッカー: { $count } 件。プライバシーへの小さな一歩、安心への大きな一歩です。
     }
 newtab-privacy-message-milestone-month-cta = 保護状態を表示
 
@@ -1478,8 +1484,8 @@ newtab-privacy-message-milestone-month-cta = 保護状態を表示
 #   $count (number) - Trackers blocked this year
 newtab-privacy-message-milestone-year =
     { $count ->
-        [one] 今年 { $count } 個のトラッカーをブロックしました。プライバシーが強力に保護された 1 年です。
-       *[other] 今年 { $count } 個のトラッカーをブロックしました。プライバシーが強力に保護された 1 年です。
+        [one] 今年ブロックされたトラッカー: { $count } 件。プライバシー保護において力強い 1 年となりました。
+       *[other] 今年ブロックされたトラッカー: { $count } 件。プライバシー保護において力強い 1 年となりました。
     }
 newtab-privacy-message-milestone-year-cta = 保護状態を表示
 
@@ -1487,13 +1493,13 @@ newtab-privacy-message-milestone-year-cta = 保護状態を表示
 #   $count (number) - Trackers blocked all-time
 newtab-privacy-message-milestone-total =
     { $count ->
-        [one] { $count } 個のトラッカーをブロックしました。あなたに合わせたプライバシー保護への大きな前進です。
-       *[other] { $count } 個のトラッカーをブロックしました。あなたに合わせたプライバシー保護への大きな前進です。
+        [one] ブロッカーされたトラッカー: { $count } 件。あなたの条件に合わせたプライバシー保護に向けた大きな前進です。
+       *[other] ブロッカーされたトラッカー: { $count } 件。あなたの条件に合わせたプライバシー保護に向けた大きな前進です。
     }
 newtab-privacy-message-milestone-total-cta = 保護状態を表示
 
 # Shown when today's blocked-tracker count reaches the display cap ("100+").
-newtab-privacy-message-daily-cap = (今日 100 個以上のトラッカーをブロックしました。) トラッカーが減るほど、プライバシーが高まります。
+newtab-privacy-message-daily-cap = (今日 100 個以上のトラッカーをブロックしました。) トラッカーが減れば、プライバシーが向上します。
 newtab-privacy-message-daily-cap-cta = 保護状態を表示
 
 # Variables:
@@ -1506,7 +1512,7 @@ newtab-privacy-message-streak =
 newtab-privacy-message-streak-cta = 保護状態を表示
 
 # Shown the first time the tracker count goes above zero.
-newtab-privacy-message-first-protection = 閲覧を続けましょう。{ -brand-short-name } はブロックを続けます。
+newtab-privacy-message-first-protection = ブラウジングを続けましょう。{ -brand-short-name } がブロックし続けます。
 newtab-privacy-message-first-protection-cta = 保護状態を表示
 
 ## Strings for the Finance widget
@@ -1572,31 +1578,31 @@ newtab-stocks-ticker-status-up = { $name }、{ $change } 上昇、{ $price }
 newtab-stocks-ticker-status-down = { $name }、{ $change } 下落、{ $price }
 
 # Stock didn't change during the day
-newtab-stocks-ticker-status-flat = { $name }、変更なし、{ $change }、{ $price }
+newtab-stocks-ticker-status-flat = { $name }、変動なし、{ $change }、{ $price }
 
-## Stocks widget watchlist add and remove controls
+## Finance widget watchlist add and remove controls
 
 # Tooltip and screen-reader label for the button that adds a stock to the watchlist.
 # The button shows only an icon and never renders visible text.
 # Variables:
 #   $name (String) - the fund/ETF name, e.g. "SPDR S&P 500 ETF Trust".
 newtab-stocks-add-to-watchlist =
-    .title = ウォッチリストへ { $name } の追加
-    .aria-label = { $name }をウォッチリストに追加
+    .title = { $name } をウォッチリストに追加
+    .aria-label = { $name } をウォッチリストに追加
 
 # Tooltip and screen-reader label for the button that removes a stock from the watchlist.
 # The button shows only an icon and never renders visible text.
 # Variables:
 #   $name (String) - the fund/ETF name.
 newtab-stocks-remove-from-watchlist =
-    .title = ウォッチリストから { $name } の削除
+    .title = { $name } をウォッチリストから削除
     .aria-label = { $name } をウォッチリストから削除
 
 # Visually hidden text on a Markets row whose stock is already in the watchlist, so
 # screen readers announce that it is saved. Removal happens on the Watchlist tab.
 # Variables:
 #   $name (String) - the fund/ETF name.
-newtab-stocks-in-watchlist = { $name } はウォッチリストに追加されています
+newtab-stocks-in-watchlist = { $name } はウォッチリストに登録されています
 
 # Announced to screen readers after a stock is added to the watchlist.
 # Variables:
@@ -1608,12 +1614,12 @@ newtab-stocks-added-to-watchlist = { $name } をウォッチリストに追加�
 #   $name (String) - the fund/ETF name.
 newtab-stocks-removed-from-watchlist = { $name } をウォッチリストから削除しました
 
-## Stocks widget ticker search
+## Finance widget ticker search
 
 # Placeholder and screen-reader label for the ticker search input.
 newtab-stocks-search-input =
-    .placeholder = 企業名またはシンボルで検索
-    .aria-label = 企業名またはシンボルで検索
+    .placeholder = 企業名やシンボルで検索
+    .aria-label = 企業名やシンボルで検索
 
 # "Search results" is the accessible label for the list of tickers matching the
 # search. It means "results of the search", not "search within the results".
@@ -1622,7 +1628,7 @@ newtab-stocks-search-results =
 
 # Shown in the search panel, where the results will appear, until the user
 # has searched.
-newtab-stocks-search-hint = ウォッチリストに追加するシンボルや企業を検索
+newtab-stocks-search-hint = ウォッチリストに追加するシンボルや企業を検索してください
 
 # "Back" is an icon-only button in the search panel header that returns to the
 # widget — the attributes are consumed as tooltip/screen-reader label only. The
@@ -1634,36 +1640,36 @@ newtab-stocks-search-back-button =
 # Shown when a ticker search returns no matching symbols.
 # Variables:
 #   $query (String) - the text the user searched for.
-newtab-stocks-search-no-results = “{ $query }” に一致する結果はありませんでした。
+newtab-stocks-search-no-results = “{ $query }” に一致する検索結果はありません
 
 # Shown while a ticker search is running; also announced to screen readers.
-newtab-stocks-search-loading = 読み込んでいます…
+newtab-stocks-search-loading = 読み込み中…
 
 # Shown when a ticker search fails to reach the service.
-newtab-stocks-search-error = 現在検索できません。後でお試しください。
+newtab-stocks-search-error = 現在検索できません。後でやり直してください。
 
 # Shown below successful search results when the watchlist is already full.
 # Variables:
 #   $limit (Number) - the maximum number of stocks the watchlist can hold.
 newtab-stocks-watchlist-full =
     { $limit ->
-        [one] ウォッチリストに追加できるのは最大 { $limit } 件までです。別の銘柄を追加するには、1 件削除してください。
-        *[other] ウォッチリストに追加できるのは最大 { $limit } 件までです。別の銘柄を追加するには、1 件削除してください。
+        [one] 追加できる株は最大 { $limit } 件です。別の銘柄を追加するには 1 件削除してください。
+        *[other] 追加できる株は最大 { $limit } 件です。別の銘柄を追加するには 1 件削除してください。
     }
 
 ## Strings for the Picture of the Day widget
 
 # Title shown at the top of the widget, with the source name appended.
 # "Wikimedia Commons" is a brand name and should not be translated.
-newtab-picture-header = 今日の画像 · Wikimedia Commons
+newtab-picture-header = 今日の写真 · Wikimedia Commons
 
 # Shorter title shown at the top of the widget, without the source name.
-newtab-picture-header-main = 今日の画像
+newtab-picture-header-main = 今日の写真
 
 # Title shown at the top of the widget, with the date of the picture shown.
 # $date (Date) - the day Wikimedia Commons featured the picture as its picture
 # of the day, shown in numbers (for example 10/8/2026).
-newtab-picture-header-date = 今日の 1 枚: { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") }
+newtab-picture-header-date = きょうの写真: { DATETIME($date, year: "numeric", month: "numeric", day: "numeric") }
 
 # Attribution line shown under the title once a picture loads: an author
 # credit, a link to the picture's source page, and a link to its license.
@@ -1684,8 +1690,8 @@ newtab-picture-attribution-license =
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-picture-widget-open-menu-button =
-    .title = 今日の画像のメニューを開く
-    .aria-label = 今日の画像のメニューを開く
+    .title = 今日の写真のメニューを開く
+    .aria-label = 今日の写真のメニューを開く
 
 # Button that sets the picture shown in the widget, which may be today’s or the
 # previous day’s, as the New Tab background wallpaper. The button collapses to an
@@ -1699,10 +1705,10 @@ newtab-picture-set-wallpaper2 =
 newtab-picture-menu-manage-wallpaper = 壁紙を管理
 
 # Context menu item that hides the picture shown in the widget.
-newtab-picture-menu-hide-photo2 = この画像を非表示
+newtab-picture-menu-hide-photo2 = この写真を隠す
 
 # Context menu item that restores the picture after it has been hidden.
-newtab-picture-menu-show-photo2 = 画像を表示
+newtab-picture-menu-show-photo2 = 写真を表示
 
 # Context menu item linking to more information about the widget.
 newtab-picture-menu-learn-more = さらに詳しく
@@ -1713,16 +1719,16 @@ newtab-picture-show-button2 =
     .aria-label = 写真の表示
 
 # Shown when there is no new picture to display yet.
-newtab-picture-check-back = 明日また新しい写真を確認してください
+newtab-picture-check-back = 新しい写真は明日また確認してください
 
 # Screen-reader text alternative for the picture; fallback used when the source
 # provides no localized description.
-newtab-picture-image-alt = Wikimedia Commons 今日の写真
+newtab-picture-image-alt = Wikimedia Commons の今日の写真
 
 ## Strings for the Search widget
 
 # Widget heading; also the widget's accessible name.
-newtab-search-widget-title = 最近の検索
+newtab-search-widget-title = 検索
 
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
@@ -1751,15 +1757,15 @@ newtab-recent-searches-just-now = たった今
 # Variables:
 #   $search (string) - The search the row shows, e.g. "puffin colonies".
 newtab-recent-searches-row-remove =
-    .aria-label = 最近の検索から “{ $search }” を削除
+    .aria-label = “{ $search }” を最近の検索から削除
 
 ## Recent searches widget — empty states
 
 # Shown in place of the list when the user has made no searches recently.
-newtab-recent-searches-empty-recent = 最近行った検索がここに表示されるため、いつでも再開できます。
+newtab-recent-searches-empty-recent = 最近の検索がここに表示されるため、いつでも再開できます。
 
 # Shown in place of the list when there are no trending search results.
-newtab-recent-searches-empty-trending = 現在おすすめのトレンドはありません。
+newtab-recent-searches-empty-trending = 現在トレンド検索を利用できません。
 
 ## Strings for the Horoscopes widget
 
@@ -1794,6 +1800,10 @@ newtab-travel-widget-open-menu-button =
 # Context menu item linking to more information about the widget.
 newtab-travel-menu-learn-more = さらに詳しく
 
+# Context menu item linking to the Kayak website, the provider of the
+# travel search. “Kayak” is a brand name and should not be translated.
+newtab-travel-menu-powered-by-kayak = Powered by Kayak
+
 ## Strings for the Solitaire widget. Solitaire is a widget on New Tab where you
 ## can play solitaire, a card game for one player, also known as patience.
 ## Game displays within an iframe with name “Yahoo Solitaire”
@@ -1804,7 +1814,7 @@ newtab-solitaire-widget-title = ソリティア
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-solitaire-widget-open-menu-button =
-    .title = Open solitaire menu
+    .title = ソリティアメのニューを開く
     .aria-label = ソリティアのメニューを開く
 
 # Context menu item linking to more information about the widget.

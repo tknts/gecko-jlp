@@ -17,42 +17,43 @@ contextual-manager-more-options-popup =
 
 contextual-manager-passwords-title = パスワード
 contextual-manager-passwords-command-create = パスワードを追加
-contextual-manager-passwords-command-import-from-browser = その他のブラウザーからパスワードをインポート…
+contextual-manager-passwords-command-import-from-browser = 他のブラウザーからインポート…
 contextual-manager-passwords-command-import = ファイルからインポート…
 contextual-manager-passwords-command-export = パスワードをエクスポート
 contextual-manager-passwords-command-remove-all = すべてのパスワードを削除
-contextual-manager-passwords-command-settings = 設定
+contextual-manager-passwords-command-delete-all = すべてのパスワードを削除
+contextual-manager-passwords-command-options = オプション
 contextual-manager-passwords-command-help = ヘルプ
 
 contextual-manager-passwords-os-auth-dialog-caption = { -brand-full-name }
 
 # This message can be seen when attempting to export a password in about:logins on Windows.
-contextual-manager-passwords-export-os-auth-dialog-message-win = パスワードをエクスポートするには、Windows のログイン資格情報を入力します。これにより、アカウントのセキュリティが保護されます。
+contextual-manager-passwords-export-os-auth-dialog-message-win = パスワードをエクスポートするには、Windows のログイン情報を入力してください。アカウントのセキュリティ保護に役立ちます。
 # This message can be seen when attempting to export a password in about:logins
 # The macOS strings are preceded by the operating system with "Firefox is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. only provide the reason that account verification is needed. Do not put a complete sentence here.
-contextual-manager-passwords-export-os-auth-dialog-message-macosx = export saved passwords
+contextual-manager-passwords-export-os-auth-dialog-message-macosx = 保存されたパスワードをエクスポート
 
 # This message can be seen when attempting to reveal a password in contextual password manager on Windows
-contextual-manager-passwords-reveal-password-os-auth-dialog-message-win = パスワードを表示するには、Windows のログイン資格情報を入力します。これにより、アカウントのセキュリティが保護されます。
+contextual-manager-passwords-reveal-password-os-auth-dialog-message-win = パスワードを表示するには、Windows のログイン情報を入力してください。アカウントのセキュリティ保護に役立ちます。
 # The MacOS string is preceded by the operating system with "Firefox is trying to ".
 # Only provide the reason that account verification is needed. Do not put a complete sentence here.
-contextual-manager-passwords-reveal-password-os-auth-dialog-message-macosx = reveal the saved password
+contextual-manager-passwords-reveal-password-os-auth-dialog-message-macosx = 保存されたパスワードを表示
 
 
 # This message can be seen when attempting to edit a login in contextual password manager on Windows.
-contextual-manager-passwords-edit-password-os-auth-dialog-message-win = パスワードを編集するには、Windows ログイン資格情報を入力します。これにより、アカウントのセキュリティが保護されます。
+contextual-manager-passwords-edit-password-os-auth-dialog-message-win = パスワードを編集するには、Windows のログイン情報を入力してください。アカウントのセキュリティ保護に役立ちます。
 # The MacOS string is preceded by the operating system with "Firefox is trying to ".
 # On MacOS, only provide the reason that account verification is needed. Do not put a complete sentence here.
-contextual-manager-passwords-edit-password-os-auth-dialog-message-macosx = edit the saved password
+contextual-manager-passwords-edit-password-os-auth-dialog-message-macosx = 保存されたパスワードを編集
 
 
 # This message can be seen when attempting to copy a password in contextual password manager on Windows.
-contextual-manager-passwords-copy-password-os-auth-dialog-message-win = パスワードを編集するには、Windows のログイン資格情報を入力します。これにより、アカウントのセキュリティが保護されます。
+contextual-manager-passwords-copy-password-os-auth-dialog-message-win = パスワードをコピーするには、Windows のログイン情報を入力してください。アカウントのセキュリティ保護に役立ちます。
 # The MacOS string is preceded by the operating system with "Firefox is trying to ".
 # Only provide the reason that account verification is needed. Do not put a complete sentence here.
-contextual-manager-passwords-copy-password-os-auth-dialog-message-macosx = copy the saved password
+contextual-manager-passwords-copy-password-os-auth-dialog-message-macosx = 保存されたパスワードをコピー
 
 contextual-manager-passwords-import-file-picker-title = パスワードのインポート
 contextual-manager-passwords-import-file-picker-import-button = インポート
@@ -73,7 +74,7 @@ contextual-manager-passwords-import-file-picker-tsv-filter-title =
   }
 
 contextual-manager-passwords-import-success-heading =
-  .heading = パスワードがインポートされました
+  .heading = パスワードをインポートしました
 
 # Variables
 #   $added (number) - Number of added passwords
@@ -83,23 +84,23 @@ contextual-manager-passwords-import-success-heading =
 contextual-manager-passwords-import-success-message-2 = 新規追加: { $added }、更新: { $modified }、重複: { $no_change }、エラー: { $error }
 
 contextual-manager-passwords-import-detailed-report = 詳細なレポートを表示
-contextual-manager-passwords-import-success-button = 実行
+contextual-manager-passwords-import-success-button = 完了
 
 contextual-manager-passwords-import-error-heading-and-message =
   .heading = パスワードをインポートできませんでした
-  .message = Make sure your file includes a column for websites, usernames, and passwords.
-contextual-manager-passwords-import-error-button-try-again = もう一度
+  .message = ファイルにウェブサイト、ユーザー名、パスワードの列が含まれていることを確認してください。
+contextual-manager-passwords-import-error-button-try-again = もう一度試す
 contextual-manager-passwords-import-error-button-cancel = キャンセル
-contextual-manager-passwords-import-learn-more = パスワードのインポートについてさらに詳しく
+contextual-manager-passwords-import-learn-more = パスワードのインポートについて詳しく見る
 
 contextual-manager-passwords-export-success-heading =
   .heading = パスワードをエクスポートしました
 contextual-manager-passwords-export-success-button = 完了
 
 # Export passwords to file dialog
-contextual-manager-export-passwords-dialog-title = パスワードをファイルにインポートしますか?
+contextual-manager-export-passwords-dialog-title = パスワードをファイルにエクスポートしますか?
 # This string recommends to the user that they delete the exported password file that is saved on their local machine.
-contextual-manager-export-passwords-dialog-message = エクスポートした後は、このデバイスを使用する可能性のある他のユーザーがパスワードを見ることができないように、削除することをお勧めします。
+contextual-manager-export-passwords-dialog-message = エクスポート後は、このデバイスを使用する他の人がパスワードを見られないように、ファイルを削除することをおすすめします。
 contextual-manager-export-passwords-dialog-confirm-button = エクスポートを続ける
 
 # Title of the file picker dialog
@@ -121,7 +122,15 @@ contextual-manager-passwords-export-file-picker-csv-filter-title =
 contextual-manager-passwords-remove-all-title =
   { $total ->
      [1] パスワードを削除しますか?
-    *[other] { $total } 個のパスワードをすべて削除しますか?
+    *[other] すべてのパスワード ({ $total } 件) を削除しますか?
+  }
+
+# Confirm the deletion of all saved passwords when per-device sync is enabled
+#   $total (number) - Total number of passwords
+contextual-manager-passwords-delete-all-title =
+  { $total ->
+     [one] パスワード ({ $total } 件) を削除しますか?
+    *[other] パスワード ({ $total } 件) を削除しますか?
   }
 
 # Checkbox label to confirm the removal of saved passwords
@@ -140,23 +149,39 @@ contextual-manager-passwords-remove-all-confirm-button =
     *[other] すべて削除
   }
 
+# Button label to confirm deletion of saved passwords when per-device sync is enabled
+#   $total (number) - Total number of passwords
+contextual-manager-passwords-delete-all-confirm-button =
+  { $total ->
+     [1] 削除
+    *[other] すべて削除
+  }
+
 # Message to confirm the removal of all saved passwords when user DOES NOT HAVE SYNC
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-message =
   { $total ->
-     [1] これにより、{ -brand-short-name } に保存されたパスワードと漏洩警告が削除されます。この操作は元に戻せません。
-    *[other] これにより、{ -brand-short-name } に保存されたすべてのパスワードと漏洩警告が削除されます。この操作は元に戻せません。
+     [1] { -brand-short-name } に保存されているパスワードと、流出の警告が削除されます。この操作は元に戻せません。
+    *[other] { -brand-short-name } に保存されているパスワードと、流出の警告が削除されます。この操作は元に戻せません。
   }
 
 # Message for modal to confirm the removal of all saved passwords when user HAS SYNC
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-message-sync =
   { $total ->
-     [1] これにより、すべての同期デバイス上の { -brand-short-name } に保存されたパスワードと漏洩警告が削除されます。この操作は元に戻せません。
-    *[other] これにより、すべての同期デバイス上の { -brand-short-name } に保存されたすべてのパスワードと漏洩警告が削除されます。この操作は元に戻せません。
+     [1] 同期しているすべてのデバイス上の { -brand-short-name } に保存されているパスワードと、流出の警告が削除されます。この操作は元に戻せません。
+    *[other] 同期しているすべてのデバイス上の { -brand-short-name } に保存されているすべてのパスワードと、流出の警告が削除されます。この操作は元に戻せません。
   }
 
-contextual-manager-passwords-origin-label = Website
+# Message for modal to confirm the deletion of all saved passwords when user HAS SYNC with per-device sync
+#   $total (number) - Total number of passwords
+contextual-manager-passwords-delete-all-message-sync =
+  { $total ->
+     [1] パスワードを同期しているすべてのデバイスの { -brand-short-name } から削除されます。この操作は元に戻せません。
+    *[other] パスワードを同期しているすべてのデバイスの { -brand-short-name } から削除されます。この操作は元に戻せません。
+  }
+
+contextual-manager-passwords-origin-label = ウェブサイト
 # The attribute .data-after describes the text that should be displayed for the ::after pseudo-selector
 contextual-manager-passwords-username-label = ユーザー名
   .data-after = コピーしました
@@ -170,7 +195,7 @@ contextual-manager-passwords-radiogroup-label =
 # Variables
 #   $url (string) - The url associated with the new login
 contextual-manager-passwords-add-password-success-heading =
-  .heading = { $url } のパスワードが追加されました
+  .heading = { $url } のパスワードを追加しました
 contextual-manager-passwords-add-password-success-button = 表示
 
 # Variables
@@ -206,12 +231,16 @@ contextual-manager-passwords-radiobutton-alerts = 警告 ({ $total })
 
 # This message is displayed to make sure that a user wants to delete an existing login.
 contextual-manager-passwords-remove-login-card-title = パスワードを削除しますか?
+# This message is displayed to make sure that a user wants to delete an existing login when per-device sync is enabled.
+contextual-manager-passwords-delete-login-card-title = パスワードを削除しますか?
 # This message warns the user that deleting a login is permanent.
 contextual-manager-passwords-remove-login-card-message = この操作は元に戻せません。
 # This message gives the user an option to go back to the edit login form.
 contextual-manager-passwords-remove-login-card-back-message = 戻る
 # This message confirms that the user wants to remove an existing login.
 contextual-manager-passwords-remove-login-card-remove-button = 削除
+# This message confirms that the user wants to delete an existing login when per-device sync is enabled.
+contextual-manager-passwords-delete-login-card-delete-button = 削除
 # This message gives the user the option to cancel their attempt to remove a login.
 contextual-manager-passwords-remove-login-card-cancel-button = キャンセル
 
@@ -224,18 +253,18 @@ contextual-manager-passwords-alert-list =
 
 contextual-manager-passwords-breached-origin-heading-and-message =
   .heading = パスワードの変更をおすすめします
-  .message = このウェブサイトのパスワードが盗難または漏洩したと報告されています。アカウントを保護するためにパスワードを変更してください。
-contextual-manager-passwords-breached-origin-link-message = { -brand-product-name } はどのようにしてセキュリティの侵害を知りますか?
+  .message = このウェブサイトのパスワードが盗難または流出したことが報告されています。アカウントを保護するためにパスワードを変更してください。
+contextual-manager-passwords-breached-origin-link-message = { -brand-product-name } はデータ流出をどのように検知していますか？
 contextual-manager-passwords-change-password-button = パスワードを変更
 
 contextual-manager-passwords-vulnerable-password-heading-and-message =
-  .heading = パスワードを削除しました
-  .message = This password is easily guessable. Change your password to protect your account.
-contextual-manager-passwords-vulnerable-password-link-message = { -brand-product-name } はどのようにして弱いパスワードを認識しますか?
+  .heading = パスワードの変更をおすすめします
+  .message = このパスワードは推測されやすいものです。アカウントを保護するためにパスワードを変更してください。
+contextual-manager-passwords-vulnerable-password-link-message = { -brand-product-name } は脆弱なパスワードをどのように検知していますか？
 
 contextual-manager-passwords-no-username-heading-and-message =
   .heading = ユーザー名を追加
-  .message = Add one to sign in faster.
+  .message = 追加してよりすばやくログインしましょう。
 contextual-manager-passwords-add-username-button = ユーザー名を追加
 
 ## Login Form
@@ -247,19 +276,22 @@ contextual-manager-passwords-update-label =
   .label = パスワードを更新
 contextual-manager-passwords-remove-label =
   .title = パスワードの削除
+# Tooltip for the delete button in the edit password form when per-device sync is enabled
+contextual-manager-passwords-delete-label =
+  .title = パスワードを削除
 
 contextual-manager-passwords-origin-field =
   .label = ウェブサイトのアドレス
   .placeholder = https://www.example.com
-contextual-manager-passwords-origin-field-description = このサイトにサインインする正確なアドレスを入力してください。
+contextual-manager-passwords-origin-field-description = このサイトにログインする正確なアドレスを入力してください。
 
 contextual-manager-passwords-username-field =
   .label = ユーザー名
-contextual-manager-passwords-username-field-description = サインインに使用するユーザー名、メールアドレス、またはアカウント番号を入力してください。
+contextual-manager-passwords-username-field-description = ログインに使用するユーザー名、メールアドレス、またはアカウント番号を入力してください。
 
 contextual-manager-passwords-password-field =
   .label = パスワード
-contextual-manager-passwords-password-field-description = このアカウントにサインインするためのパスワードを入力してください。
+contextual-manager-passwords-password-field-description = このアカウントにログインするためのパスワードを入力してください。
 
 ## Password Card
 
@@ -269,7 +301,7 @@ contextual-manager-passwords-list-label =
 contextual-manager-website-icon =
   .alt = ウェブサイトのアイコン
 contextual-manager-copy-icon =
-  .alt = コピーします
+  .alt = コピー
 contextual-manager-check-icon-username =
   .alt = コピーしました
 contextual-manager-check-icon-password =
@@ -291,14 +323,14 @@ contextual-manager-origin-login-line-with-alert =
 # Variables
 #   $username (string) - The username associated with the login
 contextual-manager-username-login-line =
-  .aria-label = ユーザー名をコピーします { $username }
-  .title = ユーザー名のコピー { $username }
+  .aria-label = ユーザー名 { $username } をコピー
+  .title = ユーザー名 { $username } をコピー
 # "(Warning)" indicates that a login's username field has an alert icon.
 # Variables
 #   $username (string) - The username associated with the login
 contextual-manager-username-login-line-with-alert =
-  .aria-label = ユーザー名をコピーします { $username } (警告)
-  .title = ユーザー名のコピー { $username } (警告)
+  .aria-label = ユーザー名 { $username } をコピー (警告)
+  .title = ユーザー名 { $username } をコピー (警告)
 contextual-manager-password-login-line =
   .aria-label = パスワードのコピー
   .title = パスワードのコピー
@@ -313,20 +345,20 @@ contextual-manager-edit-login-button = 編集
 contextual-manager-view-alert-heading-2 =
   .heading =
     { $count ->
-      [1] アラートを表示
-     *[other] アラートを表示
+      [1] 警告を表示
+     *[other] 警告を表示
     }
 # Variables
 #   $count (number) - The number of active alerts associated with the login
 contextual-manager-view-alert-button-2 =
   .tooltiptext =
     { $count ->
-      [1] アラートを確認
-     *[other] アラートを確認
+      [1] 警告を確認する
+     *[other] 警告を確認する
     }
 
 contextual-manager-show-password-button =
-  .aria-label = パスワードの表示します
+  .aria-label = パスワードを表示します
   .title = パスワードの表示
 contextual-manager-hide-password-button =
   .aria-label = パスワードを隠します
@@ -335,18 +367,18 @@ contextual-manager-hide-password-button =
 # The message displayed when the search text does not match any of the user's saved logins.
 contextual-manager-passwords-no-passwords-found-header =
   .heading = パスワードが見つかりません
-contextual-manager-passwords-no-passwords-found-message-2 = 別のワードを入力して再度検索してください。
+contextual-manager-passwords-no-passwords-found-message-2 = 別のキーワードで再度検索してください。
 
 ## When the user has no saved passwords, we display the following messages to inform the user they can save
 ## their passwords safely and securely in Firefox:
 
 # This string encourages the user to save their passwords in Firefox (the "safe spot").
-contextual-manager-passwords-no-passwords-header-2 = パスワードを安全な場所に保存する
+contextual-manager-passwords-no-passwords-header-2 = パスワードを安全な場所に保存しましょう
 # This string informs that we (Firefox) store all passwords securely and will notify them of any breaches and alerts their
 # passwords may be involved in.
-contextual-manager-passwords-no-passwords-message = すべてのパスワードは暗号化されており、侵害を監視し、影響を受ける場合は警告を発します。
+contextual-manager-passwords-no-passwords-message = すべてのパスワードは暗号化されて保存されます。影響を受けるデータ流出や警告が発生した場合にはお知らせします。
 # This string encourages the user to save their passwords to Firefox again.
-contextual-manager-passwords-no-passwords-get-started-message = 開始するには、ここに追加してください。
+contextual-manager-passwords-no-passwords-get-started-message = ここに追加して始めましょう。
 # This string is displayed in a button. If the user clicks it, they will be taken to a form to create a new password.
 contextual-manager-passwords-add-manually = 手動で追加
 
@@ -355,9 +387,9 @@ contextual-manager-passwords-add-manually = 手動で追加
 
 contextual-manager-passwords-discard-changes-heading-and-message =
   .heading = 保存せずに閉じますか?
-  .message = 変更は保存されません。
+  .message = 変更内容は保存されません。
 contextual-manager-passwords-discard-changes-close-button = 閉じる
-contextual-manager-passwords-discard-changes-go-back-button = Go back
+contextual-manager-passwords-discard-changes-go-back-button = 戻る
 
 #   $total (number) - Total number of passwords
 contextual-manager-passwords-remove-all-passwords-checkbox =
@@ -366,8 +398,16 @@ contextual-manager-passwords-remove-all-passwords-checkbox =
     *[other] はい。すべてのパスワードを削除します
   }
 
+# Checkbox label to confirm the deletion of saved passwords when per-device sync is enabled
+#   $total (number) - Total number of passwords
+contextual-manager-passwords-delete-all-passwords-checkbox =
+  { $total ->
+     [1] はい。パスワードを削除します
+    *[other] はい。パスワードを削除します
+  }
+
 # This string informs the user they need to provide their primary password for FireFox to access their saved passwords in Firefox.
 contextual-manager-primary-password-reauth-header = 保存されたパスワードを表示するには、プライマリーパスワードを入力してください。
 # This string informs the user their primary password is used to authenticate and access their passwords
 contextual-manager-primary-password-reauth-button = プライマリーパスワードを入力
-contextual-manager-primary-password-learn-more-link = さらに詳しく
+contextual-manager-primary-password-learn-more-link = 詳しくはこちら

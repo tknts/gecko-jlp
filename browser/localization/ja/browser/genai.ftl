@@ -4,14 +4,14 @@
 
 ## Generative AI (GenAI) Settings section
 
-genai-settings-chat-chatgpt-links = ChatGPT を選択すると、OpenAI の<a data-l10n-name="link1">利用規約</a>および<a data-l10n-name="link2">プライバシー ポリシー</a>に同意したことになります。
-genai-settings-chat-claude-links = Anthropic Claude を選択すると、Anthropic の<a data-l10n-name="link1">消費者向け利用規約</a>、<a data-l10n-name="link2">利用ポリシー</a>、および<a data-l10n-name="link3">プライバシー ポリシー</a>に同意したことになります。
-genai-settings-chat-copilot-links = Copilot を選択すると、<a data-l10n-name="link1">Copilot AI エクスペリエンス規約</a>および<a data-l10n-name="link2">Microsoft プライバシーに関する声明</a>に同意したことになります。
-genai-settings-chat-gemini-links = Google Gemini を選択すると、<a data-l10n-name="link1">Google 利用規約</a>、<a data-l10n-name="link2">生成 AI の禁止されている使用に関するポリシー</a>、および<a data-l10n-name="link3">Gemini アプリのプライバシーに関するお知らせ</a>に同意したことになります。
-genai-settings-chat-huggingchat-links = HuggingChat を選択すると、<a data-l10n-name="link1">HuggingChat のプライバシーに関するお知らせ</a>および<a data-l10n-name="link2">Hugging Face のプライバシー ポリシー</a>に同意したことになります。
-genai-settings-chat-lechat-links-2 = Mistral Vibe を選択すると、Mistral AI の<a data-l10n-name="link1">利用規約</a>および<a data-l10n-name="link2">プライバシー ポリシー</a>に同意したことになります。
-genai-settings-chat-localhost-links = { -vendor-short-name } のイノベーショングループが提供する <a data-l10n-name="link1">llamafile</a> などのローカルチャットボットを自分で用意して使用できます。
-genai-settings-chat-scout-links = Yahoo Scout を選択すると、Yahoo の<a data-l10n-name="link1">利用規約</a>および<a data-l10n-name="link2">プライバシー ポリシー</a>に同意したことになります。
+genai-settings-chat-chatgpt-links = ChatGPT を選択することで、OpenAI の <a data-l10n-name="link1">利用規約</a> および <a data-l10n-name="link2">プライバシーポリシー</a> に同意したものとみなされます。
+genai-settings-chat-claude-links = Anthropic Claude を選択することで、Anthropic の <a data-l10n-name="link1">消費者利用規約</a>、<a data-l10n-name="link2">利用ポリシー</a>、および <a data-l10n-name="link3">プライバシー ポリシー</a> に同意したものとみなされます。
+genai-settings-chat-copilot-links = Copilot を選択することで、<a data-l10n-name="link1">Copilot AI エクスペリエンス規約</a> および <a data-l10n-name="link2">Microsoft プライバシー声明</a> に同意したものとみなされます。
+genai-settings-chat-gemini-links = Google Gemini を選択することで、<a data-l10n-name="link1">Google 利用規約</a>、<a data-l10n-name="link2">生成 AI 禁止利用ポリシー</a>、および <a data-l10n-name="link3">Gemini アプリ プライバシー通知</a> に同意したものとみなされます。
+genai-settings-chat-huggingchat-links = HuggingChat を選択することで、<a data-l10n-name="link1">HuggingChat プライバシー通知</a> および <a data-l10n-name="link2">Hugging Face プライバシーポリシー</a> に同意したものとみなされます。
+genai-settings-chat-lechat-links-2 = Mistral Vibe を選択することで、Mistral AI の <a data-l10n-name="link1">利用規約</a> および <a data-l10n-name="link2">プライバシーポリシー</a> に同意したものとみなされます。
+genai-settings-chat-localhost-links = { -vendor-short-name } のイノベーショングループが提供する <a data-l10n-name="link1">llamafile</a> などの、独自のプライベートなローカルチャットボットを利用できます。
+genai-settings-chat-scout-links = Yahoo Scout を選択することで、Yahoo の <a data-l10n-name="link1">利用規約</a> および <a data-l10n-name="link2">プライバシー ポリシー</a> に同意したものとみなされます。
 
 ## Chatbot prompts
 ## Prompts are plain language ‘instructions’ sent to a chatbot.
@@ -22,31 +22,31 @@ genai-settings-chat-scout-links = Yahoo Scout を選択すると、Yahoo の<a d
 # This prompt is added to the beginning of selection prompts sent to a chatbot.
 # $tabTitle (string) - title of the webpage
 # $selection (string) - selected text
-genai-prompt-prefix-selection = 閲覧中のページは “{ $tabTitle }” で、“{ $selection }” が選択されています。
+genai-prompt-prefix-selection = ページ “{ $tabTitle }” で、“{ $selection }” が選択されています。
 
 # Prompt purpose: help users understand what a selection covers at a glance
 genai-prompts-summarize =
     .label = 要約
-    .value = 選択された範囲を、正確で簡潔な言葉で要約してください。要約には見出しと箇条書きを使用し、読みやすいようにしてください。意味と事実の正確さを維持してください。
+    .value = 選択範囲を正確かつ簡潔な言葉で要約してください。ひと目でわかるように、要約には見出しや箇条書きを使用してください。意味と事実の正確性を維持してください。
 # Prompt purpose: help users understand what a webpage covers at a glance
 # $url (string) - address of the webpage to summarize
-genai-prompts-summarize-page = ウェブページ ({ $url }) の内容を、正確かつ簡潔な言葉で要約してください。一目でわかるように、要約には見出しと箇条書きを使用してください。意味と事実の正確性を維持してください。
+genai-prompts-summarize-page = ウェブページ ({ $url }) を正確かつ簡潔な言葉で要約してください。ひと目でわかるように、要約には見出しや箇条書きを使用してください。意味と事実の正確性を維持してください。
 # Prompt purpose: make a selection easier to read
 genai-prompts-simplify =
-    .label = わかりやすく
-    .value = 選択された範囲を、短い文とシンプルな言葉を使って書き換えてください。意味と事実の正確さを維持してください。
+    .label = 言葉を簡単にする
+    .value = 短い文や簡単な言葉を使って選択範囲を書き直してください。意味と事実の正確性を維持してください。
 # Prompt purpose: test understanding of selection in an interactive way
 genai-prompts-quiz =
     .label = クイズ
-    .value = 選択された範囲からクイズを出してください。多肢選択式、正誤問題、短答式など、さまざまな種類の質問をしてください。私が回答するまで、次の質問に進まないでください。
+    .value = この選択範囲に関するクイズを出してください。多肢選択式、○×式、短答式など、さまざまな種類の質問をしてください。次の質問に進む前に、私の回答を待ってください。
 # Prompt purpose: helps users understand words, phrases, concepts
 genai-prompts-explain =
-    .label = 説明
-    .value = 選択された範囲の主要な概念を、シンプルな言葉と例を使って説明してください。
+    .label = 解説
+    .value = 簡単な言葉を使って、この選択範囲の主要な概念を解説してください。また、例を使用してください。
 # Prompt purpose: writing tool that helps users with spelling and grammar mistakes and produce a response that identifies errors and rewrites the inputted text correctly
 genai-prompts-proofread =
     .label = 校正
-    .value = 選択した範囲の綴 (スペル) と文法のエラーを校正してください。間違いを特定し、修正版のテキストを提供してください。意味と事実の正確さを維持し、まず提案された修正箇所のリストを出力し、その後、最終的な修正版のテキストを出力してください。
+    .value = 選択範囲のスペルと文法の誤りを校正してください。誤りを特定し、修正したテキストのバージョンを提供してください。意味と事実の正確性を維持し、最初に修正提案のリストを出力したあとで、修正済みの最終バージョンのテキストを出力してください。
 
 ## Chatbot menu shortcuts
 
@@ -95,7 +95,7 @@ genai-shortcut-more-actions-button =
     .tooltiptext = その他のオプション
     .aria-label = その他のオプション
 genai-more-actions-panel =
-    .aria-label = 表示するアクションの選択
+    .aria-label = 表示するアクションを選択する
 # $provider (string) - name of the chatbot provider
 genai-more-actions-ai-provider =
     .label = { $provider } に質問
@@ -107,12 +107,15 @@ genai-more-actions-copy =
     .label = コピー
 # The span is a right-pointing chevron that separates the steps of the path to
 # the setting, in place of a ">" character.
-genai-more-actions-all-off-notice = テキストを選択したときにこのメニューは表示されません。再び表示するには [設定] <span data-l10n-name="chevron"></span> [タブとブラウジング] にアクセスしてください。
+genai-more-actions-all-off-notice = テキストを選択してもこのメニューは表示されません。もう一度表示するには、[設定] <span data-l10n-name="chevron"></span> [タブとブラウジング] にアクセスしてください。
 genai-more-actions-manage-settings =
     .label = 設定を管理
+genai-selection-callout-title = テキストをハイライトしてアクションを選択する
+# "Search" and "Copy" are verbs.
+genai-selection-callout-text = テキストを選択して検索またはコピーを行います。<span data-l10n-name="more-actions">•••</span> メニューから表示するアクションを選択できます。
 
-genai-menu-new-badge = 新規
-genai-menu-summarize-page = ページの要約
+genai-menu-new-badge = 新機能
+genai-menu-summarize-page = ページを要約
 
 genai-input-ask-smart-window =
     .placeholder = 質問…
@@ -125,20 +128,20 @@ genai-input-ask-provider =
 # $selectionLength (number) - selected text length
 # $maxLength (number) - max length of what can be selected
 genai-shortcuts-selected-warning-generic =
-    .heading = AI チャットボットで選択された範囲すべてを取できません
+    .heading = 選択範囲のすべてを AI チャットボットに送信できません
     .message = { $selectionLength ->
-        *[other] 約 { $selectionLength } 文字が選択されました。AI  チャットボットに送信できる文字数は最大で約 { $maxLength } 文字です。
+        *[other] 約 { $selectionLength } 文字が選択されています。AI チャットボットに送信できる文字数は約 { $maxLength } 文字です。
     }
 # $provider (string) - name of the provider
 # $selectionLength (number) - selected text length
 # $maxLength (number) - max length of what can be selected
 genai-shortcuts-selected-warning =
-    .heading = { $provider } は選択された範囲すべてを取得できません
+    .heading = 選択範囲のすべてを { $provider } に送信できません
     .message = { $selectionLength ->
         *[other] 約 { $selectionLength } 文字が選択されました。{ $provider } に送信できる文字数は約 { $maxLength } 文字です。
     }
 genai-shortcuts-hide =
-    .label = チャットボットのショートカットを非表示
+    .label = チャットボットのショートカットを非表示にする
 
 ## Chatbot header
 
@@ -153,7 +156,7 @@ genai-header-close-button =
 genai-provider-view-details =
     .label = チャットボットの詳細を表示
 genai-options-reload-generic =
-    .label = AI チャットボットの再読み込み
+    .label = AI チャットボットを再読み込み
 # $provider (string) - name of the provider
 genai-options-reload-provider =
     .label = { $provider } を再読み込み
@@ -188,8 +191,8 @@ genai-chatbot-contextual-button = チャットボットを選択
 
 genai-onboarding-choose-header = { -brand-short-name } のサイドバーで使用する AI チャットボットを選択してください
 # "Switch anytime" refers to allowing the user to switch to a different chatbot.
-genai-onboarding-choose-description = いつでも切り替え可能です。各チャットボットの特徴や違いについては <a data-l10n-name="learn-more">各チャットボットについて詳しく知る</a> をご覧ください。
-genai-onboarding-primary = 続ける
+genai-onboarding-choose-description = いつでも切り替えられます。選び方については、<a data-l10n-name="learn-more">各チャットボットの詳細</a> をご覧ください。
+genai-onboarding-primary = 次へ
 genai-onboarding-secondary = 閉じる
 genai-onboarding-claude-tooltip =
     .title = Anthropic Claude
@@ -228,18 +231,18 @@ genai-model-optin-cancel =
 #   $range (String): The range of minutes as a localised string. Examples: "3-7", "~1".
 link-preview-reading-time =
     { $rangePlural ->
-        [one] 約 { $range } 分で読めます
-       *[other] 約 { $range } 分で読めます
+        [one] 読む時間の目安: { $range } 分
+       *[other] 読む時間の目安: { $range } 分
     }
 
 # Error message displayed when a link preview cannot be generated
-link-preview-error-message-v2 = { -brand-short-name } ではこのリンクをプレビューできません
+link-preview-error-message-v2 = { -brand-short-name } でこのリンクのプレビューを表示できません
 
 # Text for the link to visit the original URL when in error state
 link-preview-visit-link = リンクを開く
 
 # Error message when key points generation (summary highlights or main ideas of page content) fails for a page
-link-preview-generation-error-missing-data-v2 = { -brand-short-name } はこのウェブページの要約を生成できません。
+link-preview-generation-error-missing-data-v2 = { -brand-short-name } でこのウェブページの要点を生成できません。
 
 # Error message when something went wrong during key point generation
 link-preview-generation-error-unexpected = 問題が発生しました。
@@ -252,16 +255,16 @@ link-preview-settings-button =
     .title = リンク プレビューの設定
 
 link-preview-settings-enable =
-    .label = リンクプレビューを有効にする
-    .description = ショートカットや右クリックでリンクを開くと、ページタイトルや説明などが表示されます。
+    .label = リンク プレビューを有効にする
+    .description = ショートカットを使用するか、リンクを右クリックすると、ページのタイトルや説明などを表示できます。
 link-preview-settings-key-points =
-    .label = AIにページ冒頭を読み込ませ、要点を生成することを許可
+    .label =  AI にページの冒頭を読み込ませて要点を生成することを許可
 link-preview-settings-long-press =
-    .label = ショートカット: リンクを 1 秒間クリックしたままにする (長押し)
+    .label = ショートカット: リンクを 1 秒間クリックして押し続ける (長押し)
 
 highlight-to-search-settings-enable =
-    .label = テキスト選択時にアクションメニューを表示
-    .description = コンテンツを選択したときに便利なアクションにすばやくアクセスできます。
+    .label = テキスト選択時にアクションメニューを表示する
+    .description = コンテンツを選択したときに、役立つアクションにすばやくアクセスできます。
 # $provider (string) - name of the AI chatbot provider
 highlight-to-search-settings-ask-provider =
     .label = { $provider } に質問
@@ -279,29 +282,29 @@ highlight-to-search-settings-copy =
     .label = コピー
 
 # Title that appears when user is shown the opt-in flow for link previews
-link-preview-optin-title = AI でさらに便利に？
+link-preview-optin-title = AI でさらに便利に表示しますか?
 
 # Message that appears when user is shown the opt-in flow for link previews
-link-preview-optin-message = { -brand-short-name } は、AI を使ってページ冒頭を読み取り、いくつかの要点を生成します。プライバシーを優先するため、これはお使いのデバイス上で行われます。
+link-preview-optin-message = { -brand-short-name } は AI を使用してページの冒頭を読み込み、いくつかの要点を生成します。プライバシーを最優先するため、この処理はお使いのデバイス上で行われます。
 
 # Onboarding card title for long press
-link-preview-onboarding-title-long-press = 新機能: 任意のリンクを長押しするとプレビューが表示されます
+link-preview-onboarding-title-long-press = 新機能: 任意のリンクをクリックして押し続けるとプレビューが表示されます
 
 # Onboarding card description for long press
-link-preview-onboarding-description-long-press = 短い説明や読了時間などを表示して、リンクを開く価値があるか判断できます。右クリックからも利用可能です。
+link-preview-onboarding-description-long-press = 短い説明や読む時間の目安などを表示して、リンクを開く価値があるかどうかを判断できます。右クリックからも利用できます。
 
 # Header for the key points section
 link-preview-key-points-header = 要点
 
 # Disclaimer for AI-generated key points
-link-preview-key-points-disclaimer = 要点は AI によって生成されており、間違いが含まれている可能性があります。
+link-preview-key-points-disclaimer = 要点は AI によって生成されるため、誤りが含まれる場合があります。
 
 # Progress message for the first-time setup
 # $progress (number) - The percentage value 1-100 indicating the progress of the setup.
 link-preview-setup = 初回セットアップ中 • <strong>{ $progress }%</strong>
 
 # Message indicating faster performance after initial setup
-link-preview-setup-faster-next-time = 次回からは、要点がより速く表示されます。
+link-preview-setup-faster-next-time = 次回からよりすばやく要点が表示されます。
 
 # Onboarding card See a preview button
 link-preview-onboarding-button = プレビューを表示
@@ -313,4 +316,4 @@ link-preview-onboarding-close = 閉じる
 link-preview-first-time-setup-title = 初回セットアップ
 
 # Message for the first-time setup modal
-link-preview-first-time-setup-message = これには時間がかかる場合があります。次回からは、要点がより迅速に表示されます。
+link-preview-first-time-setup-message = しばらくお待ちください。次回からよりすばやく要点が表示されます。

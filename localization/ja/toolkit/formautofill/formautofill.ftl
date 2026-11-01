@@ -41,12 +41,10 @@ credit-card-save-doorhanger-description = { -brand-short-name } はカード番�
 ## Used on the doorhanger when users submit a new card and security codes can be saved.
 
 credit-card-save-payment-method-doorhanger-header = この支払い方法を保存しますか?
-# Used when the security code won't be saved, because saving security codes
-# is turned off or the form didn't include one.
+# Also used on the doorhanger when a saved card is submitted with a new or
+# changed security code.
 # “Checkout” refers to the payment stage on websites.
 credit-card-save-payment-method-doorhanger-description = { -brand-short-name } が支払い情報を暗号化して保存するため、次からスムーズに買い物をすることができます。
-# Used when the security code will be saved along with the card.
-credit-card-save-payment-method-doorhanger-description-security-code = { -brand-short-name } がカード番号とセキュリティコードを暗号化して保存するため、次から自動で入力されます。
 credit-card-capture-dismiss-button =
     .label = 閉じる
     .accessKey = D
@@ -87,8 +85,10 @@ credit-card-capture-update-button =
 ## and security codes can be saved.
 
 credit-card-update-payment-method-doorhanger-header = 支払い方法を更新しますか?
-credit-card-capture-save-new-payment-method-button =
-    .label = 新しい支払い方法を保存
+# Saves the submitted details as a new payment method instead of updating
+# the saved one.
+credit-card-capture-save-as-new-payment-method-button =
+    .label = 新規として保存
     .accessKey = S
 credit-card-capture-update-payment-method-button =
     .label = 更新
@@ -98,8 +98,6 @@ credit-card-capture-update-payment-method-button =
 ## security code.
 
 credit-card-save-security-code-doorhanger-header = セキュリティコードを保存しますか?
-# “Checkout” refers to the payment stage on websites.
-credit-card-save-security-code-doorhanger-description = 次回からのスムーズな買い物のため、{ -brand-short-name } がこのカードのセキュリティコードを暗号化して保存します。
 
 ##
 
@@ -133,16 +131,14 @@ credit-card-security-code-name-other = セキュリティコード
 ##   $year (String): Two-digit year the card expires
 ##   $securityCode (String): The name of the card's security code, from one of
 ##     the credit-card-security-code-name-* strings (for example "CVV")
-## "•••" stands for the hidden security code; keep it as is rather than
-## translating it into words.
 
 credit-card-doorhanger-card-details-name = { $name }
 credit-card-doorhanger-card-details-expiration = { $month }/{ $year }
-credit-card-doorhanger-card-details-security-code = { $securityCode } •••
+credit-card-doorhanger-card-details-security-code = { $securityCode }
 credit-card-doorhanger-card-details-name-expiration = { $name } | { $month }/{ $year }
-credit-card-doorhanger-card-details-name-security-code = { $name } | { $securityCode } •••
-credit-card-doorhanger-card-details-expiration-security-code = { $month }/{ $year } | { $securityCode } •••
-credit-card-doorhanger-card-details-name-expiration-security-code = { $name } | { $month }/{ $year } | { $securityCode } •••
+credit-card-doorhanger-card-details-name-security-code = { $name } | { $securityCode }
+credit-card-doorhanger-card-details-expiration-security-code = { $month }/{ $year } | { $securityCode }
+credit-card-doorhanger-card-details-name-expiration-security-code = { $name } | { $month }/{ $year } | { $securityCode }
 
 ## These are brand names and should only be translated when a locale-specific name for that brand is in common use
 

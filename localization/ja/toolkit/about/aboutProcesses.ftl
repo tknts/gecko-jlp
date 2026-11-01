@@ -58,7 +58,6 @@ about-processes-gmp-plugin-process = Gecko メディア プラグイン ({ $pid 
 about-processes-gpu-process = GPU ({ $pid })
 about-processes-vr-process = VR ({ $pid })
 about-processes-rdd-process = データ デコーダー ({ $pid })
-about-processes-socket-process = ネットワーク ({ $pid })
 about-processes-fork-server-process = Fork サーバー ({ $pid })
 about-processes-preallocated-process = 事前割り当て ({ $pid })
 about-processes-utility-process = ユーティリティー ({ $pid })

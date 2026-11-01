@@ -44,12 +44,6 @@ more-from-moz-mozilla-monitor-title = { -mozmonitor-brand-name }
 more-from-moz-mozilla-monitor-global-description = データが侵害されたときに警告を受け取ります。
 more-from-moz-mozilla-monitor-button = { -monitor-brand-short-name } を入手
 
-## These strings are for the Solo card in about:preferences moreFromMozilla page
-
-more-from-moz-solo-title-2 = { -solo-ai-brand-name } AI ウェブサイト作成ツール
-more-from-moz-solo-description = ウェブサイトを即座に作成し、自分専用のカスタムドメインを無料で接続できます。
-more-from-moz-solo-button = { -solo-ai-brand-name } を試す
-
 ## These strings are for the MDN card in about:preferences moreFromMozilla page
 
 more-from-moz-mdn-title2 = { -mdn-brand-name }
@@ -99,9 +93,9 @@ more-from-moz-thunderbird-card =
     .label = { -thunderbird-brand-name }
     .description = メール、カレンダー、連絡先に、一つの高速なアプリでアクセスできます。
 
-more-from-moz-solo-card-1 =
-    .label = { -solo-ai-brand-name }
-    .description = 私たちの最新のアイデアや実験的な技術を体験しましょう。
+more-from-moz-firefox-enterprise-card =
+    .label = { -firefox-enterprise-brand-name }
+    .description = 規制やセキュリティが重視される組織向けのブラウザー管理機能です。
 
 more-from-moz-new-products-card2 =
     .label = { -vendor-short-name } の新製品
@@ -122,8 +116,8 @@ more-from-moz-mdn-box-link =
 more-from-moz-thunderbird-box-link =
     .label = { -thunderbird-brand-short-name } を入手
 
-more-from-moz-solo-box-link =
-    .label = { -solo-ai-brand-name } を試す
+more-from-moz-firefox-enterprise-box-link =
+    .label = { -firefox-enterprise-brand-name } について詳しく
 
 more-from-moz-new-products-box-link =
     .label = 新製品を見る

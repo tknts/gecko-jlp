@@ -3,13 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 synced-tabs-sidebar-title = 同期されたタブ
-synced-tabs-sidebar-noclients-subtitle = タブを他のデバイスで見ますか?
-synced-tabs-sidebar-intro = 他のデバイスのタブの一覧を表示します。
-synced-tabs-sidebar-unverified = あなたのアカウントは認証されていません。
+synced-tabs-sidebar-noclients-subtitle = 他の端末で開いているタブをここに表示しますか?
+synced-tabs-sidebar-intro = 他の端末で開いているタブの一覧を表示します。
+synced-tabs-sidebar-unverified = アカウントの認証が必要です。
 synced-tabs-sidebar-notabs = 開いているタブはありません
-synced-tabs-sidebar-open-settings = 同期の設定を開く
-synced-tabs-sidebar-tabsnotsyncing = タブの同期を有効にすると他のデバイスで開かれているタブの一覧を表示します。
-synced-tabs-sidebar-connect-another-device = その他のデバイスを接続
+synced-tabs-sidebar-open-settings = Sync の設定を開く
+synced-tabs-sidebar-tabsnotsyncing = タブの同期を有効にすると、ほかの端末のタブ一覧を表示できます。
+synced-tabs-sidebar-connect-another-device = 別の端末を接続
 synced-tabs-sidebar-search =
     .placeholder = 同期されたタブの検索
 
@@ -26,7 +26,7 @@ synced-tabs-context-open-in-tab =
     .label = 新しいタブで開く
     .accesskey = w
 synced-tabs-context-open-in-container-tab =
-    .label = 新しいコンテナタブで開く
+    .label = 新しいコンテナー タブで開く
     .accesskey = i
 synced-tabs-context-open-in-window =
     .label = 新しいウィンドウで開く
@@ -52,19 +52,19 @@ synced-tabs-context-open-all-in-tabs =
     .label = すべてタブで開く
     .accesskey = O
 synced-tabs-context-manage-devices =
-    .label = デバイスの管理…
+    .label = 端末の管理…
     .accesskey = D
 synced-tabs-context-manage-this-device =
-    .label = このデバイスを管理
+    .label = この端末を管理
     .accesskey = T
 synced-tabs-context-connect-another-device =
-    .label = 他のデバイスを接続
+    .label = 別の端末を接続
     .accesskey = A
 synced-tabs-context-sync-now =
     .label = 今すぐ同期
     .accesskey = S
-synced-tabs-fxa-sign-in = サインインして同期
-synced-tabs-turn-on-sync = Turn on sync
+synced-tabs-fxa-sign-in = ログインして同期
+synced-tabs-turn-on-sync = 同期を有効にする
 
 # Context for hovering over the close tab button that will
 # send a push to the device to close said tab

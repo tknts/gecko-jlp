@@ -705,3 +705,39 @@ welcome-back-onboarding-card-label-tabs = 垂直タブとグループによる�
 welcome-back-onboarding-card-label-vpn = 内蔵された VPN でプライバシーを保護
 welcome-back-onboarding-card-label-pdf = PDF でハイライト、署名、編集ができます
 welcome-back-onboarding-card-tilebutton-label = 試してみる
+
+## New Tab Onboarding cards
+
+hnt-card-import-header = 数秒で { -brand-short-name } をセットアップ
+hnt-card-import-body = 他のブラウザーからブックマークやパスワードなどを簡単にインポートできます。
+hnt-card-import-primary-button = データをインポート
+
+hnt-card-default-body = { -brand-product-name } は、ユーザーの追跡ではなく保護を第一に考えて作られた、主要な独立系ブラウザーです。
+hnt-card-default-primary-button = { -brand-short-name } でリンクを開く
+
+hnt-card-pin-header = { -brand-short-name } にすぐアクセス
+hnt-card-pin-body = { PLATFORM() ->
+    [macos] Dock からいつでも保護されたブラウジングを再開できます。
+   *[other] タスクバーからいつでも保護されたブラウジングを再開できます。
+}
+
+hnt-card-mobile-header = スマホでも標準でプライバシー保護
+hnt-card-mobile-body = モバイル版 { -brand-product-name } をダウンロードして、外出先でもプライバシーをしっかり守りましょう。
+hnt-card-mobile-primary-button = モバイル版 { -brand-product-name } を取得
+
+hnt-card-wallpaper-header = 新しい壁紙を選ぶ
+hnt-card-wallpaper-body = お気に入りの背景を設定して、この画面を自分らしく彩りましょう。
+hnt-card-wallpaper-primary-button = カスタマイズを開始
+
+hnt-card-taskbar-tabs-header = お気に入りのサイトを Windows のタスクバーに追加
+hnt-card-taskbar-tabs-body = { -brand-product-name } の優れた保護機能はそのままに、よく訪れるサイトをアプリのように開くことができます。
+hnt-card-taskbar-tabs-primary-button = サイトをタスクバーに追加
+
+hnt-card-extensions-header = 拡張機能で { -brand-short-name } をパワーアップ
+hnt-card-extensions-body = 人気の拡張機能を使って、ブラウジングを自分好みにカスタマイズしましょう。
+hnt-card-extensions-primary-button = 探索する
+
+# "Do your thing" is an idiom meaning to do what you are interested in or skilled at,
+# rather than simply doing what everyone else does.
+hnt-card-last-card-header-start = 準備完了です。自分のスタイルでインターネットを楽しみましょう。
+hnt-card-last-card-header-end = トラッキング保護が有効です。

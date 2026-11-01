@@ -342,12 +342,17 @@ urlbar-result-aria-group-sports =
 
 # A label shown above temporal search suggestions.
 urlbar-group-temporal-seasonal =
-  .label = 季節のサジェスト
+  .label = 季節に関連する検索
 
 # This string is shown in the result menu.
-urlbar-result-menu-dont-show-temporal-seasonal = 季節のサジェストを表示しない
+urlbar-result-menu-dont-show-temporal-seasonal = 季節に関連する検索候補を表示しない
   .accesskey = D
 
 # A message that replaces a result when the user dismisses temporal search
 # suggestions.
 urlbar-temporal-seasonal-dismissal-acknowledgment = フィードバックをありがとうございます。今後、季節のサジェストは表示されません。
+
+# A checkbox in the address bar settings that controls whether seasonal search
+# suggestions are shown.
+addressbar-locbar-suggest-temporal-seasonal-option =
+  .label = 季節に関連する検索候補

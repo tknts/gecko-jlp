@@ -390,8 +390,10 @@ permissions-addon-button = 許可設定
 extension-enabled-heading = 有効
 extension-disabled-heading = 無効
 
-theme-enabled-heading = 有効
-theme-disabled-heading2 = 保存されたテーマ
+theme-enabled-heading2 =
+  .heading = 有効なテーマ
+theme-disabled-heading3 =
+  .heading = 保存済みのテーマ
 
 plugin-enabled-heading = 有効
 plugin-disabled-heading = 無効
@@ -519,7 +521,9 @@ addon-permissions-learnmore = 権限の詳細についてさらに詳しく
 addon-permissions-managed-by-policy = 一部の権限は組織によって管理されています。
 
 recommended-extensions-heading = おすすめの拡張機能
-recommended-themes-heading = おすすめのテーマ
+
+recommended-themes-card-heading =
+  .heading = おすすめのテーマ
 
 # Variables:
 #   $hostname (string) - Host where the permissions are granted

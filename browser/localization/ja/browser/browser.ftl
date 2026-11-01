@@ -1656,6 +1656,29 @@ file-picker-crashed-show-in-folder =
     .label = フォルダーを表示
     .accessKey = F
 
+## Unsigned add-ons notification
+
+unsigned-addons-disabled-message = インストールされているアドオンの一部を確認できなかったため、無効化しました。
+unsigned-addons-disabled-learn-more =
+    .label = 詳細情報
+    .accesskey = L
+
+## Process hang notification ("ProcessHangMonitor.sys.mjs")
+
+process-hang-selected-tab-message = このページが { -brand-short-name } の動作を遅くしています。ブラウザーを快適にするため、このページを停止してください。
+process-hang-nonspecific-tab-message = ウェブページが { -brand-short-name } の動作を遅くしています。ブラウザーを快適にするため、そのページを停止してください。
+# Variables:
+#   $title (String): the title of the tab.
+process-hang-specific-tab-message = “{ $title }” が { -brand-short-name } の動作を遅くしています。ブラウザーを快適にするため、そのページを停止してください。
+# Variables:
+#   $addonName (String): the name of the extension.
+process-hang-addon-message = “{ $addonName }” が { -brand-short-name } の動作を遅くしています。ブラウザーを快適にするため、その拡張機能を停止してください。
+process-hang-addon-learn-more =
+    .value = 詳細情報
+process-hang-stop-button =
+    .label = 停止
+    .accesskey = S
+
 ## Onboarding Finish Setup checklist
 
 onboarding-aw-finish-setup-button =

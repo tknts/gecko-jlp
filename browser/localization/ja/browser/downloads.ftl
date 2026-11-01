@@ -31,7 +31,7 @@ downloads-cmd-cancel-panel =
 
 downloads-cmd-show-menuitem-2 =
   .label = { PLATFORM() ->
-      [macos] Show in Finder
+      [macos] Finder に表示
      *[other] フォルダーで表示
   }
   .accesskey = F
@@ -66,23 +66,23 @@ downloads-cmd-always-use-system-default-named =
 # We can use the same accesskey as downloads-cmd-always-use-system-default.
 # Both should not be visible in the downloads context menu at the same time.
 downloads-cmd-always-open-similar-files =
-  .label = Always Open Similar Files
+  .label = 類似するファイルを常に開く
   .accesskey = w
 
 downloads-cmd-show-button-2 =
   .tooltiptext = { PLATFORM() ->
-      [macos] Show in Finder
+      [macos] Finder に表示
      *[other] フォルダーで表示
   }
 
 downloads-cmd-show-panel-2 =
   .aria-label = { PLATFORM() ->
-      [macos] Show in Finder
+      [macos] Finder に表示
      *[other] フォルダーで表示
   }
 downloads-cmd-show-description-2 =
   .value = { PLATFORM() ->
-      [macos] Show in Finder
+      [macos] Finder に表示
      *[other] フォルダーで表示
   }
 
@@ -91,10 +91,10 @@ downloads-cmd-retry =
 downloads-cmd-retry-panel =
     .aria-label = もう一度
 downloads-cmd-go-to-download-page =
-    .label = ダウンロード元のページへ移動
+    .label = ダウンロードページへ移動
     .accesskey = G
 downloads-cmd-copy-download-link =
-    .label = ダウンロード元のリンクをコピー
+    .label = ダウンロードリンクをコピー
     .accesskey = L
 downloads-cmd-remove-from-history =
     .label = 履歴から削除
@@ -103,7 +103,7 @@ downloads-cmd-clear-list =
     .label = プレビューパネルを消去
     .accesskey = a
 downloads-cmd-clear-downloads =
-    .label = ダウンロードを消去
+    .label = ダウンロード履歴を消去
     .accesskey = C
 downloads-cmd-delete-file =
     .label = 削除
@@ -158,13 +158,13 @@ downloads-open-file =
 ##   $minutes (number) - Amount of minutes till the file opens.
 
 downloading-file-opens-in-hours-and-minutes-2 =
-  .value = あと { $hours }時間 { $minutes }分で開きます…
+  .value = { $hours }時間 { $minutes }分後に開きます…
 downloading-file-opens-in-minutes-2 =
-  .value = あと { $minutes }分で開きます…
+  .value = { $minutes }分後に開きます…
 downloading-file-opens-in-minutes-and-seconds-2 =
-  .value = あと { $minutes }分 { $seconds }秒で開きます…
+  .value = { $minutes }分 { $seconds }秒後に開きます…
 downloading-file-opens-in-seconds-2 =
-  .value = あと { $seconds }秒で開きます…
+  .value = { $seconds }秒後で開きます…
 downloading-file-opens-in-some-time-2 =
   .value = 完了したら開きます…
 downloading-file-click-to-open =
@@ -175,12 +175,12 @@ downloading-file-click-to-open =
 # Displayed when hovering a download which is able to be retried by users,
 # indicates that it's possible to download this file again.
 downloads-retry-download =
-    .value = もう一度
+    .value = もう一度ダウンロード
 
 # Displayed when hovering a download which is able to be cancelled by users,
 # indicates that it's possible to cancel and stop the download.
 downloads-cancel-download =
-    .value = キャンセル
+    .value = ダウンロードをキャンセル
 
 # This string is shown at the bottom of the Downloads Panel when all the
 # downloads fit in the available space, or when there are no downloads in
@@ -197,13 +197,13 @@ downloads-details =
 ## These strings are displayed in the private browsing view of the downloads panel
 
 downloads-private-browsing-details =
-  .title = ファイルは端末に保存されます
+  .title = ファイルが端末に保存されます
 downloads-private-browsing-message = プライベートウィンドウをすべて閉じても、この端末を使う他の人がダウンロードを確認できます。
 downloads-private-browsing-delete-button =
   .label = ファイルを自動的に削除する
   .accesskey = D
 downloads-private-browsing-accept-button =
-  .label = わかりました
+  .label = 了解しました
   .accesskey = G
 
 ## Displayed when a site attempts to automatically download many files.
@@ -216,13 +216,13 @@ downloads-files-not-downloaded = { $num ->
    *[other] {$num} 個のファイルがダウンロードされていません。
 }
 downloads-blocked-from-url = { $url } からのダウンロードをブロックしました。
-downloads-blocked-download-detailed-info = { $url } が複数のファイルを自動的にダウンロードしようとしました。 サイトが破損しているか、デバイスに不必要なファイルを保存しようとしている可能性があります。
+downloads-blocked-download-detailed-info = { $url } が複数のファイルを自動的にダウンロードしようとしました。サイトが破損しているか、デバイスに不必要なファイルを保存しようとしている可能性があります。
 
 ##
 
 downloads-clear-downloads-button =
-    .label = ダウンロードを消去
-    .tooltiptext = 完了またはキャンセルや中止されたダウンロードを消去します
+    .label = ダウンロード履歴を消去
+    .tooltiptext = 完了、キャンセル、失敗したダウンロードを消去します
 
 # This string is shown when there are no items in the Downloads view, when it
 # is displayed inside a browser tab.
@@ -231,7 +231,7 @@ downloads-list-empty =
 
 # This string is shown when there are no items in the Downloads Panel.
 downloads-panel-empty =
-    .value = このセッションにはダウンロードがありません
+    .value = このセッションでのダウンロードはありません。
 
 # This is displayed in an item at the bottom of the Downloads Panel when there
 # are more downloads than can fit in the list in the panel.
@@ -239,8 +239,8 @@ downloads-panel-empty =
 #                     panel list.
 downloads-more-downloading =
     { $count ->
-        [one] { $count } more file downloading
-       *[other] { $count } more files downloading
+        [one] 他 { $count } 個のファイルをダウンロード中
+       *[other] 他 { $count } 個のファイルをダウンロード中
     }
 
 ## Download errors
@@ -248,11 +248,105 @@ downloads-more-downloading =
 downloads-error-alert-title = ダウンロードのエラー
 # Variables:
 #   $extension (String): the name of the blocking extension.
-downloads-error-blocked-by = { $extension } によってブロックされているため、ダウンロードを保存できません。
+downloads-error-blocked-by = { $extension } によってブロックされているため、ファイルを保存できません。
 # Used when the name of the blocking extension is unavailable.
-downloads-error-extension = 拡張機能によってブロックされているため、ダウンロードを保存できません。
+downloads-error-extension = 拡張機能によってブロックされているため、ファイルを保存できません。
 # Line breaks in this message are meaningful, and should be maintained.
 downloads-error-generic =
-    不明なエラーが発生したため、ダウンロードを保存できません。
+    不明なエラーが発生したため、ファイルを保存できません。
 
     もう一度やり直してください。
+
+## Download states, displayed in the status line of each download in the
+## Downloads Panel and the Downloads View.
+
+downloads-state-starting = 開始しています…
+downloads-state-failed = 失敗しました
+downloads-state-paused = 一時停止中
+downloads-state-canceled = キャンセルされました
+downloads-state-completed = 完了しました
+# Indicates that the download was blocked by the Parental Controls feature of
+# Windows. "Parental Controls" should be consistently named and capitalized
+# with the display of this feature in Windows.
+downloads-state-blocked-parental-controls = 保護者による制限によりブロックされました
+
+## These strings are shown in the status line and in the details sub-panel
+## for some types of blocked downloads.
+
+downloads-blocked-malware = このファイルにはウイルスまたはマルウェアが含まれています。
+downloads-blocked-potentially-unwanted = このファイルはコンピューターに害を及ぼす可能性があります。
+downloads-blocked-potentially-insecure = ファイルはダウンロードされませんでした: セキュリティ上のリスクがある可能性があります。
+downloads-blocked-uncommon = このファイルは一般的にダウンロードされていません。
+downloads-blocked-by-content-analysis = このファイルはお使いの組織によってブロックされました。
+downloads-warned-by-content-analysis = このダウンロードは安全ではない可能性があるため、確認が必要です。
+
+## Displayed when a download is blocked because of an error with the
+## data-loss prevention (DLP) software used by the organization.
+## Variables:
+##   $agent (String) - The name of the DLP agent.
+
+downloads-content-analysis-no-agent-error = { $agent } に接続できないため、ファイルはブロックされました。
+downloads-content-analysis-invalid-agent-signature-error = { $agent } の署名検証に失敗したため、ファイルはブロックされました。
+downloads-content-analysis-unspecified-error = { $agent } との通信エラーが発生したため、ファイルはブロックされました。
+downloads-content-analysis-timeout-error = { $agent } がタイムアウトしたため、このファイルはブロックされました。
+
+##
+
+# Displayed when a complete download which is not at the original folder.
+downloads-file-moved-or-missing = ファイルが移動されたか見つかりません
+# Displayed when a downloaded file has been deleted by the browser,
+# e.g. by the "Delete" context menu item.
+downloads-file-deleted = ファイルが削除されました
+# Displayed when a download was blocked for safety reasons and the blocked file
+# data was subsequently deleted at the user's request.
+downloads-file-blocked-and-deleted = ファイルが破棄されました (ブロック済み)
+
+## These strings are displayed in the dialog shown when the user asks a blocked
+## download to be unblocked, and in the details sub-panel of the Downloads
+## Panel. The severity of the threat is expressed in descending order by the
+## downloads-unblock-type-* strings, it is higher for files detected as malware
+## and lower for uncommon downloads.
+
+downloads-unblock-header-unblock = このダウンロードを本当に許可しますか?
+downloads-unblock-header-open = このファイルを本当に開きますか?
+downloads-unblock-type-malware = このファイルには、コンピューターに害を及ぼすウイルスやその他のマルウェアが含まれています。
+downloads-unblock-type-potentially-unwanted = このファイルは便利なダウンロードを装っていますが、プログラムや設定に予期しない変更を加えるおそれがあります。
+downloads-unblock-type-content-analysis-warn = あなたの所属する組織で使用されている情報漏洩防止ソフトウェアが、このコンテンツを安全ではないと判定しました。
+downloads-unblock-type-uncommon = このファイルは一般的にダウンロードされるものではなく、安全に開けない可能性があります。ウイルスが含まれていたり、プログラムや設定に予期しない変更が加えられたりするおそれがあります。
+downloads-unblock-insecure = 現在のドキュメントは安全な HTTPS 接続で配信されていますが、このダウンロードは HTTP 経由で提供されています。続行すると、ダウンロードのプロセス中にファイルが破損または改ざんされるおそれがあります。
+downloads-unblock-tip = 別のダウンロード元を検索するか、あとでやり直してください。
+downloads-unblock-content-analysis-warn-tip = それでもダウンロードするかどうかを選択できます。
+downloads-unblock-content-analysis-blocked = あなたの所属する組織で使用されている情報漏洩防止ソフトウェアによって、このダウンロードはブロックされました。
+downloads-unblock-content-analysis-override = この決定はあなたの所属する組織のみが上書きできます。
+downloads-unblock-content-analysis-tip = ダウンロードを続行するかキャンセルできます。
+downloads-unblock-button-open =
+    .label = 開く
+downloads-unblock-button-unblock =
+    .label = ダウンロードを許可
+downloads-unblock-button-confirm-block =
+    .label = ファイルを削除
+
+##
+
+# Variables:
+#   $size (String) - The size number, for example "1.5".
+#   $unit (String) - The measurement unit, for example "MB".
+downloads-size-with-units = { $size } { $unit }
+downloads-size-unknown = サイズ不明
+
+## These strings define templates for the separation of different elements in
+## the status line of a download item. As a separator, by default we use the
+## Unicode character U+2014 'EM DASH' (long dash). Examples of status lines
+## include "Canceled — 222.net", "1.1 MB — website2.com", or "Paused —  1.1 MB".
+## Note that we use a wider space after the separator when it is followed by a
+## number, just to avoid visually confusing it with a minus sign with some
+## fonts. If you use a different separator, this might not be necessary.
+## However, there is usually no need to change the separator or the order of
+## the substitutions, even for right-to-left languages, unless the defaults are
+## not suitable.
+## Variables:
+##   $start (String) - The text before the separator.
+##   $end (String) - The text after the separator.
+
+downloads-status-separator = { $start } — { $end }
+downloads-status-separator-before-number = { $start } —  { $end }
