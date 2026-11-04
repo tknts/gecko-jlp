@@ -296,14 +296,21 @@ tab-context-unnamed-group =
 tab-group-overflow-count = +{ $tabCount }
 tab-group-overflow-count-tooltip =
     { $tabCount ->
-        [one] 他に { $tabCount } 個のタブがあります
-        *[other] 他に { $tabCount } 個のタブがあります
+        [one] 他 { $tabCount } 個のタブ
+        *[other] 他 { $tabCount } 個のタブ
     }
 tab-context-move-tab-to-new-group =
     .label =
         { $tabCount ->
             [1] 新しいグループにタブを追加
-           *[other] 新しいグループに複数のタブを追加
+           *[other] 新しいグループにタブを追加
+        }
+    .accesskey = G
+tab-context-add-tab-to-group =
+    .label =
+        { $tabCount ->
+            [1] グループに追加
+           *[other] グループに { $tabCount } 個のタブを追加
         }
     .accesskey = G
 tab-context-move-tab-to-group =
@@ -330,6 +337,12 @@ tab-context-move-split-view-to-group =
 
 ##
 
+# Used for the "Add to Group" submenu when opened on a split view.
+# The split view's two tabs are added to the group together.
+tab-context-add-split-view-to-group =
+    .label = グループにタブを追加
+    .accesskey = G
+
 tab-splitview-splitter =
     .aria-label = 分割ビュータブのサイズを変更
 tab-devtools-splitter =
@@ -347,12 +360,12 @@ tab-group-editor-action-copy-links =
     .label =
         { $linkCount ->
             [1] グループ内のリンクをコピー
-           *[other] グループ内のリンク ({ $linkCount } 件) をコピー
+           *[other] グループ内の { $linkCount } 件のリンクをコピー
         }
 tab-group-editor-action-save =
     .label = グループを保存して閉じる
 tab-group-editor-action-ungroup =
-    .label = タブのグループ化を解除
+    .label = タブのグループを解除
 tab-group-editor-action-delete =
     .label = グループを削除
 tab-group-editor-done =
@@ -382,8 +395,8 @@ tab-context-ungroup-tab =
 # Text for a button that, when clicked, creates a new tab group
 tab-groups-list-create-group-button = 新しいグループ
 
-tab-groups-list-empty-header = タブをすっきり整理
-tab-groups-list-empty-description = タブを別のタブにドラッグするか、タブを右クリックして整理を始めましょう。グループはここに保存されるため、後から簡単に見つけることができます。
+tab-groups-list-empty-header = タブを整理しましょう
+tab-groups-list-empty-description = タブを別のタブにドラッグするか、タブを右クリックして整理を始めましょう。グループは後から見つけやすいようにここに保存されます。
 tab-groups-list-empty-button = タブグループを作成
 
 ## Open/saved tab group context menu
@@ -439,10 +452,10 @@ tab-context-edit-note =
 # but it seems likely to return, so this string is being left in place for now.
 
 tab-context-delete-note =
-    .label = ノートを削除
+    .label = メモを削除
     .accesskey = D
-tab-note-editor-title-create = ノートの追加
-tab-note-editor-title-edit = ノートの編集
+tab-note-editor-title-create = メモを追加
+tab-note-editor-title-edit = メモを編集
 tab-note-editor-text-field =
     .placeholder = このタブについて何を残しますか?
 tab-note-editor-button-cancel =
@@ -460,7 +473,7 @@ tab-note-preview-edit-icon =
 # Link to show the full tab note in case it was truncated.
 tab-note-preview-expand = 続きを読む
 tab-note-panel-add-note-new-badge =
-    .label = New
+    .label = 新しい機能
 
 # Displayed within the tab note edit dialog box when the user has entered more
 # characters than are allowed.
@@ -498,24 +511,28 @@ tab-context-open-in-split-view =
     .accesskey = t
 # Separate the two split view tabs and display the tabs and their contents as normal
 tab-context-separate-split-view =
-    .label = 分割表示を切り離す
+    .label = 分割表示を解除
+    .accesskey = t
+# Separate the two split view tabs and display the tabs and their contents as normal
+tab-context-separate-split-view-alt =
+    .label = タブを分ける
     .accesskey = t
 # Reverse the order of the two tabs in the split view
 tab-context-reverse-split-view =
     .label = タブを左右入れ替える
     .accesskey = r
-tab-context-badge-new = 新規
+tab-context-badge-new = 新機能
 # The label of a badge shown in menu items to call out features that are in beta.
-tab-context-badge-beta = Beta
+tab-context-badge-beta = ベータ
 
 ## Manage Split View (icon in the address bar & three-dot menu in the footer)
 
 # "Separate" is a verb, as in "separate the split view tabs and display them normally".
 split-view-menuitem-separate-tabs =
-    .label = タブの分割を解除
+    .label = タブの分割
 # "Reverse" is a verb, as in "reverse the order of split view tabs".
 split-view-menuitem-reverse-tabs =
-    .label = タブの順序を反転
+    .label = タブを左右入れ替える
 split-view-menuitem-close-both-tabs =
     .label = 両方のタブを閉じる
 

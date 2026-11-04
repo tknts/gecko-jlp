@@ -12,6 +12,12 @@ tab-context-new-tab-open-vertical =
 tab-context-new-group =
     .label = 新しいグループ
     .accesskey = G
+
+tab-context-add-tab-to-group-new-group =
+    .label = 新しいグループ
+tab-context-add-tab-to-group-closed-groups =
+    .label = 閉じたグループ
+
 reload-tab =
     .label = タブを再読み込み
     .accesskey = R
@@ -42,21 +48,43 @@ duplicate-tabs2 =
 # The following string is displayed on a menuitem that will close the tabs from the start of the tabstrip to the currently targeted tab (excluding the currently targeted and any other selected tabs).
 # In left-to-right languages this should use "Left" and in right-to-left languages this should use "Right".
 close-tabs-to-the-start =
-    .label = 左のタブを閉じる
+    .label = 左側のタブを閉じる
+    .accesskey = l
+# The following string is displayed on a menuitem ("Close Multiple") that closes the tabs from the start of the tabstrip to the currently targeted tab (excluding the currently targeted and any other selected tabs).
+# In left-to-right languages this should use "Left" and in right-to-left languages this should use "Right".
+close-tabs-to-the-start-alt =
+    .label = 左側
     .accesskey = l
 close-tabs-to-the-start-vertical =
-    .label = 上のタブを閉じる
+    .label = 上側のタブを閉じる
+    .accesskey = l
+# The following string is displayed on a menuitem ("Close Multiple") in vertical layout that closes the tabs from the currently targeted tab to the top of the tabstrip.
+close-tabs-to-the-start-vertical-alt =
+    .label = 上側
     .accesskey = l
 # The following string is displayed on a menuitem that will close the tabs from the end of the tabstrip to the currently targeted tab (excluding the currently targeted and any other selected tabs).
 # In left-to-right languages this should use "Right" and in right-to-left languages this should use "Left".
 close-tabs-to-the-end =
-    .label = 右のタブを閉じる
+    .label = 右側のタブを閉じる
+    .accesskey = i
+# The following string is displayed on a menuitem ("Close Multiple") that closes the tabs from the end of the tabstrip to the currently targeted tab (excluding the currently targeted and any other selected tabs).
+# In left-to-right languages this should use "Right" and in right-to-left languages this should use "Left".
+close-tabs-to-the-end-alt =
+    .label = 右側
     .accesskey = i
 close-tabs-to-the-end-vertical =
-    .label = 下のタブを閉じる
+    .label = 下側のタブを閉じる
+    .accesskey = i
+# The following string is displayed on a menuitem ("Close Multiple") in vertical layout that closes the tabs from the currently targeted tab to the bottom of the tabstrip.
+close-tabs-to-the-end-vertical-alt =
+    .label = 下側
     .accesskey = i
 close-other-tabs =
-    .label = 他のタブをすべて閉じる
+    .label = 他のタブを閉じる
+    .accesskey = o
+# The following string is displayed on a menuitem ("Close Multiple"), this closes all tabs in the tabstrip except for the selected tab.
+close-other-tabs-alt =
+    .label = 他のすべて
     .accesskey = o
 
 ## Variables:
@@ -111,19 +139,31 @@ tab-context-open-in-new-container-tab =
 tab-context-open-in-new-container-tab2 =
     .label = 新しいコンテナ タブを開く
     .accesskey = e
+tab-context-open-in-container =
+    .label = コンテナで開く
+    .accesskey = e
 move-to-start =
     .label = 先頭へ移動
+    .accesskey = S
+move-to-start-alt =
+    .label = 先頭
     .accesskey = S
 move-to-end =
     .label = 最後尾へ移動
     .accesskey = E
+move-to-end-alt =
+    .label = 最後尾
+    .accesskey = E
 move-to-new-window =
     .label = 新しいウィンドウへ移動
+    .accesskey = W
+move-to-new-window-alt =
+    .label = 新しいウィンドウ
     .accesskey = W
 # Variables
 #  $profileName (string): The name of the profile to move tab to
 move-to-new-profile =
-    .label = { $profileName } に移動
+    .label = { $profileName } へ移動
 tab-context-close-multiple-tabs =
     .label = 複数のタブを閉じる
     .accesskey = M
@@ -134,8 +174,9 @@ tab-context-close-multiple-tabs2 =
 tab-context-close-duplicate-tabs =
     .label = 同じタブを閉じる
     .accesskey = x
-tab-context-close-duplicate-tabs2 =
-    .label = このタブと同じタブを閉じる
+# The following string is displayed on a menuitem "Close Multiple", this closes all duplicate tabs of the selected tab in the tabstrip.
+tab-context-close-duplicate-tabs-alt =
+    .label = 重複したタブ
     .accesskey = x
 tab-context-share-url =
     .label = 共有
@@ -162,7 +203,7 @@ tab-context-close-n-tabs2 =
     .label =
         { $tabCount ->
             [1] 閉じる
-           *[other] { $tabCount } 個閉じる
+           *[other] { $tabCount } 個のタブを閉じる
         }
     .accesskey = C
 tab-context-move-tabs =
@@ -174,17 +215,21 @@ tab-context-move-tabs =
     .accesskey = v
 
 # Context menu option, highlighting this shows a submenu of potential destinations to move one or more tabs to (tab groups, windows, profiles, start, end, etc.)
-tab-context-move-tabs2 =
+tab-context-move-tabs3 =
     .label =
         { $tabCount ->
-            [1] タブを移動
-           *[other] { $tabCount } 個のタブを移動
+            [1] 移動先:
+           *[other] { $tabCount } 個のタブの移動先:
         }
     .accesskey = v
 
 # Context menu option, highlighting this shows a submenu of potential destinations to move two tabs of a split view together to (tab groups, windows, profiles, start, end, etc.)
 tab-context-move-split-view =
-    .label = 分割ビューを移動
+    .label = 分割ビューの移動先:
+    .accesskey = v
+# Context menu option, highlighting this shows a submenu of potential destinations to move two tabs of a split view together to (tab groups, windows, profiles, start, end, etc.)
+tab-context-move-split-view-alt =
+    .label = タブの移動先:
     .accesskey = v
 
 # The following string intentionally omits the word "Tab" from the singular and includes it in the plural.
@@ -196,14 +241,14 @@ tab-context-send-to-device =
         }
     .accesskey = n
 tab-context-send-to-device2 =
-    .label = デバイスに送信
+    .label = すべてのデバイスに送信
     .accesskey = n
 # The following string intentionally omits the word "Tab" from the singular and includes it in the plural.
 tab-context-send-to-mobile =
     .label =
         { $tabCount ->
-            [1] モバイルデバイスへ送信
-           *[other] { $tabCount } 個のタブをモバイルデバイスへ送信
+            [1] モバイル端末に送信
+           *[other] { $tabCount } 個のタブをモバイル端末に送信
         }
     .accesskey = n
 

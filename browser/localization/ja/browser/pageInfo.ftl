@@ -36,7 +36,7 @@ general-size =
 general-referrer =
     .value = 参照元 URL:
 general-modified =
-    .value = 変更日時:
+    .value = 最終更新日時:
 general-encoding =
     .value = 文字エンコーディング:
 general-meta-name =
@@ -92,7 +92,7 @@ security-view-unknown = 不明
 security-view-identity =
     .value = ウェブサイトの識別情報
 security-view-identity-owner =
-    .value = オーナー:
+    .value = 所有者:
 security-view-identity-domain =
     .value = ウェブサイト:
 security-view-identity-verifier =
@@ -105,7 +105,7 @@ security-view-qwac =
     .label = 適格証明書を表示
     .accesskey = Q
 
-security-view-privacy-history-value = 昨日までにこのウェブサイトにアクセスしたことがありますか?
+security-view-privacy-history-value = 昨日までにこのウェブサイトを訪問したことがありますか?
 security-view-privacy-sitedata-value = このウェブサイトは私のコンピューターに情報を保存していますか?
 
 security-view-privacy-clearsitedata =
@@ -135,6 +135,36 @@ security-site-data-only = はい。{ $value } { $unit } のサイトデータ
 security-site-data-cookies-only = はい。Cookie のみです。
 security-site-data-no = いいえ
 
+## These strings are used in the Technical Details section of the security tab
+
+security-technical-no-encryption =
+    .value = 接続は保護されていません
+security-technical-mixed-content =
+    .value = 接続は部分的に保護されています
+
+## Variables:
+##   $algorithm (string) - The encryption algorithm (e.g. "TLS_AES_128_GCM_SHA256")
+##   $keySize (number) - The size of the encryption key in bits
+##   $protocol (string) - The protocol version (e.g. "TLS 1.3")
+
+security-technical-encrypted =
+    .value = 接続は暗号化されています ({ $algorithm }、{ $keySize } ビットキー、{ $protocol })
+security-technical-broken-encryption =
+    .value = 暗号化に問題があります ({ $algorithm }、{ $keySize } ビットキー、{ $protocol })
+
+##
+
+# Variables:
+#   $website (string) - The hostname of the website
+security-technical-no-encryption-website = ウェブサイト { $website } は、表示しているページの暗号化をサポートしていません。
+security-technical-no-encryption-transit = 暗号化されずにインターネット上を送信された情報は、転送中に他の第三者に見られてしまう可能性があります。
+security-technical-no-encryption-page = 表示しているページは、インターネット上を送信される前に暗号化されていませんでした。
+security-technical-encrypted-page = 表示しているページは、インターネット上を送信される前に暗号化されていました。
+security-technical-encrypted-description = 暗号化により、権限のない第三者がコンピューター間を移動する情報を読み取ることを困難にします。そのため、ネットワーク上を移動する間にこのページが誰かに読まれた可能性は低いです。
+security-technical-mixed-content-description = 表示しているページの一部は、インターネット上を送信される前に暗号化されていませんでした。
+security-technical-weak-cipher = このウェブサイトへの接続には強力ではない暗号化が使用されており、プライバシーが保護されていません。他の第三者があなたの情報を閲覧したり、ウェブサイトの動作を変更したりする可能性があります。
+security-technical-ct-compliant = このウェブサイトは証明書透明性ポリシーに準拠しています。
+
 ##
 
 image-size-unknown = 不明
@@ -157,13 +187,13 @@ saved-passwords-yes = はい
 saved-passwords-no = いいえ
 
 no-page-title =
-    .value = ページタイトルなし:
+    .value = 無題のページ:
 general-quirks-mode =
     .value = Quirks (後方互換) モード
 general-strict-mode =
     .value = Standards Compliant (標準準拠) モード
 page-info-security-no-owner =
-    .value = このウェブサイトはオーナー情報を提供していません。
+    .value = このウェブサイトは所有者情報を提供していません。
 media-select-folder = 画像を保存するフォルダーを選択してください
 media-unknown-not-cached =
     .value = 不明 (キャッシュなし)

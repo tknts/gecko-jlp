@@ -200,15 +200,13 @@ about-glean-metrics-table-settings-timelines-vertical-line-x-offset = Y軸のX�
 about-glean-metrics-table-settings-timelines-vertical-line-y-offset = Y軸のYオフセット
 
 
-# Label displayed near an input field that can be used to filter metrics
-about-glean-label-for-filter-metrics = フィルター
-# This message sits alongside an input field, further describing its purpose.
-# Category refers to the category in which a given metric is recorded.
-# Name refers to the name of a given metric.
-# Type refers to a given metric's metric type.
-# Value refers to the underlying value of a given metric.
-# "Simple type" refers to a value type that does not have deeply-nested data, such as a boolean, number, string, or list of strings.
-about-glean-description-for-filter-metrics = これは、カテゴリ、名前、タイプ、および値 (値が単純なタイプの場合) に基づいて、以下のテーブルをフィルターします。
+# label: Displayed near an input field that can be used to filter metrics
+# description: This message sits alongside an input field, further describing its purpose. Category refers to the category in which a given metric is recorded. Name refers to the name of a given metric. Type refers to a given metric's metric type. Value refers to the underlying value of a given metric. "Simple type" refers to a value type that does not have deeply-nested data, such as a boolean, number, string, or list of strings.
+# placeholder: Search is a verb in this case
+about-glean-filter-metrics =
+  .label = メトリックを絞り込む
+  .description = カテゴリ、名前、タイプ、値 (単純なタイプの場合) に基づいて、以下の表を絞り込みます。
+  .placeholder = 検索
 
 about-glean-button-load-all = すべての値を読み込む
 # A button that, when pressed, exports the data currently shown in the metrics table

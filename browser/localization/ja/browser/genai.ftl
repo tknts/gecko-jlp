@@ -116,11 +116,14 @@ genai-selection-callout-text = テキストを選択して検索またはコピ�
 
 genai-menu-new-badge = 新機能
 genai-menu-summarize-page = ページを要約
+genai-menu-summarize-with-ai = AI で要約する
 
 genai-input-ask-smart-window =
     .placeholder = 質問…
 genai-input-ask-generic =
     .placeholder = AI  チャットボットに質問…
+genai-input-ask-ai =
+    .placeholder = AI に質問…
 # $provider (string) - name of the provider
 genai-input-ask-provider =
     .placeholder = { $provider } に質問…

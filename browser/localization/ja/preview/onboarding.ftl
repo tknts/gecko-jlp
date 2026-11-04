@@ -16,3 +16,13 @@ amo-screen-primary-cta = スタッフのおすすめからアドオンを探す
 browser-aboutwelcome-button =
     .label = 設定を完了する
     .tooltiptext = { -brand-short-name } の設定を完了します。
+
+## Smart Window Terms of Use Spotlight for signed-out users
+
+smartwindow-guest-tou-title = { -smart-window-brand-name } 利用規約
+
+## Shown when signing in as a guest fails, for example because the server is down
+
+smartwindow-guest-unavailable-title = { -smart-window-brand-name } は一時的に利用できません
+smartwindow-guest-unavailable-body = 時間を置いて再度お試しください。
+smartwindow-guest-unavailable-ok = OK
