@@ -44,20 +44,6 @@ smart-window-model-radio-group =
     .aria-label = アシスタントモデル
 smart-window-model-learn-link = モデルについて詳しく
 
-## Variables:
-##   $model (string) - The name of the AI model
-##   $ownerName (String) - The name of owner of the AI model
-
-smart-window-model-fast =
-    .label = 高速: 素早く回答します
-    .description = モデル: { $model } / 提供元: { $ownerName }
-smart-window-model-flexible =
-    .label = フレキシブル: 多くのニーズにしっかり対応します
-    .description = モデル: { $model } / 提供元: { $ownerName }
-smart-window-model-personal =
-    .label = パーソナル: 最も一人ひとりに適した回答をします
-    .description = モデル: { $model } / 提供元: { $ownerName }
-
 ## Full name indicates the full version name of the model currently listed along with its publisher
 ##   $shortName (string) - The display name of the model collection
 ##   $model (string) - The name of the AI model

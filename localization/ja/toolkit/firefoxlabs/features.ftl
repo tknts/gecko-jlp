@@ -112,3 +112,8 @@ experimental-features-tab-notes-description = タブメモは、ブラウザの�
 experimental-features-tab-context-menu =
     .label = 効率化されたタブメニュー
 experimental-features-tab-context-menu-description = タブを右クリックした際によりシンプルなコンテキストメニューを表示します。よく使う操作を見つけやすくするように設計されています。<a data-l10n-name="connect">フィードバックを送信</a>
+
+# Resource Monitor
+experimental-features-resource-monitor =
+    .label = リソースモニター
+experimental-features-resource-monitor-description = 開いているタブの推定メモリーと CPU 使用量をサイドバーに直接表示し、使用していないタブを解放してリソースを空けることができます。<a data-l10n-name="connect">フィードバックを送信</a>

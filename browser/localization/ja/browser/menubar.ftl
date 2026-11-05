@@ -38,7 +38,7 @@ menu-quit =
     .label =
         { PLATFORM() ->
             [windows] 終了
-           *[other] Quit
+           *[other] 終了
         }
     .accesskey =
         { PLATFORM() ->
@@ -48,7 +48,7 @@ menu-quit =
 
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
-    .label = Quit { -brand-shorter-name }
+    .label = { -brand-shorter-name } を終了
 
 menu-about =
     .label = { -brand-shorter-name } について
@@ -130,10 +130,10 @@ menu-edit-find-in-page =
     .label = ページ内を検索…
     .accesskey = F
 menu-edit-find-again =
-    .label = もう一度検索
+    .label = 次を検索
     .accesskey = g
 menu-edit-bidi-switch-text-direction =
-    .label = テキストの方向を切り替え
+    .label = テキストの方向を切り替える
     .accesskey = w
 
 ## View Menu
@@ -169,16 +169,16 @@ menu-view-full-zoom-actual-size =
     .label = 実際のサイズ
     .accesskey = A
 menu-view-full-zoom-toggle =
-    .label = テキストのみ
+    .label = 文字サイズのみ変更
     .accesskey = T
 menu-view-page-style-menu =
-    .label = ページスタイル
+    .label = ページ スタイル
     .accesskey = y
 menu-view-page-style-no-style =
     .label = スタイルシートなし
     .accesskey = n
 menu-view-page-basic-style =
-    .label = 基本ページスタイル
+    .label =  標準のページ スタイル
     .accesskey = B
 menu-view-repair-text-encoding =
     .label = 文字エンコーディングを修復
@@ -238,7 +238,7 @@ menu-history-undo-window-menu =
     .label = 最近閉じたウィンドウ
 # "Search" is a verb, as in "Search in History"
 menu-history-search =
-    .label = 検索の履歴
+    .label = 履歴を検索
 # "Search" is a verb, as in "Search in Tabs"
 menu-history-search-tabs =
     .label = タブを検索
@@ -268,7 +268,7 @@ menu-bookmarks-other =
 menu-bookmarks-mobile =
     .label = モバイル ブックマーク
 
-# The native macOS menu may limit the number of query results. When that happens,
+# The native macOS menu may limit the number of entries. When that happens,
 # this item opens the bookmarks or history sidebar to show more results.
 menu-places-show-more-in-sidebar =
     .label = サイドバーでさらに表示

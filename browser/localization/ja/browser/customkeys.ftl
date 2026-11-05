@@ -78,6 +78,7 @@ customkeys-file-focus-search = 検索バーにフォーカス
 
 customkeys-history-reopen-tab = 最近閉じたタブを再度開く
 customkeys-history-reopen-window = 最後に閉じたウィンドウを再度開く
+customkeys-history-reopen-tab-current-window = 最後に閉じたタブを現在のウィンドウに再度開く
 
 customkeys-sidebar-toggle = サイドバーを切り替えます
 

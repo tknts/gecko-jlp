@@ -596,3 +596,25 @@ aiwindow-resume-section-empty-no-suggestions-description = 再開できるアク
 aiwindow-resume-section-empty-all-dismissed-heading = すべて確認済みです
 aiwindow-resume-section-empty-all-dismissed-description = おすすめは以上です。後でまた確認してください。
 aiwindow-resume-section-hide = 一時的に非表示
+
+## Clarifying question card
+## A card the assistant shows to ask the user a question before it continues
+## (for example, before starting a research report). The user picks one of the
+## listed answers, types their own, or skips.
+
+# Variables:
+#   $current (Number) - The number of the question being shown, starting at 1
+#   $total (Number) - How many questions there are in total
+ai-clarifying-question-progress = 質問: { $current } / { $total }
+# Badge on the answer the assistant suggests.
+ai-clarifying-question-recommended = おすすめ
+# Text box where the user types their own answer instead of picking one.
+ai-clarifying-question-custom-answer =
+    .placeholder = その他
+    .aria-label = その他
+ai-clarifying-question-skip =
+    .label = スキップ
+ai-clarifying-question-send =
+    .label = 送信
+ai-clarifying-question-close =
+    .title = 質問を閉じる

@@ -453,20 +453,15 @@ onboarding-checklist-remove-2 = チェックリストを削除
 
 ## Tab Groups feature onboarding strings
 
-tab-groups-onboarding-feature-callout-title = タブグループを使用して、タブを整理して、集中力を高めましょう
-tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグして最初のグループを作成し、整理します。
+tab-groups-onboarding-feature-callout-title = タブグループを使って、すっきりと集中しよう
+tab-groups-onboarding-feature-callout-subtitle = タブを別のタブの上にドラッグして最初のグループを作り、整理してすっきりしましょう。
 
-# The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
-tab-groups-onboarding-create-group-title-3 = [すべてのタブを表示] メニューから、いつでもタブグループを確認できます。
-tab-groups-onboarding-create-group-no-alltabs-button-title = アドレスバーで検索してグループを見つけられます。
-
-# The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
-tab-groups-onboarding-saved-groups-title-3 = タブグループを閉じても、[すべてのタブを表示] メニューから再度開けます。
-tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = アドレスバーで検索して、閉じたグループを見つけましょう。
-
-# The text "list all tabs" refers to the string tabs-toolbar-list-all-tabs
-tab-groups-onboarding-session-restore-title-2 = [すべてのタブを表示] メニューから、タブグループを再度開くことができます。
+tab-groups-onboarding-create-group-no-alltabs-button-title = アドレスバーで検索して、グループを見つけることができます。
+tab-groups-onboarding-saved-groups-no-alltabs-button-title-2 = アドレスバーで検索して、閉じたグループを見つけることができます。
 tab-groups-onboarding-dismiss = OK
+
+# "here" refers to the application menu button
+tab-groups-onboarding-auto-saved-title = タブグループは自動的に保存されます。ここから見つけてください。
 
 ## Multi Profiles feature onboarding messages
 
