@@ -2,15 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-do-not-track-removal2 =
-    .label = “Do Not Track” シグナルのサポートは終了しました
-
 global-privacy-control-description =
     .label = ウェブサイトにデータの販売や共有をしないよう通知します
     .accesskey = s
-
-non-technical-privacy-group =
-    .label = ウェブサイトのプライバシー設定
 
 do-not-track-removal3 =
     .message = “Do Not Track” 機能のサポートは終了しました。
@@ -21,7 +15,6 @@ non-technical-privacy-heading =
 preferences-privacy-relay-available =
     .label = { -relay-brand-name } のメールマスクを提案します
     .description = あなたの実際のメールアドレスを隠し、受信トレイをスパムから守ります。
-
 
 # Do not translate.
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
@@ -1149,8 +1142,6 @@ addressbar-dismissed-suggestions-label-2 =
 addressbar-restore-dismissed-suggestions-button-2 =
     .label = 候補を元に戻す
 
-search-one-click-header2 = 検索ショートカット
-search-one-click-desc = キーワードの入力時に、アドレスバーや検索バーの下に表示される代替検索エンジンを選択します。
 search-one-click-header-3 =
     .label = 追加の検索エンジン
     .description = アドレスバーに表示する検索エンジンとショートカットを選択してください。
@@ -1170,48 +1161,14 @@ search-enable-engine =
 search-outlink-to-extensions-page =
     .title = 拡張機能とテーマで管理
 
-search-choose-engine-column =
-    .label = 検索エンジン
-search-choose-keyword-column =
-    .label = キーワード
-
-search-restore-default =
-    .label = 検索エンジンを初期設定に戻す
-    .accesskey = D
-
-search-remove-engine =
-    .label = 削除
-    .accesskey = R
-search-add-engine =
-    .label = 追加
-    .accesskey = A
 search-add-engine-2 =
     .label = 検索エンジンを追加
     .accesskey = A
-search-edit-engine =
-    .label = 編集
-    .accesskey = E
-
-search-find-more-link = その他の検索エンジンを探す
 
 search-filtering-for-add-engine = 検索エンジンを追加
 
-# This warning is displayed when the chosen keyword is already in use
-# ('Duplicate' is an adjective)
-search-keyword-warning-title = キーワードの重複
-# Variables:
-#   $name (string) - Name of a search engine.
-search-keyword-warning-engine = “{ $name }”で使用されているキーワードを指定しました。他のものを指定してください。
-search-keyword-warning-bookmark = ブックマークで使用されているキーワードを指定しました。他のものを指定してください。
-
-# This warning is displayed when the chosen name is already in use.
-# Variables:
-#   $name (string) - Name of a search engine.
-edit-engine-name-warning-duplicate = “{ $name }” という名前の検索エンジンは既に存在します。別の名前を選択してください。
-
 remove-engine-confirmation = この検索エンジンを削除してもよろしいですか?
 remove-engine-remove = 削除
-remove-addon-engine-alert = この検索エンジンを削除するには、関連するアドオンを削除してください。
 
 ## Containers Section
 
@@ -1548,11 +1505,6 @@ privacy-header = ブラウザーのプライバシー
 
 ## Privacy Section - Passwords
 
-# "Logins" is the former term for "Passwords". Users should find password settings
-# by searching for the former term "logins". It's not displayed in the UI.
-pane-privacy-passwords-header = パスワード
-    .searchkeywords = ログイン
-
 forms-passwords-header =
     .label = パスワード
     .aria-label = パスワード
@@ -1564,16 +1516,12 @@ forms-ask-to-save-passwords =
 forms-manage-password-exceptions =
     .label = パスワードの例外を管理する
     .accesskey = M
-forms-exceptions =
-    .label = 例外…
-    .accesskey = x
 forms-suggest-passwords =
     .label = 強力なパスワードを提案する
     .accesskey = S
 forms-breach-alerts =
     .label = ウェブサイトのデータ流出に関する警告を表示する
     .accesskey = b
-forms-breach-alerts-learn-more-link = さらに詳しく
 
 ## Privacy Panel Settings
 
@@ -1585,10 +1533,6 @@ privacy-panel-settings-header =
 privacy-panel-breach-alerts =
     .label = データ流出に関する通知を表示する
     .accesskey = s
-preferences-relay-integration-checkbox2 =
-    .label = メールアドレスを保護するために { -relay-brand-name } のメールマスクを提案する
-    .accesskey = r
-relay-integration-learn-more-link = さらに詳しく
 
 # Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
 forms-fill-usernames-and-passwords =
@@ -1628,29 +1572,14 @@ forms-os-reauth =
     .label = パスワードの自動入力と管理にデバイスのサインインを要求する
 forms-os-reauth-2 =
     .label = パスワードの管理にデバイスへのサインインを必要とする
-forms-primary-pw-learn-more-link = さらに詳しく
-# This string uses the former name of the Primary Password feature
-# ("Master Password" in English) so that the preferences can be found
-# when searching for the old name. The accesskey is unused.
-forms-master-pw-change =
-    .label = マスターパスワードを変更する…
-    .accesskey = M
 forms-primary-pw-change =
     .label = プライマリーパスワードを変更する…
     .accesskey = P
-# Leave this message empty if the translation for "Primary Password" matches
-# "Master Password" in your language. If you're editing the FTL file directly,
-# use { "" } as the value.
-forms-primary-pw-former-name = 以前はマスターパスワードと呼ばれていました
 
 forms-primary-pw-fips-title = 現在 FIPS モードになっています。FIPS には空でないプライマリパスワードが必要です。
 forms-master-pw-fips-desc = パスワードの変更に失敗しました
 forms-windows-sso =
     .label = 職場または学校の Microsoft アカウントで Windows のシングルサインオン (SSO) を許可
-forms-windows-sso-learn-more-link = さらに詳しく
-forms-windows-sso-desc = デバイスの設定でアカウントを管理する
-
-windows-passkey-settings-label = パスキーの管理をシステム設定で行う
 
 ## OS Authentication dialog
 
@@ -1848,10 +1777,6 @@ history-shutdown-exceptions =
     .label = 例外の管理
     .accesskey = x
 
-history-clear-button =
-    .label = 履歴を消去…
-    .accesskey = s
-
 history-header2 =
     .heading = 履歴
 
@@ -1868,9 +1793,6 @@ history-custom-button =
 
 ## Privacy Section - Site Data
 
-cookies-site-data-group =
-    .label = Cookie とサイトのデータ
-
 sitedata-total-size-calculating = サイトデータとキャッシュのサイズを計算しています…
 
 # Variables:
@@ -1884,42 +1806,17 @@ sitedata-delete-on-close2 =
     .label = { -brand-short-name } を閉じるたびに Cookie とサイトデータを消去します
     .accesskey = c
 
-sitedata-delete-on-close-private-browsing3 =
-    .message = 履歴の設定に基づき、{ -brand-short-name } はブラウザーの終了時にセッションの Cookie やサイトデータを削除します。
-
 sitedata-delete-on-close-private-browsing4 =
     .heading = 履歴は保存されません。
     .message = { -brand-short-name } は、ブラウザーを閉じるときにセッション中の Cookie とサイトのデータを消去します。
-
-sitedata-option-block-cross-site-trackers =
-    .label = クロスサイトトラッカー
-sitedata-option-block-cross-site-tracking-cookies =
-    .label = クロスサイトトラッキング Cookie
-sitedata-option-block-cross-site-cookies2 =
-    .label = クロスサイト Cookie を隔離
-sitedata-option-block-unvisited =
-    .label = 未訪問のウェブサイトからの Cookie
-sitedata-option-block-all-cross-site-cookies =
-    .label = すべてのクロスサイト Cookie (ウェブサイトが正しく表示されない原因になります)
-sitedata-option-block-all =
-    .label = すべての Cookie (ウェブサイトが正しく表示されなくなります)
 
 sitedata-clear2 =
     .label = ブラウジングデータを消去
     .accesskey = l
 
-sitedata-settings2 =
-    .label = ブラウジングデータを管理…
-    .accesskey = M
-
 sitedata-cookies-exceptions =
     .label = 例外を管理…
     .accesskey = x
-
-sitedata-cookies-exceptions2 =
-    .label = 例外を管理
-    .accesskey = x
-    .description = Cookie とサイトデータの使用を常に許可する、または許可しないウェブサイトを指定できます。
 
 sitedata-heading =
     .label = 閲覧データ
@@ -1936,70 +1833,10 @@ sitedata-cookies-exceptions3 =
 
 ## Privacy Section - Content Blocking
 
-content-blocking-enhanced-tracking-protection = 強化型トラッキング防止機能
-
-content-blocking-section-top-level-description = トラッカーはオンラインであなたの行動を追いかけ、閲覧習慣や興味に関する情報を収集します。{ -brand-short-name } はこれらの多くのトラッカーやその他の悪意のあるスクリプトをブロックします。
-
 content-blocking-learn-more = さらに詳しく
 
-content-blocking-fpi-incompatibility-warning = First Party Isolation (FPI) を使用しています。これは { -brand-short-name } の一部の Cookie 設定を上書きします。
-
-# There is no need to translate "Resist Fingerprinting (RFP)". This is a
-# feature that can only be enabled via about:config, and it's not exposed to
-# standard users (e.g. via Settings).
-content-blocking-rfp-incompatibility-warning = Resist Fingerprinting (RFP) を使用しています。これは { -brand-short-name } の一部のフィンガープリント保護設定を置き換えます。これにより、一部のサイトが正しく表示されない可能性があります。
-
-## These strings are used to define the different levels of
-## Enhanced Tracking Protection.
-
-# "Standard" in this case is an adjective, meaning "default" or "normal".
-enhanced-tracking-protection-setting-standard =
-  .label = 標準
-  .accesskey = d
-enhanced-tracking-protection-setting-strict =
-  .label = 厳格
-  .accesskey = r
-enhanced-tracking-protection-setting-custom =
-  .label = カスタム
-  .accesskey = C
-
-##
-
-content-blocking-etp-standard-desc = 保護とパフォーマンスのバランスが取れた設定です。ウェブページは通常通り読み込まれます。
-content-blocking-etp-strict-desc =  より強力な保護ですが、一部のサイトやコンテンツが正しく表示されない可能性があります。
-content-blocking-etp-custom-desc = ブロックするトラッカーとスクリプトを選択してください。
-content-blocking-etp-blocking-desc = { -brand-short-name } は以下をブロックします。
-
-content-blocking-private-windows = プライベート ウィンドウでのトラッキングコンテンツ
-content-blocking-cross-site-cookies-in-all-windows2 = すべてのウィンドウでのクロスサイト Cookie
-content-blocking-cross-site-tracking-cookies = クロスサイトトラッキング Cookie
-content-blocking-all-cross-site-cookies-private-windows = プライベート ウィンドウでのクロスサイト Cookie
-content-blocking-isolate-cross-site-cookies = クロスサイト Cookie を隔離
-content-blocking-social-media-trackers = ソーシャルメディア トラッカー
-content-blocking-all-cookies = すべての Cookie
-content-blocking-unvisited-cookies = 未訪問のサイトからの Cookie
-content-blocking-all-windows-tracking-content = すべてのウィンドウでのトラッキングコンテンツ
-content-blocking-all-cross-site-cookies = すべてのクロスサイト Cookie
 content-blocking-cryptominers = クリプトマイナー (暗号通貨採掘)
-content-blocking-fingerprinters = フィンガープリントの採取
-# The known fingerprinters are those that are known for collecting browser fingerprints from user devices. And
-# the suspected fingerprinters are those that we are uncertain about browser fingerprinting activities. But they could
-# possibly acquire browser fingerprints because of the behavior on accessing APIs that expose browser fingerprints.
-content-blocking-known-and-suspected-fingerprinters = 既知および疑わしいフィンガープリントの採取者
-
-# The tcp-rollout strings are no longer used for the rollout but for tcp-by-default in the standard section
-
-# "Contains" here means "isolates", "limits".
-content-blocking-etp-standard-tcp-rollout-description = Total Cookie Protection には、現在アクセスしているサイトへの Cookie が含まれているため、トラッカーがサイト間の追跡に Cookie を使用することはできません。
-content-blocking-etp-standard-tcp-rollout-learn-more = さらに詳しく
-
-content-blocking-etp-standard-tcp-title = これまでで最も強力なプライバシー機能である Total Cookie Protection が含まれています
-
-content-blocking-warning-title-2 = 厳格なトラッキング防止機能により一部のサイトが正常に動作しない場合があります
-content-blocking-warning-title-custom = カスタムトラッキング保護では一部のサイトが正しく動作しない場合があります
-# “Fix site issues” references the string content-blocking-exceptions-subheader
-content-blocking-and-isolating-etp-warning-description-4 = { -brand-short-name } は、サイトの機能やコンテンツの不具合を減らすために “サイトの問題を修正” 設定を使用することを推奨しています。サイトが正常に表示されない場合は、そのサイトに対してトラッキング防止をオフにしてすべてのコンテンツを読み込んでみてください。
-content-blocking-warning-learn-how = さらに詳しく
+content-blocking-fingerprinters = フィンガープリント (デジタル指紋)
 
 content-blocking-baseline-exceptions-3 =
     .label = サイトの主要な問題を修正する (推奨)
@@ -2016,51 +1853,13 @@ content-blocking-baseline-uncheck-warning-dialog-ok-button = 修正をオフに�
 content-blocking-baseline-uncheck-warning-dialog-cancel-button = 修正をオンのままにする
 
 content-blocking-reload-description = これらの変更を適用するには、タブの再読み込みが必要です。
-content-blocking-reload-tabs-button =
-  .label = すべてのタブを再読み込み
-  .accesskey = R
 
-content-blocking-tracking-content-label =
-  .label = トラッキングコンテンツ
-  .accesskey = T
 content-blocking-tracking-protection-option-all-windows =
   .label = すべてのウィンドウ
   .accesskey = A
 content-blocking-option-private =
   .label = プライベートウィンドウでのみ
   .accesskey = p
-
-content-blocking-cookies-label =
-  .label = Cookie
-  .accesskey = C
-
-content-blocking-expand-section =
-  .tooltiptext = さらに詳しい情報を表示します
-
-# Cryptomining refers to using scripts on websites that can use a computer’s resources to mine cryptocurrency without a user’s knowledge.
-content-blocking-cryptominers-label =
-  .label = 仮想通貨マイニング
-  .accesskey = y
-
-# Browser fingerprinting is a method of tracking users by the configuration and settings information (their "digital fingerprint")
-# that is visible to websites they browse, rather than traditional tracking methods such as IP addresses and unique cookies.
-#
-# The known fingerprinters are those that are known for collecting browser fingerprints from user devices.
-content-blocking-known-fingerprinters-label =
-  .label = 既知のフィンガープリント
-  .accesskey = K
-
-# The suspected fingerprinters are those that we are uncertain about browser fingerprinting activities. But they could
-# possibly acquire browser fingerprints because of the behavior on accessing APIs that expose browser fingerprints.
-content-blocking-suspected-fingerprinters-label =
-  .label = 疑わしいフィンガープリンター
-  .accesskey = S
-
-## Privacy Section - Tracking
-
-tracking-manage-exceptions =
-    .label = 例外を管理…
-    .accesskey = x
 
 ## Privacy Section - Permissions
 
@@ -2257,22 +2056,10 @@ collection-backlogged-crash-reports2 =
     .accesskey = c
 collection-backlogged-crash-reports-description = これは { -vendor-short-name } がブラウザーの問題を診断し、修正するために役立ちます。レポートには個人情報や機密データが含まれる場合があります。
 
-privacy-segmentation-section-header = 閲覧を強化する新機能
-
-privacy-segmentation-section-description = よりパーソナルな体験を提供するためにあなたのデータを使用する機能を提示する場合:
-
-privacy-segmentation-radio-off =
-    .label = { -brand-product-name } の推奨を使用する
-
-privacy-segmentation-radio-on =
-    .label = 詳細情報を表示
-
 ## Privacy Section - Security
 ##
 ## It is important that wording follows the guidelines outlined on this page:
 ## https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
-
-security-header = セキュリティ
 
 browsing-protection-group2 =
     .label = 詐欺コンテンツと危険なソフトウェアからの保護
@@ -2345,7 +2132,6 @@ httpsonly-radio-disabled3 =
 
 ## DoH Section
 
-preferences-doh-header = DNS over HTTPS
 dns-over-https-group2 =
     .label = DNS over HTTPS
     .description = DNS over HTTPS (DoH) は、サイトの照会を暗号化します。これにより、インターネットプロバイダーなどが、あなたがどのウェブサイトを訪れようとしているかを知ることをより困難にします。
@@ -2355,63 +2141,11 @@ preferences-doh-description2 = Domain Name System (DNS) over HTTPS は、暗号�
 # Variables:
 #   $status (string) - The status of the DoH connection
 preferences-doh-status = 状態: { $status }
-# Variables:
-#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
-preferences-doh-resolver = プロバイダー: { $name }
-# This is displayed instead of $name in preferences-doh-resolver
-# when the DoH URL is not a valid URL
-preferences-doh-bad-url = 無効な URL
-preferences-doh-steering-status = ローカルプロバイダーを使用
-
-preferences-doh-status-active = 動作中
-preferences-doh-status-disabled = オフ
-# Variables:
-#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
-preferences-doh-status-not-active = 動作していません ({ $reason })
-
-preferences-doh-group-message2 = DNS over HTTPS を有効にする:
 
 preferences-doh-radio-group =
     .aria-label = 次の方法を使用して DNS over HTTPS を有効にする:
 
-preferences-doh-expand-section =
-  .tooltiptext = その他の情報
-
-preferences-doh-setting-default =
-  .label = 既定の保護
-  .accesskey = D
-preferences-doh-default-desc = { -brand-short-name } は、プライバシーを保護するために安全な DNS をいつ使用するかを決定します。
-preferences-doh-default-detailed-desc-1 = 利用可能な地域で安全な DNS を使用します
-preferences-doh-default-detailed-desc-2 = 安全な DNS プロバイダーに問題がある場合は、デフォルトの DNS リゾルバーを使用します
-preferences-doh-default-detailed-desc-3 = 可能であればローカルのプロバイダーを使用します
-preferences-doh-default-detailed-desc-4 = VPN、ペアレンタル コントロール、またはエンタープライズ ポリシーがアクティブな場合はオフにします
-preferences-doh-default-detailed-desc-5 = ネットワークが { -brand-short-name } に安全な DNS を使用しないように指示した場合はオフにします
-
-preferences-doh-setting-enabled =
-  .label = 強化された保護
-  .accesskey = I
-preferences-doh-enabled-desc = 安全な DNS をいつ使用するかを制御し、プロバイダーを選択します。
-preferences-doh-enabled-detailed-desc-1 = 選択されたプロバイダーを使用します
-preferences-doh-enabled-detailed-desc-2 = 安全な DNS に問題がある場合にのみ、既定の DNS リゾルバーを使用してください
-
-preferences-doh-setting-strict =
-  .label = 最大の保護
-  .accesskey = M
-preferences-doh-strict-desc = { -brand-short-name } は常に安全な DNS を使用します。あなたのシステムの DNS を使用する前には、セキュリティリスクの警告が表示されます。
-preferences-doh-strict-detailed-desc-1 = 選択されたプロバイダーのみを使用します
-preferences-doh-strict-detailed-desc-2 = 安全な DNS が利用できない場合は常に警告します
-preferences-doh-strict-detailed-desc-3 = 安全な DNS が利用できない場合、サイトは読み込まれないか、正しく機能しません
-
-preferences-doh-setting-off =
-  .label = オフ
-  .accesskey = O
-preferences-doh-off-desc = デフォルトの DNS リゾルバーが使用されます
-
 preferences-doh-select-resolver = プロパイダーの選択:
-
-preferences-doh-manage-exceptions =
-    .label = 例外設定を管理…
-    .accesskey = x
 
 preferences-doh-overview-default =
     .label = デフォルトの保護
@@ -2460,12 +2194,10 @@ preferences-doh-status-item-off =
 preferences-doh-status-item-not-active =
     .message = プロバイダー { $name } の使用中にエラー ({ $reason }) が発生したため、DNS over HTTPS は機能していません
 
-
 # Variables:
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
 preferences-doh-status-item-not-active-bad-url =
     .message = 無効な URL ({ $reason }) を受け取ったため、DNS over HTTPS は機能していません
-
 
 # Variables:
 #   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
@@ -2634,10 +2366,6 @@ preferences-ai-controls-tab-group-suggestions-control =
 preferences-ai-controls-key-points-control =
     .label = リンクプレビューの要点
     .description = リンクを開く前に素早く要約を確認できます。
-
-preferences-ai-controls-sidebar-chatbot-group-2 =
-    .label = サイドバーの AI チャットボットプロバイダー
-    .description = 閲覧中にチャットボットを表示したままにします。Anthropic Claude、ChatGPT、Copilot、Google Gemini、Mistral Vibe から選択できます。
 
 preferences-ai-controls-speech-recognition-control =
     .label = 音声認識

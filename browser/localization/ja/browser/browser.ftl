@@ -133,14 +133,14 @@ urlbar-feedback-acknowledgment = フィードバックありがとうござい�
 
 # A message shown in the urlbar when the user dismisses weather suggestions.
 # Weather suggestions won't be shown at all anymore.
-urlbar-dismissal-acknowledgment-weather = フィードバックありがとうございます。天気の候補は今後表示されません。
+urlbar-dismissal-acknowledgment-weather = フィードバックありがとうございます。今後、天気予報の候補は表示されません。
 
 ## Prompts users to use the Urlbar when they open a new tab or visit the
 ## homepage of their default search engine.
 ## Variables:
 ##  $engineName (String): The name of the user's default search engine. e.g. "Google" or "DuckDuckGo".
 
-urlbar-search-tips-onboard = 少ない入力で多くを見つけましょう: アドレスバーから直接 { $engineName } を検索できます。
+urlbar-search-tips-onboard = 少ない入力で多くを見つけましょう: アドレスバーから直接 { $engineName } で検索できます。
 urlbar-search-tips-redirect-2 = アドレスバーで検索を開始して { $engineName } からのサジェストと履歴を表示します。
 
 # Prompts users to use the Urlbar when they are typing in the domain of a
@@ -949,6 +949,14 @@ urlbar-view-context-menu-open-in-container-tab2 = 新しいコンテナ タブ�
 urlbar-view-context-menu-open-in-window2 = 新しいウィンドウで開く
     .accesskey = N
 urlbar-view-context-menu-open-in-private-window2 = 新しいプライベート ウィンドウで開く
+    .accesskey = P
+urlbar-view-context-menu-search-in-tab = 新しいタブで検索
+    .accesskey = w
+urlbar-view-context-menu-search-in-container-tab = 新しいコンテナ タブで検索
+    .accesskey = i
+urlbar-view-context-menu-search-in-window = 新しいウィンドウで検索
+    .accesskey = N
+urlbar-view-context-menu-search-in-private-window = 新しいプライベート ウィンドウで検索
     .accesskey = P
 
 # A checkable menu item that controls whether pressing the Tab key while

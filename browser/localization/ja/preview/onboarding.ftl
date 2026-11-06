@@ -24,5 +24,5 @@ smartwindow-guest-tou-title = { -smart-window-brand-name } 利用規約
 ## Shown when signing in as a guest fails, for example because the server is down
 
 smartwindow-guest-unavailable-title = { -smart-window-brand-name } は一時的に利用できません
-smartwindow-guest-unavailable-body = 時間を置いて再度お試しください。
+smartwindow-guest-unavailable-body = 後でもう一度試すか、<a data-l10n-name="sign_in">ログイン</a>して { -smart-window-brand-name } を利用してください。
 smartwindow-guest-unavailable-ok = OK

@@ -9,23 +9,3 @@
 # Shown in a widget card in place of the widget, until there is a widget to
 # show.
 newtab-widget-placeholder = お楽しみに
-
-## Strings for the Wrexham AFC widget. Wrexham AFC is a football club from
-## Wrexham, Wales.
-
-# The widget's name. .title is its heading and accessible name, .label its
-# Customize panel toggle, and .menu-label the screen reader label of the
-# button that opens its menu. In Welsh, the club is known as “CPD Wrecsam”.
-newtab-custom-widget-wrexhamafc =
-    .title = Wrexham AFC
-    .label = Wrexham AFC
-    .menu-label = Wrexham AFC メニューを開く
-
-# Menu item opening a submenu that switches what the widget shows.
-newtab-widget-wrexhamafc-menu-view = 表示
-# Options in the View submenu, each switching the widget to a different view.
-newtab-widget-wrexhamafc-view-matches = 試合
-newtab-widget-wrexhamafc-view-table = 順位表
-newtab-widget-wrexhamafc-view-fixtures = 日程
-# Menu item opening the New Tab customize panel, where wallpapers are chosen.
-newtab-widget-wrexhamafc-menu-wallpapers = 壁紙

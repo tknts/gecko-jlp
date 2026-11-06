@@ -564,7 +564,7 @@ aiwindow-resume-card-tab-count =
 aiwindow-resume-card-more = その他
     .aria-label = { $text } のその他のオプション
 aiwindow-resume-card-open-tabs = タブを開く
-aiwindow-resume-card-snooze = 後で通知
+aiwindow-resume-card-snooze = 明日また通知する
 # Variables:
 #   $text (String) - The journey title
 aiwindow-resume-card-resume = 再開

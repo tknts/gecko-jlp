@@ -530,10 +530,10 @@ newtab-wallpaper-category-title-firefox = { -brand-product-name }
 
 newtab-wallpaper-firefox-orange = オレンジ色の背景の右端にいるキツネ
 newtab-wallpaper-firefox-colorful-sky = 紫色の夜空に広がるオレンジ色の波
-newtab-wallpaper-firefox-desert-dark = 濃い紫色の砂漠に座るキツネ
+newtab-wallpaper-firefox-desert-dark = 濃い紫色の砂漠に座っているキツネ
 newtab-wallpaper-firefox-desert-light = 明るい砂漠を走るキツネ
-newtab-wallpaper-firefox-hills-dark = 暗い丘を走るキツネ
-newtab-wallpaper-firefox-hills-light = 明るい丘を走るキツネ
+newtab-wallpaper-firefox-hills-dark = 暗い丘陵地帯を走るキツネ
+newtab-wallpaper-firefox-hills-light = 明るい丘陵地帯を走るキツネ
 newtab-wallpaper-firefox-tail-dark = 暗い背景の上のキツネのしっぽ
 newtab-wallpaper-firefox-tail-light = 明るい背景の上のキツネのしっぽ
 newtab-wallpaper-firefox-side-kit-dark = 暗い背景の左側にいるキツネ
@@ -543,8 +543,9 @@ newtab-wallpaper-firefox-sitting-hill-light = 明るい丘に座るキツネ
 newtab-wallpaper-firefox-peak-dark = 暗い背景の左端にあるキツネの顔
 newtab-wallpaper-firefox-peak-light = 明るい背景の左端にあるキツネの顔
 newtab-wallpaper-firefox-sky-dark = 夜空の下の濃い紫色の丘
-newtab-wallpaper-firefox-sky-light = 柔らかな空の下の明るい丘
-# “Wrexham AFC” is the name of a football club and should not be translated.
+newtab-wallpaper-firefox-sky-light = やわらかな空の下の明るい丘
+# “WrexhamAFC” is the name of a football club. Use the name the club is known
+# by in your language, if it has one: in Welsh, “CPD Wrecsam”.
 # "crest" refers to the football club's logo (team badge).
 newtab-wallpaper-firefox-wrexham = 赤い背景のレクサム AFC のエンブレム
 
@@ -867,6 +868,10 @@ newtab-widget-section-show-more =
 # allowing users to collapse it back to one row.
 newtab-widget-section-show-less =
     .label = 表示するウィジェットを減らす
+# Shown in place of a widget's content when the widget could not be loaded.
+# The widget's name is shown and read out separately, just before this message,
+# so this message names no widget.
+newtab-widget-error-not-available = ウィジェットを利用できません。後でやり直してください。
 newtab-widget-lists-name-default = チェックリスト
 newtab-widget-lists-name-label-default =
     .label = タスクリスト
@@ -1817,11 +1822,40 @@ newtab-solitaire-widget-title = ソリティア
 # Tooltip and screen reader label for the icon-only button that opens the
 # widget's menu.
 newtab-solitaire-widget-open-menu-button =
-    .title = ソリティアメのニューを開く
+    .title = ソリティアのメニューを開く
     .aria-label = ソリティアのメニューを開く
 
 # Context menu item linking to more information about the widget.
 newtab-solitaire-menu-learn-more = さらに詳しく
+
+## Strings for the Wrexham AFC widget. Wrexham AFC is a football club from
+## Wrexham, Wales. For now, the widget is only expected to be shown in Welsh
+## and British English. “Wrexham AFC” is the club’s name. Use the name the
+## club is known by in your language, if it has one: in Welsh, “CPD Wrecsam”.
+
+# The widget's name. .title is its heading and accessible name, .label its
+# Customize panel toggle, and .menu-label the screen reader label of the
+# button that opens its menu.
+newtab-custom-widget-wrexhamafc =
+    .title = レクサム AFC
+    .label = レクサム AFC
+    .menu-label = レクサム AFC メニューを開く
+
+# Menu item opening a submenu that switches what the widget shows. “View” is a
+# noun here, as in “the view the widget shows”.
+newtab-widget-wrexhamafc-menu-view = 表示
+
+## Options in the View submenu, each switching the widget to a different view.
+## These are football terms: “Matches” shows the club’s latest or next match,
+## with its score once it has started; “Table” shows the league table, the
+## standings of the teams in the club’s league; and “Fixtures” lists the club’s
+## upcoming scheduled matches.
+
+newtab-widget-wrexhamafc-view-matches = 試合
+newtab-widget-wrexhamafc-view-table = 順位表
+newtab-widget-wrexhamafc-view-fixtures = 日程
+# Menu item opening the New Tab customize panel, where wallpapers are chosen.
+newtab-widget-wrexhamafc-menu-wallpapers = 壁紙
 
 ## Strings for the navigable panels that new tab content area can be
 ## split into.

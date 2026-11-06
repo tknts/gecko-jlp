@@ -87,9 +87,8 @@ close-other-tabs-alt =
     .label = 他のすべて
     .accesskey = o
 
-## Variables:
-##  $tabCount (Number): the number of tabs that are affected by the action.
-
+# Variables:
+#  $tabCount (Number): the number of tabs that are affected by the action.
 tab-context-unload-n-tabs =
     .label =
         { $tabCount ->
@@ -145,6 +144,7 @@ tab-context-open-in-container =
 move-to-start =
     .label = 先頭へ移動
     .accesskey = S
+# Context menu sub-item that appears as an option for "Move to" for moving tab to start of the tab strip.
 move-to-start-alt =
     .label = 先頭
     .accesskey = S
