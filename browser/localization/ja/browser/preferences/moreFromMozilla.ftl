@@ -8,47 +8,11 @@ more-from-moz-title2 = { -vendor-short-name } のその他の製品
   .title = { -vendor-short-name } のその他の製品
 more-from-moz-page-header =
     .heading = その他の { -vendor-short-name } 製品
-more-from-moz-category =
-  .tooltiptext =  その他の { -vendor-short-name } 製品について
-
-more-from-moz-subtitle = 健全なインターネットをサポートするために働く他の { -vendor-short-name } 製品もチェックしてみてください。
-
-more-from-moz-firefox-mobile-title = { -brand-product-name } モバイル
-more-from-moz-firefox-mobile-description = あなたのプライバシーを第一に考えるモバイル ブラウザー。
-more-from-moz-firefox-mobile-title-1 =モバイル版 { -brand-product-name }
 more-from-moz-firefox-mobile =
     .label = モバイル版 { -brand-product-name }
     .description = プライバシーを第一に考えるモバイルブラウザー。
 
-more-from-moz-mozilla-vpn-title = { -mozilla-vpn-brand-name }
-more-from-moz-mozilla-vpn-description = 匿名でのブラウジングと保護を強化します。
-
-more-from-moz-qr-code-box-firefox-mobile-title = モバイル デバイスを使用してダウンロードできます。カメラを QR コードに向けてください。リンクが表示されたらタップします。
-more-from-moz-qr-code-box-firefox-mobile-button = QR コードを使用できない場合は携帯電話にメールを送信してください
-more-from-moz-qr-code-firefox-mobile-img =
-  .alt = QR コードを使って { -brand-product-name } モバイルをダウンロード
-
-more-from-moz-button-mozilla-vpn-2 = VPN を入手
-
 more-from-moz-learn-more-link = さらに詳しく
-
-## These strings are for the Firefox Relay card in about:preferences moreFromMozilla page
-
-more-from-moz-firefox-relay-title = { -relay-brand-name }
-more-from-moz-firefox-relay-description = 無料のマスキングされたメールアドレスで、あなたの受信トレイとログイン情報を保護します。
-more-from-moz-firefox-relay-button = { -relay-brand-short-name } を使う
-
-## These strings are for the Mozilla Monitor card in about:preferences moreFromMozilla page
-
-more-from-moz-mozilla-monitor-title = { -mozmonitor-brand-name }
-more-from-moz-mozilla-monitor-global-description = データが侵害されたときに警告を受け取ります。
-more-from-moz-mozilla-monitor-button = { -monitor-brand-short-name } を入手
-
-## These strings are for the MDN card in about:preferences moreFromMozilla page
-
-more-from-moz-mdn-title2 = { -mdn-brand-name }
-more-from-moz-mdn-description = 無料で充実したガイドとリファレンスでウェブ開発を学びましょう。
-more-from-moz-mdn-button = ウェブ開発を学ぶ
 
 ## These strings are for the Thunderbird card in about:preferences moreFromMozilla page
 

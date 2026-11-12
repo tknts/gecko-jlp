@@ -19,20 +19,20 @@ about-private-browsing-handoff-text = { $engine } で検索または URL を入�
 about-private-browsing-handoff-text-no-engine = 検索ワードまたは URL を入力
 about-private-browsing-not-private = これはプライベート ウィンドウではありません。
 
-about-private-browsing-hide-activity = Hide your activity and location, everywhere you browse
-about-private-browsing-get-privacy = Get privacy protections everywhere you browse
+about-private-browsing-hide-activity = ウェブ上のあらゆる場所でアクティビティと位置情報を隠す
+about-private-browsing-get-privacy = ウェブ上のあらゆる場所でプライバシー保護を有効にする
 about-private-browsing-hide-activity-1 = { -mozilla-vpn-brand-name } で閲覧履歴や位置情報を隠せます。フリー Wi-Fi でもワンクリックで安全な接続を作成します。
-about-private-browsing-prominent-cta = { -mozilla-vpn-brand-name } でプライベートを維持する
+about-private-browsing-prominent-cta = { -mozilla-vpn-brand-name } でプライバシーを保護する
 
 # This string is the title for the banner for search engine selection
 # in a private window.
 # Variables:
 #   $engineName (String) - The engine name that will currently be used for the private window.
-about-private-browsing-search-banner-title = { $engineName } はプライベート ウィンドウの既定の検索エンジンです
+about-private-browsing-search-banner-title = プライベート ウインドウの既定の検索エンジンは { $engineName } です
 about-private-browsing-search-banner-description = {
   PLATFORM() ->
      [windows] 検索エンジンを変更するには <a data-l10n-name="link-options">オプション</a> を表示してください
-    *[other] 検索エンジンを変更するには <a data-l10n-name="link-options">設定</a> を表示してください
+    *[other] 別の検索エンジンに変更するには <a data-l10n-name="link-options">設定</a> に移動してください
   }
 about-private-browsing-search-banner-close-button =
     .aria-label = 閉じる
@@ -44,15 +44,15 @@ about-private-browsing-promo-close-button =
 
 about-private-browsing-pin-promo-header = ワンクリックで自由自在なプライベートブラウジング
 about-private-browsing-pin-promo-link-text = { PLATFORM() ->
-    [macos] Keep in Dock
+    [macos] Dock に保持
    *[other] タスクバーにピン留め
 }
-about-private-browsing-pin-promo-title = Cookie や履歴を残さずにデスクトップから直接閲覧できます。誰に見られる事なくブラウズすることができます。
+about-private-browsing-pin-promo-title = デスクトップから直接、Cookie や履歴を残さずに閲覧できます。誰にも見られていないかのようにウェブを楽しみましょう。
 
 ## Strings used in a promotion message for Firefox Relay
 
 about-private-browsing-relay-promo-header = メールマスクで受信トレイのスパムを防ぎます
-about-private-browsing-relay-promo-title = サインアップやショッピング、オンラインでの共有時にメールマスクで実際のメールアドレスを隠します。
+about-private-browsing-relay-promo-title = オンラインでのサインアップや買い物、共有の際に、メールマスクを使って実際のメールアドレスを隠しましょう。
 about-private-browsing-relay-promo-link-text = メールマスクを試す
 
 ## Strings for the info section of about:privatebrowsing
@@ -88,8 +88,8 @@ about-private-browsing-spotlight-basics-more-privacy = その他のプライバ�
 about-private-browsing-spotlight-basics-malware-alerts = { -brand-short-name } は、マルウェアや詐欺サイトについて自動的に警告します。
 # "Participating sites" refers to websites that honor Global Privacy Control (GPC) signals, either voluntarily or where legally required.
 about-private-browsing-spotlight-basics-no-sell-data = { -brand-short-name } は、個人情報の販売や共有を行わないよう、対象サイトに自動的に要求します。
-about-private-browsing-spotlight-basics-vpn = 内蔵 VPN を使用すると、現在地を追跡されにくくなります。
+about-private-browsing-spotlight-basics-vpn = 内蔵 VPN を使用すると、位置情報を追跡されにくくなります。
 # "Strict" refers to the Strict level of Enhanced Tracking Protection settings.
 # Translations should be consistent with the existing "Strict" string in about:preferences.
-about-private-browsing-spotlight-basics-strict-tracking = より強力なトラッキング保護を利用するには、設定で「厳格」に切り替えてください。
-about-private-browsing-spotlight-basics-learn-more = 詳細情報
+about-private-browsing-spotlight-basics-strict-tracking = より強力なトラッキング保護を利用するには、設定で [厳格] に切り替えてください。
+about-private-browsing-spotlight-basics-learn-more = さらに詳しく

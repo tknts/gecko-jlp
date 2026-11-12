@@ -23,6 +23,8 @@ confirmation-hint-firefox-relay-mask-created = 新しいマスクを作成しま
 confirmation-hint-firefox-relay-mask-reused = 既にあるマスクを再利用!
 confirmation-hint-screenshot-copied = スクリーンショットをコピーしました!
 confirmation-hint-tab-group-saved = タブのグループを保存しました
+# Shown after the tab groups button is removed from the toolbar. Points to the app menu where tab groups can still be found.
+confirmation-hint-tab-group-button-removed = タブグループは、このメニューから見つけることができます。
 # Variables:
 #   $tabCount (Number): The number of duplicate tabs closed, at least 1.
 confirmation-hint-duplicate-tabs-closed =

@@ -1240,13 +1240,6 @@ account-placeholder2 =
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
 
-sync-signedout-caption = ウェブを持ち歩こう
-sync-signedout-description2 = すべてのデバイスでブックマーク、履歴、タブ、パスワード、アドオン、設定を同期します。
-
-sync-signedout-account-signin3 =
-    .label = サインインして同期…
-    .accesskey = i
-
 sync-signedout-account-signin-4 =
     .label = アカウントにサインインして同期を開始
     .accesskey = i
@@ -1255,38 +1248,11 @@ sync-signedout-account-short =
     .label = サインイン
     .accesskey = i
 
-# This message contains two links and two icon images.
-#   `<img data-l10n-name="android-icon"/>` - Android logo icon
-#   `<a data-l10n-name="android-link">` - Link to Android Download
-#   `<img data-l10n-name="ios-icon">` - iOS logo icon
-#   `<a data-l10n-name="ios-link">` - Link to iOS Download
-#
-# They can be moved within the sentence as needed to adapt
-# to your language, but should not be changed or translated.
-sync-mobile-promo = Firefox for <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> または <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> をダウンロードしてモバイル端末と同期しましょう。
-
 ## Firefox account - Signed in
-
-sync-profile-picture-with-alt =
-    .tooltiptext = プロフィール写真を変更
-    .alt = プロフィール写真を変更
-
-sync-profile-picture-account-problem =
-    .alt = アカウントのプロフィール写真
-
-fxa-login-rejected-warning =
-    .alt = 警告
-
-sync-sign-out =
-    .label = サインアウト…
-    .accesskey = g
 
 sync-sign-out2 =
     .label = サインアウト
     .accesskey = g
-
-sync-manage-account = アカウントを管理
-    .accesskey = o
 
 sync-manage-account2 =
     .label = アカウントを管理
@@ -1303,13 +1269,9 @@ sync-account-signed-in-display-name =
     .label = { $name }
     .description = { $email }
 
-sync-signedin-unverified = { $email } は検証されていません。
-
 sync-signedin-unverified2 =
     .label = { $email } はまだ検証されていません
     .description = 受信トレイを確認してアカウントを承認し、登録を完了させてください。
-
-sync-signedin-login-failure = { $email } を再接続するにはサインインしてください
 
 sync-signedin-login-failure2 =
     .label = { $email } からサインアウトしています
@@ -1331,12 +1293,14 @@ sync-sign-in =
 
 ## Sync section - enabling or disabling sync.
 
+# "Your sync choices" refers to the choices a user makes on what types of data they want to sync
+sync-cwts-migration-notification =
+    .message = 同期するデータの選択はこのデバイスにのみ適用されるようになりました。
+
 prefs-syncing-on = 同期: オン
 
 prefs-syncing-on-2 =
     .label = 同期がオンです
-
-prefs-syncing-off = 同期: オフ
 
 prefs-syncing-off-2 =
     .label = 同期がオフです
@@ -1347,34 +1311,19 @@ prefs-syncing-off-3 =
     .label = 同期はオフです
     .description = 同期をオンにすると、このデバイスでブックマーク、パスワード、履歴などを利用できます。
 
-prefs-sync-turn-on-syncing =
-    .label = 同期をオンにする…
-    .accesskey = s
-
 prefs-sync-turn-on-syncing-2 =
     .label = 同期をオンにする
     .accesskey = s
 
-prefs-sync-offer-setup-label2 = ブックマーク、履歴、タブ、パスワード、アドオン、設定をすべてのデバイスで同期します。
-
-prefs-sync-now-button =
-    .label = 今すぐ同期
-    .accesskey = N
-
 prefs-sync-now-button-2 =
     .label = 今すぐ同期
     .accesskey = N
-
-prefs-syncing-button =
-    .label = 同期中…
 
 prefs-syncing-button-2 =
     .label = 同期中…
     .title = 今すぐ同期
 
 ## The list of things currently syncing.
-
-sync-syncing-across-devices-heading = 接続されているすべてのデバイスで、以下の項目を同期しています:
 
 sync-syncing-across-devices-heading-2 = デバイス間で同期されたデータ
 
@@ -1396,10 +1345,6 @@ sync-currently-syncing-addresses = 住所
 sync-currently-syncing-payment-methods = 支払い方法
 sync-currently-syncing-addons = アドオン
 sync-currently-syncing-settings = 設定
-
-sync-manage-options =
-    .label = 同期を管理…
-    .accesskey = M
 
 sync-manage-options-2 =
     .label = 同期データを管理
@@ -1467,8 +1412,6 @@ sync-engine-settings2 =
 
 ## The device name controls.
 
-sync-device-name-header = デバイス名
-
 sync-device-name-header-2 =
     .label = デバイス名
 
@@ -1482,10 +1425,6 @@ sync-device-name-change-2 =
     .label = デバイスの名前を変更
     .accesskey = h
 
-sync-device-name-change =
-    .label = デバイスの名前を変更…
-    .accesskey = h
-
 sync-device-name-cancel =
     .label = キャンセル
     .accesskey = n
@@ -1493,8 +1432,6 @@ sync-device-name-cancel =
 sync-device-name-save =
     .label = 保存
     .accesskey = v
-
-sync-connect-another-device = 他のデバイスを接続
 
 sync-connect-another-device-2 =
     .label = 別のデバイスを接続

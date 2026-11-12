@@ -21,7 +21,7 @@ user-context-new-tab2 =
 user-context-add-container2 =
     .label = 新しいコンテナを追加
 user-context-manage-containers2 =
-    .label = コンテナを管理o
+    .label = コンテナを管理
 
 # The below strings need separate messages for use in panel-list implementations,
 # which take their label from the message value rather than a .label attribute.

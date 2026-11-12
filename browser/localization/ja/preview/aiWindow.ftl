@@ -152,12 +152,24 @@ ai-tasks-no-monitors-message = <a data-l10n-name="smart-window-link">{ -smart-wi
 ai-tasks-blocked-title = AI コントロールで { -smart-window-brand-name } タスクがブロックされています
 ai-task-page-no-alerts = タスクを作成して、選択したページの価格やコンテンツを追跡しましょう。{ -smart-window-brand-name } が一致を見つけると通知されます。
 ai-task-page-no-alerts-title = 重要な情報を監視
+# Headings for the groups of tasks on the Tasks page.
+ai-tasks-group-monitors-active = モニター · アクティブ
+ai-tasks-group-monitors-paused = モニター · 一時停止中
+# Shown next to a group heading.
 # Variables:
-#   $count (number) - The number of tasks currently active
-ai-tasks-alerts-count = { $count ->
-    [one] { $count } 件のタスク
-   *[other] { $count } 件のタスク
-}
+#   $count (number) - The number of tasks in the group
+#   $limit (number) - The maximum number of tasks the group can hold
+ai-tasks-group-count-of-limit = { $count } / { $limit } 件
+# Shown next to a group heading.
+# Variables:
+#   $count (number) - The number of tasks in the group
+ai-tasks-group-count = { $count } 件
+# Button below a group of tasks that shows the rest of the group.
+# Variables:
+#   $count (number) - The number of tasks currently hidden
+ai-tasks-group-show-more = 他 { $count } 件を表示
+# Button below an expanded group of tasks that hides all but the first few again.
+ai-tasks-group-show-less = 表示を減らす
 # Variables:
 #   $count (number) - The number of webpages being watched
 ai-tasks-alert-watching-pages = { $count ->
@@ -536,9 +548,10 @@ smartwindow-aitab-open-current =
 smartwindow-aitab-open-new =
     .label = 新しいタブで開く
 
+smartwindow-aitab-response-card-title = { -smart-page-brand-name } の準備ができました
 smartwindow-aitab-created-an-aitab = { -smart-page-brand-name } を作成しました
 smartwindow-aitab-updated-an-aitab = { -smart-page-brand-name } を更新しました
-smartwindow-aitab-empty-chat-message = { -smart-page-brand-name } を変更しますか? チャットでコンテンツの追加や削除を依頼してください。
+smartwindow-aitab-empty-chat-message = { -smart-page-brand-name } を変更したいですか? チャットで話しかけてコンテンツを追加したり削除したりできます。
 
 # Variables:
 #   $tags (Number) - Number of sources used to create the AITab

@@ -343,6 +343,10 @@ discopane-notice-learn-more = さらに詳しく
 forced-colors-theme-notice =
     .message = Windows のコントラスト設定が { -brand-short-name } のテーマを上書きしています。テーマを使用するには、この設定をオフにしてください。
 
+# Message-bar notice shown in the about:addons themes list view after users opt in into the Smart Window mode.
+smartwindow-themes-notice =
+    .message = { -smart-window-brand-name } には、システム設定に連動するライトテーマとダークテーマが内蔵されています。
+
 privacy-policy = プライバシー ポリシー
 
 # Refers to the author of an add-on, shown below the name of the add-on.

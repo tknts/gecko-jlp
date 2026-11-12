@@ -773,6 +773,7 @@ newtab-download-mobile-highlight-image =
     .aria-label = モバイル版 { -brand-product-name } をダウンロードするための QR コード
 
 ## Strings for reporting issues with ads and content
+## Preceded by "Why are you reporting this?"
 
 newtab-report-content-why-reporting-this =
   .label = このコンテンツを報告する理由は何ですか?
@@ -782,6 +783,12 @@ newtab-report-ads-reason-inappropriate =
   .label = 不適切です
 newtab-report-ads-reason-seen-it-too-many-times =
   .label = 繰り返し表示されます
+newtab-report-ads-reason-scam =
+  .label = 詐欺または不正行為
+newtab-report-ads-reason-misleading =
+  .label = 誤解を招く内容や虚偽の主張
+newtab-report-ads-reason-offensive =
+  .label = 不快または不適切な内容
 newtab-report-content-wrong-category =
   .label = カテゴリーが間違っています
 newtab-report-content-outdated =
@@ -1084,10 +1091,18 @@ newtab-clock-widget-search-location-input2 =
 # "Nickname (optional)" refers to a custom, user-defined label for a saved location
 # (e.g., "Home", "Office", or "School") to make it easier to recognize.
 # Not to be translated as a legal name, username, or alias used for identity verification.
-newtab-clock-widget-input-nickname =
+# The description counts down as the user types.
+# Variables:
+#   $count (number) - How many more characters the nickname can have.
+newtab-clock-widget-input-nickname2 =
     .label = ニックネーム (任意)
     .placeholder = ニックネームを追加
     .aria-label = ニックネーム (任意)
+    .description =
+        { $count ->
+            [one] 残り { $count } 文字
+           *[other] 残り { $count } 文字
+        }
 # "Add new clock" is an icon-only button in the widget toolbar — the
 # attributes are consumed as tooltip/screen-reader label only. The button
 # never renders visible text.
