@@ -143,11 +143,26 @@ aiwindow-input-model-select-button-label-fast = 高速
 aiwindow-input-model-select-button-label-allpurpose = 汎用
 aiwindow-input-model-select-button-label-personal = 個人向け
 aiwindow-input-model-select-button-label-custom = カスタム
+# Auto lets Smart Window pick the model for each request.
+aiwindow-input-model-select-button-label-auto = 自動
 
 aiwindow-input-model-select-default-badge =
     .label = デフォルト
     .title = 選択されているデフォルトのモデル
-aiwindow-input-model-select-settings-link = モデルの設定
+# Badge next to the Auto model in the smartbar model select, shown when Auto
+# isn't the default model.
+aiwindow-input-model-select-recommended-badge =
+    .label = おすすめ
+    .title = おすすめのモデル
+aiwindow-input-model-select-settings-link = モデル設定
+
+## Descriptions shown under each model in the smartbar model select when the
+## Auto model is offered.
+
+aiwindow-input-model-select-auto-description = { -smart-window-brand-name } がタスクに最適なモデルを選択します
+aiwindow-input-model-select-fast-description = すばやく動きたいときの素早い回答
+aiwindow-input-model-select-flexible-description = さまざまなタスクに対応
+aiwindow-input-model-select-personal-description = 複数の言語でチャットやウェブ閲覧をする場合に最適です
 
 ## Firstrun memories onboarding
 
@@ -407,3 +422,35 @@ aiwindow-starter-scroll-end =
 aiwindow-starter-dismiss =
     .title = { $text } の非表示
     .aria-label = { $text } を非表示にする
+
+## Single-page onboarding
+
+# The line break is intentional and is preserved when displayed.
+smartwindow-onboarding-welcome-subtitle =
+    作業をスムーズに進めるためのパートナーです。
+    計画の作成、比較、探索などをこなせます。
+smartwindow-onboarding-title = 自分流にカスタマイズしよう
+smartwindow-onboarding-subtitle = 好みに合わせて { -smart-window-brand-name } を設定しましょう。設定からいつでも変更できます。
+smartwindow-onboarding-model-label = AI モデルの選択
+smartwindow-onboarding-model-description = { -smart-window-brand-name } でのチャットやアクションを支えるモデルです。
+smartwindow-onboarding-model-auto = 自動
+# Badge identifying the recommended model during onboarding: Mistral in the EEA, Auto elsewhere.
+smartwindow-onboarding-model-recommended = おすすめ
+smartwindow-onboarding-model-auto-description = タスクに最適なモデルを { -smart-window-brand-name } が自動で選択します
+smartwindow-onboarding-model-mistral-description = 複数の言語でチャットやブラウジングをする場合に適しています
+smartwindow-onboarding-model-gemini-description = スピーディーな動作で素早く回答します
+smartwindow-onboarding-memories-label = { -smart-window-brand-name } があなたについて学習する方法の選択
+smartwindow-onboarding-memories-description = チャットやブラウジング、またはその両方から学習してメモリを作成できます。これにより、時間の経過とともに体験がパーソナライズされます。
+smartwindow-onboarding-memories-both = チャットとブラウジング
+smartwindow-onboarding-memories-browsing = ブラウジングのみ
+smartwindow-onboarding-memories-chats = チャットのみ
+smartwindow-onboarding-memories-none = アクティビティから学習しない
+smartwindow-onboarding-memories-both-description = { -smart-window-brand-name } でのチャット、{ -brand-short-name } でのブラウジング
+smartwindow-onboarding-memories-browsing-description = { -brand-short-name } でのブラウジング
+smartwindow-onboarding-memories-chats-description = { -smart-window-brand-name } でのチャット
+smartwindow-onboarding-memories-none-description = パーソナライズされた提案が減り、チャットごとに詳細を繰り返し入力する必要が生じる場合があります。
+smartwindow-onboarding-default-window =
+    .label = { -smart-window-brand-name } で開始
+    .description = { -brand-short-name } の起動時、再起動時、または他のアプリからリンクを開いたときに使用します。
+smartwindow-onboarding-save =
+    .label = 保存して次へ進む

@@ -78,12 +78,11 @@ firefox-suggest-weather-high-low = 最高: { $high }°{ $unit } · 最低: { $lo
 
 ## These strings are used as labels of menu items in the result menu.
 
-firefox-suggest-command-dont-show-this2 = これを表示しない
 firefox-suggest-command-dont-show-mdn2 = { -mdn-brand-short-name } のサジェストを表示しない
+    .accesskey = n
 firefox-suggest-command-not-interested2 = 興味がありません
-firefox-suggest-command-dont-show-this-suggestion2 = このサジェストを表示しない
-firefox-suggest-command-dont-show-any-suggestions2 = サジェストを一切表示しない
 firefox-suggest-command-dont-show-addons2 = { -brand-product-name } 拡張機能のサジェストを表示しない
+    .accesskey = n
 
 ## These strings are used for Yelp suggestions in the urlbar.
 
@@ -201,7 +200,8 @@ urlbar-result-yelp-realtime-opt-in-title = 周辺のおすすめスポットを�
 urlbar-result-yelp-realtime-opt-in-description = { -vendor-short-name } と検索クエリデータを共有することで、周辺の場所やサービスの候補、さらにパートナーからの株式、スポーツのスコアなどの更新情報を取得できます。<a data-l10n-name="learn-more-link">詳細はこちら</a>
 
 # This string is shown in the result menu.
-urlbar-result-menu-dont-show-yelp-realtime2 = { -yelp-brand-name } の候補を表示しない
+urlbar-result-menu-dont-show-yelp-realtime3 = { -yelp-brand-name } の提案を表示しない
+    .accesskey = n
 
 # A message that replaces a result when the user dismisses Yelp realtime
 # suggestions.
@@ -246,7 +246,8 @@ urlbar-result-aria-group-yelp-realtime =
 ## and the status like delayed, etc.
 
 # This string is shown in the result menu.
-urlbar-result-menu-dont-show-flight-status2 = フライト状況の提案を表示しない
+urlbar-result-menu-dont-show-flight-status3 = フライト状況の提案を表示しない
+    .accesskey = n
 
 # A message that replaces a result when the user dismisses flight status
 # suggestions.
@@ -327,7 +328,8 @@ urlbar-result-sports-status-live = 試合中
 urlbar-result-sports-status-final = 試合終了
 
 # This string is shown in the result menu.
-urlbar-result-menu-dont-show-sports2 = スポーツのサジェストを表示しない
+urlbar-result-menu-dont-show-sports3 = スポーツの提案を表示しない
+    .accesskey = n
 
 # A message that replaces a result when the user dismisses sports suggestions.
 urlbar-result-dismissal-acknowledgment-sports = フィードバックをありがとうございます。試合の候補は今後表示されません。

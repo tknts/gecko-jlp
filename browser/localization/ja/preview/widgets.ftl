@@ -27,3 +27,31 @@ preferences-ai-controls-custom-widgets-control =
 # Item in the list of features the "Block AI enhancements?" confirmation
 # dialog will block.
 preferences-ai-controls-block-confirmation-custom-widgets = カスタムウィジェット
+
+# Opens the text field for describing a widget to make.
+widget-studio-compose-button =
+  .title = 新しいウィジェット
+
+# Text field describing the widget to make.
+widget-composer-input =
+  .placeholder = ウィジェットの説明を入力
+  .aria-label = ウィジェットの説明を入力
+
+# Makes the widget the prompt describes.
+widget-composer-submit-button =
+  .title = ウィジェットを作成
+
+# Heading of the group in Firefox Labs that holds experiments in the Homepage, for example the custom widgets entry.
+experimental-features-group-custom-widgets =
+  .label = ホームページ
+
+# Custom widgets are widgets that people create by describing them to AI.
+experimental-features-custom-widgets =
+    .label = カスタムウィジェット
+experimental-features-custom-widgets-description = 作りたいたいものを説明するだけで、{ -firefox-home-brand-name } やサイドバー用のウィジェットを自分で作成できます。たとえば、習慣トラッカー、文字数カウンター、親父ギャグメーカーなどを作成可能です。ウィジェットはすべて端末内に保存されます。入力したプロンプト、ウィジェット、ウィジェットデータは保存されず、AIのトレーニングに使用されることもありません。<a data-l10n-name="connect">フィードバックを送信</a>
+
+# Prompt shown in Widget Studio when nobody is signed in.
+
+widget-studio-sign-in-title = ログインしてカスタムウィジェットを作成する
+widget-studio-sign-in-button =
+    .label = ログイン

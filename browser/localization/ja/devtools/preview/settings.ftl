@@ -40,6 +40,12 @@ devtools-settings-tool-antitracking =
 # what the toolbox is currently debugging.
 devtools-settings-tool-not-supported = 現在のツールボックスのターゲットではサポートされていません
 
+## Additional Tools section. Each checkbox enables or disables a tool
+## provided by an add-on.
+
+devtools-settings-additional-tools =
+    .label = アドオンでインストールされた開発ツール
+
 ## Toolbox Buttons section. Each checkbox shows or hides a button in the
 ## DevTools toolbox toolbar.
 
@@ -99,6 +105,20 @@ devtools-settings-webconsole-split-console =
     .label = 分割コンソールを有効にする
     .title = [Esc] キーで分割コンソールを開きます
 
+## Themes section.
+
+devtools-settings-themes =
+    .label = テーマ
+
+# Accessible name for the group of buttons choosing the color theme used by
+# DevTools.
+devtools-settings-theme =
+    .aria-label = テーマ
+
+# Follows the operating system's light or dark preference.
+devtools-settings-theme-auto =
+    .label = 自動
+
 ## Inspector section, configuring the page inspector.
 
 devtools-settings-inspector =
@@ -110,7 +130,7 @@ devtools-settings-inspector-user-agent-styles =
 
 devtools-settings-inspector-user-agent-shadow-dom =
     .label = ブラウザの Shadow DOM を表示する
-    .title = ブラウザによって処理される Shadow DOM 要素を表示します。
+    .title = 有効にすると、ブラウザによって処理される Shadow DOM 要素を表示します。
     .description = ページを再読み込みします
 
 devtools-settings-inspector-show-comments =
@@ -161,6 +181,24 @@ devtools-settings-inspector-color-unit-hwb =
 devtools-settings-inspector-color-unit-name =
     .label = 色名
 
+## Network Monitor section.
+
+devtools-settings-netmonitor =
+    .label = ネットワーク モニター
+
+devtools-settings-netmonitor-body-limit-label = リクエストおよびレスポンスの最大ボディサイズ (無制限にするには 0 を設定してください):
+devtools-settings-netmonitor-body-limit-tooltip =
+    .title = 指定されたサイズを超えるリクエストまたはレスポンスのボディは、ネットワークモニターでの表示時またはダウンロード時に切り詰められます。制限をなくすには 0 を設定してください。
+# Shown in place of the body size limit when it's set to 0.
+devtools-settings-netmonitor-body-limit-unlimited = 無制限
+
+devtools-settings-netmonitor-body-limit-edit =
+    .title = 最大リクエスト/レスポンスボディサイズを編集します。
+devtools-settings-netmonitor-body-limit-reset =
+    .title = 最大リクエスト/レスポンスボディサイズのデフォルト値を復元します。
+devtools-settings-netmonitor-body-limit-save =
+    .title = 現在の入力値を最大リクエスト/レスポンスボディサイズとして設定します。
+
 ## Style Editor section, configuring the CSS Style Editor.
 
 devtools-settings-styleeditor =
@@ -176,7 +214,7 @@ devtools-settings-screenshot =
     .label = スクリーンショットの動作
 
 devtools-settings-screenshot-clipboard =
-    .label = スクリーンショットをクリップボードにのみ保存する
+    .label = クリップボードにのみスクリーンショットを保存する
     .title = スクリーンショットを直接クリップボードに保存します
 
 devtools-settings-screenshot-audio =
@@ -191,7 +229,7 @@ devtools-settings-editor =
 
 devtools-settings-editor-detect-indentation =
     .label = インデントを検出する
-    .title = ソースコンテンツに基づいてインデントを推測します
+    .title = ソースの内容に基づいてインデントを推測します
 
 devtools-settings-editor-autoclose-brackets =
     .label = 括弧を自動的に閉じる
@@ -244,8 +282,8 @@ devtools-settings-advanced-disable-javascript =
     .description = 現在のセッションのみ、ページを再読み込みします
 
 devtools-settings-advanced-service-workers-http =
-    .label = HTTP 経由のサービスワーカーを有効にする (ツールボックスが開いているとき)
-    .title = このオプションを有効にすると、ツールボックスが開いているすべてのタブで HTTP 経由のサービスワーカーが有効になります。
+    .label = HTTP 経由の Service Worker を有効にする (ツールボックスが開いているとき)
+    .title = このオプションを有効にすると、ツールボックスが開いているすべてのタブで HTTP 経由の Service Worker が有効になります。
 
 devtools-settings-advanced-chrome-debugging =
     .label = ブラウザの Chrome およびアドオンのデバッグツールボックスを有効にする
@@ -256,8 +294,8 @@ devtools-settings-advanced-remote-debugging =
     .title = このオプションを有効にすると、このブラウザインスタンスをリモートからデバッグできるようになります
 
 devtools-settings-advanced-f12 =
-    .label = [F12] キーを使用して開発ツールを開閉する
-    .title = このオプションを有効にすると、[F12] キーに開発ツールボックスの開閉が割り当てられます
+    .label = [F12] キーで開発ツールを開閉する
+    .title = このオプションを有効にすると、[F12] キーで開発ツールボックスを開閉できるようになります
 
 devtools-settings-advanced-custom-formatters =
     .label = カスタムフォーマッタを有効にする

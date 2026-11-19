@@ -9,3 +9,28 @@
 # Shown in a widget card in place of the widget, until there is a widget to
 # show.
 newtab-widget-placeholder = お楽しみに
+
+newtab-wallpaper-category-title-predecessor = プレデセッサー
+
+## Solitaire widget
+
+# Context menu item linking to the Yahoo website, the provider of the solitaire game.
+newtab-solitaire-menu-powered-by-yahoo = Powered by Yahoo
+
+# Tooltip and screen reader label for the icon-only button that closes the
+# expanded Solitaire game and returns the widget to its card.
+newtab-solitaire-widget-close-button =
+    .title = 閉じる
+    .aria-label = ソリティアを閉じます
+
+## Crossword widget
+
+newtab-crossword-widget-title = デイリークロスワード
+# Accessible name for the iframe that contains the crossword puzzle.
+newtab-crossword-widget-frame =
+    .title = クロスワード
+newtab-crossword-widget-menu-show-clues = ヒントを表示
+newtab-crossword-widget-menu-solve-puzzle = パズルを解く
+# Context menu item linking to the Particle website, the provider of the crossword.
+newtab-crossword-menu-powered-by-particle = 提供: Particle
+newtab-crossword-widget-menu-learn-more = 詳細情報

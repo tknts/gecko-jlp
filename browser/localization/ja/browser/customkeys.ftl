@@ -101,6 +101,7 @@ customkeys-dev-profiler-toggle = パフォーマンス プロファイラーの�
 customkeys-dev-profiler-capture = パフォーマンス プロファイルをキャプチャー
 
 customkeys-edit-find-previous = 前を検索
+customkeys-edit-find-selection = 選択部を検索用に使用
 
 customkeys-tools-screenshot = スクリーンショットを撮影
 

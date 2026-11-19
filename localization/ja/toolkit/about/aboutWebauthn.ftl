@@ -11,12 +11,14 @@ about-webauthn-page-title = About WebAuthn
 ## Section titles
 
 about-webauthn-info-section-title = デバイス情報
-about-webauthn-info-subsection-title = 認証情報
-about-webauthn-options-subsection-title = 認証オプション
+about-webauthn-info-subsection-title = 認証器の情報
+about-webauthn-options-subsection-title = 認証器のオプション
 about-webauthn-pin-section-title = PIN の管理
 about-webauthn-credential-management-section-title = 認証情報の管理
 about-webauthn-pin-required-section-title = PIN が必要です
 about-webauthn-confirm-deletion-section-title = 削除の確認
+# Section showing a log of the messages exchanged with a security token (CTAP protocol).
+about-webauthn-logging-section-title = ログ
 # Registered biometric features for authentication. Mostly, but not exclusively, fingerprints.
 about-webauthn-bio-enrollment-section-title = 生体認証の登録
 
@@ -24,12 +26,15 @@ about-webauthn-bio-enrollment-section-title = 生体認証の登録
 
 about-webauthn-text-connect-device = セキュリティトークンを接続してください。
 # If multiple devices are plugged in, they will blink and we are asking the user to select one by touching the device they want.
-about-webauthn-text-select-device = デバイスに触れて、目的のセキュリティトークンを選択してください。
+about-webauthn-text-select-device = 使用するデバイスに触れて、希望するセキュリティトークンを選択してください。
 # CTAP2 refers to Client to Authenticator Protocol version 2
 about-webauthn-text-non-ctap2-device = お使いのセキュリティトークンは CTAP2 に対応していないため、オプションを管理できません。
 about-webauthn-text-not-available = このプラットフォームでは利用できません。
 about-webauthn-bio-enrollment-list-subsection-title = 登録済みの生体認証:
 about-webauthn-add-bio-enrollment-section-title = 新しい生体認証の登録を追加
+about-webauthn-logging-warning = ログには、ユーザー名、アカウント識別子、ウェブサイトのアドレスなどの個人情報が含まれる場合があります。共有する前に内容を確認してください。
+# CTAP (Client to Authenticator Protocol) and WebAuthn are protocol names and should not be translated.
+about-webauthn-logging-scope-note = これは { -brand-short-name } のネイティブ CTAP 実装に対するリクエストのみを記録します。プラットフォームの WebAuthn API またはブラウザー拡張機能に対するリクエストは記録されません。
 
 ## Results label
 
@@ -74,6 +79,12 @@ about-webauthn-add-bio-enrollment-button = 登録を追加
 about-webauthn-cancel-button = キャンセル
 about-webauthn-send-pin-button = OK
 about-webauthn-delete-button = 削除
+# Starts recording the log of messages exchanged with a security token.
+about-webauthn-start-button = 開始
+# Stops recording the log of messages exchanged with a security token.
+about-webauthn-stop-button = 停止
+# Clears the log of messages exchanged with a security token.
+about-webauthn-clear-button = 消去
 about-webauthn-start-enrollment-button = 登録を開始
 about-webauthn-update-button = 更新
 
@@ -81,7 +92,7 @@ about-webauthn-update-button = 更新
 ## Option fields correspond to the CTAP2 option IDs and definitions found in https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-20210615.html#option-id
 
 about-webauthn-auth-option-uv = ユーザー検証
-about-webauthn-auth-option-up = ユーザーの存在
+about-webauthn-auth-option-up = ユーザーの存在確認
 about-webauthn-auth-option-clientpin = クライアント PIN
 about-webauthn-auth-option-rk = 常駐キー
 about-webauthn-auth-option-plat = プラットフォームデバイス
@@ -89,8 +100,8 @@ about-webauthn-auth-option-plat = プラットフォームデバイス
 about-webauthn-auth-option-pinuvauthtoken = コマンド権限 (pinUvAuthToken)
 # MakeCredential and GetAssertion should not be translated.
 about-webauthn-auth-option-nomcgapermissionswithclientpin = クライアント PIN を使用した MakeCredential / GetAssertion 権限なし
-about-webauthn-auth-option-largeblobs = ラージブロブ
-about-webauthn-auth-option-ep = エンタープライズ認証証明
+about-webauthn-auth-option-largeblobs = 大規模データ
+about-webauthn-auth-option-ep = エンタープライズ証明
 about-webauthn-auth-option-bioenroll = 生体認証の登録
 # FIDO_2_1_PRE should not be translated.
 about-webauthn-auth-option-userverificationmgmtpreview = 生体認証の登録プロトタイプ (FIDO_2_1_PRE)
@@ -117,17 +128,17 @@ about-webauthn-auth-info-vendor-prototype-config-commands = ベンダープロ�
 about-webauthn-auth-info-remaining-discoverable-credentials = 残りの発見可能なクレデンシャル
 about-webauthn-auth-info-certifications = 認証
 about-webauthn-auth-info-uv-modality = ユーザー検証のモダリティ
-about-webauthn-auth-info-preferred-platform-uv-attempts = プラットフォームユーザー検証の推奨試行回数
-about-webauthn-auth-info-max-rpids-for-set-min-pin-length = 最小 PIN 長設定のための Relying Party ID の最大数
-about-webauthn-auth-info-max-cred-blob-length = クレデンシャルブロブの最大長
+about-webauthn-auth-info-preferred-platform-uv-attempts = 推奨プラットフォームユーザー検証試行回数
+about-webauthn-auth-info-max-rpids-for-set-min-pin-length = 最小 PIN 長設定の最大リライイングパーティ ID 数
+about-webauthn-auth-info-max-cred-blob-length = 最大資格情報データ長
 about-webauthn-auth-info-firmware-version = ファームウェアバージョン
 about-webauthn-auth-info-min-pin-length = 最小 PIN 長
 about-webauthn-auth-info-force-pin-change = PIN 変更の強制
-about-webauthn-auth-info-max-ser-large-blob-array = ラージブロブ配列の最大サイズ
+about-webauthn-auth-info-max-ser-large-blob-array = 大規模データ配列の最大サイズ
 about-webauthn-auth-info-algorithms = アルゴリズム
 about-webauthn-auth-info-transports = トランスポート
-about-webauthn-auth-info-max-credential-id-length = クレデンシャル ID の最大長
-about-webauthn-auth-info-max-credential-count-in-list = リスト内のクレデンシャルの最大数
+about-webauthn-auth-info-max-credential-id-length = 最大資格情報 ID 長
+about-webauthn-auth-info-max-credential-count-in-list = リスト内の最大資格情報数
 about-webauthn-auth-info-pin-protocols = PIN プロトコル
 about-webauthn-auth-info-max-msg-size = 最大メッセージサイズ
 # AAGUID should not be translated.
@@ -175,6 +186,6 @@ about-webauthn-ctap2-enroll-feedback-too-short = スキャンが短すぎます�
 about-webauthn-ctap2-enroll-feedback-merge-failure = スキャン統合に失敗しました。
 # Scan (e.g. of fingerprint) is somehow identical to an existing sample.
 about-webauthn-ctap2-enroll-feedback-exists = 既に登録済みのスキャンです。
-about-webauthn-ctap2-enroll-feedback-no-user-activity = ユーザーの操作がありません。
+about-webauthn-ctap2-enroll-feedback-no-user-activity = ユーザーからの操作がありません。
 about-webauthn-ctap2-enroll-feedback-no-user-presence-transition = ユーザーが想定通りにスキャンを完了しませんでした。
-about-webauthn-ctap2-enroll-feedback-other = スキャンエラー。
+about-webauthn-ctap2-enroll-feedback-other = スキャンエラーが発生しました。

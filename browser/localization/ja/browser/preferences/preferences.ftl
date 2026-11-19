@@ -7,7 +7,7 @@ global-privacy-control-description =
     .accesskey = s
 
 do-not-track-removal3 =
-    .message = “Do Not Track” 機能のサポートは終了しました。
+    .message = “トラッキング拒否 (Do Not Track)” 機能のサポートは終了しました。
 
 non-technical-privacy-heading =
     .label = 追加の保護機能
@@ -19,7 +19,7 @@ preferences-privacy-relay-available =
 # Do not translate.
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
-global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-search = グローバル プライバシー コントロール (GPC)
 
 settings-page-title = 設定
 
@@ -43,7 +43,7 @@ managed-notice-info-icon =
     .alt = 情報
 
 managed-notice-nav =
-    .label = ご使用のブラウザーはあなたの所属する組織によって管理されています。
+    .label = お使いのブラウザーはあなたの所属する組織によって管理されています。
 
 tls-key-logging-notice-nav =
     .label = アプリケーションやサービスによって暗号化された通信を読み取っている可能性があります。
@@ -52,8 +52,6 @@ category-list =
     .aria-label = カテゴリー
 
 pane-general-title = 一般
-
-pane-home-title = ホーム
 
 pane-home-startup-title2 = ホームと起動
   .title = ホームと起動
@@ -66,8 +64,6 @@ pane-privacy-title3 = プライバシーとセキュリティ
 
 pane-privacy-section =
     .heading = プライバシーとセキュリティ
-
-pane-sync-title3 = 同期
 
 pane-ai-controls-title2 = AI コントロール
   .title = AI コントロール
@@ -98,7 +94,7 @@ settings-pane-labs-title2 = { -firefoxlabs-brand-name }
 
 settings-pane-labs-header =
     .heading = { -firefoxlabs-brand-name }
-pane-experimental-description4 = 実験的な機能をお試しください! これらの機能は開発中で改良が続けられているため、{ -brand-short-name } の動作に影響を与える可能性があります。これらの機能の使用に関するデータは、<a data-l10n-name="data-collection">技術データおよびインタラクションデータ</a> の送信が有効になっている場合にのみ送信されます。
+pane-experimental-description4 = 実験的な機能をぜひお試しください。開発中のため、{ -brand-short-name } の動作に影響する場合があります。これらの機能の使用に関するデータは、<a data-l10n-name="data-collection">技術的および操作データの収集</a>を有効にしている場合にのみ送信されます。
 
 pane-experimental-reset =
   .label = 初期設定に戻す
@@ -144,7 +140,7 @@ extension-controlling-web-notifications = <img data-l10n-name="icon"/> <strong>{
 
 # This string is shown to notify the user that Container Tabs
 # are being enabled by an extension.
-extension-controlling-privacy-containers = <img data-l10n-name="icon"/> <strong>{ $name }</strong> がコンテナタブを必要としています。
+extension-controlling-privacy-containers = <img data-l10n-name="icon"/> <strong>{ $name }</strong> はコンテナタブを必要とします。
 
 # This string is shown to notify the user that their content blocking "All Detected Trackers"
 # preferences are being controlled by an extension.
@@ -164,7 +160,7 @@ extension-controlled-enable = 拡張機能を有効にするには、<img data-l
 extension-controlled-enable-2 = この拡張機能を再度有効にするには、<a data-l10n-name="addons-link">[拡張機能とテーマ]</a> にアクセスしてください。
 # This string is shown to notify the user that their home page or new tab preferences
 # are being controlled by an extension.
-extension-controlling-homepage = { $name } がホームページの一部の設定を制御しています。
+extension-controlling-homepage = { $name } がホームページ設定の一部を制御しています。
 
 ## Preferences UI Search Results
 
@@ -182,7 +178,7 @@ startup-group =
     .label = 起動
 
 always-check-default =
-    .label = 起動時に { -brand-short-name } が既定のブラウザーか常に確認する
+    .label = { -brand-short-name } が既定のブラウザーか毎回確認する
     .accesskey = y
 
 startup-restore-windows-and-tabs =
@@ -211,23 +207,23 @@ preferences-data-migration-button =
 preferences-profiles-group-header =
     .heading = プロファイル
 preferences-profiles-subpane-description =
-    .description = 各プロファイルには、履歴やパスワードなどの閲覧データと設定が個別に保存されます。
+    .description = 各プロファイルには、履歴やパスワードなどの閲覧データや設定が個別に保存されます。
 preferences-profiles-section-header =
     .label = プロファイル
-    .description = 各プロファイルには、履歴やパスワードなどの閲覧データと設定が個別に保存されます。
+    .description = 各プロファイルには、履歴やパスワードなどの閲覧データや設定が個別に保存されます。
 preferences-manage-profiles-button =
   .label = プロファイルを管理
 preferences-profiles-settings-button =
   .label = 設定
 # This string labels the entire copy profile section in the profiles sub-pane.
 preferences-copy-profile-header =
-    .label = 既存のプロファイルをコピー
-    .description = 新しいプロファイルには設定、アドオン、履歴、ブックマークやパスワードなどの保存済みデータがコピーされます（アカウントや同期情報はコピーされません）。
+    .label = 既存プロファイルのコピー
+    .description = 新しいプロファイルには、設定、アドオン、履歴、ブックマークやパスワードなどの保存済みデータがコピーされます（アカウントや同期情報はコピーされません）。
 # This string sits next to the copy controls, both the copy-profile-select
 # drop-down and the copy-profile-button, so that the user understands they
 # need to first pick a profile to copy, and then click the copy button.
 preferences-profile-to-copy =
-  .label = コピー元のプロファイル
+  .label = コピーするプロファイル
 # This string is a placeholder that will be shown in a drop-down list of
 # profiles. The user will select a profile, then click the copy button
 # to make a copy of that profile.
@@ -260,11 +256,11 @@ ctrl-tab-recently-used-order =
     .accesskey = T
 
 open-new-link-as-tabs =
-    .label = リンクを新しいウィンドウではなくタブで開く
+    .label = 新しいウィンドウではなくタブでリンクを開く
     .accesskey = w
 
 open-external-link-next-to-active-tab =
-    .label = アプリからのリンクをアクティブなタブの隣で開く
+    .label = アプリからのリンクをアクティブなタブの隣に開く
 
 ask-on-close-multiple-tabs =
     .label = 複数のタブを閉じるときに確認する
@@ -298,7 +294,7 @@ browser-containers-enabled-2 =
 browser-containers-learn-more = さらに詳しく
 
 browser-containers-settings-2 =
-    .label = 設定を管理…
+    .label = 設定を管理
     .accesskey = i
 
 containers-disable-alert-title = すべてのコンテナ タブを閉じますか?
@@ -322,21 +318,21 @@ containers-disable-alert-ok-button =
 
 containers-disable-alert-cancel-button = 有効のままにする
 
-containers-remove-alert-title = このコンテナを削除します?
+containers-remove-alert-title = このコンテナを削除しますか?
 
 # Variables:
 #   $count (number) - Number of tabs that will be closed.
 containers-remove-alert-msg =
     { $count ->
-        [one] このコンテナを今すぐ削除すると、{ $count } 個のコンテナ タブが閉じられます。本当にこのコンテナを削除しますか？
-       *[other] このコンテナを今すぐ削除すると、{ $count } 個のコンテナ タブが閉じられます。本当にこのコンテナを削除しますか?
+        [one] 今すぐこのコンテナを削除すると、{ $count } 個のコンテナ タブが閉じられます。本当にこのコンテナを削除しますか？
+       *[other] 今すぐこのコンテナを削除すると、{ $count } 個のコンテナタブが閉じられます。本当にこのコンテナを削除しますか?
     }
 
 containers-remove-ok-button = このコンテナを削除
 containers-remove-cancel-button = このコンテナを残す
 
 settings-tabs-show-image-in-preview =
-    .label = タブにカーソルを合わせたときに画像のプレビューを表示する
+    .label = タブにカーソルを合わせたときに画像プレビューを表示する
     .accessKey = h
 
 settings-tabs-drag-to-create-tab-groups =
@@ -360,7 +356,7 @@ page-navigation-group =
 
 ## General Section - Language & Appearance
 
-language-and-appearance-header = 言語とデザイン
+language-and-appearance-header = 言語と外観
 
 appearance-group2 =
   .label = ウェブサイトの外観
@@ -368,33 +364,33 @@ appearance-group2 =
 
 preferences-web-appearance-choice-auto3 =
   .label = システム
-  .title = システムの設定や { -brand-short-name } のテーマに基づいてウェブサイトの背景やコンテンツを自動的に変更します。
+  .title = システム設定と { -brand-short-name } のテーマに基づいて、ウェブサイトの背景とコンテンツを自動的に変更します。
 preferences-web-appearance-choice-light2 =
-  .label = 明るい
-  .title = ウェブサイトの背景やコンテンツに明るい外観を使用します。
+  .label = ライト
+  .title = ウェブサイトの背景とコンテンツに明るい外観を使用します。
 preferences-web-appearance-choice-dark2 =
-  .label = 暗い
-  .title = ウェブサイトの背景やコンテンツに暗い外観を使用します。
+  .label = ダーク
+  .title = ウェブサイトの背景とコンテンツに暗い外観を使用します。
 
 web-appearance-group =
-  .aria-label = ウェブサイトのデザイン
+  .aria-label = ウェブサイトの外観
 
 # This can appear when using windows HCM or "Override colors: always" without
 # system colors.
 preferences-web-appearance-override-warning3 =
-    .message = コントラスト制御の設定がウェブサイトの外観よりも優先されています。
+    .message = コントラストの設定がウェブサイトの外観よりも優先されています。
 
 preferences-web-appearance-link =
     .label = [拡張機能とテーマ] で { -brand-short-name } のテーマを管理
 
 preferences-contrast-control-group =
     .label = ウェブサイトのコントラスト
-    .description = ウェブサイトではさまざまな前景色と背景色が使用されます。一貫したコントラストを保つため、すべてのウェブサイトで同じ色を使用できます。
+    .description = ウェブサイトではさまざまな前景色と背景色が使用されます。コントラストを一定に保つために、すべてのウェブサイトで同じ色を使用できます。
 preferences-contrast-control-radio-group =
     .label = 色を上書き
 
 preferences-contrast-control-use-platform-settings =
-    .label = 自動 (システムの設定に従います)
+    .label = 自動 (システム設定を使用)
     .accesskey = A
 
 preferences-contrast-control-off =
@@ -434,7 +430,7 @@ choose-language-description = ページの表示に使用する優先言語を�
 
 website-language-heading =
   .label = ウェブサイトの言語
-  .description = 一部のウェブページは複数の言語で表示できます。希望する順序で言語を選択してください。
+  .description = 一部のウェブページは複数の言語で表示できます。優先する順序で言語を選択してください。
 
 website-preferred-language =
   .label = 優先言語
@@ -470,19 +466,19 @@ choose-browser-language-description = { -brand-short-name } のメニュー、�
 manage-browser-languages-button =
   .label = 代替言語を設定…
   .accesskey = l
-confirm-browser-language-change-description = 変更を適用するには、{ -brand-short-name } の再起動が必要です
+confirm-browser-language-change-description = これらの変更を適用するには { -brand-short-name } を再起動してください
 confirm-browser-language-change-button = 適用して再起動
 
 browser-language-heading =
   .label = ブラウザーの言語
-  .description = { -brand-short-name } のメニュー、メッセージ、通知に使用する言語を選択してください。
+  .description = { -brand-short-name } のメニュー、メッセージ、通知の表示に使用する言語を選択してください。
 browser-language-preferred-label =
   .label = 優先言語
 browser-language-fallback-label =
   .label = フォールバック言語
   .description = 優先言語のローカライズが不完全な場合に使用されます。
 browser-language-install-error =
-  .message = { -brand-short-name } は現在言語をアップデートできません。インターネットに接続されているか確認するか、もう一度やり直してください。
+  .message = { -brand-short-name } は現在言語を更新できません。インターネットに接続されているか確認してから、もう一度お試しください。
 
 fx-translate-web-pages = { -translations-brand-name }
 
@@ -493,10 +489,10 @@ translate-exceptions =
 settings-translations-header =
     .label = 翻訳
     .aria-label = 翻訳
-    .description = ページや選択したテキストを翻訳します。プライバシー保護のため、翻訳の処理はデバイス内で行われます。
+    .description = ページや選択したテキストを翻訳します。プライバシー保護のため、翻訳処理はデバイス内で行われます。
 
 settings-translations-offer-to-translate-label =
-    .label = ページ全体の翻訳を毎回提案する
+    .label = ページ全体を翻訳するか尋ねる
 
 settings-translations-more-settings-button =
     .label = 詳細な翻訳設定
@@ -523,7 +519,7 @@ settings-translations-subpage-never-translate-sites-header =
 
 # The icon placeholders show the translations button and the settings gear in the urlbar panel.
 settings-translations-subpage-never-translate-sites-description =
-    サイトを追加するには、<img data-l10n-name="translations-icon"/> 翻訳パネルを開き、<img data-l10n-name="settings-icon"/> 翻訳設定を選択して、 “このサイトは翻訳しない” を選んでください
+    サイトを追加するには、<img data-l10n-name="translations-icon"/> 翻訳パネルを開き、<img data-l10n-name="settings-icon"/> 翻訳設定を選択して、 “このサイトは翻訳しない” を選択してください。
 
 settings-translations-subpage-language-select-option =
     .label = 言語を追加
@@ -595,11 +591,9 @@ spellcheck-download-dictionaries =
 
 spellcheck-promo =
     .heading = スペルチェックの使い方
-    .message = テキストフィールドを右クリックすると、スペルチェックのオン/オフの切り替えや言語の変更ができます。すべてのフィールドがスペルチェックに対応しているわけではありません。
+    .message = テキストフィールドを右クリックして、スペルチェックのオン/オフや言語の切り替えを行います。一部のフィールドではスペルチェックがサポートされていません。
 
-## General Section - Files and Applications
-
-files-and-applications-title = ファイルとアプリケーション
+## Downloads
 
 download-save-files-header =
     .label = ファイルの保存先
@@ -608,32 +602,22 @@ download-save-where-3 =
     .aria-label = ファイルの保存先
 
 download-always-ask-where2 =
-    .label = ファイルごとに保存先を確認する
+    .label = すべてのファイルの保存先を確認する
     .accesskey = A
 download-private-browsing-delete2 =
-    .label = プライベートウィンドウを閉じる時にダウンロードしたファイルを削除する
+    .label = プライベートウィンドウでのダウンロードファイルを終了時に削除する
     .accesskey = D
 
-applications-header = アプリケーション
-
-applications-description = ウェブからダウンロードしたファイルや閲覧時に使用するアプリケーションの { -brand-short-name } の動作を選択してください。
+## Downloads - Files and applications
 
 applications-setting2 =
     .label = ファイルとアプリケーション
-    .description = ダウンロードしたファイルやコンテンツに対する { -brand-short-name } の動作を選択します。
+    .description = { -brand-short-name } がダウンロードしたファイルやコンテンツをどのように処理するかを選択します。
 
 applications-filter =
     .placeholder = ファイル形式やアプリケーションを検索
 
-applications-type-column =
-    .label = ファイルの種類 (Content Type)
-    .accesskey = T
-
 applications-type-heading = ファイルの種類 (Content Type)
-
-applications-action-column =
-    .label = 動作
-    .accesskey = A
 
 applications-action-heading = 動作
 
@@ -683,48 +667,13 @@ applications-file-ending-with-type = { applications-file-ending } ({ $type })
 applications-open-inapp =
     .label = { -brand-short-name } で開く
 
-## The strings in this group are used to populate
-## selected label element based on the string from
-## the selected menu item.
-
-applications-action-save-label =
-    .value = { applications-action-save.label }
-
-applications-use-app-label =
-    .value = { applications-use-app.label }
-
-applications-open-inapp-label =
-    .value = { applications-open-inapp.label }
-
-applications-always-ask-label =
-    .value = { applications-always-ask.label }
-
-applications-use-app-default-label =
-    .value = { applications-use-app-default.label }
-
-applications-use-other-label =
-    .value = { applications-use-other.label }
-
-applications-use-os-default-label =
-    .value = { applications-use-os-default.label }
-
-##
-
-applications-handle-new-file-types-description = その他のファイルを開いたとき { -brand-short-name } でどのように処理しますか?
-
 applications-setting-new-file-types =
      .label = その他のファイルを開いたとき { -brand-short-name } が行う動作を選択してください
 
-applications-save-for-new-types =
-    .label = ファイルを保存する
-    .accesskey = S
 applications-save-for-new-types2 =
     .label = ファイルを自動的に保存する
     .accesskey = S
 
-applications-ask-before-handling =
-    .label = ファイルを開くか保存するか確認する
-    .accesskey = A
 applications-ask-before-handling2 =
     .label = ファイルを開くか保存するか尋ねる
     .accesskey = A
@@ -782,22 +731,22 @@ update-application-background-enabled =
     .accesskey = W
 
 update-application-warning-cross-user-setting-2 =
-    .message = この設定はこの { -brand-short-name } のインストール環境を使用するすべての Windows アカウントおよび { -brand-short-name } プロファイルに適用されます。
+    .message = この設定は、このインストール環境を使用するすべての Windows アカウントおよび { -brand-short-name } プロファイルに適用されます。
 
 update-application-suppress-prompts-2 =
     .label = 更新の通知を減らす
     .accesskey = n
 
-update-setting-write-failure-title2 = 更新設定の保存中にエラーが発生しました
+update-setting-write-failure-title2 = 更新設定の保存エラー
 
 # Variables:
 #   $path (string) - Path to the configuration file
 # The newlines between the main text and the line containing the path is
 # intentional so the path is easier to identify.
 update-setting-write-failure-message2 =
-    { -brand-short-name } でエラーが発生し、この変更を保存できませんでした。このアップデート設定を変更するには、以下のファイルに対する書き込み権限が必要となります。あなたまたはシステム管理者がこのファイルを Users グループに対してフルコントロールに設定することで、エラーを解消できる場合があります。
+    { -brand-short-name } でエラーが発生し、この変更が保存されませんでした。この更新設定を変更するには、以下のファイルに対する書き込み権限が必要であることに注意してください。あなたまたはシステム管理者が、Users グループにこのファイルへのフルコントロールを付与することで、エラーを解決できる場合があります。
 
-    ファイルに書き込めませんでした: { $path }
+    書き込みに失敗したファイル: { $path }
 
 update-in-progress-title = 更新しています
 
@@ -812,13 +761,22 @@ update-in-progress-cancel-button = 続行(&C)
 
 support-application-heading =
     .label = { -brand-short-name } サポート
-    .description = トラブルシューティングを行ったり、コミュニティとアイデアを共有したりできます。
+    .description = 問題のトラブルシューティングを行ったり、コミュニティとアイデアを共有したりできます。
 
 support-get-help =
     .label = ヘルプを見る
 
 support-share-ideas =
     .label = アイデアやフィードバックを共有
+
+## Firefox newsletter
+
+newsletter-settings-heading =
+    .label = { -brand-product-name } ニュースレター
+    .description = { -brand-product-name } を最大限に活用するための使い方、アドバイス、ニュースを受け取ります。
+
+newsletter-sign-up-link =
+    .label = 登録
 
 ## General Section - Performance
 
@@ -827,7 +785,7 @@ performance-group =
 
 performance-use-recommended-settings-checkbox-2 =
     .label = 推奨されるパフォーマンス設定を使用する
-    .description = お使いのハードウェアとオペレーティングシステムに最適化された設定です。
+    .description = これらの設定はお使いのハードウェアとオペレーティングシステムに合わせて調整されます。
     .accesskey = U
 
 performance-settings-learn-more = さらに詳しく
@@ -839,8 +797,8 @@ performance-allow-hw-accel =
 performance-limit-content-process-option = コンテンツプロセスの制限
     .accesskey = l
 
-performance-limit-content-process-enabled-desc = コンテンツプロセスを増やすと、複数のタブを使用する際のパフォーマンスが向上しますが、メモリ消費量も増加します。
-performance-limit-content-process-blocked-desc = コンテンツプロセスの数の変更は、マルチプロセス対応の { -brand-short-name } でのみ可能です。<a data-l10n-name="learn-more">マルチプロセスが有効になっているか確認する方法</a>
+performance-limit-content-process-enabled-desc = 複数のタブを使用する場合、コンテンツプロセスを追加するとパフォーマンスが向上しますが、メモリ消費量も増加します。
+performance-limit-content-process-blocked-desc = コンテンツプロセス数の変更は、マルチプロセス対応の { -brand-short-name } でのみ可能です。<a data-l10n-name="learn-more">マルチプロセスが有効になっているか確認する方法</a>
 
 # Variables:
 #   $num (number) - Default value of the `dom.ipc.processCount` pref.
@@ -882,7 +840,7 @@ browsing-search-on-start-typing =
 
 settings-keyboard-shortcuts-group =
     .label = キーボードショートカット
-    .description = { -brand-short-name } 内での移動や操作方法を制御します。
+    .description = { -brand-short-name } での移動や操作を制御します。
 settings-keyboard-shortcuts-customkeys-link =
     .label = キーボードショートカットをカスタマイズ
 
@@ -920,7 +878,7 @@ browsing-cfr-features =
 
 network-proxy-group2 =
   .label = プロキシ設定
-  .description = { -brand-short-name } のインターネット接続方法を設定します。
+  .description = { -brand-short-name } がインターネットに接続する方法を設定します。
 
 network-proxy-connection-settings2 =
     .label = プロキシを構成
@@ -1587,8 +1545,7 @@ payment-moz-box-item =
 
 # Used in place of payment-moz-box-item when a security code is saved alongside
 # the card. Only the presence of a saved security code is ever shown, never the
-# code itself: "•••" stands for the hidden code, so keep it as is rather than
-# translating it into words.
+# code itself.
 # Variables:
 #   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
 #   $expDate (string) - The obscured expiry date of the credit card (for example: XX/2027)
@@ -1598,16 +1555,15 @@ payment-moz-box-item-with-security-code-2 =
   .label = { $cardNumber }
   .description = { $expDate } | { $securityCode } •••
 
-# Used in place of payment-moz-box-item-with-security-code-2 for a card that has
-# a saved security code but no expiry date to show alongside it. "•••" stands for
-# the hidden code.
+# Used in place of payment-moz-box-item-with-security-code-3 for a card that has
+# a saved security code but no expiry date to show alongside it.
 # Variables:
 #   $cardNumber (string) - The obscured credit card number (for example: ********* 2423)
 #   $securityCode (string) - The name of the card's security code, which depends
 #     on the card network (for example: CVV)
-payment-moz-box-item-security-code-only-2 =
+payment-moz-box-item-security-code-only-3 =
   .label = { $cardNumber }
-  .description = { $securityCode } •••
+  .description = { $securityCode } を保存しました
 
 addresses-group =
     .label = 住所など

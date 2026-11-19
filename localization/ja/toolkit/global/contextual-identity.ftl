@@ -84,3 +84,5 @@ user-context-icon-circle =
     .label = ドット
 user-context-icon-fence =
     .label = フェンス
+user-context-icon-robot =
+    .label = ロボット

@@ -108,9 +108,12 @@ urlbar-result-menu-manage-firefox-suggest2 = { -firefox-suggest-brand-name } の
 # user tell Firefox that the location is not accurate. Typically the location
 # will be a city name, or a city name combined with the name of its parent
 # administrative division (e.g., a province, prefecture, or state).
-urlbar-result-menu-report-inaccurate-location2 = 不正確な位置情報を報告
-urlbar-result-menu-show-less-frequently2 = 表示頻度を減らす
-urlbar-result-menu-dont-show-weather-suggestions2 = 天気のサジェストを表示しない
+urlbar-result-menu-report-inaccurate-location3 = 位置情報の誤りを報告
+    .accesskey = R
+urlbar-result-menu-show-less-frequently3 = 表示頻度を減らす
+    .accesskey = f
+urlbar-result-menu-dont-show-weather-suggestions3 = 天気予報のサジェストを表示しない
+    .accesskey = n
 
 # Shown in the urlbar input field context menu to dismiss an adaptive autofill
 # suggestion.
@@ -270,8 +273,9 @@ search-one-offs-add-engine =
     .aria-label = 検索エンジン “{ $engineName }” を追加
 # When more than 5 engines are offered by a web page, they are grouped in a
 # submenu using this as its label.
-search-one-offs-add-engine-menu =
+search-one-offs-add-engine-menu2 =
     .label = 検索エンジンを追加
+    .accesskey = h
 
 ## Local search mode one-off buttons
 ## Variables:
@@ -809,7 +813,8 @@ urlbar-result-realtime-opt-in-dismiss = 非表示にする
 urlbar-result-realtime-opt-in-dismiss-all2 = これらのサジェストを表示しない
 
 # This string is shown in the result menu.
-urlbar-result-menu-dont-show-market2 = サジェストに株価を表示しない
+urlbar-result-menu-dont-show-market3 = サジェストに株価を表示しない
+    .accesskey = n
 
 # A message that replaces a result when the user dismisses Market suggestions.
 urlbar-result-dismissal-acknowledgment-market = フィードバックありがとうございます。今後は株価はサジェストに表示されません。
@@ -1293,6 +1298,42 @@ plugin-crashed-notification-submit-button =
     .label = クラッシュレポートを送信
     .accesskey = S
 
+## Notification bar shown after the user chooses to visit a site flagged by Safe Browsing
+
+safebrowsing-deceptive-site-message = 詐欺サイトです!
+safebrowsing-reported-attack-site-message = 攻撃サイトとして報告されています!
+safebrowsing-reported-unwanted-site-message = 望ましくないソフトウェアの配布サイトとして報告されています!
+safebrowsing-reported-harmful-site-message = 有害なサイトとして報告されています!
+safebrowsing-get-me-out-of-here-button =
+    .label = 今すぐこのページから離れる
+    .accesskey = G
+safebrowsing-not-a-deceptive-site-button =
+    .label = 詐欺サイトではありません…
+    .accesskey = D
+safebrowsing-not-an-attack-site-button =
+    .label = 攻撃サイトではありません…
+    .accesskey = A
+
+## Notification bar shown when a captive portal is blocking network access
+## and requires the user to log in before browsing.
+
+captive-portal-info-message = インターネットを利用するには、このネットワークにログインする必要があります。
+# Shown in all tabs except the login page tab. Clicking it shows the portal
+# login page tab.
+captive-portal-show-login-page-button =
+    .label = ネットワークのログインページを開く
+
+## Notification bar shown when the user tries to visit a local host, but a
+## search page was already loaded for the given word by the time the DNS
+## request recognized it.
+## Variables:
+##   $hostName (String) - The recognized host (for example, “http://example/”).
+
+keyword-uri-fixup-message = { $hostName } に移動しますか?
+keyword-uri-fixup-go-to-button =
+    .label = はい、{ $hostName } に移動する
+    .accesskey = Y
+
 ## Password save/update panel
 
 panel-save-update-username-2 =
@@ -1508,7 +1549,7 @@ unified-extensions-button-blocklisted =
         拡張機能
         一部の拡張機能は無効になっています
 
-# Private browsing reset button
+## Private browsing reset button
 
 reset-pbm-toolbar-button2 =
     .label = プライベートセッションを消去
@@ -1724,6 +1765,10 @@ trustpanel-etp-toggle-off =
 
 trustpanel-etp-description-enabled = このサイトで表示が崩れている場合は、保護をオフにしてみてください。
 trustpanel-etp-description-disabled = { -brand-product-name } は、企業がユーザーを追跡すべきではないと考えています。保護をオンにすると、可能な限り多くのトラッカーをブロックします。
+
+trustpanel-trackercount-label = アドレスバーでブロックしたトラッカーを表示する
+trustpanel-trackercount-toggle =
+    .aria-label = アドレスバーでブロックしたトラッカーを表示する
 
 trustpanel-connection-label-secure = 安全な接続
 trustpanel-connection-label-insecure = 安全ではない接続

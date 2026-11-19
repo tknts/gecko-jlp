@@ -495,14 +495,18 @@ main-context-menu-new-feature-badge = 新規
 # The label of a badge shown in menu items to call out features that are in beta.
 main-context-menu-beta-feature-badge = Beta
 
-main-context-menu-pdfjs-copy-page =
+main-context-menu-pdfjs-copy-page2 =
     .label = ページをコピー
+    .accesskey = o
 
-main-context-menu-pdfjs-cut-page =
+main-context-menu-pdfjs-cut-page2 =
     .label = ページを切り取り
+    .accesskey = g
 
-main-context-menu-pdfjs-delete-page =
+main-context-menu-pdfjs-delete-page2 =
     .label = ページを削除
+    .accesskey = l
 
-main-context-menu-pdfjs-save-page =
+main-context-menu-pdfjs-save-page2 =
     .label = 選択範囲を名前を付けて保存…
+    .accesskey = S

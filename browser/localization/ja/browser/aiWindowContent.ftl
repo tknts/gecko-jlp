@@ -217,13 +217,19 @@ action-log-searched-web = ウェブを検索しました
 # Exa is the name of a third-party web search API and a brand name that
 # should not be translated. The <a> wraps "Exa" as a link to a support
 # article explaining the third-party web search integration.
-action-log-searching-web-with-exa = <a data-l10n-name="exa-link">Exa</a> でウェブを検索中
+action-log-searching-web-with-exa = <a data-l10n-name="exa-link">Exa</a> を使用してウェブを検索しています
 # Exa is the name of a third-party web search API and a brand name that
 # should not be translated. The <a> wraps "Exa" as a link to a support
 # article explaining the third-party web search integration.
-action-log-searched-web-with-exa = <a data-l10n-name="exa-link">Exa</a> でウェブを検索しました
-action-log-checking-memories = メモリをチェック中
-action-log-checked-memories = メモリをチェックしました
+action-log-searched-web-with-exa = <a data-l10n-name="exa-link">Exa</a> を使用してウェブを検索しました
+# Shown instead of action-log-searched-web-with-exa when Exa both searched the
+# web and wrote the reply shown to the user, rather than the assistant answering
+# from the search results. Exa is the name of a third-party web search API and a
+# brand name that should not be translated. The <a> wraps "Exa" as a link to a
+# support article explaining the third-party web search integration.
+action-log-searched-and-answered-with-exa = <a data-l10n-name="exa-link">Exa</a> を使用して検索し、回答しました
+action-log-checking-memories = メモリを確認中
+action-log-checked-memories = メモリを確認しました
 action-log-searching-settings = 設定を検索中
 action-log-searched-settings = 設定を検索しました
 # Variables
@@ -233,6 +239,12 @@ action-log-completed-steps =
         [one] ステップを完了しました
        *[other] { $count } 個のステップを完了しました
     }
+# A step in the assistant action log, which lists the model used for the response.
+# Variables
+#   $model (String) - name of the model that answered
+action-log-picked-model = タスクに選択されたモデル: { $model }
+# Header of the assistant action log while the assistant picks the model for the response.
+action-log-deciding-model = 最適なモデルを選択しています
 
 ## Assistant Loader
 

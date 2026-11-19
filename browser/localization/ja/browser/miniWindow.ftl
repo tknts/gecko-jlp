@@ -77,5 +77,7 @@ mini-window-overlay-instructions = ドラッグまたはクリックして、ミ
 ## Mini Window, shown alongside the Screenshots selection overlay.
 
 mini-window-panel-header = ミニ ウィンドウに移動する範囲を選択
+# Selection for what to move to a Mini Window
 mini-window-panel-move-selection = 選択範囲を移動
+# Selection for what to move to a Mini Window
 mini-window-panel-move-full-tab = タブ全体を移動

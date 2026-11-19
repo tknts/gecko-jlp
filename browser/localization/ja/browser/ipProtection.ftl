@@ -212,12 +212,18 @@ ipprotection-button-turn-vpn-on-1 = オンにする
 # Button while VPN is connecting
 ipprotection-button-connecting = オンにしています…
 
+## Unlimited bandwidth disclaimer shown during a promotion or if the user has a Mozilla VPN subscription
+
+# Variables
+#   $endDate (date) - The date the promotion ends, formatted as month and day (e.g. "January 31")
+ipprotection-unlimited-bandwidth-promo = { DATETIME($endDate, month: "long", day: "numeric") } まで帯域幅が無制限になります
+ipprotection-unlimited-bandwidth-upgraded = 無制限の帯域幅
+
 ## Location controls
 
 # The button displays the selected VPN location.
 # This shows the default selection, "Recommended" which is the recommended location as determined by Firefox.
 ipprotection-recommended-location-button = 接続先: 推奨
-ipprotection-recommended-location-description = { -brand-product-name } が最適な接続先を探します
 
 # Variables
 #   $country (string) - The country selected for the VPN server location
@@ -240,6 +246,17 @@ ipprotection-locations-subview-promo =
   .heading = { -mozilla-vpn-brand-name } で保護をさらに強化
   .message = 300 以上のロケーションから選択し、最大 5 台のデバイス上のすべてのアプリを保護します。
 ipprotection-locations-subview-promo-button = { -mozilla-vpn-brand-name } を入手
+
+# Variables:
+#   $count (number) - The number of additional VPN locations available after setting Firefox as the default browser
+ipprotection-locations-subview-set-default-promo =
+  .heading = もっと多くのロケーション。もっと強力な保護を。
+  .message =
+    { $count ->
+        [one] { -brand-short-name } を既定のブラウザーに設定して、ロケーションを { $count } 箇所追加しましょう。VPN が内蔵されている { -brand-short-name } でリンクを開くことができます。
+       *[other] { -brand-short-name } を既定のブラウザーに設定して、ロケーションを { $count } 箇所追加しましょう。VPN が内蔵されている { -brand-short-name } でリンクを開くことができます。
+    }
+ipprotection-locations-subview-set-default-promo-button = { -brand-short-name } でリンクを開く
 
 ## VPN paused state
 
@@ -282,16 +299,25 @@ ipprotection-message-bandwidth-warning-mb =
   .heading = VPN の制限に近づいています
   .message = 今月の残りデータ量は { $maxUsage } GB 中 { $usageLeft } MB です。
 
-ipprotection-message-continuous-onboarding-intro = VPN をオンにして現在地を隠し、ブラウジングの暗号化を強化しましょう。
-ipprotection-message-continuous-onboarding-autostart = 保護をさらに強化するため、{ -brand-short-name } を起動するたびに <a data-l10n-name="setting-link">VPN がオンになるよう設定</a>しましょう。
-ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } は VPN を使用するように設定したウェブサイトを記憶します。これらはいつでも<a data-l10n-name="setting-link">設定</a>から更新できます。
+# Variables
+#   $additionalLocationsCount (number) - The number of additional VPN locations now available
+ipprotection-message-default-browser-confirmation =
+   .heading = { $additionalLocationsCount ->
+      [one] { $additionalLocationsCount } 件の VPN ロケーションが追加されました
+     *[other] { $additionalLocationsCount } 件の VPN ロケーションが追加されました
+  }
+  .message = { -brand-short-name } を既定のブラウザーに設定していただきありがとうございます。ブラウジングを楽しめるロケーションがさらに増えました。
 
-confirmation-hint-ipprotection-navigated-to-excluded-site = このサイトでは VPN がオフです
-confirmation-hint-ipprotection-navigated-to-included-site = このサイトでは VPN がオンです
+ipprotection-message-continuous-onboarding-intro = VPN を有効にしてロケーションを隠し、ブラウジングの暗号化を強化しましょう。
+ipprotection-message-continuous-onboarding-autostart = { -brand-short-name } を起動するたびに <a data-l10n-name="setting-link">VPN が有効になるよう設定</a>すると、保護をさらに強めることができます。
+ipprotection-message-continuous-onboarding-site-settings = { -brand-short-name } は VPN を使用するように設定したウェブサイトを記憶します。設定はいつでも <a data-l10n-name="setting-link">設定</a> から変更できます。
+
+confirmation-hint-ipprotection-navigated-to-excluded-site = このサイトでは VPN はオフです
+confirmation-hint-ipprotection-navigated-to-included-site = このサイトでは VPN はオンです
 
 ipprotection-open-button = { -brand-product-name } を開く
-ipprotection-come-back-title = 内蔵 VPN を試すために戻りましょう
-ipprotection-message-body-hide-location = { -brand-product-name } でブラウジングする際に現在地を隠して、プライバシーと制御を強化しましょう。
+ipprotection-come-back-title = 戻って内蔵 VPN を試す
+ipprotection-message-body-hide-location = { -brand-product-name } でのブラウジング時にロケーションを隠して、プライバシーとコントロールを強化しましょう。
 
 ## IP Protection bandwidth callouts
 

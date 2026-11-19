@@ -132,7 +132,17 @@ ai-tasks-alert-delete-button =
 ai-tasks-alert-edit-button = 編集
 ai-tasks-alert-pause-button = 一時停止
 ai-tasks-alert-resume-button = 再開
-ai-tasks-alert-check-now-button = 今すぐ確認
+ai-tasks-alert-check-now-button =
+  .label = 今すぐ確認
+# Button in the create form. Pressing it fills in the task name and the
+# "Notify me when" field with a suggestion, replacing what is there.
+ai-tasks-alert-suggest-button = 自動生成
+# Label of the "Write it for me" button while the suggestion is being written.
+# Screen readers also announce it when the writing starts.
+ai-tasks-alert-suggest-generating-button = 生成中…
+# Label of the "Write it for me" button once it has filled in the form.
+# Pressing it again writes a new suggestion.
+ai-tasks-alert-suggest-retry-button = 再試行
 
 ## Dialog Headers - Titles for alert dialogs
 
@@ -197,6 +207,8 @@ ai-tasks-alert-error-max-urls = { $maxUrls ->
 # Shown when creating or resuming a task is refused because the limit of
 # active tasks has been reached. Paused tasks don’t count toward the limit.
 ai-tasks-alert-error-active-limit = アクティブなタスクの上限に達しました。別のタスクを追加または再開するには、既存のタスクを一時停止または削除してください。
+# Shown next to the "Write it for me" button when no suggestion could be written
+ai-tasks-alert-error-suggestion-failed = 提案を作成できませんでした。もう一度お試しください。
 
 ## Accessibility - ARIA labels and accessibility text
 
@@ -631,3 +643,10 @@ ai-clarifying-question-send =
     .label = 送信
 ai-clarifying-question-close =
     .title = 質問を閉じる
+
+## Smart actions toolbar
+## Suggestions for the current page, shown under the navigation toolbar.
+
+smart-actions-toolbar =
+    .aria-label = スマートアクション
+smart-actions-loading = このページを確認しています…
