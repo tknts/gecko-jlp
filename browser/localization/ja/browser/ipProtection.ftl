@@ -271,10 +271,12 @@ upgrade-vpn-button = { -mozilla-vpn-brand-name } を試す
 
 ## Messages and errors
 
-ipprotection-connection-status-generic-error-title-1 = VPN に接続できませんでした
-  .aria-label = VPN に接続できませんでした
-ipprotection-connection-status-generic-error-description = 数分後にもう一度お試しください。
-ipprotection-connection-status-generic-error-try-again = 後でやり直してください。
+ipprotection-connection-status-try-again-button = もう一度試す
+# Label for button that causes the VPN to deactivate the VPN (but any site inclusions continue to use the VPN)
+ipprotection-connection-error-continue-without-vpn = VPN なしで続行
+# Shown in place of the error title while the VPN tries to connect again
+ipprotection-connection-status-trying-again-title = 接続し直しています…
+  .aria-label = 接続し直しています…
 
 ipprotection-connection-status-network-error-title-1 = インターネット接続を確認してください
   .aria-label = インターネット接続を確認してください
@@ -531,8 +533,5 @@ vpn-error-page-new-session = 新しいセッションを開始する
 
 vpn-paused-alert-close-tabs-button = すべてのタブを閉じる
 vpn-paused-alert-continue-wo-vpn-button = VPN なしで続行
-
-vpn-error-alert-title-1 = 現在 VPN とルールが正常に機能していません。
-vpn-error-alert-body-1 = VPN のオン/オフを切り替えると問題が解決する場合があります。
 
 ##

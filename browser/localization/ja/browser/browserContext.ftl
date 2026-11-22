@@ -129,32 +129,36 @@ main-context-menu-edit-bookmark-with-shortcut-2 =
     .aria-label = ブックマークを編集…
     .tooltiptext = ブックマークを編集します ({ $shortcut })
 
-main-context-menu-open-link =
-    .label = リンクを開く
+main-context-menu-open-link-2 =
+    .label = 開く
     .accesskey = O
 
-main-context-menu-open-link-new-tab =
-    .label = 新しいタブでリンクを開く
+main-context-menu-open-link-new-tab-2 =
+    .label = 新しいタブで開く
     .accesskey = T
 
-main-context-menu-open-link-split-view =
-    .label = リンクを分割画面で開く
+main-context-menu-open-link-split-view-2 =
+    .label = 分割ビューで開く
     .accesskey = M
 
-main-context-menu-open-link-container-tab =
-    .label = 新しいコンテナ タブでリンクを開く
+main-context-menu-open-link-container-tab-2 =
+    .label = 新しいコンテナタブで開く
     .accesskey = w
 
-main-context-menu-open-link-new-window =
-    .label = 新しいウィンドウでリンクを開く
+main-context-menu-open-link-new-window-2 =
+    .label = 新しいウィンドウで開く
     .accesskey = d
 
-main-context-menu-open-link-new-private-window =
-    .label = 新しいプライベート ウィンドウでリンクを開く
+main-context-menu-open-link-mini-window =
+    .label = ミニウィンドウで開く
+    .accesskey = M
+
+main-context-menu-open-link-new-private-window-2 =
+    .label = 新しいプライベートウィンドウで開く
     .accesskey = P
 
-main-context-menu-bookmark-link-2 =
-    .label = リンクをブックマーク
+main-context-menu-bookmark-link-3 =
+    .label = ブックマークに追加…
     .accesskey = B
 
 main-context-menu-save-link =
@@ -397,10 +401,6 @@ main-context-menu-link-send-to-device =
     .label = リンクをデバイスへ送信
     .accesskey = n
 
-main-context-menu-link-send-to-mobile =
-    .label = リンクをモバイルデバイスへ送信
-    .accesskey = n
-
 main-context-menu-frame =
     .label = このフレーム
     .accesskey = h
@@ -481,7 +481,7 @@ main-context-menu-eme-learn-more =
 
 # Variables
 #   $containerName (String): The name of the current container
-main-context-menu-open-link-in-container-tab =
+main-context-menu-open-link-in-container-tab-2 =
     .label = 新しい { $containerName } タブでリンクを開く
     .accesskey = T
 

@@ -326,3 +326,17 @@ tab-groups-2026-onboarding-callout-subtitle = タスクやトピックごとに�
 # Button label — keep short (ideally under ~15 characters) so it fits in the
 # callout UI. "Start a group" means "create a new tab group."
 tab-groups-2026-onboarding-cta-button = グループを作成
+
+## Closed-browser web notifications callout
+## Shown after the browser starts delivering notifications from sites the
+## user has allowed, even while the browser is closed.
+
+closed-browser-notifications-callout-title = { -brand-short-name } を閉じている間もウェブ通知を受け取る
+# <a data-l10n-name="learn-more"> is a link to a support article.
+closed-browser-notifications-callout-body = 許可したサイトから、{ -brand-short-name } を閉じていても通知を受け取れるようになりました。<a data-l10n-name="learn-more">詳細はこちら</a>
+# Opens the notification settings.
+closed-browser-notifications-callout-manage-button = 管理
+# Stops notifications from being delivered while the browser is closed.
+closed-browser-notifications-callout-turn-off-button = オフにする
+# Keeps notifications being delivered while the browser is closed.
+closed-browser-notifications-callout-keep-on-button = オンを維持する

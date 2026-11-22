@@ -20,7 +20,7 @@ places-open-all-in-tabs =
 places-open-in-window =
   .label = 新しいウィンドウで開く
   .accesskey = N
-places-open-in-private-window =
+places-open-in-private-window2 =
   .label = 新しいプライベート ウィンドウで開く
   .accesskey = P
 

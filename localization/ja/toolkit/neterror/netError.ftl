@@ -303,5 +303,7 @@ fp-learn-more-about-https-connections = HTTPS 接続について詳細を確認�
 
 fp-neterror-vpn-error-title = VPN に接続できませんでした
 fp-neterror-vpn-error-description = 数分後にもう一度お試しください。
+fp-neterror-vpn-error-continue-button = VPN なしで続行
+    .accesskey = C
 
 fp-neterror-denied-port-access = このアドレスは、通常のウェブ閲覧以外に使用されるネットワークポートを利用しています。{ -brand-short-name } は、ユーザー保護のためこのリクエストを中止しました。

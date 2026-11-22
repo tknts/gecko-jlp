@@ -1179,6 +1179,7 @@ qrcode-save-filename-with-domain-base = qrcode-{ $domain }
 
 qrcode-window-title = QR コード
 qrcode-dialog-title = QR コード
+qrcode-dialog-title-download-mobile = モバイル版 { -brand-product-name } をダウンロード
 qrcode-image =
     .aria-label = QR コード
 qrcode-close-button =
@@ -1754,6 +1755,8 @@ urlbar-trust-icon-trackers-blocked-longform-label = { $count ->
 trustpanel-etp-label-enabled = 強化型トラッキング防止はオンです
 trustpanel-etp-label-disabled = 強化型トラッキング防止はオフです
 
+trustpanel-etp-label-redesign = 強化型トラッキング保護
+
 # Variables
 #  $host (String): the hostname of the site that is being displayed.
 trustpanel-etp-toggle-on =
@@ -1770,8 +1773,8 @@ trustpanel-trackercount-label = アドレスバーでブロックしたトラッ
 trustpanel-trackercount-toggle =
     .aria-label = アドレスバーでブロックしたトラッカーを表示する
 
-trustpanel-connection-label-secure = 安全な接続
-trustpanel-connection-label-insecure = 安全ではない接続
+trustpanel-connection-label-secure = 接続は安全です
+trustpanel-connection-label-insecure = 接続は安全ではありません
 
 trustpanel-header-enabled = { -brand-product-name } が監視しています
 trustpanel-description-enabled2 = 保護されています。何か問題を発見した場合はお知らせします。
@@ -1781,8 +1784,11 @@ trustpanel-description-enabled-insecure = { -brand-product-name } が不審な�
 trustpanel-header-disabled = 保護をオフにしました
 trustpanel-description-disabled = { -brand-product-name } は待機中です。保護の再有効化をお勧めします。
 
-trustpanel-clear-cookies-button = Cookie とサイトデータを削除
+trustpanel-clear-cookies-button = Cookie とサイトデータを消去
+trustpanel-delete-site-data-button = サイトデータを削除
+trustpanel-fix-site-issue-button = サイトの問題を修正
 trustpanel-privacy-link = プライバシー設定
+trustpanel-manage-settings-button = 設定を管理
 
 # Variables
 #  $host (String): the hostname of the site that is being displayed.
@@ -1802,6 +1808,7 @@ trustpanel-site-information-header =
 trustpanel-siteinformation-morelink = サイトの詳細情報
 
 trustpanel-blocker-see-all = すべて表示
+trustpanel-blocker-see-trackers-button = トラッカーを表示
 
 # Variables
 #  $host (String): the hostname of the site that is being displayed.
@@ -1816,12 +1823,25 @@ trustpanel-blocker-section-header2 = { $count ->
   *[other] このサイトで <span data-l10n-name="count">{ $count }</span> 個のトラッカーをブロックしました
 }
 trustpanel-blocker-description = { -brand-product-name } は企業による追跡を減らすべきだと考えています。そのため、可能な限りブロックします。
-trustpanel-blocked-header = { -brand-product-name } が以下をブロックしました：
-trustpanel-tracking-header = サイトが壊れないように、{ -brand-product-name } が以下を許可しました：
-trustpanel-tracking-description = トラッカーがないと、一部のボタン、フォーム、ログインフィールドが動作しないことがあります。
-trustpanel-insecure-section-header = 接続は安全ではありません
-trustpanel-insecure-description = このサイトに送信しているデータは暗号化されておらず、第三者に見られたり、盗まれたり、改ざんされたりする可能性があります。
 
+##  $count (String): the number of trackers blocked.
+
+trustpanel-blocker-section-header2-redesign = { $count ->
+  [one] このサイトで { -brand-short-name } が <span data-l10n-name="count">{ $count }</span> 件のトラッカーをブロックしました
+  *[other] このサイトで { -brand-short-name } が <span data-l10n-name="count">{ $count }</span> 件のトラッカーをブロックしました
+}
+trustpanel-blocker-description-redesign = これらのトラッカーによるウェブ閲覧情報の収集がブロックされました。
+
+trustpanel-no-trackers-header-redesign = このサイトではトラッカーは見つかりませんでした
+trustpanel-no-trackers-description-redesign = { -brand-short-name } が既知のトラッカーを確認しましたが、見つかりませんでした。
+
+trustpanel-etp-off-description-redesign = 保護機能を有効にすると、{ -brand-short-name } が既知のトラッカーによるウェブ閲覧情報の収集をブロックします。
+
+trustpanel-blocked-header = { -brand-product-name } がブロックした項目:
+trustpanel-tracking-header = サイトの動作を維持するために { -brand-product-name } が許可した項目:
+trustpanel-tracking-description = トラッカーがない場合、一部のボタン、フォーム、ログイン入力欄が機能しないことがあります。
+trustpanel-insecure-section-header = 接続は安全ではありません
+trustpanel-insecure-description = このサイトに送信しているデータは暗号化されていません。閲覧、盗み見、改ざんされるおそれがあります。
 trustpanel-list-label-tracking-cookies = { $count ->
   [one] クロスサイトトラッキング Cookie { $count } 件
   *[other] クロスサイトトラッキング Cookie { $count } 件

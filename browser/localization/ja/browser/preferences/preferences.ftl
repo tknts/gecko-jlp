@@ -16,6 +16,14 @@ preferences-privacy-relay-available =
     .label = { -relay-brand-name } のメールマスクを提案します
     .description = あなたの実際のメールアドレスを隠し、受信トレイをスパムから守ります。
 
+preferences-window-lock-macos =
+    .label = プライベートウインドウを自動的にロックする
+    .description = { -brand-short-name } は、コンピューターのロック、スリープ、またはスクリーンセーバーの起動後に、デバイスのパスワードまたはパスキーを要求します。
+
+preferences-window-lock-windows =
+    .label = プライベートウインドウを自動的にロックする
+    .description = { -brand-short-name } は、コンピューターのロック後に、デバイスのパスワードまたはパスキーを要求します。
+
 # Do not translate.
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
@@ -998,7 +1006,7 @@ search-separate-default-engine-2 =
     .accesskey = U
 
 search-separate-default-engine-dropdown =
-    .aria-label = プライベートウィンドウの既定の検索エンジン
+    .aria-label = プライベートウィンドウでの既定の検索エンジン
 
 # "Navigation" here means moving around within the address bar and its results
 # list, not navigation to the address bar.
@@ -1008,7 +1016,7 @@ addressbar-navigation-group =
 # "Results menu" refers to the menu available on each row of the address bar
 # results list, which offers actions such as dismissing the result.
 addressbar-skip-result-menu-on-tab =
-    .label = Tab キーでフォーカスを移動するときに結果メニューをスキップする
+    .label = [Tab] キーを使用してフォーカスを移動するときに結果メニューをスキップする
 
 search-suggestions-header-2 =
     .label = 検索エンジンの候補
@@ -1018,7 +1026,7 @@ search-show-suggestions-option =
     .accesskey = S
 
 search-show-suggestions-url-bar-option =
-    .label = アドレスバーの候補に検索候補を表示する
+    .label = アドレスバーの結果に検索候補を表示する
     .accesskey = l
 
 # This string describes what the user will observe when the system
@@ -1033,7 +1041,7 @@ search-show-suggestions-private-windows-2 =
     .label = プライベートウィンドウで検索候補を表示する
 
 search-suggestions-cant-show-2 =
-    .message = 履歴を記憶しないように { -brand-short-name } が設定されているため、ロケーションバーの結果に検索候補は表示されません。
+    .message = { -brand-short-name } が履歴を一切記憶しないように設定されているため、ロケーションバーの結果に検索候補は表示されません。
 
 addressbar-header-1 =
     .label = アドレス バー
@@ -1042,7 +1050,7 @@ addressbar-header-1 =
 # When Firefox Suggest is enabled, this replaces `addressbar-header-1`.
 addressbar-header-firefox-suggest-2 =
     .label = { -firefox-suggest-brand-name }
-    .description = { -brand-short-name } とパートナーによる候補をアドレスバーに表示します。
+    .description = アドレスバーに { -brand-short-name } およびパートナーからの候補を表示します。
 
 addressbar-locbar-history-option =
     .label = 閲覧履歴
@@ -1079,7 +1087,7 @@ addressbar-locbar-showtrendingsuggestions-option-2 =
 # Toggles whether suggestions are obtained from Firefox Suggest or not (local or online).
 addressbar-locbar-suggest-all-option-2 =
     .label = { -brand-short-name } による候補
-    .description = 入力内容に関連するウェブ上の候補を表示します。
+    .description = 検索に関連するウェブ上の候補を受け取ります。
 
 addressbar-locbar-suggest-sponsored-option-2 =
     .label = スポンサーによる候補
@@ -1115,7 +1123,7 @@ search-edit-engine-2 =
 search-delete-engine =
     .title = 検索エンジンを削除
 search-enable-engine =
-    .title = 検索エンジンを有効にする
+    .title = 検索エンジンを有効化
 search-outlink-to-extensions-page =
     .title = 拡張機能とテーマで管理
 
@@ -1125,7 +1133,7 @@ search-add-engine-2 =
 
 search-filtering-for-add-engine = 検索エンジンを追加
 
-remove-engine-confirmation = この検索エンジンを削除してもよろしいですか?
+remove-engine-confirmation = 本当にこの検索エンジンを削除しますか?
 remove-engine-remove = 削除
 
 ## Containers Section
@@ -1134,7 +1142,7 @@ containers-section-header2 =
     .heading = コンテナ設定
 containers-card-header2 =
     .label = コンテナ
-    .description = コンテナごとに Cookie を分離することで、同じサイトで複数のアカウントを使い分けたり、サイトをまたいだトラッキングを制限したりできます。
+    .description = Cookie をコンテナごとに分離し、同じサイトで複数のアカウントを使い分けたり、サイト間の追跡を制限したりできます。
 containers-add-button2 =
     .label = 新しいコンテナを追加
     .accesskey = A
@@ -1143,7 +1151,7 @@ containers-list =
     .aria-label = コンテナ
 
 containers-new-tab-check3 =
-    .label = 新しいタブごとにコンテナを選択
+    .label = すべての新しいタブでコンテナを選択する
     .accesskey = S
 
 # Checkbox in the Containers settings. By default, when a link is opened from
@@ -1159,8 +1167,8 @@ containers-remove-button3 =
     .title = 削除
 
 containers-sites-card-header =
-    .label = サイト別コンテナ
-    .description = サイトのコンテナを選択すると、{ -brand-short-name } はそのサイトを開くたびにそのコンテナを使用します。
+    .label = サイト固有のコンテナ
+    .description = サイトのコンテナを選択すると、{ -brand-short-name } はそのサイトを開くときに常にそのコンテナを使用します。
 containers-sites-add-button =
     .label = ウェブサイトを追加
     .accesskey = w
@@ -1192,24 +1200,24 @@ account-disabled-group =
     .description = アカウント設定は利用できません。
 
 account-placeholder2 =
-    .label = サインインしていません
-    .description = サインインすると、データは非公開のまま暗号化され、{ -brand-short-name } を使用するすべての場所で即座にアクセスできるようになります。
+    .label = ログインしていません
+    .description = ログインすると、{ -brand-short-name } を使用するすべての場所で、データをプライベートに、暗号化された状態で、すぐに利用できるようになります。
 
 ## Firefox account - Signed out. Note that "Sync" and "Firefox account" are now
 ## more discrete ("signed in" no longer means "and sync is connected").
 
 sync-signedout-account-signin-4 =
-    .label = アカウントにサインインして同期を開始
+    .label = アカウントにログインして同期を開始する
     .accesskey = i
 
 sync-signedout-account-short =
-    .label = サインイン
+    .label = ログイン
     .accesskey = i
 
 ## Firefox account - Signed in
 
 sync-sign-out2 =
-    .label = サインアウト
+    .label = ログアウト
     .accesskey = g
 
 sync-manage-account2 =
@@ -1232,8 +1240,8 @@ sync-signedin-unverified2 =
     .description = 受信トレイを確認してアカウントを承認し、登録を完了させてください。
 
 sync-signedin-login-failure2 =
-    .label = { $email } からサインアウトしています
-    .description = 再度サインインして接続し、データの同期を開始してください。
+    .label = { $email } からログアウトしています
+    .description = 再度ログインして接続し、データの同期を再開してください。
 
 ##
 
@@ -1253,7 +1261,7 @@ sync-sign-in =
 
 # "Your sync choices" refers to the choices a user makes on what types of data they want to sync
 sync-cwts-migration-notification =
-    .message = 同期するデータの選択はこのデバイスにのみ適用されるようになりました。
+    .message = 同期するデータの選択は、このデバイスのみに適用されるようになりました。
 
 prefs-syncing-on = 同期: オン
 
@@ -1305,11 +1313,11 @@ sync-currently-syncing-addons = アドオン
 sync-currently-syncing-settings = 設定
 
 sync-manage-options-2 =
-    .label = 同期データを管理
+    .label = 同期されたデータの管理
     .accesskey = M
 
 settings-sync-disconnect-button =
-    .label = 接続を解除
+    .label = 接続を切断
 
 ## The "Choose what to sync" dialog.
 
@@ -1318,15 +1326,15 @@ sync-choose-what-to-sync-dialog4 =
     .style = min-width: 36em;
     .buttonlabelaccept = 保存
     .buttonaccesskeyaccept = S
-    .buttonlabelextra2 = 切断…
+    .buttonlabelextra2 = 接続を切断…
     .buttonaccesskeyextra2 = D
 
 sync-choose-what-to-sync-dialog5 =
-    .title = Manage what syncs on this device
+    .title = このデバイスで同期するデータを管理
     .style = min-width: 36em;
-    .buttonlabelaccept = Save
+    .buttonlabelaccept = 保存
     .buttonaccesskeyaccept = S
-    .buttonlabelextra2 = 切断…
+    .buttonlabelextra2 = 接続を切断…
     .buttonaccesskeyextra2 = D
 
 sync-engine-bookmarks =
@@ -1422,7 +1430,7 @@ forms-breach-alerts =
 
 privacy-panel-settings-header =
     .label = プライバシーパネルの設定
-    .description = { -brand-short-name } でオンライン上の情報を保護しましょう。
+    .description = { -brand-short-name } でオンライン上の情報保護をサポートします。
 # By “breach message” we mean the UI messaging shown when Firefox detects that a
 # site the user has interacted with has been involved in a known data breach
 privacy-panel-breach-alerts =

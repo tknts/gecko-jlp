@@ -6,11 +6,18 @@ mini-window-close-button =
     .label = 閉じる
     .tooltiptext = 閉じます
 
-# Moves the tab in the mini window back to the original window
-# it came from.
+# These strings are used to label and tooltip the button that moves the
+# contents of a mini window into the window from where the mini window was
+# originally opened.
 mini-window-restore-button =
     .label = タブを元に戻す
     .tooltiptext = タブを元に戻します
+
+# Button appearing in a Mini Window that was opened from a link on a webpage.
+# Clicking the button will move the Mini Window tab to the window it was opened from.
+mini-window-link-restore-button =
+    .label = タブをウィンドウに移動
+    .tooltiptext = タブを元のウィンドウに移動します
 
 ## These strings are used as the label and tooltip for the button that mutes
 ## and unmutes the mini window's tab. The button only appears while the tab is
@@ -76,8 +83,8 @@ mini-window-overlay-instructions = ドラッグまたはクリックして、ミ
 ## These strings label the panel that asks what the user wants to move into a
 ## Mini Window, shown alongside the Screenshots selection overlay.
 
-mini-window-panel-header = ミニ ウィンドウに移動する範囲を選択
+mini-window-panel-header = ミニウィンドウに移動する内容を選んでください
 # Selection for what to move to a Mini Window
-mini-window-panel-move-selection = 選択範囲を移動
+mini-window-panel-part-of-page = ページの一部
 # Selection for what to move to a Mini Window
-mini-window-panel-move-full-tab = タブ全体を移動
+mini-window-panel-full-page = ページ全体
